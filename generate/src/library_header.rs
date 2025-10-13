@@ -68,7 +68,7 @@ pub struct Emoji {
     /// Ex: 😺
     pub glyph: &'static str,
     /// The Unicode release version which this emoji was introduced in
-    pub introduction_version: Version,
+    pub introduction_version: semver::Version,
     /// English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)
     /// (canonical) name of this emoji  
     /// Ex: `grinning cat`
