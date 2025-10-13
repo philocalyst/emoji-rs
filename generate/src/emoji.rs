@@ -96,7 +96,15 @@ impl Emoji {
         let codepoint = &self.codepoint;
         let name = &self.name;
         let status = Ident::new(&self.status.to_string(), Span::call_site());
-        let introduction_version_str = &self.introduction_version.to_string();
+
+        let major = self.introduction_version.major;
+        let minor = self.introduction_version.minor;
+        let patch = self.introduction_version.patch;
+
+        // Ignoring these fields so not a complete "conversion"
+        let pre = quote! { semver::Prerelease::EMPTY };
+        let build = quote! { semver::BuildMetadata::EMPTY };
+
         let variants: Vec<TokenStream> =
             self.variants.iter().map(|e| e.tokens_internal()).collect();
         let annotations = &self.annotations;
@@ -108,7 +116,13 @@ impl Emoji {
         glyph: #glyph,
         codepoint: #codepoint,
         status: crate::Status::#status,
-        introduction_version: semver::Version::parse(#introduction_version_str).unwrap(),
+        introduction_version: semver::Version {
+            major: #major,
+            minor: #minor,
+            patch: #patch,
+            pre: #pre,
+            build: #build,
+            },
         name: #name,
         group: #group,
         subgroup: #subgroup,
