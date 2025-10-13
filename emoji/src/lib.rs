@@ -27,7 +27,7 @@
 #[doc = " Emoji status qualifier  "]
 #[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants."]
 #[doc = " A complete tool needs only to support all of the FullyQualified emojis."]
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub enum Status {
     #[doc = " A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category."]
     FullyQualified,
@@ -55,7 +55,7 @@ impl std::fmt::Display for Status {
 }
 #[doc = " Contains all information about an emoji  "]
 #[doc = " See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`."]
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Emoji {
     #[doc = " The ASCII-formatted string representation of this emoji's UTF8 codepoint value  "]
     #[doc = " Ex: `1F441 200D 1F5E8 FE0F`"]
@@ -66,7 +66,7 @@ pub struct Emoji {
     #[doc = " Ex: 😺"]
     pub glyph: &'static str,
     #[doc = " The Unicode release version which this emoji was introduced in"]
-    pub introduction_version: f32,
+    pub introduction_version: semver::Version,
     #[doc = " English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)"]
     #[doc = " (canonical) name of this emoji  "]
     #[doc = " Ex: `grinning cat`"]
@@ -87,7 +87,7 @@ pub struct Emoji {
     pub annotations: &'static [Annotation],
 }
 #[doc = " Annotation meta-data for each emoji"]
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone, Eq, Hash)]
 pub struct Annotation {
     #[doc = " Language code of the associated data. Guarenteed to be found in"]
     #[doc = " [ANNOTATION_LANGS_AVAILABLE](constant.ANNOTATION_LANGS_AVAILABLE.html)"]
@@ -254,7 +254,7 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
     "zh_Hant_HK",
     "zu",
 ];
-#[doc = r" Enabled annotation languages (feature dependent)  "]
+#[doc = r" Enabled annotation languages (feature dependent)"]
 #[doc = r#" Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature."#]
 pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
     #[cfg(feature = "af")]
