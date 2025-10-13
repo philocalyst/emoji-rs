@@ -816,6 +816,1143 @@ pub const BATTERY: crate::Emoji = crate::Emoji {
         },
     ],
 };
+#[doc = "🪫"]
+pub const LOW_BATTERY: crate::Emoji = crate::Emoji {
+    glyph: "🪫",
+    codepoint: "1FAAB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "low battery",
+    group: "Objects",
+    subgroup: "computer",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("lae battery"),
+            keywords: &[
+                "battery",
+                "elektronies",
+                "elektronika",
+                "gedreineer",
+                "lae battery",
+                "lae energie",
+                "min energie",
+                "min krag",
+                "pap battery",
+            ],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("አነስተኛ ባትሪ"),
+            keywords: &[
+                "ሞባይል ስልክ",
+                "ባትሪ",
+                "ባትሪ ሊዘጋ ነው",
+                "ባትሪ ሊያልቅ ነው",
+                "አነስተኛ ባትሪ",
+                "አነስተኛ ኃይል",
+                "ኤሌክትሮኒክ",
+                "ዝቅተኛ ባትሪ",
+                "ዝቅተኛ ኃይል",
+            ],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بطارية ضعيفة"),
+            keywords: &[
+                "إلكتروني",
+                "بطارية",
+                "بطارية ضعيفة",
+                "طاقة منخفضة",
+                "م\u{64f}ستنز\u{64e}ف",
+            ],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("কম বেট\u{9be}ৰী"),
+            keywords: &["ইলেক\u{9cd}ট\u{9cd}ৰনিক", "কম বেট\u{9be}ৰী"],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("bitən enerji"),
+            keywords: &[
+                "batareya",
+                "bitən enerji",
+                "elektron",
+                "zəif batareya",
+                "zəif enerji",
+            ],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("нізкі зарад"),
+            keywords: &["нізкі зарад", "электроніка"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("изтощена батерия"),
+            keywords: &[
+                "батерия",
+                "електроника",
+                "изтощена батерия",
+                "слабо захранване",
+            ],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ব\u{9cd}য\u{9be}ট\u{9be}রি কম"),
+            keywords: &[
+                "lএন\u{9be}র\u{9cd}জি কম",
+                "এন\u{9be}র\u{9cd}জি কম",
+                "বৈদ\u{9cd}য\u{9c1}তিন",
+                "ব\u{9cd}য\u{9be}ট\u{9be}রি কম",
+            ],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("slaba baterija"),
+            keywords: &["elektronika", "niska energija", "slaba baterija"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("bateria baixa"),
+            keywords: &[
+                "bateria",
+                "bateria baixa",
+                "electrònica",
+                "esgotada",
+                "poca bateria",
+            ],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎡᎳᏗ ᎠᎾᎦᎵᏍᎩ"),
+            keywords: &["ᎠᎾᎦᎵᏍᎩ", "ᎡᎳᏗ ᎠᎾᎦᎵᏍᎩ", "ᎡᎳᏗ ᏄᎵᏂᎬᎬ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("slabá baterie"),
+            keywords: &[
+                "baterka",
+                "elektrická",
+                "elektronika",
+                "elektřina",
+                "málo energie",
+                "slabá baterie",
+                "vybitá",
+                "vybitý",
+                "vyčerpaný",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("batri isel"),
+            keywords: &["batri isel", "egni isel", "electronig"],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("lavt batteriniveau"),
+            keywords: &[
+                "batteri",
+                "drænet",
+                "elektronik",
+                "ingen energi",
+                "lav energi",
+                "lavt batteriniveau",
+            ],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("schwache Batterie"),
+            keywords: &[
+                "Akku",
+                "Akku fast leer",
+                "Akku leer",
+                "Batterie",
+                "Batterie fast leer",
+                "Batterie leer",
+                "Elektronik",
+                "Ladestand",
+                "aufladen",
+                "niedriger Akkustand",
+                "schwache Batterie",
+                "schwacher Akku",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["Akku leer", "Batterie leer", "schwache Batterie"],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("χαμηλή μπαταρία"),
+            keywords: &[
+                "ηλεκτρονικά",
+                "μπαταρία",
+                "χαμηλή ενέργεια",
+                "χαμηλή μπαταρία",
+            ],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("low battery"),
+            keywords: &["battery", "drained", "electronic", "energy", "low", "power"],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("batería baja"),
+            keywords: &[
+                "batería",
+                "batería baja",
+                "carga baja",
+                "electrónico",
+                "energía baja",
+                "pila",
+            ],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "batería",
+                "batería agotada",
+                "batería baja",
+                "cansada",
+                "cansado",
+                "cansancio",
+                "energía baja",
+                "objeto",
+                "pila",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["batería baja", "electrónico"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["baja energía", "batería baja", "electrónica"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("aku tühjeneb"),
+            keywords: &["aku", "elektroonika", "energia", "tühi", "vähe"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("bateria gutxi"),
+            keywords: &["bateria gutxi", "elektronika", "energia gutxi"],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("باتری ضعیف"),
+            keywords: &[
+                "اشیاء",
+                "الکترونیکی",
+                "انرژی ضعیف",
+                "باتری",
+                "باتری خالی",
+                "باتری ضعیف",
+                "تخلیه شارژ",
+                "تخلیه\u{200c}شده",
+            ],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("akku vähissä"),
+            keywords: &["akku", "akku vähissä", "sähkö", "tyhjä", "virta vähissä"],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("paubos ang baterya"),
+            keywords: &["low bat", "low battery", "paubos", "paubos ang baterya"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("lágt battarí"),
+            keywords: &["battarí", "lágt", "næstan einki eftir"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("pile faible"),
+            keywords: &[
+                "batterie",
+                "batterie faible",
+                "déchargé",
+                "pile faible",
+                "électronique",
+                "énergie faible",
+            ],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cadhnra íseal"),
+            keywords: &["cadhnra íseal", "ceallra lag", "cumhacht íseal"],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bataraidh fann"),
+            keywords: &[
+                "bataraidh fann",
+                "cumhachd fhann",
+                "dealanach",
+                "leactronach",
+            ],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("batería baixa"),
+            keywords: &["electrónica"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઓછી બ\u{ac5}ટરી"),
+            keywords: &[
+                "ઇલ\u{ac7}ક\u{acd}ટ\u{acd}રોનિક",
+                "ઓછી ઊર\u{acd}જા",
+                "ઓછી બ\u{ac5}ટરી",
+                "ઓછો પાવર",
+                "બ\u{ac5}ટરી",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("batir ya yi sanyi"),
+            keywords: &[
+                "batir",
+                "batir ya yi sanyi",
+                "batir ya yi ƙasa",
+                "batiri",
+                "lantarki",
+                "wuta ƙasa",
+                "ƙarancin wuta",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("batir ya yi sanyi"),
+            keywords: &[
+                "batir",
+                "batir ya yi sanyi",
+                "batir ya yi ƙasa",
+                "batiri",
+                "lantarki",
+                "wuta ƙasa",
+                "ƙarancin wuta",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סוללה נמוכה"),
+            keywords: &["אנרגיה", "בטריה", "חשמל", "מעט אנרגיה", "מרוקן", "סוללה"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("कम ब\u{948}टरी"),
+            keywords: &[
+                "इल\u{947}क\u{94d}ट\u{94d}रॉनिक",
+                "कम ऊर\u{94d}जा",
+                "कम ब\u{948}टरी",
+                "पावर कम ह\u{948}",
+                "ब\u{948}टरी",
+                "ब\u{948}टरी कम ह\u{948}",
+                "ब\u{948}टरी खत\u{94d}म हो गई",
+                "लो पावर",
+                "लो ब\u{948}टरी",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("baterija s niskom razinom napunjenosti"),
+            keywords: &[
+                "baterija",
+                "baterija s niskom razinom napunjenosti",
+                "elektronika",
+                "ispražnjeno",
+                "nije napunjeno",
+                "niska razina napunjenosti",
+                "niska razina snage",
+                "potrošena baterija",
+            ],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("alacsony töltöttség"),
+            keywords: &[
+                "alacsony energiaszint",
+                "alacsony töltöttség",
+                "elektronikus",
+                "lemerült akkumulátor",
+            ],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("լիցքաթափված մարտկոց"),
+            keywords: &["էլեկտրոնիկ", "լիցքաթափված մարտկոց", "քիչ էներգիա"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("baterai lemah"),
+            keywords: &[
+                "baterai",
+                "baterai hampir habis",
+                "baterai lemah",
+                "daya lemah",
+                "elektronik",
+                "energi lemah",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("obere batrị"),
+            keywords: &["obere batrị", "obere ike"],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("raflítil rafhlaða"),
+            keywords: &["lítil orka", "raflítil rafhlaða", "raftæknilegt"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("batteria scarica"),
+            keywords: &[
+                "batteria scarica",
+                "elettronica",
+                "energia bassa",
+                "esausta",
+                "esausto",
+                "pila scarica",
+                "ricarica",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("バッテリー残量低下"),
+            keywords: &[
+                "バッテリー",
+                "バッテリー残量低下",
+                "充電不足",
+                "電池切れ寸前",
+                "電池残量低下",
+            ],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("baterai arep entek"),
+            keywords: &["baterai arep entek", "elektronik", "energi sithik"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დამჯდარი ელემენტი"),
+            keywords: &["დაბალი ენერგია", "დამჯდარი ელემენტი", "ელექტრონული"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aẓru yeɛyan"),
+            keywords: &["aẓru yeɛyan"],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("батарея заряды төмен"),
+            keywords: &["батарея", "батарея заряды төмен", "төмен заряд"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាថ\u{17d2}មព\u{17b7}លជ\u{17b7}តអស\u{17cb}ថាមពល"),
+            keywords: &[
+                "សញ\u{17d2}ញាថ\u{17d2}មព\u{17b7}លជ\u{17b7}តអស\u{17cb}ថាមពល",
+                "អស\u{17cb}ថាមពល",
+                "អស\u{17cb}ថ\u{17d2}ម",
+                "អេឡ\u{17b7}ចត\u{17d2}រ\u{17bc}ន\u{17b7}ក",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಡ\u{cbf}ಮ\u{cc6} ಬ\u{ccd}ಯಾಟರ\u{cbf}"),
+            keywords: &[
+                "ಎಲ\u{cc6}ಕ\u{ccd}ಟ\u{ccd}ರಾನ\u{cbf}ಕ\u{ccd}",
+                "ಕಡ\u{cbf}ಮ\u{cc6} ಬ\u{ccd}ಯಾಟರ\u{cbf}",
+                "ಕಡ\u{cbf}ಮ\u{cc6} ಶಕ\u{ccd}ತ\u{cbf}",
+                "ಖಾಲ\u{cbf}",
+                "ಬ\u{ccd}ಯಾಟರ\u{cbf}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("배터리 부족"),
+            keywords: &[
+                "방전",
+                "배터리",
+                "배터리 부족",
+                "배터리 없음",
+                "전기",
+                "전원 없음",
+                "파워 부족",
+            ],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ब\u{945}टरी उणी"),
+            keywords: &[
+                "इल\u{947}क\u{94d}ट\u{94d}रॉनिक",
+                "उर\u{94d}जा उणी",
+                "ब\u{945}टरी उणी",
+            ],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("батарея төмөн"),
+            keywords: &["батарея төмөн"],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ແບ\u{eb1}ດເຕ\u{eb5}ຣ\u{eb5}ຕ\u{ecd}\u{ec8}າ"),
+            keywords: &[
+                "ພະລ\u{eb1}ງງານຕ\u{ecd}\u{ec8}າ",
+                "ເຄ\u{eb7}\u{ec8}ອງໄຟຟ\u{ec9}າ",
+                "ແບ\u{eb1}ດອ\u{ec8}ອນ",
+                "ແບ\u{eb1}ດເຕ\u{eb5}ຣ\u{eb5}ຕ\u{ecd}\u{ec8}າ",
+                "ໝ\u{ebb}ດພະລ\u{eb1}ງ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("išeikvota baterija"),
+            keywords: &[
+                "akumuliatorius",
+                "elektronika",
+                "išeikvota baterija",
+                "išeikvota energija",
+                "išeikvotas akumuliatorius",
+                "mažai energijos",
+            ],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("zems akumulatora līmenis"),
+            keywords: &[
+                "akumulators",
+                "baterija",
+                "elektroniska",
+                "izlādējies",
+                "zema enerģija",
+                "zems akumulatora līmenis",
+            ],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("слаба батерија"),
+            keywords: &[
+                "електроника",
+                "ниска моќност",
+                "празна батерија",
+                "слаб напон",
+                "слаба батерија",
+            ],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ബ\u{d3e}റ\u{d4d}ററി ക\u{d41}റവ\u{d4d}"),
+            keywords: &[
+                "ഇലക\u{d4d}\u{200c}ട\u{d4d}രോണിക\u{d4d}",
+                "ത\u{d3e}ഴ\u{d4d}\u{200c}ന\u{d4d}ന ബ\u{d3e}റ\u{d4d}ററി",
+                "പവറില\u{d4d}ല",
+                "ബ\u{d3e}റ\u{d4d}ററി",
+                "ബ\u{d3e}റ\u{d4d}ററി ഇല\u{d4d}ല",
+                "ബ\u{d3e}റ\u{d4d}ററി ക\u{d41}റവ\u{d4d}",
+                "ബ\u{d3e}റ\u{d4d}ററി തീർന\u{d4d}ന\u{d41}",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("батарей бага байна"),
+            keywords: &["бага эрчим хүч", "батарей бага байна", "цахилгаан"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ब\u{945}टरी कमी"),
+            keywords: &[
+                "इल\u{945}क\u{94d}ट\u{94d}रॉनिक",
+                "कमी ऊर\u{94d}जा",
+                "ब\u{945}टरी कमी",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("bateri lemah"),
+            keywords: &["bateri lemah", "elektronik", "tenaga rendah"],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အားက\u{102f}န\u{103a}တော\u{1037}မည\u{1037}\u{103a} ဘက\u{103a}ထရ\u{102e}"),
+            keywords: &[
+                "အားက\u{102f}န\u{103a}တော\u{1037}မည\u{1037}\u{103a} ဘက\u{103a}ထရ\u{102e}",
+                "အားနည\u{103a}းခြင\u{103a}း",
+                "အ\u{102e}လက\u{103a}ထရောနစ\u{103a}",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("कम ब\u{94d}याट\u{94d}री"),
+            keywords: &[
+                "कम ऊर\u{94d}जा",
+                "कम ब\u{94d}याट\u{94d}री",
+                "विद\u{94d}य\u{941}तीय",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("batterij bijna leeg"),
+            keywords: &[
+                "accu",
+                "batterij",
+                "batterij bijna leeg",
+                "electronisch",
+                "lege batterij",
+                "weinig batterijlading",
+            ],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("↑↑↑"),
+            keywords: &["elektronikk", "lite batteri", "lite energi", "lågt batteri"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("କମ\u{b4d} ବ\u{b4d}ୟ\u{b3e}ଟେରୀ"),
+            keywords: &[
+                "କମ\u{b4d} ବ\u{b4d}ୟ\u{b3e}ଟେରୀ",
+                "କମ\u{b4d} ଶକ\u{b4d}ତ\u{b3f}",
+                "ବୈଦ\u{b4d}ୟ\u{b41}ତ\u{b3f}କ",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਘ\u{a71}ਟ ਬ\u{a48}ਟਰੀ"),
+            keywords: &[
+                "ਇਲ\u{a48}ਕਟ\u{a4d}ਰ\u{a4c}ਨਿਕ",
+                "ਊਰਜਾ",
+                "ਖਤਮ",
+                "ਘ\u{a71}ਟ ਪਾਵਰ",
+                "ਘ\u{a71}ਟ ਬ\u{a48}ਟਰੀ",
+                "ਥ\u{a4b}ੜ\u{a4d}ਹੀ ਬ\u{a48}ਟਰੀ",
+                "ਪਾਵਰ",
+                "ਬ\u{a48}ਟਰੀ",
+            ],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Ló Bátri"),
+            keywords: &["Ló Bátri", "Ló Páwa", "Ẹlẹtrọ\u{301}nik"],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("słaba bateria"),
+            keywords: &["bateria", "elektronika", "niski", "poziom energii", "słaba"],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ټیټه بیټرۍ"),
+            keywords: &["انرژي", "برقی", "بیټرۍ", "وچ شوی", "ټیټ", "ځواک"],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("pouca bateria"),
+            keywords: &[
+                "acabando a bateria",
+                "bateria",
+                "bateria fraca",
+                "descarregada",
+                "descarregado",
+                "eletrônico",
+                "fim da bateria",
+                "pilha",
+                "pilha fraca",
+                "pouca bateria",
+                "pouca energia",
+                "sem bateria",
+            ],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("bateria fraca"),
+            keywords: &[
+                "bateria fraca",
+                "eletrónico",
+                "pilha fraca",
+                "pouca bateria",
+                "pouca energia",
+            ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("pisi kallpa waqaychaq"),
+            keywords: &["electronico", "pisi kallpa waqaychaq"],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("baterie slabă"),
+            keywords: &[
+                "baterie cosumată",
+                "baterie slabă",
+                "electronic",
+                "energie scăzută",
+            ],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E14-032"),
+            keywords: &["E14-032"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("низкий уровень заряда"),
+            keywords: &[
+                "аккумулятор",
+                "батарейка",
+                "батарея",
+                "заряд",
+                "мало зарядки",
+                "низкий заряд",
+                "низкий уровень заряда",
+                "предмет",
+                "разрядилась",
+                "разряжено",
+            ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱠᱚᱢ ᱵᱮᱴᱨᱭ"),
+            keywords: &["ᱠᱚᱢ ᱵᱮᱴᱨᱭ"],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("گھٽ بيٽري"),
+            keywords: &["بجلي وارو", "گھٽ بيٽري", "گھٽ توانائي"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("බැටර\u{dd2} අඩ\u{dd4}"),
+            keywords: &[
+                "ඉලෙක\u{dca}ට\u{dca}\u{200d}රොන\u{dd2}ක",
+                "බලය අඩ\u{dd4}",
+                "බැටර\u{dd2} අඩ\u{dd4}",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("slabá batéria"),
+            keywords: &[
+                "batéria",
+                "elektronika",
+                "málo energie",
+                "slabá batéria",
+                "vyčerpanie",
+            ],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("skoraj prazna baterija"),
+            keywords: &[
+                "elektronsko",
+                "izčrpanost",
+                "nizka raven energije",
+                "skoraj prazna baterija",
+            ],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("batari dabka ka dhacay"),
+            keywords: &[
+                "batari dabka ka dhacay",
+                "elektaroonig ah",
+                "tamar hooseeya",
+            ],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("bateri e ulët"),
+            keywords: &[
+                "bateri",
+                "bateri e ulët",
+                "e zbrazur",
+                "elektronike",
+                "energji e ulët",
+                "pak bateri",
+                "pak energji",
+            ],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("ниски ниво батерије"),
+            keywords: &[
+                "батерија",
+                "електроника",
+                "енергија",
+                "истрошено",
+                "ниско",
+                "празно",
+            ],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("niski nivo baterije"),
+            keywords: &[
+                "baterija",
+                "elektronika",
+                "energija",
+                "istrošeno",
+                "nisko",
+                "prazno",
+            ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("låg batterinivå"),
+            keywords: &["elektronik", "låg batterinivå", "låg energinivå"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("betri iliyopungua chaji"),
+            keywords: &[
+                "betri",
+                "betri iliyopungua chaji",
+                "chaji",
+                "elektroniki",
+                "stima",
+                "umeme",
+            ],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("குறைந\u{bcd}த பேட\u{bcd}டரி"),
+            keywords: &[
+                "குறைந\u{bcd}த ஆற\u{bcd}றல\u{bcd}",
+                "குறைந\u{bcd}த பேட\u{bcd}டரி",
+                "பேட\u{bcd}டரி",
+                "பேட\u{bcd}டரி க\u{bbe}லி",
+                "மின\u{bcd}னணு",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("బ\u{c4d}య\u{c3e}టర\u{c40} తక\u{c4d}కువగ\u{c3e} ఉంద\u{c3f}"),
+            keywords: &[
+                "ఎలక\u{c4d}ట\u{c4d}ర\u{c3e}న\u{c3f}క\u{c4d}",
+                "ఛ\u{c3e}ర\u{c4d}జ\u{c3f}ంగ\u{c4d} అయ\u{c3f}ప\u{c4b}య\u{c3f}ంద\u{c3f}",
+                "తక\u{c4d}కువ పవర\u{c4d}",
+                "తక\u{c4d}కువ శక\u{c4d}త\u{c3f}",
+                "బ\u{c4d}య\u{c3e}టర\u{c40} అంత\u{c3e} అయ\u{c3f}ప\u{c4b}య\u{c3f}ంద\u{c3f}",
+                "బ\u{c4d}య\u{c3e}టర\u{c40} అయ\u{c3f}ప\u{c4b}య\u{c3f}ంద\u{c3f}",
+                "బ\u{c4d}య\u{c3e}టర\u{c40} తక\u{c4d}కువగ\u{c3e} ఉంద\u{c3f}",
+                "బ\u{c4d}య\u{c3e}టర\u{c40} న\u{c3f}ండుకుంద\u{c3f}",
+                "ల\u{c4b} పవర\u{c4d}",
+                "ల\u{c4b} బ\u{c4d}య\u{c3e}టర\u{c40}",
+            ],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แบตเตอร\u{e35}\u{e48}ต\u{e48}ำ"),
+            keywords: &[
+                "ชาร\u{e4c}จไฟ",
+                "ถ\u{e48}าน",
+                "พล\u{e31}งงาน",
+                "อ\u{e34}เล\u{e47}กทรอน\u{e34}กส\u{e4c}",
+                "แบตหมด",
+                "แบตเตอร\u{e35}\u{e48}ต\u{e48}ำ",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ትሑት ባትሪ ዘለዎ"),
+            keywords: &["ሓይሊ", "ማይ ዝፈሰሰ", "ባትሪ", "ትሑት", "ኤሌክትሮኒካዊ", "ጸዓት"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("batareý pes"),
+            keywords: &["batareý pes", "elektronika", "pes zarýad"],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("maka vaivai"),
+            keywords: &["maka", "meimei mate", "vaivai"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("düşük pil"),
+            keywords: &[
+                "az şarj",
+                "batarya",
+                "düşük enerji",
+                "düşük pil",
+                "elektronik",
+                "güçsüz",
+                "nesne",
+                "pil",
+                "şarj",
+            ],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("низький заряд батареї"),
+            keywords: &[
+                "батарея",
+                "електроніка",
+                "низький заряд",
+                "низький заряд батареї",
+                "розряджена батарея",
+                "розряджений",
+                "розряджено",
+            ],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کم بیٹری"),
+            keywords: &["الیکٹرانک", "کم انرجی", "کم بیٹری", "کم توانائی", "کم پاور"],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("batareya kam"),
+            keywords: &[
+                "batareya",
+                "batareya darajasi",
+                "batareya kam",
+                "elektron",
+                "quvvati kam",
+                "quvvati past",
+            ],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("pin yếu"),
+            keywords: &["năng lượng thấp", "pin yếu", "điện tử"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("batírì kékeré"),
+            keywords: &["agbara kekere", "batiri kekere", "batírì kékeré", "onina"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("batírì kékeré"),
+            keywords: &["agbara kekere", "batiri kekere", "batírì kékeré", "onina"],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("低電量"),
+            keywords: &["低電量", "電"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("低电量"),
+            keywords: &["低电量", "电"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("电池电量不足"),
+            keywords: &[
+                "低能量",
+                "电子",
+                "电池",
+                "电池电量不足",
+                "电池电量低",
+                "电量不足",
+            ],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("電量不足"),
+            keywords: &["低電力", "低電量", "耗盡", "電", "電池", "電量不足"],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "低電量",
+                "充電",
+                "冇電",
+                "叉電",
+                "攰",
+                "無力",
+                "無精力",
+                "無精神",
+                "無電",
+                "累",
+                "電池",
+            ],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ibhethri isincane"),
+            keywords: &[
+                "electronic",
+                "ibhethri isincane",
+                "low battery",
+                "low energy",
+            ],
+        },
+    ],
+};
 #[doc = "🔌"]
 pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
     glyph: "🔌",

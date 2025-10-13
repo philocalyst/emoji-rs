@@ -10,7 +10,10 @@ pub async fn vectorize_test_data(
     let mut date = "".to_owned();
     let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
-    let emoji_test = client.get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").send().await?;
+    let emoji_test = client
+        .get("https://www.unicode.org/Public/emoji/16.0/emoji-test.txt")
+        .send()
+        .await?;
 
     let emoji_test_text = emoji_test.text().await?;
 
@@ -58,6 +61,7 @@ pub async fn vectorize_test_data(
             }
             continue;
         }
+
         let groupname = groups.last().unwrap().name.clone();
         let subgroupname = groups
             .last()

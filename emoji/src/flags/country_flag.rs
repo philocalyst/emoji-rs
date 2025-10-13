@@ -967,6 +967,25 @@ pub const FLAG_CLIPPERTON_ISLAND: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[],
 };
+#[doc = "🇨🇶"]
+pub const FLAG_SARK: crate::Emoji = crate::Emoji {
+    glyph: "🇨🇶",
+    codepoint: "1F1E8 1F1F6",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 16u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "flag: Sark",
+    group: "Flags",
+    subgroup: "country-flag",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
 #[doc = "🇨🇷"]
 pub const FLAG_COSTA_RICA: crate::Emoji = crate::Emoji {
     glyph: "🇨🇷",
@@ -4388,7 +4407,7 @@ pub const FLAG_TONGA: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🇹🇷"]
-pub const FLAG_TURKEY: crate::Emoji = crate::Emoji {
+pub const FLAG_TURKIYE: crate::Emoji = crate::Emoji {
     glyph: "🇹🇷",
     codepoint: "1F1F9 1F1F7",
     status: crate::Status::FullyQualified,
@@ -4399,7 +4418,7 @@ pub const FLAG_TURKEY: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "flag: Turkey",
+    name: "flag: Türkiye",
     group: "Flags",
     subgroup: "country-flag",
     is_variant: false,

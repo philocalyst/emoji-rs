@@ -12596,3 +12596,1127 @@ pub const COPYRIGHT: crate::Emoji = crate::Emoji {
 pub const REGISTERED : crate :: Emoji = crate :: Emoji { glyph : "®\u{fe0f}" , codepoint : "00AE FE0F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "registered" , group : "Symbols" , subgroup : "other-symbol" , is_variant : false , variants : & [crate :: Emoji { glyph : "®" , codepoint : "00AE" , status : crate :: Status :: Unqualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "registered" , group : "Symbols" , subgroup : "other-symbol" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("registrasiemerk") , keywords : & ["geregistreer" , "handelsmerk" , "kopiereg" , "registrasie" , "registrasiemerk"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የተመዘገበ ንግድ ምልክት") , keywords : & ["ተመዝግቧል" , "የተመዘገበ ንግድ ምልክት" , "የንግድ ምልክት"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مسج\u{64e}\u{651}ل") , keywords : & ["رمز" , "علامة التسجيل" , "مسجل" , "مسج\u{64e}\u{651}ل"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পঞ\u{9cd}জীভ\u{9c1}ক\u{9cd}ত") , keywords : & ["r" , "পঞ\u{9cd}জীভ\u{9c1}ক\u{9cd}ত"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qeydiyyata alınmış") , keywords : & ["qeydiyyata alınmış" , "qeydiyyatlı"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("зарэгістраваны таварны знак") , keywords : & ["зарэгістраваны" , "зарэгістраваны таварны знак"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("регистрирана търговска марка") , keywords : & ["[R]" , "регистриран" , "регистрирана търговска марка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("নিবন\u{9cd}ধিত") , keywords : & ["r" , "নথিভ\u{9c1}ক\u{9cd}ত" , "নিবন\u{9cd}ধিত" , "রেজিস\u{9cd}ট\u{9be}র" , "রেজিস\u{9cd}ট\u{9be}র কর\u{9be} হয\u{9bc}েছে"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("merk marilhet") , keywords : & ["merk marilhet" , "r"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("registriran") , keywords : & ["r" , "registracija" , "registriran"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("marca registrada") , keywords : & ["marca" , "registrada"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎪᏪᎳᏅᎢ") , keywords : & ["r" , "ᎠᎪᏪᎳᏅᎢ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("znak registrované ochranné známky") , keywords : & ["R v kroužku" , "ochranná známka" , "r" , "registrovaná ochranná známka" , "registrováno" , "znak registrované ochranné známky"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("cofrestredig") , keywords : & ["cofrestredig" , "r"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("registreret varemærke") , keywords : & ["registreret" , "registreret varemærke"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Registered-Trademark") , keywords : & ["Markenzeichen" , "R" , "Registered-Trademark"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("σήμα κατατεθέν") , keywords : & ["r" , "αναγνωρισμένο" , "καταχωρισμένο" , "σήμα κατατεθέν"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("registered") , keywords : & ["R" , "registered"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["r" , "registered" , "trademark"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["r" , "registered" , "trademark"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("marca registrada") , keywords : & ["marca registrada" , "r" , "símbolo de marca registrada"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["R" , "marca" , "registrada" , "signo de marca registrada" , "signo marca registrada"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("símbolo de marca registrada") , keywords : & ["marca" , "registrada" , "signo de marca registrada" , "símbolo de marca registrada"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["marca registrada" , "r" , "signo de marca registrada"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("registreeritud") , keywords : & ["r" , "registreeritud"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("marka erregistratua") , keywords : & ["R" , "erregistratu" , "erregistratuta" , "marka erregistratua"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("نشان تجاری ثبت\u{200c}شده") , keywords : & ["ثبت\u{200c}شده" , "علامت تجاری ثبت\u{200c}شده" , "نشان تجاری ثبت\u{200c}شده"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("rekisteröity-merkki") , keywords : & ["R" , "rekisteröity" , "rekisteröity-merkki"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("rehistrado") , keywords : & ["legal" , "rehistrado"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("skrásett") , keywords : & ["r" , "skrásett" , "skrásettur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("marque déposée") , keywords : & ["marque commerciale" , "marque déposée" , "r" , "®"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("cláraithe") , keywords : & ["cláraithe" , "r"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("clàraichte") , keywords : & ["(r)" , "clàraichte" , "r" , "®"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("marca rexistrada “R”") , keywords : & ["R" , "rexistrada"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("નો\u{a82}ધાય\u{ac7}લન\u{ac1}\u{a82} ચિહ\u{acd}ન") , keywords : & ["r" , "નો\u{a82}ધાય\u{ac7}લ" , "નો\u{a82}ધાય\u{ac7}લન\u{ac1}\u{a82} ચિહ\u{acd}ન" , "નોધણી ચિહ\u{acd}ન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("an yi rajista") , keywords : & ["an yi rajista" , "r" , "rijistar kasuwanci" , "tambarin kasuwanci"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("an yi rajista") , keywords : & ["an yi rajista" , "r" , "rijistar kasuwanci" , "tambarin kasuwanci"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("סימן רשום") , keywords : & ["סימן רשום"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{902}जीक\u{943}त चिह\u{94d}न") , keywords : & ["प\u{902}जीकरण" , "प\u{902}जीक\u{943}त" , "प\u{902}जीक\u{943}त चिह\u{94d}न" , "रजिस\u{94d}टर" , "रजिस\u{94d}टरी" , "रजिस\u{94d}टर\u{947}शन" , "रजिस\u{94d}टर\u{94d}ड"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("znak za registrirano") , keywords : & ["registrirano" , "znak za registrirano"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("registered (bejegyzett)") , keywords : & ["bejegyzett" , "registered (bejegyzett)" , "védjegy"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("գրանցված") , keywords : & ["գրանցված"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("terdaftar") , keywords : & ["R" , "terdaftar"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("edebanyere") , keywords : & ["R" , "edebanyere"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("skráð") , keywords : & ["skráð" , "skráð vörumerki"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("marchio registrato") , keywords : & ["marchio registrato" , "marchio registrato cerchiato"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("登録商標マーク") , keywords : & ["Rマーク" , "登録商標" , "登録商標マーク" , "記号"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("kadhaptar") , keywords : & ["kadhaptar" , "r"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("რეგისტრირებული სასაქონლო ნიშანი") , keywords : & ["R" , "რეგისტრირებული სასაქონლო ნიშანი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("тіркелген сауда белгісі") , keywords : & ["белгі" , "сауда" , "тіркелген" , "тіркелген сауда белгісі"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("registreret varemærke") , keywords : & ["registreret" , "registreret varemærke"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាអក\u{17d2}សរ R ក\u{17d2}ន\u{17bb}ងរង\u{17d2}វង\u{17cb}សម\u{17d2}គាល\u{17cb}ថាបានច\u{17bb}ះឈ\u{17d2}មោះ") , keywords : & ["R" , "ច\u{17bb}ះឈ\u{17d2}មោះ" , "រង\u{17d2}វង\u{17cb}" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាអក\u{17d2}សរ R ក\u{17d2}ន\u{17bb}ងរង\u{17d2}វង\u{17cb}សម\u{17d2}គាល\u{17cb}ថាបានច\u{17bb}ះឈ\u{17d2}មោះ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ನ\u{ccb}ಂದಾಯ\u{cbf}ತ") , keywords : & ["ನ\u{ccb}ಂದಾಯ\u{cbf}ತ" , "ನ\u{ccb}ಂದಾಯ\u{cbf}ತ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}" , "ನ\u{ccb}ಂದಾಯ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("등록상표") , keywords : & ["동그라미 R" , "등록상표" , "알"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("नो\u{902}दणीक\u{943}त") , keywords : & ["r" , "नो\u{902}दणीक\u{943}त"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("катталган") , keywords : & ["катталган"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("agedroen") , keywords : & ["agedroen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເຄ\u{eb7}\u{ec8}ອງໝາຍຈ\u{ebb}ດທະບຽນ") , keywords : & ["ຈ\u{ebb}ດທະບຽນ" , "ເຄ\u{eb7}\u{ec8}ອງໝາຍຈ\u{ebb}ດທະບຽນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("užregistruota") , keywords : & ["užregistruota"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("reģistrēta preču zīme") , keywords : & ["(R)" , "preču zīme" , "r" , "reģistrēta preču zīme" , "reģistrēts"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("rēhitatia") , keywords : & ["rēhitatia"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("регистриран") , keywords : & ["Р" , "регистрирано"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("രജിസ\u{d4d}ട\u{d4d}രേഷൻ ചിഹ\u{d4d}നം") , keywords : & ["ചിഹ\u{d4d}നം" , "രജിസ\u{d4d}ട\u{d4d}രേഡ\u{d4d}" , "രജിസ\u{d4d}ട\u{d4d}രേഷൻ ചിഹ\u{d4d}നം" , "രജിസ\u{d4d}\u{200c}റ\u{d4d}റർചെയ\u{d4d}\u{200c}തത\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("бүртгэлтэй") , keywords : & ["r" , "бүртгэлтэй"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("नो\u{902}दणीक\u{943}त चिन\u{94d}ह") , keywords : & ["नो\u{902}दणीक\u{943}त" , "नो\u{902}दणीक\u{943}त चिन\u{94d}ह"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("berdaftar") , keywords : & ["berdaftar" , "r"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("reġistrati") , keywords : & ["reġistrati"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မ\u{103e}တ\u{103a}ပ\u{102f}\u{1036}တင\u{103a}ထားသော") , keywords : & ["မ\u{103e}တ\u{103a}ပ\u{102f}\u{1036}တင\u{103a}ထားသော"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("दर\u{94d}ता गरिएको") , keywords : & ["दर\u{94d}ता गरिएको"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("gedeponeerd") , keywords : & ["R" , "gedeponeerd"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପଞ\u{b4d}ଜ\u{b3f}କ\u{b43}ତ") , keywords : & ["r" , "ପଞ\u{b4d}ଜ\u{b3f}କ\u{b43}ତ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਰਜਿਸਟਰਡ ਚਿ\u{a70}ਨ\u{a4d}ਹ") , keywords : & ["ਇ\u{a70}ਦਰਾਜ" , "ਟਰ\u{a47}ਡ ਮਾਰਕ" , "ਦਰਜ ਕਰਨਾ" , "ਮਾਰਕਾ" , "ਰਜਿਸਟਰ" , "ਰਜਿਸਟਰਡ" , "ਰਜਿਸਟਰਡ ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਰਜਿਸਟਰਡ ਪ\u{a4d}ਰਤੀਕ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("اندراج ش\u{64f}دہ") , keywords : & ["اندراج ش\u{64f}دہ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Rẹ\u{301}jísta") , keywords : & ["Rẹ\u{301}jísta" , "r"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("zarejestrowany znak towarowy") , keywords : & ["R" , "Zarejestrowany znak towarowy" , "towarowy" , "zarejestrowany" , "zarejestrowany znak towarowy"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("راجستر شوی") , keywords : & ["آر" , "راجستر شوی"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("símbolo de registrado") , keywords : & ["Marca registrada" , "Marca registrada “R”" , "marca registrada" , "marca registrada “R”" , "símbolo de registrado"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("marca registada") , keywords : & ["marca registada" , "r"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("yaykusqa") , keywords : & ["r" , "yaykusqa"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("marcă înregistrată") , keywords : & ["marcă înregistrată" , "oficial" , "r" , "înregistrat"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-001") , keywords : & ["E10-001"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("зарегистрированный товарный знак") , keywords : & ["зарегистрирован" , "зарегистрированный товарный знак" , "зарегистрировано" , "товарный знак"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("ibaruwe") , keywords : & ["ibaruwe"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("رجسٽر ٿيل") , keywords : & ["r" , "رجسٽر ٿيل"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ල\u{dd2}ය\u{dcf}පද\u{dd2}ංච\u{dd2}") , keywords : & ["ල\u{dd2}ය\u{dcf}පද\u{dd2}ංච\u{dd2}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("registrovaná známka") , keywords : & ["R v krúžku" , "ochranná známka" , "registrovaná značka" , "registrovaná známka" , "registrované" , "znak registrovanej ochrannej známky"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("registrirano") , keywords : & ["r" , "registrirano"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("diiwaan gashan") , keywords : & ["diiwaan gashan" , "r"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("i regjistruar") , keywords : & ["i regjistruar"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("регистровано") , keywords : & ["R" , "регистровано"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("registrovano") , keywords : & ["R" , "registrovano"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("registrerat varumärke") , keywords : & ["registrerat" , "registrerat varumärke"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("iliyosajiliwa") , keywords : & ["iliyosajiliwa" , "imesajiliwa" , "r" , "sajili"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பதிவுசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது") , keywords : & ["பதிவு சின\u{bcd}னம\u{bcd}" , "பதிவுசெய\u{bcd}த சின\u{bcd}னம\u{bcd}" , "பதிவுசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது" , "ரிஜிஸ\u{bcd}டர\u{bcd}டு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ర\u{c3f}జ\u{c3f}స\u{c4d}టర\u{c4d}డ\u{c4d} ట\u{c4d}ర\u{c47}డ\u{c4d} మ\u{c3e}ర\u{c4d}క\u{c4d}") , keywords : & ["ఆర\u{c4d} అక\u{c4d}షరం" , "మ\u{c3e}ర\u{c4d}క\u{c4d}" , "ర\u{c3f}జ\u{c3f}స\u{c4d}టర\u{c4d}డ\u{c4d}" , "ర\u{c3f}జ\u{c3f}స\u{c4d}టర\u{c4d}డ\u{c4d} ట\u{c4d}ర\u{c47}డ\u{c4d} మ\u{c3e}ర\u{c4d}క\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("ба қайд гирифташуда") , keywords : & ["ба қайд гирифташуда"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("จดทะเบ\u{e35}ยน") , keywords : & ["จดทะเบ\u{e35}ยน" , "ส\u{e31}ญล\u{e31}กษณ\u{e4c}" , "เคร\u{e37}\u{e48}องหมาย"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ምዝጉብ") , keywords : & ["r" , "ምዝጉብ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("bellige alnan") , keywords : & ["bellige alnan" , "r"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("lēsisita") , keywords : & ["fakaʻilonga" , "lēsisita"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("tescil işareti") , keywords : & ["Tescilli" , "r" , "tescil işareti" , "tescilli" , "tescilli işareti"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تىزىملاتقان") , keywords : & ["تىزىملاتقان"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("зареєстрована торговельна марка") , keywords : & ["зареєстрована торговельна марка" , "зареєстровано"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("رجسٹرڈ") , keywords : & ["r" , "اندراج شدہ" , "درج کیا ہوا" , "رجسٹرڈ" , "علامت"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qayd qilingan") , keywords : & ["qayd qilingan" , "r"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("đã đăng ký") , keywords : & ["đã đăng ký"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("bindu na") , keywords : & ["bindu na"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ibhalisiwe") , keywords : & ["ibhalisiwe"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ìforúkọsílẹ") , keywords : & ["ìforúkọsílẹ"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("ìforúkɔsílɛ") , keywords : & ["ìforúkɔsílɛ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("註冊") , keywords : & ["註冊"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("注册") , keywords : & ["注册"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("注册") , keywords : & ["注册" , "注册标记"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("註冊") , keywords : & ["註冊"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["R" , "®" , "商標" , "註冊"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("okubhalisiwe") , keywords : & ["okubhalisiwe"] , }] , } ;
 #[doc = "™\u{fe0f}"]
 pub const TRADE_MARK : crate :: Emoji = crate :: Emoji { glyph : "™\u{fe0f}" , codepoint : "2122 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "trade mark" , group : "Symbols" , subgroup : "other-symbol" , is_variant : false , variants : & [crate :: Emoji { glyph : "™" , codepoint : "2122" , status : crate :: Status :: Unqualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "trade mark" , group : "Symbols" , subgroup : "other-symbol" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("handelmerk") , keywords : & ["handelmerk" , "handelsmerk" , "kopiereg" , "merk" , "onderneming" , "produknaam" , "tm"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የንግድ ምልክት") , keywords : & ["ምልክት" , "ንግድ ምልክት" , "የንግድ ምልክት"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("إشارة علامة تجارية") , keywords : & ["إشارة" , "إشارة علامة تجارية" , "رمز" , "علامة تجارية"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পণ\u{9cd}যচিহ\u{9cd}ন") , keywords : & ["চিহ\u{9cd}ন" , "ট\u{9cd}ৰেডম\u{9be}ৰ\u{9cd}ক" , "পণ\u{9cd}যচিহ\u{9cd}ন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("ticarət nişanı") , keywords : & ["işarə" , "ticarət nişanı" , "tn" , "əmtəə nişanı"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("таварны знак") , keywords : & ["ТМ" , "знак" , "таварны"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("търговска марка") , keywords : & ["[TM]" , "марка" , "търговска марка"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ট\u{9cd}রেড ম\u{9be}র\u{9cd}ক") , keywords : & ["TM" , "চিহ\u{9cd}ন" , "ট\u{9cd}রেড ম\u{9be}র\u{9cd}ক" , "ট\u{9cd}রেডম\u{9be}র\u{9cd}ক"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("merk kenwerzhel marilhet") , keywords : & ["merk kenwerzhel marilhet" , "tm"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("zaštitni znak") , keywords : & ["oznaka" , "tm" , "zaštitni znak"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("marca comercial") , keywords : & ["TM" , "comercial" , "marca" , "marca registrada" , "símbol de marca comercial"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎵᏱᏛᎢ ᎪᏪᎸ") , keywords : & ["tm" , "ᎠᎵᏱᏛᎢ ᎪᏪᎸ" , "ᎠᎵᏱᏛᎢᎪᏪᎸ" , "ᎪᏪᎸ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("znak ochranné známky") , keywords : & ["TM" , "ochranná známka" , "tm" , "trademark" , "znak ochranné známky" , "značka" , "značka ochranné známky"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("nod masnach") , keywords : & ["marc" , "nod masnach"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("varemærke") , keywords : & ["TM" , "varemærke"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Markenzeichen") , keywords : & ["Markenzeichen" , "TM" , "Trademark"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("εμπορικό σήμα") , keywords : & ["tm" , "εμπορικό σήμα" , "σήμα"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("trade mark") , keywords : & ["TM" , "mark" , "trade" , "trademark"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("trademark") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("símbolo de marca comercial") , keywords : & ["marca comercial" , "símbolo de marca comercial"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("marca comercial") , keywords : & ["marca" , "marca comercial" , "registrada" , "signo" , "signo de marca comercial" , "símbolo" , "símbolo de marca comercial" , "símbolo de marca registrada" , "trademark"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("marca registrada") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["marca" , "marca comercial" , "registrada" , "símbolo" , "símbolo de marca comercial"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kaubamärk") , keywords : & ["kaubamärk" , "märk"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("marka komertziala") , keywords : & ["komertzial" , "marka" , "marka komertziala" , "tm"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("نماد بازرگانی") , keywords : & ["TM" , "تی\u{200c}ام" , "علامت" , "علامت تجاری" , "علامت تجاری ثبت شده" , "نشان تجاری" , "نماد بازرگانی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("tavaramerkki") , keywords : & ["TM" , "merkki" , "tavaramerkki"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("trade mark") , keywords : & ["mark" , "marka" , "tm" , "trade" , "trademark"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("virkisrættindi") , keywords : & ["fyritøkumerki" , "fyritøkurættindi" , "virkismerki" , "virkisrættindi" , "vøruheiti" , "vørumerki"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("marque commerciale déposée") , keywords : & ["TM" , "marque commerciale déposée" , "marque déposée"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("marque de commerce") , keywords : & ["marque de commerce" , "marque déposée" , "md"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("comhartha trádmhairc") , keywords : & ["comhartha" , "comhartha trádmhairc" , "trádmharc"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("comharra-malairt") , keywords : & ["comharra" , "comharra-malairt" , "tm"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("marca rexistrada “TM”") , keywords : & ["TM" , "rexistrada"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ટ\u{acd}ર\u{ac7}ડ માર\u{acd}કન\u{ac1}\u{a82} ચિહ\u{acd}ન") , keywords : & ["ચિહ\u{acd}ન" , "ટ\u{acd}ર\u{ac7}ડ માર\u{acd}ક" , "ટ\u{acd}ર\u{ac7}ડ માર\u{acd}કન\u{ac1}\u{a82} ચિહ\u{acd}ન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("tambarin kamfani") , keywords : & ["alama" , "alamar mallaka" , "maki" , "mallakakken kasuwanci" , "mallakar fasaha" , "tambarin kamfani" , "tm"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("tambarin kamfani") , keywords : & ["alama" , "alamar mallaka" , "maki" , "mallakakken kasuwanci" , "mallakar fasaha" , "tambarin kamfani" , "tm"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("סימן מסחרי") , keywords : & ["tm" , "זכויות" , "סימן" , "סימן מסחרי"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("ट\u{94d}र\u{947}ड मार\u{94d}क चिह\u{94d}न") , keywords : & ["चिह\u{94d}न" , "ट\u{94d}र\u{947}ड मार\u{94d}क चिह\u{94d}न" , "ट\u{94d}र\u{947}डमार\u{94d}क" , "व\u{94d}यापार चिह\u{94d}न"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("zaštitni znak tm") , keywords : & ["tm" , "zaštitni znak" , "zaštitni znak tm" , "znak"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("védjegy") , keywords : & ["bejegyzett védjegy" , "tm" , "védjegy"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ապրանքանիշ") , keywords : & ["ապրանքանիշ" , "նշան"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("merek dagang") , keywords : & ["merek dagang" , "tanda" , "tanda dagang" , "tanda merek" , "tm"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akara-ụlọọrụ") , keywords : & ["TM" , "akara" , "akara-azụmaahịa" , "azụmaahịa"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("skrásett vörumerki") , keywords : & ["skrásett vörumerki" , "vörumerki"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("marchio") , keywords : & ["TM" , "marchio" , "marchio commerciale" , "marchio di fabbrica" , "marchio registrato" , "simbolo" , "tm" , "trademark"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("商標マーク") , keywords : & ["TMマーク" , "トレードマーク" , "商標" , "商標マーク" , "記号"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("merek dagang") , keywords : & ["merek dagang" , "tandha" , "tm"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("სავაჭრო ნიშანი") , keywords : & ["ნიშანი" , "სავაჭრო ნიშანი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("сауда белгісі") , keywords : & ["tm" , "белгі" , "сауда белгісі"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("varemærke") , keywords : & ["varemærke"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាអក\u{17d2}សរ TM សម\u{17d2}គាល\u{17cb}ថាជាម\u{17c9}ាកទ\u{17c6}ន\u{17b7}ញ") , keywords : & ["TM" , "ម\u{17c9}ាក" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាអក\u{17d2}សរ TM សម\u{17d2}គាល\u{17cb}ថាជាម\u{17c9}ាកទ\u{17c6}ន\u{17b7}ញ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{ccd}ರ\u{cc7}ಡ\u{ccd} ಮಾರ\u{ccd}ಕ\u{ccd}") , keywords : & ["TM" , "ಗುರುತು" , "ಟ\u{ccd}ರ\u{cc7}ಡ\u{ccd}" , "ಟ\u{ccd}ರ\u{cc7}ಡ\u{ccd}\u{200c}ಮಾರ\u{ccd}ಕ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("상표") , keywords : & ["TM" , "상표" , "트레이드 마크 표시" , "트레이트 마크" , "표시"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("व\u{947}पार चिन\u{94d}न") , keywords : & ["tm" , "चिन\u{94d}न" , "व\u{947}पार चिन\u{94d}न" , "व\u{947}पारचिन\u{94d}न"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("соода маркасы") , keywords : & ["соода белгиси" , "соода маркасы"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Markenzeechen") , keywords : & ["Markenzeechen" , "TM" , "Trademark" , "Zeechen"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເຄ\u{eb7}\u{ec8}ອງໝາຍການຄ\u{ec9}າ") , keywords : & ["ການຄ\u{ec9}າ" , "ເຄ\u{eb7}\u{ec8}ອງໝາຍ" , "ເຄ\u{eb7}\u{ec8}ອງໝາຍການຄ\u{ec9}າ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("prekės ženklas") , keywords : & ["prekės ženklas" , "tm" , "žymė"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("preču zīme") , keywords : & ["TM" , "preču zīme"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tohu hoko") , keywords : & ["tohu" , "tohu hoko" , "tohuhoko"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("трговска марка") , keywords : & ["ТМ" , "марка" , "трговија" , "трговска марка"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ട\u{d4d}രേഡ\u{d4d}\u{200c}മ\u{d3e}ർക\u{d4d}ക\u{d4d}") , keywords : & ["ട\u{d4d}രേഡ\u{d4d}\u{200c}മ\u{d3e}ർക\u{d4d}ക\u{d4d}" , "വ\u{d4d}യ\u{d3e}പ\u{d3e}രമ\u{d41}ദ\u{d4d}ര" , "സൈൻ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("барааны тэмдэг") , keywords : & ["бараа" , "барааны тэмдэг" , "тэмдэг"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("ट\u{94d}र\u{947}डमार\u{94d}क") , keywords : & ["चिन\u{94d}ह" , "टीएम" , "ट\u{94d}र\u{947}ड मार\u{94d}क" , "ट\u{94d}र\u{947}डमार\u{94d}क"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("tanda dagangan") , keywords : & ["tanda" , "tanda dagangan" , "tm"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("trade mark") , keywords : & ["marka" , "tm" , "trade mark" , "trademark"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("က\u{102f}န\u{103a} အမ\u{103e}တ\u{103a}တ\u{1036}ဆ\u{102d}ပ\u{103a}") , keywords : & ["က\u{102f}န\u{103a} အမ\u{103e}တ\u{103a}တ\u{1036}ဆ\u{102d}ပ\u{103a}" , "က\u{102f}န\u{103a}အမ\u{103e}တ\u{103a}တ\u{1036}ဆ\u{102d}ပ\u{103a}" , "က\u{102f}န\u{103a}အမ\u{103e}တ\u{103a}တ\u{1036}ဆ\u{102d}ပ\u{103a} သင\u{103a}\u{1039}ကေတ" , "အမ\u{103e}တ\u{103a}တ\u{1036}ဆ\u{102d}ပ\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("व\u{94d}यापार चिन\u{94d}ह") , keywords : & ["चिन\u{94d}ह" , "टिएम" , "व\u{94d}यापार चिन\u{94d}ह"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("handelsmerksymbool") , keywords : & ["handelsmerk" , "handelsmerksymbool" , "symbool" , "teken" , "tm" , "trademark"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b4d}ରେଡ\u{b4d}\u{200c} ଚ\u{b3f}ହ\u{b4d}ନ") , keywords : & ["tm" , "ଚ\u{b3f}ହ\u{b4d}ନ" , "ଟ\u{b4d}ରେଡମ\u{b3e}ର\u{b4d}କ\u{b4d}\u{200c}" , "ଟ\u{b4d}ରେଡ\u{b4d}\u{200c} ଚ\u{b3f}ହ\u{b4d}ନ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਟ\u{a4d}ਰ\u{a47}ਡਮਾਰਕ") , keywords : & ["ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਟਰ\u{a47}ਡਮਾਰਕ" , "ਟ\u{a4d}ਰ\u{a47}ਡਮਾਰਕ" , "ਨਿਸ\u{a3c}ਾਨ" , "ਮਾਰਕਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("تجارت دا نشان") , keywords : & ["تجارت دا نشان" , "نشان تجارت" , "نشان لانا" , "نشان\u{650} تجارت"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Tréd Mak") , keywords : & ["Mak" , "TM" , "Tréd Mak" , "Trédmak"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("znak towarowy") , keywords : & ["TM" , "zastrzeżony znak towarowy" , "znak towarowy"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("تجارتي نښان") , keywords : & ["تجارتي نښان" , "تجارتي نښه" , "نښه" , "ټي ايم"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("símbolo de marca registrada") , keywords : & ["Marca registrada “TM”" , "marca registrada" , "marca registrada “TM”" , "símbolo" , "símbolo de marca registrada"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("marca comercial") , keywords : & ["marca" , "marca comercial" , "marca registada" , "símbolo" , "símbolo de marca comercial" , "símbolo de marca registada" , "tm"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("waqaychasqa chinpuy") , keywords : & ["chimpu" , "tm" , "waqaychasqa chinpu" , "waqaychasqa chinpuy"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("marcă comercială") , keywords : & ["comercială" , "marcă" , "marcă înregistrată" , "tm" , "trademark"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-004") , keywords : & ["E10-004"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("товарный знак") , keywords : & ["ТМ" , "товарная марка" , "товарный знак" , "торговая марка" , "торговый знак"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("ikirango") , keywords : & ["akarango" , "ikirango" , "tm"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ٽريڊ مارڪ") , keywords : & ["نشان" , "ٽريڊ مارڪ" , "ٽريڊمارڪ"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("වෙළඳ ලක\u{dd4}ණ") , keywords : & ["ලක\u{dd4}ණ" , "වෙළඳ ලක\u{dd4}ණ" , "වෙළඳ සලක\u{dd4}ණ"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("obchodná známka") , keywords : & ["obchodná značka" , "obchodná známka" , "ochodná značka" , "tm" , "trademark" , "znak"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("blagovna znamka") , keywords : & ["TM" , "blagovna znamka" , "znak"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("sumadda ganacsiga") , keywords : & ["sumadda" , "sumadda ganacsiga" , "sumaddaganacsiga" , "tm"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("markë tregtare") , keywords : & ["markë tregtare" , "shenjë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("жиг") , keywords : & ["TM" , "жиг" , "зaштитни" , "знaк"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("žig") , keywords : & ["TM" , "zaštitni" , "znak" , "žig"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("skyddat varumärke") , keywords : & ["skyddat varumärke" , "varumärke"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chapa ya biashara") , keywords : & ["alama" , "alama ya biashara" , "chapa ya biashara"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("வர\u{bcd}த\u{bcd}தக முத\u{bcd}திரை") , keywords : & ["டிரேடும\u{bbe}ர\u{bcd}க\u{bcd}" , "டிரேட\u{bcd} ம\u{bbe}ர\u{bcd}க\u{bcd}" , "வர\u{bcd}த\u{bcd}தக முத\u{bcd}திரை" , "வர\u{bcd}த\u{bcd}தக முத\u{bcd}திரைச\u{bcd} சின\u{bcd}னம\u{bcd}" , "வர\u{bcd}த\u{bcd}தகச\u{bcd} சின\u{bcd}னம\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ట\u{c4d}ర\u{c47}డ\u{c4d} మ\u{c3e}ర\u{c4d}క\u{c4d} చ\u{c3f}హ\u{c4d}నం") , keywords : & ["ట\u{c40}ఎం" , "ట\u{c4d}ర\u{c47}డ\u{c4d}" , "ట\u{c4d}ర\u{c47}డ\u{c4d} మ\u{c3e}ర\u{c4d}క\u{c4d} చ\u{c3f}హ\u{c4d}నం" , "ట\u{c4d}ర\u{c47}డ\u{c4d}\u{200c}మ\u{c3e}ర\u{c4d}క\u{c4d}" , "మ\u{c3e}ర\u{c4d}క\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("тамғаи савдо") , keywords : & ["аломат" , "тамғаи савдо"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เคร\u{e37}\u{e48}องหมายการค\u{e49}า") , keywords : & ["ป\u{e49}ายเคร\u{e37}\u{e48}องหมายการค\u{e49}า" , "เคร\u{e37}\u{e48}องหมายการค\u{e49}า"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ምልክት ንግዲ") , keywords : & ["tm" , "ምልክት" , "ምልክት ንግዲ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("söwda belgisi") , keywords : & ["belgi" , "söwda belgisi" , "tm"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("fefakatauʻaki") , keywords : & ["fakaʻilonga" , "fefakatauʻaki"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("ticari marka işareti") , keywords : & ["işaret" , "ticari marka" , "ticari marka işareti"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("سودا ماركىسى") , keywords : & ["س م" , "سودا ماركىسى" , "ماركا"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("торговельна марка") , keywords : & ["tm" , "марка" , "торговельна марка"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("تجارتی نشان") , keywords : & ["تجارت" , "تجارتی نشان" , "نشان" , "ٹریڈ مارک"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("savdo belgisi") , keywords : & ["belgi" , "savdo belgisi" , "tm"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("nhãn hiệu") , keywords : & ["dấu" , "nhãn hiệu" , "tm"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("turu liggéey") , keywords : & ["màndarga" , "tm" , "turu liggéey" , "turu-liggéey"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("uphawu lorhwebo") , keywords : & ["i-tm" , "uphawu" , "uphawu lorhwebo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("àmì ìdánimọ\u{300} iléeṣẹ\u{301}") , keywords : & ["tm" , "àmì" , "àmì ìdámọ\u{300} fún iléeṣẹ\u{301}" , "àmì ìdánimọ\u{300} iléeṣẹ\u{301}"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("àmì ìdánimɔ\u{300} iléeshɛ\u{301}") , keywords : & ["tm" , "àmì" , "àmì ìdámɔ\u{300} fún iléeshɛ\u{301}" , "àmì ìdánimɔ\u{300} iléeshɛ\u{301}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("商標") , keywords : & ["tm" , "商標" , "標記"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("商标") , keywords : & ["tm" , "商标" , "标记"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("商标") , keywords : & ["产品" , "商标" , "标志"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("商標") , keywords : & ["商標"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["tm" , "商標"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("uphawu lokuhweba") , keywords : & ["uphawu" , "uphawu lokuhweba"] , }] , } ;
+#[doc = "🫟"]
+pub const SPLATTER: crate::Emoji = crate::Emoji {
+    glyph: "🫟",
+    codepoint: "1FADF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 16u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "splatter",
+    group: "Symbols",
+    subgroup: "other-symbol",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("spat"),
+            keywords: &["holi", "spat", "spetter", "stort", "verf", "vlek"],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የውሃ መረጨት"),
+            keywords: &[
+                "ሆሊ",
+                "መፍሰስ",
+                "ምስቅልቅል",
+                "ቀለም",
+                "ነጠብጣብ",
+                "እድፍ",
+                "የውሃ መረጨት",
+                "ፈሳሽ",
+            ],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بقعة"),
+            keywords: &[
+                "انسكاب",
+                "بخ",
+                "بقع",
+                "بقعة",
+                "حبر",
+                "دهان",
+                "سائل",
+                "سكب",
+                "طلاء",
+            ],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ছিটিকনি"),
+            keywords: &[
+                "চি\u{981}য\u{9bc}\u{9be}হী",
+                "ছিটিকনি",
+                "টোপ\u{9be}ল",
+                "তৰল",
+                "দ\u{9be}গ",
+                "পেইণ\u{9cd}ট",
+                "মেছ",
+                "স\u{9cd}পিল",
+                "হ’লি",
+            ],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("sıçratmaq"),
+            keywords: &[
+                "boya",
+                "damcılamaq",
+                "dağıtmaq",
+                "holi",
+                "maye",
+                "mürəkkəb",
+                "rəng",
+                "sıçratmaq",
+                "səliqəsizlik",
+            ],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("пырскі"),
+            keywords: &[
+                "беспарадак",
+                "вадкасць",
+                "капаць",
+                "пляма",
+                "пырскі",
+                "разліў",
+                "фарба",
+                "холі",
+                "чарніла",
+            ],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("петно"),
+            keywords: &["Холи", "боя", "опръсквам", "петно", "разливам"],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ছপ\u{9be}ত"),
+            keywords: &[
+                "চলকে পড\u{9bc}\u{9be}",
+                "ছপ\u{9be}ত",
+                "ছল\u{9be}ৎ",
+                "দ\u{9be}গ",
+                "রং",
+                "হোলি",
+            ],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("brćkanje"),
+            keywords: &[
+                "boja",
+                "bućkanje",
+                "kapanje",
+                "mrlja",
+                "nered",
+                "praz",
+                "prosuto",
+                "tečnost",
+                "tinta",
+            ],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("esquitx"),
+            keywords: &["esquitx", "holi", "pintura", "taca", "vessament"],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏩᏍᏚᏟᏥᎯ"),
+            keywords: &["ᎠᏑᏫᏍᎦ", "ᎠᏤᏩᏍᏗ", "ᏗᏑᏫᏍᏗ", "ᏩᏍᏚᏟᏥᎯ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("skvrna"),
+            keywords: &[
+                "barva",
+                "inkoust",
+                "kapka",
+                "nepořádek",
+                "rozlití",
+                "skvrna",
+                "tekutina",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("slempio"),
+            keywords: &["holi", "paent", "slempio", "staenio", "tasgu"],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("klat"),
+            keywords: &["holi", "klat", "maling", "plet", "spild"],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Spritzer"),
+            keywords: &["Farbe", "Fleck", "Holi", "Klecks", "Spritzer", "Tinte"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("Klecks"),
+            keywords: &[
+                "Farbe",
+                "Farbklecks",
+                "Fleck",
+                "Klecks",
+                "Spritzer",
+                "kleckern",
+                "verschütten",
+            ],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("πιτσιλιά"),
+            keywords: &["Χόλι", "λεκές", "μπογιά", "πιτσιλιά", "πιτσιλιάζω", "χάλια"],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("splatter"),
+            keywords: &[
+                "drip", "holi", "ink", "liquid", "mess", "paint", "spill", "splatter", "stain",
+            ],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("salpicadura"),
+            keywords: &[
+                "gotear",
+                "líquido",
+                "mancha",
+                "manchar",
+                "pintura",
+                "salpicadura",
+                "salpicar",
+                "tinta",
+            ],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "Krishna", "derrame", "goteo", "holi", "lío", "líquido", "mancha", "pintura",
+                "tinta",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("salpicadura"),
+            keywords: &["derrame", "holi", "mancha", "pintura", "salpicadura"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("salpicadura"),
+            keywords: &["mancha", "pintura", "salpicadura"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("plärakas"),
+            keywords: &["holi", "plekk", "plärakas", "pritse", "värv"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("zipriztina"),
+            keywords: &[
+                "erion",
+                "holi",
+                "isuri",
+                "jariatu",
+                "margoa",
+                "orbana",
+                "zapasta",
+                "zetaka",
+                "zikingunea",
+                "ziliporta",
+                "zipriztina",
+            ],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("لکه رنگ"),
+            keywords: &["جشنواره رنگ", "رنگ", "لکه", "پاشیدن"],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("roiske"),
+            keywords: &["holi", "maali", "roiske", "tahra"],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("tilamsik"),
+            keywords: &["holi", "mantsa", "natapon", "pintura", "tilamsik"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("sprutt"),
+            keywords: &["máling", "sletta", "sprutt", "sprutta", "stoyta"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("éclaboussure"),
+            keywords: &["holi", "peinture", "tache", "éclaboussure"],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "dégât",
+                "encre",
+                "holi",
+                "liquide",
+                "peinture",
+                "renversé",
+                "tache",
+            ],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("stealladh"),
+            keywords: &[
+                "doirteadh",
+                "dúch",
+                "holi",
+                "leacht",
+                "praiseach",
+                "péint",
+                "sileadh",
+                "smálú",
+                "stealladh",
+            ],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("steallag"),
+            keywords: &[
+                "dòirt", "inc", "lionn", "pèant", "salaich", "sgluis", "sil", "slopaig", "smal",
+                "spot", "steallag",
+            ],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("salpicadura"),
+            keywords: &["chapuza", "gota", "líquido", "mancha", "pintura", "tinta"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ડાઘો"),
+            keywords: &[
+                "ઇ\u{a82}ક",
+                "ડાઘ",
+                "ડ\u{acd}રિપ",
+                "પ\u{ac7}ઇન\u{acd}ટ",
+                "ફ\u{ac7}લાઈ ગય\u{ac7}લો ર\u{a82}ગ",
+                "મ\u{ac7}સ",
+                "ર\u{a82}ગ ઢોળાઈ ગયાન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "લિક\u{acd}વિડ",
+                "હોળી",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("fantsama"),
+            keywords: &[
+                "bikin holi",
+                "fantsama",
+                "fenti",
+                "inki",
+                "ruwa",
+                "zubewa",
+                "ɓatawa",
+                "ɗigo",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("fantsama"),
+            keywords: &[
+                "bikin holi",
+                "fantsama",
+                "fenti",
+                "inki",
+                "ruwa",
+                "zubewa",
+                "ɓatawa",
+                "ɗigo",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("כתם"),
+            keywords: &["התזה", "כתם", "נשפך", "צבע", "רבב"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("छी\u{902}ट\u{947}"),
+            keywords: &[
+                "ग\u{902}दगी",
+                "छलकना",
+                "छी\u{902}ट\u{947}",
+                "टपकना",
+                "तरल",
+                "दाग",
+                "र\u{902}ग",
+                "स\u{94d}याही",
+                "होली",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("mrlja"),
+            keywords: &["holi", "mrlja", "proliti", "prskati", "slikati"],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("fröccsenés"),
+            keywords: &[
+                "csepp",
+                "festék",
+                "folt",
+                "folyadék",
+                "fröccsenés",
+                "kiömlik",
+                "rendetlenség",
+                "tinta",
+            ],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ցայտ"),
+            keywords: &["բիծ", "թափվել", "հոլի", "ներկ", "ցփնել"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("percikan"),
+            keywords: &["cat", "holi", "noda", "tumpahan"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nfesasị"),
+            keywords: &["agba", "holi", "ntụpọ", "nwụsa"],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("sletta"),
+            keywords: &["blettur", "holi", "klessa", "málning", "sletta"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("spruzzo"),
+            keywords: &[
+                "chiazza",
+                "holi",
+                "pittura",
+                "rovesciare",
+                "schizzo",
+                "vernice",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("飛び散ったペンキ"),
+            keywords: &["しぶき｜ペンキ｜飛沫｜飛び散り｜スプラッシュ"],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("cipratan"),
+            keywords: &["blenthong", "cat", "cipratan", "holi", "wutah"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("შხეფი"),
+            keywords: &[
+                "დასვრა",
+                "დაღვრა",
+                "დაწვეთება",
+                "ლაქა",
+                "მელანი",
+                "საღებავი",
+                "სითხე",
+                "შხეფი",
+                "ჰოლი",
+            ],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("шашыранды"),
+            keywords: &["бояу", "дақ", "төгілу", "холи", "шашыранды", "шашырау"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ខ\u{17d2}ទាត"),
+            keywords: &[
+                "ក\u{17c6}ពប\u{17cb}",
+                "ខ\u{17d2}ទាត",
+                "ត\u{17c6}ណក\u{17cb}",
+                "ថ\u{17d2}នា\u{17c6}ពណ\u{17cc}",
+                "ទ\u{17b9}កថ\u{17d2}នា\u{17c6}",
+                "ប\u{17d2}រឡ\u{17bc}កប\u{17d2}រឡាក\u{17cb}",
+                "ព\u{17b7}ធ\u{17b8}ប\u{17bb}ណ\u{17d2}យហ\u{17bc}ល\u{17b8}",
+                "វត\u{17d2}ថ\u{17bb}រាវ",
+                "ស\u{17d2}នាមប\u{17d2}រឡាក\u{17cb}",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{ccd}ಪ\u{ccd}ಲಾಟರ\u{ccd}"),
+            keywords: &[
+                "ಇಂಕ\u{ccd}",
+                "ಕಲ\u{cc6}",
+                "ಚ\u{cc6}ಲ\u{ccd}ಲ\u{cbf}",
+                "ದ\u{ccd}ರವ",
+                "ಬಣ\u{ccd}ಣ",
+                "ಮ\u{cc6}ಸ\u{ccd}",
+                "ಸ\u{ccd}ಪ\u{ccd}ಲಾಟರ\u{ccd}",
+                "ಹನ\u{cbf}",
+                "ಹ\u{ccb}ಳ\u{cbf}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("튀어오른 액체"),
+            keywords: &[
+                "액체",
+                "액체 방울",
+                "얼룩",
+                "잉크",
+                "지저분하게 튄",
+                "튀김",
+                "튄",
+                "페인트",
+                "흘린",
+                "흩뿌린",
+            ],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("शि\u{902}पडप"),
+            keywords: &[
+                "गळप",
+                "गो\u{902}दळ",
+                "दाग",
+                "द\u{94d}रव",
+                "मारप",
+                "र\u{902}ग",
+                "रकम",
+                "शाय",
+                "होळी",
+            ],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("чачыранды"),
+            keywords: &[
+                "боёк",
+                "кир",
+                "суюктук",
+                "сыя",
+                "так",
+                "чачыранды",
+                "чачыроо",
+            ],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສາດ"),
+            keywords: &[
+                "ນ\u{ecd}\u{ec9}າຍ\u{ec9}ອຍ",
+                "ນ\u{ecd}\u{ec9}າສາດ",
+                "ສ\u{eb5}",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("tiškalas"),
+            keywords: &[
+                "dažai",
+                "dėmė",
+                "išsiliejimas",
+                "lašinti",
+                "netvarka",
+                "purslai",
+                "rašalas",
+                "skystis",
+            ],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("šļakatas"),
+            keywords: &["krāsa", "krāsains", "noplūde", "traipu", "šļakatām"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("испрскано"),
+            keywords: &["боја", "дамка", "испрскано"],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചിതറിയ നിറക\u{d4d}ക\u{d42}ട\u{d4d}ട\u{d41}കൾ"),
+            keywords: &[
+                "കറ",
+                "ചിതറിത\u{d4d}തെറിച\u{d4d}ച ഛ\u{d3e}യക\u{d4d}ക\u{d42}ട\u{d4d}ട\u{d41}കൾ",
+                "ചിതറിത\u{d4d}തെറിച\u{d4d}ച നിറക\u{d4d}ക\u{d42}ട\u{d4d}ട\u{d41}കൾ",
+                "പെയിന\u{d4d}റ\u{d4d}",
+                "ഹോളി",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("цацах"),
+            keywords: &["асгах", "будаг", "бэх", "дусал", "толбо", "цацах", "шингэн"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("शि\u{902}तोड\u{947} उडवण\u{947}"),
+            keywords: &[
+                "उडवण\u{947}",
+                "डाग",
+                "र\u{902}ग",
+                "सा\u{902}डण\u{947}",
+                "होळी",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("percik"),
+            keywords: &[
+                "cat", "cecair", "dakwat", "kotoran", "percik", "pewarna", "titis", "tumpah",
+            ],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေက\u{103d}က\u{103a}"),
+            keywords: &[
+                "ဆေးက\u{103d}က\u{103a}",
+                "ဆေးစ\u{103d}န\u{103a}း",
+                "ဆေးပက\u{103a}",
+                "ဖ\u{102d}တ\u{103a}စင\u{103a}",
+                "အစ\u{103d}န\u{103a}း",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छ\u{94d}याप\u{947}को"),
+            keywords: &[
+                "गडबड",
+                "छ\u{94d}याप\u{947}को",
+                "तरल",
+                "थोपा",
+                "दाग",
+                "पोखिएको",
+                "मसी",
+                "रङ",
+                "होली",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("Gespat"),
+            keywords: &["gemors", "gespat", "holi", "verf", "vlek"],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସ\u{b4d}ପ\u{b4d}ଲ\u{b3e}ଟର\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଢ\u{b3c}\u{b3e}ଳ\u{b3f}ବ\u{b3e}",
+                "ଦ\u{b3e}ଗ",
+                "ରଙ\u{b4d}ଗ",
+                "ସ\u{b4d}ପ\u{b4d}ଲ\u{b3e}ଟର\u{b4d}",
+                "ହୋଲ\u{b3f}",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਛਪਾਕਾ"),
+            keywords: &[
+                "ਛਪਾਕਾ",
+                "ਦਾਗ\u{a3c}",
+                "ਰ\u{a70}ਗ",
+                "ਰ\u{a70}ਗਤ",
+                "ਹ\u{a4b}ਲੀ",
+            ],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("splátá"),
+            keywords: &[
+                "dríp",
+                "holi",
+                "líkwid",
+                "mẹ\u{301}s",
+                "pẹ\u{301}nt",
+                "spil",
+                "splátá",
+                "stẹ\u{301}n",
+                "ínk",
+            ],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("rozbryzg"),
+            keywords: &["farba", "holi", "plama", "rozbryzg", "rozlanie"],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("څاڅکي"),
+            keywords: &[
+                "تویول",
+                "داغ",
+                "رنګ",
+                "سپلاټر",
+                "مایع",
+                "هولي",
+                "څاڅکی",
+                "ګډوډي",
+            ],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("respingo"),
+            keywords: &["mancha", "pingo", "respingo", "tinta"],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("împroșcare"),
+            keywords: &["holi", "pată", "stropi", "vopsea", "vărsa", "împroșcare"],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E16-006"),
+            keywords: &["E16-006"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("клякса"),
+            keywords: &["Холи", "клякса", "краска", "пролить", "пятно"],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڦهلائڻ"),
+            keywords: &[
+                "داغ",
+                "رنگ",
+                "مس",
+                "هارڻ",
+                "هولي",
+                "ٽمڻ",
+                "پاڻياٺ",
+                "ڦهلائڻ",
+                "گندگي",
+            ],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ඉස\u{dd3}ම"),
+            keywords: &[
+                "අව\u{dd4}ල\u{dca}",
+                "ඉස\u{dd2}නව\u{dcf}",
+                "කට\u{dcf}රම\u{dca}",
+                "ක\u{dcf}න\u{dca}ද\u{dd4}",
+                "ත\u{dd3}න\u{dca}ත",
+                "ද\u{dd2}යර",
+                "පැල\u{dca}ලම",
+                "හෝල\u{dd2}",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("machuľa"),
+            keywords: &["fľak", "machuľa", "škvrna"],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("packa"),
+            keywords: &[
+                "barva",
+                "holi",
+                "madež",
+                "packa",
+                "praznik barv",
+                "razlitje",
+            ],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("firdhiye"),
+            keywords: &[
+                "dareere",
+                "dhibic",
+                "holi",
+                "khad",
+                "qasan",
+                "rinji",
+                "wasakh",
+                "wax daadasho",
+                "wax kala firdhismo",
+            ],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("spërkë"),
+            keywords: &["bojë", "derdhje", "lëng", "njollë", "pikoj", "spërkatje"],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("просуто"),
+            keywords: &["боја", "мрља", "проливено", "просуто", "холи"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("prosuto"),
+            keywords: &["boja", "holi", "mrlja", "proliveno", "prosuto"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("stänk"),
+            keywords: &["fläck", "färg", "holi", "stänk", "utspill"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mtawanyiko"),
+            keywords: &["chafua", "holi", "mwaga", "rangi", "tawanya"],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("சிதறல\u{bcd}"),
+            keywords: &[
+                "கறை",
+                "சிதறல\u{bcd}",
+                "சிந\u{bcd}துதல\u{bcd}",
+                "பெயிண\u{bcd}ட\u{bcd}",
+                "ஹோலி",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("స\u{c4d}ప\u{c4d}ల\u{c3e}టర\u{c4d}"),
+            keywords: &[
+                "గజ\u{c3f}బ\u{c3f}జ\u{c3f}",
+                "చ\u{c3f}ందు",
+                "ద\u{c4d}రవం",
+                "ప\u{c46}య\u{c3f}ంట\u{c4d}",
+                "బ\u{c3f}ందు",
+                "మరక",
+                "స\u{c3f}ర\u{c3e}",
+                "స\u{c4d}ప\u{c4d}ల\u{c3e}టర\u{c4d}",
+                "హ\u{c4b}ల\u{c40}",
+            ],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("กระเด\u{e47}น"),
+            keywords: &[
+                "กระเซ\u{e47}น",
+                "กระเด\u{e47}น",
+                "ของเหลว",
+                "รอย",
+                "ส\u{e35}",
+                "หก",
+                "หม\u{e36}ก",
+                "หยด",
+                "เลอะ",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ረሳሕ ፈሳሲ"),
+            keywords: &["ምፍሳስ", "ርስሓት", "ስፕላተር", "ቀለም", "ንጣብ ንጣብ", "ዕግርግር", "ፈሳሲ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("syçratgy"),
+            keywords: &[
+                "boýag",
+                "dökülen",
+                "reňk",
+                "syçramak",
+                "syçratgy",
+                "syýa",
+                "tegmil",
+            ],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("afuhia"),
+            keywords: &["afuhia", "ʻila"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("sıçratma"),
+            keywords: &["boya", "dökmek", "holi", "leke", "lekelemek", "sıçratmak"],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("ляпка"),
+            keywords: &[
+                "безлад",
+                "бризки",
+                "краплі",
+                "пляма",
+                "розливати",
+                "рідина",
+                "фарби",
+                "холі",
+                "чорнило",
+            ],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("چھینٹے اڑانا"),
+            keywords: &["داغ", "پینٹ", "چھلکنا", "چھینٹے اڑانا", "ہولی"],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("sachratish"),
+            keywords: &[
+                "bo‘yoq",
+                "dog‘",
+                "holi",
+                "palitra",
+                "sachratish",
+                "siyoh",
+                "suyuqlik",
+                "tartibsiz",
+                "tomchi",
+            ],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bắn tung tóe"),
+            keywords: &["bắn tung tóe", "ngày lễ", "sơn", "tràn", "vết ố"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("fọ\u{301}nká"),
+            keywords: &[
+                "dànù",
+                "fọ\u{301}nká",
+                "holi",
+                "àbàwọ\u{301}n",
+                "ọ\u{300}dà",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("fɔ\u{301}nká"),
+            keywords: &[
+                "dànù",
+                "fɔ\u{301}nká",
+                "holi",
+                "àbàwɔ\u{301}n",
+                "ɔ\u{300}dà",
+            ],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("潑濺"),
+            keywords: &[
+                "一團糟",
+                "墨水",
+                "污漬",
+                "油漆",
+                "液體",
+                "潑墨",
+                "潑濺",
+                "色彩節",
+                "顏料",
+            ],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("泼溅"),
+            keywords: &[
+                "一团糟",
+                "墨水",
+                "污渍",
+                "油漆",
+                "泼墨",
+                "泼溅",
+                "液体",
+                "色彩节",
+                "颜料",
+            ],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("泼溅"),
+            keywords: &["喷洒", "污渍", "油漆", "泼溅", "溢出"],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("潑濺"),
+            keywords: &["侯麗節", "噴濺", "弄髒", "顏料", "飛濺"],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("splatter"),
+            keywords: &["holi", "paint", "spill", "stain"],
+        },
+    ],
+};

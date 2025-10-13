@@ -15531,6 +15531,1392 @@ pub const ANTENNA_BARS: crate::Emoji = crate::Emoji {
         },
     ],
 };
+#[doc = "🛜"]
+pub const WIRELESS: crate::Emoji = crate::Emoji {
+    glyph: "🛜",
+    codepoint: "1F6DC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 15u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "wireless",
+    group: "Symbols",
+    subgroup: "av-symbol",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("draadloos"),
+            keywords: &[
+                "Wi-Fi",
+                "breëband",
+                "draadloos",
+                "internet",
+                "koordloos",
+                "netwerk",
+                "rekenaar",
+                "roeteerder",
+                "slimfoon",
+            ],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ገመድ አልባ"),
+            keywords: &[
+                "መገናኛ ነጥብ",
+                "ራውተር",
+                "ስማርትፎን",
+                "ብሮድባንድ",
+                "አውታረ መረብ",
+                "ኢንተርኔት",
+                "ኮምፒውተር",
+                "ዋይ ፋይ",
+                "ዘመናዊ ስልክ",
+                "ገመድ አልባ",
+                "ግንኙነት",
+            ],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("اتصال لاسلكي"),
+            keywords: &[
+                "wlan",
+                "إنترنت",
+                "اتصال لاسلكي",
+                "شبكة",
+                "كمبيوتر",
+                "نطاق واسع",
+                "نقطة اتصال",
+                "هاتف ذكي",
+                "واي فاي",
+            ],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ৱ\u{9be}য\u{9bc}\u{9be}ৰলেছ"),
+            keywords: &[
+                "ইণ\u{9cd}ট\u{9be}ৰনেট",
+                "কম\u{9cd}পিউট\u{9be}ৰ",
+                "নেটৱৰ\u{9cd}ক",
+                "ৱ\u{9be}য\u{9bc}\u{9be}ৰলেছ",
+            ],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("naqilsiz"),
+            keywords: &[
+                "hotspot",
+                "internet",
+                "komputer",
+                "kompüter",
+                "naqilsiz",
+                "router",
+                "wifi",
+                "şəbəkə",
+            ],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("бесправадны"),
+            keywords: &["бесправадны", "камп’ютар", "сетка", "інтэрнэт"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("безжичен"),
+            keywords: &[
+                "[wi-fi]",
+                "[wifi]",
+                "безжичен",
+                "връзка",
+                "интернет",
+                "компютър",
+                "мрежа",
+                "смартфон",
+                "хотспот",
+            ],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ওয\u{9bc}\u{9cd}য\u{9be}রলেস"),
+            keywords: &[
+                "ইন\u{9cd}ট\u{9be}রনেট",
+                "ওয\u{9bc}\u{9be}ইফ\u{9be}ই",
+                "ওয\u{9bc}\u{9cd}য\u{9be}রলেস",
+                "কম\u{9cd}পিউট\u{9be}র",
+                "নেটওয\u{9bc}\u{9be}র\u{9cd}ক",
+                "ব\u{9cd}রডব\u{9cd}য\u{9be}ন\u{9cd}ড",
+            ],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("WiFi"),
+            keywords: &["WiFi", "internet", "mreža", "računar"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("sense fil"),
+            keywords: &[
+                "Wi-Fi",
+                "banda ampla",
+                "connectivitat",
+                "internet",
+                "ordinador",
+                "sense fil",
+                "telèfon intel·ligent",
+                "xarxa",
+            ],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏂᏓᏏᎳᏛᎾ"),
+            keywords: &["ᎠᎦᏙᎥᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ", "ᎠᏏᏕᎳᏫᏒᎢ", "ᎫᏓᎸᎢ", "ᏂᏓᏏᎳᏛᎾ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("bezdrátové připojení"),
+            keywords: &[
+                "bezdrátové připojení",
+                "internet",
+                "počítač",
+                "síť",
+                "wi-fi",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("diwifr"),
+            keywords: &[
+                "band eang",
+                "cyfrifiadur",
+                "cysylltedd",
+                "diwifr",
+                "ffôn clyfar",
+                "llwybrydd",
+                "man cychwyn",
+                "rhwydwaith",
+                "rhyngrwyd",
+                "wi-fi",
+                "wifi",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("trådløs"),
+            keywords: &[
+                "bredbånd",
+                "computer",
+                "forbindelse",
+                "hotspot",
+                "internet",
+                "netværk",
+                "router",
+                "smartphone",
+                "trådløs",
+                "wi-fi",
+            ],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("WLAN"),
+            keywords: &[
+                "Computer",
+                "Hotspot",
+                "Internet",
+                "Netzwerk",
+                "Router",
+                "Verbindung",
+                "WLAN",
+                "Wi-Fi",
+                "drahtlos",
+                "kabellos",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("drahtlos"),
+            keywords: &[
+                "Computer", "Internet", "Netzwerk", "WIFI", "WLAN", "drahtlos", "kabellos",
+            ],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ασύρματο"),
+            keywords: &["ίντερνετ", "ασύρματο", "δίκτυο", "διαδίκτυο", "υπολογιστής"],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("wireless"),
+            keywords: &[
+                "broadband",
+                "computer",
+                "connectivity",
+                "hotspot",
+                "internet",
+                "network",
+                "router",
+                "smartphone",
+                "wi-fi",
+                "wifi",
+                "wireless",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "computer", "internet", "network", "wi-fi", "wifi", "wireless",
+            ],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "Wi-Fi", "computer", "internet", "network", "wifi", "wireless",
+            ],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("wifi"),
+            keywords: &[
+                "conexión",
+                "inalámbrica",
+                "internet",
+                "red",
+                "wi-fi",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "computadora",
+                "conectividad",
+                "enrutador",
+                "inalámbrico",
+                "internet",
+                "red",
+                "teléfono inteligente",
+                "wifi",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("juhtmevaba"),
+            keywords: &[
+                "arvuti",
+                "internet",
+                "juhtmevaba",
+                "nutitelefon",
+                "pääsupunkt",
+                "ruuter",
+                "võrk",
+                "wifi",
+                "wlan",
+                "ühendus",
+            ],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("hari gabe"),
+            keywords: &[
+                "banda zabala",
+                "internet",
+                "kablerik gabekoa",
+                "ordenagailua",
+                "routerra",
+                "sarea",
+                "wifia",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("بی\u{200c}سیم"),
+            keywords: &[
+                "wlan",
+                "اتصال",
+                "اینترنت",
+                "باندپهن",
+                "بی\u{200c}سیم",
+                "تلفن هوشمند",
+                "رایانه",
+                "رهیاب",
+                "روتر",
+                "شبکه",
+                "نقطه اتصال",
+                "هات\u{200c}اسپات",
+                "وای فای",
+                "گوشی هوشمند",
+            ],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("langaton"),
+            keywords: &[
+                "internet",
+                "laajakaista",
+                "langaton",
+                "netti",
+                "symboli",
+                "tietokone",
+                "verkko",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("wireless"),
+            keywords: &["computer", "internet", "network", "wireless"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("tráðleyst"),
+            keywords: &[
+                "alnet",
+                "beinari",
+                "breiðband",
+                "hotspot",
+                "internet",
+                "sambinding",
+                "telda",
+                "tráðleyst",
+            ],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("sans fil"),
+            keywords: &[
+                "Wi-Fi",
+                "connexion",
+                "haut débit",
+                "hotspot",
+                "internet",
+                "ordinateur",
+                "routeur",
+                "réseau",
+                "sans fil",
+                "smartphone",
+                "wifi",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["internet", "ordinateur", "réseau", "sans fil"],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("gan sreang"),
+            keywords: &["WiFi", "gan sreang", "gréasán", "idirlíon", "ríomhaire"],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("uèirleas"),
+            keywords: &[
+                "WLAN",
+                "WiFi",
+                "coimpiutair",
+                "eadar-lìon",
+                "lìonra",
+                "uèirleas",
+            ],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("wifi"),
+            keywords: &["Internet", "conexión", "ordenador", "rede"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("વાયરલ\u{ac7}સ"),
+            keywords: &[
+                "ઇન\u{acd}ટરન\u{ac7}ટ",
+                "કન\u{ac7}ક\u{acd}ટિવિટી",
+                "ન\u{ac7}ટવર\u{acd}ક",
+                "બ\u{acd}રોડબ\u{ac7}ન\u{acd}ડ",
+                "રાઉટર",
+                "વાઇફાઇ",
+                "વાયરલ\u{ac7}સ",
+                "સ\u{acd}માર\u{acd}ટફોન",
+                "હોટસ\u{acd}પોટ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("hanyar iska"),
+            keywords: &[
+                "alamar wifi",
+                "hanyar iska",
+                "hanyar sadarwa",
+                "hawa intanet",
+                "haɗin intanet",
+                "intanet",
+                "jona intanet",
+                "kwamfuta",
+                "netuwok",
+                "sabis",
+                "sabis ɗin waya",
+                "wayar hannu",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("hanyar iska"),
+            keywords: &[
+                "alamar wifi",
+                "hanyar iska",
+                "hanyar sadarwa",
+                "hawa intanet",
+                "haɗin intanet",
+                "intanet",
+                "jona intanet",
+                "kwamfuta",
+                "netuwok",
+                "sabis",
+                "sabis ɗin waya",
+                "wayar hannu",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("אלחוטי"),
+            keywords: &[
+                "אינטרנט",
+                "אלחוטי",
+                "וויפי",
+                "חיבור",
+                "מודם",
+                "מחשב",
+                "נתב",
+                "פס רחב",
+                "ראוטר",
+                "רשת",
+            ],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("वायरल\u{947}स"),
+            keywords: &[
+                "इ\u{902}टरन\u{947}ट",
+                "क\u{902}प\u{94d}य\u{942}टर",
+                "न\u{947}टवर\u{94d}क",
+                "वाई-फ\u{93c}ाई",
+                "वायरल\u{947}स",
+                "हॉटस\u{94d}पॉट",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("bežična mreža"),
+            keywords: &[
+                "WLAN",
+                "Wi-Fi",
+                "hotspot",
+                "internet",
+                "mreža",
+                "pametni telefon",
+                "povezivanje",
+                "računalo",
+                "ruter",
+                "veza",
+            ],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("vezeték nélküli"),
+            keywords: &["hálózat", "internet", "számítógép", "vezeték nélküli"],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("անլար"),
+            keywords: &["անլար", "առցանց", "ինտերնետ", "կապ", "ցանց"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("nirkabel"),
+            keywords: &[
+                "daring", "data", "hotspot", "internet", "jaringan", "komputer", "koneksi",
+                "kuota", "nirkabel", "online", "router", "wifi",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("enwēwayà"),
+            keywords: &["kọmputa", "netwọk", "wireless", "ịntanetị"],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("þráðlaust"),
+            keywords: &["internet", "net", "tölva", "þráðlaust"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("wireless"),
+            keywords: &[
+                "computer",
+                "connessione",
+                "internet",
+                "rete",
+                "trasmissione",
+                "wi-fi",
+                "wifi",
+                "wireless",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("Wi-Fi"),
+            keywords: &[
+                "Wi-Fi",
+                "インターネット",
+                "スマホ",
+                "ネットワーク",
+                "ブロードバンド",
+                "ホットスポット",
+                "接続",
+                "無線",
+                "無線LAN",
+                "電波",
+            ],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("nirkabel"),
+            keywords: &["internet", "jaringan", "komputer", "nirkabel"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("უსადენო"),
+            keywords: &["ინტერნეტი", "კომპიუტერი", "უსადენო", "ქსელი"],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("сымсыз желі"),
+            keywords: &[
+                "Wi-fi",
+                "байланыс",
+                "желі",
+                "интернет",
+                "кеңжолақты",
+                "компьютер",
+                "роутер",
+                "смартфон",
+                "сымсыз",
+            ],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ឥតខ\u{17d2}សែ"),
+            keywords: &[
+                "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
+                "បណ\u{17d2}ដាញ",
+                "អ\u{17ca}\u{17b8}នធ\u{17ba}ណ\u{17b7}ត",
+                "ឥតខ\u{17d2}សែ",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ವ\u{cc8}ರ\u{ccd}\u{200c}ಲ\u{cc6}ಸ\u{ccd}"),
+            keywords: &[
+                "ಅಂತರ\u{ccd}ಜಾಲ",
+                "ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}",
+                "ನ\u{cc6}ಟ\u{ccd}\u{200c}ವರ\u{ccd}ಕ\u{ccd}",
+                "ಫ\u{ccb}ನ\u{ccd}",
+                "ಬ\u{ccd}ರಾಡ\u{ccd}\u{200d}ಬ\u{ccd}ಯಾಂಡ\u{ccd}",
+                "ರ\u{ccc}ಟರ\u{ccd}",
+                "ವ\u{cc8}ಫ\u{cc8}",
+                "ವ\u{cc8}ರ\u{ccd}\u{200c}ಲ\u{cc6}ಸ\u{ccd}",
+                "ಸಂಪರ\u{ccd}ಕ",
+                "ಸ\u{ccd}ಮಾರ\u{ccd}ಟ\u{ccd}\u{200c}ಫ\u{ccb}ನ\u{ccd}",
+                "ಹಾಟ\u{ccd}\u{200c}ಸ\u{ccd}ಪಾಟ\u{ccd}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("무선"),
+            keywords: &["네트워크", "무선", "인터넷", "컴퓨터"],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("वायरल\u{947}स"),
+            keywords: &[
+                "wi-fi",
+                "wifi",
+                "wlan",
+                "कन\u{945}क\u{94d}टिव\u{94d}हिटी",
+                "न\u{945}टवर\u{94d}क",
+                "बिनतारी",
+                "ब\u{94d}रॉडब\u{901}ड",
+                "माजाळ\u{947}\u{902}",
+                "र\u{941}टर",
+                "स\u{902}गणक",
+                "स\u{94d}मार\u{94d}टफोन",
+                "हॉटस\u{94d}पॉट",
+            ],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("зымсыз"),
+            keywords: &["зымсыз", "интернет", "компьютер", "тармак"],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໄຮ\u{ec9}ສາຍ"),
+            keywords: &[
+                "WiFi",
+                "ການເຊ\u{eb7}\u{ec8}ອມຕ\u{ecd}\u{ec8}",
+                "ຄອມພ\u{eb4}ວເຕ\u{eb5}",
+                "ຣ\u{eb9}ດເຕ\u{eb5}",
+                "ວາຍຟາຍ",
+                "ສ\u{eb1}ນຍານ",
+                "ອ\u{eb4}ນເຕ\u{eb5}ເນ\u{eb1}ດ",
+                "ເຄ\u{eb7}ອຂ\u{ec8}າຍ",
+                "ເຊ\u{eb7}\u{ec8}ອມຕ\u{ecd}\u{ec8}",
+                "ໂທລະສ\u{eb1}ບ",
+                "ໄວໄຟ",
+                "ໄຮ\u{ec9}ສາຍ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("belaidis ryšys"),
+            keywords: &[
+                "Wi-Fi",
+                "belaidis ryšys",
+                "internetas",
+                "išmanusis telefonas",
+                "kompiuteris",
+                "maršruto parinktuvas",
+                "plačiajuostis",
+                "ryšys",
+                "tinklas",
+                "vietinis belaidis tinklas",
+                "viešosios prieigos taškas",
+            ],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("bezvadu internets"),
+            keywords: &["bezvadu internets", "dators", "internets", "tīkls", "wifi"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("безжично"),
+            keywords: &[
+                "безжично",
+                "интернет",
+                "компјутер",
+                "мрежа",
+                "паметен телефон",
+                "поврзување",
+                "рутер",
+                "хотспот",
+                "широкопојасен",
+            ],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("വയർലെസ\u{d4d}സ\u{d4d}"),
+            keywords: &[
+                "ഇന\u{d4d}റർനെറ\u{d4d}റ\u{d4d}",
+                "കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ",
+                "നെറ\u{d4d}റ\u{d4d}\u{200c}വർക\u{d4d}ക\u{d4d}",
+                "വയർലെസ\u{d4d}സ\u{d4d}",
+                "വയർ\u{200c}ലസ\u{d4d}",
+                "വൈഫൈ",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("утасгүй"),
+            keywords: &["интернэт", "компьютер", "сүлжээ", "утасгүй"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वायरल\u{947}स"),
+            keywords: &[
+                "इ\u{902}टरन\u{947}ट",
+                "कम\u{94d}प\u{94d}य\u{941}टर",
+                "कॉ\u{902}प\u{94d}य\u{941}टर",
+                "न\u{947}टवर\u{94d}क",
+                "ब\u{94d}रॉडब\u{901}ड",
+                "राउटर",
+                "वाय-फाय",
+                "वायरल\u{947}स",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("wayarles"),
+            keywords: &[
+                "Internet",
+                "jalur lebar",
+                "ketersambungan",
+                "komputer",
+                "penghala",
+                "rangkaian",
+                "wayarles",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ကြ\u{102d}\u{102f}းမ\u{1032}\u{1037}"),
+            keywords: &[
+                "ကြ\u{102d}\u{102f}းမ\u{1032}\u{1037}",
+                "က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+                "က\u{103d}န\u{103a}ရက\u{103a}",
+                "အင\u{103a}တာနက\u{103a}",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("वायरल\u{947}स"),
+            keywords: &[
+                "इन\u{94d}टरन\u{947}ट",
+                "कम\u{94d}प\u{94d}य\u{941}टर",
+                "न\u{947}टवर\u{94d}क",
+                "वायरल\u{947}स",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("draadloos"),
+            keywords: &["computer", "draadloos", "internet", "netwerk"],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("trådlaust"),
+            keywords: &["datamaskin", "internett", "nettverk", "trådlaust"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ୱ\u{b3e}ୟ\u{b3e}ର\u{b4d} ଲେସ\u{b4d}"),
+            keywords: &[
+                "ଇଣ\u{b4d}ଟରନେଟ\u{b4d}",
+                "କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର",
+                "ନେଟୱ\u{b3e}ର\u{b4d}କ",
+                "ୱ\u{b3e}ୟ\u{b3e}ର\u{b4d} ଲେସ\u{b4d}",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਵਾਇਰਲ\u{a48}\u{a71}ਸ"),
+            keywords: &[
+                "ਇ\u{a70}ਟਰਨ\u{a48}\u{a71}ਟ",
+                "ਕ\u{a70}ਪਿਊਟਰ",
+                "ਨ\u{a48}\u{a71}ਟ",
+                "ਨ\u{a48}\u{a71}ਟਵਰਕ",
+                "ਵਾਇਰਲ\u{a48}\u{a71}ਸ",
+                "ਸਿਗਨਲ",
+            ],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wáyálẹs"),
+            keywords: &["Kọmpúta", "Nẹ\u{301}twọk", "Wáyálẹs", "Íntánẹt"],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("bezprzewodowy"),
+            keywords: &[
+                "bezprzewodowe",
+                "bezprzewodowy",
+                "hotspot",
+                "internet",
+                "komputer",
+                "router",
+                "sieć",
+                "szerokopasmowe",
+                "wi-fi",
+                "wifi",
+                "wlan",
+                "łączność",
+            ],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("بې سیم"),
+            keywords: &[
+                "hotspot",
+                "wlan",
+                "ارتباط",
+                "انټرنیټ",
+                "براډ بانډ",
+                "بې سیم",
+                "روټر",
+                "سمارټ فون",
+                "شبکه",
+                "وای فای",
+                "کمپیوټر",
+            ],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("sem fio"),
+            keywords: &[
+                "banda larga",
+                "computador",
+                "conectividade",
+                "internet",
+                "ponto de acesso",
+                "rede",
+                "roteador",
+                "sem fio",
+                "smartphone",
+                "wi-fi",
+                "wifi",
+                "wireless",
+            ],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("sem fios"),
+            keywords: &[
+                "computador",
+                "hotspot",
+                "internet",
+                "ligação wi-fi",
+                "rede",
+                "sem fios",
+                "telemóvel",
+                "wifi",
+                "wireless",
+            ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("internetniyuqwan"),
+            keywords: &["computadora", "internet", "internetniyuqwan", "llika"],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("wireless"),
+            keywords: &[
+                "Wi-Fi",
+                "bandă largă",
+                "computer",
+                "conectivitate",
+                "fără fir",
+                "internet",
+                "punct de acces",
+                "rețea",
+                "router",
+                "smartphone",
+                "wireless",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E15-021"),
+            keywords: &["E15-021"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("беспроводная сеть"),
+            keywords: &[
+                "wi-fi",
+                "wifi",
+                "wlan",
+                "беспроводная сеть",
+                "вайфай",
+                "интернет",
+                "компьютер",
+                "подключение",
+                "роутер",
+                "сеть",
+                "смартфон",
+                "точка доступа",
+                "широкополосный",
+            ],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("وائرليس"),
+            keywords: &["انٽرنيٽ", "نيٽ ورڪ", "وائرليس", "ڪمپيوٽر"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("රැහැන\u{dca} රහ\u{dd2}ත"),
+            keywords: &[
+                "අන\u{dca}තර\u{dca}ජ\u{dcf}ලය",
+                "ජ\u{dcf}ල",
+                "පර\u{dd2}ගණකය",
+                "රැහැන\u{dca} රහ\u{dd2}ත",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("bezdrôtový"),
+            keywords: &[
+                "bezdrôtový",
+                "hotspot",
+                "internet",
+                "počítač",
+                "pripojenie",
+                "sieť",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("brezžična povezava"),
+            keywords: &[
+                "WLAN",
+                "Wi-Fi",
+                "brezžična povezava",
+                "dostopna točka",
+                "internet",
+                "omrežje",
+                "pametni telefon",
+                "povezava",
+                "računalnik",
+                "usmerjevalnik",
+                "širokopasovno",
+            ],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("xaraga dhagaha"),
+            keywords: &["internet", "kumbuyuutar", "shabakad", "xaraga dhagaha"],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("lidhje me valë"),
+            keywords: &[
+                "gjerësi vale",
+                "kompjuter",
+                "lidhje",
+                "rrjeti",
+                "ruteri",
+                "wifi",
+                "wireless",
+                "wlan",
+                "zona e qasjes për internet",
+            ],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("мобилна мрежа"),
+            keywords: &["wifi", "интернет", "компјутер", "мрежа", "рачунар"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("mobilna mreža"),
+            keywords: &["internet", "kompjuter", "mreža", "računar", "wifi"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("trådlös"),
+            keywords: &[
+                "dator",
+                "hotspot",
+                "internet",
+                "nätverk",
+                "surfpunkt",
+                "surfzon",
+                "trådlös",
+                "trådlöst",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("pasiwaya"),
+            keywords: &[
+                "hotspot",
+                "intaneti",
+                "kompyuta",
+                "mtandao",
+                "muunganisho",
+                "pasiwaya",
+                "simu janja",
+                "simu mahiri",
+                "wifi",
+            ],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வயர\u{bcd}லெஸ\u{bcd}"),
+            keywords: &[
+                "இணையம\u{bcd}",
+                "இண\u{bcd}டர\u{bcd}நெட\u{bcd}",
+                "கணினி",
+                "சின\u{bcd}னம\u{bcd}",
+                "பிணையம\u{bcd}",
+                "வயர\u{bcd}லெஸ\u{bcd}",
+                "வைஃபை",
+                "ஹ\u{bbe}ட\u{bcd}ஸ\u{bcd}ப\u{bbe}ட\u{bcd}",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("వ\u{c48}ర\u{c4d}\u{200c}ల\u{c46}స\u{c4d}"),
+            keywords: &[
+                "wifi",
+                "wlan",
+                "ఇంటర\u{c4d}న\u{c46}ట\u{c4d}",
+                "కంప\u{c4d}యూటర\u{c4d}",
+                "కన\u{c46}క\u{c4d}ట\u{c3f}వ\u{c3f}ట\u{c40}",
+                "న\u{c46}ట\u{c4d}\u{200c}వర\u{c4d}క\u{c4d}",
+                "బ\u{c4d}ర\u{c3e}డ\u{c4d}\u{200c}బ\u{c4d}య\u{c3e}ండ\u{c4d}",
+                "ర\u{c4c}టర\u{c4d}",
+                "వ\u{c48}ర\u{c4d}\u{200c}ల\u{c46}స\u{c4d}",
+                "స\u{c4d}మ\u{c3e}ర\u{c4d}ట\u{c4d} ఫ\u{c4b}న\u{c4d}",
+                "హ\u{c3e}ట\u{c4d}\u{200c}స\u{c4d}ప\u{c3e}ట\u{c4d}",
+            ],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ไร\u{e49}สาย"),
+            keywords: &[
+                "การเช\u{e37}\u{e48}อมต\u{e48}อ",
+                "คอมพ\u{e34}วเตอร\u{e4c}",
+                "บรอดแบนด\u{e4c}",
+                "สมาร\u{e4c}ทโฟน",
+                "อ\u{e34}นเทอร\u{e4c}เน\u{e47}ต",
+                "ฮอตสปอต",
+                "เคร\u{e37}อข\u{e48}าย",
+                "เน\u{e47}ต",
+                "เราเตอร\u{e4c}",
+                "ไร\u{e49}สาย",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ገመድ ኣልቦ"),
+            keywords: &["ገመድ ኣልቦ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("simsiz"),
+            keywords: &[
+                "birikme ukyby",
+                "giň zolakly",
+                "internet",
+                "kompýuter",
+                "router",
+                "simsiz",
+                "smartfon",
+                "tor",
+                "wi-fi",
+                "wifi",
+                "wlan",
+                "ýaýlym nokady",
+            ],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("mākoni"),
+            keywords: &["fakakomipiuta", "mākoni", "paenga vaheope"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kablosuz"),
+            keywords: &[
+                "akıllı telefon",
+                "ağ",
+                "bağlantı",
+                "bilgisayar",
+                "geniş bant",
+                "internet",
+                "kablosuz",
+                "modem",
+                "wifi",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("бездротовий"),
+            keywords: &[
+                "wifi",
+                "wlan",
+                "безпровідний",
+                "вайфай",
+                "зʼєднання",
+                "маршрутизатор",
+                "мережа",
+                "смартфон",
+                "точка доступу",
+                "хотспот",
+                "інтернет",
+            ],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("وائرلیس"),
+            keywords: &["انٹرنیٹ", "سگنلز", "نیٹ ورک", "وائرلیس", "کمپیوٹر"],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("simsiz"),
+            keywords: &[
+                "hotspot",
+                "internet",
+                "kompyuter",
+                "router",
+                "simsiz",
+                "smartfon",
+                "tarmoq",
+                "ulanish",
+                "wifi",
+                "wlan",
+            ],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("không dây"),
+            keywords: &[
+                "băng thông rộng",
+                "bộ định tuyến",
+                "hotspot",
+                "internet",
+                "không dây",
+                "kết nối",
+                "máy tính",
+                "mạng",
+                "mạng lan",
+                "wifi",
+                "điện thoại thông minh",
+            ],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("aini okun ina"),
+            keywords: &["aini okun ina", "ero ayarabiasa", "intaneeti", "konputa"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aini okun ina"),
+            keywords: &["aini okun ina", "ero ayarabiasa", "intaneeti", "konputa"],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("無線"),
+            keywords: &["互聯網", "無線", "網絡", "電腦"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("无线"),
+            keywords: &["互联网", "无线", "电脑", "网络"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("无线"),
+            keywords: &[
+                "WLAN",
+                "Wi-Fi",
+                "互联网",
+                "宽带",
+                "无线",
+                "智能手机",
+                "热点",
+                "电脑",
+                "网络",
+                "计算机",
+                "连接",
+            ],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("無線"),
+            keywords: &[
+                "無線",
+                "無線網路，wifi，路由器，連線，熱點，寬頻，網路，智慧型手機，電腦",
+                "網路",
+                "網際網路",
+                "電腦",
+            ],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "LAN",
+                "WLAN",
+                "Wi-Fi",
+                "WiFi",
+                "Wifi",
+                "互聯網",
+                "伺服器",
+                "寬頻",
+                "智能電話",
+                "無線",
+                "熱點",
+                "網絡",
+                "路由器",
+                "連線",
+                "電腦",
+            ],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("okungenantambo"),
+            keywords: &["computer", "internet", "network", "okungenantambo"],
+        },
+    ],
+};
 #[doc = "📳"]
 pub const VIBRATION_MODE: crate::Emoji = crate::Emoji {
     glyph: "📳",

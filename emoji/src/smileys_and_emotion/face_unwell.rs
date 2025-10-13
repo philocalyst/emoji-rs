@@ -5321,7 +5321,7 @@ pub const WOOZY_FACE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "😵"]
-pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
+pub const FACE_WITH_CROSSED_OUT_EYES: crate::Emoji = crate::Emoji {
     glyph: "😵",
     codepoint: "1F635",
     status: crate::Status::FullyQualified,
@@ -5332,7 +5332,7 @@ pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "knocked-out face",
+    name: "face with crossed-out eyes",
     group: "Smileys & Emotion",
     subgroup: "face-unwell",
     is_variant: false,

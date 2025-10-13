@@ -192,6 +192,103 @@ pub const RAISING_HANDS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[],
 };
+#[doc = "🫶"]
+pub const HEART_HANDS : crate :: Emoji = crate :: Emoji { glyph : "🫶" , codepoint : "1FAF6" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 14u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "heart hands" , group : "People & Body" , subgroup : "hands" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("handhartjie") , keywords : & ["gebaar" , "hande" , "handhartjie" , "hart" , "hartjiehande" , "lief vir jou" , "liefde"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የልብ ቅርፅ የሰሩ እጆች") , keywords : & ["<3" , "ልብ" , "እወድሃለሁ" , "እወድሻለሁ" , "እጅ" , "እጆች" , "የልብ ቅርፅ የሰሩ እጆች" , "ፍቅር"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("أيدي متشابكة على شكل قلب") , keywords : & ["أحبك" , "أيدي متشابكة على شكل قلب" , "حب" , "قلب" , "يدان"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("হ\u{9be}তেৰে বনোৱ\u{9be} হ\u{9c3}দয\u{9bc}") , keywords : & ["প\u{9cd}ৰেম" , "হ\u{9be}তেৰে বনোৱ\u{9be} হ\u{9c3}দয\u{9bc}"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("əldən ürək") , keywords : & ["<3" , "sevgi" , "səni sevirəm" , "ürək" , "əldən ürək" , "əllər"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("рукі ў форме сэрца") , keywords : & ["каханне" , "любоў" , "рукі ў форме сэрца"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("ръце във формата на сърце") , keywords : & ["любов" , "обичам те" , "ръце" , "ръце във формата на сърце"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("হ\u{9c3}দয\u{9bc}\u{9be}ক\u{9c3}তির হ\u{9be}ত") , keywords : & ["প\u{9cd}রেম" , "ভ\u{9be}লোব\u{9be}স\u{9be}" , "হ\u{9c3}দয\u{9bc}\u{9be}ক\u{9c3}তির হ\u{9be}ত"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("ruke formiraju srce") , keywords : & ["ljubav" , "ruke formiraju srce"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("mans que formen un cor") , keywords : & ["<3" , "amor" , "cor" , "mans" , "mans que formen un cor" , "t’estimo"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏓᏅᏙ ᏧᏬᏰᏂ") , keywords : & ["ᎠᏓᏅᏙ ᏧᏬᏰᏂ" , "ᎬᎨᏳ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("ruce spojené do tvaru srdce") , keywords : & ["gesto lásky" , "láska" , "milovat" , "miluji tě" , "ruce spojené do tvaru srdce" , "ruka" , "srdce" , "srdíčko"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("dwylo calon") , keywords : & ["cariad" , "dwylo calon"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("hjertehænder") , keywords : & ["<3" , "elsker" , "elsker dig" , "elsker jer" , "hjerte" , "hjertehænder" , "hænder" , "kærlighed"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Hände, die Herz bilden") , keywords : & ["<3" , "Finger" , "Geste" , "Handgeste" , "Handherz" , "Herz" , "Hände" , "Händeherz" , "Liebe" , "hdl"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("καρδούλα με τα χέρια") , keywords : & ["αγάπη" , "αγαπώ" , "καρδιά" , "καρδούλα με τα χέρια" , "σ’ αγαπώ"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("heart hands") , keywords : & ["<3" , "hands" , "heart" , "love" , "you"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("manos formando un corazón") , keywords : & ["amor" , "manos formando un corazón"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("corazón con las manos") , keywords : & ["amor" , "corazón" , "corazón con las manos" , "manos" , "manos formando un corazón" , "te amo"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("südant moodustavad käed") , keywords : & ["<3" , "armastan sind" , "armastus" , "käed" , "süda" , "südant moodustavad käed"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("bihotz-forma egiten ari diren eskuak") , keywords : & ["bihotz-forma egiten ari diren eskuak" , "maitasuna"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("شکل قلب با دست") , keywords : & ["افراد" , "بدن" , "دست\u{200c}ها" , "دوستت دارم" , "شکل قلب با دست" , "عاشقتم" , "عشق" , "قلب"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("sydänkuvio käsillä") , keywords : & ["rakas" , "rakastaa" , "rakastan sinua" , "rakkaus" , "sydän" , "sydänkuvio käsillä" , "sydänkädet"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("nakapusong kamay") , keywords : & ["<3" , "i love you" , "kamay" , "love you" , "nakapusong kamay" , "puso"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("hjarta hendur") , keywords : & ["hendur" , "hjarta" , "hond" , "kærleiki"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("mains qui forment un cœur") , keywords : & ["amour" , "cœur" , "mains qui forment un cœur"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("lámha croí") , keywords : & ["croí" , "grá" , "lámha"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("dà làimh ann an cumadh cridhe") , keywords : & ["dà làimh ann an cumadh cridhe" , "gaol" , "gràdh"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mans facendo un corazón") , keywords : & ["amor" , "mans facendo un corazón"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("હ\u{ac3}દયનો આકાર બતાવતા હાથ") , keywords : & ["<3" , "પ\u{acd}ર\u{ac7}મ" , "લવ ય\u{ac1}" , "હાથ" , "હ\u{ac3}દય" , "હ\u{ac3}દયનો આકાર બતાવતા હાથ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("hannayen zuciya") , keywords : & ["daʼirar so" , "hannaye" , "hannayen zuciya" , "hat" , "so" , "soyayya" , "zuciya"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("hannayen zuciya") , keywords : & ["daʼirar so" , "hannaye" , "hannayen zuciya" , "hat" , "so" , "soyayya" , "zuciya"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("סימן לב עם הידיים") , keywords : & ["אהבה" , "אוהבים" , "ידיים לב" , "לב" , "סימן לב עם הידיים"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("हाथो\u{902} स\u{947} बना दिल का चिह\u{94d}न") , keywords : & ["<3" , "दिल" , "दो हाथ" , "प\u{94d}यार" , "लव य\u{942}" , "हाथ" , "हाथो\u{902} स\u{947} बना दिल का चिह\u{94d}न" , "हाथो\u{902} स\u{947} बनाया गया दिल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("ruke koje tvore srce") , keywords : & ["<3" , "ljubav" , "ruke" , "ruke koje tvore srce" , "ruke u obliku srca" , "srce"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("szívet formázó kezek") , keywords : & ["szeretet" , "szív" , "szívet formázó kezek"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("սիրտ-ձեռքեր") , keywords : & ["սեր" , "սիրտ-ձեռքեր"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("tangan membentuk hati") , keywords : & ["<3" , "cinta" , "cinta kamu" , "hati" , "tanda cinta" , "tangan hati" , "tangan membentuk hati"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("obi aka") , keywords : & ["<3" , "aka" , "gị" , "ihunanya" , "obi"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hjartahendur") , keywords : & ["hjartahendur" , "ást"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("mani a cuore") , keywords : & ["amore" , "cuore" , "mani a cuore" , "mano" , "ti amo" , "ti voglio bene"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ハート形の手") , keywords : & ["ハート" , "ハートポーズ" , "ハート形の手" , "ラブ" , "両手ハート" , "愛" , "手"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("tangan loro mbentuk ati") , keywords : & ["tangan loro mbentuk ati" , "tresna"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("გულის ჟესტი") , keywords : & ["გულის ჟესტი" , "სიყვარული"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("ifassen am wul") , keywords : & ["ifassen am wul"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("жұректі көрсетіп тұрған қолдар") , keywords : & ["жақсы көремін" , "жүрек" , "жүректі көрсетіп тұрған қолдар" , "жұректі көрсетіп тұрған қолдар" , "махаббат" , "сені жақсы көремін" , "қолдар"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាផ\u{17d2}គ\u{17bb}\u{17c6}ដៃរាងបេះដ\u{17bc}ង") , keywords : & ["<3" , "បេះដ\u{17bc}ង" , "ប\u{17d2}រអប\u{17cb}ដៃ" , "ស\u{17d2}នេហា" , "ស\u{17d2}នេហ\u{17cd}" , "ស\u{17d2}រឡាញ\u{17cb}" , "អ\u{17d2}នក"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಹೃದಯದಾಕಾರದಲ\u{ccd}ಲ\u{cbf} ಕ\u{cc8}ಗಳು") , keywords : & ["ಕ\u{cc8}ಗಳು" , "ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}" , "ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}ಸುವ\u{cc6}" , "ಪ\u{ccd}ರ\u{cc7}ಮ\u{cbf}" , "ಲವ\u{ccd}" , "ಲವ\u{ccd} ಯ\u{cc2}" , "ಹೃದಯ" , "ಹೃದಯದಾಕಾರದಲ\u{ccd}ಲ\u{cbf} ಕ\u{cc8}ಗಳು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("손 하트") , keywords : & ["러브" , "사랑" , "사랑해" , "손" , "손 하트" , "아이 러브 유"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("काळजाचो आकार क\u{947}ल\u{94d}ल\u{947} हात") , keywords : & ["काळजाचो आकार क\u{947}ल\u{94d}ल\u{947} हात" , "मोग"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("жүрөк кол") , keywords : & ["жүрөк кол"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ມ\u{eb7}ຮ\u{eb9}ບຊ\u{ebb}ງຫ\u{ebb}ວໃຈ") , keywords : & ["ຄວາມຮ\u{eb1}ກ" , "ມ\u{eb7}ຮ\u{eb9}ບຊ\u{ebb}ງຫ\u{ebb}ວໃຈ" , "ຫ\u{ebb}ວໃຈ" , "ຮ\u{eb1}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("širdelė iš rankų") , keywords : & ["meilė" , "myliu tave" , "rankos" , "širdelė iš rankų" , "širdis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("sirds žests") , keywords : & ["mīlestība" , "rokas" , "sirds" , "sirds žests"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("срце од раце") , keywords : & ["срце од раце" , "љубов"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("കൈകള\u{d3e}ല\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയം") , keywords : & ["കൈകള\u{d3e}ല\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയം" , "കൈകൾ" , "പ\u{d4d}രണയം" , "പ\u{d4d}രണയിക\u{d4d}ക\u{d41}ന\u{d4d}ന\u{d41}" , "സ\u{d4d}നേഹം" , "ഹ\u{d43}ദയം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("зүрхэн гар") , keywords : & ["зүрхэн гар" , "хайр"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("हात ह\u{943}दय आकार") , keywords : & ["प\u{94d}र\u{947}म" , "हात ह\u{943}दय आकार" , "हातान\u{947} क\u{947}ल\u{947}ला ह\u{943}दयाचा आकार"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("tangan berbentuk hati") , keywords : & ["cinta" , "tangan berbentuk hati"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("လက\u{103a}ချောင\u{103a}းများဖြင\u{1037}\u{103a} အသည\u{103a}းန\u{103e}လ\u{102f}\u{1036}းပ\u{102f}\u{1036}ဖော\u{103a}ခြင\u{103a}း") , keywords : & ["ချစ\u{103a}ခြင\u{103a}း" , "လက\u{103a}ချောင\u{103a}းများဖြင\u{1037}\u{103a} အသည\u{103a}းန\u{103e}လ\u{102f}\u{1036}းပ\u{102f}\u{1036}ဖော\u{103a}ခြင\u{103a}း"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("हातल\u{947} दिल बनाएको") , keywords : & ["माया" , "हातल\u{947} दिल बनाएको"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("handen in de vorm van een hart") , keywords : & ["<3" , "handen" , "hart" , "hou" , "jou"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("hjartehender") , keywords : & ["hender som lagar hjarte" , "hjartehender" , "kjærleik"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ହ\u{b43}ଦୟ ହ\u{b3e}ତ") , keywords : & ["ହ\u{b3e}ତରେ ଭଲ ପ\u{b3e}ଇବ\u{b3e} ଚ\u{b3f}ହ\u{b4d}ନ" , "ହ\u{b43}ଦୟ ହ\u{b3e}ତ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਦਿਲ ਬਣ\u{a47} ਹ\u{a71}ਥ") , keywords : & ["<3" , "ਤ\u{a47}ਰ\u{a47} ਨਾਲ ਪਿਆਰ" , "ਦਿਲ" , "ਦਿਲ ਬਣ\u{a47} ਹ\u{a71}ਥ" , "ਪਿਆਰ" , "ਰਿਸ\u{a3c}ਤਾ" , "ਹ\u{a71}ਥ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Hát hand-dẹm") , keywords : & ["Hand-dẹm Wé Fọ\u{301}m Hat Shep" , "Hát hand-dẹm" , "Lọv"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("dłonie tworzące serce") , keywords : & ["<3" , "dłonie tworzące serce" , "miłość" , "serce"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("زړه لاسونه") , keywords : & ["<3" , "ته" , "زړه" , "لاسونه" , "مینه"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("mãos de coração") , keywords : & ["<3" , "amei" , "amo você" , "amor" , "coração" , "mão" , "mãos" , "mãos de coração" , "te amo"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("mãos em forma de coração") , keywords : & ["<3" , "amo-te" , "amor" , "mão-coração" , "mãos" , "mãos de coração" , "mãos em forma de coração"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("sunqu makikunawan") , keywords : & ["munay" , "sunqu makikunawan"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("mâini care formează o inimă") , keywords : & ["dragoste" , "iubire" , "mâini care formează o inimă"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E14-014") , keywords : & ["E14-014"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("жест «сердце»") , keywords : & ["жест" , "любовь" , "руки" , "сердце"] , } , # [cfg (feature = "sat")] crate :: Annotation { lang : "sat" , tts : Some ("ᱫᱩᱞᱟᱹᱲ ᱛᱤ") , keywords : & ["ᱫᱩᱞᱟᱹᱲ ᱛᱤ"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("دل جي شڪل وارا ھٿ") , keywords : & ["دل جي شڪل وارا ھٿ" , "پيار"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("හදවත අත\u{dca}") , keywords : & ["ආදරය" , "හදවත අත\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("srdce z dlaní") , keywords : & ["láska" , "milujem ťa" , "ruky" , "srdce" , "srdce z dlaní"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("roki, sklenjeni v obliki srca") , keywords : & ["ljubezen" , "ljubim te" , "roki" , "roki, sklenjeni v obliki srca" , "sklenjeni v obliki srca" , "srce"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("gacanta qalbiga") , keywords : & ["gacanta qalbiga" , "jacayl"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("duar si zemër") , keywords : & ["<3" , "dashuri" , "duar" , "duar si zemër" , "të dua" , "zemër"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("руке које праве срце") , keywords : & ["<3" , "волим" , "руке" , "срце" , "љубав"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("ruke koje prave srce") , keywords : & ["<3" , "ljubav" , "ruke" , "srce" , "volim"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("handhjärta") , keywords : & ["handhjärta" , "kärlek" , "älskar"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mikono inayoonyesha ishara ya moyo") , keywords : & ["mapenzi" , "mikono" , "mikono inayoonyesha ishara ya moyo" , "moyo" , "penzi" , "upendo"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("இதய வடிவத\u{bcd}தைக\u{bcd} க\u{bbe}ட\u{bcd}டும\u{bcd} கைகள\u{bcd}") , keywords : & ["அன\u{bcd}பு" , "இதய வடிவத\u{bcd}தைக\u{bcd} க\u{bbe}ட\u{bcd}டும\u{bcd} கைகள\u{bcd}" , "இதயம\u{bcd}" , "க\u{bbe}தலிக\u{bcd}கிறேன\u{bcd}" , "க\u{bbe}தல\u{bcd}" , "கைகள\u{bcd}" , "நேசம\u{bcd}" , "நேசிக\u{bcd}கிறேன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("హృదయ\u{c3e}క\u{c3e}రంల\u{c4b} చ\u{c47}తులు") , keywords : & ["ఐ లవ\u{c4d} యూ" , "నువ\u{c4d}వ\u{c47} న\u{c3e} ప\u{c4d}ర\u{c3e}ణం" , "న\u{c47}ను న\u{c3f}న\u{c4d}ను ప\u{c4d}ర\u{c47}మ\u{c3f}స\u{c4d}తున\u{c4d}న\u{c3e}ను" , "ప\u{c4d}ర\u{c47}మ" , "మనసంత\u{c3e} నువ\u{c4d}వ\u{c47}" , "యూ ఆర\u{c4d} మ\u{c48} హ\u{c3e}ర\u{c4d}ట\u{c4d}" , "లవ\u{c4d} యూ" , "హృదయం" , "హృదయ\u{c3e}క\u{c3e}రంల\u{c4b} చ\u{c47}తులు"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ม\u{e37}อร\u{e39}ปห\u{e31}วใจ") , keywords : & ["ค\u{e38}ณ" , "น\u{e34}\u{e49}ว" , "ม\u{e37}อ" , "ร\u{e31}ก" , "ห\u{e31}วใจ"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ልቢ ኣእዳው") , keywords : & ["<3" , "ልቢ" , "ንስኻ" , "ኣእዳው" , "ፍቕሪ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýürek ýasaýan eller") , keywords : & ["söýgi" , "ýürek ýasaýan eller"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("ongo nima fakamafu") , keywords : & ["ongo nima fakamafu" , "ʻofa"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kalp oluşturan eller") , keywords : & ["<3" , "aşk" , "birlikte" , "biz" , "el" , "kalp" , "kalp oluşturan eller" , "sevgi" , "seviyorum"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("жест «серце»") , keywords : & ["<3" , "жест «серце»" , "кохання" , "люблю тебе" , "любов" , "руки" , "серце"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ہاتھوں سے بنا دل") , keywords : & ["تم سے پیار ہے" , "تم میری محبت ہو" , "لو یو" , "محبت" , "ہاتھوں سے بنا دل"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("qoʻlda yurak") , keywords : & ["<3" , "muhabbat" , "qoʻlda yurak" , "qoʻllar" , "seni sevaman" , "sevgi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("hai bàn tay tạo hình trái tim") , keywords : & ["hai bàn tay tạo hình trái tim" , "yêu"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ọwọ\u{301} ọkàn") , keywords : & ["ìfẹ\u{301}" , "ọwọ\u{301} ọkàn"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("ɔwɔ\u{301} ɔkàn") , keywords : & ["ìfɛ\u{301}" , "ɔwɔ\u{301} ɔkàn"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("心形手勢") , keywords : & ["心形手勢" , "愛情"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("心形手势") , keywords : & ["心形手势" , "爱情"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("做成心形的双手") , keywords : & ["做成心形的双手" , "手" , "比心" , "爱" , "爱你" , "爱心"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("雙手心形") , keywords : & ["<3" , "愛" , "愛你" , "愛心" , "手" , "雙手心形"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("雙手比心") , keywords : & ["俾心" , "心型手勢" , "心心" , "愛" , "愛你" , "愛心" , "手勢" , "有愛" , "比心" , "雙手" , "雙手比心"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("thanda izandla") , keywords : & ["thanda izandla" , "uthando"] , }] , } ;
+#[doc = "🫶🏻"]
+pub const HEART_HANDS_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫶🏻",
+    codepoint: "1FAF6 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "heart hands: light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫶🏼"]
+pub const HEART_HANDS_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫶🏼",
+    codepoint: "1FAF6 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "heart hands: medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫶🏽"]
+pub const HEART_HANDS_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫶🏽",
+    codepoint: "1FAF6 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "heart hands: medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫶🏾"]
+pub const HEART_HANDS_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫶🏾",
+    codepoint: "1FAF6 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "heart hands: medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫶🏿"]
+pub const HEART_HANDS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫶🏿",
+    codepoint: "1FAF6 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "heart hands: dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
 #[doc = "👐"]
 pub const OPEN_HANDS : crate :: Emoji = crate :: Emoji { glyph : "👐" , codepoint : "1F450" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "open hands" , group : "People & Body" , subgroup : "hands" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("oop hande") , keywords : & ["hand" , "jazzhande" , "omhels" , "oop" , "oop hande" , "swenk"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የተከፈቱ ሁለት እጆች") , keywords : & ["ንጹ ነኝ" , "አላውቅም" , "አካል" , "እጅ" , "ክፍት" , "የተከፈቱ ሁለት እጆች"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("يدان مفتوحتان") , keywords : & ["إثارة" , "تحمس" , "حماس" , "عبطة" , "عبوطة" , "علامة" , "علامة فتح اليدين" , "غمرة" , "متحمس" , "مشوق" , "مفتوح" , "مفتوحة" , "يد" , "يدان مفتوحتان"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("মেল\u{9be} হ\u{9be}ত") , keywords : & ["খোল\u{9be}" , "মেল\u{9be} হ\u{9be}ত" , "হ\u{9be}ত"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("açıq əllər") , keywords : & ["açıq" , "açıq əllər" , "orqan" , "qucaqlama jesti" , "əl"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("адкрытыя рукі") , keywords : & ["адкрытыя" , "бяспека" , "рукі"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Отворени ръце") , keywords : & ["Отворени ръце" , "джаз" , "отворен" , "отворени ръце" , "прегръдка" , "ръка" , "тяло"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("খোল\u{9be} হ\u{9be}ত") , keywords : & ["খোল\u{9be}" , "জড\u{9bc}িয\u{9bc}ে ধরতে" , "শরীর" , "হ\u{9be}ত"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("otvoreni dlanovi") , keywords : & ["dlanovi" , "otvoreni dlanovi" , "ruke"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("mans obertes") , keywords : & ["abraçada" , "cos" , "mans de jazz" , "mans obertes" , "mà" , "oberta" , "virar bruscament"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏗᏚᎢᏓ ᏙᏬᏰᎾ") , keywords : & ["ᎠᏍᏚᎢᏓ" , "ᎤᏬᏱ" , "ᏗᏚᎢᏓ ᏙᏬᏰᎾ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("rozevřené dlaně") , keywords : & ["dlaně" , "obejmout" , "objetí" , "otevřený" , "rozevřené dlaně" , "ruka" , "tělo" , "třepotat rukama"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("dwylo agored") , keywords : & ["agored" , "corff" , "dwylo agored" , "llaw"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("åbne hænder") , keywords : & ["håndtegn" , "åbne hænder" , "åbne hænder-tegn"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("offene Hände") , keywords : & ["Hände" , "Jazz" , "Umarmung" , "offen" , "umarmen"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("ανοικτά χέρια") , keywords : & ["αγκαλιάζω" , "ανοικτά χέρια" , "ανοιχτό" , "εκτρέπομαι" , "θρίαμβος" , "σώμα" , "τζαζ χέρια" , "χέρι"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("open hands") , keywords : & ["hand" , "hands" , "hug" , "jazz" , "open" , "swerve"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("manos abiertas") , keywords : & ["abiertas" , "manos"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["manos" , "manos abiertas" , "señal de manos abiertas"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["abierta" , "mano" , "manos abiertas"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("avatud käed") , keywords : & ["avatud" , "avatud käed" , "keha" , "käsi"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("esku irekiak") , keywords : & ["esku" , "esku irekiak" , "gorputz" , "ireki"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("دست\u{200c}های باز") , keywords : & ["باز" , "بدن" , "دست" , "دست\u{200c}های باز"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("avoimet kädet") , keywords : & ["avoimet kädet" , "avoin" , "halaus" , "käsi" , "vartalo"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("bukas-palad") , keywords : & ["bukas-palad" , "gesture" , "kamay" , "palad" , "yakap"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("opnar hendur") , keywords : & ["hendur" , "hond" , "opin" , "opnar hendur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("mains ouvertes") , keywords : & ["main" , "mains ouvertes" , "mains écartées" , "ouvert"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["main" , "mains ouvertes" , "ouvertes"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("lámha ar oscailt") , keywords : & ["ar oscailt" , "lámha" , "lámha ar oscailt" , "lámha oscailte"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("làmhan fosgailte") , keywords : & ["fosgailte" , "làmh" , "làmhan fosgailte"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("mans abertas") , keywords : & ["abertas" , "mans"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ખ\u{ac1}લ\u{acd}લા\u{a82} હાથ") , keywords : & ["ખ\u{ac1}લ\u{acd}લા\u{a82}" , "ખ\u{ac1}લ\u{acd}લા\u{a82} હાથન\u{ac1}\u{a82} ચિહ\u{acd}ન" , "ગળ\u{ac7}મળવ\u{ac1}\u{a82}" , "ચિહ\u{acd}ન" , "ભ\u{ac7}\u{a82}ટવ\u{ac1}\u{a82}" , "હાથ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("buɗaɗɗun hannuwa") , keywords : & ["a buɗe" , "buɗaɗɗun hannuwa" , "hannu" , "sannunku" , "tafin hannu"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("buɗaɗɗun hannuwa") , keywords : & ["a buɗe" , "buɗaɗɗun hannuwa" , "hannu" , "sannunku" , "tafin hannu"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("כפות ידיים פתוחות") , keywords : & ["חיבוק" , "ידיים פתוחות" , "כפות ידיים פתוחות" , "קבלה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("ख\u{941}ल\u{947} हाथ") , keywords : & ["ख\u{941}ला" , "ख\u{941}ल\u{947} हाथ" , "ख\u{941}ल\u{947} हाथ का चिह\u{94d}न" , "चिह\u{94d}न" , "हाथ"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("otvorene ruke") , keywords : & ["otvorene ruke" , "otvoreno" , "ruka" , "tijelo" , "zagrljaj"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("széttárt kéz") , keywords : & ["kitárva" , "kéz" , "széttárt kéz" , "test"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բաց ձեռքեր") , keywords : & ["բաց" , "բաց ձեռքեր" , "ձեռք" , "մարմին"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("tangan terbuka") , keywords : & ["badan" , "peluk" , "tangan" , "terbuka" , "tubuh"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("aka mepere emepe") , keywords : & ["aka" , "itughari" , "jazz" , "mepere" , "mmakụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("opinn lófi") , keywords : & ["hendur" , "lófar" , "opinn lófi" , "opnir lófar"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("mani aperte") , keywords : & ["abbracciare" , "abbraccio" , "accogliere" , "aperta" , "aperte" , "mani" , "mano" , "segno" , "segno delle mani aperte"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("両手のひら") , keywords : & ["おっはー" , "両手のひら" , "手" , "手のひら" , "開いた両手"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("tangan loro mlumah") , keywords : & ["mlumah" , "tangan" , "tangan loro mlumah"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("გაშლილი ხელები") , keywords : & ["გაშლილი ხელები" , "სხეული" , "ტანი" , "ღია" , "ხელი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("ifassen yeldin") , keywords : & ["ifassen yeldin"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("алақанды көрсету") , keywords : & ["алақанды көрсету" , "ашық" , "дене" , "қол"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("åbne hænder") , keywords : & ["håndtegn" , "åbne hænder" , "åbne hænder-tegn"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("លាបង\u{17d2}ហាញបាតដៃទា\u{17c6}ងព\u{17b8}រ") , keywords : & ["លាដៃ" , "លាបង\u{17d2}ហាញបាតដៃទា\u{17c6}ងព\u{17b8}រ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ತ\u{cc6}ರ\u{cc6}ದ\u{cbf}ರುವ ಕ\u{cc8}ಗಳು") , keywords : & ["ಅತ\u{ccd}ಯಧ\u{cbf}ಕವ\u{cc6}ಂದು ಸ\u{cc2}ಚ\u{cbf}ಸುವ" , "ಅಪ\u{ccd}ಪುಗ\u{cc6}" , "ಕ\u{cc8}" , "ಜ\u{ccd}ಯಾಝ\u{ccd} ನೃತ\u{ccd}ಯದಲ\u{ccd}ಲ\u{cbf}ನ ಕ\u{cc8}ಯ ಭಂಗ\u{cbf}" , "ತ\u{cc6}ರ\u{cc6}ಗಳ ಕ\u{cc8}ಗಳ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}" , "ತ\u{cc6}ರ\u{cc6}ದ ಕ\u{cc8}ಗಳು" , "ತ\u{cc6}ರ\u{cc6}ದ\u{cbf}ರುವ ಕ\u{cc8}ಗಳು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("양손을 모아서 벌린 모양") , keywords : & ["두 손 펼치기" , "벌린" , "손" , "양손을 모아서 벌린 모양" , "재즈 핸드" , "펼친 두 손" , "포옹"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("उकत\u{947} हात") , keywords : & ["उकत\u{947} हात" , "उकत\u{947}\u{902}" , "हात"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("ачык алакандар") , keywords : & ["алакан" , "ач" , "ачык алакандар" , "дене"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("oppen Hänn") , keywords : & ["Hand" , "oppen" , "oppen Hänn"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ແບມ\u{eb7}ອອກສອງຂ\u{ec9}າງ") , keywords : & ["ຮ\u{ec8}າງກາຍ" , "ແບມ\u{eb7}" , "ແບມ\u{eb7}ອອກສອງຂ\u{ec9}າງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("atviros rankos") , keywords : & ["atviros" , "ranka" , "rankos"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("atvērtas rokas") , keywords : & ["apskāviens" , "atvērtas rokas" , "roka" , "ķermenis"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("ringa tuwhera") , keywords : & ["ringa" , "tuwhera"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("отворени дланки") , keywords : & ["дланка" , "дланки" , "отворени" , "отворено" , "прегратка" , "рака" , "раце" , "тело" , "џез дланки" , "џез раце"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ത\u{d41}റന\u{d4d}ന കൈകൾ") , keywords : & ["കൈ" , "ത\u{d41}റക\u{d4d}ക\u{d41}ക" , "ത\u{d41}റന\u{d4d}ന കൈകൾ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("дэлгэсэн алга") , keywords : & ["алга" , "гар" , "дэлгэсэн алга" , "дэлгээтэй" , "нээлттэй"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("ख\u{941}ल\u{947} हात") , keywords : & ["ख\u{941}ल\u{947}" , "ख\u{941}ल\u{947} हाताच\u{947} चिन\u{94d}ह" , "चिन\u{94d}ह" , "हात"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("tangan terbuka") , keywords : & ["peluk" , "tangan" , "terbuka"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("idejn miftuħa") , keywords : & ["id" , "idejn miftuħa" , "miftuħa"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} လက\u{103a}များ") , keywords : & ["ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} လက\u{103a}များ" , "လက\u{103a}" , "လက\u{103a}န\u{103e}စ\u{103a}ခြောင\u{103a}း ဖြန\u{1037}\u{103a}ထားပ\u{102f}\u{1036}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("ख\u{941}ला हातहर\u{942}") , keywords : & ["ख\u{941}ला" , "ख\u{941}ला हातहर\u{942}" , "शरीर" , "हात"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("open handen") , keywords : & ["hand" , "handen" , "jazz hands" , "open"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("opne hender") , keywords : & ["hand" , "hender" , "opne"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଖୋଲ\u{b3e} ହ\u{b3e}ତଗ\u{b41}ଡ\u{b3c}\u{b3f}କ") , keywords : & ["ଖୋଲ\u{b3e} ହ\u{b3e}ତ" , "ଖୋଲ\u{b3e} ହ\u{b3e}ତ ଚ\u{b3f}ହ\u{b4d}ନ" , "ଖୋଲ\u{b3e} ହ\u{b3e}ତଗ\u{b41}ଡ\u{b3c}\u{b3f}କ" , "ଖୋଲ\u{b3f}ବ\u{b3e}" , "ଚ\u{b3f}ହ\u{b4d}ନ" , "ହ\u{b3e}ତ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹ\u{a47} ਹ\u{a71}ਥ") , keywords : & ["ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹਾ" , "ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹ\u{a47} ਹ\u{a71}ਥ" , "ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹ\u{a47} ਹ\u{a71}ਥ ਦਾ ਨਿਸ\u{a3c}ਾਨ" , "ਜ\u{a71}ਫੀ" , "ਝ\u{a4b}ਲ" , "ਨਿਸ\u{a3c}ਾਨ" , "ਹ\u{a71}ਥ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("کھلے ہتھ") , keywords : & ["ک\u{64f}ھلا" , "کھلے ہتھ" , "ہتھ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Ópún Hand-dẹm") , keywords : & ["Hand" , "Ópun" , "Ópún Hand-dẹm"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("otwarte dłonie") , keywords : & ["otwarte dłonie" , "puste ręce" , "ręce" , "ręka" , "złapać"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("خلاص لاسونه") , keywords : & ["خلاص" , "خلاص لاسونه" , "لاس"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("mãos abertas") , keywords : & ["abertas" , "mão" , "mãos abertas" , "sinal" , "sinal de mãos abertas"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["aberta" , "abraço" , "corpo" , "mão" , "mãos abertas" , "mãos de jazz"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("kichasqa makikuna") , keywords : & ["kichasqa makikuna" , "kichay" , "maki"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("palme deschise") , keywords : & ["cu mâinile curate" , "deschis" , "deschise" , "jazz" , "mâini" , "mână" , "nevinovăție" , "palme" , "îmbrățișare"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-525") , keywords : & ["E10-525"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("ладони в стороны") , keywords : & ["врозь" , "ладони" , "открытые" , "рука" , "руки"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("ikimenyetso cy’ibiganza bibumbuye") , keywords : & ["gufungura" , "ikiganza" , "ikimenyetso cy’ibiganza bibumbuye"] , } , # [cfg (feature = "sat")] crate :: Annotation { lang : "sat" , tts : Some ("ᱠᱷᱩᱞᱟᱹ ᱛᱤ") , keywords : & ["ᱠᱷᱩᱞᱟᱹ ᱛᱤ"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("کليل هٿ") , keywords : & ["هٿ" , "کليل"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ව\u{dd2}වෘත අත\u{dca}") , keywords : & ["අත" , "ව\u{dd2}වෘත" , "ව\u{dd2}වෘත අත\u{dca}" , "ශර\u{dd3}රය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("roztvorené dlane") , keywords : & ["dlane" , "objatie" , "objať" , "otvorená" , "otvorené ruky" , "roztvorené dlane" , "ruka" , "ruky" , "telo"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("odprti dlani") , keywords : & ["dlan" , "jazz" , "objem" , "odprti dlani" , "odprto"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("gacmo furan") , keywords : & ["furan" , "gacan" , "gacmo furan"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("duar të hapura") , keywords : & ["dorë" , "duar të hapura" , "e hapur" , "hap" , "përqafoj" , "trup"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("расклопљене шаке") , keywords : & ["загрљај" , "отворено" , "рука" , "руке" , "џез"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("rasklopljene šake") , keywords : & ["džez" , "otvoreno" , "ruka" , "ruke" , "zagrljaj"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("öppna händer") , keywords : & ["hand" , "händer" , "jazzhänder" , "öppna"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mikono iliyowazi") , keywords : & ["mikono iliyowazi" , "mkono" , "mwili" , "wazi"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("கைகளை விரித\u{bcd}தல\u{bcd}") , keywords : & ["அணைத\u{bcd}தல\u{bcd}" , "உடல\u{bcd}" , "கைகளை விரித\u{bcd}தல\u{bcd}" , "கைகள\u{bcd}" , "திறந\u{bcd}த கைகள\u{bcd}" , "வழிம\u{bbe}றுதல\u{bcd}" , "விரித\u{bcd}த கைகள\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ఉత\u{c4d}త చ\u{c47}తులు") , keywords : & ["ఉత\u{c4d}త చ\u{c47}తుల గుర\u{c4d}తు" , "ఉత\u{c4d}త చ\u{c47}తులు" , "ఓప\u{c46}న\u{c4d}" , "ఓప\u{c46}న\u{c4d} హ\u{c4d}య\u{c3e}ండ\u{c4d}స\u{c4d}" , "క\u{c4c}గ\u{c3f}ల\u{c3f}" , "జ\u{c3e}జ\u{c4d} హ\u{c3e}ండ\u{c4d}స\u{c4d}" , "త\u{c46}ర\u{c3f}చ\u{c3f}న చ\u{c47}తులు" , "సంబర\u{c3e}ల\u{c4d}ల\u{c4b} చ\u{c47}తులు ప\u{c48}క\u{c3f} ఎత\u{c4d}త\u{c3f} ఆడ\u{c3f}ప\u{c3e}డ\u{c47} గుర\u{c4d}తు" , "స\u{c4d}వ\u{c47}ర\u{c4d}వ\u{c4d}" , "హగ\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("дастҳои кушода") , keywords : & ["даст" , "дастҳои кушода" , "кушода"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("แบม\u{e37}อ") , keywords : & ["ม\u{e37}อ" , "อว\u{e31}ยวะ" , "แบม\u{e37}อ"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ክፉት ኢድ") , keywords : & ["ምሕቋፍ" , "ምጥዋይ" , "ኢድ" , "ኣእዳው" , "ክፉት" , "ጃዝ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("açyk eller") , keywords : & ["açmak" , "açyk eller" , "el"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("nima homo") , keywords : & ["homo" , "nima" , "ongo"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("eller açık") , keywords : & ["açık" , "el" , "eller açık" , "eller açık işareti" , "işaret"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ئوچۇق قول") , keywords : & ["ئوچۇق" , "قول"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("відкриті долоні") , keywords : & ["відкритий" , "відкриті долоні" , "відкриті руки" , "долоні" , "рука" , "тіло"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("کھلے ہاتھ") , keywords : & ["اشارہ" , "بغلگیر" , "بغلگیری کا اشارہ" , "جسم" , "دست" , "کھلے ہاتھ" , "کھولے" , "گلے لگانا" , "گلے ملنا" , "ہاتھ"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("ochiq qo‘llar") , keywords : & ["ochiq" , "ochiq qo‘llar" , "qo‘l" , "quchoq" , "tana"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("hai bàn tay đang xòe") , keywords : & ["hai bàn tay đang xòe" , "mở ra" , "tay"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("loxo yu ubbeeku") , keywords : & ["loxo" , "loxo yu ubbeeku" , "ubbeeku"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("izandla ezivulekileyo") , keywords : & ["isandla" , "izandla ezivulekileyo" , "vulekileyo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Awọn Ọwọ Ṣiṣi") , keywords : & ["Awọn Ọwọ Ṣiṣi" , "ṣí" , "ọwọ\u{301}"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Awɔn Ɔwɔ Shishi") , keywords : & ["Awɔn Ɔwɔ Shishi" , "shí" , "ɔwɔ\u{301}"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("打開手") , keywords : & ["手" , "打開" , "打開手"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("打开手") , keywords : & ["手" , "打开" , "打开手"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("张开双手") , keywords : & ["十" , "双手" , "张开双手" , "摊手"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("攤開手") , keywords : & ["手" , "攤開手" , "雙手"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["手" , "手勢" , "打開" , "抱抱" , "擁抱" , "爵士手" , "轉向"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("izandla ezivuliwe") , keywords : & ["isandla" , "izandla ezivuliwe" , "ukuvula" , "umzimba"] , }] , } ;
 #[doc = "👐🏻"]
@@ -1587,6 +1684,481 @@ pub const HANDSHAKE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
+};
+#[doc = "🤝🏻"]
+pub const HANDSHAKE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🤝🏻",
+    codepoint: "1F91D 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🤝🏼"]
+pub const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🤝🏼",
+    codepoint: "1F91D 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🤝🏽"]
+pub const HANDSHAKE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🤝🏽",
+    codepoint: "1F91D 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🤝🏾"]
+pub const HANDSHAKE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🤝🏾",
+    codepoint: "1F91D 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🤝🏿"]
+pub const HANDSHAKE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🤝🏿",
+    codepoint: "1F91D 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏻\u{200d}🫲🏼"]
+pub const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏻\u{200d}🫲🏼",
+    codepoint: "1FAF1 1F3FB 200D 1FAF2 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: light skin tone, medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏻\u{200d}🫲🏽"]
+pub const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏻\u{200d}🫲🏽",
+    codepoint: "1FAF1 1F3FB 200D 1FAF2 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: light skin tone, medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏻\u{200d}🫲🏾"]
+pub const HANDSHAKE_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏻\u{200d}🫲🏾",
+    codepoint: "1FAF1 1F3FB 200D 1FAF2 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: light skin tone, medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏻\u{200d}🫲🏿"]
+pub const HANDSHAKE_LIGHT_SKIN_TONE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏻\u{200d}🫲🏿",
+    codepoint: "1FAF1 1F3FB 200D 1FAF2 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: light skin tone, dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏼\u{200d}🫲🏻"]
+pub const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏼\u{200d}🫲🏻",
+    codepoint: "1FAF1 1F3FC 200D 1FAF2 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-light skin tone, light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏼\u{200d}🫲🏽"]
+pub const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏼\u{200d}🫲🏽",
+    codepoint: "1FAF1 1F3FC 200D 1FAF2 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-light skin tone, medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏼\u{200d}🫲🏾"]
+pub const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏼\u{200d}🫲🏾",
+    codepoint: "1FAF1 1F3FC 200D 1FAF2 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-light skin tone, medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏼\u{200d}🫲🏿"]
+pub const HANDSHAKE_MEDIUM_LIGHT_SKIN_TONE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏼\u{200d}🫲🏿",
+    codepoint: "1FAF1 1F3FC 200D 1FAF2 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-light skin tone, dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏽\u{200d}🫲🏻"]
+pub const HANDSHAKE_MEDIUM_SKIN_TONE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏽\u{200d}🫲🏻",
+    codepoint: "1FAF1 1F3FD 200D 1FAF2 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium skin tone, light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏽\u{200d}🫲🏼"]
+pub const HANDSHAKE_MEDIUM_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏽\u{200d}🫲🏼",
+    codepoint: "1FAF1 1F3FD 200D 1FAF2 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium skin tone, medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏽\u{200d}🫲🏾"]
+pub const HANDSHAKE_MEDIUM_SKIN_TONE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏽\u{200d}🫲🏾",
+    codepoint: "1FAF1 1F3FD 200D 1FAF2 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium skin tone, medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏽\u{200d}🫲🏿"]
+pub const HANDSHAKE_MEDIUM_SKIN_TONE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏽\u{200d}🫲🏿",
+    codepoint: "1FAF1 1F3FD 200D 1FAF2 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium skin tone, dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏾\u{200d}🫲🏻"]
+pub const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏾\u{200d}🫲🏻",
+    codepoint: "1FAF1 1F3FE 200D 1FAF2 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-dark skin tone, light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏾\u{200d}🫲🏼"]
+pub const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏾\u{200d}🫲🏼",
+    codepoint: "1FAF1 1F3FE 200D 1FAF2 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-dark skin tone, medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏾\u{200d}🫲🏽"]
+pub const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏾\u{200d}🫲🏽",
+    codepoint: "1FAF1 1F3FE 200D 1FAF2 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-dark skin tone, medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏾\u{200d}🫲🏿"]
+pub const HANDSHAKE_MEDIUM_DARK_SKIN_TONE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏾\u{200d}🫲🏿",
+    codepoint: "1FAF1 1F3FE 200D 1FAF2 1F3FF",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: medium-dark skin tone, dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏿\u{200d}🫲🏻"]
+pub const HANDSHAKE_DARK_SKIN_TONE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏿\u{200d}🫲🏻",
+    codepoint: "1FAF1 1F3FF 200D 1FAF2 1F3FB",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: dark skin tone, light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏿\u{200d}🫲🏼"]
+pub const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏿\u{200d}🫲🏼",
+    codepoint: "1FAF1 1F3FF 200D 1FAF2 1F3FC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: dark skin tone, medium-light skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏿\u{200d}🫲🏽"]
+pub const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏿\u{200d}🫲🏽",
+    codepoint: "1FAF1 1F3FF 200D 1FAF2 1F3FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: dark skin tone, medium skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
+};
+#[doc = "🫱🏿\u{200d}🫲🏾"]
+pub const HANDSHAKE_DARK_SKIN_TONE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
+    glyph: "🫱🏿\u{200d}🫲🏾",
+    codepoint: "1FAF1 1F3FF 200D 1FAF2 1F3FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "handshake: dark skin tone, medium-dark skin tone",
+    group: "People & Body",
+    subgroup: "hands",
+    is_variant: false,
+    variants: &[],
+    annotations: &[],
 };
 #[doc = "🙏"]
 pub const FOLDED_HANDS: crate::Emoji = crate::Emoji {

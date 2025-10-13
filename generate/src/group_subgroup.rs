@@ -2,6 +2,7 @@ use crate::emoji::Emoji;
 use crate::sanitize;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
+#[derive(Debug)]
 pub struct Group {
     pub name: String,
     pub subgroups: Vec<Subgroup>,
@@ -26,6 +27,7 @@ impl ToTokens for Group {
         .to_tokens(tokens);
     }
 }
+#[derive(Debug)]
 pub struct Subgroup {
     pub name: String,
     pub emojis: Vec<Emoji>,

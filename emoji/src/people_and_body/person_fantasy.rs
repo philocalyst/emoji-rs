@@ -4102,7 +4102,7 @@ pub const MX_CLAUS: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus",
+    name: "Mx Claus",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -5458,7 +5458,7 @@ pub const MX_CLAUS_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus: light skin tone",
+    name: "Mx Claus: light skin tone",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -5477,7 +5477,7 @@ pub const MX_CLAUS_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus: medium-light skin tone",
+    name: "Mx Claus: medium-light skin tone",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -5496,7 +5496,7 @@ pub const MX_CLAUS_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus: medium skin tone",
+    name: "Mx Claus: medium skin tone",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -5515,7 +5515,7 @@ pub const MX_CLAUS_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus: medium-dark skin tone",
+    name: "Mx Claus: medium-dark skin tone",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -5534,7 +5534,7 @@ pub const MX_CLAUS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
         pre: semver::Prerelease::EMPTY,
         build: semver::BuildMetadata::EMPTY,
     },
-    name: "mx claus: dark skin tone",
+    name: "Mx Claus: dark skin tone",
     group: "People & Body",
     subgroup: "person-fantasy",
     is_variant: false,
@@ -30466,6 +30466,1027 @@ pub const WOMAN_ZOMBIE: crate::Emoji = crate::Emoji {
             lang: "zu",
             tts: Some("isilwane sowesifazane"),
             keywords: &["hamba efile", "isilwane sowesifazane", "ngafile"],
+        },
+    ],
+};
+#[doc = "🧌"]
+pub const TROLL: crate::Emoji = crate::Emoji {
+    glyph: "🧌",
+    codepoint: "1F9CC",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 14u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "troll",
+    group: "People & Body",
+    subgroup: "person-fantasy",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("trol"),
+            keywords: &[
+                "drentel",
+                "fantasie",
+                "feëverhaal",
+                "monster",
+                "slenter",
+                "sprokie",
+                "trol",
+                "uitlokking",
+            ],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("አስቃያሚ ጭራቅ"),
+            keywords: &[
+                "ቅዠት",
+                "ተረት",
+                "አስቀያሚ ጭራቅ",
+                "አስቃያሚ ጭራቅ",
+                "አስፈሪ",
+                "የሚያስፈራ",
+                "ጭራቅ",
+            ],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("الترول"),
+            keywords: &["الترول", "بعبع", "شبح", "وحش"],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ট\u{9cd}ৰোল"),
+            keywords: &[
+                "ক\u{9be}ল\u{9cd}পনিক",
+                "ট\u{9cd}ৰোল",
+                "ফেয\u{9bc}ৰী টেল",
+                "মনষ\u{9cd}ট\u{9be}ৰ",
+            ],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("troll"),
+            keywords: &[
+                "canavar",
+                "fentezi",
+                "monstr",
+                "nağıl",
+                "troll",
+                "trollamaq",
+            ],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("троль"),
+            keywords: &["казка", "пачвара", "троль", "фантастычны"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("трол"),
+            keywords: &["приказка", "трол", "фантазия", "чудовище"],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("অতিম\u{9be}নবিক জীব"),
+            keywords: &[
+                "অতিম\u{9be}নবিক জীব",
+                "ক\u{9be}ল\u{9cd}পনিক",
+                "ট\u{9cd}রোল",
+                "দ\u{9be}নব",
+                "র\u{9be}ক\u{9cd}ষস",
+                "র\u{9c2}পকথ\u{9be}",
+            ],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("trol"),
+            keywords: &["bajka", "fantastika", "trol", "čudovište"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("trol"),
+            keywords: &["conte", "fades", "fantasia", "monstre", "trol"],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᎾᏰᎩ ᏴᏫ ᎢᏳᏍᏗ"),
+            keywords: &["ᎦᎾᏰᎩ", "ᎦᎾᏰᎩ ᏴᏫ ᎢᏳᏍᏗ", "ᎧᏃᎮᎸᏍᎩ", "ᏄᎵᏍᏔᏂᏙᎸ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("troll"),
+            keywords: &[
+                "fantasy",
+                "monstrum",
+                "nestvůra",
+                "obluda",
+                "obr",
+                "pohádka",
+                "příšera",
+                "trol",
+                "troll",
+                "trollovat",
+                "zlobr",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("ellyll"),
+            keywords: &["anghenfil", "ellyll", "ffantasi", "stori dylwyth teg"],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("trold"),
+            keywords: &[
+                "eventyr",
+                "fantasy",
+                "monster",
+                "provokation",
+                "provokere",
+                "trold",
+                "troll",
+                "troller",
+                "trolling",
+            ],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Troll"),
+            keywords: &[
+                "Fantasy",
+                "Kobold",
+                "Monster",
+                "Märchen",
+                "Ork",
+                "Troll",
+                "Ungeheuer",
+                "gruslig",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τρολ"),
+            keywords: &["παραμύθι", "τέρας", "τρολ", "τρολάρω", "φαντασία"],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("troll"),
+            keywords: &["fairy", "fantasy", "monster", "tale", "troll", "trolling"],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("trol"),
+            keywords: &["cuento de hadas", "fantasía", "monstruo", "trol"],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "cuento de hadas",
+                "fantasía",
+                "gigante",
+                "monstruo",
+                "monstruo verde",
+                "trol",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("troll"),
+            keywords: &["fantaasia", "koletis", "muinasjutt", "troll", "trollimine"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("trolla"),
+            keywords: &["fantasia", "istorioak", "munstroa", "trolla"],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("غول"),
+            keywords: &[
+                "افراد",
+                "افسانه",
+                "بدن",
+                "تخیلی",
+                "ترول",
+                "ترول کردن",
+                "غول",
+                "قلدری کردن",
+                "مزاحمت",
+                "هیولا",
+            ],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("trolli"),
+            keywords: &[
+                "fantasia",
+                "hirviö",
+                "mörkö",
+                "mörökölli",
+                "peikko",
+                "rölli",
+                "satuolento",
+                "trollata",
+            ],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("troll"),
+            keywords: &["halimaw", "troll", "trolling"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("trøll"),
+            keywords: &["skrímsl", "søgn", "trøll", "ævintýr"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("troll"),
+            keywords: &[
+                "conte de fées",
+                "légende",
+                "monstre",
+                "mythe",
+                "troll",
+                "troller",
+            ],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("troll"),
+            keywords: &["arracht", "troll", "trolláil"],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("trobha"),
+            keywords: &["beul-aithris", "fantastachd", "trobha", "uilebheist"],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("troll"),
+            keywords: &["conto de fadas", "fantasía", "monstro"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ટ\u{acd}રોલ"),
+            keywords: &[
+                "કાલ\u{acd}પનિક",
+                "ટ\u{acd}રોલ",
+                "ટ\u{acd}રોલિ\u{a82}ગ",
+                "દાનવ",
+                "પરીકથા",
+                "રાક\u{acd}ષસ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mutum na zane"),
+            keywords: &[
+                "azzalumi",
+                "botorami",
+                "cin-zali",
+                "dodo",
+                "labarin aljana",
+                "mai cin-zali",
+                "mugu",
+                "mummuna",
+                "mutum na zane",
+                "tatsuniya",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("mutum na zane"),
+            keywords: &[
+                "azzalumi",
+                "botorami",
+                "cin-zali",
+                "dodo",
+                "labarin aljana",
+                "mai cin-zali",
+                "mugu",
+                "mummuna",
+                "mutum na zane",
+                "tatsuniya",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("טרול"),
+            keywords: &["אגדה", "טרול", "יצור", "מפלצת", "פנטזיה"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ट\u{94d}रॉल"),
+            keywords: &[
+                "काल\u{94d}पनिक",
+                "ट\u{94d}रॉल",
+                "ट\u{94d}रोल",
+                "ट\u{94d}रोल करना",
+                "ट\u{94d}रोलि\u{902}ग",
+                "दानव",
+                "परी कथा",
+                "मॉन\u{94d}स\u{94d}टर",
+                "राक\u{94d}षस",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("trol"),
+            keywords: &[
+                "bajka",
+                "fantastika",
+                "trol",
+                "trolanje",
+                "zeleno čudovište",
+                "čudovište",
+            ],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("troll"),
+            keywords: &["képzelet", "szörny", "troll", "tündérmese"],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տրոլլ"),
+            keywords: &["հեքիաթ", "հորինվածք", "հրեշ", "չարք", "տրոլլ"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("raksasa"),
+            keywords: &["dongeng", "fantasi", "monster", "raksasa"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ihe na-eyi egwu"),
+            keywords: &["akụkọ ifo", "monsta", "troll"],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("jarðálfur"),
+            keywords: &["furðusaga", "jarðálfur", "skrímsli", "ævintýri"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("troll"),
+            keywords: &["fantasia", "favola", "fiaba", "mostro", "troll"],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("トロール"),
+            keywords: &["おとぎ話", "トロール", "ファンタジー", "モンスター"],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("troll"),
+            keywords: &["dongeng", "khayalan", "monster", "troll"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ტროლი"),
+            keywords: &["ზღაპარი", "ტროლი", "ურჩხული", "ფანტაზია"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aɣuliw"),
+            keywords: &["aɣuliw"],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("тролль"),
+            keywords: &["ертегі", "жасыл дәу", "монстр", "тролль", "қиял", "құбыжық"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាម\u{17bb}ខរ\u{17bc}បត\u{17d2}រ\u{17bc}ល"),
+            keywords: &[
+                "ប\u{17b8}សាច",
+                "សញ\u{17d2}ញាម\u{17bb}ខរ\u{17bc}បត\u{17d2}រ\u{17bc}ល",
+                "ស\u{17d2}រមើស\u{17d2}រម\u{17d0}យ",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಟ\u{ccd}ರ\u{ccb}ಲ\u{ccd}"),
+            keywords: &[
+                "ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ ಕಥ\u{cc6}",
+                "ಟ\u{ccd}ರ\u{ccb}ಲ\u{ccd}",
+                "ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
+                "ಮಾನ\u{ccd}\u{200c}ಸ\u{ccd}ಟರ\u{ccd}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("트롤"),
+            keywords: &["괴물", "동화", "몬스터", "트롤", "트롤링", "판타지"],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ट\u{94d}रोल"),
+            keywords: &["ट\u{94d}रोल", "नवलकथा", "परीकथा", "राक\u{94d}षस"],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("тролль"),
+            keywords: &["жомок", "монстр", "тролль", "фэнтези"],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຄ\u{ebb}ນເຕ\u{ec9}ຍ"),
+            keywords: &[
+                "ຄ\u{ebb}ນເຕ\u{ec9}ຍ",
+                "ຈ\u{eb4}ນຕະນາການ",
+                "ຍ\u{eb1}ກ",
+                "ສ\u{eb1}ດປະຫ\u{ebc}າດ",
+                "ເທບນ\u{eb4}ຍາຍ",
+                "ໂທລ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("trolis"),
+            keywords: &["fantazija", "pabaisa", "pasaka", "trolis"],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("trollis"),
+            keywords: &["briesmonis", "fantāzija", "pasaka", "trollis"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("трол"),
+            keywords: &["басна", "трол", "фантазија", "чудовиште"],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ട\u{d4d}രോൾ"),
+            keywords: &[
+                "കെട\u{d4d}ട\u{d41}കഥ",
+                "ട\u{d4d}രോൾ",
+                "ഭീകരജീവി",
+                "ഭ\u{d42}തം",
+                "ഭ\u{d4d}രമകൽപ\u{d4d}പന",
+                "ര\u{d3e}ക\u{d4d}ഷസൻ",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("тролл"),
+            keywords: &["мангас", "тролл", "уран зөгнөл", "үлгэр"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ट\u{94d}रोल"),
+            keywords: &[
+                "ट\u{94d}रोल",
+                "दिवा स\u{94d}वप\u{94d}न",
+                "परिकथा",
+                "राक\u{94d}षस",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("raksasa"),
+            keywords: &["fantasi", "kisah dongeng", "raksasa"],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဧရာမတစ\u{1039}ဆေ"),
+            keywords: &[
+                "စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
+                "နတ\u{103a}သမ\u{102e}း ပ\u{102f}\u{1036}ပြင\u{103a}",
+                "ဘ\u{102e}လ\u{1030}း",
+                "ဧရာမတစ\u{1039}ဆေ",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ट\u{94d}रोल"),
+            keywords: &[
+                "कल\u{94d}पना",
+                "ट\u{94d}रोल",
+                "द\u{948}त\u{94d}य",
+                "परी कथा",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("trol"),
+            keywords: &["fantasie", "monster", "trol", "trollen"],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଟ\u{b4d}ରୋଲ\u{b4d}"),
+            keywords: &[
+                "କଳ\u{b4d}ପନ\u{b3e}",
+                "କ\u{b3e}ହ\u{b3e}ଣୀ",
+                "ଟ\u{b4d}ରୋଲ\u{b4d}",
+                "ର\u{b3e}କ\u{b4d}ଷସ",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਟਰ\u{a4b}ਲ"),
+            keywords: &[
+                "ਕਲਪਨਾ",
+                "ਜਿ\u{a70}ਨ",
+                "ਟਰ\u{a4b}ਲ",
+                "ਟ\u{a4d}ਰ\u{a4b}ਲ",
+                "ਟ\u{a4d}ਰ\u{a4b}ਲਿ\u{a70}ਗ",
+                "ਡਰਾਉਣਾ",
+                "ਪਰੀ ਕਥਾ",
+                "ਭ\u{a42}ਤ",
+                "ਰਾਖਸ\u{a3c}",
+            ],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Sọ\u{301}mtin Wé Rizẹ\u{301}mbúl Ọ\u{301}glí Húmánbin"),
+            keywords: &[
+                "Deédrim",
+                "Mọ\u{301}nsta",
+                "Sọ\u{301}mtin Wé Rizẹ\u{301}mbúl Ọ\u{301}glí Húmánbin",
+                "Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+            ],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("troll"),
+            keywords: &["bajka", "fantazja", "potwór", "troll"],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("پیری"),
+            keywords: &["افسانوی کيسه", "خیال", "مونسٹر", "پیری"],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("troll"),
+            keywords: &[
+                "conto de fadas",
+                "fantasia",
+                "gigante",
+                "monstro",
+                "ogro",
+                "troll",
+            ],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "conto de fadas",
+                "fantasia",
+                "gigante",
+                "monstrengo",
+                "monstro",
+                "ogre",
+                "ogro",
+                "troll",
+            ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("troll nisqa"),
+            keywords: &["fantasia", "kawri", "troll nisqa", "willarina"],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("trol"),
+            keywords: &["basm", "fantezie", "monstru", "poveste", "trol"],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E14-019"),
+            keywords: &["E14-019"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("тролль"),
+            keywords: &[
+                "монстр",
+                "сказка",
+                "троллинг",
+                "тролль",
+                "чудище",
+                "чудовище",
+            ],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جنڙو"),
+            keywords: &["تصور", "جنڙو", "راڪاس", "پرين جي داستان"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ර\u{dcf}ක\u{dca}ෂය\u{dcf}"),
+            keywords: &[
+                "මනහ\u{dca}කල\u{dca}ප\u{dd2}ත",
+                "ර\u{dcf}ක\u{dca}ෂය\u{dcf}",
+                "ස\u{dd4}රංගන\u{dcf} කත\u{dcf}ව",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("obor"),
+            keywords: &[
+                "fantasy",
+                "monštrum",
+                "obluda",
+                "obor",
+                "príšera",
+                "rozprávka",
+                "trolling",
+                "trolovanie",
+            ],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("trol"),
+            keywords: &["domišljija", "pošast", "pravljica", "trol"],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("foolxun"),
+            keywords: &["bahal", "foolxun", "khayaali", "sheeko xariir"],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("xhuxh"),
+            keywords: &[
+                "fantazi",
+                "këndoj",
+                "përbindësh",
+                "përndjekje",
+                "përrallë",
+                "troll",
+                "xhuxh",
+            ],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("трол"),
+            keywords: &["бајка", "трол", "троловање", "фантазија", "чудовиште"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("trol"),
+            keywords: &["bajka", "fantazija", "trol", "trolovanje", "čudovište"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("troll"),
+            keywords: &["fantasy", "monster", "saga", "sägen", "troll"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("jitu"),
+            keywords: &["hekaya", "jitu", "mtu", "njozi", "zimwi"],
+        },
+        #[cfg(feature = "sw_KE")]
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பூதம\u{bcd}"),
+            keywords: &[
+                "அசுரன\u{bcd}",
+                "கற\u{bcd}பனை",
+                "கல\u{bbe}ய\u{bcd}த\u{bcd}தல\u{bcd}",
+                "கல\u{bbe}ய\u{bcd}ப\u{bcd}பு",
+                "பூதம\u{bcd}",
+                "வம\u{bcd}பிழுத\u{bcd}தல\u{bcd}",
+                "விசித\u{bcd}திரக\u{bcd} கதை",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ట\u{c4d}ర\u{c4b}ల\u{c4d}"),
+            keywords: &[
+                "ఆటవ\u{c3f}కుడు",
+                "క\u{c3e}ల\u{c4d}పన\u{c3f}కం",
+                "జ\u{c3e}నపదం",
+                "ట\u{c4d}ర\u{c4b}ల\u{c3f}ంగ\u{c4d}",
+                "ట\u{c4d}ర\u{c4b}ల\u{c4d}",
+                "పర\u{c3f}హ\u{c3e}సం",
+                "మ\u{c3e}న\u{c4d}\u{200c}స\u{c4d}టర\u{c4d}",
+                "ర\u{c3e}క\u{c4d}షస పురుషుడు",
+                "ర\u{c3e}క\u{c4d}షసుడు",
+            ],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("โทรลล\u{e4c}"),
+            keywords: &[
+                "มอนสเตอร\u{e4c}",
+                "ย\u{e31}กษ\u{e4c}",
+                "ส\u{e31}ตว\u{e4c}ประหลาด",
+                "เทพน\u{e34}ยาย",
+                "แฟนตาซ\u{e35}",
+                "โทรลล\u{e4c}",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ትሮል"),
+            keywords: &["ትሮሊንግ ምግባር", "ትሮል", "ጭራም", "ጽንጽዋይ", "ጽውጽዋይ", "ፍንጣጣ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("trol"),
+            keywords: &["elhenç", "erteki", "fantaziýa", "trol"],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fakatele"),
+            keywords: &["fakatele", "fakaʻulia"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("trol"),
+            keywords: &[
+                "canavar",
+                "dev",
+                "fantezi",
+                "gerçek dışı",
+                "hayali",
+                "hulk",
+                "ork",
+                "peri masalı",
+                "trol",
+                "yaratık",
+                "yeşil dev",
+            ],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("троль"),
+            keywords: &["казка", "монстр", "троль", "тролінг", "фентезі"],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ٹرول"),
+            keywords: &[
+                "بلا",
+                "بھوت",
+                "جن",
+                "دیو",
+                "عفریت",
+                "فسانوی",
+                "ٹرول",
+                "پریوں کی کہانی",
+            ],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("troll"),
+            keywords: &[
+                "ertak",
+                "fantaziya",
+                "maxluq",
+                "monster",
+                "oʻylab topilgan qahramon",
+                "troll",
+                "yirtqich hayvon",
+            ],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("người khổng lồ độc ác"),
+            keywords: &[
+                "giả tưởng",
+                "người khổng lồ độc ác",
+                "quái vật",
+                "truyện cổ tích",
+            ],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("iwin nlá"),
+            keywords: &["alo", "ero okan", "esu", "iwin", "iwin nlá"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("iwin nlá"),
+            keywords: &["alo", "ero okan", "esu", "iwin", "iwin nlá"],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("巨魔"),
+            keywords: &["巨魔", "幻想", "怪物", "童話"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("巨魔"),
+            keywords: &["巨魔", "幻想", "怪物", "童话"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("穴居巨怪"),
+            keywords: &["幻想", "怪兽", "怪物", "神话故事", "穴居巨怪"],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("巨人"),
+            keywords: &[
+                "山怪",
+                "巨人",
+                "幻想",
+                "怪物",
+                "怪獸",
+                "戳",
+                "童話",
+                "網路白目",
+            ],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["山怪", "巨人", "怪物", "惡棍", "深山大野人", "野人", "魔怪"],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("troll"),
+            keywords: &["fairy tale", "fantasy", "monster", "troll"],
         },
     ],
 };
