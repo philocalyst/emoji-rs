@@ -342,7 +342,7 @@ pub const ANCHOR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಲಂಗರು"),
-            keywords: &["ಲಂಗರು", "ಸಂಕೇತ"],
+            keywords: &["ಲಂಗರು", "ಸಂಕ\u{cc7}ತ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -1220,8 +1220,8 @@ pub const SAILBOAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಹಾಯ\u{cbf}ದೋಣ\u{cbf}"),
-            keywords: &["ದೋಣ\u{cbf}", "ಹಾಯ\u{cbf}ದೋಣ\u{cbf}"],
+            tts: Some("ಹಾಯ\u{cbf}ದ\u{ccb}ಣ\u{cbf}"),
+            keywords: &["ದ\u{ccb}ಣ\u{cbf}", "ಹಾಯ\u{cbf}ದ\u{ccb}ಣ\u{cbf}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -2112,8 +2112,8 @@ pub const CANOE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ದೋಣ\u{cbf}"),
-            keywords: &["ದೋಣ\u{cbf}", "ಬೋಟ\u{ccd}"],
+            tts: Some("ದ\u{ccb}ಣ\u{cbf}"),
+            keywords: &["ದ\u{ccb}ಣ\u{cbf}", "ಬ\u{ccb}ಟ\u{ccd}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -2861,8 +2861,8 @@ pub const SPEEDBOAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ವೇಗದ ದೋಣ\u{cbf}"),
-            keywords: &["ದೋಣ\u{cbf}", "ವೇಗದ ದೋಣ\u{cbf}"],
+            tts: Some("ವ\u{cc7}ಗದ ದ\u{ccb}ಣ\u{cbf}"),
+            keywords: &["ದ\u{ccb}ಣ\u{cbf}", "ವ\u{cc7}ಗದ ದ\u{ccb}ಣ\u{cbf}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4525,11 +4525,11 @@ pub const FERRY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಫ\u{cc6}ರ\u{ccd}ರೀ"),
+            tts: Some("ಫ\u{cc6}ರ\u{ccd}ರ\u{cc0}"),
             keywords: &[
-                "ದೋಣ\u{cbf}",
+                "ದ\u{ccb}ಣ\u{cbf}",
                 "ಪ\u{ccd}ಯಾಸ\u{cc6}ಂಜರ\u{ccd}",
-                "ಫ\u{cc6}ರ\u{ccd}ರೀ",
+                "ಫ\u{cc6}ರ\u{ccd}ರ\u{cc0}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -5289,8 +5289,12 @@ pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಮೋಟರ\u{ccd} ದೋಣ\u{cbf}"),
-            keywords: &["ದೋಣ\u{cbf}", "ಮೋಟರ\u{ccd} ದೋಣ\u{cbf}", "ಮೋಟಾರು ದೋಣ\u{cbf}"],
+            tts: Some("ಮ\u{ccb}ಟರ\u{ccd} ದ\u{ccb}ಣ\u{cbf}"),
+            keywords: &[
+                "ದ\u{ccb}ಣ\u{cbf}",
+                "ಮ\u{ccb}ಟರ\u{ccd} ದ\u{ccb}ಣ\u{cbf}",
+                "ಮ\u{ccb}ಟಾರು ದ\u{ccb}ಣ\u{cbf}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

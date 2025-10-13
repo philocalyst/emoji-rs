@@ -6431,8 +6431,8 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಕ\u{cc6}ಂಪು ಸೇಬು"),
-            keywords: &["ಕ\u{cc6}ಂಪು ಸೇಬು", "ಸೇಬು"],
+            tts: Some("ಕ\u{cc6}ಂಪು ಸ\u{cc7}ಬು"),
+            keywords: &["ಕ\u{cc6}ಂಪು ಸ\u{cc7}ಬು", "ಸ\u{cc7}ಬು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -7228,8 +7228,8 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಹಸ\u{cbf}ರು ಸೇಬು"),
-            keywords: &["ಸೇಬು", "ಹಸ\u{cbf}ರು ಸೇಬು"],
+            tts: Some("ಹಸ\u{cbf}ರು ಸ\u{cc7}ಬು"),
+            keywords: &["ಸ\u{cc7}ಬು", "ಹಸ\u{cbf}ರು ಸ\u{cc7}ಬು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -8007,8 +8007,8 @@ pub const PEAR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪೇರಲ\u{cc6} ಹಣ\u{ccd}ಣು"),
-            keywords: &["ಪೇರಲ\u{cc6} ಹಣ\u{ccd}ಣು"],
+            tts: Some("ಪ\u{cc7}ರಲ\u{cc6} ಹಣ\u{ccd}ಣು"),
+            keywords: &["ಪ\u{cc7}ರಲ\u{cc6} ಹಣ\u{ccd}ಣು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -8759,8 +8759,8 @@ pub const PEACH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪೀಚ\u{ccd} ಹಣ\u{ccd}ಣು"),
-            keywords: &["ಪೀಚ\u{ccd} ಹಣ\u{ccd}ಣು"],
+            tts: Some("ಪ\u{cc0}ಚ\u{ccd} ಹಣ\u{ccd}ಣು"),
+            keywords: &["ಪ\u{cc0}ಚ\u{ccd} ಹಣ\u{ccd}ಣು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -12651,8 +12651,12 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಟೊಮ\u{cc6}ಟೊ"),
-            keywords: &["ಟೊಮ\u{cc6}ಟೊ", "ಟೊಮೊಟೊ", "ತರಕಾರ\u{cbf}"],
+            tts: Some("ಟ\u{cca}ಮ\u{cc6}ಟ\u{cca}"),
+            keywords: &[
+                "ಟ\u{cca}ಮ\u{cc6}ಟ\u{cca}",
+                "ಟ\u{cca}ಮ\u{cca}ಟ\u{cca}",
+                "ತರಕಾರ\u{cbf}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -14066,7 +14070,11 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ತ\u{cc6}ಂಗ\u{cbf}ನಕಾಯ\u{cbf}"),
-            keywords: &["ಅಂಗೈ", "ತ\u{cc6}ಂಗ\u{cbf}ನಕಾಯ\u{cbf}", "ಪ\u{cbf}ನಾ ಕೊಲೊಡಾ"],
+            keywords: &[
+                "ಅಂಗ\u{cc8}",
+                "ತ\u{cc6}ಂಗ\u{cbf}ನಕಾಯ\u{cbf}",
+                "ಪ\u{cbf}ನಾ ಕ\u{cca}ಲ\u{cca}ಡಾ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

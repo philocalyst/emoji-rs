@@ -1243,8 +1243,8 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಮಸೀದ\u{cbf}"),
-            keywords: &["ಇಸ\u{ccd}ಲಾಂ", "ಧರ\u{ccd}ಮ", "ಮಸೀದ\u{cbf}"],
+            tts: Some("ಮಸ\u{cc0}ದ\u{cbf}"),
+            keywords: &["ಇಸ\u{ccd}ಲಾಂ", "ಧರ\u{ccd}ಮ", "ಮಸ\u{cc0}ದ\u{cbf}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -2021,8 +2021,8 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಹ\u{cbf}ಂದ\u{cc2} ದೇವಾಲಯ"),
-            keywords: &["ದೇವಾಲಯ", "ಹ\u{cbf}ಂದ\u{cc2}"],
+            tts: Some("ಹ\u{cbf}ಂದ\u{cc2} ದ\u{cc7}ವಾಲಯ"),
+            keywords: &["ದ\u{cc7}ವಾಲಯ", "ಹ\u{cbf}ಂದ\u{cc2}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -3681,8 +3681,12 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಶ\u{cbf}ಂಟೊ ದೇವಾಲಯ"),
-            keywords: &["ಧರ\u{ccd}ಮ", "ಶ\u{cbf}ಂಟೊ", "ಶ\u{cbf}ಂಟೊ ದೇವಾಲಯ"],
+            tts: Some("ಶ\u{cbf}ಂಟ\u{cca} ದ\u{cc7}ವಾಲಯ"),
+            keywords: &[
+                "ಧರ\u{ccd}ಮ",
+                "ಶ\u{cbf}ಂಟ\u{cca}",
+                "ಶ\u{cbf}ಂಟ\u{cca} ದ\u{cc7}ವಾಲಯ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

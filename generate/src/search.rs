@@ -1,7 +1,7 @@
-use std::process::Command;
 use std::fs::File;
 use std::io::{Read, Write};
 use std::path::PathBuf;
+use std::process::Command;
 
 pub fn dump() {
     let mut fs = String::new();
@@ -10,10 +10,7 @@ pub fn dump() {
 
     let path = "emoji/src/search.rs";
     let pb: PathBuf = path.clone().into();
-    File::create(pb)
-        .unwrap()
-        .write_all(fs.as_bytes())
-        .unwrap();
+    File::create(pb).unwrap().write_all(fs.as_bytes()).unwrap();
     Command::new("rustfmt")
         .arg(path)
         .output()

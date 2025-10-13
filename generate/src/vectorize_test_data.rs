@@ -1,9 +1,12 @@
-use std::collections::HashMap;
-use chrono::DateTime;
 use crate::group_subgroup::*;
 use crate::Annotation;
+use chrono::DateTime;
+use std::collections::HashMap;
 
-pub async fn vectorize_test_data(client: &reqwest::Client, annotations: &HashMap<String, Vec<Annotation>>) -> reqwest::Result<(String, f32, Vec<Group>)> {
+pub async fn vectorize_test_data(
+    client: &reqwest::Client,
+    annotations: &HashMap<String, Vec<Annotation>>,
+) -> reqwest::Result<(String, f32, Vec<Group>)> {
     let mut date = "".to_owned();
     let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
@@ -30,8 +33,8 @@ pub async fn vectorize_test_data(client: &reqwest::Client, annotations: &HashMap
                         .replace("GMT", "+0000"),
                     "%F, %T %z",
                 )
-                    .unwrap()
-                    .to_rfc3339();
+                .unwrap()
+                .to_rfc3339();
             }
             if line.starts_with("# Version: ") {
                 version = line

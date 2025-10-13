@@ -362,8 +362,8 @@ pub const PENCIL: crate::Emoji = crate::Emoji {
             tts: Some("ಪ\u{cc6}ನ\u{ccd}ಸ\u{cbf}ಲ\u{ccd}"),
             keywords: &[
                 "ಪ\u{cc6}ನ\u{ccd}ಸ\u{cbf}ಲ\u{ccd}",
-                "ಪೇಪರ\u{ccd}",
-                "ಸೀಸದ ಕಡ\u{ccd}ಡ\u{cbf}",
+                "ಪ\u{cc7}ಪರ\u{ccd}",
+                "ಸ\u{cc0}ಸದ ಕಡ\u{ccd}ಡ\u{cbf}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -1134,7 +1134,7 @@ pub const BLACK_NIB: crate::Emoji = crate::Emoji {
                 "ನ\u{cbf}ಬ\u{ccd}",
                 "ಪ\u{cc6}ನ\u{ccd}ನು",
                 "ಮುಳ\u{ccd}ಳು",
-                "ಲೇಖನ\u{cbf}",
+                "ಲ\u{cc7}ಖನ\u{cbf}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -3426,8 +3426,11 @@ pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪೇಂಟ\u{ccd} ಬ\u{ccd}ರಷ\u{ccd}"),
-            keywords: &["ಪೇಂಟ\u{ccd} ಬ\u{ccd}ರಷ\u{ccd}", "ಪೇಯ\u{cbf}ಂಟ\u{ccd}"],
+            tts: Some("ಪ\u{cc7}ಂಟ\u{ccd} ಬ\u{ccd}ರಷ\u{ccd}"),
+            keywords: &[
+                "ಪ\u{cc7}ಂಟ\u{ccd} ಬ\u{ccd}ರಷ\u{ccd}",
+                "ಪ\u{cc7}ಯ\u{cbf}ಂಟ\u{ccd}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4194,8 +4197,8 @@ pub const CRAYON: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಕ\u{ccd}ರೇಯಾನ\u{ccd}"),
-            keywords: &["ಕ\u{ccd}ರೇಯಾನ\u{ccd}", "ಬಣ\u{ccd}ಣ"],
+            tts: Some("ಕ\u{ccd}ರ\u{cc7}ಯಾನ\u{ccd}"),
+            keywords: &["ಕ\u{ccd}ರ\u{cc7}ಯಾನ\u{ccd}", "ಬಣ\u{ccd}ಣ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4952,8 +4955,8 @@ pub const MEMO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಮ\u{cc6}ಮೊ"),
-            keywords: &["ಮ\u{cc6}ಮೊ", "ಮ\u{cc6}ಮೊ ಪುಸ\u{ccd}ತಕ", "ಸಂವಹನ"],
+            tts: Some("ಮ\u{cc6}ಮ\u{cca}"),
+            keywords: &["ಮ\u{cc6}ಮ\u{cca}", "ಮ\u{cc6}ಮ\u{cca} ಪುಸ\u{ccd}ತಕ", "ಸಂವಹನ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

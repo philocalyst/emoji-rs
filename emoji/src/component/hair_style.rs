@@ -1127,7 +1127,7 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಗುಂಗುರು ಕ\u{cc2}ದಲು"),
             keywords: &[
-                "ಆಫ\u{ccd}ರೋ",
+                "ಆಫ\u{ccd}ರ\u{ccb}",
                 "ಕರ\u{ccd}ಲ\u{cbf}",
                 "ಗುಂಗುರು ಕ\u{cc2}ದಲು",
                 "ರ\u{cbf}ಂಗ\u{ccd}ಲ\u{cc6}\u{200c}ಟ\u{ccd}\u{200c}ಗಳು",
@@ -2383,13 +2383,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ar",
             tts: Some("أصلع"),
-            keywords: &[
-                "أصلع",
-                "العلاج الكيميائي",
-                "بدون شعر",
-                "بلا شعر",
-                "شعر محلوق",
-            ],
+            keywords: &["أصلع", "العلاج الكيميائي", "بدون شعر", "بلا شعر", "شعر محلوق"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -2831,7 +2825,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಬಕ\u{ccd}ಕ ತಲ\u{cc6}"),
             keywords: &[
-                "ಕೀಮೋಥ\u{cc6}ರಪ\u{cbf}",
+                "ಕ\u{cc0}ಮ\u{ccb}ಥ\u{cc6}ರಪ\u{cbf}",
                 "ಕ\u{cc2}ದಲು ಇಲ\u{ccd}ಲ",
                 "ಕ\u{cc2}ದಲುರಹ\u{cbf}ತ",
                 "ಕ\u{ccd}ಷ\u{ccc}ರ ಮಾಡ\u{cbf}ರುವುದು",

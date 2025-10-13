@@ -1098,7 +1098,7 @@ pub const BUTTERFLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಚ\u{cbf}ಟ\u{ccd}ಟ\u{cc6}"),
-            keywords: &["ಕೀಟ", "ಚಂದ", "ಚ\u{cbf}ಟ\u{ccd}ಟ\u{cc6}"],
+            keywords: &["ಕ\u{cc0}ಟ", "ಚಂದ", "ಚ\u{cbf}ಟ\u{ccd}ಟ\u{cc6}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -1866,8 +1866,8 @@ pub const BUG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಕೀಟ"),
-            keywords: &["ಕೀಟ", "ಶತಪದ\u{cbf}"],
+            tts: Some("ಕ\u{cc0}ಟ"),
+            keywords: &["ಕ\u{cc0}ಟ", "ಶತಪದ\u{cbf}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -2627,7 +2627,7 @@ pub const ANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಇರುವ\u{cc6}"),
-            keywords: &["ಇರುವ\u{cc6}", "ಕೀಟ"],
+            keywords: &["ಇರುವ\u{cc6}", "ಕ\u{cc0}ಟ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -3382,8 +3382,8 @@ pub const HONEYBEE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಜೇನು ನೊಣ"),
-            keywords: &["ಜೇನು ನೊಣ", "ಜೇನುನೊಣ", "ನೊಣ"],
+            tts: Some("ಜ\u{cc7}ನು ನ\u{cca}ಣ"),
+            keywords: &["ಜ\u{cc7}ನು ನ\u{cca}ಣ", "ಜ\u{cc7}ನುನ\u{cca}ಣ", "ನ\u{cca}ಣ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4118,8 +4118,8 @@ pub const BEETLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಬೀಟಲ\u{ccd}"),
-            keywords: &["ಬಗ\u{ccd}", "ಬೀಟಲ\u{ccd}", "ಹುಳು"],
+            tts: Some("ಬ\u{cc0}ಟಲ\u{ccd}"),
+            keywords: &["ಬಗ\u{ccd}", "ಬ\u{cc0}ಟಲ\u{ccd}", "ಹುಳು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -4879,12 +4879,12 @@ pub const LADY_BEETLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಲೇಡ\u{cbf} ಬೀಟಲ\u{ccd}"),
+            tts: Some("ಲ\u{cc7}ಡ\u{cbf} ಬ\u{cc0}ಟಲ\u{ccd}"),
             keywords: &[
-                "ಬೀಟಲ\u{ccd}",
-                "ಲೇಡ\u{cbf} ಬೀಟಲ\u{ccd}",
-                "ಲೇಡ\u{cbf}ಬಗ\u{ccd}",
-                "ಲೇಡ\u{cbf}ಬರ\u{ccd}ಡ\u{ccd}",
+                "ಬ\u{cc0}ಟಲ\u{ccd}",
+                "ಲ\u{cc7}ಡ\u{cbf} ಬ\u{cc0}ಟಲ\u{ccd}",
+                "ಲ\u{cc7}ಡ\u{cbf}ಬಗ\u{ccd}",
+                "ಲ\u{cc7}ಡ\u{cbf}ಬರ\u{ccd}ಡ\u{ccd}",
                 "ಹುಳು",
             ],
         },
@@ -6447,7 +6447,7 @@ pub const COCKROACH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಜ\u{cbf}ರಳ\u{cc6}"),
-            keywords: &["ಕೀಟ", "ಜ\u{cbf}ರಳ\u{cc6}", "ರೋಚ\u{ccd}", "ಹುಳು"],
+            keywords: &["ಕ\u{cc0}ಟ", "ಜ\u{cbf}ರಳ\u{cc6}", "ರ\u{ccb}ಚ\u{ccd}", "ಹುಳು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -7169,8 +7169,8 @@ pub const SPIDER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಜೇಡ"),
-            keywords: &["ಕೀಟ", "ಜೇಡ"],
+            tts: Some("ಜ\u{cc7}ಡ"),
+            keywords: &["ಕ\u{cc0}ಟ", "ಜ\u{cc7}ಡ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -7953,8 +7953,8 @@ pub const SPIDER_WEB: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಜೇಡರ ಬಲ\u{cc6}"),
-            keywords: &["ಜೇಡ", "ಜೇಡರ ಬಲ\u{cc6}"],
+            tts: Some("ಜ\u{cc7}ಡರ ಬಲ\u{cc6}"),
+            keywords: &["ಜ\u{cc7}ಡ", "ಜ\u{cc7}ಡರ ಬಲ\u{cc6}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -8738,8 +8738,8 @@ pub const SCORPION: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಚೇಳು"),
-            keywords: &["ಚೇಳು", "ರಾಶ\u{cbf}ಚಕ\u{ccd}ರ", "ವೃಶ\u{ccd}ಚ\u{cbf}ಕ"],
+            tts: Some("ಚ\u{cc7}ಳು"),
+            keywords: &["ಚ\u{cc7}ಳು", "ರಾಶ\u{cbf}ಚಕ\u{ccd}ರ", "ವೃಶ\u{ccd}ಚ\u{cbf}ಕ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -9639,13 +9639,13 @@ pub const MOSQUITO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಸೊಳ\u{ccd}ಳ\u{cc6}"),
+            tts: Some("ಸ\u{cca}ಳ\u{ccd}ಳ\u{cc6}"),
             keywords: &[
                 "ಕಾಯ\u{cbf}ಲ\u{cc6}",
                 "ಜ\u{ccd}ವರ",
-                "ಮಲೇರ\u{cbf}ಯಾ",
-                "ವೈರಸ\u{ccd}",
-                "ಸೊಳ\u{ccd}ಳ\u{cc6}",
+                "ಮಲ\u{cc7}ರ\u{cbf}ಯಾ",
+                "ವ\u{cc8}ರಸ\u{ccd}",
+                "ಸ\u{cca}ಳ\u{ccd}ಳ\u{cc6}",
                 "ಹುಳು",
             ],
         },
@@ -10516,13 +10516,13 @@ pub const FLY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ನೊಣ"),
+            tts: Some("ನ\u{cca}ಣ"),
             keywords: &[
-                "ಕೀಟ",
-                "ಕೊಳ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ",
-                "ನೊಣ",
-                "ಮ\u{ccd}ಯಾಗ\u{ccd}ಗೊಟ\u{ccd}",
-                "ರೋಗ",
+                "ಕ\u{cc0}ಟ",
+                "ಕ\u{cca}ಳ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ",
+                "ನ\u{cca}ಣ",
+                "ಮ\u{ccd}ಯಾಗ\u{ccd}ಗ\u{cca}ಟ\u{ccd}",
+                "ರ\u{ccb}ಗ",
             ],
         },
         #[cfg(feature = "ko")]
@@ -12114,12 +12114,12 @@ pub const MICROBE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮಜೀವ\u{cbf}"),
+            tts: Some("ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮಜ\u{cc0}ವ\u{cbf}"),
             keywords: &[
-                "ಅಮೀಬಾ",
-                "ಬ\u{ccd}ಯಾಕ\u{ccd}ಟೀರ\u{cbf}ಯಾ",
-                "ವೈರಸ\u{ccd}",
-                "ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮಜೀವ\u{cbf}",
+                "ಅಮ\u{cc0}ಬಾ",
+                "ಬ\u{ccd}ಯಾಕ\u{ccd}ಟ\u{cc0}ರ\u{cbf}ಯಾ",
+                "ವ\u{cc8}ರಸ\u{ccd}",
+                "ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮಜ\u{cc0}ವ\u{cbf}",
             ],
         },
         #[cfg(feature = "ko")]

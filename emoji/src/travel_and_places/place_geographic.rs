@@ -1997,7 +1997,7 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             tts: Some("ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf}"),
             keywords: &[
                 "ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf}",
-                "ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf} ಸ\u{ccd}ಪೋಟ",
+                "ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf} ಸ\u{ccd}ಪ\u{ccb}ಟ",
             ],
         },
         #[cfg(feature = "ko")]
@@ -4409,11 +4409,11 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಕೊಡ\u{cc6}ಯೊಂದ\u{cbf}ಗ\u{cc6} ಬೀಚ\u{ccd}"),
+            tts: Some("ಕ\u{cca}ಡ\u{cc6}ಯ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಬ\u{cc0}ಚ\u{ccd}"),
             keywords: &[
-                "ಕೊಡ\u{cc6}",
-                "ಕೊಡ\u{cc6}ಯೊಂದ\u{cbf}ಗ\u{cc6} ಬೀಚ\u{ccd}",
-                "ಬೀಚ\u{ccd}",
+                "ಕ\u{cca}ಡ\u{cc6}",
+                "ಕ\u{cca}ಡ\u{cc6}ಯ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಬ\u{cc0}ಚ\u{ccd}",
+                "ಬ\u{cc0}ಚ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -6011,8 +6011,8 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಮರಳುಗಾಡು ದ\u{ccd}ವೀಪ"),
-            keywords: &["ದ\u{ccd}ವೀಪ", "ಮರಳುಗಾಡು"],
+            tts: Some("ಮರಳುಗಾಡು ದ\u{ccd}ವ\u{cc0}ಪ"),
+            keywords: &["ದ\u{ccd}ವ\u{cc0}ಪ", "ಮರಳುಗಾಡು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -6810,8 +6810,8 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ರಾಷ\u{ccd}ಟ\u{ccd}ರೀಯ ಉದ\u{ccd}ಯಾನ"),
-            keywords: &["ಉದ\u{ccd}ಯಾನ", "ರಾಷ\u{ccd}ಟ\u{ccd}ರೀಯ ಉದ\u{ccd}ಯಾನ"],
+            tts: Some("ರಾಷ\u{ccd}ಟ\u{ccd}ರ\u{cc0}ಯ ಉದ\u{ccd}ಯಾನ"),
+            keywords: &["ಉದ\u{ccd}ಯಾನ", "ರಾಷ\u{ccd}ಟ\u{ccd}ರ\u{cc0}ಯ ಉದ\u{ccd}ಯಾನ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

@@ -1112,10 +1112,10 @@ pub const ELEVATOR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಎಲ\u{cbf}ವೇಟರ\u{ccd}\u{200c}"),
+            tts: Some("ಎಲ\u{cbf}ವ\u{cc7}ಟರ\u{ccd}\u{200c}"),
             keywords: &[
                 "ಎತ\u{ccd}ತುವುದು",
-                "ಎಲ\u{cbf}ವೇಟರ\u{ccd}\u{200c}",
+                "ಎಲ\u{cbf}ವ\u{cc7}ಟರ\u{ccd}\u{200c}",
                 "ಲಭ\u{ccd}ಯತ\u{cc6}",
                 "ಲ\u{cbf}ಫ\u{ccd}ಟ\u{ccd}\u{200c}",
             ],
@@ -2831,7 +2831,7 @@ pub const WINDOW: crate::Emoji = crate::Emoji {
                 "ಕ\u{cbf}ಟಕ\u{cbf}",
                 "ತಾಜಾ ಗಾಳ\u{cbf}",
                 "ತ\u{cc6}ರ\u{cc6}ಯುವುದು",
-                "ನೋಟ",
+                "ನ\u{ccb}ಟ",
                 "ಪಾರದರ\u{ccd}ಶಕ",
             ],
         },
@@ -3756,7 +3756,7 @@ pub const BED: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ನ\u{cbf}ದ\u{ccd}ರ\u{cc6}",
                 "ಹಾಸ\u{cbf}ಗ\u{cc6}",
-                "ಹೊಟೇಲ\u{ccd}",
+                "ಹ\u{cca}ಟ\u{cc7}ಲ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -4150,861 +4150,7 @@ pub const BED: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🛋\u{fe0f}"]
-pub const COUCH_AND_LAMP: crate::Emoji = crate::Emoji {
-    glyph: "🛋\u{fe0f}",
-    codepoint: "1F6CB FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 0.7f32,
-    name: "couch and lamp",
-    group: "Objects",
-    subgroup: "household",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🛋",
-        codepoint: "1F6CB",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "couch and lamp",
-        group: "Objects",
-        subgroup: "household",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        #[cfg(feature = "af")]
-        crate::Annotation {
-            lang: "af",
-            tts: Some("rusbank en lamp"),
-            keywords: &["bank", "hotel", "lamp", "rus", "rusbank en lamp"],
-        },
-        #[cfg(feature = "am")]
-        crate::Annotation {
-            lang: "am",
-            tts: Some("ሶፋ እና መብራት"),
-            keywords: &["ሆቴል", "መብራት", "ሶፋ", "ሶፋ እና መብራት"],
-        },
-        #[cfg(feature = "ar")]
-        crate::Annotation {
-            lang: "ar",
-            tts: Some("كنبة ومصباح"),
-            keywords: &["فندق", "كنبة", "كنبة ومصباح", "مصباح"],
-        },
-        #[cfg(feature = "as")]
-        crate::Annotation {
-            lang: "as",
-            tts: Some("প\u{9be}লংক আৰ\u{9c1} লেম\u{9cd}প"),
-            keywords: &[
-                "ক\u{9be}উচ",
-                "প\u{9be}লংক আৰ\u{9c1} লেম\u{9cd}প",
-                "লেম\u{9cd}প",
-                "হোটেল",
-            ],
-        },
-        #[cfg(feature = "az")]
-        crate::Annotation {
-            lang: "az",
-            tts: Some("divan və lampa"),
-            keywords: &["divan", "divan və lampa", "lampa", "otel"],
-        },
-        #[cfg(feature = "be")]
-        crate::Annotation {
-            lang: "be",
-            tts: Some("канапа з лямпай"),
-            keywords: &["гасцініца", "гатэль", "канапа", "канапа з лямпай", "лямпа"],
-        },
-        #[cfg(feature = "bg")]
-        crate::Annotation {
-            lang: "bg",
-            tts: Some("Канапе и лампа"),
-            keywords: &["Канапе и лампа", "канапе", "лампа", "хотел"],
-        },
-        #[cfg(feature = "bn")]
-        crate::Annotation {
-            lang: "bn",
-            tts: Some("প\u{9be}লঙ\u{9cd}ক ও ব\u{9be}তি"),
-            keywords: &[
-                "ক\u{9be}উচ",
-                "প\u{9be}লঙ\u{9cd}ক ও ব\u{9be}তি",
-                "ল\u{9cd}য\u{9be}ম\u{9cd}প",
-                "হোটেল",
-            ],
-        },
-        #[cfg(feature = "br")]
-        crate::Annotation {
-            lang: "br",
-            tts: Some("gourvezvank ha lamp"),
-            keywords: &[
-                "gourvezvank",
-                "gourvezvank ha lamp",
-                "kleuzeur",
-                "lamp",
-                "leti",
-            ],
-        },
-        #[cfg(feature = "bs")]
-        crate::Annotation {
-            lang: "bs",
-            tts: Some("kauč i lampa"),
-            keywords: &["hotel", "kauč", "kauč i lampa", "lampa"],
-        },
-        #[cfg(feature = "ca")]
-        crate::Annotation {
-            lang: "ca",
-            tts: Some("sofà i làmpada"),
-            keywords: &["hotel", "làmpada", "sofà", "sofà i làmpada"],
-        },
-        #[cfg(feature = "chr")]
-        crate::Annotation {
-            lang: "chr",
-            tts: Some("ᎦᏅᎯᏓ ᎦᏍᎩᎶ ᎠᎴ ᎠᏨᏍᏗ"),
-            keywords: &["ᎠᏨᏍᏗ", "ᎦᏅᎯᏓ ᎦᏍᎩᎶ", "ᎦᏅᎯᏓ ᎦᏍᎩᎶ ᎠᎴ ᎠᏨᏍᏗ", "ᏧᏂᏒᏍᏗ"],
-        },
-        #[cfg(feature = "cs")]
-        crate::Annotation {
-            lang: "cs",
-            tts: Some("gauč a lampa"),
-            keywords: &["gauč", "gauč a lampa", "hotel", "lampa"],
-        },
-        #[cfg(feature = "cy")]
-        crate::Annotation {
-            lang: "cy",
-            tts: Some("soffa a lamp"),
-            keywords: &["gwesty", "lamp", "soffa", "soffa a lamp"],
-        },
-        #[cfg(feature = "da")]
-        crate::Annotation {
-            lang: "da",
-            tts: Some("sofa og lampe"),
-            keywords: &["hotel", "lampe", "sofa", "sofa og lampe"],
-        },
-        #[cfg(feature = "de")]
-        crate::Annotation {
-            lang: "de",
-            tts: Some("Sofa und Lampe"),
-            keywords: &["Lampe", "Sofa", "Sofa und Lampe"],
-        },
-        #[cfg(feature = "el")]
-        crate::Annotation {
-            lang: "el",
-            tts: Some("καναπές και φωτιστικό"),
-            keywords: &[
-                "καναπές",
-                "καναπές και φωτιστικό",
-                "ξενοδοχείο",
-                "φωτιστικό",
-            ],
-        },
-        #[cfg(feature = "en")]
-        crate::Annotation {
-            lang: "en",
-            tts: Some("couch and lamp"),
-            keywords: &["couch", "couch and lamp", "hotel", "lamp"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("sofa and lamp"),
-            keywords: &["couch", "hotel", "lamp", "sofa", "sofa and lamp"],
-        },
-        #[cfg(feature = "en_AU")]
-        crate::Annotation {
-            lang: "en_AU",
-            tts: Some("couch and lamp"),
-            keywords: &[
-                "couch",
-                "couch and lamp",
-                "hotel",
-                "lamp",
-                "sofa",
-                "sofa and lamp",
-            ],
-        },
-        #[cfg(feature = "en_CA")]
-        crate::Annotation {
-            lang: "en_CA",
-            tts: Some("couch and lamp"),
-            keywords: &[
-                "couch",
-                "couch and lamp",
-                "hotel",
-                "lamp",
-                "sofa",
-                "sofa and lamp",
-            ],
-        },
-        #[cfg(feature = "en_GB")]
-        crate::Annotation {
-            lang: "en_GB",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "en_IN")]
-        crate::Annotation {
-            lang: "en_IN",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "es")]
-        crate::Annotation {
-            lang: "es",
-            tts: Some("sofá y lámpara"),
-            keywords: &["hotel", "lámpara", "sofá", "sofá y lámpara"],
-        },
-        #[cfg(feature = "es_419")]
-        crate::Annotation {
-            lang: "es_419",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "es_MX")]
-        crate::Annotation {
-            lang: "es_MX",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "es_US")]
-        crate::Annotation {
-            lang: "es_US",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "et")]
-        crate::Annotation {
-            lang: "et",
-            tts: Some("diivan ja lamp"),
-            keywords: &["diivan", "diivan ja lamp", "hotell", "lamp"],
-        },
-        #[cfg(feature = "eu")]
-        crate::Annotation {
-            lang: "eu",
-            tts: Some("sofa eta lanpara"),
-            keywords: &["hotel", "lanpara", "sofa", "sofa eta lanpara"],
-        },
-        #[cfg(feature = "fa")]
-        crate::Annotation {
-            lang: "fa",
-            tts: Some("مبل راحتی و چراغ"),
-            keywords: &["لامپ", "مبل", "مبل راحتی و چراغ", "هتل", "چراغ", "کاناپه"],
-        },
-        #[cfg(feature = "fi")]
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("sohva ja lamppu"),
-            keywords: &["hotelli", "lamppu", "sohva", "sohva ja lamppu"],
-        },
-        #[cfg(feature = "fil")]
-        crate::Annotation {
-            lang: "fil",
-            tts: Some("sofa at ilaw"),
-            keywords: &["hotel", "ilaw", "sofa", "sofa at ilaw", "upuan"],
-        },
-        #[cfg(feature = "fo")]
-        crate::Annotation {
-            lang: "fo",
-            tts: Some("sofa og lampa"),
-            keywords: &["lampa", "sofa", "sofa og lampa"],
-        },
-        #[cfg(feature = "fr")]
-        crate::Annotation {
-            lang: "fr",
-            tts: Some("canapé et lampe"),
-            keywords: &["canapé", "canapé et lampe", "lampe"],
-        },
-        #[cfg(feature = "fr_CA")]
-        crate::Annotation {
-            lang: "fr_CA",
-            tts: Some("sofa et lampe"),
-            keywords: &["canapé", "divan", "lampe", "sofa", "sofa et lampe"],
-        },
-        #[cfg(feature = "ga")]
-        crate::Annotation {
-            lang: "ga",
-            tts: Some("tolg agus lampa"),
-            keywords: &["lampa", "tolg", "tolg agus lampa", "óstán"],
-        },
-        #[cfg(feature = "gd")]
-        crate::Annotation {
-            lang: "gd",
-            tts: Some("langasaid ’s lampa"),
-            keywords: &["lampa", "langasaid", "langasaid ’s lampa", "taigh-òsta"],
-        },
-        #[cfg(feature = "gl")]
-        crate::Annotation {
-            lang: "gl",
-            tts: Some("sofá e lámpada"),
-            keywords: &["hotel", "lámpada", "sofá", "sofá e lámpada"],
-        },
-        #[cfg(feature = "gu")]
-        crate::Annotation {
-            lang: "gu",
-            tts: Some("કાઉચ અન\u{ac7} લ\u{ac7}મ\u{acd}પ"),
-            keywords: &[
-                "કાઉચ",
-                "કાઉચ અન\u{ac7} લ\u{ac7}મ\u{acd}પ",
-                "લ\u{ac7}મ\u{acd}પ",
-                "સોફો",
-                "હોટલ",
-            ],
-        },
-        #[cfg(feature = "ha")]
-        crate::Annotation {
-            lang: "ha",
-            tts: Some("kujerar kwance da fitila"),
-            keywords: &[
-                "fitila",
-                "hotal",
-                "kujerar kwance",
-                "kujerar kwance da fitila",
-            ],
-        },
-        #[cfg(feature = "he")]
-        crate::Annotation {
-            lang: "he",
-            tts: Some("ספה ומנורה"),
-            keywords: &["מלון", "מנורה", "סלון", "ספה", "ספה ומנורה"],
-        },
-        #[cfg(feature = "hi")]
-        crate::Annotation {
-            lang: "hi",
-            tts: Some("सोफ\u{93c}ा और ल\u{948}\u{902}प"),
-            keywords: &[
-                "ल\u{948}\u{902}प",
-                "सोफ\u{93c}ा",
-                "सोफ\u{93c}ा और ल\u{948}\u{902}प",
-                "होटल",
-            ],
-        },
-        #[cfg(feature = "hr")]
-        crate::Annotation {
-            lang: "hr",
-            tts: Some("kauč i svjetiljka"),
-            keywords: &["hotel", "kauč", "kauč i svjetiljka", "svjetiljka"],
-        },
-        #[cfg(feature = "hu")]
-        crate::Annotation {
-            lang: "hu",
-            tts: Some("kanapé és lámpa"),
-            keywords: &["kanapé", "kanapé és lámpa", "lámpa", "szálloda"],
-        },
-        #[cfg(feature = "hy")]
-        crate::Annotation {
-            lang: "hy",
-            tts: Some("բազմոց և լամպ"),
-            keywords: &["բազմոց", "բազմոց և լամպ", "լամպ", "հյուրանոց"],
-        },
-        #[cfg(feature = "id")]
-        crate::Annotation {
-            lang: "id",
-            tts: Some("sofa dan lampu"),
-            keywords: &["hotel", "lampu", "sofa", "sofa dan lampu"],
-        },
-        #[cfg(feature = "ig")]
-        crate::Annotation {
-            lang: "ig",
-            tts: Some("oche na mpanaka"),
-            keywords: &["mpanaka", "oche", "oche na mpanaka", "ụlọ nkwarị"],
-        },
-        #[cfg(feature = "is")]
-        crate::Annotation {
-            lang: "is",
-            tts: Some("sófi og lampi"),
-            keywords: &["hótel", "lampi", "sófi", "sófi og lampi"],
-        },
-        #[cfg(feature = "it")]
-        crate::Annotation {
-            lang: "it",
-            tts: Some("divano e lampada"),
-            keywords: &["divano", "divano e lampada", "relax", "salotto"],
-        },
-        #[cfg(feature = "ja")]
-        crate::Annotation {
-            lang: "ja",
-            tts: Some("ソファとランプ"),
-            keywords: &["ソファ", "ソファとランプ", "ホテル", "ランプ"],
-        },
-        #[cfg(feature = "jv")]
-        crate::Annotation {
-            lang: "jv",
-            tts: Some("sofa lan lampu"),
-            keywords: &["hotel", "lampu", "sofa", "sofa lan lampu"],
-        },
-        #[cfg(feature = "ka")]
-        crate::Annotation {
-            lang: "ka",
-            tts: Some("დივანი და ლამპა"),
-            keywords: &["დივანი", "დივანი და ლამპა", "ლამპა", "სასტუმრო"],
-        },
-        #[cfg(feature = "kk")]
-        crate::Annotation {
-            lang: "kk",
-            tts: Some("диван мен шам"),
-            keywords: &["диван", "диван мен шам", "шам", "қонақ үй"],
-        },
-        #[cfg(feature = "kl")]
-        crate::Annotation {
-            lang: "kl",
-            tts: Some("sofa og lampe"),
-            keywords: &["hotel", "lampe", "sofa", "sofa og lampe"],
-        },
-        #[cfg(feature = "km")]
-        crate::Annotation {
-            lang: "km",
-            tts: Some("សាឡ\u{17bb}ងន\u{17b7}ងអ\u{17c6}ព\u{17bc}ល"),
-            keywords: &[
-                "សាឡ\u{17bb}ង",
-                "សាឡ\u{17bb}ងន\u{17b7}ងអ\u{17c6}ព\u{17bc}ល",
-                "អ\u{17c6}ព\u{17bc}ល",
-            ],
-        },
-        #[cfg(feature = "kn")]
-        crate::Annotation {
-            lang: "kn",
-            tts: Some("ಸೋಫಾ ಮತ\u{ccd}ತು ಲ\u{ccd}ಯಾಂಪ\u{ccd}"),
-            keywords: &[
-                "ಕೋಚ\u{ccd}",
-                "ಲ\u{ccd}ಯಾಂಪು ಮತ\u{ccd}ತು ಸೋಫಾ",
-                "ಸೋಫಾ ಮತ\u{ccd}ತು ಲ\u{ccd}ಯಾಂಪ\u{ccd}",
-                "ಹೊಟೇಲ\u{ccd}",
-            ],
-        },
-        #[cfg(feature = "ko")]
-        crate::Annotation {
-            lang: "ko",
-            tts: Some("소파와 전등"),
-            keywords: &["소파", "소파와 전등", "전등"],
-        },
-        #[cfg(feature = "kok")]
-        crate::Annotation {
-            lang: "kok",
-            tts: Some("कोच आनी ल\u{945}म\u{94d}प"),
-            keywords: &[
-                "कोच",
-                "कोच आनी ल\u{945}म\u{94d}प",
-                "ल\u{945}म\u{94d}प",
-                "हॉट\u{947}ल",
-            ],
-        },
-        #[cfg(feature = "ky")]
-        crate::Annotation {
-            lang: "ky",
-            tts: Some("софа жана лампа"),
-            keywords: &["лампа", "мейманкана", "софа", "софа жана лампа"],
-        },
-        #[cfg(feature = "lb")]
-        crate::Annotation {
-            lang: "lb",
-            tts: Some("Couche a Luucht"),
-            keywords: &["Couche", "Couche a Luucht", "Hotel", "Luucht"],
-        },
-        #[cfg(feature = "lo")]
-        crate::Annotation {
-            lang: "lo",
-            tts: Some("ໂຊຟາກ\u{eb1}ບໂຄມໄຟ"),
-            keywords: &["ໂຄມໄຟ", "ໂຊຟາ", "ໂຊຟາກ\u{eb1}ບໂຄມໄຟ", "ໂຮງແຮມ"],
-        },
-        #[cfg(feature = "lt")]
-        crate::Annotation {
-            lang: "lt",
-            tts: Some("sofa ir lempa"),
-            keywords: &["lempa", "sofa", "sofa ir lempa", "viešbutis"],
-        },
-        #[cfg(feature = "lv")]
-        crate::Annotation {
-            lang: "lv",
-            tts: Some("dīvāns un lampa"),
-            keywords: &["dīvāns", "dīvāns un lampa", "lampa", "viesnīca"],
-        },
-        #[cfg(feature = "mi")]
-        crate::Annotation {
-            lang: "mi",
-            tts: Some("nohoanga roa me te rama"),
-            keywords: &["hōtēra", "nohoanga roa", "nohoanga roa me te rama", "rama"],
-        },
-        #[cfg(feature = "mk")]
-        crate::Annotation {
-            lang: "mk",
-            tts: Some("кауч и ламба"),
-            keywords: &["кауч", "кауч и ламба", "ламба", "хотел"],
-        },
-        #[cfg(feature = "ml")]
-        crate::Annotation {
-            lang: "ml",
-            tts: Some("കിടക\u{d4d}കയ\u{d41}ം വിളക\u{d4d}ക\u{d41}ം"),
-            keywords: &[
-                "കിടക\u{d4d}ക",
-                "കിടക\u{d4d}കയ\u{d41}ം വിളക\u{d4d}ക\u{d41}ം",
-                "വിളക\u{d4d}ക\u{d4d}",
-                "ഹോട\u{d4d}ടൽ",
-            ],
-        },
-        #[cfg(feature = "mn")]
-        crate::Annotation {
-            lang: "mn",
-            tts: Some("буйдан, ширээний гэрэл"),
-            keywords: &["буйдан", "буйдан, ширээний гэрэл", "ширээний гэрэл"],
-        },
-        #[cfg(feature = "mr")]
-        crate::Annotation {
-            lang: "mr",
-            tts: Some("काऊच आणि दिवा"),
-            keywords: &["काऊच", "काऊच आणि दिवा", "दिवा", "हॉट\u{947}ल"],
-        },
-        #[cfg(feature = "ms")]
-        crate::Annotation {
-            lang: "ms",
-            tts: Some("sofa dan lampu"),
-            keywords: &["hotel", "lampu", "sofa", "sofa dan lampu"],
-        },
-        #[cfg(feature = "mt")]
-        crate::Annotation {
-            lang: "mt",
-            tts: Some("sufan u lampa"),
-            keywords: &["fanal", "lukanda", "sufan", "sufan u lampa"],
-        },
-        #[cfg(feature = "my")]
-        crate::Annotation {
-            lang: "my",
-            tts: Some(
-                "ဆ\u{102d}\u{102f}ဖာန\u{103e}င\u{1037}\u{103a} မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}",
-            ),
-            keywords: &[
-                "ဆ\u{102d}\u{102f}ဖာ",
-                "ဆ\u{102d}\u{102f}ဖာန\u{103e}င\u{1037}\u{103a} မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}",
-                "မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}",
-                "ဟ\u{102d}\u{102f}တယ\u{103a}",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sofa og lampe"),
-            keywords: &["hotell", "lampe", "sofa", "sofa og lampe"],
-        },
-        #[cfg(feature = "ne")]
-        crate::Annotation {
-            lang: "ne",
-            tts: Some("कउच र बत\u{94d}ती"),
-            keywords: &["कउच", "कउच र बत\u{94d}ती", "बत\u{94d}ती", "होट\u{947}ल"],
-        },
-        #[cfg(feature = "nl")]
-        crate::Annotation {
-            lang: "nl",
-            tts: Some("bank en lamp"),
-            keywords: &["bank", "bank en lamp", "hotel", "lamp"],
-        },
-        #[cfg(feature = "nn")]
-        crate::Annotation {
-            lang: "nn",
-            tts: Some("sofa og lampe"),
-            keywords: &["hotell", "lampe", "sofa", "sofa og lampe"],
-        },
-        #[cfg(feature = "or")]
-        crate::Annotation {
-            lang: "or",
-            tts: Some("କ\u{b3e}ଉଚ\u{b4d}\u{200c} ଏବଂ ବତ\u{b3f}"),
-            keywords: &[
-                "କ\u{b3e}ଉଚ\u{b4d}\u{200c}",
-                "କ\u{b3e}ଉଚ\u{b4d}\u{200c} ଏବଂ ବତ\u{b3f}",
-                "ବତ\u{b3f}",
-                "ହୋଟେଲ\u{b4d}\u{200c}",
-            ],
-        },
-        #[cfg(feature = "pa")]
-        crate::Annotation {
-            lang: "pa",
-            tts: Some("ਸ\u{a4b}ਫਾ ਅਤ\u{a47} ਲ\u{a48}\u{a02}ਪ"),
-            keywords: &[
-                "ਜੀਵਨ-ਸ\u{a3c}\u{a48}ਲੀ",
-                "ਫਰਨੀਚਰ",
-                "ਲ\u{a48}\u{a02}ਪ",
-                "ਸ\u{a4b}ਫਾ",
-                "ਸ\u{a4b}ਫਾ ਅਤ\u{a47} ਲ\u{a48}\u{a02}ਪ",
-                "ਹ\u{a4b}ਟਲ",
-            ],
-        },
-        #[cfg(feature = "pa_Arab")]
-        crate::Annotation {
-            lang: "pa_Arab",
-            tts: Some("صوفہ اتے چراغ"),
-            keywords: &["صوفہ", "صوفہ اتے چراغ", "لیمپ", "ہوٹل"],
-        },
-        #[cfg(feature = "pcm")]
-        crate::Annotation {
-            lang: "pcm",
-            tts: Some("Sẹtii An Lamp"),
-            keywords: &[
-                "Hotẹl",
-                "Kauch",
-                "Lait",
-                "Sófa",
-                "Sófa An Lait",
-                "Sẹtii",
-                "Sẹtii An Lamp",
-            ],
-        },
-        #[cfg(feature = "pl")]
-        crate::Annotation {
-            lang: "pl",
-            tts: Some("kanapa i lampa"),
-            keywords: &["hotel", "kanapa", "kanapa i lampa", "lampa"],
-        },
-        #[cfg(feature = "ps")]
-        crate::Annotation {
-            lang: "ps",
-            tts: Some("سوفه او څراغ"),
-            keywords: &["سوفه", "سوفه او څراغ", "سوفې او څراغ", "هوتل", "څراغ"],
-        },
-        #[cfg(feature = "pt")]
-        crate::Annotation {
-            lang: "pt",
-            tts: Some("sofá e luminária"),
-            keywords: &["hotel", "lâmpada", "sofá", "sofá e luminária"],
-        },
-        #[cfg(feature = "pt_PT")]
-        crate::Annotation {
-            lang: "pt_PT",
-            tts: Some("sofá e candeeiro"),
-            keywords: &["candeeiro", "hotel", "sofá", "sofá e candeeiro"],
-        },
-        #[cfg(feature = "ro")]
-        crate::Annotation {
-            lang: "ro",
-            tts: Some("canapea și lampă"),
-            keywords: &["canapea", "canapea și lampă", "hotel", "lampă", "lumină"],
-        },
-        #[cfg(feature = "root")]
-        crate::Annotation {
-            lang: "root",
-            tts: Some("E10-986"),
-            keywords: &["E10-986"],
-        },
-        #[cfg(feature = "ru")]
-        crate::Annotation {
-            lang: "ru",
-            tts: Some("диван и торшер"),
-            keywords: &["диван", "диван и торшер", "лампа", "торшер", "уют"],
-        },
-        #[cfg(feature = "rw")]
-        crate::Annotation {
-            lang: "rw",
-            tts: Some("ifoteyi n’itara"),
-            keywords: &["hoteli", "ifoteyi", "ifoteyi n’itara", "itara"],
-        },
-        #[cfg(feature = "sd")]
-        crate::Annotation {
-            lang: "sd",
-            tts: Some("صوفو ۽ بتي"),
-            keywords: &["بتي", "صوفو", "صوفو ۽ بتي", "هوٽل"],
-        },
-        #[cfg(feature = "si")]
-        crate::Annotation {
-            lang: "si",
-            tts: Some("ක\u{dd4}ඩ\u{dcf} ඇඳ සහ ල\u{dcf}ම\u{dca}ප\u{dd4}ව"),
-            keywords: &[
-                "කව\u{dd2}ච\u{dca}ච\u{dd2}ය",
-                "ක\u{dd4}ඩ\u{dcf} ඇඳ සහ ල\u{dcf}ම\u{dca}ප\u{dd4}ව",
-                "ල\u{dcf}ම\u{dca}ප\u{dd4}ව",
-                "හෝටලය",
-            ],
-        },
-        #[cfg(feature = "sk")]
-        crate::Annotation {
-            lang: "sk",
-            tts: Some("gauč a lampa"),
-            keywords: &["gauč", "gauč a lampa", "hotel", "lampa"],
-        },
-        #[cfg(feature = "sl")]
-        crate::Annotation {
-            lang: "sl",
-            tts: Some("kavč in svetilka"),
-            keywords: &["hotel", "kavč", "kavč in svetilka", "svetilka"],
-        },
-        #[cfg(feature = "so")]
-        crate::Annotation {
-            lang: "so",
-            tts: Some("fadhi iyo laambad"),
-            keywords: &["fadhi", "fadhi iyo laambad", "hudheel"],
-        },
-        #[cfg(feature = "sq")]
-        crate::Annotation {
-            lang: "sq",
-            tts: Some("divan dhe llambë"),
-            keywords: &["divan", "divan dhe llambë", "hotel", "llambë"],
-        },
-        #[cfg(feature = "sr")]
-        crate::Annotation {
-            lang: "sr",
-            tts: Some("кауч и лампа"),
-            keywords: &["кaуч", "кауч и лампа", "лампа", "хoтeл"],
-        },
-        #[cfg(feature = "sr_Cyrl_BA")]
-        crate::Annotation {
-            lang: "sr_Cyrl_BA",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "sr_Latn")]
-        crate::Annotation {
-            lang: "sr_Latn",
-            tts: Some("kauč i lampa"),
-            keywords: &["hotel", "kauč", "kauč i lampa", "lampa"],
-        },
-        #[cfg(feature = "sv")]
-        crate::Annotation {
-            lang: "sv",
-            tts: Some("soffa och lampa"),
-            keywords: &["hotell", "lampa", "soffa", "soffa och lampa"],
-        },
-        #[cfg(feature = "sw")]
-        crate::Annotation {
-            lang: "sw",
-            tts: Some("kochi na taa"),
-            keywords: &["hoteli", "kochi", "kochi na taa", "taa"],
-        },
-        #[cfg(feature = "sw_KE")]
-        crate::Annotation {
-            lang: "sw_KE",
-            tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
-        },
-        #[cfg(feature = "ta")]
-        crate::Annotation {
-            lang: "ta",
-            tts: Some("மின\u{bcd}விளக\u{bcd}கும\u{bcd} படுக\u{bcd}கையும\u{bcd}"),
-            keywords: &[
-                "படுக\u{bcd}கை",
-                "மின\u{bcd}விளக\u{bcd}கு",
-                "மின\u{bcd}விளக\u{bcd}குடன\u{bcd} படுக\u{bcd}கை",
-                "மின\u{bcd}விளக\u{bcd}கும\u{bcd} படுக\u{bcd}கையும\u{bcd}",
-            ],
-        },
-        #[cfg(feature = "te")]
-        crate::Annotation {
-            lang: "te",
-            tts: Some("స\u{c4b}ఫ\u{c3e} మర\u{c3f}యు ల\u{c4d}య\u{c3e}ంప\u{c4d}"),
-            keywords: &[
-                "ల\u{c4d}య\u{c3e}ంప\u{c4d}",
-                "స\u{c4b}ఫ\u{c3e}",
-                "స\u{c4b}ఫ\u{c3e} మర\u{c3f}యు ల\u{c4d}య\u{c3e}ంప\u{c4d}",
-            ],
-        },
-        #[cfg(feature = "tg")]
-        crate::Annotation {
-            lang: "tg",
-            tts: Some("диван ва чароғ"),
-            keywords: &["диван", "диван ва чароғ", "меҳмонхона", "чароғ"],
-        },
-        #[cfg(feature = "th")]
-        crate::Annotation {
-            lang: "th",
-            tts: Some("โซฟาก\u{e31}บโคมไฟ"),
-            keywords: &["โคมไฟ", "โซฟา", "โซฟาก\u{e31}บโคมไฟ", "โรงแรม"],
-        },
-        #[cfg(feature = "tk")]
-        crate::Annotation {
-            lang: "tk",
-            tts: Some("diwan we çyra"),
-            keywords: &["diwan", "diwan we çyra", "myhmanhana", "çyra"],
-        },
-        #[cfg(feature = "to")]
-        crate::Annotation {
-            lang: "to",
-            tts: Some("sea mālōlōʻanga moe maama"),
-            keywords: &["sea mālōlōʻanga moe maama"],
-        },
-        #[cfg(feature = "tr")]
-        crate::Annotation {
-            lang: "tr",
-            tts: Some("kanepe ve lamba"),
-            keywords: &["kanepe", "kanepe ve lamba", "lamba", "otel"],
-        },
-        #[cfg(feature = "ug")]
-        crate::Annotation {
-            lang: "ug",
-            tts: Some("دىۋان ۋە چىراق"),
-            keywords: &["دىۋان", "دىۋان ۋە چىراق", "مېھمانخانا", "چىراق"],
-        },
-        #[cfg(feature = "uk")]
-        crate::Annotation {
-            lang: "uk",
-            tts: Some("канапа й торшер"),
-            keywords: &["готель", "диван", "канапа й торшер", "лампа"],
-        },
-        #[cfg(feature = "ur")]
-        crate::Annotation {
-            lang: "ur",
-            tts: Some("کاؤچ اور لیمپ"),
-            keywords: &["لیمپ", "کاؤچ", "کاؤچ اور لیمپ", "ہوٹل"],
-        },
-        #[cfg(feature = "uz")]
-        crate::Annotation {
-            lang: "uz",
-            tts: Some("divan va lampa"),
-            keywords: &["chiroq", "divan", "divan va lampa", "lampa", "mehmonxona"],
-        },
-        #[cfg(feature = "vi")]
-        crate::Annotation {
-            lang: "vi",
-            tts: Some("ghế dài và đèn"),
-            keywords: &["ghế dài và đèn", "khách sạn", "đi văng", "đèn"],
-        },
-        #[cfg(feature = "wo")]
-        crate::Annotation {
-            lang: "wo",
-            tts: Some("kanape and làmp"),
-            keywords: &["kanape", "kanape and làmp", "làmp", "otel"],
-        },
-        #[cfg(feature = "xh")]
-        crate::Annotation {
-            lang: "xh",
-            tts: Some("isofa nesibane"),
-            keywords: &["ihotele", "isibane", "isofa", "isofa nesibane"],
-        },
-        #[cfg(feature = "yo")]
-        crate::Annotation {
-            lang: "yo",
-            tts: Some("ìjókò àti àtùpà"),
-            keywords: &["ilé ìtura", "àtùpà", "ìjókò", "ìjókò àti àtùpà"],
-        },
-        #[cfg(feature = "yue")]
-        crate::Annotation {
-            lang: "yue",
-            tts: Some("沙發和座燈"),
-            keywords: &["座燈", "沙發", "沙發和座燈", "酒店"],
-        },
-        #[cfg(feature = "yue_Hans")]
-        crate::Annotation {
-            lang: "yue_Hans",
-            tts: Some("沙发和座灯"),
-            keywords: &["座灯", "沙发", "沙发和座灯", "酒店"],
-        },
-        #[cfg(feature = "zh")]
-        crate::Annotation {
-            lang: "zh",
-            tts: Some("沙发和灯"),
-            keywords: &["家", "沙发", "沙发和灯", "灯", "阅读"],
-        },
-        #[cfg(feature = "zh_Hant")]
-        crate::Annotation {
-            lang: "zh_Hant",
-            tts: Some("沙發和立燈"),
-            keywords: &["沙發", "沙發和立燈", "立燈"],
-        },
-        #[cfg(feature = "zh_Hant_HK")]
-        crate::Annotation {
-            lang: "zh_Hant_HK",
-            tts: Some("梳化和座地燈"),
-            keywords: &["梳化和座地燈", "梳化｜座地燈"],
-        },
-        #[cfg(feature = "zu")]
-        crate::Annotation {
-            lang: "zu",
-            tts: Some("usofa ilambu"),
-            keywords: &["ihhotela", "ilambu", "usofa"],
-        },
-    ],
-};
+pub const COUCH_AND_LAMP : crate :: Emoji = crate :: Emoji { glyph : "🛋\u{fe0f}" , codepoint : "1F6CB FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "couch and lamp" , group : "Objects" , subgroup : "household" , is_variant : false , variants : & [crate :: Emoji { glyph : "🛋" , codepoint : "1F6CB" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "couch and lamp" , group : "Objects" , subgroup : "household" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("rusbank en lamp") , keywords : & ["bank" , "hotel" , "lamp" , "rus" , "rusbank en lamp"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሶፋ እና መብራት") , keywords : & ["ሆቴል" , "መብራት" , "ሶፋ" , "ሶፋ እና መብራት"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("كنبة ومصباح") , keywords : & ["فندق" , "كنبة" , "كنبة ومصباح" , "مصباح"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("প\u{9be}লংক আৰ\u{9c1} লেম\u{9cd}প") , keywords : & ["ক\u{9be}উচ" , "প\u{9be}লংক আৰ\u{9c1} লেম\u{9cd}প" , "লেম\u{9cd}প" , "হোটেল"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("divan və lampa") , keywords : & ["divan" , "divan və lampa" , "lampa" , "otel"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("канапа з лямпай") , keywords : & ["гасцініца" , "гатэль" , "канапа" , "канапа з лямпай" , "лямпа"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Канапе и лампа") , keywords : & ["Канапе и лампа" , "канапе" , "лампа" , "хотел"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9be}লঙ\u{9cd}ক ও ব\u{9be}তি") , keywords : & ["ক\u{9be}উচ" , "প\u{9be}লঙ\u{9cd}ক ও ব\u{9be}তি" , "ল\u{9cd}য\u{9be}ম\u{9cd}প" , "হোটেল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("gourvezvank ha lamp") , keywords : & ["gourvezvank" , "gourvezvank ha lamp" , "kleuzeur" , "lamp" , "leti"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("kauč i lampa") , keywords : & ["hotel" , "kauč" , "kauč i lampa" , "lampa"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("sofà i làmpada") , keywords : & ["hotel" , "làmpada" , "sofà" , "sofà i làmpada"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏅᎯᏓ ᎦᏍᎩᎶ ᎠᎴ ᎠᏨᏍᏗ") , keywords : & ["ᎠᏨᏍᏗ" , "ᎦᏅᎯᏓ ᎦᏍᎩᎶ" , "ᎦᏅᎯᏓ ᎦᏍᎩᎶ ᎠᎴ ᎠᏨᏍᏗ" , "ᏧᏂᏒᏍᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("gauč a lampa") , keywords : & ["gauč" , "gauč a lampa" , "hotel" , "lampa"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("soffa a lamp") , keywords : & ["gwesty" , "lamp" , "soffa" , "soffa a lamp"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("sofa og lampe") , keywords : & ["hotel" , "lampe" , "sofa" , "sofa og lampe"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Sofa und Lampe") , keywords : & ["Lampe" , "Sofa" , "Sofa und Lampe"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("καναπές και φωτιστικό") , keywords : & ["καναπές" , "καναπές και φωτιστικό" , "ξενοδοχείο" , "φωτιστικό"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("couch and lamp") , keywords : & ["couch" , "couch and lamp" , "hotel" , "lamp"] , } , # [cfg (feature = "en_001")] crate :: Annotation { lang : "en_001" , tts : Some ("sofa and lamp") , keywords : & ["couch" , "hotel" , "lamp" , "sofa" , "sofa and lamp"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("couch and lamp") , keywords : & ["couch" , "couch and lamp" , "hotel" , "lamp" , "sofa" , "sofa and lamp"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("couch and lamp") , keywords : & ["couch" , "couch and lamp" , "hotel" , "lamp" , "sofa" , "sofa and lamp"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("sofá y lámpara") , keywords : & ["hotel" , "lámpara" , "sofá" , "sofá y lámpara"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("diivan ja lamp") , keywords : & ["diivan" , "diivan ja lamp" , "hotell" , "lamp"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("sofa eta lanpara") , keywords : & ["hotel" , "lanpara" , "sofa" , "sofa eta lanpara"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("مبل راحتی و چراغ") , keywords : & ["لامپ" , "مبل" , "مبل راحتی و چراغ" , "هتل" , "چراغ" , "کاناپه"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("sohva ja lamppu") , keywords : & ["hotelli" , "lamppu" , "sohva" , "sohva ja lamppu"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("sofa at ilaw") , keywords : & ["hotel" , "ilaw" , "sofa" , "sofa at ilaw" , "upuan"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("sofa og lampa") , keywords : & ["lampa" , "sofa" , "sofa og lampa"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("canapé et lampe") , keywords : & ["canapé" , "canapé et lampe" , "lampe"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("sofa et lampe") , keywords : & ["canapé" , "divan" , "lampe" , "sofa" , "sofa et lampe"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("tolg agus lampa") , keywords : & ["lampa" , "tolg" , "tolg agus lampa" , "óstán"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("langasaid ’s lampa") , keywords : & ["lampa" , "langasaid" , "langasaid ’s lampa" , "taigh-òsta"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("sofá e lámpada") , keywords : & ["hotel" , "lámpada" , "sofá" , "sofá e lámpada"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("કાઉચ અન\u{ac7} લ\u{ac7}મ\u{acd}પ") , keywords : & ["કાઉચ" , "કાઉચ અન\u{ac7} લ\u{ac7}મ\u{acd}પ" , "લ\u{ac7}મ\u{acd}પ" , "સોફો" , "હોટલ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("kujerar kwance da fitila") , keywords : & ["fitila" , "hotal" , "kujerar kwance" , "kujerar kwance da fitila"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("ספה ומנורה") , keywords : & ["מלון" , "מנורה" , "סלון" , "ספה" , "ספה ומנורה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("सोफ\u{93c}ा और ल\u{948}\u{902}प") , keywords : & ["ल\u{948}\u{902}प" , "सोफ\u{93c}ा" , "सोफ\u{93c}ा और ल\u{948}\u{902}प" , "होटल"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("kauč i svjetiljka") , keywords : & ["hotel" , "kauč" , "kauč i svjetiljka" , "svjetiljka"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("kanapé és lámpa") , keywords : & ["kanapé" , "kanapé és lámpa" , "lámpa" , "szálloda"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բազմոց և լամպ") , keywords : & ["բազմոց" , "բազմոց և լամպ" , "լամպ" , "հյուրանոց"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("sofa dan lampu") , keywords : & ["hotel" , "lampu" , "sofa" , "sofa dan lampu"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("oche na mpanaka") , keywords : & ["mpanaka" , "oche" , "oche na mpanaka" , "ụlọ nkwarị"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("sófi og lampi") , keywords : & ["hótel" , "lampi" , "sófi" , "sófi og lampi"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("divano e lampada") , keywords : & ["divano" , "divano e lampada" , "relax" , "salotto"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ソファとランプ") , keywords : & ["ソファ" , "ソファとランプ" , "ホテル" , "ランプ"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("sofa lan lampu") , keywords : & ["hotel" , "lampu" , "sofa" , "sofa lan lampu"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("დივანი და ლამპა") , keywords : & ["დივანი" , "დივანი და ლამპა" , "ლამპა" , "სასტუმრო"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("диван мен шам") , keywords : & ["диван" , "диван мен шам" , "шам" , "қонақ үй"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("sofa og lampe") , keywords : & ["hotel" , "lampe" , "sofa" , "sofa og lampe"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("សាឡ\u{17bb}ងន\u{17b7}ងអ\u{17c6}ព\u{17bc}ល") , keywords : & ["សាឡ\u{17bb}ង" , "សាឡ\u{17bb}ងន\u{17b7}ងអ\u{17c6}ព\u{17bc}ល" , "អ\u{17c6}ព\u{17bc}ល"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccb}ಫಾ ಮತ\u{ccd}ತು ಲ\u{ccd}ಯಾಂಪ\u{ccd}") , keywords : & ["ಕ\u{ccb}ಚ\u{ccd}" , "ಲ\u{ccd}ಯಾಂಪು ಮತ\u{ccd}ತು ಸ\u{ccb}ಫಾ" , "ಸ\u{ccb}ಫಾ ಮತ\u{ccd}ತು ಲ\u{ccd}ಯಾಂಪ\u{ccd}" , "ಹ\u{cca}ಟ\u{cc7}ಲ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("소파와 전등") , keywords : & ["소파" , "소파와 전등" , "전등"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("कोच आनी ल\u{945}म\u{94d}प") , keywords : & ["कोच" , "कोच आनी ल\u{945}म\u{94d}प" , "ल\u{945}म\u{94d}प" , "हॉट\u{947}ल"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("софа жана лампа") , keywords : & ["лампа" , "мейманкана" , "софа" , "софа жана лампа"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Couche a Luucht") , keywords : & ["Couche" , "Couche a Luucht" , "Hotel" , "Luucht"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໂຊຟາກ\u{eb1}ບໂຄມໄຟ") , keywords : & ["ໂຄມໄຟ" , "ໂຊຟາ" , "ໂຊຟາກ\u{eb1}ບໂຄມໄຟ" , "ໂຮງແຮມ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("sofa ir lempa") , keywords : & ["lempa" , "sofa" , "sofa ir lempa" , "viešbutis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("dīvāns un lampa") , keywords : & ["dīvāns" , "dīvāns un lampa" , "lampa" , "viesnīca"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("nohoanga roa me te rama") , keywords : & ["hōtēra" , "nohoanga roa" , "nohoanga roa me te rama" , "rama"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("кауч и ламба") , keywords : & ["кауч" , "кауч и ламба" , "ламба" , "хотел"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("കിടക\u{d4d}കയ\u{d41}ം വിളക\u{d4d}ക\u{d41}ം") , keywords : & ["കിടക\u{d4d}ക" , "കിടക\u{d4d}കയ\u{d41}ം വിളക\u{d4d}ക\u{d41}ം" , "വിളക\u{d4d}ക\u{d4d}" , "ഹോട\u{d4d}ടൽ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("буйдан, ширээний гэрэл") , keywords : & ["буйдан" , "буйдан, ширээний гэрэл" , "ширээний гэрэл"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("काऊच आणि दिवा") , keywords : & ["काऊच" , "काऊच आणि दिवा" , "दिवा" , "हॉट\u{947}ल"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("sofa dan lampu") , keywords : & ["hotel" , "lampu" , "sofa" , "sofa dan lampu"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("sufan u lampa") , keywords : & ["fanal" , "lukanda" , "sufan" , "sufan u lampa"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဆ\u{102d}\u{102f}ဖာန\u{103e}င\u{1037}\u{103a} မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}") , keywords : & ["ဆ\u{102d}\u{102f}ဖာ" , "ဆ\u{102d}\u{102f}ဖာန\u{103e}င\u{1037}\u{103a} မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}" , "မ\u{102e}းတ\u{102d}\u{102f}င\u{103a}" , "ဟ\u{102d}\u{102f}တယ\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("sofa og lampe") , keywords : & ["hotell" , "lampe" , "sofa" , "sofa og lampe"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("कउच र बत\u{94d}ती") , keywords : & ["कउच" , "कउच र बत\u{94d}ती" , "बत\u{94d}ती" , "होट\u{947}ल"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("bank en lamp") , keywords : & ["bank" , "bank en lamp" , "hotel" , "lamp"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("sofa og lampe") , keywords : & ["hotell" , "lampe" , "sofa" , "sofa og lampe"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("କ\u{b3e}ଉଚ\u{b4d}\u{200c} ଏବଂ ବତ\u{b3f}") , keywords : & ["କ\u{b3e}ଉଚ\u{b4d}\u{200c}" , "କ\u{b3e}ଉଚ\u{b4d}\u{200c} ଏବଂ ବତ\u{b3f}" , "ବତ\u{b3f}" , "ହୋଟେଲ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸ\u{a4b}ਫਾ ਅਤ\u{a47} ਲ\u{a48}\u{a02}ਪ") , keywords : & ["ਜੀਵਨ-ਸ\u{a3c}\u{a48}ਲੀ" , "ਫਰਨੀਚਰ" , "ਲ\u{a48}\u{a02}ਪ" , "ਸ\u{a4b}ਫਾ" , "ਸ\u{a4b}ਫਾ ਅਤ\u{a47} ਲ\u{a48}\u{a02}ਪ" , "ਹ\u{a4b}ਟਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("صوفہ اتے چراغ") , keywords : & ["صوفہ" , "صوفہ اتے چراغ" , "لیمپ" , "ہوٹل"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Sẹtii An Lamp") , keywords : & ["Hotẹl" , "Kauch" , "Lait" , "Sófa" , "Sófa An Lait" , "Sẹtii" , "Sẹtii An Lamp"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("kanapa i lampa") , keywords : & ["hotel" , "kanapa" , "kanapa i lampa" , "lampa"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("سوفه او څراغ") , keywords : & ["سوفه" , "سوفه او څراغ" , "سوفې او څراغ" , "هوتل" , "څراغ"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("sofá e luminária") , keywords : & ["hotel" , "lâmpada" , "sofá" , "sofá e luminária"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("sofá e candeeiro") , keywords : & ["candeeiro" , "hotel" , "sofá" , "sofá e candeeiro"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("canapea și lampă") , keywords : & ["canapea" , "canapea și lampă" , "hotel" , "lampă" , "lumină"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-986") , keywords : & ["E10-986"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("диван и торшер") , keywords : & ["диван" , "диван и торшер" , "лампа" , "торшер" , "уют"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("ifoteyi n’itara") , keywords : & ["hoteli" , "ifoteyi" , "ifoteyi n’itara" , "itara"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("صوفو ۽ بتي") , keywords : & ["بتي" , "صوفو" , "صوفو ۽ بتي" , "هوٽل"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ක\u{dd4}ඩ\u{dcf} ඇඳ සහ ල\u{dcf}ම\u{dca}ප\u{dd4}ව") , keywords : & ["කව\u{dd2}ච\u{dca}ච\u{dd2}ය" , "ක\u{dd4}ඩ\u{dcf} ඇඳ සහ ල\u{dcf}ම\u{dca}ප\u{dd4}ව" , "ල\u{dcf}ම\u{dca}ප\u{dd4}ව" , "හෝටලය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("gauč a lampa") , keywords : & ["gauč" , "gauč a lampa" , "hotel" , "lampa"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kavč in svetilka") , keywords : & ["hotel" , "kavč" , "kavč in svetilka" , "svetilka"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("fadhi iyo laambad") , keywords : & ["fadhi" , "fadhi iyo laambad" , "hudheel"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("divan dhe llambë") , keywords : & ["divan" , "divan dhe llambë" , "hotel" , "llambë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("кауч и лампа") , keywords : & ["кaуч" , "кауч и лампа" , "лампа" , "хoтeл"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("kauč i lampa") , keywords : & ["hotel" , "kauč" , "kauč i lampa" , "lampa"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("soffa och lampa") , keywords : & ["hotell" , "lampa" , "soffa" , "soffa och lampa"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kochi na taa") , keywords : & ["hoteli" , "kochi" , "kochi na taa" , "taa"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("மின\u{bcd}விளக\u{bcd}கும\u{bcd} படுக\u{bcd}கையும\u{bcd}") , keywords : & ["படுக\u{bcd}கை" , "மின\u{bcd}விளக\u{bcd}கு" , "மின\u{bcd}விளக\u{bcd}குடன\u{bcd} படுக\u{bcd}கை" , "மின\u{bcd}விளக\u{bcd}கும\u{bcd} படுக\u{bcd}கையும\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4b}ఫ\u{c3e} మర\u{c3f}యు ల\u{c4d}య\u{c3e}ంప\u{c4d}") , keywords : & ["ల\u{c4d}య\u{c3e}ంప\u{c4d}" , "స\u{c4b}ఫ\u{c3e}" , "స\u{c4b}ఫ\u{c3e} మర\u{c3f}యు ల\u{c4d}య\u{c3e}ంప\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("диван ва чароғ") , keywords : & ["диван" , "диван ва чароғ" , "меҳмонхона" , "чароғ"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("โซฟาก\u{e31}บโคมไฟ") , keywords : & ["โคมไฟ" , "โซฟา" , "โซฟาก\u{e31}บโคมไฟ" , "โรงแรม"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("diwan we çyra") , keywords : & ["diwan" , "diwan we çyra" , "myhmanhana" , "çyra"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("sea mālōlōʻanga moe maama") , keywords : & ["sea mālōlōʻanga moe maama"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kanepe ve lamba") , keywords : & ["kanepe" , "kanepe ve lamba" , "lamba" , "otel"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("دىۋان ۋە چىراق") , keywords : & ["دىۋان" , "دىۋان ۋە چىراق" , "مېھمانخانا" , "چىراق"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("канапа й торшер") , keywords : & ["готель" , "диван" , "канапа й торшер" , "лампа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("کاؤچ اور لیمپ") , keywords : & ["لیمپ" , "کاؤچ" , "کاؤچ اور لیمپ" , "ہوٹل"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("divan va lampa") , keywords : & ["chiroq" , "divan" , "divan va lampa" , "lampa" , "mehmonxona"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("ghế dài và đèn") , keywords : & ["ghế dài và đèn" , "khách sạn" , "đi văng" , "đèn"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("kanape and làmp") , keywords : & ["kanape" , "kanape and làmp" , "làmp" , "otel"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("isofa nesibane") , keywords : & ["ihotele" , "isibane" , "isofa" , "isofa nesibane"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ìjókò àti àtùpà") , keywords : & ["ilé ìtura" , "àtùpà" , "ìjókò" , "ìjókò àti àtùpà"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("沙發和座燈") , keywords : & ["座燈" , "沙發" , "沙發和座燈" , "酒店"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("沙发和座灯") , keywords : & ["座灯" , "沙发" , "沙发和座灯" , "酒店"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("沙发和灯") , keywords : & ["家" , "沙发" , "沙发和灯" , "灯" , "阅读"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("沙發和立燈") , keywords : & ["沙發" , "沙發和立燈" , "立燈"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("梳化和座地燈") , keywords : & ["梳化和座地燈" , "梳化｜座地燈"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("usofa ilambu") , keywords : & ["ihhotela" , "ilambu" , "usofa"] , }] , } ;
 #[doc = "🪑"]
 pub const CHAIR: crate::Emoji = crate::Emoji {
     glyph: "🪑",
@@ -5337,8 +4483,8 @@ pub const CHAIR: crate::Emoji = crate::Emoji {
             tts: Some("ಕುರ\u{ccd}ಚ\u{cbf}"),
             keywords: &[
                 "ಕುರ\u{ccd}ಚ\u{cbf}",
-                "ಕುಳ\u{cbf}ತುಕೊಳ\u{ccd}ಳ\u{cbf}",
-                "ಸೀಟ\u{ccd}",
+                "ಕುಳ\u{cbf}ತುಕ\u{cca}ಳ\u{ccd}ಳ\u{cbf}",
+                "ಸ\u{cc0}ಟ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -6902,11 +6048,11 @@ pub const PLUNGER: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಪ\u{ccd}ಲಂಗರ\u{ccd}\u{200c}"),
             keywords: &[
-                "ಕೊಳಾಯ\u{cbf}ಗಾರ",
+                "ಕ\u{cca}ಳಾಯ\u{cbf}ಗಾರ",
                 "ಪ\u{ccd}ಲಂಗರ\u{ccd}\u{200c}",
-                "ಫೋರ\u{ccd}ಸ\u{ccd} ಕಪ\u{ccd}",
+                "ಫ\u{ccb}ರ\u{ccd}ಸ\u{ccd} ಕಪ\u{ccd}",
                 "ಶ\u{ccc}ಚಾಲಯ",
-                "ಹೀರುವ\u{cbf}ಕ\u{cc6}",
+                "ಹ\u{cc0}ರುವ\u{cbf}ಕ\u{cc6}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -7731,7 +6877,7 @@ pub const SHOWER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಶವರ\u{ccd}"),
-            keywords: &["ನೀರು", "ಶವರ\u{ccd}"],
+            keywords: &["ನ\u{cc0}ರು", "ಶವರ\u{ccd}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -10059,8 +9205,8 @@ pub const RAZOR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ರೇಸರ\u{ccd}"),
-            keywords: &["ಚ\u{cc2}ಪಾದ", "ರೇಸರ\u{ccd}", "ಶೇವ\u{ccd}"],
+            tts: Some("ರ\u{cc7}ಸರ\u{ccd}"),
+            keywords: &["ಚ\u{cc2}ಪಾದ", "ರ\u{cc7}ಸರ\u{ccd}", "ಶ\u{cc7}ವ\u{ccd}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -10952,13 +10098,13 @@ pub const LOTION_BOTTLE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಲೋಷನ\u{ccd} ಬಾಟಲ\u{ccd}"),
+            tts: Some("ಲ\u{ccb}ಷನ\u{ccd} ಬಾಟಲ\u{ccd}"),
             keywords: &[
-                "ಮಾಯ\u{cbf}ಶ\u{ccd}ಚರೈಸರ\u{ccd}",
-                "ಲೋಷನ\u{ccd}",
-                "ಲೋಷನ\u{ccd} ಬಾಟಲ\u{ccd}",
+                "ಮಾಯ\u{cbf}ಶ\u{ccd}ಚರ\u{cc8}ಸರ\u{ccd}",
+                "ಲ\u{ccb}ಷನ\u{ccd}",
+                "ಲ\u{ccb}ಷನ\u{ccd} ಬಾಟಲ\u{ccd}",
                 "ಶಾಂಪ\u{cc2}",
-                "ಸನ\u{ccd}\u{200c}ಸ\u{ccd}ಕ\u{ccd}ರೀನ\u{ccd}",
+                "ಸನ\u{ccd}\u{200c}ಸ\u{ccd}ಕ\u{ccd}ರ\u{cc0}ನ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -11866,11 +11012,11 @@ pub const SAFETY_PIN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಸೇಫ\u{ccd}ಟ\u{cbf} ಪ\u{cbf}ನ\u{ccd}"),
+            tts: Some("ಸ\u{cc7}ಫ\u{ccd}ಟ\u{cbf} ಪ\u{cbf}ನ\u{ccd}"),
             keywords: &[
-                "ಡೈಪರ\u{ccd}",
+                "ಡ\u{cc8}ಪರ\u{ccd}",
                 "ಪಂಕ\u{ccd} ರಾಕ\u{ccd}",
-                "ಸೇಫ\u{ccd}ಟ\u{cbf} ಪ\u{cbf}ನ\u{ccd}",
+                "ಸ\u{cc7}ಫ\u{ccd}ಟ\u{cbf} ಪ\u{cbf}ನ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -12599,11 +11745,11 @@ pub const BROOM: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪೊರಕ\u{cc6}"),
+            tts: Some("ಪ\u{cca}ರಕ\u{cc6}"),
             keywords: &[
                 "ಗುಡ\u{cbf}ಸುವುದು",
-                "ಪೊರಕ\u{cc6}",
-                "ಸ\u{ccd}ವಚ\u{ccd}ಛಗೊಳ\u{cbf}ಸುವುದು",
+                "ಪ\u{cca}ರಕ\u{cc6}",
+                "ಸ\u{ccd}ವಚ\u{ccd}ಛಗ\u{cca}ಳ\u{cbf}ಸುವುದು",
             ],
         },
         #[cfg(feature = "ko")]
@@ -14140,11 +13286,11 @@ pub const ROLL_OF_PAPER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಪೇಪರ\u{ccd}\u{200c}ನ ರೋಲ\u{ccd}"),
+            tts: Some("ಪ\u{cc7}ಪರ\u{ccd}\u{200c}ನ ರ\u{ccb}ಲ\u{ccd}"),
             keywords: &[
-                "ಟಾಯ\u{ccd}ಲ\u{cc6}ಟ\u{ccd} ಪೇಪರ\u{ccd}",
-                "ಪೇಪರ\u{ccd} ಟವಲ\u{ccd}\u{200c}ಗಳು",
-                "ಪೇಪರ\u{ccd}\u{200c}ನ ರೋಲ\u{ccd}",
+                "ಟಾಯ\u{ccd}ಲ\u{cc6}ಟ\u{ccd} ಪ\u{cc7}ಪರ\u{ccd}",
+                "ಪ\u{cc7}ಪರ\u{ccd} ಟವಲ\u{ccd}\u{200c}ಗಳು",
+                "ಪ\u{cc7}ಪರ\u{ccd}\u{200c}ನ ರ\u{ccb}ಲ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -14880,7 +14026,7 @@ pub const BUCKET: crate::Emoji = crate::Emoji {
             tts: Some("ಬಕ\u{cc6}ಟ\u{ccd}"),
             keywords: &[
                 "ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6}",
-                "ಪೈಲ\u{ccd}",
+                "ಪ\u{cc8}ಲ\u{ccd}",
                 "ಬಕ\u{cc6}ಟ\u{ccd}",
                 "ವ\u{ccd}ಯಾಟ\u{ccd}",
             ],
@@ -15701,14 +14847,14 @@ pub const SOAP: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಸೋಪ\u{ccd}"),
+            tts: Some("ಸ\u{ccb}ಪ\u{ccd}"),
             keywords: &[
                 "ಬಾಥ\u{cbf}ಂಗ\u{ccd}",
                 "ಬಾರ\u{ccd}",
-                "ಲೇಥರ\u{ccd}",
-                "ಶುಚ\u{cbf} ಗೊಳ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
-                "ಸೋಪ\u{ccd}",
-                "ಸೋಪ\u{ccd}\u{200c}ಡ\u{cbf}ಷ\u{ccd}",
+                "ಲ\u{cc7}ಥರ\u{ccd}",
+                "ಶುಚ\u{cbf} ಗ\u{cca}ಳ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
+                "ಸ\u{ccb}ಪ\u{ccd}",
+                "ಸ\u{ccb}ಪ\u{ccd}\u{200c}ಡ\u{cbf}ಷ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -16803,7 +15949,7 @@ pub const TOOTHBRUSH: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ಟ\u{cc2}ತ\u{ccd} ಬ\u{ccd}ರಷ\u{ccd}",
                 "ದಂತ",
-                "ನೈರ\u{ccd}ಮಲ\u{ccd}ಯ",
+                "ನ\u{cc8}ರ\u{ccd}ಮಲ\u{ccd}ಯ",
                 "ಬ\u{ccd}ರಷ\u{ccd}",
                 "ಸ\u{ccd}ನಾನಗೃಹ",
                 "ಹಲ\u{ccd}ಲುಗಳು",
@@ -17793,8 +16939,8 @@ pub const SPONGE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ಸರಂಧ\u{ccd}ರ",
                 "ಸ\u{ccd}ಪಾಂಜ\u{ccd}",
-                "ಸ\u{ccd}ವಚ\u{ccd}ಛಗೊಳ\u{cbf}ಸುವ",
-                "ಹೀರ\u{cbf}ಕೊಳ\u{ccd}ಳುವ",
+                "ಸ\u{ccd}ವಚ\u{ccd}ಛಗ\u{cca}ಳ\u{cbf}ಸುವ",
+                "ಹ\u{cc0}ರ\u{cbf}ಕ\u{cca}ಳ\u{ccd}ಳುವ",
             ],
         },
         #[cfg(feature = "ko")]
@@ -18921,12 +18067,7 @@ pub const FIRE_EXTINGUISHER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("آگ ب\u{64f}جھانے والا آلہ"),
-            keywords: &[
-                "آتش",
-                "آگ بجھانا",
-                "آگ ب\u{64f}جھانے والا آلہ",
-                "ٹھنڈا کرنا",
-            ],
+            keywords: &["آتش", "آگ بجھانا", "آگ ب\u{64f}جھانے والا آلہ", "ٹھنڈا کرنا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {

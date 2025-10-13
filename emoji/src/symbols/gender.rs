@@ -365,7 +365,7 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ಮಹ\u{cbf}ಳ\u{cc6}",
                 "ಮಹ\u{cbf}ಳ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-                "ಸ\u{ccd}ತ\u{ccd}ರೀ",
+                "ಸ\u{ccd}ತ\u{ccd}ರ\u{cc0}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -1957,10 +1957,10 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ತೃತೀಯ ಲ\u{cbf}ಂಗ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
+            tts: Some("ತೃತ\u{cc0}ಯ ಲ\u{cbf}ಂಗ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
             keywords: &[
-                "ತೃತೀಯ ಲ\u{cbf}ಂಗ\u{cbf}",
-                "ತೃತೀಯ ಲ\u{cbf}ಂಗ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ತೃತ\u{cc0}ಯ ಲ\u{cbf}ಂಗ\u{cbf}",
+                "ತೃತ\u{cc0}ಯ ಲ\u{cbf}ಂಗ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
             ],
         },
         #[cfg(feature = "ko")]

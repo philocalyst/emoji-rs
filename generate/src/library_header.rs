@@ -8,7 +8,7 @@
 //! - Classification
 //! - Variants
 //! - Annotations in many languages
-//! 
+//!
 //! This crate also provides functions for searching through emojis by
 //! [name](lookup_by_name/index.html) and [glyph](lookup_by_glyph/index.html),
 //! as well as several [fuzzy search](search/index.html) functions.
@@ -25,12 +25,10 @@
 //! list of supported languages can be found
 //! [here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml).
 
-
-
 /// Emoji status qualifier  
 /// In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants.
 /// A complete tool needs only to support all of the FullyQualified emojis.
-#[derive(Debug, PartialEq)]
+#[derive(Debug, Clone, PartialEq)]
 pub enum Status {
     /// A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category.
     FullyQualified,
@@ -43,23 +41,23 @@ pub enum Status {
 }
 impl std::fmt::Display for Status {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-	use Status::*;
-	write!(
-	    f,
-	    "{}",
-	    match self {
-		Component => "Component",
-		FullyQualified => "FullyQualified",
-		MinimallyQualified => "MinimallyQualified",
-		Unqualified => "Unqualified",
-	    }
-	)
+        use Status::*;
+        write!(
+            f,
+            "{}",
+            match self {
+                Component => "Component",
+                FullyQualified => "FullyQualified",
+                MinimallyQualified => "MinimallyQualified",
+                Unqualified => "Unqualified",
+            }
+        )
     }
 }
 
 /// Contains all information about an emoji  
 /// See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`.
-#[derive(Debug, PartialEq)]
+#[derive(Debug, Clone, PartialEq)]
 pub struct Emoji {
     /// The ASCII-formatted string representation of this emoji's UTF8 codepoint value  
     /// Ex: `1F441 200D 1F5E8 FE0F`
@@ -104,7 +102,6 @@ pub struct Annotation {
     /// Ex: `["fried shrimp", "shrimp", "prawn"]`
     pub keywords: &'static [&'static str],
 }
-
 
 /// Defines functions for searching through and iterating over emojis by glyph  
 /// Includes variants

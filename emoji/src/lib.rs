@@ -8,7 +8,7 @@
 #![doc = " - Classification"]
 #![doc = " - Variants"]
 #![doc = " - Annotations in many languages"]
-#![doc = " "]
+#![doc = ""]
 #![doc = " This crate also provides functions for searching through emojis by"]
 #![doc = " [name](lookup_by_name/index.html) and [glyph](lookup_by_glyph/index.html),"]
 #![doc = " as well as several [fuzzy search](search/index.html) functions."]
@@ -27,7 +27,7 @@
 #[doc = " Emoji status qualifier  "]
 #[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants."]
 #[doc = " A complete tool needs only to support all of the FullyQualified emojis."]
-#[derive(Debug, PartialEq)]
+#[derive(Debug, Clone, PartialEq)]
 pub enum Status {
     #[doc = " A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category."]
     FullyQualified,
@@ -55,7 +55,7 @@ impl std::fmt::Display for Status {
 }
 #[doc = " Contains all information about an emoji  "]
 #[doc = " See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`."]
-#[derive(Debug, PartialEq)]
+#[derive(Debug, Clone, PartialEq)]
 pub struct Emoji {
     #[doc = " The ASCII-formatted string representation of this emoji's UTF8 codepoint value  "]
     #[doc = " Ex: `1F441 200D 1F5E8 FE0F`"]

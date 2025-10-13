@@ -463,7 +463,7 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
             tts: Some("ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}"),
             keywords: &[
                 "ಔಷಧ",
-                "ವೈದ\u{ccd}ಯರು",
+                "ವ\u{cc8}ದ\u{ccd}ಯರು",
                 "ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}",
                 "ಸ\u{cc2}ಜ\u{cbf}",
             ],
@@ -2333,7 +2333,7 @@ pub const PILL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಮಾತ\u{ccd}ರ\u{cc6}"),
-            keywords: &["ಔಷಧ", "ಮಾತ\u{ccd}ರ\u{cc6}", "ವೈದ\u{ccd}ಯರು"],
+            keywords: &["ಔಷಧ", "ಮಾತ\u{ccd}ರ\u{cc6}", "ವ\u{cc8}ದ\u{ccd}ಯರು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -3111,10 +3111,10 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಅಂಟ\u{cbf}ಸುವ ಬ\u{ccd}ಯಾಂಡೇಜ\u{ccd}"),
+            tts: Some("ಅಂಟ\u{cbf}ಸುವ ಬ\u{ccd}ಯಾಂಡ\u{cc7}ಜ\u{ccd}"),
             keywords: &[
-                "ಅಂಟ\u{cbf}ಸುವ ಬ\u{ccd}ಯಾಂಡೇಜ\u{ccd}",
-                "ಬ\u{ccd}ಯಾಂಡೇಜ\u{ccd}",
+                "ಅಂಟ\u{cbf}ಸುವ ಬ\u{ccd}ಯಾಂಡ\u{cc7}ಜ\u{ccd}",
+                "ಬ\u{ccd}ಯಾಂಡ\u{cc7}ಜ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -3854,11 +3854,11 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕೋಪ\u{ccd}"),
+            tts: Some("ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}"),
             keywords: &[
                 "ಔಷಧ\u{cbf}",
-                "ವೈದ\u{ccd}ಯರು",
-                "ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕೋಪ\u{ccd}",
+                "ವ\u{cc8}ದ\u{ccd}ಯರು",
+                "ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}",
                 "ಹೃದಯ",
             ],
         },

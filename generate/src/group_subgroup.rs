@@ -1,7 +1,7 @@
-use proc_macro2::{Ident, Span, TokenStream};
-use quote::{quote, ToTokens};
 use crate::emoji::Emoji;
 use crate::sanitize;
+use proc_macro2::{Ident, Span, TokenStream};
+use quote::{quote, ToTokens};
 pub struct Group {
     pub name: String,
     pub subgroups: Vec<Subgroup>,
@@ -20,10 +20,10 @@ impl ToTokens for Group {
         let subgroups = &self.subgroups;
         (quote! {
             pub mod #modname {
-		#(#subgroups)*
+        #(#subgroups)*
             }
         })
-            .to_tokens(tokens);
+        .to_tokens(tokens);
     }
 }
 pub struct Subgroup {
@@ -44,6 +44,6 @@ impl ToTokens for Subgroup {
         (quote! {
             pub mod #modname;
         })
-            .to_tokens(tokens);
+        .to_tokens(tokens);
     }
 }

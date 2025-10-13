@@ -358,8 +358,8 @@ pub const AVOCADO: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಅವಕಾಡೋ"),
-            keywords: &["ಅವಕಾಡೋ", "ಆಹಾರ", "ಹಣ\u{ccd}ಣು"],
+            tts: Some("ಅವಕಾಡ\u{ccb}"),
+            keywords: &["ಅವಕಾಡ\u{ccb}", "ಆಹಾರ", "ಹಣ\u{ccd}ಣು"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -3480,12 +3480,12 @@ pub const EAR_OF_CORN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಬ\u{cbf}ಡ\u{cbf}ಸ\u{cbf}ರುವ ಜೋಳ"),
+            tts: Some("ಬ\u{cbf}ಡ\u{cbf}ಸ\u{cbf}ರುವ ಜ\u{ccb}ಳ"),
             keywords: &[
-                "ಜೋಳ",
-                "ಬ\u{cbf}ಡ\u{cbf}ಸ\u{cbf}ರುವ ಜೋಳ",
-                "ಮ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಜೋಳ",
-                "ಹೊಟ\u{ccd}ಟು",
+                "ಜ\u{ccb}ಳ",
+                "ಬ\u{cbf}ಡ\u{cbf}ಸ\u{cbf}ರುವ ಜ\u{ccb}ಳ",
+                "ಮ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಜ\u{ccb}ಳ",
+                "ಹ\u{cca}ಟ\u{ccd}ಟು",
             ],
         },
         #[cfg(feature = "ko")]
@@ -5120,11 +5120,11 @@ pub const BELL_PEPPER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ದೊಡ\u{ccd}ಡ ಮ\u{cc6}ಣಸ\u{cbf}ನಕಾಯ\u{cbf}"),
+            tts: Some("ದ\u{cca}ಡ\u{ccd}ಡ ಮ\u{cc6}ಣಸ\u{cbf}ನಕಾಯ\u{cbf}"),
             keywords: &[
                 "ಕ\u{ccd}ಯಾಪ\u{ccd}ಸ\u{cbf}ಕಂ",
                 "ತರಕಾರ\u{cbf}",
-                "ದೊಡ\u{ccd}ಡ ಮ\u{cc6}ಣಸ\u{cbf}ನಕಾಯ\u{cbf}",
+                "ದ\u{cca}ಡ\u{ccd}ಡ ಮ\u{cc6}ಣಸ\u{cbf}ನಕಾಯ\u{cbf}",
                 "ಮ\u{cc6}ಣಸು",
             ],
         },
@@ -6824,8 +6824,8 @@ pub const LEAFY_GREEN: crate::Emoji = crate::Emoji {
             tts: Some("ಹಸ\u{cbf}ರ\u{cbf}ನ ಎಲ\u{cc6}"),
             keywords: &[
                 "ಕಾಲ\u{cc6}",
-                "ಕೋಸು",
-                "ಬಾಕ\u{ccd} ಚೋ",
+                "ಕ\u{ccb}ಸು",
+                "ಬಾಕ\u{ccd} ಚ\u{ccb}",
                 "ಲ\u{cc6}ಟ\u{cc6}ಸ\u{ccd}",
                 "ಹಸ\u{cbf}ರ\u{cbf}ನ ಎಲ\u{cc6}",
             ],
@@ -7688,10 +7688,10 @@ pub const BROCCOLI: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಬ\u{ccd}ರೊಕೋಲ\u{cbf}"),
+            tts: Some("ಬ\u{ccd}ರ\u{cca}ಕ\u{ccb}ಲ\u{cbf}"),
             keywords: &[
-                "ಬ\u{ccd}ರೊಕೋಲ\u{cbf}",
-                "ವೈಲ\u{ccd}ಡ\u{ccd} ಕ\u{ccd}ಯಾಬೇಜ\u{ccd}",
+                "ಬ\u{ccd}ರ\u{cca}ಕ\u{ccb}ಲ\u{cbf}",
+                "ವ\u{cc8}ಲ\u{ccd}ಡ\u{ccd} ಕ\u{ccd}ಯಾಬ\u{cc7}ಜ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -8424,7 +8424,7 @@ pub const GARLIC: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಬ\u{cc6}ಳ\u{ccd}ಳುಳ\u{ccd}ಳ\u{cbf}"),
             keywords: &[
-                "ಫ\u{ccd}ಲೇವರ\u{cbf}ಂಗ\u{ccd}",
+                "ಫ\u{ccd}ಲ\u{cc7}ವರ\u{cbf}ಂಗ\u{ccd}",
                 "ಬ\u{cc6}ಳ\u{ccd}ಳುಳ\u{ccd}ಳ\u{cbf}",
             ],
         },
@@ -9117,7 +9117,7 @@ pub const ONION: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಈರುಳ\u{ccd}ಳ\u{cbf}"),
-            keywords: &["ಈರುಳ\u{ccd}ಳ\u{cbf}", "ಫ\u{ccd}ಲೇವರ\u{cbf}ಂಗ\u{ccd}"],
+            keywords: &["ಈರುಳ\u{ccd}ಳ\u{cbf}", "ಫ\u{ccd}ಲ\u{cc7}ವರ\u{cbf}ಂಗ\u{ccd}"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -9824,7 +9824,7 @@ pub const MUSHROOM: crate::Emoji = crate::Emoji {
             tts: Some("ಅಣಬ\u{cc6}"),
             keywords: &[
                 "ಅಣಬ\u{cc6}",
-                "ಟೋಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟ\u{cc2}ಲ\u{ccd}\u{200c}",
+                "ಟ\u{ccb}ಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟ\u{cc2}ಲ\u{ccd}\u{200c}",
             ],
         },
         #[cfg(feature = "ko")]
@@ -10644,8 +10644,8 @@ pub const PEANUTS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
-            tts: Some("ಶೇಂಗಾ"),
-            keywords: &["ಆಹಾರ", "ತರಕಾರ\u{cbf}", "ಬೀಜ", "ಶೇಂಗಾ"],
+            tts: Some("ಶ\u{cc7}ಂಗಾ"),
+            keywords: &["ಆಹಾರ", "ತರಕಾರ\u{cbf}", "ಬ\u{cc0}ಜ", "ಶ\u{cc7}ಂಗಾ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {

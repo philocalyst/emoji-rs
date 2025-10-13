@@ -1,9 +1,9 @@
+use crate::sanitize;
+use itertools::Itertools;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
 use std::collections::HashMap;
-use crate::sanitize;
-use itertools::Itertools;
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Emoji {
     pub codepoint: String,
     pub status: Status,
@@ -90,19 +90,19 @@ impl Emoji {
         let subgroup = &self.subgroup;
         (quote! {
             crate::Emoji{
-		glyph: #glyph,
-		codepoint: #codepoint,
-		status: crate::Status::#status,
-		introduction_version: #introduction_version,
-		name: #name,
-		group: #group,
-		subgroup: #subgroup,
-		is_variant: #is_variant,
-		variants: &[#(#variants),*],
-		annotations: &[#(#annotations),*],
+        glyph: #glyph,
+        codepoint: #codepoint,
+        status: crate::Status::#status,
+        introduction_version: #introduction_version,
+        name: #name,
+        group: #group,
+        subgroup: #subgroup,
+        is_variant: #is_variant,
+        variants: &[#(#variants),*],
+        annotations: &[#(#annotations),*],
             }
         })
-            .into()
+        .into()
     }
 }
 impl ToTokens for Emoji {
@@ -113,10 +113,11 @@ impl ToTokens for Emoji {
         (quote! {
             #[doc = #glyph]
             pub const #ident: crate::Emoji = #tokns;
-        }).to_tokens(tokens);
+        })
+        .to_tokens(tokens);
     }
 }
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub enum Status {
     Component,
     FullyQualified,
@@ -178,20 +179,21 @@ impl ToTokens for Annotation {
         let lang = &self.lang;
         let tts = match &self.tts {
             None => quote! {
-		None
-            },
+            None
+                },
             Some(tts) => quote! {
-		Some(#tts)
-            },
+            Some(#tts)
+                },
         };
         let keywords = &self.keywords;
         (quote! {
-	    #[cfg(feature = #lang)]
+        #[cfg(feature = #lang)]
             crate::Annotation {
-		lang: #lang,
-		tts: #tts,
-		keywords: &[#(#keywords),*],
+        lang: #lang,
+        tts: #tts,
+        keywords: &[#(#keywords),*],
             }
-        }).to_tokens(tokens);
+        })
+        .to_tokens(tokens);
     }
 }
