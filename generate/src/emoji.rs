@@ -2,13 +2,14 @@ use crate::sanitize;
 use itertools::Itertools;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
+use semver::Version;
 use std::collections::HashMap;
-#[derive(Debug, Clone)]
+#[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Emoji {
     pub codepoint: String,
     pub status: Status,
     pub glyph: String,
-    pub introduction_version: f32,
+    pub introduction_version: Version,
     pub name: String,
     pub variants: Vec<Emoji>,
     pub annotations: Vec<Annotation>,
@@ -32,12 +33,26 @@ impl Emoji {
         let third_components: Vec<&str> = reformed_second.trim().split("E").collect();
         let glyph = third_components[0].trim().to_owned();
         let reformed_third = third_components.iter().skip(1).join("E");
-        let introduction_version = reformed_third
-            .split(" ")
-            .nth(0)
-            .unwrap()
-            .parse::<f32>()
-            .unwrap();
+
+        let version_part = reformed_third
+            .split_whitespace()
+            .next()
+            .expect("There should always be at least one word");
+
+        let mut parts: Vec<&str> = version_part.split('.').collect();
+
+        // If there are only two parts (major.minor), add a ".0" for the patch version
+        if parts.len() == 2 {
+            parts.push("0");
+        }
+
+        let fully_qualified_version_str = parts.join(".");
+
+        // The first "word" here is the version number, so capturing that
+        let introduction_version: Version = fully_qualified_version_str
+            .parse()
+            .expect("This should be a version");
+
         let name = reformed_third.split(" ").skip(1).join(" ");
 
         let annotations = match annotations_map.get(&glyph) {
@@ -81,7 +96,7 @@ impl Emoji {
         let codepoint = &self.codepoint;
         let name = &self.name;
         let status = Ident::new(&self.status.to_string(), Span::call_site());
-        let introduction_version = self.introduction_version;
+        let introduction_version = self.introduction_version.to_string();
         let variants: Vec<TokenStream> =
             self.variants.iter().map(|e| e.tokens_internal()).collect();
         let annotations = &self.annotations;
@@ -117,7 +132,7 @@ impl ToTokens for Emoji {
         .to_tokens(tokens);
     }
 }
-#[derive(Debug, PartialEq, Clone)]
+#[derive(Debug, Eq, Hash, PartialEq, Clone)]
 pub enum Status {
     Component,
     FullyQualified,
@@ -151,7 +166,7 @@ impl std::fmt::Display for Status {
         )
     }
 }
-#[derive(Debug, Clone)]
+#[derive(Debug, Eq, PartialEq, Hash, Clone)]
 pub struct Annotation {
     pub lang: String,
     pub tts: Option<String>,
