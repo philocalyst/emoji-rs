@@ -96,7 +96,7 @@ impl Emoji {
         let codepoint = &self.codepoint;
         let name = &self.name;
         let status = Ident::new(&self.status.to_string(), Span::call_site());
-        let introduction_version = self.introduction_version.to_string();
+        let introduction_version_str = &self.introduction_version.to_string();
         let variants: Vec<TokenStream> =
             self.variants.iter().map(|e| e.tokens_internal()).collect();
         let annotations = &self.annotations;
@@ -108,7 +108,7 @@ impl Emoji {
         glyph: #glyph,
         codepoint: #codepoint,
         status: crate::Status::#status,
-        introduction_version: #introduction_version,
+        introduction_version: semver::Version::parse(#introduction_version_str).unwrap(),
         name: #name,
         group: #group,
         subgroup: #subgroup,
