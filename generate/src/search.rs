@@ -9,7 +9,7 @@ pub fn dump() {
     f.read_to_string(&mut fs).unwrap();
 
     let path = "emoji/src/search.rs";
-    let pb: PathBuf = path.clone().into();
+    let pb: PathBuf = path.into();
     File::create(pb).unwrap().write_all(fs.as_bytes()).unwrap();
     Command::new("rustfmt")
         .arg(path)

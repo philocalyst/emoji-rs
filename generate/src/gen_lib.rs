@@ -32,7 +32,7 @@ pub fn dump(groups: &Vec<Group>, annotation_langs: &Vec<&str>, version: f32, dat
 
     // skeleton; writes the module structure
     let path = "emoji/src/lib.rs";
-    let pb: PathBuf = path.clone().into();
+    let pb: PathBuf = path.into();
     File::create(pb)
         .unwrap()
         .write_all(format!("{}", dump).as_bytes())

@@ -30,7 +30,7 @@ pub fn dump(groups: &Vec<Group>) {
     };
 
     let path = "emoji/src/lookup_by_name.rs";
-    let pb: PathBuf = path.clone().into();
+    let pb: PathBuf = path.into();
     File::create(pb)
         .unwrap()
         .write_all(format!("{}", dump).as_bytes())
