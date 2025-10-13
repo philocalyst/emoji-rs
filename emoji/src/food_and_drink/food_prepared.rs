@@ -20,19 +20,37 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("brood"),
-            keywords: &["brood", "sny"],
+            keywords: &[
+                "brood",
+                "graan",
+                "koolhidrate",
+                "koring",
+                "kos",
+                "restaurant",
+                "roosterbrood",
+                "sny",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ዳቦ"),
-            keywords: &["የዳቦ ቁራሽ", "ዳቦ"],
+            keywords: &[
+                "ምግብ",
+                "ምግብ ቤት",
+                "ስንዴ",
+                "እህል",
+                "ካርቦሃይድሬትስ",
+                "የዳቦ ቁራሽ",
+                "ዳቦ",
+                "ጥብስ",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("خبز"),
-            keywords: &["خبز", "رغيف عيش", "مطعم"],
+            keywords: &["توست", "خبز", "رغيف", "عيش", "قمح", "مطعم"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -56,13 +74,28 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("хляб"),
-            keywords: &["хляб"],
+            keywords: &[
+                "въглехидрати",
+                "жито",
+                "пшеница",
+                "пълнозърнест",
+                "ресторант",
+                "самун",
+                "филия хляб",
+                "хляб",
+                "храна",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("প\u{9be}উর\u{9c1}টি"),
-            keywords: &["প\u{9be}\u{981}র\u{9c1}টি", "প\u{9be}উর\u{9c1}টি"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "প\u{9be}\u{981}র\u{9c1}টি",
+                "প\u{9be}উর\u{9c1}টি",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -80,7 +113,15 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("pa"),
-            keywords: &["llesca", "pa"],
+            keywords: &[
+                "blat",
+                "gra",
+                "llesca",
+                "menjar",
+                "pa",
+                "restaurant",
+                "torrada",
+            ],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -98,7 +139,23 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("chleba"),
-            keywords: &["bochník", "chleba", "chléb", "pecen"],
+            keywords: &[
+                "bochník",
+                "chleba",
+                "chléb",
+                "jídlo",
+                "karbohydráty",
+                "moučný",
+                "obilniny",
+                "obiloviny",
+                "obilí",
+                "pecen",
+                "pšenice",
+                "restaurace",
+                "sacharidy",
+                "toast",
+                "toastový chleba",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -110,25 +167,67 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("brød"),
-            keywords: &["bage", "brød"],
+            keywords: &["bage", "brød", "toastbrød"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Brot"),
-            keywords: &["Brot", "Brotlaib", "Laib Brot"],
+            keywords: &[
+                "Brot",
+                "Brotlaib",
+                "Essen",
+                "Kohlenhydrate",
+                "Laib Brot",
+                "Toast",
+                "Weizen",
+                "Weißbrot",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "Brot",
+                "Brotlaib",
+                "Essen",
+                "Kohlenhydrate",
+                "Laib Brot",
+                "Toast",
+                "Weissbrot",
+                "Weizen",
+            ],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ψωμί"),
-            keywords: &["φρατζόλα", "ψωμί"],
+            keywords: &[
+                "εστιατόριο",
+                "σάντουιτς",
+                "σιτάρι",
+                "σιτηρά",
+                "τοστ",
+                "υδατάνθρακες",
+                "φραντζόλα",
+                "ψωμί",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("bread"),
-            keywords: &["bread", "loaf"],
+            keywords: &[
+                "bread",
+                "carbs",
+                "food",
+                "grain",
+                "loaf",
+                "restaurant",
+                "toast",
+                "wheat",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -164,7 +263,17 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("pan"),
-            keywords: &["comida", "pan", "rodaja"],
+            keywords: &[
+                "calorias",
+                "comida",
+                "desayuno",
+                "pan",
+                "rebanada",
+                "rebanada de pan",
+                "rodaja",
+                "tostada",
+                "trigo",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -182,7 +291,16 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("leib"),
-            keywords: &["leib", "päts"],
+            keywords: &[
+                "leib",
+                "nisu",
+                "päts",
+                "restoran",
+                "sai",
+                "süsivesikud",
+                "teravili",
+                "toit",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -194,13 +312,13 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("نان"),
-            keywords: &["تکه", "قرص", "لقمه", "نان"],
+            keywords: &["تکه", "قرص", "لقمه", "نان", "نان جو"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("leipä"),
-            keywords: &["leipä", "pala"],
+            keywords: &["aamiainen", "paahtoleipä", "pala", "ravintola", "vehnä"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -218,7 +336,7 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("pain"),
-            keywords: &["miche", "pain"],
+            keywords: &["miche", "nourriture", "pain", "pain de mie"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -230,7 +348,7 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("arán"),
-            keywords: &["arán", "builín aráin"],
+            keywords: &["arán", "bia", "bialann", "builín aráin"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -249,8 +367,18 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("બ\u{acd}ર\u{ac7}ડ"),
             keywords: &[
+                "અનાજ",
+                "ખાણ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "ઘઉ\u{a82}",
+                "ડબલ રોટી",
+                "ધાન",
+                "નાન",
+                "પાવરોટી",
                 "બ\u{acd}ર\u{ac7}ડ",
                 "બ\u{acd}ર\u{ac7}ડનો રોટલો",
+                "ભોજન",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
             ],
         },
@@ -258,21 +386,47 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("burodi"),
-            keywords: &["burodi", "burodi mai yanke-yanke"],
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "biredi",
+                "burodi",
+                "burodi mai yanke-yanke",
+                "kayan alkama",
+                "kayan fulawa",
+                "yankan biredi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("burodi"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "biredi",
+                "burodi",
+                "burodi mai yanke-yanke",
+                "kayan alkama",
+                "kayan fulawa",
+                "yankan biredi",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("לחם"),
-            keywords: &["כיכר", "לחם"],
+            keywords: &["אוכל", "כיכר", "לחם", "מזון"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{94d}र\u{947}ड"),
             keywords: &[
+                "खाना",
                 "ब\u{94d}र\u{947}ड",
                 "ब\u{94d}र\u{947}ड लोफ\u{93c}",
+                "भोजन",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
             ],
         },
@@ -280,13 +434,13 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("kruh"),
-            keywords: &["kruh", "štruca"],
+            keywords: &["kruh", "restoran", "tost", "ugljikohidrati", "štruca"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kenyér"),
-            keywords: &["kenyér", "vekni"],
+            keywords: &["kenyér", "vekni", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -298,7 +452,16 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("roti"),
-            keywords: &["roti"],
+            keywords: &[
+                "biji-bijian",
+                "gandum",
+                "karbo",
+                "makanan",
+                "restoran",
+                "roti",
+                "roti bakar",
+                "roti panggang",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -316,19 +479,29 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("pane in cassetta"),
-            keywords: &["pancarré", "pane in cassetta"],
+            keywords: &[
+                "carboidrati",
+                "cereali",
+                "cibo",
+                "pancarré",
+                "pane",
+                "pane a cassetta",
+                "pane in cassetta",
+                "ristorante",
+                "toast",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("食パン"),
-            keywords: &["パン", "ベーカリー", "食パン"],
+            keywords: &["パン", "ベーカリー", "小麦", "食パン"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("roti"),
-            keywords: &["roti", "sebata"],
+            keywords: &["gandum", "panganan", "roti", "roti tawar"],
         },
         #[cfg(feature = "ka")]
         crate::Annotation {
@@ -336,11 +509,17 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             tts: Some("პური"),
             keywords: &["კვერი", "პური"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aɣrum"),
+            keywords: &["aɣrum"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("нан"),
-            keywords: &["бөлке", "нан"],
+            keywords: &["бөлке", "нан", "тағам", "тілім"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -363,15 +542,30 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}"),
             keywords: &[
+                "ಆಹಾರ",
+                "ಕಾರ\u{ccd}ಬ\u{ccd}ಸ\u{ccd}",
+                "ಗ\u{ccb}ಧ\u{cbf}",
+                "ಟ\u{ccb}ಸ\u{ccd}ಟ\u{ccd}",
+                "ಧಾನ\u{ccd}ಯ",
                 "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
                 "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd} ತುಂಡುಗಳು",
+                "ರ\u{cc6}ಸ\u{ccd}ಟ\u{ccb}ರ\u{cc6}ಂಟ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("빵"),
-            keywords: &["빵", "식빵"],
+            keywords: &[
+                "레스토랑",
+                "빵",
+                "식당",
+                "식빵",
+                "식품",
+                "토스트",
+                "한덩이",
+                "호밀",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -398,6 +592,7 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}",
                 "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນ",
+                "ເຂ\u{ebb}\u{ec9}າໜ\u{ebb}ມ",
                 "ເຂ\u{ebb}\u{ec9}າໜ\u{ebb}ມປ\u{eb1}ງ",
             ],
         },
@@ -405,13 +600,13 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("duona"),
-            keywords: &["duona", "kepalas"],
+            keywords: &["duona", "kepalas", "kepinys", "maistas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("maize"),
-            keywords: &["kukulis", "maize"],
+            keywords: &["graudi", "grauzdiņš", "kukulis", "maize", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -423,7 +618,16 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("леб"),
-            keywords: &["векна", "жито", "леб"],
+            keywords: &[
+                "векна",
+                "жито",
+                "леб",
+                "пченица",
+                "ресторан",
+                "тост",
+                "храна",
+                "јаглехидрати",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -442,8 +646,11 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("ब\u{94d}र\u{947}ड"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
                 "ब\u{94d}र\u{947}ड",
                 "ब\u{94d}र\u{947}डचा त\u{941}कडा",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
                 "वडी",
             ],
         },
@@ -451,7 +658,14 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("roti"),
-            keywords: &["roti", "sebuku"],
+            keywords: &[
+                "gandum",
+                "karbohidrat",
+                "makanan",
+                "restoran",
+                "roti",
+                "sebuku",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -468,12 +682,6 @@ pub const BREAD: crate::Emoji = crate::Emoji {
                 "ပေါင\u{103a}မ\u{102f}န\u{1037}\u{103a}တ\u{102f}\u{1036}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("brød"),
-            keywords: &["brød", "loff"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -484,13 +692,13 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("brood"),
-            keywords: &["brood"],
+            keywords: &["brood", "eten", "koolhydraten", "tarwe", "voedsel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("brød"),
-            keywords: &["brød", "loff"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -506,8 +714,11 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             lang: "pa",
             tts: Some("ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ"),
             keywords: &[
+                "ਆਟਾ",
                 "ਨਾਨ",
+                "ਬਰ\u{a48}ਡ",
                 "ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ",
+                "ਰ\u{a48}ਸਟ\u{a4b}ਰ\u{a48}\u{a02}ਟ",
                 "ਰ\u{a4b}ਟੀ",
                 "ਹ\u{a4b}ਟਲ",
             ],
@@ -528,7 +739,9 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("chleb"),
-            keywords: &["bochenek", "chleb", "kawałek chleba", "pieczywo"],
+            keywords: &[
+                "bochenek", "chleb", "chleba", "jedzenie", "kawałek", "pieczywo",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -540,13 +753,26 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("pão"),
-            keywords: &["pão", "pão de forma"],
+            keywords: &[
+                "pão",
+                "pão de forma",
+                "pão para fatiar",
+                "restaurante",
+                "torrada",
+                "tostex",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["pão", "pão de forma"],
+            keywords: &[
+                "hidrato de carbono",
+                "pão",
+                "pão de forma",
+                "restaurante",
+                "torrada",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -558,7 +784,17 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("pâine"),
-            keywords: &["aliment", "franzelă", "pâine"],
+            keywords: &[
+                "aliment",
+                "carbohidrați",
+                "franzelă",
+                "făină",
+                "glucide",
+                "mâncare",
+                "pâine",
+                "restaurant",
+                "toast",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -578,6 +814,12 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             tts: Some("umugati"),
             keywords: &["igice cy’umugati", "umugati"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱯᱟᱸ ᱨᱩᱴᱤ"),
+            keywords: &["ᱯᱟᱸ ᱨᱩᱴᱤ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -594,13 +836,24 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("chlieb"),
-            keywords: &["bochník", "chlieb", "peceň"],
+            keywords: &[
+                "bochník",
+                "chlieb",
+                "jedlo",
+                "karbohydráty",
+                "múčny",
+                "peceň",
+                "pšenica",
+                "reštaurácia",
+                "sacharidy",
+                "toastový chlieb",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kruh"),
-            keywords: &["kruh", "štruca"],
+            keywords: &["hrana", "kruh", "restavracija", "štruca"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -612,31 +865,39 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("bukë"),
-            keywords: &["bukë", "copë", "çyrek"],
+            keywords: &[
+                "bukë",
+                "copë",
+                "grurë",
+                "karbohidrate",
+                "restorant",
+                "ushqim",
+                "çyrek",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("хлеб"),
-            keywords: &["векна", "хлеб"],
+            keywords: &["векна", "ресторан", "тост", "хлеб"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("хљеб"),
-            keywords: &["хљеб"],
+            keywords: &["векна", "хљеб"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("hleb"),
-            keywords: &["hleb", "vekna"],
+            keywords: &["hleb", "restoran", "tost", "vekna"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("hljeb"),
-            keywords: &["hljeb"],
+            keywords: &["hljeb", "vekna"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -648,7 +909,7 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("mkate"),
-            keywords: &["mkate"],
+            keywords: &["mkate", "resteuranti"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -660,7 +921,14 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("பிரெட\u{bcd}"),
-            keywords: &["உணவகம\u{bcd}", "உணவு", "பிரெட\u{bcd}", "ரொட\u{bcd}டி"],
+            keywords: &[
+                "உணவகம\u{bcd}",
+                "உணவு",
+                "ச\u{bbe}ண\u{bcd}ட\u{bcd}விச\u{bcd}",
+                "டோஸ\u{bcd}ட\u{bcd}",
+                "பிரெட\u{bcd}",
+                "ரொட\u{bcd}டி",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
@@ -668,8 +936,10 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             tts: Some("బ\u{c4d}ర\u{c46}డ\u{c4d}డు"),
             keywords: &[
                 "బ\u{c4d}ర\u{c46}డ\u{c4d}డు",
+                "భ\u{c4b}జనం",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
                 "ర\u{c4a}ట\u{c4d}ట\u{c46} ముక\u{c4d}క",
+                "వ\u{c40}ట\u{c4d} బ\u{c4d}ర\u{c46}డ\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -682,7 +952,20 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("ขนมป\u{e31}ง"),
-            keywords: &["ก\u{e49}อนขนมป\u{e31}ง", "ขนมป\u{e31}ง"],
+            keywords: &[
+                "ก\u{e49}อน",
+                "ขนมป\u{e31}ง",
+                "ข\u{e49}าวสาล\u{e35}",
+                "คาร\u{e4c}โบไฮเดรต",
+                "ธ\u{e31}ญพ\u{e37}ช",
+                "อาหาร",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ባኒ"),
+            keywords: &["ባኒ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -700,7 +983,14 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("ekmek"),
-            keywords: &["ekmek", "ekmek dilimi", "restoran"],
+            keywords: &[
+                "ekmek",
+                "ekmek dilimi",
+                "gıda",
+                "kahvaltı",
+                "restoran",
+                "yemek",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -712,25 +1002,43 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("хліб"),
-            keywords: &["паляниця", "хліб", "хлібина"],
+            keywords: &["буханець", "паляниця", "хліб", "хлібина", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ڈبل روٹی"),
-            keywords: &["بریڈ", "روٹی", "نان", "ڈبل روٹی"],
+            keywords: &[
+                "بریڈ",
+                "روٹی",
+                "غزا",
+                "غلہ",
+                "نان",
+                "پائو روٹی",
+                "ڈبل روٹی",
+                "کھانا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("non"),
-            keywords: &["bulka non", "non"],
+            keywords: &["baton", "bulka non", "non", "restoran", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh mì"),
-            keywords: &["bánh mì", "ổ bánh mì"],
+            keywords: &[
+                "bánh mì",
+                "bánh mì nướng",
+                "lúa mì",
+                "ngũ cốc",
+                "nhà hàng",
+                "thực phẩm",
+                "tinh bột",
+                "ổ bánh mì",
+            ],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -750,6 +1058,12 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             tts: Some("Búrẹ\u{301}dì"),
             keywords: &["Búrẹ\u{301}dì", "búrẹ\u{301}dì gígé"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Búrɛ\u{301}dì"),
+            keywords: &["Búrɛ\u{301}dì", "búrɛ\u{301}dì gígé"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -766,19 +1080,39 @@ pub const BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("面包"),
-            keywords: &["面包"],
+            keywords: &[
+                "一条面包",
+                "全麦面包",
+                "小麦",
+                "淀粉",
+                "烤面包",
+                "谷类",
+                "面包",
+                "食物",
+                "餐厅",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("吐司"),
-            keywords: &["吐司", "麵包"],
+            keywords: &["全穀物", "吐司", "醣類", "麵包"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("麵包"),
-            keywords: &["多士麵包", "麵包"],
+            keywords: &[
+                "多士麵包",
+                "小麥",
+                "方包",
+                "白麵包",
+                "碳水化合物",
+                "穀物",
+                "食物",
+                "餐廳",
+                "麵包",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -810,19 +1144,28 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("croissant"),
-            keywords: &["brood", "croissant", "frankryk", "kos"],
+            keywords: &[
+                "Frankryk",
+                "Franse rolletjie",
+                "brood",
+                "croissant",
+                "frankryk",
+                "kos",
+                "rolletjie",
+                "sekelrolletjie",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ክሬሰንት"),
-            keywords: &["ምግብ", "ክሬሰንት", "ክሬሰንት ሙልሙል", "የፈረንሳይ", "ዳቦ"],
+            keywords: &["ሙልሙል", "ምግብ", "ክሬሰንት", "የፈረንሳይ", "ዳቦ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("كرواسون"),
-            keywords: &["خبز", "خبز فرنسي", "خبز هلالي الشكل", "كرواسون"],
+            keywords: &["خبز", "خبز هلالي الشكل", "فرنسي", "كرواسون"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -852,7 +1195,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("кроасан"),
-            keywords: &["кроасан", "френско", "хляб", "храна"],
+            keywords: &["закуска", "кроасан", "френски", "френско", "хляб", "храна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -862,6 +1205,8 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "ক\u{9cd}রিসেন\u{9cd}ট রোল",
                 "ক\u{9cd}রোসিয\u{9bc}\u{9be}ন\u{9cd}ট",
                 "ক\u{9cd}রোসেন\u{9cd}ট",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
                 "প\u{9be}উর\u{9c1}টি",
                 "ফর\u{9be}সি",
             ],
@@ -882,7 +1227,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("croissant"),
-            keywords: &["brioixeria", "croissant", "menjar"],
+            keywords: &["brioixeria", "croissant", "francès", "menjar", "pa"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -897,7 +1242,9 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "croissant",
                 "francouzské",
+                "francouzský",
                 "jídlo",
+                "kroasant",
                 "loupák",
                 "loupáček",
                 "pečivo",
@@ -935,23 +1282,38 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Croissant"),
             keywords: &[
+                "Corissant",
                 "Croissant",
                 "Frühstück",
                 "Frühstückshörnchen",
                 "französisch",
             ],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κρουασάν"),
-            keywords: &["γαλλικός", "κρουασάν", "τροφή", "ψωμί"],
+            keywords: &["γαλλικός", "κρουασάν", "πρωινό", "τροφή", "φαγητό", "ψωμί"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("croissant"),
-            keywords: &["bread", "breakfast", "croissant", "food", "french", "roll"],
+            keywords: &[
+                "bread",
+                "breakfast",
+                "crescent",
+                "croissant",
+                "food",
+                "french",
+                "roll",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -963,7 +1325,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["French", "bread", "crescent roll", "croissant", "food"],
+            keywords: &[
+                "French",
+                "bread",
+                "breakfast",
+                "crescent",
+                "croissant",
+                "food",
+                "roll",
+            ],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -987,7 +1357,16 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("croissant"),
-            keywords: &["comida", "croissant", "francés", "medialuna"],
+            keywords: &[
+                "bollo",
+                "cachito",
+                "comida",
+                "croissant",
+                "cruasán",
+                "desayuno",
+                "francés",
+                "medialuna",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -1012,7 +1391,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("sarvesai"),
-            keywords: &["croissant", "prantsuse", "sai", "sarvesai", "toit"],
+            keywords: &[
+                "croissant",
+                "hommikusöök",
+                "prantsuse",
+                "sai",
+                "sarvesai",
+                "söök",
+                "toit",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -1048,7 +1435,13 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("croissant"),
-            keywords: &["croissant", "pain", "viennoiserie"],
+            keywords: &[
+                "croissant",
+                "nourriture",
+                "pain",
+                "petit-déjeuner",
+                "viennoiserie",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -1060,7 +1453,16 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("croissant"),
-            keywords: &["Francach", "arán", "bia", "croissant", "rollóg chorránach"],
+            keywords: &[
+                "Francach",
+                "arán",
+                "bia",
+                "corrán",
+                "croissant",
+                "francach",
+                "fuineadh",
+                "rollóg chorránach",
+            ],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -1079,7 +1481,10 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("ક\u{acd}રોઇસ\u{ac8}ન"),
             keywords: &[
+                "અર\u{acd}ધચન\u{acd}દ\u{acd}રાકાર",
                 "ક\u{acd}રોઇસ\u{ac8}ન",
+                "ખાનપાન",
+                "ખોરાક",
                 "ફ\u{acd}ર\u{ac7}ન\u{acd}ચ",
                 "ભોજન",
                 "રોટલી",
@@ -1088,12 +1493,26 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("croissant"),
+            tts: Some("burodin croissant"),
             keywords: &[
                 "abinci",
-                "abincin crescent roll",
+                "abincin burodin croissant",
+                "biredi",
                 "burodi",
-                "croissant",
+                "burodin croissant",
+                "na faransa",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("burodin croissant"),
+            keywords: &[
+                "abinci",
+                "abincin burodin croissant",
+                "biredi",
+                "burodi",
+                "burodin croissant",
                 "na faransa",
             ],
         },
@@ -1101,7 +1520,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "he",
             tts: Some("קרואסון"),
-            keywords: &["מאפה", "צרפתי", "קרואסון"],
+            keywords: &["מאפה", "צרפתי", "קוראסון", "קורסון", "קרואסון"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -1112,6 +1531,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "क\u{94d}रोइस\u{948}न",
                 "खाना",
                 "फ\u{94d}र\u{947}\u{902}च",
+                "भोजन",
                 "रोटी",
             ],
         },
@@ -1125,7 +1545,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("croissant"),
-            keywords: &["croissant", "francia", "reggeli", "étel"],
+            keywords: &[
+                "croissant",
+                "francia",
+                "kifli",
+                "péksütemény",
+                "péksüti",
+                "reggeli",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -1137,7 +1565,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("croissant"),
-            keywords: &["croissant", "roti", "roti prancis"],
+            keywords: &[
+                "bulan sabit",
+                "croissant",
+                "gulung",
+                "makanan",
+                "prancis",
+                "roti",
+                "sarapan",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -1154,14 +1590,30 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
-            tts: Some("Croissant"),
-            keywords: &["Croissant", "brauð", "franskt", "horn"],
+            tts: Some("smjördeigshorn"),
+            keywords: &[
+                "Croissant",
+                "brauð",
+                "franskt",
+                "horn",
+                "smjördeigshorn",
+                "snúður",
+            ],
         },
         #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("croissant"),
-            keywords: &["cibo", "colazione", "cornetto", "croissant", "francese"],
+            keywords: &[
+                "bar",
+                "cibo",
+                "colazione",
+                "cornetto",
+                "croissant",
+                "dolce",
+                "francese",
+                "zucchero",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -1174,8 +1626,10 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "jv",
             tts: Some("kroasang"),
             keywords: &[
+                "croissant",
                 "dhaharan",
                 "kroasang",
+                "kroisan",
                 "prancis",
                 "roti",
                 "roti gulung bulan sabit",
@@ -1193,11 +1647,17 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "ფრანგული",
             ],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("akarwasun"),
+            keywords: &["akarwasun"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("круассан"),
-            keywords: &["круассан", "нан", "тағам"],
+            keywords: &["круассан", "нан", "тағам", "таңғы ас", "француз"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -1231,8 +1691,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             tts: Some("ಕ\u{ccd}ರ\u{ccd}ವಾಸಾಂತ\u{ccd}"),
             keywords: &[
                 "ಆಹಾರ",
+                "ಕ\u{ccd}ರ\u{cc6}ಸ\u{cc6}ಂಟ\u{ccd} ರ\u{ccb}ಲ\u{ccd}",
+                "ಕ\u{ccd}ರ\u{cca}ಸ\u{cc6}ಂಟ\u{ccd} ಖಾದ\u{ccd}ಯ",
                 "ಕ\u{ccd}ರ\u{ccd}ಯ\u{cc6}ಸಾಂತ\u{ccd} ರ\u{ccb}ಲ\u{ccd}",
                 "ಕ\u{ccd}ರ\u{ccd}ವಾಸಾಂತ\u{ccd}",
+                "ಖಾದ\u{ccd}ಯ",
+                "ಪಪ\u{ccd}ಸ\u{ccd}",
                 "ಫ\u{ccd}ರ\u{cc6}ಂಚ\u{ccd}",
                 "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
             ],
@@ -1241,7 +1705,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("크루아상"),
-            keywords: &["빵", "식품", "크루아상", "프랑스"],
+            keywords: &["빵", "식품", "음식", "초승달 모양 롤", "크루아상", "프랑스"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -1282,13 +1746,20 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("raguolis"),
-            keywords: &["bandelė", "duona", "maistas", "prancūziškas", "raguolis"],
+            keywords: &[
+                "bandelė",
+                "duona",
+                "kruasanas",
+                "maistas",
+                "prancūziškas",
+                "raguolis",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("kruasāns"),
-            keywords: &["franču", "kruasāns", "maize", "ēdiens"],
+            keywords: &["franču", "kruasāns", "maize", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -1300,13 +1771,14 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("кроасан"),
-            keywords: &["кифла", "кроасан", "француски"],
+            keywords: &["кифла", "кроасан", "француски", "храна"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ഫ\u{d4d}രെഞ\u{d4d}ച\u{d4d} റോൾ"),
             keywords: &[
+                "ക\u{d4d}രോയ\u{d4d}\u{200c}സൻറ\u{d4d}",
                 "ഫ\u{d4d}രെഞ\u{d4d}ച\u{d4d}",
                 "ബ\u{d4d}രെഡ\u{d4d}",
                 "ഭക\u{d4d}ഷണം",
@@ -1324,10 +1796,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("क\u{94d}रोस\u{947}\u{902}ट"),
             keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
+                "क\u{94d}र\u{947}स\u{947}\u{902}ट",
                 "क\u{94d}र\u{947}स\u{947}\u{902}ट रोल",
                 "क\u{94d}रॉइस\u{902}ट",
                 "क\u{94d}रोस\u{947}\u{902}ट",
                 "खाद\u{94d}य",
+                "नाश\u{94d}ता",
+                "फ\u{94d}र\u{901}च",
                 "फ\u{94d}र\u{947}\u{902}च",
                 "ब\u{94d}र\u{947}ड",
             ],
@@ -1336,7 +1813,13 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("kroisan"),
-            keywords: &["bulan sabit", "kroisan", "makanan", "roti perancis"],
+            keywords: &[
+                "bulan sabit",
+                "kroisan",
+                "makanan",
+                "perancis",
+                "roti perancis",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -1362,12 +1845,6 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "အစားအသောက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("croissant"),
-            keywords: &["brød", "croissant", "fransk", "mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1384,13 +1861,13 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("croissant"),
-            keywords: &["brood", "croissant", "frans", "voedsel"],
+            keywords: &["brood", "croissant", "eten", "frans", "ontbijt", "voedsel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("croissant"),
-            keywords: &["brød", "croissant", "fransk", "mat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1414,6 +1891,8 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "ਕ\u{a4d}ਰ\u{a48}ਸ\u{a48}\u{a02}ਟ ਰ\u{a4b}ਲ",
                 "ਖਾਣਾ",
                 "ਫਰ\u{a48}\u{a02}ਚ",
+                "ਬਰ\u{a48}\u{a71}ਡ",
+                "ਭ\u{a4b}ਜਨ",
                 "ਰ\u{a4b}ਟੀ",
             ],
         },
@@ -1435,13 +1914,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             tts: Some("Kroásant"),
             keywords: &[
                 "Brẹd",
-                "Brẹ\u{301}dfast",
                 "Frẹnch",
                 "Fud",
                 "Kroásant",
                 "Mọ\u{301}nín Chọp",
-                "Smọ\u{301}l Raúnd Brẹd Wé Im Nem na Rol",
-                "Swít Brẹd Wé Im Nem na Krọasan",
+                "Smọ\u{301}l Kọ\u{301}vd Swít Brẹd Wé Im Nem na \"Kroásant\"",
+                "Smọ\u{301}l Raúnd Brẹd Wé Im Nem na \"Rol\"",
             ],
         },
         #[cfg(feature = "pl")]
@@ -1449,11 +1927,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "pl",
             tts: Some("rogalik"),
             keywords: &[
+                "croissant",
+                "francuski",
                 "jedzenie",
                 "pieczywo",
                 "rogal",
                 "rogalik",
-                "rogalik francuski",
             ],
         },
         #[cfg(feature = "ps")]
@@ -1466,13 +1945,20 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("croissant"),
-            keywords: &["comida", "croissant", "pão"],
+            keywords: &["café da manhã", "comida", "croissant", "fome", "pão"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["croissant", "folhado", "francês"],
+            keywords: &[
+                "comida",
+                "croissant",
+                "folhado",
+                "francês",
+                "pequeno-almoço",
+                "pão",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -1491,7 +1977,15 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("croasant"),
-            keywords: &["corn", "croasant", "croissant", "mâncare", "pâine"],
+            keywords: &[
+                "corn",
+                "cornuleț",
+                "croasant",
+                "croissant",
+                "franțuzesc",
+                "mâncare",
+                "pâine",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -1517,6 +2011,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "umugati",
             ],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: None,
+            keywords: &["ᱯᱟᱸ ᱨᱩᱴᱤ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -1539,7 +2039,14 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("croissant"),
-            keywords: &["croissant", "francúzske", "jedlo", "pečivo"],
+            keywords: &[
+                "croissant",
+                "francúzske",
+                "francúzsky",
+                "jedlo",
+                "pečivo",
+                "rožok",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -1567,25 +2074,39 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "franceze",
                 "kroasant",
                 "rulon në formë gjysmëhëne",
+                "ushqim",
             ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("кроасан"),
-            keywords: &["кроасан", "пекара", "пециво", "храна"],
+            keywords: &["доручак", "кроасан", "пециво", "француски", "хлеб", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["доручак", "кроасан", "пециво", "француски", "храна", "хљеб"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kroasan"),
-            keywords: &["hrana", "kroasan", "pecivo", "pekara"],
+            keywords: &["doručak", "francuski", "hleb", "hrana", "kroasan", "pecivo"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "doručak",
+                "francuski",
+                "hljeb",
+                "hrana",
+                "kroasan",
+                "pecivo",
+            ],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1597,7 +2118,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("mahamri"),
-            keywords: &["chakula", "maandazi", "mahamri", "vitumbua"],
+            keywords: &["chakula", "maandazi", "mahamri", "mkate", "vitumbua"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -1611,6 +2132,10 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             tts: Some("ம\u{bbe}வுப\u{bcd}பண\u{bcd}டம\u{bcd}"),
             keywords: &[
                 "உணவு",
+                "கிர\u{bbe}ய\u{bcd}சன\u{bcd}ட\u{bcd}",
+                "கிரெசன\u{bcd}ட\u{bcd} ரோல\u{bcd}",
+                "பிரெஞ\u{bcd}சு உணவு",
+                "பிரெட\u{bcd}",
                 "ம\u{bbe}வுப\u{bcd} பண\u{bcd}டம\u{bcd}",
                 "ம\u{bbe}வுப\u{bcd}பண\u{bcd}டம\u{bcd}",
             ],
@@ -1624,6 +2149,9 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "అర\u{c4d}ధచంద\u{c4d}ర\u{c3e}కర ర\u{c4b}ల\u{c4d}",
                 "అర\u{c4d}ధచంద\u{c4d}ర\u{c3e}క\u{c3e}ర ర\u{c4b}ల\u{c4d}",
                 "ఆహ\u{c3e}రం",
+                "క\u{c4d}ర\u{c46}స\u{c46}ంట\u{c4d} ర\u{c4b}ల\u{c4d}",
+                "క\u{c4d}ర\u{c4b}య\u{c3f}సంట\u{c4d}",
+                "ఫుడ\u{c4d}",
                 "ఫ\u{c4d}ర\u{c46}ంచ\u{c4d}",
                 "బ\u{c4d}ర\u{c46}డ\u{c4d}",
             ],
@@ -1647,6 +2175,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             tts: Some("คร\u{e31}วซอง"),
             keywords: &["ขนม", "ขนมป\u{e31}ง", "คร\u{e31}วซอง", "อาหาร"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ክሮሳንት"),
+            keywords: &["ክሮሳንት"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -1659,13 +2193,21 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mā kalipa"),
-            keywords: &["mā kalipa"],
+            keywords: &["Falanisē", "kalipa", "mā"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kruvasan"),
-            keywords: &["ay çöreği", "ekmek", "fransız", "kruvasan", "yiyecek"],
+            keywords: &[
+                "ay çöreği",
+                "ekmek",
+                "fransız",
+                "gıda",
+                "kruvasan",
+                "pastane",
+                "yiyecek",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -1678,9 +2220,12 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             lang: "uk",
             tts: Some("круасан"),
             keywords: &[
+                "Франція",
                 "булочний виріб",
                 "звій півмісяцем",
                 "круасан",
+                "пекарня",
+                "сніданок",
                 "французький",
                 "їжа",
             ],
@@ -1689,13 +2234,21 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("ہلال نما روٹی"),
-            keywords: &["خوراک", "روٹی", "فرنچ", "ہلال نما", "ہلال نما روٹی"],
+            keywords: &[
+                "خوراک",
+                "رول",
+                "روٹی",
+                "فرنچ",
+                "کھانا",
+                "ہلال نما",
+                "ہلال نما روٹی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("kruassan"),
-            keywords: &["fransuz", "kruassan", "non", "taom"],
+            keywords: &["fransuz", "kruassan", "non", "taom", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -1713,14 +2266,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "wo",
             tts: Some("Kurwaasaŋ"),
-            keywords: &[
-                "Kurwaasaŋ",
-                "briyoos",
-                "kurwaasaŋ",
-                "lekk",
-                "mburu",
-                "wu-faraas",
-            ],
+            keywords: &["Kurwaasaŋ", "briyoos", "lekk", "mburu", "wu-faraas"],
         },
         #[cfg(feature = "xh")]
         crate::Annotation {
@@ -1742,9 +2288,20 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
                 "Kurosanti",
                 "búrẹ\u{301}dì",
                 "faransé",
-                "kurosanti",
                 "kírísẹ\u{301}ntì",
                 "ónjẹ",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Kurosanti"),
+            keywords: &[
+                "Kurosanti",
+                "búrɛ\u{301}dì",
+                "faransé",
+                "kírísɛ\u{301}ntì",
+                "ónjɛ",
             ],
         },
         #[cfg(feature = "yue")]
@@ -1763,7 +2320,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("羊角面包"),
-            keywords: &["新月形面包", "法式", "羊角面包", "面包", "食物"],
+            keywords: &["新月形面包", "法式", "牛角面包", "羊角面包", "面包", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -1775,7 +2332,7 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("牛角包"),
-            keywords: &["牛角包", "麵包"],
+            keywords: &["法國", "牛角包", "食物", "麵包"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -1807,7 +2364,14 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("baguette"),
-            keywords: &["baguette", "brood", "frankryk", "kos"],
+            keywords: &[
+                "Franse brood",
+                "Franse kos",
+                "baguette",
+                "brood",
+                "frankryk",
+                "kos",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -1818,8 +2382,16 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}الخبز الفرنسي"),
-            keywords: &["باجيت", "خبز فرنسي", "طعام", "\u{202b}الخبز الفرنسي"],
+            tts: Some("الخبز الفرنسي"),
+            keywords: &[
+                "الخبز الفرنسي",
+                "باجيت",
+                "باغيت",
+                "خبز باجيت",
+                "خبز فرنجي",
+                "خبز فرنسي",
+                "طعام",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -1836,7 +2408,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("kərpic çörək"),
-            keywords: &["kərpic çörək", "tikə", "yemək", "çörək"],
+            keywords: &["baget çörəyi", "kərpic çörək", "tikə", "yemək", "çörək"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -1847,7 +2419,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("багети"),
+            tts: Some("багета"),
             keywords: &["багета", "багети", "френско", "хляб", "храна"],
         },
         #[cfg(feature = "bn")]
@@ -1855,6 +2427,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("ব\u{9cd}য\u{9be}গ\u{9cd}য\u{9be}ট"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
                 "খ\u{9be}ব\u{9be}র",
                 "প\u{9be}উর\u{9c1}টি",
                 "ফর\u{9be}সি",
@@ -1890,7 +2463,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("bageta"),
-            keywords: &["bageta", "francouzské", "jídlo", "pečivo"],
+            keywords: &["bageta", "francouzské", "jídlo", "pečivo", "veka"],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -1908,13 +2481,19 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Baguette"),
-            keywords: &["Baguette", "Frühstück", "französisch"],
+            keywords: &["Baguette", "Brot", "Frühstück", "französisch"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("μπαγκέτα"),
-            keywords: &["γαλλικός", "μπαγκέτα", "τροφή", "ψωμί"],
+            keywords: &["γαλλικός", "μπαγκέτα", "τροφή", "φαγητό", "ψωμί"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
@@ -1922,16 +2501,10 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("baguette bread"),
             keywords: &["baguette", "bread", "food", "french"],
         },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("baguette"),
-            keywords: &["baguette", "bread", "food", "french", "french stick"],
-        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
-            tts: Some("French stick"),
+            tts: Some("↑↑↑"),
             keywords: &["French stick", "baguette", "bread", "food", "french"],
         },
         #[cfg(feature = "en_CA")]
@@ -1962,7 +2535,9 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("baguette"),
-            keywords: &["baguette", "comida", "francés", "pan"],
+            keywords: &[
+                "baguete", "baguette", "barra", "comida", "desayuno", "francés", "pan",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -1980,7 +2555,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("baguette"),
-            keywords: &["baguette", "pikk", "sai", "toit"],
+            keywords: &["baguette", "pikk", "prantsuse", "sai", "söök", "toit"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -2016,7 +2591,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("baguette"),
-            keywords: &["baguette", "pain"],
+            keywords: &["baguette", "nourriture", "pain"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -2047,6 +2622,12 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("બ\u{ac7}ગ\u{ac7}ટ રોટલી"),
             keywords: &[
+                "કાનપાન",
+                "ખાણ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "નાન",
+                "પકવાન",
                 "ફ\u{acd}ર\u{ac7}ન\u{acd}ચ",
                 "બ\u{ac7}ગ\u{ac7}ટ",
                 "ભોજન",
@@ -2059,6 +2640,20 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("burodin baguette"),
             keywords: &[
                 "abinci",
+                "abincin faransa",
+                "baguette",
+                "burodi",
+                "burodin baguette",
+                "na faransa",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("burodin baguette"),
+            keywords: &[
+                "abinci",
+                "abincin faransa",
                 "baguette",
                 "burodi",
                 "burodin baguette",
@@ -2069,13 +2664,14 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "he",
             tts: Some("באגט"),
-            keywords: &["באגט", "לחם", "צרפתי"],
+            keywords: &["באגט", "בגט", "לחם", "צרפתי"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("बीगट ब\u{94d}र\u{947}ड"),
             keywords: &[
+                "खाना",
                 "फ\u{94d}र\u{947}\u{902}च",
                 "बीगट ब\u{94d}र\u{947}ड",
                 "भोजन",
@@ -2086,7 +2682,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("baget"),
-            keywords: &["baget", "francuska", "hrana", "kruh"],
+            keywords: &["baget", "francuska", "francuski kruh", "hrana", "kruh"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -2097,14 +2693,14 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("բագետ"),
+            tts: Some("բագետ հաց"),
             keywords: &["բագետ", "հաց", "ուտելիք", "ֆրանսիական"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("roti baguette"),
-            keywords: &["baget", "baguette", "roti", "roti panjang", "roti prancis"],
+            keywords: &["baget", "baguette", "makanan", "perancis", "roti"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -2122,7 +2718,15 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("baguette"),
-            keywords: &["baguette", "cibo", "filone", "francese"],
+            keywords: &[
+                "Francia",
+                "baguette",
+                "carboidrati",
+                "cibo",
+                "filone",
+                "francese",
+                "pane",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -2142,11 +2746,17 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("ბაგეტი"),
             keywords: &["ბაგეტი", "პური", "საკვები", "ფრანგული"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tabagiḍt n uɣrum"),
+            keywords: &["tabagiḍt n uɣrum"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("багет"),
-            keywords: &["багет", "нан", "тағам"],
+            keywords: &["багет", "нан", "тағам", "француз"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2172,7 +2782,9 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ಆಹಾರ",
                 "ಫ\u{ccd}ರ\u{cc6}ಂಚ\u{ccd}",
+                "ಫ\u{ccd}ರ\u{cc6}ಂಚ\u{ccd} ರ\u{ccb}ಲ\u{ccd} ಬ\u{ccd}ಯಾಗ\u{cc6}ಟ\u{ccd}",
                 "ಬಗ\u{cc6}ಟ\u{ccd}",
+                "ಬ\u{ccd}ಯಾಗ\u{cc6}ಟ\u{ccd}",
                 "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
             ],
         },
@@ -2180,7 +2792,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("바게트"),
-            keywords: &["바게트", "빵", "식품", "프랑스"],
+            keywords: &["바게트", "빵", "식품", "음식", "프랑스"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -2220,13 +2832,21 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("ilgas batonas"),
-            keywords: &["batonas", "ilgas", "maistas", "prancūzų"],
+            keywords: &[
+                "batonas",
+                "duona",
+                "ilgas",
+                "kepinys",
+                "maistas",
+                "prancūziškas batonas",
+                "prancūzų",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("bagete"),
-            keywords: &["bagete", "franču", "maize", "ēdiens"],
+            keywords: &["bagete", "franču", "maize", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -2238,7 +2858,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("багет"),
-            keywords: &["багет", "леб", "француски"],
+            keywords: &["багет", "леб", "француски", "храна"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -2257,7 +2877,12 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("ब\u{945}ग\u{947}ट ब\u{94d}र\u{947}ड"),
             keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
                 "खाद\u{94d}य",
+                "ज\u{947}वण",
+                "नाश\u{94d}ता",
+                "फ\u{94d}र\u{901}च",
                 "फ\u{94d}र\u{947}\u{902}च",
                 "ब\u{945}ग\u{947}ट",
                 "ब\u{94d}र\u{947}ड",
@@ -2267,7 +2892,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("roti baguette"),
-            keywords: &["makanan", "roti baguette", "roti perancis"],
+            keywords: &["makanan", "roti", "roti baguette", "roti perancis"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -2286,12 +2911,6 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
                 "အစားအသောက\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bagett"),
-            keywords: &["bagett", "baguette", "brød", "fransk", "mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2307,13 +2926,13 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("stokbrood"),
-            keywords: &["brood", "frans", "stokbrood", "voedsel"],
+            keywords: &["Frans", "brood", "eten", "stokbrood"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("bagett"),
-            keywords: &["bagett", "baguette", "brød", "fransk", "mat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -2321,9 +2940,9 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("ବ\u{b3e}ଗ\u{b41}ଏଟେ ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}"),
             keywords: &[
                 "ଖ\u{b3e}ଦ\u{b4d}ୟ",
+                "ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}",
                 "ଫ\u{b4d}ରେଞ\u{b4d}ଚ\u{b4d}",
-                "ବ\u{b3e}ଗ\u{b41}ଏଟେ । ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}",
-                "ବ\u{b3e}ଗ\u{b41}ଏଟେ ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}",
+                "ବ\u{b3e}ଗ\u{b41}ଏଟେ",
             ],
         },
         #[cfg(feature = "pa")]
@@ -2332,6 +2951,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("ਬ\u{a47}ਗਟ ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ"),
             keywords: &[
                 "ਫਰ\u{a48}\u{a02}ਚ",
+                "ਬਰ\u{a48}ਡ",
                 "ਬ\u{a47}ਗਟ ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ",
                 "ਭ\u{a4b}ਜਨ",
                 "ਰ\u{a4b}ਟੀ",
@@ -2352,7 +2972,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
                 "Brẹd",
                 "Frẹnch",
                 "Fud",
-                "Lọ\u{301}ng Brẹd Wé Im Nem Na Bagẹt",
+                "Lọ\u{301}ng Raúnd Brẹd Wé Im Nem Na \"Bagẹt\"",
             ],
         },
         #[cfg(feature = "pl")]
@@ -2371,13 +2991,13 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("baguete"),
-            keywords: &["baguete", "bisnaga", "comida", "pão"],
+            keywords: &["baguete", "bisnaga", "comida", "pão", "pão francês"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["baguete", "cacete", "francês", "pão"],
+            keywords: &["baguete", "cacete", "comida", "francês", "pão"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -2392,6 +3012,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             keywords: &[
                 "baghetă",
                 "baghetă de pâine",
+                "franzelă",
                 "franțuzească",
                 "mâncare",
                 "pâine",
@@ -2407,7 +3028,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("багет"),
-            keywords: &["багет", "еда", "французский", "хлеб"],
+            keywords: &["багет", "батон", "булка", "еда", "французский", "хлеб"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -2420,6 +3041,12 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
                 "umugati murermure",
                 "umugati wa bagete",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱡᱷᱟᱹᱞ ᱯᱟᱸ ᱨᱩᱴᱤ"),
+            keywords: &["ᱡᱷᱟᱹᱞ ᱯᱟᱸ ᱨᱩᱴᱤ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -2442,7 +3069,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("bageta"),
-            keywords: &["bageta", "francúzske", "jedlo", "pečivo"],
+            keywords: &["bageta", "chlieb", "francúzske", "jedlo", "pečivo"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -2472,19 +3099,25 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("багет"),
-            keywords: &["багет", "пекара", "пециво", "хлеб", "храна"],
+            keywords: &["багет", "пециво", "француски", "хлеб", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["багет", "француски", "храна", "хљеб"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("baget"),
-            keywords: &["baget", "hleb", "hrana", "pecivo", "pekara"],
+            keywords: &["baget", "francuski", "hleb", "hrana", "pecivo"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["baget", "francuski", "hljeb", "hrana"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2508,7 +3141,12 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("ரொட\u{bcd}டி உணவு"),
-            keywords: &["உணவு", "ரொட\u{bcd}டி"],
+            keywords: &[
+                "ஃபிரெஞ\u{bcd}சு",
+                "உணவு",
+                "ந\u{bc0}ள ரொட\u{bcd}டி",
+                "ரொட\u{bcd}டி",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
@@ -2516,7 +3154,9 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("బ\u{c4d}య\u{c3e}గ\u{c46}ట\u{c4d} బ\u{c4d}ర\u{c46}డ\u{c4d}"),
             keywords: &[
                 "ఆహ\u{c3e}రం",
+                "ఫుడ\u{c4d}",
                 "ఫ\u{c4d}ర\u{c46}ంచ\u{c4d}",
+                "బ\u{c3e}గ\u{c47}ట\u{c4d}",
                 "బ\u{c4d}య\u{c3e}గ\u{c46}ట\u{c4d}",
                 "బ\u{c4d}ర\u{c46}డ\u{c4d}",
             ],
@@ -2539,6 +3179,12 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             tts: Some("ขนมป\u{e31}งฝร\u{e31}\u{e48}งเศส"),
             keywords: &["ขนมป\u{e31}ง", "ขนมป\u{e31}งฝร\u{e31}\u{e48}งเศส", "อาหาร"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ባጌት ባኒ"),
+            keywords: &["መግቢ", "ባጌት", "እንጀራ", "ፈረንሳዊ ቋንቋ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -2549,13 +3195,13 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mā lōloa"),
-            keywords: &["mā lōloa"],
+            keywords: &["Falanisē", "lōloa", "mā"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("baget ekmek"),
-            keywords: &["baget", "ekmek", "fransız", "yiyecek"],
+            keywords: &["baget", "ekmek", "fransız", "gıda", "yiyecek"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -2567,19 +3213,35 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("багет"),
-            keywords: &["багет", "булка", "французький", "хліб", "їжа"],
+            keywords: &[
+                "багет",
+                "булка",
+                "випічка",
+                "французький",
+                "франція",
+                "хліб",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("بیگٹ ڈبل روٹی"),
-            keywords: &["بریڈ", "بیگٹ", "بیگٹ ڈبل روٹی", "خوراک", "فرنچ", "ڈبل روٹی"],
+            keywords: &[
+                "بریڈ",
+                "بیگٹ",
+                "بیگٹ ڈبل روٹی",
+                "خوراک",
+                "فرانسیسی پائو روٹی",
+                "فرنچ",
+                "ڈبل روٹی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("baget"),
-            keywords: &["baget", "fransuz", "non", "taom"],
+            keywords: &["baget", "fransuz", "non", "shirinlik", "taom", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -2617,6 +3279,18 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
                 "ónjẹ",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Burɛdi Baguette"),
+            keywords: &[
+                "Burɛdi Baguette",
+                "búrɛ\u{301}dì",
+                "búrɛ\u{301}dì gbɔɔrɔ",
+                "faransé",
+                "ónjɛ",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2633,7 +3307,7 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("法式长棍面包"),
-            keywords: &["法式", "法式长棍面包", "面包", "食物"],
+            keywords: &["法式", "法式长条面包", "法式长棍面包", "面包", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -2645,7 +3319,18 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("法棍包"),
-            keywords: &["法包", "法國麵包", "法棍包", "麵包"],
+            keywords: &[
+                "堅硬",
+                "法包",
+                "法國",
+                "法國麵包",
+                "法式長棍麵包",
+                "法棍包",
+                "長棍麵包",
+                "長法包",
+                "食物",
+                "麵包",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -2677,19 +3362,46 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("platbrood"),
-            keywords: &["focaccia", "lavash", "pita", "platbrood"],
+            keywords: &[
+                "arepa",
+                "bakkery",
+                "brood",
+                "focaccia",
+                "gebak",
+                "gordita",
+                "lavash",
+                "meel",
+                "pita",
+                "pizza",
+                "platbrood",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሽልጦ"),
-            keywords: &["ሽልጦ"],
+            keywords: &["ምግብ", "ሽልጦ", "አሬፓ", "ዳቦ", "ጎርዲታ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("خبز مفرود"),
-            keywords: &["آريبا", "بيتا", "خبز مسطح", "خبز مفرود", "لواش", "نان"],
+            keywords: &[
+                "آريبا",
+                "إفطار",
+                "بيتا",
+                "جائع",
+                "خبز",
+                "خبز مسطح",
+                "خبز مفرود",
+                "شطيرة",
+                "شهي",
+                "طعام",
+                "عشاء",
+                "لذيذ",
+                "لواش",
+                "نان",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -2719,7 +3431,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("плосък хляб"),
-            keywords: &["арепа", "лаваш", "наан", "пита", "плосък хляб"],
+            keywords: &["арепа", "лаваш", "наан", "пита", "плосък хляб", "храна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -2727,9 +3439,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("ফ\u{9cd}ল\u{9cd}য\u{9be}টব\u{9cd}রেড"),
             keywords: &[
                 "আরিপ\u{9be}",
+                "খ\u{9be}দ\u{9cd}য",
+                "খ\u{9be}ব\u{9be}র",
+                "গর\u{9cd}ডিত\u{9be}",
+                "জীবিক\u{9be}",
                 "ন\u{9be}ন",
                 "পিত\u{9be}",
                 "ফ\u{9cd}ল\u{9cd}য\u{9be}টব\u{9cd}রেড",
+                "ব\u{9cd}রেড",
+                "র\u{9c1}জি-র\u{9c1}টি",
+                "র\u{9c1}টি",
                 "ল\u{9be}ভ\u{9be}শ",
             ],
         },
@@ -2773,17 +3492,31 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("chlebová placka"),
-            keywords: &["arepa", "chlebová placka", "lavaš", "naan", "nán", "pita"],
+            keywords: &[
+                "arepa",
+                "chlebová placka",
+                "gordita",
+                "jídlo",
+                "lavaš",
+                "naan",
+                "nán",
+                "pita",
+                "potravina",
+                "tortilla",
+                "wrap",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("Bara fflat"),
             keywords: &[
-                "Bara fflat",
                 "arepa",
+                "bara",
                 "bara fflat",
-                "lavash",
+                "bwyd",
+                "gordita",
+                "lafash",
                 "naan",
                 "pita",
             ],
@@ -2796,6 +3529,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "arepas",
                 "fladbrød",
                 "lavash",
+                "mad",
                 "naan",
                 "nan",
                 "pita",
@@ -2806,25 +3540,51 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Fladenbrot"),
-            keywords: &["Arepa", "Fladenbrot", "Lavasch", "Naan", "Pita"],
+            keywords: &[
+                "Arepa",
+                "Brot",
+                "Essen",
+                "Fladenbrot",
+                "Lavasch",
+                "Lebensmittel",
+                "Naan",
+                "Nahrung",
+                "Pita",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πίτα ψωμιού"),
-            keywords: &["αρέπα", "λαβάς", "πίτα", "πίτα ψωμιού", "ψωμί νάαν"],
+            keywords: &[
+                "αρέπα",
+                "λαβάς",
+                "πίτα",
+                "πίτα ψωμιού",
+                "φαγητό",
+                "ψωμί νάαν",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("flatbread"),
-            keywords: &["arepa", "flatbread", "lavash", "naan", "pita"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &["arepa", "lavash", "naan", "nan", "pita", "pitta"],
+            keywords: &[
+                "arepa",
+                "bread",
+                "flatbread",
+                "food",
+                "gordita",
+                "lavash",
+                "naan",
+                "pita",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -2859,8 +3619,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("pan sin levadura"),
-            keywords: &["↑↑↑"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "aperitivo",
+                "arepa",
+                "comida",
+                "pan",
+                "pan plano",
+                "pita",
+                "tortilla",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -2890,19 +3658,37 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("نان مسطح"),
-            keywords: &["آره\u{200c}پا", "لواش", "نان", "نان مسطح", "پیتا"],
+            keywords: &[
+                "آره پا",
+                "آره\u{200c}پا",
+                "غذا",
+                "غذا و آشامیدنی",
+                "لواش",
+                "نان",
+                "نان مسطح",
+                "پیتا",
+                "گوردیتا",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("rieska"),
-            keywords: &["arepa", "lavash", "naan", "pita", "rieska"],
+            keywords: &["arepa", "lavash", "leipä", "naan", "pita", "ruoka"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("flatbread"),
-            keywords: &["arepa", "flatbread", "lavash", "naan", "pita"],
+            keywords: &[
+                "arepa",
+                "biskwit",
+                "flatbread",
+                "lavash",
+                "naan",
+                "pagkain",
+                "pita",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -2914,7 +3700,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("galette"),
-            keywords: &["arepa", "galette", "lavash", "naan", "pita"],
+            keywords: &[
+                "arepa",
+                "galette",
+                "gordita",
+                "lavash",
+                "naan",
+                "nourriture",
+                "pain plat",
+                "pita",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -2926,7 +3721,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("arán leathan"),
-            keywords: &["arán leathan", "lavash", "naan", "pita"],
+            keywords: &["arán", "arán leathan", "bia", "lavash", "naan", "pita"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -2938,7 +3733,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("pan plano"),
-            keywords: &["arepa", "pan de pita", "pan plano"],
+            keywords: &["arepa", "pan de pita"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -2946,17 +3741,61 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("ફ\u{acd}લ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ"),
             keywords: &[
                 "એર\u{ac7}પા",
+                "ક\u{ac1}લ\u{acd}ચા",
                 "નાન",
+                "પાઉ\u{a82}રોટી",
                 "પિટા",
+                "ફ\u{ac2}ડ",
                 "ફ\u{acd}લ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ",
+                "બપડી",
+                "બ\u{acd}ર\u{ac7}ડ",
                 "લવાશ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kewayayyen burodi"),
+            keywords: &[
+                "arepa",
+                "biredin pita",
+                "kayan fulawa",
+                "kewayayyen biredi",
+                "kewayayyen burodi",
+                "lavash",
+                "naan",
+                "pita",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kewayayyen burodi"),
+            keywords: &[
+                "arepa",
+                "biredin pita",
+                "kayan fulawa",
+                "kewayayyen biredi",
+                "kewayayyen burodi",
+                "lavash",
+                "naan",
+                "pita",
             ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("פיתה"),
-            keywords: &["ארפה", "לאפה", "לוואשי", "נאן", "פיתה"],
+            keywords: &[
+                "אוכל",
+                "ארפה",
+                "לאפה",
+                "לוואשי",
+                "לחם",
+                "מאפה",
+                "נאן",
+                "פיתה",
+            ],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -2964,9 +3803,17 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("फ\u{93c}\u{94d}ल\u{948}टब\u{94d}र\u{947}ड"),
             keywords: &[
                 "अर\u{947}पा",
+                "क\u{941}ल\u{94d}चा",
+                "खाना",
+                "डबल रोटी",
                 "नान",
+                "नाश\u{94d}ता",
                 "पीता",
+                "फ\u{93c}\u{942}ड",
                 "फ\u{93c}\u{94d}ल\u{948}टब\u{94d}र\u{947}ड",
+                "फ\u{941}ल\u{94d}का",
+                "ब\u{94d}र\u{947}ड",
+                "रोटी",
                 "लवाश",
             ],
         },
@@ -2974,13 +3821,23 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("lepinja"),
-            keywords: &["bublica", "lepinja", "naan", "pecivo", "pita"],
+            keywords: &[
+                "bublica", "hrana", "kruh", "lepinja", "naan", "pecivo", "pita",
+            ],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("laposkenyér"),
-            keywords: &["lapos kenyér", "laposkenyér", "naan", "pita"],
+            keywords: &[
+                "kenyér",
+                "lapos kenyér",
+                "laposkenyér",
+                "lepénykenyér",
+                "naan",
+                "pita",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -2992,15 +3849,29 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("roti pipih"),
-            keywords: &["areva", "lavash", "pita", "roti naan", "roti pipih"],
+            keywords: &[
+                "arepa",
+                "gordita",
+                "lavash",
+                "makanan",
+                "naan",
+                "pita",
+                "roti",
+                "roti pipih",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("achịcha dị larịị"),
+            keywords: &["achịcha dị larịị"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
-            tts: Some("flakaka"),
+            tts: Some("flatkaka"),
             keywords: &[
                 "arepa",
-                "flakaka",
                 "flatbrauð",
                 "flatkaka",
                 "flatkökur",
@@ -3012,7 +3883,9 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("focaccia"),
-            keywords: &["arepa", "focaccia", "lavash", "naan", "pita"],
+            keywords: &[
+                "arepa", "cibo", "focaccia", "lavash", "naan", "pane", "piadina", "pita", "tigella",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -3025,6 +3898,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "ピタパン",
                 "フラットブレッド",
                 "ラバシ",
+                "食べ物",
             ],
         },
         #[cfg(feature = "jv")]
@@ -3032,6 +3906,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             lang: "jv",
             tts: Some("roti warata"),
             keywords: &[
+                "panganan",
                 "roti arepa",
                 "roti lapash",
                 "roti naan",
@@ -3043,13 +3918,27 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ka",
             tts: Some("ლავაში"),
-            keywords: &["ლავაში", "მჭადი", "ნაანი", "პიტა"],
+            keywords: &["ლავაში", "მჭადი", "ნაანი", "პიტა", "ხაჭაპური"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taḥbult n uɣrum"),
+            keywords: &["taḥbult n uɣrum"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("шелпек нан"),
-            keywords: &["арепа", "лаваш", "наан", "пита", "шелпек нан"],
+            keywords: &[
+                "арепа",
+                "лаваш",
+                "наан",
+                "нан",
+                "пита",
+                "тамақ",
+                "шелпек нан",
+            ],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -3070,9 +3959,13 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("ಫ\u{ccd}ಲಾಟ\u{ccd} ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}"),
             keywords: &[
                 "ಅರ\u{cc6}ಪಾ",
+                "ಆಹಾರ",
+                "ಚಪ\u{ccd}ಪಟ\u{cc6} ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
+                "ತ\u{cbf}ನ\u{cbf}ಸು",
                 "ನಾನ\u{ccd}",
                 "ಪ\u{cbf}ಟಾ",
                 "ಫ\u{ccd}ಲಾಟ\u{ccd} ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
+                "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
                 "ಲಾವಾಶ\u{ccd}",
             ],
         },
@@ -3080,7 +3973,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("플랫브레드"),
-            keywords: &["난", "라바쉬", "아레파", "플랫브레드", "피타"],
+            keywords: &[
+                "고르디타",
+                "난",
+                "라바쉬",
+                "빵",
+                "아레파",
+                "음식",
+                "플랫브레드",
+                "피타",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -3097,32 +3999,53 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
-            tts: Some("ເຂ\u{ebb}\u{ec9}າຂ\u{eb5}\u{ec8}ຍາວ"),
+            tts: Some("ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນ\u{200b}ແປ"),
             keywords: &[
-                "ນ\u{eb1}ນ",
-                "ເຂ\u{ebb}\u{ec9}າຂ\u{eb5}\u{ec8}ຍາວ",
-                "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ມ\u{ebb}ນແປ",
-                "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແປ",
-                "ໂລຕ\u{eb5}",
+                "ນານ",
+                "ພ\u{eb4}\u{200b}ຕາ",
+                "ອາ\u{200b}ຣ\u{eb5}\u{200b}ປາ",
+                "ເຂ\u{ebb}\u{ec9}າ\u{200b}ຈ\u{eb5}\u{ec8}",
+                "ເລ\u{200b}ວາ\u{200b}ຊ",
             ],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("paplotis"),
-            keywords: &["arepa", "lavašas", "naan", "paplotis", "pita"],
+            keywords: &[
+                "arepa", "duona", "lavašas", "maistas", "naan", "paplotis", "pita",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("plācenis"),
-            keywords: &["arepa", "lavašs", "nāanmaize", "pita", "plācenis"],
+            keywords: &[
+                "arepa",
+                "lavašs",
+                "maize",
+                "nāanmaize",
+                "pita",
+                "plācenis",
+                "pārtika",
+            ],
         },
         #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("гиро-пита"),
-            keywords: &["гиро-пита", "дурум", "лаваш"],
+            keywords: &[
+                "арепа",
+                "гиро",
+                "гиро-пита",
+                "гордита",
+                "дурум",
+                "лаваш",
+                "леб",
+                "лепче",
+                "пита",
+                "храна",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -3133,6 +4056,8 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "ന\u{d3e}ൻ",
                 "പീട",
                 "ഫ\u{d4d}ല\u{d3e}റ\u{d4d}റ\u{d4d}ബ\u{d4d}രഡ\u{d4d}",
+                "ബ\u{d4d}രഡ\u{d4d}",
+                "ഭക\u{d4d}ഷണം",
                 "ല\u{d3e}വഷ\u{d4d}",
             ],
         },
@@ -3148,9 +4073,12 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("फ\u{94d}ल\u{945}टब\u{94d}र\u{947}ड"),
             keywords: &[
                 "अर\u{947}पा",
+                "खाद\u{94d}यपदार\u{94d}थ",
+                "गॉर\u{94d}टिला",
                 "नान",
                 "पिटा",
                 "फ\u{94d}ल\u{945}टब\u{94d}र\u{947}ड",
+                "ब\u{94d}र\u{947}ड",
                 "लवाश",
             ],
         },
@@ -3158,7 +4086,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("roti leper"),
-            keywords: &["arepa", "lavash", "naan", "pita", "roti leper"],
+            keywords: &[
+                "arepa",
+                "lavash",
+                "makanan",
+                "naan",
+                "pita",
+                "roti",
+                "roti leper",
+                "sejenis roti",
+            ],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -3170,12 +4107,6 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "ပေါင\u{103a}မ\u{102f}န\u{1037}\u{103a}ပြား",
                 "အရ\u{102e}ပါ",
             ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pitabrød"),
-            keywords: &["arepa", "brød", "lavash", "nan", "pita", "pitabrød"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -3193,13 +4124,22 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("platbrood"),
-            keywords: &["arepa", "lavash", "naan", "pita", "platbrood"],
+            keywords: &[
+                "arepa",
+                "brood",
+                "eten",
+                "gordita",
+                "lavash",
+                "naan",
+                "pita",
+                "platbrood",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pitabrød"),
-            keywords: &["arepa", "brød", "lavash", "nan", "pita", "pitabrød"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3222,6 +4162,8 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "ਤ\u{a70}ਦ\u{a42}ਰੀ ਰ\u{a4b}ਟੀ",
                 "ਨਾਨ",
                 "ਪਰ\u{a4c}\u{a02}ਠਾ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਰ\u{a4b}ਟੀ",
                 "ਲ\u{a71}ਛਾ ਪਰ\u{a4c}\u{a02}ਠਾ",
                 "ਸ\u{a3c}ੀਰਮਾਲ",
             ],
@@ -3243,25 +4185,53 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("pita"),
-            keywords: &["arepa", "lawasz", "naan", "pita", "podpłomyk"],
+            keywords: &[
+                "arepa",
+                "chlebek",
+                "jedzenie",
+                "lawasz",
+                "naan",
+                "pita",
+                "placek",
+                "podpłomyk",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("نرۍ ډوډۍ"),
-            keywords: &["اريپا", "نان", "نرۍ ډوډۍ", "پيتا", "ډوډۍ"],
+            keywords: &[
+                "خواړه",
+                "روټی",
+                "فلیټ ډوډۍ",
+                "لواش",
+                "نان",
+                "پیتا",
+                "ډوډۍ",
+                "ګورډیتا",
+            ],
         },
         #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("pão sírio"),
-            keywords: &["arepa", "lavash", "naan", "pita", "pão sírio"],
+            keywords: &[
+                "alimento",
+                "arepa",
+                "comida",
+                "lavash",
+                "naan",
+                "pita",
+                "pão",
+                "pão folha",
+                "pão sírio",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["arepa", "comida", "naan", "pita", "pão"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -3280,7 +4250,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("pită"),
-            keywords: &["lipie", "pită"],
+            keywords: &["lipie", "mâncare", "pită", "pâine"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -3292,7 +4262,21 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("лепешка"),
-            keywords: &["лаваш", "лепешка", "наан", "пита"],
+            keywords: &[
+                "еда",
+                "лаваш",
+                "лепешка",
+                "наан",
+                "пита",
+                "тортилья",
+                "хлеб",
+            ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱪᱚᱯᱴᱟ ᱯᱟᱸ ᱨᱩᱴᱤ"),
+            keywords: &["ᱪᱚᱯᱴᱟ ᱯᱟᱸ ᱨᱩᱴᱤ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -3319,9 +4303,12 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
                 "arabský",
                 "chlebová placka",
                 "chlieb",
+                "jedlo",
                 "lavaš",
                 "naan",
+                "pečivo",
                 "pita",
+                "placka",
                 "tortilla",
             ],
         },
@@ -3329,7 +4316,16 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sl",
             tts: Some("indijski kruh"),
-            keywords: &["arepa", "indijski kruh", "lavaš", "naan", "pita"],
+            keywords: &[
+                "arepa",
+                "hrana",
+                "indijski kruh",
+                "kruh",
+                "lavaš",
+                "naan",
+                "pita",
+                "ploščati kruh",
+            ],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -3346,31 +4342,40 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("bukë e sheshtë"),
-            keywords: &["arepa", "bukë e sheshtë", "lavash", "naan", "pite"],
+            keywords: &[
+                "arepa",
+                "bukë",
+                "bukë e sheshtë",
+                "gordita",
+                "lavash",
+                "naan",
+                "pite",
+                "ushqim",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("пљоснат хлеб"),
-            keywords: &["лаваш", "нан", "пита хлеб", "пљоснат хлеб"],
+            keywords: &["арепа", "лаваш", "нан", "пита хлеб", "пљоснат", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("пљоснат хљеб"),
-            keywords: &["пљоснат хљеб"],
+            keywords: &["арепа", "лаваш", "нан", "пита хљеб", "пљоснат хљеб"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pljosnat hleb"),
-            keywords: &["lavaš", "nan", "pita hleb", "pljosnat hleb"],
+            keywords: &["arepa", "hrana", "lavaš", "nan", "pita hleb", "pljosnat"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("pljosnat hljeb"),
-            keywords: &["pljosnat hljeb"],
+            keywords: &["arepa", "lavaš", "nan", "pita hljeb", "pljosnat hljeb"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3382,7 +4387,15 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("chapati ya maji"),
-            keywords: &["arepa", "chapati ya maji", "naan", "pita"],
+            keywords: &[
+                "arepa",
+                "chakula",
+                "chapati",
+                "chapati ya maji",
+                "mkate",
+                "naan",
+                "pita",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -3397,6 +4410,7 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ஃபிள\u{bbe}ட\u{bcd} பிரட\u{bcd}",
                 "அரேப\u{bbe}",
+                "உணவு",
                 "ந\u{bbe}ன\u{bcd}",
                 "பிட\u{bbe}",
                 "ல\u{bbe}வ\u{bbe}ஷ\u{bcd}",
@@ -3408,9 +4422,14 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             tts: Some("ఫ\u{c4d}ల\u{c3e}ట\u{c4d}\u{200c}బ\u{c4d}ర\u{c46}డ\u{c4d}"),
             keywords: &[
                 "అర\u{c46}ప\u{c3e}",
+                "ఆహ\u{c3e}రం",
+                "గ\u{c4b}ర\u{c4d}డ\u{c3f}ట\u{c3e}",
                 "న\u{c3e}న\u{c4d}",
                 "ప\u{c3f}ట\u{c3e}",
+                "ఫుడ\u{c4d}",
                 "ఫ\u{c4d}ల\u{c3e}ట\u{c4d}\u{200c}బ\u{c4d}ర\u{c46}డ\u{c4d}",
+                "బన\u{c4d}ను",
+                "బ\u{c4d}ర\u{c46}డ\u{c4d}",
                 "లవ\u{c3e}ష\u{c4d}",
             ],
         },
@@ -3419,12 +4438,22 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("แฟลตเบรด"),
             keywords: &[
-                "ขนมป\u{e31}งกรอบ",
+                "กรอบ",
+                "กอร\u{e4c}ด\u{e34}ต\u{e49}า",
+                "ขนมป\u{e31}ง",
                 "นาน",
-                "พ\u{e34}ตา",
-                "อาร\u{e35}ป\u{e31}ส",
+                "พ\u{e34}ต\u{e49}า",
+                "ลาวาช",
+                "อาหาร",
+                "อาเรปา",
                 "แฟลตเบรด",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጸፍሒ ባኒ"),
+            keywords: &["ላቫሽ", "መግቢ", "ናኣን", "ኣረፓ", "እንጀራ", "ጎርዲታ", "ፍላትብሬድ", "ፒታ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -3436,37 +4465,98 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mā lafalafa"),
-            keywords: &["mā lafalafa"],
+            keywords: &["lafalafa", "mā"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yassı ekmek"),
-            keywords: &["bazlama", "lavaş", "naan", "pide", "pita", "yassı ekmek"],
+            keywords: &[
+                "bazlama",
+                "ekmek",
+                "lavaş",
+                "naan",
+                "pide",
+                "pita",
+                "yassı ekmek",
+                "yemek",
+                "yiyecek",
+            ],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("корж"),
-            keywords: &["арепа", "корж", "лаваш", "наан", "піта"],
+            keywords: &[
+                "арепа",
+                "калач",
+                "корж",
+                "лаваш",
+                "наан",
+                "паляниця",
+                "піта",
+                "тортилья",
+                "хліб",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("چپٹی روٹی"),
-            keywords: &["اریپا", "لاوش", "نان", "پیٹا", "چپٹی روٹی"],
+            keywords: &[
+                "اریپا",
+                "بریڈ",
+                "بسکٹ",
+                "روٹی",
+                "غذا",
+                "لاوش",
+                "نان",
+                "پیٹا",
+                "چپاتی روٹی",
+                "چپٹی روٹی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("malda non"),
-            keywords: &["arepa", "lavash", "malda non", "naan", "pita"],
+            keywords: &[
+                "arepa",
+                "lavash",
+                "malda non",
+                "naan",
+                "patir",
+                "pita",
+                "yegulik",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh mỳ cắt lát"),
-            keywords: &["arepa", "bánh mỳ cắt", "bánh mỳ cắt lát", "lavash", "pita"],
+            keywords: &[
+                "arepa",
+                "bánh mì",
+                "bánh mì dẹt",
+                "bánh mỳ cắt",
+                "bánh mỳ cắt lát",
+                "lavash",
+                "pita",
+                "thực phẩm",
+            ],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("búrẹ\u{301}ẹ\u{300}dì pẹlẹpẹ"),
+            keywords: &["buredi pelebe", "búrẹ\u{301}ẹ\u{300}dì pẹlẹpẹ", "pita"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("búrɛ\u{301}ɛ\u{300}dì pɛlɛpɛ"),
+            keywords: &["buredi pelebe", "búrɛ\u{301}ɛ\u{300}dì pɛlɛpɛ", "pita"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -3484,19 +4574,39 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("扁面包"),
-            keywords: &["圆盘状烤饼", "扁面包", "玉米饼", "皮塔饼", "薄脆饼"],
+            keywords: &[
+                "圆盘状烤饼",
+                "扁面包",
+                "玉米饼",
+                "皮塔饼",
+                "薄脆饼",
+                "面包",
+                "面饼",
+                "食物",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("麵餅"),
-            keywords: &["印度南餅", "圓麵餅", "玉米麵包", "薄麵包", "麵餅"],
+            keywords: &[
+                "印度南餅",
+                "圓麵餅",
+                "扁麵包",
+                "玉米麵包",
+                "糕餅",
+                "薄麵包",
+                "食物",
+                "餅",
+                "麵包",
+                "麵餅",
+            ],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["大餅", "戈爾迪塔餅", "阿瑞巴", "食物", "麵包"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -3534,19 +4644,26 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("pretzel"),
-            keywords: &["gevleg", "pretzel"],
+            keywords: &[
+                "gevleg",
+                "knibbel",
+                "kronkelend",
+                "pretzel",
+                "southappie",
+                "versnapering",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ደረቅ ብስኩት"),
-            keywords: &["ደረቅ ብስኩት"],
+            keywords: &["የተጠማዘዘ", "ደረቅ ብስኩት", "ጥልፍልፍ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بريتزل"),
-            keywords: &["بريتزل"],
+            keywords: &["بريتزل", "معرقل", "معقد", "ملتف", "ملتوي"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -3558,7 +4675,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("pretsel"),
-            keywords: &["burulmuş", "pretsel"],
+            keywords: &["burulmuş", "kraker", "pretsel"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -3570,13 +4687,22 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("брецел"),
-            keywords: &["брецел", "преплетено"],
+            keywords: &["брецел", "геврек", "преплетено"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("প\u{9cd}রেটজেল"),
-            keywords: &["প\u{9cd}রেটজেল", "মোড\u{9bc}\u{9be}নো"],
+            keywords: &[
+                "ক\u{9c1}কি",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "পেচ\u{9be}\u{981}\u{981}নো কেক",
+                "প\u{9cd}রিটসেল",
+                "প\u{9cd}রেটজেল",
+                "বিস\u{9cd}ক\u{9c1}ট",
+                "মোড\u{9bc}\u{9be}নো",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -3606,7 +4732,14 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("preclík"),
-            keywords: &["jídlo", "kroucené", "pečivo", "preclík"],
+            keywords: &[
+                "jídlo",
+                "kroucené",
+                "pečivo",
+                "preclík",
+                "zakroucený",
+                "zamotaný",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -3618,19 +4751,27 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("kringle"),
-            keywords: &["kringle", "saltkringle"],
+            keywords: &["bager", "kringle", "saltkringle"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Brezel"),
-            keywords: &["Brezel", "gedreht"],
+            keywords: &[
+                "Brezel",
+                "brezel",
+                "brezen",
+                "brezn",
+                "essen",
+                "gedreht",
+                "oktoberfest",
+            ],
         },
         #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
-            tts: None,
-            keywords: &["Brezel"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -3642,7 +4783,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("pretzel"),
-            keywords: &["pretzel", "twisted"],
+            keywords: &["convoluted", "pretzel", "twisted"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -3678,7 +4819,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["bretzel", "galleta salada", "pretzel"],
+            keywords: &["comida", "galleta", "pretzel"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -3696,7 +4837,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("soolakringel"),
-            keywords: &["keerutatud", "soolakringel"],
+            keywords: &["keerutatud", "kringel", "soolakringel"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -3708,7 +4849,16 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("چوب\u{200c}شور"),
-            keywords: &["نان پیچانده", "چوب\u{200c}شور"],
+            keywords: &[
+                "تنقلات",
+                "خوراکی",
+                "شیرینی",
+                "غذا",
+                "نان پیچانده",
+                "پریتزل",
+                "پیراشکی",
+                "چوب\u{200c}شور",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -3732,7 +4882,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("bretzel"),
-            keywords: &["bretzel", "torsade"],
+            keywords: &["bretzel", "nourriture", "torsade"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -3762,13 +4912,42 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("પ\u{acd}ર\u{ac7}ટ\u{acd}ઝલ"),
-            keywords: &["ટ\u{acd}વિસ\u{acd}ટ\u{ac7}ડ", "પ\u{acd}ર\u{ac7}ટ\u{acd}ઝલ"],
+            keywords: &[
+                "ખાનપાન",
+                "ખારી કકરી બિસ\u{acd}કિટ",
+                "ખોરાક",
+                "ટ\u{acd}વિસ\u{acd}ટ\u{ac7}ડ",
+                "નાન ખતાઈ",
+                "પ\u{acd}ર\u{ac7}ટ\u{acd}ઝલ",
+                "ભોજન",
+                "વી\u{a82}ટાય\u{ac7}લ બિસ\u{acd}કિટ",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("pretzel"),
-            keywords: &["murɗaɗɗe", "pretzel"],
+            tts: Some("biskit na pretzel"),
+            keywords: &[
+                "alkaki",
+                "alkakin pretzel",
+                "biskit na pretzel",
+                "murɗaɗɗe",
+                "pretzel",
+                "sarƙaƙiya",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("biskit na pretzel"),
+            keywords: &[
+                "alkaki",
+                "alkakin pretzel",
+                "biskit na pretzel",
+                "murɗaɗɗe",
+                "pretzel",
+                "sarƙaƙiya",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -3780,19 +4959,23 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("प\u{94d}र\u{947}टज\u{93c}\u{947}ल"),
-            keywords: &["प\u{94d}र\u{947}टज\u{93c}\u{947}ल"],
+            keywords: &[
+                "एक प\u{94d}रकार की रोटी",
+                "प\u{94d}र\u{947}टज\u{93c}\u{947}ल",
+                "म\u{941}ड\u{93c}",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("perec"),
-            keywords: &["ispleteno", "perec"],
+            keywords: &["ispleteno", "isprepleteno", "perec", "uvijeno"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("perec"),
-            keywords: &["csavart", "perec"],
+            keywords: &["csavart", "perec", "perec, étel, csavart"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -3804,7 +4987,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("pretzel"),
-            keywords: &["berkeluk", "pretzel"],
+            keywords: &["berkeluk", "pretzel", "simpul"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -3822,7 +5005,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("pretzel"),
-            keywords: &["pretzel"],
+            keywords: &["brezel", "cibo", "pane", "pretzel"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -3834,13 +5017,19 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "jv",
             tts: Some("pretsel"),
-            keywords: &["diuntir", "pretsel"],
+            keywords: &["diuntir", "kuwih", "pretsel"],
         },
         #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("პრეცელი"),
             keywords: &["ბრეცელი", "კრენდელი", "მარყუჟი", "პრეცელი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("bretzel"),
+            keywords: &["bretzel"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -3862,15 +5051,19 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಪ\u{ccd}ರ\u{cc6}ಟ\u{ccd}ಜ\u{cc6}ಲ\u{ccd}"),
             keywords: &[
+                "ಉಪ\u{ccd}ಪ\u{cbf}ನ ಬ\u{cbf}ಸ\u{ccd}ಕತ\u{ccd}ತು",
                 "ತ\u{cbf}ರುಚ\u{cbf}ದ",
+                "ಪ\u{cc7}ಸ\u{ccd}ಟ\u{ccd}ರ\u{cbf}",
                 "ಪ\u{ccd}ರ\u{cc6}ಟ\u{ccd}ಜ\u{cc6}ಲ\u{ccd}",
+                "ಬ\u{cbf}ಸ\u{ccd}ಕತ\u{ccd}ತು",
+                "ಸುರುಳ\u{cbf}ಸುತ\u{ccd}ತ\u{cbf}ಕ\u{cca}ಂಡ",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("프레첼"),
-            keywords: &["프레첼"],
+            keywords: &["구불구불한", "꼬은", "프레첼"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -3903,13 +5096,13 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("riestainis"),
-            keywords: &["riestainis", "susuktas"],
+            keywords: &["kepinys", "maistas", "riestainis", "susuktas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("kliņģeris"),
-            keywords: &["kliņģeris", "savīts"],
+            keywords: &["kliņģeris", "maize", "maizīte", "savīts"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -3921,7 +5114,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("перек"),
-            keywords: &["вртено", "перек"],
+            keywords: &["вртено", "перек", "свиено"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -3944,7 +5137,11 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("प\u{94d}र\u{947}टझल"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाऊ",
+                "खाद\u{94d}य",
                 "पिळल\u{947}ला",
+                "प\u{94d}रीटझ\u{947}ल",
                 "प\u{94d}र\u{947}टझल",
                 "प\u{94d}र\u{947}ट\u{94d}झल",
             ],
@@ -3953,7 +5150,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("pretzel"),
-            keywords: &["berpintal", "pretzel"],
+            keywords: &["belit", "berbelit-belit", "berpintal", "pintal", "pretzel"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -3970,12 +5167,6 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
                 "လ\u{102d}မ\u{103a}ထားသော",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("saltkringle"),
-            keywords: &["saltkringle", "saltstenger", "snacks"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3986,13 +5177,13 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("pretzel"),
-            keywords: &["gedraaid", "pretzel"],
+            keywords: &["gedraaid", "krakeling", "pretzel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("saltkringle"),
-            keywords: &["saltkringle", "saltstenger", "snacks"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4020,16 +5211,16 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Prẹ\u{301}tzẹl"),
             keywords: &[
-                "Prẹ\u{301}tzul Brẹd: Brẹd Wé Dẹm Plát Laik Hea",
+                "Prẹ\u{301}tzul: Dis Na Wọ\u{301}n Brẹd Wé Bí Laik Stik Ọ Nọt Wé Pẹ\u{301}sin Tai",
                 "Prẹ\u{301}tzẹl",
-                "To Plát Sọ\u{301}mtin Laik Hea",
+                "Twist: To Bẹnbẹ\u{301}n Sọ\u{301}mtin Mék I Gẹ\u{301}t Di Shep Wé Yu Want",
             ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("precel"),
-            keywords: &["precel"],
+            keywords: &["ciastko", "jedzenie", "precel"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -4041,13 +5232,13 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("pretzel"),
-            keywords: &["pretzel"],
+            keywords: &["pretzel", "pão torcido"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["pretzel", "retorcido"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -4059,7 +5250,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("covrig"),
-            keywords: &["covrig", "covrigei", "covrigel", "covrigi"],
+            keywords: &["covrig", "covrigei", "covrigel", "covrigi", "împletit"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -4071,13 +5262,19 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("крендель"),
-            keywords: &["брецель", "закрученный", "крендель"],
+            keywords: &["брецель", "бублик", "закрученный", "крендель", "претцель"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ibisukuti"),
             keywords: &["ibisukuti", "kiberamye"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱯᱨᱮᱴᱡᱟᱞ"),
+            keywords: &["ᱯᱨᱮᱴᱡᱟᱞ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -4095,13 +5292,21 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("praclík"),
-            keywords: &["praclík", "skrútené", "slané"],
+            keywords: &[
+                "jedlo",
+                "pečivo",
+                "praclík",
+                "skrútené",
+                "skrútený",
+                "slané",
+                "spletený",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("presta"),
-            keywords: &["presta"],
+            keywords: &["hrana", "presta", "zvita"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -4117,6 +5322,7 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
                 "brumë i përdredhur i pjekur",
                 "gjevrek",
                 "gjevrek i përdredhur",
+                "i përdredhur",
                 "kulaç i përdredhur",
             ],
         },
@@ -4137,6 +5343,12 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("pereca"),
             keywords: &["pereca", "uvrnuto"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4160,13 +5372,21 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("ப\u{bcd}ரெஸெல\u{bcd}"),
-            keywords: &["ப\u{bcd}ரெஸெல\u{bcd}", "முறுக\u{bcd}கு"],
+            keywords: &[
+                "உணவு",
+                "நொறுக\u{bcd}குத\u{bcd}த\u{bc0}னி",
+                "பிரெட\u{bcd}ஸல\u{bcd}",
+                "ப\u{bcd}ரெஸெல\u{bcd}",
+                "முறுக\u{bcd}கு",
+                "ஸ\u{bcd}நேக\u{bcd}ஸ\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ప\u{c4d}ర\u{c46}ట\u{c4d}జ\u{c46}ల\u{c4d}"),
             keywords: &[
+                "కన\u{c4d}వ\u{c4b}ల\u{c4d}యూట\u{c46}డ\u{c4d}",
                 "ట\u{c4d}వ\u{c3f}స\u{c4d}ట\u{c46}డ\u{c4d}",
                 "ప\u{c4d}ర\u{c46}ట\u{c4d}జ\u{c46}ల\u{c4d}",
             ],
@@ -4181,7 +5401,13 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("เพรตเซล"),
-            keywords: &["เพรตเซล"],
+            keywords: &["ขนมป\u{e31}ง", "อาหาร", "เง\u{e37}\u{e48}อน", "เพรทเซล"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፕሬትዘል"),
+            keywords: &["ዝተሓላለኸ", "ዝተጠዋወየ", "ፕሬትዘል"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4193,13 +5419,13 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("pani mamio"),
-            keywords: &["pani mamio"],
+            keywords: &["mamio", "mā", "pani"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("pretzel"),
-            keywords: &["burgu", "pretzel"],
+            keywords: &["burgu", "gıda", "pretzel", "çubuk kraker"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -4211,13 +5437,26 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("крендель"),
-            keywords: &["кренделик", "крендель", "сплетений"],
+            keywords: &[
+                "бублик",
+                "випічка",
+                "кренделик",
+                "крендель",
+                "прецель",
+                "сплетений",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("گانٹھ کی شکل کی بسکٹ"),
-            keywords: &["موڑی ہوئی", "گانٹھ کی شکل کی بسکٹ"],
+            keywords: &[
+                "بسکٹ",
+                "موڑی ہوئی",
+                "پریٹزیل",
+                "پکوان",
+                "گانٹھ کی شکل کی بسکٹ",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -4249,6 +5488,12 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             tts: Some("pretzel"),
             keywords: &["lọ\u{301}pọ\u{300}", "pretzel"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("pretzel"),
+            keywords: &["lɔ\u{301}pɔ\u{300}", "pretzel"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -4265,19 +5510,19 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("椒盐卷饼"),
-            keywords: &["扭曲食品", "椒盐卷饼"],
+            keywords: &["弯曲", "扭曲食品", "椒盐卷饼", "盘绕", "缠绕", "错综复杂"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("蝴蝶餅"),
-            keywords: &["蝴蝶餅"],
+            keywords: &["彎曲", "椒鹽卷餅", "椒鹽捲餅", "盤繞", "糾結", "蝴蝶餅"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("蝴蝶圈"),
-            keywords: &["蝴蝶圈"],
+            keywords: &["椒鹽卷餅", "蝴蝶圈", "蝴蝶餅", "食物", "麵包"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -4309,19 +5554,40 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("bagel"),
-            keywords: &["bagel", "bakkery", "smeersel"],
+            keywords: &[
+                "bagel",
+                "bakkery",
+                "broodjie",
+                "broodsmeer",
+                "ontbyt",
+                "smeersel",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ጣፋጭ ዳቦ"),
-            keywords: &["መጋገሪያ", "የሚገፋፋ ነገር", "ጣፋጭ ዳቦ"],
+            keywords: &["መጋገሪያ", "ምግብ", "ቁርስ", "የሚገፋፋ ነገር", "ዳቦ", "ዳቦ ቤት", "ጣፋጭ ዳቦ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("خبز البيغل"),
-            keywords: &["بيجل", "خبز البيجل", "خبز البيغل", "مخبز"],
+            keywords: &[
+                "أكل",
+                "إفطار",
+                "بايغل",
+                "بيجل",
+                "خبز البيجل",
+                "خبز البيغل",
+                "دونات",
+                "دونس",
+                "طعام",
+                "عيش",
+                "كعك",
+                "مخبز",
+                "مخبوزات",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -4333,7 +5599,14 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("bublik"),
-            keywords: &["bublik", "bulki", "çörəkxana"],
+            keywords: &[
+                "bublik",
+                "bulka",
+                "bulki",
+                "səhər yeməyi",
+                "çörək",
+                "çörəkxana",
+            ],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -4345,13 +5618,21 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("геврек"),
-            keywords: &["геврек", "закуска от тесто", "пекарна"],
+            keywords: &["геврек", "закуска", "закуска от тесто", "пекарна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("বেগেল"),
-            keywords: &["বেক\u{9be}রি", "বেগেল", "স\u{9cd}কিম\u{9be}র"],
+            keywords: &[
+                "খ\u{9be}ব\u{9be}র",
+                "ন\u{9be}স\u{9cd}ত\u{9be}",
+                "প\u{9be}উর\u{9c1}টি",
+                "বেক\u{9be}রি",
+                "বেগেল",
+                "র\u{9c1}টি",
+                "স\u{9cd}কিম\u{9be}র",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -4369,7 +5650,7 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("bagel"),
-            keywords: &["bagel", "fleca", "forn", "panet"],
+            keywords: &["bagel", "esmorzar", "fleca", "forn", "pa", "panet"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -4381,7 +5662,18 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("bagel"),
-            keywords: &["bagel", "bejgl", "pečivo"],
+            keywords: &[
+                "bagel",
+                "bejgl",
+                "chleba",
+                "chléb",
+                "houska",
+                "namazat",
+                "pekárna",
+                "pečivo",
+                "pomazánka",
+                "snídaně",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -4399,25 +5691,46 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Bagel"),
-            keywords: &["Backwaren", "Bagel", "Bäckerei", "Frühstück"],
+            keywords: &[
+                "Backwaren",
+                "Bagel",
+                "Brötchen",
+                "Bäckerei",
+                "Essen",
+                "Frühstück",
+                "Pausenbrot",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("μπέιγκελ"),
-            keywords: &["μπέιγκελ", "φούρνος"],
+            keywords: &[
+                "κουλούρι με αλοιφή",
+                "μπέιγκελ",
+                "πρωινό",
+                "στρογγυλό κουλούρι",
+                "φούρνος",
+                "ψωμί",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("bagel"),
-            keywords: &["bagel", "bakery", "breakfast", "schmear"],
+            keywords: &["bagel", "bakery", "bread", "breakfast", "schmear"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["bagel", "bakery"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -4447,25 +5760,25 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["bagel", "comida", "desayuno", "pan", "panadería", "rosca"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("bagel"),
+            tts: Some("↑↑↑"),
             keywords: &["bagel", "panadería", "untar"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("bagel"),
-            keywords: &["bagel"],
+            tts: Some("↑↑↑"),
+            keywords: &["bagel", "desayuno", "pastelería", "queso crema"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("rõngassai"),
-            keywords: &["määre", "pagaritoode", "rõngassai"],
+            keywords: &["hommikusöök", "määre", "pagaritoode", "rõngassai"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -4477,19 +5790,44 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("نان بیگل"),
-            keywords: &["مالیدن", "نان بیگل", "نانوایی"],
+            keywords: &[
+                "بیگل",
+                "دونات",
+                "صبحانه",
+                "مالیدن",
+                "نان",
+                "نان حجیم",
+                "نان حلقوی",
+                "نان گرد",
+                "نانوایی",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("vesirinkeli"),
-            keywords: &["bageli", "leivonnainen", "rinkeli", "vesirinkeli"],
+            keywords: &[
+                "aamiainen",
+                "aamupala",
+                "bagel",
+                "bageli",
+                "leivonnainen",
+                "rinkeli",
+            ],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("bagel"),
-            keywords: &["bagel", "bake", "bakery", "bilog", "pagkain", "tinapay"],
+            keywords: &[
+                "bagel",
+                "bake",
+                "bakery",
+                "bilog",
+                "pagkain",
+                "panaderya",
+                "tinapay",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -4501,7 +5839,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("bagel"),
-            keywords: &["bagel", "boulangerie", "petit-déjeuner", "schmear"],
+            keywords: &[
+                "bagel",
+                "boulangerie",
+                "petit-déjeuner",
+                "sandwich",
+                "schmear",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -4513,7 +5857,7 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("béigeal"),
-            keywords: &["bácús", "béigeal", "schmear"],
+            keywords: &["arán", "bácús", "béigeal", "schmear"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -4525,37 +5869,94 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("bagel"),
-            keywords: &["bagel", "beigel", "panadaría"],
+            keywords: &["beigel", "panadaría"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("બ\u{ac7}ગલ"),
-            keywords: &["બ\u{ac7}કરી", "બ\u{ac7}ગલ", "સ\u{acd}કમિયર"],
+            keywords: &[
+                "બન",
+                "બર\u{acd}ગર",
+                "બ\u{ac7}કરી",
+                "બ\u{ac7}ગલ",
+                "બ\u{acd}ર\u{ac7}કફાસ\u{acd}ટ",
+                "બ\u{acd}ર\u{ac7}ડ",
+                "સ\u{acd}કમિયર",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("burodin bagel"),
+            keywords: &[
+                "abincin safe",
+                "bagel",
+                "burodin bagel",
+                "burodin begel",
+                "cin abincin safe",
+                "gidan burodi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("burodin bagel"),
+            keywords: &[
+                "abincin safe",
+                "bagel",
+                "burodin bagel",
+                "burodin begel",
+                "cin abincin safe",
+                "gidan burodi",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("בייגל"),
-            keywords: &["בייגל", "לחם", "מאפה"],
+            keywords: &["ארוחת בוקר", "בייגל", "לחם", "מאפה"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{948}गल"),
-            keywords: &["ब\u{947}करी", "ब\u{948}गल", "श\u{94d}मियर"],
+            keywords: &[
+                "नाश\u{94d}ता",
+                "ब\u{947}करी",
+                "ब\u{947}गल",
+                "ब\u{948}गल",
+                "ब\u{94d}र\u{947}ड",
+                "श\u{94d}मियर",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("pecivo"),
-            keywords: &["pecivo", "pekarski proizvod", "uštipak"],
+            keywords: &[
+                "doručak",
+                "krafna",
+                "kruh",
+                "pecivo",
+                "pekarski proizvod",
+                "uštipak",
+            ],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("bagel"),
-            keywords: &["bagel", "pékáru", "vajkrém"],
+            keywords: &[
+                "bagel",
+                "kenyér",
+                "pékség",
+                "pékáru",
+                "reggeli",
+                "szendvics",
+                "vajkrém",
+                "zsemle",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -4567,7 +5968,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("bagel"),
-            keywords: &["bagel", "roti", "schmear"],
+            keywords: &["bagel", "roti", "sarapan", "schmear", "toko roti"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("achịcha"),
+            keywords: &["achịcha", "ebe a na-eme achịcha", "nri ụtụtụ"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -4579,19 +5986,35 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("bagel"),
-            keywords: &["bagel", "panetteria", "spalmare formaggio sul bagel"],
+            keywords: &[
+                "bagel",
+                "ciambella di pane",
+                "colazione",
+                "pane",
+                "panetteria",
+                "panificio",
+                "spalmare",
+                "spalmare formaggio sul bagel",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ベーグル"),
-            keywords: &["クリームチーズ", "パン屋", "ベーカリー", "ベーグル"],
+            keywords: &[
+                "クリームチーズ",
+                "パン",
+                "パン屋",
+                "ベーカリー",
+                "ベーグル",
+                "朝食",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("roti bagel"),
-            keywords: &["pabrik roti", "roti bagel", "roti semir"],
+            keywords: &["pabrik roti", "roti bagel", "roti semir", "sarapan"],
         },
         #[cfg(feature = "ka")]
         crate::Annotation {
@@ -4599,11 +6022,17 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             tts: Some("ბეიგელი"),
             keywords: &["ბეიგელი", "საფუნთუშე", "საცხობი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("abinyi"),
+            keywords: &["abinyi"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("бейгл"),
-            keywords: &["бейгл", "кулинария", "шмеар"],
+            keywords: &["бейгл", "кулинария", "нан", "шмеар"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -4620,8 +6049,11 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಬ\u{cc7}ಗಲ\u{ccd}"),
             keywords: &[
+                "ಉಪಾಹಾರ",
                 "ಬ\u{cc7}ಕರ\u{cbf}",
                 "ಬ\u{cc7}ಗಲ\u{ccd}",
+                "ಬ\u{cc7}ಯ\u{cbf}ಸ\u{cbf}ದ ಹ\u{cbf}ಟ\u{ccd}ಟ\u{cbf}ನ ತ\u{cbf}ಂಡ\u{cbf}",
+                "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
                 "ಸ\u{ccd}ಕ\u{cc6}ಮರ\u{ccd}",
             ],
         },
@@ -4629,7 +6061,7 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("베이글"),
-            keywords: &["베이글", "빵", "슈미어"],
+            keywords: &["베이글", "베이커리", "빵", "슈미어", "아침식사"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -4648,28 +6080,50 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             lang: "lo",
             tts: Some("ຂະໝ\u{ebb}ມແປ\u{ec9}ງ ບາເກວ"),
             keywords: &[
+                "ຂະໜ\u{ebb}ມ",
+                "ຂະໜ\u{ebb}ມເບໂກ",
                 "ຂະໜ\u{ebb}ມແປ\u{ec9}ງ",
                 "ຂະໝ\u{ebb}ມແປ\u{ec9}ງ ບາເກວ",
                 "ອ\u{ebb}ບແປ\u{ec9}ງ",
+                "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}",
+                "ເບໂກ",
             ],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("apvalus riestainis"),
-            keywords: &["apvalus riestainis", "duonos gaminiai", "užtepas"],
+            keywords: &[
+                "apvalus riestainis",
+                "desertas",
+                "duonos gaminiai",
+                "kepinys",
+                "maistas",
+                "saldu",
+                "spurga",
+                "užtepas",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("beigelis"),
-            keywords: &["beigelis", "maiznīca", "smērējams"],
+            keywords: &["beigelis", "maize", "maiznīca", "smērējams", "ēdiens"],
         },
         #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("ѓеврек"),
-            keywords: &["пекарница", "пециво", "ѓеврек"],
+            keywords: &[
+                "багел",
+                "доручек",
+                "леб",
+                "намаз",
+                "пекара",
+                "пекарница",
+                "пециво",
+                "ѓеврек",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -4687,13 +6141,22 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("ब\u{947}गल"),
-            keywords: &["ख\u{94d}म\u{947}र", "ब\u{947}करी", "ब\u{947}गल"],
+            keywords: &[
+                "ख\u{94d}म\u{947}र",
+                "ब\u{947}करी",
+                "ब\u{947}गल",
+                "ब\u{94d}र\u{947}कफास\u{94d}ट",
+                "ब\u{94d}र\u{947}ड",
+                "मलई पाव",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("bagel"),
-            keywords: &["bagel", "bakeri", "lepa"],
+            keywords: &[
+                "bagel", "bakeri", "donat", "lepa", "makanan", "roti", "sarapan",
+            ],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -4705,12 +6168,6 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
                 "မ\u{102f}န\u{1037}\u{103a}ဖ\u{102f}တ\u{103a}လ\u{102f}ပ\u{103a}ငန\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bagel"),
-            keywords: &["bagel", "bakst", "påsmurt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4721,13 +6178,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("bagel"),
-            keywords: &["bagel", "bakkerij", "spread"],
+            keywords: &["bagel", "bakkerij", "brood", "ontbijt", "spread"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("bagel"),
-            keywords: &["bagel", "bakst", "påsmurt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -4745,7 +6202,9 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             tts: Some("ਗ\u{a4b}ਲ ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ"),
             keywords: &[
                 "ਗ\u{a4b}ਲ ਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ",
+                "ਨਾਸ\u{a3c}ਤਾ",
                 "ਬ\u{a47}ਕਰੀ",
+                "ਬ\u{a47}ਗਲ",
                 "ਸ\u{a3c}ਮੀਅਰ",
             ],
         },
@@ -4754,19 +6213,27 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Bégul"),
             keywords: &[
-                "Brẹd Wé Im Nem Na Bégul",
-                "Brẹ\u{301}kfast",
+                "Brẹd Wé Im Nem Na \"Bégul\"",
                 "Bégul",
                 "Békri",
                 "Mọ\u{301}nín Chọp",
-                "Rọb",
+                "Shmia: To Rọ\u{301}b Bọ\u{301}ta Ọ Krím Chiiz Ọn Tọ\u{301}p Brẹd",
             ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("bajgiel"),
-            keywords: &["bajgiel", "pieczywo", "piekarnia", "posmarować"],
+            keywords: &[
+                "bajgiel",
+                "chleb",
+                "jedzenie",
+                "pieczywo",
+                "piekarnia",
+                "posmarować",
+                "pączek",
+                "śniadanie",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -4777,14 +6244,22 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
-            tts: Some("rosca"),
-            keywords: &["chimia", "pão", "rosca"],
+            tts: Some("bagel"),
+            keywords: &[
+                "café da manhã",
+                "chimia",
+                "comida",
+                "confeitaria",
+                "pão",
+                "rosca",
+                "rosquinha",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("bagel"),
-            keywords: &["argola", "bagel", "pão"],
+            keywords: &["argola", "bagel", "padaria", "pequeno-almoço", "pão"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -4796,7 +6271,17 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("bagel"),
-            keywords: &["bagel", "covrig moale", "patiserie"],
+            keywords: &[
+                "bagel",
+                "brutărie",
+                "covrig",
+                "covrig cu brânză topită",
+                "covrig moale",
+                "mic dejun",
+                "mâncare",
+                "patiserie",
+                "pâine",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -4808,7 +6293,22 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("бублик"),
-            keywords: &["баранка", "бейгель", "бейгл", "бублик"],
+            keywords: &[
+                "баранка",
+                "бейгель",
+                "бейгл",
+                "бублик",
+                "выпечка",
+                "еда",
+                "завтрак",
+                "намазать",
+            ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱜᱩᱞ ᱞᱟᱹᱰᱩ"),
+            keywords: &["ᱜᱩᱞ ᱞᱟᱹᱰᱩ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -4830,13 +6330,23 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("bagel"),
-            keywords: &["bagel", "pekáreň", "pečivo"],
+            keywords: &[
+                "bagel",
+                "chleba",
+                "chlieb",
+                "nátierka",
+                "pekáreň",
+                "pečivo",
+                "pomazánka",
+                "raňajky",
+                "žemľa",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("bagel"),
-            keywords: &["bagel", "namaz", "pekarna"],
+            keywords: &["bagel", "hrana", "namaz", "pekarna", "zajtrk"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -4848,13 +6358,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("gjevrek"),
-            keywords: &["furrë", "gjevrek", "kulaç"],
+            keywords: &["bukë", "furrë", "gjevrek", "kulaç", "mëngjes"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("бејгл"),
-            keywords: &["бејгл", "пекара"],
+            keywords: &["бејгл", "доручак", "намаз", "пекара", "хлеб", "ђеврек"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -4866,7 +6376,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("bejgl"),
-            keywords: &["bejgl", "pekara"],
+            keywords: &["bejgl", "doručak", "hleb", "namaz", "pekara", "đevrek"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4878,7 +6394,13 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("mkate wa kuoka"),
-            keywords: &["kuoka", "mkate wa kuoka", "siagi"],
+            keywords: &[
+                "kifungua kinywa",
+                "kuoka",
+                "mkate",
+                "mkate wa kuoka",
+                "siagi",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -4890,15 +6412,27 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("பேகல\u{bcd}"),
-            keywords: &["பேகல\u{bcd}", "பேக\u{bcd}கரி", "ஸ\u{bcd}மியர\u{bcd}"],
+            keywords: &[
+                "உணவு",
+                "க\u{bbe}லையுணவு",
+                "பன\u{bcd}",
+                "பிரெட\u{bcd}",
+                "பேகல\u{bcd}",
+                "பேக\u{bcd}கரி",
+                "ஸ\u{bcd}பிரெட\u{bcd}",
+                "ஸ\u{bcd}மியர\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("బ\u{c4d}య\u{c3e}గ\u{c46}ల\u{c4d}"),
             keywords: &[
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం",
                 "బ\u{c47}కర\u{c40}",
                 "బ\u{c4d}య\u{c3e}గ\u{c46}ల\u{c4d}",
+                "బ\u{c4d}ర\u{c47}క\u{c4d}\u{200c}ఫ\u{c3e}స\u{c4d}ట\u{c4d}",
+                "ర\u{c4a}ట\u{c4d}ట\u{c46}",
                 "ష\u{c4d}మ\u{c3f}ర\u{c4d}",
             ],
         },
@@ -4906,7 +6440,19 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("เบเก\u{e34}ล"),
-            keywords: &["ทาแยม", "ร\u{e49}านขนมป\u{e31}ง", "เบเก\u{e34}ล"],
+            keywords: &[
+                "ขนมป\u{e31}ง",
+                "ทาแยม",
+                "อาหารเช\u{e49}า",
+                "เบเกอร\u{e35}\u{e48}",
+                "เบเก\u{e34}ล",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ባጌል"),
+            keywords: &["ሽሚር", "ቁርሲ", "ባጌል", "እንዳ ዳቦ", "እንጀራ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4918,13 +6464,23 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("pani mama"),
-            keywords: &["pani mama"],
+            keywords: &["mama", "mā", "pani"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("simit"),
-            keywords: &["bagel", "fırın", "simit", "sürme peynir"],
+            keywords: &[
+                "bagel",
+                "donut",
+                "ekmek",
+                "fırın",
+                "kahvaltı",
+                "pasta",
+                "peynirli simit",
+                "simit",
+                "sürme peynir",
+            ],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
@@ -4936,6 +6492,9 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
                 "бублик",
                 "булочка",
                 "випічка",
+                "десерт",
+                "начинка",
+                "пампух",
                 "пончик",
                 "сніданок",
             ],
@@ -4944,19 +6503,37 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("بیگل"),
-            keywords: &["بیکری", "بیگل", "شمئیر"],
+            keywords: &["بیکری", "بیگل", "بیگل، بیکری، بریڈ، ناشتہ، شمئیر", "شمئیر"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("shirmoy teshik kulcha"),
-            keywords: &["kulcha", "shirmoy teshik kulcha", "teshik kulcha"],
+            keywords: &[
+                "kulcha",
+                "pishiriq",
+                "shirinlik",
+                "shirmoy teshik kulcha",
+                "teshik kulcha",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh mỳ vòng"),
             keywords: &["bánh mỳ vòng", "bánh vòng", "bữa sáng", "phết", "tiệm bánh"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("bágẹ\u{301}lì"),
+            keywords: &["bageli", "bágẹ\u{301}lì", "ibi ipese buredi", "ounje aaro"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("bágɛ\u{301}lì"),
+            keywords: &["bageli", "bágɛ\u{301}lì", "ibi ipese buredi", "ounje aaro"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -4974,19 +6551,27 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("面包圈"),
-            keywords: &["奶酪酱", "烘烤食品", "面包圈"],
+            keywords: &[
+                "奶酪酱",
+                "早餐",
+                "烘烤食品",
+                "硬面包圈",
+                "贝果",
+                "面包",
+                "面包圈",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("貝果"),
-            keywords: &["貝果", "醬", "麵包"],
+            keywords: &["早餐", "硬麵包圈", "貝果", "醬", "麵包"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["早餐", "焙果", "貝果", "食物", "麵包"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -4997,7 +6582,1080 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🥞"]
-pub const PANCAKES : crate :: Emoji = crate :: Emoji { glyph : "🥞" , codepoint : "1F95E" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 3u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "pancakes" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("pannekoeke") , keywords : & ["kos" , "pannekoek" , "pannekoeke" , "plaatkoekie" , "plaatkoekies"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ፓንኬክ") , keywords : & ["ምግብ" , "ትኩስ ኬክ" , "ክሬፕ" , "ፓንኬክ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("فطائر") , keywords : & ["طعام" , "فطائر" , "فطيرة" , "كريب"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("পেনকেক") , keywords : & ["ক\u{9cd}ৰেপ" , "খ\u{9be}দ\u{9cd}য" , "পেনকেক" , "হটকেক"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("blin") , keywords : & ["blin" , "kökə" , "yemək"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("бліны") , keywords : & ["бліны" , "ежа"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("палачинки") , keywords : & ["палачинка" , "палачинки" , "храна"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9cd}য\u{9be}নকেক") , keywords : & ["ক\u{9cd}রেপ" , "খ\u{9be}ব\u{9be}র" , "প\u{9cd}য\u{9be}নকেক" , "হটকেক"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("krampouezh") , keywords : & ["galetez" , "krampouezh" , "pancake"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("palačinke") , keywords : & ["crepe" , "doručak" , "hrana" , "palačinke"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("creps americanes") , keywords : & ["americanes" , "crep" , "creps" , "menjar" , "pancake"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄛𑄬𑄚\u{11134}𑄇𑄬𑄇\u{11134}") , keywords : & ["𑄛𑄬𑄚\u{11134}𑄇𑄬𑄇\u{11134}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏔᎷᎩᏍᎩ ᎦᏚ") , keywords : & ["ᎠᎵᏍᏓᏴᏗ" , "ᎤᏗᏞᎦ" , "ᎦᏚ ᎤᎦᎾᏍᏓ" , "ᏌᎨ ᎦᏚ" , "ᏔᎷᎩᏍᎩ ᎦᏚ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("palačinky") , keywords : & ["jídlo" , "lívance" , "palačinky"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("crempogau") , keywords : & ["bwyd" , "cacennau poeth" , "crempog" , "crempogau" , "crêpe"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("pandekager") , keywords : & ["crêpe" , "mad" , "pandekage" , "pandekager"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Pfannkuchen") , keywords : & ["Eierpfannkuchen" , "Essen" , "Pfannkuchen"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τηγανίτες") , keywords : & ["κέικ" , "κρέπα" , "τηγανίτα" , "τηγανίτες" , "τροφή"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("pancakes") , keywords : & ["breakfast" , "crêpe" , "food" , "hotcake" , "pancake" , "pancakes"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("tortitas") , keywords : & ["comida" , "dulce" , "pancakes" , "postre" , "tortita" , "tortitas"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("hotcakes") , keywords : & ["comida" , "dulce" , "hotcakes" , "panqueques"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["comida" , "desayuno" , "hotcakes" , "pancakes" , "panqueques"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("pannkoogid") , keywords : & ["crêpe" , "pannkoogid" , "pannkook" , "toit"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("opil txikiak") , keywords : & ["janari" , "krepe" , "opil bero" , "opil txiki" , "opil txikiak"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("پنکیک") , keywords : & ["پنکیک" , "کیک" , "کیک تابه\u{200c}ای"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("letut") , keywords : & ["lettu" , "letut" , "ohukainen" , "pannukakku" , "ruoka"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("pancakes") , keywords : & ["crêpe" , "hotcake" , "pagkain" , "pancake" , "pancakes"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("pannukaka") , keywords : & ["eggjakøka" , "matur" , "pannukaka"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("pancakes") , keywords : & ["crêpe" , "pancake" , "pancakes"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("crêpes") , keywords : & ["crêpe" , "crêpes" , "pancake"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("pancóga") , keywords : & ["bia" , "crêpe" , "císte te" , "pancóg" , "pancóga"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("breacagan") , keywords : & ["biadh" , "breacag" , "breacagan" , "crêpe" , "foileag"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("chulas") , keywords : & ["chulas" , "comida" , "pancakes" , "tortas"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac5}ન\u{acd}ક\u{ac7}ક") , keywords : & ["પ\u{ac5}ન\u{acd}ક\u{ac7}ક" , "ભોજન" , "હૉટક\u{ac7}ક"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("fanke") , keywords : & ["abinci" , "crêpe" , "fanke" , "kek mai zafi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("פנקייקס") , keywords : & ["חביתית" , "חם" , "פנקייק" , "פנקייקס" , "קרפ"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("प\u{948}नक\u{947}क") , keywords : & ["क\u{94d}र\u{947}प" , "प\u{948}नक\u{947}क" , "भोजन" , "हॉटक\u{947}क"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("palačinke") , keywords : & ["crêpe" , "hrana" , "palačinke"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("palacsinta") , keywords : & ["palacsinta" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ձիթաբլիթ") , keywords : & ["բլիթ" , "կրեպ" , "ձիթաբլիթ" , "ուտելիք"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("panekuk") , keywords : & ["pancake" , "panekuk" , "serabi"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịchanri gasị") , keywords : & ["achịcha kpụrụ kpụrụ" , "achịcha na àkwa" , "achịchanri" , "achịchanri gasị" , "nri"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("pönnukökur") , keywords : & ["eftirréttur" , "matur" , "pönnukökur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("pancake") , keywords : & ["americano" , "cibo" , "colazione" , "crêpe" , "pancake"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("パンケーキ") , keywords : & ["パンケーキ" , "ホットケーキ"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("panekuk") , keywords : & ["apem" , "dhaharan" , "krep" , "panekuk"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ბლინები") , keywords : & ["ბლინები" , "ბლინი" , "კრეპი" , "მაჭკატი" , "საკვები"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("құймақ") , keywords : & ["сүт" , "тағам" , "құймақ"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("pandekager") , keywords : & ["crêpe" , "mad" , "pandekage" , "pandekager"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ចាក\u{17cb}ព\u{17bb}ម\u{17d2}ព") , keywords : & ["ន\u{17c6}ក\u{17d2}តៅ" , "ន\u{17c6}ក\u{17d2}រៀប" , "ន\u{17c6}ចាក\u{17cb}ច\u{17bb}ល" , "ន\u{17c6}ចាក\u{17cb}ព\u{17bb}ម\u{17d2}ព" , "អាហារ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}ಗಳು") , keywords : & ["ಆಹಾರ" , "ಕ\u{ccd}ರ\u{cc6}ಪ\u{cc6}" , "ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}" , "ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}ಗಳು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("팬케이크") , keywords : & ["식품" , "크레페" , "팬케이크" , "핫케이크"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("प\u{945}नक\u{947}क") , keywords : & ["अन\u{94d}न" , "क\u{94d}र\u{947}प\u{947}" , "प\u{945}नक\u{947}क" , "प\u{945}नक\u{947}क\u{94d}स" , "हॉटक\u{947}क"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("куймак") , keywords : & ["куймак" , "тамак"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Paangecher") , keywords : & ["Crêpe" , "Iessen" , "Paangech" , "Paangecher" , "Pancake"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ແພນເຄ\u{eb1}ກ") , keywords : & ["ອາຫານ" , "ເຄຣບ" , "ເຄ\u{eb1}ກຮ\u{ec9}ອນ" , "ແພນເຄ\u{eb1}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("blynai") , keywords : & ["blynai" , "maistas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pankūkas") , keywords : & ["bliņa" , "pankūka" , "pankūkas" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("panekeke") , keywords : & ["kai" , "kekewera" , "kerēpe" , "panekeke"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("палачинки") , keywords : & ["десерт" , "палачинка" , "палачинки"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("പ\u{d3e}ൻ കേക\u{d4d}ക\u{d4d}") , keywords : & ["കേക\u{d4d}ക\u{d4d}" , "പ\u{d3e}ൻ കേക\u{d4d}ക\u{d4d}" , "ഭക\u{d4d}ഷണം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("бин") , keywords : & ["бин" , "креп" , "хүнс" , "шарвин" , "өглөөний цай"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("प\u{945}नक\u{947}क") , keywords : & ["क\u{94d}र\u{947}प" , "खाद\u{94d}य" , "प\u{945}नक\u{947}क" , "प\u{945}नक\u{947}क\u{94d}स" , "हॉटक\u{947}क"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("penkek") , keywords : & ["lempeng" , "makanan" , "penkek"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("pancakes") , keywords : & ["crêpe" , "hotcake" , "ikel" , "pancake" , "pancakes"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မ\u{102f}န\u{1037}\u{103a}အ\u{102d}\u{102f}းကင\u{103a}းကြော\u{103a}") , keywords : & ["မ\u{102f}န\u{1037}\u{103a}အ\u{102d}\u{102f}းကင\u{103a}းကြော\u{103a}" , "အစားအသောက\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("pannekaker") , keywords : & ["crêpe" , "mat" , "pannekake" , "pannekaker"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("प\u{94d}यानक\u{947}क") , keywords : & ["क\u{94d}र\u{947}प\u{947}" , "खाना" , "तातो क\u{947}क" , "प\u{94d}यानक\u{947}क"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("pannenkoeken") , keywords : & ["crêpe" , "flensjes" , "pannenkoek" , "pannenkoeken" , "voedsel"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("pannekaker") , keywords : & ["crêpe" , "mat" , "pannekake" , "pannekaker"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b3e}ନକେକ\u{b4d}\u{200d}") , keywords : & ["ପ\u{b3e}ନକେକ\u{b4d}\u{200d}" , "ହଟକେକ\u{b4d}\u{200d} । କ\u{b4d}ରେପ\u{b3f} । ପ\u{b3e}ନକେକ\u{b4d}\u{200d} । ଖ\u{b3e}ଦ\u{b4d}ୟ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a48}ਨਕ\u{a47}ਕ") , keywords : & ["ਕਰ\u{a48}ਪ" , "ਪ\u{a48}ਨਕ\u{a47}ਕ" , "ਭ\u{a4b}ਜਨ" , "ਹਾ\u{a71}ਟਕ\u{a47}ਕ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("پین کیکس") , keywords : & ["خوراک" , "پین کیک" , "پین کیکس" , "کریپی" , "ہاٹ کیک"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Pankek") , keywords : & ["Chọp" , "Fud" , "Họ\u{301}tkek" , "Mọ\u{301}nín Chọp" , "Pankek" , "Pankek Wé Nọ\u{301} Dé Tik Sámsám" , "Pankek-dẹm"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("naleśniki") , keywords : & ["jedzenie" , "naleśniki" , "placki"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("پینکیکونه") , keywords : & ["پینکیکونه" , "کريپ، خواړه، هاټ کيک، پينکيک، پينکيکونه"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("panquecas") , keywords : & ["comida" , "crepes" , "panquecas"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["comida" , "crepe" , "doce" , "panqueca" , "panquecas"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("panqueques") , keywords : & ["breakfast" , "crepe" , "mikhuna" , "panqueque" , "panqueques" , "pastel caliente"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("clătite") , keywords : & ["clătite" , "clătită" , "crepe" , "mâncare"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1082") , keywords : & ["E10-1082"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("блины") , keywords : & ["блинчики" , "блины" , "еда" , "оладьи"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("panikeke") , keywords : & ["ibiribwa" , "keke isize ubuki" , "keke nto isize ubuki" , "kerepe" , "panikeke"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("پراٺو") , keywords : & ["پراٺو" , "پراٺو، ڪريپ، کاڌو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("පැන\u{dca} කේක\u{dca}") , keywords : & ["උණ\u{dd4}ස\u{dd4}ම\u{dca} කේක\u{dca}" , "කෑම" , "පැන\u{dca} කේක\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("lievance") , keywords : & ["jedlo" , "lievance" , "lievanec" , "palacinka"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("palačinke") , keywords : & ["hrana" , "palačinke"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("canjeelo") , keywords : & ["canjeelo" , "canjeelooyin" , "cunto" , "keeg kulul"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("petulla") , keywords : & ["krepa" , "palapeta" , "petulla" , "ushqim"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("палачинке") , keywords : & ["палачинке" , "храна"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("palačinke") , keywords : & ["hrana" , "palačinke"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("pannkakor") , keywords : & ["crêpes" , "mat" , "pannkaka" , "pannkakor"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chapati") , keywords : & ["chakula" , "chapati"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("பேன\u{bcd}கேக\u{bcd}") , keywords : & ["உணவு" , "பேன\u{bcd}கேக\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}\u{200c}లు") , keywords : & ["ఆహ\u{c3e}రం" , "క\u{c4d}ర\u{c47}ప\u{c4d}" , "ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}" , "ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}\u{200c}లు" , "హ\u{c3e}ట\u{c4d}\u{200c}క\u{c47}క\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("чалпак") , keywords : & ["пироги гарм" , "чалпак" , "чалпаки тунук" , "ғизо"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("แพนเค\u{e49}ก") , keywords : & ["ขนมป\u{e31}ง" , "อาหาร" , "แพนเค\u{e49}ก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("byzmyk") , keywords : & ["byzmyk" , "byzmyklar" , "ertirlik" , "gyzgyn gutap" , "iýmit" , "krep"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("pani") , keywords : & ["pani"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("krep") , keywords : & ["gözleme" , "krep" , "pankek" , "yiyecek"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قازان كاكچىسى") , keywords : & ["تورت" , "تۈرمەل" , "قازان كاكچىسى" , "قىزىق" , "يېمەكلىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("млинці") , keywords : & ["креп" , "млинець" , "млинці" , "налисник" , "налисники" , "сніданок" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("پین کیکس") , keywords : & ["خوراک" , "پین کیک" , "پین کیکس"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("blinchik") , keywords : & ["blinchik" , "blinchiklar" , "krep" , "pirog" , "taom"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh kếp") , keywords : & ["bánh kếp" , "thức ăn"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("krep") , keywords : & ["crêpe" , "krep" , "lekk" , "ngato bu tànk"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-pancakes") , keywords : & ["i-crêpe" , "i-hotcake" , "i-pancake" , "i-pancakes" , "ukutya"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Atike Ikunju") , keywords : & ["Atike Ikunju" , "búrẹ\u{301}dì pẹlẹbẹ" , "crepe" , "ónjẹ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("班戟") , keywords : & ["熱香餅" , "班戟" , "薄班戟" , "食物"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("班戟") , keywords : & ["热香饼" , "班戟" , "薄班戟" , "食物"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("烙饼") , keywords : & ["烙饼" , "煎饼" , "食物"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("鬆餅") , keywords : & ["煎餅" , "薄餅" , "食物" , "鬆餅"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("班戟") , keywords : & ["烙餅" , "烤餅" , "班戟"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("amakhekhe") , keywords : & ["amakhekhe" , "crêpe" , "ikhekhe elishisayo" , "isifrentshi" , "ukudla"] , }] , } ;
+pub const PANCAKES: crate::Emoji = crate::Emoji {
+    glyph: "🥞",
+    codepoint: "1F95E",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 3u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "pancakes",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("pannekoeke"),
+            keywords: &[
+                "crêpe",
+                "dik pannekoek",
+                "kos",
+                "ontbytkos",
+                "pannekoek",
+                "pannekoeke",
+                "plaatkoekie",
+                "plaatkoekies",
+            ],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ፓንኬክ"),
+            keywords: &["ምግብ", "ትኩስ ኬክ", "ክሬፕ", "ፓንኬክ"],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("فطائر"),
+            keywords: &[
+                "أكل",
+                "بانكيك",
+                "تحلاية",
+                "حلا",
+                "حلو",
+                "حلويات",
+                "طعام",
+                "فطائر",
+                "فطيرة",
+                "كريب",
+            ],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("পেনকেক"),
+            keywords: &["ক\u{9cd}ৰেপ", "খ\u{9be}দ\u{9cd}য", "পেনকেক", "হটকেক"],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("blin"),
+            keywords: &["blin", "kökə", "pankeyk", "yemək"],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("бліны"),
+            keywords: &["бліны", "ежа"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("палачинки"),
+            keywords: &["закуска", "палачинка", "палачинки", "храна"],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9cd}য\u{9be}নকেক"),
+            keywords: &[
+                "ক\u{9cd}রেপ",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "প\u{9cd}য\u{9be}নকেক",
+                "হটকেক",
+            ],
+        },
+        #[cfg(feature = "br")]
+        crate::Annotation {
+            lang: "br",
+            tts: Some("krampouezh"),
+            keywords: &["galetez", "krampouezh", "pancake"],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("palačinke"),
+            keywords: &["crepe", "doručak", "hrana", "palačinke"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("creps americanes"),
+            keywords: &["americanes", "crep", "creps", "menjar", "pancake"],
+        },
+        #[cfg(feature = "ccp")]
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some("𑄛𑄬𑄚\u{11134}𑄇𑄬𑄇\u{11134}"),
+            keywords: &["𑄛𑄬𑄚\u{11134}𑄇𑄬𑄇\u{11134}"],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏔᎷᎩᏍᎩ ᎦᏚ"),
+            keywords: &["ᎠᎵᏍᏓᏴᏗ", "ᎤᏗᏞᎦ", "ᎦᏚ ᎤᎦᎾᏍᏓ", "ᏌᎨ ᎦᏚ", "ᏔᎷᎩᏍᎩ ᎦᏚ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("palačinky"),
+            keywords: &[
+                "javorový sirup",
+                "jídlo",
+                "lívance",
+                "lívanec",
+                "máslo",
+                "palačinky",
+                "sirup",
+                "snídaně",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("crempogau"),
+            keywords: &["bwyd", "cacennau poeth", "crempog", "crempogau", "crêpe"],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("pandekager"),
+            keywords: &["crêpe", "mad", "pandekage", "pandekager"],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Pfannkuchen"),
+            keywords: &["Crepe", "Eierpfannkuchen", "Essen", "Pfannkuchen"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τηγανίτες"),
+            keywords: &[
+                "κέικ",
+                "κρέπα",
+                "πανκέικ",
+                "πρωινό",
+                "τηγανίτα",
+                "τηγανίτες",
+                "τροφή",
+                "φαγητό",
+            ],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pancakes"),
+            keywords: &[
+                "breakfast",
+                "crêpe",
+                "food",
+                "hotcake",
+                "pancake",
+                "pancakes",
+            ],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "breakfast",
+                "crepe",
+                "crêpe",
+                "food",
+                "hotcake",
+                "pancake",
+                "pancakes",
+            ],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("tortitas"),
+            keywords: &[
+                "comida", "dulce", "pancakes", "postre", "tortita", "tortitas",
+            ],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("hotcakes"),
+            keywords: &[
+                "comida",
+                "crepe",
+                "desayuno",
+                "dulce",
+                "hotcakes",
+                "panquecas",
+                "panqueques",
+                "postre",
+                "tortita",
+                "tortitas",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["comida", "desayuno", "hotcakes", "pancakes", "panqueques"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("pannkoogid"),
+            keywords: &["crêpe", "hommikusöök", "pannkoogid", "pannkook", "toit"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("opil txikiak"),
+            keywords: &["janari", "krepe", "opil bero", "opil txiki", "opil txikiak"],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پنکیک"),
+            keywords: &["پنکیک", "کیک", "کیک تابه\u{200c}ای"],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("letut"),
+            keywords: &["lettu", "letut", "ohukainen", "pannukakku", "ruoka"],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("pancakes"),
+            keywords: &["crêpe", "hotcake", "pagkain", "pancake", "pancakes"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("pannukaka"),
+            keywords: &["eggjakøka", "matur", "pannukaka"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("pancakes"),
+            keywords: &[
+                "crêpe",
+                "goûter",
+                "nourriture",
+                "pancake",
+                "pancakes",
+                "petit-déjeuner",
+            ],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("crêpes"),
+            keywords: &["crêpe", "crêpes", "pancake"],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("pancóga"),
+            keywords: &["bia", "crêpe", "císte te", "pancóg", "pancóga"],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("breacagan"),
+            keywords: &["biadh", "breacag", "breacagan", "crêpe", "foileag"],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("chulas"),
+            keywords: &["chulas", "comida", "pancakes", "tortas"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac5}ન\u{acd}ક\u{ac7}ક"),
+            keywords: &[
+                "ખાણ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "પકવાન",
+                "પ\u{ac5}ન\u{acd}ક\u{ac7}ક",
+                "ભોજન",
+                "હૉટક\u{ac7}ક",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("fanke"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "crêpe",
+                "faffaɗan kek",
+                "fanke",
+                "fanken turawa",
+                "kek mai zafi",
+                "kek mai zafi fanke",
+                "sinasir",
+                "waina",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("fanke"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "crêpe",
+                "faffaɗan kek",
+                "fanke",
+                "fanken turawa",
+                "kek mai zafi",
+                "kek mai zafi fanke",
+                "sinasir",
+                "waina",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פנקייקס"),
+            keywords: &["חביתיות", "חביתית", "חם", "פנקייק", "פנקייקס", "קרפ"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("प\u{948}नक\u{947}क"),
+            keywords: &[
+                "क\u{94d}र\u{947}प",
+                "खाना",
+                "प\u{948}नक\u{947}क",
+                "भोजन",
+                "हॉटक\u{947}क",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("palačinke"),
+            keywords: &["crêpe", "hrana", "palačinke"],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("palacsinta"),
+            keywords: &["palacsinta", "étel"],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ձիթաբլիթ"),
+            keywords: &["բլիթ", "կրեպ", "ձիթաբլիթ", "ուտելիք"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("panekuk"),
+            keywords: &[
+                "crepe", "makanan", "pancake", "panekuk", "sarapan", "serabi",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("achịchanri gasị"),
+            keywords: &[
+                "achịcha kpụrụ kpụrụ",
+                "achịcha na àkwa",
+                "achịchanri",
+                "achịchanri gasị",
+                "nri",
+            ],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("pönnukökur"),
+            keywords: &["eftirréttur", "matur", "pönnukökur"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("pancake"),
+            keywords: &[
+                "america",
+                "americano",
+                "brunch",
+                "burro",
+                "cibo",
+                "colazione",
+                "crêpe",
+                "dolce",
+                "francese",
+                "francia",
+                "frittelle",
+                "pancake",
+                "sciroppo d’acero",
+                "zucchero",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("パンケーキ"),
+            keywords: &["パンケーキ", "ホットケーキ"],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("panekuk"),
+            keywords: &["apem", "dhaharan", "krep", "panekuk"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბლინები"),
+            keywords: &["ბლინები", "ბლინი", "კრეპი", "მაჭკატი", "საკვები"],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("құймақ"),
+            keywords: &["панкейк", "сүт", "тағам", "таңғы ас", "құймақ"],
+        },
+        #[cfg(feature = "kl")]
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("pandekager"),
+            keywords: &["crêpe", "mad", "pandekage", "pandekager"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ន\u{17c6}ចាក\u{17cb}ព\u{17bb}ម\u{17d2}ព"),
+            keywords: &[
+                "ន\u{17c6}ក\u{17d2}តៅ",
+                "ន\u{17c6}ក\u{17d2}រៀប",
+                "ន\u{17c6}ចាក\u{17cb}ច\u{17bb}ល",
+                "ន\u{17c6}ចាក\u{17cb}ព\u{17bb}ម\u{17d2}ព",
+                "អាហារ",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}ಗಳು"),
+            keywords: &[
+                "ಆಹಾರ",
+                "ಕ\u{ccd}ರ\u{cc6}ಪ\u{cc6}",
+                "ಕ\u{ccd}ರ\u{cc6}ಪ\u{ccd}",
+                "ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}",
+                "ಪಾನ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}\u{200c}ಗಳು",
+                "ಬ\u{cbf}ಸ\u{cbf}ಕ\u{cc7}ಕ\u{ccd}",
+                "ಹಾಟ\u{ccd}\u{200c}ಕ\u{cc7}ಕ\u{ccd}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("팬케이크"),
+            keywords: &["식품", "음식", "크레페", "팬케이크", "핫케이크"],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("प\u{945}नक\u{947}क"),
+            keywords: &[
+                "अन\u{94d}न",
+                "क\u{94d}र\u{947}प\u{947}",
+                "प\u{945}नक\u{947}क",
+                "प\u{945}नक\u{947}क\u{94d}स",
+                "हॉटक\u{947}क",
+            ],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("куймак"),
+            keywords: &["куймак", "тамак"],
+        },
+        #[cfg(feature = "lb")]
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Paangecher"),
+            keywords: &["Crêpe", "Iessen", "Paangech", "Paangecher", "Pancake"],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ແພນເຄ\u{eb1}ກ"),
+            keywords: &[
+                "ຂອງຫວານ",
+                "ອາຫານ",
+                "ເຄຣບ",
+                "ເຄ\u{eb1}ກ",
+                "ເຄ\u{eb1}ກຮ\u{ec9}ອນ",
+                "ແພນເຄ\u{eb1}ກ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("blynai"),
+            keywords: &["blynai", "maistas"],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("pankūkas"),
+            keywords: &["bliņa", "pankūka", "pankūkas", "pārtika", "ēdiens"],
+        },
+        #[cfg(feature = "mi")]
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("panekeke"),
+            keywords: &["kai", "kekewera", "kerēpe", "panekeke"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("палачинки"),
+            keywords: &["десерт", "палачинка", "палачинки", "храна"],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പ\u{d3e}ൻ കേക\u{d4d}ക\u{d4d}"),
+            keywords: &[
+                "കേക\u{d4d}ക\u{d4d}",
+                "പ\u{d3e}ൻ കേക\u{d4d}ക\u{d4d}",
+                "ഭക\u{d4d}ഷണം",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("бин"),
+            keywords: &["бин", "креп", "хүнс", "шарвин", "өглөөний цай"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{945}नक\u{947}क"),
+            keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
+                "क\u{94d}र\u{947}प",
+                "खाद\u{94d}य",
+                "नाश\u{94d}ता",
+                "प\u{945}नक\u{947}क",
+                "प\u{945}नक\u{947}क\u{94d}स",
+                "हॉटक\u{947}क",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("penkek"),
+            keywords: &["lempeng", "makanan", "penkek"],
+        },
+        #[cfg(feature = "mt")]
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("pancakes"),
+            keywords: &["crêpe", "hotcake", "ikel", "pancake", "pancakes"],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("မ\u{102f}န\u{1037}\u{103a}အ\u{102d}\u{102f}းကင\u{103a}းကြော\u{103a}"),
+            keywords: &[
+                "မ\u{102f}န\u{1037}\u{103a}အ\u{102d}\u{102f}းကင\u{103a}းကြော\u{103a}",
+                "အစားအသောက\u{103a}",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("प\u{94d}यानक\u{947}क"),
+            keywords: &[
+                "क\u{94d}र\u{947}प\u{947}",
+                "खाना",
+                "तातो क\u{947}क",
+                "प\u{94d}यानक\u{947}क",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("pannenkoeken"),
+            keywords: &[
+                "crêpe",
+                "eten",
+                "flensje",
+                "ontbijt",
+                "pannenkoek",
+                "pannenkoeken",
+            ],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b3e}ନକେକ\u{b4d}\u{200d}"),
+            keywords: &[
+                "କ\u{b4d}ରେପ\u{b3f}",
+                "ଖ\u{b3e}ଦ\u{b4d}ୟ",
+                "ପ\u{b3e}ନକେକ\u{b4d}\u{200d}",
+                "ହଟକେକ\u{b4d}\u{200d}",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪ\u{a48}ਨਕ\u{a47}ਕ"),
+            keywords: &[
+                "ਕਰ\u{a48}ਪ",
+                "ਪਕਵਾਨ",
+                "ਪ\u{a48}ਨਕ\u{a47}ਕ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਹਾਟਕ\u{a47}ਕ",
+            ],
+        },
+        #[cfg(feature = "pa_Arab")]
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("پین کیکس"),
+            keywords: &["خوراک", "پین کیک", "پین کیکس", "کریپی", "ہاٹ کیک"],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Pankek"),
+            keywords: &[
+                "Chọp",
+                "Fud",
+                "Họ\u{301}tkek",
+                "Mọ\u{301}nín Chọp",
+                "Pankek",
+                "Pankek Wé Nọ\u{301} Dé Tik Sámsám",
+                "Pankek-dẹm",
+            ],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("naleśniki"),
+            keywords: &["jedzenie", "naleśniki", "placki"],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("پینکیکونه"),
+            keywords: &["پینکیکونه", "کريپ، خواړه، هاټ کيک، پينکيک، پينکيکونه"],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("panquecas"),
+            keywords: &["café da manhã", "comida", "crepes", "fome", "panquecas"],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "comida",
+                "crepe",
+                "doce",
+                "panqueca",
+                "panquecas",
+                "pequeno-almoço",
+            ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("panqueques"),
+            keywords: &[
+                "breakfast",
+                "crepe",
+                "mikhuna",
+                "panqueque",
+                "panqueques",
+                "pastel caliente",
+            ],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("clătite"),
+            keywords: &["clătite", "clătită", "crepe", "mâncare"],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1082"),
+            keywords: &["E10-1082"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("блины"),
+            keywords: &["блинчики", "блины", "еда", "масленица", "оладьи", "оладья"],
+        },
+        #[cfg(feature = "rw")]
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("panikeke"),
+            keywords: &[
+                "ibiribwa",
+                "keke isize ubuki",
+                "keke nto isize ubuki",
+                "kerepe",
+                "panikeke",
+            ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱠᱚᱰᱷᱟ ᱯᱟᱸ ᱨᱩᱴᱤ"),
+            keywords: &["ᱠᱚᱰᱷᱟ ᱯᱟᱸ ᱨᱩᱴᱤ"],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("پراٺو"),
+            keywords: &["پراٺو", "پراٺو، ڪريپ، کاڌو"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("පැන\u{dca} කේක\u{dca}"),
+            keywords: &[
+                "උණ\u{dd4}ස\u{dd4}ම\u{dca} කේක\u{dca}",
+                "කෑම",
+                "පැන\u{dca} කේක\u{dca}",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("lievance"),
+            keywords: &[
+                "jedlo",
+                "lievance",
+                "lievance so sirupom",
+                "lievanec",
+                "palacinka",
+                "palacinky",
+            ],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("palačinke"),
+            keywords: &["hrana", "palačinke", "večerja", "zajtrk"],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("canjeelo"),
+            keywords: &["canjeelo", "canjeelooyin", "cunto", "keeg kulul"],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("petulla"),
+            keywords: &["krepa", "palapeta", "petulla", "ushqim"],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("палачинке"),
+            keywords: &["доручак", "палачинка", "палачинке", "храна"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("palačinke"),
+            keywords: &["doručak", "hrana", "palačinka", "palačinke"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("pannkakor"),
+            keywords: &["crêpes", "mat", "pannkaka", "pannkakor"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("chapati"),
+            keywords: &["chakula", "chapati"],
+        },
+        #[cfg(feature = "sw_KE")]
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பேன\u{bcd}கேக\u{bcd}"),
+            keywords: &[
+                "இனிப\u{bcd}பு தோசை",
+                "உணவு",
+                "கிர\u{bc0}ப\u{bcd}",
+                "தோசை",
+                "பேன\u{bcd}கேக\u{bcd}",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}\u{200c}లు"),
+            keywords: &[
+                "ఆహరం",
+                "ఆహ\u{c3e}రం",
+                "క\u{c4d}ర\u{c46}ప\u{c4d}",
+                "క\u{c4d}ర\u{c47}ప\u{c4d}",
+                "ప\u{c3e}న\u{c4d} క\u{c47}క\u{c4d}",
+                "ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}",
+                "ప\u{c4d}య\u{c3e}న\u{c4d}\u{200c}క\u{c47}క\u{c4d}\u{200c}లు",
+                "ఫుడ\u{c4d}",
+                "ముడతలుగ\u{c3e}",
+                "హ\u{c3e}ట\u{c4d} క\u{c47}క\u{c4d}",
+                "హ\u{c3e}ట\u{c4d}\u{200c}క\u{c47}క\u{c4d}",
+            ],
+        },
+        #[cfg(feature = "tg")]
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("чалпак"),
+            keywords: &["пироги гарм", "чалпак", "чалпаки тунук", "ғизо"],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แพนเค\u{e49}ก"),
+            keywords: &["ขนมป\u{e31}ง", "อาหาร", "แพนเค\u{e49}ก"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፓንኬክ"),
+            keywords: &["ሆትኬክ", "መግቢ", "ቁርሲ", "ክሬፕ", "ፓንኬክ", "ፓንኬክ ዝበሃል ምግቢ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("byzmyk"),
+            keywords: &[
+                "byzmyk",
+                "byzmyklar",
+                "ertirlik",
+                "gyzgyn gutap",
+                "iýmit",
+                "krep",
+            ],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("pani"),
+            keywords: &["mā", "pani"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("krep"),
+            keywords: &[
+                "gözleme",
+                "gıda",
+                "kahvaltı",
+                "krep",
+                "pancake",
+                "pankek",
+                "yiyecek",
+            ],
+        },
+        #[cfg(feature = "ug")]
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قازان كاكچىسى"),
+            keywords: &["تورت", "تۈرمەل", "قازان كاكچىسى", "قىزىق", "يېمەكلىك"],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("млинці"),
+            keywords: &[
+                "креп",
+                "крепи",
+                "млинець",
+                "млинці",
+                "налисник",
+                "налисники",
+                "сніданок",
+                "їжа",
+            ],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پین کیکس"),
+            keywords: &[
+                "خوراک",
+                "روٹ",
+                "روٹی",
+                "پین کیک",
+                "پین کیکس",
+                "کھانا",
+                "گلگلے",
+            ],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("blinchik"),
+            keywords: &["blinchik", "blinchiklar", "krep", "pirog", "taom"],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bánh kếp"),
+            keywords: &["bánh kếp", "thức ăn"],
+        },
+        #[cfg(feature = "wo")]
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("krep"),
+            keywords: &["crêpe", "krep", "lekk", "ngato bu tànk"],
+        },
+        #[cfg(feature = "xh")]
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-pancakes"),
+            keywords: &["i-crêpe", "i-hotcake", "i-pancake", "i-pancakes", "ukutya"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Atike Ikunju"),
+            keywords: &["Atike Ikunju", "búrẹ\u{301}dì pẹlẹbẹ", "crepe", "ónjẹ"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Atike Ikunju"),
+            keywords: &["Atike Ikunju", "búrɛ\u{301}dì pɛlɛbɛ", "crepe", "ónjɛ"],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("班戟"),
+            keywords: &["熱香餅", "班戟", "薄班戟", "食物"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("班戟"),
+            keywords: &["热香饼", "班戟", "薄班戟", "食物"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("烙饼"),
+            keywords: &["烙饼", "煎饼", "薄煎饼", "薄饼", "食物"],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("鬆餅"),
+            keywords: &["煎餅", "薄餅", "食物", "鬆餅"],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("班戟"),
+            keywords: &["烙餅", "烤餅", "熱香餅", "班戟", "食物"],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("amakhekhe"),
+            keywords: &[
+                "amakhekhe",
+                "crêpe",
+                "ikhekhe elishisayo",
+                "isifrentshi",
+                "ukudla",
+            ],
+        },
+    ],
+};
 #[doc = "🧇"]
 pub const WAFFLE: crate::Emoji = crate::Emoji {
     glyph: "🧇",
@@ -5020,19 +7678,28 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("wafel"),
-            keywords: &["onbeslis", "pan", "wafel"],
+            keywords: &["nagereg", "onbeslis", "ontbyt", "pan", "wafel", "wafelpan"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ኬክ"),
-            keywords: &["ብረት", "ኬክ", "የማያጠግብ"],
+            keywords: &["ምግብ", "ቁርስ", "ብረት", "ኬክ", "ዋፍል", "የማያጠግብ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("وافل"),
-            keywords: &["متردد", "مذبذب", "وافل"],
+            keywords: &[
+                "ترويقة",
+                "حلوى",
+                "حلويات",
+                "طعام",
+                "فطور",
+                "متردد",
+                "مذبذب",
+                "وافل",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -5044,7 +7711,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("vafli"),
-            keywords: &["dəmir", "qərarsız", "vafli"],
+            keywords: &["dəmir", "qərarsız", "səhər yeməyi", "vafli"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -5056,7 +7723,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("гофрета"),
-            keywords: &["гофрета", "форма за гофрети"],
+            keywords: &["гофрета", "закуска", "форма за гофрети"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -5064,7 +7731,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             tts: Some("ওয\u{9bc}\u{9be}ফেল"),
             keywords: &[
                 "ওয\u{9bc}\u{9be}ফেল",
+                "ওয\u{9bc}\u{9be}ফেল আয\u{9bc}রন",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
                 "দ\u{9cd}বিধ\u{9be}ন\u{9cd}বিত",
+                "ন\u{9be}স\u{9cd}ত\u{9be}",
+                "পেস\u{9cd}ট\u{9cd}রি",
+                "ব\u{9cd}রেকফ\u{9be}স\u{9cd}ট",
                 "লোহ\u{9be}",
             ],
         },
@@ -5084,7 +7757,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("gofra"),
-            keywords: &["gofra", "gofrera"],
+            keywords: &["esmorzar", "gofra", "gofrera", "indecisa", "indecís"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -5098,9 +7771,11 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             tts: Some("vafle"),
             keywords: &[
                 "forma",
+                "jídlo",
                 "moučník",
                 "mřížka",
                 "sendvičovač",
+                "snídaně",
                 "vafle",
                 "vaflovač",
             ],
@@ -5115,13 +7790,25 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("vaffel"),
-            keywords: &["jern", "ubeslutsom", "vaffel"],
+            keywords: &["jern", "ubeslutsom", "vaffel", "vaffeljern"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Waffel"),
-            keywords: &["Waffel", "Waffel mit Butter"],
+            keywords: &[
+                "Essen",
+                "Lebensmittel",
+                "Nahrung",
+                "Waffel",
+                "Waffel mit Butter",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -5135,6 +7822,12 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             tts: Some("waffle"),
             keywords: &["breakfast", "indecisive", "iron", "waffle"],
         },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["breakfast", "iron", "unclear", "vague", "waffle"],
+        },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
@@ -5145,7 +7838,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["breakfast", "iron", "unclear", "vague", "waffle"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -5169,7 +7862,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["comida", "desayuno", "gofre", "waffle"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -5187,7 +7880,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("vahvel"),
-            keywords: &["kõhklev", "vahvel", "vahvliraud"],
+            keywords: &["hommikusöök", "kõhklev", "söök", "vahvel", "vahvliraud"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -5199,13 +7892,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("وافل"),
-            keywords: &["آهن", "مردد", "وافل"],
+            keywords: &["آهن", "خاگینه", "صبحانه", "مردد", "وافل"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("vohveli"),
-            keywords: &["päättämätön", "ratkaisematon", "vohveli", "vohvelirauta"],
+            keywords: &["aamiainen", "aamupala", "vohvelirauta"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -5229,9 +7922,12 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             lang: "fr",
             tts: Some("gaufre"),
             keywords: &[
+                "brunch",
                 "gaufre",
                 "gourmandise",
+                "goûter",
                 "moule",
+                "petit déjeuner",
                 "petit-déjeuner",
                 "pâtisserie",
             ],
@@ -5246,7 +7942,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("vaifeal"),
-            keywords: &["bricfeasta", "iarn", "vaifeal"],
+            keywords: &["bricfeasta", "iarann", "iarn", "neamhchinnte", "vaifeal"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -5271,31 +7967,77 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("વૉફલ"),
-            keywords: &["અનિર\u{acd}ણાયક", "આયર\u{acd}ન", "વૉફલ"],
+            keywords: &[
+                "અનિર\u{acd}ણાયક",
+                "આયર\u{acd}ન",
+                "ખાદ\u{acd}યપદાર\u{acd}થ",
+                "ગળ\u{acd}ય\u{ac1}\u{a82}",
+                "ઢચ\u{ac1}પચ\u{ac1}",
+                "બ\u{acd}ર\u{ac7}કફાસ\u{acd}ટ",
+                "મીઠ\u{ac1}\u{a82}",
+                "વૉફલ",
+                "સવારનો નાસ\u{acd}તો",
+                "સ\u{ac1}ગર",
+                "સ\u{acd}વીટ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("waina"),
+            keywords: &[
+                "abincin safe",
+                "ayan",
+                "gurasa",
+                "mara yanke shawara",
+                "sinasir",
+                "waful",
+                "waina",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("waina"),
+            keywords: &[
+                "abincin safe",
+                "ayan",
+                "gurasa",
+                "mara yanke shawara",
+                "sinasir",
+                "waful",
+                "waina",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("וופל"),
-            keywords: &["אפיפית", "וופל", "ופל"],
+            keywords: &["אפיפית", "וופל", "ופל", "ופל בלגי"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("वफ\u{93c}ल"),
-            keywords: &["वफ\u{93c}ल"],
+            keywords: &[
+                "नाश\u{94d}ता",
+                "मीठा",
+                "वफ\u{93c}ल",
+                "वाफ\u{93c}ल",
+                "वॉफ\u{93c}ल",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("vafel"),
-            keywords: &["neodlučan", "tost", "vafel"],
+            keywords: &["doručak", "neodlučan", "tost", "vafel"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("gofri"),
-            keywords: &["gofri", "határozatlan", "vas"],
+            keywords: &["gofri", "gofrisütő", "határozatlan", "vas", "waffle"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -5307,7 +8049,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("wafel"),
-            keywords: &["makanan", "wafel", "waffle"],
+            keywords: &["besi", "bingung", "sarapan", "wafel", "waffle"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("waffle"),
+            keywords: &["nri ụtụtụ", "waffle"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -5319,13 +8067,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("waffle"),
-            keywords: &["gaufre", "waffle"],
+            keywords: &["cialda", "cibo", "colazione", "gaufre", "waffle"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ワッフル"),
-            keywords: &["ふんわり", "ワッフル", "焼き菓子"],
+            keywords: &["ふんわり", "ワッフル", "朝食", "焼き菓子"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -5343,7 +8091,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("вафля"),
-            keywords: &["бос әңгіме", "вафель қалыбы", "вафля"],
+            keywords: &["вафля", "таңғы ас", "тәтті"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -5360,8 +8108,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ವ\u{ccd}ಯಾಫಲ\u{ccd}"),
             keywords: &[
+                "ಉಪಾಹಾರ",
                 "ಕಬ\u{ccd}ಬ\u{cbf}ಣ",
+                "ಕಬ\u{ccd}ಬ\u{cbf}ಣಾಂಶ",
+                "ಖಾದ\u{ccd}ಯ",
+                "ತ\u{cbf}ಂಡ\u{cbf}",
                 "ನ\u{cbf}ರ\u{ccd}ಣಯ\u{cbf}ಸದ",
+                "ಬ\u{cbf}ಸ\u{ccd}ಕತ\u{ccd}ತು",
                 "ವ\u{ccd}ಯಾಫಲ\u{ccd}",
             ],
         },
@@ -5369,7 +8122,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("와플"),
-            keywords: &["와플"],
+            keywords: &["아침식사", "와플", "우유부단한"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -5390,8 +8143,10 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
                 "ເຂ\u{ebb}\u{ec9}າ\u{200b}ໜ\u{ebb}ມ\u{200b}ຮ\u{eb1}ງ\u{200b}ເຜ\u{eb4}\u{ec9}ງ",
             ),
             keywords: &[
+                "ຂະໜ\u{ebb}ມ",
                 "ວາ\u{200b}ຟ\u{200b}ໂຟ",
                 "ອາ\u{200b}ຫານ",
+                "ຮ\u{eb1}ງເຜ\u{eb4}\u{ec9}ງ",
                 "ເຂ\u{ebb}\u{ec9}າ\u{200b}ໜ\u{ebb}ມ",
                 "ເຂ\u{ebb}\u{ec9}າ\u{200b}ໜ\u{ebb}ມ\u{200b}ຮ\u{eb1}ງ\u{200b}ເຜ\u{eb4}\u{ec9}ງ",
                 "ເຄ\u{eb7}\u{ec8}ອງ\u{200b}ໜ\u{eb5}ບ",
@@ -5401,7 +8156,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("vaflis"),
-            keywords: &["geležinis", "neaiškus", "vaflis"],
+            keywords: &["geležinis", "kepinys", "maistas", "neaiškus", "vaflis"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
@@ -5413,7 +8168,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("вафла"),
-            keywords: &["вафла", "калап за вафли"],
+            keywords: &["вафла", "доручек", "калап за вафли"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -5435,13 +8190,19 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("व\u{945}फल"),
-            keywords: &["अनिश\u{94d}चित", "लोह", "व\u{945}फल"],
+            keywords: &[
+                "अनिश\u{94d}चित",
+                "ब\u{94d}र\u{947}कफास\u{94d}ट",
+                "लोह",
+                "व\u{945}फल",
+                "वॉफल\u{94d}स",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wafel"),
-            keywords: &["besi", "tidak tegas", "wafel"],
+            keywords: &["makan pagi", "makanan", "sarapan", "wafel", "zat besi"],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -5453,12 +8214,6 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
                 "မပြတ\u{103a}သားသော",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("belgisk vaffel"),
-            keywords: &["belgisk vaffel", "jern", "vaffel"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -5469,13 +8224,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("wafel"),
-            keywords: &["ijzer", "wafel", "weifelend"],
+            keywords: &["besluiteloos", "ijzer", "ontbijt", "wafel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("belgisk vaffel"),
-            keywords: &["belgisk vaffel", "jern", "vaffel"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -5487,16 +8242,22 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਵਫ\u{a3c}ਲ"),
-            keywords: &["ਅਸਥਿਰ", "ਲ\u{a4b}ਹਾ", "ਵਫ\u{a3c}ਲ"],
+            keywords: &[
+                "ਅਸਥਿਰ",
+                "ਨਾਸ\u{a3c}ਤਾ",
+                "ਲ\u{a4b}ਹਾ",
+                "ਵਫ\u{a3c}ਲ",
+                "ਵਾਫ\u{a3c}ਲ",
+            ],
         },
         #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wáful"),
             keywords: &[
-                "Brẹ\u{301}kfast",
-                "Flát Pankek Wé Im Nem Na Wáful",
+                "Flát Kek Wé Im Nem Na \"Wáful\"",
                 "Mọ\u{301}nín Chọp",
+                "Pẹ\u{301}sin Nọ\u{301} Fít Disaíd Wétín I Want Ọ Wétín I Wán Du",
                 "Wáful",
                 "Á\u{300}yọn",
             ],
@@ -5505,7 +8266,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("gofr"),
-            keywords: &["gofr", "gofrownica"],
+            keywords: &["gofr", "gofrownica", "jedzenie", "śniadanie"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -5517,13 +8278,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("waffle"),
-            keywords: &["gofre", "waffle", "wafle"],
+            keywords: &["doce", "gofre", "wafel", "waffle", "wafle"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["waffle"],
+            keywords: &["gofre", "pequeno-almoço", "waffle"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -5535,7 +8296,15 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("gofră"),
-            keywords: &["fier de călcat", "gofră", "nehotărât"],
+            keywords: &[
+                "fier de călcat",
+                "gofră",
+                "mic dejun",
+                "mâncare",
+                "nehotărât",
+                "vafă",
+                "waffle",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -5547,7 +8316,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("вафля"),
-            keywords: &["вафельный", "вафли", "вафля", "десерт"],
+            keywords: &["вафельный", "вафли", "вафля", "десерт", "еда", "завтрак"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -5573,6 +8342,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
                 "forma",
                 "mriežka",
                 "múčnik",
+                "raňajky",
                 "sendvičovač",
                 "vaflovač",
                 "vafľa",
@@ -5583,7 +8353,7 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sl",
             tts: Some("vafelj"),
-            keywords: &["oblat", "pecivo", "vafelj"],
+            keywords: &["hrana", "oblat", "pecivo", "vafelj", "zajtrk"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -5595,13 +8365,20 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("vafer"),
-            keywords: &["brumë i derdhur", "formë për vafer", "vafer"],
+            keywords: &[
+                "brumë i derdhur",
+                "formë për vafer",
+                "hekur",
+                "i pavendosur",
+                "mëngjes",
+                "vafer",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("вафл"),
-            keywords: &["вафл", "гвожђе", "неодлучан"],
+            keywords: &["вафл", "гвожђе", "доручак", "неодлучан"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -5613,7 +8390,13 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("vafl"),
-            keywords: &["gvožđe", "neodlučan", "vafl"],
+            keywords: &["doručak", "gvožđe", "neodlučan", "vafl"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -5625,7 +8408,12 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("mkate wa sega la nyuki"),
-            keywords: &["chuma", "kutoweza kufanya uamuzi", "mkate wa sega la nyuki"],
+            keywords: &[
+                "chakula cha asubuhi",
+                "chuma",
+                "kutoweza kufanya uamuzi",
+                "mkate wa sega la nyuki",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -5637,19 +8425,44 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("வ\u{bbe}ஃபிள\u{bcd}"),
-            keywords: &["இரும\u{bcd}பு", "உறுதியற\u{bcd}றது", "வ\u{bbe}ஃபிள\u{bcd}"],
+            keywords: &[
+                "இரும\u{bcd}பு",
+                "உறுதியற\u{bcd}றது",
+                "க\u{bbe}லையுணவு",
+                "வ\u{bbe}ஃபிள\u{bcd}",
+                "வேஃபில\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("వ\u{c47}ఫల\u{c4d}"),
-            keywords: &["ఐరన\u{c4d}", "వ\u{c47}ఫల\u{c4d}", "సంద\u{c47}హం"],
+            keywords: &[
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం",
+                "ఇండ\u{c46}స\u{c3f}స\u{c3f}వ\u{c4d}",
+                "ఐరన\u{c4d}",
+                "బ\u{c4d}ర\u{c47}క\u{c4d}\u{200c}ఫ\u{c3e}స\u{c4d}ట\u{c4d}",
+                "వ\u{c3e}ఫుల\u{c4d}",
+                "వ\u{c47}ఫల\u{c4d}",
+                "సంద\u{c47}హం",
+            ],
         },
         #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("วาฟเฟ\u{e34}ล"),
-            keywords: &["วาฟเฟ\u{e34}ล", "เคร\u{e37}\u{e48}องทำขนม", "ไม\u{e48}ทราบ"],
+            keywords: &[
+                "ขนมร\u{e31}งผ\u{e36}\u{e49}ง",
+                "วาฟเฟ\u{e34}ล",
+                "อาหารเช\u{e49}า",
+                "ไม\u{e48}แน\u{e48}ใจ",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ዋፍል"),
+            keywords: &["ዋፍል", "ዎፍል", "ዶልሺ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -5661,37 +8474,57 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("pani manifi"),
-            keywords: &["pani manifi"],
+            keywords: &["manifi", "mā", "pani"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("waffle"),
-            keywords: &["hamur", "vafıl", "waffle"],
+            keywords: &["hamur", "kahvaltı", "vafıl", "waffle"],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("вафля"),
-            keywords: &["вафельний", "вафля", "вафлі", "десерт", "сніданок"],
+            keywords: &[
+                "вафельний",
+                "вафля",
+                "вафлі",
+                "десерт",
+                "сніданок",
+                "солодощі",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ویفل"),
-            keywords: &["فولاد", "متذبذب", "ویفل"],
+            keywords: &["فولاد", "متذبذب", "ناشتہ", "وافل", "ووفل", "ویفل", "کھانا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("vafli"),
-            keywords: &["qattiq", "vafli", "yumshoq"],
+            keywords: &["desert", "nonushta", "qattiq", "vafli", "yumshoq"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh quế"),
-            keywords: &["bánh quế", "cứng cỏi", "thiếu quyết đoán"],
+            keywords: &["bánh quế", "bữa sáng", "cứng cỏi", "thiếu quyết đoán"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("wáfù"),
+            keywords: &["aimo nnkan", "ounje arro", "wafu", "wáfù"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("wáfù"),
+            keywords: &["aimo nnkan", "ounje arro", "wafu", "wáfù"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -5709,19 +8542,27 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("华夫饼"),
-            keywords: &["华夫饼", "格子饼", "点心", "烤", "窝夫饼"],
+            keywords: &["华夫饼", "松饼", "格子饼", "点心", "烤", "甜点", "窝夫饼"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("格子鬆餅"),
-            keywords: &["格子鬆餅", "楓糖", "鐵"],
+            keywords: &[
+                "早餐",
+                "格子鬆餅",
+                "楓糖",
+                "無法決定",
+                "猶豫不決",
+                "鐵",
+                "鬆餅",
+            ],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("窩夫"),
-            keywords: &["楓糖", "窩夫", "鐵"],
+            keywords: &["早餐", "格仔餅", "格子鬆餅", "楓糖", "窩夫", "鐵", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -5753,19 +8594,26 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("kaaswiggie"),
-            keywords: &["kaas", "kaaswiggie"],
+            keywords: &[
+                "kaas",
+                "kaaswiggie",
+                "kaswig",
+                "proteïene",
+                "suiwel",
+                "suiwelproduk",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የቺዝ ቁራጭ"),
-            keywords: &["የቺዝ ቁራጭ", "ፒዝ"],
+            keywords: &["የቺዝ ቁራጭ", "የወተት ተዋጽኦ", "ፒዝ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قطعة جبن"),
-            keywords: &["جبن", "قطعة جبن"],
+            keywords: &["جبن", "جبنة", "قطعة جبن"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -5795,7 +8643,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bn",
             tts: Some("চীজ ওয\u{9bc}েজ"),
-            keywords: &["চিজ", "চীজ ওয\u{9bc}েজ"],
+            keywords: &["খ\u{9be}ব\u{9be}র", "চিজ", "চীজ ওয\u{9bc}েজ"],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -5813,7 +8661,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("tall de formatge"),
-            keywords: &["formatge", "tall", "tall de formatge"],
+            keywords: &[
+                "formatge",
+                "porció de formatge",
+                "tall",
+                "tall de formatge",
+                "tros de formatge",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -5825,7 +8679,14 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("klínek sýra"),
-            keywords: &["klínek sýra", "sýr"],
+            keywords: &[
+                "ementál",
+                "jídlo",
+                "klínek sýra",
+                "kousek sýra",
+                "sýr",
+                "sýrový",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -5845,6 +8706,12 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
             tts: Some("Käsestück"),
             keywords: &["Käse", "Käsestück"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -5855,7 +8722,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("cheese wedge"),
-            keywords: &["cheese", "cheese wedge"],
+            keywords: &["cheese", "wedge"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -5891,7 +8758,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("queso"),
-            keywords: &["↑↑↑"],
+            keywords: &["cuña", "cuña de queso", "queso", "raton", "roedor", "trozo"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -5921,13 +8788,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("قاچ پنیر"),
-            keywords: &["قاچ پنیر", "پنیر"],
+            keywords: &["خوراک", "خوراکی", "غذا", "قاچ پنیر", "پنیر"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("juustopala"),
-            keywords: &["juusto", "juustopala"],
+            keywords: &["juusto", "palanen"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -5945,19 +8812,19 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("part de fromage"),
-            keywords: &["fromage", "part de fromage"],
+            keywords: &["fromage", "nourriture", "part de fromage"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("morceau de fromage"),
-            keywords: &["fromage", "morceau", "morceau de fromage"],
+            keywords: &["fromage", "morceau"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("ding cháise"),
-            keywords: &["cáis", "ding cháise"],
+            keywords: &["cáis", "ding cháise", "mír cháise"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -5975,13 +8842,43 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("ચીઝનો ત\u{acd}રિકોણાકાર ટ\u{ac1}કડો"),
-            keywords: &["ચીઝ", "ચીઝનો ત\u{acd}રિકોણાકાર ટ\u{ac1}કડો", "ટ\u{ac1}કડો"],
+            keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "ચીઝ",
+                "ચીઝન\u{ac1}\u{a82} ચોસલ\u{ac1}\u{a82}",
+                "ચીઝનો ત\u{acd}રિકોણાકાર ટ\u{ac1}કડો",
+                "ટ\u{ac1}કડો",
+                "પનીર",
+                "ભોજન",
+                "મઠો",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("mayankin cuku"),
-            keywords: &["cuku", "mayankin cuku"],
+            keywords: &[
+                "cuku",
+                "cukwi",
+                "kayan madara",
+                "mai",
+                "man shanu",
+                "mayankin cuku",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("mayankin cuku"),
+            keywords: &[
+                "cuku",
+                "cukwi",
+                "kayan madara",
+                "mai",
+                "man shanu",
+                "mayankin cuku",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -6005,7 +8902,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("sajtdarab"),
-            keywords: &["lyukas sajt", "sajt", "sajtdarab"],
+            keywords: &["ementáli", "lyukas sajt", "sajt", "sajtdarab", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -6017,7 +8914,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("irisan keju"),
-            keywords: &["irisan keju", "keju"],
+            keywords: &["irisan", "keju", "potongan"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -6035,7 +8932,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("fetta di formaggio"),
-            keywords: &["fetta di formaggio", "formaggio"],
+            keywords: &["cibo", "fetta di formaggio", "formaggio", "gruviera"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -6053,13 +8950,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ka",
             tts: Some("ყველის ნაჭერი"),
-            keywords: &["ყველი", "ყველის ნაჭერი"],
+            keywords: &["გუდის ყველი", "ყველი", "ყველის ნაჭერი"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("ірімшік бөлігі"),
-            keywords: &["ірімшік", "ірімшік бөлігі"],
+            keywords: &["тағам", "ірімшік", "ірімшік бөлігі"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -6083,6 +8980,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
             tts: Some("ಚ\u{cc0}ಸ\u{ccd} ವ\u{cc6}ಡ\u{ccd}ಜ\u{ccd}"),
             keywords: &[
                 "ಚ\u{cc0}ಸ\u{ccd}",
+                "ಚ\u{cc0}ಸ\u{ccd} ತುಣುಕು",
                 "ಚ\u{cc0}ಸ\u{ccd} ವ\u{cc6}ಡ\u{ccd}ಜ\u{ccd}",
             ],
         },
@@ -6120,7 +9018,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("sūrio gabaliukas"),
-            keywords: &["sūrio gabaliukas", "sūris"],
+            keywords: &["maistas", "sūrio gabaliukas", "sūris"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
@@ -6138,7 +9036,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("парче сирење"),
-            keywords: &["парче сирење", "сирење"],
+            keywords: &["кашкавал", "парче кашкавал", "парче сирење", "сирење"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -6150,13 +9048,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mn",
             tts: Some("зүсэм бяслаг"),
-            keywords: &["бяслаг", "зүсэм", "хүнс"],
+            keywords: &["бяслаг", "зүсэм бяслаг"],
         },
         #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("चीज व\u{947}ज"),
-            keywords: &["चीज व\u{947}ज", "चीझ"],
+            keywords: &["अन\u{94d}न", "खाद\u{94d}य", "चीज", "चीज व\u{947}ज", "चीझ"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -6179,12 +9077,6 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
                 "ဒ\u{102d}န\u{103a}ခ\u{1032} အတ\u{102f}\u{1036}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("ostestykke"),
-            keywords: &["ost", "ostestykke"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -6195,13 +9087,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("stuk kaas"),
-            keywords: &["kaas", "stuk kaas"],
+            keywords: &["kaas", "plak"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("ostestykke"),
-            keywords: &["ost", "ostestykke"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -6213,7 +9105,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪਨੀਰ ਦਾ ਟ\u{a41}ਕੜਾ"),
-            keywords: &["ਪਨੀਰ", "ਪਨੀਰ ਦਾ ਟ\u{a41}ਕੜਾ"],
+            keywords: &["ਚੀਜ\u{a3c}", "ਪਨੀਰ", "ਪਨੀਰ ਦਾ ਟ\u{a41}ਕੜਾ"],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -6231,7 +9123,14 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("kawałek sera"),
-            keywords: &["kawałek sera", "ser", "szwajcarski", "z dziurami", "żółty"],
+            keywords: &[
+                "jedzenie",
+                "kawałek sera",
+                "ser",
+                "szwajcarski",
+                "z dziurami",
+                "żółty",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -6243,7 +9142,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("queijo"),
-            keywords: &["queijo", "queijo suíço"],
+            keywords: &["comida", "fome", "queijo", "queijo suíço"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -6261,7 +9160,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("bucată de brânză"),
-            keywords: &["brânză", "bucată de brânză", "cașcaval"],
+            keywords: &["brânză", "bucată de brânză", "cașcaval", "mâncare"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -6297,13 +9196,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("kus syra"),
-            keywords: &["kus syra", "syr"],
+            keywords: &["ementál", "jedlo", "kus syra", "syr"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kos sira"),
-            keywords: &["kos sira", "sir"],
+            keywords: &["hrana", "kos sira", "sir"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -6321,7 +9220,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("кришка сира"),
-            keywords: &["кришка сира", "сир"],
+            keywords: &["кришка", "сир"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -6333,7 +9232,13 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kriška sira"),
-            keywords: &["kriška sira", "sir"],
+            keywords: &["kriška", "sir"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -6368,7 +9273,12 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "te",
             tts: Some("జున\u{c4d}నుల\u{c4b} భ\u{c3e}గం"),
-            keywords: &["జున\u{c4d}ను", "జున\u{c4d}నుల\u{c4b} భ\u{c3e}గం"],
+            keywords: &[
+                "చ\u{c40}స\u{c4d}",
+                "చ\u{c40}స\u{c4d} ముక\u{c4d}క",
+                "జున\u{c4d}ను",
+                "జున\u{c4d}నుల\u{c4b} భ\u{c3e}గం",
+            ],
         },
         #[cfg(feature = "tg")]
         crate::Annotation {
@@ -6381,6 +9291,12 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("เนยแข\u{e47}ง"),
             keywords: &["ช\u{e35}ส", "เนยแข\u{e47}ง"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("በርበረ ዌጅ"),
+            keywords: &["ሸንኮለል ዝብል ምዃኑ ይፍለጥ", "በርበረ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -6398,7 +9314,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("peynir dilimi"),
-            keywords: &["peynir", "peynir dilimi"],
+            keywords: &["fare", "gıda", "peynir", "peynir dilimi"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -6410,19 +9326,19 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("кусень сиру"),
-            keywords: &["кусень сиру", "сир", "шматок сиру"],
+            keywords: &["кусень сиру", "сир", "шматок сиру", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پنیر کا ٹکڑا"),
-            keywords: &["ٹکڑا", "پنیر", "پنیر کا ٹکڑا"],
+            keywords: &["ٹکڑا", "پنیر", "پنیر کا ٹکڑا", "چیز", "چیز کا ٹکڑا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("pishloq bo‘lagi"),
-            keywords: &["pishloq", "pishloq bo‘lagi"],
+            keywords: &["gollland pishlogʻi", "pishloq", "pishloq bo‘lagi", "sariq"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -6445,6 +9361,12 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
+            tts: Some("Waara Wedge"),
+            keywords: &["Waara Wedge", "wàrà"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
             tts: Some("Waara Wedge"),
             keywords: &["Waara Wedge", "wàrà"],
         },
@@ -6476,7 +9398,7 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("芝士"),
-            keywords: &["芝士"],
+            keywords: &["奶類", "芝士"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -6487,7 +9409,920 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🍖"]
-pub const MEAT_ON_BONE : crate :: Emoji = crate :: Emoji { glyph : "🍖" , codepoint : "1F356" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "meat on bone" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("vleis aan been") , keywords : & ["been" , "vleis" , "vleis aan been"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሥጋ ያለው አጥንት") , keywords : & ["ሥጋ" , "ሥጋ የለው አጥንት" , "ሥጋ ያለው አጥንት"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("\u{202b}لحم بعظم") , keywords : & ["عظم" , "\u{202b}لحم بعظم"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("হ\u{9be}ড\u{9bc} সহ ম\u{9be}ংস") , keywords : & ["ম\u{9be}ংস" , "হ\u{9be}ড\u{9bc}" , "হ\u{9be}ড\u{9bc} সহ ম\u{9be}ংস"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("sümükdə ət") , keywords : & ["sümük" , "sümükdə ət" , "ət"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("мяса на косці") , keywords : & ["косць" , "мяса" , "мяса на косці"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("месо с кост") , keywords : & ["кост" , "месо" , "месо с кост"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("হ\u{9be}ড\u{9bc}ের উপর ম\u{9be}ংস") , keywords : & ["ম\u{9be}ংস" , "হ\u{9be}ড\u{9bc}" , "হ\u{9be}ড\u{9bc}ের উপর ম\u{9be}ংস"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("kig war askorn") , keywords : & ["askorn" , "kig" , "kig war askorn"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("meso na kostima") , keywords : & ["kost" , "meso" , "meso na kostima"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("carn amb os") , keywords : & ["carn" , "carn amb os" , "os"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄃𑄢\u{11127}𑄢\u{11127}𑄢\u{11134} 𑄦𑄬𑄢 𑄥𑄌\u{11134}") , keywords : & ["𑄃𑄢\u{11127}𑄢\u{11127}𑄢\u{11134} 𑄦𑄬𑄢 𑄥𑄌\u{11134}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎭᏫᏯ ᎦᏁᎦᎸ ᎪᎳ") , keywords : & ["ᎪᎳ" , "ᎭᏫᏯ" , "ᎭᏫᏯ ᎦᏁᎦᎸ ᎪᎳ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("maso na kosti") , keywords : & ["kost" , "maso" , "maso na kosti"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("cig ar yr asgwrn") , keywords : & ["asgwrn" , "cig" , "cig ar yr asgwrn"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("kød") , keywords : & ["kød" , "kødben"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Fleischhachse") , keywords : & ["Fleisch" , "Fleischhachse" , "Knochen" , "Restaurant"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("κότσι") , keywords : & ["κρέας" , "κόκκαλο" , "κότσι"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("meat on bone") , keywords : & ["bone" , "meat" , "meat on bone"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("carne con hueso") , keywords : & ["carne" , "carne con hueso" , "hueso" , "restaurante"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["carne" , "carne con hueso" , "comida" , "hueso" , "restaurante"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["carne" , "carne con hueso" , "comida" , "hueso"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("kondiga liha") , keywords : & ["kondiga liha" , "kont" , "liha" , "luu"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("hezurra haragiarekin") , keywords : & ["haragi" , "hezur" , "hezurra haragiarekin"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("گوشت با استخوان") , keywords : & ["استخوان" , "گوشت" , "گوشت با استخوان"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("lihaa luineen") , keywords : & ["liha" , "lihaa luineen" , "luu"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("karneng may buto") , keywords : & ["buto" , "karne" , "karneng may buto" , "pagkain"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("kjøt á beini") , keywords : & ["bein" , "kjøt" , "kjøt á beini" , "matur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("viande sur un os") , keywords : & ["viande" , "viande sur un os"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("viande sur son os") , keywords : & ["os" , "viande" , "viande sur son os"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("feoil le cnámh") , keywords : & ["cnámh" , "feoil" , "feoil ar an gcnámh" , "feoil le cnámh"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("feòil air a’ chnàimh") , keywords : & ["cnàimh" , "feòil" , "feòil air a’ chnàimh"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("óso con carne") , keywords : & ["carne" , "óso" , "óso con carne"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("હાડકા\u{a82} પરન\u{ac1}\u{a82} મા\u{a82}સ") , keywords : & ["મા\u{a82}સ" , "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ" , "હાડકા\u{a82} પરન\u{ac1}\u{a82} મા\u{a82}સ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("nama a kan ƙashi") , keywords : & ["nama" , "nama a kan ƙashi" , "ƙashi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("בשר על עצם") , keywords : & ["בשר" , "בשר על עצם" , "עצם"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("हड\u{94d}डी वाला मा\u{901}स") , keywords : & ["मा\u{902}स" , "र\u{947}स\u{94d}टोर\u{947}\u{902}ट" , "हड\u{94d}डी वाला मा\u{901}स" , "हड\u{94d}डी वाला मा\u{902}स"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("meso na kosti") , keywords : & ["kost" , "meso" , "meso na kosti"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("csontos hús") , keywords : & ["csont" , "csontos hús" , "hús"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ոսկորով միս") , keywords : & ["միս" , "ոսկոր" , "ոսկորով միս"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("daging pada tulang") , keywords : & ["daging" , "daging pada tulang" , "tulang"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("anụ n’ọkpụkpụ") , keywords : & ["anụ" , "anụ n’ọkpụkpụ" , "ọkpụkpụ"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kjöt") , keywords : & ["bein" , "kjöt" , "veitingastaður"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("carne") , keywords : & ["carne" , "carne con osso" , "ristorante"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("骨付き肉") , keywords : & ["もも肉" , "肉" , "骨付き肉"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("iwak daging sabalunge") , keywords : & ["balung" , "iwak daging" , "iwak daging sabalunge"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ხორცი ძვალზე") , keywords : & ["ძვალი" , "ხორცი" , "ხორცი ძვალზე"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("сүйегі бар ет") , keywords : & ["ет" , "сүйегі бар ет" , "сүйек"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("kød") , keywords : & ["kød" , "kødben"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("សាចជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង") , keywords : & ["ឆ\u{17d2}អ\u{17b9}ង" , "សាចជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង" , "សាច\u{17cb}ជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಮ\u{cc2}ಳ\u{cc6} ಮ\u{cc7}ಲ\u{cbf}ನ ಮಾಂಸ") , keywords : & ["ಮಾಂಸ" , "ಮ\u{cc2}ಳ\u{cc6} ಮಾಂಸ" , "ಮ\u{cc2}ಳ\u{cc6} ಮ\u{cc7}ಲ\u{cbf}ನ ಮಾಂಸ"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("고기") , keywords : & ["고기" , "고기 덩어리"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("हाडाच\u{947}र मास") , keywords : & ["मास" , "हाड" , "हाडाच\u{947}र मास"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("жилик эт") , keywords : & ["жилик эт" , "сөөк" , "эт"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Fleeschschank") , keywords : & ["Fleesch" , "Fleeschschank" , "Schank"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຊ\u{eb5}\u{ec9}ນຕ\u{eb4}ດກະດ\u{eb9}ກ") , keywords : & ["ກະດ\u{eb9}ກ" , "ຊ\u{eb5}\u{ec9}ນ" , "ຊ\u{eb5}\u{ec9}ນຕ\u{eb4}ດກະດ\u{eb9}ກ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mėsa ant kaulo") , keywords : & ["kaulas" , "mėsa" , "mėsa ant kaulo"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("kauls ar gaļu") , keywords : & ["gaļa" , "kauls" , "kauls ar gaļu"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("mīti runga kōiwi") , keywords : & ["kōiwi" , "mīti" , "mīti runga kōiwi"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("месо со коска") , keywords : & ["коска" , "месо" , "месо со коска"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d3e}ംസം") , keywords : & ["എല\u{d4d}ലിൽ മ\u{d3e}ംസം" , "എല\u{d4d}ല\u{d4d}ല\u{d4d}" , "ഭക\u{d4d}ഷണം" , "മ\u{d3e}ംസം" , "ഹോട\u{d4d}ടൽ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("ястай мах") , keywords : & ["мах" , "яс" , "ястай мах"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("हाडावरील मा\u{902}स") , keywords : & ["मटण" , "हाड" , "हाडावरील मा\u{902}स"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("daging salut tulang") , keywords : & ["daging" , "daging salut tulang" , "tulang"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("laħam fuq l-għadma") , keywords : & ["għadma" , "laħam" , "laħam fuq l-għadma"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("အသားပါ အရ\u{102d}\u{102f}း") , keywords : & ["အရ\u{102d}\u{102f}းပါ အသြား အရ\u{102d}\u{102f}းပါ အသ\u{103d}ား အရ\u{102d}\u{102f}းပါ အသ\u{103e}ား အရ\u{103e}\u{102d}\u{102f}း အသ\u{103e}ား အသားပါ အရြ\u{102d}\u{102f}း အသားပါ အရ\u{102d}\u{102f}း" , "အသားပါ အရ\u{102d}\u{102f}း"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("kjøtt med bein") , keywords : & ["kjøtt med bein" , "kjøttbein" , "restaurant"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("हड\u{94d}डिको मास\u{941}") , keywords : & ["मास\u{941}" , "हड\u{94d}डिको मास\u{941}" , "हड\u{94d}डी"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("vlees met bot") , keywords : & ["bot" , "vlees" , "vlees met bot"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("kjøt med bein") , keywords : & ["kjøt med bein" , "kjøtbein" , "restaurant"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ହ\u{b3e}ଡରେ ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଂସ") , keywords : & ["ହ\u{b3e}ଡ । ମ\u{b3e}ଂସ" , "ହ\u{b3e}ଡରେ ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଂସ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਹ\u{a71}ਡੀ ‘ਤ\u{a47} ਮੀਟ") , keywords : & ["ਮੀਟ" , "ਹ\u{a4b}ਟਲ" , "ਹ\u{a71}ਡੀ ‘ਤ\u{a47} ਮੀਟ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ہڈی تے گوشت") , keywords : & ["گوشت" , "ہڈی" , "ہڈی تے گوشت"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Mit Ọn Tọ\u{301}p Bon") , keywords : & ["Bon" , "Mit" , "Mit Ọn Tọ\u{301}p Bon"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("mięso z kością") , keywords : & ["kość" , "mięso" , "mięso z kością"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د هډوکي غوښه") , keywords : & ["د هډوکي غوښه" , "هډوکي، غوښه، د هډوکي غوښه"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("carne") , keywords : & ["carne" , "carne no osso" , "osso"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("osso com carne") , keywords : & ["carne" , "osso" , "osso com carne"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("aycha tullupi") , keywords : & ["aycha" , "aycha tullupi" , "tullu"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("os cu carne") , keywords : & ["carne" , "os" , "os cu carne"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-283") , keywords : & ["E10-283"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("мясо на косточке") , keywords : & ["кость" , "мясо" , "мясо на косточке"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("inyama y’igufwa") , keywords : & ["igufa" , "inyama" , "inyama y’igufwa"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("هڏي تي گوشت") , keywords : & ["هڏي تي گوشت" , "هڏي، گوشت"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("කට\u{dd4}වෙහ\u{dd2} මස\u{dca}") , keywords : & ["කට\u{dd4}" , "කට\u{dd4}වෙහ\u{dd2} මස\u{dca}" , "මස\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("mäso s kosťou") , keywords : & ["kosť" , "mäso" , "mäso s kosťou"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("meso s kostjo") , keywords : & ["kost" , "meso" , "meso s kostjo"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("hilibka lafta") , keywords : & ["hilib" , "hilibka lafta" , "laf"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("mish me kockë") , keywords : & ["kockë" , "mish" , "mish me kockë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("месо са коском") , keywords : & ["кoст" , "мeсo" , "месо са коском"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("meso sa koskom") , keywords : & ["kost" , "meso" , "meso sa koskom"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("köttben") , keywords : & ["kött" , "köttben" , "på ben"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("nyama kwenye mfupa") , keywords : & ["mfupa" , "nyama" , "nyama kwenye mfupa"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ம\u{bbe}மிசம\u{bcd}") , keywords : & ["உணவகம\u{bcd}" , "எலும\u{bcd}பு" , "ம\u{bbe}மிசம\u{bcd}" , "விருந\u{bcd}து"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ఎముకప\u{c48} మ\u{c3e}ంసం") , keywords : & ["ఎముకప\u{c48} మ\u{c3e}ంసం" , "ఎముకల మ\u{c3e}ంసం" , "మ\u{c3e}ంసం" , "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("гушт дар устухон") , keywords : & ["гушт" , "гушт дар устухон" , "устухон"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เน\u{e37}\u{e49}อ") , keywords : & ["เน\u{e37}\u{e49}อ" , "เน\u{e37}\u{e49}อต\u{e34}ดกระด\u{e39}ก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("süňkli et") , keywords : & ["et" , "süňk" , "süňkli et"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("kanomate moe hui") , keywords : & ["kanomate moe hui"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("kemikli et") , keywords : & ["kemikli et" , "restoran"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("سۆڭەكلىك گۆش") , keywords : & ["سۆڭەك" , "سۆڭەكلىك گۆش" , "گۆش"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("м’ясо на кістці") , keywords : & ["кістка" , "м’ясо" , "м’ясо на кістці"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("ہڈی پر گوشت") , keywords : & ["اسنیک" , "گوشت" , "ہڈی" , "ہڈی پر گوشت"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("suyakdagi go‘sht") , keywords : & ["go‘sht" , "suyak" , "suyakdagi go‘sht"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("thịt bám xương") , keywords : & ["thịt" , "thịt bám xương" , "xương"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("yàpp ci yax") , keywords : & ["yax" , "yàpp" , "yàpp ci yax"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("inyama esethanjeni") , keywords : & ["inyama" , "inyama esethanjeni" , "ithambo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Ẹran Ara Egungun") , keywords : & ["eegun" , "Ẹran Ara Egungun" , "ẹran"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("肉連⻣") , keywords : & ["肉" , "肉連⻣" , "骨"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("肉连⻣") , keywords : & ["肉" , "肉连⻣" , "骨"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("排骨") , keywords : & ["排骨" , "肉" , "骨"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("排骨") , keywords : & ["帶骨肉" , "排骨"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("肉骨") , keywords : & ["大塊的肉" , "肉骨" , "骨的肉"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("inyamo ethajeni") , keywords : & ["inyama" , "inyamo ethajeni" , "ithambo"] , }] , } ;
+pub const MEAT_ON_BONE: crate::Emoji = crate::Emoji {
+    glyph: "🍖",
+    codepoint: "1F356",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 0u64,
+        minor: 6u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "meat on bone",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("vleis aan been"),
+            keywords: &["been", "braai", "sop", "vleis", "vleis aan been"],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሥጋ ያለው አጥንት"),
+            keywords: &["ምግብ", "ሥጋ", "ሥጋ የለው አጥንት", "ሥጋ ያለው አጥንት", "አጥንት"],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("لحم بعظم"),
+            keywords: &["عضم", "عظم", "لحم", "لحم بعظم"],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("হ\u{9be}ড\u{9bc} সহ ম\u{9be}ংস"),
+            keywords: &[
+                "ম\u{9be}ংস",
+                "হ\u{9be}ড\u{9bc}",
+                "হ\u{9be}ড\u{9bc} সহ ম\u{9be}ংস",
+            ],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("sümükdə ət"),
+            keywords: &["sümük", "sümükdə ət", "ət"],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мяса на косці"),
+            keywords: &["косць", "мяса", "мяса на косці"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("месо с кост"),
+            keywords: &["кост", "месо", "месо с кост"],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("হ\u{9be}ড\u{9bc}ের উপর ম\u{9be}ংস"),
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "ম\u{9be}ংস",
+                "হ\u{9be}ড\u{9bc}",
+                "হ\u{9be}ড\u{9bc}ের উপর ম\u{9be}ংস",
+            ],
+        },
+        #[cfg(feature = "br")]
+        crate::Annotation {
+            lang: "br",
+            tts: Some("kig war askorn"),
+            keywords: &["askorn", "kig", "kig war askorn"],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("meso na kostima"),
+            keywords: &["kost", "meso", "meso na kostima"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("carn amb os"),
+            keywords: &["carn", "carn amb os", "os"],
+        },
+        #[cfg(feature = "ccp")]
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some("𑄃𑄢\u{11127}𑄢\u{11127}𑄢\u{11134} 𑄦𑄬𑄢 𑄥𑄌\u{11134}"),
+            keywords: &["𑄃𑄢\u{11127}𑄢\u{11127}𑄢\u{11134} 𑄦𑄬𑄢 𑄥𑄌\u{11134}"],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎭᏫᏯ ᎦᏁᎦᎸ ᎪᎳ"),
+            keywords: &["ᎪᎳ", "ᎭᏫᏯ", "ᎭᏫᏯ ᎦᏁᎦᎸ ᎪᎳ"],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("maso na kosti"),
+            keywords: &["hlad", "jídlo", "kost", "kýta", "maso", "maso na kosti"],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("cig ar yr asgwrn"),
+            keywords: &["asgwrn", "cig", "cig ar yr asgwrn"],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kød"),
+            keywords: &["kød", "kødben"],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Fleischhachse"),
+            keywords: &["Fleisch", "Fleischhachse", "Knochen", "Restaurant"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("κότσι"),
+            keywords: &["κρέας", "κόκκαλο", "κότσι"],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("meat on bone"),
+            keywords: &["bone", "meat"],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("carne con hueso"),
+            keywords: &["carne", "carne con hueso", "hueso", "restaurante"],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "carne",
+                "carne con hueso",
+                "cena",
+                "comida",
+                "hueso",
+                "muslo de pollo",
+                "restaurante",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["carne", "carne con hueso", "comida", "hueso"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["carne", "carne con hueso", "hueso"],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("kondiga liha"),
+            keywords: &["kont", "liha"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("hezurra haragiarekin"),
+            keywords: &["haragi", "hezur", "hezurra haragiarekin"],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("گوشت با استخوان"),
+            keywords: &["استخوان", "گوشت", "گوشت با استخوان"],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lihaa luineen"),
+            keywords: &["liha", "lihaa luineen", "luu"],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("karneng may buto"),
+            keywords: &["buto", "karne", "karneng may buto", "pagkain"],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("kjøt á beini"),
+            keywords: &["bein", "kjøt", "kjøt á beini", "matur"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("viande sur un os"),
+            keywords: &["nourriture", "os", "viande", "viande sur un os"],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("viande sur son os"),
+            keywords: &["os", "viande", "viande sur son os"],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("feoil le cnámh"),
+            keywords: &[
+                "cnámh",
+                "feoil",
+                "feoil ar an gcnámh",
+                "feoil ar chnámh",
+                "feoil le cnámh",
+            ],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("feòil air a’ chnàimh"),
+            keywords: &["cnàimh", "feòil", "feòil air a’ chnàimh"],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("óso con carne"),
+            keywords: &["carne", "óso", "óso con carne"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("હાડકા\u{a82} પરન\u{ac1}\u{a82} મા\u{a82}સ"),
+            keywords: &[
+                "ક\u{ac1}દરત",
+                "ખાનપાન",
+                "ખોરાક",
+                "પકવાન",
+                "બોટી",
+                "ભોજન",
+                "મા\u{a82}સ",
+                "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
+                "હાડકા\u{a82} પરન\u{ac1}\u{a82} મા\u{a82}સ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("nama a kan ƙashi"),
+            keywords: &[
+                "cin daɗi",
+                "daɗi",
+                "kayan daɗi",
+                "kaza",
+                "nama",
+                "nama a kan ƙashi",
+                "nama da ƙashi",
+                "naman kaza",
+                "ƙashi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("nama a kan ƙashi"),
+            keywords: &[
+                "cin daɗi",
+                "daɗi",
+                "kayan daɗi",
+                "kaza",
+                "nama",
+                "nama a kan ƙashi",
+                "nama da ƙashi",
+                "naman kaza",
+                "ƙashi",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בשר על עצם"),
+            keywords: &["בשר", "בשר על עצם", "עצם"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("हड\u{94d}डी वाला मा\u{901}स"),
+            keywords: &[
+                "मा\u{902}स",
+                "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
+                "हड\u{94d}डी वाला मा\u{901}स",
+                "हड\u{94d}डी वाला मा\u{902}स",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("meso na kosti"),
+            keywords: &["hrana", "kost", "meso", "meso na kosti"],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("csontos hús"),
+            keywords: &["csont", "csontos hús", "hús", "étel"],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ոսկորով միս"),
+            keywords: &["միս", "ոսկոր", "ոսկորով միս"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("daging pada tulang"),
+            keywords: &["daging", "tulang"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("anụ n’ọkpụkpụ"),
+            keywords: &["anụ", "anụ n’ọkpụkpụ", "ọkpụkpụ"],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("kjöt"),
+            keywords: &["bein", "kjöt", "veitingastaður"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("carne"),
+            keywords: &[
+                "barbecue",
+                "carne",
+                "carne con osso",
+                "cibo",
+                "fame",
+                "osso",
+                "ristorante",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("骨付き肉"),
+            keywords: &["もも肉", "肉", "骨", "骨付き肉"],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("iwak daging sabalunge"),
+            keywords: &["balung", "iwak daging", "iwak daging sabalunge"],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ხორცი ძვალზე"),
+            keywords: &["მწვადი", "ძვალი", "ხორცი", "ხორცი ძვალზე"],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("сүйегі бар ет"),
+            keywords: &["ет", "сүйегі бар ет", "сүйек", "тағам"],
+        },
+        #[cfg(feature = "kl")]
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("kød"),
+            keywords: &["kød", "kødben"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សាចជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង"),
+            keywords: &[
+                "ឆ\u{17d2}អ\u{17b9}ង",
+                "សាចជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង",
+                "សាច\u{17cb}ជាប\u{17cb}ឆ\u{17d2}អ\u{17b9}ង",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮ\u{cc2}ಳ\u{cc6} ಮ\u{cc7}ಲ\u{cbf}ನ ಮಾಂಸ"),
+            keywords: &[
+                "ಮಾಂಸ",
+                "ಮ\u{cc2}ಳ\u{cc6}",
+                "ಮ\u{cc2}ಳ\u{cc6} ಮ\u{cc7}ಲ\u{cbf}ನ ಮಾಂಸ",
+                "ಮ\u{cc2}ಳ\u{cc6}ಯ ಮ\u{cc7}ಲ\u{cc6} ಮಾಂಸ",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("고기"),
+            keywords: &["고기", "고기 덩어리", "뼈"],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("हाडाच\u{947}र मास"),
+            keywords: &["मास", "हाड", "हाडाच\u{947}र मास"],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("жилик эт"),
+            keywords: &["жилик эт", "сөөк", "эт"],
+        },
+        #[cfg(feature = "lb")]
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Fleeschschank"),
+            keywords: &["Fleesch", "Fleeschschank", "Schank"],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຊ\u{eb5}\u{ec9}ນຕ\u{eb4}ດກະດ\u{eb9}ກ"),
+            keywords: &[
+                "ກະດ\u{eb9}ກ",
+                "ຊ\u{eb5}\u{ec9}ນ",
+                "ຊ\u{eb5}\u{ec9}ນຕ\u{eb4}ດກະດ\u{eb9}ກ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("mėsa ant kaulo"),
+            keywords: &["kaulas", "maistas", "mėsa", "mėsa ant kaulo"],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("kauls ar gaļu"),
+            keywords: &["gaļa", "kauls", "kauls ar gaļu", "pārtika", "ēdiens"],
+        },
+        #[cfg(feature = "mi")]
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("mīti runga kōiwi"),
+            keywords: &["kōiwi", "mīti", "mīti runga kōiwi"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("месо со коска"),
+            keywords: &["коска", "месо", "месо со коска"],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മ\u{d3e}ംസം"),
+            keywords: &[
+                "എല\u{d4d}ലിൽ മ\u{d3e}ംസം",
+                "എല\u{d4d}ല\u{d4d}ല\u{d4d}",
+                "ഭക\u{d4d}ഷണം",
+                "മ\u{d3e}ംസം",
+                "ഹോട\u{d4d}ടൽ",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("ястай мах"),
+            keywords: &["мах", "яс", "ястай мах"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("हाडावरील मा\u{902}स"),
+            keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
+                "मटण",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
+                "हड\u{94d}डी असल\u{947}ल\u{947} मा\u{902}स",
+                "हाड",
+                "हाडावरील मा\u{902}स",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("daging salut tulang"),
+            keywords: &["daging", "daging salut tulang", "tulang"],
+        },
+        #[cfg(feature = "mt")]
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("laħam fuq l-għadma"),
+            keywords: &["għadma", "laħam", "laħam fuq l-għadma"],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အသားပါ အရ\u{102d}\u{102f}း"),
+            keywords: &["အရ\u{102d}\u{102f}း", "အသား"],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("हड\u{94d}डिको मास\u{941}"),
+            keywords: &["मास\u{941}", "हड\u{94d}डिको मास\u{941}", "हड\u{94d}डी"],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vlees met bot"),
+            keywords: &["bot", "vlees"],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("kjøt med bein"),
+            keywords: &["kjøt med bein", "kjøtbein", "restaurant"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ହ\u{b3e}ଡରେ ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଂସ"),
+            keywords: &[
+                "ମ\u{b3e}ଂସ",
+                "ହ\u{b3e}ଡ",
+                "ହ\u{b3e}ଡରେ ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଂସ",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਹ\u{a71}ਡੀ ‘ਤ\u{a47} ਮੀਟ"),
+            keywords: &[
+                "ਮੀਟ",
+                "ਮ\u{a41}ਰਗਾ",
+                "ਲ\u{a48}\u{a71}ਗ ਪੀਸ",
+                "ਹ\u{a4b}ਟਲ",
+                "ਹ\u{a71}ਡੀ ‘ਤ\u{a47} ਮੀਟ",
+            ],
+        },
+        #[cfg(feature = "pa_Arab")]
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ہڈی تے گوشت"),
+            keywords: &["گوشت", "ہڈی", "ہڈی تے گوشت"],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mit Ọn Tọ\u{301}p Bon"),
+            keywords: &["Bon", "Mit", "Mit Ọn Tọ\u{301}p Bon"],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mięso z kością"),
+            keywords: &["jedzenie", "kość", "mięso", "mięso z kością"],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د هډوکي غوښه"),
+            keywords: &["د هډوکي غوښه", "هډوکي، غوښه، د هډوکي غوښه"],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("carne"),
+            keywords: &[
+                "carne",
+                "carne com osso",
+                "carne no osso",
+                "churras",
+                "churrasco",
+                "osso",
+                "restaurante",
+            ],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("osso com carne"),
+            keywords: &["carne", "osso", "osso com carne"],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("aycha tullupi"),
+            keywords: &["aycha", "aycha tullupi", "tullu"],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("os cu carne"),
+            keywords: &["carne", "os", "os cu carne"],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-283"),
+            keywords: &["E10-283"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("мясо на косточке"),
+            keywords: &["кость", "мясо", "мясо на косточке", "рулька"],
+        },
+        #[cfg(feature = "rw")]
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("inyama y’igufwa"),
+            keywords: &["igufa", "inyama", "inyama y’igufwa"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱡᱟᱝ ᱨᱮ ᱡᱤᱞ"),
+            keywords: &["ᱡᱟᱝ ᱨᱮ ᱡᱤᱞ"],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("هڏي تي گوشت"),
+            keywords: &["هڏي تي گوشت", "هڏي، گوشت"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("කට\u{dd4}වෙහ\u{dd2} මස\u{dca}"),
+            keywords: &["කට\u{dd4}", "කට\u{dd4}වෙහ\u{dd2} මස\u{dca}", "මස\u{dca}"],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("mäso s kosťou"),
+            keywords: &["hlad", "jedlo", "kosť", "mäso", "mäso s kosťou"],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("meso s kostjo"),
+            keywords: &["kost", "meso", "meso s kostjo"],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("hilibka lafta"),
+            keywords: &["hilib", "hilibka lafta", "laf"],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("mish me kockë"),
+            keywords: &["kockë", "mish", "mish me kockë"],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("месо са коском"),
+            keywords: &["кoст", "мeсo"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("meso sa koskom"),
+            keywords: &["kost", "meso"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("köttben"),
+            keywords: &["kött", "köttben", "på ben"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("nyama kwenye mfupa"),
+            keywords: &["mfupa", "nyama", "nyama kwenye mfupa"],
+        },
+        #[cfg(feature = "sw_KE")]
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ம\u{bbe}மிசம\u{bcd}"),
+            keywords: &[
+                "உணவகம\u{bcd}",
+                "உணவு",
+                "எலும\u{bcd}பு",
+                "ம\u{bbe}மிசம\u{bcd}",
+                "விருந\u{bcd}து",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఎముకప\u{c48} మ\u{c3e}ంసం"),
+            keywords: &[
+                "ఎముక",
+                "ఎముకప\u{c48} మ\u{c3e}ంసం",
+                "ఎముకల మ\u{c3e}ంసం",
+                "బ\u{c4b}న\u{c4d}",
+                "మ\u{c3e}ంసం",
+                "మ\u{c40}ట\u{c4d}",
+                "మ\u{c40}ట\u{c4d} ఆన\u{c4d} బ\u{c4b}న\u{c4d}",
+                "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
+            ],
+        },
+        #[cfg(feature = "tg")]
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("гушт дар устухон"),
+            keywords: &["гушт", "гушт дар устухон", "устухон"],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เน\u{e37}\u{e49}อ"),
+            keywords: &[
+                "เน\u{e37}\u{e49}อ",
+                "เน\u{e37}\u{e49}อต\u{e34}ดกระด\u{e39}ก",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ስጋ ኣብ ልዕሊ ዓጽሚ"),
+            keywords: &["ስጋ", "ዓጽሚ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("süňkli et"),
+            keywords: &["et", "süňk", "süňkli et"],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kanomate moe hui"),
+            keywords: &["hui", "kanomate", "kanomate moe hui"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kemikli et"),
+            keywords: &["et", "gıda", "kemikli et", "restoran", "yemek"],
+        },
+        #[cfg(feature = "ug")]
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("سۆڭەكلىك گۆش"),
+            keywords: &["سۆڭەك", "سۆڭەكلىك گۆش", "گۆش"],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("м’ясо на кістці"),
+            keywords: &["кістка", "м’ясо", "м’ясо на кістці", "їжа"],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ہڈی پر گوشت"),
+            keywords: &["اسنیک", "گوشت", "ھڈی پر بوٹی", "ہڈی", "ہڈی پر گوشت"],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("suyakdagi go‘sht"),
+            keywords: &["go‘sht", "suyak", "suyakdagi go‘sht", "suyakli goʻsht"],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("thịt bám xương"),
+            keywords: &["thịt", "thịt bám xương", "xương"],
+        },
+        #[cfg(feature = "wo")]
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("yàpp ci yax"),
+            keywords: &["yax", "yàpp", "yàpp ci yax"],
+        },
+        #[cfg(feature = "xh")]
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("inyama esethanjeni"),
+            keywords: &["inyama", "inyama esethanjeni", "ithambo"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ẹran Ara Egungun"),
+            keywords: &["eegun", "Ẹran Ara Egungun", "ẹran"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɛran Ara Egungun"),
+            keywords: &["eegun", "Ɛran Ara Egungun", "ɛran"],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("肉連⻣"),
+            keywords: &["肉", "肉連⻣", "骨"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("肉连⻣"),
+            keywords: &["肉", "肉连⻣", "骨"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("排骨"),
+            keywords: &["带骨的肉", "排骨", "肉", "骨"],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("排骨"),
+            keywords: &["帶骨肉", "排骨"],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("肉骨"),
+            keywords: &[
+                "大塊的肉",
+                "帶骨肉",
+                "漫畫肉",
+                "肉",
+                "肉骨",
+                "食物",
+                "骨的肉",
+                "骨頭",
+            ],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("inyamo ethajeni"),
+            keywords: &["inyama", "inyamo ethajeni", "ithambo"],
+        },
+    ],
+};
 #[doc = "🍗"]
 pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
     glyph: "🍗",
@@ -6510,19 +10345,45 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("pluimveeboudjie"),
-            keywords: &["been", "boudjie", "hoender", "pluimvee", "pluimveeboudjie"],
+            keywords: &[
+                "been",
+                "boudjie",
+                "hoender",
+                "honger",
+                "kalkoen",
+                "pluimvee",
+                "pluimveeboudjie",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የዶሮ እግር"),
-            keywords: &["ሥጋ የለው አጥንት", "ሴት ዶሮ", "እግር", "የዶሮ እርባታ", "የዶሮ እግር"],
+            keywords: &[
+                "ሥጋ የለው አጥንት",
+                "ረሃብ",
+                "ሴት ዶሮ",
+                "ታፋ",
+                "እግር",
+                "የዶሮ ታፋ",
+                "የዶሮ እርባታ",
+                "የዶሮ እግር",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ساق دجاجة"),
-            keywords: &["دجاجة", "ساق دجاجة", "عظم"],
+            keywords: &[
+                "جوع",
+                "جوعان",
+                "جيعان",
+                "حبش",
+                "دجاجة",
+                "ساق دجاجة",
+                "عظم",
+                "فخذ دجاج",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -6550,18 +10411,23 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Пилешко бутче"),
-            keywords: &["Пилешко бутче", "бутче", "кост", "пиле", "пилешко"],
+            tts: Some("пилешко бутче"),
+            keywords: &["бутче", "кост", "пиле", "пилешко", "пуешко"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("পোল\u{9cd}ট\u{9cd}রির প\u{9be}"),
             keywords: &[
+                "খ\u{9be}ব\u{9be}র",
                 "চিকেন",
+                "প\u{9be}",
+                "পোলট\u{9cd}রি",
                 "পোল\u{9cd}ট\u{9cd}রি",
                 "পোল\u{9cd}ট\u{9cd}রির প\u{9be}",
+                "ম\u{9c1}র\u{9cd}গি",
                 "লেগ",
+                "লেগ পিস",
                 "হ\u{9be}ড\u{9bc}",
             ],
         },
@@ -6581,7 +10447,15 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("cuixa de pollastre"),
-            keywords: &["cuixa", "cuixa de pollastre", "pollastre"],
+            keywords: &[
+                "afamada",
+                "afamat",
+                "carn de pollastre",
+                "cuixa",
+                "cuixa de pollastre",
+                "gall d’indi",
+                "pollastre",
+            ],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -6601,9 +10475,15 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             tts: Some("kuřecí stehýnko"),
             keywords: &[
                 "drůbež",
+                "hladový",
+                "husa",
+                "jídlo",
+                "kachna",
                 "kost",
+                "krocan",
                 "kuře",
                 "kuřecí stehýnko",
+                "kýta",
                 "noha",
                 "stehno",
             ],
@@ -6618,27 +10498,36 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("kyllingelår"),
-            keywords: &["kylling", "kyllingelår"],
+            keywords: &["fjerkræ", "kalkun", "kylling", "kyllingelår", "mad"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Hähnchenschenkel"),
-            keywords: &["Geflügel", "Hähnchenschenkel", "Restaurant"],
+            keywords: &[
+                "Fleisch",
+                "Geflügel",
+                "Hähnchenschenkel",
+                "Hühnerbein",
+                "Restaurant",
+            ],
         },
         #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
             tts: Some("Pouletschenkel"),
-            keywords: &["Pouletschenkel"],
+            keywords: &["Geflügel", "Poulet", "Pouletschenkel"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πόδι πουλερικού"),
             keywords: &[
+                "γαλοπούλα",
                 "κοτόπουλο",
                 "κόκκαλο",
+                "πείνα",
+                "πεινασμένος",
                 "πουλερικό",
                 "πόδι",
                 "πόδι πουλερικού",
@@ -6648,7 +10537,15 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("poultry leg"),
-            keywords: &["bone", "chicken", "drumstick", "leg", "poultry"],
+            keywords: &[
+                "bone",
+                "chicken",
+                "drumstick",
+                "hungry",
+                "leg",
+                "poultry",
+                "turkey",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -6684,7 +10581,17 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("pata de pollo"),
-            keywords: &["comida", "pata", "pata de pollo", "pollo", "restaurante"],
+            keywords: &[
+                "cena",
+                "comida",
+                "muslo",
+                "muslo de pollo",
+                "pata",
+                "pata de pollo",
+                "pavo",
+                "pollo",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -6696,13 +10603,22 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["ave de corral", "hueso", "pata de pollo", "pierna", "pollo"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kanakoib"),
-            keywords: &["kana", "kanakoib", "koib", "kont", "luu"],
+            keywords: &[
+                "kalkun",
+                "kana",
+                "kanakoib",
+                "koib",
+                "kont",
+                "linnuliha",
+                "luu",
+                "söök",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -6720,7 +10636,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("kanankoipi"),
-            keywords: &["kana", "kanankoipi", "koipi", "luu", "siipikarja"],
+            keywords: &["kana", "koipi", "luu", "ruoka", "siipikarja"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -6733,6 +10649,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
                 "hita",
                 "hita ng manok",
                 "manok",
+                "paa ng manok",
                 "pagkain",
             ],
         },
@@ -6746,19 +10663,27 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("cuisse de poulet"),
-            keywords: &["cuisse de poulet", "poulet"],
+            keywords: &[
+                "cuisse",
+                "cuisse de poulet",
+                "dinde",
+                "nourriture",
+                "os",
+                "poulet",
+                "volaille",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
-            keywords: &["cuisse", "cuisse de poulet", "os", "poulet", "volaille"],
+            keywords: &["cuisse", "os", "poulet", "volaille"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cos sicín"),
-            keywords: &["cnámh", "cos", "sicín", "éineoil"],
+            keywords: &["cnámh", "cos", "sicín", "turcaí", "éineoil"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -6777,17 +10702,52 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("ચિકન ટ\u{a82}ગડી"),
             keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
                 "ચિકન ટ\u{a82}ગડી",
                 "ટ\u{a82}ગડી",
                 "પોલ\u{acd}ટ\u{acd}રી",
+                "ભોજન",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
             ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("ƙafan kaji"),
-            keywords: &["kaji", "kaza", "ƙafa", "ƙafan kaji", "ƙashi"],
+            tts: Some("cinyar kaza"),
+            keywords: &[
+                "abin daɗi",
+                "cinyar kaza",
+                "kaji",
+                "kayan daɗi",
+                "kaza",
+                "kwaɗayi",
+                "nama",
+                "naman kaza",
+                "naman talo-talo",
+                "ƙafa",
+                "ƙafar kaza",
+                "ƙashi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("cinyar kaza"),
+            keywords: &[
+                "abin daɗi",
+                "cinyar kaza",
+                "kaji",
+                "kayan daɗi",
+                "kaza",
+                "kwaɗayi",
+                "nama",
+                "naman kaza",
+                "naman talo-talo",
+                "ƙafa",
+                "ƙafar kaza",
+                "ƙashi",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -6802,6 +10762,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             keywords: &[
                 "चिकन ल\u{947}ग",
                 "म\u{941}र\u{94d}गी की टा\u{901}ग",
+                "म\u{941}र\u{94d}गी की टा\u{902}ग",
                 "म\u{941}र\u{94d}गीपालन",
             ],
         },
@@ -6809,13 +10770,25 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("batak"),
-            keywords: &["batak", "kost", "noga", "perad", "piletina"],
+            keywords: &[
+                "batak", "hrana", "kost", "noga", "perad", "piletina", "puretina",
+            ],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("csirkecomb"),
-            keywords: &["baromfi", "comb", "csirke", "csirkecomb", "csontos"],
+            keywords: &[
+                "baromfi",
+                "comb",
+                "csirke",
+                "csirkecomb",
+                "csontos",
+                "hús",
+                "kacsacomb",
+                "libacomb",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -6827,7 +10800,15 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("kaki ayam"),
-            keywords: &["ayam", "kaki ayam", "paha", "tulang", "unggas"],
+            keywords: &[
+                "ayam",
+                "kaki",
+                "kalkun",
+                "lapar",
+                "paha ayam",
+                "tulang",
+                "unggas",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -6845,13 +10826,24 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("coscia di pollo"),
-            keywords: &["coscia", "coscia di pollo", "pollo", "ristorante"],
+            keywords: &[
+                "carne",
+                "cibo",
+                "coscia",
+                "coscia di pollo",
+                "coscia di tacchino",
+                "fame",
+                "osso",
+                "pollo",
+                "ristorante",
+                "tacchino",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("鶏もも肉"),
-            keywords: &["もも肉", "チキン", "肉", "骨付き肉", "鶏もも肉"],
+            keywords: &["もも肉", "チキン", "肉", "骨", "骨付き肉", "鶏もも肉"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -6865,11 +10857,25 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             tts: Some("ფრინველის ფეხი"),
             keywords: &["ფეხი", "ფრინველი", "ფრინველის ფეხი", "ქათამი", "ძვალი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamessaḍt n uyaziḍ"),
+            keywords: &["tamessaḍt n uyaziḍ"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("тауықтың аяғы"),
-            keywords: &["аяқ", "сүйек", "тауық", "тауықтың аяғы", "тауықтың саны"],
+            keywords: &[
+                "аяқ",
+                "ет",
+                "сүйек",
+                "тауық",
+                "тауықтың аяғы",
+                "тауықтың саны",
+                "тағам",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -6894,13 +10900,30 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕ\u{ccb}ಳ\u{cbf} ಕಾಲು"),
-            keywords: &["ಕ\u{ccb}ಳ\u{cbf} ಕಾಲು", "ಕ\u{ccb}ಳ\u{cbf} ಮಾಂಸ"],
+            keywords: &[
+                "ಕ\u{ccb}ಳ\u{cbf} ಕಾಲು",
+                "ಕ\u{ccb}ಳ\u{cbf} ಮಾಂಸ",
+                "ಕ\u{ccb}ಳ\u{cbf} ಸಾಕಣ\u{cbf}ಕ\u{cc6} ಕ\u{cc7}ಂದ\u{ccd}ರ",
+                "ಟರ\u{ccd}ಕ\u{cbf}",
+                "ಡ\u{ccd}ರಮ\u{ccd} ಸ\u{ccd}ಟ\u{cbf}ಕ\u{ccd}",
+                "ಮ\u{cc2}ಳ\u{cc6}",
+                "ಹಸ\u{cbf}ವು",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("닭다리"),
-            keywords: &["고기", "닭고기", "닭다리"],
+            keywords: &[
+                "고기",
+                "다리",
+                "닭고기",
+                "닭다리",
+                "배고픔",
+                "뼈",
+                "치킨",
+                "칠면조",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -6939,9 +10962,12 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             tts: Some("paukščio šlaunelė"),
             keywords: &[
                 "kaulas",
+                "maistas",
+                "mėsa",
                 "paukštiena",
                 "paukščio šlaunelė",
                 "višta",
+                "šlaunelė",
                 "šlaunis",
             ],
         },
@@ -6949,7 +10975,15 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("putna kāja"),
-            keywords: &["gaļa", "kauls", "kāja", "putna kāja", "putns"],
+            keywords: &[
+                "gaļa",
+                "kauls",
+                "kāja",
+                "putna kāja",
+                "putns",
+                "pārtika",
+                "ēdiens",
+            ],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -6961,7 +10995,16 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("копан"),
-            keywords: &["живина", "кокошка", "копан", "коска", "нога"],
+            keywords: &[
+                "гладен",
+                "живина",
+                "кокошка",
+                "копан",
+                "коска",
+                "мисирка",
+                "нога",
+                "пилешко",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -6980,11 +11023,10 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "mn",
             tts: Some("тахиан шарсан мөч"),
             keywords: &[
+                "мөч",
                 "тахиа",
                 "тахиан шарсан мөч",
                 "тахианы шарсан мөч",
-                "хөл",
-                "шувуу",
                 "яс",
             ],
         },
@@ -6993,11 +11035,18 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("को\u{902}बडी, बदक इ पक\u{94d}षा\u{902}च\u{947} पाय"),
             keywords: &[
+                "अन\u{94d}न",
+                "क\u{941}क\u{94d}क\u{941}टपालन",
                 "को\u{902}बडी",
-                "को\u{902}बडी, बदक",
                 "को\u{902}बडी, बदक इ पक\u{94d}षा\u{902}च\u{947} पाय",
-                "को\u{902}बडी, बदक या\u{902}च\u{947} पाय",
+                "खाद\u{94d}य",
+                "चिकन ल\u{947}ग",
+                "त\u{902}गडी",
                 "पाय",
+                "बदक",
+                "बदक इ पक\u{94d}षा\u{902}च\u{947} पाय",
+                "बदक या\u{902}च\u{947} पाय",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
                 "हाड",
             ],
         },
@@ -7025,18 +11074,6 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
                 "အရ\u{102d}\u{102f}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kyllinglår"),
-            keywords: &[
-                "fjærfe",
-                "fjærkre",
-                "kyllingklubbe",
-                "kyllinglår",
-                "restaurant",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -7053,12 +11090,20 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("kippenpoot"),
-            keywords: &["bot", "gevogelte", "kip", "kippenpoot", "poot"],
+            keywords: &[
+                "bot",
+                "gevogelte",
+                "honger",
+                "kalkoen",
+                "kip",
+                "kippenpoot",
+                "poot",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("kyllinglår"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "fjørfe",
                 "fjørkre",
@@ -7084,7 +11129,9 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ਕ\u{a41}\u{a71}ਕੜ ਦੀ ਲ\u{a71}ਤ",
                 "ਪ\u{a4b}ਲਟਰੀ",
+                "ਮ\u{a41}ਰਗਾ",
                 "ਮ\u{a41}ਰਗ\u{a47} ਦੀ ਲ\u{a71}ਤ",
+                "ਲ\u{a48}ਗ ਪੀਸ",
                 "ਲ\u{a71}ਤ",
                 "ਹ\u{a4b}ਟਲ",
             ],
@@ -7102,8 +11149,8 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             keywords: &[
                 "Bon",
                 "Chíkin",
-                "Chíkin Lẹg Mídúl Pat",
-                "Mídúl Pát Ọf Chíkin Lẹg",
+                "Chíkin Lẹg Im Mídúl Pat",
+                "Lẹg",
                 "Póltri",
                 "Póltrí Lẹg",
             ],
@@ -7112,7 +11159,14 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("udko kurczaka"),
-            keywords: &["nóżka", "udko kurczaka"],
+            keywords: &[
+                "jedzenie",
+                "kurczak",
+                "mięso",
+                "nóżka",
+                "udko",
+                "udko kurczaka",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -7124,13 +11178,32 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("coxa de frango"),
-            keywords: &["aves", "coxa", "coxa de frango", "coxinha"],
+            keywords: &[
+                "aves",
+                "comida",
+                "coxa",
+                "coxa de frango",
+                "coxinha",
+                "fome",
+                "osso",
+                "peru",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("coxa de ave"),
-            keywords: &["coxa", "coxa de ave", "frango", "galinha", "osso"],
+            keywords: &[
+                "aves",
+                "coxa",
+                "coxa de ave",
+                "frango",
+                "galinha",
+                "osso",
+                "perna",
+                "peru",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -7148,7 +11221,20 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("pulpă de pasăre"),
-            keywords: &["ciocănel", "pasăre", "pulpă", "pulpă de pasăre"],
+            keywords: &[
+                "aliment",
+                "ciocănel",
+                "copan de pui",
+                "copănele",
+                "curcan",
+                "foame",
+                "os",
+                "pasăre",
+                "pui",
+                "pulpă",
+                "pulpă de pasăre",
+                "pulpă de pui",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -7161,6 +11247,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("куриная ножка"),
             keywords: &[
+                "еда",
                 "кость",
                 "куриная ножка",
                 "курица",
@@ -7174,6 +11261,12 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("ukuguru kw’inkoko"),
             keywords: &["igufa", "inkoko", "ukuguru", "ukuguru kw’inkoko", "umushwi"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱡᱟᱝ ᱡᱤᱞ"),
+            keywords: &["ᱡᱟᱝ ᱡᱤᱞ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -7197,7 +11290,17 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("kuracie stehno"),
-            keywords: &["hydina", "kosť", "kuracie stehno", "mäso"],
+            keywords: &[
+                "hlad",
+                "hydina",
+                "hydinové stehno",
+                "jedlo",
+                "kosť",
+                "kura",
+                "kuracie stehno",
+                "morka",
+                "mäso",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -7215,13 +11318,20 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("kofshë pule"),
-            keywords: &["kockë", "kofshë", "kofshë pule", "këmbë", "pulë"],
+            keywords: &[
+                "i uritur",
+                "kockë",
+                "kofshë",
+                "kofshë pule",
+                "këmbë",
+                "pulë",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("батак"),
-            keywords: &["батак", "живина", "кoст", "пилeтинa"],
+            keywords: &["батак", "глад", "живина", "кoст", "пилeтинa"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -7233,7 +11343,13 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("batak"),
-            keywords: &["batak", "kost", "piletina", "živina"],
+            keywords: &["batak", "glad", "kost", "piletina", "živina"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -7258,6 +11374,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("சிக\u{bcd}கன\u{bcd} லெக\u{bcd}ப\u{bc0}ஸ\u{bcd}"),
             keywords: &[
+                "உணவு",
                 "எலும\u{bcd}புத\u{bcd}துண\u{bcd}டு",
                 "கோழிக\u{bcd}கறி",
                 "சிக\u{bcd}கன\u{bcd}",
@@ -7273,7 +11390,14 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             keywords: &[
                 "క\u{c3e}లు",
                 "క\u{c4b}డ\u{c3f}",
+                "చ\u{c3f}క\u{c46}న\u{c4d}",
+                "టర\u{c4d}క\u{c40}",
+                "డ\u{c4d}రంస\u{c4d}ట\u{c3f}క\u{c4d}",
+                "ప\u{c4b}ల\u{c4d}ట\u{c4d}ర\u{c40}",
+                "బ\u{c4b}న\u{c4d}",
+                "మ\u{c3e}ంసం",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
+                "ల\u{c46}గ\u{c4d} ప\u{c40}స\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -7288,30 +11412,29 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             tts: Some("น\u{e48}องไก\u{e48}"),
             keywords: &["น\u{e48}องไก\u{e48}", "ไก\u{e48}"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እግሪ ደርሆ"),
+            keywords: &["ቱርኪ", "እግሪ", "ከበሮ በትሪ", "ዓጽሚ", "ደርሆ", "ጥሜት"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("guş budy"),
-            keywords: &[
-                "aýak",
-                "guş budy",
-                "guş eti",
-                "guşuň aýagy",
-                "süňk",
-                "towuk",
-            ],
+            keywords: &["aýak", "guş budy", "guş eti", "süňk", "towuk"],
         },
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("vaʻeʻi-moa"),
-            keywords: &["vaʻeʻi-moa"],
+            keywords: &["moa", "vaʻe", "vaʻeʻi-moa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("tavuk butu"),
-            keywords: &["but", "restoran", "tavuk", "tavuk butu"],
+            keywords: &["but", "gıda", "restoran", "tavuk", "tavuk butu", "yemek"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -7323,19 +11446,39 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("ніжка свійської птиці"),
-            keywords: &["курка", "кістка", "ніжка", "ніжка свійської птиці", "птиця"],
+            keywords: &[
+                "курка",
+                "кістка",
+                "ніжка",
+                "ніжка свійської птиці",
+                "птиця",
+                "ципля \"гриль\"",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("چکن کی ٹانگ"),
-            keywords: &["اسنیک", "ٹانگ", "چکن", "چکن کی ٹانگ"],
+            keywords: &[
+                "اسنیک",
+                "بھوک",
+                "ترکی مرغ",
+                "تیتر",
+                "مرغ",
+                "مرغ کی ٹانگ",
+                "ٹانگ",
+                "چکن",
+                "چکن کی ٹانگ",
+                "ہڈی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("parranda oyog‘i"),
             keywords: &[
+                "och",
                 "oyoq",
                 "parranda",
                 "parranda oyog‘i",
@@ -7348,7 +11491,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("đùi gia cầm"),
-            keywords: &["chân", "gia cầm", "gà", "xương", "đùi gia cầm"],
+            keywords: &["chân", "gia cầm", "gà", "gà tây", "xương", "đói", "đùi gà"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -7368,6 +11511,12 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             tts: Some("Ẹsẹ Adiyẹ"),
             keywords: &["adìye", "eegun", "ilé àdìyé", "Ẹsẹ Adiyẹ", "ẹsẹ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɛsɛ Adiyɛ"),
+            keywords: &["adìye", "eegun", "ilé àdìyé", "Ɛsɛ Adiyɛ", "ɛsɛ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -7384,7 +11533,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("家禽的腿"),
-            keywords: &["家禽", "家禽的腿", "鸡肉", "鸡腿"],
+            keywords: &["家禽", "家禽的腿", "火鸡", "饿", "骨", "鸡肉", "鸡腿"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -7396,7 +11545,7 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("雞髀"),
-            keywords: &["雞肉", "雞腿", "雞鎚", "雞髀"],
+            keywords: &["家禽", "腿", "雞肉", "雞腿", "雞鎚", "雞髀", "食物", "骨頭"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -7428,19 +11577,37 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("vleissnit"),
-            keywords: &["skaaptjop", "steak", "tjop", "varktjop", "vleissnit"],
+            keywords: &[
+                "rooivleis",
+                "skaaptjop",
+                "steak",
+                "tjop",
+                "varktjop",
+                "vleis",
+                "vleissnit",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ቁራጭ ስጋ"),
-            keywords: &["ቁራጭ ስጋ"],
+            keywords: &[
+                "መክተፍ",
+                "ሥጋ",
+                "ስቴክ",
+                "ቀይ ሥጋ",
+                "ቁራጭ ሥጋ",
+                "ቁራጭ ስጋ",
+                "በስሱ ተቆርጦ የበሰለ ሥጋ",
+                "የተከተፈ የበግ ሥጋ",
+                "የተከተፈ የአሳማ ሥጋ",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قطعة لحم"),
-            keywords: &["قطعة لحم"],
+            keywords: &["ستيك", "قطعة لحم", "لحم", "لحم أحمر", "لحمة حمرة"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -7458,7 +11625,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("ət tikəsi"),
-            keywords: &["steyk", "ət tikəsi"],
+            keywords: &["quzu əti", "steyk", "ət tikəsi"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -7473,6 +11640,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "агнешки котлет",
                 "котлет",
+                "месо",
                 "парче месо",
                 "свински котлет",
                 "стек",
@@ -7483,11 +11651,16 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("ম\u{9be}ংশের ট\u{9c1}করো"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "গোশত",
                 "চপ",
                 "পর\u{9cd}কচপ",
                 "ম\u{9be}ংশের ট\u{9c1}করো",
+                "ম\u{9be}ংস",
                 "ল\u{9cd}য\u{9be}ম\u{9cd}বচপ",
                 "স\u{9cd}টিক",
+                "স\u{9cd}টেক",
             ],
         },
         #[cfg(feature = "br")]
@@ -7512,7 +11685,14 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("tall de carn"),
-            keywords: &["bistec", "tall de carn", "tall de porc", "tall de xai"],
+            keywords: &[
+                "bistec",
+                "carn",
+                "carn vermella",
+                "tall de carn",
+                "tall de porc",
+                "tall de xai",
+            ],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -7534,12 +11714,16 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "flákota",
                 "hovězí",
                 "jehněčí",
+                "jídlo",
                 "kotleta",
+                "krvavý",
                 "kus masa",
                 "maso",
                 "plátek masa",
                 "steak",
+                "vepřová kotleta",
                 "vepřové",
+                "červené maso",
                 "řízek",
                 "žebírko",
             ],
@@ -7563,8 +11747,10 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "bøf",
                 "kotelet",
+                "kød",
                 "kødudskæring",
                 "lammekotelet",
+                "rødt kød",
                 "svinekotelet",
             ],
         },
@@ -7573,12 +11759,22 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Fleischstück"),
             keywords: &[
+                "Fleisch",
                 "Fleischstück",
                 "Kotelett",
                 "Lammkotelett",
+                "Schnitzel",
                 "Schweinekotelett",
                 "Steak",
+                "essen",
+                "rot",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -7587,6 +11783,9 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "αρνίσιο παϊδάκι",
                 "κομμάτι κρέας",
+                "κρέας",
+                "κόκκινο κρέας",
+                "μοσχαρίσιο κρέας",
                 "μπριζόλα",
                 "παϊδάκι",
                 "χοιρινή μπριζόλα",
@@ -7596,7 +11795,15 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("cut of meat"),
-            keywords: &["chop", "cut of meat", "lambchop", "porkchop", "steak"],
+            keywords: &[
+                "chop", "cut", "lambchop", "meat", "porkchop", "red", "steak",
+            ],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["chop", "cut of meat", "lamb chop", "pork chop", "steak"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -7608,7 +11815,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["chop", "cut of meat", "lamb chop", "pork chop", "steak"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -7632,7 +11839,18 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "bife",
+                "carne",
+                "carne roja",
+                "chuleta de cerdo",
+                "chuleta de cordero",
+                "chuleta de puerco",
+                "comida",
+                "corte de carne",
+                "filete",
+                "steak",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -7659,9 +11877,13 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "karbonaad",
                 "lambalihakarbonaad",
+                "liha",
                 "lihalõik",
                 "praelõik",
+                "punane",
                 "sealihakarbonaad",
+                "steik",
+                "söök",
             ],
         },
         #[cfg(feature = "eu")]
@@ -7683,9 +11905,12 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "استیک",
                 "برش گوشت",
+                "تکه گوشت",
                 "کوشت با استخوان دنده",
                 "کوشت با استخوان گوسفند",
+                "گوشت",
                 "گوشت با استخوان خوک",
+                "گوشت قرمز",
             ],
         },
         #[cfg(feature = "fi")]
@@ -7704,7 +11929,14 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fil",
             tts: Some("hiwa ng karne"),
-            keywords: &["chop", "hiwa ng karne", "lambchop", "porkchop", "steak"],
+            keywords: &[
+                "chop",
+                "hiwa ng karne",
+                "karne",
+                "lambchop",
+                "porkchop",
+                "steak",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -7721,13 +11953,16 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "côtelette de porc",
                 "côtelette d’agneau",
                 "morceau de viande",
+                "nourriture",
                 "steak",
+                "viande",
+                "viande rouge",
             ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("morceau de viande"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "ga")]
@@ -7767,10 +12002,20 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("મા\u{a82}સનો ટ\u{ac1}કડો"),
             keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "ગોસ",
+                "ચા\u{a82}પ",
                 "ચોપ",
+                "પકવાન",
                 "પોર\u{acd}કચોપ",
+                "પ\u{acd}રાણીન\u{ac1}\u{a82} મા\u{a82}સ",
+                "ભોજન",
+                "મા\u{a82}સ",
                 "મા\u{a82}સનો ટ\u{ac1}કડો",
+                "મા\u{a82}સનો ટ\u{ac2}કડો",
                 "લ\u{ac7}મ\u{acd}બચોપ",
+                "વાનગી",
                 "સ\u{acd}ટ\u{ac7}ક",
             ],
         },
@@ -7779,18 +12024,40 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "ha",
             tts: Some("yankan nama"),
             keywords: &[
+                "jan nama",
+                "naman alade",
                 "naman shanu",
+                "tsoka",
+                "tsokar nama",
                 "yanka",
                 "yankan nama",
                 "yankan naman alade",
                 "yankan naman ɗan rago",
+                "yankin nama",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("yankan nama"),
+            keywords: &[
+                "jan nama",
+                "naman alade",
+                "naman shanu",
+                "tsoka",
+                "tsokar nama",
+                "yanka",
+                "yankan nama",
+                "yankan naman alade",
+                "yankan naman ɗan rago",
+                "yankin nama",
             ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("נתח בשר"),
-            keywords: &["אומצה", "נתח בשר", "סטייק", "סטייק לבן", "צלע כבש"],
+            keywords: &["אומצה", "בשר אדום", "נתח בשר", "סטייק", "צלע כבש"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -7800,6 +12067,8 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "गोश\u{94d}त का ट\u{941}कड\u{93c}ा",
                 "चॉप",
                 "पोर\u{94d}कचॉप",
+                "मा\u{902}स",
+                "लाल मा\u{902}स",
                 "ल\u{948}म\u{94d}बचॉप",
                 "स\u{94d}टीक",
             ],
@@ -7808,7 +12077,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("odrezak"),
-            keywords: &["janjetina", "odrezak", "svinjetina"],
+            keywords: &["crveno meso", "janjetina", "meso", "odrezak", "svinjetina"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -7816,29 +12085,33 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             tts: Some("húsdarab"),
             keywords: &[
                 "bárányszelet",
+                "hús",
                 "húsdarab",
                 "hússzelet",
+                "nyers hús",
                 "sertésszelet",
                 "steak",
+                "szelet hús",
+                "étel",
             ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("մսի կտոր"),
-            keywords: &["կրծքամիս", "մսի կտոր", "ոսկրամիս", "տավար", "փափկամիս"],
+            keywords: &["մսի կտոր", "ոսկրամիս", "տավար", "փափկամիս"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("potongan daging"),
             keywords: &[
-                "babi",
                 "daging",
-                "domba",
+                "daging babi",
+                "daging domba",
                 "irisan",
-                "kambing",
-                "potongan daging",
+                "merah",
+                "potongan",
                 "steak",
             ],
         },
@@ -7870,13 +12143,34 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("taglio di carne"),
-            keywords: &["taglio di carne"],
+            keywords: &[
+                "bistecca",
+                "braciola",
+                "carne",
+                "carne rossa",
+                "cibo",
+                "costoletta",
+                "costoletta di maiale",
+                "costoletta d’agnello",
+                "cotoletta",
+                "scaloppina",
+                "taglio",
+                "taglio di carne",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ステーキ肉"),
-            keywords: &["ステーキ", "ステーキ肉", "ビーフ", "ポーク", "ラム", "肉"],
+            keywords: &[
+                "ステーキ",
+                "ステーキ肉",
+                "ビーフ",
+                "ポーク",
+                "ラム",
+                "肉",
+                "赤身肉",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -7896,11 +12190,17 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "ხორცის ნაჭერი",
             ],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tacriḥt n uksum"),
+            keywords: &["tacriḥt n uksum"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("ет кесімі"),
-            keywords: &["ет кесімі"],
+            keywords: &["ет", "ет кесімі", "стейк", "тағам"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -7919,18 +12219,34 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಮಾಂಸದ ತುಂಡು"),
             keywords: &[
+                "ಕತ\u{ccd}ತರ\u{cbf}ಸ\u{cbf}ದ ಮಾಂಸ",
+                "ಕುರ\u{cbf}ಮಾಂಸದ ಚಾಪ\u{ccd}",
+                "ಕ\u{cc6}ಂಪು ಮಾಂಸ",
+                "ಚಾಪ\u{ccd}",
                 "ಚ\u{ccb}ಪ\u{ccd}",
                 "ಪ\u{ccb}ರ\u{ccd}ಕ\u{ccd}\u{200c}ಚ\u{ccb}ಪ\u{ccd}",
+                "ಬ\u{cc7}ಯ\u{cbf}ಸ\u{cbf}ದ ಮಾಂಸ",
+                "ಮಾಂಸ",
                 "ಮಾಂಸದ ತುಂಡು",
+                "ಲ\u{ccd}ಯಾಂಬ\u{ccd}\u{200c}ಚಾಪ\u{ccd}",
                 "ಲ\u{ccd}ಯಾಂಬ\u{ccd}\u{200c}ಚ\u{ccb}ಪ\u{ccd}",
                 "ಸ\u{ccd}ಟ\u{cc0}ಕ\u{ccd}",
+                "ಹಂದ\u{cbf}ಮಾಂಸ",
+                "ಹಂದ\u{cbf}ಮಾಂಸದ ಚಾಪ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("고깃덩이"),
-            keywords: &["고깃덩이", "스테이크"],
+            keywords: &[
+                "고기",
+                "고깃덩이",
+                "붉은살 고기",
+                "스테이크",
+                "찹",
+                "포크찹",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -7974,7 +12290,9 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             tts: Some("ຕ\u{ec8}ອນຊ\u{eb5}\u{ec9}ນ"),
             keywords: &[
                 "ຊ\u{eb1}ອບ",
+                "ຊ\u{eb5}\u{ec9}ນ",
                 "ຕ\u{ec8}ອນຊ\u{eb5}\u{ec9}ນ",
+                "ຕ\u{ec8}ອນສະເຕ\u{eb1}ກ",
                 "ພ\u{eb1}ອກຊ\u{eb1}ອບ",
                 "ສະເຕ\u{eb1}ກ",
                 "ແລມຊ\u{eb1}ອບ",
@@ -7984,7 +12302,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("mėsos gabalėliai"),
-            keywords: &["kepsnys", "mėsos gabalėliai"],
+            keywords: &["kepsnys", "maistas", "mėsa", "mėsos gabalėliai"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
@@ -7995,6 +12313,8 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "gaļas gabals",
                 "jēra karbonāde",
                 "karbonāde",
+                "pārtika",
+                "sarkanā gaļa",
                 "steiks",
             ],
         },
@@ -8014,7 +12334,17 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("парче месо"),
-            keywords: &["кременадла", "парче", "парче месо", "стек"],
+            keywords: &[
+                "бифтек",
+                "исечено месо",
+                "кременадла",
+                "месо",
+                "парче",
+                "свинско месо",
+                "стек",
+                "црвено месо",
+                "јагнешко месо",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -8044,9 +12374,14 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("मटणचा त\u{941}कडा"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
                 "चॉप",
+                "नॉनव\u{94d}ह\u{947}ज",
                 "पोर\u{94d}कचॉप",
+                "मटण",
                 "मटणचा त\u{941}कडा",
+                "मा\u{902}स",
                 "ल\u{901}बचॉप",
                 "स\u{94d}टीक",
             ],
@@ -8055,7 +12390,9 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("sepotong daging"),
-            keywords: &["chop", "lambchop", "porkchop", "sepotong daging", "stik"],
+            keywords: &[
+                "cop", "daging", "kambing", "khinzir", "lembu", "merah", "potongan", "stik",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -8081,18 +12418,6 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "အသားပြား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kjøttstykke"),
-            keywords: &[
-                "biff",
-                "kjøttstykke",
-                "lammekotelett",
-                "lammeskank",
-                "svinekotelett",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8108,7 +12433,15 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("vlees"),
-            keywords: &["biefstuk", "kotelet", "lamskotelet", "varkenslap", "vlees"],
+            keywords: &[
+                "biefstuk",
+                "bout",
+                "karbonade",
+                "kotelet",
+                "lamskotelet",
+                "rood",
+                "vlees",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -8140,7 +12473,9 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             tts: Some("ਮੀਟ ਦਾ ਟ\u{a41}ਕੜਾ"),
             keywords: &[
                 "ਕ\u{a71}ਟ",
+                "ਮੀਟ",
                 "ਮੀਟ ਦਾ ਟ\u{a41}ਕੜਾ",
+                "ਲਾਲ ਮਾਸ",
                 "ਲ\u{a47}ਲ\u{a47} ਦਾ ਕ\u{a71}ਟ",
                 "ਸਟੀਕ",
                 "ਸ\u{a42}ਰ ਦਾ ਕ\u{a71}ਟ",
@@ -8174,7 +12509,16 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("kawałek mięsa"),
-            keywords: &["kawałek mięsa"],
+            keywords: &[
+                "jedzenie",
+                "kawałek",
+                "mięsa",
+                "mięso",
+                "schabowy",
+                "stek",
+                "wieprzowina",
+                "wołowina",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -8189,7 +12533,16 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("corte de carne"),
-            keywords: &["bife", "corte de carne", "costeleta de porco"],
+            keywords: &[
+                "bife",
+                "carne",
+                "carne vermelha",
+                "corte de carne",
+                "costela de cordeiro",
+                "costeleta",
+                "costeleta de porco",
+                "porco",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -8197,6 +12550,7 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             tts: Some("naco de carne"),
             keywords: &[
                 "bife",
+                "carne vermelha",
                 "costeleta",
                 "costeleta de cordeiro",
                 "costeleta de porco",
@@ -8219,7 +12573,14 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("bucată de carne"),
-            keywords: &["antricot", "bucată de carne", "cotlet", "friptură"],
+            keywords: &[
+                "antricot",
+                "bucată de carne",
+                "carne roșie",
+                "cotlet",
+                "friptură",
+                "halcă de carne",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -8231,7 +12592,15 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("кусок мяса"),
-            keywords: &["кусок", "кусок мяса", "мясо", "отбивная", "стейк"],
+            keywords: &[
+                "вырезка",
+                "красное мясо",
+                "кусок",
+                "кусок мяса",
+                "мясо",
+                "отбивная",
+                "стейк",
+            ],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -8244,6 +12613,12 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "inyama y’igufa y’intama",
                 "siteke",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱜᱮᱫ ᱠᱟᱱ ᱡᱤᱞ"),
+            keywords: &["ᱜᱮᱫ ᱠᱟᱱ ᱡᱤᱞ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -8267,13 +12642,31 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("plátok mäsa"),
-            keywords: &["bravčové", "jahňacie", "plátok mäsa", "rezeň"],
+            keywords: &[
+                "bravčové",
+                "jahňacie",
+                "jahňací steak",
+                "jedlo",
+                "kotleta",
+                "krvavé",
+                "mäso",
+                "plátok mäsa",
+                "rezeň",
+                "steak",
+                "červené mäso",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kos mesa"),
-            keywords: &["kos mesa"],
+            keywords: &[
+                "kos mesa",
+                "meso",
+                "rdeče meso",
+                "svinjski kotlet",
+                "zrezek",
+            ],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -8293,7 +12686,10 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             tts: Some("mish tul"),
             keywords: &[
                 "biftek",
+                "bërxollë",
                 "copë mishi",
+                "i kuq",
+                "mish",
                 "mish derri",
                 "mish qengji",
                 "mish tul",
@@ -8303,7 +12699,15 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("парче меса"),
-            keywords: &["одрезак", "парче меса", "стејк", "шницла"],
+            keywords: &[
+                "бифтек",
+                "говедина",
+                "месо",
+                "одрезак",
+                "свињетина",
+                "шницла",
+                "јагњетина",
+            ],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -8315,7 +12719,21 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("parče mesa"),
-            keywords: &["odrezak", "parče mesa", "stejk", "šnicla"],
+            keywords: &[
+                "biftek",
+                "govedina",
+                "jagnjetina",
+                "meso",
+                "odrezak",
+                "svinjetina",
+                "šnicla",
+            ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -8348,7 +12766,10 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "ஆட\u{bcd}டிறைச\u{bcd}சி",
                 "இறைச\u{bcd}சி",
                 "இறைச\u{bcd}சித\u{bcd} துண\u{bcd}டு",
+                "உணவு",
+                "சிவப\u{bcd}பு இறைச\u{bcd}சி",
                 "பன\u{bcd}றி இறைச\u{bcd}சி",
+                "பன\u{bcd}றியிறைச\u{bcd}சி",
             ],
         },
         #[cfg(feature = "te")]
@@ -8356,9 +12777,13 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("మ\u{c3e}ంసపు ముక\u{c4d}క"),
             keywords: &[
+                "ఎర\u{c4d}రన\u{c3f} మ\u{c3e}ంసం",
                 "గ\u{c4a}ర\u{c4d}ర\u{c46} మ\u{c3e}ంసపు ముక\u{c4d}క",
                 "పంద\u{c3f} మ\u{c3e}ంసపు ముక\u{c4d}క",
+                "మ\u{c3e}ంసం",
+                "మ\u{c3e}ంసం ముక\u{c4d}క",
                 "మ\u{c3e}ంసపు ముక\u{c4d}క",
+                "ర\u{c46}డ\u{c4d} మ\u{c40}ట\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -8377,10 +12802,22 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("เน\u{e37}\u{e49}อห\u{e31}\u{e48}นช\u{e34}\u{e49}น"),
             keywords: &[
+                "สด",
+                "ส\u{e31}ตว\u{e4c}",
+                "ส\u{e31}บ",
                 "สเต\u{e47}ก",
-                "ห\u{e31}\u{e48}น",
-                "เน\u{e37}\u{e49}อห\u{e31}\u{e48}นช\u{e34}\u{e49}น",
+                "หม\u{e39}",
+                "ห\u{e31}\u{e48}นช\u{e34}\u{e49}น",
+                "เน\u{e37}\u{e49}อ",
+                "เล\u{e37}อด",
+                "แดง",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ዝተቖርጸ ስጋ"),
+            keywords: &["ላምብቾፕ", "ስቲክ", "ስጋ", "ስጋ ሓሰማ", "ቀይሕ", "ቆሪጽካ", "ቆሪጽካ ምቑራጽ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -8392,13 +12829,25 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("kanomate fahi"),
-            keywords: &["kanomate fahi"],
+            keywords: &["kanomate", "kanomate fahi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("parça et"),
-            keywords: &["biftek", "kuşbaşı", "parça et", "sote", "steak"],
+            keywords: &[
+                "biftek",
+                "bonfile",
+                "et",
+                "gıda",
+                "kuşbaşı",
+                "kırmızı et",
+                "parça et",
+                "sote",
+                "steak",
+                "yemek",
+                "ızgara",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -8414,21 +12863,40 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "бараняча відбивна",
                 "котлета",
                 "мʼясний філей",
+                "мʼясо",
                 "свиняча котлета",
                 "стейк",
+                "їжа",
             ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("گوشت کا ٹکڑا"),
-            keywords: &["سو\u{651}ر کا گوشت", "چاپ", "گوشت کا ٹکڑا"],
+            keywords: &[
+                "بکرے کا گوشت",
+                "سرخ گوشت",
+                "سو\u{651}ر کا گوشت",
+                "چانپ",
+                "چانپیں",
+                "چاپ",
+                "گائے کا گوشت",
+                "گوشت",
+                "گوشت کا ٹکڑا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("go‘sht bo‘lagi"),
-            keywords: &["go‘sht bo‘lagi", "kesilgan", "lahm", "steyk"],
+            keywords: &[
+                "go‘sht bo‘lagi",
+                "kesilgan",
+                "lahm",
+                "mol goʻshti",
+                "qizil goʻsht",
+                "steyk",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -8472,6 +12940,18 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
                 "ìjẹun",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìgé ɛran"),
+            keywords: &[
+                "ijɛ àgùntàn",
+                "ijɛ ɛlɛ\u{301}dɛ\u{300}",
+                "steak",
+                "ìgé ɛran",
+                "ìjɛun",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -8488,19 +12968,21 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("肉块"),
-            keywords: &["排骨", "牛排", "猪排", "羊排", "肉块"],
+            keywords: &["排骨", "牛排", "猪排", "红肉", "羊排", "肉", "肉块", "肉排"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("肉片"),
-            keywords: &["肉片"],
+            keywords: &["牛扒", "牛排", "紅肉", "羊排", "肉片", "肉類", "豬排"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("肉塊"),
-            keywords: &["牛扒", "羊扒", "肉塊", "豬扒"],
+            keywords: &[
+                "牛扒", "牛肉", "紅肉", "羊扒", "羊肉", "肉塊", "豬扒", "豬肉", "食物",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -8538,19 +13020,26 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("spek"),
-            keywords: &["kos", "spek", "vleis"],
+            keywords: &[
+                "gerookte vleis",
+                "kos",
+                "ontbyt",
+                "spek",
+                "varkvleis",
+                "vleis",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ቤከን"),
-            keywords: &["ምግብ", "ስጋ", "ቤከን"],
+            keywords: &["ምግብ", "ስጋ", "ቤከን", "የአሳማ ስጋ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("لحم مقدد"),
-            keywords: &["طعام", "لحم", "لحم خنزير مقدد", "لحم مقدد"],
+            keywords: &["أكل", "بيكون", "طعام", "لحم", "لحم خنزير مقدد", "لحم مقدد"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -8562,7 +13051,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("bekon"),
-            keywords: &["bekon", "ət"],
+            keywords: &["bekon", "ərzaq", "ət"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -8574,13 +13063,18 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("бекон"),
-            keywords: &["бекон", "месо", "храна"],
+            keywords: &["бекон", "закуска", "месо", "храна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("বেকন"),
-            keywords: &["খ\u{9be}ব\u{9be}র", "বেকন", "ম\u{9be}ংশ"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "বেকন",
+                "ম\u{9be}ংশ",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -8616,7 +13110,15 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("slanina"),
-            keywords: &["jídlo", "maso", "slanina"],
+            keywords: &[
+                "bůček",
+                "jídlo",
+                "maso",
+                "slanina",
+                "smažený",
+                "sádlo",
+                "tučný",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -8634,7 +13136,19 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Bacon"),
-            keywords: &["Bacon", "Essen", "Frühstücksspeck", "Speck"],
+            keywords: &[
+                "Bacon",
+                "Essen",
+                "Frühstücksspeck",
+                "Speck",
+                "Speckstreifen",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -8682,7 +13196,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("tocino"),
-            keywords: &["carne", "comida", "panceta", "tocino"],
+            keywords: &["carne", "cerdo", "comida", "panceta", "tocineta", "tocino"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -8700,7 +13214,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("peekon"),
-            keywords: &["liha", "peekon", "toit"],
+            keywords: &["hommikusöök", "liha", "peekon", "toit"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -8714,8 +13228,10 @@ pub const BACON: crate::Emoji = crate::Emoji {
             tts: Some("بیکن"),
             keywords: &[
                 "بیکن",
+                "صبحانه",
                 "غذا",
                 "گوشت",
+                "گوشت خوک",
                 "گوشت خوک سوده\u{200c}شده",
                 "گوشت سوده\u{200c}شده",
             ],
@@ -8724,7 +13240,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("pekoni"),
-            keywords: &["liha", "pekoni", "ruoka"],
+            keywords: &["aamiainen", "liha", "porsas", "ruoka"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -8742,7 +13258,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("lard"),
-            keywords: &["bacon", "lard", "viande"],
+            keywords: &["bacon", "lard", "nourriture", "porc", "viande"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -8772,25 +13288,39 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("બ\u{ac7}કન"),
-            keywords: &["બ\u{ac7}કન", "ભોજન", "મા\u{a82}સ"],
+            keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "ડ\u{ac1}ક\u{acd}કરન\u{ac1}\u{a82} માસ",
+                "બ\u{ac7}કન",
+                "ભોજન",
+                "મા\u{a82}સ",
+                "સ\u{ac1}વરન\u{ac1}\u{a82} મા\u{a82}સ",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("naman alade"),
-            keywords: &["abinci", "nama", "naman alade"],
+            keywords: &["abinci", "abincin safe", "nama", "naman alade"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("naman alade"),
+            keywords: &["abinci", "abincin safe", "nama", "naman alade"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("בייקון"),
-            keywords: &["בייקון", "חזיר", "לא כשר"],
+            keywords: &["בייקון", "חזיר", "טרף", "לא כשר", "קותלי חזיר"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{947}कन"),
-            keywords: &["ब\u{947}कन", "भोजन", "मा\u{902}स"],
+            keywords: &["खाना", "ब\u{947}कन", "भोजन", "मा\u{902}स"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -8832,7 +13362,16 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("pancetta"),
-            keywords: &["bacon", "carne", "cibo", "pancetta"],
+            keywords: &[
+                "americana",
+                "bacon",
+                "carne",
+                "cibo",
+                "cibo americano",
+                "colazione",
+                "maiale",
+                "pancetta",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -8856,7 +13395,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("сүрсүбе"),
-            keywords: &["ет", "сүрсүбе", "тағам"],
+            keywords: &["бекон", "ет", "сүрсүбе", "тағам"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -8874,13 +13413,13 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಬ\u{cc6}ಕಾನ\u{ccd}"),
-            keywords: &["ಆಹಾರ", "ಬ\u{cc6}ಕಾನ\u{ccd}", "ಮಾಂಸ"],
+            keywords: &["ಆಹಾರ", "ಬ\u{cc6}ಕಾನ\u{ccd}", "ಬ\u{cc7}ಕನ\u{ccd}", "ಮಾಂಸ"],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("베이컨"),
-            keywords: &["고기", "돼지고기", "베이컨", "식품"],
+            keywords: &["고기", "돼지고기", "베이컨", "식품", "음식"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -8916,7 +13455,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("bekons"),
-            keywords: &["bekons", "gaļa", "ēdiens"],
+            keywords: &["bekons", "gaļa", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -8951,7 +13490,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("ब\u{947}कन"),
-            keywords: &["खाद\u{94d}य", "ब\u{947}कन", "मटण"],
+            keywords: &["अन\u{94d}न", "खाद\u{94d}य", "ब\u{947}कन", "मटण"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -8975,12 +13514,6 @@ pub const BACON: crate::Emoji = crate::Emoji {
                 "အသား",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bacon"),
-            keywords: &["bacon", "kjøtt", "mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -8991,12 +13524,12 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("bacon"),
-            keywords: &["bacon", "vlees", "voedsel"],
+            keywords: &["eten", "ontbijt", "spek", "vlees"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("bacon"),
+            tts: Some("↑↑↑"),
             keywords: &["bacon", "kjøt", "mat"],
         },
         #[cfg(feature = "or")]
@@ -9013,7 +13546,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਬ\u{a47}ਕਨ"),
-            keywords: &["ਬ\u{a47}ਕਨ", "ਭ\u{a4b}ਜਨ", "ਮਾਸ"],
+            keywords: &["ਬ\u{a47}ਕਨ", "ਭ\u{a41}\u{a71}ਖ", "ਭ\u{a4b}ਜਨ", "ਮਾਸ", "ਮੀਟ"],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -9043,7 +13576,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("bacon"),
-            keywords: &["bacon", "comida", "toucinho"],
+            keywords: &["bacon", "comida", "fome", "toucinho"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -9061,7 +13594,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("bacon"),
-            keywords: &["bacon", "carne", "jambon", "mâncare", "șuncă"],
+            keywords: &["bacon", "carne", "costiță", "mic-dejun", "mâncare", "șuncă"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -9097,7 +13630,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("slanina"),
-            keywords: &["jedlo", "mäso", "slanina"],
+            keywords: &["hlad", "jedlo", "mäso", "slanina", "sádlo", "varenie"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -9121,19 +13654,25 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("сланина"),
-            keywords: &["месо", "сланина", "храна"],
+            keywords: &["доручак", "месо", "сланина", "сланиница", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["доручак", "месо", "сланина", "храна"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("slanina"),
-            keywords: &["hrana", "meso", "slanina"],
+            keywords: &["doručak", "hrana", "meso", "slanina", "slaninica"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["doručak", "hrana", "meso", "slanina"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9145,7 +13684,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("nyama"),
-            keywords: &["chakula", "nyama"],
+            keywords: &["chakula", "nyama", "nyama ya nguruwe"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -9163,7 +13702,14 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "te",
             tts: Some("పంద\u{c3f} మ\u{c3e}ంసం"),
-            keywords: &["ఆహ\u{c3e}రం", "పంద\u{c3f} మ\u{c3e}ంసం", "మ\u{c3e}ంసం"],
+            keywords: &[
+                "ఆహ\u{c3e}రం",
+                "పంద\u{c3f} మ\u{c3e}ంసం",
+                "ఫుడ\u{c4d}",
+                "బ\u{c47}కన\u{c4d}",
+                "మ\u{c3e}ంసం",
+                "మ\u{c40}ట\u{c4d}",
+            ],
         },
         #[cfg(feature = "tg")]
         crate::Annotation {
@@ -9176,6 +13722,12 @@ pub const BACON: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("เบคอน"),
             keywords: &["อาหาร", "เน\u{e37}\u{e49}อ", "เบคอน"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቤኮን"),
+            keywords: &["መግቢ", "ስጋ", "ቁርሲ", "ቤከን"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -9193,7 +13745,14 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("domuz pastırması"),
-            keywords: &["domuz pastırması", "et", "yiyecek"],
+            keywords: &[
+                "bacon",
+                "domuz pastırması",
+                "et",
+                "gıda",
+                "kahvaltı",
+                "yiyecek",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -9211,13 +13770,21 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("سور کا نمکین گوشت"),
-            keywords: &["خوراک", "سور", "سور کا نمکین گوشت", "نمکین", "گوشت"],
+            keywords: &[
+                "خوراک",
+                "سور",
+                "سور کا نمکین گوشت",
+                "نمکین",
+                "نمکین کوشت",
+                "کھانا",
+                "گوشت",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("bekon"),
-            keywords: &["bekon", "go‘sht", "taom"],
+            keywords: &["bekon", "go‘sht", "taom", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -9243,6 +13810,12 @@ pub const BACON: crate::Emoji = crate::Emoji {
             tts: Some("Ẹran Ẹlẹdẹ"),
             keywords: &["ónjẹ", "Ẹran Ẹlẹdẹ", "ẹran", "ẹran ẹlẹ\u{301}dẹ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɛran Ɛlɛdɛ"),
+            keywords: &["ónjɛ", "Ɛran Ɛlɛdɛ", "ɛran", "ɛran ɛlɛ\u{301}dɛ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -9259,7 +13832,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("培根"),
-            keywords: &["培根", "熏肉", "肉", "食物"],
+            keywords: &["培根", "烟肉", "熏肉", "肉", "背肯", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -9271,7 +13844,7 @@ pub const BACON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("煙肉"),
-            keywords: &["煙肉", "煙肉片", "食物"],
+            keywords: &["培根", "煙肉", "煙肉片", "肉", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -9303,19 +13876,27 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &[
+                "burger",
+                "eet",
+                "hamburger",
+                "honger",
+                "kitskos",
+                "kos",
+                "wegneemete",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሃምበርገር"),
-            keywords: &["ሃምበርገር", "በርገር"],
+            keywords: &["ሃምበርገር", "መመገብ", "መብላት", "ምግብ", "ረሃብ", "በርገር", "ፈጣን ምግብ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("همبرغر"),
-            keywords: &["برغر", "مطعم", "همبرغر"],
+            keywords: &["برغر", "جوع", "جوعان", "جيعان", "مطعم", "همبرغر", "همبورغر"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -9342,13 +13923,15 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("хамбургер"),
-            keywords: &["бургер", "сандвич", "хамбургер"],
+            keywords: &["бургер", "гладен", "сандвич", "хамбургер", "храна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("হ\u{9cd}য\u{9be}মব\u{9be}র\u{9cd}গ\u{9be}র"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
                 "ব\u{9be}র\u{9cd}গ\u{9be}র",
                 "হ\u{9cd}য\u{9be}মব\u{9be}র\u{9cd}গ\u{9be}র",
             ],
@@ -9369,7 +13952,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("hamburguesa"),
-            keywords: &["hamburguesa"],
+            keywords: &["afamada", "afamat", "hamburguesa", "menjar", "menjar ràpid"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -9381,7 +13964,19 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("hamburger"),
-            keywords: &["burger", "burgr", "hamburger", "hamburgr"],
+            keywords: &[
+                "burger",
+                "burgr",
+                "cheeseburger",
+                "fast food",
+                "fastfood",
+                "hamburger",
+                "hamburgr",
+                "hladový",
+                "jídlo",
+                "jíst",
+                "rychlé občerstvení",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -9393,43 +13988,51 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "hamburger", "mad"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Hamburger"),
-            keywords: &["Burger", "Hamburger", "Restaurant"],
+            keywords: &["Burger", "Fast Food", "Hamburger", "Restaurant"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χάμπουργκερ"),
-            keywords: &["χάμπουργκερ"],
+            keywords: &[
+                "γρήγορο φαγητό",
+                "μπέργκερ",
+                "πεινασμένος",
+                "ταχυφαγείο",
+                "τρώω",
+                "φαγητό",
+                "χάμπουργκερ",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("beefburger"),
-            keywords: &["beefburger", "burger", "hamburger"],
+            keywords: &["burger", "eat", "fast", "food", "hamburger", "hungry"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
-            tts: Some("hamburger"),
+            tts: Some("↑↑↑"),
             keywords: &["beefburger", "burger", "hamburger"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -9453,7 +14056,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["burger", "comer", "comida rápida", "hamburguesa"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -9471,7 +14074,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "hamburger", "kiirtoit", "näljane", "söök"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -9489,13 +14092,13 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("hampurilainen"),
-            keywords: &["hampurilainen", "jauhelihapihvi"],
+            keywords: &["burgeri", "hamppari", "jauhelihapihvi"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger", "pagkain"],
+            keywords: &["burger", "fast food", "gutom", "hamburger", "pagkain"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -9514,7 +14117,13 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &[
+                "burger",
+                "cheeseburger",
+                "fast food",
+                "hamburger",
+                "nourriture",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -9526,7 +14135,15 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("burgar"),
-            keywords: &["burgar"],
+            keywords: &[
+                "ag ithe",
+                "bia",
+                "bia gasta",
+                "burgaire",
+                "burgar",
+                "ith",
+                "ocras",
+            ],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -9545,7 +14162,11 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("હ\u{ac7}મબર\u{acd}ગર"),
             keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
                 "બર\u{acd}ગર",
+                "ભ\u{ac2}ખ",
+                "ભોજન",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
                 "હ\u{ac7}મબર\u{acd}ગર",
             ],
@@ -9553,8 +14174,32 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            tts: Some("biredin hamburger"),
+            keywords: &[
+                "abinci",
+                "abincin fulawa",
+                "abincin sayarwa",
+                "biredin boga",
+                "biredin burger",
+                "biredin hamburger",
+                "boga",
+                "kayan fulawa",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("biredin hamburger"),
+            keywords: &[
+                "abinci",
+                "abincin fulawa",
+                "abincin sayarwa",
+                "biredin boga",
+                "biredin burger",
+                "biredin hamburger",
+                "boga",
+                "kayan fulawa",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -9567,7 +14212,9 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             lang: "hi",
             tts: Some("ह\u{948}मबर\u{94d}गर"),
             keywords: &[
+                "खाना",
                 "बर\u{94d}गर",
+                "भोजन",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
                 "ह\u{948}मबर\u{94d}गर",
             ],
@@ -9576,13 +14223,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["brza hrana", "burger", "hamburger", "hrana"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("hamburger"),
-            keywords: &["burger", "hambi", "hamburger"],
+            keywords: &[
+                "burger",
+                "gyorskaja",
+                "hambi",
+                "hamburger",
+                "sajtburger",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -9594,7 +14248,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "hamburger", "lapar", "makan", "makanan", "roti"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -9612,13 +14266,21 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &[
+                "burger",
+                "cibo",
+                "fast food",
+                "hamburger",
+                "panino",
+                "ristorante",
+                "sandwich",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ハンバーガー"),
-            keywords: &["ハンバーガー", "バーガー"],
+            keywords: &["ハンバーガー", "バーガー", "ファストフード"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -9636,7 +14298,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("гамбургер"),
-            keywords: &["бургер", "гамбургер"],
+            keywords: &["бургер", "гамбургер", "тағам"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -9657,13 +14319,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಹ\u{ccd}ಯಾಂಬರ\u{ccd}ಗರ\u{ccd}"),
-            keywords: &["ಬರ\u{ccd}ಗರ\u{ccd}", "ಹ\u{ccd}ಯಾಂಬರ\u{ccd}ಗರ\u{ccd}"],
+            keywords: &[
+                "ಆಹಾರ",
+                "ತ\u{cbf}ನ\u{ccd}ನುವುದು",
+                "ಫಾಸ\u{ccd}ಟ\u{ccd} ಫುಡ\u{ccd}",
+                "ಬರ\u{ccd}ಗರ\u{ccd}",
+                "ಹಸ\u{cbf}ವು",
+                "ಹ\u{ccd}ಯಾಂಬರ\u{ccd}ಗರ\u{ccd}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("햄버거"),
-            keywords: &["버거", "패스트푸드", "햄버거"],
+            keywords: &["배고픔", "버거", "식품", "음식", "패스트푸드", "햄버거"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -9687,19 +14356,19 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lo",
             tts: Some("ແຮມເບ\u{eb5}ເກ\u{eb5}"),
-            keywords: &["ເບ\u{eb5}ເກ\u{eb5}", "ແຮມເບ\u{eb5}ເກ\u{eb5}"],
+            keywords: &["ອາຫານ", "ເບ\u{eb5}ເກ\u{eb5}", "ແຮມເບ\u{eb5}ເກ\u{eb5}"],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("mėsainis"),
-            keywords: &["mėsainis"],
+            keywords: &["greitasis", "greitmaistis", "maistas", "mėsainis"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("hamburgers"),
-            keywords: &["burgers", "hamburgers"],
+            keywords: &["burgers", "hamburgers", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -9711,7 +14380,18 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("хамбургер"),
-            keywords: &["плескавица", "сендвич", "хамбургер"],
+            keywords: &[
+                "брза храна",
+                "бургер",
+                "гладен",
+                "ми се јаде",
+                "плескавица",
+                "сендвич",
+                "сендвич со плескавица",
+                "хамбургер",
+                "храна",
+                "јадам",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -9736,8 +14416,11 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("गोमा\u{902}साची वाटोळी तळल\u{947}ली वडी"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
                 "गोमा\u{902}साची वाटोळी तळल\u{947}ली वडी",
                 "बर\u{94d}गर",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
                 "ह\u{945}म\u{94d}बर\u{94d}गर",
             ],
         },
@@ -9745,7 +14428,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "hamburger", "lapar", "makan", "makanan segera"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -9757,13 +14440,14 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "my",
             tts: Some("ဟမ\u{103a}ဘာဂါ"),
-            keywords: &["ဘာဂျါ ဟမျဘာဂါ", "ဟမ\u{103a}ဘာဂါ"],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hamburger"),
-            keywords: &["burger", "hamburger", "restaurant"],
+            keywords: &[
+                "စားသည\u{103a}",
+                "ဆာလောင\u{103a}သည\u{103a}",
+                "ဘာဂါ",
+                "ဟမ\u{103a}ဘာဂါ",
+                "အစားအသောက\u{103a}",
+                "အမြန\u{103a}",
+            ],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -9775,7 +14459,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "eten", "fastfood", "hamburger", "honger"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -9797,7 +14481,14 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਹ\u{a48}ਮਬਰਗਰ"),
-            keywords: &["ਬਰਗਰ", "ਹ\u{a48}ਮਬਰਗਰ", "ਹ\u{a4b}ਟਲ"],
+            keywords: &[
+                "ਖਾਣਾ",
+                "ਫਾਸਟ ਫ\u{a42}ਡ",
+                "ਬਰਗਰ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਹ\u{a48}ਮਬਰਗਰ",
+                "ਹ\u{a4b}ਟਲ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -9815,7 +14506,7 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("hamburger"),
-            keywords: &["fast food", "hamburger"],
+            keywords: &["burger", "bułka", "fast food", "hamburger", "jedzenie"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -9827,13 +14518,21 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("hambúrguer"),
-            keywords: &["búrguer", "hambúrguer"],
+            keywords: &["búrguer", "cheese burguer", "hambúrguer", "restaurante"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["cheeseburger", "hambúrger", "hambúrguer"],
+            keywords: &[
+                "cheeseburger",
+                "comer",
+                "comida",
+                "fast food",
+                "fome",
+                "hambúrger",
+                "hambúrguer",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -9845,7 +14544,14 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("hamburger"),
-            keywords: &["burger", "carne", "fast food", "hamburger"],
+            keywords: &[
+                "burger",
+                "carne",
+                "fast food",
+                "foame",
+                "hamburger",
+                "mâncare",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -9881,13 +14587,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("hamburger"),
-            keywords: &["hamburger"],
+            keywords: &[
+                "burger",
+                "cheeseburger",
+                "fast food",
+                "hamburger",
+                "hlad",
+                "jedlo",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("hamburger"),
-            keywords: &["hamburger"],
+            keywords: &["burger", "hamburger", "hitra hrana", "lakota"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -9899,13 +14612,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("hamburger"),
-            keywords: &["burger", "hamburger"],
+            keywords: &["burger", "ha", "hamburger", "i uritur"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("хамбургер"),
-            keywords: &["пљескавица", "хамбургeр", "хамбургер"],
+            keywords: &[
+                "глад",
+                "пљеска",
+                "пљескавица",
+                "хамбургeр",
+                "храна",
+                "јести",
+            ],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -9917,7 +14637,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("hamburger"),
-            keywords: &["hamburger", "pljeskavica"],
+            keywords: &[
+                "glad",
+                "hamburger",
+                "hrana",
+                "jesti",
+                "pljeska",
+                "pljeskavica",
+            ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -9953,8 +14686,14 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("హ\u{c3e}ంబర\u{c4d}గర\u{c4d}"),
             keywords: &[
+                "ఆకల\u{c3f}",
+                "ఈట\u{c4d}",
+                "త\u{c3f}నడం",
+                "ఫ\u{c3e}స\u{c4d}ట\u{c4d} ఫుడ\u{c4d}",
+                "ఫుడ\u{c4d}",
                 "బర\u{c4d}గర\u{c4d}",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
+                "హంగ\u{c4d}ర\u{c40}",
                 "హ\u{c3e}ంబర\u{c4d}గర\u{c4d}",
             ],
         },
@@ -9968,7 +14707,20 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("แฮมเบอร\u{e4c}เกอร\u{e4c}"),
-            keywords: &["เบอร\u{e4c}เกอร\u{e4c}", "แฮมเบอร\u{e4c}เกอร\u{e4c}"],
+            keywords: &[
+                "ก\u{e34}น",
+                "ด\u{e48}วน",
+                "ฟาสต\u{e4c}ฟ\u{e39}\u{e49}ด",
+                "ห\u{e34}ว",
+                "อาหาร",
+                "แฮมเบอร\u{e4c}เกอร\u{e4c}",
+            ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሃምበርገር"),
+            keywords: &["ሃምበርገር", "በርገር"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -9986,7 +14738,14 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("hamburger"),
-            keywords: &["hamburger", "restoran"],
+            keywords: &[
+                "gıda",
+                "hamburger",
+                "restoran",
+                "yemek",
+                "yiyecek",
+                "çizburger",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -9998,19 +14757,28 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("гамбургер"),
-            keywords: &["бургер", "гамбургер"],
+            keywords: &["бургер", "гамбургер", "чизбургер", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہیم برگر"),
-            keywords: &["اسنیک", "برگر", "ہیم برگر"],
+            keywords: &[
+                "اسنیک",
+                "برگر",
+                "بن کباب",
+                "بھوک",
+                "خوراک",
+                "پھرتی سے تیار کھانا",
+                "کھانا",
+                "ہیم برگر",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("gamburger"),
-            keywords: &["burger", "gamburger"],
+            keywords: &["burger", "gamburger", "taom", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -10036,6 +14804,12 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             tts: Some("Hamburger"),
             keywords: &["Hamburger", "bọ\u{301}gà"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Hamburger"),
+            keywords: &["Hamburger", "bɔ\u{301}gà"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -10052,19 +14826,19 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("汉堡"),
-            keywords: &["汉堡", "汉堡包"],
+            keywords: &["吃", "汉堡", "汉堡包", "速食", "食物", "饿"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("漢堡"),
-            keywords: &["漢堡", "漢堡包"],
+            keywords: &["漢堡", "漢堡包", "餓了"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("漢堡包"),
-            keywords: &["↑↑↑"],
+            keywords: &["快餐", "漢堡", "食物", "餓"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -10096,19 +14870,34 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("aartappelskyfies"),
-            keywords: &["aartappel", "aartappelskyfies", "skyfies", "tjips"],
+            keywords: &[
+                "aartappel",
+                "aartappelskyfies",
+                "kos",
+                "skyfies",
+                "slaptjips",
+                "tjips",
+                "wegneemete",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ፍሬንች ፍራይስ"),
-            keywords: &["የፈረንሳይ", "ፍራይስ", "ፍሬንች ፍራይስ"],
+            keywords: &["ቺብስ", "የፈረንሳይ", "ፈጣን ምግብ", "ፍራይስ", "ፍሬንች ፍራይስ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بطاطس مقلية"),
-            keywords: &["بطاطس مقلية", "مطعم"],
+            keywords: &[
+                "بطاطا",
+                "بطاطس مقلية",
+                "فاست فود",
+                "ماك دونالد",
+                "ماكدو",
+                "مطعم",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -10120,7 +14909,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("kartof qızartması"),
-            keywords: &["fransız", "kartof qızartması", "qızartma"],
+            keywords: &["fransız", "fri", "kartof qızartması", "qızartma"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -10132,13 +14921,22 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("пържени картофи"),
-            keywords: &["картофи", "пържени"],
+            keywords: &["картофи", "пържени", "храна"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ফ\u{9cd}রেঞ\u{9cd}চ ফ\u{9cd}র\u{9be}ই"),
-            keywords: &["ফ\u{9cd}র\u{9be}ই", "ফ\u{9cd}রেঞ\u{9cd}চ"],
+            keywords: &[
+                "আল\u{9c1} ভ\u{9be}জ\u{9be}",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "ফ\u{9be}স\u{9cd}ট ফ\u{9c1}ড",
+                "ফ\u{9cd}র\u{9be}ই",
+                "ফ\u{9cd}রেঞ\u{9cd}চ",
+                "ভ\u{9be}জ\u{9be}ভ\u{9c1}জি",
+                "স\u{9cd}ন\u{9cd}য\u{9be}ক\u{9cd}স",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -10156,7 +14954,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("patates fregides"),
-            keywords: &["fregides", "patates"],
+            keywords: &["fregides", "menjar ràpid", "patates"],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -10174,7 +14972,16 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("hranolky"),
-            keywords: &["bramborové", "brambory", "hranolky", "pomfrity"],
+            keywords: &[
+                "bramborové",
+                "brambory",
+                "fastfood",
+                "hranolky",
+                "jídlo",
+                "pomfritky",
+                "pomfrity",
+                "rychlé občerstvení",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -10186,7 +14993,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("pomfritter"),
-            keywords: &["pomfrit", "pomfritter", "pommes frites"],
+            keywords: &["fastfood", "pomfrit", "pomfritter", "pommes frites"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
@@ -10194,29 +15001,29 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             tts: Some("Pommes frites"),
             keywords: &["Fritten", "Pommes", "Pommes Frites", "Pommes frites"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("τηγανητές πατάτες"),
-            keywords: &["πατάτες", "τηγανητές πατάτες", "τηγανιτές"],
+            keywords: &["γρήγορο φαγητό", "πατάτες", "τηγανητές", "φαγητό"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("french fries"),
-            keywords: &["french", "fries"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("chips"),
-            keywords: &["chips", "french fries", "fries"],
+            keywords: &["fast", "food", "french", "fries"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["chips", "fries"],
+            keywords: &["chips", "french fries", "fries"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -10246,7 +15053,14 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("papas fritas"),
-            keywords: &["comida", "hamburguesa", "papas fritas"],
+            keywords: &[
+                "comida",
+                "comida rápida",
+                "papas a la francesa",
+                "papas fritas",
+                "patatas",
+                "patatas fritas",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -10264,7 +15078,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("friikartulid"),
-            keywords: &["friikartul", "friikartulid"],
+            keywords: &["friikartul", "kiirtoit", "söök"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -10282,13 +15096,13 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("ranskalaiset"),
-            keywords: &["ranskalaiset", "tikkuperunat"],
+            keywords: &["peruna", "ranskikset", "tikkuperunat"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("french fries"),
-            keywords: &["french fries", "fries", "pagkain"],
+            keywords: &["french fries", "fries", "meryenda", "pagkain"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -10300,7 +15114,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("frites"),
-            keywords: &["frites", "potatœs"],
+            keywords: &["fast food", "frites", "potatoes", "potatœs"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -10312,7 +15126,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("sceallóga"),
-            keywords: &["sceallóga"],
+            keywords: &["bia", "sceallóga"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -10331,8 +15145,15 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("ફ\u{acd}ર\u{ac7}ન\u{acd}ચ ફ\u{acd}રાઇસ"),
             keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "તળ\u{ac7}લા બટાકા",
+                "તળ\u{ac7}લા બટ\u{ac7}ટા",
                 "ફ\u{acd}રાઇસ",
                 "ફ\u{acd}ર\u{ac7}ન\u{acd}ચ ફ\u{acd}રાઇસ",
+                "બટાકા",
+                "બટ\u{ac7}ટા",
+                "ભોજન",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
             ],
         },
@@ -10340,7 +15161,27 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("soyayyen dankali"),
-            keywords: &["dankali", "soyayye", "soyayyen dankali"],
+            keywords: &[
+                "cifs",
+                "dankali",
+                "dankalin turai",
+                "dankalin turawa",
+                "soyayye",
+                "soyayyen dankali",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("soyayyen dankali"),
+            keywords: &[
+                "cifs",
+                "dankali",
+                "dankalin turai",
+                "dankalin turawa",
+                "soyayye",
+                "soyayyen dankali",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -10353,8 +15194,14 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "hi",
             tts: Some("फ\u{93c}\u{94d}र\u{947}\u{902}च फ\u{93c}\u{94d}राइस"),
             keywords: &[
+                "आल\u{942} क\u{947} चिप\u{94d}स",
+                "आल\u{942} क\u{947} लच\u{94d}छ\u{947}",
+                "खाना",
+                "ज\u{902}क",
                 "फ\u{93c}\u{94d}राइस",
                 "फ\u{93c}\u{94d}र\u{947}\u{902}च फ\u{93c}\u{94d}राइस",
+                "भ\u{942}ख",
+                "भोजन",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
             ],
         },
@@ -10362,25 +15209,33 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("pomfrit"),
-            keywords: &["krumpirić", "pomfrit", "prženo"],
+            keywords: &["brza hrana", "hrana", "krumpirić", "pomfrit", "prženo"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("sült krumpli"),
-            keywords: &["krumpli", "sült krumpli", "sültkrumpli"],
+            keywords: &[
+                "gyorskaja",
+                "gyorsétel",
+                "hasábburgonya",
+                "krumpli",
+                "sült krumpli",
+                "sültkrumpli",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("տապակած կարտոֆիլ"),
-            keywords: &["կարտոֆիլ", "տապակած կարտոֆիլ", "ֆրի"],
+            keywords: &["կարտոֆիլ", "տապակած կարտոֆիլ"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kentang goreng"),
-            keywords: &["goreng", "kentang"],
+            keywords: &["goreng", "kentang", "makanan"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -10398,19 +15253,30 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("patatine"),
-            keywords: &["patatine", "patatine fritte", "ristorante"],
+            keywords: &["cibo", "patatine", "patatine fritte", "ristorante"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("フライドポテト"),
-            keywords: &["フライドポテト", "フレンチフライ", "ポテト", "ポテトフライ"],
+            keywords: &[
+                "ファストフード",
+                "フライドポテト",
+                "フレンチフライ",
+                "ポテト",
+                "ポテトフライ",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("balok kenthang goreng"),
-            keywords: &["balok kenthang goreng", "goreng", "kenthang balok"],
+            keywords: &[
+                "balok kenthang goreng",
+                "goreng",
+                "kenthang balok",
+                "panganan",
+            ],
         },
         #[cfg(feature = "ka")]
         crate::Annotation {
@@ -10422,7 +15288,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("фри"),
-            keywords: &["француз", "фри"],
+            keywords: &["картоп", "тағам", "француз", "фри"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -10445,15 +15311,26 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಫ\u{ccd}ರ\u{cc6}ಂಚ\u{ccd} ಫ\u{ccd}ರ\u{cc8}"),
             keywords: &[
+                "ಆಹಾರ",
+                "ಫಾಸ\u{ccd}ಟ\u{ccd} ಫುಡ\u{ccd}",
                 "ಫ\u{ccd}ರ\u{cc6}ಂಚ\u{ccd} ಫ\u{ccd}ರ\u{cc8}",
                 "ಫ\u{ccd}ರ\u{cc8}ಸ\u{ccd}",
+                "ರ\u{cc6}ಸ\u{ccd}ಟ\u{ccb}ರ\u{cc6}ಂಟ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("감자튀김"),
-            keywords: &["감자튀김", "패스트푸드", "프렌치 프라이"],
+            keywords: &[
+                "감자튀김",
+                "식품",
+                "음식",
+                "패스트푸드",
+                "프렌치",
+                "프렌치 프라이",
+                "프렌치프라이",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -10479,6 +15356,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             tts: Some("ທອດມ\u{eb1}ນຝຣ\u{eb1}\u{ec8}ງ"),
             keywords: &[
                 "ທອດມ\u{eb1}ນຝຣ\u{eb1}\u{ec8}ງ",
+                "ມ\u{eb1}ນຝຣ\u{eb1}\u{ec8}ງ",
                 "ມ\u{eb1}ນຝຣ\u{eb1}\u{ec8}ງທອດ",
             ],
         },
@@ -10486,13 +15364,13 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("gruzdintos bulvytės"),
-            keywords: &["bulvytės", "gruzdintos"],
+            keywords: &["bulvytės", "bulvės", "gruzdintos", "maistas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("frī kartupeļi"),
-            keywords: &["frī", "kartupeļi"],
+            keywords: &["frī", "kartupeļi", "pārtika", "ātrā ēdināšana", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -10504,7 +15382,14 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("помфрит"),
-            keywords: &["компир", "помфрит", "пржено"],
+            keywords: &[
+                "брза храна",
+                "компир",
+                "помфрит",
+                "пржен",
+                "пржено",
+                "храна",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -10531,9 +15416,12 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("फ\u{94d}र\u{947}\u{902}च फ\u{94d}राइस"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
                 "फ\u{94d}राइज",
                 "फ\u{94d}र\u{947}\u{902}च",
                 "फ\u{94d}र\u{947}\u{902}च फ\u{94d}राइस",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
             ],
         },
         #[cfg(feature = "ms")]
@@ -10557,12 +15445,6 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
                 "အာလ\u{1030}းချောင\u{103a}းကြော\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pommes frites"),
-            keywords: &["chips", "pommes frites", "restaurant", "stekte poteter"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -10577,12 +15459,12 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("patat"),
-            keywords: &["frans", "frietjes", "patat"],
+            keywords: &["eten", "fastfood", "frans", "frietjes"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pommes frites"),
+            tts: Some("↑↑↑"),
             keywords: &["chips", "pommes frites", "restaurant", "steikte poteter"],
         },
         #[cfg(feature = "or")]
@@ -10600,6 +15482,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "pa",
             tts: Some("ਫਰ\u{a48}\u{a02}ਚ ਫਰਾਈਜ\u{a3c}"),
             keywords: &[
+                "ਆਲ\u{a42} ਦ\u{a47} ਚਿਪਸ",
                 "ਤੜਕਾ",
                 "ਫਰ\u{a48}\u{a02}ਚ ਫਰਾਈਜ\u{a3c}",
                 "ਫ\u{a4d}ਰ\u{a48}\u{a02}ਚ ਤੜਕਾ",
@@ -10622,7 +15505,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("frytki"),
-            keywords: &["frytki"],
+            keywords: &["fast food", "frytki", "jedzenie"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -10634,13 +15517,29 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("batata frita"),
-            keywords: &["batata frita", "fritas"],
+            keywords: &[
+                "batata frita",
+                "comida",
+                "fast food",
+                "fome",
+                "fritas",
+                "lanchonete",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("batatas fritas"),
-            keywords: &["batatas", "fritas"],
+            keywords: &[
+                "alimento",
+                "batata",
+                "batata frita",
+                "batatas",
+                "comida",
+                "fast food",
+                "fritas",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -10652,7 +15551,13 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("cartofi prăjiți"),
-            keywords: &["cartofi", "cartofi prăjiți", "fast food"],
+            keywords: &[
+                "cartofi",
+                "cartofi prăjiți",
+                "fast food",
+                "french fries",
+                "mâncare",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -10691,7 +15596,14 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("hranolčeky"),
-            keywords: &["hranolčeky", "pomfritky"],
+            keywords: &[
+                "fast food",
+                "hranolky",
+                "hranolčeky",
+                "jedlo",
+                "pomfritky",
+                "zemiakové hranolky",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -10715,7 +15627,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("помфрит"),
-            keywords: &["кромпир", "пoмфрит", "помфрит", "пржeнo"],
+            keywords: &["кромпир", "пoмфрит", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -10727,7 +15639,13 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pomfrit"),
-            keywords: &["krompir", "pomfrit", "prženo"],
+            keywords: &["hrana", "krompir", "pomfrit"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -10739,7 +15657,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("chipsi"),
-            keywords: &["chipsi", "vibanzi"],
+            keywords: &["chakula", "chipsi", "viazi", "vibanzi"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -10752,9 +15670,14 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("ஃபிரென\u{bcd}ச\u{bcd} ஃப\u{bcd}ரைஸ\u{bcd}"),
             keywords: &[
+                "ஃபிரெஞ\u{bcd}சு ஃபிரைஸ\u{bcd}",
                 "ஃபிரென\u{bcd}ச\u{bcd} ஃப\u{bcd}ரைஸ\u{bcd}",
+                "ஃப\u{bcd}ரெஞ\u{bcd}சு ஃப\u{bcd}ரைஸ\u{bcd}",
+                "ஃப\u{bcd}ரென\u{bcd}ச\u{bcd} ஃப\u{bcd}ரைஸ\u{bcd}",
                 "உணவகம\u{bcd}",
                 "உணவு",
+                "உருளை வறுவல\u{bcd}",
+                "துரித உணவு",
             ],
         },
         #[cfg(feature = "te")]
@@ -10766,6 +15689,7 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
                 "ఫ\u{c4d}ర\u{c46}ంచ\u{c4d} ఫ\u{c4d}ర\u{c48}స\u{c4d}",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
                 "వ\u{c47}పుళ\u{c4d}లు",
+                "స\u{c4d}న\u{c3e}క\u{c4d}స\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -10780,6 +15704,12 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             tts: Some("เฟรนช\u{e4c}ฟราย"),
             keywords: &["ม\u{e31}นฝร\u{e31}\u{e48}งทอด", "เฟรนช\u{e4c}ฟราย"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቅልዋ ድንሽ"),
+            keywords: &["ቅልዋ ድንሽ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -10790,13 +15720,19 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("pateta fakapaku"),
-            keywords: &["pateta fakapaku"],
+            keywords: &["paku", "pateta", "pateta fakapaku"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("patates kızartması"),
-            keywords: &["kızartma patates", "patates kızartması", "restoran"],
+            keywords: &[
+                "McDonald’s",
+                "gıda",
+                "kızartma patates",
+                "patates kızartması",
+                "restoran",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -10814,19 +15750,26 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("فرنچ فرائز"),
-            keywords: &["اسنیک", "فرائز", "فرنچ"],
+            keywords: &["آلو", "اسنیک", "تلے ہوئے آلو", "فرائز", "فرنچ", "کھانا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qovurilgan fri-kartoshka"),
-            keywords: &["fransuz", "kartoshka-fri", "qovurilgan fri-kartoshka"],
+            keywords: &[
+                "fransuz",
+                "fri",
+                "kartoshka-fri",
+                "qovurilgan fri-kartoshka",
+                "qovurilgan kartoshka",
+                "yegulik",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("khoai tây chiên"),
-            keywords: &["khoai tây chiên", "kiểu pháp"],
+            keywords: &["khoai tây chiên", "kiểu pháp", "đồ ăn", "đồ ăn nhanh"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -10846,6 +15789,12 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             tts: Some("Ounjẹ Ipanu Didun"),
             keywords: &["Ounjẹ Ipanu Didun", "didin", "french"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ounjɛ Ipanu Didun"),
+            keywords: &["Ounjɛ Ipanu Didun", "didin", "french"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -10862,19 +15811,19 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("薯条"),
-            keywords: &["油炸", "薯条"],
+            keywords: &["快餐", "油炸", "薯条", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("薯條"),
-            keywords: &["炸薯條", "薯條"],
+            keywords: &["炸薯條", "薯條", "速食"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["快餐", "炸薯條", "薯條", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -10906,19 +15855,27 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("pizza"),
-            keywords: &["kaas", "kos", "pizza", "skyf"],
+            keywords: &[
+                "honger",
+                "kaas",
+                "kos",
+                "pizza",
+                "salami",
+                "skyf",
+                "sny pizza",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ፒዛ"),
-            keywords: &["ቁራሽ", "ቺዝ", "ፒዛ"],
+            keywords: &["ምግብ", "ረሃብ", "ቁራሽ", "ቺዝ", "የፒዛ ቁራሽ", "ፒዛ", "ፔፐሮኒ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بيتزا"),
-            keywords: &["بيتزا", "مطعم"],
+            keywords: &["أكل", "بيتزا", "طعام", "مطعم"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -10930,7 +15887,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("pizza"),
-            keywords: &["dilim", "pendir", "pizza"],
+            keywords: &["dilim", "pendir", "pizza", "pizza dilimi"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -10942,13 +15899,28 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("пица"),
-            keywords: &["парче", "пица", "резен"],
+            keywords: &[
+                "гладен",
+                "парче",
+                "пеперони",
+                "пица",
+                "резен",
+                "сирене",
+                "храна",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("পিজ\u{9be}"),
-            keywords: &["চিজ", "পিজ\u{9be}", "ফ\u{9be}লি"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "চিজ",
+                "পিজ\u{9be}",
+                "ফ\u{9be}লি",
+                "স\u{9cd}ল\u{9be}ইস",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -10972,7 +15944,15 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("pizza"),
-            keywords: &["formatge", "pizza", "porció", "tall"],
+            keywords: &[
+                "afamada",
+                "afamat",
+                "formatge",
+                "pepperoni",
+                "pizza",
+                "porció",
+                "tall",
+            ],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -10993,8 +15973,11 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             keywords: &[
                 "díl",
                 "dílek",
+                "hladový",
+                "jídlo",
                 "klínek",
                 "kousek",
+                "pepperoni",
                 "pizza",
                 "salám",
                 "salámová",
@@ -11012,7 +15995,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("pizza"),
-            keywords: &["pizza", "pizzastykke", "stykke pizza"],
+            keywords: &["mad", "pizza", "pizzastykke", "stykke pizza"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
@@ -11020,17 +16003,30 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             tts: Some("Pizza"),
             keywords: &["Pizza", "Pizzastück", "Pizzeria"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πίτσα"),
-            keywords: &["κομμάτι", "πίτσα", "τυρί"],
+            keywords: &[
+                "κομμάτι",
+                "πίτσα",
+                "πεινασμένος",
+                "πεπερόνι",
+                "τυρί",
+                "φαγητό",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("pizza"),
-            keywords: &["cheese", "pizza", "slice"],
+            keywords: &["cheese", "food", "hungry", "pepperoni", "pizza", "slice"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -11066,13 +16062,36 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["comida", "pizza", "porción", "restaurante"],
+            keywords: &[
+                "alimentos",
+                "comer",
+                "comida",
+                "hambre",
+                "italia",
+                "peperoni",
+                "pizza",
+                "porción",
+                "porción de pizza",
+                "queso",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "comer",
+                "comida",
+                "hambre",
+                "italia",
+                "peperoni",
+                "pizza",
+                "porción",
+                "porción de pizza",
+                "queso",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -11084,7 +16103,15 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("pitsa"),
-            keywords: &["juust", "pitsa", "pizza", "viil"],
+            keywords: &[
+                "juust",
+                "näljane",
+                "pepperoni",
+                "pitsa",
+                "pizza",
+                "söök",
+                "viil",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -11102,7 +16129,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("pizza"),
-            keywords: &["juusto", "pizza", "siivu"],
+            keywords: &["juusto", "pepperoni", "siivu", "viipale"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -11120,7 +16147,14 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("pizza"),
-            keywords: &["fromage", "part", "pizza"],
+            keywords: &[
+                "fromage",
+                "nourriture",
+                "part",
+                "pepperoni",
+                "pizza",
+                "tranche",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -11132,7 +16166,17 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("píotsa"),
-            keywords: &["Iodálach", "bialann", "pizza", "píotsa", "slisín"],
+            keywords: &[
+                "Iodálach",
+                "bia",
+                "bialann",
+                "cáis",
+                "ocras",
+                "pepperoni",
+                "pizza",
+                "píotsa",
+                "slisín",
+            ],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -11150,13 +16194,47 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("પિઝા"),
-            keywords: &["પિઝા", "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ", "સ\u{acd}લાઇસ"],
+            keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "પિઝા",
+                "ભ\u{ac2}ખ",
+                "ભોજન",
+                "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
+                "સ\u{acd}લાઇસ",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("pizza"),
-            keywords: &["cuku", "pizza", "yanki"],
+            tts: Some("fanken pizza"),
+            keywords: &[
+                "cuku",
+                "fanken pizza",
+                "gutsuren fiza",
+                "gutsuren piza",
+                "gutsuren pizza",
+                "pizza",
+                "yanki",
+                "yankin pizza",
+                "yunwa",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("fanken pizza"),
+            keywords: &[
+                "cuku",
+                "fanken pizza",
+                "gutsuren fiza",
+                "gutsuren piza",
+                "gutsuren pizza",
+                "pizza",
+                "yanki",
+                "yankin pizza",
+                "yunwa",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -11169,7 +16247,10 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             lang: "hi",
             tts: Some("पिज\u{93c}\u{94d}ज\u{93c}ा स\u{94d}लाइस"),
             keywords: &[
+                "खाना",
                 "पिज\u{93c}\u{94d}ज\u{93c}ा",
+                "भ\u{942}ख",
+                "भोजन",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
                 "स\u{94d}लाइस",
             ],
@@ -11178,13 +16259,13 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("pizza"),
-            keywords: &["kriška", "pizza", "sir"],
+            keywords: &["hrana", "kriška", "pizza", "salama", "sir"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("pizza"),
-            keywords: &["pizza", "sajtos", "szelet"],
+            keywords: &["pepperoni", "pizza", "sajtos", "szelet", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -11196,7 +16277,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("pizza"),
-            keywords: &["keju", "pizza", "potongan"],
+            keywords: &["keju", "makanan", "pizza", "potongan", "roti"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -11214,19 +16295,28 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("pizza"),
-            keywords: &["fetta", "pizza", "ristorante"],
+            keywords: &[
+                "cena",
+                "cibo",
+                "fame",
+                "fetta",
+                "fetta di pizza",
+                "pizza",
+                "pizzeria",
+                "ristorante",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ピザ"),
-            keywords: &["チーズ", "ピザ", "ピッツァ"],
+            keywords: &["チーズ", "ピザ", "ピッツァ", "ペパロニ"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("pizza keju"),
-            keywords: &["keju", "pizza", "sairis"],
+            keywords: &["keju", "panganan", "pizza", "sairis"],
         },
         #[cfg(feature = "ka")]
         crate::Annotation {
@@ -11238,7 +16328,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("пицца"),
-            keywords: &["бөлік", "пицца", "ірімшік"],
+            keywords: &["бөлік", "пицца", "тағам", "ірімшік"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -11260,15 +16350,28 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಪ\u{cbf}ಜ\u{ccd}ಜಾ"),
             keywords: &[
+                "ಚ\u{cc0}ಸ\u{ccd}",
                 "ಪ\u{cbf}ಜ\u{ccd}ಜಾ",
                 "ಪ\u{cbf}ಜ\u{ccd}ಜಾ ಸ\u{ccd}ಲ\u{cc8}ಸ\u{ccd}",
+                "ಪ\u{cbf}ಜ\u{ccd}ಜಾದ ತುಂಡು",
+                "ಪ\u{cc6}ಪ\u{ccd}ಪ\u{cc6}ರ\u{ccb}ನ\u{cbf}",
+                "ಹಸ\u{cbf}ವು",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("피자"),
-            keywords: &["조각 피자", "피자", "피자 한 조각"],
+            keywords: &[
+                "배고픔",
+                "식품",
+                "음식",
+                "조각",
+                "치즈",
+                "페페로니",
+                "피자",
+                "피자 한 조각",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -11298,13 +16401,13 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("pica"),
-            keywords: &["gabalėlis", "pica", "sūris"],
+            keywords: &["gabalėlis", "maistas", "pica", "sūris"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("pica"),
-            keywords: &["pica", "šķēle"],
+            keywords: &["izsalkums", "peperoni", "pica", "siers", "šķēle"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -11316,7 +16419,17 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("пица"),
-            keywords: &["парче", "пица", "сирење"],
+            keywords: &[
+                "гладен",
+                "кашкавал",
+                "кулен",
+                "парче",
+                "пица",
+                "пица со кулен",
+                "сирење",
+                "храна",
+                "јаде",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -11340,13 +16453,23 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("पिझ\u{94d}झा"),
-            keywords: &["चीझ", "पिझ\u{94d}झा", "स\u{94d}लाइस"],
+            keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
+                "चीझ",
+                "ज\u{947}वण",
+                "पिझ\u{94d}झा",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
+                "स\u{94d}लाइस",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("piza"),
-            keywords: &["keju", "keping", "piza"],
+            keywords: &[
+                "keju", "keping", "lapar", "makanan", "peperoni", "piza", "potongan",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -11360,12 +16483,6 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             tts: Some("ပ\u{102e}ဇာ"),
             keywords: &["ဒ\u{102d}န\u{103a}ခ\u{1032}", "ပ\u{102e}ဇာ", "အချပ\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pizzastykke"),
-            keywords: &["pizza", "pizzabit", "pizzastykke", "restaurant"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -11376,13 +16493,13 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("pizzapunt"),
-            keywords: &["kaas", "pizzapunt", "punt"],
+            keywords: &["eten", "honger", "kaas", "pepperoni", "pizza", "punt"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pizzastykke"),
-            keywords: &["pizza", "pizzabit", "pizzastykke", "restaurant"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -11399,7 +16516,14 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪੀਜ\u{a3c}ਾ"),
-            keywords: &["ਟ\u{a41}ਕੜਾ", "ਪੀਜ\u{a3c}ਾ", "ਹ\u{a4b}ਟਲ"],
+            keywords: &[
+                "ਟ\u{a41}ਕੜਾ",
+                "ਪਿਜ\u{a3c}ਾ",
+                "ਪੀਜ\u{a3c}ਾ",
+                "ਭ\u{a41}\u{a71}ਖ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਹ\u{a4b}ਟਲ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -11417,7 +16541,7 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("pizza"),
-            keywords: &["kawałek pizzy", "pizza"],
+            keywords: &["fast food", "jedzenie", "kawałek", "pizza", "pizzy"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -11429,13 +16553,13 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("pizza"),
-            keywords: &["fatia de pizza", "pizza"],
+            keywords: &["fatia", "pizza", "restaurante"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("piza"),
-            keywords: &["fatia", "piza", "queijo"],
+            keywords: &["comida", "fatia", "piza", "pizza", "queijo"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -11447,7 +16571,15 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("pizza"),
-            keywords: &["fast food", "felie", "pizza"],
+            keywords: &[
+                "brânză",
+                "fast food",
+                "felie",
+                "foame",
+                "mâncare",
+                "pepperoni",
+                "pizza",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -11459,13 +16591,19 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("пицца"),
-            keywords: &["кусок", "кусок пиццы", "пицца", "сыр"],
+            keywords: &["кусок", "кусок пиццы", "перекус", "пицца", "сыр"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("piza"),
             keywords: &["foromaje", "igisate", "piza"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱯᱤᱡᱟ"),
+            keywords: &["ᱯᱤᱡᱟ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -11483,31 +16621,31 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("pizza"),
-            keywords: &["pizza", "syr"],
+            keywords: &["hlad", "jedlo", "kus", "pizza", "saláma", "syr"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("pica"),
-            keywords: &["pica", "rezina", "sir"],
+            keywords: &["hrana", "kos pice", "pica", "rezina", "sir"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("pizza-da"),
-            keywords: &["Pizza-da", "burcad", "cad", "pizza-da"],
+            keywords: &["Pizza-da", "burcad", "cad"],
         },
         #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("pica"),
-            keywords: &["djathtë", "fetë", "pica"],
+            keywords: &["djathtë", "djathë", "fetë", "i uritur", "pica", "ushqim"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("пица"),
-            keywords: &["парче", "пица", "сир"],
+            keywords: &["кулен", "парче", "пица", "сир", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -11519,7 +16657,13 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("pica"),
-            keywords: &["parče", "pica", "sir"],
+            keywords: &["hrana", "kulen", "parče", "pica", "sir"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -11544,10 +16688,14 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("ப\u{bc0}ட\u{bcd}ச\u{bbe}"),
             keywords: &[
+                "உணவு",
                 "ச\u{bc0}ஸ\u{bcd}",
                 "துரித உணவு",
+                "பசி",
                 "ப\u{bc0}ட\u{bcd}ச\u{bbe}",
                 "ப\u{bc0}ட\u{bcd}ச\u{bbe} துண\u{bcd}டு",
+                "ப\u{bc0}ட\u{bcd}ஸ\u{bbe}",
+                "பெப\u{bcd}பரோனி",
             ],
         },
         #[cfg(feature = "te")]
@@ -11555,10 +16703,15 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("ప\u{c3f}జ\u{c4d}జ\u{c3e}"),
             keywords: &[
+                "ఆకల\u{c3f}",
+                "చ\u{c40}స\u{c4d}",
                 "ప\u{c3f}జ\u{c4d}జ\u{c3e}",
+                "ప\u{c46}ప\u{c4d}ప\u{c47}ర\u{c4b}న\u{c3f}",
+                "ఫుడ\u{c4d}",
                 "ముక\u{c4d}క",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
                 "స\u{c4d}ల\u{c48}స\u{c4d}",
+                "హుంగ\u{c4d}ర\u{c3f}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -11572,9 +16725,19 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("พ\u{e34}ซซ\u{e48}า 1 ช\u{e34}\u{e49}น"),
             keywords: &[
+                "ช\u{e34}\u{e49}น",
+                "ช\u{e35}ส",
                 "พ\u{e34}ซซ\u{e48}า",
-                "พ\u{e34}ซซ\u{e48}า 1 ช\u{e34}\u{e49}น",
+                "ห\u{e34}ว",
+                "อาหาร",
+                "เปปเปอโรน\u{e35}",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፒሳ"),
+            keywords: &["ፒሳ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -11592,7 +16755,15 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("pizza dilimi"),
-            keywords: &["dilim", "pizza", "pizza dilimi", "restoran"],
+            keywords: &[
+                "dilim",
+                "gıda",
+                "peynirli pizza",
+                "pizza",
+                "pizza dilimi",
+                "restoran",
+                "yiyecek",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -11604,19 +16775,19 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("піца"),
-            keywords: &["піца", "сир", "шматок"],
+            keywords: &["піца", "сир", "шматок", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پزا"),
-            keywords: &["اسنیک", "ٹکڑا", "پزا", "پنیر"],
+            keywords: &["اسنیک", "بھوک", "خوراک", "ٹکڑا", "پزا", "پنیر", "پیزا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("pitsa"),
-            keywords: &["bo‘lak", "pishloq", "pitsa"],
+            keywords: &["bo‘lak", "pishloq", "pitsa", "taom", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -11642,6 +16813,12 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             tts: Some("Písà"),
             keywords: &["Písà", "gígé", "wàrà"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Písà"),
+            keywords: &["Písà", "gígé", "wàrà"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -11658,19 +16835,36 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("披萨"),
-            keywords: &["披萨"],
+            keywords: &[
+                "一片比萨",
+                "披萨",
+                "比萨",
+                "比萨饼",
+                "起司",
+                "辣味香肠",
+                "食物",
+                "饿",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("披薩"),
-            keywords: &["披薩", "起士披薩"],
+            keywords: &["披薩", "義大利辣肉腸", "起士披薩"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("薄餅"),
-            keywords: &["一塊薄餅", "一片薄餅", "薄餅"],
+            keywords: &[
+                "pizza",
+                "一塊薄餅",
+                "一片薄餅",
+                "披薩",
+                "義大利紅腸",
+                "薄餅",
+                "食物",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -11702,19 +16896,37 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("worsbroodjie"),
-            keywords: &["brood", "kos", "wors", "worsbroodjie"],
+            keywords: &[
+                "brood",
+                "frankfurter",
+                "frankfurtworsie",
+                "knakworsie",
+                "kos",
+                "rolletjie",
+                "wors",
+                "worsbroodjie",
+                "worsrolletjie",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሃት ዶግ"),
-            keywords: &["ሃት ዶግ", "ሃትዶግ", "ቋሊማ", "ፋራንክፉተር"],
+            keywords: &[
+                "ሃት ዶግ",
+                "ሃትዶግ",
+                "ሆት ዶግ",
+                "ሆት ዶግ በዳቦ ውስጥ",
+                "ምግብ",
+                "ቋሊማ",
+                "ፋራንክፉተር",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("هوت دوغ"),
-            keywords: &["سجق", "نقانق", "هوت دوغ"],
+            keywords: &["سجق", "فرانكفورتر", "مقانق", "نقانق", "هوت دوغ"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -11731,7 +16943,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("hot doq"),
-            keywords: &["frankfurter", "hot doq", "hotdoq", "sosiska"],
+            keywords: &["frankfurter", "hot doq", "hot-doq", "hotdoq", "sosiska"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -11750,6 +16962,8 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("হট ডগ"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
                 "ফ\u{9cd}র\u{9cd}য\u{9be}ঙ\u{9cd}কফ\u{9be}র\u{9cd}ট\u{9be}র",
                 "সসেজ",
                 "হট ডগ",
@@ -11789,7 +17003,16 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("párek v rohlíku"),
-            keywords: &["hot dog", "hotdog", "párek", "párek v rohlíku"],
+            keywords: &[
+                "hot dog",
+                "hotdog",
+                "hořčice",
+                "jídlo",
+                "kečup",
+                "klobása",
+                "párek",
+                "párek v rohlíku",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -11807,7 +17030,20 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Hotdog"),
-            keywords: &["Frankfurter", "Hot Dog", "Hotdog", "Wurst", "Würstchen"],
+            keywords: &[
+                "Essen",
+                "Frankfurter",
+                "Hot Dog",
+                "Hotdog",
+                "Wurst",
+                "Würstchen",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -11819,7 +17055,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("hot dog"),
-            keywords: &["frankfurter", "hot dog", "hotdog", "sausage"],
+            keywords: &["dog", "frankfurter", "hot", "hotdog", "sausage"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -11831,7 +17067,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["frank", "frankfurter", "hot dog", "hotdog", "sausage"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -11855,7 +17091,15 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("salchicha"),
-            keywords: &["comida", "pan", "pancho", "perrito", "salchicha"],
+            keywords: &[
+                "comida",
+                "pan",
+                "pancho",
+                "perrito",
+                "perrito caliente",
+                "perro caliente",
+                "salchicha",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -11873,7 +17117,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "hotdog", "viiner", "vorst"],
+            keywords: &["dog", "frankfurter", "hot", "hotdog", "vorst"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -11885,7 +17129,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("هات داگ"),
-            keywords: &["ساندویچ", "سوسیس", "هات داگ"],
+            keywords: &["خوراکی", "ساندویچ", "سوسیس", "غذا", "هات داگ"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -11916,7 +17160,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "saucisse", "saucisse de Francfort"],
+            keywords: &["hot dog", "nourriture", "saucisse", "saucisse de Francfort"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -11952,7 +17196,10 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("હોટ ડોગ"),
             keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
                 "ફ\u{acd}ર\u{ac7}\u{a82}કફર\u{acd}ટર",
+                "ભોજન",
                 "સોસ\u{ac7}જ",
                 "હોટ ડોગ",
             ],
@@ -11960,32 +17207,52 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("hot dog"),
-            keywords: &["frankfurter", "hot dog", "sausage"],
+            tts: Some("biredin hot dog"),
+            keywords: &[
+                "biredin hot dog",
+                "biredin sausage",
+                "frankfurter",
+                "hot dog",
+                "sausage",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("biredin hot dog"),
+            keywords: &[
+                "biredin hot dog",
+                "biredin sausage",
+                "frankfurter",
+                "hot dog",
+                "sausage",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("נקניקייה בלחמניה"),
-            keywords: &["לחמניה", "נקניקייה", "נקניקייה בלחמניה"],
+            keywords: &["לחמניה", "נקניקיה", "נקניקייה", "נקניקייה בלחמניה"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("हॉट डॉग"),
-            keywords: &["सासीज", "सॉस", "हॉट डॉग"],
+            keywords: &["सासीज", "सॉस", "सॉस\u{947}ज", "हॉट डॉग"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "hotdog", "hrenovka", "kobasica"],
+            keywords: &["hot dog", "hotdog", "hrana", "hrenovka", "kobasica"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "hotdog", "kifli", "kolbász", "mustár", "virsli"],
+            keywords: &[
+                "hot dog", "hotdog", "kifli", "kolbász", "mustár", "virsli", "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -11997,7 +17264,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "hotdog", "sosis"],
+            keywords: &["hot dog", "hotdog", "makanan", "roti", "sosis"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -12015,7 +17282,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "street food"],
+            keywords: &["cibo", "hot dog", "panino", "street food", "wurstel"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -12039,7 +17306,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("хот-дог"),
-            keywords: &["сосиска", "франкфуртер", "хот-дог"],
+            keywords: &["сосиска", "тағам", "франкфуртер", "хот-дог", "шұжық"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -12063,14 +17330,17 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             tts: Some("ಹಾಟ\u{ccd} ಡಾಗ\u{ccd}"),
             keywords: &[
                 "ಫ\u{ccd}ರಾಂಕ\u{ccd}\u{200c}ಫರ\u{ccd}ಟರ\u{ccd}",
+                "ಸಾಸ\u{cc7}ಜ\u{ccd}",
+                "ಸ\u{ccd}ಯಾಂಡ\u{ccd}\u{200c}ವ\u{cbf}ಚ\u{ccd}",
                 "ಹಾಟ\u{ccd} ಡಾಗ\u{ccd}",
+                "ಹಾಟ\u{ccd}\u{200c}ಡಾಗ\u{ccd} ಸ\u{ccd}ಯಾಂಡ\u{ccd}\u{200c}ವ\u{cbf}ಚ\u{ccd}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("핫도그"),
-            keywords: &["소세지", "핫도그"],
+            keywords: &["소세지", "소시지", "프랑크푸르트 소시지", "핫도그"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -12105,13 +17375,13 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("dešrainis"),
-            keywords: &["dešrainis", "dešrelė"],
+            keywords: &["dešrainis", "dešrelė", "maistas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("hotdogs"),
-            keywords: &["desiņa", "hotdogs"],
+            keywords: &["desiņa", "hotdogs", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -12123,7 +17393,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("хот дог"),
-            keywords: &["виршла", "колбас", "хот дог"],
+            keywords: &["виршла", "колбас", "сендвич со виршла", "хот дог"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -12147,7 +17417,10 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("हॉटडॉग"),
             keywords: &[
+                "अन\u{94d}न",
+                "खाद\u{94d}य",
                 "फ\u{94d}र\u{901}कफर\u{94d}टर",
+                "सॉस",
                 "सॉस\u{947}ज",
                 "हॉट डॉग",
                 "हॉटडॉग",
@@ -12175,12 +17448,6 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
                 "ဟော\u{1037}ဒေါ\u{1037}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pølse med brød"),
-            keywords: &["hot dog", "hotdog", "pølse", "pølse med brød"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12196,13 +17463,13 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("hotdog"),
-            keywords: &["frankfurter", "hotdog", "worst"],
+            keywords: &["braadworst", "frankfurter", "hotdog", "knakworst", "worst"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pølse med brød"),
-            keywords: &["hot dog", "hotdog", "pølse", "pølse med brød"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -12219,7 +17486,12 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਹਾਟ-ਡਾਗ"),
-            keywords: &["ਜਾਨਵਰਾ\u{a02} ਦਾ ਮੀਟ", "ਮੀਟ", "ਹਾਟ-ਡਾਗ"],
+            keywords: &[
+                "ਜਾਨਵਰਾ\u{a02} ਦਾ ਮੀਟ",
+                "ਮੀਟ",
+                "ਸ\u{a4b}ਸ\u{a47}ਜ",
+                "ਹਾਟ-ਡਾਗ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -12241,14 +17513,7 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("hot dog"),
-            keywords: &[
-                "bułka",
-                "frankfurterka",
-                "gorący pies",
-                "hot dog",
-                "hotdog",
-                "parówka",
-            ],
+            keywords: &["frankfurterka", "hot dog", "hotdog", "parówka"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -12260,13 +17525,26 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("cachorro-quente"),
-            keywords: &["cachorro-quente", "hot dog", "pão com salsicha"],
+            keywords: &[
+                "cachorro quente",
+                "cachorro-quente",
+                "hot dog",
+                "pão com salsicha",
+                "pão com vina",
+                "vina",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("cachorro quente"),
-            keywords: &["cachorro", "cachorro quente", "salsicha"],
+            keywords: &[
+                "cachorro",
+                "cachorro quente",
+                "cachorro-quente",
+                "pão com salsicha",
+                "salsicha",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -12290,7 +17568,14 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("хот-дог"),
-            keywords: &["сосиска", "тесто", "хот-дог"],
+            keywords: &[
+                "в тесте",
+                "горчица",
+                "перекус",
+                "сосиска",
+                "тесто",
+                "хот-дог",
+            ],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -12318,13 +17603,22 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("párok v rožku"),
-            keywords: &["hotdog", "párok", "párok v rožku"],
+            keywords: &[
+                "fast food",
+                "hlad",
+                "hotdog",
+                "jedlo",
+                "párok",
+                "párok v rožku",
+                "rožok",
+                "v rožku",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("hot dog"),
-            keywords: &["hot dog", "hrenovka"],
+            keywords: &["hot dog", "hrana", "hrenovka", "klobasa"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -12336,13 +17630,13 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("hot-dog"),
-            keywords: &["hot-dog", "salsiçe"],
+            keywords: &["hot-dog", "salsiçe", "suxhuk"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("хот-дог"),
-            keywords: &["виршла", "кoбaсицa", "хoт-дoг", "хот-дог"],
+            keywords: &["виршла", "кoбaсицa", "хoт-дoг"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -12355,6 +17649,12 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             lang: "sr_Latn",
             tts: Some("hot-dog"),
             keywords: &["hot-dog", "kobasica", "viršla"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -12380,8 +17680,11 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             tts: Some("ஹ\u{bbe}ட\u{bcd} ட\u{bbe}க\u{bcd}"),
             keywords: &[
                 "இறைச\u{bcd}சி உணவு",
+                "உணவு",
                 "கொத\u{bcd}துக\u{bcd}கறி உணவு",
+                "ச\u{bbe}ஸேஜ\u{bcd}",
                 "ஹ\u{bbe}ட\u{bcd} ட\u{bbe}க\u{bcd}",
+                "ஹ\u{bbe}ட\u{bcd}ட\u{bbe}க\u{bcd}",
             ],
         },
         #[cfg(feature = "te")]
@@ -12389,7 +17692,9 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("హ\u{c3e}ట\u{c4d} డ\u{c3e}గ\u{c4d}"),
             keywords: &[
+                "ఫ\u{c4d}ర\u{c3e}ంక\u{c4d}\u{200c}ఫర\u{c4d}టర\u{c4d}",
                 "ఫ\u{c4d}ర\u{c3e}ంక\u{c4d}\u{200c}ఫర\u{c4d}ట\u{c46}ర\u{c4d}",
+                "మ\u{c3e}ంసం",
                 "స\u{c3e}స\u{c47}జ\u{c4d}",
                 "హ\u{c3e}ట\u{c4d} డ\u{c3e}గ\u{c4d}",
                 "హ\u{c3e}ట\u{c4d}\u{200c}డ\u{c3e}గ\u{c4d}",
@@ -12407,6 +17712,12 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             tts: Some("ฮอทด\u{e47}อก"),
             keywords: &["ฮอทด\u{e47}อก", "ไส\u{e49}กรอก"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሆት ዶግ"),
+            keywords: &["ሆት ዶግ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -12417,13 +17728,13 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("sōsisi kulī vela"),
-            keywords: &["sōsisi kulī vela"],
+            keywords: &["kulī", "sōsisi", "vela"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("sosisli sandviç"),
-            keywords: &["hot dog", "sosis", "sosisli sandviç"],
+            keywords: &["gıda", "hot dog", "sosis", "sosisli sandviç"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -12435,19 +17746,19 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("хот-дог"),
-            keywords: &["сосиска", "хот-дог"],
+            keywords: &["сосиска", "сосиска в тісті", "хот-дог", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاٹ ڈاگ"),
-            keywords: &["اسنیک", "بریڈ", "ہاٹ ڈاگ"],
+            keywords: &["اسنیک", "بریڈ", "سیخ کباب", "کباب", "کوفتہ", "ہاٹ ڈاگ"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("xot-dog"),
-            keywords: &["kolbasa", "xot-dog"],
+            keywords: &["kolbasa", "sosiska", "xot-dog", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -12478,6 +17789,17 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
                 "èran ẹlẹ\u{301}dẹ\u{300} papọ\u{300} pẹ\u{300}lú ẹran",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Hot Dog"),
+            keywords: &[
+                "Hot Dog",
+                "àlɔ\u{301}pɔ\u{300} ɛran àti ɛran ɛlɛ\u{301}dɛ\u{300}",
+                "àlɔ\u{301}pɔ\u{300} ɛrán",
+                "èran ɛlɛ\u{301}dɛ\u{300} papɔ\u{300} pɛ\u{300}lú ɛran",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -12494,19 +17816,19 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("热狗"),
-            keywords: &["热狗"],
+            keywords: &["热狗", "香肠"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("熱狗"),
-            keywords: &["熱狗", "熱狗堡"],
+            keywords: &["熱狗", "熱狗堡", "香腸"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["熱狗", "香腸"],
+            keywords: &["法蘭克福腸", "熱狗", "醬汁", "食物", "香腸"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -12538,19 +17860,27 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("toebroodjie"),
-            keywords: &["brood", "toebroodjie"],
+            keywords: &[
+                "brood",
+                "eet",
+                "ete",
+                "kitskos",
+                "pousekos",
+                "toebroodjie",
+                "wegneemete",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሳንድዊች"),
-            keywords: &["ሳንድዊች"],
+            keywords: &["ምግብ", "ሳንድዊች", "ዳቦ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ساندوتش"),
-            keywords: &["خبز", "ساندوتش"],
+            keywords: &["خبز", "ساندوتش", "ساندويتش", "ساندويش", "عروس", "عيش"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -12580,7 +17910,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bn",
             tts: Some("স\u{9cd}য\u{9be}ন\u{9cd}ডউইচ"),
-            keywords: &["র\u{9c1}টি", "স\u{9cd}য\u{9be}ন\u{9cd}ডউইচ"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "ব\u{9cd}রেড",
+                "র\u{9c1}টি",
+                "স\u{9cd}য\u{9be}ন\u{9cd}ডউইচ",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -12616,7 +17952,9 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("sendvič"),
-            keywords: &["chleba", "sandwich", "sendvič", "toast", "toust"],
+            keywords: &[
+                "chleba", "jídlo", "sandwich", "sendvič", "svačina", "toast", "toust",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -12634,7 +17972,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Sandwich"),
-            keywords: &["Brot", "Sandwich"],
+            keywords: &["Brot", "Sandwich", "brot", "essen", "sandwich"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -12681,8 +18025,8 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("sándwich"),
-            keywords: &["bocadillo", "bocata", "emparedado", "sándwich"],
+            tts: Some("↑↑↑"),
+            keywords: &["comida", "emparedado", "pan", "sanduche", "sandwich"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -12718,7 +18062,14 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("voileipä"),
-            keywords: &["kerrosleipä", "leipä", "täyte", "voileipä"],
+            keywords: &[
+                "aamiainen",
+                "kerrosleipä",
+                "leipä",
+                "ruoka",
+                "sandwich",
+                "täyte",
+            ],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -12736,7 +18087,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("sandwich"),
-            keywords: &["pain", "sandwich"],
+            keywords: &[
+                "nourriture",
+                "pain",
+                "pain de mie",
+                "pique-nique",
+                "sandwich",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -12766,19 +18123,50 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("સ\u{ac5}ન\u{acd}ડવિચ"),
-            keywords: &["બ\u{acd}ર\u{ac7}ડ", "સ\u{ac5}ન\u{acd}ડવિચ"],
+            keywords: &[
+                "ખાણ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "ડબલ રોટી",
+                "નાસ\u{acd}તો",
+                "પાવ રોટી",
+                "બ\u{acd}ર\u{ac7}ડ",
+                "ભોજન",
+                "સ\u{ac5}ન\u{acd}ડવિચ",
+                "સ\u{ac7}ન\u{acd}ડવિચ",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("abincin sandwich"),
-            keywords: &["abincin sandwich", "burodi"],
+            keywords: &[
+                "abincin sandwich",
+                "biredi",
+                "biredi da bota",
+                "biredi da ƙwai",
+                "biredi mai nama",
+                "burodi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("abincin sandwich"),
+            keywords: &[
+                "abincin sandwich",
+                "biredi",
+                "biredi da bota",
+                "biredi da ƙwai",
+                "biredi mai nama",
+                "burodi",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("סנדביץ׳"),
-            keywords: &["סנדביץ׳"],
+            keywords: &["כריך", "סנדביץ׳"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -12796,7 +18184,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("szendvics"),
-            keywords: &["kenyér", "szendvics"],
+            keywords: &["kenyér", "szendvics", "szendvics, kenyér, étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -12808,7 +18196,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("roti lapis"),
-            keywords: &["roti", "roti lapis"],
+            keywords: &["roti", "roti lapis", "sandwich"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -12826,7 +18214,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("sandwich"),
-            keywords: &["pane", "sandwich"],
+            keywords: &["cibo", "pane", "panino", "sandwich"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -12846,11 +18234,17 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
             tts: Some("სენდვიჩი"),
             keywords: &["პური", "სენდვიჩი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aṣundwic"),
+            keywords: &["aṣundwic"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("сэндвич"),
-            keywords: &["сэндвич"],
+            keywords: &["нан", "сэндвич"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -12866,6 +18260,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಸ\u{ccd}ಯಾಂಡ\u{ccd}\u{200c}ವ\u{cbf}ಚ\u{ccd}"),
             keywords: &[
+                "ಆಹಾರ",
                 "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}",
                 "ಸ\u{ccd}ಯಾಂಡ\u{ccd}\u{200c}ವ\u{cbf}ಚ\u{ccd}",
             ],
@@ -12904,13 +18299,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("sumuštinis"),
-            keywords: &["duona", "sumuštinis"],
+            keywords: &["duona", "maistas", "sumuštinis"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("sendvičs"),
-            keywords: &["maize", "sendvičs"],
+            keywords: &["maize", "sendvičs", "sviesmaize"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -12943,7 +18338,16 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("स\u{901}डविच"),
-            keywords: &["ब\u{94d}र\u{947}ड", "स\u{901}डविच"],
+            keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
+                "खाद\u{94d}य",
+                "नाश\u{94d}ता",
+                "नाष\u{94d}टा",
+                "ब\u{94d}र\u{947}कफास\u{94d}ट",
+                "ब\u{94d}र\u{947}ड",
+                "स\u{901}डविच",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -12966,12 +18370,6 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
                 "အသားည\u{103e}ပ\u{103a}ပေါင\u{103a}မ\u{102f}န\u{1037}\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("sandwich"),
-            keywords: &["brød", "brødskive", "sandwich", "smørbrød"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -12982,13 +18380,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("boterham"),
-            keywords: &["boterham", "brood"],
+            keywords: &["brood", "sandwich"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("sandwich"),
-            keywords: &["brød", "brødskive", "sandwich", "smørbrød"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -13021,7 +18419,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("kanapka"),
-            keywords: &["kanapka"],
+            keywords: &["jedzenie", "kanapka", "śniadanie"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -13033,7 +18431,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("sanduíche"),
-            keywords: &["sanduíche"],
+            keywords: &["pão", "pão de forma", "sanduíche"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -13051,7 +18449,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("sandvici"),
-            keywords: &["fast food", "sandvici", "sandviș"],
+            keywords: &["fast food", "pâine", "sandvici", "sandviș"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -13063,7 +18461,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("сэндвич"),
-            keywords: &["бутерброд", "сэндвич", "хлеб"],
+            keywords: &["бутерброд", "сендвич", "сэндвич", "хлеб"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -13087,13 +18485,20 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("sendvič"),
-            keywords: &["chlieb", "plátky", "sendvič"],
+            keywords: &[
+                "chlieb",
+                "desiata",
+                "jedlo",
+                "obložený chlieb",
+                "plátky",
+                "sendvič",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("sendvič"),
-            keywords: &["sendvič"],
+            keywords: &["hrana", "kruh", "sendvič"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -13105,7 +18510,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("sandviç"),
-            keywords: &["bukë", "sandviç"],
+            keywords: &["bukë", "sanduiç", "sandviç"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
@@ -13117,7 +18522,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["сендвич"],
+            keywords: &["сендвич", "хљеб"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -13128,8 +18533,8 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["sendvič"],
+            tts: Some("↑↑↑"),
+            keywords: &["hljeb", "sendvič"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -13153,7 +18558,12 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("ச\u{bbe}ண\u{bcd}ட\u{bcd}விச\u{bcd}"),
-            keywords: &["ச\u{bbe}ண\u{bcd}ட\u{bcd}விச\u{bcd}", "பிரெட\u{bcd}"],
+            keywords: &[
+                "உணவு",
+                "க\u{bbe}லையுணவு",
+                "ச\u{bbe}ண\u{bcd}ட\u{bcd}விச\u{bcd}",
+                "பிரெட\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
@@ -13161,6 +18571,7 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
             tts: Some("స\u{c3e}ండ\u{c4d}\u{200c}వ\u{c3f}చ\u{c4d}"),
             keywords: &[
                 "ర\u{c4a}ట\u{c4d}ట\u{c46}",
+                "శ\u{c3e}ండ\u{c4d} వ\u{c3f}చ\u{c4d}",
                 "స\u{c3e}ండ\u{c4d}\u{200c}వ\u{c3f}చ\u{c4d}",
             ],
         },
@@ -13174,7 +18585,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("แซนด\u{e4c}ว\u{e34}ช"),
-            keywords: &["ขนมป\u{e31}ง", "แซนด\u{e4c}ว\u{e34}ช"],
+            keywords: &["ขนมป\u{e31}ง", "อาหาร", "แซนด\u{e4c}ว\u{e34}ช"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እምቦቲቶ"),
+            keywords: &["ሳንድዊች", "ባኒ", "እምበቲቶ", "እምቦቲቶ", "ፓኒኖ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -13186,13 +18603,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("sanuisi"),
-            keywords: &["sanuisi"],
+            keywords: &["mā", "sanuisi"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("sandviç"),
-            keywords: &["ekmek", "sandviç"],
+            keywords: &["ekmek", "gıda", "sandviç", "tost", "yemek"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -13204,13 +18621,21 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("сандвіч"),
-            keywords: &["сандвіч", "хліб"],
+            keywords: &["сандвіч", "сендвіч", "хліб", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("سینڈوچ"),
-            keywords: &["سینڈوچ", "ڈبل روٹی"],
+            keywords: &[
+                "بریڈ",
+                "روٹی",
+                "سینڈوچ",
+                "غزا",
+                "پائو روٹی",
+                "ڈبل روٹی",
+                "کھانا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -13242,6 +18667,12 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
             tts: Some("búrẹ\u{301}dì alákànpọ\u{300}"),
             keywords: &["Búrẹ\u{301}dì", "búrẹ\u{301}dì alákànpọ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("búrɛ\u{301}dì alákànpɔ\u{300}"),
+            keywords: &["Búrɛ\u{301}dì", "búrɛ\u{301}dì alákànpɔ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -13264,13 +18695,13 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("三明治"),
-            keywords: &["三明治"],
+            keywords: &["三明治", "麵包"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("三文治"),
-            keywords: &["三文治"],
+            keywords: &["三文治", "食物", "麵包"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -13281,9 +18712,9 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🌮"]
-pub const TACO : crate :: Emoji = crate :: Emoji { glyph : "🌮" , codepoint : "1F32E" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 1u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "taco" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("taco") , keywords : & ["kos" , "meksikaans" , "taco"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ታኮ") , keywords : & ["ታኮ" , "የሜክሲኮ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("\u{202b}تاكو") , keywords : & ["مكسيكي" , "\u{202b}تاكو"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ট\u{9be}কো") , keywords : & ["ট\u{9be}কো" , "মেক\u{9cd}সিক\u{9be}ন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("tako") , keywords : & ["meksika" , "tako"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("така") , keywords : & ["мексіканскі" , "така"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("тако") , keywords : & ["мексикански" , "тако"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ট\u{9cd}য\u{9be}কো") , keywords : & ["ট\u{9cd}য\u{9be}কো" , "মেক\u{9cd}সিক\u{9be}ন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tako") , keywords : & ["mecʼhikan" , "tako"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("tortilja") , keywords : & ["meksička" , "tortilja"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("taco") , keywords : & ["mexicà" , "taco"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄑\u{11133}𑄠𑄇\u{1112e}") , keywords : & ["𑄑\u{11133}𑄠𑄇\u{1112e}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏎᎷ ᎦᏚ ᎤᏂᏍᏛᎦᏱᏓ") , keywords : & ["ᎠᏍᏆᏂ" , "ᏎᎷ ᎦᏚ ᎤᏂᏍᏛᎦᏱᏓ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("taco") , keywords : & ["jídlo" , "mexické" , "taco" , "tacos"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("taco") , keywords : & ["mecsicanaidd" , "taco"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("taco") , keywords : & ["mexicansk" , "taco"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Taco") , keywords : & ["Taco" , "mexikanisch"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τάκο") , keywords : & ["μεξικάνικο" , "τάκο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("taco") , keywords : & ["mexican" , "taco"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["Mexican" , "taco"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("taco") , keywords : & ["comida" , "mexicano" , "taco"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["comida" , "mexicana" , "taco"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["comida" , "comida mexicana" , "taco" , "tacos" , "taquitos"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tako") , keywords : & ["mehhiko" , "tako"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("takoa") , keywords : & ["mexiko" , "takoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تاکو") , keywords : & ["تاکو" , "غذا" , "مکزیکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("taco") , keywords : & ["meksikolainen" , "taco"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("taco") , keywords : & ["mexican" , "pagkain" , "taco"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("tako") , keywords : & ["matur" , "meksikanskur" , "taco" , "tako"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("taco") , keywords : & ["mexicain" , "taco"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("taco") , keywords : & ["meicsiceach" , "taco"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("taco") , keywords : & ["meagsagach" , "taco"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("taco") , keywords : & ["mexicano" , "taco"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ટાકો") , keywords : & ["ટાકો" , "મ\u{ac7}ક\u{acd}સિકન" , "મ\u{ac7}ક\u{acd}સિકન વાનગી"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("taco") , keywords : & ["na mexico" , "taco"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טאקו") , keywords : & ["טאקו" , "מקסיקני"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("ट\u{948}को") , keywords : & ["ट\u{948}को" , "म\u{948}क\u{94d}सिकन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("taco") , keywords : & ["meksička" , "taco"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("taco") , keywords : & ["mexikói" , "taco" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("տակո") , keywords : & ["մեքսիկական" , "տակո"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("taco") , keywords : & ["meksiko" , "taco"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha anụ") , keywords : & ["achịcha anụ" , "onye mexico"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("takó") , keywords : & ["mexíkóskt" , "takó"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("taco") , keywords : & ["Messico" , "cucina messicana" , "taco"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("タコス") , keywords : & ["タコス" , "メキシカン"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("tako") , keywords : & ["pangan meksiko" , "tako"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ტაკო") , keywords : & ["მექსიკური" , "ტაკო"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("тако") , keywords : & ["мексикалық" , "тако"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("taco") , keywords : & ["mexicansk" , "taco"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ថាក\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})") , keywords : & ["ន\u{17c6}" , "ន\u{17c6}ថាក\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{ccd}ಯಾಕ\u{cca}") , keywords : & ["ಟ\u{ccd}ಯಾಕ\u{cca}" , "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("타코") , keywords : & ["멕시코 요리" , "타코"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("टाको") , keywords : & ["टाको" , "म\u{945}क\u{94d}सिकन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тако") , keywords : & ["мексика" , "тако"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Taco") , keywords : & ["Taco" , "mexikanesch"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ທາໂກ\u{ec9}") , keywords : & ["ທາໂກ\u{ec9}" , "ເມ\u{eb1}ກຊ\u{eb4}ກ\u{eb1}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("meksikietiškas paplotėlis") , keywords : & ["meksikietiškas" , "meksikietiškas paplotėlis"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("tako") , keywords : & ["meksikāņu" , "tako"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tako") , keywords : & ["mehikana" , "tako"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("тако") , keywords : & ["мексиканска" , "тако" , "храна"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ട\u{d3e}കോ") , keywords : & ["ആഹ\u{d3e}രം" , "ട\u{d3e}കോ" , "ഭക\u{d4d}ഷണം" , "മെക\u{d4d}\u{200c}സിക\u{d4d}കൻ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("тако") , keywords : & ["мексик" , "тако"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("टाको") , keywords : & ["टाको" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("tako") , keywords : & ["mexico" , "tako"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("taco") , keywords : & ["messikan" , "taco"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တာက\u{102d}\u{102f}") , keywords : & ["တာက\u{102d}\u{102f}" , "မက\u{103a}ဆ\u{102e}ကန\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("taco") , keywords : & ["meksikansk" , "taco"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("टाको") , keywords : & ["टाको" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("taco") , keywords : & ["mexicaans" , "taco"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("taco") , keywords : & ["meksikansk" , "taco"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b3e}କୋ") , keywords : & ["ଟ\u{b3e}କୋ" , "ମେକ\u{b4d}ସ\u{b3f}କ\u{b3e}ନ\u{b4d}\u{200d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਟਾਕ\u{a4b}") , keywords : & ["ਟਾਕ\u{a4b}" , "ਮ\u{a48}ਕਸੀਕਨ ਖਾਣਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ٹیکو") , keywords : & ["میکسیکو دا رہن آلا" , "ٹیکو"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Táko") , keywords : & ["Mẹ\u{301}ksíko" , "Mẹ\u{301}ksíkó Fud Wé Im Nem Na Táko" , "Táko"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("taco") , keywords : & ["meksykańskie jedzenie" , "taco"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ټکو") , keywords : & ["ټکو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("taco") , keywords : & ["comida mexicana" , "taco"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("taco") , keywords : & ["comida" , "mexicana" , "taco"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("taco") , keywords : & ["mexicano" , "taco"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("taco") , keywords : & ["fast food" , "lipie" , "mexican" , "taco"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-243") , keywords : & ["E10-243"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("тако") , keywords : & ["кухня" , "мексика" , "мексиканская кухня" , "тако"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("tako") , keywords : & ["kinyamegisiki" , "tako"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ٽاڪو") , keywords : & ["ميڪسيڪن" , "ٽاڪو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ටැකෝ") , keywords : & ["ටැකෝ" , "මැක\u{dca}ස\u{dd2}ක\u{dcf}න\u{dd4}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("taco") , keywords : & ["jedlo" , "mexické" , "taco"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("taco") , keywords : & ["mehiški prigrizek" , "taco"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("taako") , keywords : & ["taakada meksikaanka" , "taako"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("tako") , keywords : & ["tako" , "ushqim meksikan"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("тако") , keywords : & ["мeксичкa" , "тако"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("tako") , keywords : & ["meksička" , "tako"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("taco") , keywords : & ["fredagsmys" , "mat" , "mexikanskt" , "taco"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chapati iliyojazwa vyakula mbalimbali") , keywords : & ["chapati iliyojazwa vyakula mbalimbali" , "meksiko"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ட\u{bbe}கோ") , keywords : & ["உணவு" , "ட\u{bbe}கோ" , "மெக\u{bcd}சிகன\u{bcd} உணவு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ట\u{c3e}క\u{c4b}") , keywords : & ["ట\u{c3e}క\u{c4b}" , "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("тако") , keywords : & ["мехиклӣ" , "тако"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ทาโก\u{e49}") , keywords : & ["ทาโก\u{e49}" , "เม\u{e47}กซ\u{e34}ก\u{e31}น" , "เม\u{e47}กซ\u{e34}โก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("tako") , keywords : & ["meksikan" , "tako"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("mā pelupelu") , keywords : & ["mā pelupelu"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("tako") , keywords : & ["Meksika sandviçi" , "tako"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تاكو") , keywords : & ["تاكو" , "مېكسىكىچە"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("тако") , keywords : & ["мексика" , "тако" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("مسالے بھرا پراٹھا") , keywords : & ["اسنیک" , "مسالہ" , "مسالے بھرا پراٹھا" , "میکسیکن" , "پراٹھا"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tako") , keywords : & ["meksika taomi" , "tako"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh taco") , keywords : & ["bánh mexico" , "bánh taco"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("tako") , keywords : & ["tako" , "wu-meksik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-taco") , keywords : & ["i-mexican" , "i-taco"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Taco") , keywords : & ["Taco" , "ónjẹ mẹ\u{301}síkò"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("墨西哥餡餅") , keywords : & ["墨西哥" , "墨西哥餡餅"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("墨西哥馅饼") , keywords : & ["墨西哥" , "墨西哥馅饼"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("墨西哥卷饼") , keywords : & ["卷饼" , "墨西哥" , "墨西哥卷饼"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("夾餅") , keywords : & ["墨西哥夾餅" , "夾餅"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("墨西哥夾餅") , keywords : & ["塔可餅" , "墨西哥塔可餅" , "墨西哥夾餅" , "墨西哥玉米餅" , "玉米餅"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("itaco") , keywords : & ["itaco" , "okumexican"] , }] , } ;
+pub const TACO : crate :: Emoji = crate :: Emoji { glyph : "🌮" , codepoint : "1F32E" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 1u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "taco" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("taco") , keywords : & ["Meksikaans" , "kos" , "meksikaans" , "pikant" , "rissies" , "taco" , "wegneemete"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ታኮ") , keywords : & ["ምግብ" , "ታኮ" , "የሜክሲኮ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("تاكو") , keywords : & ["أكل" , "تاكو" , "طعام" , "مكسيكي"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ট\u{9be}কো") , keywords : & ["ট\u{9be}কো" , "মেক\u{9cd}সিক\u{9be}ন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("tako") , keywords : & ["meksika" , "meksika mətbəxi" , "tako"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("така") , keywords : & ["мексіканскі" , "така"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("тако") , keywords : & ["мексикански" , "мексиканско" , "тако"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ট\u{9cd}য\u{9be}কো") , keywords : & ["খ\u{9be}ব\u{9be}র" , "ট\u{9cd}য\u{9be}কো" , "মেক\u{9cd}সিক\u{9be}ন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("tako") , keywords : & ["mecʼhikan" , "tako"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("tortilja") , keywords : & ["meksička" , "tortilja"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("taco") , keywords : & ["mexicà" , "taco"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄑\u{11133}𑄠𑄇\u{1112e}") , keywords : & ["𑄑\u{11133}𑄠𑄇\u{1112e}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏎᎷ ᎦᏚ ᎤᏂᏍᏛᎦᏱᏓ") , keywords : & ["ᎠᏍᏆᏂ" , "ᏎᎷ ᎦᏚ ᎤᏂᏍᏛᎦᏱᏓ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("taco") , keywords : & ["jídlo" , "mexická kuchyně" , "mexické" , "placka" , "taco" , "tacos"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("taco") , keywords : & ["mecsicanaidd" , "taco"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("taco") , keywords : & ["mexicansk" , "taco"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Taco") , keywords : & ["Essen" , "Taco" , "mexikanisch"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τάκο") , keywords : & ["μεξικάνικο" , "τάκο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("taco") , keywords : & ["mexican" , "taco"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["Mexican" , "taco"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("taco") , keywords : & ["comida" , "mexicano" , "taco"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["México" , "comida" , "mexicana" , "taco"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["comida" , "comida mexicana" , "taco" , "tacos" , "taquitos"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("tako") , keywords : & ["mehhiko" , "tako"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("takoa") , keywords : & ["mexiko" , "takoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("تاکو") , keywords : & ["تاکو" , "خوراک" , "خوراکی" , "غذا" , "مکزیکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("taco") , keywords : & ["meksikolainen" , "tortilla"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("taco") , keywords : & ["mexican" , "pagkain" , "taco"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("tako") , keywords : & ["matur" , "meksikanskur" , "taco" , "tako"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("taco") , keywords : & ["mexicain" , "nourriture" , "taco"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("taco") , keywords : & ["meicsiceach" , "meisiceach" , "taco"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("taco") , keywords : & ["meagsagach" , "taco"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("taco") , keywords : & ["mexicano" , "taco"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ટાકો") , keywords : & ["ખાણ\u{ac1}\u{a82}" , "ખાનપાન" , "ખોરાક" , "ટાકો" , "પકવાન" , "ભોજન" , "મ\u{ac7}ક\u{acd}સિકન" , "વાનગી" , "વાની" , "શાક લપ\u{ac7}ટ\u{ac7}લો પાપડ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("fanken taco") , keywords : & ["abinci" , "abincin mexico" , "abincin meziko" , "fanken taco" , "kwaɗon taco" , "na mexico" , "taco" , "tako"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("fanken taco") , keywords : & ["abinci" , "abincin mexico" , "abincin meziko" , "fanken taco" , "kwaɗon taco" , "na mexico" , "taco" , "tako"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("טאקו") , keywords : & ["טאקו" , "מקסיקני"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("ट\u{948}को") , keywords : & ["ट\u{948}को" , "म\u{948}क\u{94d}सिकन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("taco") , keywords : & ["hrana" , "meksička" , "taco"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("taco") , keywords : & ["mexikói" , "taco" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("տակո") , keywords : & ["մեքսիկական" , "տակո"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("taco") , keywords : & ["khas meksiko" , "taco"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha anụ") , keywords : & ["achịcha anụ" , "onye mexico"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("takó") , keywords : & ["mexíkóskt" , "takó"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("taco") , keywords : & ["Messico" , "cibo" , "cucina messicana" , "guacamole" , "messicana" , "messicano" , "ristorante" , "salsa" , "taco" , "tacos"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("タコス") , keywords : & ["タコス" , "メキシカン" , "メキシコ料理"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("tako") , keywords : & ["pangan meksiko" , "tako"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ტაკო") , keywords : & ["მექსიკური" , "ტაკო"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("тако") , keywords : & ["мексикалық" , "тако" , "тағам"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("taco") , keywords : & ["mexicansk" , "taco"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ថាក\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})") , keywords : & ["ន\u{17c6}" , "ន\u{17c6}ថាក\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{ccd}ಯಾಕ\u{cca}") , keywords : & ["ಖಾದ\u{ccd}ಯ" , "ಟ\u{ccd}ಯಾಕ\u{cca}" , "ಟ\u{ccd}ಯಾಕ\u{ccb}" , "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd}" , "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd} ತ\u{cbf}ನ\u{cbf}ಸು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("타코") , keywords : & ["멕시칸" , "멕시코 요리" , "타코"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("टाको") , keywords : & ["टाको" , "म\u{945}क\u{94d}सिकन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("тако") , keywords : & ["мексика" , "тако"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Taco") , keywords : & ["Taco" , "mexikanesch"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ທາໂກ\u{ec9}") , keywords : & ["ທາໂກ\u{ec9}" , "ເມ\u{eb1}ກຊ\u{eb4}ກ\u{eb1}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("meksikietiškas paplotėlis") , keywords : & ["maistas" , "meksikietiškas" , "meksikietiškas paplotėlis" , "takas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("tako") , keywords : & ["meksikāņu" , "pārtika" , "tako" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tako") , keywords : & ["mehikana" , "tako"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("тако") , keywords : & ["мексиканска" , "тако" , "храна"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ട\u{d3e}കോ") , keywords : & ["ആഹ\u{d3e}രം" , "ട\u{d3e}കോ" , "ഭക\u{d4d}ഷണം" , "മെക\u{d4d}\u{200c}സിക\u{d4d}കൻ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("тако") , keywords : & ["мексик" , "тако"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("टाको") , keywords : & ["अन\u{94d}न" , "खाद\u{94d}य" , "ज\u{947}वण" , "टाको" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("tako") , keywords : & ["mexico" , "tako"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("taco") , keywords : & ["messikan" , "taco"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တာက\u{102d}\u{102f}") , keywords : & ["တာက\u{102d}\u{102f}" , "မက\u{103a}ဆ\u{102e}ကန\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("टाको") , keywords : & ["टाको" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("taco") , keywords : & ["mexicaans" , "taco"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b3e}କୋ") , keywords : & ["ଟ\u{b3e}କୋ" , "ମେକ\u{b4d}ସ\u{b3f}କ\u{b3e}ନ\u{b4d}\u{200d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਟਾਕ\u{a4b}") , keywords : & ["ਟਾਕ\u{a4b}" , "ਭ\u{a4b}ਜਨ" , "ਮ\u{a48}ਕਸੀਕਨ ਖਾਣਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("ٹیکو") , keywords : & ["میکسیکو دا رہن آلا" , "ٹیکو"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Táko") , keywords : & ["Mẹ\u{301}ksíko" , "Mẹ\u{301}ksíkó Fud Wé Im Nem Na Táko" , "Táko"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("taco") , keywords : & ["jedzenie" , "meksykańskie" , "taco"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("ټکو") , keywords : & ["ټکو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("taco") , keywords : & ["comida mexicana" , "mexicano" , "taco" , "tacos"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["comida" , "mexicana" , "taco"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("taco") , keywords : & ["mexicano" , "taco"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("taco") , keywords : & ["fast food" , "lipie" , "mexican" , "mâncare" , "taco"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-243") , keywords : & ["E10-243"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("тако") , keywords : & ["кухня" , "мексика" , "мексиканская кухня" , "перекус" , "тако"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("tako") , keywords : & ["kinyamegisiki" , "tako"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ٽاڪو") , keywords : & ["ميڪسيڪن" , "ٽاڪو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ටැකෝ") , keywords : & ["ටැකෝ" , "මැක\u{dca}ස\u{dd2}ක\u{dcf}න\u{dd4}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("taco") , keywords : & ["jedlo" , "mexické" , "placka" , "taco"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("taco") , keywords : & ["mehiški prigrizek" , "taco" , "tako"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("taako") , keywords : & ["taakada meksikaanka" , "taako"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("tako") , keywords : & ["meksikan" , "tako" , "ushqim meksikan"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("тако") , keywords : & ["мeксичкa" , "мексичко" , "тако"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("tako") , keywords : & ["meksička" , "meksičko" , "tako"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("taco") , keywords : & ["fredagsmys" , "mat" , "mexikanskt" , "taco"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("chapati iliyojazwa vyakula mbalimbali") , keywords : & ["Meksiko" , "chapati iliyojazwa vyakula mbalimbali" , "meksiko"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ட\u{bbe}கோ") , keywords : & ["உணவு" , "ட\u{bbe}கோ" , "மெக\u{bcd}சிகன\u{bcd} உணவு" , "மெக\u{bcd}ஸிகன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ట\u{c3e}క\u{c4b}") , keywords : & ["ఆహరం" , "ట\u{c3e}క\u{c4b}" , "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("тако") , keywords : & ["мехиклӣ" , "тако"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ทาโก\u{e49}") , keywords : & ["ทาโก\u{e49}" , "เม\u{e47}กซ\u{e34}ก\u{e31}น" , "เม\u{e47}กซ\u{e34}โก"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ታኮ") , keywords : & ["መክሲካዊ" , "ሜክሲካዊ" , "ታኮ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("tako") , keywords : & ["meksikan" , "tako"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("mā pelupelu") , keywords : & ["mā" , "pelupelu"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("tako") , keywords : & ["Meksika sandviçi" , "gıda" , "meksika sandviçi" , "tako"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تاكو") , keywords : & ["تاكو" , "مېكسىكىچە"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("тако") , keywords : & ["Мексика" , "мексика" , "мексиканська кухня" , "мексиканська їжа" , "тако" , "такос" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("مسالے بھرا پراٹھا") , keywords : & ["اسنیک" , "مسالہ" , "مسالے بھرا پراٹھا" , "میکسیکن" , "ٹاکو" , "پراٹھا"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("tako") , keywords : & ["meksika" , "meksika taomi" , "oshxona" , "tako"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh taco") , keywords : & ["bánh mexico" , "bánh taco"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("tako") , keywords : & ["tako" , "wu-meksik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-taco") , keywords : & ["i-mexican" , "i-taco"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Taco") , keywords : & ["Taco" , "ónjẹ mẹ\u{301}síkò"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Taco") , keywords : & ["Taco" , "ónjɛ mɛ\u{301}síkò"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("墨西哥餡餅") , keywords : & ["墨西哥" , "墨西哥餡餅"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("墨西哥馅饼") , keywords : & ["墨西哥" , "墨西哥馅饼"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("墨西哥卷饼") , keywords : & ["卷饼" , "墨西哥" , "墨西哥卷饼" , "墨西哥玉米卷" , "玉米卷饼"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("夾餅") , keywords : & ["墨西哥夾餅" , "夾餅"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("墨西哥夾餅") , keywords : & ["塔可" , "塔可餅" , "墨西哥塔可餅" , "墨西哥夾餅" , "墨西哥玉米餅" , "玉米餅" , "食物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("itaco") , keywords : & ["itaco" , "okumexican"] , }] , } ;
 #[doc = "🌯"]
-pub const BURRITO : crate :: Emoji = crate :: Emoji { glyph : "🌯" , codepoint : "1F32F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 1u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "burrito" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("burrito") , keywords : & ["burrito" , "kos" , "meksikaans"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ቡሪቶ") , keywords : & ["ቡሪቶ" , "የሜክሲኮ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("بوريتو") , keywords : & ["بوريتو" , "مكسيكي"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("বৰিটো") , keywords : & ["বৰিটো" , "মেক\u{9cd}সিক\u{9be}ন" , "ৰেপ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("buritto") , keywords : & ["buritto" , "meksika"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("бурыта") , keywords : & ["бурыта" , "мексіканскі"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("бурито") , keywords : & ["бурито" , "мексикански"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ব\u{9c1}রিটো") , keywords : & ["ব\u{9c1}রিটো" , "মেক\u{9cd}সিক\u{9be}ন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("burrito") , keywords : & ["burrito" , "mecʼhikan"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("burito") , keywords : & ["burito" , "meksička"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicà" , "rotlle" , "tortilla"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄝\u{1112a}𑄢\u{11128}𑄖\u{1112e}") , keywords : & ["𑄝\u{1112a}𑄢\u{11128}𑄖\u{1112e}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏇᏅ") , keywords : & ["ᎠᏍᏆᏂ" , "ᎦᏇᏅ" , "ᎦᏇᏅᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("burrito") , keywords : & ["burito" , "burrito" , "jídlo" , "mexická" , "mexické" , "rolka" , "wrap"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("burrito") , keywords : & ["burrito" , "mecsicanaidd"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicansk"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Burrito") , keywords : & ["Burrito" , "mexikanisch"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μπουρίτο") , keywords : & ["μεξικάνικο" , "μπουρίτο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("burrito") , keywords : & ["burrito" , "mexican" , "wrap"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["Mexican" , "burrito" , "wrap"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("burrito") , keywords : & ["burrito" , "comida" , "mexicano" , "tex mex" , "wrap"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comida" , "mexicana"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comida" , "comida mexicana"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("burrito") , keywords : & ["burrito" , "mehhiko"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("burritoa") , keywords : & ["burritoa" , "mexiko"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("بوریتو") , keywords : & ["بوریتو" , "غذا" , "مکزیکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("burrito") , keywords : & ["burrito" , "meksikolainen"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("burrito") , keywords : & ["burrito" , "mexican" , "pagkain"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("burrito") , keywords : & ["burrito" , "matur" , "meksikanskur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicain"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("burrito") , keywords : & ["burrito" , "meicsiceach"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("burrito") , keywords : & ["burrito" , "meagsagach" , "wrap"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicano"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("બરિટો") , keywords : & ["બરિટો" , "મ\u{ac7}ક\u{acd}સિકન" , "મ\u{ac7}ક\u{acd}સિકન વાનગી"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("burrito") , keywords : & ["burrito" , "na mexico" , "naɗi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("בוריטו") , keywords : & ["בוריטו" , "מקסיקני"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("बरिटो") , keywords : & ["बरिटो" , "म\u{948}क\u{94d}सिकन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("burrito") , keywords : & ["burrito" , "meksička"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("burrito") , keywords : & ["burrito" , "mexikói" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բուռիտո") , keywords : & ["բուռիտո" , "բրդուճ" , "մեքսիկական" , "պատառ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("burrito") , keywords : & ["burrito" , "meksiko"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha nrianụ na akwụkwọnri") , keywords : & ["achịcha nrianụ na akwụkwọnri" , "ngwu èkèrèke" , "onye mexico"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("búrrító") , keywords : & ["búrrító" , "mexíkóskt"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("burrito") , keywords : & ["Messico" , "burrito" , "cucina messicana"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ブリトー") , keywords : & ["ソフトタコス" , "ブリトー" , "メキシカン"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("burito") , keywords : & ["burito" , "dhaharan meksiko" , "sega bungkus roti"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ბურიტო") , keywords : & ["ბურიტო" , "მექსიკური"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("бурито") , keywords : & ["бурито" , "мексикалық"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicansk"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ប\u{17ca}\u{17ba}រ\u{17b8}ត\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})") , keywords : & ["ន\u{17c6}" , "ន\u{17c6}ប\u{17ca}\u{17ba}រ\u{17b8}ត\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬುರ\u{cbf}ಟ\u{cca}") , keywords : & ["ಬುರ\u{cbf}ಟ\u{cca}" , "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("부리또") , keywords : & ["멕시코 요리" , "버리토" , "부리또" , "타코"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("ब\u{941}रिटो") , keywords : & ["ग\u{941}ठली" , "ब\u{941}रिटो" , "म\u{945}क\u{94d}सिकन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("буррито") , keywords : & ["буррито" , "мексика"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Burrito") , keywords : & ["Burrito" , "Wrap" , "mexikanesch"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເບ\u{eb5}ຣ\u{eb4}ໂຕ") , keywords : & ["ເບ\u{eb5}ຣ\u{eb4}ໂຕ" , "ເບ\u{eb5}ຣ\u{eb5}ໂຕ" , "ແມ\u{eb1}ກຊ\u{eb5}ກ\u{eb1}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("buritas") , keywords : & ["buritas" , "meksikietiškas" , "suvyniotas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("burito") , keywords : & ["burito" , "meksikāņu"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("purito") , keywords : & ["mehikana" , "purito" , "takai"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("бурито") , keywords : & ["бурито" , "мексиканска" , "храна"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ബറീറ\u{d4d}റോ") , keywords : & ["ആഹ\u{d3e}രം" , "ബറീറ\u{d4d}റോ" , "ഭക\u{d4d}ഷണം" , "മെക\u{d4d}\u{200c}സിക\u{d4d}കൻ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("буррито") , keywords : & ["буррито" , "мексик"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बरितो") , keywords : & ["बरितो" , "म\u{947}क\u{94d}सिकन" , "र\u{945}प"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("burito") , keywords : & ["burito" , "mexico"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("burrito") , keywords : & ["burrito" , "messikan" , "wrap"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဘ\u{1030}ရ\u{102e}တ\u{102d}\u{102f}") , keywords : & ["ဘ\u{1030}ရ\u{102e}တ\u{102d}\u{102f}" , "မက\u{1039}ကဆ\u{102e}ကန\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("burrito") , keywords : & ["burrito" , "meksikansk" , "wrap"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("बर\u{94d}रिटो") , keywords : & ["बर\u{94d}रिटो" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicaans" , "wrap"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("burrito") , keywords : & ["burrito" , "meksikansk" , "wrap"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ବର\u{b3f}ଟୋ") , keywords : & ["ବର\u{b3f}ଟୋ" , "ମେକ\u{b4d}ସ\u{b3f}କ\u{b3e}ନ\u{b4d}\u{200d} । ର\u{b3e}ପ\u{b4d}\u{200d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਬਰੀਟ\u{a4b}") , keywords : & ["ਬਰੀਟ\u{a4b}" , "ਮ\u{a48}ਕਸੀਕਨ ਖਾਣਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("بوریٹو") , keywords : & ["بوریٹو" , "لپیٹنا" , "میکسیکو دا رہن آلا"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Buríto") , keywords : & ["Buríto" , "Mẹ\u{301}ksíko" , "Rap"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("burrito") , keywords : & ["burito" , "burrito" , "meksykańskie jedzenie"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("بريټو") , keywords : & ["بريټو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("burrito") , keywords : & ["burrito" , "comida mexicana"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comida" , "mexicana"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("burrito") , keywords : & ["burrito" , "mayt’uy" , "mexicano"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("burrito") , keywords : & ["burrito" , "lipie" , "mexican" , "sandvici rulat" , "sandviș rulat"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-244") , keywords : & ["E10-244"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("буррито") , keywords : & ["буррито" , "бурритос" , "кухня" , "мексика" , "мексиканская кухня"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("burito") , keywords : & ["burito" , "cyo muri megizike" , "gufunika"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("بريٽو") , keywords : & ["بريٽو" , "ميڪسيڪن رول"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("බ\u{dd4}ර\u{dd2}ටෝ") , keywords : & ["බ\u{dd4}ර\u{dd2}ටෝ" , "මැක\u{dca}ස\u{dd2}ක\u{dcf}න\u{dd4}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("burrito") , keywords : & ["burrito" , "jedlo" , "mexické"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("burito") , keywords : & ["burito" , "mehiški prigrizek"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("toortiilada meksikaanka") , keywords : & ["duub ah" , "meksikaan" , "toortiila" , "toortiilada meksikaanka"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("burrito") , keywords : & ["burrito" , "ushqim meksikan i mbështjellë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("бурито") , keywords : & ["бурито" , "мeксичкa"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("burito") , keywords : & ["burito" , "meksička"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("burrito") , keywords : & ["burrito" , "fredagsmys" , "mat" , "mexikanskt"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mkate wa kimeksiko uliowekwa nyama au maharage ndani") , keywords : & ["meksiko" , "mkate wa kimeksiko uliowekwa nyama au maharage ndani"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("புரிட\u{bcd}டோ") , keywords : & ["உணவு" , "புரிட\u{bcd}டோ" , "மெக\u{bcd}சிகன\u{bcd} உணவு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("బర\u{c4d}ర\u{c3f}ట\u{c4d}ట\u{c4b}") , keywords : & ["బర\u{c4d}ర\u{c3f}ట\u{c4d}ట\u{c4b}" , "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("буритто") , keywords : & ["буритто" , "мехисоӣ" , "печондан"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เบอร\u{e4c}ร\u{e34}โต") , keywords : & ["เบอร\u{e4c}ร\u{e34}โต" , "เม\u{e47}กซ\u{e34}ก\u{e31}น" , "เม\u{e47}กซ\u{e34}โก"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("burrito") , keywords : & ["burrito" , "dolama" , "meksikan"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("polito") , keywords : & ["polito"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("burito") , keywords : & ["Meksika dürümü" , "burito"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قىيما") , keywords : & ["ئوراق" , "قىيما" , "مېكسىكا"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("буріто") , keywords : & ["буріто" , "мексика" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("بریٹو") , keywords : & ["اسنیک" , "بریٹو" , "مسالہ" , "میکسیکن"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("burrito") , keywords : & ["burrito" , "meksika taomi"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh burrito") , keywords : & ["bánh burrito" , "bánh mexico"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("burito") , keywords : & ["burito" , "mbar" , "wu-meksik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-burrito") , keywords : & ["i-burrito" , "i-mexican" , "i-wrap"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Burito") , keywords : & ["Burito" , "wépò" , "ónjẹ mẹ\u{301}síkò"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("捲餅") , keywords : & ["墨西哥" , "捲餅"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("卷饼") , keywords : & ["卷饼" , "墨西哥"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("墨西哥玉米煎饼") , keywords : & ["卷饼" , "墨西哥" , "墨西哥玉米煎饼" , "玉米煎饼"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("捲餅") , keywords : & ["墨西哥捲餅" , "捲餅"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("墨西哥捲餅") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("hburrito") , keywords : & ["hburrito" , "okumexican"] , }] , } ;
+pub const BURRITO : crate :: Emoji = crate :: Emoji { glyph : "🌯" , codepoint : "1F32F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 1u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "burrito" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("burrito") , keywords : & ["Meksikaans" , "Meksikaanse kos" , "burrito" , "kos" , "meksikaans" , "wegneemete"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ቡሪቶ") , keywords : & ["ምግብ" , "ቡሪቶ" , "የሜክሲኮ" , "የተጠቀለለ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("بوريتو") , keywords : & ["أكل" , "بوريتو" , "سندويتش" , "سندويش" , "طعام" , "عروس" , "مكسيكي"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("বৰিটো") , keywords : & ["বৰিটো" , "মেক\u{9cd}সিক\u{9be}ন" , "ৰেপ"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("buritto") , keywords : & ["Meksika mətbəxi" , "buritto" , "meksika"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("бурыта") , keywords : & ["бурыта" , "мексіканскі"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("бурито") , keywords : & ["бурито" , "мексикански" , "сандвич"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ব\u{9c1}রিটো") , keywords : & ["খ\u{9be}ব\u{9be}র" , "ব\u{9c1}রিটো" , "মেক\u{9cd}সিক\u{9be}ন" , "রোল" , "র\u{200d}\u{9cd}য\u{9be}প"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("burrito") , keywords : & ["burrito" , "mecʼhikan"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("burito") , keywords : & ["burito" , "meksička"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("burrito") , keywords : & ["burrito" , "enrotllat" , "mexicà" , "rotlle" , "tortilla"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄝\u{1112a}𑄢\u{11128}𑄖\u{1112e}") , keywords : & ["𑄝\u{1112a}𑄢\u{11128}𑄖\u{1112e}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏇᏅ") , keywords : & ["ᎠᏍᏆᏂ" , "ᎦᏇᏅ" , "ᎦᏇᏅᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("burrito") , keywords : & ["burito" , "burrito" , "burritos" , "jídlo" , "mexická" , "mexická kuchyně" , "mexické" , "rolka" , "tortilla" , "wrap"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("burrito") , keywords : & ["burrito" , "mecsicanaidd"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicansk" , "wrap"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Burrito") , keywords : & ["Burrito" , "essen" , "mexikanisch"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μπουρίτο") , keywords : & ["μεξικάνικο" , "μπουρίτο" , "τυλίγω"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("burrito") , keywords : & ["burrito" , "mexican" , "wrap"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["Mexican" , "burrito" , "wrap"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("burrito") , keywords : & ["burrito" , "comida" , "mexicano" , "tex mex" , "wrap"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comer" , "comida" , "mexicana" , "mexicano"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comida" , "comida mexicana"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("burrito") , keywords : & ["burrito" , "mehhiko" , "vrapp"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("burritoa") , keywords : & ["burritoa" , "mexiko"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("بوریتو") , keywords : & ["بوریتو" , "غذا" , "مکزیکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("burrito") , keywords : & ["burrito" , "meksikolainen"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("burrito") , keywords : & ["burrito" , "mexican" , "pagkain"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("burrito") , keywords : & ["burrito" , "matur" , "meksikanskur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("burrito") , keywords : & ["burrito" , "kebab" , "mexicain" , "wrap"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("burrito") , keywords : & ["burrito" , "fillteog" , "meicsiceach"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("burrito") , keywords : & ["burrito" , "meagsagach" , "wrap"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicano"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("બરિટો") , keywords : & ["ખાનપાન" , "ખોરાક" , "પરોઠો" , "બરિટો" , "ભોજન" , "મ\u{ac7}ક\u{acd}સિકન" , "મ\u{ac7}ક\u{acd}સિકન વાનગી" , "શાક લપ\u{ac7}ટ\u{ac7}લી રોટલી"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("fanken burrito") , keywords : & ["abincin mexico" , "fanken burrito" , "kayan daɗi" , "kayan kwaɗayi" , "kwaɗayi" , "kwaɗon buritto" , "na mexico" , "nannaɗaɗɗen abinci" , "naɗi"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("fanken burrito") , keywords : & ["abincin mexico" , "fanken burrito" , "kayan daɗi" , "kayan kwaɗayi" , "kwaɗayi" , "kwaɗon buritto" , "na mexico" , "nannaɗaɗɗen abinci" , "naɗi"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("בוריטו") , keywords : & ["בוריטו" , "לאפה" , "מקסיקני" , "שווארמה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("बरिटो") , keywords : & ["बरिटो" , "म\u{948}क\u{94d}सिकन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("burrito") , keywords : & ["burrito" , "hrana" , "meksička"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("burrito") , keywords : & ["burrito" , "mexikói" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("բուրիտո") , keywords : & ["բուրիտո" , "բրդուճ" , "մեքսիկական" , "պատառ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("burrito") , keywords : & ["bungkus" , "burrito" , "meksiko"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha nrianụ na akwụkwọnri") , keywords : & ["achịcha nrianụ na akwụkwọnri" , "ngwu èkèrèke" , "onye mexico"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("búrrító") , keywords : & ["búrrító" , "mexíkóskt"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("burrito") , keywords : & ["Messico" , "burrito" , "cucina messicana"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ブリトー") , keywords : & ["ソフトタコス" , "ブリトー" , "メキシカン" , "メキシコ料理" , "ラップサンド"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("burito") , keywords : & ["burito" , "dhaharan meksiko" , "sega bungkus roti"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ბურიტო") , keywords : & ["ბურიტო" , "მექსიკური"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("бурито") , keywords : & ["бурито" , "мексикалық" , "тағам"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicansk"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ប\u{17ca}\u{17ba}រ\u{17b8}ត\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})") , keywords : & ["ន\u{17c6}" , "ន\u{17c6}ប\u{17ca}\u{17ba}រ\u{17b8}ត\u{17bc} (ន\u{17c6}ប\u{17d2}រទេសម\u{17c9}\u{17b7}កស\u{17ca}\u{17b8}ក\u{17bc})"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಬುರ\u{cbf}ಟ\u{cca}") , keywords : & ["ಖಾದ\u{ccd}ಯ" , "ಬುರ\u{cbf}ಟ\u{cca}" , "ಬುರ\u{ccd}ರ\u{cbf}ಟ\u{ccb}" , "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("부리또") , keywords : & ["랩" , "멕시칸" , "멕시코 요리" , "버리토" , "부리또" , "타코"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("ब\u{941}रिटो") , keywords : & ["ग\u{941}ठली" , "ब\u{941}रिटो" , "म\u{945}क\u{94d}सिकन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("буррито") , keywords : & ["буррито" , "мексика"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Burrito") , keywords : & ["Burrito" , "Wrap" , "mexikanesch"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເບ\u{eb5}ຣ\u{eb4}ໂຕ") , keywords : & ["ເບ\u{eb5}ຣ\u{eb4}ໂຕ" , "ເບ\u{eb5}ຣ\u{eb5}ໂຕ" , "ແມ\u{eb1}ກຊ\u{eb5}ກ\u{eb1}ນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("buritas") , keywords : & ["buritas" , "maistas" , "meksikietiškas" , "suvyniotas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("burito") , keywords : & ["burito" , "meksikāņu" , "pārtika" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("purito") , keywords : & ["mehikana" , "purito" , "takai"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("бурито") , keywords : & ["бурито" , "врап" , "мексиканска" , "храна"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("ബറീറ\u{d4d}റോ") , keywords : & ["ആഹ\u{d3e}രം" , "ബറീറ\u{d4d}റോ" , "ഭക\u{d4d}ഷണം" , "മെക\u{d4d}\u{200c}സിക\u{d4d}കൻ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("буррито") , keywords : & ["буррито" , "мексик"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("बरितो") , keywords : & ["अन\u{94d}न" , "खाद\u{94d}य" , "ज\u{947}वण" , "बरितो" , "म\u{947}क\u{94d}सिकन" , "र\u{945}प"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("burito") , keywords : & ["burito" , "mexico"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("burrito") , keywords : & ["burrito" , "messikan" , "wrap"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဘ\u{1030}ရ\u{102e}တ\u{102d}\u{102f}") , keywords : & ["ဘ\u{1030}ရ\u{102e}တ\u{102d}\u{102f}" , "မက\u{1039}ကဆ\u{102e}ကန\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("बर\u{94d}रिटो") , keywords : & ["बर\u{94d}रिटो" , "म\u{947}क\u{94d}सिकन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("burrito") , keywords : & ["burrito" , "mexicaans" , "wrap"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ବର\u{b3f}ଟୋ") , keywords : & ["ବର\u{b3f}ଟୋ" , "ମେକ\u{b4d}ସ\u{b3f}କ\u{b3e}ନ\u{b4d}\u{200d}" , "ର\u{b3e}ପ\u{b4d}\u{200d}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਬਰੀਟ\u{a4b}") , keywords : & ["ਬਰੀਟ\u{a4b}" , "ਮ\u{a48}ਕਸੀਕਨ ਖਾਣਾ" , "ਰ\u{a4b}ਟੀ ਰ\u{a4b}ਲ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("بوریٹو") , keywords : & ["بوریٹو" , "لپیٹنا" , "میکسیکو دا رہن آلا"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Buríto") , keywords : & ["Buríto" , "Mẹ\u{301}ksíko" , "Rap"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("burrito") , keywords : & ["burito" , "burrito" , "jedzenie" , "meksykańskie" , "wrap"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("بريټو") , keywords : & ["بريټو"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("burrito") , keywords : & ["burrito" , "comida mexicana" , "mexicano"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["burrito" , "comida" , "mexicana"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("burrito") , keywords : & ["burrito" , "mayt’uy" , "mexicano"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("burrito") , keywords : & ["burrito" , "lipie" , "mexican" , "mâncare" , "ruladă" , "sandvici rulat" , "sandviș rulat"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-244") , keywords : & ["E10-244"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("буррито") , keywords : & ["буррито" , "бурритос" , "кухня" , "мексика" , "мексиканская кухня" , "ролл" , "тортилья"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("burito") , keywords : & ["burito" , "cyo muri megizike" , "gufunika"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("بريٽو") , keywords : & ["بريٽو" , "ميڪسيڪن رول"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("බ\u{dd4}ර\u{dd2}ටෝ") , keywords : & ["බ\u{dd4}ර\u{dd2}ටෝ" , "මැක\u{dca}ස\u{dd2}ක\u{dcf}න\u{dd4}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("burrito") , keywords : & ["burrito" , "jedlo" , "mexické" , "rolka" , "tortilla" , "wrap"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("burito") , keywords : & ["burito" , "mehiški prigrizek" , "tortilja"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("toortiilada meksikaanka") , keywords : & ["duub ah" , "meksikaan" , "toortiila" , "toortiilada meksikaanka"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("burrito") , keywords : & ["burrito" , "meksikan" , "ushqim meksikan i mbështjellë"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("бурито") , keywords : & ["бурито" , "завитак" , "мeксичкa" , "мексички" , "умотано"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("burito") , keywords : & ["burito" , "meksička" , "meksički" , "umotano" , "zavitak"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("burrito") , keywords : & ["burrito" , "fredagsmys" , "mat" , "mexikanskt"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("mkate wa kimeksiko uliowekwa nyama au maharage ndani") , keywords : & ["kunja" , "meksiko" , "mkate wa kimeksiko uliowekwa nyama au maharage ndani"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("புரிட\u{bcd}டோ") , keywords : & ["உணவு" , "கத\u{bcd}தி ரோல\u{bcd}" , "சப\u{bcd}ப\u{bbe}த\u{bcd}தி ரோல\u{bcd}" , "பரிட\u{bcd}டோ" , "புரிட\u{bcd}டோ" , "மெக\u{bcd}சிகன\u{bcd} உணவு" , "மெக\u{bcd}ஸிகன\u{bcd} உணவு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("బర\u{c4d}ర\u{c3f}ట\u{c4d}ట\u{c4b}") , keywords : & ["ఆహరం" , "బర\u{c4d}ర\u{c3f}ట\u{c4b}" , "బర\u{c4d}ర\u{c3f}ట\u{c4d}ట\u{c4b}" , "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d}" , "ర\u{c3e}ప\u{c4d}" , "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("буритто") , keywords : & ["буритто" , "мехисоӣ" , "печондан"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เบอร\u{e4c}ร\u{e34}โต") , keywords : & ["เบอร\u{e4c}ร\u{e34}โต" , "เม\u{e47}กซ\u{e34}ก\u{e31}น" , "เม\u{e47}กซ\u{e34}โก"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ቡሪቶ") , keywords : & ["መክሲካዊ" , "መግቢ" , "ሜክሲካዊ" , "ቡሪቶ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("burrito") , keywords : & ["burrito" , "dolama" , "meksikan"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("polito") , keywords : & ["polito"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("burito") , keywords : & ["Meksika dürümü" , "burito" , "dürüm" , "gıda" , "meksika dürümü" , "yemek"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("قىيما") , keywords : & ["ئوراق" , "قىيما" , "مېكسىكا"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("буріто") , keywords : & ["Мексика" , "буріто" , "мексика" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("بریٹو") , keywords : & ["اسنیک" , "بریتو" , "بریٹو" , "روٹی میں لپیٹا ہوا کھانا" , "مسالہ" , "میکسیکن"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("burrito") , keywords : & ["burrito" , "meksika taomi" , "oshxona"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh burrito") , keywords : & ["bánh burrito" , "bánh mexico"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("burito") , keywords : & ["burito" , "mbar" , "wu-meksik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-burrito") , keywords : & ["i-burrito" , "i-mexican" , "i-wrap"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Burito") , keywords : & ["Burito" , "wépò" , "ónjẹ mẹ\u{301}síkò"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Burito") , keywords : & ["Burito" , "wépò" , "ónjɛ mɛ\u{301}síkò"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("捲餅") , keywords : & ["墨西哥" , "捲餅"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("卷饼") , keywords : & ["卷饼" , "墨西哥"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("墨西哥玉米煎饼") , keywords : & ["卷饼" , "墨西哥" , "墨西哥卷饼" , "墨西哥玉米煎饼" , "玉米煎饼"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("捲餅") , keywords : & ["墨西哥捲餅" , "捲餅"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("墨西哥捲餅") , keywords : & ["墨西哥" , "墨西哥捲餅" , "捲餅" , "食物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("hburrito") , keywords : & ["hburrito" , "okumexican"] , }] , } ;
 #[doc = "🫔"]
 pub const TAMALE: crate::Emoji = crate::Emoji {
     glyph: "🫔",
@@ -13306,19 +18737,41 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("tamale"),
-            keywords: &["Meksikaans", "omhulsel", "tamale"],
+            keywords: &[
+                "Meksikaans",
+                "eetgoed",
+                "kookkuns",
+                "kos",
+                "omhulsel",
+                "pamona",
+                "smulkos",
+                "spesialiteit",
+                "tamale",
+                "versnapering",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ታማሌ"),
-            keywords: &["ታማሌ"],
+            keywords: &["ምግብ", "ታማሌ", "ፓሞንሃ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("تامال"),
-            keywords: &["تامال", "شطيرة", "مكسيك"],
+            keywords: &[
+                "تامال",
+                "جائع",
+                "ساندوتش",
+                "شطيرة",
+                "شهي",
+                "طعام",
+                "لذيذ",
+                "مكسيك",
+                "ملفوف",
+                "وجبة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -13330,7 +18783,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("tamal"),
-            keywords: &["dürüm", "meksika", "tamal"],
+            keywords: &["dürüm", "meksika", "tamal", "yemək"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -13348,7 +18801,16 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bn",
             tts: Some("ত\u{9be}ম\u{9be}লে"),
-            keywords: &["ত\u{9be}ম\u{9be}লে", "মেক\u{9cd}সিক\u{9be}ন", "রোল"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য",
+                "খ\u{9be}ব\u{9be}র",
+                "ট\u{9c1}ম\u{9be}লি",
+                "ত\u{9be}ম\u{9be}লে",
+                "প\u{9be}মোনহ\u{9be}",
+                "মেক\u{9cd}সিক\u{9be}ন",
+                "মেক\u{9cd}সিক\u{9be}ন র\u{200d}\u{9cd}য\u{9be}প",
+                "রোল",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -13366,7 +18828,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("tamal"),
-            keywords: &["enrotllat", "mexicà", "tamal"],
+            keywords: &["enrotllat", "menjar", "mexicà", "pamonha", "tamal"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -13378,7 +18840,16 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("tamale"),
-            keywords: &["mexický", "tamale", "tamales", "wrap"],
+            keywords: &[
+                "jídlo",
+                "mexický",
+                "pamonha",
+                "placka",
+                "potravina",
+                "tamale",
+                "tamales",
+                "wrap",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -13390,25 +18861,47 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("tamales"),
-            keywords: &["mexicansk", "tamales", "wraps"],
+            keywords: &["mad", "mexicansk", "tamales", "wraps"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Tamale"),
-            keywords: &["Tamale", "eingewickelt", "mexikanisch"],
+            keywords: &[
+                "Burrito",
+                "Essen",
+                "Lebensmittel",
+                "Streetfood",
+                "Tamale",
+                "Wrap",
+                "eingewickelt",
+                "mexikanisch",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ταμάλες"),
-            keywords: &["μεξικάνικο", "ταμάλες", "τυλιχτό"],
+            keywords: &[
+                "Μεξικό",
+                "μεξικάνικη πίτα",
+                "μεξικάνικο",
+                "ταμάλες",
+                "τυλιχτό",
+                "φαγητό",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("tamale"),
-            keywords: &["mexican", "tamale", "wrapped"],
+            keywords: &["food", "mexican", "pamonha", "tamale", "wrapped"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -13420,7 +18913,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["Mexican", "tamale", "wrapped"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
@@ -13443,26 +18936,33 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("tamal"),
+            tts: Some("↑↑↑"),
             keywords: &["comida", "mexicana", "tamal"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("tamal"),
+            tts: Some("↑↑↑"),
             keywords: &["tamal"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("tamal"),
-            keywords: &["tamal"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("tamale"),
-            keywords: &["maisikakk", "mehhiko", "tamale", "täidetud"],
+            keywords: &[
+                "maisikakk",
+                "mehhiko",
+                "pamonha",
+                "tamale",
+                "toit",
+                "täidetud",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -13474,19 +18974,19 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("تامال"),
-            keywords: &["تامال", "لقمه", "مکزیکی"],
+            keywords: &["تامال", "غذا", "لقمه", "مکزیکی", "پانونها"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("tamal"),
-            keywords: &["käärö", "meksikolainen", "tamal"],
+            keywords: &["käärö", "meksikolainen"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("tamale"),
-            keywords: &["mexican", "nakabalot", "tamale"],
+            keywords: &["meryenda", "mexican", "nakabalot", "pagkain", "tamale"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -13498,7 +18998,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("tamal"),
-            keywords: &["mexicain", "papillote", "tamal"],
+            keywords: &["mexicain", "nourriture", "pamonha", "papillote", "tamal"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -13522,45 +19022,80 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("tamal"),
-            keywords: &["mexicano", "tamal"],
+            keywords: &["mexicano"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("તમાલ\u{ac7}"),
             keywords: &[
+                "આહાર",
                 "તમાલ\u{ac7}",
+                "ફ\u{ac2}ડ",
                 "મ\u{ac7}ક\u{acd}સિકન",
                 "ર\u{ac5}પમા\u{a82} વી\u{a82}ટાળ\u{ac7}લ\u{ac1}\u{a82}",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("biredin tamale"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "biredin tamale",
+                "na mexico",
+                "nannaɗaɗɗe",
+                "pamonha",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("biredin tamale"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "biredin tamale",
+                "na mexico",
+                "nannaɗaɗɗe",
+                "pamonha",
             ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("טמלה"),
-            keywords: &["טמלה", "מקסיקני", "ראפ"],
+            keywords: &["אוכל", "טמלה", "מקסיקני", "ראפ"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("टमाल\u{947}"),
             keywords: &[
+                "खाना",
                 "टमाल\u{947}",
+                "डिश",
+                "फ\u{93c}\u{942}ड",
                 "म\u{948}क\u{94d}सिकन",
+                "र\u{947}सिपी",
                 "र\u{948}प किया ह\u{941}आ",
+                "र\u{948}प फ\u{93c}\u{942}ड",
+                "रोल",
+                "व\u{947}ज रोल",
             ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("tamal"),
-            keywords: &["meksičko", "tamal", "umotano"],
+            keywords: &["hrana", "meksička hrana", "meksičko", "tamal", "umotano"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("tamale"),
-            keywords: &["felcsavart", "mexikói", "tamale"],
+            keywords: &["felcsavart", "mexikói", "tamale", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -13572,7 +19107,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("tamale"),
-            keywords: &["makanan meksiko", "tamale", "terbungkus"],
+            keywords: &["dibungkus", "makanan", "meksiko", "pamonha", "tamale"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("tamale"),
+            keywords: &["mexican", "tamale", "wrapped"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -13584,13 +19125,20 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("tamale"),
-            keywords: &["involtino", "messicano", "tamale"],
+            keywords: &["cibo", "involtino", "messicano", "pamonha", "tamale"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("タマル"),
-            keywords: &["ちまき", "タマル", "タマレス", "メキシカン"],
+            keywords: &[
+                "ちまき",
+                "タマル",
+                "タマレス",
+                "パモーニャ",
+                "メキシカン",
+                "食べ物",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -13608,7 +19156,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("тамал"),
-            keywords: &["мексикалық", "оралған", "тамал"],
+            keywords: &["мексикалық", "оралған", "тамал", "тамақ"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -13625,8 +19173,15 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ತಮಾಲ\u{cc6}"),
             keywords: &[
+                "ಆಹಾರ",
+                "ಟಮಾಲ\u{cbf}",
                 "ತಮಾಲ\u{cc6}",
+                "ತ\u{cbf}ನ\u{cbf}ಸು",
+                "ಪಮ\u{ccb}ನ\u{ccd}ಹಾ",
+                "ಬ\u{ccd}ರ\u{cc6}ಜ\u{cbf}ಲ\u{cbf}ಯನ\u{ccd} ಆಹಾರ",
+                "ಭಕ\u{ccd}ಷ\u{ccd}ಯ",
                 "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕನ\u{ccd}",
+                "ಮ\u{cc6}ಕ\u{ccd}ಸ\u{cbf}ಕ\u{ccb} ತ\u{cbf}ನ\u{cbf}ಸು",
                 "ಸುತ\u{ccd}ತ\u{cbf}ಕ\u{cca}ಂಡ\u{cbf}ರುವ",
             ],
         },
@@ -13634,7 +19189,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("타말레"),
-            keywords: &["감싼", "멕시칸", "타말레"],
+            keywords: &["감싼", "멕시칸", "빠몽야", "음식", "타말레"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -13658,6 +19213,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             tts: Some("ພ\u{eb1}ບ"),
             keywords: &[
                 "ພ\u{eb1}ບ",
+                "ວຣາບ",
                 "ຫ\u{ecd}\u{ec8}",
                 "ແມ\u{eb1}ກຊ\u{eb5}ກ\u{eb1}ນ",
             ],
@@ -13666,19 +19222,27 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("vyniotinis"),
-            keywords: &["meksikietiškas", "susuktas", "vyniotinis"],
+            keywords: &["meksikietiškas", "pamonha", "susuktas", "vyniotinis"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("tamale"),
-            keywords: &["meksikāņu", "satīts", "tamale", "vraps"],
+            keywords: &[
+                "meksikāņu",
+                "pārtika",
+                "satīts",
+                "tamale",
+                "uzkoda",
+                "vraps",
+                "ēdiens",
+            ],
         },
         #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("тамале"),
-            keywords: &["замотана", "мексиканска", "тамале"],
+            keywords: &["замотана", "мексиканска", "памоња", "тамале", "храна"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -13686,6 +19250,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             tts: Some("ട\u{d3e}മേൽ"),
             keywords: &[
                 "ട\u{d3e}മേൽ",
+                "ഭക\u{d4d}ഷണം",
                 "മെക\u{d4d}സിക\u{d4d}കൻ",
                 "റ\u{d3e}പ\u{d4d}ഡ\u{d4d}",
             ],
@@ -13701,8 +19266,10 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("तमाल\u{947}"),
             keywords: &[
+                "खाद\u{94d}यपदार\u{94d}थ",
                 "ग\u{941}\u{902}डाल\u{947}ल\u{947}",
                 "तमाल\u{947}",
+                "पामोन\u{94d}हा",
                 "म\u{947}क\u{94d}सिकन",
             ],
         },
@@ -13710,7 +19277,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("tamale"),
-            keywords: &["berbungkus", "mexico", "tamale"],
+            keywords: &[
+                "berbungkus",
+                "kek jagung",
+                "makanan traditional orang Brazil",
+                "mexico",
+                "tamale",
+            ],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -13722,12 +19295,6 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
                 "အလ\u{102d}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("tamal"),
-            keywords: &["latinamerikansk", "meksikansk", "tamal", "wrap"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -13738,13 +19305,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("tamale"),
-            keywords: &["Mexicaans", "gevuld", "tamale"],
+            keywords: &["Mexicaans", "eten", "pamonha", "tamale", "verpakt"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("tamal"),
-            keywords: &["latinamerikansk", "meksikansk", "tamal", "wrap"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -13760,7 +19327,14 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਤਮਾਲ"),
-            keywords: &["ਤਮਾਲ", "ਮ\u{a48}ਕਸੀਕਨ", "ਰ\u{a4b}ਲ", "ਲਪ\u{a47}ਟਿਆ"],
+            keywords: &[
+                "ਖਾਣਾ",
+                "ਤਮਾਲ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਮ\u{a48}ਕਸੀਕਨ",
+                "ਰ\u{a4b}ਲ",
+                "ਲਪ\u{a47}ਟਿਆ",
+            ],
         },
         #[cfg(feature = "pcm")]
         crate::Annotation {
@@ -13772,7 +19346,15 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("tamales"),
-            keywords: &["meksykańskie", "tamales", "zawijane"],
+            keywords: &[
+                "danie",
+                "jedzenie",
+                "meksykańskie",
+                "pamonha",
+                "przekąska",
+                "tamales",
+                "zawijane",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -13784,13 +19366,15 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("tamale"),
-            keywords: &["enrolado", "mexicano", "tamale"],
+            keywords: &[
+                "alimento", "comida", "enrolado", "mexicano", "milho", "pamonha", "tamale",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["mexicano", "tamale", "wrap"],
+            keywords: &["alimento", "comida", "mexicano", "tamale", "wrap"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -13802,7 +19386,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("tamale"),
-            keywords: &["colțunaș", "mâncare mexicană", "tamale"],
+            keywords: &[
+                "colțunaș",
+                "mâncare",
+                "mâncare mexicană",
+                "pamonha",
+                "tamale",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -13814,7 +19404,14 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("тамале"),
-            keywords: &["завернутый", "мексиканский", "тамал", "тамале"],
+            keywords: &[
+                "еда",
+                "завернутый",
+                "мексиканский",
+                "памонья",
+                "тамал",
+                "тамале",
+            ],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -13832,31 +19429,38 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("tamal"),
-            keywords: &["mexické", "tamal"],
+            keywords: &["jedlo", "kukuričné cesto", "mexické", "pamonha", "tamal"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("tamale"),
-            keywords: &["mehiška", "tamale", "zavitek"],
+            keywords: &["hrana", "mehiška", "tamale", "tortilja", "zavitek"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("unno maksikaan"),
-            keywords: &["cunno maksikaan", "duuban", "maksikaan", "unno maksikaan"],
+            keywords: &["duuban", "mexican", "tamale", "unno maksikaan"],
         },
         #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("tamale"),
-            keywords: &["me pite", "tamale", "ushqim meksikan"],
+            keywords: &[
+                "me pite",
+                "pamonha",
+                "pamonja",
+                "tamale",
+                "ushqim",
+                "ushqim meksikan",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("тамале"),
-            keywords: &["завитак", "мексички", "тамале"],
+            keywords: &["завитак", "мексички", "тамале", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -13868,7 +19472,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("tamale"),
-            keywords: &["meksički", "tamale", "zavitak"],
+            keywords: &["hrana", "meksički", "tamale", "zavitak"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -13880,7 +19490,12 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("tamale"),
-            keywords: &["meksiko", "mkate uliofungwa wa kimeksiko", "tamale"],
+            keywords: &[
+                "chakula",
+                "meksiko",
+                "mkate uliofungwa wa kimeksiko",
+                "tamale",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -13893,8 +19508,10 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("தம\u{bbe}லே"),
             keywords: &[
+                "உணவு",
                 "சுற\u{bcd}றப\u{bcd}பட\u{bcd}டது",
                 "தம\u{bbe}லே",
+                "பமோன\u{bcd}ஹ\u{bbe}",
                 "மெக\u{bcd}சிகன\u{bcd}",
             ],
         },
@@ -13905,7 +19522,13 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "చుట\u{c4d}ట\u{c3f}నద\u{c3f}",
                 "తమ\u{c3e}ల\u{c47}",
+                "పమ\u{c4b}న\u{c4d}హ\u{c3e}",
+                "ఫుడ\u{c4d}",
                 "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d}",
+                "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d} ఆహ\u{c3e}రం",
+                "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d} త\u{c3f}ండ\u{c3f}",
+                "మ\u{c46}క\u{c4d}స\u{c3f}కన\u{c4d} ఫ\u{c3e}స\u{c4d}ట\u{c4d}\u{200c}ఫుడ\u{c4d}",
+                "మ\u{c46}క\u{c4d}స\u{c3f}క\u{c4b} ఫుడ\u{c4d}",
             ],
         },
         #[cfg(feature = "th")]
@@ -13914,9 +19537,17 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             tts: Some("ทามาเล\u{e48}"),
             keywords: &[
                 "ทามาเล\u{e48}",
+                "ปาโมญา",
                 "ห\u{e48}อห\u{e38}\u{e49}ม",
+                "อาหาร",
                 "เม\u{e47}กซ\u{e34}โก",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ታማል"),
+            keywords: &["መግቢ", "ሜክሲካዊ", "ተጠቕሊሉ", "ታማለ", "ፓሞንሃ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -13928,37 +19559,66 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("mā pulupulu"),
-            keywords: &["mā pulupulu"],
+            keywords: &["mā", "pulupulu"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("tamale"),
-            keywords: &["Meksika yemeği", "dürüm", "tamale"],
+            keywords: &["Meksika yemeği", "dürüm", "tamale", "yemek", "yiyecek"],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("тамале"),
-            keywords: &["завиванець", "мексиканська страва", "тамале"],
+            keywords: &[
+                "завиванець",
+                "мексика",
+                "мексиканська страва",
+                "памонья",
+                "рол",
+                "тамале",
+                "тісто",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ٹمالے"),
-            keywords: &["لپیٹا ہوا", "میکسیکن", "ٹمالے"],
+            keywords: &["غذا", "لپیٹا ہوا", "میکسیکن", "ٹمالے"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("tamale"),
-            keywords: &["meksika", "meksikancha", "oʻralgan", "oʻrama", "tamale"],
+            keywords: &[
+                "meksika",
+                "meksikancha",
+                "oʻralgan",
+                "oʻrama",
+                "tamal",
+                "tamale",
+                "yegulik",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh tamale"),
-            keywords: &["Mexico", "bánh tamale", "cuốn"],
+            keywords: &["Mexico", "bánh tamale", "cuốn", "pamonha", "thực phẩm"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("tamalé"),
+            keywords: &["kopọ\u{300}", "tamalé", "ti mesiko"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("tamalé"),
+            keywords: &["kopɔ\u{300}", "tamalé", "ti mesiko"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -13976,19 +19636,19 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("墨西哥粽子"),
-            keywords: &["墨西哥", "墨西哥粽子", "粽子"],
+            keywords: &["墨西哥", "墨西哥粽子", "墨西哥饼", "巴西粽", "粽子", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("玉米粉蒸肉"),
-            keywords: &["墨西哥", "捲餅", "玉米粉蒸肉"],
+            keywords: &["墨西哥", "墨西哥粽", "捲餅", "玉米粉蒸肉", "食物"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["墨西哥粽", "巴西粽", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -13999,7 +19659,7 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🥙"]
-pub const STUFFED_FLATBREAD : crate :: Emoji = crate :: Emoji { glyph : "🥙" , codepoint : "1F959" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 3u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "stuffed flatbread" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("wrap") , keywords : & ["bunny chow" , "kos" , "platbrood" , "wrap"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("በምግብ የተሞላ ዳቦ") , keywords : & ["ምግብ" , "በምግብ የተሞላ ዳቦ" , "ከባብ" , "የተሞላ" , "ጅይሮ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("خبز مفرود محشو") , keywords : & ["خبز مفرود" , "خبز مفرود محشو" , "طعام" , "فلافل" , "كباب" , "محشو"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ষ\u{9cd}ট\u{9be}ফড ফ\u{9cd}লেটব\u{9cd}ৰেড") , keywords : & ["কব\u{9be}ব" , "খ\u{9be}দ\u{9cd}য" , "গ\u{9be}ইৰো" , "ফল\u{9be}ফেল" , "ফ\u{9cd}লেটব\u{9cd}ৰেড" , "ষ\u{9cd}ট\u{9be}ফড"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qutab") , keywords : & ["bişirmək" , "qutab" , "yemək"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("піта") , keywords : & ["златка" , "кебаб" , "лаваш" , "піта" , "шаўрма"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("пълнена питка") , keywords : & ["пълнена питка" , "фалафел" , "храна"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র ভর\u{9be} প\u{9be}উর\u{9c1}টি") , keywords : & ["ক\u{9be}ব\u{9be}ব" , "খ\u{9be}ব\u{9be}র" , "গ\u{9be}ইরো" , "চেপ\u{9cd}ট\u{9be}র\u{9c1}টি" , "প\u{9c1}র ভর\u{9be} প\u{9be}উর\u{9c1}টি" , "ফল\u{9be}ফেল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("kebab") , keywords : & ["boued" , "falafel" , "kebab" , "sandwich"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("kebab") , keywords : & ["falafel" , "giros" , "hrana" , "kebab" , "lepinja" , "punjeno"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("durum") , keywords : & ["durum" , "falàfel" , "farcit" , "kebab" , "pa"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏆᏅᏓᏅ ᎠᏍᏓᏅᏅᎢ ᎦᏚ") , keywords : & ["ᎠᎩᏍᏗ" , "ᎠᏍᏓᏅᏅᎢ ᎦᏚ" , "ᎦᏆᏅᏓᏅ" , "ᎦᏆᏅᏓᏅ ᎠᏍᏓᏅᏅᎢ ᎦᏚ" , "ᎨᏆᏆ" , "ᏥᎶ" , "ᏩᎳᏪᎵ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("plněná pita") , keywords : & ["falafel" , "gyros" , "jídlo" , "kebab" , "plněná pita" , "plněný" , "sendvič"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("bara gwastad wedi’i stwffio") , keywords : & ["bara gwastad" , "bara gwastad wedi’i stwffio" , "bwyd" , "cebab" , "ffalaffel" , "gyro" , "wedi stwffio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("fyldt pitabrød") , keywords : & ["falafel" , "fladbrød" , "fyld" , "fyldt" , "fyldt pitabrød" , "gyros" , "kebab" , "mad" , "pandekage med fyld" , "pita"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Döner") , keywords : & ["Döner" , "Döner Kebab" , "Falafel" , "Wrap"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("γεμιστή λαγάνα") , keywords : & ["γεμιστή λαγάνα" , "γύρος" , "κεμπάπ" , "σάντουιτς" , "τροφή" , "φαλάφελ"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("stuffed flatbread") , keywords : & ["falafel" , "flatbread" , "food" , "gyro" , "kebab" , "stuffed"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("pita roll") , keywords : & ["falafel" , "flatbread" , "food" , "gyro" , "kebab" , "pita" , "pita roll" , "stuffed"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pan relleno") , keywords : & ["comida" , "durum" , "falafel" , "kebab" , "pan de pita" , "pan relleno"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("fajita") , keywords : & ["comida" , "fajita" , "gyro" , "kebab" , "relleno"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("pita rellena") , keywords : & ["gyro" , "kebab" , "pan árabe" , "pita" , "pita rellena" , "relleno"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("täidetud pita") , keywords : & ["falafel" , "kebab" , "toit" , "täidetud pita"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("ogitarteko betea") , keywords : & ["falafel" , "gyro" , "janari" , "kebab" , "ogitarteko bete" , "ogitarteko betea"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("لقمه") , keywords : & ["جایرو" , "غذا" , "فلافل" , "لقمه" , "نان پیتا" , "کباب" , "کباب ترکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("täytetty pita") , keywords : & ["falafel" , "kebab" , "leipä" , "pita" , "ruoka" , "täyte" , "täytetty pita"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("stuffed flatbread") , keywords : & ["falafel" , "flatbread" , "kebab" , "pagkain" , "stuffed flatbread"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fylt flatbreyð") , keywords : & ["falafel" , "flatbreyð" , "fylt" , "kebabb" , "matur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("kebab") , keywords : & ["falafel" , "kebab"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("pain plat garni") , keywords : & ["chichekébab" , "doner" , "falafel" , "gyro" , "kébab" , "pain plat garni" , "pita"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("arán leathan stuáilte") , keywords : & ["arán leathan stuáilte" , "bia" , "ceibeab" , "falafel" , "fillteog" , "kebab" , "tortilla"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("aran-rèidh lìonta") , keywords : & ["aran rèidh lìonta" , "aran-rèidh" , "biadh" , "falafel" , "gyro" , "kebab" , "lìonta"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("kebab") , keywords : & ["comida" , "falafel" , "kebab"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ભર\u{ac7}લી ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ") , keywords : & ["કબાબ" , "ફલાફલ" , "ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ" , "ભર\u{ac7}લી ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ" , "ભર\u{ac7}લ\u{ac1}\u{a82}" , "ભોજન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("cikakken burodi") , keywords : & ["abinci" , "burodi mai lebur" , "cikakke" , "cikakken burodi" , "falafel" , "kebab" , "wuta"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("פיתה עם פלאפל") , keywords : & ["אוכל רחוב" , "לאפה" , "פיתה" , "פיתה עם פלאפל" , "פלאפל" , "שווארמה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("भरा ह\u{941}आ पराठा") , keywords : & ["कबाब" , "गायरो" , "चपाती" , "फलाफल" , "भरवा\u{902}" , "भरा ह\u{941}आ पराठा" , "भोजन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("kebab") , keywords : & ["falafel" , "giros" , "hrana" , "kebab" , "lepinja"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("pita") , keywords : & ["falafel" , "gírosz" , "kebab" , "pita" , "töltött" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("լավաշով բրդուճ") , keywords : & ["բրդուճ" , "գիրոս" , "լավաշ" , "լավաշով բրդուճ" , "շաուրմա"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("roti tawar isi") , keywords : & ["falafel" , "kebab" , "makanan" , "roti isi" , "roti tawar isi"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha akwụkwọnri nwụrụ anwụ") , keywords : & ["achịcha akwụkwọnri nwụrụ anwụ" , "achịchanwụrụ anwụ" , "akpụrụ akpụ achịcha" , "akwụkwọnri" , "gyro" , "nri" , "nri anụ na achịcha"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kebab") , keywords : & ["kebab" , "kebap" , "matur" , "rúlla"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("pita farcita") , keywords : & ["falafel" , "gyro" , "kebab" , "pita farcita" , "ripieno"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ケバブサンド") , keywords : & ["ケバブ" , "ケバブサンド" , "ラップサンド"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("roti pita gulung") , keywords : & ["dhaharan" , "falafel" , "isi" , "kebab turki" , "kebab yunani" , "roti pita" , "roti pita gulung"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ვრაპი") , keywords : & ["გატენილი" , "ვრაპი" , "ლავაში" , "საკვები" , "ფალაფელი" , "შაურმა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("шаурма") , keywords : & ["жылдам" , "тағам" , "шаурма"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("fladbrød med fyld") , keywords : & ["fladbrød" , "fladbrød med fyld" , "fyld" , "fyldt" , "gyros" , "mad" , "pandekage med fyld" , "pita"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ប\u{17c9}\u{17d0}ងដាក\u{17cb}សាច\u{17cb}") , keywords : & ["ដាក\u{17cb}សាច\u{17cb}" , "ន\u{17c6}កេបាប\u{17cb}" , "ន\u{17c6}ក\u{17d2}រ\u{17bc}ច" , "ន\u{17c6}ដ\u{17bb}ត" , "ន\u{17c6}ប\u{17c9}\u{17d0}ងខ\u{17d2}ចប\u{17cb}សាច\u{17cb}" , "ន\u{17c6}ប\u{17c9}\u{17d0}ងដាក\u{17cb}សាច\u{17cb}" , "អាហារ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ತುಂಬ\u{cbf}ದ ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}") , keywords : & ["ಆಹಾರ" , "ಕಬಾಬ\u{ccd}" , "ಗ\u{cc8}ರ\u{ccb}" , "ತುಂಬ\u{cbf}ದ ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}" , "ಫಲಾಫ\u{cc6}ಲ\u{ccd}" , "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("밀전병에 싼 요리") , keywords : & ["밀전병에 싼 요리" , "부리또"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("भरिल\u{94d}लो सपाटपाव") , keywords : & ["अन\u{94d}न" , "कबाब" , "गायरो" , "फालाफ\u{947}ल" , "भरिल\u{94d}लो" , "सपाटपाव"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("шаурма") , keywords : & ["жупка" , "кебаб" , "тамак" , "шаурма"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Kebab") , keywords : & ["Falafel" , "Gyros" , "Iessen" , "Kebab" , "flaacht Brout" , "gefëllt"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນຍ\u{eb1}ດໄສ\u{ec9}") , keywords : & ["ຊ\u{eb5}\u{ec9}ນສະເຕະ" , "ຍ\u{eb1}ດໄສ\u{ec9}" , "ລ\u{eb9}ກຊ\u{eb5}\u{ec9}ນຈ\u{eb7}ນ" , "ອາຫານ" , "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນ" , "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນຍ\u{eb1}ດໄສ\u{ec9}"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("įdarytas lavašas") , keywords : & ["lavašas" , "maistas" , "įdaras" , "įdarytas lavašas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pildīts lavašs") , keywords : & ["giross" , "kebabs" , "lavašs" , "pildīts" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("parāoapapa whakakī") , keywords : & ["kai" , "kepapa" , "parāoapapa" , "tōrino" , "whakakī" , "wharawhere"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("гиро") , keywords : & ["гиро" , "донер"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}ത ഫ\u{d4d}ല\u{d3e}റ\u{d4d}റ\u{d4d}\u{200c}ബ\u{d4d}രെഡ\u{d4d}") , keywords : & ["കബ\u{d3e}ബ\u{d4d}" , "ബ\u{d4d}രെഡ\u{d4d}" , "സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}ത ഫ\u{d4d}ല\u{d3e}റ\u{d4d}റ\u{d4d}\u{200c}ബ\u{d4d}രെഡ\u{d4d}" , "സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}തത\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("хавчуургатай ороомог") , keywords : & ["гиро" , "кебаб" , "фалафел" , "хавтгай талх" , "хавчуургатай" , "хавчуургатай ороомог" , "хүнс"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("भरल\u{947}ली फ\u{94d}ल\u{947}टब\u{94d}र\u{947}ड") , keywords : & ["कबाब" , "खाद\u{94d}य" , "गायरो" , "फलाफल" , "फ\u{94d}ल\u{945}टब\u{94d}र\u{947}ड" , "भरल\u{947}ली" , "भरल\u{947}ली फ\u{94d}ल\u{947}टब\u{94d}र\u{947}ड"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("roti kebab") , keywords : & ["berinti" , "falafel" , "kebab" , "makanan" , "roti kebab"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("ħobż ċatt mimli") , keywords : & ["falafel" , "gyro" , "ikel" , "kebab" , "mimli" , "ħobż ċatt" , "ħobż ċatt mimli"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("န\u{1036}ပြားအစာသ\u{103d}တ\u{103a}") , keywords : & ["ခဘတ\u{103a}" , "န\u{1036}ပြား" , "န\u{1036}ပြားအစာသ\u{103d}တ\u{103a}" , "ဘယာကြော\u{103a}" , "အစားအသောက\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("fylt pitabrød") , keywords : & ["falafel" , "fylt pitabrød" , "gyro" , "kebab" , "mat" , "pita"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}टफ\u{94d}ड फ\u{94d}ल\u{94d}याटब\u{94d}र\u{947}ड") , keywords : & ["कबाब" , "खाना" , "गाइरो" , "फलाफ\u{947}इ" , "फ\u{94d}ल\u{94d}याटब\u{94d}र\u{947}ड" , "स\u{94d}टफ\u{94d}ड"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("gevuld pitabroodje") , keywords : & ["falafel" , "gevuld" , "gevuld pitabroodje" , "gyro" , "kebab" , "pitabrood" , "voedsel"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("fylt pitabrød") , keywords : & ["falafel" , "fylt pitabrød" , "gyro" , "kebab" , "mat" , "pita"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର ଦ\u{b3f}ଆଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}") , keywords : & ["କବ\u{b3e}ବ\u{b4d}" , "ଖ\u{b3e}ଦ\u{b4d}ୟ" , "ଗ\u{b3e}ଇରୋ" , "ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}" , "ପ\u{b41}ର ଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}" , "ପ\u{b41}ର ଦ\u{b3f}ଆଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਭਰਕ\u{a47} ਬਣਾਇਆ ਫਲ\u{a48}ਟਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ") , keywords : & ["ਕਬਾਬ" , "ਜਾਇਰ\u{a4b}" , "ਫਲਾਫਲ" , "ਭਰਕ\u{a47} ਬਣਾਇਆ ਫਲ\u{a48}ਟਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ" , "ਭਰਵਾ\u{a02}" , "ਭ\u{a4b}ਜਨ" , "ਰ\u{a4b}ਟੀ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("پری ہوئی برابر روٹی") , keywords : & ["بھریا ہوئیا" , "خوراک" , "فلافل" , "پری ہوئی برابر روٹی" , "چپاتی" , "چکر" , "کباب"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Flátbrẹd wit ọ\u{301}dá fud ínsaid") , keywords : & ["Flátbrẹd" , "Flátbrẹd wit ọ\u{301}dá fud ínsaid" , "Fud" , "Grík Fud Wé Im Nem Na Jaíro" , "Kẹbab" , "Mídúl Íst Fud Wé Im Nem Na Faláful" , "Súya" , "To Fúl Fud Wít Ọ\u{301}dá Kaín Fud"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("wrap") , keywords : & ["falafel" , "gyros" , "jedzenie" , "kebab" , "tortilla" , "wrap"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("خړوب شوي ډک") , keywords : & ["خړوب شوي ډک"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("pão recheado") , keywords : & ["comida" , "kebab" , "pão" , "pão recheado" , "recheio" , "wrap"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("pita") , keywords : & ["falafel" , "kebab" , "pita" , "recheado"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("juntʼachisqa tʼanta moldepi") , keywords : & ["fatafel" , "giro" , "guiso" , "juntʼachisqa tʼanta moldepi" , "kebab" , "llaplla t’anta" , "mikhuna"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("lipie umplută") , keywords : & ["falafel" , "giros" , "kebab" , "lipie" , "lipie umplută" , "mâncare" , "șaorma"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1077") , keywords : & ["E10-1077"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("шаурма") , keywords : & ["еда" , "кебаб" , "лаваш" , "пита" , "фалафель" , "шаверма" , "шаурма"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("umugati wapakiwemo ibiryo imbere") , keywords : & ["boroshete" , "bulete y’amashaza" , "capati" , "ibiribwa" , "sanduwice irimo inyama" , "umugati wapakiwemo ibiryo imbere" , "yapakiwemo"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ڪوڪي") , keywords : & ["ڪباب، فلافل، جيورو، ڪوڪي، کاڌو" , "ڪوڪي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}රව\u{dd6} ප\u{dcf}න\u{dca}") , keywords : & ["කෑම" , "කෙබ\u{dcf}බ\u{dca}" , "ගය\u{dd2}රෝ" , "ප\u{dd2}රව\u{dd6} ප\u{dcf}න\u{dca}" , "ෆලෆෙල\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("gyros") , keywords : & ["falafel" , "gyros" , "jedlo" , "kebab" , "plnené"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kebab") , keywords : & ["falafel" , "gyros" , "hrana" , "kebab" , "nadev"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("rooti khudrad laga buuxiyay") , keywords : & ["cunto" , "falafeel" , "rooti khudrad laga buuxiyay"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("bukë e sheshtë me mbushje") , keywords : & ["bukë e mbushur" , "bukë e sheshtë me mbushje" , "giro" , "palapetë e mbushur" , "ushqim"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("гирос") , keywords : & ["гирос" , "кебаб" , "пуњено" , "тортиља" , "храна"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("giros") , keywords : & ["giros" , "hrana" , "kebab" , "punjeno" , "tortilja"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("pitabröd") , keywords : & ["falafel" , "gyro" , "kebab" , "mat" , "pita" , "pitabröd"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("shawarma") , keywords : & ["chakula" , "shawarma"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ரொட\u{bcd}டி வகை உணவு") , keywords : & ["உணவு" , "ரொட\u{bcd}டி" , "ரொட\u{bcd}டி வகை உணவு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న చదున\u{c48}న బ\u{c4d}ర\u{c46}డ\u{c4d}") , keywords : & ["ఆహ\u{c3e}రం" , "కబ\u{c3e}బ\u{c4d}" , "జ\u{c48}ర\u{c4b}" , "ఫుల\u{c3e}ఫల\u{c4d}" , "ఫ\u{c4d}ల\u{c3e}ట\u{c4d}\u{200c}బ\u{c4d}ర\u{c46}డ\u{c4d}" , "స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న" , "స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న చదున\u{c48}న బ\u{c4d}ర\u{c46}డ\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("нони қима андохташуда") , keywords : & ["гирос" , "кабоб" , "нони чапотӣ" , "нони қима андохташуда" , "фалафел" , "ғизо" , "қима андохташуда"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เคบ\u{e31}บ") , keywords : & ["อาหาร" , "เคบ\u{e31}บ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("dykylan çörek") , keywords : & ["dolma" , "dykylan çörek" , "falafel" , "iýmit" , "kebap" , "lawaş" , "petir"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("mā falati") , keywords : & ["mā falati"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("dürüm") , keywords : & ["döner" , "dürüm" , "falafel" , "kebap" , "pide" , "sarma" , "yiyecek"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تۈگۈك بولكا") , keywords : & ["تۈگۈك" , "تۈگۈك بولكا" , "جىرو" , "فالافېل" , "كاۋاپ" , "يېمەكلىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("піта") , keywords : & ["кебаб" , "лаваш" , "начинка" , "піта" , "фалафель" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("بھری ہوئی چپاتی") , keywords : & ["بھری ہوئی" , "بھری ہوئی چپاتی" , "خوراک" , "چپاتی" , "کباب"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("shaurma") , keywords : & ["falafel" , "giros" , "kabob" , "non" , "qiymalangan" , "shaurma" , "taom"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh mì kẹp thịt") , keywords : & ["bánh mì kẹp thịt" , "bánh mỳ dẹt" , "bánh mỳ gyro" , "bánh mỳ kẹp thịt nướng" , "nhồi" , "viên bột đậu rán" , "đồ ăn"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mburu-farsi") , keywords : & ["falafel" , "farse" , "jiro" , "kebab" , "lekk" , "mburu" , "mburu-farsi"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("isonka esimcaba esihlohliweyo") , keywords : & ["ehlohliweyo" , "i-falafel" , "i-gyro" , "i-kebab" , "isonka esimcaba esihlohliweyo" , "isonke esimcaba" , "ukutya"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Burẹdi Afunpọ Pẹlẹbẹ") , keywords : & ["Burẹdi Afunpọ Pẹlẹbẹ" , "búrẹdì àfúnpọ\u{300} pẹlẹbẹ" , "falafe" , "gyro" , "kebab" , "stuufe" , "ónjẹ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("餡餅") , keywords : & ["三文治" , "沙律三文治" , "烤肉串" , "食物" , "餡餅" , "麵包"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("馅饼") , keywords : & ["三文治" , "沙律三文治" , "烤肉串" , "面包" , "食物" , "馅饼"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("夹心饼") , keywords : & ["夹心" , "夹心饼" , "沙拉三明治" , "肉夹馍" , "食物"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("薄捲餅") , keywords : & ["薄捲餅" , "食物"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("有餡三文治") , keywords : & ["口袋餅" , "有餡三文治" , "皮塔" , "皮塔三文治"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isinkwa esishuthekwe ukudla") , keywords : & ["falafel" , "gyro" , "isinkwa" , "isinkwa esishuthekwe ukudla" , "kebab" , "shuthekiwe" , "ukudla"] , }] , } ;
+pub const STUFFED_FLATBREAD : crate :: Emoji = crate :: Emoji { glyph : "🥙" , codepoint : "1F959" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 3u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "stuffed flatbread" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("wrap") , keywords : & ["bunny chow" , "falafel" , "kebabs" , "kos" , "opgestop" , "platbrood" , "vleisbroodjie" , "wrap"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("በምግብ የተሞላ ዳቦ") , keywords : & ["ምግብ" , "በምግብ የተሞላ ዳቦ" , "ከባብ" , "የተሞላ" , "ጅይሮ" , "ፈላፍል"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("خبز مفرود محشو") , keywords : & ["جيرو" , "خبز" , "خبز مفرود" , "خبز مفرود محشو" , "رغيف" , "ساندويش فلافل" , "شورما" , "طعام" , "فلافل" , "كباب" , "محشو" , "محشي"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ষ\u{9cd}ট\u{9be}ফড ফ\u{9cd}লেটব\u{9cd}ৰেড") , keywords : & ["কব\u{9be}ব" , "খ\u{9be}দ\u{9cd}য" , "গ\u{9be}ইৰো" , "ফল\u{9be}ফেল" , "ফ\u{9cd}লেটব\u{9cd}ৰেড" , "ষ\u{9cd}ট\u{9be}ফড"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("qutab") , keywords : & ["bişirmək" , "kabab" , "qutab" , "yemək" , "ərzaq"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("піта") , keywords : & ["златка" , "кебаб" , "лаваш" , "піта" , "шаўрма"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("пълнена питка") , keywords : & ["гирос" , "кебап" , "пълнен" , "пълнена питка" , "фалафел" , "храна"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র ভর\u{9be} প\u{9be}উর\u{9c1}টি") , keywords : & ["ক\u{9be}ব\u{9be}ব" , "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}" , "খ\u{9be}ব\u{9be}র" , "গ\u{9be}ইরো" , "চেপ\u{9cd}ট\u{9be}র\u{9c1}টি" , "প\u{9c1}র ভর\u{9be} প\u{9be}উর\u{9c1}টি" , "ফল\u{9be}ফেল" , "ফ\u{9be}ল\u{9be}ফেল"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("kebab") , keywords : & ["boued" , "falafel" , "kebab" , "sandwich"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("kebab") , keywords : & ["falafel" , "giros" , "hrana" , "kebab" , "lepinja" , "punjeno"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("durum") , keywords : & ["durum" , "falàfel" , "farcit" , "kebab" , "menjar" , "pa"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏆᏅᏓᏅ ᎠᏍᏓᏅᏅᎢ ᎦᏚ") , keywords : & ["ᎠᎩᏍᏗ" , "ᎠᏍᏓᏅᏅᎢ ᎦᏚ" , "ᎦᏆᏅᏓᏅ" , "ᎦᏆᏅᏓᏅ ᎠᏍᏓᏅᏅᎢ ᎦᏚ" , "ᎨᏆᏆ" , "ᏥᎶ" , "ᏩᎳᏪᎵ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("plněná pita") , keywords : & ["chlebová placka" , "falafel" , "gyros" , "jídlo" , "kebab" , "plněná pita" , "plněný" , "sendvič"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("bara gwastad wedi’i stwffio") , keywords : & ["bara gwastad" , "bara gwastad wedi’i stwffio" , "bwyd" , "cebab" , "ffalaffel" , "gyro" , "wedi stwffio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("fyldt pitabrød") , keywords : & ["falafel" , "fladbrød" , "fyld" , "fyldt pitabrød" , "gyros" , "kebab" , "mad" , "pita" , "pitabrød"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Döner") , keywords : & ["Döner" , "Döner Kebab" , "Falafel" , "Wrap"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("γεμιστή λαγάνα") , keywords : & ["γεμιστή λαγάνα" , "γύρος" , "κεμπάπ" , "σάντουιτς" , "τροφή" , "φαλάφελ"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("stuffed flatbread") , keywords : & ["falafel" , "flatbread" , "food" , "gyro" , "kebab" , "stuffed"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("pita roll") , keywords : & ["falafel" , "flatbread" , "food" , "gyro" , "kebab" , "pita roll" , "stuffed"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pan relleno") , keywords : & ["comida" , "durum" , "falafel" , "kebab" , "pan de pita" , "pan relleno"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("pita rellena") , keywords : & ["gyro" , "kebab" , "pan árabe" , "pita" , "pita rellena" , "relleno"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("täidetud pita") , keywords : & ["falafel" , "gyro" , "kebab" , "pita" , "toit" , "täidetud"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("ogitarteko betea") , keywords : & ["falafel" , "gyro" , "janari" , "kebab" , "ogitarteko bete" , "ogitarteko betea"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("لقمه") , keywords : & ["جایرو" , "غذا" , "فلافل" , "لقمه" , "نان پیتا" , "کباب" , "کباب ترکی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("täytetty pita") , keywords : & ["falafel" , "gyros" , "kebab" , "leipä" , "pita" , "ruoka" , "täyte"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("stuffed flatbread") , keywords : & ["falafel" , "flatbread" , "kebab" , "pagkain" , "stuffed flatbread"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fylt flatbreyð") , keywords : & ["falafel" , "flatbreyð" , "fylt" , "kebabb" , "matur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("kebab") , keywords : & ["falafel" , "kebab" , "nourriture" , "pain pita"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("pain plat garni") , keywords : & ["chichekébab" , "doner" , "falafel" , "gyro" , "kébab" , "pain plat garni" , "pita"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("arán leathan stuáilte") , keywords : & ["arán leathan stuáilte" , "bia" , "ceibeab" , "falafel" , "fillteog" , "kebab" , "tortilla"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("aran-rèidh lìonta") , keywords : & ["aran rèidh lìonta" , "aran-rèidh" , "biadh" , "falafel" , "gyro" , "kebab" , "lìonta"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("kebab") , keywords : & ["comida" , "falafel" , "kebab"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("ભર\u{ac7}લી ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ") , keywords : & ["કબાબ" , "ખાનપાન" , "ખોરાક" , "જાયરો" , "પકવાન" , "ફલાફલ" , "ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ" , "ભર\u{ac7}લી ફલ\u{ac7}ટબ\u{acd}ર\u{ac7}ડ" , "ભર\u{ac7}લ\u{ac1}\u{a82}" , "ભોજન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("cikakken burodi") , keywords : & ["abinci" , "burodi" , "burodi mai lebur" , "cikakke" , "cikakken burodi" , "falafel" , "kebab" , "kwaɗo" , "kwaɗon salad" , "kwaɗon salak" , "wuta"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("cikakken burodi") , keywords : & ["abinci" , "burodi" , "burodi mai lebur" , "cikakke" , "cikakken burodi" , "falafel" , "kebab" , "kwaɗo" , "kwaɗon salad" , "kwaɗon salak" , "wuta"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("פיתה עם פלאפל") , keywords : & ["אוכל רחוב" , "לאפה" , "פיתה" , "פיתה עם פלאפל" , "פלאפל" , "שווארמה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("भरा ह\u{941}आ पराठा") , keywords : & ["कबाब" , "खाना" , "गायरो" , "चपाती" , "फलाफल" , "भरवा\u{902}" , "भरा ह\u{941}आ पराठा" , "भोजन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("kebab") , keywords : & ["falafel" , "giros" , "hrana" , "kebab" , "lepinja"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("pita") , keywords : & ["falafel" , "gyros" , "gírosz" , "kebab" , "pita" , "töltött" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("լցոնված լոշիկ") , keywords : & ["բրդուճ" , "գիրոս" , "լավաշ" , "լցոնված լոշիկ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("roti tawar isi") , keywords : & ["falafel" , "kebab" , "makanan" , "roti isi" , "roti tawar isi"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("achịcha akwụkwọnri nwụrụ anwụ") , keywords : & ["achịcha akwụkwọnri nwụrụ anwụ" , "achịchanwụrụ anwụ" , "akpụrụ akpụ achịcha" , "akwụkwọnri" , "gyro" , "nri" , "nri anụ na achịcha"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("kebab") , keywords : & ["kebab" , "kebap" , "matur" , "rúlla"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("pita farcita") , keywords : & ["carne" , "cibo" , "cibo turco" , "cucina turca" , "falafel" , "gyro" , "kebab" , "pita farcita" , "ripieno" , "ristorante"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("ケバブサンド") , keywords : & ["ケバブ" , "ケバブサンド" , "ピタパン" , "ラップサンド"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("roti pita gulung") , keywords : & ["dhaharan" , "falafel" , "isi" , "kebab turki" , "kebab yunani" , "roti pita" , "roti pita gulung"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ვრაპი") , keywords : & ["გატენილი" , "ვრაპი" , "ლავაში" , "საკვები" , "ფალაფელი" , "შაურმა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("шаурма") , keywords : & ["жылдам" , "тағам" , "фалафель" , "шаурма"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("fladbrød med fyld") , keywords : & ["fladbrød" , "fladbrød med fyld" , "fyld" , "fyldt" , "gyros" , "mad" , "pandekage med fyld" , "pita"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ន\u{17c6}ប\u{17c9}\u{17d0}ងដាក\u{17cb}សាច\u{17cb}") , keywords : & ["ដាក\u{17cb}សាច\u{17cb}" , "ន\u{17c6}កេបាប\u{17cb}" , "ន\u{17c6}ក\u{17d2}រ\u{17bc}ច" , "ន\u{17c6}ដ\u{17bb}ត" , "ន\u{17c6}ប\u{17c9}\u{17d0}ងខ\u{17d2}ចប\u{17cb}សាច\u{17cb}" , "ន\u{17c6}ប\u{17c9}\u{17d0}ងដាក\u{17cb}សាច\u{17cb}" , "អាហារ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ತುಂಬ\u{cbf}ದ ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}") , keywords : & ["ಆಹಾರ" , "ಕಬಾಬ\u{ccd}" , "ಖಾದ\u{ccd}ಯ" , "ಗ\u{cc8}ರ\u{cca}" , "ಗ\u{cc8}ರ\u{ccb}" , "ತುಂಬ\u{cbf}ದ ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}" , "ಫಲಾಫ\u{cc6}ಲ\u{ccd}" , "ಬ\u{ccd}ರ\u{cc6}ಡ\u{ccd}" , "ಸ\u{ccd}ಟಫ\u{ccd}ಫ\u{cbf}ಂಗ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("밀전병에 싼 요리") , keywords : & ["가득넣은" , "밀전병에 싼 요리" , "부리또" , "식품" , "음식" , "케밥" , "팔라펠"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("भरिल\u{94d}लो सपाटपाव") , keywords : & ["अन\u{94d}न" , "कबाब" , "गायरो" , "फालाफ\u{947}ल" , "भरिल\u{94d}लो" , "सपाटपाव"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("шаурма") , keywords : & ["жупка" , "кебаб" , "тамак" , "шаурма"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Kebab") , keywords : & ["Falafel" , "Gyros" , "Iessen" , "Kebab" , "flaacht Brout" , "gefëllt"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນຍ\u{eb1}ດໄສ\u{ec9}") , keywords : & ["ຊ\u{eb5}\u{ec9}ນສະເຕະ" , "ຍ\u{eb1}ດໄສ\u{ec9}" , "ລ\u{eb9}ກຊ\u{eb5}\u{ec9}ນຈ\u{eb7}ນ" , "ອາຫານ" , "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນ" , "ເຂ\u{ebb}\u{ec9}າຈ\u{eb5}\u{ec8}ແຜ\u{ec8}ນຍ\u{eb1}ດໄສ\u{ec9}"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("įdarytas lavašas") , keywords : & ["kebabas" , "lavašas" , "maistas" , "įdaras" , "įdarytas lavašas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("pildīts lavašs") , keywords : & ["giross" , "kebabs" , "lavašs" , "pildīts" , "pārtika" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("parāoapapa whakakī") , keywords : & ["kai" , "kepapa" , "parāoapapa" , "tōrino" , "whakakī" , "wharawhere"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("гиро") , keywords : & ["гиро" , "донер" , "фалафел" , "храна"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}ത ഫ\u{d4d}ല\u{d3e}റ\u{d4d}റ\u{d4d}\u{200c}ബ\u{d4d}രെഡ\u{d4d}") , keywords : & ["കബ\u{d3e}ബ\u{d4d}" , "ബ\u{d4d}രെഡ\u{d4d}" , "സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}ത ഫ\u{d4d}ല\u{d3e}റ\u{d4d}റ\u{d4d}\u{200c}ബ\u{d4d}രെഡ\u{d4d}" , "സ\u{d4d}റ\u{d4d}റഫ\u{d4d} ചെയ\u{d4d}തത\u{d4d}"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("хавчуургатай ороомог") , keywords : & ["гиро" , "кебаб" , "фалафел" , "хавтгай талх" , "хавчуургатай" , "хавчуургатай ороомог" , "хүнс"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("भरल\u{947}ली फ\u{94d}ल\u{947}टब\u{94d}र\u{947}ड") , keywords : & ["अन\u{94d}न" , "कबाब" , "खाद\u{94d}य" , "गायरो" , "फलाफल" , "फ\u{94d}ल\u{945}टब\u{94d}र\u{947}ड" , "फ\u{94d}ल\u{947}टब\u{94d}र\u{947}ड" , "ब\u{947}कन" , "भरल\u{947}ली"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("roti kebab") , keywords : & ["berinti" , "falafel" , "kebab" , "makanan" , "roti kebab"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("ħobż ċatt mimli") , keywords : & ["falafel" , "gyro" , "ikel" , "kebab" , "mimli" , "ħobż ċatt" , "ħobż ċatt mimli"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("န\u{1036}ပြားအစာသ\u{103d}တ\u{103a}") , keywords : & ["ခဘတ\u{103a}" , "န\u{1036}ပြား" , "န\u{1036}ပြားအစာသ\u{103d}တ\u{103a}" , "ဘယာကြော\u{103a}" , "အစားအသောက\u{103a}"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}टफ\u{94d}ड फ\u{94d}ल\u{94d}याटब\u{94d}र\u{947}ड") , keywords : & ["कबाब" , "खाना" , "गाइरो" , "फलाफ\u{947}इ" , "फ\u{94d}ल\u{94d}याटब\u{94d}र\u{947}ड" , "स\u{94d}टफ\u{94d}ड"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("gevuld pitabroodje") , keywords : & ["eten" , "falafel" , "gevuld" , "gyros" , "kebab" , "pitabrood"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର ଦ\u{b3f}ଆଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}") , keywords : & ["କବ\u{b3e}ବ\u{b4d}" , "ଖ\u{b3e}ଦ\u{b4d}ୟ" , "ଗ\u{b3e}ଇରୋ" , "ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}" , "ପ\u{b41}ର ଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}" , "ପ\u{b41}ର ଦ\u{b3f}ଆଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ଚଟକ\u{b3e} ପ\u{b3e}ଉ\u{b01}ର\u{b41}ଟ\u{b3f}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਭਰਕ\u{a47} ਬਣਾਇਆ ਫਲ\u{a48}ਟਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ") , keywords : & ["ਕਬਾਬ" , "ਜਾਇਰ\u{a4b}" , "ਫਲਾਫਲ" , "ਬਰ\u{a48}ਡ" , "ਭਰਕ\u{a47} ਬਣਾਇਆ ਫਲ\u{a48}ਟਬ\u{a4d}ਰ\u{a48}\u{a71}ਡ" , "ਭਰਵਾ\u{a02}" , "ਭ\u{a4b}ਜਨ" , "ਰ\u{a4b}ਟੀ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("پری ہوئی برابر روٹی") , keywords : & ["بھریا ہوئیا" , "خوراک" , "فلافل" , "پری ہوئی برابر روٹی" , "چپاتی" , "چکر" , "کباب"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Flátbrẹd wit ọ\u{301}dá fud ínsaid") , keywords : & ["Flátbrẹd" , "Flátbrẹd wit ọ\u{301}dá fud ínsaid" , "Fud" , "Grík Fud Wé Im Nem Na \"Jaíro\"" , "Mídúl Íst Fud Wé Im Nem Na \"Faláful\"" , "Súya" , "To Fúl Fud Wít Ọ\u{301}dá Kaín Fud"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("wrap") , keywords : & ["bułka" , "falafel" , "gyros" , "jedzenie" , "kebab" , "tortilla" , "wrap"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("خړوب شوي ډک") , keywords : & ["خړوب شوي ډک"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("pão recheado") , keywords : & ["comida" , "kebab" , "pão" , "pão recheado" , "recheio" , "wrap"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("pita") , keywords : & ["comida" , "falafel" , "faláfel" , "kebab" , "pita" , "pão" , "recheado"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("juntʼachisqa tʼanta moldepi") , keywords : & ["fatafel" , "giro" , "guiso" , "juntʼachisqa tʼanta moldepi" , "kebab" , "llaplla t’anta" , "mikhuna"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("lipie umplută") , keywords : & ["falafel" , "giros" , "gyro" , "kebab" , "lipie" , "lipie umplută" , "lipii umplute" , "mâncare" , "șaorma"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1077") , keywords : & ["E10-1077"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("шаурма") , keywords : & ["еда" , "кебаб" , "лаваш" , "перекус" , "пита" , "фалафель" , "шаверма" , "шаурма"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("umugati wapakiwemo ibiryo imbere") , keywords : & ["boroshete" , "bulete y’amashaza" , "capati" , "ibiribwa" , "sanduwice irimo inyama" , "umugati wapakiwemo ibiryo imbere" , "yapakiwemo"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("ڪوڪي") , keywords : & ["ڪباب، فلافل، جيورو، ڪوڪي، کاڌو" , "ڪوڪي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}රව\u{dd6} ප\u{dcf}න\u{dca}") , keywords : & ["කෑම" , "කෙබ\u{dcf}බ\u{dca}" , "ගය\u{dd2}රෝ" , "ප\u{dd2}රව\u{dd6} ප\u{dcf}න\u{dca}" , "ෆලෆෙල\u{dca}"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("gyros") , keywords : & ["falafel" , "gyros" , "jedlo" , "kebab" , "placka" , "plnené" , "plnený" , "sendvič"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kebab") , keywords : & ["falafel" , "gyros" , "hrana" , "kebab" , "nadev"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("rooti khudrad laga buuxiyay") , keywords : & ["cunto" , "falafeel" , "rooti khudrad laga buuxiyay"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("bukë e sheshtë me mbushje") , keywords : & ["bukë e mbushur" , "bukë e sheshtë me mbushje" , "gjiro" , "mbushje" , "palapetë" , "qebap" , "ushqim"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("гирос") , keywords : & ["гирос" , "кебаб" , "пуњено" , "тортиља" , "фалафел" , "храна"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("giros") , keywords : & ["falafel" , "giros" , "hrana" , "kebab" , "punjeno" , "tortilja"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("pitabröd") , keywords : & ["falafel" , "gyro" , "kebab" , "mat" , "pita" , "pitabröd"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("shawarma") , keywords : & ["chakula" , "kababu" , "shawarma"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ரொட\u{bcd}டி வகை உணவு") , keywords : & ["ஃபல\u{bbe}ஃபல\u{bcd}" , "உணவு" , "கப\u{bbe}ப\u{bcd}" , "கைரோ" , "ட\u{bbe}கோ" , "ரொட\u{bcd}டி" , "ரொட\u{bcd}டி வகை உணவு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న చదున\u{c48}న బ\u{c4d}ర\u{c46}డ\u{c4d}") , keywords : & ["ఆహ\u{c3e}రం" , "కబ\u{c3e}బ\u{c4d}" , "జ\u{c48}ర\u{c4b}" , "పండ\u{c4d}ల బుట\u{c4d}ట" , "ఫుల\u{c3e}ఫల\u{c4d}" , "ఫ\u{c4d}ల\u{c3e}ట\u{c4d}\u{200c}బ\u{c4d}ర\u{c46}డ\u{c4d}" , "స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న" , "స\u{c4d}టఫ\u{c4d} చ\u{c47}స\u{c3f}న చదున\u{c48}న బ\u{c4d}ర\u{c46}డ\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("нони қима андохташуда") , keywords : & ["гирос" , "кабоб" , "нони чапотӣ" , "нони қима андохташуда" , "фалафел" , "ғизо" , "қима андохташуда"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("เคบ\u{e31}บ") , keywords : & ["อาหาร" , "เคบ\u{e31}บ"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ዝተመልአ ሰፋሕ ባኒ") , keywords : & ["መግቢ" , "ከባብ" , "ዝተመልአ" , "ጂሮ" , "ፋላፈል" , "ፍላትብሬድ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("dykylan çörek") , keywords : & ["dolma" , "dykylan çörek" , "falafel" , "iýmit" , "kebap" , "lawaş" , "petir"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("mā falati") , keywords : & ["falati" , "mā"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("dürüm") , keywords : & ["döner" , "dürüm" , "ekmek arası" , "falafel" , "gıda" , "kebap" , "pide" , "pide arası" , "sarma" , "yiyecek"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("تۈگۈك بولكا") , keywords : & ["تۈگۈك" , "تۈگۈك بولكا" , "جىرو" , "فالافېل" , "كاۋاپ" , "يېمەكلىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("піта") , keywords : & ["кебаб" , "лаваш" , "лаваш із начинкою" , "начинка" , "піта" , "фалафель" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("بھری ہوئی چپاتی") , keywords : & ["بھری ہوئی" , "بھری ہوئی چپاتی" , "جائرو" , "خوراک" , "روٹ" , "روٹی" , "فلافل" , "نان" , "چپاتی" , "کباب"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("shaurma") , keywords : & ["falafel" , "giros" , "kabob" , "non" , "qiymalangan" , "shaurma" , "taom"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("bánh mì kẹp thịt") , keywords : & ["bánh mỳ dẹt" , "bánh mỳ gyro" , "bánh mỳ kẹp thịt" , "falafel" , "nhồi" , "đồ ăn"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mburu-farsi") , keywords : & ["falafel" , "farse" , "jiro" , "kebab" , "lekk" , "mburu" , "mburu-farsi"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("isonka esimcaba esihlohliweyo") , keywords : & ["ehlohliweyo" , "i-falafel" , "i-gyro" , "i-kebab" , "isonka esimcaba esihlohliweyo" , "isonke esimcaba" , "ukutya"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Burẹdi Afunpọ Pẹlẹbẹ") , keywords : & ["Burẹdi Afunpọ Pẹlẹbẹ" , "búrẹdì àfúnpọ\u{300} pẹlẹbẹ" , "falafe" , "gyro" , "kebab" , "stuufe" , "ónjẹ"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("Burɛdi Afunpɔ Pɛlɛbɛ") , keywords : & ["Burɛdi Afunpɔ Pɛlɛbɛ" , "búrɛdì àfúnpɔ\u{300} pɛlɛbɛ" , "falafe" , "gyro" , "kebab" , "stuufe" , "ónjɛ"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("餡餅") , keywords : & ["三文治" , "沙律三文治" , "烤肉串" , "食物" , "餡餅" , "麵包"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("馅饼") , keywords : & ["三文治" , "沙律三文治" , "烤肉串" , "面包" , "食物" , "馅饼"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("夹心饼") , keywords : & ["大饼" , "夹心" , "夹心饼" , "沙拉三明治" , "炸豆丸子" , "烤肉串" , "肉夹馍" , "食物"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("薄捲餅") , keywords : & ["炸豆丸子" , "薄捲餅" , "食物"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("有餡三文治") , keywords : & ["三文治" , "口袋餅" , "土耳其烤肉" , "希臘旋轉烤肉" , "旋轉烤肉" , "有餡三文治" , "油炸鷹嘴豆餅" , "皮塔" , "皮塔三文治" , "食物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("isinkwa esishuthekwe ukudla") , keywords : & ["falafel" , "gyro" , "isinkwa" , "isinkwa esishuthekwe ukudla" , "kebab" , "shuthekiwe" , "ukudla"] , }] , } ;
 #[doc = "🧆"]
 pub const FALAFEL: crate::Emoji = crate::Emoji {
     glyph: "🧆",
@@ -14022,19 +19682,25 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("falafel"),
-            keywords: &["falafel", "frikkadel", "keker-ertjie"],
+            keywords: &[
+                "falafel",
+                "frikkadel",
+                "keker-ertjie",
+                "veganis",
+                "vegetaries",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ብስኩት"),
-            keywords: &["ሽምብራ", "ብስኩት", "የስጋ ኳስ"],
+            keywords: &["ምግብ", "ሽምብራ", "ብስኩት", "የስጋ ኳስ", "ፋላፍል"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("فلافل"),
-            keywords: &["حمص", "طعمية", "فلافل", "كرات لحم"],
+            keywords: &["حمص", "طعام", "طعمية", "فلافل", "قرص", "كرات لحم", "كرة"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -14046,7 +19712,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("falafel"),
-            keywords: &["falafel", "küftə", "noxud"],
+            keywords: &["falafel", "küftə", "noxud", "paxlakimilər", "qoyunnoxudu"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -14064,7 +19730,14 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bn",
             tts: Some("ফল\u{9be}ফেল"),
-            keywords: &["ছোল\u{9be}", "ফল\u{9be}ফেল", "মিটবল"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "ছোল\u{9be}",
+                "ফল\u{9be}ফেল",
+                "ফ\u{9cd}য\u{9be}ল\u{9be}ফেল",
+                "মিটবল",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -14082,7 +19755,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("falàfel"),
-            keywords: &["cigró", "falàfel", "mandonguilla"],
+            keywords: &["cigró", "croqueta", "falàfel", "mandonguilla", "pilota"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -14097,10 +19770,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             keywords: &[
                 "boby",
                 "cizrna",
+                "cizrnový karbanátek",
                 "falafel",
+                "jídlo",
                 "karbanátky",
                 "koule",
                 "kuličky",
+                "luštěninová koule",
             ],
         },
         #[cfg(feature = "cy")]
@@ -14119,7 +19795,21 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Falafel"),
-            keywords: &["Bällchen", "Falafel", "Kichererbsen"],
+            keywords: &[
+                "Bällchen",
+                "Essen",
+                "Falafel",
+                "Fleischbällchen",
+                "Kichererbsen",
+                "Lebensmittel",
+                "Nahrung",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -14137,7 +19827,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["chickpea", "falafel"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -14167,7 +19857,14 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "albóndiga",
+                "albóndigas",
+                "bolas de garbanzo",
+                "comida",
+                "falafel",
+                "garbanzo",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -14197,7 +19894,16 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("فلافل"),
-            keywords: &["فلافل", "نخود", "کوفته قلقلی"],
+            keywords: &[
+                "خوراک",
+                "خوراکی",
+                "غذا",
+                "فلافل",
+                "نخود",
+                "کوفته",
+                "کوفته ریزه",
+                "کوفته قلقلی",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -14222,7 +19928,9 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             lang: "fr",
             tts: Some("falafels"),
             keywords: &[
+                "boulette",
                 "boulettes",
+                "falafel",
                 "falafels",
                 "pois chiches",
                 "seitan",
@@ -14252,13 +19960,52 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("faláfel"),
-            keywords: &["albóndegas", "faláfel", "garavanzo"],
+            keywords: &["albóndegas", "garavanzo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ફલાફલ"),
-            keywords: &["કાબ\u{ac1}લી ચણા", "ફલાફલ", "મીટબૉલ"],
+            keywords: &[
+                "કબાબ",
+                "કાબ\u{ac1}લી ચણા",
+                "ખાવાન\u{ac1}\u{a82}",
+                "ખોરાક",
+                "ચણા",
+                "ચણાચટપટી",
+                "દ\u{ac7}શી ચણા",
+                "ફલાફલ",
+                "મીટબૉલ",
+                "મીટબોલ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("dunƙulen falafel"),
+            keywords: &[
+                "damun nama",
+                "diddigar nama",
+                "dunƙulallen nama",
+                "dunƙulen falafel",
+                "dunƙulen nama",
+                "kaji",
+                "nama",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("dunƙulen falafel"),
+            keywords: &[
+                "damun nama",
+                "diddigar nama",
+                "dunƙulallen nama",
+                "dunƙulen falafel",
+                "dunƙulen nama",
+                "kaji",
+                "nama",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -14270,7 +20017,12 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("फ\u{93c}लाफ\u{93c}\u{947}ल"),
-            keywords: &["फ\u{93c}लाफ\u{93c}\u{947}ल"],
+            keywords: &[
+                "चना",
+                "फ\u{93c}लाफ\u{93c}ल",
+                "फ\u{93c}लाफ\u{93c}\u{947}ल",
+                "मीटबॉल",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -14294,7 +20046,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("falafel"),
-            keywords: &["bebola", "falafel", "kacang arab"],
+            keywords: &["bakso", "baso", "bebola", "falafel", "kacang arab"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("falafel"),
+            keywords: &["anụ akpụrụ akpụ", "chickpea", "falafel"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -14306,7 +20064,14 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("falafel"),
-            keywords: &["ceci", "falafel", "polpette di ceci"],
+            keywords: &[
+                "ceci",
+                "cibo",
+                "falafel",
+                "felafel",
+                "polpetta",
+                "polpette di ceci",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -14330,7 +20095,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("фалафель"),
-            keywords: &["бұршақ ет", "ноқат", "фалафель"],
+            keywords: &["бұршақ ет", "ноқат", "тефтели", "фалафель"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -14347,7 +20112,11 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಫಲಾಫ\u{cc6}ಲ\u{ccd}"),
             keywords: &[
+                "ಕಡಲ\u{cc6}",
+                "ಕಡಲ\u{cc6} ಕಾಳು",
+                "ಕಡಲ\u{cc6} ತ\u{cbf}ನ\u{cbf}ಸು",
                 "ಚ\u{cbf}ಕ\u{ccd}\u{200c}ಪ\u{cc0}",
+                "ಫಲಾಫಲ\u{ccd}",
                 "ಫಲಾಫ\u{cc6}ಲ\u{ccd}",
                 "ಮ\u{cc0}ಟ\u{ccd}\u{200c}ಬಾಲ\u{ccd}",
             ],
@@ -14378,25 +20147,32 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
                 "ຖ\u{ebb}\u{ec8}ວ\u{200b}ຊ\u{eb4}ກ\u{200b}ພ\u{eb5}",
                 "ຟາ\u{200b}ລາ\u{200b}ເຟວ",
                 "ລ\u{eb9}ກ\u{200b}ຊ\u{eb5}\u{ec9}ນ",
+                "ອາຫານ",
             ],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("falafelis"),
-            keywords: &["falafelis", "mėsos kukulis", "vištiena"],
+            keywords: &["falafelis", "maistas", "mėsos kukulis", "vištiena"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("felāfels"),
-            keywords: &["aunazirņi / frikadele", "felāfels"],
+            keywords: &[
+                "aunazirņi",
+                "aunazirņi / frikadele",
+                "falafels",
+                "felāfels",
+                "frikadele",
+            ],
         },
         #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("фалафел"),
-            keywords: &["фалафел", "ќофте"],
+            keywords: &["леблебија", "фалафел", "ќофте"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -14414,13 +20190,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("फालाफ\u{947}ल"),
-            keywords: &["फालाफ\u{947}ल", "मीटबॉल", "हरभरा"],
+            keywords: &["फलाफल", "फालाफ\u{947}ल", "मीटबॉल", "हरबरा भजी", "हरभरा"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("falafel"),
-            keywords: &["bebola daging", "falafel", "kacang kuda"],
+            keywords: &["bebola daging", "falafel", "kacang kuda", "makanan"],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -14431,12 +20207,6 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
                 "ဘယာကြော\u{103a}",
                 "မ\u{102f}န\u{1037}\u{103a}လ\u{102f}\u{1036}း",
             ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("falafel"),
-            keywords: &["falafel", "kikerter", "kjøttboller"],
         },
         #[cfg(feature = "ne")]
         crate::Annotation {
@@ -14453,7 +20223,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("falafel"),
+            tts: Some("↑↑↑"),
             keywords: &["falafel", "kikerter", "kjøtbollar"],
         },
         #[cfg(feature = "or")]
@@ -14470,7 +20240,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਫਲਾਫ\u{a47}ਲ"),
-            keywords: &["ਛ\u{a4b}ਲ\u{a47}", "ਫਲਾਫ\u{a47}ਲ", "ਮੀਟਬਾਲ"],
+            keywords: &[
+                "ਕ\u{a4b}ਫਤ\u{a47}",
+                "ਛ\u{a4b}ਲ\u{a47}",
+                "ਫਲਾਫਲ",
+                "ਫਲਾਫ\u{a47}ਲ",
+                "ਮੀਟਬਾਲ",
+            ],
         },
         #[cfg(feature = "pcm")]
         crate::Annotation {
@@ -14478,16 +20254,22 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             tts: Some("Faláfẹl"),
             keywords: &[
                 "Faláfẹl",
-                "Mídúl Íst Fud Wé Im Nem Na Faláful",
-                "Mítbọl: Mít Wé Dẹm Móld Laik Bọl",
-                "Smọ\u{301}l Raúnd Sid Wé Im Nem Na Chíkpii",
+                "Mídúl Íst Fud Wé Im Nem Na \"Faláful\"",
+                "Mítbọl: Mít Wé Dẹm Móld Laik Smọ\u{301}l Bọl",
+                "Smọ\u{301}l Raúnd Sid Wé Im Nem Na \"Chíkpii\"",
             ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("falafel"),
-            keywords: &["ciecierzyca", "falafel", "kotlecik z ciecierzycy"],
+            keywords: &[
+                "ciecierzyca",
+                "falafel",
+                "jedzenie",
+                "kotlecik",
+                "kotlecik z ciecierzycy",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -14505,7 +20287,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("faláfel"),
-            keywords: &["almôndega", "faláfel", "grão de bico"],
+            keywords: &["almôndega", "faláfel", "grão de bico", "grão-de-bico"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -14517,7 +20299,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("falafel"),
-            keywords: &["chifteluță", "falafel", "năut"],
+            keywords: &["chifteluță", "falafel", "mâncare", "năut"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -14532,8 +20314,10 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             keywords: &[
                 "бобовый",
                 "бобы",
+                "вегетарианский",
                 "горох",
                 "гороховый",
+                "еда",
                 "нут",
                 "фалафель",
                 "шарик",
@@ -14565,7 +20349,7 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sl",
             tts: Some("falafel"),
-            keywords: &["falafel", "kroglica", "čičerika"],
+            keywords: &["falafel", "hrana", "kroglica", "čičerika"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -14577,7 +20361,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("qofte falafel"),
-            keywords: &["qofte falafel", "qofte me bishtajore", "qofte me mish"],
+            keywords: &[
+                "bishtajore",
+                "falafel",
+                "qofte",
+                "qofte me bishtajore",
+                "qofte me mish",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
@@ -14597,6 +20387,12 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             tts: Some("falafel"),
             keywords: &["falafel", "leblebije", "ćufte"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -14607,7 +20403,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("felafeli"),
-            keywords: &["felafeli", "kababu", "njegere kubwa"],
+            keywords: &[
+                "felafeli",
+                "kababu",
+                "njegere kubwa",
+                "nyama kababu",
+                "nyama ya mviringo",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -14620,8 +20422,11 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("வறுத\u{bcd}த கொண\u{bcd}டைக\u{bcd}கடலை உருண\u{bcd}டை"),
             keywords: &[
+                "ஃபல\u{bbe}ஃபல\u{bcd}",
+                "உணவு",
                 "கறி உருண\u{bcd}டை",
                 "கொண\u{bcd}டைக\u{bcd}கடலை",
+                "ர\u{bbe}ப\u{bcd}",
                 "வறுத\u{bcd}த கொண\u{bcd}டைக\u{bcd}கடலை உருண\u{bcd}டை",
             ],
         },
@@ -14630,6 +20435,8 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("ఫల\u{c3e}ఫ\u{c46}ల\u{c4d}"),
             keywords: &[
+                "చ\u{c3f}క\u{c46}న\u{c4d} వంటకం",
+                "చ\u{c3f}క\u{c4d}\u{200c}ప\u{c3f}",
                 "చ\u{c3f}క\u{c4d}\u{200c}ప\u{c40}",
                 "ఫల\u{c3e}ఫ\u{c46}ల\u{c4d}",
                 "మ\u{c40}ట\u{c4d}\u{200c}బ\u{c3e}ల\u{c4d}",
@@ -14640,10 +20447,20 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ฟาลาเฟล"),
             keywords: &[
-                "ถ\u{e31}\u{e48}วล\u{e39}กไก\u{e48}",
+                "ตะว\u{e31}นออกกลาง",
+                "ถ\u{e31}\u{e48}วช\u{e34}กพ\u{e35}",
+                "ป\u{e31}\u{e49}น",
                 "ฟาลาเฟล",
-                "ม\u{e35}ตบอล",
+                "ล\u{e39}กช\u{e34}\u{e49}น",
+                "ล\u{e39}กไก\u{e48}",
+                "อาหาร",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፋላፈል"),
+            keywords: &["ፋላፈል"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -14673,19 +20490,31 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("فلافل"),
-            keywords: &["فلافل", "چنا", "کوفتہ"],
+            keywords: &["سفید چنا", "غذا", "فلافل", "چنا", "کوفتہ", "کھانا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("falafel"),
-            keywords: &["falafel", "noʻxat", "qiyma", "yumaloq qiyma"],
+            keywords: &["falafel", "noʻxat", "qiyma", "vegeterian", "yumaloq qiyma"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bánh rán nhân gà"),
-            keywords: &["bánh rán nhân gà", "thịt viên", "đậu gà"],
+            keywords: &["falafel", "thịt viên", "đậu hồi"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("faláfẹ\u{301}l]i"),
+            keywords: &["ewa", "faláfẹ\u{301}l]i"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("faláfɛ\u{301}l]i"),
+            keywords: &["ewa", "faláfɛ\u{301}l]i"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -14709,13 +20538,13 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("油炸鷹嘴豆餅"),
-            keywords: &["油炸鷹嘴豆餅", "肉丸", "鷹嘴豆"],
+            keywords: &["油炸鷹嘴豆餅", "肉丸", "雪蓮子", "鷹嘴豆"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("炸豆餅"),
-            keywords: &["炸豆餅", "肉丸", "鷹嘴豆"],
+            keywords: &["三角豆", "炸豆餅", "肉丸", "食物", "鷹嘴豆"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -14747,19 +20576,19 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("eier"),
-            keywords: &["eier", "kos"],
+            keywords: &["eier", "kos", "ontbyt", "proteïene", "voedsel"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("እንቁላል"),
-            keywords: &["ምግብ", "እንቁላል"],
+            keywords: &["ምግብ", "ሞላላ", "ነጭ", "እንቁላል"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بيض"),
-            keywords: &["بيض", "طعام"],
+            keywords: &["أكل", "بيض", "طعام"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -14783,7 +20612,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("яйце"),
-            keywords: &["храна", "яйце"],
+            keywords: &["закуска", "храна", "яйце"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -14825,7 +20654,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("vejce"),
-            keywords: &["jídlo", "vejce"],
+            keywords: &["jídlo", "vajíčko", "vejce"],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -14845,11 +20674,17 @@ pub const EGG: crate::Emoji = crate::Emoji {
             tts: Some("Ei"),
             keywords: &["Ei", "Frühstück", "Frühstücksei"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("αυγό"),
-            keywords: &["αυγό", "τροφή"],
+            keywords: &["αυγό", "πρωινό", "τροφή", "φαγητό"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
@@ -14891,7 +20726,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["comida", "gallina", "gallo", "huevo"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -14903,13 +20738,13 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["comida", "desayuno", "huevo"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("muna"),
-            keywords: &["muna", "toit"],
+            keywords: &["hommikusöök", "muna", "toit"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -14945,7 +20780,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("œuf"),
-            keywords: &["œuf"],
+            keywords: &["nourriture", "œuf"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -14975,31 +20810,72 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("ઈ\u{a82}ડ\u{ac1}"),
-            keywords: &["ઈ\u{a82}ડ\u{ac1}", "ભોજન"],
+            keywords: &[
+                "અ\u{a82}ડ",
+                "અ\u{a82}ડાણ\u{ac1}\u{a82}",
+                "આમલ\u{ac7}ટ",
+                "ઈ\u{a82}ડ\u{ac1}",
+                "ઈ\u{a82}ડ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "ભોજન",
+                "મરઘીન\u{ac1}\u{a82} ઈ\u{a82}ડ\u{ac1}\u{a82}",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("ƙwai"),
-            keywords: &["abinci", "ƙwai"],
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "farin ƙwai",
+                "kayan gona",
+                "kaza",
+                "kaza mai ƙwai",
+                "ƙwai",
+                "ƙwan kaza",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("ƙwai"),
+            keywords: &[
+                "abinci",
+                "abincin safe",
+                "farin ƙwai",
+                "kayan gona",
+                "kaza",
+                "kaza mai ƙwai",
+                "ƙwai",
+                "ƙwan kaza",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("ביצה"),
-            keywords: &["אוכל", "ביצה"],
+            keywords: &["אוכל", "ביצה", "ביצה קשה", "מזון"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("अ\u{902}डा"),
-            keywords: &["अ\u{902}डा", "भोजन"],
+            keywords: &[
+                "अ\u{902}डा",
+                "अण\u{94d}डा",
+                "खाना",
+                "नाश\u{94d}ता",
+                "भ\u{942}ख",
+                "भोजन",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("jaje"),
-            keywords: &["doručak", "hrana", "jaje"],
+            keywords: &["doručak", "hrana", "jaja", "jaje"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -15017,7 +20893,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("telur"),
-            keywords: &["makanan", "telur"],
+            keywords: &["makanan", "telor", "telur"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -15035,7 +20911,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("uovo"),
-            keywords: &["cibo", "uovo"],
+            keywords: &["cibo", "uova", "uovo"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -15055,11 +20931,17 @@ pub const EGG: crate::Emoji = crate::Emoji {
             tts: Some("კვერცხი"),
             keywords: &["კვერცხი", "საკვები"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamellalt"),
+            keywords: &["tamellalt"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("жұмыртқа"),
-            keywords: &["жұмыртқа", "тағам"],
+            keywords: &["жұмыртқа", "тағам", "таңғы ас"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -15088,7 +20970,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("달걀"),
-            keywords: &["계란", "달걀", "식품"],
+            keywords: &["계란", "달걀", "식품", "음식"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -15124,7 +21006,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("ola"),
-            keywords: &["ola", "ēdiens"],
+            keywords: &["ola", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -15154,7 +21036,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("अ\u{902}ड\u{947}"),
-            keywords: &["अ\u{902}ड\u{947}", "खाद\u{94d}य"],
+            keywords: &["अ\u{902}ड", "अ\u{902}ड\u{947}", "अन\u{94d}न", "खाद\u{94d}य"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -15174,12 +21056,6 @@ pub const EGG: crate::Emoji = crate::Emoji {
             tts: Some("ဥ"),
             keywords: &["အစားအသောက\u{103a}", "ဥ"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("egg"),
-            keywords: &["egg", "mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -15190,25 +21066,25 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("ei"),
-            keywords: &["ei", "voedsel"],
+            keywords: &["ei", "eten", "voedsel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("egg"),
-            keywords: &["egg", "mat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଅଣ\u{b4d}ଡ\u{b3e}"),
-            keywords: &["ଅଣ\u{b4d}ଡ\u{b3e}", "ଅଣ\u{b4d}ଡ\u{b3e} । ଖ\u{b3e}ଦ\u{b4d}ୟ"],
+            keywords: &["ଅଣ\u{b4d}ଡ\u{b3e}", "ଖ\u{b3e}ଦ\u{b4d}ୟ"],
         },
         #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਆ\u{a02}ਡਾ"),
-            keywords: &["ਅ\u{a70}ਡਾ", "ਆ\u{a02}ਡਾ", "ਭ\u{a4b}ਜਨ"],
+            keywords: &["ਅ\u{a70}ਡਾ", "ਆ\u{a02}ਡਾ", "ਨਾਸ\u{a3c}ਤਾ", "ਭ\u{a4b}ਜਨ"],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -15226,7 +21102,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("jajko"),
-            keywords: &["jajko", "jajo", "jedzenie"],
+            keywords: &["jajko", "jajo", "jedzenie", "kura", "kurczak", "nabiał"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -15238,13 +21114,13 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("ovo"),
-            keywords: &["comida", "ovo"],
+            keywords: &["comida", "fome", "ovo"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["alimento", "comida", "ovo"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -15256,7 +21132,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("ou"),
-            keywords: &["mâncare", "ou"],
+            keywords: &["mic-dejun", "mâncare", "ou"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -15268,13 +21144,19 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("яйцо"),
-            keywords: &["еда", "яйцо"],
+            keywords: &["еда", "завтрак", "скорлупа", "яйцо"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("igi"),
             keywords: &["ibiribwa", "igi"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱤᱞᱤ"),
+            keywords: &["ᱵᱤᱞᱤ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -15292,7 +21174,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("vajce"),
-            keywords: &["jedlo", "vajce"],
+            keywords: &["jedlo", "vajce", "vajíčko"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -15316,19 +21198,25 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("јаје"),
-            keywords: &["храна", "јаје"],
+            keywords: &["доручак", "храна", "јаје"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["доручак", "храна", "јаје"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("jaje"),
-            keywords: &["hrana", "jaje"],
+            keywords: &["doručak", "hrana", "jaje"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["doručak", "hrana", "jaje"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -15358,7 +21246,12 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "te",
             tts: Some("గ\u{c4d}రుడ\u{c4d}డు"),
-            keywords: &["ఆహ\u{c3e}రం", "గ\u{c4d}రుడ\u{c4d}డు"],
+            keywords: &[
+                "ఆహ\u{c3e}రం",
+                "గుడ\u{c4d}డు",
+                "గ\u{c4d}రుడ\u{c4d}డు",
+                "ప\u{c4c}ష\u{c4d}ఠ\u{c3f}క ఆహ\u{c3e}రం గుర\u{c4d}తు",
+            ],
         },
         #[cfg(feature = "tg")]
         crate::Annotation {
@@ -15371,6 +21264,12 @@ pub const EGG: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ไข\u{e48}"),
             keywords: &["ศ\u{e39}นย\u{e4c}", "อาหาร", "ไข\u{e48}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እንቋቑሖ"),
+            keywords: &["መግቢ", "እንቋቁሖ", "እንቋቑሖ", "እንቋቝሖ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -15388,7 +21287,7 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("yumurta"),
-            keywords: &["yiyecek", "yumurta"],
+            keywords: &["gıda", "kahvaltı", "tavuk", "yiyecek", "yumurta"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -15400,25 +21299,25 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("яйце"),
-            keywords: &["яйце", "їжа"],
+            keywords: &["Великдень", "яйце", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("انڈا"),
-            keywords: &["انڈا", "خوراک"],
+            keywords: &["آملیٹ", "انڈا", "بیضہ", "خوراک", "مرغ", "نانختائی", "کیک"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("tuxum"),
-            keywords: &["taom", "tuxum"],
+            keywords: &["nonushta", "taom", "tuxum"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("trứng"),
-            keywords: &["thức ăn", "trứng"],
+            keywords: &["bữa sáng", "trứng", "đồ ăn"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -15436,7 +21335,13 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "yo",
             tts: Some("Ẹyin"),
-            keywords: &["ónjẹ", "Ẹyin", "ẹyin"],
+            keywords: &["ónjẹ", "Ẹyin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ɛyin"),
+            keywords: &["ónjɛ", "Ɛyin"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -15460,13 +21365,13 @@ pub const EGG: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("蛋"),
-            keywords: &["蛋", "雞蛋"],
+            keywords: &["蛋", "雞蛋", "食物"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["蛋", "食物"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -15498,19 +21403,54 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("gebakte eier in pan"),
-            keywords: &["bak", "eier", "gebakte eier in pan", "kook", "pan"],
+            keywords: &[
+                "bak",
+                "braai",
+                "brekfis",
+                "eier",
+                "gebakte eier in pan",
+                "kook",
+                "net aan een kant gebak",
+                "ontbyt",
+                "pan",
+                "restaurant",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ምግብ ማብሰል"),
-            keywords: &["መጥበሻ", "ማብሰል", "ምግብ ማብሰል", "እንቁላል"],
+            keywords: &[
+                "መጥበስ",
+                "መጥበሻ",
+                "ማብሰል",
+                "ምግብ ማብሰል",
+                "ምግብ ቤት",
+                "ሬስቶራንት",
+                "ቁርስ",
+                "በጣም ቀላል",
+                "እንቁላል",
+                "ፀሐያማው ጎን ወደ ላይ",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("مقلاة"),
-            keywords: &["طهي", "قلاية", "مطعم", "مقلاة"],
+            keywords: &[
+                "أم عيون",
+                "بيض",
+                "بيض عيون",
+                "بيضة مقلية",
+                "ترويقة",
+                "طبخ",
+                "طهي",
+                "فطور",
+                "قلاية",
+                "مطعم",
+                "مقلاة",
+                "مقلاية",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -15522,7 +21462,7 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("bişirmək"),
-            keywords: &["bişirmək", "qızartmaq", "tava", "yumurta"],
+            keywords: &["bişirmək", "qayğanaq", "qızartmaq", "tava", "yumurta"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -15534,15 +21474,27 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("готвене"),
-            keywords: &["готвене", "пържене", "тиган", "яйце"],
+            keywords: &[
+                "готвене",
+                "закуска",
+                "пържене",
+                "ресторант",
+                "тиган",
+                "храна",
+                "яйце",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("র\u{9be}ন\u{9cd}ন\u{9be} কর\u{9be}"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
                 "চ\u{9be}ট\u{9c1}",
                 "ডিম",
+                "ন\u{9be}স\u{9cd}ত\u{9be}",
+                "ফ\u{9cd}র\u{9be}ই প\u{9cd}য\u{9be}ন",
                 "ভ\u{9be}জ\u{9be}",
                 "র\u{9be}ন\u{9cd}ন\u{9be} কর\u{9be}",
             ],
@@ -15563,7 +21515,16 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("ou ferrat"),
-            keywords: &["cuina", "ou", "ou ferrat"],
+            keywords: &[
+                "cuina",
+                "esmorzar",
+                "fregir",
+                "fàcil",
+                "ou",
+                "ou ferrat",
+                "paella",
+                "restaurant",
+            ],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -15581,7 +21542,19 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("vejce na pánvi"),
-            keywords: &["pánev", "smažení", "vaření", "vejce", "vejce na pánvi"],
+            keywords: &[
+                "jídlo",
+                "pánev",
+                "restaurace",
+                "smažení",
+                "smažit",
+                "snídaně",
+                "vajíčko",
+                "vaření",
+                "vejce",
+                "vejce na pánvi",
+                "volské oko",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -15593,25 +21566,66 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("stegepande"),
-            keywords: &["madlavning", "spejlæg", "stegepande", "stegepande med æg"],
+            keywords: &[
+                "madlavning",
+                "morgenmad",
+                "spejlæg",
+                "stegepande",
+                "stegepande med æg",
+                "æg",
+            ],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Spiegelei in Bratpfanne"),
-            keywords: &["Kochen", "Pfanne", "Spiegelei in Bratpfanne"],
+            keywords: &[
+                "Bratpfanne",
+                "Kochen",
+                "Pfanne",
+                "Spiegelei",
+                "Spiegelei in Bratpfanne",
+                "braten",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("μαγείρεμα"),
-            keywords: &["αυγό", "μαγείρεμα", "τηγάνι", "τηγανίζω"],
+            keywords: &[
+                "αυγά μάτια",
+                "αυγό",
+                "εστιατόριο",
+                "μαγείρεμα",
+                "πρωινό",
+                "τηγάνι",
+                "τηγανίζω",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("cooking"),
-            keywords: &["breakfast", "cooking", "egg", "frying", "pan"],
+            keywords: &[
+                "breakfast",
+                "cooking",
+                "easy",
+                "egg",
+                "fry",
+                "frying",
+                "over",
+                "pan",
+                "restaurant",
+                "side",
+                "sunny",
+                "up",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -15647,7 +21661,15 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("sartén"),
-            keywords: &["cocina", "huevo", "restaurante", "sartén"],
+            keywords: &[
+                "cocina",
+                "cocinar",
+                "freír",
+                "huevo",
+                "huevo frito",
+                "restaurante",
+                "sartén",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -15665,7 +21687,15 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("toiduvalmistamine"),
-            keywords: &["muna", "pann", "praadimine", "toiduvalmistamine"],
+            keywords: &[
+                "hommikusöök",
+                "kokkamine",
+                "muna",
+                "pann",
+                "praadimine",
+                "restoran",
+                "toiduvalmistamine",
+            ],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -15677,19 +21707,41 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("آشپزی"),
-            keywords: &["آشپزی", "تابه", "تخم\u{200c}مرغ", "سرخ کردن", "نیمرو"],
+            keywords: &[
+                "آشپزی",
+                "تابه",
+                "تخم\u{200c}مرغ",
+                "خوراک",
+                "خوراکی",
+                "سرخ کردن",
+                "غذا",
+                "نیمرو",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kokkaus"),
-            keywords: &["kokkaus", "paistinpannu", "ruoka"],
+            keywords: &[
+                "aamiainen",
+                "kananmuna",
+                "paistinpannu",
+                "ruoanlaitto",
+                "ruoka",
+            ],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("nagluluto"),
-            keywords: &["itlog", "kawali", "nagluluto", "pagkain", "prito"],
+            keywords: &[
+                "itlog",
+                "kawali",
+                "nagluluto",
+                "pagkain",
+                "prito",
+                "sunny side up",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -15701,7 +21753,17 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("œuf au plat"),
-            keywords: &["friture", "poêle", "œuf", "œuf au plat"],
+            keywords: &[
+                "cuisine",
+                "friture",
+                "nourriture",
+                "petit-déjeuner",
+                "poêle",
+                "poêle à frire",
+                "se faire cuire un œuf",
+                "œuf",
+                "œuf au plat",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -15713,7 +21775,15 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("cócaireacht"),
-            keywords: &["cócaireacht", "friochadh", "friochtán"],
+            keywords: &[
+                "bialann",
+                "bricfeasta",
+                "cócaireacht",
+                "friochadh",
+                "friochta",
+                "friochtán",
+                "ubh",
+            ],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -15733,55 +21803,122 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             tts: Some("રા\u{a82}ધવ\u{ac1}\u{a82}"),
             keywords: &[
                 "કડાઈ",
+                "ખાનપાન",
+                "ખોરાક",
+                "તળ\u{ac7}લ\u{ac1}\u{a82} ઈ\u{a82}ડ\u{ac1}\u{a82}",
+                "નાસ\u{acd}તો",
+                "ભોજન",
                 "રા\u{a82}ધવ\u{ac1}\u{a82}",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
+                "વારનો નાસ\u{acd}તો",
             ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("girkawa"),
-            keywords: &["girkawa", "kwanon tuya", "soyawa", "ƙwai"],
+            keywords: &[
+                "abincin safe",
+                "girkawa",
+                "kaskon suyar ƙwai",
+                "kwanon tuya",
+                "soya ƙwai",
+                "soyawa",
+                "soyayyen ƙwai",
+                "tuyar ƙwai",
+                "wainar ƙwai",
+                "ƙwai",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("girkawa"),
+            keywords: &[
+                "abincin safe",
+                "girkawa",
+                "kaskon suyar ƙwai",
+                "kwanon tuya",
+                "soya ƙwai",
+                "soyawa",
+                "soyayyen ƙwai",
+                "tuyar ƙwai",
+                "wainar ƙwai",
+                "ƙwai",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("בישול"),
-            keywords: &["אוכל", "בישול", "מזון"],
+            keywords: &[
+                "אוכל",
+                "ארוחת בוקר",
+                "ביצת עין",
+                "בישול",
+                "חביתה",
+                "טיגון",
+                "מזון",
+            ],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("भोजन पकाना"),
             keywords: &[
+                "अ\u{902}डा",
                 "फ\u{93c}\u{94d}राइ\u{902}ग प\u{948}न",
                 "भोजन पकाना",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
+                "स\u{941}बह का नाश\u{94d}ता",
             ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("kuhanje"),
-            keywords: &["jaje", "kuhanje", "pečenje", "tava"],
+            keywords: &["doručak", "jaje", "kuhanje", "pečenje", "restoran", "tava"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("sütés-főzés"),
-            keywords: &["serpenyő", "sütés-főzés", "tojás"],
+            keywords: &[
+                "reggeli",
+                "serpenyő",
+                "sütés-főzés",
+                "tojás",
+                "tükörtojás",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("թավայով ձվածեղ"),
-            keywords: &["թավա", "թավայով ձվածեղ", "ձու", "տապակել"],
+            tts: Some("եփում"),
+            keywords: &[
+                "եփել",
+                "եփում",
+                "թավա",
+                "թավայով ձվածեղ",
+                "ձու",
+                "նախաճաշ",
+                "տապակել",
+            ],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("memasak"),
-            keywords: &["memasak", "menggoreng", "telur", "wajan"],
+            keywords: &[
+                "goreng",
+                "makanan",
+                "memasak",
+                "menggoreng",
+                "sarapan",
+                "telur",
+                "wajan",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -15799,13 +21936,24 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("cucinare"),
-            keywords: &["cucinare", "ristorante"],
+            keywords: &[
+                "cibo",
+                "colazione all’americana",
+                "cucinare",
+                "friggere",
+                "padella",
+                "padellino",
+                "ristorante",
+                "uova",
+                "uovo",
+                "uovo in padella",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("料理"),
-            keywords: &["フライパン", "卵", "料理", "目玉焼き"],
+            keywords: &["フライパン", "レストラン", "卵", "料理", "朝食", "目玉焼き"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -15819,11 +21967,17 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             tts: Some("საჭმლის მომზადება"),
             keywords: &["კვერცხი", "საჭმლის მომზადება", "ტაფა"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamellalt yewwan"),
+            keywords: &["tamellalt yewwan"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("пісіру"),
-            keywords: &["жұмыртқа", "пісіру", "таба", "қуыру"],
+            keywords: &["жұмыртқа", "пісіру", "таба", "таңғы ас", "қуыру"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -15848,13 +22002,33 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಅಡುಗ\u{cc6}"),
-            keywords: &["ಅಡುಗ\u{cc6}", "ಹುರ\u{cbf}ಯುವ ಪ\u{ccd}ಯಾನ\u{ccd}"],
+            keywords: &[
+                "ಅಡುಗ\u{cc6}",
+                "ಅಡುಗ\u{cc6} ಮಾಡುವುದು",
+                "ಆಮ\u{ccd}ಲ\u{cc6}ಟ\u{ccd}",
+                "ಉಪಾಹಾರ",
+                "ಪ\u{ccd}ಯಾನ\u{ccd}",
+                "ಮ\u{cca}ಟ\u{ccd}ಟ\u{cc6}",
+                "ರ\u{cc6}ಸ\u{ccd}ಟ\u{ccb}ರ\u{cc6}ಂಟ\u{ccd}",
+                "ಹುರ\u{cbf}",
+                "ಹುರ\u{cbf}ಯುವ ಪ\u{ccd}ಯಾನ\u{ccd}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("프라이팬"),
-            keywords: &["계란 프라이", "요리", "프라이팬"],
+            keywords: &[
+                "계란",
+                "계란 프라이",
+                "레스토랑",
+                "식당",
+                "써니사이드업",
+                "아침식사",
+                "요리",
+                "팬",
+                "프라이팬",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -15878,19 +22052,31 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lo",
             tts: Some("ແຕ\u{ec8}ງອາຫານ"),
-            keywords: &["ແຕ\u{ec8}ງອາຫານ", "ໄຂ\u{ec8}", "ໝ\u{ecd}\u{ec9}"],
+            keywords: &[
+                "ທອດໄຂ\u{ec8}",
+                "ແຕ\u{ec8}ງອາຫານ",
+                "ໄຂ\u{ec8}",
+                "ໝ\u{ecd}\u{ec9}",
+            ],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("valgio gaminimas"),
-            keywords: &["kepimas", "keptuvė", "kiaušinis", "valgio gaminimas"],
+            keywords: &[
+                "kepimas",
+                "keptas kiaušinis",
+                "keptuvė",
+                "kiaušinis",
+                "maistas",
+                "valgio gaminimas",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("ēdiena gatavošana"),
-            keywords: &["cept", "ola", "panna", "ēdiena gatavošana"],
+            keywords: &["brokastis", "cept", "ola", "panna", "ēdiena gatavošana"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -15902,7 +22088,15 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("готвење"),
-            keywords: &["готвење", "пржење", "тавче", "јајце"],
+            keywords: &[
+                "готвење",
+                "појадок",
+                "пржење",
+                "ресторан",
+                "тавче",
+                "јајце",
+                "јајце на око",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -15914,6 +22108,7 @@ pub const COOKING: crate::Emoji = crate::Emoji {
                 "കോഴിമ\u{d41}ട\u{d4d}ട",
                 "പ\u{d3e}ചകം",
                 "ഫ\u{d4d}രയിംഗ\u{d4d} പ\u{d3e}ൻ",
+                "ബ\u{d41}ൾസൈ",
                 "ഭക\u{d4d}ഷണം",
                 "ഹോട\u{d4d}ടൽ",
             ],
@@ -15935,11 +22130,22 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("अन\u{94d}न शिजविण\u{947}"),
             keywords: &[
+                "अ\u{902}डा ऑम\u{94d}ल\u{947}ट",
                 "अ\u{902}ड\u{947}",
+                "अन\u{94d}न",
                 "अन\u{94d}न शिजवण\u{947}",
                 "अन\u{94d}न शिजविण\u{947}",
                 "कढई",
+                "क\u{941}की\u{902}ग",
+                "खाद\u{94d}य",
                 "तळण\u{947}",
+                "तवा",
+                "नाश\u{94d}ता",
+                "नाष\u{94d}टा",
+                "फ\u{94d}राइ\u{902}ग प\u{945}न",
+                "ब\u{94d}र\u{947}कफास\u{94d}ट",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
+                "स\u{94d}वय\u{902}पाक",
             ],
         },
         #[cfg(feature = "ms")]
@@ -15965,12 +22171,6 @@ pub const COOKING: crate::Emoji = crate::Emoji {
                 "ဥ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("matlaging"),
-            keywords: &["egg", "matlaging", "steke", "stekepanne"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -15986,12 +22186,21 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("koken"),
-            keywords: &["bakken", "ei", "koekenpan", "koken", "ontbijt"],
+            keywords: &[
+                "bakken",
+                "ei",
+                "gemakkelijk",
+                "koken",
+                "ontbijt",
+                "pan",
+                "restaurant",
+                "spiegelei",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("matlaging"),
+            tts: Some("↑↑↑"),
             keywords: &["egg", "matlaging", "steike", "steikepanne"],
         },
         #[cfg(feature = "or")]
@@ -16009,7 +22218,14 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਰਸ\u{a4b}ਈ-ਕਲਾ"),
-            keywords: &["ਖਾਣਾ ਪਕਾਉਣਾ", "ਤਲਣ ਲਈ ਬਰਤਨ", "ਰਸ\u{a4b}ਈ-ਕਲਾ", "ਹ\u{a4b}ਟਲ"],
+            keywords: &[
+                "ਆ\u{a02}ਡਾ ਫਰਾਈ",
+                "ਆਮਲ\u{a47}ਟ",
+                "ਖਾਣਾ ਪਕਾਉਣਾ",
+                "ਤਲਣ ਲਈ ਬਰਤਨ",
+                "ਰਸ\u{a4b}ਈ-ਕਲਾ",
+                "ਹ\u{a4b}ਟਲ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -16022,8 +22238,6 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Kúk"),
             keywords: &[
-                "Brẹ\u{301}kfast",
-                "Frayín Pan",
                 "Kúk",
                 "Mọ\u{301}nín Chọp",
                 "Pan",
@@ -16036,7 +22250,7 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("gotowanie"),
-            keywords: &["gotowanie", "jajko", "smażyć"],
+            keywords: &["gotowanie", "jajko", "jedzenie", "patelnia", "smażyć"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -16048,13 +22262,27 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("ovo frito"),
-            keywords: &["frigideira", "ovo", "ovo estrelado", "ovo frito"],
+            keywords: &[
+                "comida",
+                "culinária",
+                "frigideira",
+                "ovo",
+                "ovo estrelado",
+                "ovo frito",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("cozinhar"),
-            keywords: &["cozinhar", "frigideira", "ovo"],
+            keywords: &[
+                "cozinhar",
+                "frigideira",
+                "ovo",
+                "ovo estrelado",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -16072,7 +22300,16 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("gătit"),
-            keywords: &["gătit", "tigaie"],
+            keywords: &[
+                "gătit",
+                "mic dejun",
+                "ou prăjit",
+                "ouă",
+                "ouă ochiuri",
+                "prăjit",
+                "restaurant",
+                "tigaie",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -16086,10 +22323,11 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             tts: Some("яичница на сковороде"),
             keywords: &[
                 "глазунья",
+                "жарить",
                 "желток",
+                "завтрак",
                 "сковорода",
                 "яичница",
-                "яичница на сковороде",
                 "яйцо",
             ],
         },
@@ -16098,6 +22336,12 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             lang: "rw",
             tts: Some("guteka"),
             keywords: &["gukaranga", "guteka", "igi", "ipanu"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱤᱥᱤᱱ"),
+            keywords: &["ᱤᱥᱤᱱ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -16120,13 +22364,31 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("varenie"),
-            keywords: &["panvica", "vajce", "varenie"],
+            keywords: &[
+                "hlad",
+                "jedenie",
+                "jedlo",
+                "panvica",
+                "praženica",
+                "reštaurácia",
+                "vajce",
+                "varenie",
+                "volské oko",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kuhanje"),
-            keywords: &["cvrtje", "jajce", "kuhanje", "ponev"],
+            keywords: &[
+                "cvrtje",
+                "jajce",
+                "kuhanje",
+                "na oko",
+                "ponev",
+                "restavracija",
+                "zajtrk",
+            ],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -16138,13 +22400,29 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("gatim"),
-            keywords: &["gatim", "skuqje", "tigan", "vezë"],
+            keywords: &[
+                "gatim",
+                "mëngjes",
+                "restorant",
+                "skuq",
+                "skuqje",
+                "tigan",
+                "vezë",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("јаје у тигању"),
-            keywords: &["jaje", "пeчeњe", "тигањ", "јаје у тигању"],
+            keywords: &[
+                "доручак",
+                "лако",
+                "око",
+                "печено",
+                "ресторан",
+                "тигањ",
+                "јаје",
+            ],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -16156,19 +22434,34 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("jaje u tiganju"),
-            keywords: &["jaje", "jaje u tiganju", "pečenje", "tiganj"],
+            keywords: &[
+                "doručak", "jaje", "lako", "oko", "pečeno", "restoran", "tiganj",
+            ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("matlagning"),
-            keywords: &["laga mat", "matlagning"],
+            keywords: &["laga mat", "matlagning", "steka ägg"],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("kupika"),
-            keywords: &["kukaang’a", "kupika", "sufuria", "yai"],
+            keywords: &[
+                "kaanga yai",
+                "kukaang’a",
+                "kupika",
+                "sufuria",
+                "yai",
+                "yai jicho ngombe",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -16186,6 +22479,7 @@ pub const COOKING: crate::Emoji = crate::Emoji {
                 "க\u{bbe}ஃப\u{bcd} ப\u{bbe}யில\u{bcd} முட\u{bcd}டை",
                 "சமையல\u{bcd}",
                 "முட\u{bcd}டை",
+                "ஹ\u{bbe}ஃப\u{bcd} ப\u{bbe}யில\u{bcd}",
             ],
         },
         #[cfg(feature = "te")]
@@ -16193,10 +22487,15 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("వంట"),
             keywords: &[
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం తయ\u{c3e}రవుతుంద\u{c3f}",
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం పూర\u{c4d}తయ\u{c3f}ంద\u{c3f}",
+                "మూకుడుల\u{c4b} ఉన\u{c4d}న అల\u{c4d}ప\u{c3e}హ\u{c3e}రం",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
                 "వంట",
+                "వంట స\u{c3f}ద\u{c4d}ధంగ\u{c3e} ఉంద\u{c3f}",
                 "వండటం",
                 "వ\u{c47}పుళ\u{c4d}ల మూకుడు",
+                "హ\u{c3e}ఫ\u{c4d} బ\u{c3e}య\u{c3f}ల\u{c4d}డ\u{c4d} ఎగ\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -16210,6 +22509,25 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ทำอาหาร"),
             keywords: &["กระทะ", "ทำอาหาร", "ไข\u{e48}ดาว"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ምብሳል ምግቢ"),
+            keywords: &[
+                "ሓፍ",
+                "ምብሳል ምግቢ",
+                "ምጥባስ",
+                "ቀሊል",
+                "ቁርሲ",
+                "ቤት መግቢ",
+                "ኣብ ልዕሊ",
+                "እንቋቑሖ",
+                "ወገን",
+                "ጸሓያዊ",
+                "ፍራይ",
+                "ፓን",
+            ],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -16234,7 +22552,18 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("yemek pişirme"),
-            keywords: &["pişirme", "restoran", "yemek pişirme"],
+            keywords: &[
+                "gıda",
+                "kahvaltı",
+                "kızartma tavası",
+                "pişirme",
+                "restoran",
+                "sahanda yumurta",
+                "tavada yumurta",
+                "yemek",
+                "yiyecek",
+                "yumurta",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -16246,19 +22575,36 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("готування їжі"),
-            keywords: &["готування їжі", "пательня", "яйце"],
+            keywords: &[
+                "готування їжі",
+                "пательня",
+                "сковорода",
+                "смажити",
+                "сніданок",
+                "яйце",
+                "яєчня",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پکتا ہوا انڈہ"),
-            keywords: &["انڈا", "پکتا ہوا انڈہ", "پین"],
+            keywords: &[
+                "آملیٹ",
+                "انڈا",
+                "بیضہ",
+                "صبح",
+                "ناشتا",
+                "پکتا ہوا انڈہ",
+                "پین",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("taom tayyorlash"),
-            keywords: &["qovurish", "taom tayyorlash", "tova", "tuxum"],
+            keywords: &["pishirish", "qovurish", "taom tayyorlash", "tova", "tuxum"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -16284,6 +22630,12 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             tts: Some("Dídáná"),
             keywords: &["Dídáná", "dídín", "páànù", "ẹyin"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Dídáná"),
+            keywords: &["Dídáná", "dídín", "páànù", "ɛyin"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -16300,7 +22652,17 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("煎蛋"),
-            keywords: &["平底锅", "煎", "煎蛋", "蛋"],
+            keywords: &[
+                "一面老一面嫩的煎蛋",
+                "做菜",
+                "只煎一面老",
+                "平底锅",
+                "早餐",
+                "煎",
+                "煎蛋",
+                "蛋",
+                "食堂",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -16312,7 +22674,20 @@ pub const COOKING: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("煮飯"),
-            keywords: &["平底鑊", "煎蛋", "煮飯", "荷包蛋", "鑊", "雞蛋"],
+            keywords: &[
+                "太陽蛋",
+                "平底鍋",
+                "平底鑊",
+                "早餐",
+                "烹飪",
+                "煎蛋",
+                "煮飯",
+                "荷包蛋",
+                "輕鬆",
+                "鑊",
+                "雞蛋",
+                "餐廳",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -16323,7 +22698,1341 @@ pub const COOKING: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🥘"]
-pub const SHALLOW_PAN_OF_FOOD : crate :: Emoji = crate :: Emoji { glyph : "🥘" , codepoint : "1F958" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 3u64 , minor : 0u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "shallow pan of food" , group : "Food & Drink" , subgroup : "food-prepared" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("vlak pan met kos") , keywords : & ["kos" , "paella" , "pan" , "vlak" , "vlak pan met kos"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ጎድጓዳ ሳህን ለምግብ") , keywords : & ["ምግብ" , "ሳህን" , "የምግብ ማቅረቢያ" , "ጎድጓዳ" , "ጎድጓዳ ሳህን ለምግብ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("مقلاة مسطحة بها طعام") , keywords : & ["طعام" , "مسطحة" , "مقلاة" , "مقلاة مسطحة بها طعام"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("কেৰ\u{9be}হী") , keywords : & ["কেছৰোল" , "কেৰ\u{9be}হী" , "খ\u{9be}দ\u{9cd}য" , "প\u{9be}ত\u{9cd}ৰ" , "পেল\u{9cd}ল\u{9be}" , "শ\u{9cd}বেল\u{9cd}লো"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("dayaz qazan") , keywords : & ["dayaz" , "qazan" , "qida" , "yemək"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("рагу ў патэльні") , keywords : & ["ежа" , "патэльня" , "паэлья" , "рагу" , "рагу ў патэльні"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("тава с храна") , keywords : & ["касерол" , "паеля" , "плитка" , "плитка тава с храна" , "тава" , "тава с храна" , "храна"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("কড\u{9bc}\u{9be}ই") , keywords : & ["কড\u{9bc}\u{9be}" , "কড\u{9bc}\u{9be}ই" , "ক\u{9cd}য\u{9be}সরোল" , "খ\u{9be}ব\u{9be}র" , "পেন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("meuz mitonet") , keywords : & ["boued" , "kastelodenn" , "meuz mitonet" , "paelon"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("tava s hranom") , keywords : & ["hrana" , "plitko" , "tava" , "tava s hranom" , "tepsija"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("paella") , keywords : & ["arròs" , "menjar" , "paella" , "valenciana"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏅᏬᏚ ᎤᏩᏖᏌᏓ Ꮎ ᎠᎵᏍᏓᏴᏗ") , keywords : & ["ᎠᎩᏍᏗ" , "ᎤᏩᏖᏌᏓᎾ" , "ᎧᏌᎶᎵ" , "ᏅᏬᏗ" , "ᏅᏬᏚ ᎤᏩᏖᏌᏓ Ꮎ ᎠᎵᏍᏓᏴᏗ" , "ᏅᏬᏚ ᎤᏩᏖᏌᏓᎾ ᎠᎵᏍᏓᏴᏗ" , "ᏆᏰᏯ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("mělký rendlík s jídlem") , keywords : & ["jídlo" , "kastrol" , "mělký" , "mělký rendlík s jídlem" , "paella" , "pánev"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("padell fas o fwyd") , keywords : & ["bas" , "bwyd" , "casserol" , "padell" , "padell fas o fwyd" , "paella"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("pande med mad") , keywords : & ["mad" , "paella" , "pande" , "pande med mad" , "pandestegt" , "steger"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Pfannengericht") , keywords : & ["Essen" , "Paella" , "Pfannengericht" , "Reispfanne"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("τηγάνι") , keywords : & ["παέγια" , "ρηχός" , "τηγάνι" , "τροφή" , "ψητό"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("shallow pan of food") , keywords : & ["casserole" , "food" , "paella" , "pan" , "shallow" , "shallow pan of food"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("paella") , keywords : & ["arroz" , "comida" , "paella"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["comida" , "paella" , "sartén"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("sartén hondo con comida") , keywords : & ["casserole" , "comida" , "hondo" , "paella" , "sartén" , "sartén hondo con comida"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("panniroog") , keywords : & ["paella" , "panniroog" , "toit"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("sakonera txikiko zartagina") , keywords : & ["janari" , "kazola" , "paella-ontzi" , "sakonera txikiko zartagin" , "sakonera txikiko zartagina" , "zartagin"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("ماهیتابه غذا") , keywords : & ["دیگ" , "غذا" , "ماهی\u{200c}تابه" , "پلو اسپانیایی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("paellapannu") , keywords : & ["paella" , "paellapannu" , "pata" , "pataruoka" , "ruoka"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("shallow pan ng pagkain") , keywords : & ["casserole" , "paella" , "pagkain" , "pagkain sa kaserola" , "shallow pan ng pagkain"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("grýturættur") , keywords : & ["fat" , "grýta" , "grýturættur" , "matur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("plat mitonné") , keywords : & ["casserole" , "paella" , "plat" , "plat mitonné" , "poêle"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["casserole" , "nourriture" , "paella" , "plat mitonné" , "poêle" , "repas"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("panna tanaí le bia") , keywords : & ["bia" , "friochtán" , "paella" , "panna tanaí le bia" , "pota" , "stiobhach"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("adhann le biadh") , keywords : & ["adhann" , "adhann le biadh" , "biadh" , "casaroil" , "eu-domhain" , "paella"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("paella") , keywords : & ["arroz" , "comida" , "paella" , "paelleira"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("છીછરો તવો") , keywords : & ["ક\u{ac5}સરોલ" , "છીછરો" , "તવો" , "ભોજન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("kwanon mara zurfi na abinci") , keywords : & ["abinci" , "kwanon mara zurfi na abinci" , "kwanon tuya" , "mara zurfi" , "miyan casserole" , "paella"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("תבשיל קדרה") , keywords : & ["קאסרול" , "קדרה" , "תבשיל"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("हल\u{94d}का तला खाना") , keywords : & ["खाना" , "पाएला" , "प\u{941}लाव" , "प\u{948}न" , "हल\u{94d}का" , "हल\u{94d}का तला खाना"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("posuda s hranom") , keywords : & ["hrana" , "lonac" , "paella" , "plitko" , "posuda" , "posuda s hranom"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("serpenyős étel") , keywords : & ["serpenyő" , "serpenyős étel" , "étel"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("տապակա") , keywords : & ["թավա" , "ուտելիք" , "տապակա" , "տապակած" , "տափակ"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("wajan dangkal") , keywords : & ["kaserol" , "makanan" , "seafood" , "wajan" , "wajan dangkal"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("efere nri dabara n’ime") , keywords : & ["anụ" , "efere" , "efere nri dabara n’ime" , "nri ayịya" , "nọ" , "n’ime"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("pönnuréttur") , keywords : & ["matur" , "panna" , "pönnuréttur"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("padella con cibo") , keywords : & ["casseruola" , "cibo" , "padella" , "padella con cibo" , "paella"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("パエリア") , keywords : & ["シーフード" , "パエリア"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("jangan sawajan cethek") , keywords : & ["dhaharan" , "jangan sawajan cethek" , "kaserol" , "paela" , "wajan" , "wajan cethek"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("ტაფამწვარი") , keywords : & ["თხელი" , "კასეროლი" , "პაელა" , "საკვები" , "ტაფა" , "ტაფამწვარი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("табадағы рагу") , keywords : & ["рагу" , "таба" , "табадағы рагу"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("pande med mad") , keywords : & ["mad" , "pande" , "pande med mad" , "pandestegt" , "steger"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ខ\u{17d2}ទះឆារាក\u{17cb}") , keywords : & ["ខ\u{17d2}ទះ" , "ខ\u{17d2}ទះឆារាក\u{17cb}" , "ចានគោម" , "ចានបាយធ\u{17c6}" , "រាក\u{17cb}" , "អាហារ"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಶಾಲ\u{ccb} ಪಾನ\u{ccd} ಆಹಾರ") , keywords : & ["ಆಹಾರ" , "ಕ\u{ccd}ಯಾಸ\u{ccd}\u{200c}ರ\u{ccb}ಲ\u{ccd}" , "ಪಾನ\u{ccd}" , "ಪಾಯ\u{cc6}ಲ\u{ccd}ಲಾ" , "ಶಾಲ\u{ccb}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("납작한 냄비") , keywords : & ["납작한 냄비" , "빠에야" , "음식" , "찌개" , "캐서롤"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("अन\u{94d}नाचो श\u{945}लो प\u{945}न") , keywords : & ["अन\u{94d}न" , "अन\u{94d}नाच\u{947}\u{902} श\u{945}लो प\u{945}न" , "अन\u{94d}नाचो श\u{945}लो प\u{945}न" , "क\u{945}सरोल" , "पायला" , "प\u{945}न" , "श\u{945}लो"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("көмөч казандагы рагу") , keywords : & ["көмөч казан" , "көмөч казандагы рагу" , "паэлья" , "рагу" , "тамак"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Kasseroll mat Iessen") , keywords : & ["Iessen" , "Kasseroll" , "Kasseroll mat Iessen" , "Paella" , "Pan" , "flaach"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ຈານອາຫານບາງໆ") , keywords : & ["casserole" , "paella" , "ຈານ" , "ຈານອາຫານບາງໆ" , "ບາງໆ" , "ອາຫານ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("prikaistuvis su maistu") , keywords : & ["maistas" , "prikaistuvis" , "prikaistuvis su maistu"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("sautējums pannā") , keywords : & ["paelja" , "panna" , "sautējums" , "sautējums pannā" , "ēdiens"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("pēne kai pāpaku") , keywords : & ["kaherora" , "kai" , "paera" , "pāpaku" , "pēne"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("тавче со храна") , keywords : & ["плитка" , "тава" , "тавче со храна" , "тепсија"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("പരന\u{d4d}ന പ\u{d3e}ത\u{d4d}രത\u{d4d}തിലെ ഭക\u{d4d}ഷണം") , keywords : & ["ക\u{d3e}സറോൾ" , "പരന\u{d4d}ന പ\u{d3e}ത\u{d4d}രത\u{d4d}തിലെ ഭക\u{d4d}ഷണം" , "പരന\u{d4d}നപ\u{d3e}ത\u{d4d}രം" , "പ\u{d3e}ൻ" , "ഭക\u{d4d}ഷണം"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("тогоотой хоол") , keywords : & ["тогоо" , "тогоотой хоол" , "хайруулын таваг" , "хоол"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("अन\u{94d}नाच\u{947} उथळ भा\u{902}ड\u{947}") , keywords : & ["अन\u{94d}नाच\u{947} उथळ भा\u{902}ड\u{947}" , "उथळ" , "क\u{947}स\u{947}रोल" , "खाद\u{94d}य" , "प\u{945}न" , "भा\u{902}ड\u{947}"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("makanan dalam belanga") , keywords : & ["belanga" , "makanan" , "makanan dalam belanga" , "periuk"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("taġen baxx tal-Ikel") , keywords : & ["baxx" , "ikel" , "paella" , "pagna" , "taġen" , "taġen baxx tal-Ikel"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("ဒယ\u{103a}အ\u{102d}\u{102f}းပါးန\u{103e}င\u{1037}\u{103a}စားစရာ") , keywords : & ["ဒယ\u{103a}အ\u{102d}\u{102f}းပါး" , "ဒယ\u{103a}အ\u{102d}\u{102f}းပါးန\u{103e}င\u{1037}\u{103a}စားစရာ" , "ပ\u{102e}ယာလာ" , "အစားအသောက\u{103a}"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("lav gryte med mat") , keywords : & ["lav gryte med mat" , "mat" , "paella" , "stekepanne"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("होचो कराईको खाना") , keywords : & ["कराई" , "कास\u{94d}स\u{947}रोल" , "खाना" , "पायला" , "होचो" , "होचो कराईको खाना"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("paellapan") , keywords : & ["casserole" , "paella" , "paellapan" , "pan" , "voedsel" , "wok"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("låg gryte med mat") , keywords : & ["låg gryte med mat" , "mat" , "paella" , "steikepanne"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଅଗଭୀର ଖ\u{b3e}ଦ\u{b4d}ୟ ତ\u{b3e}ୱ\u{b3e}") , keywords : & ["ଅଗଭୀର ଖ\u{b3e}ଦ\u{b4d}ୟ ତ\u{b3e}ୱ\u{b3e}" , "ପ\u{b3e}ଏଲ\u{b3e} । କ\u{b4d}ୟ\u{b3e}ସେରୋଲ\u{b4d}\u{200d} । ତ\u{b3e}ୱ\u{b3e} । ଅଗଭୀର । ଖ\u{b3e}ଦ\u{b4d}ୟ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਭ\u{a4b}ਜਨ ਦਾ ਘ\u{a71}ਟ ਡ\u{a42}\u{a70}ਘਾ ਭਾ\u{a02}ਡਾ") , keywords : & ["ਕ\u{a48}ਸਰ\u{a4b}ਲ" , "ਪ\u{a41}ਲਾਅ" , "ਪ\u{a48}ਨ" , "ਭ\u{a4b}ਜਨ" , "ਭ\u{a4b}ਜਨ ਦਾ ਘ\u{a71}ਟ ਡ\u{a42}\u{a70}ਘਾ ਭਾ\u{a02}ਡਾ" , "ਹਲਕਾ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("خوراک لئی گھٹ ڈونگا توا") , keywords : & ["توا" , "خوراک" , "خوراک لئی گھٹ ڈونگا توا" , "ڈھکن آلی کڑھائی" , "گھٹ ڈونگا" , "ہسپانوی پلاؤ"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Pọt Wé Nọ\u{301} Dip") , keywords : & ["Frayin Pan" , "Fud" , "Fud Wé Dé Insaíd Frayin Pan Wé Nọ\u{301} Dé Dip" , "Kásérol: Díp Plet Wé Dẹm De Ték Kúk Mit An Ọ\u{301}dá Fud" , "Nọ\u{301} Dé Dip" , "Pan" , "Pọt Wé Nọ\u{301} Dip" , "Spánísh Fud Wé Im Nem Na Paíẹla"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("danie z patelni") , keywords : & ["danie z patelni" , "jedzenie" , "paella" , "patelnia" , "wok"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د خواړو سطحي هرکاره") , keywords : & ["د خواړو سطحي هرکاره" , "کيسيرول، خواړه، پايلا، هرکاره، سطحي، د خواړو سطحي هرکاره"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("caçarola com comida") , keywords : & ["caçarola" , "caçarola com comida" , "comida" , "paella" , "panela" , "rasa"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("caçarola de comida") , keywords : & ["caçarola" , "caçarola de comida" , "comida" , "paelha" , "panela" , "rasa"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("pisi llata mikunapaq") , keywords : & ["caserola" , "llaplla" , "mikhuna" , "paella" , "pisi llata mikunapaq" , "sarten"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("cratiță cu mâncare") , keywords : & ["cratiță" , "cratiță cu mâncare" , "mâncare" , "paella" , "tigaie" , "tigaie cu mâncare"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-1076") , keywords : & ["E10-1076"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("рагу в сковороде") , keywords : & ["еда" , "паэлья" , "рагу" , "рагу в сковороде" , "сковорода"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("agapanu k’ibiryo") , keywords : & ["agakarayi" , "agapanu k’ibiryo" , "agasahani" , "ibiribwa" , "ipanu" , "isafuriya"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("توو") , keywords : & ["توو" , "پئيلا، ڪيسيرول، پان، کاڌو"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("නොගැඹ\u{dd4}ර\u{dd4} තැට\u{dd2}යේ කෑම") , keywords : & ["කෑම" , "තම\u{dca}බන තැට\u{dd2}ය" , "තැට\u{dd2}ය" , "නොගැඹ\u{dd4}ර\u{dd4}" , "නොගැඹ\u{dd4}ර\u{dd4} තැට\u{dd2}යේ කෑම"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("panvica s jedlom") , keywords : & ["jedlo" , "panvica" , "panvica s jedlom"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("kozica s hrano") , keywords : & ["hrana" , "kozica" , "kozica s hrano" , "paella" , "ponev"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("bir daawo gun-dhow oo cunno ah") , keywords : & ["bariis isbaanish" , "bir daawo" , "bir daawo gun-dhow oo cunno ah" , "cuno fuud foornaysan" , "gun dhow"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("tigan me ushqim") , keywords : & ["enë" , "tavë gjelle" , "tigan" , "tigan me ushqim" , "ushqim"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("тигањ хране") , keywords : & ["паеља" , "плитко" , "тава" , "тигањ хране" , "храна"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("tiganj hrane") , keywords : & ["hrana" , "paelja" , "plitko" , "tava" , "tiganj hrane"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("stekpanna") , keywords : & ["mat" , "paella" , "stekpanna"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("kikaango") , keywords : & ["chakula" , "chapati" , "kikaango" , "paella"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("கட\u{bbe}ய\u{bcd} உணவு") , keywords : & ["உணவு" , "கட\u{bbe}ய\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("ఆహ\u{c3e}రంత\u{c4b} ఉన\u{c4d}న బ\u{c3e}ండ\u{c40}") , keywords : & ["ఆహ\u{c3e}రం" , "ఆహ\u{c3e}రంత\u{c4b} ఉన\u{c4d}న బ\u{c3e}ండ\u{c40}" , "క\u{c3e}సుర\u{c4b}ల\u{c4d}" , "ప\u{c48}యల" , "ప\u{c4d}య\u{c3e}న\u{c4d}" , "ష\u{c3e}ల\u{c4b}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("дегчаи хурди ғизо") , keywords : & ["дегча" , "дегчаи хурди ғизо" , "паеля" , "пастоб" , "тоба" , "ғизо"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("กระทะ") , keywords : & ["กระทะ" , "กะทะ" , "ทำอาหาร" , "อาหาร"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("ýalpak taba") , keywords : & ["ispan palowy" , "iýmit" , "kastrýul" , "taba" , "ýalpak"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("fakapaku meʻakai") , keywords : & ["fakapaku meʻakai"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("sahanda yemek") , keywords : & ["güveç" , "küçük" , "paella" , "sahanda yemek" , "tava" , "yiyecek"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("لېگەنلىك يېمەكلىك") , keywords : & ["تېيىز" , "تەخسە" , "قازان" , "لېگەن" , "لېگەنلىك يېمەكلىك" , "يېمەكلىك"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("каструля з їжею") , keywords : & ["каструля" , "каструля з їжею" , "плов" , "рагу" , "їжа"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("کم گہرے پین میں خوراک") , keywords : & ["خوراک" , "پین" , "کم گہرا" , "کم گہرے پین میں خوراک"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("bir tova qovurdoq") , keywords : & ["bir tova qovurdoq" , "jarkop" , "paelya" , "taom" , "tova"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("chảo thức ăn nông") , keywords : & ["chảo" , "chảo thức ăn nông" , "nông" , "nồi đất" , "paella" , "thức ăn"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("boolu togg bu xóotul") , keywords : & ["boolu togg bu xóotul" , "bu xóotul" , "kaserol" , "lekk" , "pane" , "paylaa"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("ipani elinganzulwanga lokutya") , keywords : & ["enganzulwanga" , "i-casserole" , "i-paella" , "ipani" , "ipani elinganzulwanga lokutya" , "ukutya"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("Paanu Ijẹun kekere") , keywords : & ["Paanu Ijẹun kekere" , "kásẹrọ\u{300}" , "pàẹ\u{301}là" , "páànù ṣálò" , "ónjẹ" , "ṣálò"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("一盤食物") , keywords : & ["一盤食物" , "平底鑊" , "淺" , "砂鍋" , "肉菜飯" , "食物"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("一盘食物") , keywords : & ["一盘食物" , "平底镬" , "浅" , "砂锅" , "肉菜饭" , "食物"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("装有食物的浅底锅") , keywords : & ["浅底" , "煎锅" , "装有食物的浅底锅" , "食物"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("淺鍋料理") , keywords : & ["平底鍋" , "料理" , "淺鍋" , "淺鍋料理"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("一鍋食物") , keywords : & ["一鍋食物" , "海鮮飯" , "淺鍋" , "鍋" , "食物"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("ipani elinokudla") , keywords : & ["casserole" , "ipani" , "ipani elinokudla" , "ngajulile" , "paella" , "ukudla"] , }] , } ;
+pub const SHALLOW_PAN_OF_FOOD: crate::Emoji = crate::Emoji {
+    glyph: "🥘",
+    codepoint: "1F958",
+    status: crate::Status::FullyQualified,
+    introduction_version: semver::Version {
+        major: 3u64,
+        minor: 0u64,
+        patch: 0u64,
+        pre: semver::Prerelease::EMPTY,
+        build: semver::BuildMetadata::EMPTY,
+    },
+    name: "shallow pan of food",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        #[cfg(feature = "af")]
+        crate::Annotation {
+            lang: "af",
+            tts: Some("vlak pan met kos"),
+            keywords: &[
+                "kasserol",
+                "kos",
+                "oondgereg",
+                "paella",
+                "pan",
+                "vlak",
+                "vlak pan met kos",
+                "voedsel",
+            ],
+        },
+        #[cfg(feature = "am")]
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጎድጓዳ ሳህን ለምግብ"),
+            keywords: &[
+                "ምግብ",
+                "ሳህን",
+                "የምግብ ማቅረቢያ",
+                "ጎድጓዳ",
+                "ጎድጓዳ ሳህን ለምግብ",
+                "ጎድጓዳ የምግብ ሳህን",
+            ],
+        },
+        #[cfg(feature = "ar")]
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مقلاة مسطحة بها طعام"),
+            keywords: &[
+                "أكل",
+                "بايلا",
+                "طعام",
+                "فايشة",
+                "كاسرولا",
+                "مسطحة",
+                "مقلاة",
+                "مقلاة مسطحة بها طعام",
+                "مقلاية",
+            ],
+        },
+        #[cfg(feature = "as")]
+        crate::Annotation {
+            lang: "as",
+            tts: Some("কেৰ\u{9be}হী"),
+            keywords: &[
+                "কেছৰোল",
+                "কেৰ\u{9be}হী",
+                "খ\u{9be}দ\u{9cd}য",
+                "প\u{9be}ত\u{9cd}ৰ",
+                "পেল\u{9cd}ল\u{9be}",
+                "শ\u{9cd}বেল\u{9cd}লো",
+            ],
+        },
+        #[cfg(feature = "az")]
+        crate::Annotation {
+            lang: "az",
+            tts: Some("dayaz qazan"),
+            keywords: &["dayaz", "qazan", "qida", "tava", "yemək"],
+        },
+        #[cfg(feature = "be")]
+        crate::Annotation {
+            lang: "be",
+            tts: Some("рагу ў патэльні"),
+            keywords: &["ежа", "патэльня", "паэлья", "рагу", "рагу ў патэльні"],
+        },
+        #[cfg(feature = "bg")]
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("тава с храна"),
+            keywords: &[
+                "касерол",
+                "паеля",
+                "пайеля",
+                "плитка",
+                "плитка тава с храна",
+                "тава",
+                "тава с храна",
+                "храна",
+            ],
+        },
+        #[cfg(feature = "bn")]
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("কড\u{9bc}\u{9be}ই"),
+            keywords: &[
+                "কড\u{9bc}\u{9be}",
+                "কড\u{9bc}\u{9be}ই",
+                "ক\u{9cd}য\u{9be}সরোল",
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "পেন",
+                "প\u{9cd}য\u{9be}ন",
+            ],
+        },
+        #[cfg(feature = "br")]
+        crate::Annotation {
+            lang: "br",
+            tts: Some("meuz mitonet"),
+            keywords: &["boued", "kastelodenn", "meuz mitonet", "paelon"],
+        },
+        #[cfg(feature = "bs")]
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("tava s hranom"),
+            keywords: &["hrana", "plitko", "tava", "tava s hranom", "tepsija"],
+        },
+        #[cfg(feature = "ca")]
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("paella"),
+            keywords: &[
+                "arròs",
+                "cassola",
+                "menjar",
+                "paella",
+                "poc fonda",
+                "valenciana",
+            ],
+        },
+        #[cfg(feature = "chr")]
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏅᏬᏚ ᎤᏩᏖᏌᏓ Ꮎ ᎠᎵᏍᏓᏴᏗ"),
+            keywords: &[
+                "ᎠᎩᏍᏗ",
+                "ᎤᏩᏖᏌᏓᎾ",
+                "ᎧᏌᎶᎵ",
+                "ᏅᏬᏗ",
+                "ᏅᏬᏚ ᎤᏩᏖᏌᏓ Ꮎ ᎠᎵᏍᏓᏴᏗ",
+                "ᏅᏬᏚ ᎤᏩᏖᏌᏓᎾ ᎠᎵᏍᏓᏴᏗ",
+                "ᏆᏰᏯ",
+            ],
+        },
+        #[cfg(feature = "cs")]
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("mělký rendlík s jídlem"),
+            keywords: &[
+                "jídlo",
+                "kastrol",
+                "mělká pánev",
+                "mělký",
+                "mělký rendlík s jídlem",
+                "paella",
+                "plody moře",
+                "pánev",
+                "pánev s jídlem",
+                "zapečené jídlo",
+            ],
+        },
+        #[cfg(feature = "cy")]
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("padell fas o fwyd"),
+            keywords: &[
+                "bas",
+                "bwyd",
+                "casserol",
+                "padell",
+                "padell fas o fwyd",
+                "paella",
+            ],
+        },
+        #[cfg(feature = "da")]
+        crate::Annotation {
+            lang: "da",
+            tts: Some("pande med mad"),
+            keywords: &[
+                "mad",
+                "paella",
+                "pande",
+                "pande med mad",
+                "pandestegt",
+                "steger",
+            ],
+        },
+        #[cfg(feature = "de")]
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Pfannengericht"),
+            keywords: &["Essen", "Paella", "Pfannengericht", "Reispfanne"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "el")]
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τηγάνι"),
+            keywords: &["παέγια", "ρηχός", "τηγάνι", "τροφή", "ψητό"],
+        },
+        #[cfg(feature = "en")]
+        crate::Annotation {
+            lang: "en",
+            tts: Some("shallow pan of food"),
+            keywords: &["casserole", "food", "paella", "pan", "shallow"],
+        },
+        #[cfg(feature = "en_AU")]
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_CA")]
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_GB")]
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "en_IN")]
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es")]
+        crate::Annotation {
+            lang: "es",
+            tts: Some("paella"),
+            keywords: &["arroz", "comida", "paella"],
+        },
+        #[cfg(feature = "es_419")]
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "arroz", "comida", "españa", "gambas", "marisco", "paella", "paellera", "receta",
+                "sartén", "valencia",
+            ],
+        },
+        #[cfg(feature = "es_MX")]
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "es_US")]
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("sartén hondo con comida"),
+            keywords: &[
+                "casserole",
+                "comida",
+                "hondo",
+                "paella",
+                "sartén",
+                "sartén hondo con comida",
+            ],
+        },
+        #[cfg(feature = "et")]
+        crate::Annotation {
+            lang: "et",
+            tts: Some("panniroog"),
+            keywords: &["paella", "panniroog", "söök", "toit", "ühepajatoit"],
+        },
+        #[cfg(feature = "eu")]
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("sakonera txikiko zartagina"),
+            keywords: &[
+                "janari",
+                "kazola",
+                "paella-ontzi",
+                "sakonera txikiko zartagin",
+                "sakonera txikiko zartagina",
+                "zartagin",
+            ],
+        },
+        #[cfg(feature = "fa")]
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ماهیتابه غذا"),
+            keywords: &["املت", "دیگ", "غذا", "ماهی\u{200c}تابه", "پلو اسپانیایی"],
+        },
+        #[cfg(feature = "fi")]
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("paellapannu"),
+            keywords: &["paella", "pata", "pataruoka", "ruoka"],
+        },
+        #[cfg(feature = "fil")]
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("shallow pan ng pagkain"),
+            keywords: &[
+                "casserole",
+                "kaserola",
+                "paella",
+                "pagkain",
+                "pagkain sa kaserola",
+                "shallow pan ng pagkain",
+            ],
+        },
+        #[cfg(feature = "fo")]
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("grýturættur"),
+            keywords: &["fat", "grýta", "grýturættur", "matur"],
+        },
+        #[cfg(feature = "fr")]
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("plat mitonné"),
+            keywords: &[
+                "Espagne",
+                "casserole",
+                "paella",
+                "plat",
+                "plat mitonné",
+                "poêle",
+                "riz",
+            ],
+        },
+        #[cfg(feature = "fr_CA")]
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "casserole",
+                "nourriture",
+                "paella",
+                "plat mitonné",
+                "poêle",
+                "repas",
+            ],
+        },
+        #[cfg(feature = "ga")]
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("panna tanaí le bia"),
+            keywords: &[
+                "bia",
+                "friochtán",
+                "paella",
+                "panna tanaí le bia",
+                "pota",
+                "stiobhach",
+            ],
+        },
+        #[cfg(feature = "gd")]
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("adhann le biadh"),
+            keywords: &[
+                "adhann",
+                "adhann le biadh",
+                "biadh",
+                "casaroil",
+                "eu-domhain",
+                "paella",
+            ],
+        },
+        #[cfg(feature = "gl")]
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("paella"),
+            keywords: &["arroz", "comida", "paella", "paelleira"],
+        },
+        #[cfg(feature = "gu")]
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("છીછરો તવો"),
+            keywords: &[
+                "ક\u{ac5}સરોલ",
+                "ખાણ\u{ac1}\u{a82}",
+                "ખાનપાન",
+                "ખોરાક",
+                "છીછરો",
+                "તપ\u{ac7}લો",
+                "તવો",
+                "પકવાન",
+                "ભોજન",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kwanon mara zurfi na abinci"),
+            keywords: &[
+                "abinci",
+                "babban kasko",
+                "dafa abinci",
+                "girka abinci",
+                "girki",
+                "kicin",
+                "kwanon mara zurfi na abinci",
+                "kwanon tuya",
+                "mara zurfi",
+                "miyan casserole",
+                "paella",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kwanon mara zurfi na abinci"),
+            keywords: &[
+                "abinci",
+                "babban kasko",
+                "dafa abinci",
+                "girka abinci",
+                "girki",
+                "kicin",
+                "kwanon mara zurfi na abinci",
+                "kwanon tuya",
+                "mara zurfi",
+                "miyan casserole",
+                "paella",
+            ],
+        },
+        #[cfg(feature = "he")]
+        crate::Annotation {
+            lang: "he",
+            tts: Some("תבשיל קדרה"),
+            keywords: &["קאסרול", "קדרה", "תבשיל"],
+        },
+        #[cfg(feature = "hi")]
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("हल\u{94d}का तला खाना"),
+            keywords: &[
+                "खाना",
+                "परात",
+                "पाएला",
+                "प\u{941}लाव",
+                "प\u{948}न",
+                "भोजन",
+                "हल\u{94d}का",
+                "हल\u{94d}का तला खाना",
+            ],
+        },
+        #[cfg(feature = "hr")]
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("posuda s hranom"),
+            keywords: &[
+                "hrana",
+                "lonac",
+                "paella",
+                "plitko",
+                "posuda",
+                "posuda s hranom",
+            ],
+        },
+        #[cfg(feature = "hu")]
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("serpenyős étel"),
+            keywords: &["paella", "serpenyő", "serpenyős étel", "étel"],
+        },
+        #[cfg(feature = "hy")]
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տապակ"),
+            keywords: &["թավա", "ուտելիք", "պաելյա", "տապակ", "տապակա", "տապակած"],
+        },
+        #[cfg(feature = "id")]
+        crate::Annotation {
+            lang: "id",
+            tts: Some("wajan dangkal"),
+            keywords: &["kaserol", "makanan", "seafood", "wajan", "wajan dangkal"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("efere nri dabara n’ime"),
+            keywords: &[
+                "anụ",
+                "efere",
+                "efere nri dabara n’ime",
+                "nri ayịya",
+                "nọ",
+                "n’ime",
+            ],
+        },
+        #[cfg(feature = "is")]
+        crate::Annotation {
+            lang: "is",
+            tts: Some("pönnuréttur"),
+            keywords: &["matur", "panna", "pönnuréttur"],
+        },
+        #[cfg(feature = "it")]
+        crate::Annotation {
+            lang: "it",
+            tts: Some("padella con cibo"),
+            keywords: &[
+                "Spagna",
+                "casseruola",
+                "cibo",
+                "cucina",
+                "cucinare",
+                "padella",
+                "padella con cibo",
+                "paella",
+            ],
+        },
+        #[cfg(feature = "ja")]
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("パエリア"),
+            keywords: &["シーフード", "パエリア", "パエリア鍋"],
+        },
+        #[cfg(feature = "jv")]
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("jangan sawajan cethek"),
+            keywords: &[
+                "dhaharan",
+                "jangan sawajan cethek",
+                "kaserol",
+                "paela",
+                "wajan",
+                "wajan cethek",
+            ],
+        },
+        #[cfg(feature = "ka")]
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ტაფამწვარი"),
+            keywords: &[
+                "თხელი",
+                "კასეროლი",
+                "პაელა",
+                "საკვები",
+                "ტაფა",
+                "ტაფამწვარი",
+            ],
+        },
+        #[cfg(feature = "kk")]
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("табадағы рагу"),
+            keywords: &["рагу", "таба", "табадағы рагу", "тағам"],
+        },
+        #[cfg(feature = "kl")]
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("pande med mad"),
+            keywords: &["mad", "pande", "pande med mad", "pandestegt", "steger"],
+        },
+        #[cfg(feature = "km")]
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ខ\u{17d2}ទះឆារាក\u{17cb}"),
+            keywords: &[
+                "ខ\u{17d2}ទះ",
+                "ខ\u{17d2}ទះឆារាក\u{17cb}",
+                "ចានគោម",
+                "ចានបាយធ\u{17c6}",
+                "រាក\u{17cb}",
+                "អាហារ",
+            ],
+        },
+        #[cfg(feature = "kn")]
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಶಾಲ\u{ccb} ಪಾನ\u{ccd} ಆಹಾರ"),
+            keywords: &[
+                "ಅಕ\u{ccd}ಕ\u{cbf} ಖಾದ\u{ccd}ಯ",
+                "ಆಹಾರ",
+                "ಕ\u{ccd}ಯಾಸ\u{ccd}\u{200c}ರ\u{ccb}ಲ\u{ccd}",
+                "ತ\u{cbf}ನ\u{cbf}ಸು",
+                "ಪಾನ\u{ccd}",
+                "ಪಾಯ\u{cc6}ಲ\u{ccd}ಲಾ",
+                "ಪ\u{cc6}ಯ\u{cc6}ಲ\u{ccd}ಲಾ",
+                "ಪ\u{ccd}ಯಾನ\u{ccd}",
+                "ಬಾಣಲ\u{cc6}",
+                "ಶಾಖರ\u{ccb}ಧ ಪಾತ\u{ccd}ರ\u{cc6}",
+                "ಶಾಲ\u{ccb}",
+                "ಶ\u{ccd}ಯಾಲ\u{ccb}",
+            ],
+        },
+        #[cfg(feature = "ko")]
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("납작한 냄비"),
+            keywords: &[
+                "납작한",
+                "납작한 냄비",
+                "빠에야",
+                "식품",
+                "음식",
+                "찌개",
+                "캐서롤",
+                "파에야",
+                "팬",
+            ],
+        },
+        #[cfg(feature = "kok")]
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("अन\u{94d}नाचो श\u{945}लो प\u{945}न"),
+            keywords: &[
+                "अन\u{94d}न",
+                "अन\u{94d}नाच\u{947}\u{902} श\u{945}लो प\u{945}न",
+                "अन\u{94d}नाचो श\u{945}लो प\u{945}न",
+                "क\u{945}सरोल",
+                "पायला",
+                "प\u{945}न",
+                "श\u{945}लो",
+            ],
+        },
+        #[cfg(feature = "ky")]
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("көмөч казандагы рагу"),
+            keywords: &[
+                "көмөч казан",
+                "көмөч казандагы рагу",
+                "паэлья",
+                "рагу",
+                "тамак",
+            ],
+        },
+        #[cfg(feature = "lb")]
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Kasseroll mat Iessen"),
+            keywords: &[
+                "Iessen",
+                "Kasseroll",
+                "Kasseroll mat Iessen",
+                "Paella",
+                "Pan",
+                "flaach",
+            ],
+        },
+        #[cfg(feature = "lo")]
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຈານອາຫານບາງໆ"),
+            keywords: &[
+                "ຄາ\u{200b}ສເຊ\u{eb5}\u{200b}ໂຣ",
+                "ຈານ",
+                "ຈານອາຫານບາງໆ",
+                "ບາງໆ",
+                "ພາ\u{200b}ແອ\u{200b}ລາ",
+                "ອາຫານ",
+            ],
+        },
+        #[cfg(feature = "lt")]
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("prikaistuvis su maistu"),
+            keywords: &[
+                "maistas",
+                "prikaistuvis",
+                "prikaistuvis su maistu",
+                "troškinys",
+            ],
+        },
+        #[cfg(feature = "lv")]
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("sautējums pannā"),
+            keywords: &[
+                "paelja",
+                "panna",
+                "pārtika",
+                "sautējums",
+                "sautējums pannā",
+                "ēdiens",
+            ],
+        },
+        #[cfg(feature = "mi")]
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pēne kai pāpaku"),
+            keywords: &["kaherora", "kai", "paera", "pāpaku", "pēne"],
+        },
+        #[cfg(feature = "mk")]
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("тавче со храна"),
+            keywords: &["плитка", "тава", "тавче со храна", "тепсија", "храна"],
+        },
+        #[cfg(feature = "ml")]
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പരന\u{d4d}ന പ\u{d3e}ത\u{d4d}രത\u{d4d}തിലെ ഭക\u{d4d}ഷണം"),
+            keywords: &[
+                "ക\u{d3e}സറോൾ",
+                "പരന\u{d4d}ന പ\u{d3e}ത\u{d4d}രത\u{d4d}തിലെ ഭക\u{d4d}ഷണം",
+                "പരന\u{d4d}നപ\u{d3e}ത\u{d4d}രം",
+                "പ\u{d3e}ൻ",
+                "ഭക\u{d4d}ഷണം",
+            ],
+        },
+        #[cfg(feature = "mn")]
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("тогоотой хоол"),
+            keywords: &["тогоо", "тогоотой хоол", "хайруулын таваг", "хоол"],
+        },
+        #[cfg(feature = "mr")]
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("अन\u{94d}नाच\u{947} उथळ भा\u{902}ड\u{947}"),
+            keywords: &[
+                "अन\u{94d}न",
+                "अन\u{94d}नाच\u{947} उथळ भा\u{902}ड\u{947}",
+                "उथळ",
+                "कढई",
+                "क\u{947}स\u{947}रोल",
+                "खाद\u{94d}य",
+                "खाद\u{94d}यपदार\u{94d}थ",
+                "प\u{945}न",
+                "भा\u{902}ड\u{947}",
+            ],
+        },
+        #[cfg(feature = "ms")]
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("makanan dalam belanga"),
+            keywords: &["belanga", "makanan", "makanan dalam belanga", "periuk"],
+        },
+        #[cfg(feature = "mt")]
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("taġen baxx tal-Ikel"),
+            keywords: &[
+                "baxx",
+                "ikel",
+                "paella",
+                "pagna",
+                "taġen",
+                "taġen baxx tal-Ikel",
+            ],
+        },
+        #[cfg(feature = "my")]
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဒယ\u{103a}အ\u{102d}\u{102f}းပါးန\u{103e}င\u{1037}\u{103a}စားစရာ"),
+            keywords: &[
+                "ဒယ\u{103a}အ\u{102d}\u{102f}းပါး",
+                "ဒယ\u{103a}အ\u{102d}\u{102f}းပါးန\u{103e}င\u{1037}\u{103a}စားစရာ",
+                "ပ\u{102e}ယာလာ",
+                "အစားအသောက\u{103a}",
+            ],
+        },
+        #[cfg(feature = "ne")]
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("होचो कराईको खाना"),
+            keywords: &[
+                "कराई",
+                "कास\u{94d}स\u{947}रोल",
+                "खाना",
+                "पायला",
+                "होचो",
+                "होचो कराईको खाना",
+            ],
+        },
+        #[cfg(feature = "nl")]
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("paellapan"),
+            keywords: &["braadpan", "eten", "ondiep", "paella", "pan"],
+        },
+        #[cfg(feature = "nn")]
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("låg gryte med mat"),
+            keywords: &["låg gryte med mat", "mat", "paella", "steikepanne"],
+        },
+        #[cfg(feature = "or")]
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଅଗଭୀର ଖ\u{b3e}ଦ\u{b4d}ୟ ତ\u{b3e}ୱ\u{b3e}"),
+            keywords: &[
+                "ଅଗଭୀର",
+                "କ\u{b4d}ୟ\u{b3e}ସେରୋଲ\u{b4d}\u{200d}",
+                "ଖ\u{b3e}ଦ\u{b4d}ୟ",
+                "ତ\u{b3e}ୱ\u{b3e}",
+                "ପ\u{b3e}ଏଲ\u{b3e}",
+            ],
+        },
+        #[cfg(feature = "pa")]
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਭ\u{a4b}ਜਨ ਦਾ ਘ\u{a71}ਟ ਡ\u{a42}\u{a70}ਘਾ ਭਾ\u{a02}ਡਾ"),
+            keywords: &[
+                "ਕ\u{a48}ਸਰ\u{a4b}ਲ",
+                "ਕੜਾਹੀ",
+                "ਪਕਵਾਨ",
+                "ਪ\u{a41}ਲਾਅ",
+                "ਪ\u{a48}ਨ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਭ\u{a4b}ਜਨ ਦਾ ਘ\u{a71}ਟ ਡ\u{a42}\u{a70}ਘਾ ਭਾ\u{a02}ਡਾ",
+                "ਹਲਕਾ",
+            ],
+        },
+        #[cfg(feature = "pa_Arab")]
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("خوراک لئی گھٹ ڈونگا توا"),
+            keywords: &[
+                "توا",
+                "خوراک",
+                "خوراک لئی گھٹ ڈونگا توا",
+                "ڈھکن آلی کڑھائی",
+                "گھٹ ڈونگا",
+                "ہسپانوی پلاؤ",
+            ],
+        },
+        #[cfg(feature = "pcm")]
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Pọt Wé Nọ\u{301} Dip"),
+            keywords: &[
+                "Fud",
+                "Fud Wé Dé Insaíd Frayin Pan Wé Nọ\u{301} Dé Dip",
+                "Kásérol: Díp Plet Wé Dẹm De Ték Kúk Mit An Ọ\u{301}dá Fud",
+                "Pan",
+                "Pọt Wé Nọ\u{301} Dip",
+                "Spánísh Fud Wé Im Nem Na \"Paíẹla\"",
+                "Sọ\u{301}mtin Wé Nọ\u{301} Dé Dip",
+            ],
+        },
+        #[cfg(feature = "pl")]
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("danie z patelni"),
+            keywords: &[
+                "danie z patelni",
+                "jedzenie",
+                "paella",
+                "patelnia",
+                "rondel",
+                "wok",
+            ],
+        },
+        #[cfg(feature = "ps")]
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د خواړو سطحي هرکاره"),
+            keywords: &[
+                "د خواړو سطحي هرکاره",
+                "کيسيرول، خواړه، پايلا، هرکاره، سطحي، د خواړو سطحي هرکاره",
+            ],
+        },
+        #[cfg(feature = "pt")]
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("caçarola com comida"),
+            keywords: &[
+                "caçarola",
+                "caçarola com comida",
+                "comida",
+                "fome",
+                "paella",
+                "panela",
+                "rasa",
+            ],
+        },
+        #[cfg(feature = "pt_PT")]
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("caçarola de comida"),
+            keywords: &[
+                "caçarola",
+                "caçarola de comida",
+                "comida",
+                "guisado",
+                "paelha",
+                "panela",
+                "rasa",
+            ],
+        },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("pisi llata mikunapaq"),
+            keywords: &[
+                "caserola",
+                "llaplla",
+                "mikhuna",
+                "paella",
+                "pisi llata mikunapaq",
+                "sarten",
+            ],
+        },
+        #[cfg(feature = "ro")]
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("cratiță cu mâncare"),
+            keywords: &[
+                "cratiță",
+                "cratiță cu mâncare",
+                "mâncare",
+                "oală cu mâncare",
+                "paella",
+                "tigaie",
+                "tigaie cu mâncare",
+            ],
+        },
+        #[cfg(feature = "root")]
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1076"),
+            keywords: &["E10-1076"],
+        },
+        #[cfg(feature = "ru")]
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("рагу в сковороде"),
+            keywords: &[
+                "еда",
+                "паэлья",
+                "плов",
+                "рагу",
+                "рагу в сковороде",
+                "сковорода",
+            ],
+        },
+        #[cfg(feature = "rw")]
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("agapanu k’ibiryo"),
+            keywords: &[
+                "agakarayi",
+                "agapanu k’ibiryo",
+                "agasahani",
+                "ibiribwa",
+                "ipanu",
+                "isafuriya",
+            ],
+        },
+        #[cfg(feature = "sd")]
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("توو"),
+            keywords: &["توو", "پئيلا، ڪيسيرول، پان، کاڌو"],
+        },
+        #[cfg(feature = "si")]
+        crate::Annotation {
+            lang: "si",
+            tts: Some("නොගැඹ\u{dd4}ර\u{dd4} තැට\u{dd2}යේ කෑම"),
+            keywords: &[
+                "කෑම",
+                "තම\u{dca}බන තැට\u{dd2}ය",
+                "තැට\u{dd2}ය",
+                "නොගැඹ\u{dd4}ර\u{dd4}",
+                "නොගැඹ\u{dd4}ර\u{dd4} තැට\u{dd2}යේ කෑම",
+            ],
+        },
+        #[cfg(feature = "sk")]
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("panvica s jedlom"),
+            keywords: &[
+                "hrniec",
+                "jedlo",
+                "kastról",
+                "kuchyňa",
+                "paella",
+                "panvica",
+                "panvica s jedlom",
+                "rajnica",
+                "varenie",
+                "zapečené jedlo",
+            ],
+        },
+        #[cfg(feature = "sl")]
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("kozica s hrano"),
+            keywords: &["hrana", "kozica", "kozica s hrano", "paella", "ponev"],
+        },
+        #[cfg(feature = "so")]
+        crate::Annotation {
+            lang: "so",
+            tts: Some("bir daawo gun-dhow oo cunno ah"),
+            keywords: &[
+                "bariis isbaanish",
+                "bir daawo",
+                "bir daawo gun-dhow oo cunno ah",
+                "cuno fuud foornaysan",
+                "gun dhow",
+            ],
+        },
+        #[cfg(feature = "sq")]
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("tigan me ushqim"),
+            keywords: &["enë", "tavë gjelle", "tigan", "tigan me ushqim", "ushqim"],
+        },
+        #[cfg(feature = "sr")]
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("тигањ хране"),
+            keywords: &["паеља", "плитко", "тава", "тигањ", "храна"],
+        },
+        #[cfg(feature = "sr_Cyrl_BA")]
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["паеља", "плитко", "тигањ", "тигањ хране", "храна", "шерпа"],
+        },
+        #[cfg(feature = "sr_Latn")]
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("tiganj hrane"),
+            keywords: &["hrana", "paelja", "plitko", "tava", "tiganj"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "hrana",
+                "paelja",
+                "plitko",
+                "tiganj",
+                "tiganj hrane",
+                "šerpa",
+            ],
+        },
+        #[cfg(feature = "sv")]
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("stekpanna"),
+            keywords: &["mat", "paella", "stekpanna"],
+        },
+        #[cfg(feature = "sw")]
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kikaango"),
+            keywords: &[
+                "chakula",
+                "chapati",
+                "karai",
+                "kikaangio",
+                "kikaango",
+                "paella",
+                "sufuria",
+            ],
+        },
+        #[cfg(feature = "sw_KE")]
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        #[cfg(feature = "ta")]
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கட\u{bbe}ய\u{bcd} உணவு"),
+            keywords: &[
+                "உணவு",
+                "கட\u{bbe}ய\u{bcd}",
+                "கிரேவி",
+                "குழம\u{bcd}பு",
+                "கூட\u{bcd}டு",
+                "ச\u{bbe}ம\u{bcd}ப\u{bbe}ர\u{bcd}",
+                "வ\u{bbe}ணலி",
+            ],
+        },
+        #[cfg(feature = "te")]
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఆహ\u{c3e}రంత\u{c4b} ఉన\u{c4d}న బ\u{c3e}ండ\u{c40}"),
+            keywords: &[
+                "ఆహ\u{c3e}రం",
+                "ఆహ\u{c3e}రంత\u{c4b} ఉన\u{c4d}న బ\u{c3e}ండ\u{c40}",
+                "క\u{c3e}సుర\u{c4b}ల\u{c4d}",
+                "ప\u{c48}యల",
+                "ప\u{c4d}య\u{c3e}న\u{c4d}",
+                "మంచ\u{c3f} వంటకం",
+                "ష\u{c3e}ల\u{c4b}",
+            ],
+        },
+        #[cfg(feature = "tg")]
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("дегчаи хурди ғизо"),
+            keywords: &[
+                "дегча",
+                "дегчаи хурди ғизо",
+                "паеля",
+                "пастоб",
+                "тоба",
+                "ғизо",
+            ],
+        },
+        #[cfg(feature = "th")]
+        crate::Annotation {
+            lang: "th",
+            tts: Some("กระทะ"),
+            keywords: &["กระทะ", "กะทะ", "ทำอาหาร", "อาหาร"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ዓሚቝ ዘይኮነ ጣውላ መግቢ"),
+            keywords: &["ምግቢ", "ድስት", "ጥልቕ ዝበለ", "ፓን", "ፓኤላ"],
+        },
+        #[cfg(feature = "tk")]
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("ýalpak taba"),
+            keywords: &["ispan palowy", "iýmit", "kastrýul", "taba", "ýalpak"],
+        },
+        #[cfg(feature = "to")]
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fakapaku meʻakai"),
+            keywords: &["fakapaku", "meʻakai"],
+        },
+        #[cfg(feature = "tr")]
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("sahanda yemek"),
+            keywords: &[
+                "güveç",
+                "gıda",
+                "kahvaltı",
+                "krep tavası",
+                "küçük",
+                "menemen",
+                "paella",
+                "sahanda yemek",
+                "tava",
+                "yemek",
+                "yiyecek",
+            ],
+        },
+        #[cfg(feature = "ug")]
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("لېگەنلىك يېمەكلىك"),
+            keywords: &[
+                "تېيىز",
+                "تەخسە",
+                "قازان",
+                "لېگەن",
+                "لېگەنلىك يېمەكلىك",
+                "يېمەكلىك",
+            ],
+        },
+        #[cfg(feature = "uk")]
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("каструля з їжею"),
+            keywords: &["каструля", "каструля з їжею", "плов", "рагу", "суп", "їжа"],
+        },
+        #[cfg(feature = "ur")]
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کم گہرے پین میں خوراک"),
+            keywords: &[
+                "برتن",
+                "خوراک",
+                "پکانا",
+                "پین",
+                "چھتلا برتن",
+                "کم گہرا",
+                "کم گہرے پین میں خوراک",
+                "کڑھائی",
+            ],
+        },
+        #[cfg(feature = "uz")]
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("bir tova qovurdoq"),
+            keywords: &["bir tova qovurdoq", "jarkop", "paelya", "taom", "tova"],
+        },
+        #[cfg(feature = "vi")]
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("chảo thức ăn nông"),
+            keywords: &[
+                "chảo",
+                "chảo thức ăn nông",
+                "nông",
+                "nồi đất",
+                "paella",
+                "thức ăn",
+            ],
+        },
+        #[cfg(feature = "wo")]
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("boolu togg bu xóotul"),
+            keywords: &[
+                "boolu togg bu xóotul",
+                "bu xóotul",
+                "kaserol",
+                "lekk",
+                "pane",
+                "paylaa",
+            ],
+        },
+        #[cfg(feature = "xh")]
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ipani elinganzulwanga lokutya"),
+            keywords: &[
+                "enganzulwanga",
+                "i-casserole",
+                "i-paella",
+                "ipani",
+                "ipani elinganzulwanga lokutya",
+                "ukutya",
+            ],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Paanu Ijẹun kekere"),
+            keywords: &[
+                "Paanu Ijẹun kekere",
+                "kásẹrọ\u{300}",
+                "pàẹ\u{301}là",
+                "páànù ṣálò",
+                "ónjẹ",
+                "ṣálò",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Paanu Ijɛun kekere"),
+            keywords: &[
+                "Paanu Ijɛun kekere",
+                "kásɛrɔ\u{300}",
+                "pàɛ\u{301}là",
+                "páànù shálò",
+                "shálò",
+                "ónjɛ",
+            ],
+        },
+        #[cfg(feature = "yue")]
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("一盤食物"),
+            keywords: &["一盤食物", "平底鑊", "淺", "砂鍋", "肉菜飯", "食物"],
+        },
+        #[cfg(feature = "yue_Hans")]
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("一盘食物"),
+            keywords: &["一盘食物", "平底镬", "浅", "砂锅", "肉菜饭", "食物"],
+        },
+        #[cfg(feature = "zh")]
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("装有食物的浅底锅"),
+            keywords: &[
+                "平底锅",
+                "浅底",
+                "炖菜",
+                "炖锅",
+                "煎锅",
+                "装有食物的浅底锅",
+                "西班牙海鲜饭",
+                "食物",
+            ],
+        },
+        #[cfg(feature = "zh_Hant")]
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("淺鍋料理"),
+            keywords: &[
+                "平底鍋",
+                "料理",
+                "法國砂鍋",
+                "淺鍋",
+                "淺鍋料理",
+                "烤鍋",
+                "烤鍋料理",
+            ],
+        },
+        #[cfg(feature = "zh_Hant_HK")]
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("一鍋食物"),
+            keywords: &[
+                "一鍋食物",
+                "平底鍋",
+                "法國烤鍋",
+                "法國砂鍋",
+                "海鮮飯",
+                "淺鍋",
+                "砂鍋",
+                "西班牙海鮮燉飯",
+                "鍋",
+                "食物",
+            ],
+        },
+        #[cfg(feature = "zu")]
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ipani elinokudla"),
+            keywords: &[
+                "casserole",
+                "ipani",
+                "ipani elinokudla",
+                "ngajulile",
+                "paella",
+                "ukudla",
+            ],
+        },
+    ],
+};
 #[doc = "🍲"]
 pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
     glyph: "🍲",
@@ -16346,19 +24055,36 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("‘n pot kos"),
-            keywords: &["bredie", "kastrol", "kos", "pot", "‘n pot kos"],
+            keywords: &[
+                "bak",
+                "bredie",
+                "kastrol",
+                "kos",
+                "pot",
+                "pot vol kos",
+                "sop",
+                "‘n pot kos",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የምግብ ሳሕን"),
-            keywords: &["ምንቸት", "ቅቅል", "የምግብ ሳሕን"],
+            keywords: &["ምንቸት", "ምግብ", "ምግብ የያዘ ሳሕን", "ሾርባ", "ቅቅል", "የምግብ ሳሕን"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}وعاء طعام"),
-            keywords: &["مطعم", "\u{202b}وعاء طعام"],
+            tts: Some("وعاء طعام"),
+            keywords: &[
+                "أكل",
+                "حلة طعام",
+                "طعام",
+                "طنجرة",
+                "مطعم",
+                "وعاء طعام",
+                "يخنة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -16375,7 +24101,7 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("yemək qazanı"),
-            keywords: &["qab", "raqu", "yemək qazanı"],
+            keywords: &["qab", "raqu", "sup", "yemək qazanı"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -16386,15 +24112,25 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Гърне с храна"),
-            keywords: &["Гърне с храна", "гърне", "яхния"],
+            tts: Some("тенджера с храна"),
+            keywords: &[
+                "варено",
+                "купа",
+                "купа с храна",
+                "супа",
+                "тенджера",
+                "тенджера с храна",
+                "яхния",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("খ\u{9be}দ\u{9cd}যের প\u{9be}ত\u{9cd}র"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
                 "খ\u{9be}দ\u{9cd}যের প\u{9be}ত\u{9cd}র",
+                "খ\u{9be}ব\u{9be}র",
                 "প\u{9be}ত\u{9cd}র",
                 "স\u{9cd}ট\u{9cd}য\u{9c1}",
             ],
@@ -16421,6 +24157,8 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
                 "estofat",
                 "guisat",
                 "menjar",
+                "olla",
+                "sopa",
             ],
         },
         #[cfg(feature = "chr")]
@@ -16433,7 +24171,16 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("hrnec jídla"),
-            keywords: &["guláš", "hrnec", "hrnec jídla", "polévka"],
+            keywords: &[
+                "dušené jídlo",
+                "guláš",
+                "hrnec",
+                "hrnec jídla",
+                "jídlo",
+                "kouřící",
+                "polévka",
+                "vývar",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -16451,19 +24198,32 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Topf mit Essen"),
-            keywords: &["Eintopf", "Gericht", "Topf mit Essen"],
+            keywords: &["Eintopf", "Gericht", "Schüssel", "Suppe", "Topf mit Essen"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κατσαρόλα με φαγητό"),
-            keywords: &["κατσαρόλα", "κατσαρόλα με φαγητό", "μαγειρευτό"],
+            keywords: &[
+                "βραστό",
+                "κατσαρόλα",
+                "κατσαρόλα με φαγητό",
+                "μαγειρευτό",
+                "σούπα",
+                "φαγητό",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("pot of food"),
-            keywords: &["pot", "pot of food", "stew"],
+            keywords: &["food", "pot", "soup", "stew"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -16499,7 +24259,18 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["comida", "olla", "olla de comida", "restaurante"],
+            keywords: &[
+                "cazuela",
+                "comer",
+                "comida",
+                "comida casera",
+                "comida de olla",
+                "guiso",
+                "olla",
+                "olla de comida",
+                "perolo",
+                "restaurante",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -16518,13 +24289,13 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["guisado", "olla", "olla de comida"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("potitäis toitu"),
-            keywords: &["hautis", "potitäis toitu", "pott"],
+            keywords: &["hautis", "pott", "supp", "söök"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -16566,7 +24337,7 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("marmite"),
-            keywords: &["marmite", "ragoût"],
+            keywords: &["marmite", "nourriture", "ragoût"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -16578,7 +24349,7 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("pota le bia"),
-            keywords: &["pota", "pota le bia", "stobhach"],
+            keywords: &["bia", "pota", "pota le bia", "stobhach"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -16597,9 +24368,17 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("ભોજનન\u{ac1}\u{a82} વાસણ"),
             keywords: &[
+                "કટોરો",
+                "ખાનપાન",
+                "ખોરાક",
+                "પકવાન",
+                "ભોજન",
                 "ભોજનન\u{ac1}\u{a82} વાસણ",
+                "મોટો પ\u{acd}યાલો",
+                "રસા વાળો શાક",
                 "ર\u{ac7}સ\u{acd}ટોરન\u{acd}ટ",
                 "વાસણમા\u{a82}નો ખોરાક",
+                "શ\u{ac7}રવો",
                 "સ\u{acd}ટ\u{acd}ય\u{ac2}",
             ],
         },
@@ -16607,19 +24386,41 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("tukunyar abinci"),
-            keywords: &["miya", "tukunya", "tukunyar abinci"],
+            keywords: &[
+                "abinci",
+                "abinci mi zafi",
+                "miya",
+                "romo",
+                "tukunya",
+                "tukunyar abinci",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tukunyar abinci"),
+            keywords: &[
+                "abinci",
+                "abinci mi zafi",
+                "miya",
+                "romo",
+                "tukunya",
+                "tukunyar abinci",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("סיר אוכל"),
-            keywords: &["אדים", "אוכל", "נזיד", "סיר"],
+            keywords: &["אדים", "אוכל", "מרק", "נזיד", "סיר"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("स\u{94d}ट\u{94d}य\u{942}, भोजन पात\u{94d}र"),
             keywords: &[
+                "कटोरा",
+                "खाना",
                 "भोजन पात\u{94d}र",
                 "र\u{947}स\u{94d}टोर\u{947}\u{902}ट",
                 "स\u{94d}ट\u{94d}य\u{942}",
@@ -16630,13 +24431,21 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("lonac s hranom"),
-            keywords: &["gulaš", "lonac", "lonac s hranom", "lonac s jelom"],
+            keywords: &[
+                "gulaš",
+                "hrana",
+                "juha",
+                "lonac",
+                "lonac s hranom",
+                "zdjela",
+                "zdjela s hranom",
+            ],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("egy tál étel"),
-            keywords: &["egy tál étel", "ennivaló", "tál", "étel"],
+            keywords: &["ebéd", "egy tál étel", "ennivaló", "tál", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -16648,7 +24457,7 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("panci makanan"),
-            keywords: &["mangkuk", "panci makanan", "rebusan"],
+            keywords: &["makanan", "mangkuk", "panci makanan", "rebus", "rebusan"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -16666,13 +24475,21 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("pentola di cibo"),
-            keywords: &["pentola di cibo", "ristorante", "stufato", "zuppa"],
+            keywords: &[
+                "cibo",
+                "ciotola di cibo",
+                "minestra",
+                "pentola di cibo",
+                "ristorante",
+                "stufato",
+                "zuppa",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("なべ"),
-            keywords: &["なべ", "シチュー", "煮物", "煮込み"],
+            keywords: &["なべ", "シチュー", "スープ", "煮物", "煮込み"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -16686,11 +24503,25 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("ქვაბი საჭმლით"),
             keywords: &["რაგუ", "ქვაბი", "ქვაბი საჭმლით"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taqessult n tgella"),
+            keywords: &["taqessult n tgella"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
-            tts: Some("тамақ толы бақыраш"),
-            keywords: &["бақыраш", "бұқтырылған ет", "тамақ толы бақыраш"],
+            tts: Some("тамақ толы кәстрөл"),
+            keywords: &[
+                "бақыраш",
+                "бұқтырылған ет",
+                "кәстрөл",
+                "сорпа",
+                "тамақ толы бақыраш",
+                "тамақ толы кәстрөл",
+                "тағам",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -16709,16 +24540,29 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಮಡ\u{cbf}ಕ\u{cc6} ಆಹಾರ"),
             keywords: &[
+                "ಆಹಾರ",
+                "ಮಡಕ\u{cc6}",
+                "ಮಡಕ\u{cc6}ಯಲ\u{ccd}ಲ\u{cbf} ಆಹಾರ",
                 "ಮಡ\u{cbf}ಕ\u{cc6}",
-                "ಮಡ\u{cbf}ಕ\u{cc6} ಆಹಾರ",
+                "ಸ\u{cc2}ಪ\u{ccd}",
                 "ಸ\u{ccd}ಟ\u{cc0}ವ\u{ccd}",
+                "ಸ\u{ccd}ಟ\u{ccd}ಯ\u{cc2}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("국"),
-            keywords: &["국", "찌개", "탕"],
+            keywords: &[
+                "국",
+                "수프",
+                "스튜",
+                "식품",
+                "음식",
+                "음식 한 그릇",
+                "찌개",
+                "탕",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -16742,19 +24586,25 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lo",
             tts: Some("ຖ\u{ec9}ວຍອາຫານ"),
-            keywords: &["ຖ\u{ec9}ວຍອາຫານ", "ຖ\u{ec9}ອຍອາຫານ"],
+            keywords: &[
+                "ຕ\u{eb8}\u{ecb}ນ",
+                "ຕ\u{ebb}\u{ec9}ມ",
+                "ຖ\u{ec9}ວຍອາຫານ",
+                "ໝ\u{ecd}\u{ec9}",
+                "ໝ\u{ecd}\u{ec9}\u{200b}ໃສ\u{ec8}ອາຫານ",
+            ],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("puodas su maistu"),
-            keywords: &["puodas", "puodas su maistu", "troškinys"],
+            keywords: &["maistas", "puodas", "puodas su maistu", "troškinys"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("ēdiena bļodiņa"),
-            keywords: &["bļoda", "ēdiena bļodiņa", "ēdiens"],
+            keywords: &["bļoda", "pārtika", "sautējums", "ēdiena bļodiņa", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -16766,7 +24616,15 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("лонец со храна"),
-            keywords: &["лонец", "лонец со храна", "чорба"],
+            keywords: &[
+                "лонец",
+                "лонец со храна",
+                "супа",
+                "тенџере",
+                "тенџере со храна",
+                "храна",
+                "чорба",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -16790,9 +24648,16 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("अन\u{94d}नाच\u{947} भा\u{902}ड\u{947}"),
             keywords: &[
+                "अन\u{94d}न",
                 "अन\u{94d}नाच\u{947} भा\u{902}ड\u{947}",
+                "खाद\u{94d}य",
                 "खाद\u{94d}याच\u{947} भा\u{902}ड\u{947}",
+                "ज\u{947}वण",
                 "भा\u{902}ड\u{947}",
+                "भोजन पात\u{94d}र",
+                "र\u{947}स\u{94d}टॉर\u{902}ट",
+                "शिजण\u{947}",
+                "स\u{942}प",
                 "स\u{94d}ट\u{94d}य\u{942}",
             ],
         },
@@ -16800,7 +24665,7 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("seperiuk makanan"),
-            keywords: &["periuk", "seperiuk makanan", "stew"],
+            keywords: &["makanan", "panas", "periuk", "seperiuk makanan", "stew"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -16819,12 +24684,6 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
                 "အ\u{102d}\u{102f}းန\u{103e}င\u{1037}\u{103a} စားစရာ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("gryterett"),
-            keywords: &["gryte", "gryterett", "middag", "middagsmat", "panne"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -16835,13 +24694,13 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("stoofschotel"),
-            keywords: &["eenpansgerecht", "stoofschotel"],
+            keywords: &["eenpansgerecht", "eten", "stoofschotel", "voedsel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("gryterett"),
-            keywords: &["gryte", "gryterett", "middag", "middagsmat", "panne"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -16859,8 +24718,11 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("ਭ\u{a4b}ਜਨ ਦਾ ਭਾ\u{a02}ਡਾ"),
             keywords: &[
                 "ਬਰਤਨ ਭ\u{a4b}ਜਨ",
+                "ਭ\u{a4b}ਜਨ",
                 "ਭ\u{a4b}ਜਨ ਦਾ ਭਾ\u{a02}ਡਾ",
                 "ਸਟੀਉ",
+                "ਸ\u{a42}ਪ",
+                "ਸ\u{a42}ਪ ਦਾ ਕਟ\u{a4b}ਰਾ",
                 "ਹ\u{a4b}ਟਲ",
             ],
         },
@@ -16880,7 +24742,15 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("garnek z jedzeniem"),
-            keywords: &["garnek z jedzeniem", "jedzenie", "potrawka"],
+            keywords: &[
+                "danie",
+                "garnek",
+                "jednogarnkowe",
+                "jedzenie",
+                "potrawka",
+                "z jedzeniem",
+                "zupa",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -16892,13 +24762,21 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("panela"),
-            keywords: &["ensopado", "panela", "tigela de comida"],
+            keywords: &["ensopado", "panela", "restaurante", "tigela de comida"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("tacho com comida"),
-            keywords: &["guisado", "tacho", "tacho com comida"],
+            keywords: &[
+                "caçarola",
+                "caçarola com comida",
+                "comida",
+                "guisado",
+                "sopa",
+                "tacho",
+                "tacho com comida",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -16910,7 +24788,16 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("oală cu mâncare"),
-            keywords: &["oală", "oală cu mâncare", "tocană"],
+            keywords: &[
+                "bol",
+                "castron",
+                "ciorbă",
+                "mâncare",
+                "oală",
+                "oală cu mâncare",
+                "supă",
+                "tocană",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -16927,6 +24814,9 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
                 "горячее",
                 "кастрюля",
                 "кастрюля с горячей едой",
+                "обед",
+                "первое",
+                "суп",
                 "тарелка с горячей едой",
             ],
         },
@@ -16952,13 +24842,24 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("kotlík s jedlom"),
-            keywords: &["jedlo", "kastról", "kotlík", "kotlík s jedlom"],
+            keywords: &[
+                "hlad",
+                "hrniec",
+                "jedlo",
+                "kastról",
+                "kotlík",
+                "kotlík s jedlom",
+                "miska",
+                "polievka",
+                "tanier",
+                "tanier jedla",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("skodelica hrane"),
-            keywords: &["obara", "skodelica", "skodelica hrane"],
+            keywords: &["hrana", "juha", "lonec", "obara", "skodelica"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -16970,13 +24871,13 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("kupë me ushqime"),
-            keywords: &["kupë", "kupë me ushqime", "çomlek"],
+            keywords: &["kupë", "kupë me ushqime", "supë", "ushqim", "çomlek"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("чинија хране"),
-            keywords: &["гулaш", "чинија", "чинија хране"],
+            keywords: &["гулaш", "лонац", "супа", "храна", "чорба"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -16988,7 +24889,13 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("činija hrane"),
-            keywords: &["gulaš", "činija", "činija hrane"],
+            keywords: &["gulaš", "hrana", "lonac", "supa", "čorba"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -17015,7 +24922,11 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             keywords: &[
                 "உணவகம\u{bcd}",
                 "உணவு",
+                "குழம\u{bcd}பு",
+                "கூட\u{bcd}டு",
+                "ச\u{bbe}ம\u{bcd}ப\u{bbe}ர\u{bcd}",
                 "சூட\u{bbe}ன உணவு",
+                "சூப\u{bcd}",
                 "ப\u{bbe}த\u{bcd}திரத\u{bcd}தில\u{bcd} உணவு",
                 "ப\u{bbe}த\u{bcd}திரம\u{bcd} நிறைய உணவு",
             ],
@@ -17028,7 +24939,12 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
                 "ఇగురు",
                 "కుండ ఆహ\u{c3e}రం",
                 "కుండల\u{c4b} ఆహ\u{c3e}రం",
+                "ప\u{c3e}ట\u{c4d}",
+                "ప\u{c3e}ట\u{c4d} అఫ\u{c4d} ఫుడ\u{c4d}",
+                "ఫుడ\u{c4d}",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
+                "సూప\u{c4d}",
+                "స\u{c4d}ట\u{c4d}యూ",
             ],
         },
         #[cfg(feature = "tg")]
@@ -17043,6 +24959,12 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("สต\u{e39}ว\u{e4c}"),
             keywords: &["สต\u{e39}ว\u{e4c}", "หม\u{e49}ออาหาร"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ካሴሮል"),
+            keywords: &["መግቢ", "ሾርባ", "ድስቲ", "ጸብሒ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -17053,13 +24975,21 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("kulo meʻakai"),
-            keywords: &["kulo meʻakai"],
+            keywords: &["kulo", "meʻakai"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yemek tenceresi"),
-            keywords: &["restoran", "tencere yemeği", "yemek tenceresi"],
+            keywords: &[
+                "gıda",
+                "restoran",
+                "tencere yemeği",
+                "yahni",
+                "yemek",
+                "yemek tenceresi",
+                "yiyecek",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -17071,25 +25001,49 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("горщик з їжею"),
-            keywords: &["горщик", "горщик з їжею", "рагу"],
+            keywords: &[
+                "горщик",
+                "горщик з їжею",
+                "овочевий суп",
+                "перше",
+                "рагу",
+                "суп",
+                "суп з локшиною",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("خوراک کا برتن"),
-            keywords: &["برتن", "خوراک", "خوراک کا برتن"],
+            keywords: &[
+                "اسٹو",
+                "برتن",
+                "تازہ کھانا",
+                "خوراک",
+                "خوراک کا برتن",
+                "شوربے دار کھانا",
+                "گرم کھانا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("bir qozon ovqat"),
-            keywords: &["bir qozon ovqat", "go‘sht", "qozon"],
+            keywords: &[
+                "bir qozon ovqat",
+                "go‘sht",
+                "kosa",
+                "qozon",
+                "shoʻrva",
+                "taom",
+            ],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("nồi thức ăn"),
-            keywords: &["hầm", "nồi", "nồi thức ăn"],
+            keywords: &["hầm", "nồi", "nồi thức ăn", "súp"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -17109,6 +25063,12 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("Ikoko Ounjẹ"),
             keywords: &["Ikoko Ounjẹ", "ìkòkò", "ọbẹ\u{300}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Ikoko Ounjɛ"),
+            keywords: &["Ikoko Ounjɛ", "ìkòkò", "ɔbɛ\u{300}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -17125,19 +25085,19 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("一锅食物"),
-            keywords: &["一锅食物", "食物"],
+            keywords: &["一锅食物", "炖菜", "锅", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("火鍋"),
-            keywords: &["火鍋"],
+            keywords: &["火鍋", "燉菜"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("打邊爐"),
-            keywords: &["打邊爐"],
+            keywords: &["打邊爐", "湯", "濃湯", "燉煮", "燉肉", "鍋", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -17175,21 +25135,37 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "fondue",
                 "gesmelt",
                 "kaas",
+                "kos",
+                "olie",
                 "pot",
                 "sjokolade",
+                "voedsel",
             ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ፎንዴ"),
-            keywords: &["ፎንዴ"],
+            keywords: &["ምግብ", "ስኪ", "ስዊዘርላንድ", "ስዊዝ", "ቺዝ", "ፎንዴ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("فوندو"),
-            keywords: &["جبن", "ذائب", "سويسرا", "شوكولاتة", "فوندو", "وعاء"],
+            keywords: &[
+                "جبن",
+                "حساء",
+                "ذائب",
+                "سائح",
+                "سويسرا",
+                "شهي",
+                "شوكولاتة",
+                "طبيخ",
+                "طعام",
+                "فوندو",
+                "موقد",
+                "وعاء",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -17212,6 +25188,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "fondyu",
                 "güvəc",
                 "pendir",
+                "yemək",
                 "İsveçrə",
                 "şokolad",
                 "əridilmiş",
@@ -17239,6 +25216,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "сирене",
                 "съд",
                 "фондю",
+                "храна",
                 "швейцарско",
                 "шоколад",
             ],
@@ -17248,6 +25226,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("ফন\u{9cd}ড\u{9c1}"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য",
+                "খ\u{9be}ব\u{9be}র",
                 "গলিত",
                 "চকোলেট",
                 "চিজ",
@@ -17280,7 +25260,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "ca",
             tts: Some("fondue"),
             keywords: &[
-                "Suïssa", "cassola", "desfet", "fondue", "formatge", "xocolata",
+                "Suïssa", "cassola", "desfet", "esquí", "fondue", "formatge", "menjar", "suís",
+                "suïssa", "xocolata",
             ],
         },
         #[cfg(feature = "chr")]
@@ -17300,7 +25281,21 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("fondue"),
-            keywords: &["fondue", "sýr", "sýrové", "čokoládové", "švýcarské"],
+            keywords: &[
+                "fondue",
+                "fondy",
+                "jídlo",
+                "lyže",
+                "lyžování",
+                "potravina",
+                "rozteklý",
+                "sýr",
+                "sýrové",
+                "tavený",
+                "čokoládové",
+                "švýcarské",
+                "švýcarský",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -17326,6 +25321,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "de",
             tts: Some("Fondue"),
             keywords: &[
+                "Essen",
                 "Fondue",
                 "Käse",
                 "Schokolade",
@@ -17333,6 +25329,12 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "geschmolzen",
                 "schweizerisch",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -17344,6 +25346,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "λιωμένο",
                 "σοκολάτα",
                 "τυρί",
+                "φαγητό",
                 "φοντί",
             ],
         },
@@ -17351,7 +25354,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("fondue"),
-            keywords: &["Swiss", "cheese", "chocolate", "fondue", "melted", "pot"],
+            keywords: &[
+                "cheese",
+                "chocolate",
+                "fondue",
+                "food",
+                "melted",
+                "pot",
+                "ski",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -17386,20 +25397,29 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("fondue"),
-            keywords: &["chocolate", "fondue", "olla", "queso", "suizo"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "chocolate",
+                "cocinar",
+                "comida",
+                "fondue",
+                "fuego",
+                "olla",
+                "queso",
+                "suizo",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("fondue"),
+            tts: Some("↑↑↑"),
             keywords: &["fondue"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("fondue"),
-            keywords: &["fondue"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -17413,7 +25433,6 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("fonduea"),
             keywords: &[
                 "eltzea",
-                "fondue",
                 "fonduea",
                 "gazta",
                 "ontzia",
@@ -17426,16 +25445,16 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("فوندو"),
-            keywords: &["آب شده", "سوییس", "شکلات", "فوندو", "قابلمه", "پنیر"],
+            keywords: &["آب شده", "سوییس", "شکلات", "غذا", "فوندو", "قابلمه", "پنیر"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("fondue"),
             keywords: &[
-                "fondue",
                 "juusto",
                 "pata",
+                "ruoka",
                 "suklaa",
                 "sulatettu",
                 "sveitsiläinen",
@@ -17445,7 +25464,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fil",
             tts: Some("fondue"),
-            keywords: &["fondue", "keso", "lusaw", "swiss", "tsokolate"],
+            keywords: &[
+                "fondue",
+                "keso",
+                "lusaw",
+                "luto",
+                "pagkain",
+                "swiss",
+                "tsokolate",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -17463,21 +25490,32 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "chocolat",
                 "fondue",
                 "fromage",
+                "plat",
                 "poêlon",
                 "savoyarde",
+                "ski",
+                "suisse",
             ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
-            tts: Some("fondue"),
+            tts: Some("↑↑↑"),
             keywords: &["chocolat", "fondu", "fondue", "fromage", "plat", "suisse"],
         },
         #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("fondú"),
-            keywords: &["Eilvéiseach", "cáis", "fondú", "leáite", "pota", "seacláid"],
+            keywords: &[
+                "Eilvéiseach",
+                "bia",
+                "cáis",
+                "fondú",
+                "leáite",
+                "pota",
+                "seacláid",
+            ],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -17498,40 +25536,82 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("fondue"),
-            keywords: &[
-                "A Suíza",
-                "carne",
-                "chocolate",
-                "fondue",
-                "fundir",
-                "queixo",
-            ],
+            keywords: &["Suíza", "carne", "chocolate", "fundir", "queixo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ફૉન\u{acd}ડ\u{acd}ય\u{ac1}"),
             keywords: &[
+                "ક\u{ac1}કિ\u{a82}ગ",
                 "ચીઝ",
                 "ચોકલ\u{ac7}ટ",
+                "દાળ",
+                "ન\u{ac2}ડલ\u{acd}સ",
                 "પીગળ\u{ac7}લી",
                 "ફૉન\u{acd}ડ\u{acd}ય\u{ac1}",
+                "મ\u{ac7}ગી",
+                "રસોઈ",
                 "વાસણ",
                 "સ\u{acd}વિસ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("narkakken cuku"),
+            keywords: &[
+                "Swiss",
+                "cakulan",
+                "cuku",
+                "dafa abinci",
+                "girkawa",
+                "girki",
+                "mai",
+                "narkakken cuku",
+                "narkakken cukwi",
+                "narke",
+                "tukunya",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("narkakken cuku"),
+            keywords: &[
+                "Swiss",
+                "cakulan",
+                "cuku",
+                "dafa abinci",
+                "girkawa",
+                "girki",
+                "mai",
+                "narkakken cuku",
+                "narkakken cukwi",
+                "narke",
+                "tukunya",
             ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("פונדו"),
-            keywords: &["גבינות", "סיר", "פונדו", "שוקולד"],
+            keywords: &["אוכל", "גבינות", "סיר", "פונדו", "שוקולד"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("फ\u{93c}ॉनड\u{942}"),
             keywords: &[
+                "क\u{941}क",
+                "क\u{941}कि\u{902}ग",
+                "खाना",
+                "खाना पकाना",
+                "चीज\u{93c}",
                 "चॉकल\u{947}ट",
+                "नाश\u{94d}ता",
+                "न\u{942}डल",
+                "पकवान",
                 "पनीर",
                 "पिघला ह\u{941}आ",
                 "फ\u{93c}ॉनड\u{942}",
@@ -17545,9 +25625,13 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("fondi"),
             keywords: &[
                 "fondi",
+                "fondue",
+                "hrana",
                 "otopljeno",
                 "posuda",
+                "rastopljeni sir",
                 "sir",
+                "skijanje",
                 "čokolada",
                 "švicarsko",
             ],
@@ -17563,6 +25647,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "olvasztott",
                 "sajt",
                 "svájci",
+                "sí",
+                "étel",
             ],
         },
         #[cfg(feature = "hy")]
@@ -17582,7 +25668,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("fondue"),
-            keywords: &["Swiss", "cokelat", "fondue", "keju", "meleleh", "periuk"],
+            keywords: &[
+                "cokelat", "fondue", "keju", "makanan", "meleleh", "panci", "ski",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("fondue"),
+            keywords: &["Swiss", "cheese", "chokoleeti", "fondue", "ite", "melted"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -17595,19 +25689,29 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "it",
             tts: Some("fonduta"),
             keywords: &[
+                "cibo",
                 "cioccolato",
                 "fonduta",
                 "formaggio",
                 "fuso",
                 "pentola",
-                "svizzero",
+                "sci",
             ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("フォンデュ"),
-            keywords: &["スイス", "チョコ", "チーズ", "フォンデュ", "溶かす", "鍋"],
+            keywords: &[
+                "スイス",
+                "チョコ",
+                "チーズ",
+                "チーズフォンデュ",
+                "フォンデュ",
+                "溶かす",
+                "鍋",
+                "食べ物",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -17629,6 +25733,12 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "შოკოლადი",
             ],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taḥelwiḍt"),
+            keywords: &["taḥelwifḍt", "taḥelwiḍt"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
@@ -17636,6 +25746,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ерітілген",
                 "таба",
+                "тамақ",
                 "фондю",
                 "швейцариялық",
                 "шоколад",
@@ -17661,10 +25772,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("ಫಂಡ\u{ccd}ಯು"),
             keywords: &[
                 "ಕರಗ\u{cbf}ದ",
+                "ಗ\u{cbf}ಣ\u{ccd}ಣು",
                 "ಚಾಕ\u{cca}ಲ\u{cc7}ಟ\u{ccd}",
                 "ಚ\u{cc0}ಸ\u{ccd}",
+                "ತ\u{cbf}ನ\u{cbf}ಸು",
                 "ಫಂಡ\u{ccd}ಯು",
+                "ಭಕ\u{ccd}ಷ\u{ccd}ಯ",
                 "ಮಡಕ\u{cc6}",
+                "ಸ\u{ccd}ಕ\u{cc0}",
+                "ಸ\u{ccd}ವ\u{cbf}ಟ\u{ccd}ಜರ\u{ccd}ಲ\u{cc6}ಂಡ\u{ccd}",
                 "ಸ\u{ccd}ವ\u{cbf}ಸ\u{ccd}",
             ],
         },
@@ -17672,7 +25788,16 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("퐁듀"),
-            keywords: &["냄비", "녹다", "스위스", "초콜릿", "치즈", "퐁듀"],
+            keywords: &[
+                "냄비",
+                "녹다",
+                "스위스",
+                "스키",
+                "음식",
+                "초콜릿",
+                "치즈",
+                "퐁듀",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -17691,19 +25816,25 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ky",
             tts: Some("фондю"),
-            keywords: &["фондью", "фондю"],
+            keywords: &[
+                "Швейцариялык",
+                "сыр",
+                "фондю",
+                "чөйчөк",
+                "шоколад",
+                "ээритилген",
+            ],
         },
         #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຟອງດ\u{eb9}"),
             keywords: &[
-                "ການຳ\u{ec9}",
                 "ຊ\u{eb5}ດສ",
                 "ຊ\u{ecb}ອກໂກແລ\u{eb1}ດ",
-                "ຟອງດ\u{eb9}",
                 "ລະລາຍ",
                 "ສະວ\u{eb4}ດ",
+                "ໝ\u{ecd}\u{ec9}",
             ],
         },
         #[cfg(feature = "lt")]
@@ -17714,6 +25845,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "dubuo",
                 "fondiu",
                 "ištirpintas",
+                "maistas",
                 "sūris",
                 "šokoladas",
                 "šveicariškas",
@@ -17738,8 +25870,12 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("топено сирење"),
             keywords: &[
                 "кашкавал",
+                "сирење",
                 "стопено",
+                "топен кашкавал",
                 "топено сирење",
+                "фонду",
+                "храна",
                 "чоколада",
                 "швајцарско",
             ],
@@ -17775,6 +25911,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("फॉन\u{94d}ड\u{94d}य\u{942}"),
             keywords: &[
+                "खाद\u{94d}यपदार\u{94d}थ",
                 "चीज",
                 "चॉकोल\u{947}ट",
                 "फॉन\u{94d}ड\u{94d}य\u{942}",
@@ -17787,7 +25924,9 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("fondue"),
-            keywords: &["Swiss", "cair", "cokelat", "fondue", "keju", "periuk"],
+            keywords: &[
+                "Swiss", "cair", "coklat", "fondue", "keju", "makanan", "periuk",
+            ],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -17799,20 +25938,6 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "ဆ\u{103d}စ\u{103a}",
                 "ဖောင\u{103a}ဒ\u{1030}",
                 "အ\u{102d}\u{102f}း",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("fondy"),
-            keywords: &[
-                "fondue",
-                "fondy",
-                "gryte",
-                "ost",
-                "sjokolade",
-                "smeltet",
-                "sveitsisk",
             ],
         },
         #[cfg(feature = "ne")]
@@ -17832,12 +25957,20 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("fondue"),
-            keywords: &["Zwitsers", "chocola", "fondue", "gesmolten", "kaas", "pan"],
+            keywords: &[
+                "chocolade",
+                "eten",
+                "fondue",
+                "gesmolten",
+                "kaas",
+                "pot",
+                "ski",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("fondy"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "fondue",
                 "fondy",
@@ -17867,10 +26000,13 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("ਫ\u{a4b}\u{a02}ਡਜ\u{a42}"),
             keywords: &[
                 "ਚਾਕਲ\u{a47}ਟ",
+                "ਚੀਜ\u{a3c}",
                 "ਪਨੀਰ",
                 "ਪਿਗਲਿਆ",
                 "ਫ\u{a4b}\u{a02}ਡਜ\u{a42}",
+                "ਫ\u{a4b}\u{a70}ਡ\u{a42}",
                 "ਬਰਤਨ",
+                "ਭ\u{a4b}ਜਨ",
                 "ਸਵਿ\u{a71}ਸ",
             ],
         },
@@ -17895,6 +26031,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "czekolada",
                 "fondue",
                 "garnek",
+                "jedzenie",
+                "na ciepło",
                 "roztopione",
                 "ser",
                 "szwajcarskie",
@@ -17911,7 +26049,9 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "pt",
             tts: Some("fondue"),
             keywords: &[
+                "alimento",
                 "chocolate",
+                "comida",
                 "derretido",
                 "fondue",
                 "panela",
@@ -17923,7 +26063,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "Suíça",
+                "comida",
+                "derretido",
+                "esqui",
+                "fondue",
+                "queijo",
+                "suíço",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -17943,10 +26091,13 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "ro",
             tts: Some("fondue"),
             keywords: &[
+                "Elveția",
                 "brânză",
                 "ciocolată",
                 "fondue",
+                "mâncare",
                 "mâncare elvețiană",
+                "ski",
                 "topită",
                 "vas de gătit",
             ],
@@ -17962,6 +26113,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("фондю"),
             keywords: &[
+                "еда",
                 "какелон",
                 "плавленый",
                 "сыр",
@@ -17993,7 +26145,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("fondue"),
-            keywords: &["fondue", "rozpustiť", "syr", "čokoláda", "švajčiarské"],
+            keywords: &[
+                "fondue",
+                "jedlo",
+                "rozpustiť",
+                "syr",
+                "tavený syr",
+                "čokoláda",
+                "švajčiarske",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -18001,8 +26161,12 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("fondi"),
             keywords: &[
                 "fondi",
+                "hrana",
                 "lonček",
+                "pomakanje",
+                "posoda",
                 "sir",
+                "smučanje",
                 "stopljena",
                 "čokolada",
                 "švicarski",
@@ -18013,12 +26177,13 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "so",
             tts: Some("digsi cunnno lagu diyaariyay"),
             keywords: &[
-                "Swiss",
-                "burcad",
+                "Switzerland",
                 "dhalaalay",
+                "dheriga",
                 "digsi cunnno lagu diyaariyay",
-                "digsi cunno lagu diyaariyay",
-                "shukulaato",
+                "fondue",
+                "jiis",
+                "shukulaatada",
             ],
         },
         #[cfg(feature = "sq")]
@@ -18030,6 +26195,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "fondue",
                 "gotë",
                 "shkrirë",
+                "ski",
+                "ushqim",
                 "zviceran",
                 "çokollatë",
             ],
@@ -18042,6 +26209,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "сир",
                 "топљено",
                 "фонду",
+                "храна",
                 "чоколада",
                 "швајацарски",
                 "шерпа",
@@ -18059,12 +26227,19 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("fondu"),
             keywords: &[
                 "fondu",
+                "hrana",
                 "sir",
                 "topljeno",
                 "čokolada",
                 "šerpa",
                 "švajacarski",
             ],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -18084,6 +26259,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "sw",
             tts: Some("jibini iliyoyeyushwa"),
             keywords: &[
+                "chakula",
                 "chokoleti",
                 "jibini",
                 "jibini iliyoyeyushwa",
@@ -18104,6 +26280,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             tts: Some("ஃப\u{bbe}ண\u{bcd}டூ"),
             keywords: &[
                 "ஃப\u{bbe}ண\u{bcd}டூ",
+                "உணவு",
                 "உருகியது",
                 "குவளை",
                 "ச\u{bbe}க\u{bcd}கலேட\u{bcd}",
@@ -18116,10 +26293,16 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("ఫ\u{c3e}ండ\u{c4d}యూ"),
             keywords: &[
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం",
+                "ఆహ\u{c3e}రం",
                 "చ\u{c3e}క\u{c4a}ల\u{c46}ట\u{c4d}",
+                "ఛ\u{c40}జ\u{c4d}",
                 "జున\u{c4d}ను",
                 "ఫ\u{c3e}ండ\u{c4d}యూ",
+                "ఫుడ\u{c4d}",
+                "వంటకం",
                 "స\u{c4d}వ\u{c3f}స\u{c4d}",
+                "స\u{c4d}వ\u{c3f}స\u{c4d} స\u{c4d}ట\u{c48}ల\u{c4d} ఫుడ\u{c4d}",
             ],
         },
         #[cfg(feature = "th")]
@@ -18133,7 +26316,14 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "ละลาย",
                 "สว\u{e34}ส",
                 "หม\u{e49}อ",
+                "อาหาร",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ፎንዱ"),
+            keywords: &["ፎንዱ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -18145,20 +26335,38 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("siisi māfana"),
-            keywords: &["siisi māfana"],
+            keywords: &["kulo", "siisi", "siisi māfana"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("fondü"),
-            keywords: &["erimiş", "fondü", "kap", "peynir", "çikolata", "İsviçre"],
+            keywords: &[
+                "dağ",
+                "erimiş",
+                "fondü",
+                "isviçre",
+                "kap",
+                "kayak",
+                "peynir",
+                "raklet",
+                "yemek",
+                "yiyecek",
+                "çikolata",
+                "çubuk",
+                "İsviçre",
+            ],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("фондю"),
             keywords: &[
+                "альпи",
                 "горщичок",
+                "какелон",
+                "кастрюлька",
+                "лижі",
                 "сир",
                 "топлений",
                 "фондю",
@@ -18170,7 +26378,15 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("فانڈی"),
-            keywords: &["برتن", "سوئس", "فانڈی", "پنیر", "پگھلا ہوا", "چاکلیٹ"],
+            keywords: &[
+                "برتن",
+                "سوئس",
+                "فانڈی",
+                "پنیر",
+                "پگھلا ہوا",
+                "چاکلیٹ",
+                "کھانا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -18183,6 +26399,7 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
                 "shokolad",
                 "shveytsar",
                 "shveytsarcha",
+                "taom",
                 "tova",
             ],
         },
@@ -18191,13 +26408,26 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("lẩu pho mai"),
             keywords: &[
-                "Thụy Sĩ",
-                "lẩu pho mai",
+                "lẩu phô mai",
+                "nấu chảy",
                 "nồi",
                 "phô mai",
                 "sô cô la",
-                "tan chảy",
+                "thức ăn",
+                "trượt tuyết",
             ],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("fóndù"),
+            keywords: &["fóndù", "pọ\u{301}ọ\u{300}tù", "wara"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("fóndù"),
+            keywords: &["fóndù", "pɔ\u{301}ɔ\u{300}tù", "wara"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -18215,19 +26445,42 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("奶酪火锅"),
-            keywords: &["奶酪", "奶酪火锅", "巧克力", "瑞士", "融化", "锅"],
+            keywords: &[
+                "奶酪",
+                "奶酪火锅",
+                "奶酪锅",
+                "巧克力",
+                "火锅",
+                "煮",
+                "煲汤",
+                "瑞士",
+                "融化",
+                "锅",
+                "食物",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("涮製菜餚"),
-            keywords: &["乳酪", "巧克力", "涮製菜餚", "瑞士", "融化", "鍋"],
+            keywords: &[
+                "乳酪",
+                "巧克力",
+                "涮製菜餚",
+                "滑雪",
+                "瑞士",
+                "融化",
+                "起司",
+                "起司火鍋",
+                "鍋",
+                "食物",
+            ],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["hotpot", "打邊爐", "火鍋", "筷子", "芝士", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -18266,19 +26519,46 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("bakkie met lepel"),
-            keywords: &["bakkie met lepel", "conjee", "ontbyt", "ryswater"],
+            keywords: &[
+                "bakkie met lepel",
+                "conjee",
+                "graankos",
+                "hawermout",
+                "mieliepap",
+                "ontbyt",
+                "ontbytgraan",
+                "pap",
+                "ryswater",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሳህን ሙሉ ማንኪያ"),
-            keywords: &["ሳህን ሙሉ ማንኪያ"],
+            keywords: &[
+                "ምግብ",
+                "ሳህን ሙሉ ማንኪያ",
+                "ቁርስ",
+                "አጃ",
+                "እህል",
+                "ኮንጊ",
+                "ገንፎ",
+                "ጎድጓዳ ሳህን ከማንኪያ ጋር",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("طبق وملعقة"),
-            keywords: &["طبق وملعقة"],
+            keywords: &[
+                "حساء",
+                "شوربا",
+                "شوربة",
+                "طبق وملعقة",
+                "فطور",
+                "كاسة",
+                "مامونية",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -18295,7 +26575,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("qaşıq ilə kasa"),
-            keywords: &["dənəvər", "qaşıq ilə kasa", "səhər yeməyi"],
+            keywords: &["dənəvər", "qaşıq ilə kasa", "səhər yeməyi", "yulaf sıyığı"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -18319,10 +26599,17 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("ব\u{9be}টি আর চ\u{9be}মচ"),
             keywords: &[
+                "ওটমিল",
+                "ওটস",
                 "কর\u{9cd}ণফ\u{9cd}লেক\u{9cd}স",
+                "খ\u{9be}ব\u{9be}র",
+                "চ\u{9be}মচ সহ ব\u{9be}টি",
+                "ন\u{9be}স\u{9cd}ত\u{9be}",
+                "প\u{9c1}ডিং",
                 "পোরিজ",
                 "ব\u{9be}টি আর চ\u{9be}মচ",
                 "ব\u{9cd}রেকফ\u{9be}স\u{9cd}ট",
+                "স\u{9c1}পের ব\u{9be}টি",
             ],
         },
         #[cfg(feature = "br")]
@@ -18348,7 +26635,14 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("bol amb cullera"),
-            keywords: &["bol amb cullera", "cereals", "esmorzar"],
+            keywords: &[
+                "arròs congee",
+                "bol amb cullera",
+                "cereals",
+                "esmorzar",
+                "farina de civada",
+                "farinetes",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -18363,6 +26657,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             keywords: &[
                 "cereálie",
                 "cornflakes",
+                "jídlo",
                 "kaše",
                 "kornflejks",
                 "kornflejky",
@@ -18374,6 +26669,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
                 "musli",
                 "müsli",
                 "ovesná",
+                "polévka",
                 "snídaně",
             ],
         },
@@ -18387,25 +26683,58 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("ske i skål"),
-            keywords: &["havregrød", "morgenmad", "mysli", "ske i skål"],
+            keywords: &["havregrød", "morgenmad", "mysli", "ske i skål", "skål"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Schüssel mit Löffel"),
-            keywords: &["Cerealien", "Frühstück", "Reisbrei", "Schüssel mit Löffel"],
+            keywords: &[
+                "Cerealien",
+                "Frühstück",
+                "Reisbrei",
+                "Schüssel mit Löffel",
+                "brei",
+                "essen",
+                "haferbrei",
+                "schüssel",
+                "suppe",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("μπολ με κουτάλι"),
-            keywords: &["δημητριακά", "μπολ με κουτάλι", "πρωινό"],
+            keywords: &[
+                "βρώμη",
+                "δημητριακά",
+                "κόντζι",
+                "μπολ με κουτάλι",
+                "πλιγούρι",
+                "πολτός από βρώμη",
+                "πρωινό",
+                "πόριτζ",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("bowl with spoon"),
-            keywords: &["bowl with spoon", "breakfast", "cereal", "congee"],
+            keywords: &[
+                "bowl",
+                "breakfast",
+                "cereal",
+                "congee",
+                "oatmeal",
+                "porridge",
+                "spoon",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -18441,7 +26770,19 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "avena",
+                "bol",
+                "cereal",
+                "cuenco",
+                "desayuno",
+                "plato",
+                "plato hondo",
+                "plato hondo con cuchara",
+                "sopa",
+                "tazón",
+                "tazón con cuchara",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -18460,10 +26801,12 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "et",
             tts: Some("lusikaga kauss"),
             keywords: &[
-                "hommikueine",
-                "hommikusöögihelbed",
-                "lusikaga kauss",
+                "helbed",
+                "hommikusöök",
+                "lusikas",
+                "puder",
                 "riisipuding",
+                "söök",
             ],
         },
         #[cfg(feature = "eu")]
@@ -18476,19 +26819,35 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("کاسه و قاشق"),
-            keywords: &["آش برنج", "حلیم صبحانه", "شله", "صبحانه", "کاسه و قاشق"],
+            keywords: &[
+                "آش برنج",
+                "حلیم صبحانه",
+                "خوراک",
+                "خوراکی",
+                "شله",
+                "صبحانه",
+                "غذا",
+                "کاسه با قاشق",
+                "کاسه و قاشق",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kulho ja lusikka"),
-            keywords: &["aamiainen", "kulho ja lusikka", "murot"],
+            keywords: &["aamiainen", "congee", "murot", "puuro"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("mangkok na may kutsara"),
-            keywords: &["agahan", "cereal", "lugaw", "mangkok na may kutsara"],
+            keywords: &[
+                "agahan",
+                "cereal",
+                "lugaw",
+                "mangkok na may kutsara",
+                "oatmeal",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -18500,7 +26859,15 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("bol avec cuillère"),
-            keywords: &["bol avec cuillère", "congee", "céréales", "déjeuner"],
+            keywords: &[
+                "bol avec cuillère",
+                "bol avec une cuillère",
+                "congee",
+                "céréales",
+                "déjeuner",
+                "petit déjeuner",
+                "soupe",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -18531,8 +26898,18 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("સ\u{acd}પ\u{ac2}ન સાથ\u{ac7} બોલ"),
             keywords: &[
+                "અનાજ",
+                "કા\u{a82}જી",
                 "કોન\u{acd}જી",
+                "ખાનપાન",
+                "ખોરાક",
+                "ઘ\u{ac7}\u{a82}સ",
+                "ચમચી અન\u{ac7} કટોરો",
                 "બ\u{acd}ર\u{ac7}કફાસ\u{acd}ટ",
+                "ભોજન",
+                "રાબ",
+                "શિરામણ",
+                "સવારનો નાસ\u{acd}તો",
                 "સિરીઅલ",
                 "સ\u{acd}પ\u{ac2}ન સાથ\u{ac7} બોલ",
             ],
@@ -18541,13 +26918,45 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("kwano tare da cokali"),
-            keywords: &["abincin safe", "congee", "hatsi", "kwano tare da cokali"],
+            keywords: &[
+                "abin-sha",
+                "abincin safe",
+                "congee",
+                "fate-fate",
+                "hatsi",
+                "kamu",
+                "koka ot",
+                "koko",
+                "kunu",
+                "kwano tare da cokali",
+                "kwanon abinci",
+                "ƙulli",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("kwano tare da cokali"),
+            keywords: &[
+                "abin-sha",
+                "abincin safe",
+                "congee",
+                "fate-fate",
+                "hatsi",
+                "kamu",
+                "koka ot",
+                "koko",
+                "kunu",
+                "kwano tare da cokali",
+                "kwanon abinci",
+                "ƙulli",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("קערה עם כף"),
-            keywords: &["ארוחת בוקר", "דגני בוקר", "קערה עם כף"],
+            keywords: &["ארוחת בוקר", "דגני בוקר", "דייסה", "קערה עם כף"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -18555,6 +26964,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             tts: Some("चम\u{94d}मच क\u{947} साथ कटोरी"),
             keywords: &[
                 "अनाज",
+                "चमच\u{94d}च क\u{947} साथ कटोरा",
                 "चम\u{94d}मच क\u{947} साथ कटोरी",
                 "चावल की दलिया",
                 "नाश\u{94d}ता",
@@ -18564,13 +26974,23 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("zdjelica sa žlicom"),
-            keywords: &["doručak", "zdjelica sa žlicom", "žitarice"],
+            keywords: &["doručak", "hrana", "zdjelica sa žlicom", "žitarice"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("tál kanállal"),
-            keywords: &["gabonapehely", "reggeli", "rizskása", "tál kanállal"],
+            keywords: &[
+                "ebéd",
+                "gabonapehely",
+                "leves",
+                "paradicsomleves",
+                "reggeli",
+                "rizskása",
+                "tál",
+                "tál kanállal",
+                "étel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -18582,7 +27002,9 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("mangkuk dengan sendok"),
-            keywords: &["bubur", "mangkuk dengan sendok", "sarapan", "sereal"],
+            keywords: &[
+                "bubur", "mangkok", "mangkuk", "oat", "oatmeal", "sarapan", "sendok", "sereal",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -18605,13 +27027,31 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("ciotola con cucchiaio"),
-            keywords: &["cereali", "ciotola con cucchiaio", "colazione"],
+            keywords: &[
+                "cereali",
+                "cibo",
+                "ciotola",
+                "ciotola con cucchiaio",
+                "colazione",
+                "porridge",
+                "scodella",
+                "tazza",
+                "zuppa",
+                "zuppiera",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ボウルとスプーン"),
-            keywords: &["おかゆ", "シリアル", "ボウルとスプーン", "朝食"],
+            keywords: &[
+                "おかゆ",
+                "オートミール",
+                "シリアル",
+                "ボウルとスプーン",
+                "朝食",
+                "粥",
+            ],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -18625,11 +27065,17 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             tts: Some("თასი კოვზით"),
             keywords: &["გრანოლა", "თასი კოვზით", "მიუსლი", "საუზმე", "ფაფა"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aḍebdi s tejɣelt"),
+            keywords: &["aḍebdi s tejɣelt"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қасығы бар ыдыс"),
-            keywords: &["қасығы бар ыдыс"],
+            keywords: &["астық", "күріш ботқасы", "таңғы ас", "қасығы бар ыдыс"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -18648,8 +27094,11 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             tts: Some("ಸ\u{ccd}ಪ\u{cc2}ನ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಬ\u{ccc}ಲ\u{ccd}"),
             keywords: &[
                 "ಉಪಹಾರ",
+                "ಉಪಾಹಾರ",
+                "ಓಟ\u{ccd} ಮ\u{cc0}ಲ\u{ccd}",
                 "ಗಂಜ\u{cbf}",
                 "ಧಾನ\u{ccd}ಯ",
+                "ಸ\u{ccd}ಪ\u{cc2}ನ\u{ccd} ಮತ\u{ccd}ತು ಬ\u{ccc}ಲ\u{ccd}",
                 "ಸ\u{ccd}ಪ\u{cc2}ನ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಬ\u{ccc}ಲ\u{ccd}",
             ],
         },
@@ -18657,7 +27106,17 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("스푼과 사발"),
-            keywords: &["스푼과 사발", "시리얼", "아침", "콘지"],
+            keywords: &[
+                "그릇과 숟가락",
+                "스푼과 사발",
+                "시리얼",
+                "씨리얼",
+                "아침",
+                "아침식사",
+                "오트밀",
+                "죽",
+                "콘지",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -18693,8 +27152,10 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             tts: Some("ຖ\u{ec9}ວຍກ\u{eb1}ບບ\u{ec8}ວງ"),
             keywords: &[
                 "ຊ\u{eb5}ຣຽວ",
+                "ຖ\u{ec9}ວຍ",
                 "ຖ\u{ec9}ວຍກ\u{eb1}ບບ\u{ec8}ວງ",
                 "ອາຫານເຊ\u{ebb}\u{ec9}າ",
+                "ເຂ\u{ebb}\u{ec9}າປຽກ",
                 "ເຂ\u{ebb}\u{ec9}າປຽກເຂ\u{ebb}\u{ec9}າ",
             ],
         },
@@ -18702,13 +27163,24 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("dubuo su šaukštu"),
-            keywords: &["dubuo su šaukštu", "košė", "pusryčiai"],
+            keywords: &["dubuo su šaukštu", "košė", "maistas", "pusryčiai"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("bļoda ar karoti"),
-            keywords: &["brokastis", "bļoda ar karoti", "graudaugi", "rīsu putra"],
+            keywords: &[
+                "auzu pārslu putra",
+                "brokastis",
+                "brokastu pārslas",
+                "bļoda ar karoti",
+                "graudaugi",
+                "putra",
+                "pārtika",
+                "rīsu putra",
+                "sausās brokastis",
+                "ēdiens",
+            ],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -18720,13 +27192,22 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("сад со лажица"),
-            keywords: &["житарки", "каша со ориз", "појадок", "сад со лажица"],
+            keywords: &[
+                "доручек",
+                "житарки",
+                "каша",
+                "каша со ориз",
+                "појадок",
+                "сад со лажица",
+                "чинија со лажица",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("പിഞ\u{d4d}ഞ\u{d3e}ണവ\u{d41}ം സ\u{d4d}പ\u{d42}ണ\u{d41}ം"),
             keywords: &[
+                "ഓട\u{d4d}ട\u{d4d}മീൽ കഞ\u{d4d}ഞി",
                 "കഞ\u{d4d}ഞി",
                 "പിഞ\u{d4d}ഞ\u{d3e}ണവ\u{d41}ം സ\u{d4d}പ\u{d42}ണ\u{d41}ം",
                 "പ\u{d4d}ര\u{d3e}തൽ",
@@ -18745,10 +27226,14 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("वाटी चमचा"),
             keywords: &[
+                "अन\u{94d}न",
                 "का\u{901}गी",
+                "खाद\u{94d}य",
                 "चमच\u{94d}यासह बाऊल",
                 "नाश\u{94d}ता",
                 "वाटी चमचा",
+                "सार",
+                "स\u{942}प",
                 "स\u{947}र\u{947}ल",
             ],
         },
@@ -18756,7 +27241,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("mangkuk dan sudu"),
-            keywords: &["bijirin", "bubur", "mangkuk dan sudu", "sarapan"],
+            keywords: &["bijirin", "bubur", "kanji", "mangkuk dan sudu", "sarapan"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -18776,18 +27261,6 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
                 "အန\u{103e}\u{1036}အစေ\u{1037}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("bolle med skje"),
-            keywords: &[
-                "bolle med skje",
-                "congee",
-                "frokost",
-                "frokostblanding",
-                "grøt",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -18798,7 +27271,17 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("kom met lepel"),
-            keywords: &["cornflakes", "kom met lepel", "muesli", "ontbijt"],
+            keywords: &[
+                "cornflakes",
+                "eten",
+                "kom met lepel",
+                "muesli",
+                "ontbijt",
+                "ontbijtgranen",
+                "pap",
+                "soep",
+                "voedsel",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -18817,8 +27300,10 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ଚ\u{b3e}ମ\u{b41}ଚ ସହ\u{b3f}ତ ଗ\u{b3f}ନ\u{b3e}"),
             keywords: &[
+                "କଙ\u{b4d}ଗୀ",
+                "ଖ\u{b3e}ଦ\u{b4d}ୟଶସ\u{b4d}ୟ",
                 "ଚ\u{b3e}ମ\u{b41}ଚ ସହ\u{b3f}ତ ଗ\u{b3f}ନ\u{b3e}",
-                "ପ\u{b4d}ର\u{b3e}ତଃଭୋଜନ । ଖ\u{b3e}ଦ\u{b4d}ୟଶସ\u{b4d}ୟ । କଙ\u{b4d}ଗୀ",
+                "ପ\u{b4d}ର\u{b3e}ତଃଭୋଜନ",
             ],
         },
         #[cfg(feature = "pa")]
@@ -18829,6 +27314,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
                 "ਅਨਾਜ",
                 "ਕ\u{a4b}\u{a70}ਗੀ",
                 "ਚਮਚ ਅਤ\u{a47} ਕ\u{a4c}ਲੀ",
+                "ਦਲੀਆ",
                 "ਸਵ\u{a47}ਰ ਦਾ ਨਾਸ\u{a3c}ਤਾ",
             ],
         },
@@ -18843,20 +27329,18 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "pcm",
             tts: Some("Díp-plet Wit Spun"),
             keywords: &[
-                "Brẹ\u{301}kfast",
-                "Díp Plet Wit Spun",
-                "Díp-plet Wit Spun",
-                "Fud",
+                "Báli Ọ Wiit",
+                "Díp-Plet Wit Spun",
                 "Kọ\u{301}nji: Wọ\u{301}n Fud Wé Dẹm Mék Wit Rais",
                 "Mọ\u{301}nín Chọp",
-                "Síril: Fud Wé Dẹm Mék Wit Gren Laik Kọn, Báli, Wit",
+                "Síril: Fud Wé Dẹm Mék Wit Gren Laik Kọn",
             ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("miska z łyżką"),
-            keywords: &["miska z łyżką"],
+            keywords: &["jedzenie", "miska", "miska z łyżką", "zupa"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -18871,13 +27355,24 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("tigela com colher"),
-            keywords: &["café da manhã", "cereal", "tigela com colher"],
+            keywords: &[
+                "café da manhã",
+                "cereal",
+                "prato de sopa",
+                "tigela com colher",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["cereais", "pequeno-almoço", "tigela com colher"],
+            keywords: &[
+                "aveia",
+                "cereais",
+                "flocos",
+                "pequeno-almoço",
+                "tigela com colher",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -18889,7 +27384,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("castron cu lingură"),
-            keywords: &["castron cu lingură", "cereale", "mic dejun", "terci"],
+            keywords: &["bol", "castron cu lingură", "cereale", "mic dejun", "terci"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -18902,11 +27397,15 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("миска с ложкой"),
             keywords: &[
+                "глубокая",
                 "гранола",
                 "завтрак",
-                "миска с ложкой",
+                "каша",
+                "миска",
                 "мюсли",
-                "овсяные хлопья",
+                "пиала",
+                "тарелка",
+                "хлопья",
             ],
         },
         #[cfg(feature = "rw")]
@@ -18941,13 +27440,30 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("misa s\u{a0}lyžicou"),
-            keywords: &["kaša", "misa s\u{a0}lyžicou", "puding", "raňajky"],
+            keywords: &[
+                "cereálie",
+                "jedlo",
+                "kaša",
+                "lyžička",
+                "misa s\u{a0}lyžicou",
+                "miska s lyžicou",
+                "ovsené vločky",
+                "polievka",
+                "puding",
+                "raňajky",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("skodelica z žlico"),
-            keywords: &["skodelica z žlico"],
+            keywords: &[
+                "kaša",
+                "kosmiči",
+                "ovsena kaša",
+                "skodelica z žlico",
+                "zajtrk",
+            ],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -18959,13 +27475,20 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("tas me lugë"),
-            keywords: &["drithëra", "tas me lugë", "vakti i mëngjesit"],
+            keywords: &[
+                "drithëra",
+                "lugë",
+                "mëngjes",
+                "tas",
+                "tas me lugë",
+                "vakti i mëngjesit",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("чинија са кашиком"),
-            keywords: &["доручак", "пахуљице", "чинија са кашиком"],
+            keywords: &["доручак", "кашика", "овас", "пахуљице"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -18977,7 +27500,13 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("činija sa kašikom"),
-            keywords: &["doručak", "pahuljice", "činija sa kašikom"],
+            keywords: &["doručak", "kašika", "ovas", "pahuljice"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -19002,8 +27531,14 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("ஸ\u{bcd}பூன\u{bcd} உள\u{bcd}ள ப\u{bbe}த\u{bcd}திரம\u{bcd}"),
             keywords: &[
+                "ஓட\u{bcd}ஸ\u{bcd} கஞ\u{bcd}சி",
+                "கஞ\u{bcd}சி",
+                "க\u{bbe}ர\u{bcd}ன\u{bcd}ஃபிளேக\u{bcd}ஸ\u{bcd}",
                 "க\u{bbe}லை உணவு",
+                "சூப\u{bcd}",
+                "பிரேக\u{bcd}ஃப\u{bbe}ஸ\u{bcd}ட\u{bcd}",
                 "ப\u{bcd}ரேக\u{bcd}ஃப\u{bbe}ஸ\u{bcd}ட\u{bcd}",
+                "ஸ\u{bcd}பூன\u{bcd} உள\u{bcd}ள கிண\u{bcd}ணம\u{bcd}",
                 "ஸ\u{bcd}பூன\u{bcd} உள\u{bcd}ள ப\u{bbe}த\u{bcd}திரம\u{bcd}",
             ],
         },
@@ -19012,10 +27547,16 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("చ\u{c46}ంచ\u{c3e}త\u{c4b} కప\u{c4d}పు"),
             keywords: &[
+                "అల\u{c4d}ప\u{c3e}హ\u{c3e}రం",
+                "ఓట\u{c4d} మ\u{c40}ల\u{c4d}",
                 "క\u{c3e}ంజ\u{c40}",
+                "గంజ\u{c3f}",
                 "చ\u{c46}ంచ\u{c3e}త\u{c4b} కప\u{c4d}పు",
+                "ధ\u{c3e}న\u{c4d}యం",
+                "ప\u{c4b}ర\u{c3f}డ\u{c4d}జ\u{c4d}",
                 "బ\u{c4d}ర\u{c47}క\u{c4d}\u{200c}ఫ\u{c3e}స\u{c4d}ట\u{c4d}",
                 "స\u{c46}రల\u{c4d}",
+                "స\u{c4d}పూనుత\u{c4b} గ\u{c3f}న\u{c4d}న\u{c46}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -19032,8 +27573,16 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
                 "ข\u{e49}าวต\u{e49}ม",
                 "ชามพร\u{e49}อมช\u{e49}อน",
                 "ซ\u{e35}เร\u{e35}ยล",
+                "ซ\u{e38}ป",
+                "อาหารเช\u{e49}า",
                 "โจ\u{e4a}ก",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሳእኒ ምስ ማንካ"),
+            keywords: &["ማንካ", "ሳእኒ", "ሽሮ", "ቁርሲ", "እኽሊ", "ኦትሚል", "ኮንጂ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -19045,13 +27594,22 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("poulu moe sepuni"),
-            keywords: &["poulu moe sepuni"],
+            keywords: &["poulu", "poulu moe sepuni", "sepuni"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kaşıklı kase"),
-            keywords: &["kahvaltı", "kaşıklı kase", "pirinç lapası", "tahıl gevreği"],
+            keywords: &[
+                "gıda",
+                "kahvaltı",
+                "kase",
+                "kaşıklı kase",
+                "pirinç lapası",
+                "tahıl gevreği",
+                "yemek",
+                "çorba",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -19063,13 +27621,31 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("миска з ложкою"),
-            keywords: &["злаки", "миска з ложкою", "рисова каша", "сніданок"],
+            keywords: &[
+                "борщ",
+                "злаки",
+                "миска з ложкою",
+                "піала",
+                "рисова каша",
+                "сніданок",
+                "суп",
+                "їжа",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("چمچ اور کٹورا"),
-            keywords: &["اناج", "دلیہ", "ناشتہ", "چمچ اور کٹورا"],
+            keywords: &[
+                "اناج",
+                "اوٹ میل",
+                "دلیہ",
+                "غلہ",
+                "ناشتہ",
+                "پیالہ اور چمچہ",
+                "چمچ اور کٹورا",
+                "کھانا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -19081,7 +27657,7 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "vi",
             tts: Some("bát và thìa"),
-            keywords: &["bát và thìa", "bữa sáng", "ngũ cốc"],
+            keywords: &["bát", "bữa sáng", "cháo", "ngũ cốc", "thìa", "yến mạch"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -19111,6 +27687,17 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
                 "ónjẹ àrọ\u{300}",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("abɔ\u{301} pɛ\u{300}lú shíbí"),
+            keywords: &[
+                "abɔ\u{301} pɛ\u{300}lú shíbí",
+                "congee",
+                "àgbàdo",
+                "ónjɛ àrɔ\u{300}",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -19127,19 +27714,48 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("碗勺"),
-            keywords: &["早餐", "碗勺", "粥", "谷物"],
+            keywords: &[
+                "早餐",
+                "燕麦",
+                "燕麦粥",
+                "碗中汤匙",
+                "碗勺",
+                "碗和汤匙",
+                "稀饭",
+                "粥",
+                "谷物",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("碗和湯匙"),
-            keywords: &["碗和湯匙", "餐具"],
+            keywords: &[
+                "早餐",
+                "早餐穀物",
+                "湯匙與碗",
+                "燕麥",
+                "碗和湯匙",
+                "粥",
+                "餐具",
+            ],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("匙羮同碗"),
-            keywords: &["匙羮", "匙羮同碗", "碗", "粥", "附有湯匙的碗"],
+            keywords: &[
+                "匙",
+                "匙羮",
+                "匙羮同碗",
+                "匙羹",
+                "早餐",
+                "湯",
+                "碗",
+                "粥",
+                "附有湯匙的碗",
+                "麥片",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -19171,7 +27787,14 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("groenslaai"),
-            keywords: &["blaarslaai", "groenslaai", "kos", "slaai"],
+            keywords: &[
+                "blaarslaai",
+                "dieet",
+                "gesonde kos",
+                "groenslaai",
+                "kos",
+                "slaai",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -19183,7 +27806,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ar",
             tts: Some("سلطة خضراء"),
-            keywords: &["خضراء", "سلطة", "طعام"],
+            keywords: &["أخضر", "أكل", "خضرا", "خضراء", "سلطة", "طعام"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -19199,7 +27822,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("salat"),
-            keywords: &["salat", "tərəvəz", "yaşıl"],
+            keywords: &["göyərti", "salat", "tərəvəz", "yaşıl"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -19224,6 +27847,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("গ\u{9cd}রিন স\u{9cd}য\u{9be}ল\u{9be}দ"),
             keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
                 "খ\u{9be}ব\u{9be}র",
                 "গ\u{9cd}রিন",
                 "স\u{9cd}য\u{9be}ল\u{9be}দ",
@@ -19263,7 +27887,16 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("salát"),
-            keywords: &["jídlo", "salát", "zelený"],
+            keywords: &[
+                "jídlo",
+                "listová zelenina",
+                "okurek",
+                "rajče",
+                "salát",
+                "zdraví",
+                "zdravý",
+                "zelený",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -19281,13 +27914,26 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Salat"),
-            keywords: &["Essen", "Salat"],
+            keywords: &["Blattgemüse", "Essen", "Salat", "gesund", "grün"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πράσινη σαλάτα"),
-            keywords: &["πράσινη σαλάτα", "σαλάτα", "τροφή", "χόρτα"],
+            keywords: &[
+                "πράσινη σαλάτα",
+                "σαλάτα",
+                "τροφή",
+                "φαγητό",
+                "χορταρικά",
+                "χόρτα",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
@@ -19329,7 +27975,14 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["comida", "ensalada"],
+            keywords: &[
+                "bol",
+                "comida",
+                "ensalada",
+                "vegetales",
+                "verde",
+                "verduras",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -19347,7 +28000,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("roheline salat"),
-            keywords: &["roheline", "salat", "toit"],
+            keywords: &["roheline", "salat", "söök", "toit"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -19383,7 +28036,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("salade verte"),
-            keywords: &["salade", "verte"],
+            keywords: &["nourriture", "salade", "verte"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -19395,7 +28048,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("sailéad"),
-            keywords: &["bia", "glasraí", "sailéad"],
+            keywords: &["bia", "glas", "glasraí", "sailéad"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -19413,13 +28066,51 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("લીલ\u{ac1}\u{a82} સ\u{ac5}લડ"),
-            keywords: &["ભોજન", "લીલ\u{ac1}\u{a82}", "સ\u{ac5}લડ"],
+            keywords: &[
+                "કચ\u{ac1}\u{a82}બર",
+                "કા\u{a82}દા",
+                "કાકડી",
+                "ખાનપાન",
+                "ખોરાક",
+                "ટામ\u{ac7}ટા",
+                "ડ\u{ac1}\u{a82}ગળી",
+                "ભોજન",
+                "લીલા પા\u{a82}દળા",
+                "લીલ\u{ac1}\u{a82}",
+                "શાકભાજી",
+                "સલાડ",
+                "સ\u{ac5}લડ",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("salak na ganye"),
-            keywords: &["abinci", "ganyen", "salak", "salak na ganye"],
+            keywords: &[
+                "abinci",
+                "ganyen",
+                "haɗin salak",
+                "kayan ganye",
+                "kwaɗon salak",
+                "salad",
+                "salak",
+                "salak na ganye",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("salak na ganye"),
+            keywords: &[
+                "abinci",
+                "ganyen",
+                "haɗin salak",
+                "kayan ganye",
+                "kwaɗon salak",
+                "salad",
+                "salak",
+                "salak na ganye",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -19431,7 +28122,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("हरा सलाद"),
-            keywords: &["भोजन", "सलाद", "हरा"],
+            keywords: &["खाना", "भोजन", "सलाद", "हरा"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -19443,7 +28134,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("zöld saláta"),
-            keywords: &["saláta", "zöld", "étel"],
+            keywords: &["saláta", "zöld", "zöldsaláta", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -19455,7 +28146,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("salad hijau"),
-            keywords: &["makanan", "salad", "salad hijau", "sayuran"],
+            keywords: &["hijau", "salad", "sayuran"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -19473,7 +28164,18 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("insalata verde"),
-            keywords: &["cibo", "insalata", "insalata verde"],
+            keywords: &[
+                "cena",
+                "cibo",
+                "insalata",
+                "insalata mista",
+                "insalata verde",
+                "mangiare",
+                "pranzo",
+                "salutare",
+                "salute",
+                "verdure",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -19492,6 +28194,12 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მწვანე სალათა"),
             keywords: &["მწვანე", "მწვანე სალათა", "საკვები", "სალათი"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("cclaḍa tazegzawt"),
+            keywords: &["cclaḍa tazegzawt"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -19515,13 +28223,28 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ತರಕಾರ\u{cbf} ಸಲಾಡ\u{ccd}"),
-            keywords: &["ಆಹಾರ", "ತರಕಾರ\u{cbf}", "ಸಲಾಡ\u{ccd}"],
+            keywords: &[
+                "ಆಹಾರ",
+                "ತರಕಾರ\u{cbf}",
+                "ಸಲಾಡ\u{ccd}",
+                "ಸಸ\u{ccd}ಯಹಾರ\u{cbf}",
+                "ಹಸ\u{cbf}ರು",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("야채샐러드"),
-            keywords: &["건강", "샐러드", "야채", "야채샐러드", "채소"],
+            keywords: &[
+                "건강",
+                "그린",
+                "샐러드",
+                "식품",
+                "야채",
+                "야채샐러드",
+                "음식",
+                "채소",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -19557,7 +28280,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("zaļie salāti"),
-            keywords: &["salāti", "zaļi", "zaļie salāti", "ēdiens"],
+            keywords: &["pārtika", "salāti", "zaļi", "zaļie salāti", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -19592,7 +28315,15 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("हिरवा सलाद"),
-            keywords: &["खाद\u{94d}य", "सलाद", "हिरवा सलाद", "हिरव\u{947}"],
+            keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
+                "खाद\u{94d}य",
+                "सलाद",
+                "स\u{945}ल\u{947}ड",
+                "हिरवा",
+                "हिरव\u{947}",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -19617,12 +28348,6 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
                 "အသ\u{102f}ပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("grønn salat"),
-            keywords: &["grønn", "mat", "salat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -19633,7 +28358,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("groene salade"),
-            keywords: &["groen", "groene salade", "salade", "voedsel"],
+            keywords: &["eten", "groen", "salade"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -19646,15 +28371,23 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             lang: "or",
             tts: Some("ସବ\u{b41}ଜ ସ\u{b3e}ଲ\u{b3e}ଡ\u{b4d}"),
             keywords: &[
-                "ସବ\u{b41}ଜ । ସ\u{b3e}ଲ\u{b3e}ଡ । ଖ\u{b3e}ଦ\u{b4d}ୟ",
+                "ଖ\u{b3e}ଦ\u{b4d}ୟ",
+                "ସବ\u{b41}ଜ",
                 "ସବ\u{b41}ଜ ସ\u{b3e}ଲ\u{b3e}ଡ\u{b4d}",
+                "ସ\u{b3e}ଲ\u{b3e}ଡ",
             ],
         },
         #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਹਰਾ ਸਲਾਦ"),
-            keywords: &["ਭ\u{a4b}ਜਨ", "ਸਲਾਦ", "ਹਰਾ"],
+            keywords: &[
+                "ਤ\u{a70}ਦਰ\u{a41}ਸਤ",
+                "ਭ\u{a4b}ਜਨ",
+                "ਸਲਾਦ",
+                "ਸਿਹਤਮ\u{a70}ਦ",
+                "ਹਰਾ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -19672,7 +28405,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("sałatka"),
-            keywords: &["jedzenie", "sałata", "sałatka"],
+            keywords: &["jedzenie", "sałata", "sałatka", "surówka"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -19684,13 +28417,13 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("salada verde"),
-            keywords: &["comida", "salada", "verde"],
+            keywords: &["comida", "fome", "restaurante", "salada", "verde"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("salada"),
-            keywords: &["alface", "comida", "salada", "verdura"],
+            keywords: &["alface", "comida", "salada", "salada verde", "verdura"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -19702,7 +28435,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("salată verde"),
-            keywords: &["mâncare", "salată", "verde"],
+            keywords: &["legume", "mâncare", "salată", "verde"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -19714,13 +28447,27 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("овощной салат"),
-            keywords: &["еда", "овощи", "овощной салат", "салат"],
+            keywords: &[
+                "еда",
+                "овощи",
+                "овощная нарезка",
+                "овощной салат",
+                "огород",
+                "салат",
+                "урожай",
+            ],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("salade y’imboga"),
             keywords: &["ibiribwa", "icyatsi", "salade", "salade y’imboga"],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱦᱟᱹᱨᱤᱭᱟᱹᱲ ᱥᱟᱞᱟᱰ"),
+            keywords: &["ᱦᱟᱹᱨᱤᱭᱟᱹᱲ ᱥᱟᱞᱟᱰ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -19738,7 +28485,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("šalát"),
-            keywords: &["jedlo", "zelený", "šalát"],
+            keywords: &["hlad", "jedlo", "zdravie", "zelený", "šalát"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -19758,6 +28505,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             tts: Some("sallatë e gjelbër"),
             keywords: &[
                 "e gjelbër",
+                "jeshile",
                 "perime",
                 "sallatë",
                 "sallatë e gjelbër",
@@ -19768,7 +28516,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("зелена салата"),
-            keywords: &["здраво", "зелена салата", "зелено", "салата", "храна"],
+            keywords: &["зелено", "салата", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -19780,7 +28528,13 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("zelena salata"),
-            keywords: &["hrana", "salata", "zdravo", "zelena salata", "zeleno"],
+            keywords: &["hrana", "salata", "zeleno"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -19792,7 +28546,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("kachumbari"),
-            keywords: &["chakula", "kachumbari", "saladi"],
+            keywords: &["chakula", "kachumbari", "kijani", "saladi"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -19804,13 +28558,20 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("ச\u{bbe}லட\u{bcd}"),
-            keywords: &["உணவு", "ச\u{bbe}லட\u{bcd}"],
+            keywords: &[
+                "ஆரோக\u{bcd}கியம\u{bcd}",
+                "உணவு",
+                "கலவை",
+                "க\u{bbe}ய\u{bcd}கறி",
+                "ச\u{bbe}லட\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("గ\u{c4d}ర\u{c40}న\u{c4d} సల\u{c3e}డ\u{c4d}"),
             keywords: &[
+                "ఆర\u{c4b}గ\u{c4d}యకరమ\u{c48}న ఆహరం",
                 "ఆహ\u{c3e}రం",
                 "గ\u{c4d}ర\u{c40}న\u{c4d}",
                 "సల\u{c3e}డ\u{c4d}",
@@ -19834,6 +28595,12 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
                 "ไดเอ\u{e47}ท",
             ],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሰላጣ"),
+            keywords: &["ሓምላይ", "መግቢ", "ሰላጣ", "ሳላጣ", "ቀጠልያ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -19850,7 +28617,7 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("yeşil salata"),
-            keywords: &["salata", "yeşil", "yiyecek"],
+            keywords: &["gıda", "salata", "sağlıklı", "yemek", "yeşil", "yiyecek"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -19862,13 +28629,13 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("зелений салат"),
-            keywords: &["зелений", "салат", "їжа"],
+            keywords: &["дієта", "здорове харчування", "зелений", "салат", "їжа"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("سبز سلاد"),
-            keywords: &["خوراک", "سبز", "سلاد"],
+            keywords: &["خوراک", "سبز", "سبزی", "سلاد", "کھانا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -19900,6 +28667,12 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             tts: Some("Saladi Elewe"),
             keywords: &["Saladi Elewe", "eléwé", "sàláádì", "ónjẹ"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Saladi Elewe"),
+            keywords: &["Saladi Elewe", "eléwé", "sàláádì", "ónjɛ"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -19916,19 +28689,19 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("绿色沙拉"),
-            keywords: &["沙拉", "绿色沙拉", "食物"],
+            keywords: &["沙拉", "绿色沙拉", "绿色蔬菜", "食物"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("生菜沙拉"),
-            keywords: &["沙拉", "生菜", "生菜沙拉"],
+            keywords: &["沙拉", "生菜", "生菜沙拉", "食物"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("生菜沙律"),
-            keywords: &["沙律", "生菜沙律", "蔬菜沙律"],
+            keywords: &["沙律", "生菜沙律", "綠色", "蔬菜", "蔬菜沙律", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -19960,19 +28733,34 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("springmielies"),
-            keywords: &["fliek", "springmielies"],
+            keywords: &[
+                "bioskoop",
+                "fliek",
+                "happie",
+                "springmielies",
+                "versnapering",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ፈንድሻ"),
-            keywords: &["ፈንድሻ"],
+            keywords: &["ምግብ", "ፈንድሻ", "ፊልም"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("فشار"),
-            keywords: &["ذرة", "فشار", "فيشار"],
+            keywords: &[
+                "بوب كورن",
+                "بوشار",
+                "ذرة",
+                "فشار",
+                "فوشار",
+                "فيشار",
+                "فيلم",
+                "موفي",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -19984,7 +28772,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("popkorn"),
-            keywords: &["popkorn"],
+            keywords: &["film", "popkorn"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -19996,13 +28784,17 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("пуканки"),
-            keywords: &["пуканки"],
+            keywords: &["кино", "пуканки", "филм"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("পপকর\u{9cd}ণ"),
-            keywords: &["পপকর\u{9cd}ণ"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "পপকর\u{9cd}ণ",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -20020,7 +28812,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("crispetes"),
-            keywords: &["blat de moro", "crispetes"],
+            keywords: &["blat de moro", "crispetes", "pel·lícula"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -20033,6 +28825,10 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             lang: "cs",
             tts: Some("popcorn"),
             keywords: &[
+                "fastfood",
+                "film",
+                "jídlo",
+                "kino",
                 "popcorn",
                 "popkorn",
                 "pražená kukuřice",
@@ -20050,25 +28846,31 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("popcorn"),
-            keywords: &["popcorn"],
+            keywords: &["biograf", "film", "popcorn"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Popcorn"),
-            keywords: &["Popcorn", "Snack"],
+            keywords: &["Kino", "Popcorn", "Snack"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ποπ-κορν"),
-            keywords: &["ποπ κορν", "ποπ-κορν"],
+            keywords: &["ποπ κορν", "ποπ-κορν", "ταινία"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("popcorn"),
-            keywords: &["popcorn"],
+            keywords: &["corn", "movie", "pop", "popcorn"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -20104,7 +28906,16 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("palomitas de maíz"),
-            keywords: &["cine", "maíz", "palomitas", "palomitas de maíz", "pochoclo"],
+            keywords: &[
+                "cine",
+                "cotufas",
+                "maiz",
+                "maíz",
+                "palomitas",
+                "palomitas de maíz",
+                "pelicula",
+                "pochoclo",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -20116,13 +28927,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["palomitas de maíz"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("popkorn"),
-            keywords: &["mais", "popkorn"],
+            keywords: &["film", "mais", "popkorn"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -20140,13 +28951,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("popcorn"),
-            keywords: &["maissi", "popcorn"],
+            keywords: &["elokuva", "leffa", "maissi", "popparit"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("popcorn"),
-            keywords: &["chichirya", "pagkain", "popcorn"],
+            keywords: &["chichirya", "pagkain", "pikapika", "popcorn"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -20158,7 +28969,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("pop-corn"),
-            keywords: &["pop-corn"],
+            keywords: &["cinéma", "nourriture", "pop-corn"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -20170,7 +28981,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("grán rósta"),
-            keywords: &["grán rósta"],
+            keywords: &["gráin róstach", "grán rósta", "scannán"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -20188,13 +28999,28 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("પૉપકોર\u{acd}ન"),
-            keywords: &["પૉપકોર\u{acd}ન", "મકાઈના શ\u{ac7}ક\u{ac7}લા દાણા"],
+            keywords: &[
+                "ખાનપાન",
+                "ખોરાક",
+                "ચલચિત\u{acd}ર",
+                "પૉપકોર\u{acd}ન",
+                "ભોજન",
+                "મકાઈના શ\u{ac7}ક\u{ac7}લા દાણા",
+                "મનોર\u{a82}જન",
+                "સીન\u{ac7}મા",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("gugguru"),
-            keywords: &["gugguru"],
+            keywords: &["abincin sayarwa", "abincin yara", "gugguru", "gurguru"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gugguru"),
+            keywords: &["abincin sayarwa", "abincin yara", "gugguru", "gurguru"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -20206,19 +29032,19 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("पॉपकॉर\u{94d}न"),
-            keywords: &["पॉपकॉर\u{94d}न"],
+            keywords: &["चलचित\u{94d}र", "पॉपकॉर\u{94d}न", "फिल\u{94d}म"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("kokice"),
-            keywords: &["kokice"],
+            keywords: &["hrana", "kino", "kokice"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("pattogatott kukorica"),
-            keywords: &["kukorica", "pattogatott kukorica"],
+            keywords: &["kukorica", "mozi", "pattogatott kukorica", "étel"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -20230,7 +29056,14 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("popcorn"),
-            keywords: &["berondong", "jagung", "popcorn"],
+            keywords: &[
+                "berondong",
+                "bioskop",
+                "film",
+                "jagung",
+                "nonton",
+                "popcorn",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -20248,7 +29081,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("popcorn"),
-            keywords: &["cinema", "mais", "popcorn"],
+            keywords: &["cibo", "cinema", "mais", "popcorn"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -20268,11 +29101,17 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             tts: Some("ბატი-ბუტი"),
             keywords: &["ბატი-ბუტი", "პოპკორნი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("akbal icuffen"),
+            keywords: &["akbal icuffen"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("попкорн"),
-            keywords: &["попкорн"],
+            keywords: &["кино", "попкорн", "тағам", "фильм"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -20293,7 +29132,11 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಪಾಪ\u{ccd}\u{200c}ಕಾರ\u{ccd}ನ\u{ccd}"),
-            keywords: &["ಜ\u{ccb}ಳದ ಅರಳು", "ಪಾಪ\u{ccd}\u{200c}ಕಾರ\u{ccd}ನ\u{ccd}"],
+            keywords: &[
+                "ಜ\u{ccb}ಳದ ಅರಳು",
+                "ಪಾಪ\u{ccd}\u{200c}ಕಾರ\u{ccd}ನ\u{ccd}",
+                "ಸ\u{cbf}ನ\u{cc6}ಮಾ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -20323,19 +29166,19 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lo",
             tts: Some("ປ\u{eb1}ອບຄອນ"),
-            keywords: &["ປ\u{eb1}ອບຄອນ", "ສາລ\u{eb5}ຂ\u{ebb}\u{ec9}ວ"],
+            keywords: &["ປ\u{eb1}ອບຄອນ", "ສາລ\u{eb5}ຂ\u{ebb}\u{ec9}ວ", "ໜ\u{eb1}ງ"],
         },
         #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("spragėsiai"),
-            keywords: &["spragėsiai"],
+            keywords: &["kinas", "maistas", "spragėsiai"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("popkorns"),
-            keywords: &["kukurūza", "popkorns"],
+            keywords: &["kino", "kukurūza", "popkorns"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -20347,7 +29190,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("пуканки"),
-            keywords: &["пуканки", "пченка"],
+            keywords: &["пуканки", "пченка", "филм"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -20365,13 +29208,20 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("पॉपकॉर\u{94d}न"),
-            keywords: &["पॉपकॉर\u{94d}न"],
+            keywords: &[
+                "अन\u{94d}न",
+                "उपाहार",
+                "खाद\u{94d}य",
+                "पॉपकॉर\u{94d}न",
+                "लाह\u{94d}या",
+                "सिन\u{947}मा",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("bertih jagung"),
-            keywords: &["bertih jagung"],
+            keywords: &["bertih jagung", "filem"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -20385,12 +29235,6 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             tts: Some("ပြောင\u{103a}းဖ\u{1030}းပေါက\u{103a}ပေါက\u{103a}"),
             keywords: &["ပြောင\u{103a}းဖ\u{1030}းပေါက\u{103a}ပေါက\u{103a}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("popkorn"),
-            keywords: &["kino", "popcorn", "popkorn"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -20401,13 +29245,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("popcorn"),
-            keywords: &["popcorn"],
+            keywords: &["film", "maïs", "pop", "popcorn"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("popkorn"),
-            keywords: &["kino", "popcorn", "popkorn"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -20421,8 +29265,12 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             tts: Some("ਖਿ\u{a71}ਲਾ\u{a02}"),
             keywords: &[
                 "ਖਿ\u{a71}ਲਾ\u{a02}",
+                "ਥੀਏਟਰ",
+                "ਪ\u{a4c}ਪਕ\u{a4b}ਰਨ",
                 "ਫ\u{a41}\u{a71}ਲ\u{a47}",
+                "ਮ\u{a42}ਵੀ",
                 "ਮ\u{a71}ਕੀ ਦ\u{a47} ਦਾਣ\u{a47}",
+                "ਸਿਨ\u{a47}ਮਾ",
             ],
         },
         #[cfg(feature = "pa_Arab")]
@@ -20441,7 +29289,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("popcorn"),
-            keywords: &["popcorn"],
+            keywords: &["jedzenie", "kino", "kukurydza", "popcorn"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -20453,13 +29301,19 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("pipoca"),
-            keywords: &["balde de pipoca", "pipoca", "pipoca de cinema"],
+            keywords: &["balde", "cinema", "pipoca"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("pipocas"),
-            keywords: &["balde de pipoca", "pipoca de cinema", "pipocas"],
+            keywords: &[
+                "balde de pipocas",
+                "cinema",
+                "filme",
+                "pipoca de cinema",
+                "pipocas",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -20470,8 +29324,10 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
-            tts: Some("floricele de porumb"),
+            tts: Some("popcorn"),
             keywords: &[
+                "cinematograf",
+                "film",
                 "floricele",
                 "floricele de porumb",
                 "pop-corn",
@@ -20513,13 +29369,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("pukance"),
-            keywords: &["popcorn", "pukance"],
+            keywords: &["fast food", "film", "jedlo", "kino", "popcorn", "pukance"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("pokovka"),
-            keywords: &["kokice", "pokovka"],
+            keywords: &["film", "kokice", "pokovka"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -20531,13 +29387,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("kokoshka"),
-            keywords: &["kokoshka"],
+            keywords: &["film", "kokoshka"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("кокице"),
-            keywords: &["кокице"],
+            keywords: &["кокице", "филм"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -20549,7 +29405,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kokice"),
-            keywords: &["kokice"],
+            keywords: &["film", "kokice"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -20561,7 +29423,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("bisi"),
-            keywords: &["bisi"],
+            keywords: &["bisi", "popkoni"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -20574,7 +29436,10 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("ப\u{bbe}ப\u{bcd} க\u{bbe}ரன\u{bcd}"),
             keywords: &[
+                "உணவு",
+                "திரைப\u{bcd}படம\u{bcd}",
                 "ப\u{bbe}ப\u{bcd} க\u{bbe}ரன\u{bcd}",
+                "ப\u{bbe}ப\u{bcd}க\u{bbe}ர\u{bcd}ன\u{bcd}",
                 "பொருட\u{bcd}க\u{bbe}ட\u{bcd}சி",
             ],
         },
@@ -20585,6 +29450,7 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ప\u{c3e}ప\u{c4d}\u{200c}క\u{c3e}ర\u{c4d}న\u{c4d}",
                 "ర\u{c46}స\u{c4d}ట\u{c3e}ర\u{c46}ంట\u{c4d}",
+                "స\u{c3f}న\u{c3f}మ\u{c3e}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -20599,6 +29465,12 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             tts: Some("ป\u{e4a}อปคอร\u{e4c}น"),
             keywords: &["ข\u{e49}าวโพดค\u{e31}\u{e48}ว", "ป\u{e4a}อปคอร\u{e4c}น"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("እንበባ"),
+            keywords: &["እንበባ", "ዕፉን", "ፊልም", "ፖፕ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -20609,13 +29481,13 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("koane fakapaku"),
-            keywords: &["koane fakapaku"],
+            keywords: &["fakapaku", "koane"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("patlamış mısır"),
-            keywords: &["mısır", "patlamış mısır"],
+            keywords: &["gıda", "mısır", "patlamış mısır", "sinema"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -20633,19 +29505,27 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("پاپ کارن"),
-            keywords: &["اسنیک", "پاپ کارن"],
+            keywords: &[
+                "اسنیک",
+                "بحٹے کے دانے",
+                "بھنی ہوئی مکئی کی کیلیں",
+                "فلم",
+                "موی",
+                "پاپ کارن",
+                "چٹخی ہوئی مکئی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("popkorn"),
-            keywords: &["popkorn"],
+            keywords: &["film", "kino", "popkorn", "yegulik"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bỏng ngô"),
-            keywords: &["bỏng ngô"],
+            keywords: &["bỏng ngô", "phim"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -20665,6 +29545,12 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             tts: Some("Gúgúrú"),
             keywords: &["Gúgúrú"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("Gúgúrú"),
+            keywords: &["Gúgúrú"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -20681,19 +29567,19 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("爆米花"),
-            keywords: &["爆米花"],
+            keywords: &["爆米花", "看电影"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("爆米花"),
-            keywords: &["爆米花"],
+            keywords: &["爆米花", "看電影"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("爆谷"),
-            keywords: &["爆谷"],
+            keywords: &["爆谷", "電影", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -20725,19 +29611,35 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("botter"),
-            keywords: &["botter", "suiwel"],
+            keywords: &[
+                "botter",
+                "broodsmeer",
+                "plaasbotter",
+                "suiwel",
+                "suiwelproduk",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ቅቤ"),
-            keywords: &["ቅቤ", "የወተት ምርት"],
+            keywords: &["ምግብ", "ቅቤ", "የወተት ምርት", "የወተት ተዋጽዖ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("زبد"),
-            keywords: &["ألبان", "زبد", "منتجات ألبان"],
+            keywords: &[
+                "أكل",
+                "ألبان",
+                "جبن",
+                "جبنة",
+                "زبد",
+                "زبدة",
+                "طعام",
+                "قشدة",
+                "منتجات ألبان",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -20767,7 +29669,12 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bn",
             tts: Some("ম\u{9be}খন"),
-            keywords: &["ডেয\u{9bc}\u{9be}রি", "ম\u{9be}খন"],
+            keywords: &[
+                "খ\u{9be}দ\u{9cd}য ও প\u{9be}নীয\u{9bc}",
+                "খ\u{9be}ব\u{9be}র",
+                "ডেয\u{9bc}\u{9be}রি",
+                "ম\u{9be}খন",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -20797,7 +29704,17 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("máslo"),
-            keywords: &["mlékařské", "mlékárenské", "mlékárna", "mléčné", "máslo"],
+            keywords: &[
+                "jídlo",
+                "mlékařské",
+                "mlékařství",
+                "mlékárenské",
+                "mlékárna",
+                "mléčné",
+                "mléčné výrobky",
+                "máselnička",
+                "máslo",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -20815,7 +29732,13 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Butter"),
-            keywords: &["Butter", "Milchprodukt"],
+            keywords: &["Butter", "Essen", "Lebensmittel", "Milchprodukt", "Nahrung"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -20863,7 +29786,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["comida", "lácteo", "mantequilla", "margarina"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -20949,25 +29872,53 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("manteiga"),
-            keywords: &["almorzo", "manteiga", "margarina", "torrada"],
+            keywords: &["almorzo", "margarina", "torrada"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("માખણ"),
-            keywords: &["ડ\u{ac7}રી", "માખણ"],
+            keywords: &[
+                "ખાદ\u{acd}યપદાર\u{acd}થ",
+                "ખાવાન\u{ac1}\u{a82}",
+                "ખોરાક",
+                "ચરબી",
+                "ડ\u{ac7}રી",
+                "નાસ\u{acd}તો",
+                "બટર",
+                "બ\u{acd}ર\u{ac7}ડબટર",
+                "માખણ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("bota"),
+            keywords: &["bota", "cikui", "cikwi", "mai", "man-shanu", "na shanu"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("bota"),
+            keywords: &["bota", "cikui", "cikwi", "mai", "man-shanu", "na shanu"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("חמאה"),
-            keywords: &["חמאה", "מוצרי חלב"],
+            keywords: &["חמאה", "מוצרי חלב", "מרגרינה"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("मक\u{94d}खन"),
-            keywords: &["द\u{942}ध स\u{947} बन\u{947} पदार\u{94d}थ", "मक\u{94d}खन"],
+            keywords: &[
+                "ड\u{947}यरी",
+                "ड\u{947}री",
+                "द\u{942}ध स\u{947} बन\u{947} पदार\u{94d}थ",
+                "बटर",
+                "मक\u{94d}खन",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -20993,6 +29944,12 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             tts: Some("mentega"),
             keywords: &["mentega", "produk susu"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("bọta"),
+            keywords: &["bọta", "dayari"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -21003,7 +29960,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("burro"),
-            keywords: &["burro", "latticini", "latticino"],
+            keywords: &["alimento", "burro", "cibo", "latticini", "latticino"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -21023,11 +29980,17 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             tts: Some("კარაქი"),
             keywords: &["კარაქი", "რძის ნაწარმი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("udi"),
+            keywords: &["udi"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("сары май"),
-            keywords: &["майжуаз", "сары май"],
+            keywords: &["май", "майжуаз", "сары май", "сүт тағамдары"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -21042,7 +30005,13 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಬ\u{cc6}ಣ\u{ccd}ಣ\u{cc6}"),
-            keywords: &["ಡ\u{cc8}ರ\u{cbf}", "ಬ\u{cc6}ಣ\u{ccd}ಣ\u{cc6}"],
+            keywords: &[
+                "ಡ\u{cc8}ರ\u{cbf}",
+                "ನಯ",
+                "ಬ\u{cc6}ಣ\u{ccd}ಣ\u{cc6}",
+                "ಮೃದು",
+                "ಹಾಲ\u{cbf}ನ ಉತ\u{ccd}ಪನ\u{ccd}ನ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -21075,7 +30044,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("sviestas"),
-            keywords: &["pieno produktas", "sviestas"],
+            keywords: &["maistas", "pieno produktas", "sviestas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
@@ -21093,7 +30062,11 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ml",
             tts: Some("ബട\u{d4d}ടർ"),
-            keywords: &["പ\u{d3e}ല\u{d41}ൽപ\u{d4d}പന\u{d4d}നം", "ബട\u{d4d}ടർ"],
+            keywords: &[
+                "പ\u{d3e}ല\u{d41}ൽപ\u{d4d}പന\u{d4d}നം",
+                "ബട\u{d4d}ടർ",
+                "വെണ\u{d4d}ണ",
+            ],
         },
         #[cfg(feature = "mn")]
         crate::Annotation {
@@ -21105,7 +30078,14 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("लोणी"),
-            keywords: &["ड\u{947}अरी", "लोणी"],
+            keywords: &[
+                "ड\u{947}अरी",
+                "द\u{941}ग\u{94d}धजन\u{94d}य पदार\u{94d}थ",
+                "पावभाजी",
+                "पावाच\u{947} बटर",
+                "बटर",
+                "लोणी",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
@@ -21122,12 +30102,6 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
                 "န\u{102d}\u{102f}\u{1037}ထ\u{103d}က\u{103a}ပစ\u{1039}စည\u{103a}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("smør"),
-            keywords: &["meieriprodukt", "smør"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -21143,8 +30117,8 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("smør"),
-            keywords: &["meieriprodukt", "smør"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -21156,7 +30130,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਮ\u{a71}ਖਣ"),
-            keywords: &["ਡ\u{a47}ਅਰੀ", "ਮ\u{a71}ਖਣ"],
+            keywords: &["ਡ\u{a47}ਅਰੀ", "ਦ\u{a41}\u{a71}ਧ", "ਬਟਰ", "ਮ\u{a71}ਖਣ"],
         },
         #[cfg(feature = "pcm")]
         crate::Annotation {
@@ -21168,7 +30142,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("masło"),
-            keywords: &["masło", "nabiał"],
+            keywords: &["jedzenie", "masło", "nabiał"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -21180,13 +30154,13 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("manteiga"),
-            keywords: &["laticínio", "manteiga"],
+            keywords: &["laticínio", "manteiga", "margarina"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["laticínio", "manteiga"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -21198,7 +30172,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("unt"),
-            keywords: &["lactate", "unt"],
+            keywords: &["lactate", "mâncare", "unt"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -21211,6 +30185,8 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("масло"),
             keywords: &[
+                "готовить",
+                "еда",
                 "масленка",
                 "масло",
                 "масляный",
@@ -21236,13 +30212,19 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("maslo"),
-            keywords: &["maslo", "mliekarenské", "mliekareň", "mliečne"],
+            keywords: &[
+                "maslo",
+                "mliekarenské",
+                "mliekareň",
+                "mliečne",
+                "mliečny výrobok",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("maslo"),
-            keywords: &["maslo", "mlečni izdelek", "mlečno"],
+            keywords: &["hrana", "maslo", "mlečni izdelek", "mlečno"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -21254,31 +30236,31 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("gjalpë"),
-            keywords: &["gjalpë", "qumështore"],
+            keywords: &["bulmet", "gjalpë", "qumështore"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("путер"),
-            keywords: &["млечни производи", "путер"],
+            keywords: &["маслац", "путер"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["путер"],
+            keywords: &["млијечни производи", "путер"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("puter"),
-            keywords: &["mlečni proizvodi", "puter"],
+            keywords: &["maslac", "puter"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["puter"],
+            tts: Some("↑↑↑"),
+            keywords: &["mliječni proizvodi", "puter"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -21303,7 +30285,10 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("வெண\u{bcd}ணெய\u{bcd}"),
             keywords: &[
+                "கொழுப\u{bcd}பு",
+                "ச\u{bbe}ண\u{bcd}ட\u{bcd}விச\u{bcd}",
                 "ப\u{bbe}ல\u{bcd} பொருட\u{bcd}கள\u{bcd}",
+                "ப\u{bbe}ல\u{bcd} பொருள\u{bcd}",
                 "வெண\u{bcd}ணெய\u{bcd}",
             ],
         },
@@ -21311,13 +30296,24 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "te",
             tts: Some("వ\u{c46}న\u{c4d}న"),
-            keywords: &["ప\u{c3e}ల ఉత\u{c4d}పత\u{c4d}తులు", "వ\u{c46}న\u{c4d}న"],
+            keywords: &[
+                "డ\u{c46}య\u{c3f}ర\u{c40}",
+                "ప\u{c3e}ల ఉత\u{c4d}పత\u{c4d}తులు",
+                "బట\u{c4d}టర\u{c4d}",
+                "వ\u{c46}న\u{c4d}న",
+            ],
         },
         #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เนย"),
-            keywords: &["ผล\u{e34}ตภ\u{e31}ณฑ\u{e4c}นม", "เนย"],
+            keywords: &["นม", "ว\u{e31}ว", "อาหาร", "เนย"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጠስሚ"),
+            keywords: &["እንዳ ጸባ", "እንዳ ጽዕዲት", "ጠስሚ", "ጽዕዲታዊ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -21335,7 +30331,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("tereyağı"),
-            keywords: &["süt ürünü", "tereyağı"],
+            keywords: &["süt ürünü", "tereyağ", "tereyağı"],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
@@ -21347,7 +30343,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("مکھن"),
-            keywords: &["مکھن", "ڈیری"],
+            keywords: &["بٹر", "مکھن", "ڈیری", "کھانا پینا"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -21360,6 +30356,18 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("bơ"),
             keywords: &["bơ", "bơ sữa"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("bọ\u{301}tà"),
+            keywords: &["bọ\u{301}tà", "mílíkì"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("bɔ\u{301}tà"),
+            keywords: &["bɔ\u{301}tà", "mílíkì"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -21389,7 +30397,7 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("牛油"),
-            keywords: &["乳製品", "牛油"],
+            keywords: &["乳製品", "奶類", "牛油", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -21421,19 +30429,57 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("sout"),
-            keywords: &["pot", "sout", "soutpot", "speserye", "speserypot"],
+            keywords: &[
+                "geur",
+                "kombuissout",
+                "pot",
+                "potjie",
+                "skudder",
+                "smaak",
+                "smaakmiddel",
+                "sout",
+                "souterig",
+                "soutpot",
+                "speserye",
+                "speserypot",
+                "tafelsout",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ጨው"),
-            keywords: &["መወዝወዣ", "ቅመም", "ጨው"],
+            keywords: &[
+                "መበሳጨት",
+                "መናደድ",
+                "መወዝወዣ",
+                "ማጣፈጫ",
+                "ቅመም",
+                "ጣዕም",
+                "ጨዋማ",
+                "ጨው",
+                "ጨው መነስነስ",
+                "ጨው ማስቀመጫ",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ملح"),
-            keywords: &["توابل", "رشاشة ملح", "ملح", "مملحة"],
+            keywords: &[
+                "بهارات",
+                "توابل",
+                "حائر",
+                "رشاشة ملح",
+                "مالح",
+                "مجنون",
+                "مذاق",
+                "مستاء",
+                "ملح",
+                "مل\u{651}احة",
+                "مملحة",
+                "نكهة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -21445,7 +30491,7 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("duz"),
-            keywords: &["duz", "duzqabı", "ədviyyat"],
+            keywords: &["dad", "duz", "duzqabı", "ədviyyat"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -21457,13 +30503,23 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("сол"),
-            keywords: &["подправка", "сол", "солница"],
+            keywords: &["вкус", "подправка", "сол", "солено", "солница"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("লবণ"),
-            keywords: &["আচ\u{9be}র", "লবণ", "শেক\u{9be}র"],
+            keywords: &[
+                "আচ\u{9be}র",
+                "নোনত\u{9be}",
+                "মশল\u{9be}",
+                "মিক\u{9cd}স\u{9be}র",
+                "লবণ",
+                "লবনদ\u{9be}নি",
+                "শেক\u{9be}র",
+                "স\u{9c1}স\u{9cd}ব\u{9be}দ\u{9c1}",
+                "স\u{9cd}ব\u{9be}দ",
+            ],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -21481,7 +30537,18 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("sal"),
-            keywords: &["condiment", "sal", "saler"],
+            keywords: &[
+                "condiment",
+                "disgustada",
+                "disgustat",
+                "fada",
+                "fat",
+                "gust",
+                "sabor",
+                "sal",
+                "salat",
+                "saler",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -21493,7 +30560,20 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("sůl"),
-            keywords: &["přísada", "slánka", "sůl"],
+            keywords: &[
+                "chuť",
+                "dochucovadlo",
+                "jídlo",
+                "kořenit",
+                "koření",
+                "ochutit",
+                "posolit",
+                "přísada",
+                "slaný",
+                "slánka",
+                "solnička",
+                "sůl",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -21511,19 +30591,67 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Salz"),
-            keywords: &["Geschmack", "Salz", "Salzstreuer"],
+            keywords: &[
+                "Geschmack",
+                "Gewürz",
+                "Salz",
+                "Salzstreuer",
+                "Würze",
+                "Zutat",
+                "gesalzen",
+                "salzig",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("αλάτι"),
-            keywords: &["αλάτι", "αλατιέρα", "μπαχαρικό"],
+            keywords: &[
+                "έξαλλος",
+                "αλάτι",
+                "αλατιέρα",
+                "αλμυρός",
+                "αναστατωμένος",
+                "γεύση",
+                "καρύκευμα",
+                "μπαχαρικό",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("salt"),
-            keywords: &["condiment", "salt", "shaker"],
+            keywords: &[
+                "condiment",
+                "flavor",
+                "mad",
+                "salt",
+                "salty",
+                "shaker",
+                "taste",
+                "upset",
+            ],
+        },
+        #[cfg(feature = "en_001")]
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "condiment",
+                "flavour",
+                "mad",
+                "salt",
+                "salty",
+                "shaker",
+                "taste",
+                "upset",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -21541,7 +30669,16 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "condiment",
+                "flavour",
+                "mad",
+                "salt",
+                "salty",
+                "shaker",
+                "taste",
+                "upset",
+            ],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -21559,19 +30696,27 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "condimento",
+                "sabor",
+                "sal",
+                "salada",
+                "salado",
+                "salero",
+                "sazón",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("sal"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("sal"),
-            keywords: &["sal"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -21589,7 +30734,19 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("نمک"),
-            keywords: &["ادویه", "نمک", "نمک\u{200c}پاش", "چاشنی"],
+            keywords: &[
+                "ادویه",
+                "بامزه",
+                "بانمک",
+                "شور",
+                "طعم",
+                "مزه",
+                "نمک",
+                "نمک پاش",
+                "نمکدان",
+                "نمک\u{200c}پاش",
+                "چاشنی",
+            ],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -21613,7 +30770,7 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("sel"),
-            keywords: &["condiment", "salière", "sel"],
+            keywords: &["condiment", "salière", "salé", "saveur", "sel"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -21625,7 +30782,7 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("salann"),
-            keywords: &["blastán", "croiteoir", "salann"],
+            keywords: &["blastán", "croiteoir", "salainn", "salann"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -21645,13 +30802,49 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("sal"),
-            keywords: &["condimento", "sal", "saleiro", "salgar"],
+            keywords: &["condimento", "saleiro"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("મીઠ\u{ac1}\u{a82}"),
-            keywords: &["મસાલાની ડબી", "મસાલો", "મીઠ\u{ac1}\u{a82}"],
+            keywords: &[
+                "કૉન\u{acd}ડિમન\u{acd}ટ",
+                "ખાર\u{ac1}\u{a82}",
+                "ટ\u{ac7}સ\u{acd}ટી",
+                "નમક",
+                "નમકહરામ",
+                "નિમક",
+                "મસાલાની ડબી",
+                "મસાલો",
+                "મીઠ\u{ac1}\u{a82}",
+                "સ\u{acd}વાદ",
+                "સ\u{acd}વાદિષ\u{acd}ટ",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("gishiri"),
+            keywords: &[
+                "gishiri",
+                "robar gishiri",
+                "shaker",
+                "tandun gishiri",
+                "ɗanɗano",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gishiri"),
+            keywords: &[
+                "gishiri",
+                "robar gishiri",
+                "shaker",
+                "tandun gishiri",
+                "ɗanɗano",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -21663,19 +30856,19 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("नमक"),
-            keywords: &["नमक", "मसाला", "श\u{947}कर"],
+            keywords: &["नमक", "नमकीन", "मसाला", "श\u{947}कर"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("sol"),
-            keywords: &["sol", "soljenka", "začin"],
+            keywords: &["okus", "slano", "sol", "soljenka", "uzrujan", "začin"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("só"),
-            keywords: &["fűszer", "só", "sószóró"],
+            keywords: &["dühös", "fűszer", "só", "sós", "sószóró", "íz"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -21687,7 +30880,24 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("garam"),
-            keywords: &["bumbu", "garam", "wadah garam"],
+            keywords: &[
+                "asin",
+                "bumbu",
+                "garam",
+                "kecewa",
+                "kesal",
+                "marah",
+                "perisa",
+                "rasa",
+                "sebal",
+                "wadah garam",
+            ],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nnu"),
+            keywords: &["condimenti", "nnu"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -21699,13 +30909,21 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("sale"),
-            keywords: &["condimento", "sale", "saliera"],
+            keywords: &[
+                "condimento",
+                "gusto",
+                "salato",
+                "sale",
+                "saliera",
+                "sapore",
+                "saporito",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("塩"),
-            keywords: &["塩", "振りかけ容器", "薬味", "調味料"],
+            keywords: &["しょっぱい", "塩", "振りかけ容器", "薬味", "調味料"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -21718,6 +30936,12 @@ pub const SALT: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მარილი"),
             keywords: &["მარილი", "სუნელები"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tisent"),
+            keywords: &["tisent"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -21740,16 +30964,20 @@ pub const SALT: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಉಪ\u{ccd}ಪು"),
             keywords: &[
+                "ಅಪ\u{ccd}ಸ\u{cc6}ಟ\u{ccd}",
+                "ಉಪ\u{ccd}ಪ\u{cbf}ನ",
                 "ಉಪ\u{ccd}ಪು",
                 "ಕಾಂಡ\u{cbf}ಮ\u{cc6}ಂಟ\u{ccd}",
+                "ಬ\u{cc7}ಜಾರು",
                 "ಶ\u{cc7}ಕರ\u{ccd}",
+                "ಹುಚ\u{ccd}ಚುತನ",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("소금"),
-            keywords: &["소금", "양념통", "조미료"],
+            keywords: &["당황", "맛", "소금", "양념통", "조미료", "짠", "화남"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -21770,6 +30998,7 @@ pub const SALT: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ນ\u{ecd}\u{ec9}າປ\u{eb1}\u{ec8}ນ",
                 "ເກ\u{eb7}ອ",
+                "ເຄ\u{eb1}ມ",
                 "ເຄ\u{eb7}\u{ec8}ອງປ\u{eb8}ງອາຫານ",
             ],
         },
@@ -21777,19 +31006,19 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("druska"),
-            keywords: &["druska", "druskinė", "prieskonis"],
+            keywords: &["druska", "druskinė", "maistas", "prieskonis"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("sāls"),
-            keywords: &["garšviela", "sāls", "trauciņš"],
+            keywords: &["garša", "garšviela", "sāls", "sāļš", "trauciņš"],
         },
         #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("сол"),
-            keywords: &["зачин", "сол", "соларник"],
+            keywords: &["вкус", "зачин", "сол", "соларник", "солено"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -21807,13 +31036,23 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("मीठ"),
-            keywords: &["मसाला", "मिरप\u{942}ड", "मीठ"],
+            keywords: &["खारट", "चव", "मसाला", "मिरप\u{942}ड", "मीठ", "श\u{947}कर"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("garam"),
-            keywords: &["garam", "penggoncang", "perasa"],
+            keywords: &[
+                "botol",
+                "garam",
+                "makanan",
+                "marah",
+                "masin",
+                "penggoncang",
+                "perasa",
+                "rasa",
+                "sedih",
+            ],
         },
         #[cfg(feature = "my")]
         crate::Annotation {
@@ -21825,12 +31064,6 @@ pub const SALT: crate::Emoji = crate::Emoji {
                 "ဟင\u{103a}းခတ\u{103a}မ\u{103e}\u{102f}န\u{1037}\u{103a} ဘ\u{1030}း",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("salt"),
-            keywords: &["bøsse", "krydder", "salt"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -21841,13 +31074,20 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("zout"),
-            keywords: &["tafelzout", "zout", "zoutvaatje"],
+            keywords: &[
+                "gezouten",
+                "overstuur",
+                "smaak",
+                "specerij",
+                "zout",
+                "zoutvaatje",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("salt"),
-            keywords: &["bøsse", "krydder", "salt"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -21859,7 +31099,17 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਨਮਕ"),
-            keywords: &["ਨਮਕ", "ਨਮਕਦਾਨ", "ਮਸਾਲਾ"],
+            keywords: &[
+                "ਖਾਰਾ",
+                "ਖਿ\u{a71}ਝ\u{a47}",
+                "ਨਮਕ",
+                "ਨਮਕ ਦਾਨੀ",
+                "ਨਮਕਦਾਨ",
+                "ਮਸਾਲਾ",
+                "ਲ\u{a42}ਣ",
+                "ਲ\u{a42}ਣਦਾਨੀ",
+                "ਸ\u{a41}ਆਦ",
+            ],
         },
         #[cfg(feature = "pcm")]
         crate::Annotation {
@@ -21875,7 +31125,15 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("sól"),
-            keywords: &["przyprawa", "solniczka", "sól"],
+            keywords: &[
+                "przyprawa",
+                "smak",
+                "solniczka",
+                "sól",
+                "słona",
+                "słone",
+                "słony",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -21887,13 +31145,13 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("sal"),
-            keywords: &["condimento", "sal", "saleiro"],
+            keywords: &["comida", "condimento", "sabor", "sal", "saleiro", "salgado"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["condimento", "sal", "saleiro"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -21905,7 +31163,15 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("sare"),
-            keywords: &["condiment", "sare", "solniță"],
+            keywords: &[
+                "condiment",
+                "gust",
+                "mâncare",
+                "sare",
+                "savoare",
+                "solniță",
+                "sărat",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -21917,7 +31183,21 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("солонка"),
-            keywords: &["морская соль", "солонка", "соль"],
+            keywords: &[
+                "вкус",
+                "еда",
+                "морская соль",
+                "приправа",
+                "соленый",
+                "солонка",
+                "соль",
+            ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱵᱩᱞᱩᱢ"),
+            keywords: &["ᱵᱩᱞᱩᱢ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -21935,13 +31215,28 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("soľ"),
-            keywords: &["ochutiť", "soľ", "soľnička"],
+            keywords: &[
+                "chuť",
+                "chuťová prísada",
+                "jedlo",
+                "korenie",
+                "koreniť",
+                "ochucovadlo",
+                "ochutenie",
+                "ochutiť",
+                "okoreniť",
+                "posoliť",
+                "príchuť",
+                "slaný",
+                "soľ",
+                "soľnička",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("sol"),
-            keywords: &["sol", "solnica", "začimba"],
+            keywords: &["okus", "sol", "solnica", "začimba"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -21953,13 +31248,22 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("kripë"),
-            keywords: &["erëza", "kripë", "përzierje"],
+            keywords: &[
+                "erëza",
+                "i inatosur",
+                "i kripur",
+                "i mërzitur",
+                "i zemëruar",
+                "kripë",
+                "përzierje",
+                "shije",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("со"),
-            keywords: &["сланик", "со"],
+            keywords: &["зачин", "сланик", "со"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -21971,19 +31275,25 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("so"),
-            keywords: &["slanik", "so"],
+            keywords: &["slanik", "so", "začin"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("salt"),
-            keywords: &["krydda", "salt", "saltkar"],
+            keywords: &["krydda", "salt", "saltkar", "saltströare"],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("chumvi"),
-            keywords: &["chumvi", "kidau", "pilipili"],
+            keywords: &["chukiza", "chumvi", "kidau", "kiungo", "pilipili"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -21995,23 +31305,50 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("உப\u{bcd}பு"),
-            keywords: &["உப\u{bcd}பு", "சுவையூட\u{bcd}டி", "ஷேக\u{bcd}கர\u{bcd}"],
+            keywords: &[
+                "உணவு",
+                "உப\u{bcd}பு",
+                "சுவை",
+                "சுவையூட\u{bcd}டி",
+                "ஷேக\u{bcd}கர\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ఉప\u{c4d}పు"),
-            keywords: &["ఉప\u{c4d}పు", "మస\u{c3e}ల\u{c3e}", "ష\u{c47}కర\u{c4d}"],
+            keywords: &[
+                "అప\u{c4d}\u{200c}స\u{c46}ట\u{c4d}",
+                "ఉప\u{c4d}పు",
+                "క\u{c3e}ండ\u{c3f}మ\u{c46}ంట\u{c4d}",
+                "ట\u{c47}స\u{c4d}ట\u{c4d}",
+                "ప\u{c3f}చ\u{c4d}చ\u{c3f}తనం",
+                "ఫ\u{c4d}ల\u{c47}వర\u{c4d}",
+                "మస\u{c3e}ల\u{c3e}",
+                "మ\u{c4d}య\u{c3e}డ\u{c4d}",
+                "ష\u{c47}కర\u{c4d}",
+                "స\u{c3e}ల\u{c4d}ట\u{c4d}",
+            ],
         },
         #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เกล\u{e37}อ"),
             keywords: &[
-                "ขวดเกล\u{e37}อ",
+                "กระป\u{e38}ก",
+                "ขวด",
+                "พร\u{e34}กไทย",
+                "รสชาต\u{e34}",
                 "เกล\u{e37}อ",
                 "เคร\u{e37}\u{e48}องปร\u{e38}ง",
+                "เค\u{e47}ม",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጨው"),
+            keywords: &["መነስነሲ", "ቀመም", "ጨው"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -22029,19 +31366,43 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("tuz"),
-            keywords: &["tuz", "tuzluk", "çeşni"],
+            keywords: &[
+                "baharat",
+                "baharatlık",
+                "beyaz",
+                "tuz",
+                "tuzlu",
+                "tuzluk",
+                "yemek",
+                "çeşni",
+            ],
         },
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("сіль"),
-            keywords: &["приправа", "сольничка", "сіль", "сільниця", "сільничка"],
+            keywords: &[
+                "аромат",
+                "приправа",
+                "сварка",
+                "смак",
+                "солоний",
+                "спеції",
+                "сіль",
+                "сільниця",
+                "сільничка",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("نمک"),
-            keywords: &["مصالحہ", "نمک", "نمک دانی"],
+            keywords: &[
+                "مصالحہ",
+                "مصالحہ ،نمک، شیکر، فلیور، ذائقہ، نمکین، پریشان، پاگل",
+                "نمک",
+                "نمک دانی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -22054,6 +31415,18 @@ pub const SALT: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("muối"),
             keywords: &["bình lắc", "gia vị", "muối"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("iyọ\u{300}"),
+            keywords: &["ero ounje", "iyo", "iyọ\u{300}"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("iyɔ\u{300}"),
+            keywords: &["ero ounje", "iyo", "iyɔ\u{300}"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -22071,25 +31444,25 @@ pub const SALT: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("盐"),
-            keywords: &["佐料瓶", "盐", "调味品"],
+            keywords: &["佐料瓶", "味道", "咸", "火大", "盐", "调味品", "调味料"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("鹽"),
-            keywords: &["調味品", "調味瓶", "鹽"],
+            keywords: &["佐料", "火大", "調味品", "調味瓶", "鹽"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["調味料", "調味瓶", "鹽"],
+            keywords: &["調味料", "調味瓶", "調味罐", "鹽"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("salt"),
-            keywords: &["condiment", "salt", "shaker"],
+            keywords: &["i-condiment", "i-shaker", "salt", "usawothi"],
         },
     ],
 };
@@ -22115,19 +31488,28 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("geblikte kos"),
-            keywords: &["blik", "geblikte kos"],
+            keywords: &[
+                "blik",
+                "blikkieskos",
+                "geblikte kos",
+                "gepreserveerde kos",
+                "kampeer",
+                "noodvoorraad",
+                "preserveer",
+                "voorraad",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የታሸገ ምግብ"),
-            keywords: &["የታሸገ ምግብ"],
+            keywords: &["ምግብ", "ቆርቆሮ", "የታሸገ ምግብ", "ጣሳ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("طعام معل\u{651}ب"),
-            keywords: &["طعام معل\u{651}ب"],
+            keywords: &["طعام معل\u{651}ب", "علب", "مأكولات معلبة", "معلبات"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -22139,7 +31521,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("konserv qida"),
-            keywords: &["konserv", "konserv qida"],
+            keywords: &["konserv", "konserv qida", "konservləşdirilmiş qida"],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -22158,8 +31540,12 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("ক\u{9cd}য\u{9be}নজ\u{9be}ত খ\u{9be}দ\u{9cd}য"),
             keywords: &[
+                "কৌট\u{9be}",
+                "কৌট\u{9be}জ\u{9be}ত খ\u{9be}ব\u{9be}র",
                 "ক\u{9cd}য\u{9be}ন",
                 "ক\u{9cd}য\u{9be}নজ\u{9be}ত খ\u{9be}দ\u{9cd}য",
+                "খ\u{9be}দ\u{9cd}য",
+                "খ\u{9be}ব\u{9be}র",
             ],
         },
         #[cfg(feature = "br")]
@@ -22178,7 +31564,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("llauna de conserva"),
-            keywords: &["conserva", "llauna", "llauna de conserva", "menjar"],
+            keywords: &[
+                "aliments enllaunats",
+                "conserva",
+                "llauna",
+                "llauna de conserva",
+                "menjar",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -22190,7 +31582,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("jídlo v plechovce"),
-            keywords: &["jídlo v plechovce", "plechovka"],
+            keywords: &[
+                "jídlo",
+                "jídlo v plechovce",
+                "konzerva",
+                "konzervované potraviny",
+                "plechovka",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -22208,7 +31606,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Konserve"),
-            keywords: &["Dose", "Konserve"],
+            keywords: &["Büchse", "Dose", "Konserve", "essen"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -22220,13 +31624,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("canned food"),
-            keywords: &["can", "canned food"],
+            keywords: &["can", "canned", "food"],
         },
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
             tts: Some("tinned food"),
-            keywords: &["can", "canned food", "tin", "tinned food"],
+            keywords: &[""],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -22237,13 +31641,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
-            tts: Some("canned food"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
-            tts: Some("↑↑↑"),
+            tts: Some("tinned food"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
@@ -22262,7 +31666,16 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "bote",
+                "comida",
+                "comida enlatada",
+                "conserva",
+                "enlatado",
+                "enlatados",
+                "envase",
+                "lata",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -22280,7 +31693,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("toidukonserv"),
-            keywords: &["konserv", "toidukonserv"],
+            keywords: &["konserv", "söök", "toit"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -22298,7 +31711,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("säilyketölkki"),
-            keywords: &["purkki", "säilyketölkki"],
+            keywords: &["purkki", "ruoka", "säilykepurkki", "tölkki"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
@@ -22316,7 +31729,12 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("aliments en conserve"),
-            keywords: &["aliments en conserve", "conserve"],
+            keywords: &[
+                "aliments en conserve",
+                "boîte de conserve",
+                "conserve",
+                "nourriture",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -22328,7 +31746,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("bia stánaithe"),
-            keywords: &["bia", "bia stánaithe", "canna"],
+            keywords: &["bia", "bia stánaithe", "canna", "cannaí", "stán"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -22346,40 +31764,76 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("ક\u{ac7}ન\u{acd}ડ ફ\u{ac2}ડ"),
-            keywords: &["ક\u{ac5}ન", "ક\u{ac7}ન\u{acd}ડ ફ\u{ac2}ડ"],
+            keywords: &[
+                "ક\u{ac5}ન",
+                "ક\u{ac7}ન",
+                "ક\u{ac7}ન\u{acd}ડ ફ\u{ac2}ડ",
+                "ખાનપાન",
+                "ખોરાક",
+                "ટીન",
+                "ડબામા\u{a82} પ\u{ac5}ક કર\u{ac7}લ\u{ac1}\u{a82}",
+                "ડબામા\u{a82} પ\u{ac5}ક કર\u{ac7}લ\u{ac1}\u{a82} જમણ",
+                "ડબો",
+                "ડબ\u{acd}બો",
+                "ભોજન",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("abinci na gwangwani"),
-            keywords: &["abinci na gwangwani", "gwangwani"],
+            keywords: &[
+                "abinci na gwangwani",
+                "abincin gwangwani",
+                "gwangwani",
+                "gwangwanin abinci",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("abinci na gwangwani"),
+            keywords: &[
+                "abinci na gwangwani",
+                "abincin gwangwani",
+                "gwangwani",
+                "gwangwanin abinci",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שימורים"),
-            keywords: &["קופסת שימורים", "שימורים"],
+            keywords: &["פחית שימורים", "קופסת שימורים", "שימורים"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("डिब\u{94d}बा ब\u{902}द खाद\u{94d}य सामग\u{94d}री"),
             keywords: &[
-                "क\u{948}न, डिब\u{94d}बा, टिन",
+                "क\u{948}न",
+                "खाना",
+                "टिन",
+                "डिब\u{94d}बा",
                 "डिब\u{94d}बा ब\u{902}द खाद\u{94d}य सामग\u{94d}री",
+                "डिब\u{94d}बाब\u{902}द भोजन",
             ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("konzerva"),
-            keywords: &["konzerva", "limenka"],
+            keywords: &["hrana", "konzerva", "limenka"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("konzerv"),
-            keywords: &["konzerv", "konzervdoboz"],
+            keywords: &[
+                "konzerv",
+                "konzerv étel, konzerv, készétel, étel",
+                "konzervdoboz",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -22391,7 +31845,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("makanan kaleng"),
-            keywords: &["kaleng", "makanan kaleng"],
+            keywords: &["kaleng", "makanan"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -22409,7 +31863,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("cibo in scatola"),
-            keywords: &["cibo in scatola", "scatoletta"],
+            keywords: &["cibo", "cibo in scatola", "latta", "lattina", "scatoletta"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -22429,11 +31883,17 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("კონსერვი"),
             keywords: &["კონსერვი", "კონსერვის ქილა"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tagella n tbewwaḍt"),
+            keywords: &["tagella n tbewwaḍt"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
-            tts: Some("қалбырдағы тағам"),
-            keywords: &["қалбырдағы тағам"],
+            tts: Some("консервілер"),
+            keywords: &["консервілер", "тағам", "қалбырдағы тағам"],
         },
         #[cfg(feature = "km")]
         crate::Annotation {
@@ -22448,7 +31908,11 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕ\u{ccd}ಯಾನ\u{ccd} ಆಹಾರ"),
-            keywords: &["ಕ\u{ccd}ಯಾನ\u{ccd}", "ಕ\u{ccd}ಯಾನ\u{ccd} ಆಹಾರ"],
+            keywords: &[
+                "ಕ\u{ccd}ಯಾನ\u{ccd}",
+                "ಕ\u{ccd}ಯಾನ\u{ccd} ಆಹಾರ",
+                "ಡಬ\u{ccd}ಬ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
@@ -22484,13 +31948,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("konservai"),
-            keywords: &["konservai", "skardinė"],
+            keywords: &["konservai", "maistas", "skardinė"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("konservi"),
-            keywords: &["konservi", "konservs"],
+            keywords: &["bundža", "konservi", "konservs", "pārtika", "ēdiens"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -22525,16 +31989,20 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("क\u{945}नमधील अन\u{94d}न"),
             keywords: &[
+                "अन\u{94d}न",
                 "क\u{945}न",
+                "क\u{945}न मधील अन\u{94d}न",
                 "क\u{945}नमधील अन\u{94d}न",
+                "खाद\u{94d}य",
                 "डबाब\u{902}द अन\u{94d}न",
+                "सीलब\u{902}द डबा",
             ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("makanan tin"),
-            keywords: &["makanan tin", "tin"],
+            keywords: &["makanan dalam tin", "makanan tin", "tin"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -22548,12 +32016,6 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("စည\u{103a}သ\u{103d}ပ\u{103a}အစားအစာ"),
             keywords: &["စည\u{103a}သ\u{103d}ပ\u{103a}အစားအစာ", "ဗ\u{1030}း"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hermetikk"),
-            keywords: &["boks", "hermetikk", "hermetisk mat"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -22564,13 +32026,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("blikvoedsel"),
-            keywords: &["blik", "blikvoedsel"],
+            keywords: &["blik", "ingeblikt", "voedsel"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("hermetikk"),
-            keywords: &["boks", "hermetikk", "hermetisk mat"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -22600,7 +32062,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("jedzenie w puszce"),
-            keywords: &["jedzenie w puszce"],
+            keywords: &["jedzenie", "puszka", "w puszce"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -22642,7 +32104,14 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("консервы"),
-            keywords: &["банка", "жестянка", "консервная банка", "консервы"],
+            keywords: &[
+                "банка",
+                "банка сгущенки",
+                "жестянка",
+                "консервированная еда",
+                "консервная банка",
+                "консервы",
+            ],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -22666,13 +32135,19 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("konzerva"),
-            keywords: &["konzerva", "plechovka"],
+            keywords: &[
+                "jedlo",
+                "jedlo v konzerve",
+                "konzerva",
+                "plechovica",
+                "plechovka",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("konzervirana hrana"),
-            keywords: &["konzervirana hrana"],
+            keywords: &["hrana", "konzerva", "konzervirana hrana"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -22684,13 +32159,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("ushqim i konservuar"),
-            keywords: &["kanaçe", "kuti konserve", "ushqim i konservuar"],
+            keywords: &["kanaçe", "konservë", "kuti konserve", "ushqim i konservuar"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("конзервирана храна"),
-            keywords: &["конзерва", "конзервирана храна"],
+            keywords: &["конзерва", "конзервирано", "храна"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -22702,7 +32177,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("konzervirana hrana"),
-            keywords: &["konzerva", "konzervirana hrana"],
+            keywords: &["hrana", "konzerva", "konzervirano"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -22714,7 +32195,7 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("chakula kilicho koponi"),
-            keywords: &["chakula kilicho koponi", "kopo"],
+            keywords: &["chakula cha kopo", "chakula kilicho koponi", "kopo"],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -22739,7 +32220,10 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("క\u{c4d}య\u{c3e}న\u{c4d}\u{200c}ల\u{c4b} లభ\u{c3f}ంచ\u{c47} ఆహ\u{c3e}రం"),
             keywords: &[
                 "క\u{c4d}య\u{c3e}న\u{c4d}",
+                "క\u{c4d}య\u{c3e}న\u{c4d} ఫుడ\u{c4d}",
                 "క\u{c4d}య\u{c3e}న\u{c4d}\u{200c}ల\u{c4b} లభ\u{c3f}ంచ\u{c47} ఆహ\u{c3e}రం",
+                "డబ\u{c4d}బ\u{c3e} త\u{c3f}ండ\u{c3f}",
+                "ప\u{c4d}య\u{c3e}క\u{c4d} చ\u{c47}స\u{c3f}న ఫుడ\u{c4d}",
             ],
         },
         #[cfg(feature = "tg")]
@@ -22754,6 +32238,12 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             tts: Some("อาหารกระป\u{e4b}อง"),
             keywords: &["กระป\u{e4b}อง", "อาหารกระป\u{e4b}อง"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቆርቆሮ መግቢ"),
+            keywords: &["ምግቢ", "ቆርቆሮ", "ዝተአሸገ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -22764,13 +32254,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "to",
             tts: Some("meʻakai kapa"),
-            keywords: &["meʻakai kapa"],
+            keywords: &["kapa", "meʻakai"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("konserve gıda"),
-            keywords: &["konserve", "konserve gıda"],
+            keywords: &["konserve", "konserve domates", "konserve gıda"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -22782,25 +32272,32 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("консерви"),
-            keywords: &["банка", "консерви"],
+            keywords: &["банка", "консерви", "консервовані томати"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ڈبہ بند کھانا"),
-            keywords: &["ڈبہ", "ڈبہ بند کھانا"],
+            keywords: &[
+                "ڈب\u{651}ا",
+                "ڈب\u{651}ے کا کھانا",
+                "ڈبہ",
+                "ڈبہ بند کھانا",
+                "کنستر",
+                "کین",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("konserva"),
-            keywords: &["banka", "konserva", "tunuka idish"],
+            keywords: &["banka", "konserva", "konservalangan taom", "tunuka idish"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("thực phẩm đóng hộp"),
-            keywords: &["hộp", "thực phẩm đóng hộp"],
+            keywords: &["hộp", "thực phẩm", "đóng hộp"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -22819,6 +32316,12 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ónjẹ inú agolo"),
             keywords: &["agolo", "ónjẹ inú agolo"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ónjɛ inú agolo"),
+            keywords: &["agolo", "ónjɛ inú agolo"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -22842,13 +32345,13 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("罐頭食品"),
-            keywords: &["罐頭", "罐頭食品"],
+            keywords: &["罐頭", "罐頭食品", "罐頭食物"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["罐頭", "食物"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {

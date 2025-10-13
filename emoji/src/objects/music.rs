@@ -1,5 +1,5 @@
 #[doc = "🎼"]
-pub const MUSICAL_SCORE : crate :: Emoji = crate :: Emoji { glyph : "🎼" , codepoint : "1F3BC" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "musical score" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("musiekbalk") , keywords : & ["balk" , "musiek" , "musiekbalk" , "partituur"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሙዚቃዊ ውጤት") , keywords : & ["ሙዚቃ" , "ሙዚቃዊ ውጤት" , "ውጤት"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("علامة موسيقية") , keywords : & ["سكور" , "علامة موسيقية" , "موسيقى"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("সংগীতৰ লিখিত ৰ\u{9c2}প") , keywords : & ["সংগীত" , "সংগীত-ৰচন\u{9be}" , "সংগীতৰ লিখিত ৰ\u{9c2}প"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("musiqi partiturası") , keywords : & ["musiqi" , "musiqi partiturası" , "partitura"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("партытура") , keywords : & ["запіс" , "музыка" , "музычны" , "нота" , "партытура"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Нотен запис") , keywords : & ["Нотен запис" , "запис" , "музика"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("সঙ\u{9cd}গীতের স\u{9cd}কোর") , keywords : & ["সঙ\u{9cd}গীত" , "সঙ\u{9cd}গীতের স\u{9cd}কোর" , "স\u{9cd}কোর"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("skrid-sonerezh") , keywords : & ["kevrollenn" , "skrid-sonerezh" , "sonerezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni zapis" , "partitura"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("pentagrama") , keywords : & ["música" , "pentagrama"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ") , keywords : & ["ᎪᏪᎳᏅ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("notová osnova") , keywords : & ["hudba" , "notová osnova" , "notový" , "noty" , "zápis"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("sgôr cerddorol") , keywords : & ["cerddoriaeth" , "sgôr" , "sgôr cerddorol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "partitur"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Notenschlüssel") , keywords : & ["Musik" , "Noten" , "Notenschlüssel" , "Partitur" , "Violinschlüssel"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("παρτιτούρα") , keywords : & ["μουσική" , "παρτιτούρα" , "πεντάγραμμο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("musical score") , keywords : & ["music" , "musical score" , "score"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pentagrama") , keywords : & ["música" , "partitura" , "pentagrama"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("clave de sol") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama" , "sol"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("partitura") , keywords : & ["partitura"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("noodijoonestik") , keywords : & ["muusika" , "noodijoonestik" , "noot"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("notazio musikala") , keywords : & ["musika" , "notazio" , "notazio musikala"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("پارتیتور") , keywords : & ["خط حامل" , "موسیقی" , "نت" , "پارتیتور" , "کلید سل"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("nuottiviivasto") , keywords : & ["musiikki" , "nuotti" , "nuottiavain" , "nuottiviivasto"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("musical score") , keywords : & ["iskor" , "kanta" , "musical score" , "musika" , "tugtog"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fjølrøddabók") , keywords : & ["fjølrøddabók" , "partiturur" , "tónleikur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("partition") , keywords : & ["musique" , "partition"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("scór ceoil") , keywords : & ["ceol" , "scór" , "scór ceoil"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("iuchair-ghleus") , keywords : & ["ceòl" , "iuchair-ghleus" , "sgàla" , "sgòr"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("clave de sol") , keywords : & ["clave de sol" , "música" , "pentagrama" , "solfexo"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{a82}ગીત માટ\u{ac7}ની લખાણ") , keywords : & ["લખાણ" , "સ\u{a82}ગીત" , "સ\u{a82}ગીત માટ\u{ac7}ની લખાણ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("alamar kiɗa") , keywords : & ["alama" , "alamar kiɗa" , "kiɗa"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מפתח סול") , keywords : & ["מוזיקה" , "מפתח סול" , "תווים"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{902}गीत स\u{94d}कोर") , keywords : & ["स\u{902}गीत" , "स\u{94d}कोर"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("notno crtovlje") , keywords : & ["crtovlje" , "glazba" , "notno crtovlje"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("zenei kotta") , keywords : & ["kotta" , "zene" , "zenei kotta"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("սոլի բանալի") , keywords : & ["երաժշտություն" , "սոլի բանալի"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("naskah musik") , keywords : & ["musik" , "naskah musik" , "skor"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akara egwu") , keywords : & ["akara" , "egwu"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("nótnaskrif") , keywords : & ["G-lykill" , "nótnaskrif" , "tónlist"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("pentagramma") , keywords : & ["musica" , "partitura" , "pentagramma"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("楽譜") , keywords : & ["スコア" , "ト音記号" , "五線譜" , "楽譜" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("notasi musik") , keywords : & ["musik" , "notasi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მუსიკალური პარტიტურა") , keywords : & ["მუსიკა" , "მუსიკალური პარტიტურა" , "პარტიტურა"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("партитура") , keywords : & ["музыка" , "партитура"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "partitur"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}") , keywords : & ["ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}" , "ណោតភ\u{17d2}លេងភ\u{17d2}លេង" , "តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ភ\u{17d2}លេង"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಸಂಗ\u{cc0}ತ ಸ\u{ccd}ಕ\u{ccb}ರ\u{ccd}") , keywords : & ["ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗ\u{cc0}ತ" , "ಸ\u{ccd}ಕ\u{ccb}ರ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("높은음자리표") , keywords : & ["높은음자리" , "높은음자리표" , "악보" , "음악"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("स\u{902}गाताचो स\u{94d}वर") , keywords : & ["स\u{902}गाताचो स\u{94d}वर" , "स\u{902}गीत" , "स\u{902}गीताचो स\u{94d}वर" , "स\u{94d}वर"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("музыкалык ачкыч") , keywords : & ["ачкыч" , "музыка" , "музыкалык ачкыч"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Partitioun") , keywords : & ["Musek" , "Partitioun"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ") , keywords : & ["ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ" , "ໂນດເພງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("partitūra") , keywords : & ["muzika" , "partitūra"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("nošu līnijas") , keywords : & ["mūzika" , "notis" , "nošu līnijas"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tuhinga puoro") , keywords : & ["puoro" , "tuhinga"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("петолиние") , keywords : & ["виолински" , "клуч" , "музика" , "петолиние"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ") , keywords : & ["മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ" , "സംഗീതം" , "സ\u{d4d}കോർ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("нотны шугам") , keywords : & ["нот" , "нотны шугам" , "хөгжим" , "шугам"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("स\u{902}गीतात वापरल\u{947} जाणारी लिपी") , keywords : & ["स\u{902}गीत" , "स\u{902}गीतात वापरल\u{947} जाणारी लिपी" , "स\u{94d}कोअर"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("skor muzik") , keywords : & ["muzik" , "skor"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("partitura mużikali") , keywords : & ["mużika" , "partitura" , "partitura mużikali"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ") , keywords : & ["ဂ\u{102e}တ" , "ဂ\u{102e}တ သင\u{103a}\u{1039}ကေတ" , "တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("musikk") , keywords : & ["g-nøkkel" , "musikk" , "notetegn"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("सा\u{902}गीतिक स\u{94d}कोर") , keywords : & ["सा\u{902}गीतिक" , "स\u{94d}कोर"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("notenschift") , keywords : & ["muziek" , "notenschift" , "partituur"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("musikk") , keywords : & ["g-nøkkel" , "musikk" , "noteteikn"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}") , keywords : & ["ସଙ\u{b4d}ଗୀତ" , "ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}" , "ସ\u{b4d}କୋର\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ") , keywords : & ["ਸਕ\u{a4b}ਰ" , "ਸ\u{a70}ਗੀਤ" , "ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("موسیقی دا سکور") , keywords : & ["سکور" , "موسیقی" , "موسیقی دا سکور"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Miúzíkál Skọ") , keywords : & ["Miúzik" , "Miúzíkál Skọ" , "Skọ"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("partytura") , keywords : & ["klucz" , "muzyka" , "nuty" , "partytura" , "pięciolinia"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د موسیقۍ نمرې") , keywords : & ["د موسیقۍ نمرې" , "موسيقي" , "نمرې"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("partitura musical") , keywords : & ["música" , "partitura" , "partitura musical"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("pauta") , keywords : & ["música" , "partitura" , "pauta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("partitura") , keywords : & ["partitura"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("partitură") , keywords : & ["cheia sol" , "muzică" , "partitură" , "portativ"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-380") , keywords : & ["E10-380"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("нотный стан") , keywords : & ["ключ" , "музыка" , "нотный стан" , "ноты" , "скрипичный"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("akarango k’umuziki") , keywords : & ["akarango k’umuziki" , "inota" , "umuziki"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("موسيقي جو دڪان") , keywords : & ["موسيقي جو دڪان" , "موسيقي، اسڪور"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව") , keywords : & ["ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}තය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("notová osnova") , keywords : & ["hudba" , "notová osnova" , "osnova"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("partitura") , keywords : & ["glasba" , "partitura"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("xaashida muusika") , keywords : & ["muusik" , "xaashi" , "xaashida muusika"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("pentagram") , keywords : & ["muzikë" , "pentagram"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("нотни запис") , keywords : & ["музика" , "ноте" , "нотни запис"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni zapis"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("g-klav") , keywords : & ["g-klav" , "musik" , "noter"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("karatasi ya muziki") , keywords : & ["karatasi ya muziki" , "muziki"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு") , keywords : & ["இசை" , "இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு" , "கோர\u{bcd}ப\u{bcd}பு"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("సంగ\u{c40}త రచన") , keywords : & ["రచన" , "సంగ\u{c40}త రచన" , "సంగ\u{c40}తం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("партитура") , keywords : & ["мусиқӣ" , "нота" , "партитура"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("บรรท\u{e31}ดห\u{e49}าเส\u{e49}น") , keywords : & ["ก\u{e38}ญแจซอล" , "บรรท\u{e31}ดห\u{e49}าเส\u{e49}น" , "โน\u{e49}ตเพลง"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("partitura") , keywords : & ["aýdym-saz" , "aýdym-saz nyşany" , "partitura"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("pepa hiva") , keywords : & ["pepa hiva"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("sol anahtarı") , keywords : & ["müzik" , "partisyon" , "sol anahtarı"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("مۇزىكا يازمىسى") , keywords : & ["مۇزىكا" , "مۇزىكا يازمىسى" , "يازما"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("партитура") , keywords : & ["музичний" , "партитура"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("میوزیکل اسکور") , keywords : & ["اسکور" , "موسیقی" , "میوزیکل اسکور"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("musiqa kaliti") , keywords : & ["kalit" , "musiqa" , "musiqa kaliti"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("khuông nhạc") , keywords : & ["bản nhạc" , "khuông nhạc" , "nhạc"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("kle misik") , keywords : & ["kle" , "misik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("inqaku lomculo") , keywords : & ["inqaku" , "inqaku lomculo" , "umculo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("akọsilẹ orin") , keywords : & ["akọsilẹ orin" , "akọsílẹ\u{300}" , "orin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("乐谱") , keywords : & ["乐谱" , "音乐"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("乐谱") , keywords : & ["乐谱" , "五线谱" , "音乐" , "音符"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("umbhalo womculo") , keywords : & ["umbhalo" , "umbhalo womculo" , "umculo"] , }] , } ;
+pub const MUSICAL_SCORE : crate :: Emoji = crate :: Emoji { glyph : "🎼" , codepoint : "1F3BC" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "musical score" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("musiekbalk") , keywords : & ["balk" , "musiek" , "musiekbalk" , "noot" , "notebalk" , "partituur"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ሙዚቃዊ ውጤት") , keywords : & ["ሙዚቃ" , "ሙዚቃዊ ውጤት" , "ኖታ" , "ውጤት" , "የሙዚቃ ኖታ" , "የሙዚቃ ጽሁፍ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("علامة موسيقية") , keywords : & ["أنغام" , "سكور" , "علامة موسيقية" , "موسيقى" , "نغم" , "نغمة"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("সংগীতৰ লিখিত ৰ\u{9c2}প") , keywords : & ["সংগীত" , "সংগীত-ৰচন\u{9be}" , "সংগীতৰ লিখিত ৰ\u{9c2}প"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("musiqi partiturası") , keywords : & ["musiqi" , "musiqi partiturası" , "partitura"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("партытура") , keywords : & ["запіс" , "музыка" , "музычны" , "нота" , "партытура"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("нотен запис") , keywords : & ["запис" , "музика" , "нота" , "нотен запис"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("সঙ\u{9cd}গীতের স\u{9cd}কোর") , keywords : & ["সঙ\u{9cd}গীত" , "সঙ\u{9cd}গীতের স\u{9cd}কোর" , "স\u{9cd}কোর"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("skrid-sonerezh") , keywords : & ["kevrollenn" , "skrid-sonerezh" , "sonerezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni zapis" , "partitura"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("pentagrama") , keywords : & ["música" , "nota" , "partitura" , "pentagrama"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ") , keywords : & ["ᎪᏪᎳᏅ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("notová osnova") , keywords : & ["houslový klíč" , "hudba" , "notová osnova" , "notový" , "noty" , "partitura" , "zápis"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("sgôr cerddorol") , keywords : & ["cerddoriaeth" , "sgôr" , "sgôr cerddorol"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "noder" , "partitur"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Notenschlüssel") , keywords : & ["Musik" , "Noten" , "Notenschlüssel" , "Partitur" , "Violinschlüssel"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("παρτιτούρα") , keywords : & ["μουσική" , "νότα" , "παρτιτούρα" , "πεντάγραμμο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("musical score") , keywords : & ["music" , "musical" , "note" , "score"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("pentagrama") , keywords : & ["música" , "partitura" , "pentagrama"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama" , "sol"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("partitura") , keywords : & ["partitura"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("noodijoonestik") , keywords : & ["muusika" , "noodijoonestik" , "noot"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("notazio musikala") , keywords : & ["musika" , "notazio" , "notazio musikala"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("پارتیتور") , keywords : & ["خط حامل" , "موسیقی" , "نت" , "نواختن موسیقی" , "پارتیتور" , "کلید سل"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("nuottiviivasto") , keywords : & ["musiikki" , "nuotti" , "nuottiavain" , "nuottiviivasto"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("musical score") , keywords : & ["iskor" , "kanta" , "musical score" , "musika" , "tugtog"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("fjølrøddabók") , keywords : & ["fjølrøddabók" , "partiturur" , "tónleikur"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("partition") , keywords : & ["musique" , "note" , "partition"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("scór ceoil") , keywords : & ["ceol" , "scór" , "scór ceoil"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("sgòr-ciùil") , keywords : & ["ceòl" , "iuchair-ghleus" , "sgàla" , "sgòr" , "sgòr-ciùil"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("clave de sol") , keywords : & ["clave de sol" , "música" , "pentagrama" , "solfexo"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{a82}ગીત માટ\u{ac7}ની લખાણ") , keywords : & ["કર\u{acd}ણપ\u{acd}રિય" , "મધ\u{ac1}ર" , "લખાણ" , "સ\u{a82}ગીત" , "સ\u{a82}ગીત માટ\u{ac7}ની લખાણ" , "સ\u{ac1}ર" , "સ\u{ac1}રીલ\u{ac1}\u{a82}"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("alamar raujin kiɗa") , keywords : & ["alama" , "alamar kiɗa" , "alamar raujin kiɗa" , "kiɗa" , "rubuta kiɗa" , "rubutun kida" , "rubutun kiɗa"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("alamar raujin kiɗa") , keywords : & ["alama" , "alamar kiɗa" , "alamar raujin kiɗa" , "kiɗa" , "rubuta kiɗa" , "rubutun kida" , "rubutun kiɗa"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מפתח סול") , keywords : & ["מוזיקה" , "מוסיקה" , "מפתח סול" , "תווים"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{902}गीत स\u{94d}कोर") , keywords : & ["स\u{902}गीत" , "स\u{941}र" , "स\u{94d}कोर"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("notno crtovlje") , keywords : & ["crtovlje" , "glazba" , "nota" , "notno crtovlje"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("zenei kotta") , keywords : & ["G-kulcs" , "hangjegy" , "kotta" , "violinkulcs" , "zene" , "zenei kotta"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("սոլի բանալի") , keywords : & ["երաժշտություն" , "սոլի բանալի"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("naskah musik") , keywords : & ["musik" , "nada" , "naskah musik" , "skor"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("akara egwu") , keywords : & ["akara" , "egwu"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("nótnaskrif") , keywords : & ["G-lykill" , "nótnaskrif" , "tónlist"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("pentagramma") , keywords : & ["chiave" , "chiave di violino" , "musica" , "partitura" , "pentagramma"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("楽譜") , keywords : & ["スコア" , "ト音記号" , "五線譜" , "楽譜" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("notasi musik") , keywords : & ["musik" , "notasi"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მუსიკალური პარტიტურა") , keywords : & ["მუსიკა" , "მუსიკალური პარტიტურა" , "პარტიტურა"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("tagrumma n tezmilin n uẓawan") , keywords : & ["tagrumma n tezmilin n uẓawan"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("партитура") , keywords : & ["музыка" , "партитура"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "partitur"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}") , keywords : & ["ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}" , "ណោតភ\u{17d2}លេងភ\u{17d2}លេង" , "តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ភ\u{17d2}លេង"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಸಂಗ\u{cc0}ತ ಸ\u{ccd}ಕ\u{ccb}ರ\u{ccd}") , keywords : & ["ನ\u{ccb}ಟ\u{ccd}" , "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗ\u{cc0}ತ" , "ಸಂಗ\u{cc0}ತ ಸ\u{ccd}ವರ" , "ಸ\u{ccd}ಕ\u{ccb}ರ\u{ccd}" , "ಸ\u{ccd}ಥಾಯ\u{cbf}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("높은음자리표") , keywords : & ["높은음자리" , "높은음자리표" , "악보" , "음악" , "음표"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("स\u{902}गाताचो स\u{94d}वर") , keywords : & ["स\u{902}गाताचो स\u{94d}वर" , "स\u{902}गीत" , "स\u{902}गीताचो स\u{94d}वर" , "स\u{94d}वर"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("музыкалык ачкыч") , keywords : & ["ачкыч" , "музыка" , "музыкалык ачкыч"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Partitioun") , keywords : & ["Musek" , "Partitioun"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ") , keywords : & ["ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ" , "ໂນດເພງ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("partitūra") , keywords : & ["muzika" , "nata" , "partitūra" , "smuiko raktas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("nošu līnijas") , keywords : & ["mūzika" , "notis" , "nošu līnijas"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("tuhinga puoro") , keywords : & ["puoro" , "tuhinga"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("петолиние") , keywords : & ["виолински" , "клуч" , "музика" , "музичка изведба" , "нота" , "песна" , "петолиние"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ") , keywords : & ["മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ" , "സംഗീതം" , "സ\u{d4d}കോർ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("нотны шугам") , keywords : & ["нот" , "нотны шугам" , "хөгжим" , "шугам"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("स\u{902}गीतात वापरल\u{947} जाणारी लिपी") , keywords : & ["स\u{902}गीत" , "स\u{902}गीतात वापरल\u{947} जाणारी लिपी" , "स\u{94d}कोअर"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("skor muzik") , keywords : & ["muzik" , "muzikal" , "not" , "skor"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("partitura mużikali") , keywords : & ["mużika" , "partitura" , "partitura mużikali"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ") , keywords : & ["ဂ\u{102e}တ" , "ဂ\u{102e}တ သင\u{103a}\u{1039}ကေတ" , "တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("सा\u{902}गीतिक स\u{94d}कोर") , keywords : & ["सा\u{902}गीतिक" , "स\u{94d}कोर"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("notenschift") , keywords : & ["g-sleutel" , "muziek" , "notenschift" , "partituur"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["g-nøkkel" , "musikk" , "noteteikn"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}") , keywords : & ["ସଙ\u{b4d}ଗୀତ" , "ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}" , "ସ\u{b4d}କୋର\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ") , keywords : & ["ਮਿਊਜ\u{a3c}ਿਕ ਨ\u{a4b}ਟ" , "ਸਕ\u{a4b}ਰ" , "ਸ\u{a70}ਗੀਤ" , "ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("موسیقی دا سکور") , keywords : & ["سکور" , "موسیقی" , "موسیقی دا سکور"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Miúzíkál Skọ") , keywords : & ["Miúzik" , "Miúzíkál Skọ" , "Skọ"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("partytura") , keywords : & ["klucz" , "muzyka" , "nuty" , "partytura" , "pięciolinia" , "wiolinowy"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د موسیقۍ نمرې") , keywords : & ["د موسیقۍ نمرې" , "موسيقي" , "نمرې"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("partitura musical") , keywords : & ["música" , "partitura" , "partitura musical"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("pauta") , keywords : & ["música" , "nota" , "partitura" , "pauta"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("partitura") , keywords : & ["chusukuna" , "partitura" , "takiy"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("partitură") , keywords : & ["cheia sol" , "cheie sol" , "muzică" , "notă muzicală" , "partitură" , "portativ"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-380") , keywords : & ["E10-380"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("нотный стан") , keywords : & ["ключ" , "музыка" , "нотный стан" , "ноты" , "скрипичный" , "стан"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("akarango k’umuziki") , keywords : & ["akarango k’umuziki" , "inota" , "umuziki"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("موسيقي جو دڪان") , keywords : & ["موسيقي جو دڪان" , "موسيقي، اسڪور"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව") , keywords : & ["ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}තය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("notová osnova") , keywords : & ["hudba" , "husľový kľúč" , "notová osnova" , "osnova"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("partitura") , keywords : & ["glasba" , "nota" , "partitura"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("xaashida muusika") , keywords : & ["muusik" , "xaashi" , "xaashida muusika"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("pentagram") , keywords : & ["muzikë" , "notë" , "pentagram"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("нотни запис") , keywords : & ["запис" , "музика" , "ноте" , "нотни"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni" , "zapis"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("g-klav") , keywords : & ["g-klav" , "musik" , "noter"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("karatasi ya muziki") , keywords : & ["karatasi ya muziki" , "muziki" , "mziki"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு") , keywords : & ["இசை" , "இசைக\u{bcd} குறிப\u{bcd}பு" , "இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு" , "கோர\u{bcd}ப\u{bcd}பு" , "நோட\u{bcd}டு" , "ப\u{bbe}டல\u{bcd}" , "மியூஸிகல\u{bcd} ஸ\u{bcd}கோர\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("సంగ\u{c40}త రచన") , keywords : & ["న\u{c4b}ట\u{c4d}" , "మ\u{c4d}యూజ\u{c3f}కల\u{c4d} స\u{c4d}క\u{c4b}ర\u{c4d}" , "మ\u{c4d}యూజ\u{c3f}క\u{c4d}" , "రచన" , "సంగ\u{c40}త రచన" , "సంగ\u{c40}తం" , "స\u{c4d}క\u{c4b}ర\u{c4d}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("партитура") , keywords : & ["мусиқӣ" , "нота" , "партитура"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("บรรท\u{e31}ดห\u{e49}าเส\u{e49}น") , keywords : & ["ก\u{e38}ญแจซอล" , "บรรท\u{e31}ดห\u{e49}าเส\u{e49}น" , "โน\u{e49}ตเพลง"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ሙዚቃዊ ስኮር") , keywords : & ["መተሓሳሰቢ" , "ሙዚቃ" , "ሙዚቃዊ" , "ነጥቢ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("partitura") , keywords : & ["aýdym-saz" , "aýdym-saz nyşany" , "partitura"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("pepa hiva") , keywords : & ["pepa hiva"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("sol anahtarı") , keywords : & ["müzik" , "müzik partisyonu" , "partisyon" , "sol anahtarı"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("مۇزىكا يازمىسى") , keywords : & ["مۇزىكا" , "مۇزىكا يازمىسى" , "يازما"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("партитура") , keywords : & ["музичний" , "ноти" , "партитура" , "скрипковий ключ"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("میوزیکل اسکور") , keywords : & ["اسکور" , "موسیقی" , "میوزیکل اسکور"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("musiqa kaliti") , keywords : & ["kalit" , "musiqa" , "musiqa kaliti" , "nota"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("khuông nhạc") , keywords : & ["bản nhạc" , "khuông nhạc" , "nhạc"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("kle misik") , keywords : & ["kle" , "misik"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("inqaku lomculo") , keywords : & ["inqaku" , "inqaku lomculo" , "umculo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("akọsilẹ orin") , keywords : & ["akọsilẹ orin" , "akọsílẹ\u{300}" , "orin"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("akɔsilɛ orin") , keywords : & ["akɔsilɛ orin" , "akɔsílɛ\u{300}" , "orin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("乐谱") , keywords : & ["乐谱" , "音乐"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("乐谱") , keywords : & ["乐谱" , "五线谱" , "曲谱" , "音乐" , "音符"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂" , "音符"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["樂譜" , "歌" , "音樂" , "音符"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("umbhalo womculo") , keywords : & ["umbhalo" , "umbhalo womculo" , "umculo"] , }] , } ;
 #[doc = "🎵"]
 pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
     glyph: "🎵",
@@ -22,19 +22,19 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("musieknoot"),
-            keywords: &["musiek", "musieknoot", "noot"],
+            keywords: &["klank", "klassieke musiek", "musiek", "musieknoot", "noot"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሙዚቃዊ ኖታ"),
-            keywords: &["ሙዚቃ", "ሙዚቃዊ ኖታ", "ማስታወሻ"],
+            keywords: &["ሙዚቃ", "ሙዚቃዊ ኖታ", "ማስታወሻ", "ኖታ", "የሙዚቃ ኖታ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("نوتة موسيقية"),
-            keywords: &["موسيقى", "نوتة", "نوتة موسيقية"],
+            keywords: &["صوت", "موسيقى", "نغم", "نوتة", "نوتة موسيقية"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -58,17 +58,13 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("нота"),
-            keywords: &["музика", "нота"],
+            keywords: &["звук", "музика", "музикална нота", "нота"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("গ\u{9be}নের স\u{9cd}বরলিপি"),
-            keywords: &[
-                "গ\u{9be}নের স\u{9cd}বরলিপি",
-                "নোট",
-                "সঙ\u{9cd}গীত। গ\u{9be}নের স\u{9cd}বরলিপি",
-            ],
+            keywords: &["গ\u{9be}নের স\u{9cd}বরলিপি", "নোট", "সঙ\u{9cd}গীত"],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -86,7 +82,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("nota musical"),
-            keywords: &["música", "nota", "nota musical"],
+            keywords: &["música", "nota", "nota musical", "so"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -98,7 +94,14 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("nota"),
-            keywords: &["hudba", "nota", "noty"],
+            keywords: &[
+                "hudba",
+                "nota",
+                "notový zápis",
+                "noty",
+                "osminové noty",
+                "zvuk",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -116,19 +119,25 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Musiknote"),
-            keywords: &["Musik", "Musiknote", "Note"],
+            keywords: &["Lied", "Melodie", "Musik", "Musiknote", "Note"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("νότα μουσικής"),
-            keywords: &["μουσική", "νότα", "νότα μουσικής"],
+            keywords: &["ήχος", "μουσική", "νότα", "νότα μουσικής"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("musical note"),
-            keywords: &["music", "musical note", "note"],
+            keywords: &["music", "musical", "note", "sound"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -164,13 +173,13 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["corchea", "música", "nota", "nota musical"],
+            keywords: &["corchea", "música", "nota", "nota musical", "sonido"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
-            keywords: &["corchea", "música", "nota", "nota musical"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -242,19 +251,39 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("nota musical"),
-            keywords: &["corchea", "música", "nota musical", "notas", "solfexo"],
+            keywords: &["corchea", "música", "solfexo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("સ\u{a82}ગીતની નોટ"),
-            keywords: &["નોટ", "સ\u{a82}ગીત", "સ\u{a82}ગીતની નોટ"],
+            keywords: &["નોટ", "સ\u{a82}ગીત", "સ\u{a82}ગીતની નોટ", "સ\u{ac1}ર"],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("rubutun kiɗa"),
-            keywords: &["kiɗa", "rubutu", "rubutun kiɗa"],
+            keywords: &[
+                "alamar sauti",
+                "kiɗa",
+                "rubuta kiɗa",
+                "rubutu",
+                "rubutun kiɗa",
+                "sauti",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rubutun kiɗa"),
+            keywords: &[
+                "alamar sauti",
+                "kiɗa",
+                "rubuta kiɗa",
+                "rubutu",
+                "rubutun kiɗa",
+                "sauti",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -266,19 +295,24 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("स\u{902}गीत का स\u{94d}वर"),
-            keywords: &["स\u{902}गीत", "स\u{902}गीत का स\u{94d}वर", "स\u{94d}वर"],
+            keywords: &[
+                "स\u{902}गीत",
+                "स\u{902}गीत का स\u{94d}वर",
+                "स\u{902}गीत क\u{947} स\u{94d}वर",
+                "स\u{94d}वर",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("glazbena nota"),
-            keywords: &["glazba", "glazbena nota", "nota"],
+            keywords: &["glazba", "glazbena nota", "nota", "zvuk"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("hangjegy"),
-            keywords: &["hangjegy", "zene"],
+            keywords: &["dallam", "hang", "hangjegy", "zene"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -290,7 +324,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("not musik"),
-            keywords: &["musik", "not"],
+            keywords: &["lambang", "musik", "not", "simbol", "tanda"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -308,7 +342,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("nota musicale"),
-            keywords: &["musica", "nota", "nota musicale"],
+            keywords: &["canzone", "musica", "nota", "nota musicale"],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -338,7 +372,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kk",
             tts: Some("нота"),
-            keywords: &["музыка", "нота"],
+            keywords: &["дыбыс", "музыка", "нота"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -361,13 +395,22 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಸಂಗ\u{cc0}ತ ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}"),
-            keywords: &["ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}", "ಸಂಗ\u{cc0}ತ"],
+            keywords: &[
+                "ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}",
+                "ನ\u{ccb}ಟ\u{ccd}ಸ\u{ccd}",
+                "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd} ನ\u{ccb}ಟ\u{ccd}ಸ\u{ccd}",
+                "ಶಬ\u{ccd}ಧ",
+                "ಸಂಗ\u{cc0}ತ",
+                "ಸಂಗ\u{cc0}ತ ಸಂಕ\u{cc7}ತ",
+                "ಸಂಗ\u{cc0}ತ ಸ\u{ccd}ವರ",
+                "ಸಂಗ\u{cc0}ತ ಸ\u{ccd}ವರ ಸಂಕ\u{cc7}ತ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("음표"),
-            keywords: &["음악", "음표"],
+            keywords: &["소리", "음악", "음표"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -407,7 +450,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("nots"),
-            keywords: &["mūzika", "nots"],
+            keywords: &["mūzika", "nots", "skaņa"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -419,7 +462,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("музичка нота"),
-            keywords: &["музика", "музичка нота", "нота"],
+            keywords: &["звук", "музика", "музичка нота", "нота"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -441,13 +484,18 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("स\u{902}गीताचा स\u{942}र"),
-            keywords: &["स\u{902}गीत", "स\u{902}गीताचा स\u{942}र", "स\u{94d}वर"],
+            keywords: &[
+                "स\u{902}गीत",
+                "स\u{902}गीताचा स\u{942}र",
+                "स\u{942}र",
+                "स\u{94d}वर",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("nota muzik"),
-            keywords: &["muzik", "nota"],
+            keywords: &["bunyi", "muzik", "muzikal", "not"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -465,12 +513,6 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
                 "န\u{102f}တ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("note"),
-            keywords: &["musikk", "musikknote", "note"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -481,13 +523,13 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("muzieknoot"),
-            keywords: &["muziek", "muzieknoot", "noot"],
+            keywords: &["achtste noten", "muziek", "muzieknoot", "noot"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("note"),
-            keywords: &["musikk", "musikknote", "note"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -504,7 +546,12 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਸ\u{a70}ਗੀਤਕ ਨ\u{a4b}ਟ"),
-            keywords: &["ਨ\u{a4b}ਟ", "ਸ\u{a70}ਗੀਤ", "ਸ\u{a70}ਗੀਤਕ ਨ\u{a4b}ਟ"],
+            keywords: &[
+                "ਧ\u{a41}ਨ",
+                "ਨ\u{a4b}ਟ",
+                "ਸ\u{a70}ਗੀਤ",
+                "ਸ\u{a70}ਗੀਤਕ ਨ\u{a4b}ਟ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -540,19 +587,19 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["música", "nota", "nota musical", "som"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("notas musical"),
-            keywords: &["notas musical"],
+            keywords: &["nota", "nota musical", "notas musical", "takiy"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("notă muzicală"),
-            keywords: &["muzică", "notă", "notă muzicală"],
+            keywords: &["muzică", "notă", "notă muzicală", "sunet"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -564,7 +611,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("нота"),
-            keywords: &["звук", "музыка", "нота"],
+            keywords: &["звук", "мелодия", "музыка", "нота"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -588,7 +635,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("nota"),
-            keywords: &["hudba", "nota"],
+            keywords: &["hudba", "nota", "zvuk", "štvrťové noty"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -606,31 +653,31 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("notë muzikore"),
-            keywords: &["muzikë", "notë", "notë muzikore"],
+            keywords: &["muzikë", "notë", "notë muzikore", "tingull"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("нота"),
-            keywords: &["музика", "музичка нота", "нота"],
+            keywords: &["звук", "музика", "ноте", "нотни"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["нота"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("nota"),
-            keywords: &["muzika", "muzička nota", "nota"],
+            keywords: &["muzika", "note", "notni", "zvuk"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["nota"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -652,7 +699,11 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
                 "இசை",
                 "இசை மொழி",
                 "இசைக\u{bcd} குறிப\u{bcd}பு",
+                "க\u{bc0}ர\u{bcd}த\u{bcd}தனை",
                 "குறிப\u{bcd}பு",
+                "சங\u{bcd}க\u{bc0}தம\u{bcd}",
+                "ப\u{bbe}டல\u{bcd}",
+                "ப\u{bbe}ட\u{bcd}டு",
             ],
         },
         #[cfg(feature = "te")]
@@ -672,6 +723,12 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("โน\u{e49}ตดนตร\u{e35}"),
             keywords: &["ดนตร\u{e35}", "โน\u{e49}ต", "โน\u{e49}ตดนตร\u{e35}"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሙዚቃዊ ኖታ"),
+            keywords: &["መተሓሳሰቢ", "ሙዚቃ", "ሙዚቃዊ", "ድምጺ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -713,7 +770,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uz",
             tts: Some("musiqiy nota"),
-            keywords: &["musiqa", "musiqiy nota", "nota"],
+            keywords: &["musiqa", "musiqiy nota", "nota", "tovush"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -738,6 +795,12 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
             lang: "yo",
             tts: Some("ọ\u{300}rọ\u{300} orin"),
             keywords: &["orin", "ò\u{329}rọ\u{300}", "ọ\u{300}rọ\u{300} orin"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ɔ\u{300}rɔ\u{300} orin"),
+            keywords: &["orin", "ò\u{329}rɔ\u{300}", "ɔ\u{300}rɔ\u{300} orin"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -767,7 +830,7 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["聲音", "音樂", "音符"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -799,7 +862,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("musieknote"),
-            keywords: &["musiek", "musieknote", "noot", "note"],
+            keywords: &["klank", "musiek", "musieknote", "noot", "note"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -811,7 +874,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ar",
             tts: Some("نوتات موسيقية"),
-            keywords: &["موسيقى", "نوتات", "نوتات موسيقية", "نوتة"],
+            keywords: &["رمز", "صوت", "موسيقى", "نوتات", "نوتات موسيقية", "نوتة"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -841,7 +904,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("ноти"),
-            keywords: &["музика", "нота", "ноти"],
+            keywords: &["звук", "музика", "нота", "ноти"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -865,7 +928,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("notes musicals"),
-            keywords: &["música", "notes", "notes musicals"],
+            keywords: &["música", "nota", "notes", "notes musicals", "so"],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -877,7 +940,15 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("noty"),
-            keywords: &["hudba", "nota", "noty"],
+            keywords: &[
+                "hudba",
+                "nota",
+                "notový zápis",
+                "noty",
+                "osminové noty",
+                "tón",
+                "zvuk",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -897,6 +968,12 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             tts: Some("Musiknoten"),
             keywords: &["Musik", "Musiknoten", "Noten"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -907,7 +984,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("musical notes"),
-            keywords: &["music", "musical notes", "note", "notes"],
+            keywords: &["music", "musical", "note", "notes", "sound"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -943,7 +1020,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["corchea", "música", "nota", "notas musicales"],
+            keywords: &["corchea", "música", "nota", "notas", "notas musicales"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -997,7 +1074,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("notes de musique"),
-            keywords: &["musique", "note", "notes", "notes de musique"],
+            keywords: &["musique", "note", "notes", "notes de musique", "partition"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -1030,7 +1107,10 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             keywords: &[
                 "નોટ",
                 "નોટ\u{acd}સ",
+                "મધ\u{ac1}ર સ\u{acd}વર",
+                "રાગરાગિણીઓ",
                 "સ\u{a82}ગીત",
+                "સ\u{a82}ગીતના સ\u{ac2}ર",
                 "સ\u{a82}ગીતની નોટ\u{acd}સ",
             ],
         },
@@ -1038,19 +1118,46 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("rubuce-rubucen kiɗa"),
-            keywords: &["kiɗa", "rubuce-rubuce", "rubuce-rubucen kiɗa", "rubutu"],
+            keywords: &[
+                "kiɗa",
+                "rubuce-rubuce",
+                "rubuce-rubucen kiɗa",
+                "rubuta kiɗa",
+                "rubutu",
+                "rubutun kiɗa",
+                "sauti",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rubuce-rubucen kiɗa"),
+            keywords: &[
+                "kiɗa",
+                "rubuce-rubuce",
+                "rubuce-rubucen kiɗa",
+                "rubuta kiɗa",
+                "rubutu",
+                "rubutun kiɗa",
+                "sauti",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("תווים מוזיקליים"),
-            keywords: &["מוזיקה", "תווים", "תווים מוזיקליים"],
+            keywords: &["מוזיקה", "מוסיקה", "תווים", "תווים מוזיקליים"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("स\u{902}गीत क\u{947} स\u{94d}वर"),
-            keywords: &["नोट", "स\u{902}गीत", "स\u{902}गीत क\u{947} स\u{94d}वर"],
+            keywords: &[
+                "नोट",
+                "स\u{902}गीत",
+                "स\u{902}गीत क\u{947} स\u{94d}वर",
+                "स\u{94d}वर",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -1068,13 +1175,23 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hy",
             tts: Some("նոտաներ"),
-            keywords: &["երաժշտություն", "նոտա", "նոտաներ"],
+            keywords: &["երաժշտություն", "ձայնանիշ"],
         },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("not-not musik"),
-            keywords: &["musik", "not", "not-not musik"],
+            keywords: &[
+                "bunyi",
+                "lagu",
+                "lambang",
+                "musik",
+                "not",
+                "not-not musik",
+                "simbol",
+                "suara",
+                "tanda",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -1092,7 +1209,15 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("note musicali"),
-            keywords: &["musica", "nota", "note", "note musicali"],
+            keywords: &[
+                "canzone",
+                "melodia",
+                "musica",
+                "nota",
+                "note",
+                "note musicali",
+                "spartito",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -1148,14 +1273,17 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             keywords: &[
                 "ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}",
                 "ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}ಗಳು",
+                "ಧ\u{ccd}ವನ\u{cbf}",
+                "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd} ನ\u{ccb}ಟ\u{ccd}ಸ\u{ccd}",
                 "ಸಂಗ\u{cc0}ತ",
+                "ಸ\u{ccd}ವರಗಳು",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("노래 음표"),
-            keywords: &["노래 음표", "음악"],
+            keywords: &["노래 음표", "소리", "음악", "음표"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -1197,7 +1325,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lv",
             tts: Some("notis"),
-            keywords: &["mūzika", "notis"],
+            keywords: &["mūzika", "mūzikas notis", "notis", "nots", "skaņa"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -1209,7 +1337,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("музички ноти"),
-            keywords: &["музика", "музички ноти", "ноти"],
+            keywords: &["звук", "музика", "музички ноти", "нота", "ноти"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -1242,7 +1370,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("nota-nota muzik"),
-            keywords: &["muzik", "nota", "nota-nota"],
+            keywords: &["muzik", "muzikal", "not", "not-not"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -1260,12 +1388,6 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
                 "န\u{102f}တ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("noter"),
-            keywords: &["musikk", "musikknoter", "noter"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1276,7 +1398,14 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("muzieknoten"),
-            keywords: &["muziek", "muzieknoten", "noot", "noten"],
+            keywords: &[
+                "achtste noten",
+                "geluid",
+                "muziek",
+                "muzieknoten",
+                "noot",
+                "noten",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -1302,6 +1431,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             tts: Some("ਸ\u{a70}ਗੀਤਕ ਸ\u{a41}ਰ"),
             keywords: &[
                 "ਸ\u{a41}ਰ",
+                "ਸ\u{a41}ਰ ਤਾਲ",
                 "ਸ\u{a70}ਗੀਤ",
                 "ਸ\u{a70}ਗੀਤਕ ਨ\u{a4b}ਟਸ",
                 "ਸ\u{a70}ਗੀਤਕ ਸ\u{a41}ਰ",
@@ -1341,19 +1471,19 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["música", "notas", "notas musicais"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("notas musicales"),
-            keywords: &["notas musicales"],
+            keywords: &["nota", "notas", "notas musicales", "takiy"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("note muzicale"),
-            keywords: &["muzică", "note", "note muzicale"],
+            keywords: &["muzică", "note", "note muzicale", "notă", "sunet"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -1365,7 +1495,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("ноты"),
-            keywords: &["звуки", "музыка", "ноты"],
+            keywords: &["звуки", "мелодия", "музыка", "ноты"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -1394,7 +1524,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("noty"),
-            keywords: &["hudba", "nota", "noty"],
+            keywords: &["hudba", "nota", "noty", "zvuk"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -1412,31 +1542,31 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("nota muzikore"),
-            keywords: &["muzikë", "nota", "nota muzikore", "notë"],
+            keywords: &["muzikë", "nota", "nota muzikore", "notë", "tingull"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("ноте"),
-            keywords: &["музика", "музичке ноте", "нота", "ноте"],
+            keywords: &["звук", "музика", "нота", "ноте", "нотни"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["ноте"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("note"),
-            keywords: &["muzika", "muzičke note", "nota", "note"],
+            keywords: &["muzika", "nota", "note", "notni", "zvuk"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["note"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -1448,16 +1578,27 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("manoti ya muziki"),
-            keywords: &["manoti", "manoti ya muziki", "muziki", "noti"],
+            keywords: &[
+                "manoti",
+                "manoti ya muziki",
+                "muziki",
+                "mziki",
+                "noti",
+                "noti za muziki",
+                "notoni",
+            ],
         },
         #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("இசைக\u{bcd} குறிப\u{bcd}புகள\u{bcd}"),
             keywords: &[
+                "இசை",
                 "இசைக\u{bcd} குறிப\u{bcd}புகள\u{bcd}",
+                "ஒலி",
                 "குறிப\u{bcd}பு",
                 "குறிப\u{bcd}புகள\u{bcd}",
+                "ப\u{bbe}டல\u{bcd}",
             ],
         },
         #[cfg(feature = "te")]
@@ -1465,8 +1606,13 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("సంగ\u{c40}త స\u{c4d}వర\u{c3e}లు"),
             keywords: &[
+                "న\u{c4b}ట\u{c4d}",
+                "న\u{c4b}ట\u{c4d}స\u{c4d}",
+                "మ\u{c4d}యూజ\u{c3f}కల\u{c4d} న\u{c4b}ట\u{c4d}స\u{c4d}",
+                "మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
                 "సంగ\u{c40}త స\u{c4d}వర\u{c3e}లు",
                 "సంగ\u{c40}తం",
+                "స\u{c4c}ండ\u{c4d}",
                 "స\u{c4d}వరం",
                 "స\u{c4d}వర\u{c3e}లు",
             ],
@@ -1482,9 +1628,18 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("โน\u{e49}ตดนตร\u{e35}หลายต\u{e31}ว"),
             keywords: &[
-                "โน\u{e49}ตดนตร\u{e35}",
-                "โน\u{e49}ตดนตร\u{e35}หลายต\u{e31}ว",
+                "ดนตร\u{e35}",
+                "เขบ\u{e47}ต",
+                "เพลง",
+                "เส\u{e35}ยง",
+                "โน\u{e49}ต",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ሙዚቃዊ ኖታታት"),
+            keywords: &["መተሓሳሰቢ", "መዘኻኸሪታት", "ሙዚቃ", "ሙዚቃዊ", "ድምጺ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1514,19 +1669,19 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("музичні ноти"),
-            keywords: &["музичний", "музичні ноти", "нота", "ноти"],
+            keywords: &["музика", "музичний", "музичні ноти", "нота", "ноти"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("میوزیکل نوٹس"),
-            keywords: &["موسیقی", "میوزیکل نوٹس", "نوٹس"],
+            keywords: &["سنگیت", "موسیقی", "میوزیکل نوٹس", "نوٹس"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("musiqiy notalar"),
-            keywords: &["musiqa", "musiqiy notalar", "nota", "notalar"],
+            keywords: &["musiqa", "musiqiy notalar", "nota", "notalar", "tovush"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -1557,6 +1712,17 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
                 "ọ\u{300}rọ\u{300}",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("nóòtì orin"),
+            keywords: &[
+                "nóòtì orin",
+                "orin",
+                "àwɔn ò\u{329}rò\u{329}",
+                "ɔ\u{300}rɔ\u{300}",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -1585,7 +1751,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("三個音符"),
-            keywords: &["三個音符", "音樂", "音符｜三個音符"],
+            keywords: &["三個音符", "聲音", "音樂", "音符", "音符｜三個音符"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -1596,7 +1762,7 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🎙\u{fe0f}"]
-pub const STUDIO_MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎙\u{fe0f}" , codepoint : "1F399 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 7u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [crate :: Emoji { glyph : "🎙" , codepoint : "1F399" , status : crate :: Status :: Unqualified , introduction_version : semver :: Version { major : 0u64 , minor : 7u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("ateljeemikrofoon") , keywords : & ["ateljee" , "ateljeemikrofoon" , "mikrofoon" , "musiek"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የስቲዲዮ ማይክራፎን") , keywords : & ["ሙዚቃ" , "ማይክ" , "ማይክራፎን" , "ስቲዲዮ" , "የስቲዲዮ ማይክራፎን"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون استوديو") , keywords : & ["استوديو" , "مايك" , "موسيقى" , "ميكروفون"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ষ\u{9cd}ট\u{9c1}ডিঅ’ ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন" , "ষ\u{9cd}ট\u{9c1}ডিঅ’"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("studiya mikrafonu") , keywords : & ["mik" , "mikrofon" , "musiqi" , "studio" , "studiya mikrafonu"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("студыйны мікрафон") , keywords : & ["музыка" , "музычная" , "мікрафон" , "студыйны мікрафон" , "студыя"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("Студиен микрофон") , keywords : & ["Студиен микрофон" , "микрофон" , "музика" , "студио"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}ট\u{9c1}ডিও ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন" , "সঙ\u{9cd}গীত" , "স\u{9cd}ট\u{9c1}ডিও"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("mikrofon studio") , keywords : & ["mikro" , "mikrofon" , "sonerezh" , "studio"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "pjevanje" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("micròfon d’estudi") , keywords : & ["estudi" , "micròfon" , "micròfon d’estudi" , "música"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("studiový mikrofon") , keywords : & ["hudba" , "mikrofon" , "studio" , "studiový mikrofon"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("meicroffon stiwdio") , keywords : & ["cerddoriaeth" , "meic" , "meicroffon" , "stiwdio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Studiomikrofon") , keywords : & ["Mikrofon" , "Studiomikrofon"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο στούντιο") , keywords : & ["μικρόφωνο" , "μουσική" , "στούντιο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("studio microphone") , keywords : & ["mic" , "microphone" , "music" , "studio"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("micrófono de estudio") , keywords : & ["estudio" , "micrófono" , "micrófono de estudio" , "música"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("micrófono de grabación") , keywords : & ["estudio" , "grabación" , "micrófono" , "micrófono de grabación" , "voz"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("stuudiomikrofon") , keywords : & ["mikrofon" , "muusika" , "stuudio" , "stuudiomikrofon"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("estudioko mikrofonoa") , keywords : & ["estudio" , "estudioko mikrofonoa" , "mikrofono" , "musika"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("میکروفون استودیویی") , keywords : & ["استودیو" , "موسیقی" , "میکروفون" , "میکروفون استودیویی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("studiomikrofoni") , keywords : & ["levytys" , "mikrofoni" , "musiikki" , "studiomikrofoni" , "äänitys"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mikroponong pang-studio") , keywords : & ["kanta" , "mikropono" , "mikroponong pang-studio" , "musika" , "studio"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("ljóðstovumikrofon") , keywords : & ["ljóðfatur" , "ljóðstovumikrofon" , "ljóðtak" , "mikrofon"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("micro de studio") , keywords : & ["micro" , "micro de studio"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("micreafón stiúideo") , keywords : & ["ceol" , "mic" , "micreafón" , "stiúideo"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("micreofon stiùideo") , keywords : & ["ceòl" , "mic" , "micreofon" , "stiùideo" , "stiùidio"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("micrófono de gravación") , keywords : & ["gravación" , "micrófono" , "micrófono de gravación" , "música" , "radio"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ટ\u{ac2}ડિયો માઇક\u{acd}રોફોન") , keywords : & ["માઇક" , "માઇક\u{acd}રોફોન" , "મ\u{acd}ય\u{ac1}ઝિક" , "સ\u{a82}ગીત" , "સ\u{acd}ટ\u{ac2}ડિયો"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("makurofon na sutudiyo") , keywords : & ["kiɗa" , "makurofon" , "makurofon na sutudiyo" , "sutudiyo"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מיקרופון אולפן") , keywords : & ["אולפן" , "הקלטה" , "מוזיקה" , "מיקרופון" , "שירה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}ट\u{942}डियो माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["माइक" , "माइक\u{94d}रोफ\u{93c}ोन" , "स\u{902}गीत" , "स\u{94d}ट\u{942}डियो"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("studijski mikrofon") , keywords : & ["glazba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("stúdiómikrofon") , keywords : & ["mikrofon" , "stúdió" , "stúdiómikrofon" , "zene"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ստուդիայի խոսափող") , keywords : & ["երաժշտություն" , "խոսափող" , "ստուդիա" , "ստուդիայի խոսափող"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("mikrofon studio") , keywords : & ["mik" , "mikrofon" , "musik" , "studio"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe ụlọegwu") , keywords : & ["egwu" , "igweokwu" , "igweokwu nkwụrụonwe" , "igweokwu nkwụrụonwe ụlọegwu" , "ụlọegwu"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi í hljóðveri") , keywords : & ["hljóðnemi" , "hljóðnemi í hljóðveri" , "hljóðver" , "tónlist"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("microfono radiofonico") , keywords : & ["microfoni" , "microfoni da studio" , "microfono" , "microfono da studio" , "microfono radiofonico"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("スタジオマイク") , keywords : & ["スタジオマイク" , "マイク" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("mikropon studio") , keywords : & ["mik" , "mikropon" , "musik" , "studio"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("სტუდიური მიკროფონი") , keywords : & ["მიკროფონი" , "მუსიკა" , "სტუდია" , "სტუდიური მიკროფონი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("студио микрофоны") , keywords : & ["мик" , "микрофон" , "музыка" , "студио" , "студио микрофоны"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}") , keywords : & ["តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យោ" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccd}ಟುಡ\u{cbf}ಯ\u{cca} ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}") , keywords : & ["ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}" , "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗ\u{cc0}ತ" , "ಸ\u{ccd}ಟುಡ\u{cbf}ಯ\u{cca} ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("스튜디오 마이크") , keywords : & ["마이크" , "사회자 마이크" , "스튜디오 마이크"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("स\u{94d}ट\u{941}डियो मायक\u{94d}रोफोन") , keywords : & ["मायक" , "मायक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("студия микрофону") , keywords : & ["микрофон" , "музыка" , "студия" , "студия микрофону"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Studiosmikro") , keywords : & ["Mikro" , "Musek" , "Studio" , "Studiosmikro"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ") , keywords : & ["ສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ເພງ" , "ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ໄມໂຄຣໂຟນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("studijos mikrofonas") , keywords : & ["mikrofonas" , "muzika" , "studija" , "studijos mikrofonas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("studijas mikrofons") , keywords : & ["mikrofons" , "studija" , "studijas mikrofons"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("hopuoro taiwhanga") , keywords : & ["hopuoro" , "puoro" , "taiwhanga"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("студиски микрофон") , keywords : & ["микрофон" , "музика" , "студио" , "студиски микрофон"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}റ\u{d4d}റ\u{d41}ഡിയോ മൈക\u{d4d}രോഫോൺ") , keywords : & ["മൈക\u{d4d}ക\u{d4d}" , "മൈക\u{d4d}രോഫോൺ" , "മ\u{d4d}യ\u{d42}സിക\u{d4d}ക\u{d4d}" , "സംഗീതം" , "സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d41}ഡിയോ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("студийн микрофон") , keywords : & ["мик" , "микрофон" , "студи" , "студийн микрофон" , "хөгжим"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन") , keywords : & ["माइक" , "मायक\u{94d}रोफान" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डिओ" , "स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("mikrofon studio") , keywords : & ["mikrofon" , "muzik" , "studio"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu tal-istudjo") , keywords : & ["mik" , "mikrofonu" , "mikrofonu tal-istudjo" , "mużika" , "studjo"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f} မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ဂ\u{102e}တ" , "စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f}" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("studiomikrofon") , keywords : & ["mik" , "mikrofon" , "musikk" , "studio" , "studiomikrofon"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन") , keywords : & ["माइक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो" , "स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("studiomicrofoon") , keywords : & ["microfoon" , "muziek" , "studio" , "studiomicrofoon"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("studiomikrofon") , keywords : & ["mik" , "mikrofon" , "musikk" , "studio" , "studiomikrofon"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}") , keywords : & ["ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}" , "ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ" , "ସଙ\u{b4d}ଗୀତ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸਟ\u{a42}ਡੀਓ ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ") , keywords : & ["ਮਾਈਕ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ" , "ਸਟ\u{a42}ਡੀਓ" , "ਸ\u{a70}ਗੀਤ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("سٹوڈیو مائیکروفون") , keywords : & ["سٹوڈیو" , "مائک" , "مائیکروفون" , "موسیقی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Stúdió Maikrofon") , keywords : & ["Maik" , "Maikrofon" , "Miúzik" , "Stúdio" , "Stúdió Maikrofon"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("mikrofon studyjny") , keywords : & ["mikrofon" , "muzyka" , "nagrywać" , "studio" , "studyjny"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د سټوډیو مایکروفون") , keywords : & ["د سټوډیو مایکروفون" , "سټوډيو" , "مايک" , "مايکروفون" , "موسيقي"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("microfone de estúdio") , keywords : & ["estúdio" , "microfone" , "microfone de estúdio" , "música"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("microfone de estúdio") , keywords : & ["estúdio" , "microfone" , "microfone de estúdio" , "música"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("microfono estudiomanta") , keywords : & ["estudio" , "micro" , "microfono" , "microfono estudiomanta" , "takiy"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("microfon de studio") , keywords : & ["microfon" , "microfon de studio" , "muzică" , "studio"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-347") , keywords : & ["E10-347"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("студийный микрофон") , keywords : & ["вокал" , "звук" , "микрофон" , "музыка" , "пение" , "студийный микрофон"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("indangururamajwi ya sitidiyo") , keywords : & ["indangurura" , "indangururamajwi" , "indangururamajwi ya sitidiyo" , "sitidiyo" , "umuziki"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("اسٽوڊيو جو مائيڪروفون") , keywords : & ["اسٽوڊيو" , "اسٽوڊيو جو مائيڪروفون" , "مائيڪ" , "مائيڪروفون" , "موسيقي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}රය" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "සංග\u{dd3}තය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("štúdiový mikrofón") , keywords : & ["hudba" , "mikrofón" , "štúdio" , "štúdiový mikrofón"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("studijski mikrofon") , keywords : & ["glasba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("mikirifoonka istuudyaha") , keywords : & ["istuudyow" , "mik" , "mikirifoon" , "mikirifoonka istuudyaha" , "muusik"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("mikrofon studioje") , keywords : & ["mikrofon" , "mikrofon studioje" , "muzikë" , "studio"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("студијски микрофон") , keywords : & ["микрофон" , "музика" , "студио" , "студијски микрофон"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["студијски микрофон"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "muzika" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["studijski mikrofon"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("studiomikrofon") , keywords : & ["mikrofon" , "sjunga" , "studiomikrofon"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni ya studio") , keywords : & ["maikrofoni" , "maikrofoni ya studio" , "muziki" , "studio"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["இசை" , "ப\u{bbe}ட\u{bcd}டு" , "மைக\u{bcd}" , "ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}టూడ\u{c3f}య\u{c4b} మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "సంగ\u{c40}తం" , "స\u{c4d}టూడ\u{c3f}య\u{c4b}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("микрофони студия") , keywords : & ["мик" , "микрофон" , "микрофони студия" , "мусиқӣ" , "студия"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ") , keywords : & ["สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ" , "ไมโครโฟน"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("studiýa mikrofony") , keywords : & ["aýdym-saz" , "mik" , "mikrofon" , "studiýa" , "studiýa mikrofony"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("maikalofone fakamafolalea") , keywords : & ["maikalofone fakamafolalea"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("stüdyo mikrofonu") , keywords : & ["mikrofon" , "müzik" , "stüdyo" , "stüdyo mikrofonu"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ئىستۇدىيە مىكروفونى") , keywords : & ["ئىستۇدىيە" , "ئىستۇدىيە مىكروفونى" , "مىك" , "مىكروفون" , "مۇزىكا"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("студійний мікрофон") , keywords : & ["музичний" , "мікрофон" , "студійний мікрофон" , "студія"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("اسٹوڈیو مائیکروفون") , keywords : & ["اسٹوڈیو" , "مائیک" , "مائیکروفون" , "موسیقی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("studiya mikrofoni") , keywords : & ["mikrofon" , "musiqa" , "studiya" , "studiya mikrofoni"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("micrô phòng thu âm") , keywords : & ["micrô" , "micrô phòng thu âm" , "nhạc" , "phòng thu"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mikrofonu studio") , keywords : & ["mikro" , "mikrofon" , "mikrofonu studio" , "misik" , "studio"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-microphone yestudiyo") , keywords : & ["i-mic" , "i-microphone" , "i-microphone yestudiyo" , "istudiyo" , "umculo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("maikurofóònù sítúdíò") , keywords : & ["ilé-agódo" , "maikurofóònù" , "maikurofóònù sítúdíò" , "maikì" , "orin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("錄音室咪高峰") , keywords : & ["咪" , "咪高峰" , "錄音室" , "錄音室咪高峰" , "音樂"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("录音室咪高峰") , keywords : & ["咪" , "咪高峰" , "录音室" , "录音室咪高峰" , "音乐"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("录音室麦克风") , keywords : & ["录音室" , "录音室麦克风" , "音乐" , "麦" , "麦克" , "麦克风"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("錄音室麥克風") , keywords : & ["錄音室麥克風" , "麥克風"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("錄音室咪高風") , keywords : & ["咪高風" , "錄音室咪高風"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni yasestudiyo") , keywords : & ["imakhrofoni" , "imakhrofoni yasestudiyo" , "imayikhi" , "istudiyo" , "umculo"] , }] , } ;
+pub const STUDIO_MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎙\u{fe0f}" , codepoint : "1F399 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 7u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [crate :: Emoji { glyph : "🎙" , codepoint : "1F399" , status : crate :: Status :: Unqualified , introduction_version : semver :: Version { major : 0u64 , minor : 7u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("ateljeemikrofoon") , keywords : & ["ateljee" , "ateljeemikrofoon" , "gesels" , "mikrofoon" , "musiek" , "radio" , "uitsending"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("የስቲዲዮ ማይክራፎን") , keywords : & ["ሙዚቃ" , "ማይክ" , "ማይክራፎን" , "ማይክሮፎን" , "ስቱዲዮ ማይክሮፎን" , "ስቲዲዮ" , "ኦልዲስ" , "ዘፈን" , "የስቲዲዮ ማይክራፎን"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون استوديو") , keywords : & ["اذاعة" , "استديو" , "استوديو" , "تسجيل صوتي" , "مايك" , "موسيقى" , "ميكروفون"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ষ\u{9cd}ট\u{9c1}ডিঅ’ ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন" , "ষ\u{9cd}ট\u{9c1}ডিঅ’"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("studiya mikrafonu") , keywords : & ["mik" , "mikrofon" , "musiqi" , "studio" , "studiya mikrafonu"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("студыйны мікрафон") , keywords : & ["музыка" , "музычная" , "мікрафон" , "студыйны мікрафон" , "студыя"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("студиен микрофон") , keywords : & ["микрофон" , "музика" , "студиен микрофон" , "студио"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}ট\u{9c1}ডিও ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন" , "সঙ\u{9cd}গীত" , "স\u{9cd}ট\u{9c1}ডিও"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("mikrofon studio") , keywords : & ["mikro" , "mikrofon" , "sonerezh" , "studio"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "pjevanje" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("micròfon d’estudi") , keywords : & ["estudi" , "micròfon" , "micròfon d’estudi" , "música"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("studiový mikrofon") , keywords : & ["hudba" , "mikrofon" , "podcast" , "studio" , "studiový mikrofon" , "zvuk"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("meicroffon stiwdio") , keywords : & ["cerddoriaeth" , "meic" , "meicroffon" , "stiwdio"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Studiomikrofon") , keywords : & ["Mikrofon" , "Studiomikrofon"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο στούντιο") , keywords : & ["μικρόφωνο" , "μουσική" , "στούντιο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("studio microphone") , keywords : & ["mic" , "microphone" , "music" , "studio"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("micrófono de estudio") , keywords : & ["estudio" , "micrófono" , "micrófono de estudio" , "música"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("micrófono de grabación") , keywords : & ["cantante" , "cantar" , "estudio" , "grabación" , "micrófono" , "micrófono de estudio" , "micrófono de grabación" , "música" , "voz"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("stuudiomikrofon") , keywords : & ["mikrofon" , "muusika" , "stuudio" , "stuudiomikrofon"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("estudioko mikrofonoa") , keywords : & ["estudio" , "estudioko mikrofonoa" , "mikrofono" , "musika"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("میکروفون استودیویی") , keywords : & ["استودیو" , "موسیقی" , "میکروفن" , "میکروفن استودیویی" , "میکروفون" , "میکروفون استودیویی"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("studiomikrofoni") , keywords : & ["levytys" , "mikrofoni" , "musiikki" , "studiomikrofoni" , "äänitys"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mikroponong pang-studio") , keywords : & ["kanta" , "karaoke" , "mic" , "mikropono" , "mikroponong pang-studio" , "musika" , "studio"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("ljóðstovumikrofon") , keywords : & ["ljóðfatur" , "ljóðstovumikrofon" , "ljóðtak" , "mikrofon"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("micro de studio") , keywords : & ["chant" , "enregistrement" , "micro" , "micro de studio" , "microphone" , "musique" , "studio"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("micreafón stiúideo") , keywords : & ["ceol" , "mic" , "micreafón" , "stiúideo"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("micreofon stiùideo") , keywords : & ["ceòl" , "mic" , "micreofon" , "stiùideo" , "stiùidio"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("micrófono de gravación") , keywords : & ["gravación" , "micrófono" , "micrófono de gravación" , "música" , "radio"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ટ\u{ac2}ડિયો માઇક\u{acd}રોફોન") , keywords : & ["માઇક" , "માઇક\u{acd}રોફોન" , "મ\u{acd}ય\u{ac1}ઝિક" , "સ\u{a82}ગીત" , "સાધન" , "સ\u{acd}ટ\u{ac2}ડિયો"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("makurofon na sutudiyo") , keywords : & ["kiɗa" , "lasifika" , "makirufo" , "makirufon" , "makurofon" , "makurofon na sutudiyo" , "sutudiyo"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("makurofon na sutudiyo") , keywords : & ["kiɗa" , "lasifika" , "makirufo" , "makirufon" , "makurofon" , "makurofon na sutudiyo" , "sutudiyo"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מיקרופון אולפן") , keywords : & ["אולפן" , "הקלטה" , "מוזיקה" , "מיקרופון" , "שירה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}ट\u{942}डियो माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["माइक" , "माइक\u{94d}रोफ\u{93c}ोन" , "स\u{902}गीत" , "स\u{94d}ट\u{942}डियो"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("studijski mikrofon") , keywords : & ["glazba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("stúdiómikrofon") , keywords : & ["mikrofon" , "stúdió" , "stúdiómikrofon" , "zene"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("ստուդիայի խոսափող") , keywords : & ["երաժշտություն" , "խոսափող" , "ստուդիա" , "ստուդիայի խոսափող"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("mikrofon studio") , keywords : & ["mik" , "mikrofon" , "musik" , "studio"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe ụlọegwu") , keywords : & ["egwu" , "igweokwu" , "igweokwu nkwụrụonwe" , "igweokwu nkwụrụonwe ụlọegwu" , "ụlọegwu"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi í hljóðveri") , keywords : & ["hljóðnemi" , "hljóðnemi í hljóðveri" , "hljóðver" , "tónlist"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("microfono radiofonico") , keywords : & ["cantare" , "microfoni" , "microfoni da studio" , "microfono" , "microfono da studio" , "microfono radiofonico" , "radio" , "registrazione" , "studio"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("スタジオマイク") , keywords : & ["スタジオマイク" , "マイク" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("mikropon studio") , keywords : & ["mik" , "mikropon" , "musik" , "studio"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("სტუდიური მიკროფონი") , keywords : & ["მიკროფონი" , "მუსიკა" , "სტუდია" , "სტუდიური მიკროფონი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("asawaḍ n uxxam n usekles") , keywords : & ["asawaḍ n uxxam n usekles"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("студио микрофоны") , keywords : & ["мик" , "микрофон" , "музыка" , "студио" , "студио микрофоны"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}") , keywords : & ["តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យោ" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccd}ಟುಡ\u{cbf}ಯ\u{cca} ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}") , keywords : & ["ಮ\u{cc8}ಕ\u{ccd}" , "ಮ\u{cc8}ಕ\u{ccd}ರ\u{cca}ಫ\u{ccb}ನ\u{ccd}" , "ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}" , "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗ\u{cc0}ತ" , "ಸ\u{ccd}ಟುಡ\u{cbf}ಯ\u{cca} ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}" , "ಸ\u{ccd}ಟುಡ\u{cbf}ಯ\u{ccb}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("스튜디오 마이크") , keywords : & ["마이크" , "마이크로폰" , "사회자 마이크" , "스튜디오" , "음악"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("स\u{94d}ट\u{941}डियो मायक\u{94d}रोफोन") , keywords : & ["मायक" , "मायक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("студия микрофону") , keywords : & ["микрофон" , "музыка" , "студия" , "студия микрофону"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Studiosmikro") , keywords : & ["Mikro" , "Musek" , "Studio" , "Studiosmikro"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ") , keywords : & ["ສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ເພງ" , "ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ໄມໂຄຣໂຟນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("studijos mikrofonas") , keywords : & ["mikrofonas" , "muzika" , "studija" , "studijos mikrofonas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("studijas mikrofons") , keywords : & ["mikrofons" , "studija" , "studijas mikrofons"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("hopuoro taiwhanga") , keywords : & ["hopuoro" , "puoro" , "taiwhanga"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("студиски микрофон") , keywords : & ["микрофон" , "музика" , "студио" , "студиски микрофон"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}റ\u{d4d}റ\u{d41}ഡിയോ മൈക\u{d4d}രോഫോൺ") , keywords : & ["മൈക\u{d4d}ക\u{d4d}" , "മൈക\u{d4d}രോഫോൺ" , "മ\u{d4d}യ\u{d42}സിക\u{d4d}ക\u{d4d}" , "സംഗീതം" , "സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d41}ഡിയോ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("студийн микрофон") , keywords : & ["мик" , "микрофон" , "студи" , "студийн микрофон" , "хөгжим"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन") , keywords : & ["माइक" , "मायक\u{94d}रोफान" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डिओ" , "स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("mikrofon studio") , keywords : & ["mikrofon" , "muzik" , "studio"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu tal-istudjo") , keywords : & ["mik" , "mikrofonu" , "mikrofonu tal-istudjo" , "mużika" , "studjo"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f} မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ဂ\u{102e}တ" , "စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f}" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन") , keywords : & ["माइक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो" , "स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("studiomicrofoon") , keywords : & ["microfoon" , "muziek" , "studio" , "studiomicrofoon"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}") , keywords : & ["ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}" , "ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ" , "ସଙ\u{b4d}ଗୀତ"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਸਟ\u{a42}ਡੀਓ ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ") , keywords : & ["ਮਾਈਕ" , "ਮਾਈਕਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ" , "ਸਟ\u{a42}ਡੀਓ" , "ਸ\u{a70}ਗੀਤ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("سٹوڈیو مائیکروفون") , keywords : & ["سٹوڈیو" , "مائک" , "مائیکروفون" , "موسیقی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Stúdió Maikrofon") , keywords : & ["Maik" , "Maikrofon" , "Miúzik" , "Stúdio" , "Stúdió Maikrofon"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("mikrofon studyjny") , keywords : & ["mikrofon" , "muzyka" , "nagrywać" , "studio" , "studyjny"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("د سټوډیو مایکروفون") , keywords : & ["د سټوډیو مایکروفون" , "سټوډيو" , "مايک" , "مايکروفون" , "موسيقي"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("microfone de estúdio") , keywords : & ["estúdio" , "microfone" , "microfone de estúdio" , "música"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("microfono estudiomanta") , keywords : & ["estudio" , "micro" , "microfono" , "microfono estudiomanta" , "takiy"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("microfon de studio") , keywords : & ["microfon" , "microfon de studio" , "muzică" , "studio"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-347") , keywords : & ["E10-347"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("студийный микрофон") , keywords : & ["вокал" , "звук" , "микрофон" , "музыка" , "пение" , "студийный микрофон"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("indangururamajwi ya sitidiyo") , keywords : & ["indangurura" , "indangururamajwi" , "indangururamajwi ya sitidiyo" , "sitidiyo" , "umuziki"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("اسٽوڊيو جو مائيڪروفون") , keywords : & ["اسٽوڊيو" , "اسٽوڊيو جو مائيڪروفون" , "مائيڪ" , "مائيڪروفون" , "موسيقي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}රය" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "සංග\u{dd3}තය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("štúdiový mikrofón") , keywords : & ["hudba" , "mikrofón" , "podcast" , "zvuk" , "štúdio" , "štúdiový mikrofón"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("studijski mikrofon") , keywords : & ["glasba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("mikirifoonka istuudyaha") , keywords : & ["istuudyow" , "mik" , "mikirifoon" , "mikirifoonka istuudyaha" , "muusik"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("mikrofon studioje") , keywords : & ["mikrofon" , "mikrofon studioje" , "muzikë" , "studio"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("студијски микрофон") , keywords : & ["микрофон" , "музика" , "студиo"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "muzika" , "studio"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("studiomikrofon") , keywords : & ["mikrofon" , "sjunga" , "studiomikrofon"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni ya studio") , keywords : & ["kinakili sauti" , "maikrofoni" , "maikrofoni ya studio" , "muziki" , "studio"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["இசை" , "ஒலிவ\u{bbe}ங\u{bcd}கி" , "ப\u{bbe}டகர\u{bcd}" , "ப\u{bbe}டல\u{bcd}" , "ப\u{bbe}ட\u{bcd}டு" , "பேச\u{bcd}ச\u{bbe}ளர\u{bcd}" , "பேச\u{bcd}சு" , "பொருள\u{bcd}" , "மைக\u{bcd}" , "ஸ\u{bcd}டூடியோ" , "ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}టూడ\u{c3f}య\u{c4b} మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["మ\u{c48}క\u{c4d}" , "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "మ\u{c4d}యూజ\u{c3f}క\u{c4d}" , "సంగ\u{c40}తం" , "స\u{c4d}టూడ\u{c3f}య\u{c4b}"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("микрофони студия") , keywords : & ["мик" , "микрофон" , "микрофони студия" , "мусиқӣ" , "студия"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ") , keywords : & ["สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ" , "ไมโครโฟน"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ናይ ስቱድዮ ማይክሮፎን") , keywords : & ["ሙዚቃ" , "ማይክ" , "ማይክሮፎን" , "ስቱድዮ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("studiýa mikrofony") , keywords : & ["aýdym-saz" , "mik" , "mikrofon" , "studiýa" , "studiýa mikrofony"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("maikalofone fakamafolalea") , keywords : & ["maikalofone fakamafolalea"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("stüdyo mikrofonu") , keywords : & ["mikrofon" , "müzik" , "stüdyo" , "stüdyo mikrofonu"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("ئىستۇدىيە مىكروفونى") , keywords : & ["ئىستۇدىيە" , "ئىستۇدىيە مىكروفونى" , "مىك" , "مىكروفون" , "مۇزىكا"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("студійний мікрофон") , keywords : & ["музичний" , "мікрофон" , "студійний мікрофон" , "студія"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("اسٹوڈیو مائیکروفون") , keywords : & ["اسٹوڈیو" , "مائیک" , "مائیکروفون" , "موسیقی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("studiya mikrofoni") , keywords : & ["mikrofon" , "musiqa" , "studiya" , "studiya mikrofoni"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("micrô phòng thu âm") , keywords : & ["micrô" , "micrô phòng thu âm" , "nhạc" , "phòng thu"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mikrofonu studio") , keywords : & ["mikro" , "mikrofon" , "mikrofonu studio" , "misik" , "studio"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("i-microphone yestudiyo") , keywords : & ["i-mic" , "i-microphone" , "i-microphone yestudiyo" , "istudiyo" , "umculo"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("maikurofóònù sítúdíò") , keywords : & ["ilé-agódo" , "maikurofóònù" , "maikurofóònù sítúdíò" , "maikì" , "orin"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("maikurofóònù sítúdíò") , keywords : & ["ilé-agódo" , "maikurofóònù" , "maikurofóònù sítúdíò" , "maikì" , "orin"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("錄音室咪高峰") , keywords : & ["咪" , "咪高峰" , "錄音室" , "錄音室咪高峰" , "音樂"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("录音室咪高峰") , keywords : & ["咪" , "咪高峰" , "录音室" , "录音室咪高峰" , "音乐"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("录音室麦克风") , keywords : & ["录音室" , "录音室麦克风" , "音乐" , "麦" , "麦克" , "麦克风"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("錄音室麥克風") , keywords : & ["錄音室" , "錄音室麥克風" , "麥克風"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("錄音室咪高風") , keywords : & ["咪高風" , "工作室" , "錄音室咪高風" , "音樂" , "麥克風"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni yasestudiyo") , keywords : & ["imakhrofoni" , "imakhrofoni yasestudiyo" , "imayikhi" , "istudiyo" , "umculo"] , }] , } ;
 #[doc = "🎚\u{fe0f}"]
 pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
     glyph: "🎚\u{fe0f}",
@@ -1636,7 +1802,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("vlakglyer"),
-            keywords: &["glyer", "musiek", "vlak", "vlakglyer"],
+            keywords: &["glyer", "instrument", "musiek", "vlak", "vlakglyer"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -1648,7 +1814,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ar",
             tts: Some("شريط منسوب"),
-            keywords: &["شريط منسوب", "مؤشر", "مستوى", "موسيقى"],
+            keywords: &["شريط منسوب", "مؤشر", "مزيكا", "مستوى", "موسيقى"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -1671,8 +1837,8 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Плъзгач за нивото"),
-            keywords: &["Плъзгач за нивото", "музика", "ниво", "плъзгач"],
+            tts: Some("плъзгач за нивото"),
+            keywords: &["музика", "ниво", "плъзгач", "плъзгач за нивото"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -1695,7 +1861,12 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("control lliscant de nivell"),
-            keywords: &["control lliscant", "control lliscant de nivell", "nivell"],
+            keywords: &[
+                "control lliscant",
+                "control lliscant de nivell",
+                "música",
+                "nivell",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -1711,7 +1882,9 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
                 "fader",
                 "hlasitost",
                 "hudba",
+                "intenzita",
                 "jezdec",
+                "posuvník",
                 "posuvný ovladač hlasitosti",
                 "potenciometr",
                 "úroveň",
@@ -1727,13 +1900,19 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("volumenkontrol"),
-            keywords: &["musik", "volumenkontrol"],
+            keywords: &["lydstyrke", "musik", "volumenkontrol"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Schieberegler"),
             keywords: &["Musik", "Schieberegler"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -1781,7 +1960,14 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("control deslizante"),
-            keywords: &["control deslizante", "deslizar", "música", "nivel"],
+            keywords: &[
+                "control",
+                "control deslizante",
+                "deslizar",
+                "música",
+                "nivel",
+                "volumen",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -1834,7 +2020,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fil",
             tts: Some("level slider"),
-            keywords: &["antas", "level slider", "musika", "slider"],
+            keywords: &["antas", "level", "music", "musika", "slider"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -1890,9 +2076,11 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("લ\u{ac7}વલ સ\u{acd}લાઇડર"),
             keywords: &[
+                "અવાજ",
                 "મ\u{acd}ય\u{ac1}ઝિક",
                 "લ\u{ac7}વલ સ\u{acd}લાઇડર",
                 "સ\u{a82}ગીત",
+                "સાધન",
                 "સ\u{acd}લાઇડર",
             ],
         },
@@ -1900,27 +2088,30 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ha",
             tts: Some("majanyin lebur"),
-            keywords: &["kiɗa", "lebur", "majanyi", "majanyin lebur"],
+            keywords: &["kiɗa", "lebur", "majanyi", "majanyin lebur", "ƙara sauti"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("majanyin lebur"),
+            keywords: &["kiɗa", "lebur", "majanyi", "majanyin lebur", "ƙara sauti"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מחוון עוצמת קול"),
-            keywords: &[
-                "מחוון",
-                "מחוון עוצמת קול",
-                "סאונד",
-                "עוצמה",
-                "צליל",
-                "קול",
-                "רמה",
-            ],
+            keywords: &["מחוון", "סאונד", "סליידר", "עוצמה", "צליל", "קול", "רמה"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ल\u{947}वल स\u{94d}लाइडर"),
-            keywords: &["ल\u{947}वल स\u{94d}लाइडर", "स\u{902}गीत", "स\u{94d}लाइडर"],
+            keywords: &[
+                "ल\u{947}वल स\u{94d}लाइडर",
+                "स\u{902}गीत",
+                "स\u{94d}तर",
+                "स\u{94d}लाइडर",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -1970,9 +2161,12 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             keywords: &[
                 "abbassare il volume",
                 "alzare il volume",
+                "audio",
                 "cursore del volume",
                 "levetta del volume",
+                "musica",
                 "regolazione volume",
+                "volume",
             ],
         },
         #[cfg(feature = "ja")]
@@ -1992,6 +2186,12 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("დონის გადამრთველი"),
             keywords: &["გადამრთველი", "დონე", "დონის გადამრთველი", "მუსიკა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taḥnaccaḍt n uswir"),
+            keywords: &["taḥnaccaḍt n uswir"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2024,6 +2224,8 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
                 "ಮಟ\u{ccd}ಟ",
                 "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
                 "ಲ\u{cc6}ವ\u{cc6}ಲ\u{ccd} ಸ\u{ccd}ಲ\u{cc8}ಡರ\u{ccd}",
+                "ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd} ಹ\u{cca}ಂದ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
+                "ಸಂಗ\u{cc0}ತ",
                 "ಸ\u{ccd}ಲ\u{cc8}ಡರ\u{ccd}",
             ],
         },
@@ -2031,7 +2233,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("레벨 슬라이더"),
-            keywords: &["레벨 슬라이더", "음악"],
+            keywords: &["레벨", "슬라이더", "음악"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -2089,7 +2291,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("лизгач"),
-            keywords: &["лизгач", "музика", "ниво"],
+            keywords: &["лизгач", "лизгач за ниво", "музика", "ниво"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -2099,6 +2301,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
                 "മ\u{d4d}യ\u{d42}സിക\u{d4d}ക\u{d4d}",
                 "ലെവെൽ",
                 "ലെവൽ സൈഡർ",
+                "ലെവൽ സ\u{d4d}ലൈഡർ",
                 "സംഗീതം",
                 "സ\u{d4d}ലൈഡർ",
             ],
@@ -2148,12 +2351,6 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
                 "အသ\u{1036}ည\u{103e}\u{102d}တ\u{1036}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("glidebryter"),
-            keywords: &["glidebryter", "musikk", "nivå", "skyveknapp"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2169,7 +2366,13 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("schuifregelaar"),
-            keywords: &["muziek", "niveau", "schuifregelaar"],
+            keywords: &[
+                "muziek",
+                "niveau",
+                "schuifje",
+                "schuifregelaar",
+                "volumeregelaar",
+            ],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -2192,7 +2395,13 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਲ\u{a48}ਵਲ ਸਲਾਈਡਰ"),
-            keywords: &["ਪ\u{a71}ਧਰ", "ਲ\u{a48}ਵਲ ਸਲਾਈਡਰ", "ਸਲਾਈਡਰ", "ਸ\u{a70}ਗੀਤ"],
+            keywords: &[
+                "ਆਵਾਜ\u{a3c}",
+                "ਪ\u{a71}ਧਰ",
+                "ਲ\u{a48}ਵਲ ਸਲਾਈਡਰ",
+                "ਸਲਾਈਡਰ",
+                "ਸ\u{a70}ਗੀਤ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -2206,7 +2415,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             tts: Some("Lẹ\u{301}vúl Slaídá Kọntrol"),
             keywords: &[
                 "Lẹ\u{301}vul",
-                "Lẹ\u{301}vúl Slaídá",
+                "Lẹ\u{301}vúl Slaída",
                 "Lẹ\u{301}vúl Slaídá Kọntrol",
                 "Miúzik",
             ],
@@ -2215,7 +2424,15 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("suwak miksera dźwięku"),
-            keywords: &["muzyka", "poziom", "suwak", "suwak miksera dźwięku"],
+            keywords: &[
+                "dźwięk",
+                "dźwięku",
+                "mikser",
+                "miksera",
+                "muzyka",
+                "poziom",
+                "suwak",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -2233,7 +2450,14 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("controlo de nível"),
-            keywords: &["controlo de nível", "música", "nível", "seletor"],
+            keywords: &[
+                "controlo de nível",
+                "controlo do volume",
+                "música",
+                "nível",
+                "seletor",
+                "volume",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -2245,7 +2469,14 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("glisor de nivel"),
-            keywords: &["glisor", "glisor de nivel", "muzică", "nivel"],
+            keywords: &[
+                "ajustare",
+                "ajustare volum",
+                "glisor",
+                "glisor de nivel",
+                "muzică",
+                "nivel",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -2257,7 +2488,7 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("слайдер"),
-            keywords: &["музыка", "слайдер", "уровень"],
+            keywords: &["звук", "музыка", "слайдер", "уровень"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -2286,7 +2517,15 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("posúvač"),
-            keywords: &["hudba", "posúvač", "úroveň"],
+            keywords: &[
+                "hlasitosť",
+                "hudba",
+                "intenzita",
+                "posúvač",
+                "posúvač úrovne",
+                "pošúvač",
+                "úroveň",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -2310,25 +2549,25 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("клизач за подешавање"),
-            keywords: &["клизач", "клизач за подешавање", "музика", "ниво"],
+            keywords: &["клизaч", "музика", "ниво"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["клизач за подешавање"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("klizač za podešavanje"),
-            keywords: &["klizač", "klizač za podešavanje", "muzika", "nivo"],
+            keywords: &["klizač", "muzika", "nivo"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["klizač za podešavanje"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2359,6 +2598,8 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             tts: Some("லெவல\u{bcd} ஸ\u{bcd}லைடர\u{bcd}"),
             keywords: &[
                 "இசை",
+                "மியூசிக\u{bcd}",
+                "மியூஸிக\u{bcd}",
                 "லெவல\u{bcd} ஸ\u{bcd}லைடர\u{bcd}",
                 "ஸ\u{bcd}லைடர\u{bcd}",
             ],
@@ -2368,7 +2609,9 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             lang: "te",
             tts: Some("ల\u{c46}వల\u{c4d} స\u{c4d}లయ\u{c3f}డర\u{c4d}"),
             keywords: &[
+                "మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
                 "ల\u{c46}వల\u{c4d}",
+                "ల\u{c46}వ\u{c46}ల\u{c4d}",
                 "సంగ\u{c40}తం",
                 "స\u{c4d}లయ\u{c3f}డర\u{c4d}",
             ],
@@ -2395,6 +2638,12 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
                 "เพลง",
                 "เส\u{e35}ยง",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ደረጃ ስላይደር"),
+            keywords: &["ሙዚቃ", "ስላይደር", "ደረጃ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -2424,7 +2673,15 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("повзунок рівня"),
-            keywords: &["бігунець рівня", "музичний", "повзунок", "повзунок рівня"],
+            keywords: &[
+                "бігунець рівня",
+                "гучність",
+                "музичний",
+                "повзунок",
+                "повзунок рівня",
+                "рівень",
+                "рівень гучності",
+            ],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
@@ -2462,6 +2719,12 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             tts: Some("ìpele yíyò\u{329}"),
             keywords: &["ipele", "orin", "yíyò\u{329}", "ìpele yíyò\u{329}"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìpele yíyò\u{329}"),
+            keywords: &["ipele", "orin", "yíyò\u{329}", "ìpele yíyò\u{329}"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2478,19 +2741,27 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("电平滑块"),
-            keywords: &["滑块", "电平", "电平滑块", "调节", "音乐"],
+            keywords: &[
+                "滑块",
+                "电平",
+                "电平滑块",
+                "调节",
+                "调节滑块",
+                "音乐",
+                "音量",
+            ],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("調整桿"),
-            keywords: &["調整桿"],
+            keywords: &["滑桿", "調整桿"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("滑桿"),
-            keywords: &["滑桿", "滑桿 ｜音樂"],
+            keywords: &["滑桿", "滑條", "音樂"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -2539,19 +2810,28 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("kontroleknoppe"),
-            keywords: &["knoppe", "kontrole", "kontroleknoppe", "musiek"],
+            keywords: &[
+                "ateljee",
+                "hoëtrouklank",
+                "knoppe",
+                "knoppies",
+                "kontrole",
+                "kontroleknoppe",
+                "kontroleknoppies",
+                "musiek",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("መቆጣጠሪያ ቁልፎች"),
-            keywords: &["መቆጣጠሪያ", "መቆጣጠሪያ ቁልፎች", "ሙዚቃ"],
+            keywords: &["መቆጣጠሪያ", "ሙዚቃ", "ቁልፎች"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("أزرار تحكم"),
-            keywords: &["أزرار", "تحكم", "موسيقى"],
+            keywords: &["أزرار", "تحكم", "كونترول", "موسيقى"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -2579,9 +2859,9 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
-            tts: Some("Копчета за управление"),
+            tts: Some("копчета за управление"),
             keywords: &[
-                "Копчета за управление",
+                "копчета за управление",
                 "музика",
                 "ръкохватки",
                 "управление",
@@ -2592,6 +2872,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "bn",
             tts: Some("নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ বোত\u{9be}ম"),
             keywords: &[
+                "গ\u{9be}ন",
                 "নব",
                 "নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ",
                 "নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ বোত\u{9be}ম",
@@ -2622,10 +2903,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             tts: Some("ovládací knoflíky"),
             keywords: &[
                 "hudba",
+                "knoflíky",
                 "otočný",
                 "ovládací knoflíky",
                 "ovládání",
                 "potenciometr",
+                "zvuk",
             ],
         },
         #[cfg(feature = "cy")]
@@ -2644,7 +2927,13 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("Drehregler"),
-            keywords: &["Bedienknöpfe", "Drehregler", "Stellknöpfe"],
+            keywords: &["Bedienknöpfe", "Drehregler", "Knöpfe", "Stellknöpfe"],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -2700,28 +2989,23 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "es_419",
             tts: Some("perillas"),
             keywords: &[
+                "botones",
                 "control",
                 "diales",
                 "música",
                 "perillas",
+                "perillas de control",
                 "potenciómetros",
                 "ruedas",
                 "ruedas de control",
+                "volumen",
             ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("perillas"),
-            keywords: &[
-                "control",
-                "diales",
-                "música",
-                "perillas",
-                "potenciómetros",
-                "ruedas",
-                "ruedas de control",
-            ],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -2757,7 +3041,13 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fil",
             tts: Some("mga control knob"),
-            keywords: &["kontrol", "mga control knob", "mga knob", "musika"],
+            keywords: &[
+                "kontrol",
+                "mga control knob",
+                "mga knob",
+                "musika",
+                "pihitan",
+            ],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -2769,7 +3059,15 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("boutons de réglage"),
-            keywords: &["boutons", "boutons de commande", "boutons de réglage"],
+            keywords: &[
+                "boutons",
+                "boutons de commande",
+                "boutons de contrôle",
+                "boutons de réglage",
+                "commande",
+                "musique",
+                "réglages",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -2800,17 +3098,41 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "gu",
             tts: Some("કન\u{acd}ટ\u{acd}રોલ નોબ\u{acd}સ"),
             keywords: &[
+                "અવાજ",
                 "કન\u{acd}ટ\u{acd}રોલ",
                 "નોબ\u{acd}સ",
                 "મ\u{acd}ય\u{ac1}ઝિક",
                 "સ\u{a82}ગીત",
+                "સાધન",
             ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("mamurɗin sarrafa"),
-            keywords: &["kiɗa", "mamurɗi", "mamurɗin sarrafa", "sarrafa"],
+            keywords: &[
+                "abin ƙara sauti",
+                "kiɗa",
+                "mamurɗi",
+                "mamurɗin sarrafa",
+                "mamurɗin sarrafawa",
+                "sarrafa",
+                "ƙara magana",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("mamurɗin sarrafa"),
+            keywords: &[
+                "abin ƙara sauti",
+                "kiɗa",
+                "mamurɗi",
+                "mamurɗin sarrafa",
+                "mamurɗin sarrafawa",
+                "sarrafa",
+                "ƙara magana",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -2818,9 +3140,10 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             tts: Some("כפתורי עוצמת קול"),
             keywords: &[
                 "ווליום",
-                "כפתורי עוצמת קול",
                 "כפתורים",
                 "מוזיקה",
+                "מוסיקה",
+                "סינתי",
                 "עוצמת קול",
                 "שליטה",
             ],
@@ -2829,7 +3152,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("क\u{902}ट\u{94d}रोल नॉब"),
-            keywords: &["क\u{902}ट\u{94d}रोल", "नॉब", "स\u{902}गीत"],
+            keywords: &[
+                "क\u{902}ट\u{94d}रोल",
+                "निय\u{902}त\u{94d}रण",
+                "नॉब",
+                "स\u{902}गीत",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
@@ -2841,7 +3169,15 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("vezérlőgombok"),
-            keywords: &["gombok", "irányítás", "vezérlőgombok", "zene"],
+            keywords: &[
+                "gombok",
+                "irányítás",
+                "kontroller",
+                "poti",
+                "potméter",
+                "vezérlőgombok",
+                "zene",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -2877,9 +3213,13 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "it",
             tts: Some("manopole di controllo"),
             keywords: &[
+                "console",
+                "dj",
+                "manopola",
                 "manopole",
                 "manopole del volume",
                 "manopole di controllo",
+                "musica",
                 "regolazione volume",
             ],
         },
@@ -2892,6 +3232,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
                 "コントロール",
                 "コントロールつまみ",
                 "ノブ",
+                "調整",
                 "音楽",
             ],
         },
@@ -2906,6 +3247,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("მართვის ღილაკები"),
             keywords: &["მართვა", "მართვის ღილაკები", "მუსიკა", "ღილაკები"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tiqeffalin n uṣeggem"),
+            keywords: &["tiqeffalin n uṣeggem"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -2934,8 +3281,11 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಹ\u{cbf}ಗ\u{ccd}ಗುವ\u{cbf}ಕ\u{cc6} ನ\u{cbf}ಯಂತ\u{ccd}ರಣ"),
             keywords: &[
+                "ಕಂಟ\u{ccd}ರ\u{ccb}ಲ\u{ccd} ನಾಬ\u{ccd}",
                 "ನ\u{cbf}ಯಂತ\u{ccd}ರಣ",
+                "ನ\u{cbf}ಯಂತ\u{ccd}ರ\u{cbf}ಸುವ ಬಟನ\u{ccd}",
                 "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
+                "ಸಂಗ\u{cc0}ತ",
                 "ಹ\u{cbf}ಗ\u{ccd}ಗುವ\u{cbf}ಕ\u{cc6} ನ\u{cbf}ಯಂತ\u{ccd}ರಣ",
             ],
         },
@@ -2943,7 +3293,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("컨트롤 레버"),
-            keywords: &["조작 레버", "컨트롤 레버"],
+            keywords: &["손잡이", "음악", "조작 레버", "컨트롤", "컨트롤 레버"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -2971,6 +3321,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
                 "ຄວບຄ\u{eb8}ມ",
                 "ປ\u{eb8}\u{ec8}ມ",
                 "ປ\u{eb8}\u{ec8}ມຄວບຄ\u{eb8}ມ",
+                "ປ\u{eb8}\u{ec8}ມຄວບຄ\u{eb8}ມສຽງ",
                 "ສຽງ",
             ],
         },
@@ -2978,7 +3329,14 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("valdymo rankenos"),
-            keywords: &["muzika", "rankenos", "valdymas", "valdymo rankenos"],
+            keywords: &[
+                "muzika",
+                "rankenos",
+                "rankenėlės",
+                "valdymas",
+                "valdymo pultas",
+                "valdymo rankenos",
+            ],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
@@ -2996,7 +3354,13 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("копчиња за управување"),
-            keywords: &["контрола", "копчиња", "копчиња за управување", "музика"],
+            keywords: &[
+                "контрола",
+                "контролни копчиња",
+                "копчиња",
+                "копчиња за управување",
+                "музика",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -3051,18 +3415,6 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
                 "ထ\u{102d}န\u{103a}းချ\u{102f}ပ\u{103a}မ\u{103e}\u{102f}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kontrollbrytere"),
-            keywords: &[
-                "brytere",
-                "knotter",
-                "kontroll",
-                "kontrollbrytere",
-                "musikk",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3107,7 +3459,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਕ\u{a70}ਟਰ\u{a4b}ਲ ਬਟਨ"),
-            keywords: &["ਕ\u{a70}ਟਰ\u{a4b}ਲ", "ਬਟਨ", "ਸ\u{a70}ਗੀਤ"],
+            keywords: &["ਕ\u{a70}ਟਰ\u{a4b}ਲ", "ਨ\u{a4b}ਬ", "ਬਟਨ", "ਸ\u{a70}ਗੀਤ"],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -3124,7 +3476,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Kọntról Bọ\u{301}tin"),
-            keywords: &["Bọ\u{301}tin", "Kọntrol", "Kọntról Bọ\u{301}tin", "Miúzik"],
+            keywords: &[
+                "Bọ\u{301}tin-dẹm",
+                "Kọntrol",
+                "Kọntról Bọ\u{301}tin",
+                "Miúzik",
+            ],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -3148,7 +3505,13 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("botões de controlo"),
-            keywords: &["botões", "botões de controlo", "comando", "música"],
+            keywords: &[
+                "botões",
+                "botões de controlo",
+                "botões giratórios",
+                "comando",
+                "música",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -3163,6 +3526,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             keywords: &[
                 "butoane",
                 "butoane de control",
+                "butoane de volum",
                 "muzică",
                 "reglaj",
                 "reglare",
@@ -3214,7 +3578,14 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("gombíky"),
-            keywords: &["gombíky", "hudba", "ovládanie"],
+            keywords: &[
+                "gombíky",
+                "hudba",
+                "ovládacie prvky",
+                "ovládanie",
+                "ovládače",
+                "zvuk",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -3232,31 +3603,37 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("çelësat e kontrollit"),
-            keywords: &["kontroll", "muzikë", "çelësa", "çelësat e kontrollit"],
+            keywords: &[
+                "butona",
+                "kontroll",
+                "muzikë",
+                "çelësa",
+                "çelësat e kontrollit",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("контролна дугмад"),
-            keywords: &["дугмад", "контрола", "контролна дугмад", "музика"],
+            keywords: &["дугмад", "кoнтрoлa", "музика"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["контролна дугмад"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kontrolna dugmad"),
-            keywords: &["dugmad", "kontrola", "kontrolna dugmad", "muzika"],
+            keywords: &["dugmad", "kontrola", "muzika"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["kontrolna dugmad"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -3280,7 +3657,15 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("கன\u{bcd}ட\u{bcd}ரோல\u{bcd} நோப\u{bcd}ஸ\u{bcd}"),
-            keywords: &["இசை", "கன\u{bcd}ட\u{bcd}ரோல\u{bcd} நோப\u{bcd}ஸ\u{bcd}"],
+            keywords: &[
+                "இசை",
+                "கன\u{bcd}ட\u{bcd}ரோல\u{bcd} நோப\u{bcd}ஸ\u{bcd}",
+                "டிஜே",
+                "ந\u{bbe}ப\u{bcd}ஸ\u{bcd}",
+                "பொருள\u{bcd}",
+                "மியூசிக\u{bcd}",
+                "மியூஸிக\u{bcd}",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
@@ -3288,8 +3673,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             tts: Some("న\u{c3f}యంత\u{c4d}రణ న\u{c3e}బ\u{c4d}\u{200c}లు"),
             keywords: &[
                 "కంట\u{c4d}ర\u{c4b}ల\u{c4d}",
+                "క\u{c4d}న\u{c4b}బ\u{c4d}స\u{c4d}",
                 "న\u{c3e}బ\u{c4d}\u{200c}లు",
                 "న\u{c3f}యంత\u{c4d}రణ",
+                "న\u{c3f}యంత\u{c4d}ర\u{c3f}ంచ\u{c47} న\u{c3e}బ\u{c4d}\u{200c}ల",
+                "మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
+                "సంగ\u{c40}తం",
             ],
         },
         #[cfg(feature = "tg")]
@@ -3310,6 +3699,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
                 "เพลง",
                 "เส\u{e35}ยง",
             ],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ናይ ምቁጽጻር መቆጻጸሪታት"),
+            keywords: &["መቆጻጸሪታት", "ሙዚቃ", "ቁጽጽር"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -3346,9 +3741,11 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             tts: Some("обертові регулятори"),
             keywords: &[
                 "елемент керування",
+                "кнопки керування",
                 "круглі регулятори",
                 "музичний",
                 "обертові регулятори",
+                "плита",
             ],
         },
         #[cfg(feature = "ur")]
@@ -3393,6 +3790,12 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             tts: Some("kókó ibìdárí"),
             keywords: &["kókó", "kókó ibìdárí", "olùdarí", "orin"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("kókó ibìdárí"),
+            keywords: &["kókó", "kókó ibìdárí", "olùdarí", "orin"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3421,7 +3824,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["控制旋鈕", "音樂"],
+            keywords: &["控制", "控制旋鈕", "旋鈕", "音樂"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -3437,7 +3840,7 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🎤"]
-pub const MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎤" , codepoint : "1F3A4" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("mikrofoon") , keywords : & ["karaoke" , "mikrofoon" , "musiek"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ማይክራፎን") , keywords : & ["ማይክ" , "ማይክራፎን" , "ካሮኬ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون") , keywords : & ["كاراوكي" , "مايك" , "ميكروفون"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ক\u{9be}ৰ\u{9be}ওকি" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("мікрафон") , keywords : & ["караоке" , "музыка" , "мікрафон"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ক\u{9be}র\u{9be}ওকে" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("mikrofon") , keywords : & ["mikro" , "mikrofon" , "sonerezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "pjevanje"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("micròfon") , keywords : & ["karaoke" , "micròfon"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}") , keywords : & ["𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏫᎦᏬᏂᏍᏙᏗ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏓᏂᏃᎩᏍᎬ" , "ᏫᎦᏬᏂᏍᏙᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("meicroffon") , keywords : & ["caraoce" , "meic" , "meicroffon"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sang" , "synge"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Mikrofon") , keywords : & ["Karaoke" , "Mikrofon" , "Singen" , "Unterhaltung"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο") , keywords : & ["καραόκε" , "μικρόφωνο"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("microphone") , keywords : & ["karaoke" , "mic" , "microphone"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("micrófono") , keywords : & ["entretenimiento" , "karaoke" , "micro" , "micrófono"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["entretenimiento" , "karaoke" , "micrófono" , "música"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("mikrofonoa") , keywords : & ["karaoke" , "mikrofono" , "mikrofonoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("میکروفون") , keywords : & ["میکروفون" , "کارائوکه"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("mikrofoni") , keywords : & ["karaoke" , "mikki" , "mikrofoni"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mikropono") , keywords : & ["karaoke" , "mik" , "mikropono"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "ljóðfatur" , "ljóðtak" , "mikrofon"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("micro") , keywords : & ["karaoke" , "micro"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("micreafón") , keywords : & ["karoke" , "micreafón" , "siamsaíocht"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("micreofon") , keywords : & ["karaoke" , "mic" , "micreofon"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("micrófono") , keywords : & ["karaoke" , "micrófono"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("માઇક\u{acd}રોફોન") , keywords : & ["કારાઓક" , "મનોર\u{a82}જન" , "માઇક" , "માઇક\u{acd}રોફોન"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("makurofon") , keywords : & ["karaoke" , "makurofon"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מיקרופון") , keywords : & ["הקלטה" , "מוזיקה" , "מיקרופון" , "קריוקי" , "שירה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["क\u{948}रिओकी" , "माइक" , "माइक\u{94d}रोफ\u{93c}ोन"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("mikrofon") , keywords : & ["hangjegyek" , "karaoke" , "mikrofon" , "zene"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("խոսափող") , keywords : & ["խոսափող" , "կարաոկե"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe") , keywords : & ["igweokwu" , "igweokwu nkwụrụonwe" , "karaoke"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi") , keywords : & ["hljóðnemi" , "karaoke" , "karókí" , "míkrófónn" , "skemmtun"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("microfono") , keywords : & ["Karaoke" , "microfono"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("マイク") , keywords : & ["カラオケ" , "マイク" , "歌" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("mikropon") , keywords : & ["karaoke" , "mik" , "mikropon"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მიკროფონი") , keywords : & ["კარაოკე" , "მიკროფონი"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("микрофон") , keywords : & ["караоке" , "мик" , "микрофон"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("mikrofon") , keywords : & ["mikrofon" , "sang" , "synge"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}") , keywords : & ["ណោតភ\u{17d2}លេង" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}") , keywords : & ["ಕರ\u{ccb}ಕ\u{cc6}" , "ಮನರಂಜನ\u{cc6}" , "ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("마이크") , keywords : & ["가라오케" , "노래방" , "마이크" , "행사"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["काराओक\u{947}" , "मायक" , "मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Mikro") , keywords : & ["Karaoke" , "Mikro"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໄມ") , keywords : & ["ໄມ" , "ໄມໂຄຣໂຟນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mikrofonas") , keywords : & ["karaokė" , "mikrofonas"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mikrofons") , keywords : & ["karaoke" , "mikrofons"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("hopuoro") , keywords : & ["hopuoro" , "karaoke"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("микрофон") , keywords : & ["микрофон" , "музика"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മൈക\u{d4d}രോഫോൺ") , keywords : & ["കരോക\u{d4d}കെ" , "പ\u{d3e}ട\u{d4d}ട\u{d4d}" , "മൈക\u{d4d}രോഫോൺ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["कराओक\u{947}" , "माइक" , "मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mike" , "mikrofon"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu") , keywords : & ["karaoke" , "mik" , "mikrofonu"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ကာရာအ\u{102d}\u{102f}ကေ" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , # [cfg (feature = "nb")] crate :: Annotation { lang : "nb" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon" , "musikk" , "underholdning"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("माइक\u{94d}रोफोन") , keywords : & ["कारावोक\u{947}" , "माइक" , "माइक\u{94d}रोफोन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("microfoon") , keywords : & ["karaoke" , "microfoon"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon" , "musikk" , "underhaldning"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}") , keywords : & ["କ\u{b3e}ର\u{b3e}ଓକ\u{b4d}\u{200c}" , "ମନୋରଞ\u{b4d}ଜନ" , "ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ") , keywords : & ["ਕਾਰਾਓਕ\u{a47}" , "ਮਨ\u{a4b}ਰ\u{a70}ਜਨ" , "ਮਾਈਕ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("مائیکروفون") , keywords : & ["مائک" , "مائیکروفون" , "کیراوکی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Maikrofon") , keywords : & ["Kariókẹ" , "Maik" , "Maikrofon"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "muzyka"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("میکروفون") , keywords : & ["مايک" , "مايکروفون" , "میکروفون" , "کاروک"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("microfone") , keywords : & ["entretenimento" , "karaokê" , "mic" , "microfone"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("microfone") , keywords : & ["karaoke" , "microfone"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("micrófono") , keywords : & ["micrófono"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("microfon") , keywords : & ["karaoke" , "microfon" , "muzică"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-356") , keywords : & ["E10-356"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("микрофон") , keywords : & ["звук" , "караоке" , "микрофон" , "пение"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("mikoro") , keywords : & ["indangururamajwi" , "karawoke" , "mikoro"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("مائيڪروفون") , keywords : & ["مائيڪ" , "مائيڪروفون" , "ڪرائوڪي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["කැරොකේ" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("mikrofón") , keywords : & ["karaoke" , "mikrofón"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("mikirifon") , keywords : & ["karooke" , "mik" , "mikirifon" , "mikirifoon"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("микрофон") , keywords : & ["кaрaoкe" , "микрoфoн" , "микрофон"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sjunga"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni") , keywords : & ["karaoke" , "maikrofoni"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["கரோக\u{bcd}கி" , "ப\u{bbe}ட\u{bcd}டு" , "பேச\u{bcd}சு" , "மைக\u{bcd}" , "மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["క\u{c3e}ర\u{c4b}క\u{c47}" , "ప\u{c4d}రసంగం" , "మ\u{c48}క\u{c4d}" , "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "వ\u{c3f}న\u{c4b}దం" , "సంగ\u{c40}తం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("микрофон") , keywords : & ["караоке" , "мик" , "микрофон"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ไมโครโฟน") , keywords : & ["คาราโอเกะ" , "สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมโครโฟน"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("maikalofone") , keywords : & ["maikalofone"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("mikrofon") , keywords : & ["Karaoke" , "eğlence" , "mikrofon"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("مىكروفون") , keywords : & ["كارائوكى" , "مىكروفون"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("мікрофон") , keywords : & ["караоке" , "мікрофон"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("مائیکروفون") , keywords : & ["مائیک" , "مائیکروفون" , "موسیقی"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("micrô") , keywords : & ["karaoke" , "micrô"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikro" , "mikrofon"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imayikhrofowuni") , keywords : & ["i-karaoke" , "i-mic" , "imayikhrofowuni"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ẹ\u{300}rọ gbohùngbohùn kékeré") , keywords : & ["maikurofóònù" , "ẹ\u{300}rọ gbohùngbohùn kékeré"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("麦克风") , keywords : & ["卡拉OK" , "唱K" , "唱歌" , "麦" , "麦克" , "麦克风"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("麥克風") , keywords : & ["k歌" , "卡拉OK" , "唱歌" , "麥克風"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("咪高風") , keywords : & ["卡拉OK" , "咪高風" , "唱歌" , "歌"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni") , keywords : & ["ikhariyokhi" , "imakhrofoni" , "imayikhi"] , }] , } ;
+pub const MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎤" , codepoint : "1F3A4" , status : crate :: Status :: FullyQualified , introduction_version : semver :: Version { major : 0u64 , minor : 6u64 , patch : 0u64 , pre : semver :: Prerelease :: EMPTY , build : semver :: BuildMetadata :: EMPTY , } , name : "microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [# [cfg (feature = "af")] crate :: Annotation { lang : "af" , tts : Some ("mikrofoon") , keywords : & ["karaoke" , "klank" , "mikrofoon" , "musiek" , "sang" , "sing self"] , } , # [cfg (feature = "am")] crate :: Annotation { lang : "am" , tts : Some ("ማይክራፎን") , keywords : & ["ማይክ" , "ማይክራፎን" , "ማይክሮፎን" , "ካሮኬ"] , } , # [cfg (feature = "ar")] crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون") , keywords : & ["صوت" , "طرب" , "غناء" , "كاراوكي" , "مايك" , "موسيقى" , "ميكروفون"] , } , # [cfg (feature = "as")] crate :: Annotation { lang : "as" , tts : Some ("ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ক\u{9be}ৰ\u{9be}ওকি" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন"] , } , # [cfg (feature = "az")] crate :: Annotation { lang : "az" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon" , "səs"] , } , # [cfg (feature = "be")] crate :: Annotation { lang : "be" , tts : Some ("мікрафон") , keywords : & ["караоке" , "музыка" , "мікрафон"] , } , # [cfg (feature = "bg")] crate :: Annotation { lang : "bg" , tts : Some ("микрофон") , keywords : & ["звук" , "караоке" , "микрофон" , "музика" , "пеене"] , } , # [cfg (feature = "bn")] crate :: Annotation { lang : "bn" , tts : Some ("ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ক\u{9be}র\u{9be}ওকে" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন"] , } , # [cfg (feature = "br")] crate :: Annotation { lang : "br" , tts : Some ("mikrofon") , keywords : & ["mikro" , "mikrofon" , "sonerezh"] , } , # [cfg (feature = "bs")] crate :: Annotation { lang : "bs" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "pjevanje"] , } , # [cfg (feature = "ca")] crate :: Annotation { lang : "ca" , tts : Some ("micròfon") , keywords : & ["cantar" , "karaoke" , "micròfon" , "música" , "so"] , } , # [cfg (feature = "ccp")] crate :: Annotation { lang : "ccp" , tts : Some ("𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}") , keywords : & ["𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}"] , } , # [cfg (feature = "chr")] crate :: Annotation { lang : "chr" , tts : Some ("ᏫᎦᏬᏂᏍᏙᏗ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏓᏂᏃᎩᏍᎬ" , "ᏫᎦᏬᏂᏍᏙᏗ"] , } , # [cfg (feature = "cs")] crate :: Annotation { lang : "cs" , tts : Some ("mikrofon") , keywords : & ["hudba" , "karaoke" , "mikrofon" , "zpívat" , "zpěvačka" , "zpěvák" , "zvuk"] , } , # [cfg (feature = "cy")] crate :: Annotation { lang : "cy" , tts : Some ("meicroffon") , keywords : & ["caraoce" , "meic" , "meicroffon"] , } , # [cfg (feature = "da")] crate :: Annotation { lang : "da" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sang" , "synge"] , } , # [cfg (feature = "de")] crate :: Annotation { lang : "de" , tts : Some ("Mikrofon") , keywords : & ["Karaoke" , "Mikrofon" , "Singen" , "Unterhaltung"] , } , # [cfg (feature = "de_CH")] crate :: Annotation { lang : "de_CH" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "el")] crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο") , keywords : & ["ήχος" , "καραόκε" , "μικρόφωνο" , "μουσική" , "τραγουδάω"] , } , # [cfg (feature = "en")] crate :: Annotation { lang : "en" , tts : Some ("microphone") , keywords : & ["karaoke" , "mic" , "microphone" , "music" , "sing" , "sound"] , } , # [cfg (feature = "en_AU")] crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_CA")] crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_GB")] crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "en_IN")] crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es")] crate :: Annotation { lang : "es" , tts : Some ("micrófono") , keywords : & ["entretenimiento" , "karaoke" , "micro" , "micrófono"] , } , # [cfg (feature = "es_419")] crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["artista" , "cantante" , "cantar" , "entretenimiento" , "karaoke" , "micro" , "micrófono" , "música" , "sonido" , "voz"] , } , # [cfg (feature = "es_MX")] crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "es_US")] crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "et")] crate :: Annotation { lang : "et" , tts : Some ("mikrofon") , keywords : & ["heli" , "karaoke" , "laulmine" , "mikrofon" , "muusika"] , } , # [cfg (feature = "eu")] crate :: Annotation { lang : "eu" , tts : Some ("mikrofonoa") , keywords : & ["karaoke" , "mikrofono" , "mikrofonoa"] , } , # [cfg (feature = "fa")] crate :: Annotation { lang : "fa" , tts : Some ("میکروفون") , keywords : & ["میکروفن" , "میکروفون" , "کارائوکه"] , } , # [cfg (feature = "fi")] crate :: Annotation { lang : "fi" , tts : Some ("mikrofoni") , keywords : & ["karaoke" , "mikki" , "mikrofoni"] , } , # [cfg (feature = "fil")] crate :: Annotation { lang : "fil" , tts : Some ("mikropono") , keywords : & ["karaoke" , "mic" , "mik" , "mikropono" , "tunog"] , } , # [cfg (feature = "fo")] crate :: Annotation { lang : "fo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "ljóðfatur" , "ljóðtak" , "mikrofon"] , } , # [cfg (feature = "fr")] crate :: Annotation { lang : "fr" , tts : Some ("micro") , keywords : & ["chanter" , "karaoke" , "karaoké" , "micro" , "microphone" , "musique"] , } , # [cfg (feature = "fr_CA")] crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ga")] crate :: Annotation { lang : "ga" , tts : Some ("micreafón") , keywords : & ["ceol" , "karaoke" , "karoke" , "micreafón" , "siamsaíocht"] , } , # [cfg (feature = "gd")] crate :: Annotation { lang : "gd" , tts : Some ("micreofon") , keywords : & ["karaoke" , "mic" , "micreofon"] , } , # [cfg (feature = "gl")] crate :: Annotation { lang : "gl" , tts : Some ("micrófono") , keywords : & ["karaoke" , "micrófono"] , } , # [cfg (feature = "gu")] crate :: Annotation { lang : "gu" , tts : Some ("માઇક\u{acd}રોફોન") , keywords : & ["અવાજ" , "કલા" , "કારાઓક" , "ગાયન" , "ગીત" , "મનોર\u{a82}જન" , "માઇક" , "માઇક\u{acd}રોફોન" , "સ\u{a82}ગીત" , "સાદ"] , } , # [cfg (feature = "ha")] crate :: Annotation { lang : "ha" , tts : Some ("makurofon") , keywords : & ["amsa amo" , "bin waƙa" , "karaoke" , "kiɗa" , "lasifika" , "makirifo" , "makurofon" , "sauti" , "waƙa"] , } , # [cfg (feature = "ha_NE")] crate :: Annotation { lang : "ha_NE" , tts : Some ("makurofon") , keywords : & ["amsa amo" , "bin waƙa" , "karaoke" , "kiɗa" , "lasifika" , "makirifo" , "makurofon" , "sauti" , "waƙa"] , } , # [cfg (feature = "he")] crate :: Annotation { lang : "he" , tts : Some ("מיקרופון") , keywords : & ["הקלטה" , "לשיר" , "מוזיקה" , "מיקרופון" , "קריוקי" , "שירה"] , } , # [cfg (feature = "hi")] crate :: Annotation { lang : "hi" , tts : Some ("माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["क\u{948}रिओकी" , "गाना" , "माइक" , "माइक\u{94d}रोफ\u{93c}ोन" , "स\u{902}गीत"] , } , # [cfg (feature = "hr")] crate :: Annotation { lang : "hr" , tts : Some ("mikrofon") , keywords : & ["glazba" , "karaoke" , "mikrofon"] , } , # [cfg (feature = "hu")] crate :: Annotation { lang : "hu" , tts : Some ("mikrofon") , keywords : & ["hangjegyek" , "karaoke" , "mikrofon" , "zene"] , } , # [cfg (feature = "hy")] crate :: Annotation { lang : "hy" , tts : Some ("խոսափող") , keywords : & ["խոսափող" , "կարաոկե"] , } , # [cfg (feature = "id")] crate :: Annotation { lang : "id" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "lagu" , "mik" , "mikrofon" , "musik" , "nyanyi" , "suara"] , } , # [cfg (feature = "ig")] crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe") , keywords : & ["igweokwu" , "igweokwu nkwụrụonwe" , "karaoke"] , } , # [cfg (feature = "is")] crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi") , keywords : & ["hljóðnemi" , "karaoke" , "karókí" , "míkrófónn" , "skemmtun"] , } , # [cfg (feature = "it")] crate :: Annotation { lang : "it" , tts : Some ("microfono") , keywords : & ["Karaoke" , "cantare" , "concerto" , "intrattenimento" , "microfono" , "musica" , "palco" , "presentare" , "spettacolo" , "teatro"] , } , # [cfg (feature = "ja")] crate :: Annotation { lang : "ja" , tts : Some ("マイク") , keywords : & ["カラオケ" , "マイク" , "歌" , "音楽"] , } , # [cfg (feature = "jv")] crate :: Annotation { lang : "jv" , tts : Some ("mikropon") , keywords : & ["karaoke" , "mik" , "mikropon"] , } , # [cfg (feature = "ka")] crate :: Annotation { lang : "ka" , tts : Some ("მიკროფონი") , keywords : & ["კარაოკე" , "მიკროფონი"] , } , # [cfg (feature = "kab")] crate :: Annotation { lang : "kab" , tts : Some ("asawaḍ") , keywords : & ["asawaḍ"] , } , # [cfg (feature = "kk")] crate :: Annotation { lang : "kk" , tts : Some ("микрофон") , keywords : & ["дыбыс" , "караоке" , "мик" , "микрофон" , "әндету" , "өлең айту"] , } , # [cfg (feature = "kl")] crate :: Annotation { lang : "kl" , tts : Some ("mikrofon") , keywords : & ["mikrofon" , "sang" , "synge"] , } , # [cfg (feature = "km")] crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}") , keywords : & ["ណោតភ\u{17d2}លេង" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន"] , } , # [cfg (feature = "kn")] crate :: Annotation { lang : "kn" , tts : Some ("ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}") , keywords : & ["ಕರಾಓಕ\u{cc6}" , "ಕರ\u{ccb}ಕ\u{cc6}" , "ಧ\u{ccd}ವನ\u{cbf}" , "ಮನರಂಜನ\u{cc6}" , "ಮ\u{cc8}ಕ\u{ccd}" , "ಮ\u{cc8}ಕ\u{ccd}ರ\u{cca}ಫ\u{ccb}ನ\u{ccd}" , "ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಫ\u{ccb}ನ\u{ccd}" , "ಸಂಗ\u{cc0}ತ" , "ಹಾಡುವುದು"] , } , # [cfg (feature = "ko")] crate :: Annotation { lang : "ko" , tts : Some ("마이크") , keywords : & ["가라오케" , "노래" , "노래방" , "마이크" , "소리" , "음악" , "행사"] , } , # [cfg (feature = "kok")] crate :: Annotation { lang : "kok" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["काराओक\u{947}" , "मायक" , "मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ky")] crate :: Annotation { lang : "ky" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , # [cfg (feature = "lb")] crate :: Annotation { lang : "lb" , tts : Some ("Mikro") , keywords : & ["Karaoke" , "Mikro"] , } , # [cfg (feature = "lo")] crate :: Annotation { lang : "lo" , tts : Some ("ໄມ") , keywords : & ["ໄມ" , "ໄມໂຄຣໂຟນ"] , } , # [cfg (feature = "lt")] crate :: Annotation { lang : "lt" , tts : Some ("mikrofonas") , keywords : & ["karaokė" , "mikrofonas" , "muzika"] , } , # [cfg (feature = "lv")] crate :: Annotation { lang : "lv" , tts : Some ("mikrofons") , keywords : & ["karaoke" , "mikrofons"] , } , # [cfg (feature = "mi")] crate :: Annotation { lang : "mi" , tts : Some ("hopuoro") , keywords : & ["hopuoro" , "karaoke"] , } , # [cfg (feature = "mk")] crate :: Annotation { lang : "mk" , tts : Some ("микрофон") , keywords : & ["звук" , "караоке" , "микрофон" , "музика" , "пеење"] , } , # [cfg (feature = "ml")] crate :: Annotation { lang : "ml" , tts : Some ("മൈക\u{d4d}രോഫോൺ") , keywords : & ["കരോക\u{d4d}കെ" , "പ\u{d3e}ട\u{d4d}ട\u{d4d}" , "മൈക\u{d4d}ക\u{d4d}" , "മൈക\u{d4d}രോഫോൺ"] , } , # [cfg (feature = "mn")] crate :: Annotation { lang : "mn" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , # [cfg (feature = "mr")] crate :: Annotation { lang : "mr" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["कराओक\u{947}" , "मनोर\u{902}जन" , "माइक" , "मायक\u{94d}रोफोन"] , } , # [cfg (feature = "ms")] crate :: Annotation { lang : "ms" , tts : Some ("mikrofon") , keywords : & ["bunyi" , "karaoke" , "mike" , "mikrofon" , "muzik" , "nyanyi"] , } , # [cfg (feature = "mt")] crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu") , keywords : & ["karaoke" , "mik" , "mikrofonu"] , } , # [cfg (feature = "my")] crate :: Annotation { lang : "my" , tts : Some ("မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ကာရာအ\u{102d}\u{102f}ကေ" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , # [cfg (feature = "ne")] crate :: Annotation { lang : "ne" , tts : Some ("माइक\u{94d}रोफोन") , keywords : & ["कारावोक\u{947}" , "माइक" , "माइक\u{94d}रोफोन"] , } , # [cfg (feature = "nl")] crate :: Annotation { lang : "nl" , tts : Some ("microfoon") , keywords : & ["geluid" , "karaoke" , "microfoon" , "muziek" , "zingen"] , } , # [cfg (feature = "nn")] crate :: Annotation { lang : "nn" , tts : Some ("↑↑↑") , keywords : & ["karaoke" , "mik" , "mikrofon" , "musikk" , "underhaldning"] , } , # [cfg (feature = "or")] crate :: Annotation { lang : "or" , tts : Some ("ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}") , keywords : & ["କ\u{b3e}ର\u{b3e}ଓକ\u{b4d}\u{200c}" , "ମନୋରଞ\u{b4d}ଜନ" , "ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}"] , } , # [cfg (feature = "pa")] crate :: Annotation { lang : "pa" , tts : Some ("ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ") , keywords : & ["ਕਾਰਾਓਕ\u{a47}" , "ਗਾਉਣਾ" , "ਧ\u{a41}ਨ" , "ਮਨ\u{a4b}ਰ\u{a70}ਜਨ" , "ਮਾਈਕ" , "ਮਾਈਕਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ" , "ਸ\u{a70}ਗੀਤ"] , } , # [cfg (feature = "pa_Arab")] crate :: Annotation { lang : "pa_Arab" , tts : Some ("مائیکروفون") , keywords : & ["مائک" , "مائیکروفون" , "کیراوکی"] , } , # [cfg (feature = "pcm")] crate :: Annotation { lang : "pcm" , tts : Some ("Maikrofon") , keywords : & ["Kariókẹ" , "Maik" , "Maikrofon"] , } , # [cfg (feature = "pl")] crate :: Annotation { lang : "pl" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "muzyka" , "śpiewać"] , } , # [cfg (feature = "ps")] crate :: Annotation { lang : "ps" , tts : Some ("میکروفون") , keywords : & ["مايک" , "مايکروفون" , "میکروفون" , "کاروک"] , } , # [cfg (feature = "pt")] crate :: Annotation { lang : "pt" , tts : Some ("microfone") , keywords : & ["cantar" , "entretenimento" , "karaokê" , "mic" , "microfone" , "música"] , } , # [cfg (feature = "pt_PT")] crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["cantar" , "entretenimento" , "karaoke" , "microfone" , "música"] , } , # [cfg (feature = "qu")] crate :: Annotation { lang : "qu" , tts : Some ("micrófono") , keywords : & ["karaoke" , "micrófono"] , } , # [cfg (feature = "ro")] crate :: Annotation { lang : "ro" , tts : Some ("microfon") , keywords : & ["cântec" , "karaoke" , "microfon" , "muzică" , "sunet" , "voce"] , } , # [cfg (feature = "root")] crate :: Annotation { lang : "root" , tts : Some ("E10-356") , keywords : & ["E10-356"] , } , # [cfg (feature = "ru")] crate :: Annotation { lang : "ru" , tts : Some ("микрофон") , keywords : & ["звук" , "караоке" , "микрофон" , "пение"] , } , # [cfg (feature = "rw")] crate :: Annotation { lang : "rw" , tts : Some ("mikoro") , keywords : & ["indangururamajwi" , "karawoke" , "mikoro"] , } , # [cfg (feature = "sd")] crate :: Annotation { lang : "sd" , tts : Some ("مائيڪروفون") , keywords : & ["مائيڪ" , "مائيڪروفون" , "ڪرائوڪي"] , } , # [cfg (feature = "si")] crate :: Annotation { lang : "si" , tts : Some ("මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["කැරොකේ" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය"] , } , # [cfg (feature = "sk")] crate :: Annotation { lang : "sk" , tts : Some ("mikrofón") , keywords : & ["hudba" , "karaoke" , "mikrofón" , "pieseň" , "spevák" , "spievanie" , "zvuk"] , } , # [cfg (feature = "sl")] crate :: Annotation { lang : "sl" , tts : Some ("mikrofon") , keywords : & ["glasba" , "karaoke" , "mikrofon" , "petje" , "zvok"] , } , # [cfg (feature = "so")] crate :: Annotation { lang : "so" , tts : Some ("mikirifon") , keywords : & ["karooke" , "mik" , "mikirifon" , "mikirifoon"] , } , # [cfg (feature = "sq")] crate :: Annotation { lang : "sq" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "këndoj" , "mikrofon" , "muzikë" , "tingull"] , } , # [cfg (feature = "sr")] crate :: Annotation { lang : "sr" , tts : Some ("микрофон") , keywords : & ["звук" , "кaрaoкe" , "микрoфoн" , "музика" , "певање"] , } , # [cfg (feature = "sr_Cyrl_BA")] crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sr_Latn")] crate :: Annotation { lang : "sr_Latn" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "muzika" , "pevanje" , "zvuk"] , } , # [cfg (feature = "sr_Latn_BA")] crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "sv")] crate :: Annotation { lang : "sv" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sjunga"] , } , # [cfg (feature = "sw")] crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni") , keywords : & ["imba" , "karaoke" , "kinasa sauti" , "maikrofoni" , "muziki" , "sauti"] , } , # [cfg (feature = "sw_KE")] crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , # [cfg (feature = "ta")] crate :: Annotation { lang : "ta" , tts : Some ("மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["ஒலிவ\u{bbe}ங\u{bcd}கி" , "கரோக\u{bcd}கி" , "ப\u{bbe}ட\u{bcd}டு" , "பேச\u{bcd}சு" , "மைக\u{bcd}" , "மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , # [cfg (feature = "te")] crate :: Annotation { lang : "te" , tts : Some ("మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["క\u{c3e}ర\u{c4b}క\u{c47}" , "పడటం" , "ప\u{c4d}రసంగం" , "మ\u{c48}క\u{c4d}" , "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "వ\u{c3f}న\u{c4b}దం" , "సంగ\u{c40}తం"] , } , # [cfg (feature = "tg")] crate :: Annotation { lang : "tg" , tts : Some ("микрофон") , keywords : & ["караоке" , "мик" , "микрофон"] , } , # [cfg (feature = "th")] crate :: Annotation { lang : "th" , tts : Some ("ไมโครโฟน") , keywords : & ["คาราโอเกะ" , "สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมโครโฟน"] , } , # [cfg (feature = "ti")] crate :: Annotation { lang : "ti" , tts : Some ("ማይክሮፎን") , keywords : & ["ሙዚቃ" , "ማይክ" , "ማይክሮፎን" , "ካራኦኬ" , "ደርፍ" , "ድምጺ"] , } , # [cfg (feature = "tk")] crate :: Annotation { lang : "tk" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , # [cfg (feature = "to")] crate :: Annotation { lang : "to" , tts : Some ("maikalofone") , keywords : & ["maikalofone"] , } , # [cfg (feature = "tr")] crate :: Annotation { lang : "tr" , tts : Some ("mikrofon") , keywords : & ["Karaoke" , "eğlence" , "mikrofon" , "müzik" , "şarkı" , "şarkıcı"] , } , # [cfg (feature = "ug")] crate :: Annotation { lang : "ug" , tts : Some ("مىكروفون") , keywords : & ["كارائوكى" , "مىكروفون"] , } , # [cfg (feature = "uk")] crate :: Annotation { lang : "uk" , tts : Some ("мікрофон") , keywords : & ["караоке" , "мікрофон"] , } , # [cfg (feature = "ur")] crate :: Annotation { lang : "ur" , tts : Some ("مائیکروفون") , keywords : & ["آواز" , "سنگیت" , "مائیک" , "مائیکروفون" , "موسیقی" , "کیریئوکے" , "گانا" , "گیت"] , } , # [cfg (feature = "uz")] crate :: Annotation { lang : "uz" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "kuylash" , "mikrofon" , "musiqa" , "tovush"] , } , # [cfg (feature = "vi")] crate :: Annotation { lang : "vi" , tts : Some ("micrô") , keywords : & ["hát" , "karaoke" , "micrô" , "nhạc" , "âm thanh"] , } , # [cfg (feature = "wo")] crate :: Annotation { lang : "wo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikro" , "mikrofon"] , } , # [cfg (feature = "xh")] crate :: Annotation { lang : "xh" , tts : Some ("imayikhrofowuni") , keywords : & ["i-karaoke" , "i-mic" , "imayikhrofowuni"] , } , # [cfg (feature = "yo")] crate :: Annotation { lang : "yo" , tts : Some ("ẹ\u{300}rọ gbohùngbohùn kékeré") , keywords : & ["maikurofóònù" , "ẹ\u{300}rọ gbohùngbohùn kékeré"] , } , # [cfg (feature = "yo_BJ")] crate :: Annotation { lang : "yo_BJ" , tts : Some ("ɛ\u{300}rɔ gbohùngbohùn kékeré") , keywords : & ["maikurofóònù" , "ɛ\u{300}rɔ gbohùngbohùn kékeré"] , } , # [cfg (feature = "yue")] crate :: Annotation { lang : "yue" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , # [cfg (feature = "yue_Hans")] crate :: Annotation { lang : "yue_Hans" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , # [cfg (feature = "zh")] crate :: Annotation { lang : "zh" , tts : Some ("麦克风") , keywords : & ["k歌" , "卡拉OK" , "卡拉ok" , "唱K" , "唱歌" , "麦" , "麦克" , "麦克风"] , } , # [cfg (feature = "zh_Hant")] crate :: Annotation { lang : "zh_Hant" , tts : Some ("麥克風") , keywords : & ["k歌" , "卡拉OK" , "唱歌" , "麥克風"] , } , # [cfg (feature = "zh_Hant_HK")] crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("咪高風") , keywords : & ["卡拉OK" , "咪高風" , "唱K" , "唱歌" , "歌" , "聲音" , "音樂" , "麥克風"] , } , # [cfg (feature = "zu")] crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni") , keywords : & ["ikhariyokhi" , "imakhrofoni" , "imayikhi"] , }] , } ;
 #[doc = "🎧"]
 pub const HEADPHONE: crate::Emoji = crate::Emoji {
     glyph: "🎧",
@@ -3460,19 +3863,26 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("oorfoon"),
-            keywords: &["musiek", "oorfoon", "oorknoppie"],
+            keywords: &[
+                "klank",
+                "koordloos",
+                "musiek",
+                "oorfoon",
+                "oorknoppie",
+                "stilte",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የጆሮ ማዳመጫ"),
-            keywords: &["የጆሮ ማዳመጫ", "ጆሮ ተሰኪ"],
+            keywords: &["የጆሮ ማዳመጫ", "ድምጽ", "ጆሮ ተሰኪ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("سماعة رأس"),
-            keywords: &["ترفيه", "سماعة رأس"],
+            keywords: &["ترفيه", "سماعة رأس", "صوت", "هيدفون"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -3496,7 +3906,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("слушалки"),
-            keywords: &["слушалка", "слушалки"],
+            keywords: &["звук", "слушалка", "слушалки"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -3520,7 +3930,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("auricular"),
-            keywords: &["auricular"],
+            keywords: &["auricular", "auriculars", "so"],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -3538,7 +3948,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("sluchátka"),
-            keywords: &["sluchátka"],
+            keywords: &["hudba", "poslouchat", "sluchátka", "zvuk"],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -3550,7 +3960,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "da",
             tts: Some("hovedtelefon"),
-            keywords: &["hovedtelefon", "høretelefon", "lytte", "musik"],
+            keywords: &["hovedtelefon", "høretelefon", "lyd", "lytte", "musik"],
         },
         #[cfg(feature = "de")]
         crate::Annotation {
@@ -3558,23 +3968,23 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             tts: Some("Kopfhörer"),
             keywords: &["Kopfhörer", "Musik", "Unterhaltung"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ακουστικά"),
-            keywords: &["ακουστικά"],
+            keywords: &["ήχος", "ακουστικά"],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("headphone"),
-            keywords: &["earbud", "headphone"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: Some("headphones"),
-            keywords: &["headphone", "headphones"],
+            keywords: &["earbud", "headphone", "sound"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -3610,7 +4020,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("auriculares"),
-            keywords: &["auriculares", "entretenimiento", "música"],
+            keywords: &[
+                "audífonos",
+                "auricular",
+                "cascos",
+                "entretenimiento",
+                "música",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -3622,7 +4038,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["audífonos", "auriculares", "música"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -3664,7 +4080,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("casque"),
-            keywords: &["casque", "écouteurs"],
+            keywords: &["casque", "musique", "son", "écouteur", "écouteurs"],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -3676,7 +4092,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("cluasáin"),
-            keywords: &["ceol", "cluasáin"],
+            keywords: &["ceol", "cluasáin", "cluasán", "cluasán bachlóige", "fuaim"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -3694,31 +4110,61 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("હ\u{ac7}ડફોન"),
-            keywords: &["મનોર\u{a82}જન", "હ\u{ac7}ડફોન"],
+            keywords: &["અવાજ", "મનોર\u{a82}જન", "સાદ", "હ\u{ac7}ડફોન"],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("mazirorin kunne"),
-            keywords: &["mazirin kunne", "mazirorin kunne"],
+            keywords: &[
+                "eyafis",
+                "hedifon",
+                "mazirin kunne",
+                "mazirorin kunne",
+                "naʼaurar sauti",
+                "naʼurar saurare",
+                "sauti",
+                "shedifan",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("mazirorin kunne"),
+            keywords: &[
+                "eyafis",
+                "hedifon",
+                "mazirin kunne",
+                "mazirorin kunne",
+                "naʼaurar sauti",
+                "naʼurar saurare",
+                "sauti",
+                "shedifan",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("אוזניה"),
-            keywords: &["אוזניה", "אוזניות", "אוזנייה"],
+            keywords: &["אוזניה", "אוזניות", "אוזנייה", "אזניות", "מוזיקה"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ह\u{947}डफ\u{93c}ोन"),
-            keywords: &["ईयरबड", "ह\u{947}डफ\u{93c}ोन"],
+            keywords: &[
+                "आवाज\u{93c}",
+                "ईयरबड",
+                "मनोर\u{902}जन",
+                "स\u{902}गीत",
+                "ह\u{947}डफ\u{93c}ोन",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("slušalice"),
-            keywords: &["slušalica", "slušalice"],
+            keywords: &["slušalica", "slušalice", "zvuk"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -3736,7 +4182,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("headphone"),
-            keywords: &["earbud", "headphone"],
+            keywords: &["bunyi", "earbud", "headphone", "suara"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -3754,7 +4200,14 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("cuffie"),
-            keywords: &["cuffie", "intrattenimento"],
+            keywords: &[
+                "ascoltare",
+                "auricolari",
+                "cuffie",
+                "intrattenimento",
+                "musica",
+                "suono",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -3774,11 +4227,17 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             tts: Some("ყურსასმენი"),
             keywords: &["ყურსასმენი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("Ismazgaten"),
+            keywords: &["Ismazgaten"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("құлақаспап"),
-            keywords: &["түйме тәрізді құлақаспап", "құлақаспап"],
+            keywords: &["дыбыс", "түйме тәрізді құлақаспап", "құлақаспап"],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -3802,7 +4261,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             lang: "kn",
             tts: Some("ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಫ\u{ccb}ನ\u{ccd}"),
             keywords: &[
+                "ಇಯರ\u{ccd} ಬಡ\u{ccd}",
                 "ಇಯರ\u{ccd}ಬಡ\u{ccd}",
+                "ಧ\u{ccd}ವನ\u{cbf}",
+                "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
+                "ಸಂಗ\u{cc0}ತ",
+                "ಸಂಗ\u{cc0}ತ ಆಲ\u{cbf}ಸು",
+                "ಸ\u{ccc}ಂಡ\u{ccd}",
                 "ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಫ\u{ccb}ನ\u{ccd}",
             ],
         },
@@ -3810,7 +4275,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("헤드폰"),
-            keywords: &["음악 감상", "이어폰", "헤드폰"],
+            keywords: &["소리", "음악 감상", "이어버드", "이어폰", "헤드폰"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -3840,13 +4305,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("ausinės"),
-            keywords: &["ausinės"],
+            keywords: &["ausinės", "garsas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("austiņas"),
-            keywords: &["austiņas", "ieauši"],
+            keywords: &["austiņas", "ieauši", "skaņa"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -3858,7 +4323,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("слушалки"),
-            keywords: &["слушалка", "слушалки", "уво"],
+            keywords: &["звук", "слушалка", "слушалки", "уво"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -3882,7 +4347,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ms",
             tts: Some("fon kepala"),
-            keywords: &["fon kepala", "fon telinga"],
+            keywords: &["bunyi", "fon kepala", "fon telinga"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -3900,12 +4365,6 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
                 "ဖ\u{102f}န\u{103a}းနားကြပ\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("hodetelefoner"),
-            keywords: &["headset", "hodetelefoner", "underholdning", "øretelefoner"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3916,7 +4375,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("hoofdtelefoon"),
-            keywords: &["hoofdtelefoon", "oordopje"],
+            keywords: &["geluid", "hoofdtelefoon", "koptelefoon", "oordopje"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
@@ -3939,7 +4398,12 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਹ\u{a48}\u{a71}ਡਫ\u{a3c}\u{a4b}ਨ"),
-            keywords: &["ਮਨ\u{a4b}ਰ\u{a70}ਜਨ", "ਹ\u{a48}\u{a71}ਡਫ\u{a3c}\u{a4b}ਨ"],
+            keywords: &[
+                "ਈਅਰਬ\u{a71}ਡ",
+                "ਮਨ\u{a4b}ਰ\u{a70}ਜਨ",
+                "ਸ\u{a70}ਗੀਤ",
+                "ਹ\u{a48}\u{a71}ਡਫ\u{a3c}\u{a4b}ਨ",
+            ],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -3957,7 +4421,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("słuchawki"),
-            keywords: &["słuchawki"],
+            keywords: &["muzyka", "słuchawka", "słuchawki"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -3969,28 +4433,37 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("fones de ouvido"),
-            keywords: &["fone de ouvido", "fones de ouvido"],
+            keywords: &[
+                "entretenimento",
+                "fone de ouvido",
+                "fones de ouvido",
+                "música",
+                "som",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("auscultador"),
-            keywords: &["auscultador", "intra-auricular"],
+            keywords: &["auscultador", "intra-auricular", "som"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("audifono"),
-            keywords: &["audifono"],
+            keywords: &["audifono", "auricular"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("cască audio"),
             keywords: &[
+                "cască",
                 "cască audio",
                 "cască extraauriculară",
                 "cască intraauriculară",
+                "căști",
+                "sunet",
             ],
         },
         #[cfg(feature = "root")]
@@ -4035,13 +4508,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("slúchadlá"),
-            keywords: &["slúchadlo", "slúchadlá"],
+            keywords: &["slúchadlo", "slúchadlá", "zvuk"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("slušalka"),
-            keywords: &["slušalka", "ušesna slušalka"],
+            keywords: &["glasba", "slušalka", "ušesna slušalka", "zvok"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -4053,13 +4526,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("kufje"),
-            keywords: &["kufje", "vesh"],
+            keywords: &["kufje", "tingull", "vesh", "zë"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("слушалица"),
-            keywords: &["слушaлицa", "слушалица"],
+            keywords: &["звук", "слушалица", "слушалице"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -4071,7 +4544,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("slušalica"),
-            keywords: &["slušalica"],
+            keywords: &["slušalica", "slušalice", "zvuk"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4083,7 +4562,11 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sw",
             tts: Some("spika za masikioni"),
-            keywords: &["kifaa cha sauti cha masikioni", "spika za masikioni"],
+            keywords: &[
+                "kifaa cha sauti cha masikioni",
+                "sauti",
+                "spika za masikioni",
+            ],
         },
         #[cfg(feature = "sw_KE")]
         crate::Annotation {
@@ -4096,8 +4579,12 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("ஹெட\u{bcd}ஃபோன\u{bcd}"),
             keywords: &[
+                "இசை",
+                "இயர\u{bcd}பட\u{bcd}",
+                "ஒலி",
                 "செய\u{bcd}தி",
                 "ப\u{bbe}டல\u{bcd}",
+                "ப\u{bbe}ட\u{bcd}டு",
                 "ப\u{bbe}ட\u{bcd}டு கேட\u{bcd}டல\u{bcd}",
                 "பொழுதுபோக\u{bcd}கு",
                 "ஹெட\u{bcd}ஃபோன\u{bcd}",
@@ -4127,6 +4614,12 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             tts: Some("ห\u{e39}ฟ\u{e31}ง"),
             keywords: &["ห\u{e39}ฟ\u{e31}ง", "เฮดโฟน"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ናይ ርእሲ ስልኪ"),
+            keywords: &["ናይ ርእሲ ስልኪ", "ናይ እዝኒ ምልክት", "ድምጺ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -4143,7 +4636,7 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "tr",
             tts: Some("kulaklık"),
-            keywords: &["eğlence", "kulaklık"],
+            keywords: &["eğlence", "kulaklık", "müzik"],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -4167,13 +4660,13 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uz",
             tts: Some("quloqlik"),
-            keywords: &["quloqlik", "quloqqa tiqiladigan"],
+            keywords: &["quloqchin", "quloqlik", "quloqqa tiqiladigan", "tovush"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tai nghe"),
-            keywords: &["tai nghe"],
+            keywords: &["tai nghe", "âm thanh"],
         },
         #[cfg(feature = "wo")]
         crate::Annotation {
@@ -4193,6 +4686,12 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             tts: Some("ẹ\u{300}rọ àdágbórinsétí"),
             keywords: &["ìrintí", "ẹ\u{300}rọ àdágbórinsétí"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ɛ\u{300}rɔ àdágbórinsétí"),
+            keywords: &["ìrintí", "ɛ\u{300}rɔ àdágbórinsétí"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -4209,19 +4708,21 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("耳机"),
-            keywords: &["头戴式耳机", "耳机"],
+            keywords: &["头戴式耳机", "耳塞", "耳机"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("耳機"),
-            keywords: &["耳機", "音樂"],
+            keywords: &["耳機", "聲音", "音樂"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("耳筒"),
-            keywords: &["耳筒", "耳筒｜音樂"],
+            keywords: &[
+                "headset", "noise", "耳塞", "耳機", "耳筒", "聲音", "隔音", "音樂",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -4253,19 +4754,19 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("radio"),
-            keywords: &["draadloos", "radio"],
+            keywords: &["draadloos", "herinnering", "nostalgie", "radio", "vermaak"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሬዲዮ"),
-            keywords: &["ሬዲዮ", "ቪዲዮ"],
+            keywords: &["መዝናኛ", "ራዲዮ", "ሬዲዮ", "ቪዲዮ"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("راديو"),
-            keywords: &["راديو", "فيديو"],
+            keywords: &["اذاعة", "ترفيه", "تسلية", "راديو", "فيديو"],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -4289,7 +4790,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("радио"),
-            keywords: &["радио"],
+            keywords: &["видео", "забавление", "радио"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -4313,7 +4814,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("ràdio"),
-            keywords: &["ràdio", "vídeo"],
+            keywords: &["entreteniment", "ràdio"],
         },
         #[cfg(feature = "ccp")]
         crate::Annotation {
@@ -4331,7 +4832,18 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("rádio"),
-            keywords: &["radiopřijímač", "rádio", "tranzistor", "tranzistorové"],
+            keywords: &[
+                "hudba",
+                "muzika",
+                "radiopřijímač",
+                "retro",
+                "rozhlas",
+                "rádio",
+                "tranzistor",
+                "tranzistorové",
+                "zvuk",
+                "zábava",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -4351,17 +4863,29 @@ pub const RADIO: crate::Emoji = crate::Emoji {
             tts: Some("Radio"),
             keywords: &["Musik", "Radio"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ραδιόφωνο"),
-            keywords: &["βίντεο", "ραδιόφωνο"],
+            keywords: &[
+                "βίντεο",
+                "ράδιο",
+                "ραδιόφωνο",
+                "φορητό ραδιόφωνο",
+                "ψυχαγωγία",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["entertainment", "radio", "tbt", "video"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -4397,7 +4921,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["música", "radio", "transmisión"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -4421,7 +4945,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("raadio"),
-            keywords: &["raadio"],
+            keywords: &["meelelahutus", "raadio", "video"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -4439,13 +4963,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fi",
             tts: Some("radio"),
-            keywords: &["radio", "vastaanotin"],
+            keywords: &["radio", "vastaanotin", "viihde"],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("radyo"),
-            keywords: &["radyo", "video"],
+            keywords: &["radyo", "tbt", "video"],
         },
         #[cfg(feature = "fo")]
         crate::Annotation {
@@ -4457,7 +4981,14 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("radio"),
-            keywords: &["radio", "vidéo"],
+            keywords: &[
+                "actualités",
+                "communication",
+                "loisirs",
+                "musique",
+                "radio",
+                "vidéo",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -4469,7 +5000,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ga",
             tts: Some("raidió"),
-            keywords: &["raidió"],
+            keywords: &["físeán", "raidió", "siamsaíocht"],
         },
         #[cfg(feature = "gd")]
         crate::Annotation {
@@ -4487,19 +5018,33 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("ર\u{ac7}ડિઓ"),
-            keywords: &["ર\u{ac7}ડિઓ", "વિડિઓ"],
+            keywords: &[
+                "દ\u{ac2}રભાષન\u{ac1}\u{a82} સાધન",
+                "મનોર\u{a82}જન",
+                "યા\u{a82}ત\u{acd}રિક સાધન",
+                "ર\u{ac7}ડિઓ",
+                "ર\u{ac7}ડિયો",
+                "વિડિઓ",
+                "સાધન",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("rediyo"),
-            keywords: &["bidiyo", "rediyo"],
+            keywords: &["bidiyo", "radiyo", "rediyo", "shaƙatawa"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rediyo"),
+            keywords: &["bidiyo", "radiyo", "rediyo", "shaƙatawa"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("רדיו"),
-            keywords: &["מוזיקה", "רדיו"],
+            keywords: &["מוזיקה", "מוסיקה", "רדיו"],
         },
         #[cfg(feature = "hi")]
         crate::Annotation {
@@ -4511,7 +5056,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hr",
             tts: Some("radio"),
-            keywords: &["radio"],
+            keywords: &["radio", "zabava"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
@@ -4529,7 +5074,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "id",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["hiburan", "radio", "video"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -4547,7 +5092,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "it",
             tts: Some("radio"),
-            keywords: &["ascoltare la radio", "musica", "radio", "stazioni radio"],
+            keywords: &[
+                "ascoltare",
+                "ascoltare la radio",
+                "musica",
+                "radio",
+                "stazioni radio",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -4598,13 +5149,18 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ರ\u{cc7}ಡ\u{cbf}ಯ\u{cca}"),
-            keywords: &["ರ\u{cc7}ಡ\u{cbf}ಯ\u{cca}", "ವ\u{cc0}ಡ\u{cbf}ಯ\u{cca}"],
+            keywords: &[
+                "ಟ\u{cbf}ಬ\u{cbf}ಟ\u{cbf}",
+                "ಮನರಂಜನ\u{cc6}",
+                "ರ\u{cc7}ಡ\u{cbf}ಯ\u{cca}",
+                "ವ\u{cc0}ಡ\u{cbf}ಯ\u{cca}",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("라디오"),
-            keywords: &["FM", "라디오"],
+            keywords: &["FM", "라디오", "비디오", "엔터테인먼트", "옛날 회상"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -4634,13 +5190,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "lt",
             tts: Some("radijas"),
-            keywords: &["radijas", "vaizdo įrašas"],
+            keywords: &["pramogos", "radijas", "vaizdo įrašas"],
         },
         #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["izklaide", "radio", "video"],
         },
         #[cfg(feature = "mi")]
         crate::Annotation {
@@ -4652,7 +5208,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("радио"),
-            keywords: &["антена", "радио"],
+            keywords: &["антена", "забава", "радио"],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -4670,13 +5226,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("र\u{947}डिओ"),
-            keywords: &["र\u{947}डिओ", "व\u{94d}हिडिओ"],
+            keywords: &["मनोर\u{902}जन", "र\u{947}डिओ", "व\u{94d}हिडिओ"],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["hiburan", "radio", "video"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -4690,12 +5246,6 @@ pub const RADIO: crate::Emoji = crate::Emoji {
             tts: Some("ရေဒ\u{102e}ယ\u{102d}\u{102f}"),
             keywords: &["ရေဒ\u{102e}ယ\u{102d}\u{102f}"],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("radio"),
-            keywords: &["radio", "radiosignaler", "teknologi"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4706,12 +5256,12 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("radio"),
-            keywords: &["muziek", "radio"],
+            keywords: &["entertainment", "muziek", "radio"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("radio"),
+            tts: Some("↑↑↑"),
             keywords: &["radio", "radiosignal", "teknologi"],
         },
         #[cfg(feature = "or")]
@@ -4728,7 +5278,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pa",
             tts: Some("ਰ\u{a47}ਡੀਓ"),
-            keywords: &["ਰ\u{a47}ਡੀਓ", "ਵੀਡੀਓ"],
+            keywords: &["ਮਨ\u{a4b}ਰ\u{a70}ਜਨ", "ਰ\u{a47}ਡੀਓ", "ਵੀਡੀਓ"],
         },
         #[cfg(feature = "pa_Arab")]
         crate::Annotation {
@@ -4746,7 +5296,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("radio"),
-            keywords: &["odbiornik radiowy", "radio", "radioodbiornik", "radyjko"],
+            keywords: &["odbiornik", "radio", "radioodbiornik", "radiowy"],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -4758,25 +5308,25 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("rádio"),
-            keywords: &["rádio", "vídeo"],
+            keywords: &["radiola", "rádio", "som", "vídeo"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
-            keywords: &["música", "rádio"],
+            keywords: &["entertenimento", "música", "rádio", "vídeo"],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("radio"),
-            keywords: &["radio"],
+            keywords: &["radio", "video"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["divertisment", "radio", "tbt", "video"],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -4812,13 +5362,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("rádio"),
-            keywords: &["rádio", "video"],
+            keywords: &["hudba", "rádio", "video", "zvuk", "zábava"],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("radio"),
-            keywords: &["glasba", "radio"],
+            keywords: &["glasba", "radio", "video", "zabava"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -4830,31 +5380,31 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["argëtim", "radio", "video"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("радио"),
-            keywords: &["видео", "радио"],
+            keywords: &["видео", "забава", "рaдиo"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["радио"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["radio", "video", "zabava"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["radio"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4878,13 +5428,27 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ta",
             tts: Some("ரேடியோ"),
-            keywords: &["எப\u{bcd}எம\u{bcd}", "ரேடியோ", "வ\u{bbe}னொலி"],
+            keywords: &[
+                "எஃப\u{bcd}.எம\u{bcd}",
+                "எப\u{bcd}எம\u{bcd}",
+                "கேரவன\u{bcd}",
+                "செய\u{bcd}தி",
+                "ப\u{bbe}டல\u{bcd}",
+                "ப\u{bbe}ட\u{bcd}டு",
+                "ரேடியோ",
+                "வ\u{bbe}னொலி",
+            ],
         },
         #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ర\u{c47}డ\u{c3f}య\u{c4b}"),
-            keywords: &["ర\u{c47}డ\u{c3f}య\u{c4b}", "వ\u{c40}డ\u{c3f}య\u{c4b}"],
+            keywords: &[
+                "ట\u{c40}బ\u{c3f}ట\u{c40}",
+                "ర\u{c47}డ\u{c3f}య\u{c4b}",
+                "వ\u{c3f}న\u{c4b}దం",
+                "వ\u{c40}డ\u{c3f}య\u{c4b}",
+            ],
         },
         #[cfg(feature = "tg")]
         crate::Annotation {
@@ -4897,6 +5461,12 @@ pub const RADIO: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ว\u{e34}ทย\u{e38}"),
             keywords: &["ว\u{e34}ทย\u{e38}", "เพลง"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ራድዮ"),
+            keywords: &["መዘናግዒ", "ሬድዮ", "ቪዲዮ", "ትብት"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4932,13 +5502,13 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("ریڈیو"),
-            keywords: &["برقی آلہ", "ریڈیو"],
+            keywords: &["ابلاغ", "برقی آلہ", "ریڈیو", "میڈیا", "ویڈیو"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("radio"),
-            keywords: &["radio", "video"],
+            keywords: &["FM", "radio", "signal", "video"],
         },
         #[cfg(feature = "vi")]
         crate::Annotation {
@@ -4964,6 +5534,12 @@ pub const RADIO: crate::Emoji = crate::Emoji {
             tts: Some("rédíò"),
             keywords: &["fídíò", "rédíò"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("rédíò"),
+            keywords: &["fídíò", "rédíò"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -4980,7 +5556,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("收音机"),
-            keywords: &["广播", "广播电台", "收音机", "无线电", "电台"],
+            keywords: &["娱乐", "广播", "广播电台", "收音机", "无线电", "电台"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
@@ -4992,7 +5568,7 @@ pub const RADIO: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["娛樂", "廣播", "收音機"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {

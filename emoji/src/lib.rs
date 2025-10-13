@@ -194,7 +194,6 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
     "ms",
     "mt",
     "my",
-    "nb",
     "ne",
     "nl",
     "nn",
@@ -425,8 +424,6 @@ pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
     "mt",
     #[cfg(feature = "my")]
     "my",
-    #[cfg(feature = "nb")]
-    "nb",
     #[cfg(feature = "ne")]
     "ne",
     #[cfg(feature = "nl")]

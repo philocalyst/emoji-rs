@@ -20,7 +20,7 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("rooi hare"),
-            keywords: &["gemmer", "rooi hare", "rooikop"],
+            keywords: &["hare", "rooi", "rooikop"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -101,8 +101,12 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             lang: "cs",
             tts: Some("zrzavé vlasy"),
             keywords: &[
-                "ryšavé vlasy, rusé vlasy, rudé vlasy, zrzek, zrzka",
+                "rudé vlasy",
+                "rusé vlasy",
+                "ryšavé vlasy",
                 "zrzavé vlasy",
+                "zrzek",
+                "zrzka",
             ],
         },
         #[cfg(feature = "cy")]
@@ -123,6 +127,12 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("rotes Haar"),
             keywords: &["Rotschopf", "rote Haare", "rotes Haar", "rothaarig"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -133,7 +143,7 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("red hair"),
-            keywords: &["ginger", "red hair", "redhead"],
+            keywords: &["ginger", "hair", "red", "redhead"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -181,7 +191,7 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("pelirrojo"),
-            keywords: &["pelirrojo"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -253,13 +263,25 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("pelo roxo"),
-            keywords: &["cabelo", "pelo roxo", "roibo", "roxo", "rubio"],
+            keywords: &["cabelo", "roibo", "roxo", "rubio"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("લાલ વાળ"),
             keywords: &["આછો ક\u{ac7}સરી", "લાલ વાળ", "લાલમાથ\u{ac1}\u{a82}"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jan gashi"),
+            keywords: &["citta", "jan gashi", "jan kai"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("jan gashi"),
+            keywords: &["citta", "jan gashi", "jan kai"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -288,8 +310,8 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
-            tts: Some("շիկահեր"),
-            keywords: &["հրագույն", "շիկահեր", "շիկամազ"],
+            tts: Some("կարմրահեր"),
+            keywords: &["կարմրահեր", "հրագույն", "շիկակարմիր"],
         },
         #[cfg(feature = "ia")]
         crate::Annotation {
@@ -309,6 +331,12 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             lang: "id",
             tts: Some("rambut merah"),
             keywords: &["cokelat kemerahan", "rambut merah"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ntutu isi uhie"),
+            keywords: &["jinja", "ntutu isi uhie", "onye ntutu isi uhie"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -455,12 +483,6 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
                 "ဆ\u{1036}ပင\u{103a}န\u{102e}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("rødt hår"),
-            keywords: &["rødhåring", "rødt hår"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -559,6 +581,12 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("рыжие волосы"),
             keywords: &["красный", "медный", "рыжая", "рыжие волосы", "рыжий"],
         },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱟᱨᱟᱜ ᱩᱵ"),
+            keywords: &["ᱟᱨᱟᱜ ᱩᱵ"],
+        },
         #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
@@ -609,7 +637,7 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["црвена коса"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -620,8 +648,8 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["crvena kosa"],
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -667,6 +695,12 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("ผมแดง"),
             keywords: &["ผมแดง", "ห\u{e31}วแดง"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቀይሕ ጸጉሪ"),
+            keywords: &["ቀይሕ", "ቀይሕ ርእሲ ዘለዎ", "ጅንጅብል", "ጸጉሪ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -708,6 +742,18 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("tóc đỏ"),
             keywords: &["tóc màu cam đỏ", "tóc màu đỏ", "tóc đỏ"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("irun pupa"),
+            keywords: &["irun", "jínjà", "orí-pupa", "pupa"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("irun pupa"),
+            keywords: &["irun", "jínjà", "orí-pupa", "pupa"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -769,7 +815,7 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("krulhare"),
-            keywords: &["afro", "krul", "krulhare", "krulletjie"],
+            keywords: &["afro", "hare", "krullerig", "krulletjies"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -884,6 +930,12 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("lockiges Haar"),
             keywords: &["Afro", "Lockenkopf", "lockig", "lockiges Haar"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -894,7 +946,7 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("curly hair"),
-            keywords: &["afro", "curly", "curly hair", "ringlets"],
+            keywords: &["afro", "curly", "hair", "ringlets"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -1022,7 +1074,7 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("pelo rizado"),
-            keywords: &["bucles", "cabelo", "pelo afro", "pelo rizado", "rizo"],
+            keywords: &["afro", "bucles", "cabelo", "rizado", "rizo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -1034,6 +1086,18 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
                 "વા\u{a82}કડિયા વાળ",
                 "વા\u{a82}કડિયાવાળની લટ",
             ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("gashi mai laushi"),
+            keywords: &["afuro", "gashi mai laushi", "mai laushi", "naɗe gashi"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("gashi mai laushi"),
+            keywords: &["afuro", "gashi mai laushi", "mai laushi", "naɗe gashi"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -1082,6 +1146,17 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("rambut keriting"),
             keywords: &["afro", "ikal", "keriting", "rambut keriting"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ntutu isi gbakọrọ agbakọ"),
+            keywords: &[
+                "afro",
+                "gbakọrọ agbakọ",
+                "ntutu isi gbakọrọ agbakọ",
+                "ringlets",
+            ],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -1115,8 +1190,8 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
-            tts: Some("acekkuḥ\u{a0}imdewweṛ"),
-            keywords: &["acekkuḥ\u{a0}imdewweṛ"],
+            tts: Some("acekkuḥ\u{a0}akerṭuṭfan"),
+            keywords: &["acekkuḥ\u{a0}akerṭuṭfan"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -1242,12 +1317,6 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
                 "လ\u{1030}မည\u{103a}းဆ\u{1036}ပင\u{103a}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("kruset hår"),
-            keywords: &["afrikansk", "afro", "kruset hår", "krøllet"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -1327,7 +1396,7 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("cabelo cacheado"),
-            keywords: &["afro", "cabelo cacheado", "cacheado", "encaracolado"],
+            keywords: &["afro", "cabelo", "cacheado", "encaracolado"],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -1437,6 +1506,12 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("kovrdžava kosa"),
             keywords: &["afro", "kovrdžava kosa", "kovrdže"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -1482,6 +1557,12 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             lang: "th",
             tts: Some("ผมหย\u{e34}ก"),
             keywords: &["ผมลอน", "ผมหย\u{e34}ก", "หย\u{e34}ก", "แอฟโฟร"],
+        },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቁርጽራጽ ጸጉሪ"),
+            keywords: &["ጥምዛዝ ጸጉሪ ርእሲ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -1537,6 +1618,28 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("tóc xoăn"),
             keywords: &["quăn", "tóc xoăn", "xoăn", "xù"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("irun rírọ\u{300}"),
+            keywords: &[
+                "dúdúláwọ\u{300}",
+                "irun rírọ\u{300}",
+                "rírọ\u{300}",
+                "àwọn ríngì",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("irun rírɔ\u{300}"),
+            keywords: &[
+                "dúdúláwɔ\u{300}",
+                "irun rírɔ\u{300}",
+                "rírɔ\u{300}",
+                "àwɔn ríngì",
+            ],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -1734,7 +1837,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["grey", "hair", "old", "white"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
@@ -1746,7 +1849,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["grey", "hair", "old", "white"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -1776,7 +1879,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_US",
             tts: Some("pelo canoso"),
-            keywords: &["pelo canoso"],
+            keywords: &["blanco", "cana", "gris", "pelo", "pelo canoso", "viejo"],
         },
         #[cfg(feature = "et")]
         crate::Annotation {
@@ -1849,13 +1952,25 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("pelo cano"),
-            keywords: &["branco", "canas", "canoso", "gris", "pelo cano"],
+            keywords: &["branco", "canas", "gris"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("સફ\u{ac7}દ વાળ"),
             keywords: &["ગ\u{acd}ર\u{ac7}", "ઘરડા\u{a82}", "વાળ", "સફ\u{ac7}દ"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("farin gashi"),
+            keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("farin gashi"),
+            keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -1903,6 +2018,12 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
             lang: "id",
             tts: Some("rambut putih"),
             keywords: &["abu-abu", "putih", "rambut", "tua"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ntutu isi ocha"),
+            keywords: &["awo", "ntutu isi", "ntutu isi ocha", "ocha", "ochie"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -1996,10 +2117,10 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
-            tts: Some("ຜ\u{ebb}ມຫອກ"),
+            tts: Some("ຜ\u{ebb}ມຫງອກ"),
             keywords: &[
                 "ຂາວ",
-                "ຜ\u{ebb}ມຫອກ",
+                "ຜ\u{ebb}ມຫງອກ",
                 "ສ\u{eb5}ເທ\u{ebb}າ",
                 "ເສ\u{eb1}\u{ec9}ນຜ\u{ebb}ມ",
                 "ແກ\u{ec8}",
@@ -2068,12 +2189,6 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
                 "အဖြ\u{1030}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("grått hår"),
-            keywords: &["gammel", "grå", "grått hår", "hvit", "hår"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -2089,7 +2204,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("grått hår"),
+            tts: Some("↑↑↑"),
             keywords: &["gamal", "grå", "grått hår", "hår", "kvit"],
         },
         #[cfg(feature = "or")]
@@ -2131,7 +2246,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("cabelo branco"),
+            tts: Some("↑↑↑"),
             keywords: &["brancas", "branco", "cabelho grisalho", "cabelo", "velho"],
         },
         #[cfg(feature = "qu")]
@@ -2164,6 +2279,12 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
                 "седые волосы",
                 "старый",
             ],
+        },
+        #[cfg(feature = "sat")]
+        crate::Annotation {
+            lang: "sat",
+            tts: Some("ᱯᱩᱸᱱᱰ ᱩᱵ"),
+            keywords: &["ᱯᱩᱸᱱᱰ ᱩᱵ"],
         },
         #[cfg(feature = "sd")]
         crate::Annotation {
@@ -2205,14 +2326,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("flokë të bardha"),
-            keywords: &[
-                "flokë",
-                "flokë të bardha",
-                "gri",
-                "i moshuar",
-                "thinja",
-                "të bardha",
-            ],
+            keywords: &["flokë", "flokë të bardhë", "gri", "i moshuar"],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
@@ -2224,7 +2338,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("сиједа коса"),
-            keywords: &["сиједа коса"],
+            keywords: &["бијела", "коса", "сиједа", "старо"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -2236,7 +2350,7 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("sijeda kosa"),
-            keywords: &["sijeda kosa"],
+            keywords: &["bijela", "kosa", "sijeda", "staro"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -2280,6 +2394,12 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
             tts: Some("ผมขาว"),
             keywords: &["ขาว", "ผม", "ผมขาว", "หงอก", "แก\u{e48}"],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጻዕዳ ጸጉሪ"),
+            keywords: &["ኣረጊት", "ግራጭ", "ጸጉሪ", "ፃዕዳ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -2321,6 +2441,18 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("tóc trắng"),
             keywords: &["bạc", "trắng", "tóc", "xám"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("irun funfun"),
+            keywords: &["arúgbó", "funfun", "gíréè", "irun"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("irun funfun"),
+            keywords: &["arúgbó", "funfun", "gíréè", "irun"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
@@ -2390,11 +2522,12 @@ pub const BALD: crate::Emoji = crate::Emoji {
             lang: "af",
             tts: Some("bles"),
             keywords: &[
+                "afgeskeer",
                 "bles",
                 "chemoterapie",
+                "geen",
                 "haarloos",
-                "kaalgeskeerde kop",
-                "kaalkop",
+                "hare",
             ],
         },
         #[cfg(feature = "am")]
@@ -2512,7 +2645,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cy",
             tts: Some("moel"),
-            keywords: &["cemotherapi", "dim gwallt", "moel", "wedi eillio"],
+            keywords: &["cemotherapi", "dim gwallt", "gwallt", "moel", "wedi eillio"],
         },
         #[cfg(feature = "da")]
         crate::Annotation {
@@ -2532,6 +2665,12 @@ pub const BALD: crate::Emoji = crate::Emoji {
             tts: Some("Glatze"),
             keywords: &["Chemo", "Glatze", "haarlos", "kein Haar", "rasiert"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -2542,7 +2681,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("bald"),
-            keywords: &["bald", "chemotherapy", "hairless", "no hair", "shaven"],
+            keywords: &["bald", "chemotherapy", "hair", "hairless", "no", "shaven"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -2710,7 +2849,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("sen pelo"),
-            keywords: &["calva", "quimioterapia", "rapado", "sen pelo"],
+            keywords: &["calva", "pelo", "quimioterapia", "rapado"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -2722,6 +2861,30 @@ pub const BALD: crate::Emoji = crate::Emoji {
                 "ટાલ",
                 "વાળ નહી\u{a82}",
                 "વાળ વગર",
+            ],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("sanƙo"),
+            keywords: &[
+                "aske",
+                "babu gashi",
+                "jiyyar cutar sankara",
+                "mara gashi",
+                "sanƙo",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("sanƙo"),
+            keywords: &[
+                "aske",
+                "babu gashi",
+                "jiyyar cutar sankara",
+                "mara gashi",
+                "sanƙo",
             ],
         },
         #[cfg(feature = "he")]
@@ -2771,6 +2934,12 @@ pub const BALD: crate::Emoji = crate::Emoji {
             lang: "id",
             tts: Some("gundul"),
             keywords: &["botak", "gundul", "kemoterapi", "tak berambut"],
+        },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("isi nkwọcha"),
+            keywords: &["chemotheraphy", "enweghị ntutu isi", "isi nkwọcha"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -2885,11 +3054,11 @@ pub const BALD: crate::Emoji = crate::Emoji {
             lang: "lo",
             tts: Some("ຫ\u{ebb}ວລ\u{ec9}ານ"),
             keywords: &[
-                "ການຮ\u{eb1}ກສາດ\u{ec9}ວຍ ກ\u{eb5}ໂມ",
+                "ການຮ\u{eb1}ກສາດ\u{ec9}ວຍຄ\u{eb5}ໂມ",
                 "ບ\u{ecd}\u{ec8}ມ\u{eb5}ຜ\u{ebb}ມ",
                 "ຜ\u{ebb}ມລ\u{ebb}\u{ec8}ນ",
                 "ຫ\u{ebb}ວລ\u{ec9}ານ",
-                "ແຖມຜ\u{ebb}ມ",
+                "ແຖຜ\u{ebb}ມ",
             ],
         },
         #[cfg(feature = "lt")]
@@ -2976,12 +3145,6 @@ pub const BALD: crate::Emoji = crate::Emoji {
                 "အမ\u{103d}ေးမရ\u{103e}\u{102d}",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("skallet"),
-            keywords: &["barbert", "hårløs", "kjemoterapi", "skallet", "uten hår"],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3010,7 +3173,14 @@ pub const BALD: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nn",
             tts: Some("skalla"),
-            keywords: &["barbert", "hårlaus", "kjemoterapi", "skalla", "utan hår"],
+            keywords: &[
+                "barbert",
+                "cellegiftbehandling",
+                "hårlaus",
+                "kjemoterapi",
+                "skalla",
+                "utan hår",
+            ],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -3080,7 +3250,7 @@ pub const BALD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
-            tts: Some("careca"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "careca",
                 "nenhum cabelo",
@@ -3186,6 +3356,12 @@ pub const BALD: crate::Emoji = crate::Emoji {
             tts: Some("ćelav"),
             keywords: &["bez kose", "hemoterapija", "obrijan", "ćelav"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
@@ -3245,6 +3421,12 @@ pub const BALD: crate::Emoji = crate::Emoji {
                 "ไม\u{e48}ม\u{e35}ผม",
             ],
         },
+        #[cfg(feature = "ti")]
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("በራሕ"),
+            keywords: &["ራዛ", "ኣይፋልን", "ኬሞቴራፒ", "ዝተላጽየ", "ጸጉሪ", "ጸጉሪ ዘይብሉ"],
+        },
         #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
@@ -3266,13 +3448,14 @@ pub const BALD: crate::Emoji = crate::Emoji {
         #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
-            tts: Some("лиса голова"),
+            tts: Some("лисина"),
             keywords: &[
                 "без волосся",
                 "виголений",
-                "лиса голова",
+                "лисий",
                 "немає волосся",
                 "хіміотерапія",
+                "хімія",
             ],
         },
         #[cfg(feature = "ur")]
@@ -3292,6 +3475,30 @@ pub const BALD: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("hói"),
             keywords: &["cạo nhẵn", "hóa trị", "hói", "không có tóc", "trụi tóc"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("orí pípá"),
+            keywords: &[
+                "kimotẹ\u{301}rápì",
+                "kòsí irun",
+                "orí pípá",
+                "àìínírun",
+                "ìfárí",
+            ],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("orí pípá"),
+            keywords: &[
+                "kimotɛ\u{301}rápì",
+                "kòsí irun",
+                "orí pípá",
+                "àìínírun",
+                "ìfárí",
+            ],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {

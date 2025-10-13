@@ -104,7 +104,6 @@ async fn main() -> Result<(), reqwest::Error> {
         "ms",
         "mt",
         "my",
-        "nb",
         "ne",
         "nl",
         "nn",

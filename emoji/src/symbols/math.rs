@@ -38,25 +38,48 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             lang: "af",
             tts: Some("maal"),
             keywords: &[
+                "dik maalteken",
                 "kanselleer",
                 "maal",
-                "maalteken",
+                "skrap",
+                "teken",
                 "verkeerd",
                 "vermenigvuldig",
                 "x",
+                "×",
             ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የማባዛት"),
-            keywords: &["x", "×", "ማባዛት", "ምልክት", "ተወው", "አባዛ", "የማባዛት"],
+            keywords: &[
+                "x",
+                "×",
+                "ማባዛት",
+                "ምልክት",
+                "ሰርዝ",
+                "ተወው",
+                "አባዛ",
+                "የማባዛት",
+                "የተሳሳተ",
+            ],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("ضرب"),
-            keywords: &["x", "×", "إلغاء", "ضرب", "علامة ضرب", "مضاعفة"],
+            tts: Some("علامة ضرب"),
+            keywords: &[
+                "x",
+                "×",
+                "إلغاء",
+                "خطا",
+                "رمز",
+                "ضرب",
+                "علامة ضرب",
+                "علامة ضرب سميكة",
+                "مضاعفة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -75,7 +98,15 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "az",
             tts: Some("qalın vurma x"),
-            keywords: &["işarə", "ləğv et", "qalın vurma x", "vur", "vurma", "×"],
+            keywords: &[
+                "işarə",
+                "ləğv et",
+                "qalın vurma x",
+                "vur",
+                "vurma",
+                "vurma işarəsi",
+                "×",
+            ],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -87,19 +118,13 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("Удебелен знак за умножение"),
-            keywords: &["Удебелен знак за умножение", "отказ", "умножение"],
+            keywords: &["[x]", "отказ", "удебелен знак за умножение", "умножение"],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("গ\u{9c1}ণ"),
-            keywords: &[
-                "×",
-                "গ\u{9c1}ণ",
-                "গ\u{9c1}ণ চিহ\u{9cd}ন",
-                "গ\u{9c1}ন কর\u{9be}",
-                "ব\u{9be}তিল",
-            ],
+            keywords: &["×", "এক\u{9cd}স", "গ\u{9c1}ণ", "চিহ\u{9cd}ন", "ব\u{9be}তিল"],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -132,8 +157,6 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             lang: "chr",
             tts: Some("ᎤᏓᎨᏓ ᏗᏎᏢᎢ ᎤᏙᏪᎸ"),
             keywords: &[
-                "x",
-                "×",
                 "ᎠᏎᏒᏗ",
                 "ᎤᏓᎨᏓ ᏗᏎᏢᎢ",
                 "ᎤᏓᎨᏓ ᏗᏎᏢᎢ ᎤᏙᏪᎸ",
@@ -146,7 +169,18 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("znak násobení"),
-            keywords: &["krát", "násobení", "součin", "x", "znak", "zrušení", "×"],
+            keywords: &[
+                "krát",
+                "křížek",
+                "násobení",
+                "násobit",
+                "součin",
+                "x",
+                "znak",
+                "zrušení",
+                "zrušit",
+                "×",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -179,7 +213,14 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "mal",
                 "multiplizieren",
                 "x",
+                "×",
             ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -189,10 +230,12 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "x",
                 "×",
                 "άκυρο",
+                "έντονο σύμβολο x",
                 "ακύρωση",
                 "πολλαπλασιάζω",
                 "πολλαπλασιασμός",
                 "σύμβολο",
+                "σύμβολο πολλαπλασιασμού",
             ],
         },
         #[cfg(feature = "en")]
@@ -205,7 +248,15 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_001",
             tts: None,
-            keywords: &["cancel", "multiplication", "multiply", "sign", "x", "×"],
+            keywords: &[
+                "cancel",
+                "heavy multiplication sign",
+                "multiplication",
+                "multiply",
+                "sign",
+                "x",
+                "×",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -217,21 +268,13 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "cancel",
-                "heavy multiplication x",
-                "multiplication",
-                "multiply",
-                "sign",
-                "x",
-                "×",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["cancel", "multiplication", "multiply", "sign", "x", "×"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -256,8 +299,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
-            tts: Some("multiplicación"),
-            keywords: &["↑↑↑"],
+            tts: Some("↑↑↑"),
+            keywords: &["X de multiplicación", "mutliplicación", "x"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -275,7 +318,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("korrutamine"),
-            keywords: &["korrutamine", "korrutusmärk", "suur korrutusmärk", "x"],
+            keywords: &["korrutamine", "korrutusmärk", "tühistama", "x"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
@@ -287,19 +330,28 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("ضرب کردن"),
-            keywords: &["x", "×", "ضرب کردن", "علامت", "علامت ضرب", "لغو"],
+            keywords: &["x", "×", "ایکس مشکی", "ضرب", "ضرب کردن", "علامت", "لغو"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kertomerkki"),
-            keywords: &["kertolasku", "kertomerkki", "merkki", "peruuta", "x", "×"],
+            keywords: &[
+                "X",
+                "kertolasku",
+                "kertomerkki",
+                "merkki",
+                "peruuta",
+                "x",
+                "×",
+            ],
         },
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
-            tts: Some("malaking multiplication x"),
+            tts: Some("multiply"),
             keywords: &[
+                "ekis",
                 "kansela",
                 "malaking multiplication x",
                 "multiplication",
@@ -322,6 +374,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "*",
                 "annuler",
+                "croix noire",
+                "multiplication",
                 "multiplier",
                 "non",
                 "signe multiplier",
@@ -352,7 +406,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "comhartha iolrúcháin",
                 "iolrú",
                 "iolrúchán",
-                "iolrúchán x trom",
+                "méadaigh",
+                "méadú",
                 "x",
             ],
         },
@@ -364,7 +419,6 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "iomadachadh",
                 "iomadaich",
                 "samhla",
-                "samhla iomadachaidh",
                 "sguir dheth",
                 "sgur dheth",
                 "x",
@@ -376,7 +430,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("multiplicación"),
-            keywords: &["X", "cancelar", "matemáticas", "multiplicación", "signo"],
+            keywords: &["X", "cancelar", "matemáticas", "signo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
@@ -385,17 +439,45 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "x",
                 "×",
+                "ગણિત",
+                "ગણિતશાસ\u{acd}ત\u{acd}ર",
                 "ગ\u{ac1}ણાકાર",
                 "ગ\u{ac1}ણાકાર કરો",
+                "ઘાટ\u{ac1}\u{a82} ગ\u{ac1}ણાકાર x ન\u{ac1}\u{a82} ચિહ\u{acd}ન",
                 "નિશાની",
                 "રદ કરો",
+                "રદ\u{acd}દ કરો",
             ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("x sau mai nauyi"),
-            keywords: &["riɓa", "sau", "soke", "x", "x sau mai nauyi"],
+            tts: Some("riɓanya"),
+            keywords: &[
+                "kansile",
+                "riɓanya",
+                "ruɓanya",
+                "ruɓanyawa",
+                "sau",
+                "soke",
+                "x",
+                "x sau mai nauyi",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("riɓanya"),
+            keywords: &[
+                "kansile",
+                "riɓanya",
+                "ruɓanya",
+                "ruɓanyawa",
+                "sau",
+                "soke",
+                "x",
+                "x sau mai nauyi",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -407,12 +489,17 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("ग\u{941}णा"),
-            keywords: &["x", "ग\u{941}णा", "बड\u{93c}ा क\u{94d}रॉस चिह\u{94d}न"],
+            keywords: &[
+                "x",
+                "ग\u{941}णन",
+                "ग\u{941}णा",
+                "बड\u{93c}ा क\u{94d}रॉस चिह\u{94d}न",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
-            tts: Some("znak množenja"),
+            tts: Some("množenje"),
             keywords: &[
                 "množenje",
                 "operator",
@@ -427,7 +514,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hu",
             tts: Some("szorzás"),
-            keywords: &["jel", "mégse", "szorzás", "x", "×"],
+            keywords: &["jel", "mégse", "szorzás", "vastag szorzásjel", "x", "×"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -435,11 +522,25 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             tts: Some("բազմապատկում"),
             keywords: &["բազմապատկման նշան", "բազմապատկում", "նշան", "չեղարկել"],
         },
+        #[cfg(feature = "ia")]
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("multiplication"),
+            keywords: &["multiplication"],
+        },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kali"),
-            keywords: &["batal", "kali", "perkalian", "tanda", "x"],
+            keywords: &[
+                "batal",
+                "kali",
+                "matematika",
+                "operator",
+                "perkalian",
+                "tanda",
+                "x",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
@@ -464,10 +565,11 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
-            tts: Some("segno moltiplicazione"),
+            tts: Some("moltiplicazione"),
             keywords: &[
                 "X",
                 "cancellare",
+                "croce",
                 "moltiplicazione",
                 "segno moltiplicazione",
                 "segno per",
@@ -491,11 +593,26 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             tts: Some("გამრავლება"),
             keywords: &["x", "×", "გამრავლება", "გაუქმება", "მსხვილი გამრავლება"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("asgat"),
+            keywords: &["asgat"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("көбейту"),
-            keywords: &["x", "×", "бас тарту", "белгі", "көбейту", "көбейтінді"],
+            keywords: &[
+                "x",
+                "×",
+                "бас тарту",
+                "белгі",
+                "жуан көбейту x",
+                "көбейту",
+                "көбейтінді",
+                "х",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -535,6 +652,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "ಗುಣಾಕಾರ",
                 "ಗುಣ\u{cbf}ಸು",
                 "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ರದ\u{ccd}ದು",
                 "ರದ\u{ccd}ದುಮಾಡು",
             ],
         },
@@ -542,7 +660,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("곱하기"),
-            keywords: &["곱셈", "곱셈기호", "곱하기", "엑스", "취소"],
+            keywords: &["x", "곱셈", "곱셈기호", "곱하기", "엑스", "취소"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -629,7 +747,16 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("множење"),
-            keywords: &["x", "×", "знак", "множење", "множи", "откажи"],
+            keywords: &[
+                "x",
+                "×",
+                "знак",
+                "знак за множење",
+                "множење",
+                "множи",
+                "откажи",
+                "х",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
@@ -638,6 +765,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "x",
                 "×",
+                "ഗ\u{d41}ണന ചിഹ\u{d4d}നം",
                 "ഗ\u{d41}ണനം",
                 "ഗ\u{d41}ണിക\u{d4d}ക\u{d41}ക",
                 "ചിഹ\u{d4d}നം",
@@ -655,8 +783,15 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             lang: "mr",
             tts: Some("ग\u{941}णाकार करा"),
             keywords: &[
-                "x । रद\u{94d}द करा । ग\u{941}णाकार । ग\u{941}णाकार करा । चिन\u{94d}ह ।",
+                "x",
+                "×",
+                "ग\u{941}णण\u{947}",
+                "ग\u{941}णाकार",
                 "ग\u{941}णाकार करा",
+                "चिन\u{94d}ह",
+                "मोठ\u{947} ग\u{941}णाकाराच\u{947} चिन\u{94d}ह",
+                "रद\u{94d}द",
+                "रद\u{94d}द करा",
             ],
         },
         #[cfg(feature = "ms")]
@@ -686,21 +821,6 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "အမြ\u{103e}ောက\u{103a}",
                 "အမြ\u{103e}ောက\u{103a} သင\u{103a}\u{1039}ကေတ",
                 "အမြ\u{103e}ောက\u{103a}လက\u{1039}ခဏာ",
-                "အမြ\u{103e}ောက\u{103a}လက\u{1039}ခဏာ သင\u{103a}\u{1039}ကေတအကြ\u{102e}းစား",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("gange"),
-            keywords: &[
-                "avbryt",
-                "gange",
-                "gangetegn",
-                "multiplikasjon",
-                "multiplisere",
-                "x",
-                "×",
             ],
         },
         #[cfg(feature = "ne")]
@@ -720,20 +840,22 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("vermenigvuldigen"),
-            keywords: &[
-                "annuleren",
-                "teken",
-                "vermenigvuldigen",
-                "vermenigvuldiging",
-                "x",
-                "×",
-            ],
+            keywords: &["annuleren", "teken", "vermenigvuldigen", "x", "×"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("gongeteikn"),
-            keywords: &["avbryt", "gongeteikn", "multiplikasjon", "multiplisere"],
+            tts: Some("gonge"),
+            keywords: &[
+                "avbryt",
+                "gonge",
+                "gongetegn",
+                "matte",
+                "multiplikasjon",
+                "multiplisere",
+                "x",
+                "×",
+            ],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -744,8 +866,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "×",
                 "ଗ\u{b41}ଣନ",
                 "ଗ\u{b41}ଣନ କର\u{b3f}ବ\u{b3e}",
-                "ବ\u{b3e}ତ\u{b3f}ଲ\u{b4d}\u{200c}",
-                "ସଙ\u{b4d}କେତ",
+                "ଚ\u{b3f}ହ\u{b4d}ନ",
+                "ବ\u{b3e}ତ\u{b3f}ଲ\u{b4d}",
             ],
         },
         #[cfg(feature = "pa")]
@@ -755,11 +877,14 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "x",
                 "×",
+                "ਕਾਟਾ",
+                "ਗਣਿਤ",
                 "ਗ\u{a41}ਣਾ",
-                "ਗ\u{a41}ਣਾ ਕਰਨਾ",
+                "ਗ\u{a42}\u{a4d}ੜ\u{a4d}ਹਾ ਗ\u{a41}ਣਾ ਦਾ ਨਿਸ\u{a3c}ਾਨ",
                 "ਚਿ\u{a70}ਨ\u{a4d}ਹ",
                 "ਨਿਸ\u{a3c}ਾਨ",
                 "ਰ\u{a71}ਦ ਕਰਨਾ",
+                "ਹਿਸਾਬ",
             ],
         },
         #[cfg(feature = "pa_Arab")]
@@ -772,7 +897,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pcm",
             tts: Some("Taims Sain"),
-            keywords: &["Kánsul", "Sain", "Taims", "To Mọltiplai", "X", "x"],
+            keywords: &["Kánsul", "Sain", "Taims", "To Mọltiplai", "X"],
         },
         #[cfg(feature = "pl")]
         crate::Annotation {
@@ -781,6 +906,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "anuluj",
                 "iks",
+                "matematyka",
                 "mnożenie",
                 "x",
                 "znak",
@@ -809,6 +935,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             tts: Some("sinal de multiplicação"),
             keywords: &[
                 "X",
+                "X preto",
                 "cancelar",
                 "multiplicar",
                 "multiplicação",
@@ -839,7 +966,14 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ro",
             tts: Some("înmulțire"),
-            keywords: &["anulare", "semn", "x", "înmulțire"],
+            keywords: &[
+                "anulare",
+                "semn",
+                "semnul înmulțirii îngroșat",
+                "x",
+                "înmulți",
+                "înmulțire",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -851,13 +985,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("знак умножения"),
-            keywords: &[
-                "знак умножения",
-                "значок",
-                "значок умножения",
-                "умножение",
-                "х",
-            ],
+            keywords: &["знак", "отмена", "отмены", "умножение", "умножения", "х"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -893,7 +1021,16 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("krát"),
-            keywords: &["krát", "násobenie", "násobiť", "x", "znak", "zrušiť", "×"],
+            keywords: &[
+                "hrubý znak násobenia",
+                "násobenie",
+                "násobiť",
+                "x",
+                "znak",
+                "zrušenie",
+                "zrušiť",
+                "×",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
@@ -915,13 +1052,12 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             lang: "so",
             tts: Some("calaamadda isku dhufashada"),
             keywords: &[
-                "calaamad",
+                "baajiso",
                 "calaamadda isku dhufashada",
-                "isku dhufasho",
-                "isku dhufo",
-                "kansal",
+                "isku dhufashada",
+                "ku dhufo",
+                "saxiix",
                 "x",
-                "×",
             ],
         },
         #[cfg(feature = "sq")]
@@ -940,7 +1076,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("црни знак за множење"),
-            keywords: &["x", "мнoжeњe", "отказивање", "путa", "црни знак за множење"],
+            keywords: &["x", "мнoжeњe", "отказивање", "путa"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -952,13 +1088,13 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("crni znak za množenje"),
-            keywords: &[
-                "crni znak za množenje",
-                "množenje",
-                "otkazivanje",
-                "puta",
-                "x",
-            ],
+            keywords: &["množenje", "otkazivanje", "puta", "x"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -968,6 +1104,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "avbryt",
                 "multiplicera",
                 "multiplikation",
+                "multiplikationstecken",
                 "tecken",
                 "x",
                 "×",
@@ -990,11 +1127,14 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             lang: "ta",
             tts: Some("பெருக\u{bcd}கல\u{bcd} சின\u{bcd}னம\u{bcd}"),
             keywords: &[
+                "கருப\u{bcd}பு நிற பெருக\u{bcd}கல\u{bcd} சின\u{bcd}னம\u{bcd}",
                 "குறிய\u{bc0}டு",
                 "பெருக\u{bcd}கல\u{bcd}",
                 "பெருக\u{bcd}கல\u{bcd} குறி",
                 "பெருக\u{bcd}கல\u{bcd} சின\u{bcd}னம\u{bcd}",
+                "பெருக\u{bcd}கு",
                 "ரத\u{bcd}து செய\u{bcd}தல\u{bcd}",
+                "வேண\u{bcd}ட\u{bbe}ம\u{bcd}",
             ],
         },
         #[cfg(feature = "te")]
@@ -1006,6 +1146,7 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "×",
                 "గుణక\u{c3e}రం",
                 "గుణక\u{c3e}రం చ\u{c47}యడం",
+                "గుణ\u{c3f}ంచు",
                 "గుర\u{c4d}తు",
                 "రద\u{c4d}దు చ\u{c47}య\u{c3f}",
             ],
@@ -1051,8 +1192,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
-            tts: Some("fakaʻilonga liunga mamafa"),
-            keywords: &["fakaʻilonga", "fakaʻilonga liunga mamafa", "liunga"],
+            tts: Some("liunga mamafa"),
+            keywords: &["fakaʻilonga", "liunga", "liunga mamafa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -1061,9 +1202,11 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &[
                 "iptal",
                 "işaret",
+                "kalın çarpı işareti",
                 "x",
                 "×",
                 "çarpma",
+                "çarpı",
                 "çarpım",
                 "çarpım işareti",
             ],
@@ -1098,7 +1241,15 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ur",
             tts: Some("ضرب"),
-            keywords: &["x", "×", "ضرب", "ضرب کرنا", "علامت", "منسوخ کرنا"],
+            keywords: &[
+                "x",
+                "×",
+                "بھاری ضرب کا نشان",
+                "ضرب",
+                "ضرب کرنا",
+                "علامت",
+                "منسوخ کرنا",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -1149,11 +1300,22 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
                 "ìsọdipúpò\u{329} tó nípọn x",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ìsɔdipúpò\u{329} tó nípɔn x"),
+            keywords: &[
+                "fagilé",
+                "x",
+                "ìsɔdipúpò\u{329}",
+                "ìsɔdipúpò\u{329} tó nípɔn x",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("粗乘號"),
-            keywords: &["X", "x", "乘", "乘法", "交叉", "取消", "標誌", "粗乘號"],
+            keywords: &["X", "乘", "乘法", "交叉", "取消", "標誌", "粗乘號"],
         },
         #[cfg(feature = "yue_Hans")]
         crate::Annotation {
@@ -1165,19 +1327,39 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh",
             tts: Some("乘"),
-            keywords: &["乘", "乘号", "取消", "相乘", "符号"],
+            keywords: &["x", "乘", "乘号", "取消", "相乘", "符号"],
         },
         #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("乘"),
-            keywords: &["x", "×", "乘", "乘法", "乘法號", "乘號", "取消", "符號"],
+            keywords: &[
+                "x",
+                "×",
+                "乘",
+                "乘法",
+                "乘法號",
+                "乘號",
+                "叉",
+                "取消",
+                "打叉",
+                "符號",
+            ],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("打交叉"),
-            keywords: &["交叉", "打交叉"],
+            keywords: &[
+                "x",
+                "乘號",
+                "交叉",
+                "打交叉",
+                "數學",
+                "符號",
+                "錯誤",
+                "黑色",
+            ],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -1214,19 +1396,36 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("plus"),
-            keywords: &["plus", "teken", "wiskunde"],
+            keywords: &[
+                "+",
+                "dik plusteken",
+                "kruis",
+                "plus",
+                "rekenkunde",
+                "teken",
+                "wiskunde",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ወፍራም የመደመር ምልክት"),
-            keywords: &["+", "ሒሳብ", "ምልክት", "ወፍራም የመደመር ምልክት", "የመደመር"],
+            keywords: &["+", "ሒሳብ", "ምልክት", "ወፍራም የመደመር ምልክት", "የመደመር", "ጥቁር መስቀል"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}علامة جمع"),
-            keywords: &["+", "جمع", "رياضيات", "\u{202b}علامة جمع"],
+            tts: Some("علامة جمع"),
+            keywords: &[
+                "+",
+                "بلس",
+                "جمع",
+                "رمز",
+                "رياضيات",
+                "زائد",
+                "علامة",
+                "علامة جمع عريضة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -1237,8 +1436,15 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
-            tts: Some("qalın plus işarəsi"),
-            keywords: &["plus", "qalın plus işarəsi", "riyaziyyat"],
+            tts: Some("qalın üstəgəl işarəsi"),
+            keywords: &[
+                "+",
+                "işarə",
+                "plyus",
+                "qalın üstəgəl işarəsi",
+                "riyaziyyat",
+                "üstəgəl",
+            ],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -1274,7 +1480,14 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("signe de sumar"),
-            keywords: &["+", "matemàtiques", "més", "signe", "signe de sumar"],
+            keywords: &[
+                "+",
+                "matemàtiques",
+                "més",
+                "signe",
+                "signe de sumar",
+                "signe de sumar gruixut",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -1286,7 +1499,21 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "cs",
             tts: Some("znak plus"),
-            keywords: &["+", "matematika", "plus", "součet", "sčítání", "znak plus"],
+            keywords: &[
+                "+",
+                "kladný",
+                "matematika",
+                "plus",
+                "připočítat",
+                "přičíst",
+                "přičítat",
+                "sečíst",
+                "součet",
+                "sčítat",
+                "sčítání",
+                "velké znaménko plus",
+                "znak plus",
+            ],
         },
         #[cfg(feature = "cy")]
         crate::Annotation {
@@ -1304,25 +1531,32 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("plus"),
-            keywords: &["Plus", "Pluszeichen", "plus"],
+            keywords: &["+", "Plus", "Pluszeichen", "addieren", "mathe"],
         },
         #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
             tts: Some("Plus"),
-            keywords: &["Plus"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("συν"),
-            keywords: &["+", "μαθηματικά", "πρόσθεση", "συν", "σύμβολο"],
+            keywords: &[
+                "+",
+                "μαθηματικά",
+                "πρόσθεση",
+                "συν",
+                "σύμβολο",
+                "σύμβολο πρόσθεσης",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("plus"),
-            keywords: &["+", "math", "plus", "sign"],
+            keywords: &["+", "plus"],
         },
         #[cfg(feature = "en_001")]
         crate::Annotation {
@@ -1340,13 +1574,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["+", "math", "plus", "sign"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["+", "math", "maths", "plus", "sign"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -1364,12 +1598,12 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("suma"),
-            keywords: &["↑↑↑"],
+            keywords: &["más", "positivo", "signo"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("signo de suma"),
+            tts: Some("↑↑↑"),
             keywords: &["+", "más", "signo", "signo de suma", "suma"],
         },
         #[cfg(feature = "es_US")]
@@ -1394,7 +1628,7 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fa",
             tts: Some("بعلاوه"),
-            keywords: &["+", "بعلاوه", "ریاضی", "علامت"],
+            keywords: &["+", "بعلاوه", "به\u{200c}علاوه", "ریاضی", "علامت"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -1405,13 +1639,16 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
-            tts: Some("malaking plus sign"),
+            tts: Some("plus"),
             keywords: &[
+                "+",
                 "makapal",
+                "makapal na plus sign",
                 "malaking plus sign",
                 "matematika",
                 "plus",
                 "senyas",
+                "sign",
             ],
         },
         #[cfg(feature = "fo")]
@@ -1434,10 +1671,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             keywords: &[
                 "+",
                 "addition",
+                "ajouter",
                 "arithmétique",
                 "mathématiques",
                 "plus",
+                "signe Plus",
                 "signe plus",
+                "somme",
             ],
         },
         #[cfg(feature = "fr_CA")]
@@ -1477,19 +1717,47 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("suma"),
-            keywords: &["+", "matemáticas", "máis", "signo", "suma"],
+            keywords: &["+", "matemáticas", "máis", "signo"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("વત\u{acd}તા"),
-            keywords: &["+", "ગણિત", "ચિહ\u{acd}ન", "વત\u{acd}તા"],
+            keywords: &[
+                "+",
+                "ગણિત",
+                "ઘાટ\u{ac1}\u{a82} વત\u{acd}તાન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ચિહ\u{acd}ન",
+                "ભાર\u{ac7} વત\u{acd}તાન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "વત\u{acd}તા",
+                "વત\u{acd}તાન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("alamar tarawa mai nauyi"),
-            keywords: &["alamar tarawa mai nauyi", "ilimin lissafi", "tarawa"],
+            tts: Some("tarawa"),
+            keywords: &[
+                "+",
+                "alama",
+                "alamar tarawa",
+                "alamar tarawa kakkaura",
+                "lissafi alamar",
+                "tarawa",
+            ],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("tarawa"),
+            keywords: &[
+                "+",
+                "alama",
+                "alamar tarawa",
+                "alamar tarawa kakkaura",
+                "lissafi alamar",
+                "tarawa",
+            ],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -1501,19 +1769,34 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("धन चिह\u{94d}न"),
-            keywords: &["+", "गणित", "चिह\u{94d}न", "धन"],
+            keywords: &[
+                "+",
+                "गणित",
+                "चिह\u{94d}न",
+                "धन",
+                "भारी प\u{94d}लस चिह\u{94d}न",
+            ],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
-            tts: Some("znak plus"),
-            keywords: &["matematika", "plus", "znak plus"],
+            tts: Some("plus"),
+            keywords: &["+", "matematika", "plus", "znak"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("plusz"),
-            keywords: &["+", "jel", "matematika", "plusz"],
+            keywords: &[
+                "+",
+                "jel",
+                "matek",
+                "matematika",
+                "meg",
+                "plusz",
+                "pluszjel",
+                "vastag pluszjel",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -1528,17 +1811,23 @@ pub const PLUS: crate::Emoji = crate::Emoji {
                 "պլյուս",
             ],
         },
+        #[cfg(feature = "ia")]
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("plus"),
+            keywords: &["plus"],
+        },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("tambah"),
-            keywords: &["+", "matematika", "plus", "tambah", "tanda"],
+            keywords: &["+", "plus", "tambah"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
-            tts: Some("nnukwu akara mgbakwunye"),
-            keywords: &["mgbakwụnye", "nnukwu akara mgbakwunye", "sọm"],
+            tts: Some("mgbakwunye"),
+            keywords: &["+", "mgbakwunye"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -1549,8 +1838,16 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
-            tts: Some("simbolo dell’addizione"),
-            keywords: &["addizione", "più", "simbolo dell’addizione"],
+            tts: Some("addizione"),
+            keywords: &[
+                "+",
+                "addizione",
+                "croce",
+                "matematica",
+                "più",
+                "segno",
+                "segno di addizione",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -1570,11 +1867,25 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             tts: Some("პლუსი"),
             keywords: &["+", "მათემატიკა", "მიმატება", "პლუსი", "პლუსის ნიშანი"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("timerna"),
+            keywords: &["timerna"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("плюс"),
-            keywords: &["+", "амал", "белгі", "плюс"],
+            keywords: &[
+                "+",
+                "амал",
+                "белгі",
+                "жуан қосу белгісі",
+                "математика",
+                "плюс",
+                "қосу",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -1598,13 +1909,27 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "kn",
             tts: Some("ಸಂಕಲನ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
-            keywords: &["+", "ಗಣ\u{cbf}ತ", "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}", "ಸಂಕಲನ"],
+            keywords: &[
+                "+",
+                "ಕ\u{cc2}ಡ\u{cbf}ಸು",
+                "ಗಣ\u{cbf}ತ",
+                "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ದಪ\u{ccd}ಪನ\u{cc6}ಯ ಕ\u{cc2}ಡ\u{cbf}ಸು ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ಪ\u{ccd}ಲಸ\u{ccd}",
+                "ಸಂಕಲನ",
+            ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("더하기"),
-            keywords: &["더하기", "더하기 표시", "플러스"],
+            keywords: &[
+                "더하기",
+                "더하기 표시",
+                "두꺼운 더하기 표시",
+                "수학",
+                "플러스",
+            ],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -1652,13 +1977,27 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("плус"),
-            keywords: &["+", "знак", "математика", "плус"],
+            keywords: &[
+                "+",
+                "задебелен знак за плус",
+                "задебелен плус",
+                "знак",
+                "знак за плус",
+                "математика",
+                "плус",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ക\u{d42}ട\u{d4d}ട\u{d41}ക"),
-            keywords: &["+", "ക\u{d42}ട\u{d4d}ട\u{d41}ക", "ഗണിതം", "ചിഹ\u{d4d}നം"],
+            keywords: &[
+                "+",
+                "ക\u{d42}ട\u{d4d}ട\u{d41}ക",
+                "ഗണിതം",
+                "ചിഹ\u{d4d}നം",
+                "പ\u{d4d}ലസ\u{d4d} ചിഹ\u{d4d}നം",
+            ],
         },
         #[cfg(feature = "mn")]
         crate::Annotation {
@@ -1670,13 +2009,27 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("अधिक"),
-            keywords: &["+ । गणित । अधिक । चिन\u{94d}ह", "अधिक"],
+            keywords: &[
+                "+",
+                "अधिक",
+                "गणित",
+                "चिन\u{94d}ह",
+                "मोठ\u{947} अधिक चिन\u{94d}ह",
+                "मोठ\u{947} धन चिन\u{94d}ह",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("tambah"),
-            keywords: &["+", "matematik", "simbol", "tambah"],
+            keywords: &[
+                "+",
+                "campur",
+                "matematik",
+                "simbol",
+                "tambah",
+                "tanda campur tebal",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -1687,26 +2040,12 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
-            tts: Some("အပေါင\u{103a}း"),
+            tts: Some("အပေါင\u{103a}း သင\u{103a}\u{1039}ကေတ"),
             keywords: &[
                 "သင\u{103a}\u{1039}ကေတ",
                 "သင\u{103a}\u{1039}ချာ",
                 "အပေါင\u{103a}း",
                 "အပေါင\u{103a}း လက\u{1039}ခဏာ",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("pluss"),
-            keywords: &[
-                "+",
-                "addisjon",
-                "fortegn",
-                "matte",
-                "pluss",
-                "plusstegn",
-                "positivt",
             ],
         },
         #[cfg(feature = "ne")]
@@ -1719,13 +2058,21 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("plus"),
-            keywords: &["+", "plus", "teken", "wiskunde"],
+            keywords: &["+", "plus"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("pluss"),
-            keywords: &["forteikn", "matte", "pluss", "plussteikn", "positivt"],
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "+",
+                "addisjon",
+                "forteikn",
+                "matte",
+                "pluss",
+                "plussteikn",
+                "positivt",
+            ],
         },
         #[cfg(feature = "or")]
         crate::Annotation {
@@ -1742,6 +2089,7 @@ pub const PLUS: crate::Emoji = crate::Emoji {
                 "ਗਣਿਤ",
                 "ਚਿ\u{a70}ਨ\u{a4d}ਹ",
                 "ਜਮ\u{a4d}ਹਾ\u{a02}",
+                "ਜ\u{a4b}ੜ",
                 "ਨਿਸ\u{a3c}ਾਨ",
                 "ਹਿਸਾਬ",
             ],
@@ -1784,9 +2132,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             tts: Some("símbolo de adição"),
             keywords: &[
                 "+",
+                "cruz",
+                "mais",
                 "matemática",
                 "sinal",
+                "sinal de maior",
                 "sinal de mais",
+                "somar",
                 "símbolo de adição",
             ],
         },
@@ -1794,7 +2146,14 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("adição"),
-            keywords: &["+", "adição", "mais", "matemática", "sinal de adição"],
+            keywords: &[
+                "+",
+                "adição",
+                "mais",
+                "matemática",
+                "sinal de adição",
+                "símbolo de adição",
+            ],
         },
         #[cfg(feature = "qu")]
         crate::Annotation {
@@ -1819,11 +2178,12 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("знак сложения"),
             keywords: &[
-                "знак сложения",
-                "значок",
-                "значок сложения",
+                "добавить",
+                "знак",
                 "плюс",
+                "прибавить",
                 "сложение",
+                "сложения",
             ],
         },
         #[cfg(feature = "rw")]
@@ -1848,19 +2208,35 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("plus"),
-            keywords: &["+", "matematika", "plus", "znak", "znak sčítania"],
+            keywords: &[
+                "+",
+                "hrubý znak sčítania",
+                "matematika",
+                "plus",
+                "počítať",
+                "pripočítať",
+                "sčítať",
+                "znak",
+                "znak sčítania",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("plus"),
-            keywords: &["+", "matematika", "plus", "znak"],
+            keywords: &["+", "matematika", "plus", "znak", "znak za plus"],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("calaamadda isugeynta"),
-            keywords: &["+", "calaamad", "calaamadda isugeynta", "isu gee", "xisaab"],
+            keywords: &[
+                "+",
+                "calaamadda isugeynta",
+                "lagu daray",
+                "saxiix",
+                "xisaab",
+            ],
         },
         #[cfg(feature = "sq")]
         crate::Annotation {
@@ -1872,7 +2248,7 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("црни знак плус"),
-            keywords: &["мaтeмaтикa", "плус", "црни знак плус"],
+            keywords: &["+", "мaтeмaтикa", "плус"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -1884,13 +2260,19 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("crni znak plus"),
-            keywords: &["crni znak plus", "matematika", "plus"],
+            keywords: &["+", "matematika", "plus"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("addera"),
-            keywords: &["+", "addera", "matte", "plus", "tecken"],
+            keywords: &["+", "addera", "matte", "plus", "plustecken", "tecken"],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
@@ -1910,10 +2292,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             tts: Some("கூட\u{bcd}டற\u{bcd}குறி"),
             keywords: &[
                 "கணக\u{bcd}கு",
+                "கருப\u{bcd}பு நிற கூட\u{bcd}டல\u{bcd}",
                 "குறிய\u{bc0}டு",
                 "கூட\u{bcd}டற\u{bcd}குறி",
                 "கூட\u{bcd}டல\u{bcd}",
                 "கூட\u{bcd}டல\u{bcd} குறி",
+                "கூட\u{bcd}டு",
+                "பிளஸ\u{bcd}",
             ],
         },
         #[cfg(feature = "te")]
@@ -1924,7 +2309,10 @@ pub const PLUS: crate::Emoji = crate::Emoji {
                 "+",
                 "కూడ\u{c3f}క",
                 "కూడ\u{c3f}క చ\u{c47}యడం",
+                "గణ\u{c3f}తం",
                 "గుర\u{c4d}తు",
+                "భ\u{c3e}ర\u{c40} కూడ\u{c3f}క చ\u{c3f}హ\u{c4d}నం",
+                "మ\u{c4d}య\u{c3e}థ\u{c4d}",
                 "ల\u{c46}క\u{c4d}క",
             ],
         },
@@ -1938,7 +2326,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("บวก"),
-            keywords: &["+", "คณ\u{e34}ต", "บวก", "เคร\u{e37}\u{e48}องหมาย"],
+            keywords: &[
+                "+",
+                "คณ\u{e34}ต",
+                "บวก",
+                "เคร\u{e37}\u{e48}องหมาย",
+                "เคร\u{e37}\u{e48}องหมายบวก",
+            ],
         },
         #[cfg(feature = "ti")]
         crate::Annotation {
@@ -1955,14 +2349,21 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
-            tts: Some("fakaʻilonga tānaki mamafa"),
-            keywords: &["fakaʻilonga", "fakaʻilonga tānaki mamafa", "tānaki"],
+            tts: Some("tānaki mamafa"),
+            keywords: &["fakaʻilonga", "tānaki", "tānaki mamafa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("artı"),
-            keywords: &["+", "artı", "artı işareti", "işaret", "matematik"],
+            keywords: &[
+                "+",
+                "artı",
+                "artı işareti",
+                "işaret",
+                "koyu renk artı işareti",
+                "matematik",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -1974,13 +2375,13 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("плюс"),
-            keywords: &["+", "знак", "математичний", "плюс"],
+            keywords: &["+", "знак", "математика", "математичний", "плюс"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("جمع"),
-            keywords: &["+", "جمع", "ریاضی", "علامت"],
+            keywords: &["+", "بھاری جمع کا نشان", "جمع", "ریاضی", "علامت"],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -2024,6 +2425,16 @@ pub const PLUS: crate::Emoji = crate::Emoji {
                 "ẹ\u{300}kó\u{329} ìsirò",
             ],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aami àròpɔ\u{300} nla"),
+            keywords: &[
+                "aami àròpɔ\u{300} nla",
+                "àròpɔ\u{300}",
+                "ɛ\u{300}kó\u{329} ìsirò",
+            ],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2052,7 +2463,7 @@ pub const PLUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("加號標誌"),
-            keywords: &["加號", "加號標誌"],
+            keywords: &["+", "加號", "加號標誌", "十字", "數學", "符號", "黑色"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -2089,19 +2500,38 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("minus"),
-            keywords: &["minus", "teken", "wiskunde"],
+            keywords: &[
+                "-",
+                "aandagstreep",
+                "aftrek",
+                "dik minusteken",
+                "minus",
+                "rekenkunde",
+                "somme",
+                "teken",
+                "wiskunde",
+                "−",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ማይነስ"),
-            keywords: &["-", "ሒሳብ", "ማይነስ", "ምልክት", "−"],
+            keywords: &["-", "ሒሳብ", "መቀነስ", "ማይነስ", "ምልክት", "−"],
         },
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}علامة طرح"),
-            keywords: &["رياضيات", "طرح", "\u{202b}علامة طرح", "−"],
+            tts: Some("علامة طرح"),
+            keywords: &[
+                "رمز",
+                "رياضيات",
+                "طرح",
+                "علامة",
+                "علامة طرح عريضة",
+                "ناقص",
+                "−",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -2112,8 +2542,16 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
-            tts: Some("qalın minus işarəsi"),
-            keywords: &["minus", "qalın minus işarəsi", "riyaziyyat"],
+            tts: Some("qalın çıxma işarəsi"),
+            keywords: &[
+                "-",
+                "işarə",
+                "minus",
+                "qalın çıxma işarəsi",
+                "riyaziyyat",
+                "çıxma",
+                "−",
+            ],
         },
         #[cfg(feature = "be")]
         crate::Annotation {
@@ -2132,7 +2570,12 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("Удебелен знак минус"),
-            keywords: &["Удебелен знак минус", "математика", "минус"],
+            keywords: &[
+                "Удебелен знак минус",
+                "математика",
+                "минус",
+                "удебелен знак минус",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
@@ -2162,6 +2605,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "menys",
                 "signe",
                 "signe de restar",
+                "signe de restar gruixut",
                 "−",
             ],
         },
@@ -2179,9 +2623,15 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "-",
                 "matematika",
                 "minus",
+                "mínus",
+                "odečíst",
+                "odečítat",
                 "odčítání",
+                "počítat",
                 "rozdíl",
+                "velké znaménko minus",
                 "znak minus",
+                "záporný",
                 "−",
             ],
         },
@@ -2201,13 +2651,13 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("minus"),
-            keywords: &["Minus", "Minuszeichen", "minus"],
+            keywords: &["-", "Mathe", "Minus", "Minuszeichen", "−"],
         },
         #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
             tts: Some("Minus"),
-            keywords: &["Minus"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
@@ -2220,6 +2670,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "μείον",
                 "πλην",
                 "σύμβολο",
+                "σύμβολο αφαίρεσης",
                 "−",
             ],
         },
@@ -2227,13 +2678,21 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en",
             tts: Some("minus"),
-            keywords: &["-", "math", "minus", "sign", "−"],
+            keywords: &["-", "heavy", "math", "minus", "sign", "−"],
         },
         #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
             tts: None,
-            keywords: &["-", "math", "maths", "minus", "sign", "−"],
+            keywords: &[
+                "-",
+                "heavy minus sign",
+                "math",
+                "maths",
+                "minus",
+                "sign",
+                "−",
+            ],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
@@ -2245,13 +2704,13 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["-", "math", "minus", "sign", "−"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &["-", "math", "maths", "minus", "sign", "−"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -2269,7 +2728,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("resta"),
-            keywords: &["↑↑↑"],
+            keywords: &["menos", "negativo", "raya", "signo"],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
@@ -2287,26 +2746,19 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "et",
             tts: Some("lahutamine"),
-            keywords: &[
-                "-",
-                "lahutamine",
-                "matemaatika",
-                "miinus",
-                "miinusmärk",
-                "−",
-            ],
+            keywords: &["-", "kriips", "lahutamine", "matemaatika", "miinus", "−"],
         },
         #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("minus"),
-            keywords: &["-", "ikur", "matematika", "minus", "−"],
+            keywords: &["ikurra", "matematika", "minus", "−"],
         },
         #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("تفریق"),
-            keywords: &["-", "تفریق", "ریاضی", "علامت", "−"],
+            keywords: &["-", "تفریق", "ریاضی", "علامت", "منها", "−"],
         },
         #[cfg(feature = "fi")]
         crate::Annotation {
@@ -2317,13 +2769,15 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
-            tts: Some("malaking minus sign"),
+            tts: Some("minus"),
             keywords: &[
-                "makapal",
+                "-",
                 "malaking minus sign",
                 "matematika",
                 "minus",
-                "senyas",
+                "sign",
+                "simbolo",
+                "−",
             ],
         },
         #[cfg(feature = "fo")]
@@ -2349,8 +2803,10 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "arithmétique",
                 "mathématiques",
                 "moins",
+                "signe Moins",
                 "signe moins",
                 "soustraction",
+                "soustraire",
                 "−",
             ],
         },
@@ -2399,13 +2855,29 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gu",
             tts: Some("બાદબાકી"),
-            keywords: &["-", "ગણિત", "ચિહ\u{acd}ન", "બાદબાકી", "−"],
+            keywords: &[
+                "-",
+                "ગણિત",
+                "ગણિત શાસ\u{acd}ત\u{acd}ર",
+                "ઘાટ\u{ac1}\u{a82} બાદબાકીન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ચિહ\u{acd}ન",
+                "બાદબાકી",
+                "બાદબાકીન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ભાર\u{ac7} બાદબાકીન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "−",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("alamar deɓewa mai nauyi"),
-            keywords: &["alamar deɓewa", "alamar deɓewa mai nauyi", "ilimin lissafi"],
+            tts: Some("deɓewa"),
+            keywords: &["-", "alama", "deɓewa", "kwashewa", "lissafi", "ɗebewa", "−"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("deɓewa"),
+            keywords: &["-", "alama", "deɓewa", "kwashewa", "lissafi", "ɗebewa", "−"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -2422,14 +2894,23 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
-            tts: Some("znak minus"),
-            keywords: &["matematika", "minus", "znak minus"],
+            tts: Some("minus"),
+            keywords: &["-", "matematika", "minus", "znak"],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("mínusz"),
-            keywords: &["-", "jel", "matematika", "mínusz", "−"],
+            keywords: &[
+                "-",
+                "gondolatjel",
+                "jel",
+                "kivonás jel",
+                "matematika",
+                "mínusz",
+                "vastag mínuszjel",
+                "−",
+            ],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -2445,17 +2926,32 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "−",
             ],
         },
+        #[cfg(feature = "ia")]
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("minus"),
+            keywords: &["minus"],
+        },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kurang"),
-            keywords: &["-", "kurang", "matematika", "minus", "tanda", "−"],
+            keywords: &[
+                "-",
+                "kurang",
+                "matematika",
+                "minus",
+                "operator",
+                "pengurangan",
+                "tanda",
+                "−",
+            ],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
-            tts: Some("nnukwu akara mwepụ"),
-            keywords: &["mwepụ", "nnukwu akara mwepụ", "sọm"],
+            tts: Some("mwepụ"),
+            keywords: &["-", "akara", "arọ", "mgbakọ na mwepụ", "mwepụ"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -2466,14 +2962,22 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
-            tts: Some("simbolo della sottrazione"),
-            keywords: &["meno", "simbolo della sottrazione", "sottrazione"],
+            tts: Some("sottrazione"),
+            keywords: &[
+                "-",
+                "matematica",
+                "meno",
+                "segno",
+                "segno di sottrazione",
+                "sottrazione",
+                "trattino",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("マイナス"),
-            keywords: &["-", "マイナス", "引き算", "引く", "減算", "記号"],
+            keywords: &["-", "マイナス", "引き算", "引く", "減算", "計算", "記号"],
         },
         #[cfg(feature = "jv")]
         crate::Annotation {
@@ -2494,11 +2998,27 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "−",
             ],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("asenɣes"),
+            keywords: &["asenɣes"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("минус"),
-            keywords: &["-", "амал", "белгі", "минус", "−"],
+            keywords: &[
+                "-",
+                "алу",
+                "амал",
+                "белгі",
+                "жуан алу белгісі",
+                "математика",
+                "минус",
+                "қалың алу белгісі",
+                "−",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -2527,7 +3047,8 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "-",
                 "ಗಣ\u{cbf}ತ",
                 "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-                "ವ\u{ccd}ಯವಕಲನ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ಮ\u{cc8}ನಸ\u{ccd} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ವ\u{ccd}ಯವಕಲನ",
                 "−",
             ],
         },
@@ -2535,7 +3056,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ko",
             tts: Some("빼기"),
-            keywords: &["마이너스", "빼기", "빼기 표시"],
+            keywords: &["마이너스", "빼기", "빼기 표시", "수학", "진한 빼기 표시"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -2587,13 +3108,28 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("минус"),
-            keywords: &["-", "знак", "математика", "минус", "−"],
+            keywords: &[
+                "-",
+                "задебелен знак за минус",
+                "знак",
+                "знак за минус",
+                "математика",
+                "минус",
+                "−",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("കിഴിക\u{d4d}ക\u{d41}ക"),
-            keywords: &["-", "കിഴിക\u{d4d}ക\u{d41}ക", "ഗണിതം", "ചിഹ\u{d4d}നം", "−"],
+            keywords: &[
+                "-",
+                "കിഴിക\u{d4d}ക\u{d41}ക",
+                "ഗണിതം",
+                "ചിഹ\u{d4d}നം",
+                "മൈനസ\u{d4d} ചിഹ\u{d4d}നം",
+                "−",
+            ],
         },
         #[cfg(feature = "mn")]
         crate::Annotation {
@@ -2605,13 +3141,29 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("वजा"),
-            keywords: &["-", "गणित । वजा । चिन\u{94d}ह", "वजा", "−"],
+            keywords: &[
+                "-",
+                "उण\u{947}",
+                "गणित",
+                "चिन\u{94d}ह",
+                "मोठ\u{947} ऋण चिन\u{94d}ह",
+                "मोठ\u{947} वजा चिन\u{94d}ह",
+                "वजा",
+                "−",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("tolak"),
-            keywords: &["-", "matematik", "simbol", "tolak", "−"],
+            keywords: &[
+                "-",
+                "matematik",
+                "simbol",
+                "tanda tolak tebal",
+                "tolak",
+                "−",
+            ],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -2622,27 +3174,11 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
-            tts: Some("အန\u{102f}တ\u{103a}"),
+            tts: Some("အန\u{102f}တ\u{103a} သင\u{103a}\u{1039}ကေတ"),
             keywords: &[
                 "သင\u{103a}\u{1039}ကေတ",
                 "သင\u{103a}\u{1039}ချာ",
                 "အန\u{102f}တ\u{103a}",
-                "အန\u{102f}တ\u{103a}လက\u{1039}ခဏာ သင\u{103a}\u{1039}ကေတ",
-            ],
-        },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("minus"),
-            keywords: &[
-                "-",
-                "fortegn",
-                "matte",
-                "minus",
-                "minustegn",
-                "negativt",
-                "subtraksjon",
-                "−",
             ],
         },
         #[cfg(feature = "ne")]
@@ -2655,12 +3191,12 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("min"),
-            keywords: &["-", "min", "teken", "wiskunde", "−"],
+            keywords: &["-", "dikgedrukt", "min", "teken", "wiskunde", "−"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("minus"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "-",
                 "forteikn",
@@ -2668,6 +3204,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "minus",
                 "minusteikn",
                 "negativt",
+                "subtraksjon",
                 "–",
             ],
         },
@@ -2685,6 +3222,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "-",
                 "ਗਣਿਤ",
                 "ਘਟਾਓ",
+                "ਘਟਾਓ ਦਾ ਵ\u{a71}ਡਾ ਚਿ\u{a70}ਨ\u{a4d}ਹ",
                 "ਚਿ\u{a70}ਨ\u{a4d}ਹ",
                 "ਨਿਸ\u{a3c}ਾਨ",
                 "ਹਿਸਾਬ",
@@ -2707,7 +3245,15 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pl",
             tts: Some("znak minus"),
-            keywords: &["-", "matematyka", "odejmowanie", "znak", "znak minus", "−"],
+            keywords: &[
+                "-",
+                "matematyka",
+                "minus",
+                "odejmowanie",
+                "odjąć",
+                "znak",
+                "−",
+            ],
         },
         #[cfg(feature = "ps")]
         crate::Annotation {
@@ -2721,10 +3267,13 @@ pub const MINUS: crate::Emoji = crate::Emoji {
             tts: Some("símbolo de subtração"),
             keywords: &[
                 "-",
+                "diminuir",
                 "matemática",
                 "menos",
                 "sinal",
+                "sinal de menos",
                 "símbolo de subtração",
+                "travessão",
                 "−",
             ],
         },
@@ -2746,13 +3295,23 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "qu",
             tts: Some("qhichuna"),
-            keywords: &["-", "matematicas", "qhichuna", "qichuna", "unancha"],
+            keywords: &["-", "matematicas", "qhichuna", "qichuna", "unancha", "−"],
         },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("minus"),
-            keywords: &["-", "matematică", "minus", "scădere", "semn minus", "–"],
+            keywords: &[
+                "-",
+                "liniuță",
+                "mate",
+                "matematică",
+                "minus",
+                "scădere",
+                "semn minus",
+                "semn minus îngroșat",
+                "–",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -2765,11 +3324,12 @@ pub const MINUS: crate::Emoji = crate::Emoji {
             lang: "ru",
             tts: Some("знак вычитания"),
             keywords: &[
+                "вычесть",
                 "вычитание",
-                "знак вычитания",
-                "значок",
-                "значок вычитания",
+                "вычитания",
+                "знак",
                 "минус",
+                "отнять",
             ],
         },
         #[cfg(feature = "rw")]
@@ -2794,13 +3354,31 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sk",
             tts: Some("mínus"),
-            keywords: &["-", "matematika", "mínus", "znak", "znak odčítania", "−"],
+            keywords: &[
+                "-",
+                "hrubý znak odčítania",
+                "matematika",
+                "mínus",
+                "odčítanie",
+                "počítanie",
+                "znak",
+                "znak odčítania",
+                "–",
+            ],
         },
         #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("minus"),
-            keywords: &["-", "matematika", "minus", "znak", "−"],
+            keywords: &[
+                "-",
+                "matematika",
+                "minus",
+                "odštevanje",
+                "znak",
+                "znak za minus",
+                "−",
+            ],
         },
         #[cfg(feature = "so")]
         crate::Annotation {
@@ -2825,7 +3403,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr",
             tts: Some("црни знак минус"),
-            keywords: &["-", "знак", "мaтeмaтикa", "минус", "црни знак минус", "−"],
+            keywords: &["-", "знак", "мaтeмaтикa", "минус", "−"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
@@ -2837,13 +3415,27 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("crni znak minus"),
-            keywords: &["-", "crni znak minus", "matematika", "minus", "znak", "−"],
+            keywords: &["-", "matematika", "minus", "znak", "−"],
+        },
+        #[cfg(feature = "sr_Latn_BA")]
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("subtrahera"),
-            keywords: &["-", "matte", "minus", "subtrahera", "tecken", "−"],
+            keywords: &[
+                "-",
+                "matte",
+                "minus",
+                "minustecken",
+                "subtrahera",
+                "tecken",
+                "−",
+            ],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
@@ -2866,6 +3458,7 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "கழித\u{bcd}தல\u{bcd}",
                 "கழித\u{bcd}தல\u{bcd} குறி",
                 "குறிய\u{bc0}டு",
+                "சிறுகோடு",
             ],
         },
         #[cfg(feature = "te")]
@@ -2876,6 +3469,9 @@ pub const MINUS: crate::Emoji = crate::Emoji {
                 "-",
                 "చ\u{c3f}హ\u{c4d}నం",
                 "త\u{c40}స\u{c3f}వ\u{c47}త",
+                "భ\u{c3e}ర\u{c40} త\u{c40}స\u{c3f}వ\u{c47}త చ\u{c3f}హ\u{c4d}నం",
+                "మ\u{c48}నస\u{c4d}",
+                "మ\u{c4d}య\u{c3e}త\u{c4d}",
                 "ల\u{c46}క\u{c4d}క",
                 "−",
             ],
@@ -2890,7 +3486,14 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("ลบ"),
-            keywords: &["-", "คณ\u{e34}ต", "ลบ", "เคร\u{e37}\u{e48}องหมาย", "−"],
+            keywords: &[
+                "-",
+                "คณ\u{e34}ต",
+                "ลบ",
+                "เคร\u{e37}\u{e48}องหมาย",
+                "เคร\u{e37}\u{e48}องหมายลบ",
+                "−",
+            ],
         },
         #[cfg(feature = "ti")]
         crate::Annotation {
@@ -2907,14 +3510,22 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
-            tts: Some("fakaʻilonga kole mamafa"),
-            keywords: &["fakaʻilonga", "fakaʻilonga kole mamafa", "kole"],
+            tts: Some("kole mamafa"),
+            keywords: &["fakaʻilonga", "kole", "kole mamafa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("eksi"),
-            keywords: &["-", "eksi", "eksi işareti", "işaret", "matematik", "−"],
+            keywords: &[
+                "-",
+                "eksi",
+                "eksi işareti",
+                "işaret",
+                "koyu renk eksi işareti",
+                "matematik",
+                "−",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -2926,13 +3537,21 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("мінус"),
-            keywords: &["-", "знак", "математичний", "мінус", "−"],
+            keywords: &["-", "знак", "математика", "математичний", "мінус", "−"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("منفی"),
-            keywords: &["-", "ریاضی", "علامت", "منفی", "−"],
+            keywords: &[
+                "-",
+                "بھاری منفی کا نشان",
+                "ریاضی",
+                "علامت",
+                "منفی",
+                "نفی",
+                "−",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -2973,6 +3592,12 @@ pub const MINUS: crate::Emoji = crate::Emoji {
             tts: Some("aami ayọkuro nla"),
             keywords: &["aami ayọkuro nla", "àyọkúrò", "ẹ\u{300}kó\u{329} ìsirò"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aami ayɔkuro nla"),
+            keywords: &["aami ayɔkuro nla", "àyɔkúrò", "ɛ\u{300}kó\u{329} ìsirò"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -2995,13 +3620,13 @@ pub const MINUS: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("減"),
-            keywords: &["-", "−", "數學", "減", "減號", "符號"],
+            keywords: &["-", "−", "數學", "減", "減號", "符號", "負"],
         },
         #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("減號"),
-            keywords: &["-", "−", "數學", "減", "減號", "符號"],
+            keywords: &["-", "數學", "減號", "符號", "黑色"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -3033,7 +3658,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("deel"),
-            keywords: &["deel", "teken", "wiskunde"],
+            keywords: &[
+                "deel",
+                "dik deelteken",
+                "rekenkunde",
+                "somme",
+                "teken",
+                "verdeling",
+                "wiskunde",
+                "÷",
+            ],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -3044,8 +3678,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
-            tts: Some("\u{202b}علامة قسمة"),
-            keywords: &["÷", "رياضيات", "قسمة", "\u{202b}علامة قسمة"],
+            tts: Some("علامة قسمة"),
+            keywords: &[
+                "÷",
+                "تقسيم",
+                "رمز",
+                "رياضيات",
+                "علامة",
+                "علامة قسمة عريضة",
+                "قسمة",
+            ],
         },
         #[cfg(feature = "as")]
         crate::Annotation {
@@ -3069,13 +3711,18 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "bg",
             tts: Some("Удебелен знак за деление"),
-            keywords: &["Удебелен знак за деление", "деление", "математика"],
+            keywords: &[
+                "Удебелен знак за деление",
+                "деление",
+                "математика",
+                "удебелен знак за деление",
+            ],
         },
         #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ভ\u{9be}গ"),
-            keywords: &["÷", "গণিত", "চিহ\u{9cd}ন", "ভ\u{9be}গ"],
+            keywords: &["÷", "গণিত", "চিহ\u{9cd}ন", "বিভ\u{9be}জন", "ভ\u{9be}গ"],
         },
         #[cfg(feature = "br")]
         crate::Annotation {
@@ -3093,7 +3740,14 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ca",
             tts: Some("signe de dividir"),
-            keywords: &["divisió", "matemàtiques", "signe", "signe de dividir", "÷"],
+            keywords: &[
+                "divisió",
+                "matemàtiques",
+                "signe",
+                "signe de dividir",
+                "signe de dividir gruixut",
+                "÷",
+            ],
         },
         #[cfg(feature = "chr")]
         crate::Annotation {
@@ -3110,6 +3764,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
                 "dělení",
                 "matematika",
                 "podíl",
+                "velké znaménko dělení",
                 "znak dělení",
                 "÷",
             ],
@@ -3137,57 +3792,57 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "de",
             tts: Some("geteilt durch"),
-            keywords: &["Division", "geteilt durch"],
+            keywords: &[
+                "Division",
+                "Divisionszeichen",
+                "Geteiltzeichen",
+                "Mathe",
+                "geteilt",
+                "geteilt durch",
+                "÷",
+            ],
+        },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("διαίρεση"),
-            keywords: &["÷", "διαίρεση", "μαθηματικά", "σύμβολο"],
+            keywords: &[
+                "÷",
+                "διαίρεση",
+                "μαθηματικά",
+                "σύμβολο",
+                "σύμβολο διαίρεσης",
+            ],
         },
         #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("divide"),
-            keywords: &["divide", "division", "math", "sign", "÷"],
-        },
-        #[cfg(feature = "en_001")]
-        crate::Annotation {
-            lang: "en_001",
-            tts: None,
-            keywords: &[
-                "divide",
-                "division",
-                "heavy division sign",
-                "math",
-                "maths",
-                "÷",
-            ],
+            keywords: &["divide", "division", "heavy", "math", "sign", "÷"],
         },
         #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
-            keywords: &["divide", "division", "math", "sign", "÷"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
-            keywords: &["divide", "division", "math", "sign", "÷"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
-            keywords: &[
-                "divide",
-                "division",
-                "heavy division sign",
-                "math",
-                "maths",
-                "÷",
-            ],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "en_IN")]
         crate::Annotation {
@@ -3205,13 +3860,19 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &[
+                "dividir",
+                "división",
+                "matemáticas",
+                "signo",
+                "signo de división",
+            ],
         },
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("signo de división"),
-            keywords: &["división", "signo", "signo de división", "÷"],
+            keywords: &["↑↑↑"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
@@ -3246,14 +3907,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
-            tts: Some("malaking division sign"),
+            tts: Some("divide"),
             keywords: &[
+                "divide",
                 "division",
-                "makapal",
                 "malaking division sign",
                 "matematika",
                 "math",
-                "senyas",
+                "sign",
+                "simbolo",
+                "÷",
             ],
         },
         #[cfg(feature = "fo")]
@@ -3266,7 +3929,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "fr",
             tts: Some("signe diviser"),
-            keywords: &["diviser", "division", "mathématiques", "signe", "÷"],
+            keywords: &[
+                "algèbre",
+                "diviser",
+                "division",
+                "math",
+                "mathématique",
+                "mathématiques",
+                "signe",
+                "÷",
+            ],
         },
         #[cfg(feature = "fr_CA")]
         crate::Annotation {
@@ -3284,7 +3956,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
-            tts: Some("roinnte"),
+            tts: Some("roinn"),
             keywords: &["comhartha", "mata", "roinn", "roinnte", "÷"],
         },
         #[cfg(feature = "gd")]
@@ -3306,19 +3978,34 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("división"),
-            keywords: &["división", "matemáticas", "signo", "÷"],
+            keywords: &["matemáticas", "signo", "÷"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ભાગાકાર"),
-            keywords: &["÷", "ગણિત", "ચિહ\u{acd}ન", "ભાગાકાર"],
+            keywords: &[
+                "÷",
+                "ગણિત",
+                "ગણિતશાસ\u{acd}ત\u{acd}ર",
+                "ઘાટ\u{ac1}\u{a82} ભાગાકારન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ચિહ\u{acd}ન",
+                "ભાગાકાર",
+                "ભાગાકારન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ભાર\u{ac7} ભાગાકારન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+            ],
         },
         #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
-            tts: Some("alamar rabawa mai nauyi"),
-            keywords: &["alamar rabawa mai nauyi", "ilimin lissafi", "rabawa"],
+            tts: Some("rabawa"),
+            keywords: &["alama", "lissafi", "mai nauyi", "raba", "rabawa", "÷"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rabawa"),
+            keywords: &["alama", "lissafi", "mai nauyi", "raba", "rabawa", "÷"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -3337,19 +4024,26 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "hi",
             tts: Some("भाग"),
-            keywords: &["÷", "गणित", "चिह\u{94d}न", "भाग"],
+            keywords: &["÷", "गणित", "चिह\u{94d}न", "भाग", "विभाजन"],
         },
         #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("znak dijeljenja"),
-            keywords: &["dijeljenje", "matematika", "znak dijeljenja"],
+            keywords: &[
+                "dijeliti",
+                "dijeljenje",
+                "matematika",
+                "znak",
+                "znak dijeljenja",
+                "÷",
+            ],
         },
         #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("osztás"),
-            keywords: &["jel", "matematika", "osztás", "÷"],
+            keywords: &["jel", "matematika", "osztás", "vastag osztásjel", "÷"],
         },
         #[cfg(feature = "hy")]
         crate::Annotation {
@@ -3364,17 +4058,23 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
                 "նշան",
             ],
         },
+        #[cfg(feature = "ia")]
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("division"),
+            keywords: &["divider", "division", "mathematica", "signo", "÷"],
+        },
         #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bagi"),
-            keywords: &["bagi", "matematika", "pembagian", "tanda", "÷"],
+            keywords: &["bagi", "matematika", "operator", "pembagian", "tanda", "÷"],
         },
         #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
-            tts: Some("nnukwu akara nkewa"),
-            keywords: &["nkewa", "nnukwu akara nkewa", "sọm"],
+            tts: Some("nkewa"),
+            keywords: &["akara", "kewaa", "mgbakọ na mwepụ", "nkewa", "nnukwu", "÷"],
         },
         #[cfg(feature = "is")]
         crate::Annotation {
@@ -3385,8 +4085,15 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
-            tts: Some("simbolo della divisione"),
-            keywords: &["divisione", "diviso", "simbolo della divisione"],
+            tts: Some("divisione"),
+            keywords: &[
+                "divisione",
+                "diviso",
+                "matematica",
+                "segno",
+                "segno di divisione",
+                "÷",
+            ],
         },
         #[cfg(feature = "ja")]
         crate::Annotation {
@@ -3406,11 +4113,24 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             tts: Some("გაყოფა"),
             keywords: &["÷", "გაყოფა", "გაყოფის ნიშანი", "მათემატიკა"],
         },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("beṭṭu"),
+            keywords: &["beṭṭu"],
+        },
         #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("бөлу"),
-            keywords: &["÷", "амал", "белгі", "бөлу"],
+            keywords: &[
+                "÷",
+                "амал",
+                "белгі",
+                "бөлу",
+                "жуан бөлу белгісі",
+                "математика",
+            ],
         },
         #[cfg(feature = "kl")]
         crate::Annotation {
@@ -3438,15 +4158,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
                 "÷",
                 "ಗಣ\u{cbf}ತ",
                 "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ದಪ\u{ccd}ಪ ಭಾಗಾಕಾರ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
                 "ಭಾಗಾಕಾರ",
-                "ವ\u{cbf}ಭಜನ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ವ\u{cbf}ಭಜನ\u{cc6}",
             ],
         },
         #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("나누기"),
-            keywords: &["나누기", "나누기 표시"],
+            keywords: &["나누기", "나누기 표시", "수학", "진한 나누기 표시"],
         },
         #[cfg(feature = "kok")]
         crate::Annotation {
@@ -3498,13 +4219,27 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mk",
             tts: Some("делење"),
-            keywords: &["÷", "делење", "знак", "математика"],
+            keywords: &[
+                "÷",
+                "делење",
+                "задебелен знак за делење",
+                "знак",
+                "знак за делење",
+                "математика",
+            ],
         },
         #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ഹരിക\u{d4d}ക\u{d41}ക"),
-            keywords: &["÷", "ഗണിതം", "ചിഹ\u{d4d}നം", "ഹരണം", "ഹരിക\u{d4d}ക\u{d41}ക"],
+            keywords: &[
+                "÷",
+                "ഗണിതം",
+                "ചിഹ\u{d4d}നം",
+                "ഹരണ ചിഹ\u{d4d}നം",
+                "ഹരണം",
+                "ഹരിക\u{d4d}ക\u{d41}ക",
+            ],
         },
         #[cfg(feature = "mn")]
         crate::Annotation {
@@ -3516,13 +4251,20 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "mr",
             tts: Some("भागाकार"),
-            keywords: &["÷ । भागाकार । गणित । चिन\u{94d}ह", "भागाकार"],
+            keywords: &[
+                "÷",
+                "गणित",
+                "चिन\u{94d}ह",
+                "भागाकार",
+                "मोठ\u{947} भागाकार चिन\u{94d}ह",
+                "मोठ\u{947} भागाकारच\u{947} चिन\u{94d}ह",
+            ],
         },
         #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("bahagi"),
-            keywords: &["bahagi", "matematik", "simbol", "÷"],
+            keywords: &["bahagi", "matematik", "simbol", "tanda bahagi tebal", "÷"],
         },
         #[cfg(feature = "mt")]
         crate::Annotation {
@@ -3542,19 +4284,6 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
                 "အစားလက\u{1039}ခဏာသင\u{103a}\u{1039}ကေတ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("dele"),
-            keywords: &[
-                "dele",
-                "deletegn",
-                "deling",
-                "divisjon",
-                "divisjonstegn",
-                "÷",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -3565,18 +4294,19 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "nl",
             tts: Some("delen"),
-            keywords: &["delen", "teken", "wiskunde", "÷"],
+            keywords: &["delen", "deling", "dikgedrukt", "teken", "wiskunde", "÷"],
         },
         #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
-            tts: Some("deleteikn"),
+            tts: Some("↑↑↑"),
             keywords: &[
                 "dele",
                 "deleteikn",
-                "delilng",
+                "deling",
                 "divisjon",
                 "divisjonsteikn",
+                "matte",
                 "÷",
             ],
         },
@@ -3635,7 +4365,16 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "pt",
             tts: Some("símbolo de divisão"),
-            keywords: &["divisão", "matemática", "sinal", "símbolo de divisão", "÷"],
+            keywords: &[
+                "dividir",
+                "divisão",
+                "matemática",
+                "sinal",
+                "sinal de divisão",
+                "sinal de divisão grande",
+                "símbolo de divisão",
+                "÷",
+            ],
         },
         #[cfg(feature = "pt_PT")]
         crate::Annotation {
@@ -3643,11 +4382,23 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             tts: Some("divisão"),
             keywords: &["divisão", "matemática", "sinal de divisão", "÷"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("rakiy"),
+            keywords: &["matematicas", "rakina", "rakiy", "unancha", "÷"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("împărțire"),
-            keywords: &["matematică", "semn", "împărțire", "÷"],
+            keywords: &[
+                "matematică",
+                "semn",
+                "semnul împărțirii îngroșat",
+                "împărțire",
+                "÷",
+            ],
         },
         #[cfg(feature = "root")]
         crate::Annotation {
@@ -3659,7 +4410,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ru",
             tts: Some("знак деления"),
-            keywords: &["деление", "знак деления", "значок", "значок деления"],
+            keywords: &["деление", "деления", "делить", "знак", "разделить"],
         },
         #[cfg(feature = "rw")]
         crate::Annotation {
@@ -3687,6 +4438,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
                 "delenie",
                 "deleno",
                 "deliť",
+                "hrubý znak delenia",
                 "matematika",
                 "znak",
                 "znak delenia",
@@ -3713,7 +4465,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "calaamad",
                 "calaamadda isu qaybinta",
-                "isu qaybin",
+                "kala qaybinta",
                 "qaybi",
                 "xisaab",
                 "÷",
@@ -3723,51 +4475,63 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sq",
             tts: Some("shenja e pjesëtimit e trashë"),
-            keywords: &["matematikë", "ndarje", "shenja e pjesëtimit e trashë"],
+            keywords: &[
+                "matematikë",
+                "ndarje",
+                "pjesëtim",
+                "shenja e pjesëtimit e trashë",
+            ],
         },
         #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("црни знак за дељење"),
-            keywords: &[
-                "÷",
-                "дeљeњe",
-                "дели",
-                "знак",
-                "мaтeмaтикa",
-                "црни знак за дељење",
-            ],
+            keywords: &["÷", "дeљeњe", "дели", "знак", "мaтeмaтикa"],
         },
         #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("црни знак за дијељење"),
-            keywords: &["црни знак за дијељење"],
+            keywords: &[
+                "÷",
+                "дијeљeњe",
+                "дијели",
+                "знак",
+                "мaтeмaтикa",
+                "црни знак за дијељење",
+            ],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("crni znak za deljenje"),
-            keywords: &[
-                "crni znak za deljenje",
-                "deli",
-                "deljenje",
-                "matematika",
-                "znak",
-                "÷",
-            ],
+            keywords: &["deli", "deljenje", "matematika", "znak", "÷"],
         },
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("crni znak za dijeljenje"),
-            keywords: &["crni znak za dijeljenje"],
+            keywords: &[
+                "crni znak za dijeljenje",
+                "dijeli",
+                "dijeljenje",
+                "matematika",
+                "znak",
+                "÷",
+            ],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("dividera"),
-            keywords: &["dividera", "division", "matte", "tecken", "÷"],
+            keywords: &[
+                "dividera",
+                "division",
+                "divisionstecken",
+                "matte",
+                "tecken",
+                "÷",
+            ],
         },
         #[cfg(feature = "sw")]
         crate::Annotation {
@@ -3794,9 +4558,12 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             tts: Some("வகுத\u{bcd}தற\u{bcd}குறி"),
             keywords: &[
                 "கணக\u{bcd}கு",
+                "கணிதம\u{bcd}",
                 "குறிய\u{bc0}டு",
+                "வகு",
                 "வகுத\u{bcd}தற\u{bcd}குறி",
                 "வகுத\u{bcd}தல\u{bcd}",
+                "வகுத\u{bcd}தல\u{bcd} குறி",
             ],
         },
         #[cfg(feature = "te")]
@@ -3806,8 +4573,11 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             keywords: &[
                 "÷",
                 "చ\u{c3f}హ\u{c4d}నం",
+                "డ\u{c3f}వ\u{c3f}జన\u{c4d}",
                 "భ\u{c3e}గహ\u{c3e}రం",
                 "భ\u{c3e}గ\u{c3e}హ\u{c3e}రం",
+                "భ\u{c3e}ర\u{c40} భ\u{c3e}గహ\u{c3e}ర చ\u{c3f}హ\u{c4d}నం",
+                "మ\u{c4d}య\u{c3e}థ\u{c4d}",
                 "ల\u{c46}క\u{c4d}క",
             ],
         },
@@ -3821,7 +4591,13 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "th",
             tts: Some("หาร"),
-            keywords: &["÷", "คณ\u{e34}ต", "หาร", "เคร\u{e37}\u{e48}องหมาย"],
+            keywords: &[
+                "÷",
+                "คณ\u{e34}ต",
+                "หาร",
+                "เคร\u{e37}\u{e48}องหมาย",
+                "เคร\u{e37}\u{e48}องหมายหาร",
+            ],
         },
         #[cfg(feature = "ti")]
         crate::Annotation {
@@ -3838,14 +4614,21 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
-            tts: Some("fakaʻilonga vahevahe mamafa"),
-            keywords: &["fakaʻilonga", "fakaʻilonga vahevahe mamafa", "vahevahe"],
+            tts: Some("vahevahe mamafa"),
+            keywords: &["fakaʻilonga", "vahevahe", "vahevahe mamafa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("bölü işareti"),
-            keywords: &["bölü", "bölü işareti", "işaret", "matematik", "÷"],
+            keywords: &[
+                "bölü",
+                "bölü işareti",
+                "işaret",
+                "koyu renk bölü işareti",
+                "matematik",
+                "÷",
+            ],
         },
         #[cfg(feature = "ug")]
         crate::Annotation {
@@ -3857,13 +4640,21 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "uk",
             tts: Some("ділення"),
-            keywords: &["÷", "ділення", "знак", "математичний"],
+            keywords: &["÷", "ділення", "знак", "математика", "математичний"],
         },
         #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("تقسیم"),
-            keywords: &["÷", "تقسیم", "تقسیم کرنا", "ریاضی", "علامت"],
+            keywords: &[
+                "÷",
+                "بھاری تقسیم کا نشان",
+                "تقسیم",
+                "تقسیم کرنا",
+                "ریاضی",
+                "علامت",
+                "گنتی",
+            ],
         },
         #[cfg(feature = "uz")]
         crate::Annotation {
@@ -3902,6 +4693,12 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             tts: Some("aami gige nla"),
             keywords: &["aami gige nla", "ìpín", "ẹ\u{300}kọ\u{301} ìsirò"],
         },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("aami gige nla"),
+            keywords: &["aami gige nla", "ìpín", "ɛ\u{300}kɔ\u{301} ìsirò"],
+        },
         #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
@@ -3930,7 +4727,7 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
-            keywords: &["↑↑↑"],
+            keywords: &["/", "數學", "符號", "除號", "黑色"],
         },
         #[cfg(feature = "zu")]
         crate::Annotation {
@@ -3983,13 +4780,7 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "af",
             tts: Some("oneindigheid"),
-            keywords: &[
-                "altyd",
-                "oneindig",
-                "oneindigheid",
-                "universeel",
-                "vir ewig",
-            ],
+            keywords: &["oneindigheid", "ongebonde", "universeel", "vir ewig"],
         },
         #[cfg(feature = "am")]
         crate::Annotation {
@@ -4099,6 +4890,12 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             tts: Some("Unendlichkeit"),
             keywords: &["Unendlichkeit", "ewig", "grenzenlos", "unendlich"],
         },
+        #[cfg(feature = "de_CH")]
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
         #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
@@ -4150,13 +4947,13 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
-            tts: Some("infinito"),
+            tts: Some("↑↑↑"),
             keywords: &["eterno", "ilimitado", "infinito", "universal"],
         },
         #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
-            tts: Some("infinito"),
+            tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
         #[cfg(feature = "et")]
@@ -4242,13 +5039,25 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "gl",
             tts: Some("infinito"),
-            keywords: &["eterno", "ilimitado", "infinito", "símbolo", "universal"],
+            keywords: &["eterno", "ilimitado", "símbolo", "universal"],
         },
         #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("અસીમ"),
             keywords: &["અમર", "અસીમ", "કાયમ", "સાર\u{acd}વત\u{acd}રિક"],
+        },
+        #[cfg(feature = "ha")]
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("rashin iyaka"),
+            keywords: &["duniya", "har abada", "mara iyaka", "rashin iyaka"],
+        },
+        #[cfg(feature = "ha_NE")]
+        crate::Annotation {
+            lang: "ha_NE",
+            tts: Some("rashin iyaka"),
+            keywords: &["duniya", "har abada", "mara iyaka", "rashin iyaka"],
         },
         #[cfg(feature = "he")]
         crate::Annotation {
@@ -4286,6 +5095,12 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             tts: Some("tak terhingga"),
             keywords: &["selamanya", "tak terbatas", "tak terhingga", "universal"],
         },
+        #[cfg(feature = "ig")]
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ebiyebi"),
+            keywords: &["ebiyebi"],
+        },
         #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
@@ -4321,6 +5136,12 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             lang: "ka",
             tts: Some("უსასრულობა"),
             keywords: &["სამუდამოდ", "უნივერსალური", "უსასრულობა"],
+        },
+        #[cfg(feature = "kab")]
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("war talast"),
+            keywords: &["war talast"],
         },
         #[cfg(feature = "kk")]
         crate::Annotation {
@@ -4443,18 +5264,6 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
                 "အနန\u{103a}တ",
             ],
         },
-        #[cfg(feature = "nb")]
-        crate::Annotation {
-            lang: "nb",
-            tts: Some("uendelig"),
-            keywords: &[
-                "for alltid",
-                "grenseløs",
-                "uendelig",
-                "universal",
-                "universell",
-            ],
-        },
         #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
@@ -4538,6 +5347,12 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "qu")]
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("wiñaypaq wiñaynin"),
+            keywords: &["lliw", "mana tukusqa", "wiñaypaq", "wiñaypaq wiñaynin"],
+        },
         #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
@@ -4612,7 +5427,7 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
-            keywords: &["бесконачност"],
+            keywords: &["безгранично", "бесконачност", "вјечно", "универзално"],
         },
         #[cfg(feature = "sr_Latn")]
         crate::Annotation {
@@ -4623,8 +5438,8 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
-            tts: None,
-            keywords: &["beskonačnost"],
+            tts: Some("↑↑↑"),
+            keywords: &["beskonačnost", "bezgranično", "univerzalno", "vječno"],
         },
         #[cfg(feature = "sv")]
         crate::Annotation {
@@ -4681,7 +5496,7 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         crate::Annotation {
             lang: "ti",
             tts: Some("ደረት ኣልቦነት"),
-            keywords: &["ዓለም-ለኻዊ", "ደረት ኣልቦነት"],
+            keywords: &["መወዳእታ ዘይብሉ", "ንዘልኣለም", "ኣድማሳዊ", "ደረት ኣልቦ"],
         },
         #[cfg(feature = "tk")]
         crate::Annotation {
@@ -4692,8 +5507,8 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
-            tts: Some("fakaʻilonga taʻengata mamafa"),
-            keywords: &["fakaʻilonga", "fakaʻilonga taʻengata mamafa", "taʻengata"],
+            tts: Some("taʻengata mamafa"),
+            keywords: &["fakaʻilonga", "taʻengata", "taʻengata mamafa"],
         },
         #[cfg(feature = "tr")]
         crate::Annotation {
@@ -4707,8 +5522,7 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             tts: Some("нескінченність"),
             keywords: &[
                 "безкінечність",
-                "безкінченність",
-                "вісімка",
+                "горизонтальна вісімка",
                 "нескінченність",
                 "універсальність",
             ],
@@ -4722,7 +5536,7 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
-            tts: Some("cheksizilik"),
+            tts: Some("cheksizlik"),
             keywords: &[
                 "abadiy",
                 "cheksizilik",
@@ -4737,6 +5551,18 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             lang: "vi",
             tts: Some("vô cực"),
             keywords: &["mãi mãi", "toàn cầu", "vô cực", "vô tận"],
+        },
+        #[cfg(feature = "yo")]
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ailopin"),
+            keywords: &["ailopin", "gbogboogbò", "títí"],
+        },
+        #[cfg(feature = "yo_BJ")]
+        crate::Annotation {
+            lang: "yo_BJ",
+            tts: Some("ailopin"),
+            keywords: &["ailopin", "gbogboogbò", "títí"],
         },
         #[cfg(feature = "yue")]
         crate::Annotation {
