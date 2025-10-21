@@ -24,6 +24,57 @@ pub struct Version {
     pub patch: u8,
 }
 
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum VersionParseError {
+    WrongPartCount,
+    InvalidNumber(ParseIntError),
+}
+
+impl std::fmt::Display for VersionParseError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            VersionParseError::WrongPartCount => {
+                write!(f, "expected exactly three dot-separated parts (e.g. 1.2.3)")
+            }
+            VersionParseError::InvalidNumber(e) => write!(f, "invalid number: {}", e),
+        }
+    }
+}
+
+impl std::error::Error for VersionParseError {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        match self {
+            VersionParseError::InvalidNumber(e) => Some(e),
+            _ => None,
+        }
+    }
+}
+
+impl FromStr for Version {
+    type Err = VersionParseError;
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        let parts: Vec<&str> = s.trim().split('.').collect();
+        if parts.len() != 3 {
+            return Err(VersionParseError::WrongPartCount);
+        }
+
+        let parse_u8 = |p: &str| -> Result<u8, VersionParseError> {
+            p.parse::<u8>().map_err(VersionParseError::InvalidNumber)
+        };
+
+        let major = parse_u8(parts[0])?;
+        let minor = parse_u8(parts[1])?;
+        let patch = parse_u8(parts[2])?;
+
+        Ok(Version {
+            major,
+            minor,
+            patch,
+        })
+    }
+}
+
 impl Emoji {
     pub fn new(
         line: &str,
