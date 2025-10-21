@@ -33,7 +33,7 @@ impl<'a> ToTokens for GlyphLookupEntry<'a> {
             Span::call_site(),
         );
         (quote! {
-        #glyph => crate::#group::#subgroup::#name
+        #glyph => &crate::#group::#subgroup::#name
         })
         .to_tokens(tokens);
     }
@@ -68,7 +68,7 @@ impl<'a> ToTokens for NameLookupEntry<'a> {
         );
         let namestr = &self.name;
         (quote! {
-        #namestr => crate::#group::#subgroup::#name
+        #namestr => &crate::#group::#subgroup::#name
         })
         .to_tokens(tokens);
     }
