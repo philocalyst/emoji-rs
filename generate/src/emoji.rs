@@ -2,7 +2,6 @@ use crate::sanitize;
 use itertools::Itertools;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
-use semver::Version;
 use std::collections::HashMap;
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Emoji {
@@ -17,6 +16,14 @@ pub struct Emoji {
     pub group: String,
     pub subgroup: String,
 }
+
+#[derive(Debug, Hash, PartialEq, Eq, Clone)]
+pub struct Version {
+    pub major: u8,
+    pub minor: u8,
+    pub patch: u8,
+}
+
 impl Emoji {
     pub fn new(
         line: &str,
@@ -101,10 +108,6 @@ impl Emoji {
         let minor = self.introduction_version.minor;
         let patch = self.introduction_version.patch;
 
-        // Ignoring these fields so not a complete "conversion"
-        let pre = quote! { semver::Prerelease::EMPTY };
-        let build = quote! { semver::BuildMetadata::EMPTY };
-
         let variants: Vec<TokenStream> =
             self.variants.iter().map(|e| e.tokens_internal()).collect();
         let annotations = &self.annotations;
@@ -116,12 +119,10 @@ impl Emoji {
         glyph: #glyph,
         codepoint: #codepoint,
         status: crate::Status::#status,
-        introduction_version: semver::Version {
+        introduction_version: Version {
             major: #major,
             minor: #minor,
             patch: #patch,
-            pre: #pre,
-            build: #build,
             },
         name: #name,
         group: #group,

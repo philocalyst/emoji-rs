@@ -55,6 +55,13 @@ impl std::fmt::Display for Status {
     }
 }
 
+#[derive(Debug, Hash, PartialEq, Eq, Clone)]
+pub struct Version {
+    pub major: u8,
+    pub minor: u8,
+    pub patch: u8,
+}
+
 /// Contains all information about an emoji  
 /// See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
@@ -68,7 +75,7 @@ pub struct Emoji {
     /// Ex: 😺
     pub glyph: &'static str,
     /// The Unicode release version which this emoji was introduced in
-    pub introduction_version: semver::Version,
+    pub introduction_version: Version,
     /// English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)
     /// (canonical) name of this emoji  
     /// Ex: `grinning cat`
