@@ -3,12 +3,10 @@ pub const FROG: crate::Emoji = crate::Emoji {
     glyph: "🐸",
     codepoint: "1F438",
     status: crate::Status::FullyQualified,
-    introduction_version: semver::Version {
-        major: 0u64,
-        minor: 6u64,
-        patch: 0u64,
-        pre: semver::Prerelease::EMPTY,
-        build: semver::BuildMetadata::EMPTY,
+    introduction_version: crate::Version {
+        major: 0u8,
+        minor: 6u8,
+        patch: 0u8,
     },
     name: "frog",
     group: "Animals & Nature",
