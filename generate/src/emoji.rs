@@ -3,6 +3,9 @@ use itertools::Itertools;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
 use std::collections::HashMap;
+use std::num::ParseIntError;
+use std::str::FromStr;
+
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Emoji {
     pub codepoint: String,
@@ -170,7 +173,7 @@ impl Emoji {
         glyph: #glyph,
         codepoint: #codepoint,
         status: crate::Status::#status,
-        introduction_version: Version {
+        introduction_version: crate::Version {
             major: #major,
             minor: #minor,
             patch: #patch,
