@@ -7,6 +7,48 @@ use std::num::ParseIntError;
 use std::str::FromStr;
 
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
+pub enum SkinTone {
+    Default,
+    Light,
+    MediumLight,
+    Medium,
+    MediumDark,
+    Dark,
+}
+
+impl SkinTone {
+    pub fn from_codepoint(cp: &[u32]) -> Self {
+        if cp.contains(&0x1F3FB) {
+            return SkinTone::Light;
+        }
+        if cp.contains(&0x1F3FC) {
+            return SkinTone::MediumLight;
+        }
+        if cp.contains(&0x1F3FD) {
+            return SkinTone::Medium;
+        }
+        if cp.contains(&0x1F3FE) {
+            return SkinTone::MediumDark;
+        }
+        if cp.contains(&0x1F3FF) {
+            return SkinTone::Dark;
+        }
+        SkinTone::Default
+    }
+
+    pub fn as_token(&self) -> TokenStream {
+        match self {
+            SkinTone::Default => quote!(crate::SkinTone::Default),
+            SkinTone::Light => quote!(crate::SkinTone::Light),
+            SkinTone::MediumLight => quote!(crate::SkinTone::MediumLight),
+            SkinTone::Medium => quote!(crate::SkinTone::Medium),
+            SkinTone::MediumDark => quote!(crate::SkinTone::MediumDark),
+            SkinTone::Dark => quote!(crate::SkinTone::Dark),
+        }
+    }
+}
+
+#[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Emoji {
     pub codepoint: String,
     pub status: Status,
