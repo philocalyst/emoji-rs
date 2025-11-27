@@ -10,22 +10,22 @@ pub fn contains_glyph(glyph: &str) -> bool {
 
 /// Get the [Emoji](../struct.Emoji.html) associated with this glyph
 pub fn lookup(glyph: &str) -> Option<&'static crate::Emoji> {
-    GLYPH_LOOKUP_MAP.get(glyph)
+    GLYPH_LOOKUP_MAP.get(glyph).map(|v| &**v)
 }
 
 /// An iterator over every glyph->[Emoji](../struct.Emoji.html) pair  
 /// Includes variants
-pub fn iter_glyph_emoji() -> phf::map::Entries<'static, &'static str, crate::Emoji> {
-    GLYPH_LOOKUP_MAP.entries()   
+pub fn iter_glyph_emoji() -> phf::map::Entries<'static, &'static str, &'static crate::Emoji> {
+    GLYPH_LOOKUP_MAP.entries()
 }
 
 /// An iterator over every glyph
-pub fn iter_glyph() -> phf::map::Keys<'static, &'static str, crate::Emoji> {
+pub fn iter_glyph() -> phf::map::Keys<'static, &'static str, &'static crate::Emoji> {
     GLYPH_LOOKUP_MAP.keys()
 }
 
 /// An iterator over every [Emoji](../struct.Emoji.html)  
 /// Includes variants
-pub fn iter_emoji() -> phf::map::Values<'static, &'static str, crate::Emoji> {
+pub fn iter_emoji() -> phf::map::Values<'static, &'static str, &'static crate::Emoji> {
     GLYPH_LOOKUP_MAP.values()
 }

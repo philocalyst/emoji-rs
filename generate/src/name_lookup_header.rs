@@ -10,22 +10,22 @@ pub fn contains_name(name: &str) -> bool {
 
 /// Get the [Emoji](../struct.Emoji.html) associated with this name
 pub fn lookup(name: &str) -> Option<&'static crate::Emoji> {
-    NAME_LOOKUP_MAP.get(name)
+    NAME_LOOKUP_MAP.get(name).map(|v| &**v)
 }
 
 /// An iterator over every name->[Emoji](../struct.Emoji.html) pair  
 /// Does not include variants
-pub fn iter_name_emoji() -> phf::map::Entries<'static, &'static str, crate::Emoji> {
-    NAME_LOOKUP_MAP.entries()   
+pub fn iter_name_emoji() -> phf::map::Entries<'static, &'static str, &'static crate::Emoji> {
+    NAME_LOOKUP_MAP.entries()
 }
 
 /// An iterator over every name
-pub fn iter_name() -> phf::map::Keys<'static, &'static str, crate::Emoji> {
+pub fn iter_name() -> phf::map::Keys<'static, &'static str, &'static crate::Emoji> {
     NAME_LOOKUP_MAP.keys()
 }
 
 /// An iterator over every [Emoji](../struct.Emoji.html)  
 /// Does not include variants
-pub fn iter_emoji() -> phf::map::Values<'static, &'static str, crate::Emoji> {
+pub fn iter_emoji() -> phf::map::Values<'static, &'static str, &'static crate::Emoji> {
     NAME_LOOKUP_MAP.values()
 }
