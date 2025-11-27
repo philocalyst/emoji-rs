@@ -170,7 +170,8 @@ async fn main() -> Result<(), reqwest::Error> {
 
     println!("Annotation processing done. Compiling into emoji list");
 
-    let (date, version, groups) = vectorize_test_data(&client, &annotations).await?;
+    let (date, version, groups, group_map, subgroup_maps) =
+        vectorize_test_data(&client, &annotations).await?;
 
     println!("Generating lookup tables.");
     lookup_by_glyph::dump(&groups);
@@ -178,7 +179,14 @@ async fn main() -> Result<(), reqwest::Error> {
     search::dump();
 
     println!("Dumping emoji library.");
-    gen_lib::dump(&groups, &annotation_langs, version, date);
+    gen_lib::dump(
+        &groups,
+        &group_map,
+        &subgroup_maps,
+        &annotation_langs,
+        version,
+        date,
+    );
 
     Ok(())
 }
