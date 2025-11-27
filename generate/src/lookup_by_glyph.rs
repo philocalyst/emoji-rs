@@ -17,6 +17,7 @@ pub fn dump(groups: &Vec<Group>) {
                     &e.group,
                     &e.subgroup,
                     &e.name,
+                    !e.skin_tones.is_empty(),
                 ));
                 for v in &e.variants {
                     lookup_by_glyph.push(GlyphLookupEntry::new(
@@ -24,6 +25,7 @@ pub fn dump(groups: &Vec<Group>) {
                         &v.group,
                         &v.subgroup,
                         &v.name,
+                        !v.skin_tones.is_empty(),
                     ));
                 }
             }

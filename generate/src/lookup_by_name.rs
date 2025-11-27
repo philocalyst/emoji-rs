@@ -12,7 +12,12 @@ pub fn dump(groups: &Vec<Group>) {
     for g in groups {
         for s in &g.subgroups {
             for e in &s.emojis {
-                lookup_by_name.push(NameLookupEntry::new(&e.group, &e.subgroup, &e.name));
+                lookup_by_name.push(NameLookupEntry::new(
+                    &e.group,
+                    &e.subgroup,
+                    &e.name,
+                    !e.skin_tones.is_empty(),
+                ));
             }
         }
     }
