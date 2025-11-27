@@ -10,20 +10,37 @@ pub fn dump(groups: &Vec<Group>) {
 	for g in groups {
 		for s in &g.subgroups {
 			for e in &s.emojis {
+				let is_toned = !e.skin_tones.is_empty();
+
+				// 1. Add entry for the base glyph
 				lookup_by_glyph.push(GlyphLookupEntry::new(
 					&e.glyph,
 					&e.group,
 					&e.subgroup,
 					&e.name,
-					!e.skin_tones.is_empty(),
+					is_toned,
 				));
+
+				// 2. Add entries for standard variants (e.g. gender)
 				for v in &e.variants {
 					lookup_by_glyph.push(GlyphLookupEntry::new(
 						&v.glyph,
-						&v.group,
-						&v.subgroup,
-						&v.name,
-						!v.skin_tones.is_empty(),
+						&e.group,    // Use Parent Group
+						&e.subgroup, // Use Parent Subgroup
+						&e.name,     // Use Parent Name (Constant)
+						is_toned,
+					));
+				}
+
+				// 3. Add entries for Skin Tone variants
+				// We map these glyphs to the Parent Toned Constant
+				for t in &e.skin_tones {
+					lookup_by_glyph.push(GlyphLookupEntry::new(
+						&t.glyph,
+						&e.group,
+						&e.subgroup,
+						&e.name, // Point to the Parent Constant
+						is_toned,
 					));
 				}
 			}
@@ -36,10 +53,10 @@ pub fn dump(groups: &Vec<Group>) {
 	let ts: TokenStream = fs.parse().unwrap();
 
 	let dump = quote! {
-	#ts
-	static GLYPH_LOOKUP_MAP: phf::Map<&'static str, &'static crate::Emoji> = phf::phf_map! {
-			#(#lookup_by_glyph),*
-	};
+			#ts
+			static GLYPH_LOOKUP_MAP: phf::Map<&'static str, crate::EmojiEntry> = phf::phf_map! {
+					#(#lookup_by_glyph),*
+			};
 	};
 
 	let path = "emoji/src/lookup_by_glyph.rs";

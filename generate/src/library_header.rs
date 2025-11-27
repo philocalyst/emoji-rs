@@ -1,5 +1,5 @@
 //! ## Introduction  
-//! 3511 emojis and 4580 emoji variants with localization data in 143 languages  
+//! 3511 emojis and 4580 emoji variants with localization data in 143 languages
 //! This crate contains a huge amount of data about every emoji ever.
 //! Some of the data includes:
 //! - Name
@@ -21,127 +21,155 @@
 //! See more examples [here](https://github.com/Shizcow/emoji-rs/tree/master/examples/).
 //! ## Languages  
 //! By default, only English annotations are compiled in.
-//! To enable other languages, use the feature corresponding to that languge. An exhaustive
-//! list of supported languages can be found
+//! To enable other languages, use the feature corresponding to that languge. An
+//! exhaustive list of supported languages can be found
 //! [here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml).
 
 /// Emoji status qualifier  
-/// In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants.
-/// A complete tool needs only to support all of the FullyQualified emojis.
+/// In nearly every case, MinimallyQualified or Unqualified will show up in
+/// emoji variants. A complete tool needs only to support all of the
+/// FullyQualified emojis.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub enum Status {
-    /// A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category.
-    FullyQualified,
-    /// An emoji sequence in which the first character is qualified but the sequence is not fully qualified.
-    MinimallyQualified,
-    /// An emoji that is neither fully-qualified nor minimally qualified.
-    Unqualified,
-    /// Used for modifiers, such as skin tone modifiers.
-    Component,
+	/// A qualified emoji character, or an emoji sequence in which each emoji
+	/// character is qualified. Most emojis fall into this category.
+	FullyQualified,
+	/// An emoji sequence in which the first character is qualified but the
+	/// sequence is not fully qualified.
+	MinimallyQualified,
+	/// An emoji that is neither fully-qualified nor minimally qualified.
+	Unqualified,
+	/// Used for modifiers, such as skin tone modifiers.
+	Component,
 }
 impl std::fmt::Display for Status {
-    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-        use Status::*;
-        write!(
-            f,
-            "{}",
-            match self {
-                Component => "Component",
-                FullyQualified => "FullyQualified",
-                MinimallyQualified => "MinimallyQualified",
-                Unqualified => "Unqualified",
-            }
-        )
-    }
+	fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+		use Status::*;
+		write!(f, "{}", match self {
+			Component => "Component",
+			FullyQualified => "FullyQualified",
+			MinimallyQualified => "MinimallyQualified",
+			Unqualified => "Unqualified",
+		})
+	}
 }
 
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Version {
-    pub major: u8,
-    pub minor: u8,
-    pub patch: u8,
+	pub major: u8,
+	pub minor: u8,
+	pub patch: u8,
 }
 
 /// Represents the skin tone of an emoji.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum SkinTone {
-    Default,
-    Light,
-    MediumLight,
-    Medium,
-    MediumDark,
-    Dark,
+	Default,
+	Light,
+	MediumLight,
+	Medium,
+	MediumDark,
+	Dark,
+}
+
+/// The result of a lookup operation.
+/// Distinguishes between an emoji that has skin tones available (Toned)
+/// and one that does not (Standard).
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum EmojiEntry {
+	/// An emoji that has no skin tone variants (e.g. 😺).
+	Standard(&'static Emoji),
+	/// An emoji that has skin tone variants.
+	/// Contains the base emoji and the list of toned variants.
+	Toned(&'static Toned),
+}
+
+impl EmojiEntry {
+	/// Helper to access the base emoji data regardless of type.
+	pub fn emoji(&self) -> &'static Emoji {
+		match self {
+			EmojiEntry::Standard(e) => e,
+			EmojiEntry::Toned(t) => &t.emoji,
+		}
+	}
+
+	/// Returns the variants (skin tones) if they exist.
+	pub fn tones(&self) -> Option<&'static [Emoji]> {
+		match self {
+			EmojiEntry::Standard(_) => None,
+			EmojiEntry::Toned(t) => Some(t.tones),
+		}
+	}
 }
 
 /// A wrapper around an Emoji that has skin tone variants.
 /// Dereferences to the base Emoji.
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Toned {
-    pub emoji: Emoji,
-    pub tones: &'static [Emoji],
+	pub emoji: Emoji,
+	pub tones: &'static [Emoji],
 }
 
 use std::ops::Deref;
 
 impl Deref for Toned {
-    type Target = Emoji;
-    fn deref(&self) -> &Self::Target {
-        &self.emoji
-    }
+	type Target = Emoji;
+
+	fn deref(&self) -> &Self::Target { &self.emoji }
 }
 
 impl Toned {
-    /// Returns all skin tone variants for this emoji
-    pub fn tones(&self) -> &'static [Emoji] {
-        self.tones
-    }
+	/// Returns all skin tone variants for this emoji
+	pub fn tones(&self) -> &'static [Emoji] { self.tones }
 }
 
 /// Contains all information about an emoji  
 /// See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Emoji {
-    /// The u32 array representation of this emoji's UTF8 codepoint value  
-    /// Ex: `1F441 200D 1F5E8 FE0F`
-    pub codepoint: &'static [u32],
-    /// Qualification status
-    pub status: Status,
-    /// The actual emoji text  
-    /// Ex: 😺
-    pub glyph: &'static str,
-    /// The Unicode release version which this emoji was introduced in
-    pub introduction_version: Version,
-    /// English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)
-    /// (canonical) name of this emoji  
-    /// Ex: `grinning cat`
-    pub name: &'static str,
-    /// General classification this emoji belongs to  
-    /// Ex: `Smileys & Emotion`
-    pub group: Group,
-    /// Specific classification this emoji belongs to  
-    /// Ex: `cat-face`
-    pub subgroup: Subgroup,
-    /// All variants of an emoji. If two emojis share the same name, one is a variant.
-    /// Variants are always less qualified than their parent. Parents can be found from a
-    /// variant via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)
-    pub variants: &'static [Emoji],
-    /// Is this emoji a variant?
-    pub is_variant: bool,
-    /// Localizatoin specific annotations
-    pub annotations: &'static [Annotation],
+	/// The u32 array representation of this emoji's UTF8 codepoint value  
+	/// Ex: `1F441 200D 1F5E8 FE0F`
+	pub codepoint:            &'static [u32],
+	/// Qualification status
+	pub status:               Status,
+	/// The actual emoji text  
+	/// Ex: 😺
+	pub glyph:                &'static str,
+	/// The Unicode release version which this emoji was introduced in
+	pub introduction_version: Version,
+	/// English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)
+	/// (canonical) name of this emoji  
+	/// Ex: `grinning cat`
+	pub name:                 &'static str,
+	/// General classification this emoji belongs to  
+	/// Ex: `Smileys & Emotion`
+	pub group:                Group,
+	/// Specific classification this emoji belongs to  
+	/// Ex: `cat-face`
+	pub subgroup:             Subgroup,
+	/// All variants of an emoji. If two emojis share the same name, one is a
+	/// variant. Variants are always less qualified than their parent. Parents
+	/// can be found from a variant via
+	/// [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)
+	pub variants:             &'static [Emoji],
+	/// Is this emoji a variant?
+	pub is_variant:           bool,
+	/// Localizatoin specific annotations
+	pub annotations:          &'static [Annotation],
 }
 
 /// Annotation meta-data for each emoji
 #[derive(Debug, PartialEq, Clone, Eq, Hash)]
 pub struct Annotation {
-    /// Language code of the associated data. Guarenteed to be found in
-    /// [ANNOTATION_LANGS_AVAILABLE](constant.ANNOTATION_LANGS_AVAILABLE.html)
-    pub lang: &'static str,
-    /// Localized name for an emoji  
-    /// Ex: `fried shrimp`
-    pub tts: Option<&'static str>,
-    /// Keywords associated with an emoji, in the localized language  
-    /// Ex: `["fried shrimp", "shrimp", "prawn"]`
-    pub keywords: &'static [&'static str],
+	/// Language code of the associated data. Guarenteed to be found in
+	/// [ANNOTATION_LANGS_AVAILABLE](constant.ANNOTATION_LANGS_AVAILABLE.html)
+	pub lang:     &'static str,
+	/// Localized name for an emoji  
+	/// Ex: `fried shrimp`
+	pub tts:      Option<&'static str>,
+	/// Keywords associated with an emoji, in the localized language  
+	/// Ex: `["fried shrimp", "shrimp", "prawn"]`
+	pub keywords: &'static [&'static str],
 }
 
 /// Defines functions for searching through and iterating over emojis by glyph  

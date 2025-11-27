@@ -26,10 +26,10 @@ pub fn dump(groups: &Vec<Group>) {
 	let ts: TokenStream = fs.parse().unwrap();
 
 	let dump = quote! {
-	#ts
-	static NAME_LOOKUP_MAP: phf::Map<&'static str, &'static crate::Emoji> = phf::phf_map! {
+		#ts
+		static NAME_LOOKUP_MAP: phf::Map<&'static str, crate::EmojiEntry> = phf::phf_map! {
 			#(#lookup_by_name),*
-	};
+		};
 	};
 
 	let path = "emoji/src/lookup_by_name.rs";

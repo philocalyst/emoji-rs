@@ -1,5 +1,5 @@
 #![doc = " ## Introduction  "]
-#![doc = " 3511 emojis and 4580 emoji variants with localization data in 143 languages  "]
+#![doc = " 3511 emojis and 4580 emoji variants with localization data in 143 languages"]
 #![doc = " This crate contains a huge amount of data about every emoji ever."]
 #![doc = " Some of the data includes:"]
 #![doc = " - Name"]
@@ -21,17 +21,20 @@
 #![doc = " See more examples [here](https://github.com/Shizcow/emoji-rs/tree/master/examples/)."]
 #![doc = " ## Languages  "]
 #![doc = " By default, only English annotations are compiled in."]
-#![doc = " To enable other languages, use the feature corresponding to that languge. An exhaustive"]
-#![doc = " list of supported languages can be found"]
+#![doc = " To enable other languages, use the feature corresponding to that languge. An"]
+#![doc = " exhaustive list of supported languages can be found"]
 #![doc = " [here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml)."]
 #[doc = " Emoji status qualifier  "]
-#[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants."]
-#[doc = " A complete tool needs only to support all of the FullyQualified emojis."]
+#[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in"]
+#[doc = " emoji variants. A complete tool needs only to support all of the"]
+#[doc = " FullyQualified emojis."]
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub enum Status {
-	#[doc = " A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category."]
+	#[doc = " A qualified emoji character, or an emoji sequence in which each emoji"]
+	#[doc = " character is qualified. Most emojis fall into this category."]
 	FullyQualified,
-	#[doc = " An emoji sequence in which the first character is qualified but the sequence is not fully qualified."]
+	#[doc = " An emoji sequence in which the first character is qualified but the"]
+	#[doc = " sequence is not fully qualified."]
 	MinimallyQualified,
 	#[doc = " An emoji that is neither fully-qualified nor minimally qualified."]
 	Unqualified,
@@ -65,8 +68,37 @@ pub enum SkinTone {
 	MediumDark,
 	Dark,
 }
+#[doc = " The result of a lookup operation."]
+#[doc = " Distinguishes between an emoji that has skin tones available (Toned)"]
+#[doc = " and one that does not (Standard)."]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum EmojiEntry {
+	#[doc = " An emoji that has no skin tone variants (e.g. 😺)."]
+	Standard(&'static Emoji),
+	#[doc = " An emoji that has skin tone variants."]
+	#[doc = " Contains the base emoji and the list of toned variants."]
+	Toned(&'static Toned),
+}
+impl EmojiEntry {
+	#[doc = " Helper to access the base emoji data regardless of type."]
+	pub fn emoji(&self) -> &'static Emoji {
+		match self {
+			EmojiEntry::Standard(e) => e,
+			EmojiEntry::Toned(t) => &t.emoji,
+		}
+	}
+
+	#[doc = " Returns the variants (skin tones) if they exist."]
+	pub fn tones(&self) -> Option<&'static [Emoji]> {
+		match self {
+			EmojiEntry::Standard(_) => None,
+			EmojiEntry::Toned(t) => Some(t.tones),
+		}
+	}
+}
 #[doc = " A wrapper around an Emoji that has skin tone variants."]
 #[doc = " Dereferences to the base Emoji."]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Toned {
 	pub emoji: Emoji,
 	pub tones: &'static [Emoji],
@@ -105,9 +137,10 @@ pub struct Emoji {
 	#[doc = " Specific classification this emoji belongs to  "]
 	#[doc = " Ex: `cat-face`"]
 	pub subgroup:             Subgroup,
-	#[doc = " All variants of an emoji. If two emojis share the same name, one is a variant."]
-	#[doc = " Variants are always less qualified than their parent. Parents can be found from a"]
-	#[doc = " variant via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
+	#[doc = " All variants of an emoji. If two emojis share the same name, one is a"]
+	#[doc = " variant. Variants are always less qualified than their parent. Parents"]
+	#[doc = " can be found from a variant via"]
+	#[doc = " [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
 	pub variants:             &'static [Emoji],
 	#[doc = " Is this emoji a variant?"]
 	pub is_variant:           bool,
@@ -138,119 +171,119 @@ pub mod lookup_by_name;
 pub mod search;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Group {
-	Activities,
-	Objects,
-	SmileysEmotion,
-	AnimalsNature,
-	FoodDrink,
+	TravelPlaces,
 	Flags,
-	Component,
 	Symbols,
 	PeopleBody,
-	TravelPlaces,
+	SmileysEmotion,
+	Component,
+	AnimalsNature,
+	Activities,
+	FoodDrink,
+	Objects,
 }
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Subgroup {
-	HandFingersOpen,
-	PersonResting,
-	PlaceReligious,
-	PlaceGeographic,
-	CatFace,
-	SkinTone,
-	SkyWeather,
-	Sound,
-	Office,
-	FaceUnwell,
-	Computer,
-	Alphanum,
-	CountryFlag,
-	AwardMedal,
-	Phone,
-	PlaceBuilding,
-	AnimalBug,
-	Music,
-	FoodAsian,
-	TransportWater,
-	TransportAir,
-	Hotel,
-	MusicalInstrument,
-	AnimalBird,
-	FaceHand,
-	OtherSymbol,
-	PersonGesture,
-	FaceAffection,
-	Heart,
-	PlaceMap,
-	Tool,
-	TransportSign,
-	AnimalReptile,
-	PersonSport,
-	Family,
-	HandSingleFinger,
-	AnimalAmphibian,
-	Clothing,
-	Money,
-	OtherObject,
-	Punctuation,
-	PersonRole,
-	PersonFantasy,
-	Dishware,
-	Drink,
-	AnimalMarine,
-	Event,
-	BookPaper,
-	Science,
-	Medical,
-	Household,
-	Warning,
-	AnimalMammal,
-	HandFingersPartial,
-	FoodSweet,
-	Emotion,
-	FaceNeutralSkeptical,
-	BodyParts,
-	LightVideo,
-	Math,
-	PlaceOther,
-	Arrow,
-	Flag,
-	TransportGround,
-	PersonSymbol,
-	FoodVegetable,
-	Gender,
-	HandProp,
-	SubdivisionFlag,
-	HairStyle,
-	Person,
-	FaceNegative,
 	PlantFlower,
-	Sport,
-	Currency,
-	Time,
-	MonkeyFace,
-	Writing,
-	Hands,
-	PlantOther,
-	Keycap,
-	FaceSleepy,
-	FaceCostume,
-	FoodFruit,
-	Religion,
-	Mail,
-	Lock,
-	FaceGlasses,
-	AvSymbol,
-	Geometric,
-	Game,
-	ArtsCrafts,
-	FaceConcerned,
-	FaceTongue,
-	HandFingersClosed,
-	FoodPrepared,
-	FaceHat,
-	FaceSmiling,
-	PersonActivity,
+	OtherObject,
 	Zodiac,
+	FaceUnwell,
+	PlaceReligious,
+	AvSymbol,
+	Flag,
+	MusicalInstrument,
+	FaceNegative,
+	PersonFantasy,
+	FoodPrepared,
+	CatFace,
+	FoodSweet,
+	CountryFlag,
+	SubdivisionFlag,
+	FaceAffection,
+	FaceSleepy,
+	FoodFruit,
+	TransportSign,
+	Math,
+	PlaceMap,
+	OtherSymbol,
+	Alphanum,
+	Office,
+	Heart,
+	Keycap,
+	TransportGround,
+	Event,
+	Tool,
+	Science,
+	Person,
+	Game,
+	Drink,
+	FoodVegetable,
+	FoodAsian,
+	Punctuation,
+	TransportWater,
+	FaceHat,
+	Hands,
+	PlaceGeographic,
+	AnimalMammal,
+	AnimalReptile,
+	PlaceBuilding,
+	AnimalMarine,
+	FaceNeutralSkeptical,
+	Lock,
+	Household,
+	Emotion,
+	Mail,
+	PersonSport,
+	Time,
+	Dishware,
+	PersonSymbol,
+	Sound,
+	Warning,
+	TransportAir,
+	AnimalAmphibian,
+	FaceCostume,
+	FaceHand,
+	PersonRole,
+	Phone,
+	Computer,
+	FaceTongue,
+	SkinTone,
+	FaceSmiling,
+	HandProp,
+	FaceConcerned,
+	FaceGlasses,
+	PersonGesture,
+	PersonResting,
+	Hotel,
+	Clothing,
+	ArtsCrafts,
+	AnimalBird,
+	Money,
+	HandSingleFinger,
+	PersonActivity,
+	Family,
+	AwardMedal,
+	BookPaper,
+	HairStyle,
+	Writing,
+	HandFingersClosed,
+	MonkeyFace,
+	Arrow,
+	Currency,
+	Geometric,
+	BodyParts,
+	AnimalBug,
+	PlantOther,
+	Sport,
+	HandFingersOpen,
+	LightVideo,
+	Medical,
+	SkyWeather,
+	Music,
+	PlaceOther,
+	Religion,
+	Gender,
+	HandFingersPartial,
 }
 #[doc = r" All annotation languages"]
 pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
@@ -398,7 +431,7 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
 	"zu",
 ];
 pub const UNICODE_VERSION: f32 = 17f32;
-pub const UNICODE_RELEASE_TIME: &'static str = "2025-11-27T05:03:04.681436+00:00";
+pub const UNICODE_RELEASE_TIME: &'static str = "2025-11-27T17:10:23.192933+00:00";
 pub mod component {
 	pub mod hair_style;
 	pub mod other_object;

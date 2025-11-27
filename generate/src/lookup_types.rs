@@ -31,15 +31,13 @@ impl<'a> ToTokens for GlyphLookupEntry<'a> {
 		let name = Ident::new(&sanitize(&self.name.to_string()).to_uppercase(), Span::call_site());
 
 		if self.is_toned {
-			// Toned struct, access .emoji field
 			(quote! {
-					#glyph => &crate::#group::#subgroup::#name.emoji
+					#glyph => crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name)
 			})
 			.to_tokens(tokens);
 		} else {
-			// Standard Emoji struct
 			(quote! {
-					#glyph => &crate::#group::#subgroup::#name
+					#glyph => crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name)
 			})
 			.to_tokens(tokens);
 		}
@@ -71,15 +69,13 @@ impl<'a> ToTokens for NameLookupEntry<'a> {
 		let namestr = &self.name;
 
 		if self.is_toned {
-			// If it's a Toned struct, dereference to .emoji
 			(quote! {
-					#namestr => &crate::#group::#subgroup::#name_ident.emoji
+					#namestr => crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name_ident)
 			})
 			.to_tokens(tokens);
 		} else {
-			// Otherwise, it's a regular Emoji struct
 			(quote! {
-					#namestr => &crate::#group::#subgroup::#name_ident
+					#namestr => crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name_ident)
 			})
 			.to_tokens(tokens);
 		}
