@@ -50,16 +50,18 @@ impl SkinTone {
 
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
 pub struct Emoji {
-    pub codepoint: String,
+    pub codepoint: Vec<u32>, // Correct type
     pub status: Status,
     pub glyph: String,
     pub introduction_version: Version,
     pub name: String,
-    pub variants: Vec<Emoji>,
+    pub variants: Vec<Emoji>,   // Non-skin tone variants
+    pub skin_tones: Vec<Emoji>, // Skin tone variants
     pub annotations: Vec<Annotation>,
     pub is_variant: bool,
     pub group: String,
     pub subgroup: String,
+    pub tone_val: SkinTone, // Used internally, not exported in struct
 }
 
 #[derive(Debug, Hash, PartialEq, Eq, Clone)]
