@@ -120,6 +120,18 @@ impl FromStr for Version {
 }
 
 impl Emoji {
+	pub fn canonical_glyph(&self) -> String {
+		self
+			.glyph
+			.chars()
+			.filter(|c| {
+				let cp = *c as u32;
+				// Remove Variation Selectors (VS15 FE0E, VS16 FE0F)
+				cp != 0xfe0e && cp != 0xfe0f
+			})
+			.collect()
+	}
+
 	pub fn from_raw(
 		raw: &crate::vectorize_test_data::RawEmoji,
 		annotations_map: &HashMap<String, Vec<Annotation>>,

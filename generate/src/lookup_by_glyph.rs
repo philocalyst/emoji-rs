@@ -1,4 +1,4 @@
-use std::{fs::File, io::{Read, Write}, path::PathBuf, process::Command};
+use std::{collections::HashSet, fs::File, io::{Read, Write}, path::PathBuf, process::Command};
 
 use proc_macro2::TokenStream;
 use quote::quote;
@@ -7,41 +7,51 @@ use crate::{group_subgroup::Group, lookup_types::GlyphLookupEntry};
 
 pub fn dump(groups: &Vec<Group>) {
 	let mut lookup_by_glyph: Vec<GlyphLookupEntry> = vec![];
+	let mut seen: HashSet<String> = HashSet::new(); // Prevent duplicates
+
 	for g in groups {
 		for s in &g.subgroups {
 			for e in &s.emojis {
 				let is_toned = !e.skin_tones.is_empty();
 
-				// 1. Add entry for the base glyph
-				lookup_by_glyph.push(GlyphLookupEntry::new(
-					&e.glyph,
-					&e.group,
-					&e.subgroup,
-					&e.name,
-					is_toned,
-				));
+				// Helper to add entries without duplicates
+				let mut add_entry = |glyph: String| {
+					if seen.insert(glyph.clone()) {
+						lookup_by_glyph.push(GlyphLookupEntry::new(
+							glyph,
+							e.group.clone(),
+							e.subgroup.clone(),
+							e.name.clone(),
+							is_toned,
+						));
+					}
+				};
 
-				// 2. Add entries for standard variants (e.g. gender)
-				for v in &e.variants {
-					lookup_by_glyph.push(GlyphLookupEntry::new(
-						&v.glyph,
-						&e.group,    // Use Parent Group
-						&e.subgroup, // Use Parent Subgroup
-						&e.name,     // Use Parent Name (Constant)
-						is_toned,
-					));
+				// 1. Add the fully qualified form
+				add_entry(e.glyph.clone());
+
+				// 2. Add the canonical/base form (without variation selectors)
+				let canonical = e.canonical_glyph();
+				if canonical != e.glyph {
+					add_entry(canonical);
 				}
 
-				// 3. Add entries for Skin Tone variants
-				// We map these glyphs to the Parent Toned Constant
+				// 3. Handle standard variants (e.g., gender)
+				for v in &e.variants {
+					add_entry(v.glyph.clone());
+					let v_canonical = v.canonical_glyph();
+					if v_canonical != v.glyph {
+						add_entry(v_canonical);
+					}
+				}
+
+				// 4. Handle skin tone variants
 				for t in &e.skin_tones {
-					lookup_by_glyph.push(GlyphLookupEntry::new(
-						&t.glyph,
-						&e.group,
-						&e.subgroup,
-						&e.name, // Point to the Parent Constant
-						is_toned,
-					));
+					add_entry(t.glyph.clone());
+					let t_canonical = t.canonical_glyph();
+					if t_canonical != t.glyph {
+						add_entry(t_canonical);
+					}
 				}
 			}
 		}

@@ -2,27 +2,21 @@ use proc_macro2::{Ident, Span, TokenStream};
 use quote::{ToTokens, quote};
 
 use crate::sanitize;
-pub struct GlyphLookupEntry<'a> {
-	pub glyph:    &'a str,
-	pub group:    &'a str,
-	pub subgroup: &'a str,
-	pub name:     &'a str,
+pub struct GlyphLookupEntry {
+	pub glyph:    String,
+	pub group:    String,
+	pub subgroup: String,
+	pub name:     String,
 	pub is_toned: bool,
 }
 
-impl<'a> GlyphLookupEntry<'a> {
-	pub fn new(
-		glyph: &'a str,
-		group: &'a str,
-		subgroup: &'a str,
-		name: &'a str,
-		is_toned: bool,
-	) -> Self {
+impl GlyphLookupEntry {
+	pub fn new(glyph: String, group: String, subgroup: String, name: String, is_toned: bool) -> Self {
 		Self { glyph, group, subgroup, name, is_toned }
 	}
 }
 
-impl<'a> ToTokens for GlyphLookupEntry<'a> {
+impl ToTokens for GlyphLookupEntry {
 	fn to_tokens(&self, tokens: &mut TokenStream) {
 		let glyph = &self.glyph;
 		let group = Ident::new(&sanitize(&self.group.to_string()).to_lowercase(), Span::call_site());
