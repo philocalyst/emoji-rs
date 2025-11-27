@@ -1,16 +1,16 @@
 #[doc = "🦰"]
 pub const RED_HAIR: crate::Emoji = crate::Emoji {
     glyph: "🦰",
-    codepoint: "1F9B0",
-    status: crate::Status::Component,
+    codepoint: &[129456u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 11u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "red hair",
-    group: "Component",
-    subgroup: "hair-style",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::HairStyle,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -794,16 +794,16 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
 #[doc = "🦱"]
 pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
     glyph: "🦱",
-    codepoint: "1F9B1",
-    status: crate::Status::Component,
+    codepoint: &[129457u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 11u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "curly hair",
-    group: "Component",
-    subgroup: "hair-style",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::HairStyle,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1678,16 +1678,16 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
 #[doc = "🦳"]
 pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
     glyph: "🦳",
-    codepoint: "1F9B3",
-    status: crate::Status::Component,
+    codepoint: &[129459u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 11u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "white hair",
-    group: "Component",
-    subgroup: "hair-style",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::HairStyle,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -2496,16 +2496,16 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
 #[doc = "🦲"]
 pub const BALD: crate::Emoji = crate::Emoji {
     glyph: "🦲",
-    codepoint: "1F9B2",
-    status: crate::Status::Component,
+    codepoint: &[129458u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 11u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "bald",
-    group: "Component",
-    subgroup: "hair-style",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::HairStyle,
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -1,7 +1,7 @@
 #[doc = "💉"]
 pub const SYRINGE: crate::Emoji = crate::Emoji {
     glyph: "💉",
-    codepoint: "1F489",
+    codepoint: &[128137u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 0u8,
@@ -9,8 +9,8 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "syringe",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1431,7 +1431,7 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
 #[doc = "🩸"]
 pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
     glyph: "🩸",
-    codepoint: "1FA78",
+    codepoint: &[129656u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 12u8,
@@ -1439,8 +1439,8 @@ pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "drop of blood",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -2735,7 +2735,7 @@ pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
 #[doc = "💊"]
 pub const PILL: crate::Emoji = crate::Emoji {
     glyph: "💊",
-    codepoint: "1F48A",
+    codepoint: &[128138u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 0u8,
@@ -2743,8 +2743,8 @@ pub const PILL: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "pill",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -3849,7 +3849,7 @@ pub const PILL: crate::Emoji = crate::Emoji {
 #[doc = "🩹"]
 pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
     glyph: "🩹",
-    codepoint: "1FA79",
+    codepoint: &[129657u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 12u8,
@@ -3857,8 +3857,8 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "adhesive bandage",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -4689,7 +4689,7 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
 #[doc = "🩼"]
 pub const CRUTCH: crate::Emoji = crate::Emoji {
     glyph: "🩼",
-    codepoint: "1FA7C",
+    codepoint: &[129660u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 14u8,
@@ -4697,8 +4697,8 @@ pub const CRUTCH: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "crutch",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -6038,7 +6038,7 @@ pub const CRUTCH: crate::Emoji = crate::Emoji {
 #[doc = "🩺"]
 pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
     glyph: "🩺",
-    codepoint: "1FA7A",
+    codepoint: &[129658u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 12u8,
@@ -6046,8 +6046,8 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "stethoscope",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -7030,7 +7030,7 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
 #[doc = "🩻"]
 pub const X_RAY: crate::Emoji = crate::Emoji {
     glyph: "🩻",
-    codepoint: "1FA7B",
+    codepoint: &[129659u32],
     status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 14u8,
@@ -7038,8 +7038,8 @@ pub const X_RAY: crate::Emoji = crate::Emoji {
         patch: 0u8,
     },
     name: "x-ray",
-    group: "Objects",
-    subgroup: "medical",
+    group: crate::Group::Objects,
+    subgroup: crate::Subgroup::Medical,
     is_variant: false,
     variants: &[],
     annotations: &[

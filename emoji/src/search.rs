@@ -18,7 +18,7 @@ pub fn search_name(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .sorted_by(|(e1, score1), (e2, score2)| {
             Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
         })
-        .map(|(e, _)| e)
+        .map(|(e, _)| e.to_owned())
         .collect::<Vec<_>>()
 }
 
@@ -36,7 +36,7 @@ pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
         .sorted_by(|(e1, score1), (e2, score2)| {
             Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
         })
-        .map(|(e, _)| e)
+        .map(|(e, _)| e.to_owned())
         .collect::<Vec<_>>()
 }
 
@@ -56,7 +56,7 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .sorted_by(|(e1, score1), (e2, score2)| {
             Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
         })
-        .map(|(e, _)| e)
+        .map(|(e, _)| e.to_owned())
         .collect::<Vec<_>>()
 }
 
@@ -83,7 +83,7 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
         .sorted_by(|(_, namelen1, score1), (_, namelen2, score2)| {
             Ord::cmp(&score2, &score1).then(Ord::cmp(&namelen1, &namelen2))
         })
-        .map(|(e, _, _)| e)
+        .map(|(e, _, _)| e.to_owned())
         .collect::<Vec<_>>()
 }
 
@@ -105,6 +105,6 @@ pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .sorted_by(|(e1, score1), (e2, score2)| {
             Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
         })
-        .map(|(e, _)| e)
+        .map(|(e, _)| e.to_owned())
         .collect::<Vec<_>>()
 }

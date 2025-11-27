@@ -1,16 +1,16 @@
 #[doc = "🏻"]
 pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🏻",
-    codepoint: "1F3FB",
-    status: crate::Status::Component,
+    codepoint: &[127995u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 1u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "light skin tone",
-    group: "Component",
-    subgroup: "skin-tone",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::SkinTone,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -935,16 +935,16 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
 #[doc = "🏼"]
 pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🏼",
-    codepoint: "1F3FC",
-    status: crate::Status::Component,
+    codepoint: &[127996u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 1u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "medium-light skin tone",
-    group: "Component",
-    subgroup: "skin-tone",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::SkinTone,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1926,16 +1926,16 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
 #[doc = "🏽"]
 pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🏽",
-    codepoint: "1F3FD",
-    status: crate::Status::Component,
+    codepoint: &[127997u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 1u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "medium skin tone",
-    group: "Component",
-    subgroup: "skin-tone",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::SkinTone,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -2860,16 +2860,16 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
 #[doc = "🏾"]
 pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🏾",
-    codepoint: "1F3FE",
-    status: crate::Status::Component,
+    codepoint: &[127998u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 1u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "medium-dark skin tone",
-    group: "Component",
-    subgroup: "skin-tone",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::SkinTone,
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -3852,16 +3852,16 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
 #[doc = "🏿"]
 pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🏿",
-    codepoint: "1F3FF",
-    status: crate::Status::Component,
+    codepoint: &[127999u32],
+    status: crate::Status::FullyQualified,
     introduction_version: crate::Version {
         major: 1u8,
         minor: 0u8,
         patch: 0u8,
     },
     name: "dark skin tone",
-    group: "Component",
-    subgroup: "skin-tone",
+    group: crate::Group::Component,
+    subgroup: crate::Subgroup::SkinTone,
     is_variant: false,
     variants: &[],
     annotations: &[

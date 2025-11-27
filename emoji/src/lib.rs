@@ -59,13 +59,42 @@ pub struct Version {
     pub minor: u8,
     pub patch: u8,
 }
+#[doc = " Represents the skin tone of an emoji."]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum SkinTone {
+    Default,
+    Light,
+    MediumLight,
+    Medium,
+    MediumDark,
+    Dark,
+}
+#[doc = " A wrapper around an Emoji that has skin tone variants."]
+#[doc = " Dereferences to the base Emoji."]
+pub struct Toned {
+    pub emoji: Emoji,
+    pub tones: &'static [Emoji],
+}
+use std::ops::Deref;
+impl Deref for Toned {
+    type Target = Emoji;
+    fn deref(&self) -> &Self::Target {
+        &self.emoji
+    }
+}
+impl Toned {
+    #[doc = " Returns all skin tone variants for this emoji"]
+    pub fn tones(&self) -> &'static [Emoji] {
+        self.tones
+    }
+}
 #[doc = " Contains all information about an emoji  "]
 #[doc = " See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`."]
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Emoji {
-    #[doc = " The ASCII-formatted string representation of this emoji's UTF8 codepoint value  "]
+    #[doc = " The u32 array representation of this emoji's UTF8 codepoint value  "]
     #[doc = " Ex: `1F441 200D 1F5E8 FE0F`"]
-    pub codepoint: &'static str,
+    pub codepoint: &'static [u32],
     #[doc = " Qualification status"]
     pub status: Status,
     #[doc = " The actual emoji text  "]
@@ -79,10 +108,10 @@ pub struct Emoji {
     pub name: &'static str,
     #[doc = " General classification this emoji belongs to  "]
     #[doc = " Ex: `Smileys & Emotion`"]
-    pub group: &'static str,
+    pub group: Group,
     #[doc = " Specific classification this emoji belongs to  "]
     #[doc = " Ex: `cat-face`"]
-    pub subgroup: &'static str,
+    pub subgroup: Subgroup,
     #[doc = " All variants of an emoji. If two emojis share the same name, one is a variant."]
     #[doc = " Variants are always less qualified than their parent. Parents can be found from a"]
     #[doc = " variant via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
@@ -114,7 +143,123 @@ pub mod lookup_by_glyph;
 pub mod lookup_by_name;
 #[doc = " Fuzzy search algorithms for general purpose searching"]
 pub mod search;
-#[doc = r" All annotation languages (feature independent)"]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum Group {
+    Activities,
+    Objects,
+    SmileysEmotion,
+    AnimalsNature,
+    FoodDrink,
+    Flags,
+    Component,
+    Symbols,
+    PeopleBody,
+    TravelPlaces,
+}
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum Subgroup {
+    HandFingersOpen,
+    PersonResting,
+    PlaceReligious,
+    PlaceGeographic,
+    CatFace,
+    SkinTone,
+    SkyWeather,
+    Sound,
+    Office,
+    FaceUnwell,
+    Computer,
+    Alphanum,
+    CountryFlag,
+    AwardMedal,
+    Phone,
+    PlaceBuilding,
+    AnimalBug,
+    Music,
+    FoodAsian,
+    TransportWater,
+    TransportAir,
+    Hotel,
+    MusicalInstrument,
+    AnimalBird,
+    FaceHand,
+    OtherSymbol,
+    PersonGesture,
+    FaceAffection,
+    Heart,
+    PlaceMap,
+    Tool,
+    TransportSign,
+    AnimalReptile,
+    PersonSport,
+    Family,
+    HandSingleFinger,
+    AnimalAmphibian,
+    Clothing,
+    Money,
+    OtherObject,
+    Punctuation,
+    PersonRole,
+    PersonFantasy,
+    Dishware,
+    Drink,
+    AnimalMarine,
+    Event,
+    BookPaper,
+    Science,
+    Medical,
+    Household,
+    Warning,
+    AnimalMammal,
+    HandFingersPartial,
+    FoodSweet,
+    Emotion,
+    FaceNeutralSkeptical,
+    BodyParts,
+    LightVideo,
+    Math,
+    PlaceOther,
+    Arrow,
+    Flag,
+    TransportGround,
+    PersonSymbol,
+    FoodVegetable,
+    Gender,
+    HandProp,
+    SubdivisionFlag,
+    HairStyle,
+    Person,
+    FaceNegative,
+    PlantFlower,
+    Sport,
+    Currency,
+    Time,
+    MonkeyFace,
+    Writing,
+    Hands,
+    PlantOther,
+    Keycap,
+    FaceSleepy,
+    FaceCostume,
+    FoodFruit,
+    Religion,
+    Mail,
+    Lock,
+    FaceGlasses,
+    AvSymbol,
+    Geometric,
+    Game,
+    ArtsCrafts,
+    FaceConcerned,
+    FaceTongue,
+    HandFingersClosed,
+    FoodPrepared,
+    FaceHat,
+    FaceSmiling,
+    PersonActivity,
+    Zodiac,
+}
+#[doc = r" All annotation languages"]
 pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
     "af",
     "am",
@@ -259,299 +404,14 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
     "zh_Hant_HK",
     "zu",
 ];
-#[doc = r" Enabled annotation languages (feature dependent)"]
-#[doc = r#" Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature."#]
-pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
-    #[cfg(feature = "af")]
-    "af",
-    #[cfg(feature = "am")]
-    "am",
-    #[cfg(feature = "ar")]
-    "ar",
-    #[cfg(feature = "ar_SA")]
-    "ar_SA",
-    #[cfg(feature = "as")]
-    "as",
-    #[cfg(feature = "ast")]
-    "ast",
-    #[cfg(feature = "az")]
-    "az",
-    #[cfg(feature = "be")]
-    "be",
-    #[cfg(feature = "bg")]
-    "bg",
-    #[cfg(feature = "bn")]
-    "bn",
-    #[cfg(feature = "br")]
-    "br",
-    #[cfg(feature = "bs")]
-    "bs",
-    #[cfg(feature = "ca")]
-    "ca",
-    #[cfg(feature = "ccp")]
-    "ccp",
-    #[cfg(feature = "ceb")]
-    "ceb",
-    #[cfg(feature = "chr")]
-    "chr",
-    #[cfg(feature = "ckb")]
-    "ckb",
-    #[cfg(feature = "cs")]
-    "cs",
-    #[cfg(feature = "cy")]
-    "cy",
-    #[cfg(feature = "da")]
-    "da",
-    #[cfg(feature = "de")]
-    "de",
-    #[cfg(feature = "de_CH")]
-    "de_CH",
-    #[cfg(feature = "doi")]
-    "doi",
-    #[cfg(feature = "el")]
-    "el",
-    #[cfg(feature = "en")]
-    "en",
-    #[cfg(feature = "en_001")]
-    "en_001",
-    #[cfg(feature = "en_AU")]
-    "en_AU",
-    #[cfg(feature = "en_CA")]
-    "en_CA",
-    #[cfg(feature = "en_GB")]
-    "en_GB",
-    #[cfg(feature = "en_IN")]
-    "en_IN",
-    #[cfg(feature = "es")]
-    "es",
-    #[cfg(feature = "es_419")]
-    "es_419",
-    #[cfg(feature = "es_MX")]
-    "es_MX",
-    #[cfg(feature = "es_US")]
-    "es_US",
-    #[cfg(feature = "et")]
-    "et",
-    #[cfg(feature = "eu")]
-    "eu",
-    #[cfg(feature = "fa")]
-    "fa",
-    #[cfg(feature = "fi")]
-    "fi",
-    #[cfg(feature = "fil")]
-    "fil",
-    #[cfg(feature = "fo")]
-    "fo",
-    #[cfg(feature = "fr")]
-    "fr",
-    #[cfg(feature = "fr_CA")]
-    "fr_CA",
-    #[cfg(feature = "ga")]
-    "ga",
-    #[cfg(feature = "gd")]
-    "gd",
-    #[cfg(feature = "gl")]
-    "gl",
-    #[cfg(feature = "gu")]
-    "gu",
-    #[cfg(feature = "ha")]
-    "ha",
-    #[cfg(feature = "ha_NE")]
-    "ha_NE",
-    #[cfg(feature = "he")]
-    "he",
-    #[cfg(feature = "hi")]
-    "hi",
-    #[cfg(feature = "hr")]
-    "hr",
-    #[cfg(feature = "hu")]
-    "hu",
-    #[cfg(feature = "hy")]
-    "hy",
-    #[cfg(feature = "ia")]
-    "ia",
-    #[cfg(feature = "id")]
-    "id",
-    #[cfg(feature = "ig")]
-    "ig",
-    #[cfg(feature = "is")]
-    "is",
-    #[cfg(feature = "it")]
-    "it",
-    #[cfg(feature = "ja")]
-    "ja",
-    #[cfg(feature = "jv")]
-    "jv",
-    #[cfg(feature = "ka")]
-    "ka",
-    #[cfg(feature = "kab")]
-    "kab",
-    #[cfg(feature = "kk")]
-    "kk",
-    #[cfg(feature = "kl")]
-    "kl",
-    #[cfg(feature = "km")]
-    "km",
-    #[cfg(feature = "kn")]
-    "kn",
-    #[cfg(feature = "ko")]
-    "ko",
-    #[cfg(feature = "kok")]
-    "kok",
-    #[cfg(feature = "ku")]
-    "ku",
-    #[cfg(feature = "ky")]
-    "ky",
-    #[cfg(feature = "lb")]
-    "lb",
-    #[cfg(feature = "lo")]
-    "lo",
-    #[cfg(feature = "lt")]
-    "lt",
-    #[cfg(feature = "lv")]
-    "lv",
-    #[cfg(feature = "mai")]
-    "mai",
-    #[cfg(feature = "mi")]
-    "mi",
-    #[cfg(feature = "mk")]
-    "mk",
-    #[cfg(feature = "ml")]
-    "ml",
-    #[cfg(feature = "mn")]
-    "mn",
-    #[cfg(feature = "mni")]
-    "mni",
-    #[cfg(feature = "mr")]
-    "mr",
-    #[cfg(feature = "ms")]
-    "ms",
-    #[cfg(feature = "mt")]
-    "mt",
-    #[cfg(feature = "my")]
-    "my",
-    #[cfg(feature = "ne")]
-    "ne",
-    #[cfg(feature = "nl")]
-    "nl",
-    #[cfg(feature = "nn")]
-    "nn",
-    #[cfg(feature = "or")]
-    "or",
-    #[cfg(feature = "pa")]
-    "pa",
-    #[cfg(feature = "pa_Arab")]
-    "pa_Arab",
-    #[cfg(feature = "pcm")]
-    "pcm",
-    #[cfg(feature = "pl")]
-    "pl",
-    #[cfg(feature = "ps")]
-    "ps",
-    #[cfg(feature = "pt")]
-    "pt",
-    #[cfg(feature = "pt_PT")]
-    "pt_PT",
-    #[cfg(feature = "qu")]
-    "qu",
-    #[cfg(feature = "rm")]
-    "rm",
-    #[cfg(feature = "ro")]
-    "ro",
-    #[cfg(feature = "root")]
-    "root",
-    #[cfg(feature = "ru")]
-    "ru",
-    #[cfg(feature = "rw")]
-    "rw",
-    #[cfg(feature = "sa")]
-    "sa",
-    #[cfg(feature = "sat")]
-    "sat",
-    #[cfg(feature = "sd")]
-    "sd",
-    #[cfg(feature = "si")]
-    "si",
-    #[cfg(feature = "sk")]
-    "sk",
-    #[cfg(feature = "sl")]
-    "sl",
-    #[cfg(feature = "so")]
-    "so",
-    #[cfg(feature = "sq")]
-    "sq",
-    #[cfg(feature = "sr")]
-    "sr",
-    #[cfg(feature = "sr_Cyrl")]
-    "sr_Cyrl",
-    #[cfg(feature = "sr_Cyrl_BA")]
-    "sr_Cyrl_BA",
-    #[cfg(feature = "sr_Latn")]
-    "sr_Latn",
-    #[cfg(feature = "sr_Latn_BA")]
-    "sr_Latn_BA",
-    #[cfg(feature = "su")]
-    "su",
-    #[cfg(feature = "sv")]
-    "sv",
-    #[cfg(feature = "sw")]
-    "sw",
-    #[cfg(feature = "sw_KE")]
-    "sw_KE",
-    #[cfg(feature = "ta")]
-    "ta",
-    #[cfg(feature = "te")]
-    "te",
-    #[cfg(feature = "tg")]
-    "tg",
-    #[cfg(feature = "th")]
-    "th",
-    #[cfg(feature = "ti")]
-    "ti",
-    #[cfg(feature = "tk")]
-    "tk",
-    #[cfg(feature = "to")]
-    "to",
-    #[cfg(feature = "tr")]
-    "tr",
-    #[cfg(feature = "tt")]
-    "tt",
-    #[cfg(feature = "ug")]
-    "ug",
-    #[cfg(feature = "uk")]
-    "uk",
-    #[cfg(feature = "ur")]
-    "ur",
-    #[cfg(feature = "uz")]
-    "uz",
-    #[cfg(feature = "vi")]
-    "vi",
-    #[cfg(feature = "wo")]
-    "wo",
-    #[cfg(feature = "xh")]
-    "xh",
-    #[cfg(feature = "yo")]
-    "yo",
-    #[cfg(feature = "yo_BJ")]
-    "yo_BJ",
-    #[cfg(feature = "yue")]
-    "yue",
-    #[cfg(feature = "yue_Hans")]
-    "yue_Hans",
-    #[cfg(feature = "zh")]
-    "zh",
-    #[cfg(feature = "zh_Hant")]
-    "zh_Hant",
-    #[cfg(feature = "zh_Hant_HK")]
-    "zh_Hant_HK",
-    #[cfg(feature = "zu")]
-    "zu",
-];
-#[doc = r" The unicode release version that this crate is compiled against"]
-pub const UNICODE_VERSION: f32 = 16f32;
-#[doc = r" The rfc3339 formatted time of the unicode release that this crate is compiled against"]
-pub const UNICODE_RELEASE_TIME: &'static str = "2024-08-14T23:51:54+00:00";
-pub mod smileys_and_emotion {
+pub const UNICODE_VERSION: f32 = 17f32;
+pub const UNICODE_RELEASE_TIME: &'static str = "2025-11-27T05:03:04.681436+00:00";
+pub mod component {
+    pub mod hair_style;
+    pub mod other_object;
+    pub mod skin_tone;
+}
+pub mod smileys_emotion {
     pub mod cat_face;
     pub mod emotion;
     pub mod face_affection;
@@ -569,7 +429,7 @@ pub mod smileys_and_emotion {
     pub mod heart;
     pub mod monkey_face;
 }
-pub mod people_and_body {
+pub mod people_body {
     pub mod body_parts;
     pub mod family;
     pub mod hand_fingers_closed;
@@ -587,11 +447,7 @@ pub mod people_and_body {
     pub mod person_sport;
     pub mod person_symbol;
 }
-pub mod component {
-    pub mod hair_style;
-    pub mod skin_tone;
-}
-pub mod animals_and_nature {
+pub mod animals_nature {
     pub mod animal_amphibian;
     pub mod animal_bird;
     pub mod animal_bug;
@@ -601,7 +457,7 @@ pub mod animals_and_nature {
     pub mod plant_flower;
     pub mod plant_other;
 }
-pub mod food_and_drink {
+pub mod food_drink {
     pub mod dishware;
     pub mod drink;
     pub mod food_asian;
@@ -610,21 +466,21 @@ pub mod food_and_drink {
     pub mod food_sweet;
     pub mod food_vegetable;
 }
-pub mod travel_and_places {
+pub mod travel_places {
     pub mod hotel;
     pub mod place_building;
     pub mod place_geographic;
     pub mod place_map;
     pub mod place_other;
     pub mod place_religious;
-    pub mod sky_and_weather;
+    pub mod sky_weather;
     pub mod time;
     pub mod transport_air;
     pub mod transport_ground;
     pub mod transport_water;
 }
 pub mod activities {
-    pub mod arts_and_crafts;
+    pub mod arts_crafts;
     pub mod award_medal;
     pub mod event;
     pub mod game;
@@ -635,7 +491,7 @@ pub mod objects {
     pub mod clothing;
     pub mod computer;
     pub mod household;
-    pub mod light_and_video;
+    pub mod light_video;
     pub mod lock;
     pub mod mail;
     pub mod medical;
