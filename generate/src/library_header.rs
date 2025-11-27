@@ -62,13 +62,47 @@ pub struct Version {
     pub patch: u8,
 }
 
+/// Represents the skin tone of an emoji.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum SkinTone {
+    Default,
+    Light,
+    MediumLight,
+    Medium,
+    MediumDark,
+    Dark,
+}
+
+/// A wrapper around an Emoji that has skin tone variants.
+/// Dereferences to the base Emoji.
+pub struct Toned {
+    pub emoji: Emoji,
+    pub tones: &'static [Emoji],
+}
+
+use std::ops::Deref;
+
+impl Deref for Toned {
+    type Target = Emoji;
+    fn deref(&self) -> &Self::Target {
+        &self.emoji
+    }
+}
+
+impl Toned {
+    /// Returns all skin tone variants for this emoji
+    pub fn tones(&self) -> &'static [Emoji] {
+        self.tones
+    }
+}
+
 /// Contains all information about an emoji  
 /// See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Emoji {
-    /// The ASCII-formatted string representation of this emoji's UTF8 codepoint value  
+    /// The u32 array representation of this emoji's UTF8 codepoint value  
     /// Ex: `1F441 200D 1F5E8 FE0F`
-    pub codepoint: &'static str,
+    pub codepoint: &'static [u32],
     /// Qualification status
     pub status: Status,
     /// The actual emoji text  
@@ -82,10 +116,10 @@ pub struct Emoji {
     pub name: &'static str,
     /// General classification this emoji belongs to  
     /// Ex: `Smileys & Emotion`
-    pub group: &'static str,
+    pub group: Group,
     /// Specific classification this emoji belongs to  
     /// Ex: `cat-face`
-    pub subgroup: &'static str,
+    pub subgroup: Subgroup,
     /// All variants of an emoji. If two emojis share the same name, one is a variant.
     /// Variants are always less qualified than their parent. Parents can be found from a
     /// variant via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)
