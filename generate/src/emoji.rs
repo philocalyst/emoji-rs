@@ -1,4 +1,5 @@
 use crate::sanitize;
+use heck::ToUpperCamelCase;
 use itertools::Itertools;
 use proc_macro2::{Ident, Span, TokenStream};
 use quote::{quote, ToTokens};
@@ -123,128 +124,131 @@ impl FromStr for Version {
 }
 
 impl Emoji {
-    pub fn new(
-        line: &str,
+    pub fn from_raw(
+        raw: &crate::vectorize_test_data::RawEmoji,
         annotations_map: &HashMap<String, Vec<Annotation>>,
         group: String,
         subgroup: String,
+        is_variant: bool,
     ) -> Self {
-        let first_components: Vec<&str> = line.split(";").collect();
-        let reformed_first = first_components.iter().skip(1).join(";");
-        let codepoint = first_components[0].trim().to_owned();
-        let second_components: Vec<&str> = reformed_first.split("#").collect();
-        let status = Status::new(second_components[0].trim());
-        let reformed_second = second_components.iter().skip(1).join("#");
-        let third_components: Vec<&str> = reformed_second.trim().split("E").collect();
-        let glyph = third_components[0].trim().to_owned();
-        let reformed_third = third_components.iter().skip(1).join("E");
+        // Parse hexcode "1F1E6-1F1E7" -> Vec<u32>
+        let codepoint: Vec<u32> = raw
+            .hexcode
+            .split('-')
+            .map(|s| u32::from_str_radix(s, 16).expect("Invalid hex"))
+            .collect();
 
-        let version_part = reformed_third
-            .split_whitespace()
-            .next()
-            .expect("There should always be at least one word");
+        let tone_val = SkinTone::from_codepoint(&codepoint);
 
-        let mut parts: Vec<&str> = version_part.split('.').collect();
+        let version_float = raw.version.unwrap_or(0.0);
+        let major = version_float as u8;
+        let minor = ((version_float - major as f32) * 10.0) as u8;
 
-        // If there are only two parts (major.minor), add a ".0" for the patch version
-        if parts.len() == 2 {
-            parts.push("0");
-        }
-
-        let fully_qualified_version_str = parts.join(".");
-
-        // The first "word" here is the version number, so capturing that
-        let introduction_version: Version = fully_qualified_version_str
-            .parse()
-            .expect("This should be a version");
-
-        let name = reformed_third.split(" ").skip(1).join(" ");
-
-        let annotations = match annotations_map.get(&glyph) {
+        let annotations = match annotations_map.get(&raw.emoji) {
             None => vec![],
             Some(a) => a.to_vec(),
         };
 
         Self {
             codepoint,
-            status,
-            glyph,
-            introduction_version,
-            name,
+            status: Status::FullyQualified,
+            glyph: raw.emoji.clone(),
+            introduction_version: Version {
+                major,
+                minor,
+                patch: 0,
+            },
+            name: raw.label.clone(),
             variants: vec![],
+            skin_tones: vec![],
             annotations,
-            is_variant: false,
+            is_variant,
             group,
             subgroup,
+            tone_val,
         }
     }
-    pub fn add_variant(&mut self, mut variant: Emoji) {
-        variant.is_variant = true;
-        for a in &mut self.annotations {
-            if let Some(a_other) = variant.annotations.iter_mut().find(|i| i.lang == a.lang) {
-                if a_other.tts.is_some() {
-                    if a.tts.is_none() {
-                        a.tts = a_other.tts.clone();
-                    }
-                    a_other.tts = None;
-                }
-            }
-        }
-        self.annotations.append(&mut variant.annotations);
+
+    pub fn add_variant(&mut self, variant: Emoji) {
         self.variants.push(variant);
     }
+
+    pub fn add_skin_tone(&mut self, variant: Emoji) {
+        self.skin_tones.push(variant);
+    }
+
     pub fn ident(&self) -> String {
         sanitize(&self.name).to_uppercase()
     }
-    fn tokens_internal(&self) -> TokenStream {
+
+    /// Generates the tokens for the Emoji struct (without the Toned wrapper)
+    fn tokens_struct(&self) -> TokenStream {
         let glyph = &self.glyph;
-        let codepoint = &self.codepoint;
+        let cp = &self.codepoint;
         let name = &self.name;
-        let status = Ident::new(&self.status.to_string(), Span::call_site());
+        let group_ident = Ident::new(&&self.group.to_upper_camel_case(), Span::call_site());
+        let subgroup_ident = Ident::new(&&self.subgroup.to_upper_camel_case(), Span::call_site());
 
         let major = self.introduction_version.major;
         let minor = self.introduction_version.minor;
         let patch = self.introduction_version.patch;
 
-        let variants: Vec<TokenStream> =
-            self.variants.iter().map(|e| e.tokens_internal()).collect();
+        let variants: Vec<TokenStream> = self.variants.iter().map(|e| e.tokens_struct()).collect();
         let annotations = &self.annotations;
         let is_variant = &self.is_variant;
-        let group = &self.group;
-        let subgroup = &self.subgroup;
-        (quote! {
-            crate::Emoji{
-        glyph: #glyph,
-        codepoint: #codepoint,
-        status: crate::Status::#status,
-        introduction_version: crate::Version {
-            major: #major,
-            minor: #minor,
-            patch: #patch,
-            },
-        name: #name,
-        group: #group,
-        subgroup: #subgroup,
-        is_variant: #is_variant,
-        variants: &[#(#variants),*],
-        annotations: &[#(#annotations),*],
+
+        // Note: No 'skin_tones' field here. They are only in the wrapper.
+        quote! {
+            crate::Emoji {
+                glyph: #glyph,
+                codepoint: &[#(#cp),*],
+                status: crate::Status::FullyQualified,
+                introduction_version: crate::Version {
+                    major: #major,
+                    minor: #minor,
+                    patch: #patch,
+                },
+                name: #name,
+                group: crate::Group::#group_ident,
+                subgroup: crate::Subgroup::#subgroup_ident,
+                is_variant: #is_variant,
+                variants: &[#(#variants),*],
+                annotations: &[#(#annotations),*],
             }
-        })
-        .into()
+        }
     }
 }
+
 impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
         let ident = Ident::new(&self.ident(), Span::call_site());
-        let tokns = self.tokens_internal();
+        let emoji_struct = self.tokens_struct();
         let glyph = &self.glyph;
-        (quote! {
-            #[doc = #glyph]
-            pub const #ident: crate::Emoji = #tokns;
-        })
-        .to_tokens(tokens);
+
+        if !self.skin_tones.is_empty() {
+            // It is a Toned emoji
+            let tones: Vec<TokenStream> =
+                self.skin_tones.iter().map(|e| e.tokens_struct()).collect();
+
+            (quote! {
+                #[doc = #glyph]
+                pub const #ident: crate::Toned = crate::Toned {
+                    emoji: #emoji_struct,
+                    tones: &[#(#tones),*]
+                };
+            })
+            .to_tokens(tokens);
+        } else {
+            // It is a regular Emoji
+            (quote! {
+                #[doc = #glyph]
+                pub const #ident: crate::Emoji = #emoji_struct;
+            })
+            .to_tokens(tokens);
+        }
     }
 }
+
 #[derive(Debug, Eq, Hash, PartialEq, Clone)]
 pub enum Status {
     Component,
