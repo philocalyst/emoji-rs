@@ -11,6 +11,848 @@ pub const MILITARY_MEDAL: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
+#[doc = "🥉"]
+pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
+	glyph:                "🥉",
+	codepoint:            &[129353u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+	name:                 "3rd place medal",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::AwardMedal,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("bronsmedalje"),
+			keywords: &["atletiek", "brons", "bronsmedalje", "derde", "medalje", "sport"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የ3ኛ ስፍራ ሜዳሊያ"),
+			keywords: &["መዳብ", "ሜዳሊያ", "ሜዳልያ", "ሶስተኛ", "የ3ኛ ስፍራ ሜዳሊያ", "የነሐስ ሜዳልያ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ميدالية مركز ثالث"),
+			keywords: &["المركز الثالث", "برونزية", "ثالث", "ميدالية", "ميدالية مركز ثالث", "٣"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("৩য\u{9bc} স\u{9cd}থ\u{9be}নৰ পদক"),
+			keywords: &[
+				"ত\u{9c3}তীয\u{9bc}",
+				"পদক",
+				"ব\u{9cd}ৰঞ\u{9cd}জ",
+				"৩য\u{9bc} স\u{9cd}থ\u{9be}নৰ পদক",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("bürünc medal"),
+			keywords: &["3-cü yer", "bürünc medal", "qalib", "yarışma"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("бронзавы медаль"),
+			keywords: &["бронза", "бронзавы медаль", "медаль", "трэцяе месца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("медал за трето място"),
+			keywords: &["3", "бронз", "медал", "медал за трето място", "трети", "трето"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ত\u{9c3}তীয\u{9bc} স\u{9cd}থ\u{9be}নের পদক"),
+			keywords: &[
+				"ত\u{9c3}তীয\u{9bc}",
+				"ত\u{9c3}তীয\u{9bc} স\u{9cd}থ\u{9be}নের পদক",
+				"থ\u{9be}র\u{9cd}ড",
+				"ব\u{9cd}রোঞ\u{9cd}জ",
+				"মেডেল",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("medalenn arem"),
+			keywords: &["medalenn", "medalenn arem"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("treće mjesto"),
+			keywords: &["bronza", "medalja", "treća", "treće mjesto", "treći"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("medalla de bronze"),
+			keywords: &["bronze", "medalla", "medalla de bronze", "posició", "tercer"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏦᎢᏁ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ"),
+			keywords: &["ᎠᏔᎷᎩᏍᎩ", "ᏣᏱ", "ᏦᎢᏁ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ", "ᏦᏁᎢ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("medaile za 3. místo"),
+			keywords: &[
+				"bronz",
+				"bronzová medaile",
+				"medaile",
+				"medaile za 3. místo",
+				"místo",
+				"trikolóra",
+				"třetí",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("medal efydd"),
+			keywords: &["efydd", "medal", "trydydd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("bronzemedalje"),
+			keywords: &["bronze", "bronzemedalje", "medalje", "tredjeplads", "tredjepræmie", "vinder"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Bronzemedaille"),
+			keywords: &["Bronzemedaille", "Dritter", "Medaille 3. Platz"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μετάλλιο 3ης θέσης"),
+			keywords: &["μετάλλιο", "μετάλλιο 3ης θέσης", "τρίτος", "χάλκινο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("3rd place medal"),
+			keywords: &["3rd", "bronze", "medal", "place", "third"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("medalla de bronce"),
+			keywords: &["bronce", "medalla", "medalla de bronce", "tercero"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("medalla de tercer lugar"),
+			keywords: &["bronce", "medalla", "medalla de bronce", "medalla de tercer lugar", "tercero"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("pronksmedal"),
+			keywords: &["koht", "kolmas", "medal", "pronks"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("3. postuaren domina"),
+			keywords: &["3. postuaren domina", "brontze", "domina", "hirugarren"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("مدال برنز"),
+			keywords: &["برنز", "جایگاه سوم", "سوم", "سکوی سوم", "مدال", "نفر سوم"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("pronssimitali"),
+			keywords: &["kolmas", "mitali", "pronssi", "pronssimitali"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("medalyang 3rd place"),
+			keywords: &[
+				"3rd",
+				"3rd place",
+				"bronze",
+				"medalya",
+				"medalyang 3rd place",
+				"pangatlo",
+				"tanso",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("bronsumedalja"),
+			keywords: &["bronsa", "bronsumedalja", "medalja"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("médaille de bronze"),
+			keywords: &["3e", "bronze", "médaille", "médaille de bronze", "troisième"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["3e", "bronze", "médaille", "place", "troisième"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("bonn cré-umha"),
+			keywords: &["3", "3ú", "bonn", "cré-umha"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("bonn an treas àite"),
+			keywords: &["bonn", "bonn an treas àite", "treas", "treasamh", "uamha"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("medalla de bronce"),
+			keywords: &["bronce", "medalla", "medalla de bronce", "terceira", "terceiro"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("કા\u{a82}સ\u{acd}ય પદક"),
+			keywords: &[
+				"કા\u{a82}સ\u{acd}ય",
+				"કા\u{a82}સ\u{acd}ય ચ\u{a82}દ\u{acd}રક",
+				"ત\u{acd}રીજ\u{ac1}",
+				"પદક",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("medal na uku"),
+			keywords: &[
+				"kyauta",
+				"lambar tagulla",
+				"lambar yabo",
+				"medal",
+				"medal na uku",
+				"na uku",
+				"tagulla",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("medal na uku"),
+			keywords: &[
+				"kyauta",
+				"lambar tagulla",
+				"lambar yabo",
+				"medal",
+				"medal na uku",
+				"na uku",
+				"tagulla",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מדליית ארד"),
+			keywords: &["מדליית ארד", "מקום שלישי"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("का\u{902}स\u{94d}य पदक"),
+			keywords: &["का\u{902}स\u{94d}य", "तीसरा", "पदक"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("brončana medalja"),
+			keywords: &["bronca", "brončana medalja", "medalja", "treća", "treći"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("bronzérem"),
+			keywords: &["bronz", "bronzérem", "harmadik", "medál", "érem"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բրոնզե մեդալ"),
+			keywords: &["բրոնզ", "բրոնզե մեդալ", "երրորդ", "մեդալ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("medali perunggu"),
+			keywords: &["juara", "ketiga", "medali", "peringkat", "perunggu", "posisi", "tiga"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("iheolu mmeri 3rd"),
+			keywords: &["bronzu", "iheolu", "iheolu mmeri 3rd", "nke atọ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("bronsverðlaun"),
+			keywords: &["brons", "bronsverðlaun", "sæti", "verðlaun", "þriðja"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("medaglia di bronzo"),
+			keywords: &[
+				"bronzo",
+				"gara",
+				"medaglia",
+				"medaglia 3",
+				"medaglia di bronzo",
+				"sport",
+				"terzo",
+				"terzo posto",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("銅メダル"),
+			keywords: &["3位", "ブロンズ", "メダル", "銅", "銅メダル"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("medali juara ka-3"),
+			keywords: &["katelu", "medali", "medali juara ka-3", "tembaga"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მე-3 ადგილი მედალი"),
+			keywords: &["ბრინჯაო", "მე-3 ადგილი მედალი", "მედალი", "მესამე"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("cciɛa n umḍiq wis 3"),
+			keywords: &["cciɛa n umḍiq wis 3"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("қола медаль"),
+			keywords: &["3", "3-орын", "медаль", "орын", "қола", "үшінші"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("bronzemedalje"),
+			keywords: &["bronzemedalje", "medalje", "tredjeplads", "tredjepræmie", "vinder"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ប\u{17b8}"),
+			keywords: &[
+				"ទ\u{17b8}ប\u{17b8}",
+				"មេដាយ",
+				"មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ប\u{17b8}",
+				"ស\u{17c6}រ\u{17b7}ទ\u{17d2}ធ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ತೃತ\u{cc0}ಯ ಸ\u{ccd}ಥಾನದ ಪದಕ"),
+			keywords: &["ಕಂಚ\u{cbf}ನ ಪದಕ", "ಕಂಚು", "ತೃತ\u{cc0}ಯ", "ತೃತ\u{cc0}ಯ ಸ\u{ccd}ಥಾನದ ಪದಕ", "ಪದಕ"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("동메달"),
+			keywords: &["동메달", "메달", "브론즈", "삼등"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("3ऱ\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक"),
+			keywords: &[
+				"3ऱ\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक",
+				"कास\u{94d}य",
+				"तिसर\u{947}\u{902}",
+				"पदक",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("коло медаль"),
+			keywords: &["коло", "медаль", "үчүнчү орун"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Bronzemedail"),
+			keywords: &["Bronze", "Bronzemedail", "Medail", "drëtt Plaz"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫຽນທອງແດງ"),
+			keywords: &[
+				"ທອງແດງ",
+				"ທ\u{eb5}ສາມ",
+				"ຫ\u{ebc}ຽນ",
+				"ຫ\u{ebc}ຽນທອງແດງ",
+				"ຫ\u{ebc}ຽນທ\u{eb5} 3",
+				"ຫຽນທອງແດງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("3-osios vietos medalis"),
+			keywords: &["3-osios vietos medalis", "bronza", "medalis", "trečioji"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("medaļa par 3. vietu"),
+			keywords: &["bronzas", "medaļa", "medaļa par 3. vietu", "trešā"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("mētara wāhi 3"),
+			keywords: &["mētara", "mētara wāhi 3", "parāhe", "tuatoru"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("медал за трето место"),
+			keywords: &["бронза", "медал", "медал за трето место", "трет", "трето", "трето место"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ"),
+			keywords: &[
+				"മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നം",
+				"മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ",
+				"മെഡൽ",
+				"വെങ\u{d4d}കലം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("3-р байрны медаль"),
+			keywords: &["3-р байрны медаль", "гуравдугаар", "медаль", "хүрэл"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("का\u{902}स\u{94d}य पदक"),
+			keywords: &[
+				"का\u{902}स\u{94d}य",
+				"तिसरा न\u{902}बर",
+				"त\u{943}तीय",
+				"त\u{943}तीय क\u{94d}रमा\u{902}क",
+				"त\u{94d}रितिय",
+				"पदक",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pingat tempat ketiga"),
+			keywords: &["gangsa", "ketiga", "medal", "medal tempat ke-3", "pingat tempat ketiga"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("midalja tat-3 post"),
+			keywords: &["bronż", "it-tielet", "midalja", "midalja tat-3 post"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("တတ\u{102d}ယ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}"),
+			keywords: &[
+				"ကြေး",
+				"တတ\u{102d}ယ",
+				"တတ\u{102d}ယ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}",
+				"တ\u{1036}ဆ\u{102d}ပ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("कास\u{94d}य पदक"),
+			keywords: &["कास\u{94d}य", "त\u{947}स\u{94d}रो", "पदक"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("medaille 3e plaats"),
+			keywords: &["brons", "bronzen", "derde", "derde plaats", "medaille", "medaille 3e plaats"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("3ୟ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ"),
+			keywords: &["3ୟ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ", "ତ\u{b43}ତୀୟ", "ପଦକ", "ବ\u{b4d}ରୋଞ\u{b4d}ଜ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਕਾ\u{a02}ਸੀ ਦਾ ਤਮਗਾ"),
+			keywords: &["ਕਾ\u{a02}ਸੀ ਦਾ ਤਮਗਾ", "ਤਮਗਾ", "ਤੀਜਾ", "ਬਰ\u{a4c}\u{a02}ਜ", "ਮ\u{a48}ਡਲ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("تیجے نمبر دا تمغہ"),
+			keywords: &["تمغہ", "تیجا", "تیجے نمبر دا تمغہ", "کانسی"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("3rd Plés Mẹ\u{301}dal"),
+			keywords: &["3rd Plés Mẹ\u{301}dal", "Bronz", "Mẹ\u{301}dal", "Tẹd"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("medal za 3. miejsce"),
+			keywords: &[
+				"brąz",
+				"brązowy medal",
+				"medal",
+				"medal za 3. miejsce",
+				"sport",
+				"trzecie miejsce",
+				"zawody",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د دریم مقام مډال"),
+			keywords: &["د دریم مقام مډال", "دريم", "ميډال", "پيتل"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("medalha de bronze"),
+			keywords: &["3o. lugar", "3º. lugar", "bronze", "medalha", "terceiro"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("medalha de 3.º lugar"),
+			keywords: &[
+				"3º. lugar",
+				"bronze",
+				"medalha",
+				"medalha de 3.º lugar",
+				"medalha de bronze",
+				"terceiro",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("medalla 3qi kitipaq"),
+			keywords: &["bronce", "kimsañiqi", "medalla", "medalla 3qi kitipaq"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("medalie locul III"),
+			keywords: &["al treilea", "bronz", "locul trei", "medalie", "medalie locul III"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-1064"), keywords: &["E10-1064"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("бронзовая медаль"),
+			keywords: &["бронза", "бронзовая медаль", "медаль", "третье место"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umudari w’umwanya wa 3"),
+			keywords: &["bronze", "cya gatatu", "umudali", "umudari w’umwanya wa 3"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ٽين نمبر وارو تمغو"),
+			keywords: &["ٽين نمبر وارو تمغو", "پتل، تمغو، ٽيون"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("3වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම\u{dca}"),
+			keywords: &[
+				"3වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම\u{dca}",
+				"ත\u{dd4}න\u{dca} වැන\u{dd2}ය\u{dcf}",
+				"පදක\u{dca}කම",
+				"ලෝකඩ",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("bronzová medaila"),
+			keywords: &[
+				"bronz",
+				"bronzová medaila",
+				"medaila",
+				"medaila za 3. miesto",
+				"miesto",
+				"tretie",
+				"trikolóra",
+				"šport",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("bronasta medalja"),
+			keywords: &["bron", "bronasta medalja", "medalja", "tretje mesto"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("bilada kaalinta saddexaad"),
+			keywords: &["bilad", "bilada kaalinta saddexaad", "naxaas", "saddexaad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("medalje e vendit të tretë"),
+			keywords: &["bronz", "i tretë", "medalje", "medalje e vendit të tretë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("бронзана медаља"),
+			keywords: &["бронза", "медаља", "трећи"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("bronzana medalja"),
+			keywords: &["bronza", "medalja", "treći"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("bronsmedalj"),
+			keywords: &["brons", "bronsmedalj", "medalj", "tredje plats"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("nishani ya shaba"),
+			keywords: &["nafasi ya tatu", "nishani", "nishani ya shaba", "shaba"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மூன\u{bcd}ற\u{bbe}வது பரிசு"),
+			keywords: &["பதக\u{bcd}கம\u{bcd}", "பரிசு", "மூன\u{bcd}ற\u{bbe}வது"],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("3వ స\u{c4d}థ\u{c3e}న పతకం"),
+			keywords: &[
+				"3వ స\u{c4d}థ\u{c3e}న పతకం",
+				"బ\u{c4d}ర\u{c4b}న\u{c4d}స\u{c4d}",
+				"మూడ\u{c4b} స\u{c4d}థ\u{c3e}నం",
+				"మ\u{c46}డల\u{c4d}",
+				"రజతం",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("медал барои ҷои 3-юм"),
+			keywords: &["биринҷӣ", "медал", "медал барои ҷои 3-юм", "сеюм"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("เหร\u{e35}ยญทองแดง"),
+			keywords: &["ก\u{e35}ฬา", "ชนะ", "ทองแดง", "ท\u{e35}\u{e48} 3", "เหร\u{e35}ยญรางว\u{e31}ล"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("3ይ ደረጃ መዳልያ"),
+			keywords: &["3ይ", "መዳልያ", "ሳልሳይ", "ቦታ", "ነሓስ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("3-nji ornuň medaly"),
+			keywords: &["3-nji ornuň medaly", "bürünç", "medal", "üçünji"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mētali fika tolu"),
+			keywords: &["mētali", "mētali fika tolu", "tolu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("üçüncülük madalyası"),
+			keywords: &["bronz", "madalya", "Üçüncülük madalyası", "üçüncü", "üçüncülük madalyası"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئۈچىنچىلىك مېدالى"),
+			keywords: &["ئۈچىنچى", "ئۈچىنچىلىك مېدالى", "مىس", "مېدال"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("бронзова медаль"),
+			keywords: &["бронза", "бронзова медаль", "медаль", "місце", "спорт", "третє"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("برونز میڈل"),
+			keywords: &["برونز", "تیسرا", "میڈل", "نمبر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("bronza medal"),
+			keywords: &["bronza", "medal", "uchinchi o‘rin"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("huy chương đồng"),
+			keywords: &["ba", "huy chương", "huy chương đồng", "đồng"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("medaayu plaas 3"),
+			keywords: &["medaay", "medaayu plaas 3", "përëm", "ñatteel"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("imbasa yendawo yesi-3"),
+			keywords: &["imbasa", "imbasa yendawo yesi-3", "ubhedu", "yesithathu"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Fadaka Ipo Ẹkẹta"),
+			keywords: &["Fadaka Ipo Ẹkẹta", "bírónsì", "fàdákà", "ipò kẹta"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Fadaka Ipo Ɛkɛta"),
+			keywords: &["Fadaka Ipo Ɛkɛta", "bírónsì", "fàdákà", "ipò kɛta"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("銅牌"),
+			keywords: &["奬牌", "第三", "銅", "銅牌"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("铜牌"),
+			keywords: &["奖牌", "第三", "铜", "铜牌"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("铜牌"),
+			keywords: &["奖牌", "季军", "第三", "第三名奖牌", "铜牌"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("銅牌"),
+			keywords: &["季軍", "第三名", "銅牌"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["三", "季軍", "獎牌", "獎章", "第三名", "銅牌"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("indondo yendawo yesithathu"),
+			keywords: &["ibhulonzi", "indondo", "indondo yendawo yesithathu", "thathu"],
+		},
+	],
+};
 #[doc = "🏆\u{fe0f}"]
 pub const TROPHY: crate::Emoji = crate::Emoji {
 	glyph:                "🏆\u{fe0f}",
@@ -23,6 +865,896 @@ pub const TROPHY: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
+};
+#[doc = "🥇"]
+pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
+	glyph:                "🥇",
+	codepoint:            &[129351u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+	name:                 "1st place medal",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::AwardMedal,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("goudmedalje"),
+			keywords: &["eerste", "goud", "goudmedalje", "kampioen", "medalje", "sport", "wenner"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የ1ኛ ስፍራ ሜዳሊያ"),
+			keywords: &["1ኛ", "ሜዳሊያ", "ሜዳልያ", "አሸናፊ", "አንደኛ", "ወርቅ", "የ1ኛ ስፍራ ሜዳሊያ", "የወርቅ ሜዳልያ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ميدالية مركز أول"),
+			keywords: &["أول", "ذهبية", "ميدالية", "ميدالية مركز أول", "١"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("১ম স\u{9cd}থ\u{9be}নৰ পদক"),
+			keywords: &["পদক", "প\u{9cd}ৰথম", "সোণ", "১ম স\u{9cd}থ\u{9be}নৰ পদক"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qızıl medal"),
+			keywords: &["1-ci yer", "qalib", "qızıl medal", "yarışma"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("залаты медаль"),
+			keywords: &["залаты медаль", "золата", "медаль", "першае месца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("медал за първо място"),
+			keywords: &["злато", "медал", "медал за първо място", "първи", "първо"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("প\u{9cd}রথম স\u{9cd}থ\u{9be}নের পদক"),
+			keywords: &[
+				"পদক",
+				"প\u{9cd}রথম",
+				"প\u{9cd}রথম স\u{9cd}থ\u{9be}নের পদক",
+				"ফ\u{9be}র\u{9cd}স\u{9cd}ট",
+				"মেডেল",
+				"মোন\u{9be}র",
+				"সোন\u{9be}র পদক",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("medalenn aour"),
+			keywords: &["aour", "medalenn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("prvo mjesto"),
+			keywords: &["medalja", "prva", "prvi", "prvo mjesto", "zlato"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("medalla d’or"),
+			keywords: &["medalla", "medalla d’or", "or", "posició", "primer"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎢᎬᏱᎢ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ"),
+			keywords: &["ᎠᏔᎷᎩᏍᎩ", "ᎠᏕᎳ ᏓᎶᏂᎨ", "ᎢᎬᏱᎢ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ", "ᎢᎬᏱᏱ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("medaile za 1. místo"),
+			keywords: &[
+				"medaile",
+				"medaile za 1. místo",
+				"místo",
+				"první",
+				"trikolóra",
+				"vyhrát",
+				"vítězství",
+				"zlato",
+				"zlatá medaile",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("medal aur"),
+			keywords: &["aur", "cyntaf", "medal"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("guldmedalje"),
+			keywords: &["førsteplads", "førstepræmie", "guld", "guldmedalje", "medalje", "vinder"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Goldmedaille"),
+			keywords: &["Erster", "Gewinn", "Goldmedaille", "Medaille 1. Platz"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μετάλλιο 1ης θέσης"),
+			keywords: &["μετάλλιο", "μετάλλιο 1ης θέσης", "πρώτος", "χρυσό"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("1st place medal"),
+			keywords: &["1st", "first", "gold", "medal", "place"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("medalla de oro"),
+			keywords: &["medalla", "medalla de oro", "oro", "primero"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("medalla de primer lugar"),
+			keywords: &[
+				"ganador",
+				"medalla",
+				"medalla de oro",
+				"medalla de primer lugar",
+				"oro",
+				"primero",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kuldmedal"),
+			keywords: &["esimene", "koht", "kuld", "medal", "võit"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("1. postuaren domina"),
+			keywords: &["1. postuaren domina", "domina", "lehen", "urre"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("مدال طلا"),
+			keywords: &["اول", "جایگاه اول", "سکوی اول", "طلا", "مدال", "نخست", "نفر اول"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kultamitali"),
+			keywords: &["ensimmäinen", "kulta", "kultamitali", "mitali", "voittaja"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("medalyang 1st place"),
+			keywords: &["ginto", "medalya", "medalyang 1st place", "una"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("gullmedalja"),
+			keywords: &["gull", "gullmedalja", "medalja"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("médaille d’or"),
+			keywords: &["1er", "médaille", "médaille d’or", "or", "premier"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["1er", "1re", "médaille", "or", "première place"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("bonn óir"),
+			keywords: &["1", "1ú", "an chéad áit", "bonn", "bonn óir", "buaiteoir", "ór", "órga"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("bonn a’ chiad àite"),
+			keywords: &["bonn", "bonn a’ chiad àite", "chiad", "ciad", "òr"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("medalla de ouro"),
+			keywords: &[
+				"gañador",
+				"gañadora",
+				"medalla",
+				"medalla de ouro",
+				"ouro",
+				"primeira",
+				"primeiro",
+			],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{ac1}વર\u{acd}ણ પદક"),
+			keywords: &[
+				"ચ\u{a82}દ\u{acd}રક",
+				"જીત",
+				"પદક",
+				"પહ\u{ac7}લ\u{ac1}\u{a82}",
+				"વિજય",
+				"સ\u{ac1}વર\u{acd}ણ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("medal na farko"),
+			keywords: &[
+				"gwal",
+				"kyauta",
+				"lamba ta ɗaya",
+				"lambar yabo",
+				"lambar zinare",
+				"medal",
+				"medal na farko",
+				"na farko",
+				"na ɗaya",
+				"ta ɗaya",
+				"zinare",
+				"zinari",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("medal na farko"),
+			keywords: &[
+				"gwal",
+				"kyauta",
+				"lamba ta ɗaya",
+				"lambar yabo",
+				"lambar zinare",
+				"medal",
+				"medal na farko",
+				"na farko",
+				"na ɗaya",
+				"ta ɗaya",
+				"zinare",
+				"zinari",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מדליית זהב"),
+			keywords: &["הצטיינות", "מדליית זהב", "מקום ראשון"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}वर\u{94d}ण पदक"),
+			keywords: &["पदक", "पहला", "प\u{94d}रथम", "स\u{94d}वर\u{94d}ण"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zlatna medalja"),
+			keywords: &["medalja", "prva", "prvi", "zlatna medalja", "zlato"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("aranyérem"),
+			keywords: &["arany", "aranyérem", "első", "medál", "érem"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ոսկե մեդալ"),
+			keywords: &["առաջին", "մեդալ", "ոսկե մեդալ", "ոսկի"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("medali emas"),
+			keywords: &["emas", "juara", "medali", "peringkat", "pertama", "posisi", "satu"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("iheolu mmeri 1st"),
+			keywords: &["iheolu", "iheolu mmeri 1st", "mbụ", "ọla-èdò"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("gullverðlaun"),
+			keywords: &["fyrsta", "gull", "gullverðlaun", "sæti", "verðlaun"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("medaglia d’oro"),
+			keywords: &[
+				"medaglia",
+				"medaglia d’oro",
+				"numero 1",
+				"numero uno",
+				"oro",
+				"primo posto",
+				"sport",
+				"uno",
+				"vincere",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("金メダル"),
+			keywords: &["1位", "ゴールド", "メダル", "優勝", "金", "金メダル"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("medali juara ka-1"),
+			keywords: &["emas", "kasiji", "medali", "medali juara ka-1"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("1-ლი ადგილის მედალი"),
+			keywords: &["1-ლი ადგილის მედალი", "მედალი", "ოქრო", "პირველი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("cciɛa n umḍiq 1u"),
+			keywords: &["cciɛa n umḍiq 1u"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("алтын медаль"),
+			keywords: &["1", "1-орын", "алтын", "бірінші", "медаль", "орын"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("guldmedalje"),
+			keywords: &["førsteplads", "førstepræmie", "guld", "guldmedalje", "medalje", "vinder"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ម\u{17bd}យ"),
+			keywords: &[
+				"ទ\u{17b8}ម\u{17bd}យ",
+				"មាស",
+				"មេដាយ",
+				"មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ម\u{17bd}យ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಪ\u{ccd}ರಥಮ ಸ\u{ccd}ಥಾನದ ಪದಕ"),
+			keywords: &[
+				"ಚ\u{cbf}ನ\u{ccd}ನ",
+				"ಚ\u{cbf}ನ\u{ccd}ನದ ಪದಕ",
+				"ಪದಕ",
+				"ಪ\u{ccd}ರಥಮ",
+				"ಪ\u{ccd}ರಥಮ ಸ\u{ccd}ಥಾನದ ಪದಕ",
+				"ಮ\u{cc6}ಡಲ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("금메달"),
+			keywords: &["골드", "금메달", "메달", "일등"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("1ल\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक"),
+			keywords: &[
+				"1ल\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक",
+				"पदक",
+				"पयल\u{947}\u{902}",
+				"भा\u{902}गर",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("алтын медаль"),
+			keywords: &["алтын", "биринчи орун", "медаль"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Goldmedail"),
+			keywords: &["Gold", "Goldmedail", "Medail", "éischt Plaz"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ebc}ຽນທ\u{eb5} 1"),
+			keywords: &[
+				"ຄຳ",
+				"ທ\u{eb5}ໜ\u{eb5}\u{ec8}ງ",
+				"ຫ\u{ebc}ຽນ",
+				"ຫ\u{ebc}ຽນຄຳ",
+				"ຫ\u{ebc}ຽນທ\u{eb5} 1",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("1-osios vietos medalis"),
+			keywords: &["1-osios vietos medalis", "auksas", "medalis", "pirmoji"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("medaļa par 1. vietu"),
+			keywords: &["1. vieta", "medaļa", "medaļa par 1. vietu", "pirmā", "zelta"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("mētara wāhi 1"),
+			keywords: &["kōura", "mētara", "mētara wāhi 1", "tuatahi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("медал за прво место"),
+			keywords: &["златен", "злато", "медал", "медал за прво место", "прв", "прво", "прво место"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ"),
+			keywords: &[
+				"ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നം",
+				"ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ",
+				"മെഡൽ",
+				"സ\u{d4d}വർണ\u{d4d}ണം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("1-р байрны медаль"),
+			keywords: &["1-р байрны медаль", "алт", "медаль", "нэгдүгээр"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{941}वर\u{94d}ण पदक"),
+			keywords: &["पदक", "प\u{94d}रथम", "स\u{941}वर\u{94d}ण", "स\u{94d}वर\u{94d}ण"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pingat tempat pertama"),
+			keywords: &["emas", "juara", "medal", "pertama", "pingat tempat pertama"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("midalja tal-1 post"),
+			keywords: &["l-ewwel", "midalja", "midalja tal-1 post", "tad-deheb"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပထမ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}"),
+			keywords: &[
+				"တ\u{1036}ဆ\u{102d}ပ\u{103a}",
+				"ပထမ",
+				"ပထမ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}",
+				"ရ\u{103d}\u{103e}ေ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}वर\u{94d}ण पदक"),
+			keywords: &["पदक", "पहिलो", "स\u{94d}वर\u{94d}ण"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("medaille 1e plaats"),
+			keywords: &[
+				"eerste",
+				"gewonnen",
+				"goud",
+				"gouden",
+				"medaille",
+				"medaille 1e plaats",
+				"winnaar",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("1ମ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ"),
+			keywords: &["1ମ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ", "ପଦକ", "ପ\u{b4d}ରଥମ", "ସ\u{b4d}ୱର\u{b4d}ଣ\u{b4d}ଣ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸ\u{a4b}ਨ\u{a47} ਦਾ ਤਮਗਾ"),
+			keywords: &["ਗ\u{a4b}ਲਡ", "ਤਮਗਾ", "ਪਹਿਲਾ", "ਮ\u{a48}ਡਲ", "ਸ\u{a4b}ਨ\u{a47} ਦਾ ਤਮਗਾ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پہلے نمبر دا تمغہ"),
+			keywords: &["تمغہ", "سونا", "پہلا", "پہلے نمبر دا تمغہ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("1st Plés Mẹ\u{301}dal"),
+			keywords: &["1st Plés Mẹ\u{301}dal", "Fẹ\u{301}st", "Gold", "Mẹ\u{301}dal"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("medal za 1. miejsce"),
+			keywords: &[
+				"medal",
+				"medal za 1. miejsce",
+				"pierwsze miejsce",
+				"sport",
+				"zawody",
+				"zwycięstwo",
+				"złoto",
+				"złoty medal",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د لومړي مقام مډال"),
+			keywords: &["د لومړي مقام مډال", "سره زر", "لومړی", "مډال"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("medalha de ouro"),
+			keywords: &["1o. lugar", "1º. lugar", "medalha", "ouro", "vitória"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("medalha de 1.º lugar"),
+			keywords: &[
+				"1º. lugar",
+				"medalha",
+				"medalha de 1.º lugar",
+				"medalha de ouro",
+				"ouro",
+				"primeiro",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("medalla 1qi kitipaq"),
+			keywords: &["hukñiqi", "medalla", "medalla 1qi kitipaq", "quri"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("medalie locul I"),
+			keywords: &["aur", "locul întâi", "medalie", "medalie locul I", "primul", "primul loc"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-1062"), keywords: &["E10-1062"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("золотая медаль"),
+			keywords: &[
+				"золотая медаль",
+				"золото",
+				"медаль",
+				"место",
+				"первое место",
+				"победа",
+				"победители",
+				"победитель",
+				"чемпион",
+				"чемпионы",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umudari w’umwanya wa 1"),
+			keywords: &["cya mbere", "umudali", "umudari w’umwanya wa 1", "zahabu"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پهرين نمبر وارو تمغو"),
+			keywords: &["پهرين نمبر وارو تمغو", "پهريون، سون، تمغو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("1වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම"),
+			keywords: &[
+				"1වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම",
+				"පදක\u{dca}කම",
+				"පළ වැන\u{dd2}ය\u{dcf}",
+				"රත\u{dca}\u{200d}රන\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zlatá medaila"),
+			keywords: &[
+				"medaila",
+				"medaila za 1. miesto",
+				"miesto",
+				"prvé",
+				"titul",
+				"trikolóra",
+				"víťaz",
+				"víťazstvo",
+				"výhra",
+				"zlato",
+				"zlatá medaila",
+				"šampión",
+				"šport",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("zlata medalja"),
+			keywords: &["medalja", "prvo mesto", "zlata medalja", "zlato", "zmaga"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("bilada kaalinta koowaad"),
+			keywords: &["bilad", "bilada kaalinta koowaad", "dahab", "hore"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("medalje e vendit të parë"),
+			keywords: &["ar", "i artë", "i parë", "medalje", "medalje e vendit të parë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("златна медаља"),
+			keywords: &["злато", "медаља", "први"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zlatna medalja"),
+			keywords: &["medalja", "prvi", "zlato"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("guldmedalj"),
+			keywords: &["guld", "guldmedalj", "medalj", "segrare"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("nishani ya dhababu"),
+			keywords: &["dhahabu", "nafasi ya kwanza", "nishani", "nishani ya dhababu"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("முதல\u{bcd} பரிசு"),
+			keywords: &[
+				"பதக\u{bcd}கம\u{bcd}",
+				"பரிசு",
+				"முதல\u{bcd}",
+				"மெடல\u{bcd}",
+				"வெற\u{bcd}றிய\u{bbe}ளர\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("1వ స\u{c4d}థ\u{c3e}న పతకం"),
+			keywords: &[
+				"1వ స\u{c4d}థ\u{c3e}న పతకం",
+				"బంగ\u{c3e}రు",
+				"మ\u{c46}డల\u{c4d}",
+				"మ\u{c4a}దట\u{c3f} స\u{c4d}థ\u{c3e}నం",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("медал барои ҷои 1-ум"),
+			keywords: &["медал", "медал барои ҷои 1-ум", "тилло", "якум"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("เหร\u{e35}ยญทอง"),
+			keywords: &["ก\u{e35}ฬา", "ชนะ", "ทอง", "ท\u{e35}\u{e48} 1", "เหร\u{e35}ยญรางว\u{e31}ล"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("1ይ ደረጃ መዳልያ"),
+			keywords: &["1ይ", "መዳልያ", "መጀመርታ", "ቦታ", "ወርቂ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("1-nji ornuň medaly"),
+			keywords: &["1-nji ornuň medaly", "altyn", "birinji", "medal"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mētali fika ʻuluaki"),
+			keywords: &["mētali", "mētali fika ʻuluaki", "taha", "ʻuluaki"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("birincilik madalyası"),
+			keywords: &["Birincilik madalyası", "altın", "birinci", "birincilik madalyası", "madalya"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("بىرىنچىلىك مېدالى"),
+			keywords: &["ئالتۇن", "بىرىنچى", "بىرىنچىلىك مېدالى", "مېدال"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("золота медаль"),
+			keywords: &["золота медаль", "золото", "медаль", "місце", "перше"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("گولڈ میڈل"),
+			keywords: &["اول", "میڈل", "نمبر", "گولڈ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("oltin medal"),
+			keywords: &["birinchi o‘rin", "medal", "oltin"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("huy chương vàng"),
+			keywords: &["huy chương", "huy chương vàng", "nhất", "vàng"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("medaayu plaas 1"),
+			keywords: &["medaay", "medaayu plaas 1", "njëkk", "wurus"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("imbasa yendawo yoku-1"),
+			keywords: &["igolide", "imbasa", "imbasa yendawo yoku-1", "yokuqala"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Fadaka Ipo Akọkọ"),
+			keywords: &["Fadaka Ipo Akọkọ", "fádákà", "góòlù", "àkọ\u{301}kọ\u{301}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Fadaka Ipo Akɔkɔ"),
+			keywords: &["Fadaka Ipo Akɔkɔ", "fádákà", "góòlù", "àkɔ\u{301}kɔ\u{301}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("金牌"),
+			keywords: &["獎牌", "第一", "金", "金牌"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("金牌"),
+			keywords: &["奖牌", "第一", "金", "金牌"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("金牌"),
+			keywords: &["奖牌", "第一", "第一名奖牌", "金牌"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("金牌"),
+			keywords: &["冠軍", "第一名", "金牌"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["一", "冠軍", "獎牌", "獎章", "第一位", "第一名", "金牌", "首位"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("indodo yendawo yokuqala"),
+			keywords: &["igolide", "indodo yendawo yokuqala", "indondo", "qala"],
+		},
+	],
 };
 #[doc = "🏅"]
 pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
@@ -916,896 +2648,6 @@ pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🥇"]
-pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
-	glyph:                "🥇",
-	codepoint:            &[129351u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-	name:                 "1st place medal",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::AwardMedal,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("goudmedalje"),
-			keywords: &["eerste", "goud", "goudmedalje", "kampioen", "medalje", "sport", "wenner"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የ1ኛ ስፍራ ሜዳሊያ"),
-			keywords: &["1ኛ", "ሜዳሊያ", "ሜዳልያ", "አሸናፊ", "አንደኛ", "ወርቅ", "የ1ኛ ስፍራ ሜዳሊያ", "የወርቅ ሜዳልያ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ميدالية مركز أول"),
-			keywords: &["أول", "ذهبية", "ميدالية", "ميدالية مركز أول", "١"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("১ম স\u{9cd}থ\u{9be}নৰ পদক"),
-			keywords: &["পদক", "প\u{9cd}ৰথম", "সোণ", "১ম স\u{9cd}থ\u{9be}নৰ পদক"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qızıl medal"),
-			keywords: &["1-ci yer", "qalib", "qızıl medal", "yarışma"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("залаты медаль"),
-			keywords: &["залаты медаль", "золата", "медаль", "першае месца"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("медал за първо място"),
-			keywords: &["злато", "медал", "медал за първо място", "първи", "първо"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("প\u{9cd}রথম স\u{9cd}থ\u{9be}নের পদক"),
-			keywords: &[
-				"পদক",
-				"প\u{9cd}রথম",
-				"প\u{9cd}রথম স\u{9cd}থ\u{9be}নের পদক",
-				"ফ\u{9be}র\u{9cd}স\u{9cd}ট",
-				"মেডেল",
-				"মোন\u{9be}র",
-				"সোন\u{9be}র পদক",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("medalenn aour"),
-			keywords: &["aour", "medalenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("prvo mjesto"),
-			keywords: &["medalja", "prva", "prvi", "prvo mjesto", "zlato"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("medalla d’or"),
-			keywords: &["medalla", "medalla d’or", "or", "posició", "primer"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎢᎬᏱᎢ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ"),
-			keywords: &["ᎠᏔᎷᎩᏍᎩ", "ᎠᏕᎳ ᏓᎶᏂᎨ", "ᎢᎬᏱᎢ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ", "ᎢᎬᏱᏱ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("medaile za 1. místo"),
-			keywords: &[
-				"medaile",
-				"medaile za 1. místo",
-				"místo",
-				"první",
-				"trikolóra",
-				"vyhrát",
-				"vítězství",
-				"zlato",
-				"zlatá medaile",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("medal aur"),
-			keywords: &["aur", "cyntaf", "medal"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("guldmedalje"),
-			keywords: &["førsteplads", "førstepræmie", "guld", "guldmedalje", "medalje", "vinder"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Goldmedaille"),
-			keywords: &["Erster", "Gewinn", "Goldmedaille", "Medaille 1. Platz"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μετάλλιο 1ης θέσης"),
-			keywords: &["μετάλλιο", "μετάλλιο 1ης θέσης", "πρώτος", "χρυσό"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("1st place medal"),
-			keywords: &["1st", "first", "gold", "medal", "place"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("medalla de oro"),
-			keywords: &["medalla", "medalla de oro", "oro", "primero"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("medalla de primer lugar"),
-			keywords: &[
-				"ganador",
-				"medalla",
-				"medalla de oro",
-				"medalla de primer lugar",
-				"oro",
-				"primero",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("kuldmedal"),
-			keywords: &["esimene", "koht", "kuld", "medal", "võit"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("1. postuaren domina"),
-			keywords: &["1. postuaren domina", "domina", "lehen", "urre"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("مدال طلا"),
-			keywords: &["اول", "جایگاه اول", "سکوی اول", "طلا", "مدال", "نخست", "نفر اول"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kultamitali"),
-			keywords: &["ensimmäinen", "kulta", "kultamitali", "mitali", "voittaja"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("medalyang 1st place"),
-			keywords: &["ginto", "medalya", "medalyang 1st place", "una"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gullmedalja"),
-			keywords: &["gull", "gullmedalja", "medalja"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("médaille d’or"),
-			keywords: &["1er", "médaille", "médaille d’or", "or", "premier"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["1er", "1re", "médaille", "or", "première place"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("bonn óir"),
-			keywords: &["1", "1ú", "an chéad áit", "bonn", "bonn óir", "buaiteoir", "ór", "órga"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bonn a’ chiad àite"),
-			keywords: &["bonn", "bonn a’ chiad àite", "chiad", "ciad", "òr"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("medalla de ouro"),
-			keywords: &[
-				"gañador",
-				"gañadora",
-				"medalla",
-				"medalla de ouro",
-				"ouro",
-				"primeira",
-				"primeiro",
-			],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{ac1}વર\u{acd}ણ પદક"),
-			keywords: &[
-				"ચ\u{a82}દ\u{acd}રક",
-				"જીત",
-				"પદક",
-				"પહ\u{ac7}લ\u{ac1}\u{a82}",
-				"વિજય",
-				"સ\u{ac1}વર\u{acd}ણ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("medal na farko"),
-			keywords: &[
-				"gwal",
-				"kyauta",
-				"lamba ta ɗaya",
-				"lambar yabo",
-				"lambar zinare",
-				"medal",
-				"medal na farko",
-				"na farko",
-				"na ɗaya",
-				"ta ɗaya",
-				"zinare",
-				"zinari",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("medal na farko"),
-			keywords: &[
-				"gwal",
-				"kyauta",
-				"lamba ta ɗaya",
-				"lambar yabo",
-				"lambar zinare",
-				"medal",
-				"medal na farko",
-				"na farko",
-				"na ɗaya",
-				"ta ɗaya",
-				"zinare",
-				"zinari",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מדליית זהב"),
-			keywords: &["הצטיינות", "מדליית זהב", "מקום ראשון"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{94d}वर\u{94d}ण पदक"),
-			keywords: &["पदक", "पहला", "प\u{94d}रथम", "स\u{94d}वर\u{94d}ण"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zlatna medalja"),
-			keywords: &["medalja", "prva", "prvi", "zlatna medalja", "zlato"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("aranyérem"),
-			keywords: &["arany", "aranyérem", "első", "medál", "érem"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ոսկե մեդալ"),
-			keywords: &["առաջին", "մեդալ", "ոսկե մեդալ", "ոսկի"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("medali emas"),
-			keywords: &["emas", "juara", "medali", "peringkat", "pertama", "posisi", "satu"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("iheolu mmeri 1st"),
-			keywords: &["iheolu", "iheolu mmeri 1st", "mbụ", "ọla-èdò"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("gullverðlaun"),
-			keywords: &["fyrsta", "gull", "gullverðlaun", "sæti", "verðlaun"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("medaglia d’oro"),
-			keywords: &[
-				"medaglia",
-				"medaglia d’oro",
-				"numero 1",
-				"numero uno",
-				"oro",
-				"primo posto",
-				"sport",
-				"uno",
-				"vincere",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("金メダル"),
-			keywords: &["1位", "ゴールド", "メダル", "優勝", "金", "金メダル"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("medali juara ka-1"),
-			keywords: &["emas", "kasiji", "medali", "medali juara ka-1"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("1-ლი ადგილის მედალი"),
-			keywords: &["1-ლი ადგილის მედალი", "მედალი", "ოქრო", "პირველი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("cciɛa n umḍiq 1u"),
-			keywords: &["cciɛa n umḍiq 1u"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("алтын медаль"),
-			keywords: &["1", "1-орын", "алтын", "бірінші", "медаль", "орын"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("guldmedalje"),
-			keywords: &["førsteplads", "førstepræmie", "guld", "guldmedalje", "medalje", "vinder"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ម\u{17bd}យ"),
-			keywords: &[
-				"ទ\u{17b8}ម\u{17bd}យ",
-				"មាស",
-				"មេដាយ",
-				"មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ម\u{17bd}យ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಪ\u{ccd}ರಥಮ ಸ\u{ccd}ಥಾನದ ಪದಕ"),
-			keywords: &[
-				"ಚ\u{cbf}ನ\u{ccd}ನ",
-				"ಚ\u{cbf}ನ\u{ccd}ನದ ಪದಕ",
-				"ಪದಕ",
-				"ಪ\u{ccd}ರಥಮ",
-				"ಪ\u{ccd}ರಥಮ ಸ\u{ccd}ಥಾನದ ಪದಕ",
-				"ಮ\u{cc6}ಡಲ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("금메달"),
-			keywords: &["골드", "금메달", "메달", "일등"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("1ल\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक"),
-			keywords: &[
-				"1ल\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक",
-				"पदक",
-				"पयल\u{947}\u{902}",
-				"भा\u{902}गर",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("алтын медаль"),
-			keywords: &["алтын", "биринчи орун", "медаль"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Goldmedail"),
-			keywords: &["Gold", "Goldmedail", "Medail", "éischt Plaz"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ebc}ຽນທ\u{eb5} 1"),
-			keywords: &[
-				"ຄຳ",
-				"ທ\u{eb5}ໜ\u{eb5}\u{ec8}ງ",
-				"ຫ\u{ebc}ຽນ",
-				"ຫ\u{ebc}ຽນຄຳ",
-				"ຫ\u{ebc}ຽນທ\u{eb5} 1",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("1-osios vietos medalis"),
-			keywords: &["1-osios vietos medalis", "auksas", "medalis", "pirmoji"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("medaļa par 1. vietu"),
-			keywords: &["1. vieta", "medaļa", "medaļa par 1. vietu", "pirmā", "zelta"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("mētara wāhi 1"),
-			keywords: &["kōura", "mētara", "mētara wāhi 1", "tuatahi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("медал за прво место"),
-			keywords: &["златен", "злато", "медал", "медал за прво место", "прв", "прво", "прво место"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ"),
-			keywords: &[
-				"ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നം",
-				"ഒന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ",
-				"മെഡൽ",
-				"സ\u{d4d}വർണ\u{d4d}ണം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("1-р байрны медаль"),
-			keywords: &["1-р байрны медаль", "алт", "медаль", "нэгдүгээр"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("स\u{941}वर\u{94d}ण पदक"),
-			keywords: &["पदक", "प\u{94d}रथम", "स\u{941}वर\u{94d}ण", "स\u{94d}वर\u{94d}ण"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pingat tempat pertama"),
-			keywords: &["emas", "juara", "medal", "pertama", "pingat tempat pertama"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("midalja tal-1 post"),
-			keywords: &["l-ewwel", "midalja", "midalja tal-1 post", "tad-deheb"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပထမ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}"),
-			keywords: &[
-				"တ\u{1036}ဆ\u{102d}ပ\u{103a}",
-				"ပထမ",
-				"ပထမ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}",
-				"ရ\u{103d}\u{103e}ေ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}वर\u{94d}ण पदक"),
-			keywords: &["पदक", "पहिलो", "स\u{94d}वर\u{94d}ण"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("medaille 1e plaats"),
-			keywords: &[
-				"eerste",
-				"gewonnen",
-				"goud",
-				"gouden",
-				"medaille",
-				"medaille 1e plaats",
-				"winnaar",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("1ମ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ"),
-			keywords: &["1ମ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ", "ପଦକ", "ପ\u{b4d}ରଥମ", "ସ\u{b4d}ୱର\u{b4d}ଣ\u{b4d}ଣ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸ\u{a4b}ਨ\u{a47} ਦਾ ਤਮਗਾ"),
-			keywords: &["ਗ\u{a4b}ਲਡ", "ਤਮਗਾ", "ਪਹਿਲਾ", "ਮ\u{a48}ਡਲ", "ਸ\u{a4b}ਨ\u{a47} ਦਾ ਤਮਗਾ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("پہلے نمبر دا تمغہ"),
-			keywords: &["تمغہ", "سونا", "پہلا", "پہلے نمبر دا تمغہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("1st Plés Mẹ\u{301}dal"),
-			keywords: &["1st Plés Mẹ\u{301}dal", "Fẹ\u{301}st", "Gold", "Mẹ\u{301}dal"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("medal za 1. miejsce"),
-			keywords: &[
-				"medal",
-				"medal za 1. miejsce",
-				"pierwsze miejsce",
-				"sport",
-				"zawody",
-				"zwycięstwo",
-				"złoto",
-				"złoty medal",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د لومړي مقام مډال"),
-			keywords: &["د لومړي مقام مډال", "سره زر", "لومړی", "مډال"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("medalha de ouro"),
-			keywords: &["1o. lugar", "1º. lugar", "medalha", "ouro", "vitória"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("medalha de 1.º lugar"),
-			keywords: &[
-				"1º. lugar",
-				"medalha",
-				"medalha de 1.º lugar",
-				"medalha de ouro",
-				"ouro",
-				"primeiro",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("medalla 1qi kitipaq"),
-			keywords: &["hukñiqi", "medalla", "medalla 1qi kitipaq", "quri"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("medalie locul I"),
-			keywords: &["aur", "locul întâi", "medalie", "medalie locul I", "primul", "primul loc"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-1062"), keywords: &["E10-1062"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("золотая медаль"),
-			keywords: &[
-				"золотая медаль",
-				"золото",
-				"медаль",
-				"место",
-				"первое место",
-				"победа",
-				"победители",
-				"победитель",
-				"чемпион",
-				"чемпионы",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umudari w’umwanya wa 1"),
-			keywords: &["cya mbere", "umudali", "umudari w’umwanya wa 1", "zahabu"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("پهرين نمبر وارو تمغو"),
-			keywords: &["پهرين نمبر وارو تمغو", "پهريون، سون، تمغو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("1වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම"),
-			keywords: &[
-				"1වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම",
-				"පදක\u{dca}කම",
-				"පළ වැන\u{dd2}ය\u{dcf}",
-				"රත\u{dca}\u{200d}රන\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zlatá medaila"),
-			keywords: &[
-				"medaila",
-				"medaila za 1. miesto",
-				"miesto",
-				"prvé",
-				"titul",
-				"trikolóra",
-				"víťaz",
-				"víťazstvo",
-				"výhra",
-				"zlato",
-				"zlatá medaila",
-				"šampión",
-				"šport",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("zlata medalja"),
-			keywords: &["medalja", "prvo mesto", "zlata medalja", "zlato", "zmaga"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("bilada kaalinta koowaad"),
-			keywords: &["bilad", "bilada kaalinta koowaad", "dahab", "hore"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("medalje e vendit të parë"),
-			keywords: &["ar", "i artë", "i parë", "medalje", "medalje e vendit të parë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("златна медаља"),
-			keywords: &["злато", "медаља", "први"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zlatna medalja"),
-			keywords: &["medalja", "prvi", "zlato"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("guldmedalj"),
-			keywords: &["guld", "guldmedalj", "medalj", "segrare"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("nishani ya dhababu"),
-			keywords: &["dhahabu", "nafasi ya kwanza", "nishani", "nishani ya dhababu"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("முதல\u{bcd} பரிசு"),
-			keywords: &[
-				"பதக\u{bcd}கம\u{bcd}",
-				"பரிசு",
-				"முதல\u{bcd}",
-				"மெடல\u{bcd}",
-				"வெற\u{bcd}றிய\u{bbe}ளர\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("1వ స\u{c4d}థ\u{c3e}న పతకం"),
-			keywords: &[
-				"1వ స\u{c4d}థ\u{c3e}న పతకం",
-				"బంగ\u{c3e}రు",
-				"మ\u{c46}డల\u{c4d}",
-				"మ\u{c4a}దట\u{c3f} స\u{c4d}థ\u{c3e}నం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("медал барои ҷои 1-ум"),
-			keywords: &["медал", "медал барои ҷои 1-ум", "тилло", "якум"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("เหร\u{e35}ยญทอง"),
-			keywords: &["ก\u{e35}ฬา", "ชนะ", "ทอง", "ท\u{e35}\u{e48} 1", "เหร\u{e35}ยญรางว\u{e31}ล"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("1ይ ደረጃ መዳልያ"),
-			keywords: &["1ይ", "መዳልያ", "መጀመርታ", "ቦታ", "ወርቂ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("1-nji ornuň medaly"),
-			keywords: &["1-nji ornuň medaly", "altyn", "birinji", "medal"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mētali fika ʻuluaki"),
-			keywords: &["mētali", "mētali fika ʻuluaki", "taha", "ʻuluaki"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("birincilik madalyası"),
-			keywords: &["Birincilik madalyası", "altın", "birinci", "birincilik madalyası", "madalya"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("بىرىنچىلىك مېدالى"),
-			keywords: &["ئالتۇن", "بىرىنچى", "بىرىنچىلىك مېدالى", "مېدال"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("золота медаль"),
-			keywords: &["золота медаль", "золото", "медаль", "місце", "перше"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("گولڈ میڈل"),
-			keywords: &["اول", "میڈل", "نمبر", "گولڈ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("oltin medal"),
-			keywords: &["birinchi o‘rin", "medal", "oltin"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("huy chương vàng"),
-			keywords: &["huy chương", "huy chương vàng", "nhất", "vàng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("medaayu plaas 1"),
-			keywords: &["medaay", "medaayu plaas 1", "njëkk", "wurus"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("imbasa yendawo yoku-1"),
-			keywords: &["igolide", "imbasa", "imbasa yendawo yoku-1", "yokuqala"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Fadaka Ipo Akọkọ"),
-			keywords: &["Fadaka Ipo Akọkọ", "fádákà", "góòlù", "àkọ\u{301}kọ\u{301}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Fadaka Ipo Akɔkɔ"),
-			keywords: &["Fadaka Ipo Akɔkɔ", "fádákà", "góòlù", "àkɔ\u{301}kɔ\u{301}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("金牌"),
-			keywords: &["獎牌", "第一", "金", "金牌"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("金牌"),
-			keywords: &["奖牌", "第一", "金", "金牌"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("金牌"),
-			keywords: &["奖牌", "第一", "第一名奖牌", "金牌"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("金牌"),
-			keywords: &["冠軍", "第一名", "金牌"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["一", "冠軍", "獎牌", "獎章", "第一位", "第一名", "金牌", "首位"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("indodo yendawo yokuqala"),
-			keywords: &["igolide", "indodo yendawo yokuqala", "indondo", "qala"],
-		},
-	],
-};
 #[doc = "🥈"]
 pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
 	glyph:                "🥈",
@@ -2634,848 +3476,6 @@ pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("indondo yendawo yesibili"),
 			keywords: &["bili", "indondo", "indondo yendawo yesibili", "isiliva"],
-		},
-	],
-};
-#[doc = "🥉"]
-pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
-	glyph:                "🥉",
-	codepoint:            &[129353u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-	name:                 "3rd place medal",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::AwardMedal,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("bronsmedalje"),
-			keywords: &["atletiek", "brons", "bronsmedalje", "derde", "medalje", "sport"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የ3ኛ ስፍራ ሜዳሊያ"),
-			keywords: &["መዳብ", "ሜዳሊያ", "ሜዳልያ", "ሶስተኛ", "የ3ኛ ስፍራ ሜዳሊያ", "የነሐስ ሜዳልያ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ميدالية مركز ثالث"),
-			keywords: &["المركز الثالث", "برونزية", "ثالث", "ميدالية", "ميدالية مركز ثالث", "٣"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("৩য\u{9bc} স\u{9cd}থ\u{9be}নৰ পদক"),
-			keywords: &[
-				"ত\u{9c3}তীয\u{9bc}",
-				"পদক",
-				"ব\u{9cd}ৰঞ\u{9cd}জ",
-				"৩য\u{9bc} স\u{9cd}থ\u{9be}নৰ পদক",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("bürünc medal"),
-			keywords: &["3-cü yer", "bürünc medal", "qalib", "yarışma"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("бронзавы медаль"),
-			keywords: &["бронза", "бронзавы медаль", "медаль", "трэцяе месца"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("медал за трето място"),
-			keywords: &["3", "бронз", "медал", "медал за трето място", "трети", "трето"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ত\u{9c3}তীয\u{9bc} স\u{9cd}থ\u{9be}নের পদক"),
-			keywords: &[
-				"ত\u{9c3}তীয\u{9bc}",
-				"ত\u{9c3}তীয\u{9bc} স\u{9cd}থ\u{9be}নের পদক",
-				"থ\u{9be}র\u{9cd}ড",
-				"ব\u{9cd}রোঞ\u{9cd}জ",
-				"মেডেল",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("medalenn arem"),
-			keywords: &["medalenn", "medalenn arem"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("treće mjesto"),
-			keywords: &["bronza", "medalja", "treća", "treće mjesto", "treći"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("medalla de bronze"),
-			keywords: &["bronze", "medalla", "medalla de bronze", "posició", "tercer"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏦᎢᏁ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ"),
-			keywords: &["ᎠᏔᎷᎩᏍᎩ", "ᏣᏱ", "ᏦᎢᏁ ᎤᏓᏒᏅᎢ ᏔᎷᎩᏍᎩ", "ᏦᏁᎢ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("medaile za 3. místo"),
-			keywords: &[
-				"bronz",
-				"bronzová medaile",
-				"medaile",
-				"medaile za 3. místo",
-				"místo",
-				"trikolóra",
-				"třetí",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("medal efydd"),
-			keywords: &["efydd", "medal", "trydydd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("bronzemedalje"),
-			keywords: &["bronze", "bronzemedalje", "medalje", "tredjeplads", "tredjepræmie", "vinder"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Bronzemedaille"),
-			keywords: &["Bronzemedaille", "Dritter", "Medaille 3. Platz"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μετάλλιο 3ης θέσης"),
-			keywords: &["μετάλλιο", "μετάλλιο 3ης θέσης", "τρίτος", "χάλκινο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("3rd place medal"),
-			keywords: &["3rd", "bronze", "medal", "place", "third"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("medalla de bronce"),
-			keywords: &["bronce", "medalla", "medalla de bronce", "tercero"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("medalla de tercer lugar"),
-			keywords: &["bronce", "medalla", "medalla de bronce", "medalla de tercer lugar", "tercero"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("pronksmedal"),
-			keywords: &["koht", "kolmas", "medal", "pronks"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("3. postuaren domina"),
-			keywords: &["3. postuaren domina", "brontze", "domina", "hirugarren"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("مدال برنز"),
-			keywords: &["برنز", "جایگاه سوم", "سوم", "سکوی سوم", "مدال", "نفر سوم"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("pronssimitali"),
-			keywords: &["kolmas", "mitali", "pronssi", "pronssimitali"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("medalyang 3rd place"),
-			keywords: &[
-				"3rd",
-				"3rd place",
-				"bronze",
-				"medalya",
-				"medalyang 3rd place",
-				"pangatlo",
-				"tanso",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("bronsumedalja"),
-			keywords: &["bronsa", "bronsumedalja", "medalja"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("médaille de bronze"),
-			keywords: &["3e", "bronze", "médaille", "médaille de bronze", "troisième"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["3e", "bronze", "médaille", "place", "troisième"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("bonn cré-umha"),
-			keywords: &["3", "3ú", "bonn", "cré-umha"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bonn an treas àite"),
-			keywords: &["bonn", "bonn an treas àite", "treas", "treasamh", "uamha"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("medalla de bronce"),
-			keywords: &["bronce", "medalla", "medalla de bronce", "terceira", "terceiro"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("કા\u{a82}સ\u{acd}ય પદક"),
-			keywords: &[
-				"કા\u{a82}સ\u{acd}ય",
-				"કા\u{a82}સ\u{acd}ય ચ\u{a82}દ\u{acd}રક",
-				"ત\u{acd}રીજ\u{ac1}",
-				"પદક",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("medal na uku"),
-			keywords: &[
-				"kyauta",
-				"lambar tagulla",
-				"lambar yabo",
-				"medal",
-				"medal na uku",
-				"na uku",
-				"tagulla",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("medal na uku"),
-			keywords: &[
-				"kyauta",
-				"lambar tagulla",
-				"lambar yabo",
-				"medal",
-				"medal na uku",
-				"na uku",
-				"tagulla",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מדליית ארד"),
-			keywords: &["מדליית ארד", "מקום שלישי"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("का\u{902}स\u{94d}य पदक"),
-			keywords: &["का\u{902}स\u{94d}य", "तीसरा", "पदक"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("brončana medalja"),
-			keywords: &["bronca", "brončana medalja", "medalja", "treća", "treći"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("bronzérem"),
-			keywords: &["bronz", "bronzérem", "harmadik", "medál", "érem"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("բրոնզե մեդալ"),
-			keywords: &["բրոնզ", "բրոնզե մեդալ", "երրորդ", "մեդալ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("medali perunggu"),
-			keywords: &["juara", "ketiga", "medali", "peringkat", "perunggu", "posisi", "tiga"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("iheolu mmeri 3rd"),
-			keywords: &["bronzu", "iheolu", "iheolu mmeri 3rd", "nke atọ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("bronsverðlaun"),
-			keywords: &["brons", "bronsverðlaun", "sæti", "verðlaun", "þriðja"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("medaglia di bronzo"),
-			keywords: &[
-				"bronzo",
-				"gara",
-				"medaglia",
-				"medaglia 3",
-				"medaglia di bronzo",
-				"sport",
-				"terzo",
-				"terzo posto",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("銅メダル"),
-			keywords: &["3位", "ブロンズ", "メダル", "銅", "銅メダル"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("medali juara ka-3"),
-			keywords: &["katelu", "medali", "medali juara ka-3", "tembaga"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მე-3 ადგილი მედალი"),
-			keywords: &["ბრინჯაო", "მე-3 ადგილი მედალი", "მედალი", "მესამე"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("cciɛa n umḍiq wis 3"),
-			keywords: &["cciɛa n umḍiq wis 3"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("қола медаль"),
-			keywords: &["3", "3-орын", "медаль", "орын", "қола", "үшінші"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("bronzemedalje"),
-			keywords: &["bronzemedalje", "medalje", "tredjeplads", "tredjepræmie", "vinder"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ប\u{17b8}"),
-			keywords: &[
-				"ទ\u{17b8}ប\u{17b8}",
-				"មេដាយ",
-				"មេដាយល\u{17c6}ដាប\u{17cb}ទ\u{17b8}ប\u{17b8}",
-				"ស\u{17c6}រ\u{17b7}ទ\u{17d2}ធ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ತೃತ\u{cc0}ಯ ಸ\u{ccd}ಥಾನದ ಪದಕ"),
-			keywords: &["ಕಂಚ\u{cbf}ನ ಪದಕ", "ಕಂಚು", "ತೃತ\u{cc0}ಯ", "ತೃತ\u{cc0}ಯ ಸ\u{ccd}ಥಾನದ ಪದಕ", "ಪದಕ"],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("동메달"),
-			keywords: &["동메달", "메달", "브론즈", "삼등"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("3ऱ\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक"),
-			keywords: &[
-				"3ऱ\u{94d}या स\u{941}वात\u{947}च\u{947}\u{902} पदक",
-				"कास\u{94d}य",
-				"तिसर\u{947}\u{902}",
-				"पदक",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("коло медаль"),
-			keywords: &["коло", "медаль", "үчүнчү орун"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Bronzemedail"),
-			keywords: &["Bronze", "Bronzemedail", "Medail", "drëtt Plaz"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫຽນທອງແດງ"),
-			keywords: &[
-				"ທອງແດງ",
-				"ທ\u{eb5}ສາມ",
-				"ຫ\u{ebc}ຽນ",
-				"ຫ\u{ebc}ຽນທອງແດງ",
-				"ຫ\u{ebc}ຽນທ\u{eb5} 3",
-				"ຫຽນທອງແດງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("3-osios vietos medalis"),
-			keywords: &["3-osios vietos medalis", "bronza", "medalis", "trečioji"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("medaļa par 3. vietu"),
-			keywords: &["bronzas", "medaļa", "medaļa par 3. vietu", "trešā"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("mētara wāhi 3"),
-			keywords: &["mētara", "mētara wāhi 3", "parāhe", "tuatoru"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("медал за трето место"),
-			keywords: &["бронза", "медал", "медал за трето место", "трет", "трето", "трето место"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ"),
-			keywords: &[
-				"മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നം",
-				"മ\u{d42}ന\u{d4d}ന\u{d3e}ം സ\u{d4d}ഥ\u{d3e}നമെഡൽ",
-				"മെഡൽ",
-				"വെങ\u{d4d}കലം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("3-р байрны медаль"),
-			keywords: &["3-р байрны медаль", "гуравдугаар", "медаль", "хүрэл"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("का\u{902}स\u{94d}य पदक"),
-			keywords: &[
-				"का\u{902}स\u{94d}य",
-				"तिसरा न\u{902}बर",
-				"त\u{943}तीय",
-				"त\u{943}तीय क\u{94d}रमा\u{902}क",
-				"त\u{94d}रितिय",
-				"पदक",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pingat tempat ketiga"),
-			keywords: &["gangsa", "ketiga", "medal", "medal tempat ke-3", "pingat tempat ketiga"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("midalja tat-3 post"),
-			keywords: &["bronż", "it-tielet", "midalja", "midalja tat-3 post"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("တတ\u{102d}ယ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}"),
-			keywords: &[
-				"ကြေး",
-				"တတ\u{102d}ယ",
-				"တတ\u{102d}ယ ဆ\u{102f}တ\u{1036}ဆ\u{102d}ပ\u{103a}",
-				"တ\u{1036}ဆ\u{102d}ပ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("कास\u{94d}य पदक"),
-			keywords: &["कास\u{94d}य", "त\u{947}स\u{94d}रो", "पदक"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("medaille 3e plaats"),
-			keywords: &["brons", "bronzen", "derde", "derde plaats", "medaille", "medaille 3e plaats"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("3ୟ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ"),
-			keywords: &["3ୟ ସ\u{b4d}ଥ\u{b3e}ନ ପଦକ", "ତ\u{b43}ତୀୟ", "ପଦକ", "ବ\u{b4d}ରୋଞ\u{b4d}ଜ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਕਾ\u{a02}ਸੀ ਦਾ ਤਮਗਾ"),
-			keywords: &["ਕਾ\u{a02}ਸੀ ਦਾ ਤਮਗਾ", "ਤਮਗਾ", "ਤੀਜਾ", "ਬਰ\u{a4c}\u{a02}ਜ", "ਮ\u{a48}ਡਲ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("تیجے نمبر دا تمغہ"),
-			keywords: &["تمغہ", "تیجا", "تیجے نمبر دا تمغہ", "کانسی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("3rd Plés Mẹ\u{301}dal"),
-			keywords: &["3rd Plés Mẹ\u{301}dal", "Bronz", "Mẹ\u{301}dal", "Tẹd"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("medal za 3. miejsce"),
-			keywords: &[
-				"brąz",
-				"brązowy medal",
-				"medal",
-				"medal za 3. miejsce",
-				"sport",
-				"trzecie miejsce",
-				"zawody",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د دریم مقام مډال"),
-			keywords: &["د دریم مقام مډال", "دريم", "ميډال", "پيتل"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("medalha de bronze"),
-			keywords: &["3o. lugar", "3º. lugar", "bronze", "medalha", "terceiro"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("medalha de 3.º lugar"),
-			keywords: &[
-				"3º. lugar",
-				"bronze",
-				"medalha",
-				"medalha de 3.º lugar",
-				"medalha de bronze",
-				"terceiro",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("medalla 3qi kitipaq"),
-			keywords: &["bronce", "kimsañiqi", "medalla", "medalla 3qi kitipaq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("medalie locul III"),
-			keywords: &["al treilea", "bronz", "locul trei", "medalie", "medalie locul III"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-1064"), keywords: &["E10-1064"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("бронзовая медаль"),
-			keywords: &["бронза", "бронзовая медаль", "медаль", "третье место"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umudari w’umwanya wa 3"),
-			keywords: &["bronze", "cya gatatu", "umudali", "umudari w’umwanya wa 3"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ٽين نمبر وارو تمغو"),
-			keywords: &["ٽين نمبر وارو تمغو", "پتل، تمغو، ٽيون"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("3වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම\u{dca}"),
-			keywords: &[
-				"3වන ස\u{dca}ථ\u{dcf}න පදක\u{dca}කම\u{dca}",
-				"ත\u{dd4}න\u{dca} වැන\u{dd2}ය\u{dcf}",
-				"පදක\u{dca}කම",
-				"ලෝකඩ",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("bronzová medaila"),
-			keywords: &[
-				"bronz",
-				"bronzová medaila",
-				"medaila",
-				"medaila za 3. miesto",
-				"miesto",
-				"tretie",
-				"trikolóra",
-				"šport",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("bronasta medalja"),
-			keywords: &["bron", "bronasta medalja", "medalja", "tretje mesto"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("bilada kaalinta saddexaad"),
-			keywords: &["bilad", "bilada kaalinta saddexaad", "naxaas", "saddexaad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("medalje e vendit të tretë"),
-			keywords: &["bronz", "i tretë", "medalje", "medalje e vendit të tretë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("бронзана медаља"),
-			keywords: &["бронза", "медаља", "трећи"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("bronzana medalja"),
-			keywords: &["bronza", "medalja", "treći"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("bronsmedalj"),
-			keywords: &["brons", "bronsmedalj", "medalj", "tredje plats"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("nishani ya shaba"),
-			keywords: &["nafasi ya tatu", "nishani", "nishani ya shaba", "shaba"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மூன\u{bcd}ற\u{bbe}வது பரிசு"),
-			keywords: &["பதக\u{bcd}கம\u{bcd}", "பரிசு", "மூன\u{bcd}ற\u{bbe}வது"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("3వ స\u{c4d}థ\u{c3e}న పతకం"),
-			keywords: &[
-				"3వ స\u{c4d}థ\u{c3e}న పతకం",
-				"బ\u{c4d}ర\u{c4b}న\u{c4d}స\u{c4d}",
-				"మూడ\u{c4b} స\u{c4d}థ\u{c3e}నం",
-				"మ\u{c46}డల\u{c4d}",
-				"రజతం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("медал барои ҷои 3-юм"),
-			keywords: &["биринҷӣ", "медал", "медал барои ҷои 3-юм", "сеюм"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("เหร\u{e35}ยญทองแดง"),
-			keywords: &["ก\u{e35}ฬา", "ชนะ", "ทองแดง", "ท\u{e35}\u{e48} 3", "เหร\u{e35}ยญรางว\u{e31}ล"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("3ይ ደረጃ መዳልያ"),
-			keywords: &["3ይ", "መዳልያ", "ሳልሳይ", "ቦታ", "ነሓስ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("3-nji ornuň medaly"),
-			keywords: &["3-nji ornuň medaly", "bürünç", "medal", "üçünji"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mētali fika tolu"),
-			keywords: &["mētali", "mētali fika tolu", "tolu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("üçüncülük madalyası"),
-			keywords: &["bronz", "madalya", "Üçüncülük madalyası", "üçüncü", "üçüncülük madalyası"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئۈچىنچىلىك مېدالى"),
-			keywords: &["ئۈچىنچى", "ئۈچىنچىلىك مېدالى", "مىس", "مېدال"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("бронзова медаль"),
-			keywords: &["бронза", "бронзова медаль", "медаль", "місце", "спорт", "третє"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("برونز میڈل"),
-			keywords: &["برونز", "تیسرا", "میڈل", "نمبر"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("bronza medal"),
-			keywords: &["bronza", "medal", "uchinchi o‘rin"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("huy chương đồng"),
-			keywords: &["ba", "huy chương", "huy chương đồng", "đồng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("medaayu plaas 3"),
-			keywords: &["medaay", "medaayu plaas 3", "përëm", "ñatteel"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("imbasa yendawo yesi-3"),
-			keywords: &["imbasa", "imbasa yendawo yesi-3", "ubhedu", "yesithathu"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Fadaka Ipo Ẹkẹta"),
-			keywords: &["Fadaka Ipo Ẹkẹta", "bírónsì", "fàdákà", "ipò kẹta"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Fadaka Ipo Ɛkɛta"),
-			keywords: &["Fadaka Ipo Ɛkɛta", "bírónsì", "fàdákà", "ipò kɛta"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("銅牌"),
-			keywords: &["奬牌", "第三", "銅", "銅牌"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("铜牌"),
-			keywords: &["奖牌", "第三", "铜", "铜牌"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("铜牌"),
-			keywords: &["奖牌", "季军", "第三", "第三名奖牌", "铜牌"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("銅牌"),
-			keywords: &["季軍", "第三名", "銅牌"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["三", "季軍", "獎牌", "獎章", "第三名", "銅牌"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("indondo yendawo yesithathu"),
-			keywords: &["ibhulonzi", "indondo", "indondo yendawo yesithathu", "thathu"],
 		},
 	],
 };

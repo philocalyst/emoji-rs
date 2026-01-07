@@ -1425,719 +1425,6 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🦳"]
-pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
-	glyph:                "🦳",
-	codepoint:            &[129459u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
-	name:                 "white hair",
-	group:                crate::Group::Component,
-	subgroup:             crate::Subgroup::HairStyle,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("wit hare"),
-			keywords: &["grys", "hare", "oud", "wit"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ነጭ ጸጉር"),
-			keywords: &["ነጭ", "አሮጌ", "ገብስማ", "ጸጉር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("شعر أبيض"),
-			keywords: &["أبيض", "رمادي", "شعر", "قديم"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("বগ\u{9be} চ\u{9c1}লি"),
-			keywords: &["চ\u{9c1}লি", "পক\u{9be} চ\u{9c1}লি", "বগ\u{9be}", "বয\u{9bc}স\u{9cd}ক"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("ağ saç"),
-			keywords: &["ağ", "boz", "qoca", "saç"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("сівыя валасы"),
-			keywords: &["белы", "валасы", "стары", "сівы", "сівыя валасы"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("побеляла коса"),
-			keywords: &["бяла", "коса", "побеляла коса", "сива", "старост"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9be}দ\u{9be} চ\u{9c1}ল"),
-			keywords: &["চ\u{9c1}ল", "ধ\u{9c2}সর", "প\u{9cd}রবীণ", "স\u{9be}দ\u{9be}"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("blev gwenn"),
-			keywords: &["blev", "blev gwenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("sijeda kosa"),
-			keywords: &["sijed", "sijeda", "sijeda kosa", "sivo", "star", "stara"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("cabells blancs"),
-			keywords: &["ancià", "blanc", "cabells", "cabells blancs", "gris"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏁᎦ ᎤᏍᏘᎦ"),
-			keywords: &["ᎠᎦᏴᎵ", "ᎠᏍᏘᏰᏅ", "ᎤᏁᎦ", "ᎤᏁᎦ ᎤᏍᏘᎦ", "ᎤᏍᎪᎸ ᏌᎪᏂᎨ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("bílé vlasy"),
-			keywords: &["bílé vlasy", "stáří", "šediny", "šedé vlasy"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("gwallt gwyn"),
-			keywords: &["gwallt", "gwyn", "hen", "llwyd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("hvidt hår"),
-			keywords: &["gammel", "grå", "hvid", "hvidt hår", "hår"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("weißes Haar"),
-			keywords: &["grau", "graues Haar", "grauhaarig", "weißes Haar", "weißhaarig"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("weisses Haar"),
-			keywords: &["weisses Haar"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("άσπρα μαλλιά"),
-			keywords: &["άσπρα", "γκρίζα", "ηλικιωμένος", "λευκά", "μαλλιά"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("white hair"),
-			keywords: &["gray", "hair", "old", "white"],
-		},
-		#[cfg(feature = "en_001")]
-		crate::Annotation {
-			lang:     "en_001",
-			tts:      None,
-			keywords: &["grey", "hair", "old", "white"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["gray", "grey", "hair", "old", "white"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("pelo blanco"),
-			keywords: &["blanco", "cana", "gris", "pelo", "viejo"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("pelo canoso"),
-			keywords: &["blanco", "cana", "gris", "pelo", "pelo canoso", "viejo"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("heledad juuksed"),
-			keywords: &["hallid", "heledad juuksed", "juuksed", "valged", "vana"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ilezuri"),
-			keywords: &["gris", "ile", "ilezuri", "zahar", "zuri"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("موسفید"),
-			keywords: &["خاکستری", "سفید", "موسفید", "موی خاکستری", "موی سفید", "پیر"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("valkotukkainen"),
-			keywords: &["harmaa", "hiukset", "valkoinen", "valkotukkainen", "vanha"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("puting buhok"),
-			keywords: &["buhok", "kulay abo", "matanda", "puti", "puting buhok"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("hvítt hár"),
-			keywords: &["gamal", "gomul", "hvítt", "hár"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("cheveux blancs"),
-			keywords: &["blancs", "cheveux", "gris", "vieux"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("gruaig bhán"),
-			keywords: &["bán", "gruaig", "gruaig bhán", "liath", "sean"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("falt bàn"),
-			keywords: &["bàn", "falt", "liath", "sean"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("pelo cano"),
-			keywords: &["branco", "canas", "gris"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સફ\u{ac7}દ વાળ"),
-			keywords: &["ગ\u{acd}ર\u{ac7}", "ઘરડા\u{a82}", "વાળ", "સફ\u{ac7}દ"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("farin gashi"),
-			keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("farin gashi"),
-			keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("שיער לבן"),
-			keywords: &["אפור", "זקן", "לבן", "שיער"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("सफ\u{93c}\u{947}द बाल"),
-			keywords: &["बाल", "भ\u{942}रा", "व\u{943}द\u{94d}ध", "सफ\u{93c}\u{947}द"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("sijeda kosa"),
-			keywords: &["bijela", "kosa", "sijeda", "star"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("ősz haj"),
-			keywords: &["haj", "idős", "szürke", "ősz"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("սպիտակահեր"),
-			keywords: &["ալեհեր", "ծեր", "մազեր", "սպիտակ", "սպիտակահեր"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("capillos blanc"),
-			keywords: &["blanc", "capillos", "gris", "vetere", "vetule"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("rambut putih"),
-			keywords: &["abu-abu", "putih", "rambut", "tua"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ntutu isi ocha"),
-			keywords: &["awo", "ntutu isi", "ntutu isi ocha", "ocha", "ochie"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hvítt hár"),
-			keywords: &["gamalt", "grátt hár", "hvítt", "hár"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("capelli bianchi"),
-			keywords: &["anziani", "bianchi", "capelli", "grigi"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("白髪"),
-			keywords: &["グレー", "年配", "白髪", "老人", "高齢者"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("rambut putih"),
-			keywords: &["putih", "rambut", "tuwa", "uwan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("თეთრი თმა"),
-			keywords: &["თეთრი", "თმა", "მოხუცი", "ჭაღარა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("acekkuḥ\u{a0}amellal"),
-			keywords: &["acekkuḥ\u{a0}amellal"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ақ шаш"),
-			keywords: &["ақ", "сұр", "шаш", "қарт"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សក\u{17cb}ស"),
-			keywords: &["ចាស\u{17cb}", "ស", "សក\u{17cb}", "សក\u{17cb}ស", "ស\u{17d2}ក\u{17bc}វ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cbf}ಳ\u{cbf} ಕ\u{cc2}ದಲು"),
-			keywords: &["ಕ\u{cc2}ದಲು", "ಬ\u{cbf}ಳ\u{cbf}", "ಬ\u{cc2}ದು", "ಹಳ\u{cc6}ಯ"],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("백발"),
-			keywords: &["머리", "백발", "은발", "장년"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("धव\u{947} क\u{947}\u{902}स"),
-			keywords: &[
-				"क\u{947}\u{902}स",
-				"जाण\u{94d}ट\u{947}\u{902}",
-				"धव\u{947} क\u{947}\u{902}स",
-				"धव\u{947}\u{902}",
-				"पिक\u{947} क\u{947}\u{902}स",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("ак чач"),
-			keywords: &["ак", "буурул", "кары", "чач"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຜ\u{ebb}ມຫງອກ"),
-			keywords: &[
-				"ຂາວ",
-				"ຜ\u{ebb}ມຫງອກ",
-				"ສ\u{eb5}ເທ\u{ebb}າ",
-				"ເສ\u{eb1}\u{ec9}ນຜ\u{ebb}ມ",
-				"ແກ\u{ec8}",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("žili plaukai"),
-			keywords: &["baltas", "pilkas", "plaukai", "senas", "žili plaukai"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("sirmi mati"),
-			keywords: &["mati", "pelēki", "sirmi", "vecs"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("бела коса"),
-			keywords: &["бела", "коса", "седа", "стар"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വെള\u{d4d}ള മ\u{d41}ടി"),
-			keywords: &["ഗ\u{d4d}രേ", "മ\u{d41}ടി", "വയസ\u{d4d}സ\u{d3e}യത\u{d4d}", "വെള\u{d4d}ള"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("цагаан үс"),
-			keywords: &["настай", "саарал", "цагаан", "үс"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पा\u{902}ढर\u{947} क\u{947}स"),
-			keywords: &["करड\u{947}", "क\u{947}स", "पा\u{902}ढर\u{947}", "पिकल\u{947}ल\u{947}"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("rambut putih"),
-			keywords: &["beruban", "putih", "rambut", "tua"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဆ\u{1036}ပင\u{103a}ဖြ\u{1030}"),
-			keywords: &[
-				"ဆ\u{1036}ပင\u{103a}",
-				"ဆ\u{1036}ပင\u{103a}ဖြ\u{1030}",
-				"သက\u{103a}ကြ\u{102e}း",
-				"အဖြ\u{1030}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{947}तो कपाल"),
-			keywords: &["कपाल", "ख\u{948}रो", "प\u{941}रानो", "स\u{947}तो"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("wit haar"),
-			keywords: &["grijs", "haar", "oud", "wit"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["gamal", "grå", "grått hår", "hår", "kvit"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଧଳ\u{b3e} କେଶ"),
-			keywords: &["କେଶ", "ଗ\u{b4d}ରେ", "ଧଳ\u{b3e}", "ପ\u{b41}ର\u{b41}ଣ\u{b3e}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਚਿ\u{a71}ਟ\u{a47} ਵਾਲ"),
-			keywords: &["ਗ\u{a4d}ਰ\u{a47}", "ਚਿ\u{a71}ਟ\u{a47}", "ਵਧਦੀ ਉਮਰ", "ਵਾਲ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Waít Hea"),
-			keywords: &["Gre", "Hea", "Old", "Wait", "Waít Hea"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("białe włosy"),
-			keywords: &["białe", "siwe", "starsza", "starszy", "włosy"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("سپين ويښتان"),
-			keywords: &["بوډا", "خړ", "سپين", "ويښتان"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("cabelo branco"),
-			keywords: &["branco", "cabelo", "grisalho", "velho"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["brancas", "branco", "cabelho grisalho", "cabelo", "velho"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("yuraq chukcha"),
-			keywords: &["chukcha", "machu", "uqi", "yuraq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("păr alb"),
-			keywords: &["alb", "bătrân", "grizonat", "păr"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E11-036"), keywords: &["E11-036"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("седые волосы"),
-			keywords: &["волосы", "пожилой", "седина", "седой", "седые волосы", "старый"],
-		},
-		#[cfg(feature = "sat")]
-		crate::Annotation {
-			lang: "sat", tts: Some("ᱯᱩᱸᱱᱰ ᱩᱵ"), keywords: &["ᱯᱩᱸᱱᱰ ᱩᱵ"]
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اڇا وار"),
-			keywords: &["اڇا وار", "اڇو", "وار", "پراڻا", "ڀورا"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dd4}ද\u{dd4} කොන\u{dca}ඩය"),
-			keywords: &[
-				"අළ\u{dd4}",
-				"කොණ\u{dca}ඩය",
-				"වයස",
-				"ස\u{dd4}ද\u{dd4}",
-				"ස\u{dd4}ද\u{dd4} කොන\u{dca}ඩය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("sivé vlasy"),
-			keywords: &["biely", "sivé vlasy", "starý"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("sivi lasje"),
-			keywords: &["bel", "lasje", "siv", "sivi lasje", "star"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("caddaan"),
-			keywords: &["caddaan", "gaboobay", "sibidhi", "timo", "timo cad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("flokë të bardha"),
-			keywords: &["flokë", "flokë të bardhë", "gri", "i moshuar"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("седа коса"),
-			keywords: &["бела", "коса", "седа", "старо"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("сиједа коса"),
-			keywords: &["бијела", "коса", "сиједа", "старо"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("seda kosa"),
-			keywords: &["bela", "kosa", "seda", "staro"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("sijeda kosa"),
-			keywords: &["bijela", "kosa", "sijeda", "staro"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("vithårig"),
-			keywords: &["gammal", "grått hår", "vithårig", "vitt hår"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("nywele nyeupe"),
-			keywords: &["kijivu", "mzee", "nyeupe", "nywele"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வெள\u{bcd}ளை முடி"),
-			keywords: &["நரை", "பழுப\u{bcd}பு", "முடி", "வெள\u{bcd}ளை"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("త\u{c46}ల\u{c4d}లజుట\u{c4d}టు"),
-			keywords: &[
-				"జుట\u{c4d}టు",
-				"త\u{c46}లుపు",
-				"త\u{c46}ల\u{c4d}లజుట\u{c4d}టు",
-				"న\u{c46}ర\u{c3f}స\u{c3f}ప\u{c4b}వడం",
-				"ముసల\u{c3f}తనం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ผมขาว"),
-			keywords: &["ขาว", "ผม", "ผมขาว", "หงอก", "แก\u{e48}"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጻዕዳ ጸጉሪ"),
-			keywords: &["ኣረጊት", "ግራጭ", "ጸጉሪ", "ፃዕዳ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ak saç"),
-			keywords: &["ak", "garry", "saç", "çal"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("ʻulu hinā"), keywords: &["hinā", "ʻulu"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("beyaz saç"),
-			keywords: &["beyaz", "gri", "saç", "yaşlı"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сиве волосся"),
-			keywords: &["білий", "волосся", "сиве волосся", "сивина", "старий"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سفید بال"),
-			keywords: &["بال", "بوڑھا", "خاکستری", "سفید"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("oqargan soch"),
-			keywords: &["oq", "oqargan", "qari", "soch"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("tóc trắng"),
-			keywords: &["bạc", "trắng", "tóc", "xám"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("irun funfun"),
-			keywords: &["arúgbó", "funfun", "gíréè", "irun"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("irun funfun"),
-			keywords: &["arúgbó", "funfun", "gíréè", "irun"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("白色頭髮"),
-			keywords: &["灰色", "白色", "白色頭髮", "老", "頭髮"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("白色头发"),
-			keywords: &["头发", "灰色", "白色", "白色头发", "老"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("白发"),
-			keywords: &["头发", "年老", "灰色", "白发", "白色"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("白髮"),
-			keywords: &["灰色", "白色", "白髮", "老", "頭髮"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("白頭髮"),
-			keywords: &["灰色", "白色", "白頭髮", "老", "頭髮"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("izinwele ezimpunga"),
-			keywords: &["gray", "hair", "izinwele ezimhlophe", "izinwele ezimpunga", "old", "white"],
-		},
-	],
-};
 #[doc = "🦲"]
 pub const BALD: crate::Emoji = crate::Emoji {
 	glyph:                "🦲",
@@ -2895,6 +2182,719 @@ pub const BALD: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("imbungculu"),
 			keywords: &["chemotherapy", "hairless", "imbungculu", "no hair", "shaven"],
+		},
+	],
+};
+#[doc = "🦳"]
+pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
+	glyph:                "🦳",
+	codepoint:            &[129459u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
+	name:                 "white hair",
+	group:                crate::Group::Component,
+	subgroup:             crate::Subgroup::HairStyle,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("wit hare"),
+			keywords: &["grys", "hare", "oud", "wit"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ነጭ ጸጉር"),
+			keywords: &["ነጭ", "አሮጌ", "ገብስማ", "ጸጉር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("شعر أبيض"),
+			keywords: &["أبيض", "رمادي", "شعر", "قديم"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("বগ\u{9be} চ\u{9c1}লি"),
+			keywords: &["চ\u{9c1}লি", "পক\u{9be} চ\u{9c1}লি", "বগ\u{9be}", "বয\u{9bc}স\u{9cd}ক"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("ağ saç"),
+			keywords: &["ağ", "boz", "qoca", "saç"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("сівыя валасы"),
+			keywords: &["белы", "валасы", "стары", "сівы", "сівыя валасы"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("побеляла коса"),
+			keywords: &["бяла", "коса", "побеляла коса", "сива", "старост"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9be}দ\u{9be} চ\u{9c1}ল"),
+			keywords: &["চ\u{9c1}ল", "ধ\u{9c2}সর", "প\u{9cd}রবীণ", "স\u{9be}দ\u{9be}"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("blev gwenn"),
+			keywords: &["blev", "blev gwenn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("sijeda kosa"),
+			keywords: &["sijed", "sijeda", "sijeda kosa", "sivo", "star", "stara"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("cabells blancs"),
+			keywords: &["ancià", "blanc", "cabells", "cabells blancs", "gris"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏁᎦ ᎤᏍᏘᎦ"),
+			keywords: &["ᎠᎦᏴᎵ", "ᎠᏍᏘᏰᏅ", "ᎤᏁᎦ", "ᎤᏁᎦ ᎤᏍᏘᎦ", "ᎤᏍᎪᎸ ᏌᎪᏂᎨ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("bílé vlasy"),
+			keywords: &["bílé vlasy", "stáří", "šediny", "šedé vlasy"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("gwallt gwyn"),
+			keywords: &["gwallt", "gwyn", "hen", "llwyd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("hvidt hår"),
+			keywords: &["gammel", "grå", "hvid", "hvidt hår", "hår"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("weißes Haar"),
+			keywords: &["grau", "graues Haar", "grauhaarig", "weißes Haar", "weißhaarig"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("weisses Haar"),
+			keywords: &["weisses Haar"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("άσπρα μαλλιά"),
+			keywords: &["άσπρα", "γκρίζα", "ηλικιωμένος", "λευκά", "μαλλιά"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("white hair"),
+			keywords: &["gray", "hair", "old", "white"],
+		},
+		#[cfg(feature = "en_001")]
+		crate::Annotation {
+			lang:     "en_001",
+			tts:      None,
+			keywords: &["grey", "hair", "old", "white"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["gray", "grey", "hair", "old", "white"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("pelo blanco"),
+			keywords: &["blanco", "cana", "gris", "pelo", "viejo"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("pelo canoso"),
+			keywords: &["blanco", "cana", "gris", "pelo", "pelo canoso", "viejo"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("heledad juuksed"),
+			keywords: &["hallid", "heledad juuksed", "juuksed", "valged", "vana"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ilezuri"),
+			keywords: &["gris", "ile", "ilezuri", "zahar", "zuri"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("موسفید"),
+			keywords: &["خاکستری", "سفید", "موسفید", "موی خاکستری", "موی سفید", "پیر"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("valkotukkainen"),
+			keywords: &["harmaa", "hiukset", "valkoinen", "valkotukkainen", "vanha"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("puting buhok"),
+			keywords: &["buhok", "kulay abo", "matanda", "puti", "puting buhok"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("hvítt hár"),
+			keywords: &["gamal", "gomul", "hvítt", "hár"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("cheveux blancs"),
+			keywords: &["blancs", "cheveux", "gris", "vieux"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("gruaig bhán"),
+			keywords: &["bán", "gruaig", "gruaig bhán", "liath", "sean"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("falt bàn"),
+			keywords: &["bàn", "falt", "liath", "sean"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("pelo cano"),
+			keywords: &["branco", "canas", "gris"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સફ\u{ac7}દ વાળ"),
+			keywords: &["ગ\u{acd}ર\u{ac7}", "ઘરડા\u{a82}", "વાળ", "સફ\u{ac7}દ"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("farin gashi"),
+			keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("farin gashi"),
+			keywords: &["fari", "farin gashi", "gashi", "launin toka", "tsoho"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("שיער לבן"),
+			keywords: &["אפור", "זקן", "לבן", "שיער"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("सफ\u{93c}\u{947}द बाल"),
+			keywords: &["बाल", "भ\u{942}रा", "व\u{943}द\u{94d}ध", "सफ\u{93c}\u{947}द"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("sijeda kosa"),
+			keywords: &["bijela", "kosa", "sijeda", "star"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("ősz haj"),
+			keywords: &["haj", "idős", "szürke", "ősz"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("սպիտակահեր"),
+			keywords: &["ալեհեր", "ծեր", "մազեր", "սպիտակ", "սպիտակահեր"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("capillos blanc"),
+			keywords: &["blanc", "capillos", "gris", "vetere", "vetule"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("rambut putih"),
+			keywords: &["abu-abu", "putih", "rambut", "tua"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ntutu isi ocha"),
+			keywords: &["awo", "ntutu isi", "ntutu isi ocha", "ocha", "ochie"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hvítt hár"),
+			keywords: &["gamalt", "grátt hár", "hvítt", "hár"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("capelli bianchi"),
+			keywords: &["anziani", "bianchi", "capelli", "grigi"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("白髪"),
+			keywords: &["グレー", "年配", "白髪", "老人", "高齢者"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("rambut putih"),
+			keywords: &["putih", "rambut", "tuwa", "uwan"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("თეთრი თმა"),
+			keywords: &["თეთრი", "თმა", "მოხუცი", "ჭაღარა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("acekkuḥ\u{a0}amellal"),
+			keywords: &["acekkuḥ\u{a0}amellal"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ақ шаш"),
+			keywords: &["ақ", "сұр", "шаш", "қарт"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សក\u{17cb}ស"),
+			keywords: &["ចាស\u{17cb}", "ស", "សក\u{17cb}", "សក\u{17cb}ស", "ស\u{17d2}ក\u{17bc}វ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cbf}ಳ\u{cbf} ಕ\u{cc2}ದಲು"),
+			keywords: &["ಕ\u{cc2}ದಲು", "ಬ\u{cbf}ಳ\u{cbf}", "ಬ\u{cc2}ದು", "ಹಳ\u{cc6}ಯ"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("백발"),
+			keywords: &["머리", "백발", "은발", "장년"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("धव\u{947} क\u{947}\u{902}स"),
+			keywords: &[
+				"क\u{947}\u{902}स",
+				"जाण\u{94d}ट\u{947}\u{902}",
+				"धव\u{947} क\u{947}\u{902}स",
+				"धव\u{947}\u{902}",
+				"पिक\u{947} क\u{947}\u{902}स",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("ак чач"),
+			keywords: &["ак", "буурул", "кары", "чач"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຜ\u{ebb}ມຫງອກ"),
+			keywords: &[
+				"ຂາວ",
+				"ຜ\u{ebb}ມຫງອກ",
+				"ສ\u{eb5}ເທ\u{ebb}າ",
+				"ເສ\u{eb1}\u{ec9}ນຜ\u{ebb}ມ",
+				"ແກ\u{ec8}",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("žili plaukai"),
+			keywords: &["baltas", "pilkas", "plaukai", "senas", "žili plaukai"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("sirmi mati"),
+			keywords: &["mati", "pelēki", "sirmi", "vecs"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("бела коса"),
+			keywords: &["бела", "коса", "седа", "стар"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("വെള\u{d4d}ള മ\u{d41}ടി"),
+			keywords: &["ഗ\u{d4d}രേ", "മ\u{d41}ടി", "വയസ\u{d4d}സ\u{d3e}യത\u{d4d}", "വെള\u{d4d}ള"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("цагаан үс"),
+			keywords: &["настай", "саарал", "цагаан", "үс"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पा\u{902}ढर\u{947} क\u{947}स"),
+			keywords: &["करड\u{947}", "क\u{947}स", "पा\u{902}ढर\u{947}", "पिकल\u{947}ल\u{947}"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("rambut putih"),
+			keywords: &["beruban", "putih", "rambut", "tua"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဆ\u{1036}ပင\u{103a}ဖြ\u{1030}"),
+			keywords: &[
+				"ဆ\u{1036}ပင\u{103a}",
+				"ဆ\u{1036}ပင\u{103a}ဖြ\u{1030}",
+				"သက\u{103a}ကြ\u{102e}း",
+				"အဖြ\u{1030}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{947}तो कपाल"),
+			keywords: &["कपाल", "ख\u{948}रो", "प\u{941}रानो", "स\u{947}तो"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("wit haar"),
+			keywords: &["grijs", "haar", "oud", "wit"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["gamal", "grå", "grått hår", "hår", "kvit"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଧଳ\u{b3e} କେଶ"),
+			keywords: &["କେଶ", "ଗ\u{b4d}ରେ", "ଧଳ\u{b3e}", "ପ\u{b41}ର\u{b41}ଣ\u{b3e}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਚਿ\u{a71}ਟ\u{a47} ਵਾਲ"),
+			keywords: &["ਗ\u{a4d}ਰ\u{a47}", "ਚਿ\u{a71}ਟ\u{a47}", "ਵਧਦੀ ਉਮਰ", "ਵਾਲ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Waít Hea"),
+			keywords: &["Gre", "Hea", "Old", "Wait", "Waít Hea"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("białe włosy"),
+			keywords: &["białe", "siwe", "starsza", "starszy", "włosy"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("سپين ويښتان"),
+			keywords: &["بوډا", "خړ", "سپين", "ويښتان"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("cabelo branco"),
+			keywords: &["branco", "cabelo", "grisalho", "velho"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["brancas", "branco", "cabelho grisalho", "cabelo", "velho"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("yuraq chukcha"),
+			keywords: &["chukcha", "machu", "uqi", "yuraq"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("păr alb"),
+			keywords: &["alb", "bătrân", "grizonat", "păr"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E11-036"), keywords: &["E11-036"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("седые волосы"),
+			keywords: &["волосы", "пожилой", "седина", "седой", "седые волосы", "старый"],
+		},
+		#[cfg(feature = "sat")]
+		crate::Annotation {
+			lang: "sat", tts: Some("ᱯᱩᱸᱱᱰ ᱩᱵ"), keywords: &["ᱯᱩᱸᱱᱰ ᱩᱵ"]
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اڇا وار"),
+			keywords: &["اڇا وار", "اڇو", "وار", "پراڻا", "ڀورا"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ස\u{dd4}ද\u{dd4} කොන\u{dca}ඩය"),
+			keywords: &[
+				"අළ\u{dd4}",
+				"කොණ\u{dca}ඩය",
+				"වයස",
+				"ස\u{dd4}ද\u{dd4}",
+				"ස\u{dd4}ද\u{dd4} කොන\u{dca}ඩය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("sivé vlasy"),
+			keywords: &["biely", "sivé vlasy", "starý"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("sivi lasje"),
+			keywords: &["bel", "lasje", "siv", "sivi lasje", "star"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("caddaan"),
+			keywords: &["caddaan", "gaboobay", "sibidhi", "timo", "timo cad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("flokë të bardha"),
+			keywords: &["flokë", "flokë të bardhë", "gri", "i moshuar"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("седа коса"),
+			keywords: &["бела", "коса", "седа", "старо"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("сиједа коса"),
+			keywords: &["бијела", "коса", "сиједа", "старо"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("seda kosa"),
+			keywords: &["bela", "kosa", "seda", "staro"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("sijeda kosa"),
+			keywords: &["bijela", "kosa", "sijeda", "staro"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("vithårig"),
+			keywords: &["gammal", "grått hår", "vithårig", "vitt hår"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("nywele nyeupe"),
+			keywords: &["kijivu", "mzee", "nyeupe", "nywele"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("வெள\u{bcd}ளை முடி"),
+			keywords: &["நரை", "பழுப\u{bcd}பு", "முடி", "வெள\u{bcd}ளை"],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("త\u{c46}ల\u{c4d}లజుట\u{c4d}టు"),
+			keywords: &[
+				"జుట\u{c4d}టు",
+				"త\u{c46}లుపు",
+				"త\u{c46}ల\u{c4d}లజుట\u{c4d}టు",
+				"న\u{c46}ర\u{c3f}స\u{c3f}ప\u{c4b}వడం",
+				"ముసల\u{c3f}తనం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ผมขาว"),
+			keywords: &["ขาว", "ผม", "ผมขาว", "หงอก", "แก\u{e48}"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጻዕዳ ጸጉሪ"),
+			keywords: &["ኣረጊት", "ግራጭ", "ጸጉሪ", "ፃዕዳ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ak saç"),
+			keywords: &["ak", "garry", "saç", "çal"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("ʻulu hinā"), keywords: &["hinā", "ʻulu"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("beyaz saç"),
+			keywords: &["beyaz", "gri", "saç", "yaşlı"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сиве волосся"),
+			keywords: &["білий", "волосся", "сиве волосся", "сивина", "старий"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سفید بال"),
+			keywords: &["بال", "بوڑھا", "خاکستری", "سفید"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("oqargan soch"),
+			keywords: &["oq", "oqargan", "qari", "soch"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("tóc trắng"),
+			keywords: &["bạc", "trắng", "tóc", "xám"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("irun funfun"),
+			keywords: &["arúgbó", "funfun", "gíréè", "irun"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("irun funfun"),
+			keywords: &["arúgbó", "funfun", "gíréè", "irun"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("白色頭髮"),
+			keywords: &["灰色", "白色", "白色頭髮", "老", "頭髮"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("白色头发"),
+			keywords: &["头发", "灰色", "白色", "白色头发", "老"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("白发"),
+			keywords: &["头发", "年老", "灰色", "白发", "白色"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("白髮"),
+			keywords: &["灰色", "白色", "白髮", "老", "頭髮"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("白頭髮"),
+			keywords: &["灰色", "白色", "白頭髮", "老", "頭髮"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("izinwele ezimpunga"),
+			keywords: &["gray", "hair", "izinwele ezimhlophe", "izinwele ezimpunga", "old", "white"],
 		},
 	],
 };

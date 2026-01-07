@@ -1,10 +1,49 @@
-#[doc = "✉\u{fe0f}"]
-pub const ENVELOPE: crate::Emoji = crate::Emoji {
-	glyph:                "✉\u{fe0f}",
-	codepoint:            &[9993u32],
+#[doc = "📤\u{fe0f}"]
+pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
+	glyph:                "📤\u{fe0f}",
+	codepoint:            &[128228u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "envelope",
+	name:                 "outbox tray",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📦\u{fe0f}"]
+pub const PACKAGE: crate::Emoji = crate::Emoji {
+	glyph:                "📦\u{fe0f}",
+	codepoint:            &[128230u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "package",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📥\u{fe0f}"]
+pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
+	glyph:                "📥\u{fe0f}",
+	codepoint:            &[128229u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "inbox tray",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🗳\u{fe0f}"]
+pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
+	glyph:                "🗳\u{fe0f}",
+	codepoint:            &[128499u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "ballot box with ballot",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Mail,
 	is_variant:           false,
@@ -790,6 +829,19 @@ pub const E_MAIL: crate::Emoji = crate::Emoji {
 			keywords: &["i-imeyli", "incwadi"],
 		},
 	],
+};
+#[doc = "✉\u{fe0f}"]
+pub const ENVELOPE: crate::Emoji = crate::Emoji {
+	glyph:                "✉\u{fe0f}",
+	codepoint:            &[9993u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "envelope",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };
 #[doc = "📨"]
 pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
@@ -3681,45 +3733,6 @@ pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "📤\u{fe0f}"]
-pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
-	glyph:                "📤\u{fe0f}",
-	codepoint:            &[128228u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "outbox tray",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📥\u{fe0f}"]
-pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
-	glyph:                "📥\u{fe0f}",
-	codepoint:            &[128229u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "inbox tray",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📦\u{fe0f}"]
-pub const PACKAGE: crate::Emoji = crate::Emoji {
-	glyph:                "📦\u{fe0f}",
-	codepoint:            &[128230u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "package",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "📫\u{fe0f}"]
 pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
 	glyph:                "📫\u{fe0f}",
@@ -4513,17 +4526,4 @@ pub const POSTBOX: crate::Emoji = crate::Emoji {
 			keywords: &["ibhokisi leposi", "iposi"],
 		},
 	],
-};
-#[doc = "🗳\u{fe0f}"]
-pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
-	glyph:                "🗳\u{fe0f}",
-	codepoint:            &[128499u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "ballot box with ballot",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };

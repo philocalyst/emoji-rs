@@ -1698,1581 +1698,6 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🙉"]
-pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
-	glyph:                "🙉",
-	codepoint:            &[128585u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "hear-no-evil monkey",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::MonkeyFace,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("hoor geen kwaad nie"),
-			keywords: &[
-				"aap",
-				"boos",
-				"dier",
-				"gebaar",
-				"geen",
-				"geheim",
-				"gesig",
-				"hoor",
-				"hoor geen kwaad nie",
-				"hoor-geen-kwaad-nie-apie",
-				"luister",
-				"ore",
-				"sjuut",
-				"verbode",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ምንም ክፉ አልሰማም"),
-			keywords: &[
-				"ምስጢር",
-				"ምንም ክፉ አልሰማም",
-				"እንስሳ",
-				"ክፉ",
-				"ክፉ አይሰሜ ጦጣ",
-				"የተከለከለ",
-				"ጆሮ የለኝም",
-				"ጉድ",
-				"ጦጣ",
-				"ፊት",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قرد يحجب أذنيه"),
-			keywords: &[
-				"إشارة",
-				"اذن",
-				"بدون اذن",
-				"تلميح",
-				"حجب الأذنين",
-				"حيوان",
-				"سر",
-				"سعدان",
-				"سماع",
-				"صوت منخفض",
-				"صوت واطي",
-				"قرد",
-				"قرد يحجب أذنيه",
-				"كلا",
-				"لا",
-				"لا أسمع",
-				"ممنوع",
-				"يدان على الاذن",
-				"يسمع",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("বেয\u{9bc}\u{9be} কথ\u{9be} ন\u{9c1}শ\u{9c1}ন\u{9be} ব\u{9be}ন\u{9cd}দৰ"),
-			keywords: &[
-				"অশ\u{9c1}ভ",
-				"নিষিদ\u{9cd}ধ",
-				"ব\u{9be}ন\u{9cd}দৰ",
-				"বেয\u{9bc}\u{9be} কথ\u{9be} ন\u{9c1}শ\u{9c1}ন\u{9be} ব\u{9be}ন\u{9cd}দৰ",
-				"ম\u{9c1}খ",
-				"শ\u{9c1}ন\u{9be}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("pisliyi eşitmirəm"),
-			keywords: &[
-				"eşitmək",
-				"jest",
-				"meymun",
-				"pis sözləri eşitmirəm",
-				"pisliyi eşitmirəm",
-				"qadağa",
-				"qulaqlarını bağlamış meymun",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("нічога не чую"),
-			keywords: &["жэст", "забаронена", "малпа", "нічога не чую", "чуць"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("„не чух“"),
-			keywords: &[
-				"жест",
-				"животно",
-				"забранено",
-				"лице",
-				"маймуна",
-				"тайна",
-				"чух",
-				"шшт",
-				"„не чух“",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("কোনো খ\u{9be}র\u{9be}প কিছ\u{9c1} শ\u{9c1}নব ন\u{9be}"),
-			keywords: &[
-				"অঙ\u{9cd}গভঙ\u{9cd}গি",
-				"কোনো খ\u{9be}র\u{9be}প কিছ\u{9c1} শ\u{9c1}নব ন\u{9be}",
-				"দ\u{9c1}ষ\u{9cd}ট",
-				"নিষিদ\u{9cd}ধ",
-				"পশ\u{9c1}প\u{9be}খি",
-				"ব\u{9be}\u{981}দর",
-				"ম\u{9c1}খ",
-				"শোন\u{9be}",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("ne čujem"),
-			keywords: &["lice", "majmun", "ne čujem", "zabranjeno", "zlo"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("mona que no escolta"),
-			keywords: &[
-				"animal",
-				"escoltar",
-				"gest",
-				"massa informació",
-				"mona",
-				"mona que no escolta",
-				"no",
-				"orelles",
-				"orelles tapades",
-				"prohibit",
-				"pst",
-				"secret",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ"),
-			keywords: &["ᎠᏍᎩᎾ", "ᎠᏓᎴᏍᎩᏱᏍᎩ", "ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ", "ᎠᏛᎪᏗ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎤᎧᏛ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("opička „nic neslyším“"),
-			keywords: &[
-				"gesto",
-				"ne",
-				"neposlouchat",
-				"neslyšet",
-				"neslyším",
-				"nic",
-				"obličej",
-				"opice",
-				"pšt",
-				"ruce",
-				"tvář",
-				"uši",
-				"výraz",
-				"zacpané",
-				"zakryté",
-				"zakázáno",
-				"zlo",
-				"zvíře",
-				"zákaz",
-				"ššš",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("clywed dim drwg"),
-			keywords: &["clywed", "clywed dim drwg", "drwg", "gwaharddedig", "mwnci", "wyneb"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ikke høre"),
-			keywords: &["abe", "dyr", "hemmelighed", "ikke høre", "lytter ikke", "tre vise aber"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("sich die Ohren zuhaltendes Affengesicht"),
-			keywords: &[
-				"Affe",
-				"Affengesicht",
-				"Geheimnis",
-				"Geste",
-				"Ohren",
-				"Tier",
-				"böse",
-				"gemein",
-				"hören",
-				"nein",
-				"verboten",
-				"zuhalten",
-				"zuhören",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("κάνω πως δεν ακούω"),
-			keywords: &[
-				"ακούω",
-				"απαγορευμένος",
-				"απαγορεύεται",
-				"αυτιά",
-				"δεν",
-				"διαβολικός",
-				"ζώο",
-				"κάνω πως δεν ακούω",
-				"κίνηση",
-				"κακό",
-				"μαϊμού",
-				"μυστικό",
-				"πρόσωπο",
-				"όχι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("hear-no-evil monkey"),
-			keywords: &[
-				"animal",
-				"ears",
-				"evil",
-				"face",
-				"forbidden",
-				"gesture",
-				"hear",
-				"listen",
-				"monkey",
-				"no",
-				"not",
-				"prohibited",
-				"secret",
-				"shh",
-				"tmi",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("mono con los oídos tapados"),
-			keywords: &["cara", "mal", "mono", "mono con los oídos tapados", "prohibido"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("mono con orejas tapadas"),
-			keywords: &[
-				"animal",
-				"cara",
-				"mono",
-				"mono con orejas tapadas",
-				"no escucho",
-				"orejas tapadas",
-				"oír",
-				"ruido",
-				"secreto",
-				"sordo",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("mono con los oídos tapados"),
-			keywords: &["cara", "mono", "mono con los oídos tapados", "no oír"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("kaetud kõrvadega ahv"),
-			keywords: &["ahv", "kaetud kõrvadega ahv", "keelatud", "keeld", "kuri", "kuulamine", "nägu"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("gauza txarrik entzun nahi ez duen tximua"),
-			keywords: &[
-				"aurpegia",
-				"debekatuta",
-				"entzun",
-				"gauza txarrik entzun nahi ez duen tximua",
-				"keinua",
-				"txarra",
-				"tximua",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("میمون شرنشنو"),
-			keywords: &[
-				"اشاره",
-				"شر",
-				"شنیدن",
-				"صورت",
-				"ممنوع",
-				"میمون",
-				"میمون خوش\u{200c}باور",
-				"میمون شر نشنو",
-				"میمون شرنشنو",
-				"نه",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("en kuule pahaa"),
-			keywords: &["apina", "ei", "ele", "en kuule pahaa", "kielletty"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("huwag makinig sa masama"),
-			keywords: &[
-				"hear no evil",
-				"huwag makinig sa masama",
-				"ipinagbabawal",
-				"makinig",
-				"masama",
-				"mukha",
-				"nakatakip ang tainga",
-				"tainga",
-				"unggoy",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("apuandlit við hondunum yvir oyrunum"),
-			keywords: &["andlit", "apa", "apuandlit við hondunum yvir oyrunum", "hond", "oyru"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("singe ne rien entendre"),
-			keywords: &[
-				"animal",
-				"geste",
-				"interdit",
-				"ne pas entendre",
-				"non",
-				"oreilles",
-				"rien vu rien entendu",
-				"secret",
-				"singe",
-				"singe ne rien entendre",
-				"sourd",
-				"visage",
-				"écouter",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"oreilles couvertes",
-				"rien de mal",
-				"singe",
-				"singe ne rien entendre",
-				"sourd",
-				"visage",
-			],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("moncaí nach gcloiseann aon olc"),
-			keywords: &["ainmhí", "moncaí", "moncaí nach gcloiseann aon olc", "ná clois aon olc"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("muncaidh nach cluinn olc"),
-			keywords: &[
-				"aodann",
-				"cluinn",
-				"cluinntinn",
-				"diùltadh",
-				"gluasad",
-				"muncaidh",
-				"muncaidh nach cluinn olc",
-				"olc",
-				"toirmisgte",
-				"àicheadh",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("mono coas orellas tapadas"),
-			keywords: &["cara", "mono", "mono coas orellas tapadas", "orellas", "tapadas"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ખરાબ સા\u{a82}ભળશો નહી\u{a82}"),
-			keywords: &[
-				"ક\u{ac1}દરત",
-				"ખરાબ સા\u{a82}ભળશો નહી\u{a82}",
-				"ખરાબ સા\u{a82}ભળશો નહી\u{a82} બતાવતો વા\u{a82}દરો",
-				"જનાવર",
-				"જીવ",
-				"પશ\u{ac1}",
-				"પ\u{acd}રાણી",
-				"વા\u{a82}દરો",
-				"વાનર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("biri na kada a ji sharri"),
-			keywords: &[
-				"an hana",
-				"ba a kunnena ba",
-				"ba na ji",
-				"ban ji ba",
-				"biri",
-				"biri na kada a ji sharri",
-				"fuska",
-				"haram",
-				"ji",
-				"sauraro",
-				"sharri",
-				"shish",
-				"ƙin sauraro",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("biri na kada a ji sharri"),
-			keywords: &[
-				"an hana",
-				"ba a kunnena ba",
-				"ba na ji",
-				"ban ji ba",
-				"biri",
-				"biri na kada a ji sharri",
-				"fuska",
-				"haram",
-				"ji",
-				"sauraro",
-				"sharri",
-				"shish",
-				"ƙin sauraro",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("לא שמעתי"),
-			keywords: &["אסור", "לא שמעתי", "מכסה אוזניים", "פרצוף", "קוף"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर"),
-			keywords: &[
-				"गा\u{902}धी जी का बन\u{94d}दर",
-				"पश\u{941}",
-				"ब\u{902}दर",
-				"ब\u{941}रा मत स\u{941}नो",
-				"ब\u{941}रा मत स\u{941}नो ब\u{902}दर",
-				"ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("majmun koji ne čuje ništa loše"),
-			keywords: &[
-				"majmun",
-				"majmun koji ne čuje ništa loše",
-				"ne",
-				"slušanje",
-				"tajna",
-				"uši",
-				"zabranjeno",
-				"zlo",
-				"čuti",
-				"životinja",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nem hallottam semmit"),
-			keywords: &[
-				"fül",
-				"hall",
-				"majom",
-				"nem",
-				"nem figyel",
-				"nem hall semmit",
-				"nem hallottam semmit",
-				"tilos",
-				"titok",
-				"állat",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("չարություն չլսող կապիկ"),
-			keywords: &["արգելված", "դեմք", "ժեստ", "լսել", "կապիկ", "չար", "չարություն չլսող կապիկ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("tidak mendengar"),
-			keywords: &[
-				"binatang",
-				"dengar",
-				"dilarang",
-				"hewan",
-				"jahat",
-				"mamalia",
-				"monyet",
-				"monyet tidak mendengar",
-				"muka",
-				"tidak mendengar",
-				"tutup telinga",
-				"wajah",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("anụkwala-ènwè-ọjọọ"),
-			keywords: &[
-				"amachibidoro",
-				"anụmanụ",
-				"enwe",
-				"gee ntị",
-				"ihu",
-				"mba",
-				"mmegharị ahụ",
-				"ntị",
-				"nzuzo",
-				"nụ",
-				"shh",
-				"tmi",
-				"ọ bụghị",
-				"ọjọọ",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("api heldur fyrir eyru"),
-			keywords: &["api", "api heldur fyrir eyru", "illska", "má ekki heyra"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("non sento"),
-			keywords: &[
-				"animale",
-				"animali",
-				"faccina",
-				"non sentire",
-				"non sento",
-				"orecchie da mercante",
-				"scimmia",
-				"scimmietta",
-				"scimmietta non sento",
-				"segreto",
-				"vietato",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("聞かざる"),
-			keywords: &["三猿", "猿", "秘密", "聞かざる"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("munyuk aja ngrungokake sing ala"),
-			keywords: &[
-				"aja ngrungokake sing ala",
-				"ala",
-				"krungu",
-				"larangan",
-				"munyuk",
-				"munyuk aja ngrungokake sing ala",
-				"rai",
-			],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("არმოსმენა"),
-			keywords: &[
-				"აკრძალვა",
-				"აკრძალულია",
-				"არა",
-				"არმოსმენა",
-				"ბოროტი",
-				"მაიმუნი",
-				"მოსმენა",
-				"ჟესტი",
-				"სახე",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("iddew ur yettḥessisen i udeɣu"),
-			keywords: &["iddew ur yettḥessisen i udeɣu"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("құлағын жауып тұрған маймыл"),
-			keywords: &[
-				"бет",
-				"есту",
-				"зиянды",
-				"маймыл",
-				"рұқсат етілмеген",
-				"тыңдауға болмайды",
-				"құлағын жауып тұрған маймыл",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("ikke høre"),
-			keywords: &["ikke høre", "tre vise aber"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង"),
-			keywords: &[
-				"ប\u{17b7}ទត\u{17d2}រចៀក",
-				"ស\u{17d2}វា",
-				"ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಯಾವುದ\u{cc7} ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ"),
-			keywords: &[
-				"ಕರ\u{ccd}ಕಷ",
-				"ಕ\u{cbf}ವ\u{cbf} ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಮಂಗ",
-				"ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳದ ಮಂಗ",
-				"ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ\u{cbf}",
-				"ಕ\u{cc7}ಳಲಾರ\u{cc6}",
-				"ಕ\u{cc7}ಳು",
-				"ದುಷ\u{ccd}ಟ",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ತ",
-				"ಪ\u{ccd}ರಾಣ\u{cbf}",
-				"ಭಾವಸ\u{cc2}ಚಕ",
-				"ಮಂಗ",
-				"ಯಾವುದ\u{cc7} ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ",
-				"ರಹಸ\u{ccd}ಯ",
-				"ಶ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("귀를 막고 있는 원숭이"),
-			keywords: &[
-				"귀를 막고 있는 원숭이",
-				"금지",
-				"나쁜것은 듣지도 말라",
-				"동물",
-				"듣기",
-				"비밀",
-				"손으로 귀를 가린 원숭이",
-				"쉿",
-				"아무것도 안 들리는 원숭이",
-				"악마",
-				"안됨",
-				"원숭이",
-				"제스처",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड"),
-			keywords: &[
-				"आयकप",
-				"च\u{947}रो",
-				"निषिध\u{94d}द",
-				"माकोड",
-				"वायट",
-				"वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("кулагым жамандыкты укпасын"),
-			keywords: &["жаман", "кулагым жамандыкты укпасын", "маймыл", "тыюу салынган", "укпа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Oueren zouhalenden Af"),
-			keywords: &[
-				"Af",
-				"Gesiicht",
-				"Geste",
-				"Oueren",
-				"Oueren zouhalenden Af",
-				"béis",
-				"héieren",
-				"net",
-				"verbueden",
-				"zouhalen",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{eb4}ງປ\u{eb4}ດຫ\u{eb9}"),
-			keywords: &["ປ\u{eb4}ດຫ\u{eb9}", "ລ\u{eb4}ງປ\u{eb4}ດຫ\u{eb9}", "ລ\u{eb5}ງ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("užsidengusi ausis beždžionė"),
-			keywords: &[
-				"beždžionė",
-				"blogis",
-				"draudžiama",
-				"gyvūnas",
-				"klausyti",
-				"neklausau",
-				"paslaptis",
-				"uždrausta",
-				"užsidengusi ausis beždžionė",
-				"veidas",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("neko nedzirdu"),
-			keywords: &[
-				"aizliegts",
-				"dzirdēt",
-				"dzīvnieks",
-				"galva",
-				"nedrīkst",
-				"nedzirdu",
-				"neko nedzirdu",
-				"nē",
-				"pērtiķis",
-				"ļauns",
-				"žests",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("makimaki kore-rongo-kino"),
-			keywords: &[
-				"kanohi",
-				"kino",
-				"kāo",
-				"kāore",
-				"makimaki",
-				"makimaki kore-rongo-kino",
-				"rongo",
-				"tohu ā-ringa",
-				"whakakore",
-				"whakakāhore",
-			],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("мајмун со покриени уши"),
-			keywords: &[
-				"гест",
-				"животно",
-				"забрането",
-				"зло",
-				"мајмун со покриени уши",
-				"мајмун што не слуша зло",
-				"слуша",
-				"тајна",
-				"уши",
-				"шшш",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}"),
-			keywords: &[
-				"എനിക\u{d4d}കൊന\u{d4d}ന\u{d41}ം കേൾക\u{d4d}കേണ\u{d4d}ടെന\u{d4d}ന\u{d4d} ക\u{d3e}ണിക\u{d4d}ക\u{d41}ന\u{d4d}ന ക\u{d41}രങ\u{d4d}ങൻ",
-				"ക\u{d41}രങ\u{d4d}ങ\u{d4d}",
-				"കേൾക\u{d4d}ക\u{d41}ക",
-				"തിന\u{d4d}മ",
-				"തിന\u{d4d}മ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}",
-				"മ\u{d41}ഖം",
-				"മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}",
-				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("муу үйлийг сонсохгүй"),
-			keywords: &[
-				"дарах",
-				"итгэл үнэмшил",
-				"муу",
-				"муу үйлийг сонсохгүй",
-				"сармагчин",
-				"сонсохгүй",
-				"чих",
-				"үйл",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("वाईट ऐक\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर"),
-			keywords: &[
-				"ऐकण\u{947}",
-				"ऐक\u{942} नका सा\u{902}गणार\u{947}",
-				"काहीही वाईट ऐक\u{942} नका",
-				"काहीही वाईट ऐक\u{942} नका वानर",
-				"गा\u{902}धीजी\u{902}च\u{947} माकड",
-				"च\u{947}हरा",
-				"नाही",
-				"निषिद\u{94d}ध",
-				"वाईट",
-				"वाईट ऐक\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर",
-				"वानर",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("monyet tutup telinga"),
-			keywords: &[
-				"dengar",
-				"dilarang",
-				"gerak isyarat",
-				"haiwan",
-				"jahat",
-				"monyet",
-				"muka",
-				"rahsia",
-				"telinga",
-				"tidak",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("xadina li ma tisma’ ebda ħażen"),
-			keywords: &[
-				"isma’",
-				"ma",
-				"mhux",
-				"pprojbit",
-				"pprojbiti",
-				"wiċċ",
-				"xadina",
-				"xadina li ma tisma’ ebda ħażen",
-				"ġesti",
-				"ħażen",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မကောင\u{103a}းတာက\u{102d}\u{102f} မကြားလ\u{102d}\u{102f}"),
-			keywords: &[
-				"ကြားသ\u{102d}ခြင\u{103a}း",
-				"တားမြစ\u{103a}ခြင\u{103a}း",
-				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး",
-				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး မကြားလ\u{102d}\u{102f}ဟန\u{103a}ပြ မျောက\u{103a}",
-				"မကောင\u{103a}းတာက\u{102d}\u{102f} မကြားလ\u{102d}\u{102f}",
-				"မျက\u{103a}န\u{103e}ာ",
-				"မျောက\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-स\u{941}न\u{94d}द\u{948}न"),
-			keywords: &[
-				"अन\u{941}हार",
-				"क\u{941}न\u{948} नचाहिन\u{947} क\u{941}रा स\u{941}न\u{94d}द\u{948}न",
-				"क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-स\u{941}न\u{94d}द\u{948}न",
-				"द\u{941}ष\u{94d}ट",
-				"निष\u{947}धित",
-				"बा\u{901}दर",
-				"स\u{941}न\u{94d}न\u{941}",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen kwaad horen"),
-			keywords: &[
-				"aap",
-				"dier",
-				"gebaar",
-				"geen",
-				"geheim",
-				"gezicht",
-				"horen",
-				"kwaad",
-				"luisteren",
-				"niet",
-				"uit den boze",
-				"verboden",
-				"wil niet horen",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("høyrer ingenting vondt"),
-			keywords: &["ape", "fjes", "forbode", "høyrer ikkje", "høyrer ingenting vondt", "ikkje"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some(
-				"ଖର\u{b3e}ପ କଥ\u{b3e} ନ ଶ\u{b41}ଣ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
-			),
-			keywords: &[
-				"ଖର\u{b3e}ପ",
-				"ଖର\u{b3e}ପ କଥ\u{b3e} ନ ଶ\u{b41}ଣ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
-				"ମନ\u{b3e} କର\u{b3f}ଦେବ\u{b3e}",
-				"ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
-				"ମ\u{b41}ହ\u{b01}",
-				"ଶ\u{b41}ଣ\u{b3f}ବ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b}"),
-			keywords: &[
-				"ਜਾਨਵਰ",
-				"ਬਾ\u{a02}ਦਰ",
-				"ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b}",
-				"ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b} ਬਾ\u{a02}ਦਰ",
-				"ਬ\u{a70}ਦਰ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("سنو-کوئی-شیطان باندر نہیں"),
-			keywords: &[
-				"اشارہ",
-				"باندر",
-				"بھیڑ",
-				"حرام",
-				"دی شکل",
-				"سنو-کوئی-شیطان باندر نہیں",
-				"س\u{64f}ننا",
-				"ممنوع کیتا",
-				"نہیں",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin"),
-			keywords: &["Bád Tin", "Fes", "Fọbid", "Hia", "Mọnkí", "Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("małpa zasłaniająca uszy"),
-			keywords: &[
-				"buźka",
-				"gest",
-				"głowa",
-				"głuchy",
-				"małpa",
-				"małpa zasłaniająca uszy",
-				"małpka",
-				"nie",
-				"nie słyszeć",
-				"nie słyszę",
-				"niedobre",
-				"zabronione",
-				"zakrywam uszy",
-				"zwierzę",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("اوریدل بریښنايي بندر"),
-			keywords: &["اوریدل بریښنايي بندر"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("macaco que não ouve nada"),
-			keywords: &[
-				"macaco",
-				"macaco com ouvidos tapados",
-				"macaco não ouça o mal",
-				"macaco que não ouve nada",
-				"não ouça o mal",
-				"não ouço",
-				"não quero ouvir",
-				"ouvidos tapados",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("macaco com as mãos a tapar os ouvidos"),
-			keywords: &[
-				"cara",
-				"gesto",
-				"macaco",
-				"macaco com as mãos a tapar os ouvidos",
-				"macaco que não ouve nada",
-				"ouvidos tapados",
-				"ouvir",
-				"proibido",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("kusillo mana saqrayuqwan uyariy"),
-			keywords: &[
-				"amachasqa",
-				"kusillo",
-				"kusillo mana saqrayuqwan uyariy",
-				"supay",
-				"uya",
-				"uyariy",
-			],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("nu aud nimic rău"),
-			keywords: &[
-				"animal",
-				"asculta",
-				"auz",
-				"față",
-				"gest",
-				"interzis",
-				"maimuță",
-				"nepermis",
-				"nu",
-				"nu aud nimic rău",
-				"nu vreau să aud",
-				"nu vreau să știu",
-				"ochi acoperiți",
-				"rău",
-				"secret",
-				"urechi",
-				"urechi acoperite",
-				"șșșt",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-909"), keywords: &["E10-909"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("ничего не слышу"),
-			keywords: &["запрещено", "лапы", "нельзя", "ничего не слышу", "обезьяна", "слух", "уши"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("inkende itumva"),
-			keywords: &[
-				"ikibi",
-				"ikibujijwe",
-				"ikimenyetso",
-				"inguge",
-				"inkende itumva",
-				"isura",
-				"kumva",
-				"nta",
-				"oya",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو"),
-			keywords: &[
-				"شيطان",
-				"ممنوع",
-				"ممنوعه",
-				"نه",
-				"ٻڌڻ",
-				"ڀولڙو",
-				"چهرو",
-				"ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو",
-			],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("නරක දේවල\u{dca} නොඅසන\u{dca}න"),
-			keywords: &[
-				"අභ\u{dd2}න",
-				"තහනම\u{dca} කළ",
-				"ද\u{dd4}ෂ\u{dca}ට",
-				"නරක දේවල\u{dca} නොඅසන\u{dca}න",
-				"නැත",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"වඳ\u{dd4}ර\u{dcf}",
-				"සවන\u{dca} ද\u{dd3}ම",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("nepočujem zlo"),
-			keywords: &[
-				"gesto",
-				"nepočujem",
-				"nie",
-				"opica",
-				"príroda",
-				"tvár",
-				"ucho",
-				"uši",
-				"zakázané",
-				"zlo",
-				"zlé",
-				"zviera",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("opica, ki ne sliši ničesar"),
-			keywords: &[
-				"gesta",
-				"ki ne sliši ničesar",
-				"obraz",
-				"opica",
-				"opica, ki ne sliši ničesar",
-				"prepovedano",
-				"slišati",
-				"zlobno",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("aan-maqaleyn-daanyeer xun"),
-			keywords: &[
-				"aan-maqaleyn-daanyeer xun",
-				"aan-maqleynin-daanyeer xun",
-				"la mamnuucay",
-				"maqal",
-				"waji",
-				"xumaan",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("mos dëgjo fjalët e këqija"),
-			keywords: &[
-				"fytyrë",
-				"kafshë",
-				"majmun",
-				"mos dëgjo fjalët e këqija",
-				"mos dëgjo gjërat e këqija",
-				"ndalohet",
-				"të këqija",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("не чује зло"),
-			keywords: &[
-				"гестикулација",
-				"животиња",
-				"забрањено",
-				"зло",
-				"лице",
-				"мајмун",
-				"не",
-				"тајна",
-				"уши",
-				"чути",
-			],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("ne čuje zlo"),
-			keywords: &[
-				"gestikulacija",
-				"lice",
-				"majmun",
-				"ne",
-				"tajna",
-				"uši",
-				"zabranjeno",
-				"zlo",
-				"čuti",
-				"životinja",
-			],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("apa hör inget"),
-			keywords: &["apa", "håller för", "hör", "inget", "öron"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("nyani aliyefunika masikio kwa mikono"),
-			keywords: &[
-				"kusikia",
-				"marufuku",
-				"nyani",
-				"nyani aliyefunika masikio kwa mikono",
-				"sikiliza",
-				"uovu",
-				"usisikie maovu",
-				"uso",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some(
-				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
-			),
-			keywords: &[
-				"இரகசியம\u{bcd}",
-				"க\u{bbe}துகளை மூடிக\u{bcd}கொண\u{bcd}ட குரங\u{bcd}கு",
-				"குரங\u{bcd}கு",
-				"கேள\u{bcd}",
-				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
-				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து",
-				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
-				"வேண\u{bcd}ட\u{bbe}ம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("చ\u{c46}డు వ\u{c3f}నకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}"),
-			keywords: &[
-				"అన\u{c3f}మల\u{c4d}",
-				"ఇయర\u{c4d}స\u{c4d}",
-				"క\u{c4b}త\u{c3f}",
-				"క\u{c4d}ల\u{c4b}జ\u{c4d}",
-				"చ\u{c46}డు",
-				"చ\u{c46}వులు",
-				"జంతువు",
-				"మంక\u{c40}",
-				"రహస\u{c4d}యం",
-				"వ\u{c3f}నకు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("маймуне, ки бадиро намешунавад"),
-			keywords: &[
-				"бад",
-				"имову ишора",
-				"ки бадиро намешунавад",
-				"маймун",
-				"маймуне",
-				"маймуне, ки бадиро намешунавад",
-				"мамнуъ",
-				"манъшуда",
-				"не",
-				"рӯй",
-				"шунидан",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ล\u{e34}งป\u{e34}ดห\u{e39}"),
-			keywords: &["ป\u{e34}ดห\u{e39}", "ล\u{e34}ง", "ล\u{e34}งป\u{e34}ดห\u{e39}"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ኩፉእ ኣይተስምዐኒ ዝብል ህበይ"),
-			keywords: &["ምስማዕ", "ኩፉእ", "ኩፉእ ኣይተስምዐኒ ዝብል ህበይ", "ዝተኸልከለ", "ገጽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("eşitmedim-bilmedim maýmyn"),
-			keywords: &[
-				"eişitmedim-bilmedim maýmyn",
-				"erbet",
-				"eşitmedim-bilmedim maýmyn",
-				"gadagan",
-				"gör",
-				"maýmyn",
-				"ýüz",
-			],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("ngeli ʻikai fanongo kovi"),
-			keywords: &["fanongo", "kovi", "ngeli", "ʻikai"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("duymadım"),
-			keywords: &["duymadım", "duymayan maymun", "hayvan", "kulak", "maymun", "üç maymun"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ياماننى ئاڭلىماس مايمۇن"),
-			keywords: &[
-				"ئاڭلاش",
-				"ئىشارە",
-				"ئەمەس",
-				"رەزىل",
-				"قىلماڭ",
-				"مايمۇن",
-				"ياق",
-				"ياماننى ئاڭلىماس مايمۇن",
-				"چىراي",
-				"چەكلەنگەن",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("мавпа, що не чує"),
-			keywords: &[
-				"заборонено",
-				"зло",
-				"мавпа",
-				"мавпа, що не чує",
-				"не чую",
-				"не чую зла",
-				"обличчя",
-				"чути",
-				"що не чує",
-				"що не чує зла",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("کانوں کو ہاتھ سے چھپائے بندر"),
-			keywords: &[
-				"برا",
-				"برا مت سنو",
-				"برائی",
-				"بندر",
-				"جاندار",
-				"خاموش",
-				"سنو",
-				"شش",
-				"قدرت",
-				"ممنوع",
-				"منع",
-				"نہیں",
-				"چہرہ",
-				"کانوں کو ہاتھ سے چھپائے بندر",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("yomonlikni eshitmaydigan maymun"),
-			keywords: &[
-				"eshitish",
-				"ishora",
-				"man qilingan",
-				"maymun",
-				"taqiqlangan",
-				"yomonlik",
-				"yomonlikni eshitmaydigan maymun",
-				"yo‘q",
-				"yuz",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("khỉ không nghe điều xấu"),
-			keywords: &["cấm", "khỉ", "khỉ không nghe điều xấu", "mặt", "nghe", "điều xấu"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("golo budul dégg lu bon"),
-			keywords: &[
-				"bul",
-				"déet",
-				"dégg",
-				"golo",
-				"golo budul dégg lu bon",
-				"kanam",
-				"liyaar",
-				"lu bon",
-				"luñ aaye",
-				"luñ tere",
-			],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inkawu evale iindlebe"),
-			keywords: &[
-				"ethintelweyo",
-				"eyalelweyo",
-				"hayi",
-				"inkawu",
-				"inkawu evale iindlebe",
-				"nakanye",
-				"phulaphula",
-				"ubusi",
-				"ubuso",
-				"umjekulo",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ọbọ Magbọ Ibi"),
-			keywords: &[
-				"gbọ\u{301}",
-				"ojú",
-				"rárá",
-				"èwọ\u{300}",
-				"èṣù",
-				"ìfọwọ\u{301}júwè",
-				"Ọbọ Magbọ Ibi",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ɔbɔ Magbɔ Ibi"),
-			keywords: &[
-				"gbɔ\u{301}",
-				"ojú",
-				"rárá",
-				"èshù",
-				"èwɔ\u{300}",
-				"ìfɔwɔ\u{301}júwè",
-				"Ɔbɔ Magbɔ Ibi",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("無耳聽嘅馬騮"),
-			keywords: &["唔聽野嘅馬騮", "無耳聽嘅馬騮", "禁止", "聽", "邪惡", "馬騮"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("无耳听嘅马骝"),
-			keywords: &["不", "听", "唔准", "唔好", "手势", "无耳听嘅马骝", "禁止", "脸", "邪恶", "马骝"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("非礼勿听"),
-			keywords: &["嘘", "堵上耳朵", "堵耳", "猴子", "脸", "非礼勿听"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("非禮勿聽"),
-			keywords: &["不聽", "不許聽", "秘密", "遮耳", "非禮勿聽"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["不聽", "動物", "手勢", "猴子", "臉孔", "馬騮"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ukungezwa okubi"),
-			keywords: &[
-				"inkawu",
-				"izwa",
-				"nqaba",
-				"okungavumelekile",
-				"ububi",
-				"ubuso",
-				"ukungezwa okubi",
-			],
-		},
-	],
-};
 #[doc = "🙊"]
 pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
 	glyph:                "🙊",
@@ -4955,6 +3380,1581 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
 				"ububi",
 				"ubuso",
 				"ukungakhulumi okubi",
+			],
+		},
+	],
+};
+#[doc = "🙉"]
+pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
+	glyph:                "🙉",
+	codepoint:            &[128585u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "hear-no-evil monkey",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::MonkeyFace,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("hoor geen kwaad nie"),
+			keywords: &[
+				"aap",
+				"boos",
+				"dier",
+				"gebaar",
+				"geen",
+				"geheim",
+				"gesig",
+				"hoor",
+				"hoor geen kwaad nie",
+				"hoor-geen-kwaad-nie-apie",
+				"luister",
+				"ore",
+				"sjuut",
+				"verbode",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ምንም ክፉ አልሰማም"),
+			keywords: &[
+				"ምስጢር",
+				"ምንም ክፉ አልሰማም",
+				"እንስሳ",
+				"ክፉ",
+				"ክፉ አይሰሜ ጦጣ",
+				"የተከለከለ",
+				"ጆሮ የለኝም",
+				"ጉድ",
+				"ጦጣ",
+				"ፊት",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قرد يحجب أذنيه"),
+			keywords: &[
+				"إشارة",
+				"اذن",
+				"بدون اذن",
+				"تلميح",
+				"حجب الأذنين",
+				"حيوان",
+				"سر",
+				"سعدان",
+				"سماع",
+				"صوت منخفض",
+				"صوت واطي",
+				"قرد",
+				"قرد يحجب أذنيه",
+				"كلا",
+				"لا",
+				"لا أسمع",
+				"ممنوع",
+				"يدان على الاذن",
+				"يسمع",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("বেয\u{9bc}\u{9be} কথ\u{9be} ন\u{9c1}শ\u{9c1}ন\u{9be} ব\u{9be}ন\u{9cd}দৰ"),
+			keywords: &[
+				"অশ\u{9c1}ভ",
+				"নিষিদ\u{9cd}ধ",
+				"ব\u{9be}ন\u{9cd}দৰ",
+				"বেয\u{9bc}\u{9be} কথ\u{9be} ন\u{9c1}শ\u{9c1}ন\u{9be} ব\u{9be}ন\u{9cd}দৰ",
+				"ম\u{9c1}খ",
+				"শ\u{9c1}ন\u{9be}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("pisliyi eşitmirəm"),
+			keywords: &[
+				"eşitmək",
+				"jest",
+				"meymun",
+				"pis sözləri eşitmirəm",
+				"pisliyi eşitmirəm",
+				"qadağa",
+				"qulaqlarını bağlamış meymun",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("нічога не чую"),
+			keywords: &["жэст", "забаронена", "малпа", "нічога не чую", "чуць"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("„не чух“"),
+			keywords: &[
+				"жест",
+				"животно",
+				"забранено",
+				"лице",
+				"маймуна",
+				"тайна",
+				"чух",
+				"шшт",
+				"„не чух“",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("কোনো খ\u{9be}র\u{9be}প কিছ\u{9c1} শ\u{9c1}নব ন\u{9be}"),
+			keywords: &[
+				"অঙ\u{9cd}গভঙ\u{9cd}গি",
+				"কোনো খ\u{9be}র\u{9be}প কিছ\u{9c1} শ\u{9c1}নব ন\u{9be}",
+				"দ\u{9c1}ষ\u{9cd}ট",
+				"নিষিদ\u{9cd}ধ",
+				"পশ\u{9c1}প\u{9be}খি",
+				"ব\u{9be}\u{981}দর",
+				"ম\u{9c1}খ",
+				"শোন\u{9be}",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("ne čujem"),
+			keywords: &["lice", "majmun", "ne čujem", "zabranjeno", "zlo"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("mona que no escolta"),
+			keywords: &[
+				"animal",
+				"escoltar",
+				"gest",
+				"massa informació",
+				"mona",
+				"mona que no escolta",
+				"no",
+				"orelles",
+				"orelles tapades",
+				"prohibit",
+				"pst",
+				"secret",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ"),
+			keywords: &["ᎠᏍᎩᎾ", "ᎠᏓᎴᏍᎩᏱᏍᎩ", "ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ", "ᎠᏛᎪᏗ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎤᎧᏛ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("opička „nic neslyším“"),
+			keywords: &[
+				"gesto",
+				"ne",
+				"neposlouchat",
+				"neslyšet",
+				"neslyším",
+				"nic",
+				"obličej",
+				"opice",
+				"pšt",
+				"ruce",
+				"tvář",
+				"uši",
+				"výraz",
+				"zacpané",
+				"zakryté",
+				"zakázáno",
+				"zlo",
+				"zvíře",
+				"zákaz",
+				"ššš",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("clywed dim drwg"),
+			keywords: &["clywed", "clywed dim drwg", "drwg", "gwaharddedig", "mwnci", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ikke høre"),
+			keywords: &["abe", "dyr", "hemmelighed", "ikke høre", "lytter ikke", "tre vise aber"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("sich die Ohren zuhaltendes Affengesicht"),
+			keywords: &[
+				"Affe",
+				"Affengesicht",
+				"Geheimnis",
+				"Geste",
+				"Ohren",
+				"Tier",
+				"böse",
+				"gemein",
+				"hören",
+				"nein",
+				"verboten",
+				"zuhalten",
+				"zuhören",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("κάνω πως δεν ακούω"),
+			keywords: &[
+				"ακούω",
+				"απαγορευμένος",
+				"απαγορεύεται",
+				"αυτιά",
+				"δεν",
+				"διαβολικός",
+				"ζώο",
+				"κάνω πως δεν ακούω",
+				"κίνηση",
+				"κακό",
+				"μαϊμού",
+				"μυστικό",
+				"πρόσωπο",
+				"όχι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("hear-no-evil monkey"),
+			keywords: &[
+				"animal",
+				"ears",
+				"evil",
+				"face",
+				"forbidden",
+				"gesture",
+				"hear",
+				"listen",
+				"monkey",
+				"no",
+				"not",
+				"prohibited",
+				"secret",
+				"shh",
+				"tmi",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("mono con los oídos tapados"),
+			keywords: &["cara", "mal", "mono", "mono con los oídos tapados", "prohibido"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("mono con orejas tapadas"),
+			keywords: &[
+				"animal",
+				"cara",
+				"mono",
+				"mono con orejas tapadas",
+				"no escucho",
+				"orejas tapadas",
+				"oír",
+				"ruido",
+				"secreto",
+				"sordo",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("mono con los oídos tapados"),
+			keywords: &["cara", "mono", "mono con los oídos tapados", "no oír"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kaetud kõrvadega ahv"),
+			keywords: &["ahv", "kaetud kõrvadega ahv", "keelatud", "keeld", "kuri", "kuulamine", "nägu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("gauza txarrik entzun nahi ez duen tximua"),
+			keywords: &[
+				"aurpegia",
+				"debekatuta",
+				"entzun",
+				"gauza txarrik entzun nahi ez duen tximua",
+				"keinua",
+				"txarra",
+				"tximua",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("میمون شرنشنو"),
+			keywords: &[
+				"اشاره",
+				"شر",
+				"شنیدن",
+				"صورت",
+				"ممنوع",
+				"میمون",
+				"میمون خوش\u{200c}باور",
+				"میمون شر نشنو",
+				"میمون شرنشنو",
+				"نه",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("en kuule pahaa"),
+			keywords: &["apina", "ei", "ele", "en kuule pahaa", "kielletty"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("huwag makinig sa masama"),
+			keywords: &[
+				"hear no evil",
+				"huwag makinig sa masama",
+				"ipinagbabawal",
+				"makinig",
+				"masama",
+				"mukha",
+				"nakatakip ang tainga",
+				"tainga",
+				"unggoy",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("apuandlit við hondunum yvir oyrunum"),
+			keywords: &["andlit", "apa", "apuandlit við hondunum yvir oyrunum", "hond", "oyru"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("singe ne rien entendre"),
+			keywords: &[
+				"animal",
+				"geste",
+				"interdit",
+				"ne pas entendre",
+				"non",
+				"oreilles",
+				"rien vu rien entendu",
+				"secret",
+				"singe",
+				"singe ne rien entendre",
+				"sourd",
+				"visage",
+				"écouter",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"oreilles couvertes",
+				"rien de mal",
+				"singe",
+				"singe ne rien entendre",
+				"sourd",
+				"visage",
+			],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("moncaí nach gcloiseann aon olc"),
+			keywords: &["ainmhí", "moncaí", "moncaí nach gcloiseann aon olc", "ná clois aon olc"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("muncaidh nach cluinn olc"),
+			keywords: &[
+				"aodann",
+				"cluinn",
+				"cluinntinn",
+				"diùltadh",
+				"gluasad",
+				"muncaidh",
+				"muncaidh nach cluinn olc",
+				"olc",
+				"toirmisgte",
+				"àicheadh",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("mono coas orellas tapadas"),
+			keywords: &["cara", "mono", "mono coas orellas tapadas", "orellas", "tapadas"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ખરાબ સા\u{a82}ભળશો નહી\u{a82}"),
+			keywords: &[
+				"ક\u{ac1}દરત",
+				"ખરાબ સા\u{a82}ભળશો નહી\u{a82}",
+				"ખરાબ સા\u{a82}ભળશો નહી\u{a82} બતાવતો વા\u{a82}દરો",
+				"જનાવર",
+				"જીવ",
+				"પશ\u{ac1}",
+				"પ\u{acd}રાણી",
+				"વા\u{a82}દરો",
+				"વાનર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("biri na kada a ji sharri"),
+			keywords: &[
+				"an hana",
+				"ba a kunnena ba",
+				"ba na ji",
+				"ban ji ba",
+				"biri",
+				"biri na kada a ji sharri",
+				"fuska",
+				"haram",
+				"ji",
+				"sauraro",
+				"sharri",
+				"shish",
+				"ƙin sauraro",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("biri na kada a ji sharri"),
+			keywords: &[
+				"an hana",
+				"ba a kunnena ba",
+				"ba na ji",
+				"ban ji ba",
+				"biri",
+				"biri na kada a ji sharri",
+				"fuska",
+				"haram",
+				"ji",
+				"sauraro",
+				"sharri",
+				"shish",
+				"ƙin sauraro",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("לא שמעתי"),
+			keywords: &["אסור", "לא שמעתי", "מכסה אוזניים", "פרצוף", "קוף"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर"),
+			keywords: &[
+				"गा\u{902}धी जी का बन\u{94d}दर",
+				"पश\u{941}",
+				"ब\u{902}दर",
+				"ब\u{941}रा मत स\u{941}नो",
+				"ब\u{941}रा मत स\u{941}नो ब\u{902}दर",
+				"ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("majmun koji ne čuje ništa loše"),
+			keywords: &[
+				"majmun",
+				"majmun koji ne čuje ništa loše",
+				"ne",
+				"slušanje",
+				"tajna",
+				"uši",
+				"zabranjeno",
+				"zlo",
+				"čuti",
+				"životinja",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nem hallottam semmit"),
+			keywords: &[
+				"fül",
+				"hall",
+				"majom",
+				"nem",
+				"nem figyel",
+				"nem hall semmit",
+				"nem hallottam semmit",
+				"tilos",
+				"titok",
+				"állat",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("չարություն չլսող կապիկ"),
+			keywords: &["արգելված", "դեմք", "ժեստ", "լսել", "կապիկ", "չար", "չարություն չլսող կապիկ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("tidak mendengar"),
+			keywords: &[
+				"binatang",
+				"dengar",
+				"dilarang",
+				"hewan",
+				"jahat",
+				"mamalia",
+				"monyet",
+				"monyet tidak mendengar",
+				"muka",
+				"tidak mendengar",
+				"tutup telinga",
+				"wajah",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("anụkwala-ènwè-ọjọọ"),
+			keywords: &[
+				"amachibidoro",
+				"anụmanụ",
+				"enwe",
+				"gee ntị",
+				"ihu",
+				"mba",
+				"mmegharị ahụ",
+				"ntị",
+				"nzuzo",
+				"nụ",
+				"shh",
+				"tmi",
+				"ọ bụghị",
+				"ọjọọ",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("api heldur fyrir eyru"),
+			keywords: &["api", "api heldur fyrir eyru", "illska", "má ekki heyra"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("non sento"),
+			keywords: &[
+				"animale",
+				"animali",
+				"faccina",
+				"non sentire",
+				"non sento",
+				"orecchie da mercante",
+				"scimmia",
+				"scimmietta",
+				"scimmietta non sento",
+				"segreto",
+				"vietato",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("聞かざる"),
+			keywords: &["三猿", "猿", "秘密", "聞かざる"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("munyuk aja ngrungokake sing ala"),
+			keywords: &[
+				"aja ngrungokake sing ala",
+				"ala",
+				"krungu",
+				"larangan",
+				"munyuk",
+				"munyuk aja ngrungokake sing ala",
+				"rai",
+			],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("არმოსმენა"),
+			keywords: &[
+				"აკრძალვა",
+				"აკრძალულია",
+				"არა",
+				"არმოსმენა",
+				"ბოროტი",
+				"მაიმუნი",
+				"მოსმენა",
+				"ჟესტი",
+				"სახე",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("iddew ur yettḥessisen i udeɣu"),
+			keywords: &["iddew ur yettḥessisen i udeɣu"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("құлағын жауып тұрған маймыл"),
+			keywords: &[
+				"бет",
+				"есту",
+				"зиянды",
+				"маймыл",
+				"рұқсат етілмеген",
+				"тыңдауға болмайды",
+				"құлағын жауып тұрған маймыл",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("ikke høre"),
+			keywords: &["ikke høre", "tre vise aber"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង"),
+			keywords: &[
+				"ប\u{17b7}ទត\u{17d2}រចៀក",
+				"ស\u{17d2}វា",
+				"ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಯಾವುದ\u{cc7} ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ"),
+			keywords: &[
+				"ಕರ\u{ccd}ಕಷ",
+				"ಕ\u{cbf}ವ\u{cbf} ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಮಂಗ",
+				"ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳದ ಮಂಗ",
+				"ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ\u{cbf}",
+				"ಕ\u{cc7}ಳಲಾರ\u{cc6}",
+				"ಕ\u{cc7}ಳು",
+				"ದುಷ\u{ccd}ಟ",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ತ",
+				"ಪ\u{ccd}ರಾಣ\u{cbf}",
+				"ಭಾವಸ\u{cc2}ಚಕ",
+				"ಮಂಗ",
+				"ಯಾವುದ\u{cc7} ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕ\u{cc7}ಳಬ\u{cc7}ಡ",
+				"ರಹಸ\u{ccd}ಯ",
+				"ಶ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("귀를 막고 있는 원숭이"),
+			keywords: &[
+				"귀를 막고 있는 원숭이",
+				"금지",
+				"나쁜것은 듣지도 말라",
+				"동물",
+				"듣기",
+				"비밀",
+				"손으로 귀를 가린 원숭이",
+				"쉿",
+				"아무것도 안 들리는 원숭이",
+				"악마",
+				"안됨",
+				"원숭이",
+				"제스처",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड"),
+			keywords: &[
+				"आयकप",
+				"च\u{947}रो",
+				"निषिध\u{94d}द",
+				"माकोड",
+				"वायट",
+				"वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("кулагым жамандыкты укпасын"),
+			keywords: &["жаман", "кулагым жамандыкты укпасын", "маймыл", "тыюу салынган", "укпа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Oueren zouhalenden Af"),
+			keywords: &[
+				"Af",
+				"Gesiicht",
+				"Geste",
+				"Oueren",
+				"Oueren zouhalenden Af",
+				"béis",
+				"héieren",
+				"net",
+				"verbueden",
+				"zouhalen",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{eb4}ງປ\u{eb4}ດຫ\u{eb9}"),
+			keywords: &["ປ\u{eb4}ດຫ\u{eb9}", "ລ\u{eb4}ງປ\u{eb4}ດຫ\u{eb9}", "ລ\u{eb5}ງ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("užsidengusi ausis beždžionė"),
+			keywords: &[
+				"beždžionė",
+				"blogis",
+				"draudžiama",
+				"gyvūnas",
+				"klausyti",
+				"neklausau",
+				"paslaptis",
+				"uždrausta",
+				"užsidengusi ausis beždžionė",
+				"veidas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("neko nedzirdu"),
+			keywords: &[
+				"aizliegts",
+				"dzirdēt",
+				"dzīvnieks",
+				"galva",
+				"nedrīkst",
+				"nedzirdu",
+				"neko nedzirdu",
+				"nē",
+				"pērtiķis",
+				"ļauns",
+				"žests",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("makimaki kore-rongo-kino"),
+			keywords: &[
+				"kanohi",
+				"kino",
+				"kāo",
+				"kāore",
+				"makimaki",
+				"makimaki kore-rongo-kino",
+				"rongo",
+				"tohu ā-ringa",
+				"whakakore",
+				"whakakāhore",
+			],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("мајмун со покриени уши"),
+			keywords: &[
+				"гест",
+				"животно",
+				"забрането",
+				"зло",
+				"мајмун со покриени уши",
+				"мајмун што не слуша зло",
+				"слуша",
+				"тајна",
+				"уши",
+				"шшш",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}"),
+			keywords: &[
+				"എനിക\u{d4d}കൊന\u{d4d}ന\u{d41}ം കേൾക\u{d4d}കേണ\u{d4d}ടെന\u{d4d}ന\u{d4d} ക\u{d3e}ണിക\u{d4d}ക\u{d41}ന\u{d4d}ന ക\u{d41}രങ\u{d4d}ങൻ",
+				"ക\u{d41}രങ\u{d4d}ങ\u{d4d}",
+				"കേൾക\u{d4d}ക\u{d41}ക",
+				"തിന\u{d4d}മ",
+				"തിന\u{d4d}മ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}",
+				"മ\u{d41}ഖം",
+				"മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}",
+				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("муу үйлийг сонсохгүй"),
+			keywords: &[
+				"дарах",
+				"итгэл үнэмшил",
+				"муу",
+				"муу үйлийг сонсохгүй",
+				"сармагчин",
+				"сонсохгүй",
+				"чих",
+				"үйл",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("वाईट ऐक\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर"),
+			keywords: &[
+				"ऐकण\u{947}",
+				"ऐक\u{942} नका सा\u{902}गणार\u{947}",
+				"काहीही वाईट ऐक\u{942} नका",
+				"काहीही वाईट ऐक\u{942} नका वानर",
+				"गा\u{902}धीजी\u{902}च\u{947} माकड",
+				"च\u{947}हरा",
+				"नाही",
+				"निषिद\u{94d}ध",
+				"वाईट",
+				"वाईट ऐक\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर",
+				"वानर",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("monyet tutup telinga"),
+			keywords: &[
+				"dengar",
+				"dilarang",
+				"gerak isyarat",
+				"haiwan",
+				"jahat",
+				"monyet",
+				"muka",
+				"rahsia",
+				"telinga",
+				"tidak",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("xadina li ma tisma’ ebda ħażen"),
+			keywords: &[
+				"isma’",
+				"ma",
+				"mhux",
+				"pprojbit",
+				"pprojbiti",
+				"wiċċ",
+				"xadina",
+				"xadina li ma tisma’ ebda ħażen",
+				"ġesti",
+				"ħażen",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မကောင\u{103a}းတာက\u{102d}\u{102f} မကြားလ\u{102d}\u{102f}"),
+			keywords: &[
+				"ကြားသ\u{102d}ခြင\u{103a}း",
+				"တားမြစ\u{103a}ခြင\u{103a}း",
+				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး",
+				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး မကြားလ\u{102d}\u{102f}ဟန\u{103a}ပြ မျောက\u{103a}",
+				"မကောင\u{103a}းတာက\u{102d}\u{102f} မကြားလ\u{102d}\u{102f}",
+				"မျက\u{103a}န\u{103e}ာ",
+				"မျောက\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-स\u{941}न\u{94d}द\u{948}न"),
+			keywords: &[
+				"अन\u{941}हार",
+				"क\u{941}न\u{948} नचाहिन\u{947} क\u{941}रा स\u{941}न\u{94d}द\u{948}न",
+				"क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-स\u{941}न\u{94d}द\u{948}न",
+				"द\u{941}ष\u{94d}ट",
+				"निष\u{947}धित",
+				"बा\u{901}दर",
+				"स\u{941}न\u{94d}न\u{941}",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen kwaad horen"),
+			keywords: &[
+				"aap",
+				"dier",
+				"gebaar",
+				"geen",
+				"geheim",
+				"gezicht",
+				"horen",
+				"kwaad",
+				"luisteren",
+				"niet",
+				"uit den boze",
+				"verboden",
+				"wil niet horen",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("høyrer ingenting vondt"),
+			keywords: &["ape", "fjes", "forbode", "høyrer ikkje", "høyrer ingenting vondt", "ikkje"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some(
+				"ଖର\u{b3e}ପ କଥ\u{b3e} ନ ଶ\u{b41}ଣ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
+			),
+			keywords: &[
+				"ଖର\u{b3e}ପ",
+				"ଖର\u{b3e}ପ କଥ\u{b3e} ନ ଶ\u{b41}ଣ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
+				"ମନ\u{b3e} କର\u{b3f}ଦେବ\u{b3e}",
+				"ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}",
+				"ମ\u{b41}ହ\u{b01}",
+				"ଶ\u{b41}ଣ\u{b3f}ବ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b}"),
+			keywords: &[
+				"ਜਾਨਵਰ",
+				"ਬਾ\u{a02}ਦਰ",
+				"ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b}",
+				"ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b} ਬਾ\u{a02}ਦਰ",
+				"ਬ\u{a70}ਦਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("سنو-کوئی-شیطان باندر نہیں"),
+			keywords: &[
+				"اشارہ",
+				"باندر",
+				"بھیڑ",
+				"حرام",
+				"دی شکل",
+				"سنو-کوئی-شیطان باندر نہیں",
+				"س\u{64f}ننا",
+				"ممنوع کیتا",
+				"نہیں",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin"),
+			keywords: &["Bád Tin", "Fes", "Fọbid", "Hia", "Mọnkí", "Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("małpa zasłaniająca uszy"),
+			keywords: &[
+				"buźka",
+				"gest",
+				"głowa",
+				"głuchy",
+				"małpa",
+				"małpa zasłaniająca uszy",
+				"małpka",
+				"nie",
+				"nie słyszeć",
+				"nie słyszę",
+				"niedobre",
+				"zabronione",
+				"zakrywam uszy",
+				"zwierzę",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("اوریدل بریښنايي بندر"),
+			keywords: &["اوریدل بریښنايي بندر"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("macaco que não ouve nada"),
+			keywords: &[
+				"macaco",
+				"macaco com ouvidos tapados",
+				"macaco não ouça o mal",
+				"macaco que não ouve nada",
+				"não ouça o mal",
+				"não ouço",
+				"não quero ouvir",
+				"ouvidos tapados",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("macaco com as mãos a tapar os ouvidos"),
+			keywords: &[
+				"cara",
+				"gesto",
+				"macaco",
+				"macaco com as mãos a tapar os ouvidos",
+				"macaco que não ouve nada",
+				"ouvidos tapados",
+				"ouvir",
+				"proibido",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("kusillo mana saqrayuqwan uyariy"),
+			keywords: &[
+				"amachasqa",
+				"kusillo",
+				"kusillo mana saqrayuqwan uyariy",
+				"supay",
+				"uya",
+				"uyariy",
+			],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("nu aud nimic rău"),
+			keywords: &[
+				"animal",
+				"asculta",
+				"auz",
+				"față",
+				"gest",
+				"interzis",
+				"maimuță",
+				"nepermis",
+				"nu",
+				"nu aud nimic rău",
+				"nu vreau să aud",
+				"nu vreau să știu",
+				"ochi acoperiți",
+				"rău",
+				"secret",
+				"urechi",
+				"urechi acoperite",
+				"șșșt",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-909"), keywords: &["E10-909"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("ничего не слышу"),
+			keywords: &["запрещено", "лапы", "нельзя", "ничего не слышу", "обезьяна", "слух", "уши"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("inkende itumva"),
+			keywords: &[
+				"ikibi",
+				"ikibujijwe",
+				"ikimenyetso",
+				"inguge",
+				"inkende itumva",
+				"isura",
+				"kumva",
+				"nta",
+				"oya",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو"),
+			keywords: &[
+				"شيطان",
+				"ممنوع",
+				"ممنوعه",
+				"نه",
+				"ٻڌڻ",
+				"ڀولڙو",
+				"چهرو",
+				"ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو",
+			],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("නරක දේවල\u{dca} නොඅසන\u{dca}න"),
+			keywords: &[
+				"අභ\u{dd2}න",
+				"තහනම\u{dca} කළ",
+				"ද\u{dd4}ෂ\u{dca}ට",
+				"නරක දේවල\u{dca} නොඅසන\u{dca}න",
+				"නැත",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"වඳ\u{dd4}ර\u{dcf}",
+				"සවන\u{dca} ද\u{dd3}ම",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("nepočujem zlo"),
+			keywords: &[
+				"gesto",
+				"nepočujem",
+				"nie",
+				"opica",
+				"príroda",
+				"tvár",
+				"ucho",
+				"uši",
+				"zakázané",
+				"zlo",
+				"zlé",
+				"zviera",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("opica, ki ne sliši ničesar"),
+			keywords: &[
+				"gesta",
+				"ki ne sliši ničesar",
+				"obraz",
+				"opica",
+				"opica, ki ne sliši ničesar",
+				"prepovedano",
+				"slišati",
+				"zlobno",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("aan-maqaleyn-daanyeer xun"),
+			keywords: &[
+				"aan-maqaleyn-daanyeer xun",
+				"aan-maqleynin-daanyeer xun",
+				"la mamnuucay",
+				"maqal",
+				"waji",
+				"xumaan",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("mos dëgjo fjalët e këqija"),
+			keywords: &[
+				"fytyrë",
+				"kafshë",
+				"majmun",
+				"mos dëgjo fjalët e këqija",
+				"mos dëgjo gjërat e këqija",
+				"ndalohet",
+				"të këqija",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("не чује зло"),
+			keywords: &[
+				"гестикулација",
+				"животиња",
+				"забрањено",
+				"зло",
+				"лице",
+				"мајмун",
+				"не",
+				"тајна",
+				"уши",
+				"чути",
+			],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("ne čuje zlo"),
+			keywords: &[
+				"gestikulacija",
+				"lice",
+				"majmun",
+				"ne",
+				"tajna",
+				"uši",
+				"zabranjeno",
+				"zlo",
+				"čuti",
+				"životinja",
+			],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("apa hör inget"),
+			keywords: &["apa", "håller för", "hör", "inget", "öron"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("nyani aliyefunika masikio kwa mikono"),
+			keywords: &[
+				"kusikia",
+				"marufuku",
+				"nyani",
+				"nyani aliyefunika masikio kwa mikono",
+				"sikiliza",
+				"uovu",
+				"usisikie maovu",
+				"uso",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some(
+				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
+			),
+			keywords: &[
+				"இரகசியம\u{bcd}",
+				"க\u{bbe}துகளை மூடிக\u{bcd}கொண\u{bcd}ட குரங\u{bcd}கு",
+				"குரங\u{bcd}கு",
+				"கேள\u{bcd}",
+				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
+				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து",
+				"த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
+				"வேண\u{bcd}ட\u{bbe}ம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("చ\u{c46}డు వ\u{c3f}నకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}"),
+			keywords: &[
+				"అన\u{c3f}మల\u{c4d}",
+				"ఇయర\u{c4d}స\u{c4d}",
+				"క\u{c4b}త\u{c3f}",
+				"క\u{c4d}ల\u{c4b}జ\u{c4d}",
+				"చ\u{c46}డు",
+				"చ\u{c46}వులు",
+				"జంతువు",
+				"మంక\u{c40}",
+				"రహస\u{c4d}యం",
+				"వ\u{c3f}నకు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("маймуне, ки бадиро намешунавад"),
+			keywords: &[
+				"бад",
+				"имову ишора",
+				"ки бадиро намешунавад",
+				"маймун",
+				"маймуне",
+				"маймуне, ки бадиро намешунавад",
+				"мамнуъ",
+				"манъшуда",
+				"не",
+				"рӯй",
+				"шунидан",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ล\u{e34}งป\u{e34}ดห\u{e39}"),
+			keywords: &["ป\u{e34}ดห\u{e39}", "ล\u{e34}ง", "ล\u{e34}งป\u{e34}ดห\u{e39}"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ኩፉእ ኣይተስምዐኒ ዝብል ህበይ"),
+			keywords: &["ምስማዕ", "ኩፉእ", "ኩፉእ ኣይተስምዐኒ ዝብል ህበይ", "ዝተኸልከለ", "ገጽ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("eşitmedim-bilmedim maýmyn"),
+			keywords: &[
+				"eişitmedim-bilmedim maýmyn",
+				"erbet",
+				"eşitmedim-bilmedim maýmyn",
+				"gadagan",
+				"gör",
+				"maýmyn",
+				"ýüz",
+			],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("ngeli ʻikai fanongo kovi"),
+			keywords: &["fanongo", "kovi", "ngeli", "ʻikai"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("duymadım"),
+			keywords: &["duymadım", "duymayan maymun", "hayvan", "kulak", "maymun", "üç maymun"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ياماننى ئاڭلىماس مايمۇن"),
+			keywords: &[
+				"ئاڭلاش",
+				"ئىشارە",
+				"ئەمەس",
+				"رەزىل",
+				"قىلماڭ",
+				"مايمۇن",
+				"ياق",
+				"ياماننى ئاڭلىماس مايمۇن",
+				"چىراي",
+				"چەكلەنگەن",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("мавпа, що не чує"),
+			keywords: &[
+				"заборонено",
+				"зло",
+				"мавпа",
+				"мавпа, що не чує",
+				"не чую",
+				"не чую зла",
+				"обличчя",
+				"чути",
+				"що не чує",
+				"що не чує зла",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("کانوں کو ہاتھ سے چھپائے بندر"),
+			keywords: &[
+				"برا",
+				"برا مت سنو",
+				"برائی",
+				"بندر",
+				"جاندار",
+				"خاموش",
+				"سنو",
+				"شش",
+				"قدرت",
+				"ممنوع",
+				"منع",
+				"نہیں",
+				"چہرہ",
+				"کانوں کو ہاتھ سے چھپائے بندر",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("yomonlikni eshitmaydigan maymun"),
+			keywords: &[
+				"eshitish",
+				"ishora",
+				"man qilingan",
+				"maymun",
+				"taqiqlangan",
+				"yomonlik",
+				"yomonlikni eshitmaydigan maymun",
+				"yo‘q",
+				"yuz",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("khỉ không nghe điều xấu"),
+			keywords: &["cấm", "khỉ", "khỉ không nghe điều xấu", "mặt", "nghe", "điều xấu"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("golo budul dégg lu bon"),
+			keywords: &[
+				"bul",
+				"déet",
+				"dégg",
+				"golo",
+				"golo budul dégg lu bon",
+				"kanam",
+				"liyaar",
+				"lu bon",
+				"luñ aaye",
+				"luñ tere",
+			],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inkawu evale iindlebe"),
+			keywords: &[
+				"ethintelweyo",
+				"eyalelweyo",
+				"hayi",
+				"inkawu",
+				"inkawu evale iindlebe",
+				"nakanye",
+				"phulaphula",
+				"ubusi",
+				"ubuso",
+				"umjekulo",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ọbọ Magbọ Ibi"),
+			keywords: &[
+				"gbọ\u{301}",
+				"ojú",
+				"rárá",
+				"èwọ\u{300}",
+				"èṣù",
+				"ìfọwọ\u{301}júwè",
+				"Ọbọ Magbọ Ibi",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɔbɔ Magbɔ Ibi"),
+			keywords: &[
+				"gbɔ\u{301}",
+				"ojú",
+				"rárá",
+				"èshù",
+				"èwɔ\u{300}",
+				"ìfɔwɔ\u{301}júwè",
+				"Ɔbɔ Magbɔ Ibi",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("無耳聽嘅馬騮"),
+			keywords: &["唔聽野嘅馬騮", "無耳聽嘅馬騮", "禁止", "聽", "邪惡", "馬騮"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("无耳听嘅马骝"),
+			keywords: &["不", "听", "唔准", "唔好", "手势", "无耳听嘅马骝", "禁止", "脸", "邪恶", "马骝"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("非礼勿听"),
+			keywords: &["嘘", "堵上耳朵", "堵耳", "猴子", "脸", "非礼勿听"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("非禮勿聽"),
+			keywords: &["不聽", "不許聽", "秘密", "遮耳", "非禮勿聽"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["不聽", "動物", "手勢", "猴子", "臉孔", "馬騮"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ukungezwa okubi"),
+			keywords: &[
+				"inkawu",
+				"izwa",
+				"nqaba",
+				"okungavumelekile",
+				"ububi",
+				"ubuso",
+				"ukungezwa okubi",
 			],
 		},
 	],

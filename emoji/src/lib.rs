@@ -103,6 +103,7 @@ pub struct Toned {
 	pub emoji: Emoji,
 	pub tones: &'static [Emoji],
 }
+use core::fmt;
 use std::ops::Deref;
 impl Deref for Toned {
 	type Target = Emoji;
@@ -171,119 +172,158 @@ pub mod lookup_by_name;
 pub mod search;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Group {
-	Flags,
-	Objects,
-	AnimalsNature,
-	FoodDrink,
-	Activities,
 	PeopleBody,
 	Component,
-	TravelPlaces,
 	Symbols,
+	Flags,
+	FoodDrink,
 	SmileysEmotion,
+	AnimalsNature,
+	TravelPlaces,
+	Activities,
+	Objects,
 }
+
+impl fmt::Display for Group {
+	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+		let val = match self {
+			Self::PeopleBody => "People & Body",
+			Self::Component => "Component",
+			Self::Symbols => "Symbols",
+			Self::Flags => "Flags",
+			Self::FoodDrink => "Food & Drink",
+			Self::SmileysEmotion => "Smileys & Emotion",
+			Self::AnimalsNature => "Animals & Nature",
+			Self::TravelPlaces => "Travel & Places",
+			Self::Activities => "Activities",
+			Self::Objects => "Objects",
+		};
+		write!(f, "{}", val)
+	}
+}
+
+impl Group {
+	/// Returns an iterator over all variants.
+	pub fn iter() -> impl Iterator<Item = Self> {
+		[
+			Self::PeopleBody,
+			Self::Component,
+			Self::Symbols,
+			Self::Flags,
+			Self::FoodDrink,
+			Self::SmileysEmotion,
+			Self::AnimalsNature,
+			Self::TravelPlaces,
+			Self::Activities,
+			Self::Objects,
+		]
+		.iter()
+		.copied()
+	}
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Subgroup {
-	Game,
-	FaceUnwell,
-	Computer,
-	Household,
-	PlaceOther,
-	MusicalInstrument,
-	PlaceBuilding,
-	Writing,
-	Tool,
-	FaceNeutralSkeptical,
-	Math,
-	AvSymbol,
-	BodyParts,
-	FaceNegative,
-	HandFingersOpen,
-	FaceCostume,
-	PersonRole,
-	PersonSymbol,
-	TransportAir,
-	Event,
-	AwardMedal,
-	Sound,
-	Keycap,
-	Lock,
-	Alphanum,
-	LightVideo,
-	HandFingersClosed,
-	Science,
-	Medical,
-	Warning,
-	Geometric,
-	Flag,
-	AnimalAmphibian,
-	FaceHat,
-	Hands,
-	FaceSleepy,
-	Heart,
-	PersonSport,
-	MonkeyFace,
-	FoodPrepared,
-	TransportWater,
-	SkyWeather,
-	Religion,
-	BookPaper,
-	PlaceGeographic,
-	SubdivisionFlag,
-	PersonGesture,
-	AnimalBird,
-	HandSingleFinger,
-	OtherSymbol,
-	FoodVegetable,
-	Phone,
-	FaceGlasses,
-	Gender,
-	Clothing,
-	Sport,
-	OtherObject,
-	PersonResting,
-	PersonFantasy,
-	Mail,
+	Dishware,
 	TransportSign,
-	PlaceMap,
-	PlaceReligious,
-	Money,
-	CatFace,
-	FaceAffection,
-	FaceSmiling,
-	Emotion,
-	HandProp,
 	SkinTone,
-	FaceTongue,
-	HairStyle,
+	PlaceMap,
+	HandFingersClosed,
+	Mail,
+	PersonRole,
+	FaceGlasses,
+	AnimalMammal,
+	Tool,
+	PersonSymbol,
+	PlaceOther,
+	Currency,
+	FoodFruit,
+	Event,
+	Gender,
+	Phone,
+	Sound,
+	Alphanum,
+	FaceConcerned,
+	HandSingleFinger,
+	Computer,
+	HandFingersPartial,
+	FaceHand,
+	HandFingersOpen,
 	AnimalReptile,
 	AnimalMarine,
-	PersonActivity,
-	FoodSweet,
-	Person,
-	FaceHand,
-	Family,
-	PlantOther,
-	AnimalBug,
-	Drink,
-	ArtsCrafts,
-	FoodFruit,
-	PlantFlower,
-	AnimalMammal,
-	Hotel,
-	TransportGround,
+	PlaceBuilding,
+	FaceCostume,
+	FaceHat,
+	BookPaper,
+	Hands,
+	PersonResting,
+	FoodVegetable,
+	Game,
+	Heart,
+	Lock,
+	Medical,
 	Music,
 	Office,
-	CountryFlag,
-	Arrow,
-	Currency,
-	Punctuation,
+	Keycap,
+	SkyWeather,
 	FoodAsian,
-	Time,
+	CountryFlag,
+	Writing,
+	MusicalInstrument,
+	Person,
+	FaceSmiling,
+	TransportGround,
+	PlaceReligious,
+	Arrow,
+	FaceNegative,
+	PlantOther,
+	PlaceGeographic,
+	Punctuation,
+	AnimalBug,
+	FaceAffection,
+	FaceNeutralSkeptical,
+	BodyParts,
+	AnimalBird,
+	FoodPrepared,
+	ArtsCrafts,
+	PersonGesture,
 	Zodiac,
-	Dishware,
-	HandFingersPartial,
-	FaceConcerned,
+	Warning,
+	Math,
+	PlantFlower,
+	TransportWater,
+	LightVideo,
+	AnimalAmphibian,
+	PersonSport,
+	CatFace,
+	Drink,
+	Money,
+	Household,
+	FoodSweet,
+	Family,
+	Emotion,
+	Time,
+	Clothing,
+	HairStyle,
+	PersonFantasy,
+	Science,
+	AvSymbol,
+	PersonActivity,
+	OtherSymbol,
+	TransportAir,
+	MonkeyFace,
+	AwardMedal,
+	FaceSleepy,
+	FaceTongue,
+	Sport,
+	OtherObject,
+	FaceUnwell,
+	Hotel,
+	Geometric,
+	Flag,
+	SubdivisionFlag,
+	HandProp,
+	Religion,
 }
 #[doc = r" All annotation languages"]
 pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
@@ -431,12 +471,7 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
 	"zu",
 ];
 pub const UNICODE_VERSION: f32 = 17f32;
-pub const UNICODE_RELEASE_TIME: &'static str = "2025-11-27T20:08:49.000552+00:00";
-pub mod component {
-	pub mod hair_style;
-	pub mod other_object;
-	pub mod skin_tone;
-}
+pub const UNICODE_RELEASE_TIME: &'static str = "2026-01-07T17:34:16.182535+00:00";
 pub mod smileys_emotion {
 	pub mod cat_face;
 	pub mod emotion;
@@ -505,13 +540,6 @@ pub mod travel_places {
 	pub mod transport_ground;
 	pub mod transport_water;
 }
-pub mod activities {
-	pub mod arts_crafts;
-	pub mod award_medal;
-	pub mod event;
-	pub mod game;
-	pub mod sport;
-}
 pub mod objects {
 	pub mod book_paper;
 	pub mod clothing;
@@ -552,4 +580,16 @@ pub mod flags {
 	pub mod country_flag;
 	pub mod flag;
 	pub mod subdivision_flag;
+}
+pub mod activities {
+	pub mod arts_crafts;
+	pub mod award_medal;
+	pub mod event;
+	pub mod game;
+	pub mod sport;
+}
+pub mod component {
+	pub mod hair_style;
+	pub mod other_object;
+	pub mod skin_tone;
 }

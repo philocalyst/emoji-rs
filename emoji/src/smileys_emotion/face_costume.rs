@@ -1,3 +1,1254 @@
+#[doc = "👹"]
+pub const OGRE: crate::Emoji = crate::Emoji {
+	glyph:                "👹",
+	codepoint:            &[128121u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "ogre",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::FaceCostume,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("mensvreter"),
+			keywords: &[
+				"Japannees",
+				"dierasie",
+				"duiwel",
+				"fantasie",
+				"gesig",
+				"japannees",
+				"kreatuur",
+				"masker",
+				"mensvreter",
+				"monster",
+				"sprokie",
+				"vreesaanjaend",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ጭራቅ"),
+			keywords: &["ተረት ተረት", "አስፈሪ", "የጃፓን", "ጭራቅ", "ፊት", "ፍጡር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("غول"),
+			keywords: &[
+				"إبليس",
+				"جني",
+				"حدوتة",
+				"خرافة",
+				"رعب",
+				"شيطان",
+				"غول",
+				"قصة",
+				"قناع",
+				"وجه",
+				"وحش",
+				"ياباني",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("দৈত\u{9cd}য"),
+			keywords: &[
+				"কল\u{9cd}পন\u{9be}",
+				"দ\u{9be}নব",
+				"দৈত\u{9cd}য",
+				"প\u{9cd}ৰ\u{9be}ণী",
+				"পৰীৰ স\u{9be}ধ\u{9c1}",
+				"ম\u{9c1}খ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("div"),
+			keywords: &["div", "fantastika", "monstr", "məxluq", "nağıl", "yapon", "üz", "şeytan"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("людажэр"),
+			keywords: &["казачны", "людажэр", "монстр", "стварэнне", "японскі"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("страшилище"),
+			keywords: &[
+				"дявол",
+				"лице",
+				"маска",
+				"плашещ",
+				"приказка",
+				"страшилище",
+				"създание",
+				"фанстика",
+				"фантазия",
+				"фантастичен",
+				"чудовище",
+				"японски",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("র\u{9be}ক\u{9cd}ষস"),
+			keywords: &[
+				"কল\u{9cd}পন\u{9be}",
+				"জ\u{9be}প\u{9be}নি",
+				"দ\u{9be}নব",
+				"ব\u{9c1}নো জীব",
+				"ম\u{9c1}খ",
+				"র\u{9be}ক\u{9cd}ষস",
+				"র\u{9c2}পকথ\u{9be}",
+				"শয\u{9bc}ত\u{9be}ন",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation { lang: "br", tts: Some("roñfl"), keywords: &["euzhvil", "roñfl"] },
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("ljudožder"),
+			keywords: &["bajka", "fantazija", "japansko", "ljudožder", "stvorenje", "čudovište"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("ogre japonès"),
+			keywords: &[
+				"cara",
+				"conte",
+				"conte de fades",
+				"criatura",
+				"dimoni",
+				"esgarrifós",
+				"fantasia",
+				"japonès",
+				"monstre",
+				"màscara",
+				"ogre",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏴᏫ ᎢᏳᏍᏗ"),
+			keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎰᏩᏂᎨᏒᎾ", "ᏴᏫ ᎢᏳᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zlobr"),
+			keywords: &[
+				"bytost",
+				"fantasy",
+				"japonský",
+				"lidožrout",
+				"maska",
+				"monstrum",
+				"obličej",
+				"obr",
+				"pohádka",
+				"příšera",
+				"smajlík",
+				"strašidlo",
+				"strašák",
+				"tvář",
+				"výraz",
+				"zlobr",
+				"ďábel",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("anghenfil"),
+			keywords: &["anghenfil", "creadur", "ffantasi", "stori dylwyth teg", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("uhyre"),
+			keywords: &["djævel", "maske", "monster", "trold", "uhyre"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Ungeheuer"),
+			keywords: &[
+				"Gesicht",
+				"Japan",
+				"Maske",
+				"Monster",
+				"Märchen",
+				"Oger",
+				"Ungeheuer",
+				"gruselig",
+				"japanisch",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τέρας"),
+			keywords: &[
+				"δαίμονας",
+				"ιαπωνικό",
+				"μάσκα",
+				"παραμύθι",
+				"πλάσμα",
+				"πρόσωπο",
+				"τέρας",
+				"τρολ",
+				"τρομακτικό",
+				"φαντασία",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("ogre"),
+			keywords: &[
+				"creature",
+				"devil",
+				"face",
+				"fairy",
+				"fairytale",
+				"fantasy",
+				"mask",
+				"monster",
+				"ogre",
+				"scary",
+				"tale",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("demonio japonés oni"),
+			keywords: &["cara", "cuento", "cuernos", "demonio japonés oni", "sonrisa"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("cara de ogro japonés"),
+			keywords: &[
+				"cara de ogro japonés",
+				"cuento",
+				"diablillo",
+				"diablo",
+				"fantasía",
+				"japonés",
+				"miedo",
+				"monstruo",
+				"ogro",
+				"oni",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("demonio japonés oni"),
+			keywords: &["demonio japonés oni", "fantasía", "japonés", "ogro", "oni"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("demonio japonés oni"),
+			keywords: &[
+				"cara",
+				"creatura",
+				"cuento de hadas",
+				"demonio japonés oni",
+				"fantasía",
+				"monstruo",
+				"ogro",
+			],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("sookoll"),
+			keywords: &["fantaasia", "koletis", "koll", "muinasjutt", "nägu", "olend", "sookoll"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ogroa"),
+			keywords: &["aurpegi", "fantasia", "ipuin", "izaki", "japoniera", "munstro", "ogroa"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("دیو"),
+			keywords: &["جانور", "جن و پری", "دیو", "صورت", "فانتزی", "هیولا"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("peikko"),
+			keywords: &["fantasia", "hirviö", "japanilainen", "naama", "olio", "peikko", "satu"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("kapre"),
+			keywords: &[
+				"alamat",
+				"fairy tale",
+				"fantasy",
+				"halimaw",
+				"kapre",
+				"maskara",
+				"mukha",
+				"nilalang",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("skrímsl"),
+			keywords: &["andlit", "skrímsl", "trøll", "ævintýr"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("ogre"),
+			keywords: &["créature", "effrayant", "fantastique", "japonais", "masque", "monstre", "ogre"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["créature", "fantastique", "monstre", "ogre", "visage"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("fathach"),
+			keywords: &["Seapánach", "aghaidh", "arrachtach", "fathach", "scanrúil", "síscéal"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("diabhal Seapanach"),
+			keywords: &[
+				"aodann",
+				"creutair",
+				"diabhal Seapanach",
+				"fantastach",
+				"faoinsgeul",
+				"uilebheist",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("ogro xaponés"),
+			keywords: &["cara", "ogro", "xaponés"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("દ\u{ac8}ત\u{acd}ય"),
+			keywords: &[
+				"ઓની",
+				"ચહ\u{ac7}રો",
+				"જાપાની દ\u{ac8}ત\u{acd}ય",
+				"જાપાની મ\u{ac1}ખવટો",
+				"દાનવ",
+				"દ\u{ac8}ત\u{acd}ય",
+				"પરી કથા",
+				"મ\u{ac1}ખવટો",
+				"રાક\u{acd}ષસ",
+				"શ\u{ac8}તાન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("dodo"),
+			keywords: &[
+				"abin tsoro",
+				"dodo",
+				"fuska",
+				"halitta",
+				"labarin aljana",
+				"sha-jini",
+				"shaiɗan",
+				"tatsuniya",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("dodo"),
+			keywords: &[
+				"abin tsoro",
+				"dodo",
+				"fuska",
+				"halitta",
+				"labarin aljana",
+				"sha-jini",
+				"shaiɗan",
+				"tatsuniya",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מפלצת"),
+			keywords: &["אדום", "יצור", "מפחיד", "מפלצת", "עוג", "פרצוף", "קרניים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("जापानी राक\u{94d}षस"),
+			keywords: &[
+				"च\u{947}हरा",
+				"जापानी राक\u{94d}षस",
+				"द\u{948}त\u{94d}य",
+				"परी कथा",
+				"राक\u{94d}षस",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("japanski div"),
+			keywords: &[
+				"bajka",
+				"fantazija",
+				"lice",
+				"maska",
+				"ogar",
+				"strašno",
+				"stvor",
+				"vrag",
+				"čudovište",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("ogre"),
+			keywords: &[
+				"arc",
+				"fantasy",
+				"félelmetes",
+				"ijesztő",
+				"japán",
+				"lény",
+				"maszk",
+				"mese",
+				"ogre",
+				"szörny",
+				"óriás",
+				"ördög",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մարդակեր հսկա"),
+			keywords: &["արարած", "դեմք", "հեքիաթ", "հրեշ", "ճապոնական", "մարդակեր հսկա", "ֆանտազիա"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("wajah monster"),
+			keywords: &[
+				"dongeng", "fantasi", "jepang", "makhluk", "monster", "muka", "seram", "setan", "wajah",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ihe egwu"),
+			keywords: &[
+				"akụkọ",
+				"akụkọ ifo",
+				"anụ ọjọọ",
+				"arọmarọ",
+				"egwu",
+				"ekwensu",
+				"ihe egwu",
+				"ihu",
+				"nkpuchi",
+				"okike",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("tröll"),
+			keywords: &["andlit", "oni", "tröll", "vera", "ævintýri"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("orco"),
+			keywords: &[
+				"creature", "diavolo", "faccina", "favola", "fiaba", "finzione", "maschera", "mostro",
+				"orco", "paura",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("鬼"),
+			keywords: &["お面", "なまはげ", "化け物", "怖い", "顔", "鬼"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("buta ogre"),
+			keywords: &[
+				"buta ogre",
+				"crita dongeng",
+				"fantasi",
+				"monster",
+				"penthul",
+				"rai",
+				"wewujudan",
+			],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("კაციჭამია-გოლიათი"),
+			keywords: &[
+				"არსება",
+				"ზღაპარი",
+				"იაპონური",
+				"კაციჭამია-გოლიათი",
+				"მონსტრი",
+				"სახე",
+				"ფანტაზია",
+				"ფანტასტიკა",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("waɣzen"), keywords: &["waɣzen"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("құбыжық"),
+			keywords: &["бет", "ертегі", "жалмауыз", "мақұлұқ", "қиял", "құбыжық"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("trold"),
+			keywords: &["japansk uhyre", "monster", "trold"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខយក\u{17d2}ស"),
+			keywords: &[
+				"ម\u{17bb}ខ",
+				"ម\u{17bb}ខយក\u{17d2}ស",
+				"យក\u{17d2}ស",
+				"សត\u{17d2}វចម\u{17d2}លែក",
+				"អាក\u{17d2}រក\u{17cb}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರಾಕ\u{ccd}ಷಸ"),
+			keywords: &[
+				"ಓಗ\u{ccd}ರ\u{cc6}",
+				"ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ ಕಥ\u{cc6}",
+				"ಜಪಾನ\u{cc0}ಸ\u{ccd}",
+				"ದ\u{cc6}ವ\u{ccd}ವ",
+				"ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ",
+				"ಪ\u{ccc}ರಾಣ\u{cbf}ಕ ದ\u{cc8}ತ\u{ccd}ಯ",
+				"ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
+				"ಭಯಾನಕ",
+				"ಭ\u{cc0}ಕರ ಜ\u{cc0}ವ\u{cbf}",
+				"ಮುಖ",
+				"ಮುಖವಾಡ",
+				"ರಾಕ\u{ccd}ಷಸ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("도깨비 가면"),
+			keywords: &[
+				"가면",
+				"괴물",
+				"도깨비",
+				"도깨비 얼굴",
+				"동화",
+				"몬스터",
+				"무서운",
+				"생명체",
+				"일본",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("राक\u{94d}षस"),
+			keywords: &["च\u{947}रो", "परी कथा", "प\u{94d}राणी", "राक\u{947}स", "राक\u{94d}षस", "लहर"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("дөө"),
+			keywords: &["бет", "дөө", "желмогуз", "жомок", "фантастика"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Ongeheier"),
+			keywords: &["Fantasie", "Gesiicht", "Kreatur", "Monster", "Mäerchen", "Ongeheier"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຍ\u{eb1}ກກ\u{eb4}ນຄ\u{ebb}ນ"),
+			keywords: &[
+				"ຍ\u{eb1}ກ",
+				"ຍ\u{eb1}ກກ\u{eb4}ນຄ\u{ebb}ນ",
+				"ປ\u{eb5}ສາດ",
+				"ຜ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ",
+				"ໜ\u{ec9}າ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pabaisa"),
+			keywords: &["fantazija", "monstras", "pabaisa", "padaras", "pasaka", "veidas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("cilvēkēdājs"),
+			keywords: &[
+				"briesmonis",
+				"cilvēkēdājs",
+				"fantāzija",
+				"monstrs",
+				"pasaka",
+				"radījums",
+				"seja",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kaurehe"),
+			keywords: &["kanohi", "kaurehe", "kīrehe", "kōrero pakiwaitara", "moemoeā", "taniwha"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("џиновско чудовиште"),
+			keywords: &[
+				"бајка",
+				"маска",
+				"огар",
+				"страшно",
+				"суштество",
+				"фантазија",
+				"чудовиште",
+				"ѓавол",
+				"џин",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ര\u{d3e}ക\u{d4d}ഷസൻ"),
+			keywords: &[
+				"ജന\u{d4d}ത\u{d41}",
+				"ജപ\u{d4d}പ\u{d3e}നീസ\u{d4d}",
+				"ജീവി",
+				"ഫ\u{d3e}ന\u{d4d}റസി",
+				"മ\u{d41}ഖം",
+				"മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
+				"ര\u{d3e}ക\u{d4d}ഷസൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("аварга махчин"),
+			keywords: &["аварга", "махчин"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("काल\u{94d}पनिक राक\u{94d}षसाचा च\u{947}हरा"),
+			keywords: &[
+				"अक\u{94d}राळविक\u{94d}राळ",
+				"काल\u{94d}पनिक कथा",
+				"काल\u{94d}पनिक राक\u{94d}षसाचा च\u{947}हरा",
+				"च\u{947}हरा",
+				"जपानी नरभक\u{94d}षक\u{93c} राक\u{94d}षस",
+				"नरभक\u{94d}षक राक\u{94d}षस",
+				"परीकथा",
+				"प\u{94d}राणी",
+				"राक\u{94d}षस",
+				"हस\u{942}",
+				"हास\u{94d}य",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("gergasi"),
+			keywords: &["cerita dongeng", "fantasi", "gergasi", "jepun", "makhluk", "muka", "raksasa"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("orku"),
+			keywords: &["fantasija", "kreatura", "mostru", "orku", "wiċċ", "ħrafa"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဘ\u{102e}လ\u{1030}း"),
+			keywords: &[
+				"စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
+				"ဒဏ\u{1039}ဍာရ\u{102e}ပ\u{102f}\u{1036}ပြင\u{103a}",
+				"ဘ\u{102e}လ\u{1030}း",
+				"မျက\u{103a}န\u{103e}ာ",
+				"အကောင\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("राक\u{94d}षस"),
+			keywords: &[
+				"अन\u{941}हार",
+				"ख\u{947}स\u{94d}रा कल\u{94d}पना",
+				"जीव",
+				"परीको कथा",
+				"पिशाच",
+				"राक\u{94d}षस",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("boeman"),
+			keywords: &[
+				"duivel", "eng", "fantasie", "gezicht", "masker", "monster", "oger", "sprookje", "verhaal",
+				"wezen",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ର\u{b3e}କ\u{b4d}ଷସ"),
+			keywords: &[
+				"ଅସ\u{b41}ର",
+				"କଳ\u{b4d}ପନ\u{b3e}",
+				"ଦ\u{b3e}ନବ",
+				"ପରୀ କ\u{b3e}ହ\u{b3e}ଣୀ",
+				"ମ\u{b41}ହ\u{b01}",
+				"ର\u{b3e}କ\u{b4d}ଷସ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਦ\u{a48}\u{a02}ਤ"),
+			keywords: &[
+				"ਚਿਹਰਾ",
+				"ਜਾਪਾਨੀ ਰਾਖਸ\u{a3c}",
+				"ਦ\u{a48}\u{a02}ਤ",
+				"ਪਰੀ ਕਹਾਣੀ",
+				"ਭ\u{a41}ਤੀਆ\u{a02}",
+				"ਰਾਖਸ\u{a3c}",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("دیو"),
+			keywords: &["تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Ọ\u{301}glí Wíkẹ\u{301}d Fes"),
+			keywords: &[
+				"Bíg Bád Anímal Wé De Mék Pẹ\u{301}sin Kách Fia",
+				"Dédrim",
+				"Fes",
+				"Férí Torí",
+				"Kríchọ",
+				"Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+				"Ọ\u{301}glí Wíkẹ\u{301}d Fes",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("ogr"),
+			keywords: &["Japonia", "diabeł", "maska", "ogr", "potwór", "zły"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ديو"),
+			keywords: &["بلا", "د ښاپېرو کيسه", "ديو", "مخ", "مخلوق"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("ogro"),
+			keywords: &[
+				"assustador",
+				"conto de fadas",
+				"demoníaco",
+				"malvado",
+				"monstro",
+				"máscara",
+				"ogro",
+				"ogro japonês",
+				"oni",
+				"rosto",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("ogre"),
+			keywords: &[
+				"cara",
+				"conto de fadas",
+				"criatura",
+				"diabo",
+				"fantasia",
+				"japonês",
+				"monstro",
+				"máscara",
+				"ogre",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ogro"),
+			keywords: &["criatura", "fantasia", "hadas willana", "monstruo", "ogro", "uya"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("căpcăun"),
+			keywords: &[
+				"basm",
+				"creatură",
+				"căpcăun",
+				"demon",
+				"diavol",
+				"drac",
+				"fantezie",
+				"față",
+				"japonez",
+				"mască",
+				"monstru",
+				"noh",
+				"poveste",
+				"teatru",
+				"înfricoșător",
+				"înspăimântător",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-566"), keywords: &["E10-566"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("чудовище"),
+			keywords: &[
+				"дракон",
+				"змей",
+				"карнавал",
+				"лицо",
+				"мифология",
+				"монстр",
+				"нечисть",
+				"страх",
+				"существо",
+				"чудовище",
+				"японский",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("igishitani"),
+			keywords: &["igikoko gikaze", "igishitani", "ikiremwa", "indoto", "isura", "umugani"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("آدمخور"),
+			keywords: &["آدمخور", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ම\u{dd2}න\u{dd3} කන යක\u{dca}ෂය\u{dcf}"),
+			keywords: &[
+				"ජපන\u{dca}",
+				"ම\u{dcf}ය\u{dcf}ව",
+				"ම\u{dd2}න\u{dd3} කන යක\u{dca}ෂය\u{dcf}",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"යක\u{dca}ෂය\u{dcf}",
+				"සත\u{dcf}",
+				"ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("obluda"),
+			keywords: &[
+				"diabol",
+				"fantasy",
+				"japonská",
+				"netvor",
+				"obluda",
+				"príšera",
+				"rozprávka",
+				"strašidlo",
+				"stvorenie",
+				"tvár",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("pošastni velikan"),
+			keywords: &[
+				"bitje",
+				"fantazija",
+				"japonsko",
+				"obraz",
+				"pošast",
+				"pošastni velikan",
+				"pravljica",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dad cun"),
+			keywords: &["dad cun", "khayaali", "noole", "shayddaan", "sheeko been", "waji"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ogër"),
+			keywords: &[
+				"fantazi",
+				"fytyrë",
+				"japonez",
+				"krijesë",
+				"maskë",
+				"ogër",
+				"përbindësh",
+				"përrallë",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("чудовиште"),
+			keywords: &[
+				"бајка",
+				"лице",
+				"маска",
+				"огар",
+				"створење",
+				"страшно",
+				"фантазија",
+				"чудовиште",
+				"ђаво",
+			],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("čudovište"),
+			keywords: &[
+				"bajka",
+				"fantazija",
+				"lice",
+				"maska",
+				"ogar",
+				"strašno",
+				"stvorenje",
+				"čudovište",
+				"đavo",
+			],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("japanskt monster"),
+			keywords: &["ansikte", "demon", "japansk", "monster", "saga"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("zimwi"),
+			keywords: &["kichimbakazi", "kijapani", "kinyago", "kiumbe", "mila", "njozi", "uso", "zimwi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பயமுறுத\u{bcd}தும\u{bcd} முகம\u{bcd}"),
+			keywords: &[
+				"அசுரன\u{bcd}",
+				"அரக\u{bcd}கன\u{bcd}",
+				"ஜப\u{bcd}ப\u{bbe}ன\u{bcd} அரக\u{bcd}கன\u{bcd}",
+				"திருட\u{bcd}டி",
+				"திருஷ\u{bcd}டி",
+				"பயமுறுத\u{bcd}தும\u{bcd} முகம\u{bcd}",
+				"ர\u{bbe}ட\u{bcd}சசன\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("జపన\u{c40}స\u{c4d} ఓగ\u{c4d}ర\u{c47}"),
+			keywords: &[
+				"ఒగ\u{c4d}ర\u{c47}",
+				"జపన\u{c40}స\u{c4d}",
+				"డ\u{c46}వ\u{c3f}ల\u{c4d}",
+				"ఫ\u{c46}య\u{c3f}ర\u{c40} ట\u{c47}ల\u{c4d}",
+				"ఫ\u{c47}స\u{c4d}",
+				"భయంకరమ\u{c48}న ముఖం",
+				"మ\u{c3e}స\u{c4d}క\u{c4d}",
+				"ముఖం",
+				"మ\u{c4b}న\u{c4d}స\u{c4d}టర\u{c4d}",
+				"స\u{c4d}క\u{c47}ర\u{c40}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("одамхӯр"),
+			keywords: &["афсона", "аъҷуба", "махлуқ", "одамхӯр", "рӯй", "тахайюлот"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ย\u{e31}กษ\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
+			keywords: &[
+				"ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
+				"ป\u{e34}ศาจ",
+				"ย\u{e31}กษ\u{e4c}",
+				"ย\u{e31}กษ\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
+				"หน\u{e49}า",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጭራቕ"),
+			keywords: &["ሓሳባዊ", "ገጽ", "ጭራቕ", "ፍጡር"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("döw"),
+			keywords: &["döw", "erteki", "hyýal", "mahluk", "nägehan", "ýüz"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("nifoloa"),
+			keywords: &["faʻahikehe", "nifoloa"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("dev"),
+			keywords: &[
+				"canavar",
+				"dev",
+				"japon",
+				"japon canavarı",
+				"korkunç",
+				"maske",
+				"oni",
+				"peri masalı",
+				"yaratık",
+				"yüz",
+			],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("دىۋە"),
+			keywords: &["دىۋە", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("велетень-людожер"),
+			keywords: &[
+				"велетень-людожер",
+				"казка",
+				"людожер",
+				"монстр",
+				"обличчя",
+				"створіння",
+				"фантазія",
+				"японський",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("شیطانی جن"),
+			keywords: &[
+				"آسیب",
+				"افسانوی",
+				"جاپانی",
+				"جن",
+				"خوف ناک",
+				"دیئو",
+				"شیطانی جن",
+				"مکھوٹا",
+				"مہیب",
+				"چہرہ",
+				"ڈرائونا",
+				"ہیبت ناک",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("yovuz maxluq"),
+			keywords: &["ertak", "fantaziya", "maxluq", "maxluqot", "yapon", "yovuz maxluq", "yuz"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("mặt quỷ"),
+			keywords: &[
+				"mặt",
+				"mặt quỷ",
+				"quái vật",
+				"quỷ ăn thịt người",
+				"sinh vật",
+				"truyện cổ tích",
+				"tưởng tượng",
+			],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("oogar"),
+			keywords: &["feem", "kanam", "léebu fee", "mbinddéef", "oogar", "rab-wu-gànde"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("izim"),
+			keywords: &["iingcinga", "intsomi", "irhamncwa eloyikekayo", "isidalwa", "izim", "ubuso"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Omiran Ajẹniyan"),
+			keywords: &["Omiran Ajẹniyan", "abàmì", "ojú", "àlá", "ìtàn ọmọdé", "ẹ\u{300}dá"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Omiran Ajɛniyan"),
+			keywords: &["Omiran Ajɛniyan", "abàmì", "ojú", "àlá", "ìtàn ɔmɔdé", "ɛ\u{300}dá"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("怪物"),
+			keywords: &["幻想", "怪物", "生物", "童話故事", "臉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("怪物"),
+			keywords: &["幻想", "怪物", "生物", "童话故事", "脸"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("食人魔"),
+			keywords: &["吓人", "妖怪", "幻想", "日本", "神话故事", "脸", "面具", "食人魔", "鬼", "魔鬼"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("魔鬼"),
+			keywords: &["妖怪", "惡鬼", "表情", "面具", "食人巨妖", "魔鬼"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"怪物",
+				"惡鬼",
+				"日本",
+				"日本怪物",
+				"生物",
+				"童話",
+				"臉孔",
+				"表情",
+				"面具",
+				"食人魔",
+				"魔鬼",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation { lang: "zu", tts: Some("ogre"), keywords: &["isilwane", "ogre"] },
+	],
+};
 #[doc = "💩"]
 pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
 	glyph:                "💩",
@@ -1874,2488 +3125,18 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "👹"]
-pub const OGRE: crate::Emoji = crate::Emoji {
-	glyph:                "👹",
-	codepoint:            &[128121u32],
+#[doc = "👽\u{fe0f}"]
+pub const ALIEN: crate::Emoji = crate::Emoji {
+	glyph:                "👽\u{fe0f}",
+	codepoint:            &[128125u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "ogre",
+	name:                 "alien",
 	group:                crate::Group::SmileysEmotion,
 	subgroup:             crate::Subgroup::FaceCostume,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("mensvreter"),
-			keywords: &[
-				"Japannees",
-				"dierasie",
-				"duiwel",
-				"fantasie",
-				"gesig",
-				"japannees",
-				"kreatuur",
-				"masker",
-				"mensvreter",
-				"monster",
-				"sprokie",
-				"vreesaanjaend",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ጭራቅ"),
-			keywords: &["ተረት ተረት", "አስፈሪ", "የጃፓን", "ጭራቅ", "ፊት", "ፍጡር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("غول"),
-			keywords: &[
-				"إبليس",
-				"جني",
-				"حدوتة",
-				"خرافة",
-				"رعب",
-				"شيطان",
-				"غول",
-				"قصة",
-				"قناع",
-				"وجه",
-				"وحش",
-				"ياباني",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("দৈত\u{9cd}য"),
-			keywords: &[
-				"কল\u{9cd}পন\u{9be}",
-				"দ\u{9be}নব",
-				"দৈত\u{9cd}য",
-				"প\u{9cd}ৰ\u{9be}ণী",
-				"পৰীৰ স\u{9be}ধ\u{9c1}",
-				"ম\u{9c1}খ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("div"),
-			keywords: &["div", "fantastika", "monstr", "məxluq", "nağıl", "yapon", "üz", "şeytan"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("людажэр"),
-			keywords: &["казачны", "людажэр", "монстр", "стварэнне", "японскі"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("страшилище"),
-			keywords: &[
-				"дявол",
-				"лице",
-				"маска",
-				"плашещ",
-				"приказка",
-				"страшилище",
-				"създание",
-				"фанстика",
-				"фантазия",
-				"фантастичен",
-				"чудовище",
-				"японски",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("র\u{9be}ক\u{9cd}ষস"),
-			keywords: &[
-				"কল\u{9cd}পন\u{9be}",
-				"জ\u{9be}প\u{9be}নি",
-				"দ\u{9be}নব",
-				"ব\u{9c1}নো জীব",
-				"ম\u{9c1}খ",
-				"র\u{9be}ক\u{9cd}ষস",
-				"র\u{9c2}পকথ\u{9be}",
-				"শয\u{9bc}ত\u{9be}ন",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation { lang: "br", tts: Some("roñfl"), keywords: &["euzhvil", "roñfl"] },
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("ljudožder"),
-			keywords: &["bajka", "fantazija", "japansko", "ljudožder", "stvorenje", "čudovište"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("ogre japonès"),
-			keywords: &[
-				"cara",
-				"conte",
-				"conte de fades",
-				"criatura",
-				"dimoni",
-				"esgarrifós",
-				"fantasia",
-				"japonès",
-				"monstre",
-				"màscara",
-				"ogre",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏴᏫ ᎢᏳᏍᏗ"),
-			keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎰᏩᏂᎨᏒᎾ", "ᏴᏫ ᎢᏳᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zlobr"),
-			keywords: &[
-				"bytost",
-				"fantasy",
-				"japonský",
-				"lidožrout",
-				"maska",
-				"monstrum",
-				"obličej",
-				"obr",
-				"pohádka",
-				"příšera",
-				"smajlík",
-				"strašidlo",
-				"strašák",
-				"tvář",
-				"výraz",
-				"zlobr",
-				"ďábel",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("anghenfil"),
-			keywords: &["anghenfil", "creadur", "ffantasi", "stori dylwyth teg", "wyneb"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("uhyre"),
-			keywords: &["djævel", "maske", "monster", "trold", "uhyre"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Ungeheuer"),
-			keywords: &[
-				"Gesicht",
-				"Japan",
-				"Maske",
-				"Monster",
-				"Märchen",
-				"Oger",
-				"Ungeheuer",
-				"gruselig",
-				"japanisch",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τέρας"),
-			keywords: &[
-				"δαίμονας",
-				"ιαπωνικό",
-				"μάσκα",
-				"παραμύθι",
-				"πλάσμα",
-				"πρόσωπο",
-				"τέρας",
-				"τρολ",
-				"τρομακτικό",
-				"φαντασία",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("ogre"),
-			keywords: &[
-				"creature",
-				"devil",
-				"face",
-				"fairy",
-				"fairytale",
-				"fantasy",
-				"mask",
-				"monster",
-				"ogre",
-				"scary",
-				"tale",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("demonio japonés oni"),
-			keywords: &["cara", "cuento", "cuernos", "demonio japonés oni", "sonrisa"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("cara de ogro japonés"),
-			keywords: &[
-				"cara de ogro japonés",
-				"cuento",
-				"diablillo",
-				"diablo",
-				"fantasía",
-				"japonés",
-				"miedo",
-				"monstruo",
-				"ogro",
-				"oni",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("demonio japonés oni"),
-			keywords: &["demonio japonés oni", "fantasía", "japonés", "ogro", "oni"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("demonio japonés oni"),
-			keywords: &[
-				"cara",
-				"creatura",
-				"cuento de hadas",
-				"demonio japonés oni",
-				"fantasía",
-				"monstruo",
-				"ogro",
-			],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("sookoll"),
-			keywords: &["fantaasia", "koletis", "koll", "muinasjutt", "nägu", "olend", "sookoll"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ogroa"),
-			keywords: &["aurpegi", "fantasia", "ipuin", "izaki", "japoniera", "munstro", "ogroa"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("دیو"),
-			keywords: &["جانور", "جن و پری", "دیو", "صورت", "فانتزی", "هیولا"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("peikko"),
-			keywords: &["fantasia", "hirviö", "japanilainen", "naama", "olio", "peikko", "satu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("kapre"),
-			keywords: &[
-				"alamat",
-				"fairy tale",
-				"fantasy",
-				"halimaw",
-				"kapre",
-				"maskara",
-				"mukha",
-				"nilalang",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("skrímsl"),
-			keywords: &["andlit", "skrímsl", "trøll", "ævintýr"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("ogre"),
-			keywords: &["créature", "effrayant", "fantastique", "japonais", "masque", "monstre", "ogre"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["créature", "fantastique", "monstre", "ogre", "visage"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("fathach"),
-			keywords: &["Seapánach", "aghaidh", "arrachtach", "fathach", "scanrúil", "síscéal"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("diabhal Seapanach"),
-			keywords: &[
-				"aodann",
-				"creutair",
-				"diabhal Seapanach",
-				"fantastach",
-				"faoinsgeul",
-				"uilebheist",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("ogro xaponés"),
-			keywords: &["cara", "ogro", "xaponés"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("દ\u{ac8}ત\u{acd}ય"),
-			keywords: &[
-				"ઓની",
-				"ચહ\u{ac7}રો",
-				"જાપાની દ\u{ac8}ત\u{acd}ય",
-				"જાપાની મ\u{ac1}ખવટો",
-				"દાનવ",
-				"દ\u{ac8}ત\u{acd}ય",
-				"પરી કથા",
-				"મ\u{ac1}ખવટો",
-				"રાક\u{acd}ષસ",
-				"શ\u{ac8}તાન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("dodo"),
-			keywords: &[
-				"abin tsoro",
-				"dodo",
-				"fuska",
-				"halitta",
-				"labarin aljana",
-				"sha-jini",
-				"shaiɗan",
-				"tatsuniya",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("dodo"),
-			keywords: &[
-				"abin tsoro",
-				"dodo",
-				"fuska",
-				"halitta",
-				"labarin aljana",
-				"sha-jini",
-				"shaiɗan",
-				"tatsuniya",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מפלצת"),
-			keywords: &["אדום", "יצור", "מפחיד", "מפלצת", "עוג", "פרצוף", "קרניים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("जापानी राक\u{94d}षस"),
-			keywords: &[
-				"च\u{947}हरा",
-				"जापानी राक\u{94d}षस",
-				"द\u{948}त\u{94d}य",
-				"परी कथा",
-				"राक\u{94d}षस",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("japanski div"),
-			keywords: &[
-				"bajka",
-				"fantazija",
-				"lice",
-				"maska",
-				"ogar",
-				"strašno",
-				"stvor",
-				"vrag",
-				"čudovište",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("ogre"),
-			keywords: &[
-				"arc",
-				"fantasy",
-				"félelmetes",
-				"ijesztő",
-				"japán",
-				"lény",
-				"maszk",
-				"mese",
-				"ogre",
-				"szörny",
-				"óriás",
-				"ördög",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("մարդակեր հսկա"),
-			keywords: &["արարած", "դեմք", "հեքիաթ", "հրեշ", "ճապոնական", "մարդակեր հսկա", "ֆանտազիա"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("wajah monster"),
-			keywords: &[
-				"dongeng", "fantasi", "jepang", "makhluk", "monster", "muka", "seram", "setan", "wajah",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ihe egwu"),
-			keywords: &[
-				"akụkọ",
-				"akụkọ ifo",
-				"anụ ọjọọ",
-				"arọmarọ",
-				"egwu",
-				"ekwensu",
-				"ihe egwu",
-				"ihu",
-				"nkpuchi",
-				"okike",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("tröll"),
-			keywords: &["andlit", "oni", "tröll", "vera", "ævintýri"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("orco"),
-			keywords: &[
-				"creature", "diavolo", "faccina", "favola", "fiaba", "finzione", "maschera", "mostro",
-				"orco", "paura",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("鬼"),
-			keywords: &["お面", "なまはげ", "化け物", "怖い", "顔", "鬼"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("buta ogre"),
-			keywords: &[
-				"buta ogre",
-				"crita dongeng",
-				"fantasi",
-				"monster",
-				"penthul",
-				"rai",
-				"wewujudan",
-			],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("კაციჭამია-გოლიათი"),
-			keywords: &[
-				"არსება",
-				"ზღაპარი",
-				"იაპონური",
-				"კაციჭამია-გოლიათი",
-				"მონსტრი",
-				"სახე",
-				"ფანტაზია",
-				"ფანტასტიკა",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("waɣzen"), keywords: &["waɣzen"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("құбыжық"),
-			keywords: &["бет", "ертегі", "жалмауыз", "мақұлұқ", "қиял", "құбыжық"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("trold"),
-			keywords: &["japansk uhyre", "monster", "trold"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17bb}ខយក\u{17d2}ស"),
-			keywords: &[
-				"ម\u{17bb}ខ",
-				"ម\u{17bb}ខយក\u{17d2}ស",
-				"យក\u{17d2}ស",
-				"សត\u{17d2}វចម\u{17d2}លែក",
-				"អាក\u{17d2}រក\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ರಾಕ\u{ccd}ಷಸ"),
-			keywords: &[
-				"ಓಗ\u{ccd}ರ\u{cc6}",
-				"ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ ಕಥ\u{cc6}",
-				"ಜಪಾನ\u{cc0}ಸ\u{ccd}",
-				"ದ\u{cc6}ವ\u{ccd}ವ",
-				"ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ",
-				"ಪ\u{ccc}ರಾಣ\u{cbf}ಕ ದ\u{cc8}ತ\u{ccd}ಯ",
-				"ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
-				"ಭಯಾನಕ",
-				"ಭ\u{cc0}ಕರ ಜ\u{cc0}ವ\u{cbf}",
-				"ಮುಖ",
-				"ಮುಖವಾಡ",
-				"ರಾಕ\u{ccd}ಷಸ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("도깨비 가면"),
-			keywords: &[
-				"가면",
-				"괴물",
-				"도깨비",
-				"도깨비 얼굴",
-				"동화",
-				"몬스터",
-				"무서운",
-				"생명체",
-				"일본",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("राक\u{94d}षस"),
-			keywords: &["च\u{947}रो", "परी कथा", "प\u{94d}राणी", "राक\u{947}स", "राक\u{94d}षस", "लहर"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("дөө"),
-			keywords: &["бет", "дөө", "желмогуз", "жомок", "фантастика"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Ongeheier"),
-			keywords: &["Fantasie", "Gesiicht", "Kreatur", "Monster", "Mäerchen", "Ongeheier"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຍ\u{eb1}ກກ\u{eb4}ນຄ\u{ebb}ນ"),
-			keywords: &[
-				"ຍ\u{eb1}ກ",
-				"ຍ\u{eb1}ກກ\u{eb4}ນຄ\u{ebb}ນ",
-				"ປ\u{eb5}ສາດ",
-				"ຜ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ",
-				"ໜ\u{ec9}າ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("pabaisa"),
-			keywords: &["fantazija", "monstras", "pabaisa", "padaras", "pasaka", "veidas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("cilvēkēdājs"),
-			keywords: &[
-				"briesmonis",
-				"cilvēkēdājs",
-				"fantāzija",
-				"monstrs",
-				"pasaka",
-				"radījums",
-				"seja",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kaurehe"),
-			keywords: &["kanohi", "kaurehe", "kīrehe", "kōrero pakiwaitara", "moemoeā", "taniwha"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("џиновско чудовиште"),
-			keywords: &[
-				"бајка",
-				"маска",
-				"огар",
-				"страшно",
-				"суштество",
-				"фантазија",
-				"чудовиште",
-				"ѓавол",
-				"џин",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ര\u{d3e}ക\u{d4d}ഷസൻ"),
-			keywords: &[
-				"ജന\u{d4d}ത\u{d41}",
-				"ജപ\u{d4d}പ\u{d3e}നീസ\u{d4d}",
-				"ജീവി",
-				"ഫ\u{d3e}ന\u{d4d}റസി",
-				"മ\u{d41}ഖം",
-				"മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
-				"ര\u{d3e}ക\u{d4d}ഷസൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("аварга махчин"),
-			keywords: &["аварга", "махчин"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("काल\u{94d}पनिक राक\u{94d}षसाचा च\u{947}हरा"),
-			keywords: &[
-				"अक\u{94d}राळविक\u{94d}राळ",
-				"काल\u{94d}पनिक कथा",
-				"काल\u{94d}पनिक राक\u{94d}षसाचा च\u{947}हरा",
-				"च\u{947}हरा",
-				"जपानी नरभक\u{94d}षक\u{93c} राक\u{94d}षस",
-				"नरभक\u{94d}षक राक\u{94d}षस",
-				"परीकथा",
-				"प\u{94d}राणी",
-				"राक\u{94d}षस",
-				"हस\u{942}",
-				"हास\u{94d}य",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("gergasi"),
-			keywords: &["cerita dongeng", "fantasi", "gergasi", "jepun", "makhluk", "muka", "raksasa"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("orku"),
-			keywords: &["fantasija", "kreatura", "mostru", "orku", "wiċċ", "ħrafa"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဘ\u{102e}လ\u{1030}း"),
-			keywords: &[
-				"စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
-				"ဒဏ\u{1039}ဍာရ\u{102e}ပ\u{102f}\u{1036}ပြင\u{103a}",
-				"ဘ\u{102e}လ\u{1030}း",
-				"မျက\u{103a}န\u{103e}ာ",
-				"အကောင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("राक\u{94d}षस"),
-			keywords: &[
-				"अन\u{941}हार",
-				"ख\u{947}स\u{94d}रा कल\u{94d}पना",
-				"जीव",
-				"परीको कथा",
-				"पिशाच",
-				"राक\u{94d}षस",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("boeman"),
-			keywords: &[
-				"duivel", "eng", "fantasie", "gezicht", "masker", "monster", "oger", "sprookje", "verhaal",
-				"wezen",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ର\u{b3e}କ\u{b4d}ଷସ"),
-			keywords: &[
-				"ଅସ\u{b41}ର",
-				"କଳ\u{b4d}ପନ\u{b3e}",
-				"ଦ\u{b3e}ନବ",
-				"ପରୀ କ\u{b3e}ହ\u{b3e}ଣୀ",
-				"ମ\u{b41}ହ\u{b01}",
-				"ର\u{b3e}କ\u{b4d}ଷସ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਦ\u{a48}\u{a02}ਤ"),
-			keywords: &[
-				"ਚਿਹਰਾ",
-				"ਜਾਪਾਨੀ ਰਾਖਸ\u{a3c}",
-				"ਦ\u{a48}\u{a02}ਤ",
-				"ਪਰੀ ਕਹਾਣੀ",
-				"ਭ\u{a41}ਤੀਆ\u{a02}",
-				"ਰਾਖਸ\u{a3c}",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("دیو"),
-			keywords: &["تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Ọ\u{301}glí Wíkẹ\u{301}d Fes"),
-			keywords: &[
-				"Bíg Bád Anímal Wé De Mék Pẹ\u{301}sin Kách Fia",
-				"Dédrim",
-				"Fes",
-				"Férí Torí",
-				"Kríchọ",
-				"Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
-				"Ọ\u{301}glí Wíkẹ\u{301}d Fes",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("ogr"),
-			keywords: &["Japonia", "diabeł", "maska", "ogr", "potwór", "zły"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ديو"),
-			keywords: &["بلا", "د ښاپېرو کيسه", "ديو", "مخ", "مخلوق"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("ogro"),
-			keywords: &[
-				"assustador",
-				"conto de fadas",
-				"demoníaco",
-				"malvado",
-				"monstro",
-				"máscara",
-				"ogro",
-				"ogro japonês",
-				"oni",
-				"rosto",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("ogre"),
-			keywords: &[
-				"cara",
-				"conto de fadas",
-				"criatura",
-				"diabo",
-				"fantasia",
-				"japonês",
-				"monstro",
-				"máscara",
-				"ogre",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ogro"),
-			keywords: &["criatura", "fantasia", "hadas willana", "monstruo", "ogro", "uya"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("căpcăun"),
-			keywords: &[
-				"basm",
-				"creatură",
-				"căpcăun",
-				"demon",
-				"diavol",
-				"drac",
-				"fantezie",
-				"față",
-				"japonez",
-				"mască",
-				"monstru",
-				"noh",
-				"poveste",
-				"teatru",
-				"înfricoșător",
-				"înspăimântător",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-566"), keywords: &["E10-566"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("чудовище"),
-			keywords: &[
-				"дракон",
-				"змей",
-				"карнавал",
-				"лицо",
-				"мифология",
-				"монстр",
-				"нечисть",
-				"страх",
-				"существо",
-				"чудовище",
-				"японский",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("igishitani"),
-			keywords: &["igikoko gikaze", "igishitani", "ikiremwa", "indoto", "isura", "umugani"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("آدمخور"),
-			keywords: &["آدمخور", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dd2}න\u{dd3} කන යක\u{dca}ෂය\u{dcf}"),
-			keywords: &[
-				"ජපන\u{dca}",
-				"ම\u{dcf}ය\u{dcf}ව",
-				"ම\u{dd2}න\u{dd3} කන යක\u{dca}ෂය\u{dcf}",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"යක\u{dca}ෂය\u{dcf}",
-				"සත\u{dcf}",
-				"ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("obluda"),
-			keywords: &[
-				"diabol",
-				"fantasy",
-				"japonská",
-				"netvor",
-				"obluda",
-				"príšera",
-				"rozprávka",
-				"strašidlo",
-				"stvorenie",
-				"tvár",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("pošastni velikan"),
-			keywords: &[
-				"bitje",
-				"fantazija",
-				"japonsko",
-				"obraz",
-				"pošast",
-				"pošastni velikan",
-				"pravljica",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dad cun"),
-			keywords: &["dad cun", "khayaali", "noole", "shayddaan", "sheeko been", "waji"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ogër"),
-			keywords: &[
-				"fantazi",
-				"fytyrë",
-				"japonez",
-				"krijesë",
-				"maskë",
-				"ogër",
-				"përbindësh",
-				"përrallë",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("чудовиште"),
-			keywords: &[
-				"бајка",
-				"лице",
-				"маска",
-				"огар",
-				"створење",
-				"страшно",
-				"фантазија",
-				"чудовиште",
-				"ђаво",
-			],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("čudovište"),
-			keywords: &[
-				"bajka",
-				"fantazija",
-				"lice",
-				"maska",
-				"ogar",
-				"strašno",
-				"stvorenje",
-				"čudovište",
-				"đavo",
-			],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("japanskt monster"),
-			keywords: &["ansikte", "demon", "japansk", "monster", "saga"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("zimwi"),
-			keywords: &["kichimbakazi", "kijapani", "kinyago", "kiumbe", "mila", "njozi", "uso", "zimwi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பயமுறுத\u{bcd}தும\u{bcd} முகம\u{bcd}"),
-			keywords: &[
-				"அசுரன\u{bcd}",
-				"அரக\u{bcd}கன\u{bcd}",
-				"ஜப\u{bcd}ப\u{bbe}ன\u{bcd} அரக\u{bcd}கன\u{bcd}",
-				"திருட\u{bcd}டி",
-				"திருஷ\u{bcd}டி",
-				"பயமுறுத\u{bcd}தும\u{bcd} முகம\u{bcd}",
-				"ர\u{bbe}ட\u{bcd}சசன\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("జపన\u{c40}స\u{c4d} ఓగ\u{c4d}ర\u{c47}"),
-			keywords: &[
-				"ఒగ\u{c4d}ర\u{c47}",
-				"జపన\u{c40}స\u{c4d}",
-				"డ\u{c46}వ\u{c3f}ల\u{c4d}",
-				"ఫ\u{c46}య\u{c3f}ర\u{c40} ట\u{c47}ల\u{c4d}",
-				"ఫ\u{c47}స\u{c4d}",
-				"భయంకరమ\u{c48}న ముఖం",
-				"మ\u{c3e}స\u{c4d}క\u{c4d}",
-				"ముఖం",
-				"మ\u{c4b}న\u{c4d}స\u{c4d}టర\u{c4d}",
-				"స\u{c4d}క\u{c47}ర\u{c40}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("одамхӯр"),
-			keywords: &["афсона", "аъҷуба", "махлуқ", "одамхӯр", "рӯй", "тахайюлот"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ย\u{e31}กษ\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
-			keywords: &[
-				"ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
-				"ป\u{e34}ศาจ",
-				"ย\u{e31}กษ\u{e4c}",
-				"ย\u{e31}กษ\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
-				"หน\u{e49}า",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጭራቕ"),
-			keywords: &["ሓሳባዊ", "ገጽ", "ጭራቕ", "ፍጡር"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("döw"),
-			keywords: &["döw", "erteki", "hyýal", "mahluk", "nägehan", "ýüz"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("nifoloa"),
-			keywords: &["faʻahikehe", "nifoloa"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("dev"),
-			keywords: &[
-				"canavar",
-				"dev",
-				"japon",
-				"japon canavarı",
-				"korkunç",
-				"maske",
-				"oni",
-				"peri masalı",
-				"yaratık",
-				"yüz",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("دىۋە"),
-			keywords: &["دىۋە", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("велетень-людожер"),
-			keywords: &[
-				"велетень-людожер",
-				"казка",
-				"людожер",
-				"монстр",
-				"обличчя",
-				"створіння",
-				"фантазія",
-				"японський",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("شیطانی جن"),
-			keywords: &[
-				"آسیب",
-				"افسانوی",
-				"جاپانی",
-				"جن",
-				"خوف ناک",
-				"دیئو",
-				"شیطانی جن",
-				"مکھوٹا",
-				"مہیب",
-				"چہرہ",
-				"ڈرائونا",
-				"ہیبت ناک",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("yovuz maxluq"),
-			keywords: &["ertak", "fantaziya", "maxluq", "maxluqot", "yapon", "yovuz maxluq", "yuz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("mặt quỷ"),
-			keywords: &[
-				"mặt",
-				"mặt quỷ",
-				"quái vật",
-				"quỷ ăn thịt người",
-				"sinh vật",
-				"truyện cổ tích",
-				"tưởng tượng",
-			],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("oogar"),
-			keywords: &["feem", "kanam", "léebu fee", "mbinddéef", "oogar", "rab-wu-gànde"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("izim"),
-			keywords: &["iingcinga", "intsomi", "irhamncwa eloyikekayo", "isidalwa", "izim", "ubuso"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Omiran Ajẹniyan"),
-			keywords: &["Omiran Ajẹniyan", "abàmì", "ojú", "àlá", "ìtàn ọmọdé", "ẹ\u{300}dá"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Omiran Ajɛniyan"),
-			keywords: &["Omiran Ajɛniyan", "abàmì", "ojú", "àlá", "ìtàn ɔmɔdé", "ɛ\u{300}dá"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("怪物"),
-			keywords: &["幻想", "怪物", "生物", "童話故事", "臉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("怪物"),
-			keywords: &["幻想", "怪物", "生物", "童话故事", "脸"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("食人魔"),
-			keywords: &["吓人", "妖怪", "幻想", "日本", "神话故事", "脸", "面具", "食人魔", "鬼", "魔鬼"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("魔鬼"),
-			keywords: &["妖怪", "惡鬼", "表情", "面具", "食人巨妖", "魔鬼"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"怪物",
-				"惡鬼",
-				"日本",
-				"日本怪物",
-				"生物",
-				"童話",
-				"臉孔",
-				"表情",
-				"面具",
-				"食人魔",
-				"魔鬼",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation { lang: "zu", tts: Some("ogre"), keywords: &["isilwane", "ogre"] },
-	],
-};
-#[doc = "👺"]
-pub const GOBLIN: crate::Emoji = crate::Emoji {
-	glyph:                "👺",
-	codepoint:            &[128122u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "goblin",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::FaceCostume,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("tokkelos"),
-			keywords: &[
-				"Japannees",
-				"fantasie",
-				"gemeen",
-				"gesig",
-				"japannees",
-				"kreatuur",
-				"masker",
-				"monster",
-				"sprokie",
-				"tokkelos",
-				"trol",
-				"woedend",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ጆሮ ቆራጭ"),
-			keywords: &["ተረት ተረት", "የጃፓን", "ጆሮ ቆራጭ", "ጭራቅ", "ፊት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("عفريت"),
-			keywords: &["حدوتة", "خرافة", "شرير", "عفريت", "غضب", "قتاع", "كائن", "وجه", "وحش", "ياباني"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("পিশ\u{9be}চ"),
-			keywords: &[
-				"কল\u{9cd}পন\u{9be}",
-				"দ\u{9be}নব",
-				"পিশ\u{9be}চ",
-				"প\u{9cd}ৰ\u{9be}ণী",
-				"পৰীৰ স\u{9be}ধ\u{9c1}",
-				"ম\u{9c1}খ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qoblin"),
-			keywords: &[
-				"fantastika",
-				"maska",
-				"monstr",
-				"məxluq",
-				"nağıl",
-				"qoblin",
-				"yapon",
-				"üz",
-				"əsəbi",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("гоблін"),
-			keywords: &["гоблін", "казачны", "монстр", "стварэнне", "японскі"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("гоблин"),
-			keywords: &[
-				"гоблин",
-				"лице",
-				"приказка",
-				"създание",
-				"същество",
-				"фантазия",
-				"фантастичен",
-				"чудовище",
-				"ядосан",
-				"японски",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("অপদেবত\u{9be}"),
-			keywords: &[
-				"অপদেবত\u{9be}",
-				"অস\u{9c1}র",
-				"কল\u{9cd}পন\u{9be}",
-				"জ\u{9be}প\u{9be}নি",
-				"দ\u{9be}নব",
-				"ব\u{9c1}নো জীব",
-				"ম\u{9c1}খ",
-				"র\u{9c2}পকথ\u{9be}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("gobilin"),
-			keywords: &["euzhvil", "gobilin"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("goblin"),
-			keywords: &["bajka", "fantazija", "goblin", "japansko", "lice", "stvorenje", "čudovište"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("follet japonès"),
-			keywords: &[
-				"cara",
-				"conte",
-				"conte de fades",
-				"criatura",
-				"enfadat",
-				"fantasia",
-				"follet",
-				"japonès",
-				"malvat",
-				"monstre",
-				"màscara",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎩᎦᎨ ᏴᏫ"),
-			keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎩᎦᎨ ᏴᏫ", "ᎰᏩᏂᎨᏒᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("šotek"),
-			keywords: &[
-				"bytost",
-				"fantasy",
-				"japonský",
-				"maska",
-				"obličej",
-				"pohádka",
-				"příšera",
-				"rozzlobený",
-				"skřet",
-				"skřítek",
-				"smajlík",
-				"strašidlo",
-				"strašák",
-				"tvář",
-				"výraz",
-				"zlý",
-				"zuřivý",
-				"šotek",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("bwgan"),
-			keywords: &["anghenfil", "bwgan", "creadur", "ffantasi", "stori dylwyth teg", "wyneb"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ånd"),
-			keywords: &["ansigt", "maske", "monster", "vred", "ånd"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Kobold"),
-			keywords: &[
-				"Gesicht",
-				"Japan",
-				"Kobold",
-				"Maske",
-				"Monster",
-				"Märchen",
-				"Tengu",
-				"Ungeheuer",
-				"gemein",
-				"japanisch",
-				"wütend",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("καλικάντζαρος"),
-			keywords: &[
-				"θυμωμένος",
-				"ιαπωνικό",
-				"κακός",
-				"καλικάντζαρος",
-				"μάσκα",
-				"παραμύθι",
-				"πλάσμα",
-				"πρόσωπο",
-				"τέρας",
-				"φαντασία",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("goblin"),
-			keywords: &[
-				"angry",
-				"creature",
-				"face",
-				"fairy",
-				"fairytale",
-				"fantasy",
-				"goblin",
-				"mask",
-				"mean",
-				"monster",
-				"tale",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("demonio japonés tengu"),
-			keywords: &["cara", "cuento", "demonio japonés tengu", "fantasía", "monstruo", "tengu"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("cara de demonio japonés"),
-			keywords: &[
-				"cara",
-				"cara de demonio japonés",
-				"cuento",
-				"demonio",
-				"diablo",
-				"japonés",
-				"monstruo",
-				"máscara",
-				"tengu",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("demonio japonés tengu"),
-			keywords: &[
-				"cara",
-				"creatura",
-				"cuento de hadas",
-				"demonio japonés tengu",
-				"duende",
-				"fantasía",
-				"monstruo",
-			],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("mäekoll"),
-			keywords: &["fantaasia", "koletis", "koll", "muinasjutt", "mäekoll", "nägu", "olend"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("iratxoa"),
-			keywords: &["aurpegi", "fantasia", "ipuin", "iratxoa", "izaki", "japoniera", "munstro"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("جن کوتوله"),
-			keywords: &["جانور", "جن و پری", "جن کوتوله", "صورت", "فانتزی", "هیولا"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("hiisi"),
-			keywords: &[
-				"fantasia",
-				"hiisi",
-				"hirviö",
-				"japanilainen",
-				"menninkäinen",
-				"naama",
-				"olio",
-				"satu",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("goblin"),
-			keywords: &[
-				"alamat",
-				"fairy tale",
-				"fantasy",
-				"goblin",
-				"halimaw",
-				"mask",
-				"maskara",
-				"mukha",
-				"nilalang",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("vættur"),
-			keywords: &["andlit", "skrímsl", "trøll", "vættur", "ævintýr"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("monstre japonais"),
-			keywords: &[
-				"colère",
-				"créature",
-				"fantastique",
-				"farfadet",
-				"japonais",
-				"masque",
-				"monstre",
-				"méchant",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("gobelin"),
-			keywords: &["créature", "fantastique", "gobelin", "monstre", "visage"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("gruagach"),
-			keywords: &[
-				"Seapánach",
-				"aghaidh",
-				"aghaidh fidil",
-				"arrachtach",
-				"gruagach",
-				"síscéal",
-				"éadan",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bòcan Seapanach"),
-			keywords: &[
-				"aodann",
-				"bòcan Seapanach",
-				"creutair",
-				"fantastach",
-				"faoinsgeul",
-				"uilebheist",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("demo xaponés"),
-			keywords: &["cara", "demo", "tengu", "xaponés"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પ\u{acd}ર\u{ac7}ત"),
-			keywords: &[
-				"ચહ\u{ac7}રો",
-				"જાપાની પ\u{acd}ર\u{ac7}ત",
-				"ટ\u{ac7}ન\u{acd}ગ\u{ac1}",
-				"દાનવ",
-				"પરી કથા",
-				"પ\u{acd}ર\u{ac7}ત",
-				"રાક\u{acd}ષસ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("dodanni"),
-			keywords: &[
-				"dodanni",
-				"dodo",
-				"fushi",
-				"fuska",
-				"fuskar dodo",
-				"halitta",
-				"labarin aljana",
-				"mugu",
-				"tatsuniya",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("dodanni"),
-			keywords: &[
-				"dodanni",
-				"dodo",
-				"fushi",
-				"fuska",
-				"fuskar dodo",
-				"halitta",
-				"labarin aljana",
-				"mugu",
-				"tatsuniya",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("גובלין"),
-			keywords: &["אדום", "גובלין", "יצור", "מפחיד", "מפלצת", "פרצוף", "קרניים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("जापानी पिशाच"),
-			keywords: &[
-				"च\u{947}हरा",
-				"जापानी पिशाच",
-				"ट\u{947}\u{902}ग\u{942}",
-				"द\u{948}त\u{94d}य",
-				"परी कथा",
-				"पिशाच",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("goblin"),
-			keywords: &[
-				"bajka",
-				"fantazija",
-				"goblin",
-				"lice",
-				"ljut",
-				"maska",
-				"stvor",
-				"zlo",
-				"čudovište",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("kobold"),
-			keywords: &[
-				"arc", "fantasy", "japán", "kobold", "lény", "maszk", "mese", "mérges", "szörny", "álarc",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("չար ոգի"),
-			keywords: &["արարած", "դեմք", "հեքիաթ", "հրեշ", "ճապոնական", "չար ոգի", "ֆանտազիա"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("topeng hidung panjang"),
-			keywords: &[
-				"dongeng",
-				"fantasi",
-				"jepang",
-				"kejam",
-				"kesal",
-				"khayalan",
-				"makhluk",
-				"marah",
-				"monster",
-				"topeng",
-				"topeng hidung panjang",
-				"wajah",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("gọblịn"),
-			keywords: &[
-				"akụkọ",
-				"akụkọ ifo",
-				"arọmarọ",
-				"gọblịn",
-				"ihe e kere eke",
-				"ihe egwu",
-				"ihu",
-				"iwe",
-				"nkpuchi",
-				"pụtara",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("ári"),
-			keywords: &["andlit", "púki", "tröll", "ári", "ævintýri"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("goblin"),
-			keywords: &[
-				"arrabbiato",
-				"carnevale",
-				"cattivo",
-				"crudele",
-				"diavolo",
-				"favola",
-				"fiaba",
-				"folletto",
-				"goblin",
-				"malefico",
-				"mostro",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("天狗"),
-			keywords: &["お面", "天狗", "怒り"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("buta goblin"),
-			keywords: &["buta goblin", "crita dongeng", "fantasi", "monster", "rai", "wewujudan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("გობლინი"),
-			keywords: &[
-				"არსება",
-				"გობლინი",
-				"ზღაპარი",
-				"იაპონური",
-				"მონსტრი",
-				"სახე",
-				"ფანტაზია",
-				"ფანტასტიკა",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("cciṭan"), keywords: &["cciṭan"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("гоблин"),
-			keywords: &["бет", "гоблин", "ертегі", "маска", "қиял", "құбыжық"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation { lang: "kl", tts: Some("ånd"), keywords: &["japansk ånd", "ånd"] },
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សអាក\u{17d2}រក\u{17cb}"),
-			keywords: &[
-				"មន\u{17bb}ស\u{17d2}ស",
-				"ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សអាក\u{17d2}រក\u{17cb}",
-				"អាក\u{17d2}រក\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಗಾಬ\u{ccd}ಲ\u{cbf}ನ\u{ccd}"),
-			keywords: &[
-				"ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ ಕಥ\u{cc6}",
-				"ಕ\u{ccb}ಪ",
-				"ಗಾಬ\u{ccd}ಲ\u{cbf}ನ\u{ccd}",
-				"ಜಪಾನ\u{cc0}ಸ\u{ccd}",
-				"ಜ\u{cbf}ಪುಣ",
-				"ಜ\u{cc0}ವ\u{cbf}",
-				"ತುಂಟ ಬ\u{cc7}ತಾಳ",
-				"ತುಂಟದ\u{cc6}ವ\u{ccd}ವ",
-				"ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ",
-				"ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
-				"ಮುಖ",
-				"ಮುಖವಾಡ",
-				"ರಾಕ\u{ccd}ಷಸ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("코주부 도깨비 가면"),
-			keywords: &[
-				"가면",
-				"도깨비",
-				"동화",
-				"몬스터",
-				"심술궂은",
-				"얼굴",
-				"일본",
-				"코주부 도깨비",
-				"코주부 도깨비 가면",
-				"판타지",
-				"화난",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ता\u{902}बड\u{947}\u{902} पिशाच\u{94d}च"),
-			keywords: &[
-				"च\u{947}रो",
-				"ता\u{902}बड\u{947}\u{902} पिशाच\u{94d}च",
-				"परी कथा",
-				"पिशाच\u{94d}च",
-				"प\u{94d}राणी",
-				"राक\u{94d}षस",
-				"लहर",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("гоблин"),
-			keywords: &["бет", "гоблин", "желмогуз", "жомок", "фантастика"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Kobold"),
-			keywords: &["Fantasie", "Gesiicht", "Kobold", "Kreatur", "Monster", "Mäerchen"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຜ\u{eb5}ນ\u{ec9}ອຍ"),
-			keywords: &["ຜ\u{eb5}", "ຜ\u{eb5}ນ\u{ec9}ອຍ", "ໜ\u{ec9}າ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("demonas"),
-			keywords: &["demonas", "fantazija", "monstras", "padaras", "pasaka", "veidas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("goblins"),
-			keywords: &["briesmonis", "fantāzija", "goblins", "monstrs", "pasaka", "radījums", "seja"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("taipō"),
-			keywords: &["kanohi", "kīrehe", "kōrero pakiwaitara", "moemoeā", "taipō", "taniwha"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("гоблин"),
-			keywords: &[
-				"бајка",
-				"гнев",
-				"гневна маска",
-				"гоблин",
-				"лице",
-				"лоша",
-				"маска",
-				"суштество",
-				"фантазија",
-				"чудовиште",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ക\u{d41}ട\u{d4d}ടിച\u{d4d}ച\u{d3e}ത\u{d4d}തൻ"),
-			keywords: &[
-				"ക\u{d41}ട\u{d4d}ടിച\u{d4d}ച\u{d3e}ത\u{d4d}തൻ",
-				"ജന\u{d4d}ത\u{d41}",
-				"ജപ\u{d4d}പ\u{d3e}നീസ\u{d4d}",
-				"ഫ\u{d3e}ന\u{d4d}റസി",
-				"മ\u{d41}ഖം",
-				"മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
-				"ര\u{d3e}ക\u{d4d}ഷസൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("шүтээн, онгод"),
-			keywords: &["мангас", "онгод", "төсөөлөл", "шүтээн", "шүтээн, онгод", "япон"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("अक\u{94d}राळविक\u{94d}राळ भ\u{942}त"),
-			keywords: &[
-				"अक\u{94d}राळविक\u{94d}राळ",
-				"आवड",
-				"काल\u{94d}पनिक कथा",
-				"च\u{947}हरा",
-				"जपानी भ\u{942}त",
-				"ट\u{947}\u{902}ग\u{942}",
-				"परीकथा",
-				"प\u{94d}राणी",
-				"भ\u{942}त",
-				"राक\u{94d}षस",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("goblin"),
-			keywords: &["cerita dongeng", "fantasi", "goblin", "jepun", "makhluk", "muka", "raksasa"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("goblin"),
-			keywords: &["fantasija", "goblin", "kreatura", "mostru", "wiċċ", "ħrafa"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("နတ\u{103a}ဆ\u{102d}\u{102f}းကလေး"),
-			keywords: &[
-				"စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
-				"ဒဏ\u{1039}ဍာရ\u{102e} ပ\u{102f}\u{1036}ပြင\u{103a}",
-				"နတ\u{103a}ဆ\u{102d}\u{102f}းကလေး",
-				"ဘ\u{102e}လ\u{1030}း",
-				"မျက\u{103a}မ\u{103e}ာ",
-				"မ\u{103e}င\u{103a}စာ",
-				"အကောင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("सानो भ\u{942}त"),
-			keywords: &[
-				"अन\u{941}हार",
-				"ख\u{947}स\u{94d}रा कल\u{94d}पना",
-				"जीव",
-				"परीको कथा",
-				"राक\u{94d}षस",
-				"सानो भ\u{942}त",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("kobold"),
-			keywords: &[
-				"fabel",
-				"fantasie",
-				"gezicht",
-				"japans",
-				"kobold",
-				"masker",
-				"monster",
-				"mythologie",
-				"smiley",
-				"sprookje",
-				"tengu",
-				"wezen",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["eventyr", "fjes", "japansk troll", "tengu"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଖର\u{b4d}ବକ\u{b3e}ୟ ଅସ\u{b41}ର"),
-			keywords: &[
-				"ଅସ\u{b41}ର",
-				"କଳ\u{b4d}ପନ\u{b3e}",
-				"ଖର\u{b4d}ବକ\u{b3e}ୟ ଅସ\u{b41}ର",
-				"ପରୀ କ\u{b3e}ହ\u{b3e}ଣୀ",
-				"ମ\u{b41}ହ\u{b01}",
-				"ର\u{b3e}କ\u{b4d}ଷସ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪ\u{a4d}ਰ\u{a47}ਤ"),
-			keywords: &[
-				"ਚਿਹਰਾ",
-				"ਜਾਪਾਨੀ ਭ\u{a42}ਤ",
-				"ਦ\u{a48}\u{a02}ਤ",
-				"ਪਰੀ ਕਹਾਣੀ",
-				"ਪ\u{a4d}ਰ\u{a47}ਤ",
-				"ਭ\u{a42}ਤ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("آسیب"),
-			keywords: &["آسیب", "تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Wíkẹ\u{301}d Bád Spírit"),
-			keywords: &[
-				"Dédrim",
-				"Fes",
-				"Gọ\u{301}blin",
-				"Kríchọ",
-				"Mọ\u{301}nsta",
-				"Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
-				"Wíkẹ\u{301}d Bád Spírit",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("goblin"),
-			keywords: &["diabeł", "goblin", "maska", "potwór", "stwór", "zły"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("پېری"),
-			keywords: &["بلا", "د ښاپېرو کيسه", "مخ", "مخلوق", "پېری"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("duende japonês"),
-			keywords: &[
-				"bravo",
-				"conto de fadas",
-				"duende japonês",
-				"goblin",
-				"japonês",
-				"monstro",
-				"máscara",
-				"raiva",
-				"rosto",
-				"tengu",
-				"zangado",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"cara",
-				"conto de fadas",
-				"criatura",
-				"duende japonês",
-				"fantasia",
-				"japonês",
-				"monstro",
-				"máscara",
-				"tengu",
-				"zangado",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("huchuy kuku"),
-			keywords: &[
-				"criatura",
-				"fantasia",
-				"hadas willana",
-				"huchuy kuku",
-				"kuku",
-				"monstruo",
-				"uya",
-			],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("spiriduș"),
-			keywords: &[
-				"basm",
-				"creatură",
-				"fantezie",
-				"față",
-				"japonez",
-				"magie",
-				"mască",
-				"monstru",
-				"noh",
-				"omuleț",
-				"poveste",
-				"rău",
-				"spiriduș",
-				"supărat",
-				"teatru",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-567"), keywords: &["E10-567"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("японский гоблин"),
-			keywords: &["гоблин", "злой", "монстр", "сказка", "страшный", "тэнгу", "чудище", "японский"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("ikigini"),
-			keywords: &["igikoko gikaze", "ikigini", "ikiremwa", "indoto", "isura", "umugani"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("بونو"),
-			keywords: &["بونو", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ගොබ\u{dca}ල\u{dd2}න\u{dca} යක\u{dca}ෂය\u{dcf}"),
-			keywords: &[
-				"ගොබ\u{dca}ල\u{dd2}න\u{dca} යක\u{dca}ෂය\u{dcf}",
-				"ජපන\u{dca}",
-				"ම\u{dcf}ය\u{dcf}ව",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"යක\u{dca}ෂය\u{dcf}",
-				"සත\u{dcf}",
-				"ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("škrat"),
-			keywords: &[
-				"fantasy",
-				"japonská",
-				"netvor",
-				"obluda",
-				"rozprávka",
-				"stvorenie",
-				"tvár",
-				"výraz",
-				"škrat",
-				"škriatok",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("škratelj"),
-			keywords: &["bitje", "fantazija", "japonsko", "obraz", "pošast", "pravljica", "škratelj"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("noole foolxun"),
-			keywords: &["khayaali", "noole", "noole foolxun", "shayddaan", "sheeko been", "waji"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("goblin"),
-			keywords: &[
-				"fantazi",
-				"fytyrë",
-				"goblin",
-				"i keq",
-				"i zemëruar",
-				"japonez",
-				"krijesë",
-				"maskë",
-				"përbindësh",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("гоблин"),
-			keywords: &["бајка", "гоблин", "зао", "лице", "маска", "ствoрење", "фантазија", "чудoвиштe"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("goblin"),
-			keywords: &["bajka", "fantazija", "goblin", "lice", "maska", "stvorenje", "zao", "čudovište"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("japanskt troll"),
-			keywords: &["ansikte", "japansk", "saga", "troll"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("afriti"),
-			keywords: &["afriti", "kichimbakazi", "kijapani", "kiumbe", "njozi", "uso", "zimwi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஜ\u{bbe}ப\u{bcd}பன\u{bc0}ஸ\u{bcd} பூதம\u{bcd}"),
-			keywords: &[
-				"குட\u{bcd}டிச\u{bcd}ச\u{bbe}த\u{bcd}த\u{bbe}ன\u{bcd}",
-				"ஜ\u{bbe}ப\u{bcd}பன\u{bc0}ஸ\u{bcd} பூதம\u{bcd}",
-				"திருட\u{bcd}டி",
-				"திருஷ\u{bcd}டி",
-				"பூதம\u{bcd}",
-				"ம\u{bbe}ன\u{bcd}ஸ\u{bcd}டர\u{bcd}",
-				"முகம\u{bcd}",
-				"விசித\u{bcd}திரக\u{bcd} கதை",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("జపన\u{c40}స\u{c4d} గ\u{c4b}బ\u{c4d}ల\u{c3f}న\u{c4d}"),
-			keywords: &[
-				"క\u{c4d}ర\u{c3f}య\u{c47}చర\u{c4d}",
-				"గ\u{c4b}బ\u{c4d}ల\u{c3f}న\u{c4d}",
-				"జపన\u{c40}స\u{c4d}",
-				"ఫ\u{c3e}ంటస\u{c40}",
-				"ఫ\u{c46}య\u{c3f}ర\u{c40} ట\u{c47}ల\u{c4d}",
-				"ఫ\u{c47}స\u{c4d}",
-				"భయంకరమ\u{c48}న ముఖం",
-				"మ\u{c3e}స\u{c4d}క\u{c4d}",
-				"మ\u{c4b}న\u{c4d}స\u{c4d}టర\u{c4d}",
-				"య\u{c3e}ంగ\u{c4d}ర\u{c40}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("аҷинаи хона"),
-			keywords: &["афсона", "аъҷуба", "аҷинаи хона", "махлуқ", "рӯй", "тахайюлот"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ป\u{e35}ศาจญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
-			keywords: &[
-				"ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
-				"ป\u{e34}ศาจ",
-				"ป\u{e35}ศาจญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
-				"หน\u{e49}า",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጎብሊን"),
-			keywords: &["ሓሳባዊ", "ገጽ", "ጎብሊን", "ፍጡር"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("goblin"),
-			keywords: &["erteki", "goblin", "hyýal", "mahluk", "nägehan", "ýüz"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("pīnōnō"),
-			keywords: &["faʻahikehe", "pīnōnō"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("goblin"),
-			keywords: &[
-				"canavar",
-				"cin",
-				"goblin",
-				"japon",
-				"japon cini",
-				"maske",
-				"peri masalı",
-				"tengu",
-				"yaratık",
-				"yüz",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("جىن"),
-			keywords: &["جىن", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("гоблін"),
-			keywords: &["гоблін", "казка", "монстр", "обличчя", "створіння", "фантазія", "японський"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("لمبی ناک اور مونچھوں والا دیو"),
-			keywords: &[
-				"آسیب",
-				"ارواح خبیثہ",
-				"افسانوی",
-				"بھوت",
-				"جاپانی",
-				"جن",
-				"خیالی",
-				"داستان",
-				"دیو",
-				"شیطان",
-				"لمبی ناک اور مونچھوں والا دیو",
-				"پری داستان",
-				"چہرہ",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("ajina"),
-			keywords: &["ajina", "ertak", "fantaziya", "maxluq", "maxluqot", "yapon", "yuz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("yêu tinh"),
-			keywords: &["mặt", "quái vật", "sinh vật", "truyện cổ tích", "tưởng tượng", "yêu tinh"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("kus-kondoroŋ"),
-			keywords: &["feem", "kanam", "kus-kondoroŋ", "léebu fee", "mbinddéef", "rab-wu-gànde"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("uthikoloshe"),
-			keywords: &[
-				"iingcinga",
-				"intsomi",
-				"irhamncwa eloyikekayo",
-				"isidalwa",
-				"ubuso",
-				"uthikoloshe",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("abàmì aràrá"),
-			keywords: &["abàmì", "abàmì aràrá", "ojú", "àlá", "ìtàn ọmọdé", "ẹ\u{300}dá"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("abàmì aràrá"),
-			keywords: &["abàmì", "abàmì aràrá", "ojú", "àlá", "ìtàn ɔmɔdé", "ɛ\u{300}dá"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("小妖精"),
-			keywords: &["小妖精", "幻想", "怪物", "生物", "童話故事", "臉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("小妖精"),
-			keywords: &["小妖精", "幻想", "怪物", "生物", "童话故事", "脸"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("小妖精"),
-			keywords: &["妖怪", "小妖精", "幻想", "怪物", "日本", "神话故事", "脸", "鬼"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("天狗"),
-			keywords: &["天狗", "妖怪", "小妖怪", "怪物", "面具"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["天狗", "憤怒", "日本", "生物", "童話", "紅色", "臉孔", "面具"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation { lang: "zu", tts: Some("goblin"), keywords: &["goblin", "inunu"] },
-	],
+	annotations:          &[],
 };
 #[doc = "👻"]
 pub const GHOST: crate::Emoji = crate::Emoji {
@@ -5565,18 +4346,783 @@ pub const GHOST: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "👽\u{fe0f}"]
-pub const ALIEN: crate::Emoji = crate::Emoji {
-	glyph:                "👽\u{fe0f}",
-	codepoint:            &[128125u32],
+#[doc = "🤖"]
+pub const ROBOT: crate::Emoji = crate::Emoji {
+	glyph:                "🤖",
+	codepoint:            &[129302u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "alien",
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "robot",
 	group:                crate::Group::SmileysEmotion,
 	subgroup:             crate::Subgroup::FaceCostume,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("robotgesig"),
+			keywords: &["gesig", "gevoelloos", "monster", "robot", "robotgesig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የሮቦት ፊት"),
+			keywords: &["ሮቦት", "የሮቦት ፊት", "ጭራቅ", "ፊት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("وجه روبوت"),
+			keywords: &["إنسان آلي", "روبوت", "مسخ", "وجه", "وحش"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ৰবট"),
+			keywords: &["দৈত\u{9cd}য", "ম\u{9c1}খমণ\u{9cd}ডল", "ৰবট"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("robot üz"),
+			keywords: &["monstr", "robot", "üz"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("робат"),
+			keywords: &["монстр", "паўстанне машын", "робат"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Лице на робот"),
+			keywords: &["Лице на робот", "лице", "робот", "чудовище"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("রোবোট"),
+			keywords: &[
+				"দ\u{9be}নব",
+				"ম\u{9c1}খ",
+				"যন\u{9cd}ত\u{9cd}রম\u{9be}নব",
+				"রোবট",
+				"রোবোট",
+				"রোবোটের ম\u{9c1}খ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation { lang: "br", tts: Some("robot"), keywords: &["euzhvil", "robot"] },
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("robot"),
+			keywords: &["lice", "robot", "čudovište"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("robot"),
+			keywords: &["cara", "cara de robot", "monstre", "robot"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"),
+			keywords: &["ᎤᎧᏛ", "ᎦᏂᏰᎩ", "ᏔᎷᎩᏍᎩ ᏴᏫ", "ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("obličej robota"),
+			keywords: &[
+				"automat",
+				"obličej",
+				"obličej robota",
+				"příšera",
+				"robot",
+				"smajlík",
+				"tvář",
+				"výraz",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("wyneb robot"),
+			keywords: &["anghenfil", "robot", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("robot"),
+			keywords: &["ansigt", "monster", "robot", "robotansigt"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Roboter"),
+			keywords: &["Gesicht", "Monster", "Roboter", "Robotergesicht", "Roboterkopf"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ρομπότ"),
+			keywords: &["πρόσωπο", "ρομπότ", "τέρας"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("robot"),
+			keywords: &["face", "monster", "robot"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("robot"),
+			keywords: &["cara", "monstruo", "robot"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["cara", "monstruo", "r2d2", "robot", "robotina"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("cara de robot"),
+			keywords: &["cara", "cara de robot", "monstruo"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("robot"),
+			keywords: &["koletis", "nägu", "robot", "roboti nägu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("robot-aurpegia"),
+			keywords: &["aurpegi", "munstro", "robot", "robot-aurpegia"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("روبات"),
+			keywords: &["ربات", "روبات", "صورت", "هیولا"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("robotti"),
+			keywords: &["hirviö", "naama", "robotti", "robottinaama"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("mukha ng robot"),
+			keywords: &["mukha", "mukha ng robot", "robot"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("robottandlit"),
+			keywords: &["andlit", "robottandlit", "robottur", "tólmenni"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("robot"),
+			keywords: &[
+				"androïde",
+				"automate",
+				"machine",
+				"monstre",
+				"robot",
+				"visage",
+				"visage de robot",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["monstre", "robot", "visage"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("róbat"),
+			keywords: &["aghaidh", "arracht", "róbat"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("robotair"),
+			keywords: &["aodann", "robotair", "uilebheist"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("robot"),
+			keywords: &["cara", "cara de robot", "robot"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("રોબોટ"),
+			keywords: &["ચહ\u{ac7}રો", "મશીની માનવ", "મ\u{ac1}ખ", "રોબોટ", "રોબોટનો ચહ\u{ac7}રો"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("fuskar Robot"),
+			keywords: &["dodo", "fuska", "fuskar Robot", "mutum mutumi", "mutumin inji", "robot"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("fuskar Robot"),
+			keywords: &["dodo", "fuska", "fuskar Robot", "mutum mutumi", "mutumin inji", "robot"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("רובוט"),
+			keywords: &["פרצוף", "פרצוף של רובוט", "רובוט"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("रोबोट च\u{947}हरा"),
+			keywords: &["च\u{947}हरा", "राक\u{94d}षस", "रोबोट"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("robot"),
+			keywords: &["lice", "robot", "robotsko lice", "čudovište"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("robot"),
+			keywords: &["arc", "robot", "robotarc", "szörny"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ռոբոտ"),
+			keywords: &["դեմք", "հրեշ", "ռոբոտ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("robot"),
+			keywords: &["monster", "muka", "robot", "wajah"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ihu rọbọtụ"),
+			keywords: &["ihe egwu", "ihu", "rọbọtụ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("vélmennisandlit"),
+			keywords: &["andlit", "skrímsli", "vélmenni", "vélmennisandlit"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("faccina di robot"),
+			keywords: &["faccina", "faccina di robot", "robot", "tecnologia"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ロボット"),
+			keywords: &["ロボット", "ロボットの顔", "顔"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("wujud robot"),
+			keywords: &["monster", "rai", "robot", "wujud robot"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("რობოტის სახე"),
+			keywords: &["მონსტრი", "რობოტი", "რობოტის სახე", "სახე"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("aṛubut"), keywords: &["aṛubut"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("робот"),
+			keywords: &["бет", "робот", "құбыжық"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("robotansigt"),
+			keywords: &["ansigt", "monster", "robotansigt"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត"),
+			keywords: &[
+				"មន\u{17bb}ស\u{17d2}សយន\u{17d2}ត",
+				"ម\u{17bb}ខ",
+				"ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರ\u{ccb}ಬ\u{ccb}ಟ\u{ccd}"),
+			keywords: &["ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ", "ಮುಖ", "ರಾಕ\u{ccd}ಷಸ", "ರ\u{ccb}ಬ\u{ccb}ಟ\u{ccd}"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("로봇 얼굴"),
+			keywords: &["로봇", "몬스터", "얼굴"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("रोबोट"),
+			keywords: &["च\u{947}रो", "राक\u{94d}षस", "रोबोट"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("робот"),
+			keywords: &["бет", "желмогуз", "робот"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Roboter"),
+			keywords: &["Gesiicht", "Monster", "Roboter"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ"),
+			keywords: &["ຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("roboto veidas"),
+			keywords: &["monstras", "robotas", "roboto veidas", "veidas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("robots"),
+			keywords: &["monstrs", "robots", "seja"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kanohi karetao"),
+			keywords: &["kanohi", "karetao", "taniwha"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("робот"),
+			keywords: &["лице", "лице на робот", "робот", "чудовиште"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("റോബോട\u{d4d}ടിന\u{d4d}റെ മ\u{d41}ഖം"),
+			keywords: &[
+				"മ\u{d41}ഖം",
+				"ര\u{d3e}ക\u{d4d}ഷസൻ",
+				"റോബോട\u{d4d}ടിന\u{d4d}റെ മ\u{d41}ഖം",
+				"റോബോട\u{d4d}ട\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("робот царай"),
+			keywords: &["робот", "царай"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("य\u{902}त\u{94d}रमानवाचा च\u{947}हरा"),
+			keywords: &[
+				"च\u{947}हरा",
+				"य\u{902}त\u{94d}र मानव",
+				"य\u{902}त\u{94d}रमानवाचा च\u{947}हरा",
+				"राक\u{94d}षस",
+				"रोबोट",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("robot"),
+			keywords: &["muka", "raksasa", "robot"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("wiċċ ta’ robot"),
+			keywords: &["mostru", "robot", "wiċċ", "wiċċ ta’ robot"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စက\u{103a}ရ\u{102f}ပ\u{103a} မျက\u{103a}န\u{103e}ာ"),
+			keywords: &[
+				"စက\u{103a}ရ\u{102f}ပ\u{103a}",
+				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး",
+				"မျက\u{103a}န\u{103e}ာ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("रोबोट अन\u{941}हार"),
+			keywords: &["अन\u{941}हार", "राक\u{94d}षस", "रोबोट"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("robot"),
+			keywords: &["gezicht", "monster", "robot"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ରୋବୋଟ\u{b4d}"),
+			keywords: &["ଅସ\u{b41}ର", "ମ\u{b41}ହ\u{b01}", "ରୋବଟ\u{b4d}\u{200c}", "ରୋବୋଟ\u{b4d}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ"),
+			keywords: &[
+				"ਚਿਹਰਾ",
+				"ਦ\u{a48}\u{a02}ਤ",
+				"ਮ\u{a42}\u{a70}ਹ",
+				"ਰਾਖਸ\u{a3c}",
+				"ਰ\u{a4b}ਬ\u{a4b}ਟ",
+				"ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ",
+				"ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਮ\u{a42}\u{a70}ਹ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("روبوٹ دی شکل"),
+			keywords: &["دی شکل", "دیو", "روبوٹ دی شکل", "ر\u{64f}وبوٹ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mashin Wé Rizẹ\u{301}mbúl Húmánbin"),
+			keywords: &[
+				"Bíg Bád Anímal Wé De Mék Pẹ\u{301}sin Kách Fia",
+				"Fes",
+				"Mashin Wé Rizẹ\u{301}mbúl Húmánbin",
+				"Rọ\u{301}bọt",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("głowa robota"),
+			keywords: &["głowa robota", "monstrum", "potwór", "robot", "twarz"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("روبوټ"), keywords: &["بلا", "روبوټ", "مخ"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("rosto de robô"),
+			keywords: &["monstro", "robotizado", "robô", "rosto"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("robô"),
+			keywords: &["cara", "cara de robô", "monstro", "robô"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("robot"),
+			keywords: &["mostruo", "robot", "uya"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("robot"),
+			keywords: &["cap", "cap de robot", "față", "față de robot", "monstru", "robot"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-1016"), keywords: &["E10-1016"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("робот"),
+			keywords: &["лицо", "монстр", "робот", "страх"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("isura y’irobo"),
+			keywords: &["igikoko", "irobo", "isura", "isura y’irobo"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("روبوٽ"),
+			keywords: &["روبوٽ", "مونسٽر", "چهرو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("රොබෝ ම\u{dd4}හ\u{dd4}ණ"),
+			keywords: &["ම\u{dd4}හ\u{dd4}ණ", "යක\u{dca}ෂය\u{dcf}", "රොබෝ"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("robot"),
+			keywords: &["automat", "netvor", "robot", "strašidlo", "stvorenie", "tvár", "tvár robota"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("robot"),
+			keywords: &["obraz", "pošast", "robot", "robotski obraz"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("mashiin"),
+			keywords: &["mashiin", "shaddaan", "waji"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("fytyrë roboti"),
+			keywords: &["fytyrë", "fytyrë roboti", "përbindësh", "robot"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("роботско лице"),
+			keywords: &["лице", "робот", "чудовиште"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["роботско лице"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("robotsko lice"),
+			keywords: &["lice", "robot", "čudovište"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["robotsko lice"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("robotansikte"),
+			keywords: &["ansikte", "robot"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("roboti"),
+			keywords: &["roboti", "uso", "zimwi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ரோபோ முகம\u{bcd}"),
+			keywords: &[
+				"சிட\u{bcd}டி",
+				"ம\u{bbe}ன\u{bcd}ஸ\u{bcd}டர\u{bcd}",
+				"ரோபோ",
+				"ரோபோ முகம\u{bcd}",
+				"ரோபோட\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ర\u{c4b}బ\u{c4b} ముఖం"),
+			keywords: &[
+				"ఫ\u{c47}స\u{c4d}",
+				"ముఖం",
+				"ర\u{c3e}క\u{c4d}షసుడు",
+				"ర\u{c4b}బ\u{c4b}",
+				"ర\u{c4b}బ\u{c4b}ట\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("рӯи робот"),
+			keywords: &["аъҷуба", "робот", "рӯи робот", "рӯй"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e38}\u{e48}นยนต\u{e4c}"),
+			keywords: &["ส\u{e31}ตว\u{e4c}ประหลาด", "หน\u{e49}า", "ห\u{e38}\u{e48}นยนต\u{e4c}"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation { lang: "ti", tts: Some("ሮቦት"), keywords: &["ሮቦት", "ጭራቕ"] },
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("robot"),
+			keywords: &["nägehan", "robot", "ýüz"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mata tangata-ukamea"),
+			keywords: &["mata", "tangata-ukamea"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("robot"),
+			keywords: &["canavar", "robot", "yüz"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("روبوت چىراي"),
+			keywords: &["روبوت", "يالماۋۇز", "چىراي"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("робот"),
+			keywords: &["голова", "монстр", "обличчя", "робот"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("روبوٹ"),
+			keywords: &["اشیاء", "دیئو", "روبوٹ", "مشین", "مشینی دیئو", "مونسٹر", "چہرہ", "چیز"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("robot qiyofa"),
+			keywords: &["maxluq", "robot", "robot qiyofa", "yuz"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("mặt rô-bốt"),
+			keywords: &["mặt", "quỷ", "rô-bốt"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("kanamu roboo"),
+			keywords: &["kanam", "kanamu roboo", "rab-wu-gànde", "roboo"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ubuso berobhothi"),
+			keywords: &["irhamncwa", "irobhothi", "ubuso", "ubuso berobhothi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Oju Ṣigidi"),
+			keywords: &["Oju Ṣigidi", "abàmì", "ojú", "ṣìgìdì"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Oju Shigidi"),
+			keywords: &["Oju Shigidi", "abàmì", "ojú", "shìgìdì"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("機械人臉"),
+			keywords: &["怪物", "機械人", "機械人臉", "臉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("机械人脸"),
+			keywords: &["怪物", "机械人", "机械人脸", "脸"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("机器人"),
+			keywords: &["怪物", "机器人", "脸"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("機器人"), keywords: &["機器人"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("機械人"),
+			keywords: &["bot", "怪物", "機器", "機械人", "機械人臉", "臉孔"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ubuso berobhothi"),
+			keywords: &["irobhothi", "isilwane", "ubuso", "ubuso berobhothi"],
+		},
+	],
 };
 #[doc = "👾"]
 pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
@@ -7165,13 +6711,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🤖"]
-pub const ROBOT: crate::Emoji = crate::Emoji {
-	glyph:                "🤖",
-	codepoint:            &[129302u32],
+#[doc = "👺"]
+pub const GOBLIN: crate::Emoji = crate::Emoji {
+	glyph:                "👺",
+	codepoint:            &[128122u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "robot",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "goblin",
 	group:                crate::Group::SmileysEmotion,
 	subgroup:             crate::Subgroup::FaceCostume,
 	is_variant:           false,
@@ -7180,124 +6726,228 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("robotgesig"),
-			keywords: &["gesig", "gevoelloos", "monster", "robot", "robotgesig"],
+			tts:      Some("tokkelos"),
+			keywords: &[
+				"Japannees",
+				"fantasie",
+				"gemeen",
+				"gesig",
+				"japannees",
+				"kreatuur",
+				"masker",
+				"monster",
+				"sprokie",
+				"tokkelos",
+				"trol",
+				"woedend",
+			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("የሮቦት ፊት"),
-			keywords: &["ሮቦት", "የሮቦት ፊት", "ጭራቅ", "ፊት"],
+			tts:      Some("ጆሮ ቆራጭ"),
+			keywords: &["ተረት ተረት", "የጃፓን", "ጆሮ ቆራጭ", "ጭራቅ", "ፊት"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("وجه روبوت"),
-			keywords: &["إنسان آلي", "روبوت", "مسخ", "وجه", "وحش"],
+			tts:      Some("عفريت"),
+			keywords: &["حدوتة", "خرافة", "شرير", "عفريت", "غضب", "قتاع", "كائن", "وجه", "وحش", "ياباني"],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("ৰবট"),
-			keywords: &["দৈত\u{9cd}য", "ম\u{9c1}খমণ\u{9cd}ডল", "ৰবট"],
+			tts:      Some("পিশ\u{9be}চ"),
+			keywords: &[
+				"কল\u{9cd}পন\u{9be}",
+				"দ\u{9be}নব",
+				"পিশ\u{9be}চ",
+				"প\u{9cd}ৰ\u{9be}ণী",
+				"পৰীৰ স\u{9be}ধ\u{9c1}",
+				"ম\u{9c1}খ",
+			],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("robot üz"),
-			keywords: &["monstr", "robot", "üz"],
+			tts:      Some("qoblin"),
+			keywords: &[
+				"fantastika",
+				"maska",
+				"monstr",
+				"məxluq",
+				"nağıl",
+				"qoblin",
+				"yapon",
+				"üz",
+				"əsəbi",
+			],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("робат"),
-			keywords: &["монстр", "паўстанне машын", "робат"],
+			tts:      Some("гоблін"),
+			keywords: &["гоблін", "казачны", "монстр", "стварэнне", "японскі"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("Лице на робот"),
-			keywords: &["Лице на робот", "лице", "робот", "чудовище"],
+			tts:      Some("гоблин"),
+			keywords: &[
+				"гоблин",
+				"лице",
+				"приказка",
+				"създание",
+				"същество",
+				"фантазия",
+				"фантастичен",
+				"чудовище",
+				"ядосан",
+				"японски",
+			],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("রোবোট"),
+			tts:      Some("অপদেবত\u{9be}"),
 			keywords: &[
+				"অপদেবত\u{9be}",
+				"অস\u{9c1}র",
+				"কল\u{9cd}পন\u{9be}",
+				"জ\u{9be}প\u{9be}নি",
 				"দ\u{9be}নব",
+				"ব\u{9c1}নো জীব",
 				"ম\u{9c1}খ",
-				"যন\u{9cd}ত\u{9cd}রম\u{9be}নব",
-				"রোবট",
-				"রোবোট",
-				"রোবোটের ম\u{9c1}খ",
+				"র\u{9c2}পকথ\u{9be}",
 			],
 		},
 		#[cfg(feature = "br")]
-		crate::Annotation { lang: "br", tts: Some("robot"), keywords: &["euzhvil", "robot"] },
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("gobilin"),
+			keywords: &["euzhvil", "gobilin"],
+		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("robot"),
-			keywords: &["lice", "robot", "čudovište"],
+			tts:      Some("goblin"),
+			keywords: &["bajka", "fantazija", "goblin", "japansko", "lice", "stvorenje", "čudovište"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("robot"),
-			keywords: &["cara", "cara de robot", "monstre", "robot"],
+			tts:      Some("follet japonès"),
+			keywords: &[
+				"cara",
+				"conte",
+				"conte de fades",
+				"criatura",
+				"enfadat",
+				"fantasia",
+				"follet",
+				"japonès",
+				"malvat",
+				"monstre",
+				"màscara",
+			],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"),
-			keywords: &["ᎤᎧᏛ", "ᎦᏂᏰᎩ", "ᏔᎷᎩᏍᎩ ᏴᏫ", "ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"],
+			tts:      Some("ᎩᎦᎨ ᏴᏫ"),
+			keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎩᎦᎨ ᏴᏫ", "ᎰᏩᏂᎨᏒᎾ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("obličej robota"),
+			tts:      Some("šotek"),
 			keywords: &[
-				"automat",
+				"bytost",
+				"fantasy",
+				"japonský",
+				"maska",
 				"obličej",
-				"obličej robota",
+				"pohádka",
 				"příšera",
-				"robot",
+				"rozzlobený",
+				"skřet",
+				"skřítek",
 				"smajlík",
+				"strašidlo",
+				"strašák",
 				"tvář",
 				"výraz",
+				"zlý",
+				"zuřivý",
+				"šotek",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("wyneb robot"),
-			keywords: &["anghenfil", "robot", "wyneb"],
+			tts:      Some("bwgan"),
+			keywords: &["anghenfil", "bwgan", "creadur", "ffantasi", "stori dylwyth teg", "wyneb"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("robot"),
-			keywords: &["ansigt", "monster", "robot", "robotansigt"],
+			tts:      Some("ånd"),
+			keywords: &["ansigt", "maske", "monster", "vred", "ånd"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("Roboter"),
-			keywords: &["Gesicht", "Monster", "Roboter", "Robotergesicht", "Roboterkopf"],
+			tts:      Some("Kobold"),
+			keywords: &[
+				"Gesicht",
+				"Japan",
+				"Kobold",
+				"Maske",
+				"Monster",
+				"Märchen",
+				"Tengu",
+				"Ungeheuer",
+				"gemein",
+				"japanisch",
+				"wütend",
+			],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("ρομπότ"),
-			keywords: &["πρόσωπο", "ρομπότ", "τέρας"],
+			tts:      Some("καλικάντζαρος"),
+			keywords: &[
+				"θυμωμένος",
+				"ιαπωνικό",
+				"κακός",
+				"καλικάντζαρος",
+				"μάσκα",
+				"παραμύθι",
+				"πλάσμα",
+				"πρόσωπο",
+				"τέρας",
+				"φαντασία",
+			],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("robot"),
-			keywords: &["face", "monster", "robot"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"angry",
+				"creature",
+				"face",
+				"fairy",
+				"fairytale",
+				"fantasy",
+				"goblin",
+				"mask",
+				"mean",
+				"monster",
+				"tale",
+			],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -7310,636 +6960,986 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("robot"),
-			keywords: &["cara", "monstruo", "robot"],
+			tts:      Some("demonio japonés tengu"),
+			keywords: &["cara", "cuento", "demonio japonés tengu", "fantasía", "monstruo", "tengu"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["cara", "monstruo", "r2d2", "robot", "robotina"],
+			tts:      Some("cara de demonio japonés"),
+			keywords: &[
+				"cara",
+				"cara de demonio japonés",
+				"cuento",
+				"demonio",
+				"diablo",
+				"japonés",
+				"monstruo",
+				"máscara",
+				"tengu",
+			],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("cara de robot"),
-			keywords: &["cara", "cara de robot", "monstruo"],
-		},
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("demonio japonés tengu"),
+			keywords: &[
+				"cara",
+				"creatura",
+				"cuento de hadas",
+				"demonio japonés tengu",
+				"duende",
+				"fantasía",
+				"monstruo",
+			],
+		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("robot"),
-			keywords: &["koletis", "nägu", "robot", "roboti nägu"],
+			tts:      Some("mäekoll"),
+			keywords: &["fantaasia", "koletis", "koll", "muinasjutt", "mäekoll", "nägu", "olend"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("robot-aurpegia"),
-			keywords: &["aurpegi", "munstro", "robot", "robot-aurpegia"],
+			tts:      Some("iratxoa"),
+			keywords: &["aurpegi", "fantasia", "ipuin", "iratxoa", "izaki", "japoniera", "munstro"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("روبات"),
-			keywords: &["ربات", "روبات", "صورت", "هیولا"],
+			tts:      Some("جن کوتوله"),
+			keywords: &["جانور", "جن و پری", "جن کوتوله", "صورت", "فانتزی", "هیولا"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("robotti"),
-			keywords: &["hirviö", "naama", "robotti", "robottinaama"],
+			tts:      Some("hiisi"),
+			keywords: &[
+				"fantasia",
+				"hiisi",
+				"hirviö",
+				"japanilainen",
+				"menninkäinen",
+				"naama",
+				"olio",
+				"satu",
+			],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("mukha ng robot"),
-			keywords: &["mukha", "mukha ng robot", "robot"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"alamat",
+				"fairy tale",
+				"fantasy",
+				"goblin",
+				"halimaw",
+				"mask",
+				"maskara",
+				"mukha",
+				"nilalang",
+			],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("robottandlit"),
-			keywords: &["andlit", "robottandlit", "robottur", "tólmenni"],
+			tts:      Some("vættur"),
+			keywords: &["andlit", "skrímsl", "trøll", "vættur", "ævintýr"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("robot"),
+			tts:      Some("monstre japonais"),
 			keywords: &[
-				"androïde",
-				"automate",
-				"machine",
+				"colère",
+				"créature",
+				"fantastique",
+				"farfadet",
+				"japonais",
+				"masque",
 				"monstre",
-				"robot",
-				"visage",
-				"visage de robot",
+				"méchant",
 			],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["monstre", "robot", "visage"],
+			tts:      Some("gobelin"),
+			keywords: &["créature", "fantastique", "gobelin", "monstre", "visage"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("róbat"),
-			keywords: &["aghaidh", "arracht", "róbat"],
+			tts:      Some("gruagach"),
+			keywords: &[
+				"Seapánach",
+				"aghaidh",
+				"aghaidh fidil",
+				"arrachtach",
+				"gruagach",
+				"síscéal",
+				"éadan",
+			],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("robotair"),
-			keywords: &["aodann", "robotair", "uilebheist"],
+			tts:      Some("bòcan Seapanach"),
+			keywords: &[
+				"aodann",
+				"bòcan Seapanach",
+				"creutair",
+				"fantastach",
+				"faoinsgeul",
+				"uilebheist",
+			],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("robot"),
-			keywords: &["cara", "cara de robot", "robot"],
+			tts:      Some("demo xaponés"),
+			keywords: &["cara", "demo", "tengu", "xaponés"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("રોબોટ"),
-			keywords: &["ચહ\u{ac7}રો", "મશીની માનવ", "મ\u{ac1}ખ", "રોબોટ", "રોબોટનો ચહ\u{ac7}રો"],
+			tts:      Some("પ\u{acd}ર\u{ac7}ત"),
+			keywords: &[
+				"ચહ\u{ac7}રો",
+				"જાપાની પ\u{acd}ર\u{ac7}ત",
+				"ટ\u{ac7}ન\u{acd}ગ\u{ac1}",
+				"દાનવ",
+				"પરી કથા",
+				"પ\u{acd}ર\u{ac7}ત",
+				"રાક\u{acd}ષસ",
+			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("fuskar Robot"),
-			keywords: &["dodo", "fuska", "fuskar Robot", "mutum mutumi", "mutumin inji", "robot"],
+			tts:      Some("dodanni"),
+			keywords: &[
+				"dodanni",
+				"dodo",
+				"fushi",
+				"fuska",
+				"fuskar dodo",
+				"halitta",
+				"labarin aljana",
+				"mugu",
+				"tatsuniya",
+			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("fuskar Robot"),
-			keywords: &["dodo", "fuska", "fuskar Robot", "mutum mutumi", "mutumin inji", "robot"],
+			tts:      Some("dodanni"),
+			keywords: &[
+				"dodanni",
+				"dodo",
+				"fushi",
+				"fuska",
+				"fuskar dodo",
+				"halitta",
+				"labarin aljana",
+				"mugu",
+				"tatsuniya",
+			],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("רובוט"),
-			keywords: &["פרצוף", "פרצוף של רובוט", "רובוט"],
+			tts:      Some("גובלין"),
+			keywords: &["אדום", "גובלין", "יצור", "מפחיד", "מפלצת", "פרצוף", "קרניים"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("रोबोट च\u{947}हरा"),
-			keywords: &["च\u{947}हरा", "राक\u{94d}षस", "रोबोट"],
+			tts:      Some("जापानी पिशाच"),
+			keywords: &[
+				"च\u{947}हरा",
+				"जापानी पिशाच",
+				"ट\u{947}\u{902}ग\u{942}",
+				"द\u{948}त\u{94d}य",
+				"परी कथा",
+				"पिशाच",
+			],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("robot"),
-			keywords: &["lice", "robot", "robotsko lice", "čudovište"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"bajka",
+				"fantazija",
+				"goblin",
+				"lice",
+				"ljut",
+				"maska",
+				"stvor",
+				"zlo",
+				"čudovište",
+			],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("robot"),
-			keywords: &["arc", "robot", "robotarc", "szörny"],
+			tts:      Some("kobold"),
+			keywords: &[
+				"arc", "fantasy", "japán", "kobold", "lény", "maszk", "mese", "mérges", "szörny", "álarc",
+			],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("ռոբոտ"),
-			keywords: &["դեմք", "հրեշ", "ռոբոտ"],
+			tts:      Some("չար ոգի"),
+			keywords: &["արարած", "դեմք", "հեքիաթ", "հրեշ", "ճապոնական", "չար ոգի", "ֆանտազիա"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("robot"),
-			keywords: &["monster", "muka", "robot", "wajah"],
+			tts:      Some("topeng hidung panjang"),
+			keywords: &[
+				"dongeng",
+				"fantasi",
+				"jepang",
+				"kejam",
+				"kesal",
+				"khayalan",
+				"makhluk",
+				"marah",
+				"monster",
+				"topeng",
+				"topeng hidung panjang",
+				"wajah",
+			],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ihu rọbọtụ"),
-			keywords: &["ihe egwu", "ihu", "rọbọtụ"],
+			tts:      Some("gọblịn"),
+			keywords: &[
+				"akụkọ",
+				"akụkọ ifo",
+				"arọmarọ",
+				"gọblịn",
+				"ihe e kere eke",
+				"ihe egwu",
+				"ihu",
+				"iwe",
+				"nkpuchi",
+				"pụtara",
+			],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("vélmennisandlit"),
-			keywords: &["andlit", "skrímsli", "vélmenni", "vélmennisandlit"],
+			tts:      Some("ári"),
+			keywords: &["andlit", "púki", "tröll", "ári", "ævintýri"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("faccina di robot"),
-			keywords: &["faccina", "faccina di robot", "robot", "tecnologia"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"arrabbiato",
+				"carnevale",
+				"cattivo",
+				"crudele",
+				"diavolo",
+				"favola",
+				"fiaba",
+				"folletto",
+				"goblin",
+				"malefico",
+				"mostro",
+			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("ロボット"),
-			keywords: &["ロボット", "ロボットの顔", "顔"],
+			tts:      Some("天狗"),
+			keywords: &["お面", "天狗", "怒り"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("wujud robot"),
-			keywords: &["monster", "rai", "robot", "wujud robot"],
+			tts:      Some("buta goblin"),
+			keywords: &["buta goblin", "crita dongeng", "fantasi", "monster", "rai", "wewujudan"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("რობოტის სახე"),
-			keywords: &["მონსტრი", "რობოტი", "რობოტის სახე", "სახე"],
+			tts:      Some("გობლინი"),
+			keywords: &[
+				"არსება",
+				"გობლინი",
+				"ზღაპარი",
+				"იაპონური",
+				"მონსტრი",
+				"სახე",
+				"ფანტაზია",
+				"ფანტასტიკა",
+			],
 		},
 		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("aṛubut"), keywords: &["aṛubut"] },
+		crate::Annotation { lang: "kab", tts: Some("cciṭan"), keywords: &["cciṭan"] },
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("робот"),
-			keywords: &["бет", "робот", "құбыжық"],
+			tts:      Some("гоблин"),
+			keywords: &["бет", "гоблин", "ертегі", "маска", "қиял", "құбыжық"],
 		},
 		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("robotansigt"),
-			keywords: &["ansigt", "monster", "robotansigt"],
-		},
+		crate::Annotation { lang: "kl", tts: Some("ånd"), keywords: &["japansk ånd", "ånd"] },
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត"),
+			tts:      Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សអាក\u{17d2}រក\u{17cb}"),
 			keywords: &[
-				"មន\u{17bb}ស\u{17d2}សយន\u{17d2}ត",
-				"ម\u{17bb}ខ",
-				"ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត",
+				"មន\u{17bb}ស\u{17d2}ស",
+				"ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សអាក\u{17d2}រក\u{17cb}",
+				"អាក\u{17d2}រក\u{17cb}",
 			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ರ\u{ccb}ಬ\u{ccb}ಟ\u{ccd}"),
-			keywords: &["ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ", "ಮುಖ", "ರಾಕ\u{ccd}ಷಸ", "ರ\u{ccb}ಬ\u{ccb}ಟ\u{ccd}"],
+			tts:      Some("ಗಾಬ\u{ccd}ಲ\u{cbf}ನ\u{ccd}"),
+			keywords: &[
+				"ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ ಕಥ\u{cc6}",
+				"ಕ\u{ccb}ಪ",
+				"ಗಾಬ\u{ccd}ಲ\u{cbf}ನ\u{ccd}",
+				"ಜಪಾನ\u{cc0}ಸ\u{ccd}",
+				"ಜ\u{cbf}ಪುಣ",
+				"ಜ\u{cc0}ವ\u{cbf}",
+				"ತುಂಟ ಬ\u{cc7}ತಾಳ",
+				"ತುಂಟದ\u{cc6}ವ\u{ccd}ವ",
+				"ದ\u{cc8}ತ\u{ccd}ಯಾಕಾರ",
+				"ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
+				"ಮುಖ",
+				"ಮುಖವಾಡ",
+				"ರಾಕ\u{ccd}ಷಸ",
+			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("로봇 얼굴"),
-			keywords: &["로봇", "몬스터", "얼굴"],
+			tts:      Some("코주부 도깨비 가면"),
+			keywords: &[
+				"가면",
+				"도깨비",
+				"동화",
+				"몬스터",
+				"심술궂은",
+				"얼굴",
+				"일본",
+				"코주부 도깨비",
+				"코주부 도깨비 가면",
+				"판타지",
+				"화난",
+			],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("रोबोट"),
-			keywords: &["च\u{947}रो", "राक\u{94d}षस", "रोबोट"],
+			tts:      Some("ता\u{902}बड\u{947}\u{902} पिशाच\u{94d}च"),
+			keywords: &[
+				"च\u{947}रो",
+				"ता\u{902}बड\u{947}\u{902} पिशाच\u{94d}च",
+				"परी कथा",
+				"पिशाच\u{94d}च",
+				"प\u{94d}राणी",
+				"राक\u{94d}षस",
+				"लहर",
+			],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("робот"),
-			keywords: &["бет", "желмогуз", "робот"],
+			tts:      Some("гоблин"),
+			keywords: &["бет", "гоблин", "желмогуз", "жомок", "фантастика"],
 		},
 		#[cfg(feature = "lb")]
 		crate::Annotation {
 			lang:     "lb",
-			tts:      Some("Roboter"),
-			keywords: &["Gesiicht", "Monster", "Roboter"],
+			tts:      Some("Kobold"),
+			keywords: &["Fantasie", "Gesiicht", "Kobold", "Kreatur", "Monster", "Mäerchen"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ"),
-			keywords: &["ຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ"],
+			tts:      Some("ຜ\u{eb5}ນ\u{ec9}ອຍ"),
+			keywords: &["ຜ\u{eb5}", "ຜ\u{eb5}ນ\u{ec9}ອຍ", "ໜ\u{ec9}າ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("roboto veidas"),
-			keywords: &["monstras", "robotas", "roboto veidas", "veidas"],
+			tts:      Some("demonas"),
+			keywords: &["demonas", "fantazija", "monstras", "padaras", "pasaka", "veidas"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("robots"),
-			keywords: &["monstrs", "robots", "seja"],
+			tts:      Some("goblins"),
+			keywords: &["briesmonis", "fantāzija", "goblins", "monstrs", "pasaka", "radījums", "seja"],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("kanohi karetao"),
-			keywords: &["kanohi", "karetao", "taniwha"],
+			tts:      Some("taipō"),
+			keywords: &["kanohi", "kīrehe", "kōrero pakiwaitara", "moemoeā", "taipō", "taniwha"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("робот"),
-			keywords: &["лице", "лице на робот", "робот", "чудовиште"],
+			tts:      Some("гоблин"),
+			keywords: &[
+				"бајка",
+				"гнев",
+				"гневна маска",
+				"гоблин",
+				"лице",
+				"лоша",
+				"маска",
+				"суштество",
+				"фантазија",
+				"чудовиште",
+			],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("റോബോട\u{d4d}ടിന\u{d4d}റെ മ\u{d41}ഖം"),
+			tts:      Some("ക\u{d41}ട\u{d4d}ടിച\u{d4d}ച\u{d3e}ത\u{d4d}തൻ"),
 			keywords: &[
+				"ക\u{d41}ട\u{d4d}ടിച\u{d4d}ച\u{d3e}ത\u{d4d}തൻ",
+				"ജന\u{d4d}ത\u{d41}",
+				"ജപ\u{d4d}പ\u{d3e}നീസ\u{d4d}",
+				"ഫ\u{d3e}ന\u{d4d}റസി",
 				"മ\u{d41}ഖം",
+				"മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
 				"ര\u{d3e}ക\u{d4d}ഷസൻ",
-				"റോബോട\u{d4d}ടിന\u{d4d}റെ മ\u{d41}ഖം",
-				"റോബോട\u{d4d}ട\u{d4d}",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("робот царай"),
-			keywords: &["робот", "царай"],
+			tts:      Some("шүтээн, онгод"),
+			keywords: &["мангас", "онгод", "төсөөлөл", "шүтээн", "шүтээн, онгод", "япон"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("य\u{902}त\u{94d}रमानवाचा च\u{947}हरा"),
+			tts:      Some("अक\u{94d}राळविक\u{94d}राळ भ\u{942}त"),
 			keywords: &[
+				"अक\u{94d}राळविक\u{94d}राळ",
+				"आवड",
+				"काल\u{94d}पनिक कथा",
 				"च\u{947}हरा",
-				"य\u{902}त\u{94d}र मानव",
-				"य\u{902}त\u{94d}रमानवाचा च\u{947}हरा",
+				"जपानी भ\u{942}त",
+				"ट\u{947}\u{902}ग\u{942}",
+				"परीकथा",
+				"प\u{94d}राणी",
+				"भ\u{942}त",
 				"राक\u{94d}षस",
-				"रोबोट",
 			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("robot"),
-			keywords: &["muka", "raksasa", "robot"],
+			tts:      Some("goblin"),
+			keywords: &["cerita dongeng", "fantasi", "goblin", "jepun", "makhluk", "muka", "raksasa"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("wiċċ ta’ robot"),
-			keywords: &["mostru", "robot", "wiċċ", "wiċċ ta’ robot"],
+			tts:      Some("goblin"),
+			keywords: &["fantasija", "goblin", "kreatura", "mostru", "wiċċ", "ħrafa"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("စက\u{103a}ရ\u{102f}ပ\u{103a} မျက\u{103a}န\u{103e}ာ"),
+			tts:      Some("နတ\u{103a}ဆ\u{102d}\u{102f}းကလေး"),
 			keywords: &[
-				"စက\u{103a}ရ\u{102f}ပ\u{103a}",
-				"မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး",
-				"မျက\u{103a}န\u{103e}ာ",
+				"စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
+				"ဒဏ\u{1039}ဍာရ\u{102e} ပ\u{102f}\u{1036}ပြင\u{103a}",
+				"နတ\u{103a}ဆ\u{102d}\u{102f}းကလေး",
+				"ဘ\u{102e}လ\u{1030}း",
+				"မျက\u{103a}မ\u{103e}ာ",
+				"မ\u{103e}င\u{103a}စာ",
+				"အကောင\u{103a}",
 			],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("रोबोट अन\u{941}हार"),
-			keywords: &["अन\u{941}हार", "राक\u{94d}षस", "रोबोट"],
+			tts:      Some("सानो भ\u{942}त"),
+			keywords: &[
+				"अन\u{941}हार",
+				"ख\u{947}स\u{94d}रा कल\u{94d}पना",
+				"जीव",
+				"परीको कथा",
+				"राक\u{94d}षस",
+				"सानो भ\u{942}त",
+			],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("robot"),
-			keywords: &["gezicht", "monster", "robot"],
+			tts:      Some("kobold"),
+			keywords: &[
+				"fabel",
+				"fantasie",
+				"gezicht",
+				"japans",
+				"kobold",
+				"masker",
+				"monster",
+				"mythologie",
+				"smiley",
+				"sprookje",
+				"tengu",
+				"wezen",
+			],
 		},
 		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["eventyr", "fjes", "japansk troll", "tengu"],
+		},
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ରୋବୋଟ\u{b4d}"),
-			keywords: &["ଅସ\u{b41}ର", "ମ\u{b41}ହ\u{b01}", "ରୋବଟ\u{b4d}\u{200c}", "ରୋବୋଟ\u{b4d}"],
+			tts:      Some("ଖର\u{b4d}ବକ\u{b3e}ୟ ଅସ\u{b41}ର"),
+			keywords: &[
+				"ଅସ\u{b41}ର",
+				"କଳ\u{b4d}ପନ\u{b3e}",
+				"ଖର\u{b4d}ବକ\u{b3e}ୟ ଅସ\u{b41}ର",
+				"ପରୀ କ\u{b3e}ହ\u{b3e}ଣୀ",
+				"ମ\u{b41}ହ\u{b01}",
+				"ର\u{b3e}କ\u{b4d}ଷସ",
+			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ"),
+			tts:      Some("ਪ\u{a4d}ਰ\u{a47}ਤ"),
 			keywords: &[
 				"ਚਿਹਰਾ",
+				"ਜਾਪਾਨੀ ਭ\u{a42}ਤ",
 				"ਦ\u{a48}\u{a02}ਤ",
-				"ਮ\u{a42}\u{a70}ਹ",
-				"ਰਾਖਸ\u{a3c}",
-				"ਰ\u{a4b}ਬ\u{a4b}ਟ",
-				"ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ",
-				"ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਮ\u{a42}\u{a70}ਹ",
+				"ਪਰੀ ਕਹਾਣੀ",
+				"ਪ\u{a4d}ਰ\u{a47}ਤ",
+				"ਭ\u{a42}ਤ",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("روبوٹ دی شکل"),
-			keywords: &["دی شکل", "دیو", "روبوٹ دی شکل", "ر\u{64f}وبوٹ"],
+			tts:      Some("آسیب"),
+			keywords: &["آسیب", "تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Mashin Wé Rizẹ\u{301}mbúl Húmánbin"),
+			tts:      Some("Wíkẹ\u{301}d Bád Spírit"),
 			keywords: &[
-				"Bíg Bád Anímal Wé De Mék Pẹ\u{301}sin Kách Fia",
+				"Dédrim",
 				"Fes",
-				"Mashin Wé Rizẹ\u{301}mbúl Húmánbin",
-				"Rọ\u{301}bọt",
+				"Gọ\u{301}blin",
+				"Kríchọ",
+				"Mọ\u{301}nsta",
+				"Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+				"Wíkẹ\u{301}d Bád Spírit",
 			],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("głowa robota"),
-			keywords: &["głowa robota", "monstrum", "potwór", "robot", "twarz"],
+			tts:      Some("goblin"),
+			keywords: &["diabeł", "goblin", "maska", "potwór", "stwór", "zły"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
-			lang: "ps", tts: Some("روبوټ"), keywords: &["بلا", "روبوټ", "مخ"]
+			lang:     "ps",
+			tts:      Some("پېری"),
+			keywords: &["بلا", "د ښاپېرو کيسه", "مخ", "مخلوق", "پېری"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("rosto de robô"),
-			keywords: &["monstro", "robotizado", "robô", "rosto"],
+			tts:      Some("duende japonês"),
+			keywords: &[
+				"bravo",
+				"conto de fadas",
+				"duende japonês",
+				"goblin",
+				"japonês",
+				"monstro",
+				"máscara",
+				"raiva",
+				"rosto",
+				"tengu",
+				"zangado",
+			],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
-			tts:      Some("robô"),
-			keywords: &["cara", "cara de robô", "monstro", "robô"],
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"cara",
+				"conto de fadas",
+				"criatura",
+				"duende japonês",
+				"fantasia",
+				"japonês",
+				"monstro",
+				"máscara",
+				"tengu",
+				"zangado",
+			],
 		},
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("robot"),
-			keywords: &["mostruo", "robot", "uya"],
+			tts:      Some("huchuy kuku"),
+			keywords: &[
+				"criatura",
+				"fantasia",
+				"hadas willana",
+				"huchuy kuku",
+				"kuku",
+				"monstruo",
+				"uya",
+			],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("robot"),
-			keywords: &["cap", "cap de robot", "față", "față de robot", "monstru", "robot"],
+			tts:      Some("spiriduș"),
+			keywords: &[
+				"basm",
+				"creatură",
+				"fantezie",
+				"față",
+				"japonez",
+				"magie",
+				"mască",
+				"monstru",
+				"noh",
+				"omuleț",
+				"poveste",
+				"rău",
+				"spiriduș",
+				"supărat",
+				"teatru",
+			],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-1016"), keywords: &["E10-1016"] },
+		crate::Annotation { lang: "root", tts: Some("E10-567"), keywords: &["E10-567"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("робот"),
-			keywords: &["лицо", "монстр", "робот", "страх"],
+			tts:      Some("японский гоблин"),
+			keywords: &["гоблин", "злой", "монстр", "сказка", "страшный", "тэнгу", "чудище", "японский"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("isura y’irobo"),
-			keywords: &["igikoko", "irobo", "isura", "isura y’irobo"],
+			tts:      Some("ikigini"),
+			keywords: &["igikoko gikaze", "ikigini", "ikiremwa", "indoto", "isura", "umugani"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("روبوٽ"),
-			keywords: &["روبوٽ", "مونسٽر", "چهرو"],
+			tts:      Some("بونو"),
+			keywords: &["بونو", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("රොබෝ ම\u{dd4}හ\u{dd4}ණ"),
-			keywords: &["ම\u{dd4}හ\u{dd4}ණ", "යක\u{dca}ෂය\u{dcf}", "රොබෝ"],
+			tts:      Some("ගොබ\u{dca}ල\u{dd2}න\u{dca} යක\u{dca}ෂය\u{dcf}"),
+			keywords: &[
+				"ගොබ\u{dca}ල\u{dd2}න\u{dca} යක\u{dca}ෂය\u{dcf}",
+				"ජපන\u{dca}",
+				"ම\u{dcf}ය\u{dcf}ව",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"යක\u{dca}ෂය\u{dcf}",
+				"සත\u{dcf}",
+				"ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
+			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("robot"),
-			keywords: &["automat", "netvor", "robot", "strašidlo", "stvorenie", "tvár", "tvár robota"],
+			tts:      Some("škrat"),
+			keywords: &[
+				"fantasy",
+				"japonská",
+				"netvor",
+				"obluda",
+				"rozprávka",
+				"stvorenie",
+				"tvár",
+				"výraz",
+				"škrat",
+				"škriatok",
+			],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("robot"),
-			keywords: &["obraz", "pošast", "robot", "robotski obraz"],
+			tts:      Some("škratelj"),
+			keywords: &["bitje", "fantazija", "japonsko", "obraz", "pošast", "pravljica", "škratelj"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("mashiin"),
-			keywords: &["mashiin", "shaddaan", "waji"],
+			tts:      Some("noole foolxun"),
+			keywords: &["khayaali", "noole", "noole foolxun", "shayddaan", "sheeko been", "waji"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("fytyrë roboti"),
-			keywords: &["fytyrë", "fytyrë roboti", "përbindësh", "robot"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"fantazi",
+				"fytyrë",
+				"goblin",
+				"i keq",
+				"i zemëruar",
+				"japonez",
+				"krijesë",
+				"maskë",
+				"përbindësh",
+			],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("роботско лице"),
-			keywords: &["лице", "робот", "чудовиште"],
+			tts:      Some("гоблин"),
+			keywords: &["бајка", "гоблин", "зао", "лице", "маска", "ствoрење", "фантазија", "чудoвиштe"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["роботско лице"],
-		},
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("robotsko lice"),
-			keywords: &["lice", "robot", "čudovište"],
+			tts:      Some("goblin"),
+			keywords: &["bajka", "fantazija", "goblin", "lice", "maska", "stvorenje", "zao", "čudovište"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["robotsko lice"],
-		},
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("robotansikte"),
-			keywords: &["ansikte", "robot"],
+			tts:      Some("japanskt troll"),
+			keywords: &["ansikte", "japansk", "saga", "troll"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("roboti"),
-			keywords: &["roboti", "uso", "zimwi"],
+			tts:      Some("afriti"),
+			keywords: &["afriti", "kichimbakazi", "kijapani", "kiumbe", "njozi", "uso", "zimwi"],
 		},
 		#[cfg(feature = "sw_KE")]
 		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("ரோபோ முகம\u{bcd}"),
+			tts:      Some("ஜ\u{bbe}ப\u{bcd}பன\u{bc0}ஸ\u{bcd} பூதம\u{bcd}"),
 			keywords: &[
-				"சிட\u{bcd}டி",
+				"குட\u{bcd}டிச\u{bcd}ச\u{bbe}த\u{bcd}த\u{bbe}ன\u{bcd}",
+				"ஜ\u{bbe}ப\u{bcd}பன\u{bc0}ஸ\u{bcd} பூதம\u{bcd}",
+				"திருட\u{bcd}டி",
+				"திருஷ\u{bcd}டி",
+				"பூதம\u{bcd}",
 				"ம\u{bbe}ன\u{bcd}ஸ\u{bcd}டர\u{bcd}",
-				"ரோபோ",
-				"ரோபோ முகம\u{bcd}",
-				"ரோபோட\u{bcd}",
+				"முகம\u{bcd}",
+				"விசித\u{bcd}திரக\u{bcd} கதை",
 			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("ర\u{c4b}బ\u{c4b} ముఖం"),
+			tts:      Some("జపన\u{c40}స\u{c4d} గ\u{c4b}బ\u{c4d}ల\u{c3f}న\u{c4d}"),
 			keywords: &[
+				"క\u{c4d}ర\u{c3f}య\u{c47}చర\u{c4d}",
+				"గ\u{c4b}బ\u{c4d}ల\u{c3f}న\u{c4d}",
+				"జపన\u{c40}స\u{c4d}",
+				"ఫ\u{c3e}ంటస\u{c40}",
+				"ఫ\u{c46}య\u{c3f}ర\u{c40} ట\u{c47}ల\u{c4d}",
 				"ఫ\u{c47}స\u{c4d}",
-				"ముఖం",
-				"ర\u{c3e}క\u{c4d}షసుడు",
-				"ర\u{c4b}బ\u{c4b}",
-				"ర\u{c4b}బ\u{c4b}ట\u{c4d}",
+				"భయంకరమ\u{c48}న ముఖం",
+				"మ\u{c3e}స\u{c4d}క\u{c4d}",
+				"మ\u{c4b}న\u{c4d}స\u{c4d}టర\u{c4d}",
+				"య\u{c3e}ంగ\u{c4d}ర\u{c40}",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("рӯи робот"),
-			keywords: &["аъҷуба", "робот", "рӯи робот", "рӯй"],
+			tts:      Some("аҷинаи хона"),
+			keywords: &["афсона", "аъҷуба", "аҷинаи хона", "махлуқ", "рӯй", "тахайюлот"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("ห\u{e38}\u{e48}นยนต\u{e4c}"),
-			keywords: &["ส\u{e31}ตว\u{e4c}ประหลาด", "หน\u{e49}า", "ห\u{e38}\u{e48}นยนต\u{e4c}"],
+			tts:      Some("ป\u{e35}ศาจญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
+			keywords: &[
+				"ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
+				"ป\u{e34}ศาจ",
+				"ป\u{e35}ศาจญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
+				"หน\u{e49}า",
+			],
 		},
 		#[cfg(feature = "ti")]
-		crate::Annotation { lang: "ti", tts: Some("ሮቦት"), keywords: &["ሮቦት", "ጭራቕ"] },
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጎብሊን"),
+			keywords: &["ሓሳባዊ", "ገጽ", "ጎብሊን", "ፍጡር"],
+		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("robot"),
-			keywords: &["nägehan", "robot", "ýüz"],
+			tts:      Some("goblin"),
+			keywords: &["erteki", "goblin", "hyýal", "mahluk", "nägehan", "ýüz"],
 		},
 		#[cfg(feature = "to")]
 		crate::Annotation {
 			lang:     "to",
-			tts:      Some("mata tangata-ukamea"),
-			keywords: &["mata", "tangata-ukamea"],
+			tts:      Some("pīnōnō"),
+			keywords: &["faʻahikehe", "pīnōnō"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("robot"),
-			keywords: &["canavar", "robot", "yüz"],
+			tts:      Some("goblin"),
+			keywords: &[
+				"canavar",
+				"cin",
+				"goblin",
+				"japon",
+				"japon cini",
+				"maske",
+				"peri masalı",
+				"tengu",
+				"yaratık",
+				"yüz",
+			],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("روبوت چىراي"),
-			keywords: &["روبوت", "يالماۋۇز", "چىراي"],
+			tts:      Some("جىن"),
+			keywords: &["جىن", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("робот"),
-			keywords: &["голова", "монстр", "обличчя", "робот"],
+			tts:      Some("гоблін"),
+			keywords: &["гоблін", "казка", "монстр", "обличчя", "створіння", "фантазія", "японський"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("روبوٹ"),
-			keywords: &["اشیاء", "دیئو", "روبوٹ", "مشین", "مشینی دیئو", "مونسٹر", "چہرہ", "چیز"],
+			tts:      Some("لمبی ناک اور مونچھوں والا دیو"),
+			keywords: &[
+				"آسیب",
+				"ارواح خبیثہ",
+				"افسانوی",
+				"بھوت",
+				"جاپانی",
+				"جن",
+				"خیالی",
+				"داستان",
+				"دیو",
+				"شیطان",
+				"لمبی ناک اور مونچھوں والا دیو",
+				"پری داستان",
+				"چہرہ",
+			],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("robot qiyofa"),
-			keywords: &["maxluq", "robot", "robot qiyofa", "yuz"],
+			tts:      Some("ajina"),
+			keywords: &["ajina", "ertak", "fantaziya", "maxluq", "maxluqot", "yapon", "yuz"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("mặt rô-bốt"),
-			keywords: &["mặt", "quỷ", "rô-bốt"],
+			tts:      Some("yêu tinh"),
+			keywords: &["mặt", "quái vật", "sinh vật", "truyện cổ tích", "tưởng tượng", "yêu tinh"],
 		},
 		#[cfg(feature = "wo")]
 		crate::Annotation {
 			lang:     "wo",
-			tts:      Some("kanamu roboo"),
-			keywords: &["kanam", "kanamu roboo", "rab-wu-gànde", "roboo"],
+			tts:      Some("kus-kondoroŋ"),
+			keywords: &["feem", "kanam", "kus-kondoroŋ", "léebu fee", "mbinddéef", "rab-wu-gànde"],
 		},
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("ubuso berobhothi"),
-			keywords: &["irhamncwa", "irobhothi", "ubuso", "ubuso berobhothi"],
+			tts:      Some("uthikoloshe"),
+			keywords: &[
+				"iingcinga",
+				"intsomi",
+				"irhamncwa eloyikekayo",
+				"isidalwa",
+				"ubuso",
+				"uthikoloshe",
+			],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("Oju Ṣigidi"),
-			keywords: &["Oju Ṣigidi", "abàmì", "ojú", "ṣìgìdì"],
+			tts:      Some("abàmì aràrá"),
+			keywords: &["abàmì", "abàmì aràrá", "ojú", "àlá", "ìtàn ọmọdé", "ẹ\u{300}dá"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Oju Shigidi"),
-			keywords: &["Oju Shigidi", "abàmì", "ojú", "shìgìdì"],
+			tts:      Some("abàmì aràrá"),
+			keywords: &["abàmì", "abàmì aràrá", "ojú", "àlá", "ìtàn ɔmɔdé", "ɛ\u{300}dá"],
 		},
 		#[cfg(feature = "yue")]
 		crate::Annotation {
 			lang:     "yue",
-			tts:      Some("機械人臉"),
-			keywords: &["怪物", "機械人", "機械人臉", "臉"],
+			tts:      Some("小妖精"),
+			keywords: &["小妖精", "幻想", "怪物", "生物", "童話故事", "臉"],
 		},
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("机械人脸"),
-			keywords: &["怪物", "机械人", "机械人脸", "脸"],
+			tts:      Some("小妖精"),
+			keywords: &["小妖精", "幻想", "怪物", "生物", "童话故事", "脸"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("机器人"),
-			keywords: &["怪物", "机器人", "脸"],
+			tts:      Some("小妖精"),
+			keywords: &["妖怪", "小妖精", "幻想", "怪物", "日本", "神话故事", "脸", "鬼"],
 		},
 		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("機器人"), keywords: &["機器人"] },
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("天狗"),
+			keywords: &["天狗", "妖怪", "小妖怪", "怪物", "面具"],
+		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
-			tts:      Some("機械人"),
-			keywords: &["bot", "怪物", "機器", "機械人", "機械人臉", "臉孔"],
+			tts:      Some("↑↑↑"),
+			keywords: &["天狗", "憤怒", "日本", "生物", "童話", "紅色", "臉孔", "面具"],
 		},
 		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ubuso berobhothi"),
-			keywords: &["irobhothi", "isilwane", "ubuso", "ubuso berobhothi"],
-		},
+		crate::Annotation { lang: "zu", tts: Some("goblin"), keywords: &["goblin", "inunu"] },
 	],
 };

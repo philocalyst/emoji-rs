@@ -1,804 +1,49 @@
-#[doc = "🌑"]
-pub const NEW_MOON: crate::Emoji = crate::Emoji {
-	glyph:                "🌑",
-	codepoint:            &[127761u32],
+#[doc = "☃\u{fe0f}"]
+pub const SNOWMAN: crate::Emoji = crate::Emoji {
+	glyph:                "☃\u{fe0f}",
+	codepoint:            &[9731u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "snowman",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⛱\u{fe0f}"]
+pub const UMBRELLA_ON_GROUND: crate::Emoji = crate::Emoji {
+	glyph:                "⛱\u{fe0f}",
+	codepoint:            &[9969u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "umbrella on ground",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⛄\u{fe0f}"]
+pub const SNOWMAN_WITHOUT_SNOW: crate::Emoji = crate::Emoji {
+	glyph:                "⛄\u{fe0f}",
+	codepoint:            &[9924u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "new moon",
+	name:                 "snowman without snow",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("nuwemaan"),
-			keywords: &[
-				"donker",
-				"donker nag",
-				"maan",
-				"maansverduistering",
-				"nuwe",
-				"nuwemaan",
-				"ruimte",
-				"weer",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("አዲስ ጨረቃ"),
-			keywords: &["ህዋ", "አዲስ ጨረቃ", "የአየር ንብረት", "ጨለማ", "ጨረቃ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("محاق"),
-			keywords: &["طبيعة", "طقس", "فضاء", "قمر", "محاق", "معتم"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ন জোন"),
-			keywords: &["আন\u{9cd}ধ\u{9be}ৰ", "চন\u{9cd}দ\u{9cd}ৰ", "ন জোন"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("yeni ay"),
-			keywords: &["ay", "hava", "kosmos", "tünd", "yeni ay"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("маладзік"),
-			keywords: &["космас", "маладзік", "новы месяц", "ноч", "перакрой", "пусты месяц"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("новолуние"),
-			keywords: &["време", "космос", "луна", "новолуние", "тъмен"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("আম\u{9be}বস\u{9cd}য\u{9be}"),
-			keywords: &[
-				"অন\u{9cd}ধক\u{9be}র",
-				"অম\u{9be}বস\u{9cd}য\u{9be}",
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"আম\u{9be}বস\u{9cd}য\u{9be}",
-				"চ\u{9be}\u{981}দ",
-				"মহ\u{9be}ক\u{9be}শ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("loar nevez"),
-			keywords: &["loar", "loar nevez"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("mladi mjesec"),
-			keywords: &["mjesec", "mjesečeve mijene", "mladi mjesec", "svemir"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("lluna nova"),
-			keywords: &["fosc", "fosca", "lluna", "nova"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎢᏤ ᏅᏓ ᎤᏒᎢ ᎡᎯ"),
-			keywords: &["ᎢᏤ ᏅᏓ ᎤᏒᎢ ᎡᎯ", "ᎤᎵᏏᎩ", "ᏅᏓ ᎤᏒᎢ ᎡᎯ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("měsíc v novu"),
-			keywords: &[
-				"fáze měsíce",
-				"měsíc",
-				"měsíc v novu",
-				"noc",
-				"nov",
-				"novoluní",
-				"nový",
-				"počasí",
-				"tma",
-				"vesmír",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("lleuad newydd"),
-			keywords: &["gofod", "lleuad", "lleuad newydd", "tywydd", "tywyllwch"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("nymåne"),
-			keywords: &["måne", "månefase", "nymåne"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation { lang: "de", tts: Some("Neumond"), keywords: &["Mond", "Neumond"] },
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("νέα σελήνη"),
-			keywords: &["διάστημα", "καιρός", "νέα σελήνη", "σελήνη", "σκοτάδι", "σκοτεινός", "φεγγάρι"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("new moon"),
-			keywords: &["dark", "moon", "new", "space"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("luna nueva"),
-			keywords: &["luna", "luna nueva", "oscuridad"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["clima", "espacio", "luna", "negra", "nueva", "oscuridad"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["espacio", "fase lunar", "luna", "luna nueva", "negra", "nuev"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["luna", "luna nueva", "oscuridad", "oscuro"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("noorkuu"),
-			keywords: &["ilm", "kosmos", "kuu", "noorkuu", "pime"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ilargi berria"),
-			keywords: &["eguraldi", "espazio", "ilargi", "ilargi berria", "ilun"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ماه نو"),
-			keywords: &["آب\u{200c}وهوا", "تاریک", "فضا", "ماه", "ماه نو"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("uusikuu"),
-			keywords: &["kuu", "pimeä", "sää", "taivaankappale", "uusikuu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("new moon"),
-			keywords: &["buwan", "kalawakan", "madilim", "new moon"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("nýmáni"), keywords: &["máni", "nýmáni"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("nouvelle lune"),
-			keywords: &["espace", "lune", "nouvelle lune", "sombre"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["lune", "nouvelle"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("gealach úr"),
-			keywords: &["dorcha", "duibhré", "fánas", "gealach", "gealach nua", "ré nua", "spás", "úr"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("gealach ùr"),
-			keywords: &["dorch", "gealach", "ùr"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("lúa nova"),
-			keywords: &["lúa", "nova", "novilunio"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પ\u{acd}રતિપદાનો ચ\u{a82}દ\u{acd}ર"),
-			keywords: &[
-				"અમાસ",
-				"ચ\u{a82}દ\u{acd}ર",
-				"ડાર\u{acd}ક",
-				"નવો",
-				"પ\u{acd}રતિપદાનો ચ\u{a82}દ\u{acd}ર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("sabon wata"),
-			keywords: &["duhu", "sabon wata", "samaniya", "wata"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("sabon wata"),
-			keywords: &["duhu", "sabon wata", "samaniya", "wata"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("ירח חדש"),
-			keywords: &["חושך", "חלל", "חשוך", "ירח", "ירח חדש", "מולד"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("नया चा\u{901}द"),
-			keywords: &["गहरा", "चा\u{901}द", "चा\u{902}द", "नया"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("mlađak"),
-			keywords: &["mjesec", "mlađak", "mrak", "svemir", "vrijeme"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("újhold"),
-			keywords: &["hold", "holdfázisok", "sötétség", "ég", "éjszaka", "újhold", "űr"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("նորալուսին"),
-			keywords: &["եղանակ", "լուսին", "մութ", "նորալուսին", "տիեզերք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("bulan baru"),
-			keywords: &["angkasa", "bulan", "bulan baru", "cuaca", "gelap"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ọnwa ọhụrụ"),
-			keywords: &["ojii", "ọnwa", "ọnwa ọhụrụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("nýtt tungl"),
-			keywords: &["dökkt", "máni", "nýr máni", "nýtt", "tungl"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("luna nuova"),
-			keywords: &["cielo", "luna", "luna nera", "natura", "notte", "novilunio", "nuova"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("新月"),
-			keywords: &["宇宙", "新月", "月", "闇"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("bulan kawitan"),
-			keywords: &["bulan", "bulan kawitan", "peteng", "rembulan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ახალი მთვარე"),
-			keywords: &["ამინდი", "ახალი მთვარე", "კოსმოსი", "მთვარე", "მუქი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жаңа ай"),
-			keywords: &["ай", "ауа райы", "жаңа ай", "ғарыш", "қараңғы"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("nymåne"),
-			keywords: &["måne", "månefase", "nymåne"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទថ\u{17d2}ម\u{17b8}"),
-			keywords: &[
-				"ងង\u{17b9}ត",
-				"ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទថ\u{17d2}ម\u{17b8}",
-				"យប\u{17cb}",
-				"អាកាសធាត\u{17bb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಅಮಾವಾಸ\u{ccd}ಯ\u{cc6}"),
-			keywords: &[
-				"ಅಮವಾಸ\u{ccd}ಯ\u{cc6}",
-				"ಅಮಾವಾಸ\u{ccd}ಯ\u{cc6}",
-				"ಆಕಾಶ",
-				"ಕತ\u{ccd}ತಲು",
-				"ಕತ\u{ccd}ತಲ\u{cc6}",
-				"ಗಾಢ",
-				"ಚಂದ\u{ccd}ರ",
-				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
-				"ಹ\u{cca}ಸದು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("삭"),
-			keywords: &["그믐", "그믐달", "뉴문", "달", "삭", "우주", "초승달"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("अमास"),
-			keywords: &["अमास", "उमास", "काळोख"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жаңырган ай"),
-			keywords: &["ай", "жаңырган ай", "караңгы"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Neimound"),
-			keywords: &["Mound", "Neimound", "däischter"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເດ\u{eb7}ອນດ\u{eb1}ບ"),
-			keywords: &["ມ\u{eb7}ດ", "ເດ\u{eb7}ອນດ\u{eb1}ບ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("jaunas mėnulis"),
-			keywords: &["jaunas mėnulis", "jaunatis", "kosmosas", "mėnulis", "tamsa"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("jauns mēness"),
-			keywords: &["jauns mēness", "kosmoss", "mēness", "tumšs"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("marama kōhiti"),
-			keywords: &["marama", "marama kōhiti", "pōuri"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("млада месечина"),
-			keywords: &["време", "вселена", "месечина", "млада", "нова месечина", "темна"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("അമ\u{d3e}വ\u{d3e}സി"),
-			keywords: &[
-				"അമ\u{d3e}വ\u{d3e}സി",
-				"കറ\u{d41}ത\u{d4d}ത ചന\u{d4d}ദ\u{d4d}രൻ",
-				"കറ\u{d41}ത\u{d4d}തവ\u{d3e}വ\u{d4d}",
-				"ചന\u{d4d}ദ\u{d4d}രൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("шинэ сар"),
-			keywords: &["одон гариг", "сар", "цаг агаар", "шинэ"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("अमावस\u{94d}या"),
-			keywords: &["अमावस\u{94d}या", "गडद", "च\u{902}द\u{94d}र"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("bulan baharu"),
-			keywords: &["anak bulan", "angkasa lepas", "bulan", "bulan baru", "gelap"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("qamar ġdid"),
-			keywords: &["qamar", "qamar ġdid", "skur"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("လက\u{103d}ယ\u{103a}"),
-			keywords: &["မ\u{103e}ောင\u{103a}မည\u{103a}း", "လ", "လက\u{103d}ယ\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("औ\u{902}सी"),
-			keywords: &[
-				"अ\u{901}ध\u{94d}यारो",
-				"आकाशग\u{902}गा",
-				"औ\u{902}सी",
-				"चन\u{94d}द\u{94d}रमा",
-				"मौसम",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("nieuwe maan"),
-			keywords: &["avond", "donker", "maan", "maansverduistering", "nieuwe maan", "ruimte"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ନ\u{b42}ଆ ଚନ\u{b4d}ଦ\u{b4d}ର"),
-			keywords: &[
-				"ଅମବ\u{b3e}ସ\u{b4d}ୟ\u{b3e}",
-				"ଗ\u{b3e}ଢ\u{b3c}",
-				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ନ\u{b42}ଆ ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ନ\u{b42}ତନ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਨਵਾ\u{a02} ਚ\u{a70}ਦ"),
-			keywords: &[
-				"ਚ\u{a70}ਦ",
-				"ਚ\u{a70}ਨ",
-				"ਨਵਾ\u{a02}",
-				"ਪ\u{a41}ਲਾੜ",
-				"ਮ\u{a4c}ਸਮ",
-				"ਹਨ\u{a47}ਰਾ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("نواں چاند"),
-			keywords: &["نواں چاند", "چاند", "ہنیرا"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Níu Mun"),
-			keywords: &["Dak", "Mun", "Niú Mun", "Níu Mun"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("nów"),
-			keywords: &["ciemny księżyc", "księżyc", "noc", "nów"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("نوې سپوږمۍ"),
-			keywords: &["تياره", "سپوږمۍ", "نوې سپوږمۍ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("lua nova"),
-			keywords: &["escuro", "lua", "lua negra", "noite", "nova"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["escuro", "espaço", "lua", "lua nova", "meteorologia"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("unu Killa"),
-			keywords: &["killa", "tuta", "unu Killa"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("lună nouă"),
-			keywords: &["lună", "lună nouă", "spațiu", "întunecat", "întuneric"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-216"), keywords: &["E10-216"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("новолуние"),
-			keywords: &["луна", "месяц", "новая", "новолуние", "ночь", "темная ночь", "темно"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("ukwezi gushya"),
-			keywords: &["kijimye", "ukwezi", "ukwezi gushya"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("نئون چنڊ"),
-			keywords: &["اونداهو", "نئون چنڊ", "چنڊ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("නව සඳ"),
-			keywords: &[
-				"අඳ\u{dd4}ර\u{dd4}",
-				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"නව සඳ",
-				"සඳ",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("nov"),
-			keywords: &["mesiac", "noc", "nov", "nočná obloha", "počasie", "príroda", "tmavý", "vesmír"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("mlada luna"),
-			keywords: &["luna", "mlada luna", "tema", "vesolje", "vreme"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dayaxa cusub"),
-			keywords: &["dayax", "dayaxa cusub", "madoow"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("hëna e re"),
-			keywords: &["e errët", "hapësirë", "hëna e re", "hënë", "moti"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("млад месец"),
-			keywords: &["месец", "млад", "мрaк", "свeмир"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("млад мјесец"),
-			keywords: &["млад мјесец", "мрaк", "мјесец"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mlad mesec"),
-			keywords: &["mesec", "mlad", "mrak", "svemir"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("mlad mjesec"),
-			keywords: &["mjesec", "mlad mjesec", "mrak"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation { lang: "sv", tts: Some("nymåne"), keywords: &["måne", "nymåne"] },
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mwezi mpya"),
-			keywords: &["anga", "hali ya hewa", "mwezi", "mwezi mpya", "nyeusi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("அம\u{bbe}வசை"),
-			keywords: &["அம\u{bbe}வசை", "இரவு", "இருள\u{bcd}", "நில\u{bbe}"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("అమ\u{c3e}వ\u{c3e}స\u{c4d}య"),
-			keywords: &[
-				"అంతర\u{c3f}క\u{c4d}షం",
-				"అమ\u{c3e}వ\u{c3e}స\u{c4d}య",
-				"క\u{c4a}త\u{c4d}త చంద\u{c4d}రుడు",
-				"చంద\u{c4d}రుడు",
-				"స\u{c4d}ప\u{c47}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("моҳи нав"),
-			keywords: &["моҳ", "моҳи нав", "торик"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("จ\u{e31}นทร\u{e4c}ด\u{e31}บ"),
-			keywords: &["จ\u{e31}นทร\u{e4c}ด\u{e31}บ", "จ\u{e31}นทร\u{e4c}ม\u{e37}ด", "ม\u{e37}ด"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሓዳስ ወርሒ"),
-			keywords: &["ሓድሽ", "ቦታ", "ወርሒ", "ጸልማት"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("täze aý"),
-			keywords: &["aý", "garaňky", "täze aý"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mate ʻae māhina"),
-			keywords: &["mate", "mate ʻae māhina", "māhina"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yeni ay"),
-			keywords: &["ay", "karanlık", "yeni"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يېڭى ئاي"),
-			keywords: &["ئاي", "قاراڭغۇ", "يېڭى ئاي"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("молодий місяць"),
-			keywords: &["космос", "молодий", "місяць", "погода", "темний"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("نیا چاند"),
-			keywords: &["اماس", "سیاہ", "قدرت", "ماہ نو", "موسم", "نیا چاند", "چاند"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("yangi oy"),
-			keywords: &["koinot", "ob-havo", "oy", "qora", "tun", "yangi oy"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trăng non"),
-			keywords: &["bóng tối", "mặt trăng", "trăng non"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("weer wu bees"),
-			keywords: &["lëndëm", "moon", "weer wu bees"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inyanga entsha"),
-			keywords: &["inyanga", "inyanga entsha", "mnyama"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Òṣùpá Tuntun"),
-			keywords: &["dúdú", "Òṣùpá Tuntun", "òṣùpá"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Òshùpá Tuntun"),
-			keywords: &["dúdú", "Òshùpá Tuntun", "òshùpá"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("新月"),
-			keywords: &["新月", "月亮", "黑暗"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("新月"),
-			keywords: &["新月", "月亮", "黑暗"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("朔月"),
-			keywords: &["新月", "月亮", "朔月"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("新月"),
-			keywords: &["新月", "月亮", "朔月"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["太空", "新月", "月亮", "黑暗", "黑月亮"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inyanga entsha"),
-			keywords: &["inyanga", "inyanga entsha", "isimo sezulu", "ubumnyama", "umkhathi"],
-		},
-	],
+	annotations:          &[],
 };
-#[doc = "🌒"]
-pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
-	glyph:                "🌒",
-	codepoint:            &[127762u32],
+#[doc = "🌈"]
+pub const RAINBOW: crate::Emoji = crate::Emoji {
+	glyph:                "🌈",
+	codepoint:            &[127752u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "waxing crescent moon",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "rainbow",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -807,154 +52,226 @@ pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("groeiende sekelmaan"),
+			tts:      Some("reënboog"),
 			keywords: &[
-				"drome",
-				"groei",
-				"groeiend",
-				"groeiende sekelmaan",
-				"maan",
-				"ruimte",
-				"sekel",
+				"biseksueel",
+				"boog",
+				"gay",
+				"glbt",
+				"glbtq",
+				"lesbies",
+				"lgbt",
+				"lgbtq",
+				"queer",
+				"reën",
+				"reënboog",
+				"trans",
+				"trots",
 				"weer",
 			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("ትንሽ የበራች ግማሽ ጨረቃ"),
-			keywords: &["ህዋ", "ትንሽ የበራች ግማሽ ጨረቃ", "አዲስ ጨረቃ", "የበራች", "የአየር ንብረት", "ጨረቃ"],
+			tts:      Some("ቀስተ ደመና"),
+			keywords: &["ቀስተ ደመና", "ኤልጂቢቲ", "ዝናብ", "የአየር ንብረት"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("هلال بداية الشهر"),
-			keywords: &["طبيعة", "طقس", "فضاء", "قمر", "هلال", "هلال أول شهر", "هلال بداية الشهر"],
+			tts:      Some("ألوان الطيف"),
+			keywords: &[
+				"ألوان الطيف",
+				"إل جي بي تي",
+				"الوان الطيف",
+				"انعكاس الضوء",
+				"انكسار الضوء",
+				"ثنائي الميول",
+				"طبيعة",
+				"طقس",
+				"قوس الرحمة",
+				"قوس قزح",
+				"متحول",
+				"مثلي",
+				"مثليات",
+				"مثلية",
+				"مثليين",
+				"مسيرة الفخر",
+				"مطر",
+			],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("বৰ\u{9cd}দ\u{9cd}ধিত অৰ\u{9cd}দ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ"),
-			keywords: &[
-				"চন\u{9cd}দ\u{9cd}ৰ",
-				"বৰ\u{9cd}দ\u{9cd}ধিত",
-				"বৰ\u{9cd}দ\u{9cd}ধিত অৰ\u{9cd}দ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ",
-				"ৱেক\u{9cd}সিং",
-			],
+			tts:      Some("ৰ\u{9be}মধেন\u{9c1}"),
+			keywords: &["বৰষ\u{9c1}ণ", "ৰ\u{9be}মধেন\u{9c1}"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("dörddə bir aypara"),
-			keywords: &["ay", "aypara", "dörddə bir", "dörddə bir aypara", "hava", "kosmos"],
+			tts:      Some("göyqurşağı"),
+			keywords: &["göyqurşağı", "hava", "lgbt simvolu", "yağış"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("рост сярпа"),
-			keywords: &["космас", "маладзік", "месяц", "неаменія", "ноч", "рост сярпа", "серп"],
+			tts:      Some("вясёлка"),
+			keywords: &["вясёлка", "дождж", "надвор’е"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("нарастващ полумесец на Луната"),
-			keywords: &["космос", "луна", "нарастващ", "нарастващ полумесец на Луната", "полумесец"],
+			tts:      Some("дъга"),
+			keywords: &[
+				"време",
+				"гей",
+				"дъга",
+				"дъжд",
+				"лгбт",
+				"лгбти",
+				"лгбтк",
+				"лесбийка",
+				"прайд",
+				"транссексуален",
+			],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("ব\u{9c3}দ\u{9cd}ধিপ\u{9cd}র\u{9be}প\u{9cd}ত অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র"),
+			tts:      Some("র\u{9be}মধন\u{9c1}"),
 			keywords: &[
-				"অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র",
 				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"ওয\u{9bc}\u{9be}ক\u{9cd}সিং",
-				"চ\u{9be}\u{981}দ",
-				"ব\u{9c3}দ\u{9cd}ধিপ\u{9cd}র\u{9be}প\u{9cd}ত অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র",
-				"মহ\u{9be}ক\u{9be}শ",
+				"ব\u{9c3}ষ\u{9cd}টি",
+				"রংধন\u{9c1}",
+				"র\u{9be}মধন\u{9c1}",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("loar vihan ar cʼhresk"),
-			keywords: &["loar", "loar vihan ar cʼhresk"],
+			tts:      Some("kanevedenn"),
+			keywords: &["glav", "kanevedenn"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("uzdižući mjesec"),
-			keywords: &["mjesec", "mjesečeve mijene", "uzdižući mjesec"],
+			tts:      Some("duga"),
+			keywords: &["duga", "kiša", "vrijeme"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("lluna en quart creixent"),
-			keywords: &["creixent", "espai", "lluna", "lluna en quart creixent", "quart", "somnis"],
+			tts:      Some("arc de Sant Martí"),
+			keywords: &[
+				"Sant Martí",
+				"arc",
+				"arc de Sant Martí",
+				"bisexual",
+				"gai",
+				"gènere no-binari",
+				"lgbt",
+				"lgbtia",
+				"lgbtq",
+				"natura",
+				"orgull",
+				"pluja",
+				"queer",
+				"temps",
+				"transgènere",
+				"transsexual",
+			],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎣᏂ ᏣᎢᏐ ᏅᏓ ᎤᏒ ᎡᎯ"),
-			keywords: &["ᎠᏓᏲᎲ", "ᎠᏲᎶᎦ ᎠᎦᏍᎦᏂ", "ᎣᏂ ᏣᎢᏐ ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+			lang: "chr", tts: Some("ᎤᏃᏉᎳᏛ"), keywords: &["ᎠᎦᏍᎩ", "ᎤᏃᏉᎳᏛ"]
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("dorůstající měsíc po novoluní"),
+			tts:      Some("duha"),
 			keywords: &[
-				"dorůstající",
-				"dorůstající měsíc po novoluní",
-				"dorůstající srpek měsíce",
-				"dorůstá",
-				"fáze měsíce",
-				"měsíc",
-				"noc",
+				"LGBT",
+				"asexuál",
+				"barevná duha",
+				"barevný",
+				"bisexuálové",
+				"duha",
+				"duhový",
+				"déšť",
+				"gayové",
+				"genderqueer",
+				"intersexuál",
+				"lesby",
 				"počasí",
-				"půlměsíc",
-				"sny",
-				"srpek",
-				"vesmír",
+				"pride",
+				"příroda",
+				"queer",
+				"transgender",
+				"transsexuálové",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("lleuad gilgant ar ei chynnydd"),
-			keywords: &[
-				"cilgant",
-				"cwyro",
-				"gofod",
-				"lleuad",
-				"lleuad gilgant ar ei chynnydd",
-				"lleuad gilgant ar ei mesurydd",
-				"tywydd",
-			],
+			tts:      Some("enfys"),
+			keywords: &["enfys", "glaw", "tywydd"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("tiltagende måne"),
-			keywords: &["måne", "månefase", "tiltagende måne"],
+			tts:      Some("regnbue"),
+			keywords: &["lgbt", "regn", "regnbue", "vejr"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("erstes Mondviertel"),
-			keywords: &["Erstes Mondviertel", "Mond", "erstes Mondviertel", "zunehmend"],
+			tts:      Some("Regenbogen"),
+			keywords: &["Regenbogen", "Wetter"],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("αύξων μηνίσκος"),
-			keywords: &["αύξων", "διάστημα", "καιρός", "μηνίσκος", "φεγγάρι"],
+			tts:      Some("ουράνιο τόξο"),
+			keywords: &[
+				"ΛΟΑΤΚΙ",
+				"αμφιφυλόφιλος",
+				"βροχή",
+				"διεμφυλικός",
+				"καιρός",
+				"κοινότητα ομοφυλόφιλων",
+				"λεσβία",
+				"ομοφυλόφιλος",
+				"ουράνιο τόξο",
+				"περηφάνια",
+				"τρανσέξουαλ",
+				"υπερηφάνεια",
+				"φύση",
+			],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("waxing crescent moon"),
-			keywords: &["crescent", "dreams", "moon", "space", "waxing"],
+			tts:      Some("rainbow"),
+			keywords: &[
+				"gay",
+				"genderqueer",
+				"glbt",
+				"glbtq",
+				"lesbian",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"nature",
+				"pride",
+				"queer",
+				"rain",
+				"rainbow",
+				"trans",
+				"transgender",
+				"weather",
+			],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -967,844 +284,971 @@ pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("luna creciente"),
-			keywords: &["creciente", "cuarto", "espacio", "luna"],
+			tts:      Some("arcoíris"),
+			keywords: &["arcoíris", "colores", "lluvia"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("luna nueva visible"),
-			keywords: &[
-				"clima",
-				"creciente",
-				"cuarto",
-				"espacio",
-				"luna",
-				"luna en cuarto menguante",
-				"menguante",
-				"nueva",
-				"visible",
-			],
+			tts:      Some("↑↑↑"),
+			keywords: &["arcoíris", "clima", "colores", "lluvia"],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["creciente", "espacio", "luna", "nueva", "visible"],
-		},
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
 		crate::Annotation {
 			lang:     "es_US",
 			tts:      Some("↑↑↑"),
-			keywords: &["creciente", "luna", "luna nueva visible"],
+			keywords: &["arcoíris", "lluvia"],
 		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("kasvav kuusirp"),
-			keywords: &["ilm", "kasvav kuusirp", "kosmos", "kuu", "noorkuu", "sirp"],
+			tts:      Some("vikerkaar"),
+			keywords: &["ilm", "vihm", "vikerkaar"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("ilgora"),
-			keywords: &["ilargia", "ilgora"],
+			tts:      Some("ortzadarra"),
+			keywords: &["eguraldi", "euri", "ortzadarra"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("هلال فزاینده ماه"),
-			keywords: &[
-				"آب\u{200c}وهوا",
-				"رو به بدر",
-				"سوی ماه تمام",
-				"فضا",
-				"ماه",
-				"هلال",
-				"هلال فزاینده ماه",
-			],
+			tts:      Some("رنگین کمان"),
+			keywords: &["آب\u{200c}وهوا", "باران", "جشن غرور", "رنگین کمان", "علامت همجنسگرایان"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("kasvava kuunsirppi"),
-			keywords: &["kasvava", "kasvava kuunsirppi", "kuu", "sirppi", "sää", "taivaankappale"],
+			tts:      Some("sateenkaari"),
+			keywords: &[
+				"biseksuali",
+				"genderqueer",
+				"hlbt",
+				"hlbtq",
+				"hlbtqia",
+				"homo",
+				"lesbo",
+				"queer",
+				"sade",
+				"sateenkaari",
+				"sää",
+				"trans",
+			],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("waxing crescent moon"),
-			keywords: &["buwan", "crescent", "kalawakan", "waxing", "waxing crescent moon"],
+			tts:      Some("bahaghari"),
+			keywords: &[
+				"bahaghari",
+				"bakla",
+				"genderqueer",
+				"lagay ng panahon",
+				"lesbyana",
+				"lgbt",
+				"lgbtqia",
+				"panahon",
+				"queer",
+				"rainbow",
+				"transgender",
+				"ulan",
+			],
 		},
 		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("lítil vaksandi hálvmáni"),
-			keywords: &["hálvmáni", "lítil vaksandi hálvmáni", "máni", "vaksandi"],
-		},
+		crate::Annotation { lang: "fo", tts: Some("ælabogi"), keywords: &["ælabogi"] },
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("lune croissante"),
-			keywords: &["espace", "lune", "lune croissante", "nuit"],
+			tts:      Some("arc-en-ciel"),
+			keywords: &[
+				"Gay Pride",
+				"LGBT",
+				"LGBTQ",
+				"LGBTQIA",
+				"arc-en-ciel",
+				"bisexuel",
+				"bisexuelle",
+				"gay",
+				"homosexuel",
+				"homosexuelle",
+				"lesbienne",
+				"météo",
+				"nature",
+				"orgueil",
+				"pluie",
+				"trans",
+				"transgenre",
+			],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
-			tts:      Some("premier croissant de lune"),
-			keywords: &["lune", "premier croissant"],
+			tts:      Some("↑↑↑"),
+			keywords: &["arc-en-ciel", "pluie"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("corrán gealaí atá ag líonadh"),
+			tts:      Some("bogha báistí"),
 			keywords: &[
-				"corrán gealaí",
-				"corrán gealaí ag dul ar gcúl",
-				"corrán gealaí atá ag líonadh",
-				"gealach ag líonadh",
-				"gealach ag teacht ann",
-				"spás",
+				"aerach",
+				"aiteach",
+				"an aimsir",
+				"bogha báistí",
+				"déghnéasach",
+				"leispiach",
+				"trasghnéasach",
+				"tuar ceatha",
+				"éighnéasach",
 			],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("gealach chorranach a’ cinntinn"),
-			keywords: &["cinntinn", "corranach", "fàs", "gealach", "gealach chorranach a’ cinntinn"],
+			tts:      Some("bogha-froise"),
+			keywords: &["bogha-froise", "uisge"],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("lúa nova visible"),
-			keywords: &["lúa", "nova", "visible"],
+			tts:      Some("arco da vella"),
+			keywords: &["arco da vella", "arco iris"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("બીજનો ચ\u{a82}દ\u{acd}ર"),
-			keywords: &["ચ\u{a82}દ\u{acd}ર", "બીજ", "બીજનો ચ\u{a82}દ\u{acd}ર", "વધતો"],
+			tts:      Some("સપ\u{acd}તર\u{a82}ગી"),
+			keywords: &[
+				"ઈન\u{acd}દ\u{acd}રધન\u{ac1}ષ",
+				"ક\u{ac1}દરત",
+				"વરસાદ",
+				"સપ\u{acd}તર\u{a82}ગ",
+				"સપ\u{acd}તર\u{a82}ગી",
+				"હવામાન",
+			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("hilalin wata mai ƙaruwa"),
+			tts:      Some("baƙangizo"),
 			keywords: &[
-				"fitowar wata",
-				"hilalin wata",
-				"hilalin wata mai ƙaruwa",
-				"jinjirin wata",
-				"mai ƙaruwa",
-				"ramadan",
-				"wata",
+				"auren jinsi",
+				"bakan gizo",
+				"baƙangizo",
+				"lgbt",
+				"lgbtq",
+				"luwaɗi",
+				"maɗigo",
+				"ruwan sama",
+				"sauya jinsi",
+				"tarayyar jinsi",
 			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("hilalin wata mai ƙaruwa"),
+			tts:      Some("baƙangizo"),
 			keywords: &[
-				"fitowar wata",
-				"hilalin wata",
-				"hilalin wata mai ƙaruwa",
-				"jinjirin wata",
-				"mai ƙaruwa",
-				"ramadan",
-				"wata",
+				"auren jinsi",
+				"bakan gizo",
+				"baƙangizo",
+				"lgbt",
+				"lgbtq",
+				"luwaɗi",
+				"maɗigo",
+				"ruwan sama",
+				"sauya jinsi",
+				"tarayyar jinsi",
 			],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("סהר ירח מתמלא"),
-			keywords: &["חלל", "ירח", "סהר", "סהר ירח מתמלא"],
+			tts:      Some("קשת בענן"),
+			keywords: &["בי", "גאווה", "גיי", "גשם", "טרנס", "להט״ב", "לסבית", "קשת", "קשת בענן"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("द\u{942}ज का चा\u{901}द"),
+			tts:      Some("इ\u{902}द\u{94d}रधन\u{941}ष"),
 			keywords: &[
-				"चा\u{901}द",
-				"चा\u{902}द",
-				"द\u{942}ज का चा\u{901}द",
-				"नवच\u{902}द\u{94d}र",
-				"बालच\u{902}द\u{94d}र",
-				"वर\u{94d}धमान",
-				"सपन\u{947}",
+				"इ\u{902}द\u{94d}रधन\u{941}ष",
+				"इ\u{902}द\u{94d}रधन\u{941}ष बारिश",
+				"मौसम",
+				"र\u{947}नबो",
 			],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("polumjesec prve četvrti"),
+			tts:      Some("duga"),
 			keywords: &[
-				"mjesec",
-				"polumjesec",
-				"polumjesec prve četvrti",
-				"prva četvrt",
-				"rastući polumjesec",
-				"svemir",
+				"duga",
+				"homoseksualno",
+				"kiša",
+				"lezbijski",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"pride",
+				"priroda",
 				"vrijeme",
 			],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("növő, sarló alakú hold"),
+			tts:      Some("szivárvány"),
 			keywords: &[
-				"hold",
-				"holdfázisok",
-				"kifli",
-				"növő",
-				"növő, kifli alakú hold",
-				"növő, sarló alakú hold",
-				"sarló",
-				"sarló alakú hold",
-				"ég",
-				"éjszaka",
-				"űr",
+				"LGBT",
+				"LMBT",
+				"aszexuális",
+				"biszexuális",
+				"büszke",
+				"büszkeség",
+				"eső",
+				"homoszexuális",
+				"időjárás",
+				"interszexuális",
+				"kérdéses",
+				"kíváncsi",
+				"leszbikus",
+				"meleg",
+				"omniszexuális",
+				"pánszexuális",
+				"szivárvány",
+				"természet",
+				"transznemű",
+				"transzszexuális",
 			],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("աճող մահիկ"),
-			keywords: &["աճող", "եղանակ", "լուսին", "մահիկ", "տիեզերք"],
+			tts:      Some("ծիածան"),
+			keywords: &["անձրև", "եղանակ", "ծիածան"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("bulan sabit awal"),
-			keywords: &["angkasa", "bulan", "bulan sabit awal", "cuaca", "membesar", "sabit"],
+			tts:      Some("pelangi"),
+			keywords: &["cuaca", "hujan", "pelangi"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("imelite ọnwa gburu uhie"),
-			keywords: &["gburu uhie", "imelite ọnwa gburu uhie", "mmelite", "ọnwa"],
+			tts:      Some("egwurugwu"),
+			keywords: &[
+				"egwurugwu",
+				"glbt",
+				"glbtq",
+				"ihu igwe",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"mmiri ozuzo",
+				"nganga",
+				"nwanyị nwere mmasị nwanyị",
+				"nwoke ghọrọ nwanyị ma ọbụ nwanyị ghọrọ nwoke",
+				"nwoke nwanyi",
+				"nwoke nwere mmasị nwoke",
+				"onye ukwu",
+				"trans",
+				"ọdịdị",
+			],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("vaxandi tungl (minna en hálft)"),
-			keywords: &["mánasigð", "máni", "tungl", "vaxandi", "vaxandi tungl (minna en hálft)"],
+			tts:      Some("regnbogi"),
+			keywords: &["regn", "regnbogi", "veður"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("luna crescente"),
+			tts:      Some("arcobaleno"),
 			keywords: &[
-				"buona notte",
-				"crescente",
-				"luna",
-				"mezza luna",
+				"arcobaleno",
+				"bisessuale",
+				"colori",
+				"gay",
+				"lesbica",
+				"lgbt",
+				"meteo",
 				"natura",
-				"notte",
-				"quarto di luna",
-				"sogni",
-				"spicchio di luna",
+				"omosessuale",
+				"pace",
+				"pioggia",
+				"transgender",
 			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("初月"),
-			keywords: &["三日月", "初月", "宇宙", "月"],
+			tts:      Some("虹"),
+			keywords: &[
+				"GLBT",
+				"GLBTQ",
+				"LGBT",
+				"LGBTQ",
+				"ゲイ",
+				"トランスジェンダー",
+				"バイセクシュアル",
+				"レインボー",
+				"レズビアン",
+				"天気",
+			],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("bulan tanggal sepisan"),
-			keywords: &[
-				"bulan",
-				"bulan tanggal sepisan",
-				"padhange nambah sithik-sithik",
-				"tanggal sepisan",
-			],
+			tts:      Some("kluwung"),
+			keywords: &["kluwung", "plangi", "udan"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("მზარდი ნამგალა მთვარე"),
-			keywords: &["ამინდი", "კოსმოსი", "მზარდი", "მთვარე", "ნამგალა"],
+			tts:      Some("ცისარტყელა"),
+			keywords: &["ამინდი", "ცისარტყელა", "წვიმა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("tislit n unẓar"),
+			keywords: &["tislit n unẓar"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("толып жатқан жарты ай"),
-			keywords: &["ай", "ауа райы", "жарты ай", "толып жатқан жарты ай", "толысып жатқан", "ғарыш"],
+			tts:      Some("кемпірқосақ"),
+			keywords: &[
+				"ауа райы",
+				"гомосексуализм",
+				"жаңбыр",
+				"кемпірқосақ",
+				"лгбт",
+				"түстер",
+				"шаттық",
+			],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("tiltagende måne"),
-			keywords: &["måne", "månefase", "tiltagende måne"],
+			tts:      Some("regnbue"),
+			keywords: &["regn", "regnbue", "vejr"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some(
-				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នម\u{17bd}យច\u{17c6}ន\u{17b7}ត",
-			),
-			keywords: &[
-				"ខ\u{17d2}នើត",
-				"ព\u{17d2}រះចន\u{17d2}ទ",
-				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នម\u{17bd}យច\u{17c6}ន\u{17b7}ត",
-				"អឌ\u{17d2}ឍចន\u{17d2}ទ",
-			],
+			tts:      Some("ឥន\u{17d2}ទធន\u{17bc}"),
+			keywords: &["អាកាសធាត\u{17bb}", "ឥន\u{17d2}ទធន\u{17bc}"],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಅರ\u{ccd}ಧ ಚಂದ\u{ccd}ರ"),
+			tts:      Some("ಕಾಮನಬ\u{cbf}ಲ\u{ccd}ಲು"),
 			keywords: &[
-				"ಅರ\u{ccd}ಧ ಚಂದ\u{ccd}ರ",
-				"ಕನಸುಗಳು",
-				"ಕ\u{ccd}ರ\u{cc6}ಸ\u{cc6}ಂಟ\u{ccd}",
-				"ಚಂದ\u{ccd}ರ",
-				"ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6}",
-				"ಮ\u{cc7}ಣ",
-				"ಮ\u{cc7}ಣದ ಚಂದ\u{ccd}ರ",
-				"ಶುಕ\u{ccd}ಲಪಕ\u{ccd}ಷ",
-				"ಶುಕ\u{ccd}ಲಪಕ\u{ccd}ಷದ ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
+				"ಕಾಮನಬ\u{cbf}ಲ\u{ccd}ಲು",
+				"ಕ\u{ccd}ವ\u{cc0}ರ\u{ccd}",
+				"ಗ\u{cc7}",
+				"ದ\u{ccd}ವ\u{cbf}ಲ\u{cbf}ಂಗ\u{cbf}",
+				"ಪ\u{ccd}ರಕೃತ\u{cbf}",
+				"ಭ\u{cbf}ನ\u{ccd}ನಲ\u{cbf}ಂಗ\u{cbf}",
+				"ಮಳ\u{cc6}",
+				"ಮಳ\u{cc6}ಬ\u{cbf}ಲ\u{ccd}ಲು",
+				"ಲ\u{cbf}ಂಗ ಪರ\u{cbf}ವರ\u{ccd}ತನ\u{cc6} ಮಾಡ\u{cbf}ಸ\u{cbf}ಕ\u{cca}ಂಡವರು",
+				"ಲ\u{cc6}ಸ\u{ccd}ಬ\u{cbf}ಯನ\u{ccd}",
+				"ಸಲ\u{cbf}ಂಗ\u{cbf}",
+				"ಹವಾಮಾನ",
+				"ಹ\u{cc6}ಮ\u{ccd}ಮ\u{cc6}",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("초승달 상현"),
-			keywords: &["꿈", "달", "상현", "상현달", "우주", "초승달 상현"],
+			tts:      Some("무지개"),
+			keywords: &[
+				"게이",
+				"날씨",
+				"레인보우",
+				"레즈비언",
+				"무지개",
+				"양성애자",
+				"자연",
+				"젠더퀴어",
+				"트랜스",
+				"트랜스젠더",
+				"프라이드",
+			],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("वाडट\u{94d}या च\u{902}द\u{94d}रकळ\u{947}ची च\u{902}द\u{94d}रकोर"),
-			keywords: &[
-				"च\u{902}द\u{94d}र",
-				"च\u{902}द\u{94d}रकोर",
-				"वाडटी च\u{902}द\u{94d}रकळा",
-				"वाडट\u{94d}या च\u{902}द\u{94d}रकळ\u{947}ची च\u{902}द\u{94d}रकोर",
-			],
+			tts:      Some("इ\u{902}द\u{94d}रधोण\u{942}"),
+			keywords: &["इ\u{902}द\u{94d}रधोण\u{942}", "पावस"],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("толуп баштаган ай"),
-			keywords: &["аба ырайы", "ай", "космос", "толуп баштаган ай", "толуу"],
+			tts:      Some("күн желеси"),
+			keywords: &["аба ырайы", "жамгыр", "күн желеси"],
 		},
 		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Séchelmound am éischte Véierel"),
-			keywords: &["Mound", "Séchelmound", "Séchelmound am éischte Véierel", "éischte Véierel"],
-		},
+		crate::Annotation { lang: "lb", tts: Some("Reebou"), keywords: &["Reebou", "Reen"] },
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ເດ\u{eb7}ອນແຮມອອກໃໝ\u{ec8}"),
-			keywords: &["ເດ\u{eb7}ອນສ\u{ec9}ຽວ", "ເດ\u{eb7}ອນແຮມ", "ເດ\u{eb7}ອນແຮມອອກໃໝ\u{ec8}"],
+			tts:      Some("ຮ\u{eb8}\u{ec9}ງກ\u{eb4}ນນ\u{ecd}\u{ec9}າ"),
+			keywords: &[
+				"ຝ\u{ebb}ນຕ\u{ebb}ກ",
+				"ສະພາບອາກາດ",
+				"ສາຍຮ\u{eb8}\u{ec9}ງ",
+				"ຮ\u{eb8}\u{ec9}ງກ\u{eb4}ນນ\u{ecd}\u{ec9}າ",
+			],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("priešpilnis mėnulis"),
-			keywords: &["kosmosas", "mėnulis", "priešpilnis", "sapnai"],
+			tts:      Some("vaivorykštė"),
+			keywords: &["gamta", "homoseksualus", "lgbt", "lietus", "vaivorykštė"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("augoša mēness sirpis"),
-			keywords: &["augoša mēness sirpis", "augošs", "kosmoss", "mēness", "sirpis"],
+			tts:      Some("varavīksne"),
+			keywords: &["laikapstākļi", "laiks", "lgbt", "lietus", "varavīksne"],
 		},
 		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("marama hua tipihori"),
-			keywords: &["hua", "marama", "marama hua tipihori", "pewa"],
-		},
+		crate::Annotation { lang: "mi", tts: Some("kahukura"), keywords: &["kahukura", "ua"] },
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("прва фаза - новина"),
+			tts:      Some("виножито"),
 			keywords: &[
-				"вселена",
-				"месечина",
-				"новина",
-				"прва фаза - новина",
-				"прва фаза на месечина",
-				"сни",
-				"соништа",
+				"бисексуалност",
+				"виножито",
+				"време",
+				"геј",
+				"дожд",
+				"квир",
+				"лгбт",
+				"лезбијка",
+				"природа",
+				"трансродово лице",
 			],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some(
-				"പ\u{d42}ർണ\u{d4d}ണത പ\u{d4d}ര\u{d3e}പിക\u{d4d}ക\u{d41}ന\u{d4d}ന ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
-			),
-			keywords: &[
-				"ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
-				"ചന\u{d4d}ദ\u{d4d}രൻ",
-				"പ\u{d42}ർണ\u{d4d}ണത പ\u{d4d}ര\u{d3e}പിക\u{d4d}ക\u{d41}ന\u{d4d}ന ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
-			],
+			tts:      Some("മഴവില\u{d4d}ല\u{d4d}"),
+			keywords: &["മഴ", "മഴവില\u{d4d}ല\u{d4d}"],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("хавирган сар (баруун)"),
-			keywords: &["сар", "хавирган сар", "хавирган сар (баруун)"],
+			tts:      Some("солонго"),
+			keywords: &["солонго", "цаг агаар"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some(
-				"अर\u{94d}ध\u{94d}\u{200d}याप\u{947}क\u{94d}षा कमी प\u{94d}रकाशित असल\u{947}ला च\u{902}द\u{94d}राचा भाग",
-			),
-			keywords: &[
-				"अर\u{94d}ध\u{94d}\u{200d}याप\u{947}क\u{94d}षा कमी प\u{94d}रकाशित असल\u{947}ला च\u{902}द\u{94d}राचा भाग",
-				"च\u{902}द\u{94d}र",
-				"च\u{902}द\u{94d}रकोर",
-				"वाढणारा",
-				"वाढणारी च\u{902}द\u{94d}रकोर",
-			],
+			tts:      Some("इ\u{902}द\u{94d}रधन\u{941}ष\u{94d}य"),
+			keywords: &["इ\u{902}द\u{94d}रधन\u{941}ष\u{94d}य", "पाऊस", "हवामान"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("bulan sabit membesar"),
-			keywords: &["angkasa lepas", "bulan", "bulan sabit", "membesar", "mimpi"],
+			tts:      Some("pelangi"),
+			keywords: &[
+				"alam semula jadi",
+				"cuaca",
+				"gay",
+				"genderqueer",
+				"glbt",
+				"glbtq",
+				"hujan",
+				"kebanggaan",
+				"lesbian",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"pelangi",
+				"pelik",
+				"trans",
+				"transgender",
+			],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("felli qamar qed jikber"),
-			keywords: &["felli", "felli qamar qed jikber", "qamar", "qed jikber"],
+			tts:      Some("qawsalla"),
+			keywords: &["qawsalla", "xita"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("လဆန\u{103a}းရက\u{103a}"),
-			keywords: &["လ", "လခြမ\u{103a}း", "လဆန\u{103a}းရက\u{103a}"],
+			tts:      Some("သက\u{103a}တ\u{1036}"),
+			keywords: &["မ\u{102d}\u{102f}း", "သက\u{103a}တ\u{1036}"],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("बढ\u{94d}दो चन\u{94d}द\u{94d}रमा"),
-			keywords: &["अर\u{94d}धचन\u{94d}द\u{94d}र", "चन\u{94d}द\u{94d}रमा", "बढ\u{94d}दो"],
+			tts:      Some("इन\u{94d}द\u{94d}र\u{947}णी"),
+			keywords: &["इन\u{94d}द\u{94d}र\u{947}णी", "वर\u{94d}षा"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("jonge maansikkel"),
+			tts:      Some("regenboog"),
 			keywords: &[
-				"avond",
-				"jonge maansikkel",
-				"maan",
-				"ruimte",
-				"sikkel",
-				"wassend",
-				"wassende halvemaan",
+				"genderqueer",
+				"glbt",
+				"homoseksueel",
+				"lesbisch",
+				"lgbt",
+				"lgbtq",
+				"lgtbqia",
+				"lhbt",
+				"natuur",
+				"pride",
+				"queer",
+				"regen",
+				"regenboog",
+				"transgender",
+				"weer",
 			],
 		},
 		#[cfg(feature = "nn")]
 		crate::Annotation {
 			lang:     "nn",
-			tts:      Some("veksande nymåne"),
-			keywords: &["måne", "månefase", "ny", "veksande", "veksande nymåne"],
+			tts:      Some("regnboge"),
+			keywords: &["regn", "regnboge", "vêr"],
 		},
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some(
-				"ବ\u{b43}ହତ\u{b4d}ତର ହେଉଥ\u{b3f}ବ\u{b3e} କ\u{b43}ସେଣ\u{b4d}ଟ\u{b4d} ଚନ\u{b4d}ଦ\u{b4d}ର",
-			),
-			keywords: &[
-				"ଅପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ବଢ\u{b3c}ନ\u{b4d}ତ\u{b3e}",
-				"ବ\u{b43}ହତ\u{b4d}ତର ହେଉଥ\u{b3f}ବ\u{b3e} କ\u{b43}ସେଣ\u{b4d}ଟ\u{b4d} ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ୱେକ\u{b4d}ସ\u{b3f}ଂ କ\u{b4d}ରେସେଣ\u{b4d}ଟ ମ\u{b41}ନ\u{b4d}\u{200c}",
-			],
+			tts:      Some("ଇନ\u{b4d}ଦ\u{b4d}ରଧନ\u{b41}"),
+			keywords: &["ଇନ\u{b4d}ଦ\u{b4d}ରଧନ\u{b41}", "ବର\u{b4d}ଷ\u{b3e}"],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਵ\u{a71}ਧਦਾ ਚ\u{a70}ਦ"),
+			tts:      Some("ਸਤਰ\u{a70}ਗੀ ਪੀ\u{a02}ਘ"),
 			keywords: &[
-				"ਅ\u{a71}ਧਾ",
-				"ਚ\u{a70}ਦ",
-				"ਚ\u{a70}ਨ",
-				"ਪ\u{a41}ਲਾੜ",
+				"ਇ\u{a70}ਦਰਧਨ\u{a41}ਸ\u{a3c}",
+				"ਕ\u{a41}ਦਰਤ",
+				"ਮੀ\u{a02}ਹ",
 				"ਮ\u{a4c}ਸਮ",
-				"ਵ\u{a71}ਧਦਾ",
-				"ਸ\u{a41}ਪਨਾ",
+				"ਸਤਰ\u{a70}ਗੀ ਪੀ\u{a02}ਘ",
+				"ਸਮਲਿ\u{a70}ਗੀ",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("نشوونما پاندا ہلالی چاند"),
-			keywords: &["نشوونما پاندا ہلالی چاند", "ویکسنگ", "چاند", "ہلال"],
+			tts:      Some("قوس قزح"),
+			keywords: &["قوس قزح", "مینہ"],
 		},
 		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Mun Im Braít Pat Jọ\u{301}s Stát To Bíg Mọọ\u{301} Mọọ"),
-			keywords: &[
-				"Kọ\u{301}v Shep",
-				"Mun",
-				"Mun Im Braít Pat Jọ\u{301}s Stát To Bíg Mọọ\u{301} Mọọ",
-			],
-		},
+		crate::Annotation { lang: "pcm", tts: Some("Rénbo"), keywords: &["Ren", "Rénbo"] },
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("narastający półksiężyc"),
-			keywords: &["cieniutki księżyc", "księżyc", "narastający półksiężyc", "noc", "sierp"],
+			tts:      Some("tęcza"),
+			keywords: &[
+				"deszcz",
+				"gej",
+				"geje",
+				"kolory",
+				"les",
+				"lesbijki",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"nadzieja",
+				"pogoda",
+				"pride",
+				"słońce",
+				"transpłciowość",
+				"tęcza",
+			],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("رغېدونکې هلال سپوږمۍ"),
-			keywords: &["رغېدونکې", "سپوږمۍ", "هلال"],
+			tts:      Some("شنه زرغونه"),
+			keywords: &["باران", "شنه زرغونه"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("lua crescente côncava"),
-			keywords: &["crescente", "côncava", "lua", "noite"],
+			tts:      Some("arco-íris"),
+			keywords: &[
+				"arco-íris",
+				"chuva",
+				"clima",
+				"gay",
+				"lgbt",
+				"lgbtqia+",
+				"lésbica",
+				"natureza",
+				"orgulho",
+				"queer",
+				"transgênero",
+			],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
-			tts:      Some("lua na primeira falcada"),
-			keywords: &[
-				"crescente",
-				"espaço",
-				"lua",
-				"lua crescente convexa",
-				"lua crescente gibosa",
-				"lua na primeira falcada",
-				"meteorologia",
-			],
+			tts:      Some("↑↑↑"),
+			keywords: &["arco-íris", "chuva", "cores", "lgbt", "meteorologia", "natureza", "orgulho"],
 		},
 		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("tukuspa chawpi killa"),
-			keywords: &["chawpi", "killa", "tukuspa"],
-		},
+		crate::Annotation { lang: "qu", tts: Some("kʼuychi"), keywords: &["kʼuychi", "para"] },
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("lună concavă în creștere"),
+			tts:      Some("curcubeu"),
 			keywords: &[
-				"concavă",
-				"crescătoare",
-				"creștere",
-				"lună",
-				"lună concavă în creștere",
-				"semilună",
-				"semilună în creștere",
-				"spațiu",
-				"vise",
+				"cer",
+				"culori",
+				"curcubeu",
+				"gay",
+				"glbt",
+				"homosexual",
+				"lesbiane",
+				"lgbt",
+				"lgbtq",
+				"lgbtqia",
+				"natură",
+				"pride",
+				"queer",
+				"trans",
+				"transsexual",
+				"vreme",
 			],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-217"), keywords: &["E10-217"] },
+		crate::Annotation { lang: "root", tts: Some("E10-207"), keywords: &["E10-207"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("молодая луна"),
-			keywords: &["луна", "месяц", "молодая", "молодой"],
+			tts:      Some("радуга"),
+			keywords: &["дождь", "осадки", "погода", "природа", "радуга", "цвета"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("bitutu bya kane by’ukwezi"),
-			keywords: &["bitutu bya kane by’ukwezi"],
+			tts:      Some("umukororombya"),
+			keywords: &["imvura", "umukororombya"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ننڍي چنڊ ڏانهن وڌندڙ"),
-			keywords: &["ننڍو چنڊ", "ننڍي چنڊ ڏانهن وڌندڙ", "وڌندڙ چند", "چنڊ"],
+			lang: "sd", tts: Some("انڊلٺ"), keywords: &["انڊلٺ", "برسات"]
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("ප\u{dd4}රපක\u{dca}ෂයේ අඩසඳ"),
-			keywords: &[
-				"අඩසඳ",
-				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"ප\u{dd4}ර",
-				"ප\u{dd4}රපක\u{dca}ෂයේ අඩසඳ",
-				"සඳ",
-			],
+			tts:      Some("දේද\u{dd4}න\u{dca}න"),
+			keywords: &["ක\u{dcf}ලග\u{dd4}ණය", "දේද\u{dd4}න\u{dca}න", "වැස\u{dca}ස"],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("dorastajúci polmesiac"),
+			tts:      Some("dúha"),
 			keywords: &[
-				"dorastajúci",
-				"mesiac",
-				"narastajúci",
-				"nočná obloha",
-				"polmesiac",
+				"LGBT",
+				"bisexuál",
+				"dážď",
+				"dúha",
+				"farebná dúha",
+				"gay",
+				"lesba",
+				"lgbtqia",
 				"počasie",
-				"vesmír",
+				"pride",
+				"príroda",
+				"transsexuál",
 			],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("prvi krajec"),
-			keywords: &["krajec", "luna", "prvi", "vesolje", "vreme"],
+			tts:      Some("mavrica"),
+			keywords: &[
+				"dež",
+				"homoseksualen",
+				"lezbično",
+				"lgbt",
+				"mavrica",
+				"narava",
+				"ponos",
+				"trans",
+				"transspolnost",
+				"vreme",
+			],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("qoolaabanka dayaxa oo badanaya"),
-			keywords: &["badidoodka", "bil qoolaaban", "dayax", "qoolaabanka dayaxa oo badanaya"],
+			tts:      Some("qaanso-roobaad"),
+			keywords: &["qaanso-roobaad", "roob"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("hënë e re më pak se gjysma"),
-			keywords: &["hapësirë", "hënë", "hënë e re më pak se gjysma", "moti", "ëndrra"],
+			tts:      Some("ylber"),
+			keywords: &["gej", "krenari", "lesbike", "lgbt", "lgbtq", "moti", "natyrë", "shi", "ylber"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("месечев срп у порасту"),
-			keywords: &["месец", "пoлумесец", "рaст", "свeмир"],
+			tts:      Some("дуга"),
+			keywords: &["време", "геј", "дуга", "кишa", "лгбт", "прајд", "природа"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("мјесечев срп у порасту"),
-			keywords: &["мјесец", "мјесечев срп у порасту", "пoлумјесец"],
-		},
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("mesečev srp u porastu"),
-			keywords: &["mesec", "polumesec", "rast", "svemir"],
+			tts:      Some("duga"),
+			keywords: &["duga", "gej", "kiša", "lgbt", "prajd", "priroda", "vreme"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("mjesečev srp u porastu"),
-			keywords: &["mjesec", "mjesečev srp u porastu", "polumjesec"],
-		},
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("måne i första kvarteret"),
-			keywords: &["kvartsmåne", "måne", "måne i första kvarteret", "månskära", "tilltagande måne"],
+			tts:      Some("regnbåge"),
+			keywords: &["regn", "regnbåge", "väder"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("mwezi mwandamo"),
-			keywords: &["anga", "hali ya hewa", "hali yahewa", "kuanza", "mwezi", "mwezi mwandamo"],
+			tts:      Some("upinde wa mvua"),
+			keywords: &["hali ya hewa", "jinsiambili", "mvua", "shoga", "upinde wa mvua"],
 		},
 		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &["anga", "hali ya hewa", "kuanza", "mwezi", "mwezi mwandamo"],
-		},
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("வளர\u{bcd}பிறை"),
-			keywords: &["இரவு", "நில\u{bbe}", "பிறைநிலவு", "வளர\u{bcd}பிறை"],
+			tts:      Some("வ\u{bbe}னவில\u{bcd}"),
+			keywords: &[
+				"glbt",
+				"glbtq",
+				"lgbt",
+				"lgbtq",
+				"இருப\u{bbe}லினத\u{bcd}தவர\u{bcd}",
+				"ஓரினச\u{bcd}சேர\u{bcd}க\u{bcd}கைய\u{bbe}ளர\u{bcd}",
+				"கே",
+				"லெஸ\u{bcd}பியன\u{bcd}",
+				"வண\u{bcd}ணம\u{bcd}",
+				"வ\u{bbe}னவில\u{bcd}",
+			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("ప\u{c46}రుగుతున\u{c4d}న చంద\u{c4d}రుడు"),
+			tts:      Some("ఇంద\u{c4d}రధనుస\u{c4d}సు"),
 			keywords: &[
-				"కలలు",
-				"క\u{c4d}ర\u{c46}స\u{c46}ంట\u{c4d}",
-				"చంద\u{c4d}రుడు",
-				"ప\u{c46}రుగు",
-				"ప\u{c46}రుగుతున\u{c4d}న చంద\u{c4d}రుడు",
-				"మూన\u{c4d}",
-				"వ\u{c4d}య\u{c3e}క\u{c4d}స\u{c3f}ంగ\u{c4d}",
+				"అద\u{c4d}భుతం",
+				"ఇంద\u{c4d}రధనుస\u{c4d}సు",
+				"ఏడు రంగులు",
+				"క\u{c4d}యూర\u{c4d}",
+				"న\u{c47}చర\u{c4d}",
+				"ప\u{c4d}రకృత\u{c3f}",
+				"ర\u{c48}న\u{c4d}\u{200c}బ\u{c4b}",
+				"వ\u{c3e}త\u{c3e}వరణం",
+				"హర\u{c3f} వ\u{c3f}ల\u{c4d}లు",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("ҳилоли нав"),
-			keywords: &["калон шудани моҳ", "моҳ", "ҳилол", "ҳилоли нав"],
+			tts:      Some("тирукамон"),
+			keywords: &["борон", "тирукамон"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวข\u{e49}างข\u{e36}\u{e49}น"),
+			tts:      Some("ร\u{e38}\u{e49}ง"),
 			keywords: &[
-				"ข\u{e49}างข\u{e36}\u{e49}น",
-				"พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวข\u{e49}างข\u{e36}\u{e49}น",
+				"คนข\u{e49}ามเพศ",
+				"ธรรมชาต\u{e34}",
+				"ฝน",
+				"สภาพอากาศ",
+				"สายร\u{e38}\u{e49}ง",
+				"ส\u{e35}ส\u{e31}น",
+				"เกย\u{e4c}ไพรด\u{e4c}",
+				"แอลจ\u{e35}บ\u{e35}ท\u{e35}",
 			],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ዋክሲንግ ወርሓዊ ወርሒ"),
-			keywords: &["ሕልሚ", "ቦታ", "ወርሒ", "ወርሒ ፍርቂ ወርሒ", "ዋክሲንግ ምግባር"],
+			tts:      Some("ቀስተ ደበና"),
+			keywords: &[
+				"ሌዝቢያን",
+				"ልግብት",
+				"ቀስተ ደመና",
+				"ተፈጥሮ",
+				"ትምክሕቲ",
+				"ትራንስ",
+				"ትራንስጀንደር",
+				"አየር",
+				"ኲየር",
+				"ዝናብ ዝዘንብ",
+				"ጂኤልቢቲ",
+				"ጂኤልቢቲኪው",
+				"ጂኤልቢቲኪውአዬ",
+				"ግብረሰዶማውያን",
+				"ጾታዊ ርክብ ዝምልከት",
+			],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("ýaş aý"),
-			keywords: &["aý", "täze aý", "täze dogan", "ýaş aý"],
+			tts:      Some("älemgoşar"),
+			keywords: &["älemgoşar", "ýagyş"],
 		},
 		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("māhina ʻilo ʻehe maama"),
-			keywords: &["kalipa", "māhina", "māhina ʻilo ʻehe maama"],
-		},
+		crate::Annotation { lang: "to", tts: Some("ʻūmata"), keywords: &["ʻūmata"] },
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("büyüyen ay"),
-			keywords: &["ay", "büyüyen ay", "hilal", "yükselen"],
+			tts:      Some("gökkuşağı"),
+			keywords: &["biseksüel", "gay", "gökkuşağı", "hava durumu", "lezbiyen", "yağmur"],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("پۈتەر ئورغاق ئاي"),
-			keywords: &["ئاي", "ئورغاق", "پۈتەر"],
+			tts:      Some("ھەسەن-ھۈسەن"),
+			keywords: &["يامغۇر", "ھەسەن-ھۈسەن"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("місяць у першій чверті"),
+			tts:      Some("веселка"),
 			keywords: &[
-				"зростаючий",
-				"космос",
-				"молодий півмісяць",
-				"місяць",
-				"місяць у першій чверті",
+				"бісексуал",
+				"гей",
+				"гендер",
+				"глбт",
+				"дощ",
+				"квір",
+				"лгбт",
+				"лесбіянка",
 				"погода",
-				"півмісяць",
+				"природа",
+				"транс",
 			],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("بڑھتا ہوا ہلال چاند"),
+			tts:      Some("قوس قزاح"),
 			keywords: &[
-				"بڑھتا ہوا ہلال چاند",
-				"خواب",
-				"سپنے",
+				"بارش",
+				"دو جنسا",
+				"دھنک",
+				"رنگارنگ",
+				"فخر",
 				"قدرت",
-				"ماہ",
-				"ماہ تاب",
+				"قوس قزاح",
 				"موسم",
-				"چاند",
-				"ہلال",
+				"ہم جنس پرست",
 			],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("kattalashib boruvchi yarim oy"),
-			keywords: &[
-				"kattalashib boruvchi",
-				"kattalashib boruvchi yarim oy",
-				"koinot",
-				"ob-havo",
-				"oy",
-			],
+			tts:      Some("kamalak"),
+			keywords: &["kamalak", "ob-havo", "rang-barang", "ranglar", "yomg‘ir"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("trăng lưỡi liềm đầu tháng"),
-			keywords: &["lưỡi liềm", "mặt trăng", "tròn dần", "trăng lưỡi liềm đầu tháng"],
+			tts:      Some("cầu vồng"),
+			keywords: &[
+				"chuyển giới",
+				"cầu vồng",
+				"lưỡng tính",
+				"mưa",
+				"thời tiết",
+				"tự nhiên",
+				"đồng tính",
+			],
 		},
 		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("xaaju weer buy wàññiku"),
-			keywords: &["weer", "wàññiku", "xaaj", "xaaju weer buy wàññiku"],
-		},
+		crate::Annotation { lang: "wo", tts: Some("xon"), keywords: &["taw", "xon"] },
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("inyanga elicala efayo"),
-			keywords: &["efayo", "elicala", "inyanga"],
+			tts:      Some("umnyama"),
+			keywords: &["imvula", "umnyama"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Yíyọ\u{301} Ààbọ\u{300} Oṣùpá"),
-			keywords: &["Yíyọ\u{301} Ààbọ\u{300} Oṣùpá", "kírísẹ\u{301}ntì", "yíyọ\u{301}", "òṣùpá"],
+			lang: "yo", tts: Some("òṣùmarè"), keywords: &["òjò", "òṣùmarè"]
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Yíyɔ\u{301} Ààbɔ\u{300} Oshùpá"),
-			keywords: &["Yíyɔ\u{301} Ààbɔ\u{300} Oshùpá", "kírísɛ\u{301}ntì", "yíyɔ\u{301}", "òshùpá"],
+			tts:      Some("òshùmarè"),
+			keywords: &["òjò", "òshùmarè"],
 		},
 		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("娥眉月"),
-			keywords: &["娥眉月", "弦月", "月", "盈"],
-		},
+		crate::Annotation { lang: "yue", tts: Some("彩虹"), keywords: &["彩虹", "落雨"] },
 		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("娥眉月"),
-			keywords: &["娥眉月", "弦月", "月", "盈"],
-		},
+		crate::Annotation { lang: "yue_Hans", tts: Some("彩虹"), keywords: &["彩虹", "落雨"] },
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("蛾眉月"),
-			keywords: &["三日月", "娥眉月", "弯月", "月亮", "盈月", "眉月", "蛾眉月"],
+			tts:      Some("彩虹"),
+			keywords: &["LGBT", "双性恋", "同志", "彩虹", "跨性别"],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("眉形新月"),
-			keywords: &["彎月", "眉形新月"],
+			tts:      Some("彩虹"),
+			keywords: &["同性", "彩虹", "跨性別", "雙性"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
-			tts:      Some("娥眉月"),
-			keywords: &["太空", "娥眉月", "宇宙", "峨嵋月", "新月", "月亮", "月蝕"],
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"同性戀",
+				"天氣",
+				"女同性戀",
+				"彩虹",
+				"性別酷兒",
+				"男同性戀",
+				"跨性別",
+				"酷兒",
+				"雙性戀",
+				"驕傲",
+			],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("inyanga ewucezu olubheke emuva"),
-			keywords: &[
-				"inyanga",
-				"inyanga ewucezu olubheke emuva",
-				"isimo sezulu",
-				"ukubheka emuva",
-				"umkhathi",
-			],
+			tts:      Some("uthingo"),
+			keywords: &["imvula", "isimo sezulu", "uthingo"],
 		},
 	],
 };
-#[doc = "🌓"]
-pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
-	glyph:                "🌓",
-	codepoint:            &[127763u32],
+#[doc = "🪐"]
+pub const RINGED_PLANET: crate::Emoji = crate::Emoji {
+	glyph:                "🪐",
+	codepoint:            &[129680u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "first quarter moon",
+	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+	name:                 "ringed planet",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -1813,143 +1257,144 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("eerstekwartiermaan"),
-			keywords: &["eerste", "eerstekwartiermaan", "kwartier", "maan", "naglig", "ruimte", "weer"],
+			tts:      Some("planeet met ring om"),
+			keywords: &[
+				"Saturnus",
+				"geringde planeet",
+				"planeet met ring om",
+				"ruimte",
+				"ruimtevaart",
+				"saturnies",
+				"saturnus",
+			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("የመጀመሪያ ሩብ ጨረቃ"),
-			keywords: &["ህዋ", "ሩብ", "የመጀመሪያ ሩብ ጨረቃ", "የአየር ንብረት", "ግማሽ", "ጨረቃ"],
+			tts:      Some("ባለቀለበት ፕላኔት"),
+			keywords: &["ህዋ", "ህዋ ሳይንስ", "ሳተርን", "ቀለበት", "ባለቀለበት ፕላኔት", "የጨለመ", "ፕላኔት"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("تربيع أول"),
-			keywords: &["أول", "تربيع", "طبيعة", "طقس", "فضاء", "قمر"],
+			tts:      Some("كوكب داخل حلقة"),
+			keywords: &[
+				"أماكن",
+				"الفضاء",
+				"الفضاء الخارجي",
+				"زحل",
+				"فضائي",
+				"كواكب",
+				"كوكب داخل حلقة",
+				"كوكب زحل",
+			],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ চন\u{9cd}দ\u{9cd}ৰ"),
-			keywords: &[
-				"চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ",
-				"চন\u{9cd}দ\u{9cd}ৰ",
-				"প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ চন\u{9cd}দ\u{9cd}ৰ",
-			],
+			tts:      Some("শনি গ\u{9cd}ৰহ"),
+			keywords: &["অপ\u{9cd}ৰফ\u{9c1}ল\u{9cd}ল", "শনি গ\u{9cd}ৰহ", "শনিগ\u{9cd}ৰহ"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("ayın birinci dörrdə bir hissəsi"),
-			keywords: &["ay", "ayın birinci dörrdə bir hissəsi", "dörddə bir", "hava", "kosmos"],
+			tts:      Some("üzüklü planet"),
+			keywords: &["saturn", "üzüklü planet"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("першая чвэрць"),
-			keywords: &[
-				"квадра",
-				"космас",
-				"маладзік",
-				"месяц",
-				"ноч",
-				"палова",
-				"першая чвэрць",
-				"чвэрць",
-			],
+			tts:      Some("планета з кальцом"),
+			keywords: &["планета з кальцом", "сатурн"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("Луната в първа четвърт"),
-			keywords: &["Луната в първа четвърт", "време", "космос", "луна", "четвърт"],
+			tts:      Some("планета с пръстен"),
+			keywords: &["Сатурн", "планета с пръстен", "под влиянието на Сатурн", "под знака на Сатурн"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("চ\u{9be}\u{981}দের প\u{9cd}রথম চত\u{9c1}র\u{9cd}থ\u{9be}ংশ"),
+			tts:      Some("বলয\u{9bc}য\u{9c1}ক\u{9cd}ত গ\u{9cd}রহ"),
 			keywords: &[
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
-				"চ\u{9be}\u{981}দ",
-				"চ\u{9be}\u{981}দের প\u{9cd}রথম চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
+				"গম\u{9cd}ভীরস\u{9cd}বভ\u{9be}ব",
+				"গ\u{9cd}রহ",
+				"নক\u{9cd}ষত\u{9cd}র",
+				"বলয\u{9bc} বেষ\u{9cd}টিত",
+				"বলয\u{9bc}য\u{9c1}ক\u{9cd}ত গ\u{9cd}রহ",
 				"মহ\u{9be}ক\u{9be}শ",
+				"শনি",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("hanterloar ar cʼhresk"),
-			keywords: &["hanterloar", "hanterloar ar cʼhresk", "loar"],
+			tts:      Some("planedenn gant gwalennoù"),
+			keywords: &["Sadorn", "gwalenn", "planedenn", "planedenn gant gwalennoù"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("prva četvrtina"),
-			keywords: &["mjesec", "mjesečeve mijene", "prva četvrtina"],
+			tts:      Some("planeta s prstenom"),
+			keywords: &["planeta s prstenom", "pod uticajem saturna", "saturn"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("lluna en el primer quart creixent"),
-			keywords: &["creixent", "espai", "lluna", "lluna en el primer quart creixent", "quart"],
+			tts:      Some("planeta amb anell"),
+			keywords: &[
+				"planeta amb anell",
+				"planeta amb anells",
+				"saturn",
+				"saturniana",
+				"saturnià",
+				"saturní",
+			],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏘᏗ ᎧᎸᎢ"),
-			keywords: &["ᎩᏄᏘᏗ", "ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏗ ᎧᎸᎢ", "ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏘᏗ ᎧᎸᎢ"],
+			tts:      Some("ᎠᎵᏰᏑᏍᏔᏬ ᎡᎶᎯ"),
+			keywords: &["ᎠᎵᏰᏑᏍᏔᏬ ᎡᎶᎯ", "ᏌᏓᏂ", "ᏌᏓᏂ ᎢᏳᏍᏗ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("měsíc v první čtvrti"),
-			keywords: &[
-				"dorůstající",
-				"dorůstá",
-				"fáze měsíce",
-				"měsíc",
-				"měsíc v první čtvrti",
-				"noc",
-				"počasí",
-				"první čtvrť",
-				"půlměsíc",
-				"vesmír",
-				"čtvrť",
-			],
+			tts:      Some("planeta s prstencem"),
+			keywords: &["planeta", "planeta s prstencem", "prstenec", "saturn", "vesmír"],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("lleuad chwarter cyntaf"),
-			keywords: &["cilgant", "gofod", "lleuad", "lleuad chwarter cyntaf"],
+			tts:      Some("planed cylchog"),
+			keywords: &["planed", "planed cylchog", "sadwrn"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("halvmåne 1. fjerdedel"),
-			keywords: &["første kvarter måne", "halvmåne 1. fjerdedel", "måne", "månefase"],
+			tts:      Some("planet med ringe"),
+			keywords: &["Saturn", "planet", "planet med ringe"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("zunehmender Halbmond"),
-			keywords: &["Halbmond", "Mond", "Zunehmender Halbmond", "zunehmend", "zunehmender Halbmond"],
+			tts:      Some("Ringplanet"),
+			keywords: &["Gasplanet", "Himmelskörper", "Planet", "Ringplanet", "Saturn"],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("σελήνη πρώτου τετάρτου"),
-			keywords: &["διάστημα", "σελήνη", "σελήνη πρώτου τετάρτου", "τέταρτο", "φεγγάρι"],
+			tts:      Some("πλανήτης με δακτύλιο"),
+			keywords: &["Κρόνος", "πλανήτης", "πλανήτης με δακτύλιο", "σαρδόνιος"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("first quarter moon"),
-			keywords: &["first", "moon", "quarter", "space"],
+			tts:      Some("ringed planet"),
+			keywords: &["planet", "ringed", "saturn", "saturnine"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -1962,534 +1407,5340 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("luna en cuarto creciente"),
-			keywords: &["creciente", "cuarto", "espacio", "luna", "luna en cuarto creciente"],
+			tts:      Some("planeta con anillos"),
+			keywords: &["planeta con anillos", "saturnino", "saturno"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
 			tts:      Some("↑↑↑"),
-			keywords: &[
-				"clima",
-				"creciente",
-				"cuarto",
-				"espacio",
-				"luna",
-				"luna en cuarto creciente",
-				"noche",
-			],
+			keywords: &["planeta", "planeta con anillos", "saturnino", "saturno"],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"creciente",
-				"cuarto",
-				"espacio",
-				"fase lunar",
-				"luna",
-				"luna en cuarto creciente",
-			],
-		},
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["cuarto", "luna", "luna en cuarto creciente"],
-		},
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("kasvav poolkuu"),
-			keywords: &["ilm", "kasvav poolkuu", "kosmos", "kuu", "poolkuu"],
+			tts:      Some("rõngastega planeet"),
+			keywords: &["Saturn", "rõngastega planeet"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("ilgora-erdia"),
-			keywords: &["eguraldi", "espazio", "ilargi", "ilgora-erdia"],
+			tts:      Some("planeta eraztunduna"),
+			keywords: &["Saturno", "goibel", "planeta eraztunduna"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("یک\u{200c}چهارم نخست"),
-			keywords: &["آب\u{200c}وهوا", "اول", "تربیع", "فضا", "ماه", "نخست", "یک\u{200c}چهارم"],
+			tts:      Some("سیاره حلقه\u{200c}دار"),
+			keywords: &["دلگیر", "زحل", "سیاره", "سیاره حلقه\u{200c}دار"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("ensimmäinen neljänneskuu"),
-			keywords: &["ensimmäinen neljänneskuu", "kuu", "puolikuu", "sää", "taivaankappale"],
+			tts:      Some("rengasplaneetta"),
+			keywords: &["Saturnus", "rengasplaneetta"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("first quarter moon"),
-			keywords: &["buwan", "first quarter", "first quarter moon", "kalawakan", "quarter"],
+			tts:      Some("planetang may singsing"),
+			keywords: &["planet", "planetang may singsing", "saturn", "saturnine"],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("vaksandi hálvmáni"),
-			keywords: &["hálvmáni", "máni", "vaksandi"],
+			tts:      Some("gongustjørna við ringi"),
+			keywords: &["dapur", "gongustjørna", "gongustjørna við ringi", "saturn", "tunglyntur"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("premier quartier de lune"),
+			tts:      Some("planète à anneaux"),
+			keywords: &["anneaux", "planète à anneaux", "saturne", "saturnien", "saturnienne"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["planète à anneaux", "saturne", "saturnien", "saturnienne"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("pláinéad le fáinne"),
+			keywords: &["Satarn", "pláinéad le fáinne"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("planaid fhàinneach"),
 			keywords: &[
-				"espace",
-				"lune",
+				"Rionnag nan Roth",
+				"Sathairn",
+				"gruamach",
+				"planaid fhàinneach",
+				"satarn",
+				"saturn",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("planeta con aneis"),
+			keywords: &["Saturno", "aneis", "sistema solar"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફરત\u{ac7} રિ\u{a82}ગ ધરાવતો ગ\u{acd}રહ"),
+			keywords: &[
+				"અ\u{a82}તરિક\u{acd}ષ",
+				"ગ\u{acd}રહ",
+				"ફરત\u{ac7} રિ\u{a82}ગ ધરાવતો ગ\u{acd}રહ",
+				"શનિ",
+				"શનિ દ\u{ac7}વ",
+				"શનિદ\u{ac7}વ",
+				"શનિનો ગ\u{acd}રહ",
+				"સ\u{ac7}ટર\u{acd}ન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("duniya mai zobe"),
+			keywords: &["duniya mai zobe", "samaniya", "satun", "saturn", "saturnayin"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("duniya mai zobe"),
+			keywords: &["duniya mai zobe", "samaniya", "satun", "saturn", "saturnayin"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("כוכב לכת עם טבעות"),
+			keywords: &["כוכב לכת", "כוכב לכת עם טבעות", "כוכבים", "שבתאי"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("छल\u{94d}ल\u{947}दार ग\u{94d}रह"),
+			keywords: &["ग\u{94d}रह", "छल\u{94d}ल\u{947}दार", "शनि ग\u{94d}रह"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("planet s prstenom"),
+			keywords: &["Saturn", "planet s prstenom"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("gyűrűs bolygó"),
+			keywords: &["Szaturnusz", "bolygó", "gyűrűs bolygó", "szaturnusz"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("օղակներով մոլորակ"),
+			keywords: &["Երևակ", "Սատուրն", "օղակներով մոլորակ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("planet bercincin"),
+			keywords: &["planet bercincin", "saturnus"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("mbara ụwa nwere okirikiri"),
+			keywords: &["ringed planet", "saturn", "saturnine"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("pláneta með hringi"),
+			keywords: &["fálátur", "pláneta með hringi", "satúrnus"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("pianeta con satellite"),
+			keywords: &[
+				"Saturno",
+				"corpo celeste",
+				"pianeta con anelli",
+				"pianeta con satellite",
+				"satellite",
+				"spazio",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("環のある惑星"),
+			keywords: &["リング", "土星", "天体", "惑星", "星", "環のある惑星"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("planet anganggo ali-ali"),
+			keywords: &[
+				"planet anganggo ali-ali",
+				"saturnus",
+				"wong sing lairane ketiban sipating saturnus",
+			],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("პლანეტა სარტყელით"),
+			keywords: &["პლანეტა სარტყელით", "სატურნი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("сақинасы бар планета"),
+			keywords: &["Сатурн белгісінде туылған", "планета", "сатурн", "сақинасы бар планета"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ភពដែលមាន\u{200b}កងរង\u{17d2}វង\u{17cb}ជ\u{17bb}\u{17c6}វ\u{17b7}ញ"),
+			keywords: &[
+				"ភពដែលមាន\u{200b}កងរង\u{17d2}វង\u{17cb}ជ\u{17bb}\u{17c6}វ\u{17b7}ញ",
+				"ភពសៅរ\u{17cd}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ವರ\u{ccd}ತುಲವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ"),
+			keywords: &[
+				"ಉಂಗುರವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ",
+				"ಗ\u{ccd}ರಹ",
+				"ವರ\u{ccd}ತುಲವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ",
+				"ಶನ\u{cbf}ಗ\u{ccd}ರಹ",
+				"ಸ\u{ccc}ರಗ\u{ccd}ರಹ",
+				"ಸ\u{ccd}ಯಾಟರ\u{ccd}ನ\u{ccd}",
+				"ಸ\u{ccd}ಯಾಟ\u{ccd}ರನ\u{cc8}ನ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("고리가 있는 행성"),
+			keywords: &["고리가 있는 행성", "토성", "행성"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("वलय आसपी गिरो"),
+			keywords: &["वलय आसपी गिरो", "शनी", "शनीवलय"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("шакек менен курчалган планета"),
+			keywords: &["сатурн", "түнт", "шакек менен курчалган планета"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ວ\u{ebb}ງ\u{200b}ແຫວນ\u{200b}ດາວ\u{200b}ເຄາະ"),
+			keywords: &["ດາວ\u{200b}ເສ\u{ebb}າ", "ວ\u{ebb}ງ\u{200b}ແຫວນ\u{200b}ດາວ\u{200b}ເຄາະ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("planeta su žiedu"),
+			keywords: &["planeta", "planeta su žiedu", "saturnas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("gredzenota planēta"),
+			keywords: &["gredzenota planēta", "mīnijs", "saturns"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("планета со прстени"),
+			keywords: &["планета со прстени", "сатурн"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("വളയങ\u{d4d}ങള\u{d41}ള\u{d4d}ള ഗ\u{d4d}രഹം"),
+			keywords: &["വളയങ\u{d4d}ങള\u{d41}ള\u{d4d}ള ഗ\u{d4d}രഹം", "ശനി", "ശനിഗ\u{d4d}രഹം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("тойрог замтай гараг"),
+			keywords: &["санчир", "санчир гараг", "тойрог замтай гараг"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("वलया\u{902}कित ग\u{94d}रह"),
+			keywords: &[
+				"ग\u{94d}रह",
+				"वलया\u{902}कित ग\u{94d}रह",
+				"शनी",
+				"शनी प\u{94d}रभावा\u{902}तर\u{94d}गत",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("planet bergelang"),
+			keywords: &["Zuhal", "planet", "planet bergelang", "suram", "zuhal"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some(
+				"က\u{103d}င\u{103a}းပါရ\u{103e}\u{102d}သည\u{1037}\u{103a} ဂြ\u{102d}\u{102f}ဟ\u{103a}",
+			),
+			keywords: &[
+				"က\u{103d}င\u{103a}းပါရ\u{103e}\u{102d}သည\u{1037}\u{103a} ဂြ\u{102d}\u{102f}ဟ\u{103a}",
+				"စနေဂြ\u{102d}\u{102f}ဟ\u{103a}",
+				"သ\u{102f}န\u{103a}မ\u{103e}\u{102f}န\u{103a}သော",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("चक\u{94d}रल\u{947} घ\u{947}रिएको ग\u{943}ह"),
+			keywords: &["उदास", "चक\u{94d}रल\u{947} घ\u{947}रिएको ग\u{943}ह", "शनि"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("planeet met ringen"),
+			keywords: &[
+				"Saturnus",
+				"heelal",
+				"planeet",
+				"planeet met ringen",
+				"ringen",
+				"ruimte",
+				"zonnestelsel",
+				"zwaarmoedig",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("planet med ringar"),
+			keywords: &["planet med ringar", "saturn", "verdsrommet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ର\u{b3f}ଙ\u{b4d}ଗ ଗ\u{b4d}ରହ"),
+			keywords: &["ବ\u{b3f}ଷର\u{b4d}ଣ\u{b4d}ଣ", "ର\u{b3f}ଙ\u{b4d}ଗ ଗ\u{b4d}ରହ", "ଶନ\u{b3f}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਚ\u{a71}ਕਰਾਕਾਰ ਗ\u{a4d}ਰਹਿ"),
+			keywords: &[
+				"ਚ\u{a71}ਕਰਾਕਾਰ ਗ\u{a4d}ਰਹਿ",
+				"ਤਾਰਾ ਮ\u{a70}ਡਲ",
+				"ਰਿ\u{a70}ਗ",
+				"ਸ\u{a3c}ਨੀ",
+				"ਸ\u{a3c}ਨੀ ਗ\u{a4d}ਰਹਿ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Plánẹt Wé Ring-dẹm Sọraund"),
+			keywords: &[
+				"Plánẹt Wé Ring-dẹm Sọraund",
+				"Sátọn Sátọ\u{301}naín Fes",
+				"Síriọs Fes Wé De Vẹks",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("planeta z pierścieniami"),
+			keywords: &["pierścienie", "planeta", "planeta z pierścieniami", "saturn", "saturnowy"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("کړۍ داره سپوږمکۍ"),
+			keywords: &["زحل", "سيټورنين", "کړۍ داره سپوږمکۍ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("planeta com anéis"),
+			keywords: &["planeta", "planeta com anéis", "saturnino", "saturno"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("planeta anelado"),
+			keywords: &["planeta anelado", "planeta com anéis", "saturnino", "saturno"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("anillukunawan planeta"),
+			keywords: &["anillukunawan planeta", "saturnino", "saturno"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("planetă cu inele"),
+			keywords: &["planetă cu inele", "saturn", "saturnian", "spațiu"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E12–069"), keywords: &["E12–069"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("планета с кольцом"),
+			keywords: &["кольца", "кольцо", "космос", "планета", "планета с кольцом", "сатурн"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("رنگ وارو پلانيٽ"),
+			keywords: &["رنگ وارو پلانيٽ", "ساٽرن", "ساٽيورائن"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("වටක\u{dd4}ර\u{dd4} ග\u{dca}\u{200d}රහය\u{dcf}"),
+			keywords: &[
+				"නරච\u{dca}ඡ\u{dcf}ගය\u{dcf}",
+				"වටක\u{dd4}ර\u{dd4} ග\u{dca}\u{200d}රහය\u{dcf}",
+				"සෙනස\u{dd4}ර\u{dd4}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("planéta s prstencom"),
+			keywords: &["planéta", "planéta s prstencom", "prstenec", "saturn"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("planet z obročem"),
+			keywords: &["planet z obročem", "saturn", "saturnov obroč"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("meeraha gaaban"),
+			keywords: &["damman", "meeraha gaaban", "meeraha lixaad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("planet me unazë"),
+			keywords: &["Saturni", "planet", "planet me unazë", "unazë Saturni"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("планета са прстеном"),
+			keywords: &["планета", "прстен", "сатурн"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("planeta sa prstenom"),
+			keywords: &["planeta", "prsten", "saturn"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("planet med ringar"),
+			keywords: &["planet med ringar", "saturnine", "saturnus"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("sayari yenye duara"),
+			keywords: &["Dunia", "baridi", "sayari", "sayari yenye duara", "zohali"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("வளையம\u{bcd} உள\u{bcd}ள கோள\u{bcd}"),
+			keywords: &[
+				"கிரகம\u{bcd}",
+				"கோள\u{bcd}",
+				"சனி",
+				"வளையம\u{bcd}",
+				"வளையம\u{bcd} உள\u{bcd}ள கோள\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("చుట\u{c4d}టూ వలయం ఉన\u{c4d}న గ\u{c4d}రహం"),
+			keywords: &[
+				"చుట\u{c4d}టూ వలయం ఉన\u{c4d}న గ\u{c4d}రహం",
+				"చుట\u{c4d}టూ వలయం గల గ\u{c4d}రహం",
+				"న\u{c3f}రుత\u{c4d}స\u{c3e}హం",
+				"శన\u{c3f}గ\u{c4d}రహం",
+				"శ\u{c3e}టర\u{c4d}న\u{c4d}",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ดาวเคราะห\u{e4c}ท\u{e35}\u{e48}ม\u{e35}วงแหวน"),
+			keywords: &[
+				"ดาวเคราะห\u{e4c}ท\u{e35}\u{e48}ม\u{e35}วงแหวน",
+				"ดาวเสาร\u{e4c}",
+				"แซตเท\u{e34}ร\u{e4c}นนายน\u{e4c}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ቀለበት ዘለዎ ፕላኔት"),
+			keywords: &["ሳተርኒን ዝበሃል ፍረ እዩ።", "ሳተርን", "ቀለቤት ዝገበረ", "ፕላኔት"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("halkaly planeta"),
+			keywords: &["gamly", "halkaly planeta", "saturn"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("palanite mama"),
+			keywords: &["Sātuna", "palanite mama"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("halkalı gezegen"),
+			keywords: &["halkalı gezegen", "satürn"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("планета з кільцем"),
+			keywords: &["Сатурн", "планета з кільцем", "сатурн"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("حلقہ دار سیارہ"),
+			keywords: &[
+				"آسمان",
+				"آسمانی سیارے",
+				"حلقہ دار سیارہ",
+				"خلا",
+				"زحل",
+				"سیارہ",
+				"سیارہ زحل کے زیر اثر",
+				"فلکیات",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("halqali sayyora"),
+			keywords: &["halqali sayyora", "qoʻrgʻoshin", "saturn", "zuhal"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("hành tinh có vành đai bao quanh"),
+			keywords: &[
+				"Hành tinh",
+				"Thần Nông",
+				"Thổ tinh",
+				"hành tinh có vành đai bao quanh",
+				"sao Thổ",
+				"sao thổ",
+				"thần nông",
+				"thổ tinh",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("plánẹ\u{301}tì oiringì"),
+			keywords: &["plánẹ\u{301}tì oiringì", "sàtọ\u{301}nì"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("plánɛ\u{301}tì oiringì"),
+			keywords: &["plánɛ\u{301}tì oiringì", "sàtɔ\u{301}nì"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("環狀星球"),
+			keywords: &["土星", "環狀星球", "陰沉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("环状星球"),
+			keywords: &["土星", "环状星球", "阴沉"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("有环行星"),
+			keywords: &["土星", "有环行星", "行星"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("帶行星環的行星"),
+			keywords: &["土星", "土星環", "帶行星環的行星"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("有行星環的行星"),
+			keywords: &["土星", "土星環", "星球", "有行星環的行星", "環狀行星"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("iplanethi eringayo"),
+			keywords: &["i-saturine", "i-saturn", "iplanethi eringayo"],
+		},
+	],
+};
+#[doc = "☀\u{fe0f}"]
+pub const SUN: crate::Emoji = crate::Emoji {
+	glyph:                "☀\u{fe0f}",
+	codepoint:            &[9728u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "sun",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⭐\u{fe0f}"]
+pub const STAR: crate::Emoji = crate::Emoji {
+	glyph:                "⭐\u{fe0f}",
+	codepoint:            &[11088u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "star",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⚡\u{fe0f}"]
+pub const HIGH_VOLTAGE: crate::Emoji = crate::Emoji {
+	glyph:                "⚡\u{fe0f}",
+	codepoint:            &[9889u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "high voltage",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌤\u{fe0f}"]
+pub const SUN_BEHIND_SMALL_CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "🌤\u{fe0f}",
+	codepoint:            &[127780u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "sun behind small cloud",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌟"]
+pub const GLOWING_STAR: crate::Emoji = crate::Emoji {
+	glyph:                "🌟",
+	codepoint:            &[127775u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "glowing star",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("gloeiende ster"),
+			keywords: &[
+				"glans",
+				"glansend",
+				"gloei",
+				"gloeiende ster",
+				"nag",
+				"skitter",
+				"skitterend",
+				"skyn",
+				"ster",
+				"vonkel",
+				"wen",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ብልጭ ድርግም የሚል ኮከብ"),
+			keywords: &[
+				"ማሸነፍ",
+				"ማብራት",
+				"ማንጸባረቅ",
+				"ምሽት",
+				"ብልጭ ድርግም",
+				"ብልጭ ድርግም የሚል ኮከብ",
+				"አብለጭለጭ",
+				"ኮከብ",
+				"የሚያበራ ኮከብ",
+				"የሚያብረቀርቅ",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("نجم ساطع"),
+			keywords: &["إشراق", "ربح", "زهو", "سطوع", "لامع", "لمعان", "مساء", "نجم", "نجم ساطع"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("উজ\u{9cd}জ\u{9cd}বল তৰ\u{9be}"),
+			keywords: &["উজ\u{9cd}জ\u{9cd}বল", "জ\u{9be}কজমক", "তৰ\u{9be}"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("parıldayan ulduz"),
+			keywords: &["işıq", "parlaq", "parıldayan", "qığılcım", "ulduz"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("бліскучая зорка"),
+			keywords: &["бліскучая зорка", "бліскучы", "ззянне", "зорка", "іскра"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("блестяща звезда"),
+			keywords: &["блестящ", "блестяща звезда", "блясък", "звезда", "искрящ", "нощ"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("উজ\u{9cd}জ\u{9cd}বল ত\u{9be}র\u{9be}"),
+			keywords: &[
+				"উজ\u{9cd}জ\u{9cd}বল ত\u{9be}র\u{9be}",
+				"উদ\u{9cd}ভ\u{9be}স",
+				"উদ\u{9cd}ভ\u{9be}সিত",
+				"জ\u{9cd}বলজ\u{9cd}বলে",
+				"ঝকমক",
+				"ত\u{9be}র\u{9be}",
+				"দ\u{9cd}য\u{9c1}তি",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("steredenn skedus"),
+			keywords: &["steredenn", "steredenn skedus"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("sjajna zvijezda"),
+			keywords: &["blistavo", "sjajna zvijezda", "sjajno", "svemir", "zvijezda"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("estrella brillant"),
+			keywords: &[
+				"brillant",
+				"brillantor",
+				"brillar",
+				"centellejar",
+				"espurna",
+				"estrella",
+				"nit",
+				"victòria",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏥᏍᏓᎷᎩᏍᎩ ᏃᏈᏏ"),
+			keywords: &["ᎠᏔᏅᎩᎠ", "ᎠᏥᏍᏓᎷᎩᎠ", "ᎠᏥᏍᏓᎷᎩᏍᎩ", "ᎤᏥᏍᎳ", "ᎤᏥᏍᏓᎷᎩᏍᎩ ᏃᏈᏏ", "ᏃᏈᏏ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zářící hvězda"),
+			keywords: &[
+				"hvězda",
+				"hvězdička",
+				"jas",
+				"jiskra",
+				"noc",
+				"třpytit se",
+				"třpytivý",
+				"vyhrát",
+				"záře",
+				"zářící",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("seren yn tywynnu"),
+			keywords: &["disgleirio", "pelydru", "seren yn tywynnu", "tywynnu"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("blinkende stjerne"),
+			keywords: &["blinkende stjerne", "lysende stjerne", "lyser", "skinner", "stjerneskin"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("funkelnder Stern"),
+			keywords: &["Funkelnder Stern", "Stern", "funkeln", "funkelnder Stern", "glitzern"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("λαμπερό αστέρι"),
+			keywords: &[
+				"αστέρι",
+				"αστράφτω",
+				"αστραφτερό",
+				"γυαλιστερό",
+				"κερδίζω",
+				"λάμπω",
+				"λάμψη",
+				"λαμπερό",
+				"νικάω",
+				"νύχτα",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("glowing star"),
+			keywords: &["glittery", "glow", "glowing", "night", "shining", "sparkle", "star", "win"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("estrella brillante"),
+			keywords: &["brillante", "estrella", "resplandeciente"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["brillante", "brillar", "estrella", "estrella resplandeciente"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["brillante", "brillo", "centellar", "estrella"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("helendav täht"),
+			keywords: &["helendav", "sära", "täht"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("izar distiratsua"),
+			keywords: &["distira", "distiratsu", "izar", "izar distiratsua", "txinparta"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ستاره درخشان"),
+			keywords: &["جرقه", "درخشان", "ستاره", "فروزان"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("loistava tähti"),
+			keywords: &["loistava tähti", "loiste", "säihke", "tähti", "valo"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("kumikinang na bituin"),
+			keywords: &["bituin", "kumikinang", "kumikinang na bituin", "kumikislap"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("glógvandi stjørna"),
+			keywords: &["glógvandi stjørna", "stjørna"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("étoile brillante"),
+			keywords: &[
 				"nuit",
-				"premier quartier",
-				"premier quartier de lune",
-				"quartier",
+				"nuit étoilée",
+				"succès",
+				"éclat",
+				"étincelant",
+				"étincelle",
+				"étoile",
+				"étoile brillante",
 			],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
 			tts:      Some("↑↑↑"),
-			keywords: &["lune", "premier quartier"],
+			keywords: &["brillante", "étoile"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("céad cheathrú na gealí"),
-			keywords: &[
-				"ceathrú gealaí",
-				"céad cheathrú na gealí",
-				"gealach",
-				"gealach i mbéal ceathrún",
-				"spás",
-			],
+			tts:      Some("réalta ag lonrú"),
+			keywords: &["lonrú", "réalt", "réalta", "réalta ag lonrú"],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("solas ùr na gealaich"),
-			keywords: &["ceathramh", "gealach", "gealach sa chiad cheathramh", "solas ùr na gealaich"],
+			tts:      Some("rionnag dhealrach"),
+			keywords: &[
+				"boillsgeadh",
+				"dealrach",
+				"dealradh",
+				"priobadh reul",
+				"rionnag",
+				"rionnag dhealrach",
+			],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("lúa en cuarto crecente"),
-			keywords: &["crecente", "cuarto", "lúa", "lúa en cuarto crecente"],
+			tts:      Some("estrela brillante"),
+			keywords: &["brillante", "escintilante", "estrela"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("પ\u{acd}રથમ ત\u{acd}રિમાસીનો ચ\u{a82}દ\u{acd}ર"),
-			keywords: &[
-				"ચ\u{a82}દ\u{acd}ર",
-				"ત\u{acd}રિમાસી",
-				"પ\u{acd}રથમ ત\u{acd}રિમાસી ચ\u{a82}દ\u{acd}ર",
-				"પ\u{acd}રથમ ત\u{acd}રિમાસીનો ચ\u{a82}દ\u{acd}ર",
-			],
+			tts:      Some("ચમકતો તારો"),
+			keywords: &["ચમકતો", "ચમકદાર", "ચમકનાર", "ચળકવ\u{ac1}\u{a82}", "જીત", "તારો", "રાત\u{acd}રી"],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("wata na farkon kwata"),
-			keywords: &["kwata", "rabin wata", "samaniya", "wata", "wata na farkon kwata"],
+			tts:      Some("tauraro mai haske"),
+			keywords: &[
+				"haska",
+				"haske",
+				"mai ƙyalƙyali",
+				"nasara",
+				"taurari",
+				"tauraro",
+				"tauraro mai haske",
+				"tauraro mai ƙyalƙyali",
+				"yi ƙyalƙyali",
+			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("wata na farkon kwata"),
-			keywords: &["kwata", "rabin wata", "samaniya", "wata", "wata na farkon kwata"],
+			tts:      Some("tauraro mai haske"),
+			keywords: &[
+				"haska",
+				"haske",
+				"mai ƙyalƙyali",
+				"nasara",
+				"taurari",
+				"tauraro",
+				"tauraro mai haske",
+				"tauraro mai ƙyalƙyali",
+				"yi ƙyalƙyali",
+			],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("חצי ירח מתמלא"),
-			keywords: &["חצי ירח מתמלא", "ירח", "ירח רבעון ראשון", "רבעון", "שבוע ראשון"],
+			tts:      Some("כוכב זוהר"),
+			keywords: &["זוהר", "כוכב", "מנצנץ"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("क\u{943}ष\u{94d}ण पक\u{94d}ष अर\u{94d}धच\u{902}द\u{94d}र"),
-			keywords: &[
-				"क\u{943}ष\u{94d}ण पक\u{94d}ष अर\u{94d}धच\u{902}द\u{94d}र",
-				"चा\u{902}द",
-				"चौथाई",
-				"चौथाई माह",
-				"चौथाई माह का चा\u{902}द",
-			],
+			tts:      Some("चमकदार तारा"),
+			keywords: &["चमक", "चमकदार", "चमकीला", "तारा"],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("mjesec prve četvrti"),
-			keywords: &["mjesec", "mjesec prve četvrti", "prva četvrt", "svemir", "vrijeme"],
+			tts:      Some("zvijezda koja sjaji"),
+			keywords: &["iskre", "noć", "pobjeda", "sjaj", "zvijezda", "zvijezda koja sjaji"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("első negyedben lévő hold"),
-			keywords: &["első negyedben lévő hold", "hold", "holdfázisok", "negyed", "ég", "éjszaka"],
+			tts:      Some("fénylő csillag"),
+			keywords: &["csillag", "csillog", "csillogás", "fény", "fényes", "fénylő csillag", "éjszaka"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("լուսինն առաջին քառորդում"),
-			keywords: &["եղանակ", "լուսին", "լուսինն առաջին քառորդում", "տիեզերք", "քառորդ"],
+			tts:      Some("փայլող աստղ"),
+			keywords: &["աստղ", "կայծ", "շողացող", "փայլող աստղ"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("bulan perbani awal"),
-			keywords: &["antariksa", "bulan", "kuartal", "luar angkasa", "perbani", "pertama"],
+			tts:      Some("bintang bersinar"),
+			keywords: &["berkilau", "bersinar", "bintang", "cemerlang", "malam"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ọnwa mbụ nke mmalite-afọ"),
-			keywords: &["mbụ nke mmalite-afọ", "ọnwa", "ọnwa mbụ nke mmalite-afọ"],
+			tts:      Some("kpakpando na-amụke amụke"),
+			keywords: &[
+				"kpakpando",
+				"kpakpando na-amụke amụke",
+				"mmukesi",
+				"mmụke",
+				"mụrụmụrụ",
+				"nchapụta",
+			],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("fyrsta kvartil tungls"),
-			keywords: &["fyrsta kvartil tungls", "máni", "tungl", "vaxandi hálfmáni"],
+			tts:      Some("skínandi stjarna"),
+			keywords: &["skínandi", "stjarna"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("primo quarto di luna"),
-			keywords: &["luna", "natura", "notte", "primo quarto di luna", "quarto"],
+			tts:      Some("stella che brilla"),
+			keywords: &[
+				"brillante",
+				"evvai",
+				"felicità",
+				"festeggiare",
+				"natura",
+				"notte",
+				"scintillante",
+				"sorpresa",
+				"stella",
+				"stella che brilla",
+				"stella con scintille",
+				"stellina",
+			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("上弦の月"),
-			keywords: &["上弦", "上弦の月", "半月", "宇宙", "月"],
+			tts:      Some("きらきら星"),
+			keywords: &["きらきら", "きらきら星", "キラキラ", "スター", "星", "輝き"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("bulan separo"),
-			keywords: &["bulan", "separo"],
+			tts:      Some("lintang cemlorot"),
+			keywords: &["clorot", "kelip-kelip", "kerlip-kerlip", "lintang", "lintang cemlorot"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("მთვარის პირველი მეოთხედი"),
-			keywords: &["ამინდი", "კოსმოსი", "მეოთხედი", "მთვარე", "მთვარის პირველი მეოთხედი"],
+			tts:      Some("მბრწყინავი ვარსკვლავი"),
+			keywords: &["ბრწყინვა", "ვარსკვლავი", "კაშკაში", "მბრწყინავი ვარსკვლავი"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("айдың бірінші ширегі"),
-			keywords: &["ай", "айдың бірінші ширегі", "ауа райы", "ширек", "ғарыш"],
+			tts:      Some("жарқырап тұрған жұлдыз"),
+			keywords: &[
+				"жарқырап тұрған жұлдыз",
+				"жарқырау",
+				"жылтылдау",
+				"жылтырау",
+				"жұлдыз",
+				"сәуле шашу",
+			],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("halvmåne første kvarter"),
-			keywords: &["første kvarter måne", "halvmåne første kvarter", "måne", "månefase"],
+			tts:      Some("blinkende stjerne"),
+			keywords: &["blinkende stjerne", "lysende stjerne", "lyser", "skinner", "stjerneskin"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នបាន១ភាគ៤"),
+			tts:      Some("ផ\u{17d2}កាយបញ\u{17d2}ចេញពន\u{17d2}ល\u{17ba}"),
 			keywords: &[
-				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នបាន១ភាគ៤",
-				"ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទ",
+				"តារា",
+				"ផ\u{17d2}កាយ",
+				"ផ\u{17d2}កាយបញ\u{17d2}ចេញពន\u{17d2}ល\u{17ba}",
+				"ពន\u{17d2}ល\u{17ba}",
 			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ"),
+			tts:      Some("ಮ\u{cbf}ಣುಗುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ"),
 			keywords: &[
-				"ಆಕಾಶ",
-				"ಕಾಲುಭಾಗ",
-				"ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ",
-				"ಚಂದ\u{ccd}ರ",
-				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
-				"ತದ\u{cbf}ಗ\u{cc6}ಚಂದ\u{ccd}ರ",
-				"ಪಕ\u{ccd}ಷ",
-				"ಪಾಡ\u{ccd}ಯದ ಚಂದ\u{ccd}ರ",
-				"ಬಾಲಚಂದ\u{ccd}ರ",
-				"ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ. ಚಂದ\u{ccd}ರ",
+				"ಗ\u{cc6}ಲುವು",
+				"ನಕ\u{ccd}ಷತ\u{ccd}ರ",
+				"ಪ\u{ccd}ರಕಾಶ",
+				"ಮ\u{cbf}ಂಚ\u{cbf}ನ",
+				"ಮ\u{cbf}ಣುಗುವ",
+				"ಮ\u{cbf}ನುಗುವ",
+				"ರಾತ\u{ccd}ರ\u{cbf}",
+				"ಹ\u{cca}ಳ\u{cc6}ಯುವ",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("오른쪽 반달"),
-			keywords: &["달", "반달", "상현 반달", "오른쪽 반달", "우주"],
+			tts:      Some("반짝이는 별"),
+			keywords: &[
+				"눈부시는",
+				"반짝거리는",
+				"반짝반짝",
+				"반짝이는 별",
+				"반짝이다",
+				"반짝임",
+				"밤",
+				"별",
+				"빛나는",
+				"승리",
+			],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some(
-				"उमाश\u{947}उपरा\u{902}तच\u{94d}या प\u{902}द\u{94d}रशीच\u{947}\u{902} पयल\u{947} चार दिस",
-			),
+			tts:      Some("मिणमिणपी नख\u{947}त\u{94d}र"),
 			keywords: &[
-				"उमाश\u{947}उपरा\u{902}तची प\u{902}दरस",
-				"उमाश\u{947}उपरा\u{902}तच\u{94d}या प\u{902}द\u{94d}रशीच\u{947}\u{902} पयल\u{947} चार दिस",
-				"च\u{902}द\u{94d}र",
-				"पयल\u{947} चार दिस",
+				"चकचक",
+				"चकचकीत",
+				"झगमग",
+				"झगमगता",
+				"झगमगपी नख\u{947}त\u{94d}र",
+				"नख\u{947}त\u{94d}र",
+				"मिणमिणपी नख\u{947}त\u{94d}र",
 			],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("жартысы толгон ай"),
-			keywords: &["ай", "жартысы толгон ай", "жарым", "космос"],
+			tts:      Some("жаркыраган жылдыз"),
+			keywords: &["жалтылдаган", "жаркыраган жылдыз", "жылдыз", "жылтылдаган"],
 		},
 		#[cfg(feature = "lb")]
 		crate::Annotation {
 			lang:     "lb",
-			tts:      Some("zouhuelenden Hallefmound"),
-			keywords: &["Hallef", "Mound", "Véierel", "zouhuelenden Hallefmound"],
+			tts:      Some("liichtende Stär"),
+			keywords: &["Stär", "blénkeg", "blénken", "glënnerend", "liichtend", "liichtende Stär"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ເດ\u{eb7}ອນອອກໃໝ\u{ec8}ເຄ\u{eb4}\u{ec8}ງດວງ"),
-			keywords: &[
-				"ເຄ\u{eb4}\u{ec8}ງດວງ",
-				"ເດ\u{eb7}ອນອອກໃໝ\u{ec8}",
-				"ເດ\u{eb7}ອນອອກໃໝ\u{ec8}ເຄ\u{eb4}\u{ec8}ງດວງ",
-			],
+			tts:      Some("ດາວເປ\u{eb1}\u{ec8}ງປະກາຍ"),
+			keywords: &["ດາວ", "ດາວເປ\u{eb1}\u{ec8}ງປະກາຍ", "ເປ\u{eb1}\u{ec8}ງປະກາຍ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("pirmas fazės ketvirtis"),
-			keywords: &[
-				"ketvirtis",
-				"kosmosas",
-				"mėnulis",
-				"pirmas fazės ketvirtis",
-				"pirmoji mėnulio fazė",
-			],
+			tts:      Some("žėrinti žvaigždė"),
+			keywords: &["kibirkštis", "šviesti", "žvaigždė", "žėrinti", "žėrėti"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("augošs pusmēness"),
-			keywords: &["augošs", "mēness", "pusmēness"],
+			tts:      Some("spīdoša zvaigzne"),
+			keywords: &[
+				"mirdzoša zvaigzne",
+				"mirdzums",
+				"mirdzēt",
+				"nakts",
+				"spīdoša zvaigzne",
+				"spīdēt",
+				"uzvara",
+				"zvaigzne",
+			],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("marama ahotū"),
-			keywords: &["hauwhā", "marama", "marama ahotū"],
+			tts:      Some("whetū mumura"),
+			keywords: &["hana", "korakora", "tīaho", "wheriko", "whetū", "whetū mumura"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("прва четвртина"),
+			tts:      Some("светлечка ѕвезда"),
 			keywords: &[
-				"време",
-				"вселена",
-				"месечина",
-				"прва",
-				"прва четвртина на месечина",
-				"четвртина",
+				"блеска",
+				"блескава ѕвезда",
+				"победа",
+				"свети",
+				"светка",
+				"светлечка ѕвезда",
+				"сјае",
+				"сјај",
+				"ѕвезда",
 			],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി"),
+			tts:      Some("തിളങ\u{d4d}ങ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം"),
 			keywords: &[
-				"അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി",
-				"അർദ\u{d4d}ധചന\u{d4d}ദ\u{d4d}രൻ",
-				"ചന\u{d4d}ദ\u{d4d}രൻ",
+				"ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}",
+				"തിളക\u{d4d}കം",
+				"തിളങ\u{d4d}ങ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
+				"നക\u{d4d}ഷത\u{d4d}രം",
+				"മിന\u{d4d}ന\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("эхний улирлын сар"),
-			keywords: &["сар", "улирал", "эхний улирлын сар", "эхнийх"],
+			tts:      Some("гялалзаж буй од"),
+			keywords: &["гялалзаж буй од", "гялалзах", "од", "тэнгэр"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("श\u{941}क\u{94d}ल पक\u{94d}षातील च\u{902}द\u{94d}र"),
+			tts:      Some("चमकणारा तारा"),
+			keywords: &["चमक", "चमकणारा", "चमकता तारा", "चमकदार", "चमचमता", "तारा"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("bintang bersinar"),
+			keywords: &["bercahaya", "berkilau", "berkilauan", "bersinar", "bintang"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("stilla tiddi"),
+			keywords: &["jiddi", "stilla", "tiddi", "tlellex", "tleqq"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("တောက\u{103a}ပသည\u{1037}\u{103a} ကြယ\u{103a}"),
 			keywords: &[
-				"च\u{902}द\u{94d}र",
-				"चत\u{941}र\u{94d}थी",
-				"चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
-				"चा\u{902}दोबा",
-				"श\u{941}क\u{94d}ल पक\u{94d}षातील च\u{902}द\u{94d}र",
+				"ကြယ\u{103a}",
+				"တောက\u{103a}ပ",
+				"တောက\u{103a}ပသည\u{1037}\u{103a} ကြယ\u{103a}",
+				"လက\u{103a}",
+				"ဝင\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("चम\u{94d}किरह\u{947}को तारा"),
+			keywords: &[
+				"उज\u{94d}यालो",
+				"ग\u{94d}लिटरिङ\u{94d}",
+				"चम\u{94d}किरह\u{947}को तारा",
+				"चम\u{94d}क\u{947}को",
+				"चम\u{94d}मिकरह\u{947}को",
+				"तारा",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("stralende ster"),
+			keywords: &[
+				"fonkelen",
+				"fonkelend",
+				"schitteren",
+				"schitterend",
+				"schittering",
+				"ster",
+				"stralen",
+				"stralende ster",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("lysande stjerne"),
+			keywords: &["glitrande", "lysande stjerne", "skinande", "stjerne", "verdsrommet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଉଜ\u{b4d}ଜ\u{b4d}ୱଳ ତ\u{b3e}ର\u{b3e}"),
+			keywords: &[
+				"ଉଜ\u{b4d}ଜ\u{b4d}ୱଳ ତ\u{b3e}ର\u{b3e}",
+				"ଚମକ",
+				"ଚମକ\u{b41}ଥ\u{b3f}ବ\u{b3e}",
+				"ତ\u{b3e}ର\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਜਗਮਗਾਉ\u{a02}ਦਾ ਤਾਰਾ"),
+			keywords: &[
+				"ਚਮਕ",
+				"ਚਮਕਦਾ",
+				"ਜਗਮਗਉ\u{a02}ਦਾ ਤਾਰਾ",
+				"ਜਗਮਗਾਉ\u{a02}ਦਾ ਤਾਰਾ",
+				"ਜਿ\u{a71}ਤ",
+				"ਝਿਲਮਿਲਾਉ\u{a02}ਦਾ",
+				"ਟਿਮਟਿਮਾਉਦਾ ਤਾਰਾ",
+				"ਤਾਰਾ",
+				"ਦਮਕਦਾ",
+				"ਸਟਾਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("روشن ستارہ"),
+			keywords: &["تارہ", "جگ مگ کرنا", "درخشاں", "روشن ستارہ", "لہکنا", "چمکدا ہوئیا"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Shaínín Sta"),
+			keywords: &["Shain", "Shaínín Sta", "Spákul", "Sta", "To Shaín Wẹ\u{301}l Wẹl"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("błyszcząca gwiazda"),
+			keywords: &["błyszcząca", "gwiazda", "gwiazdka", "lśniąca", "świecąca gwiazdka"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("پړقېدونکی ستوری"),
+			keywords: &["ستوری", "پړقېدونکی", "ځلا", "ځلېدونکی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("estrela brilhante"),
+			keywords: &["brilhante", "brilho", "cintilante", "estrela", "luminosa", "reluzente"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["brilhante", "brilho", "cintilante", "estrela"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("lliphisqa quyllur"),
+			keywords: &["k’anchay", "k’anchaynin", "lliphisqa", "quyllur"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("stea strălucitoare"),
+			keywords: &[
+				"noapte",
+				"sclipici",
+				"sclipicios",
+				"sclipitor",
+				"stea",
+				"stea strălucitoare",
+				"strălucire",
+				"victorie",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-230"), keywords: &["E10-230"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("сияющая звезда"),
+			keywords: &["звезда", "свет", "сияние", "сияющая звезда"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("inyenyeri ishashagirana"),
+			keywords: &[
+				"cyaka",
+				"gishashagirana",
+				"inyenyeri",
+				"inyenyeri ishashagirana",
+				"kirabagirana",
+				"kubengerana",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("چمڪندڙ تارو"),
+			keywords: &["تارو", "ٽمڪندڙ", "چمڪ", "چمڪندڙ", "چمڪيلو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ද\u{dd2}ලෙන තර\u{dd4}ව"),
+			keywords: &[
+				"තර\u{dd4}ව",
+				"ද\u{dd2}ද\u{dd4}ලන",
+				"ද\u{dd2}ලෙන තර\u{dd4}ව",
+				"ද\u{dd2}ළ\u{dd2}ස\u{dd3}ම",
+				"ද\u{dd2}ළ\u{dd2}සෙන",
+				"බැබළ\u{dd3}ම",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("žiariaca hviezda"),
+			keywords: &[
+				"hviezda",
+				"jas",
+				"noc",
+				"nočná",
+				"príroda",
+				"trblietajúca sa hviezda",
+				"trblietajúce sa",
+				"trblietanie",
+				"trblietať",
+				"záblesk",
+				"žiariaca hviezda",
+				"žiariť",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("žareča zvezda"),
+			keywords: &["bleščeče", "lesketanje", "sijanje", "zvezda", "žar", "žareča zvezda"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("xiddig kaahaya"),
+			keywords: &["dhalaalaya", "ifid", "kaah", "quruxsan", "xiddig", "xiddig kaahaya"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("yll që shkëlqen"),
+			keywords: &["i ndritshëm", "shkëlqim", "xixëllimë", "yll", "yll që shkëlqen"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("звезда која светли"),
+			keywords: &["звeздa", "искре", "ноћ", "сјај"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("звијезда која свијетли"),
+			keywords: &["блиставо", "звијездa", "звијезда која свијетли", "искрe", "сjaj", "сјајно"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zvezda koja svetli"),
+			keywords: &["iskre", "noć", "sjaj", "zvezda"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("zvijezda koja svijetli"),
+			keywords: &["blistavo", "iskre", "sjaj", "sjajno", "zvijezda", "zvijezda koja svijetli"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("blänkande stjärna"),
+			keywords: &["blänkande", "glittrande", "glänsande", "gnistrande", "natt", "seger", "stjärna"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("nyota inayong’aa"),
+			keywords: &["kumetameta", "kung’ara", "metameta", "ng’aa", "nyota", "nyota inayong’aa"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஒளி வ\u{bc0}சும\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}"),
+			keywords: &[
+				"ஒளி வ\u{bc0}சும\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+				"திறமை",
+				"நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మ\u{c46}ర\u{c3f}స\u{c47} నక\u{c4d}షత\u{c4d}రం"),
+			keywords: &[
+				"గ\u{c46}లుపు చ\u{c3f}హ\u{c4d}నం",
+				"గ\u{c4d}ల\u{c3f}టర\u{c3f}",
+				"గ\u{c4d}ల\u{c4b}",
+				"నక\u{c4d}షత\u{c4d}రం",
+				"మ\u{c46}రవడం",
+				"మ\u{c46}ర\u{c3f}స\u{c47}",
+				"మ\u{c46}రుస\u{c4d}తున\u{c4d}న నక\u{c4d}షత\u{c4d}రం",
+				"ర\u{c3e}త\u{c4d}ర\u{c3f}",
+				"వ\u{c3f}జయం",
+				"వ\u{c46}లుగు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ситораи дурахшон"),
+			keywords: &[
+				"дурахшидан",
+				"дурахшон",
+				"пурҷило",
+				"ситора",
+				"ситораи дурахшон",
+				"ялаққос задан",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ดาวส\u{e48}องแสง"),
+			keywords: &["ดาว", "ดาวส\u{e48}องแสง", "ประกาย", "ระย\u{e34}บระย\u{e31}บ", "แสง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዝበርህ ኮኾብ"),
+			keywords: &["ለይቲ", "ብልጭ ዝብል", "ብልጭታ", "ብርሃን ዝህብ", "ኮኾብ", "ዓወት", "ዝበርህ", "ዝደምቕ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("lowurdaýan ýyldyz"),
+			keywords: &["lowurdaýan ýyldyz", "lowurdy", "parlaýan", "uçgun", "ýalpyldawuk", "ýyldyz"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("fetuʻu ngingila"),
+			keywords: &["fetuʻu", "ngingila"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("parıldayan yıldız"),
+			keywords: &[
+				"dilek",
+				"dilek yıldızı",
+				"kutup yıldızı",
+				"kıvılcım",
+				"parlak",
+				"parlayan yıldız",
+				"parıldama",
+				"parıldayan yıldız",
+				"pırıltı",
+				"yıldız",
+			],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("چاقنار يۇلتۇز"),
+			keywords: &["يارقىن", "يالقۇن", "يورۇق", "يۇلتۇز", "چاقنار يۇلتۇز", "چاقناش"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сяйна зірка"),
+			keywords: &["блискучий", "зірка", "світиться", "світло", "сяйна зірка", "сяє", "іскра"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("چمکتا ستارہ"),
+			keywords: &[
+				"جیت",
+				"رات",
+				"روشن ستارہ",
+				"ستارہ",
+				"شب",
+				"فطح",
+				"قدرت",
+				"نجم",
+				"نجمہ",
+				"نور",
+				"چمک",
+				"چمکتا",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("porlayotgan yulduz"),
+			keywords: &["charaqlash", "porlash", "porlayotgan", "porloq", "tun", "yulduz"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("ngôi sao lấp lánh"),
+			keywords: &["chiếu sáng", "lấp lánh", "ngôi sao", "ngôi sao lấp lánh", "phát sáng"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("biddeew tàkk"),
+			keywords: &["biddeew", "leeraay", "tàkk", "yànj", "yànjaay"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inkwenkwezi ekhanyayo"),
+			keywords: &["bengezela", "ekhanyayo", "ekhazimlayo", "emenyezelayo", "inkwenkwezi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Irawọ Titan"),
+			keywords: &["Irawọ Titan", "dán", "dídán", "tàn", "ìràwọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Irawɔ Titan"),
+			keywords: &["Irawɔ Titan", "dán", "dídán", "tàn", "ìràwɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("發光嘅星星"),
+			keywords: &["星星", "發光", "發光嘅星星", "閃", "閃耀", "閃閃發光"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("发光嘅星星"),
+			keywords: &["发光", "发光嘅星星", "星星", "闪", "闪耀", "闪闪发光"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("闪亮的星星"),
+			keywords: &["发光", "星星", "闪亮", "闪亮的星星", "闪光"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("閃爍的星星"),
+			keywords: &["星星", "閃爍的星星"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("閃亮嘅星星"),
+			keywords: &["勝利", "夜晚", "星星", "發光", "閃亮", "閃亮嘅星星", "閃耀", "閃閃發光"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inkanyezi ebhanyazayo"),
+			keywords: &["inkanyezi", "inkanyezi ebhanyazayo", "ukubhayaza"],
+		},
+	],
+};
+#[doc = "🔥"]
+pub const FIRE: crate::Emoji = crate::Emoji {
+	glyph:                "🔥",
+	codepoint:            &[128293u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "fire",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("vuur"),
+			keywords: &["brand", "hulpmiddel", "verlig", "vlam", "vuur", "warm"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("እሳት"),
+			keywords: &["መለኮስ", "መሣሪያ", "ቃጠሎ", "ነበልባል", "እሳት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("حريق"),
+			keywords: &["تاجج", "حريق", "ساخن", "شوب", "لهب", "نار", "يحرق"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("অগ\u{9cd}নি"),
+			keywords: &["অগ\u{9cd}নি", "শিখ\u{9be}", "স\u{981}জ\u{9c1}লি"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("alov"),
+			keywords: &["alov", "alət", "atəş", "isti", "yanmaq"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("агонь"),
+			keywords: &["агонь", "полымя", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("огън"),
+			keywords: &["горещо", "запален", "огън", "пламък"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("আগ\u{9c1}ন"),
+			keywords: &["আগ\u{9c1}ন", "গরম", "শিখ\u{9be}", "সরঞ\u{9cd}জ\u{9be}ম"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation { lang: "br", tts: Some("tan"), keywords: &["flammenn", "tan"] },
+		#[cfg(feature = "bs")]
+		crate::Annotation { lang: "bs", tts: Some("vatra"), keywords: &["plamen", "vatra"] },
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("foc"),
+			keywords: &[
+				"calent", "calenta", "cremar", "eina", "encesa", "encès", "flama", "foc", "genial",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏥᎳ"),
+			keywords: &["ᎠᏓᏪᎳᎩᎲᎢ", "ᎠᏥᎳ", "ᎬᏔᏂᏓᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("oheň"),
+			keywords: &[
+				"horký",
+				"hořet",
+				"hranice",
+				"nástroj",
+				"oheň",
+				"ohniště",
+				"plamen",
+				"plameny",
+				"plamínek",
+				"požár",
+				"pálit",
+				"vzplanout",
+				"zapálit",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("tân"),
+			keywords: &["fflam", "offer", "tân"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ild"),
+			keywords: &["flamme", "ild", "varm"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Feuer"),
+			keywords: &["Feuer", "Flamme", "brennen", "heiß"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("↑↑↑"),
+			keywords: &["Feuer", "Flamme", "heiss"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("φωτιά"),
+			keywords: &["εργαλείο", "φλόγα", "φωτιά"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("fire"),
+			keywords: &["af", "burn", "fire", "flame", "hot", "lit", "litaf", "tool"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation { lang: "es", tts: Some("fuego"), keywords: &["fuego", "llama"] },
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["arder", "caliente", "fuego", "llama"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["fuego", "herramienta", "llama"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("tuli"), keywords: &["leek", "tuli"] },
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("sua"),
+			keywords: &["sua", "sugar", "tresna"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("آتش"),
+			keywords: &["آتش", "ابزار", "شعله"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("tuli"),
+			keywords: &["liekki", "lieska", "nuotio", "tuli"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("apoy"),
+			keywords: &["apoy", "baga", "hot", "init", "mainit"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("eldur"),
+			keywords: &["bál", "eldsbruni", "eldur", "logi"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("feu"),
+			keywords: &["allumer", "brûler", "chaud", "feu", "flamme", "fournaise", "incendie"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["feu", "flamme", "outil"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("tine"),
+			keywords: &["dóiteán", "lasair", "lasracha", "te", "tine", "trí thine", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("teine"),
+			keywords: &["acainn", "lasair", "teine"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lume"),
+			keywords: &["fogo", "incendio", "lapas", "lume"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("અગ\u{acd}નિ"),
+			keywords: &[
+				"અગ\u{acd}નિ",
+				"આગ",
+				"જ\u{acd}યોત",
+				"જ\u{acd}વાલા",
+				"ઝાલ",
+				"દરમ",
+				"દાઝવ\u{ac1}\u{a82}",
+				"ભડકા",
+				"સાધન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("wuta"),
+			keywords: &["cin wuta", "harshen wuta", "kama wuta", "kayan aiki", "wuta", "zafi", "ƙuna"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("wuta"),
+			keywords: &["cin wuta", "harshen wuta", "kama wuta", "kayan aiki", "wuta", "zafi", "ƙuna"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אש"),
+			keywords: &["אש", "דליקה", "להבה", "שלהבת", "שריפה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("आग"),
+			keywords: &["अग\u{94d}नि", "आग", "लपट"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("vatra"),
+			keywords: &["alat", "plamen", "požar", "vatra"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("tűz"),
+			keywords: &[
+				"felgyullad",
+				"forró",
+				"gyullad",
+				"gyúlékony",
+				"láng",
+				"meleg",
+				"perzsel",
+				"tűz",
+				"ég",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("կրակ"),
+			keywords: &["բոց", "գործիք", "կրակ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("api"),
+			keywords: &["alat", "api", "bakar", "kobaran", "panas"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọkụ"),
+			keywords: &["af", "gbaa", "ire ọkụ", "litaf", "na-ekpo ọkụ", "ngwá ọrụ", "ọkụ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation { lang: "is", tts: Some("eldur"), keywords: &["eldur", "logi"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("fuoco"),
+			keywords: &[
+				"bruciare",
+				"caldo",
+				"calore",
+				"esplosione",
+				"falò",
+				"fiamma",
+				"fiamme",
+				"fuoco",
+				"inferno",
+				"passione",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("火"),
+			keywords: &["ファイアー", "ファイヤー", "火", "炎", "熱い", "燃える"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("geni"),
+			keywords: &["bekakas", "geni", "mbulating geni"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ცეცხლი"),
+			keywords: &["ალი", "ინსტრუმენტი", "ცეცხლი", "ხელსაწყო"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("times"), keywords: &["times"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("өрт"),
+			keywords: &["жалын", "құрал", "өрт"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation { lang: "kl", tts: Some("ild"), keywords: &["flamme", "ild"] },
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ភ\u{17d2}លើង"),
+			keywords: &["ភ\u{17d2}លើង", "អគ\u{17d2}គ\u{17b8}"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cc6}ಂಕ\u{cbf}"),
+			keywords: &[
+				"ಉರ\u{cbf}",
+				"ಜ\u{ccd}ವಾಲ\u{cc6}",
+				"ಬ\u{cbf}ಸ\u{cbf}",
+				"ಬ\u{cc6}ಂಕ\u{cbf}",
+				"ಲ\u{cbf}ಟ\u{ccd} ಎಎಫ\u{ccd} ಸ\u{ccd}ಟ\u{cbf}ಕ\u{ccd}ಕರ\u{ccd}",
+				"ಸಾಧನ",
+				"ಹ\u{cca}ತ\u{ccd}ತ\u{cbf}ಸು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("불"),
+			keywords: &["도구", "뜨거운", "불", "불꽃", "화끈한", "화재"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उजो"),
+			keywords: &["उजो", "ज\u{94d}योत", "साधन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang: "ky", tts: Some("от"), keywords: &["жалын", "курал", "от"]
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Feier"),
+			keywords: &["Feier", "Flam", "Handwierksgeschir"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation { lang: "lo", tts: Some("ໄຟ"), keywords: &["ແປວໄຟ", "ໄຟ"] },
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("ugnis"),
+			keywords: &["karšta", "liepsna", "ugnis", "įrankis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("uguns"),
+			keywords: &["degt", "liesma", "uguns"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("ahi"),
+			keywords: &["ahi", "mura", "utauta"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("оган"),
+			keywords: &["алатка", "гори", "запалено", "оган", "пламен", "пожар", "топло"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("തീ"),
+			keywords: &[
+				"അഗ\u{d4d}നി",
+				"അഗ\u{d4d}നിബ\u{d3e}ധ",
+				"ജ\u{d4d}വ\u{d3e}ല",
+				"തീ",
+				"തീപിട\u{d41}ത\u{d4d}തം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang: "mn", tts: Some("гал"), keywords: &["гал", "гал хэрэгсэл"]
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("अग\u{94d}नी"),
+			keywords: &["अग\u{94d}नी", "आग", "ज\u{94d}वाला", "साधन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("api"),
+			keywords: &["af", "alat", "kebakaran", "litaf", "menyala", "nyala api", "panas", "terbakar"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("nar"),
+			keywords: &["fjamma", "għodda", "nar"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မ\u{102e}း"),
+			keywords: &[
+				"တန\u{103a}ဆာပလာ",
+				"တ\u{1030}းလ\u{103a}",
+				"မ\u{102e}း",
+				"မ\u{102e}းလျ\u{103e}\u{1036}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("आगो"),
+			keywords: &["आगो", "ज\u{94d}वाला", "साधन"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("vuur"),
+			keywords: &["brand", "heet", "hulpmiddel", "vlam", "vuur"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("eld"), keywords: &["eld", "flamme"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ନ\u{b3f}ଆ\u{b01}"),
+			keywords: &["ଝ\u{b3e}ସ", "ନ\u{b3f}ଆ\u{b01}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਅ\u{a71}ਗ"),
+			keywords: &["ਅ\u{a71}ਗ", "ਔਜ\u{a3c}ਾਰ", "ਲਾਟ", "ਸਾੜਨਾ", "ਸ\u{a70}ਦ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("اگ"),
+			keywords: &["اوزار", "اگ", "شعلہ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation { lang: "pcm", tts: Some("Fáya"), keywords: &["Fáya"] },
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("ogień"),
+			keywords: &["ogień", "pożar", "płomień"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("اور"), keywords: &["اله", "اور", "لمبه"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation { lang: "pt", tts: Some("fogo"), keywords: &["chama", "fogo"] },
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["chama", "fogo", "incêndio"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation { lang: "qu", tts: Some("nina"), keywords: &["llamkana", "nina"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("foc"),
+			keywords: &["arde", "arsură", "căldură", "fierbinte", "flacără", "flamă", "foc", "lumină"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-737"), keywords: &["E10-737"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("огонь"),
+			keywords: &["костер", "огонь", "очаг", "пламя"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umuriro"),
+			keywords: &["igikoresho", "umuriro", "urumuri"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang: "sd", tts: Some("باھ"), keywords: &["اوزار", "باھ", "لاٽ"]
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ග\u{dd2}න\u{dca}න"),
+			keywords: &["ග\u{dd2}න\u{dca}න", "ග\u{dd2}න\u{dd2} දැල\u{dca}ල", "මෙවලම"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("oheň"),
+			keywords: &["horenie", "horúci", "oheň", "plameň", "požiar", "prostriedok", "teplo"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("ogenj"),
+			keywords: &["ogenj", "orodje", "plamen", "vroče", "vročina"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dab"),
+			keywords: &["dab", "olol", "qalab"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zjarr"),
+			keywords: &["djeg", "flakë", "i nxehtë", "vegël", "zjarr"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("ватра"),
+			keywords: &["aлaт", "ватра", "гори", "плaмeн"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("vatra"),
+			keywords: &["alat", "gori", "plamen", "vatra"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("eld"),
+			keywords: &["brinner", "eld", "flamma"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("moto"),
+			keywords: &["choma", "moto", "mwale", "mwali", "zana"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &["moto", "mwale", "zana"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("த\u{bc0}"),
+			keywords: &["எரிதல\u{bcd}", "த\u{bc0}", "நெருப\u{bcd}பு"],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("న\u{c3f}ప\u{c4d}పు"),
+			keywords: &[
+				"అగ\u{c4d}న\u{c3f}",
+				"క\u{c3e}లడం",
+				"టూల\u{c4d}",
+				"న\u{c3f}ప\u{c4d}పు",
+				"ఫ\u{c48}ర\u{c4d}",
+				"ఫ\u{c4d}ల\u{c47}మ\u{c4d}",
+				"బర\u{c4d}న\u{c4d}",
+				"మంట",
+				"వ\u{c47}డ\u{c3f}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("оташ"),
+			keywords: &["аланга", "асбоб", "оташ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang: "th", tts: Some("ไฟ"), keywords: &["เปลวไฟ", "ไฟ"]
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation { lang: "ti", tts: Some("ሓዊ"), keywords: &["ሓዊ", "ባርዕ"] },
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýangyn"),
+			keywords: &["alaw", "gural", "ýangyn"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("afi"), keywords: &["afi"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("ateş"),
+			keywords: &["alev", "ateş", "sıcak", "yakmak"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئوت"),
+			keywords: &["ئوت", "ئۇچقۇن", "قورال"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("вогонь"),
+			keywords: &["вогонь", "полум’я", "інструмент"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("آگ"),
+			keywords: &["آتش", "آلہ", "آگ", "اوزار", "جلانا", "جلنا", "شعلہ", "قدرت", "لو", "گرم", "گرمی"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("olov"),
+			keywords: &["alanga", "asbob", "issiq", "olov", "yongʻin"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("lửa"),
+			keywords: &["dụng cụ", "lửa", "ngọn lửa"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("xal"),
+			keywords: &["flaam", "jumtukaay", "xal"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("umlilo"),
+			keywords: &["isixhobo", "umlilo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Iná"),
+			keywords: &["Iná", "irinṣẹ\u{301}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Iná"),
+			keywords: &["Iná", "irinshɛ\u{301}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("火"), keywords: &["工具", "火", "火焰"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("火"),
+			keywords: &["工具", "火", "火焰"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("火焰"),
+			keywords: &["火", "火焰", "烧", "燃烧"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("火"),
+			keywords: &["火", "火焰", "火苗"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["火", "火焰", "熱", "燃燒"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("umlimo"),
+			keywords: &["ilangabi", "ithuluzi", "umlimo"],
+		},
+	],
+};
+#[doc = "⛅\u{fe0f}"]
+pub const SUN_BEHIND_CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "⛅\u{fe0f}",
+	codepoint:            &[9925u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "sun behind cloud",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌩\u{fe0f}"]
+pub const CLOUD_WITH_LIGHTNING: crate::Emoji = crate::Emoji {
+	glyph:                "🌩\u{fe0f}",
+	codepoint:            &[127785u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "cloud with lightning",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌞"]
+pub const SUN_WITH_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🌞",
+	codepoint:            &[127774u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "sun with face",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("son met gesig"),
+			keywords: &[
+				"dag",
+				"gesig",
+				"helder",
+				"hitte",
+				"ruimte",
+				"skyn",
+				"son",
+				"son met gesig",
+				"sonnig",
+				"sonskyn",
+				"strand",
+				"weer",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ፀሐይ ከፊት ጋር"),
+			keywords: &[
+				"ህዋ",
+				"ሙቀት",
+				"ቀን",
+				"ብሩህ",
+				"ብርሃን",
+				"የባህር ዳርቻ",
+				"የአየር ንብረት",
+				"ፀሐያማ",
+				"ፀሐይ",
+				"ፀሐይ ከፊት ጋር",
+				"ፊት",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("وجه الشمس"),
+			keywords: &[
+				"حرارة",
+				"ساطع",
+				"شاطىء",
+				"شمس",
+				"شمس بوجه",
+				"طقس",
+				"فضاء",
+				"لامع",
+				"مشمس",
+				"نجم",
+				"نهار",
+				"وجه",
+				"وجه الشمس",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ম\u{9c1}খৰ সৈতে স\u{9c2}ৰ\u{9cd}য\u{9cd}য"),
+			keywords: &[
+				"উজ\u{9cd}জ\u{9cd}বল",
+				"ম\u{9c1}খ",
+				"ম\u{9c1}খৰ সৈতে স\u{9c2}ৰ\u{9cd}য\u{9cd}য",
+				"স\u{9c2}ৰ\u{9cd}য\u{9cd}য",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("üzü olan günəş"),
+			keywords: &[
+				"gün şüaları",
+				"günəş",
+				"hava",
+				"işıqlı",
+				"kosmos",
+				"parlaq",
+				"üz",
+				"üzü olan günəş",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("сонца з тварам"),
+			keywords: &["космас", "надвор’е", "сонца", "сонца з тварам", "твар", "яркае"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Слънце с лице"),
+			keywords: &["време", "ден", "лице", "плаж", "слънце", "слънце с лице", "ярко", "ярък"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ম\u{9c1}খের স\u{9be}থে স\u{9c2}র\u{9cd}য"),
+			keywords: &[
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"উজ\u{9cd}জ\u{9cd}বল",
+				"মহ\u{9be}ক\u{9be}শ",
+				"ম\u{9c1}খ",
+				"ম\u{9c1}খের স\u{9be}থে স\u{9c2}র\u{9cd}য",
+				"স\u{9c2}র\u{9cd}য",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("penn heol"),
+			keywords: &["heol", "penn heol", "skin"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("sunce lice"),
+			keywords: &["lice", "prognoza", "sunce", "sunčano", "vrijeme"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("sol amb cara"),
+			keywords: &[
+				"assolellat",
+				"calor",
+				"cara",
+				"clar",
+				"dia",
+				"llum del sol",
+				"sol",
+				"sol amb cara",
+				"temps",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏅᏓ ᎢᎦ ᎡᎯ ᎤᎧᏓ"),
+			keywords: &["ᎢᎦᎯ", "ᎤᎧᏛ", "ᏅᏓ ᎢᎦ ᎡᎯ", "ᏅᏓ ᎢᎦ ᎡᎯ ᎤᎧᏓ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("slunce s obličejem"),
+			keywords: &[
+				"den",
+				"horko",
+				"jasno",
+				"jasný",
+				"pláž",
+				"počasí",
+				"slunce",
+				"slunce s obličejem",
+				"slunečný",
+				"slunný",
+				"sluníčko",
+				"smajlík",
+				"svítit",
+				"světlo",
+				"teplo",
+				"tvář",
+				"vedro",
+				"vesmír",
+				"výraz",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("lleuad ag wyneb"),
+			keywords: &["haul", "llachar", "lleuad ag wyneb", "tywydd", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("sol med ansigt"),
+			keywords: &["ansigt", "sol", "sol med ansigt"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Sonne mit Gesicht"),
+			keywords: &["Gesicht", "Sonne", "Sonne mit Gesicht", "Sonnengesicht", "Sonnenschein"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ήλιος με πρόσωπο"),
+			keywords: &[
+				"ήλιος",
+				"ήλιος με πρόσωπο",
+				"διάστημα",
+				"ζέστη",
+				"ηλιόλουστος",
+				"καιρός",
+				"λάμπω",
+				"λαμπερός",
+				"μέρα",
+				"παραλία",
+				"πρόσωπο",
+				"φωτεινός",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("sun with face"),
+			keywords: &[
+				"beach", "bright", "day", "face", "heat", "shine", "sun", "sunny", "sunshine", "weather",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("sol con cara"),
+			keywords: &["brillante", "cara", "sol", "sol con cara"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"brillante",
+				"calor",
+				"cara sol",
+				"cara sol brillante",
+				"clima",
+				"dia",
+				"playa",
+				"sol",
+				"soleado",
+				"verano",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("näoga päike"),
+			keywords: &["ere", "ilm", "kosmos", "nägu", "näoga päike", "päike"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("eguzkia aurpegiarekin"),
+			keywords: &["argi", "aurpegi", "eguraldi", "eguzki", "eguzkia aurpegiarekin", "espazio"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("صورت خورشید"),
+			keywords: &["آب\u{200c}وهوا", "خورشید", "روشن", "صورت", "فضا"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("aurinko kasvoilla"),
+			keywords: &["aurinko", "kasvot", "kuu", "paiste", "sää", "valo"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("araw na may mukha"),
+			keywords: &["araw", "araw na may mukha", "maliwanag", "mukha", "sinag"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("andlit á sól"),
+			keywords: &["andlit", "andlit á sól", "sól"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("soleil avec visage"),
+			keywords: &[
+				"chaleur",
+				"chaud",
+				"ensoleillé",
+				"jour",
+				"lumière",
+				"météo",
+				"plage",
+				"rayon de soleil",
+				"soleil",
+				"soleil avec visage",
+				"soleil à visage",
+				"éclat",
+				"éclatant",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["chaleur", "chaud", "ensoleillé", "jour", "plage", "soleil", "visage"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("an ghrian le haghaidh"),
+			keywords: &[
+				"aghaidh",
+				"aghaidh ar ghrian",
+				"aimsir",
+				"an ghrian le haghaidh",
+				"geal",
+				"grian",
+				"grian le haghaidh",
+				"grianmhar",
+				"lá",
+				"solas na gréine",
+				"taitneamh",
+				"teas",
+				"trá",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("a’ ghrian le aodann oirre"),
+			keywords: &["aodann", "a’ ghrian le aodann oirre", "grian", "soilleir"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sol con cara"),
+			keywords: &["cara", "sol", "sol con cara"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{ac2}ર\u{acd}યનો ચહ\u{ac7}રો"),
+			keywords: &[
+				"ગરમી",
+				"ચહ\u{ac7}રો",
+				"ત\u{ac7}જ",
+				"દિવસ",
+				"મોસમ",
+				"રોશની",
+				"સ\u{ac2}ર\u{acd}ય",
+				"સ\u{ac2}ર\u{acd}યન\u{ac1}\u{a82} ત\u{ac7}જ",
+				"સ\u{ac2}ર\u{acd}યનો ચહ\u{ac7}રો",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("rana tare da fuska"),
+			keywords: &[
+				"fuska",
+				"haske",
+				"hasken rana",
+				"rana",
+				"rana mai fuska",
+				"rana tare da fuska",
+				"tsakar rana",
+				"yanayi",
+				"zafin rana",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("rana tare da fuska"),
+			keywords: &[
+				"fuska",
+				"haske",
+				"hasken rana",
+				"rana",
+				"rana mai fuska",
+				"rana tare da fuska",
+				"tsakar rana",
+				"yanayi",
+				"zafin rana",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("פני שמש"),
+			keywords: &["חם", "חמה", "פני שמש", "פנים", "קיץ", "שמש"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{942}र\u{94d}य वाला च\u{947}हरा"),
+			keywords: &[
+				"च\u{947}हरा",
+				"स\u{942}रज",
+				"स\u{942}र\u{94d}य",
+				"स\u{942}र\u{94d}य वाला च\u{947}हरा",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("sunce s licem"),
+			keywords: &["lice", "sunce", "sunce s licem", "svemir", "vedro", "vrijeme"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nap arccal"),
+			keywords: &[
+				"arc",
+				"hőség",
+				"időjárás",
+				"nap",
+				"nap arccal",
+				"napfény",
+				"napos",
+				"strand",
+				"égitest",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("դեմքով արև"),
+			keywords: &["արև", "դեմք", "դեմքով արև", "եղանակ", "պայծառ", "տիեզերք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("wajah matahari"),
+			keywords: &["angkasa", "bersinar", "cuaca", "matahari", "sinar", "terang", "wajah"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("anyanwụ nwere ihu"),
+			keywords: &["anyanwụ", "anyanwụ nwere ihu", "ihu", "ìhè"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("sól með andliti"),
+			keywords: &["andlit", "sól", "sól með andliti"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("faccina sole"),
+			keywords: &[
+				"bel tempo",
+				"caldo",
+				"denari",
+				"estate",
+				"faccina",
+				"giornata",
+				"giorno",
+				"meteo",
+				"sole",
+				"soleggiato",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("顔のある太陽"),
+			keywords: &["太陽", "顔", "顔のある太陽"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("srengenge katon raine"),
+			keywords: &["padhang", "rai", "srengenge", "srengenge katon raine"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მზე სახით"),
+			keywords: &["ამინდი", "კაშკაშა", "კოსმოსი", "მზე", "მზე სახით", "სახე"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("беті бейнеленген күн"),
+			keywords: &["ашық", "бет", "беті бейнеленген күн", "күн"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("sol med ansigt"),
+			keywords: &["ansigt", "sol", "sol med ansigt"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ"),
+			keywords: &[
+				"ព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ",
+				"ម\u{17bb}ខ",
+				"ម\u{17bb}ខព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಸ\u{cc2}ರ\u{ccd}ಯನ ಮುಖ"),
+			keywords: &[
+				"ದ\u{cbf}ನ",
+				"ಪ\u{ccd}ರಕಾಶಮಾನ",
+				"ಬ\u{cbf}ಸ\u{cbf}ಲು",
+				"ಬ\u{cc0}ಚ\u{ccd}",
+				"ಮ\u{cbf}ನುಗು",
+				"ಮುಖ",
+				"ಶಾಖ",
+				"ಸಮುದ\u{ccd}ರ ತ\u{cc0}ರ",
+				"ಸುರ\u{ccd}ಯ\u{ccb}ದಯ",
+				"ಸ\u{cc2}ರ\u{ccd}ಯ",
+				"ಸ\u{cc2}ರ\u{ccd}ಯನ ಮುಖ",
+				"ಸ\u{cc2}ರ\u{ccd}ಯಾಸ\u{ccd}ಥ",
+				"ಹವಾಮಾನ",
+				"ಹ\u{cca}ಳ\u{cc6}ಯು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("얼굴이 있는 해"),
+			keywords: &[
+				"날씨",
+				"낮",
+				"눈부신",
+				"밝은",
+				"얼굴",
+				"얼굴이 있는 해",
+				"열기",
+				"해 방긋",
+				"해님",
+				"햇빛",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("स\u{941}र\u{94d}याचो च\u{947}रो"),
+			keywords: &[
+				"च\u{947}रो",
+				"प\u{94d}रकाश",
+				"स\u{941}र\u{94d}य",
+				"स\u{941}र\u{94d}याचो च\u{947}रो",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("күндүн бети"),
+			keywords: &["бет", "жарык", "күн", "күндүн бети"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Sonnegesiicht"),
+			keywords: &["Gesiicht", "Sonn", "Sonnegesiicht", "hell"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໜ\u{ec9}າຕາເວ\u{eb1}ນ"),
+			keywords: &["ຕາເວ\u{eb1}ນ", "ສະຫວ\u{ec8}າງ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າຕາເວ\u{eb1}ນ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("saulė su veidu"),
+			keywords: &["oras", "paplūdimys", "saulė", "saulė su veidu", "veidas", "šviesu"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("saules seja"),
+			keywords: &[
+				"diena",
+				"gaišs",
+				"laikapstākļi",
+				"pludmale",
+				"saulains",
+				"saule",
+				"saules seja",
+				"seja",
+				"spīd",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("rā whai mata"),
+			keywords: &["kanapa", "mata", "rā", "rā whai mata"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("сонце со лице"),
+			keywords: &[
+				"време",
+				"ден",
+				"жешко",
+				"зраци",
+				"плажа",
+				"сонце",
+				"сонце со лице",
+				"сончева светлина",
+				"сончево",
+				"топлина",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സ\u{d42}ര\u{d4d}യനിൽ മ\u{d41}ഖം"),
+			keywords: &[
+				"മ\u{d41}ഖമ\u{d41}ള\u{d4d}ള സ\u{d42}ര\u{d4d}യൻ",
+				"സ\u{d42}ര\u{d4d}യനിൽ മ\u{d41}ഖം",
+				"സ\u{d42}ര\u{d4d}യൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("нүүртэй нар"),
+			keywords: &["нар", "нүүр", "нүүртэй нар", "цаг агаар"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("च\u{947}हरा असल\u{947}ला स\u{942}र\u{94d}य"),
+			keywords: &[
+				"चमकणारा",
+				"च\u{947}हरा",
+				"च\u{947}हरा असल\u{947}ला स\u{942}र\u{94d}य",
+				"स\u{942}र\u{94d}य",
+				"स\u{942}र\u{94d}याचा च\u{947}हरा",
 			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("bulan suku pertama"),
-			keywords: &["angkasa lepas", "bulan", "bulan suku pertama", "cuaca", "suku"],
+			tts:      Some("matahari dengan muka"),
+			keywords: &["angkasa lepas", "cuaca", "matahari", "matahari dengan muka", "muka", "terang"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("l-ewwel kwart tal-qamar"),
-			keywords: &["kwart", "l-ewwel kwart tal-qamar", "qamar"],
+			tts:      Some("xemx b’wiċċ"),
+			keywords: &["tleqq", "wiċċ", "xemx b’wiċċ", "xemxi"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("လ၏ ပထမအပတ\u{103a}"),
-			keywords: &["လ", "လေးပ\u{102f}\u{1036}တစ\u{103a}ပ\u{102f}\u{1036}", "လ၏ ပထမအပတ\u{103a}"],
+			tts:      Some("နေ၏ မျက\u{103a}န\u{103e}ာ"),
+			keywords: &["တောက\u{103a}ပ", "နေ", "နေ၏ မျက\u{103a}န\u{103e}ာ", "မျက\u{103a}န\u{103e}ာ"],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा"),
+			tts:      Some("स\u{94d}वर\u{942}पसहितको स\u{942}र\u{94d}य"),
 			keywords: &[
-				"एक चौ\u{902}थाइ",
+				"अन\u{941}हार",
+				"उज\u{94d}यालो",
+				"स\u{942}र\u{94d}य",
+				"स\u{94d}वर\u{942}पसहितको स\u{942}र\u{94d}य",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("zon met gezicht"),
+			keywords: &["gezicht", "helder", "warm", "weer", "zon", "zon met gezicht", "zonneschijn"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("solandlet"),
+			keywords: &["andlet", "lys", "sol", "solandlet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ ମ\u{b41}ହ\u{b01}"),
+			keywords: &[
+				"ମ\u{b41}ଖ",
+				"ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ",
+				"ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ ମ\u{b41}ହ\u{b01}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸ\u{a42}ਰਜ ਦਾ ਚਿਹਰਾ"),
+			keywords: &[
+				"ਚਮਕਣਾ",
+				"ਚਮਕਦਾ",
+				"ਚਿਹਰਾ",
+				"ਮ\u{a42}\u{a70}ਹ",
+				"ਸ\u{a42}ਰਜ",
+				"ਸ\u{a42}ਰਜ ਦਾ ਚਿਹਰਾ",
+				"ਸ\u{a42}ਰਜ ਦਾ ਮ\u{a42}\u{a70}ਹ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("شکل نال سورج"),
+			keywords: &["دی شکل", "روشن", "سورج", "شکل نال سورج"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Sọn Wit Fes"),
+			keywords: &["Brait", "Fes", "Sọn", "Sọn Wit Fes"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("słońce z twarzą"),
+			keywords: &[
+				"bajka",
+				"baśń",
+				"ciepło",
+				"głowa",
+				"magia",
+				"promienny",
+				"słońce",
+				"słońce z twarzą",
+				"twarz",
+				"uśmiech",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("لمر د مخ سره"),
+			keywords: &["لمر", "لمر د مخ سره", "مخ", "پړقېدونکې"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("rosto do sol"),
+			keywords: &["praia", "rosto", "sol"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("sol com cara"),
+			keywords: &["brilhante", "calor", "cara", "espaço", "meteorologia", "sol", "sol com cara"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("inti uyawan"),
+			keywords: &["inti", "inti uyawan", "k’anchay", "uya"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("soare cu față"),
+			keywords: &[
+				"căldură",
+				"față",
+				"luminos",
+				"meteo",
+				"plajă",
+				"raze",
+				"soare",
+				"soare cu față",
+				"vreme frumoasă",
+				"zi însorită",
+				"însorit",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-229"), keywords: &["E10-229"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("солнце с лицом"),
+			keywords: &["лицо", "небо", "солнце", "солнце с лицом"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("izuba rifite isura"),
+			keywords: &["gikeye", "isura", "izuba", "izuba rifite isura"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("چهري سان گڏ سج"),
+			keywords: &["روشن", "سج", "چهرو", "چهري سان گڏ سج"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ස\u{dd6}ර\u{dca}යය\u{dcf}"),
+			keywords: &[
+				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"ද\u{dd3}ප\u{dca}ත\u{dd2}මත\u{dca}",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ස\u{dd6}ර\u{dca}යය\u{dcf}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("slnko s tvárou"),
+			keywords: &[
+				"deň",
+				"jas",
+				"počasie",
+				"príroda",
+				"slnečný",
+				"slnko",
+				"slnko s tvárou",
+				"teplo",
+				"tvár",
+				"vesmír",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("sonce z obrazom"),
+			keywords: &["obraz", "sonce", "sonce z obrazom", "sončno", "svetlo", "vreme", "vročina"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qorrax wajiyeed"),
+			keywords: &["dhalaal", "qorrax", "qorrax wajiyeed", "waji"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("diell me fytyrë"),
+			keywords: &[
+				"diell",
+				"diell me fytyrë",
+				"fytyrë",
+				"hapësirë",
+				"i ndritshëm",
+				"moti",
+				"nxehtësi",
+				"plazh",
+				"shkëlqej",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("сунце са лицем"),
+			keywords: &["вeдрo", "време", "лице", "плажа", "сунцe", "сунчано"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("sunce sa licem"),
+			keywords: &["lice", "plaža", "sunce", "sunčano", "vedro", "vreme"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("sol med ansikte"),
+			keywords: &["ansikte", "sol", "sol med ansikte"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("uso unaokaa jua"),
+			keywords: &[
+				"anga",
+				"hali ya hewa",
+				"jua",
+				"kua lenye uso",
+				"kung’aa",
+				"usi",
+				"uso unaokaa jua",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("சூரிய முகம\u{bcd}"),
+			keywords: &[
+				"ஒளி",
+				"கோடை",
+				"சூரிய முகம\u{bcd}",
+				"சூரியக\u{bcd} கடவுள\u{bcd}",
+				"சூரியன\u{bcd}",
+				"முகம\u{bcd}",
+				"வெப\u{bcd}பம\u{bcd}",
+				"வெயில\u{bcd}",
+				"வெளிச\u{bcd}சம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("సూర\u{c4d}య ముఖం"),
+			keywords: &[
+				"ఎండగ\u{c3e} ఉంద\u{c3f}",
+				"బ\u{c40}చ\u{c4d}",
+				"మ\u{c46}రుపు",
+				"ర\u{c4b}జు",
+				"వ\u{c3e}త\u{c3e}వరం",
+				"వ\u{c47}డ\u{c3f}",
+				"శుభ\u{c4b}దయం గుర\u{c4d}తు",
+				"సన\u{c4d}",
+				"సూర\u{c4d}యుడు",
+				"సూర\u{c4d}య\u{c4b}దయం",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("офтоб бо чеҳра"),
+			keywords: &["офтоб", "офтоб бо чеҳра", "равшан", "рӯй"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("หน\u{e49}าพระอาท\u{e34}ตย\u{e4c}"),
+			keywords: &[
+				"พระอาท\u{e34}ตย\u{e4c}",
+				"สว\u{e48}าง",
+				"หน\u{e49}าพระอาท\u{e34}ตย\u{e4c}",
+				"อากาศ",
+				"ใบหน\u{e49}า",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጸሓይ ምስ ገጽ"),
+			keywords: &["መዓልቲ", "ሙቐት", "ብርሃን", "አየር", "ድሙቕ", "ገማግም ባሕሪ", "ገጽ", "ጸሓያዊ", "ጸሓይ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýüzli güneş"),
+			keywords: &["gün", "ýagty", "ýüz", "ýüzli güneş"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mata e laʻā"),
+			keywords: &["laʻā", "mata", "mata e laʻā"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("güneş yüz"),
+			keywords: &["güneş", "parlak", "sıcak", "yaz", "yüz"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يۈزلۈك قۇياش"),
+			keywords: &["كۈن", "يورۇق", "يۈز", "يۈزلۈك قۇياش"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сонце з обличчям"),
+			keywords: &[
+				"весна",
+				"космос",
+				"літо",
+				"обличчя",
+				"погода",
+				"сонце",
+				"сонце з обличчям",
+				"яскравий",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("چہرے والا سورج"),
+			keywords: &[
+				"آفتاب",
+				"آفتاب\u{650} روشن",
+				"خلا",
+				"روز",
+				"روشن دن",
+				"روشنی",
+				"سورج",
+				"شمس",
+				"صاف",
+				"قدرت",
+				"موسم",
+				"نور",
+				"چہرہ",
+				"چہرے والا سورج",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("quyosh qiyofasi"),
+			keywords: &[
+				"kun",
+				"ob-havo",
+				"oftob",
+				"osmon",
+				"quyosh",
+				"quyosh qiyofasi",
+				"yorug‘ilik",
+				"yuz",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("mặt trời có hình mặt người"),
+			keywords: &["bãi biển", "mặt", "mặt trời", "mặt trời có hình mặt người", "sáng", "thời tiết"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("jant bu am kanam"),
+			keywords: &["jant", "jant bu am kanam", "kanam", "yànj"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ilanga elinobuso"),
+			keywords: &["ilanga", "ilanga elinobuso", "ngokukhanyayo", "ubuso"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Oorun Pẹlu Oju"),
+			keywords: &["Oorun Pẹlu Oju", "ojú", "ìmọ\u{301}lẹ\u{300}", "òrùn"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Oorun Pɛlu Oju"),
+			keywords: &["Oorun Pɛlu Oju", "ojú", "ìmɔ\u{301}lɛ\u{300}", "òrùn"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("太陽表面"),
+			keywords: &["光亮", "太陽", "太陽表面", "臉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("太阳表面"),
+			keywords: &["光亮", "太阳", "太阳表面", "脸"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("微笑的太阳"),
+			keywords: &["太阳", "微笑的太阳", "温暖阳光", "阳光明媚"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("微笑的太陽"),
+			keywords: &["太陽", "微笑的太陽"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("太陽笑面"),
+			keywords: &[
+				"天氣",
+				"太陽",
+				"太陽笑面",
+				"太陽臉",
+				"太陽面",
+				"日頭",
+				"晴天",
+				"海灘",
+				"熱",
+				"臉孔",
+				"陽光",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ilanga elinobuso"),
+			keywords: &["ilanga", "ilanga elinobuso", "isimo sezulu", "ubuso", "ukukhanya", "umkhathi"],
+		},
+	],
+};
+#[doc = "🌥\u{fe0f}"]
+pub const SUN_BEHIND_LARGE_CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "🌥\u{fe0f}",
+	codepoint:            &[127781u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "sun behind large cloud",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌙"]
+pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
+	glyph:                "🌙",
+	codepoint:            &[127769u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "crescent moon",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("sekelmaan"),
+			keywords: &["Ramadan", "maan", "ruimte", "sekel", "sekelmaan", "weer"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ግማሽ ጨረቃ"),
+			keywords: &["ህዋ", "የአየር ንብረት", "ገሚስ ጨረቃ", "ግማሽ ጨረቃ", "ጨረቃ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("هلال"),
+			keywords: &["الهلال", "رمضان", "طقس", "فضاء", "قمر", "هلال"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ক\u{9be}\u{981}চিজোন"),
+			keywords: &["অৰ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ", "ক\u{9be}\u{981}চিজোন", "চন\u{9cd}দ\u{9cd}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("aypara"),
+			keywords: &["ay", "aypara", "hava", "kosmos", "səma"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("паўмесяц"),
+			keywords: &["космас", "месяц", "ноч", "паўмесяц"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("полумесец"),
+			keywords: &["време", "космос", "луна", "полумесец", "рамадан"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র"),
+			keywords: &[
+				"অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র",
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"চ\u{9be}\u{981}দ",
+				"মহ\u{9be}ক\u{9be}শ",
+				"রমজ\u{9be}ন",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("kreskenn loar"),
+			keywords: &["kreskenn", "loar"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("polumjesec"),
+			keywords: &["mjesec", "polumjesec"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("lluna creixent"),
+			keywords: &["creixent", "espai", "lluna", "ramadà"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏓᏲᎲ ᏅᏓ ᎤᏒ ᎡᎯ"),
+			keywords: &["ᎠᏓᏲᎲ", "ᎠᏓᏲᎲ ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("srpek měsíce"),
+			keywords: &[
+				"Ramadán",
+				"couvá",
+				"dorůstá",
+				"měsíc",
+				"noc",
+				"počasí",
+				"přibývá",
+				"půlměsíc",
+				"srpek",
+				"srpek měsíce",
+				"ubývá",
+				"vesmír",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("lleuad gilgant"),
+			keywords: &["cilgant", "gofod", "lleuad", "lleuad gilgant"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("halvmåne"),
+			keywords: &["halvmåne", "tiltagende måne"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Mondsichel"),
+			keywords: &["Mond", "Mondsichel", "Nacht"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ημισέληνος"),
+			keywords: &["διάστημα", "ημισέληνος", "καιρός", "μηνίσκος", "πανσέληνος", "φεγγάρι"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("crescent moon"),
+			keywords: &["crescent", "moon", "ramadan", "space"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("luna"),
+			keywords: &["creciente", "espacio", "luna"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("media luna"),
+			keywords: &["clima", "creciente", "cuarto", "espacio", "luna", "media luna"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["cruasán", "cuarto creciente", "fase lunar", "luna creciente", "media luna"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("luna creciente"),
+			keywords: &["creciente", "luna"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kuusirp"),
+			keywords: &["ilm", "kosmos", "kuu", "kuusirp", "sirp"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ilargi-adarra"),
+			keywords: &["ilargi-adarra", "ilargia", "ilgora"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("هلال ماه"),
+			keywords: &["آب\u{200c}وهوا", "داس ماه", "فضا", "ماه", "مه\u{200c}داس", "هلال"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kuunsirppi"),
+			keywords: &["kuu", "kuunsirppi", "sirppi", "sää", "taivaankappale"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("crescent moon"),
+			keywords: &["buwan", "crescent", "crescent moon", "kalawakan", "ramadan"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("hálvmáni"),
+			keywords: &["hálvmáni", "máni"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("croissant de lune"),
+			keywords: &["Ramadan", "croissant", "croissant de lune", "espace", "lune", "nuit"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["Ramadan", "croissant", "espace", "lune"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("corrán gealaí"),
+			keywords: &["an ghealach", "corrán gealaí", "gealach", "luan", "ré"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("gealach chorranach"),
+			keywords: &["corranach", "gealach", "gealach chorranach"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lúa crecente"),
+			keywords: &["crecente", "lúa"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("બીજનો ચા\u{a82}દ"),
+			keywords: &[
+				"અર\u{acd}ધચ\u{a82}દ\u{acd}રાકાર",
+				"ક\u{ac1}દરત",
+				"ચ\u{a82}દ\u{acd}ર",
+				"બીજનો ચ\u{a82}દ\u{acd}ર",
+				"બીજનો ચા\u{a82}દ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("hilalin wata"),
+			keywords: &["hilalin wata", "jaririn wata", "samaniya", "wata"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("hilalin wata"),
+			keywords: &["hilalin wata", "jaririn wata", "samaniya", "wata"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation { lang: "he", tts: Some("סהר"), keywords: &["ירח", "סהר"] },
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("चापाकार च\u{902}द\u{94d}र"),
+			keywords: &[
+				"चा\u{901}द",
+				"चा\u{902}द",
+				"चापाकार च\u{902}द\u{94d}र",
+				"बालच\u{902}द\u{94d}र",
+				"रमजान",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("polumjesec"),
+			keywords: &["mjesec", "polumjesec", "svemir", "vrijeme"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("növekvő hold"),
+			keywords: &[
+				"hold",
+				"holdfázisok",
+				"kifli",
+				"kifli alakú hold",
+				"növekvő hold",
+				"sarló",
+				"ég",
+				"éjszaka",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մահիկ"),
+			keywords: &["եղանակ", "լուսին", "մահիկ", "տիեզերք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("bulan sabit"),
+			keywords: &["angkasa", "bulan", "cuaca", "sabit"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọnwa elu-ugwu"),
+			keywords: &["mmelite", "ọnwa", "ọnwa elu-ugwu"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hálfmáni"),
+			keywords: &["hálfmáni", "máni", "tungl"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("spicchio di luna"),
+			keywords: &[
+				"calante",
+				"cielo",
+				"crescente",
+				"gobba",
+				"luna",
+				"natura",
+				"notte",
+				"spazio",
+				"spicchio di luna",
+				"ultimo quarto",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("三日月"),
+			keywords: &["三日月", "宇宙", "月"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("bulan nanggal sepisan"),
+			keywords: &["bulan", "bulan nanggal sepisan", "sabit"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ნამგალა მთვარე"),
+			keywords: &["ამინდი", "კოსმოსი", "მთვარე", "ნამგალა"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("жарты ай"),
+			keywords: &["ай", "ауа райы", "жарты ай", "ғарыш"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("halvmåne"),
+			keywords: &["aftagende måne", "halvmåne"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ច\u{17c6}ន\u{17b7}តខែ"),
+			keywords: &["ច\u{17c6}ន\u{17b7}តខែ", "ព\u{17d2}រះចន\u{17d2}ទ", "អឌ\u{17d2}ឍចន\u{17d2}ទ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಅರ\u{ccd}ಧಾಕಾರದ ಚಂದ\u{ccd}ರ"),
+			keywords: &[
+				"ಅರ\u{ccd}ಧ ಚಂದ\u{ccd}ರ",
+				"ಅರ\u{ccd}ಧಚಂದ\u{ccd}ರ",
+				"ಅರ\u{ccd}ಧಾಕಾರದ ಚಂದ\u{ccd}ರ",
+				"ಆಕಾಶ",
+				"ಚಂದ\u{ccd}ರ",
+				"ಚಂದ\u{ccd}ರಬ\u{cbf}ಂಬ",
+				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
+				"ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
+				"ರಂಜಾನ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("초승달"),
+			keywords: &["달", "라마단", "우주", "초승달"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("च\u{902}द\u{94d}रकोर"),
+			keywords: &["च\u{902}द\u{94d}र", "च\u{902}द\u{94d}रकोर"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жарым ай"),
+			keywords: &["аба ырайы", "ай", "жарым", "космос"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Moundséchel"),
+			keywords: &["Mound", "Moundséchel", "Séchel"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເດ\u{eb7}ອນສ\u{ec9}ຽວ"),
+			keywords: &["ດວງເດ\u{eb7}ອນ", "ສ\u{ec9}ຽວ", "ເດ\u{eb7}ອນ", "ເດ\u{eb7}ອນສ\u{ec9}ຽວ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pusmėnulis"),
+			keywords: &["kosmosas", "mėnulis", "pusmėnulis", "pusė", "ramadanas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("mēness sirpis"),
+			keywords: &["mēness", "ramadāns", "sirpis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("marama pewa"),
+			keywords: &["marama", "pewa"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("месечев срп"),
+			keywords: &["време", "вселена", "месечев срп", "месечина", "полумесечина", "рамазан", "срп"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല"),
+			keywords: &[
+				"ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
+				"ചന\u{d4d}ദ\u{d4d}രൻ",
+				"വളഞ\u{d4d}ഞ ചന\u{d4d}ദ\u{d4d}രൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хавирган сар"),
+			keywords: &["сар", "хавирган сар"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("च\u{902}द\u{94d}रकोर"),
+			keywords: &["च\u{902}द\u{94d}र", "च\u{902}द\u{94d}रकोर"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("bulan sabit"),
+			keywords: &["angkasa lepas", "bulan", "bulan sabit", "cuaca", "puasa", "ramadan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("felli qamar"),
+			keywords: &["felli", "qamar"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("လခြမ\u{103a}း"),
+			keywords: &["လ", "လခြမ\u{103a}း"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("क\u{94d}र\u{947}स\u{947}न\u{94d}ट चन\u{94d}द\u{94d}रमा"),
+			keywords: &[
+				"क\u{94d}र\u{947}स\u{947}न\u{94d}ट चन\u{94d}द\u{94d}रमा",
+				"क\u{94d}र\u{947}स\u{947}\u{947}न\u{94d}ट",
 				"चन\u{94d}द\u{94d}रमा",
 				"ठाउ\u{901}",
-				"पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा",
 				"मौ\u{902}सम",
 			],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("maan in eerste kwartier"),
-			keywords: &["avond", "kwartier", "maan", "maan in eerste kwartier", "ruimte"],
+			tts:      Some("maansikkel"),
+			keywords: &[
+				"avond",
+				"halvemaan",
+				"maan",
+				"maansikkel",
+				"ramadan",
+				"ruimte",
+				"sikkel",
+				"slapen",
+			],
 		},
 		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("veksande halvmåne"),
-			keywords: &["første kvarter", "halvmåne", "måne", "månefase", "ny", "veksande halvmåne"],
-		},
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର"),
+			tts:      Some("କ\u{b4d}ର\u{b3f}ସେଣ\u{b4d}ଟ\u{b4d} ମ\u{b41}ନ\u{b4d}"),
 			keywords: &[
-				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"କ\u{b4d}ର\u{b3f}ସେଣ\u{b4d}ଟ\u{b4d} ମ\u{b41}ନ\u{b4d}",
 				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ପ\u{b4d}ରଥମ ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ବ\u{b3e}ଳଚନ\u{b4d}ଦ\u{b4d}ର",
 			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ"),
+			tts:      Some("ਅ\u{a71}ਧਾ ਚ\u{a70}ਦ"),
 			keywords: &[
-				"ਅ\u{a71}ਧਾ ਚ\u{a70}ਨ",
+				"ਅ\u{a71}ਧਾ",
+				"ਅ\u{a71}ਧਾ ਚ\u{a70}\u{a70}ਦ",
+				"ਈਦ",
 				"ਚ\u{a70}ਦ",
 				"ਚ\u{a70}ਨ",
-				"ਤਿਮਾਹੀ",
-				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ",
 				"ਪ\u{a41}ਲਾੜ",
 				"ਮ\u{a4c}ਸਮ",
+				"ਰਮਜ\u{a3c}ਾਨ",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("چاند دا پہلا چوتھائی حصہ"),
-			keywords: &["چاند", "چاند دا پہلا چوتھائی حصہ", "چوتھہ حص\u{651}ہ"],
+			tts:      Some("ہلالی چاند"),
+			keywords: &["چاند", "ہلال", "ہلالی چاند"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Mún Im Fẹ\u{301}st Kwọ\u{301}ta"),
-			keywords: &["Kwọ\u{301}ta", "Mun", "Mún Im Fẹ\u{301}st Kwọ\u{301}ta"],
+			tts:      Some("Krísẹ\u{301}nt Mun"),
+			keywords: &["Krísẹnt", "Krísẹ\u{301}nt Mun", "Mun"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("pierwsza kwadra księżyca"),
-			keywords: &["księżyc", "kwadra", "noc", "pierwsza kwadra księżyca"],
+			tts:      Some("półksiężyc"),
+			keywords: &["księżyc", "noc", "półksiężyc", "sierp", "sierp księżyca"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("د لومړۍ ربعې سپوږمۍ"),
-			keywords: &["د لومړۍ ربعې سپوږمۍ", "ربع", "سپوږمۍ"],
+			tts:      Some("هلال سپوږمۍ"),
+			keywords: &["سپوږمۍ", "هلال"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("quarto crescente"),
-			keywords: &["lua", "lua de quarto crescente", "quarto", "quarto crescente"],
+			tts:      Some("lua crescente"),
+			keywords: &["crescente", "lua"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
-			tts:      Some("lua em quarto crescente"),
+			tts:      Some("lua crescente sem sombra"),
+			keywords: &["crescente", "espaço", "lua", "lua crescente sem sombra", "meteorologia"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("chawpi killa"),
+			keywords: &["chawpi", "killa", "pacha", "ramadan"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("semilună"),
+			keywords: &["creștere", "islam", "lună", "lună crescătoare", "ramadan", "semilună", "spațiu"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-224"), keywords: &["E10-224"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("полумесяц"),
+			keywords: &["луна", "месяц", "полумесяц"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("ukwezi kugenda gukura"),
+			keywords: &["ukwezi kugenda gukura"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڪريسينٽ چنڊ"),
+			keywords: &["چنڊ", "ڪريسينٽ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("අඩසඳ"),
+			keywords: &["අඩසඳ", "අභ\u{dca}\u{200d}යවක\u{dcf}ශය", "ක\u{dcf}ලග\u{dd4}ණය", "සඳ"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("polmesiac"),
+			keywords: &["dorastá", "mesiac", "polmesiac", "počasie", "príroda", "ramadán", "vesmír"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("lunin srp"),
+			keywords: &["krajec", "luna", "lunin srp", "vesolje", "vreme"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dayax qoolaaban"),
+			keywords: &["bil qoolaaban", "dayax", "dayax qoolaaban"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("hënë e ngrënë"),
+			keywords: &["e ngrënë", "hapësirë", "hënë", "hënë e ngrënë", "moti", "ramazan"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("месечев срп"),
+			keywords: &["Рамадан", "месец", "пoлумесец", "срп"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("мјесечев срп"),
+			keywords: &["мјесец", "мјесечев срп", "пoлумјесец"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mesečev srp"),
+			keywords: &["Ramadan", "mesec", "polumesec", "srp"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("mjesečev srp"),
+			keywords: &["mjesec", "mjesečev srp", "polumjesec"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("månskära"),
+			keywords: &["måne", "månskära"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mwezi unaoandama mwezi mpya"),
 			keywords: &[
-				"crescente",
+				"anga",
+				"hali ya hewa",
+				"mwandamo wa mwezi",
+				"mwezi",
+				"mwezi mwandamo",
+				"mwezi unaoandama mwezi mpya",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பிறைநிலவு"),
+			keywords: &[
+				"தேய\u{bcd}பிறை",
+				"நிலவொளி",
+				"நில\u{bbe}",
+				"பிறைநிலவு",
+				"ரமத\u{bbe}ன\u{bcd}",
+				"ரமல\u{bbe}ன\u{bcd}",
+				"ரம\u{bcd}ஜ\u{bbe}ன\u{bcd}",
+				"வளர\u{bcd}பிறை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("న\u{c46}లవంక"),
+			keywords: &[
+				"అంతర\u{c3f}క\u{c4d}షం",
+				"అర\u{c4d}ధచంద\u{c4d}రుడు",
+				"క\u{c4d}ర\u{c46}స\u{c46}ంట\u{c4d}",
+				"చంద\u{c4d}రవంక",
+				"చంద\u{c4d}రుడు",
+				"న\u{c46}లవంక",
+				"మూన\u{c4d}",
+				"రమద\u{c3e}న\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation { lang: "tg", tts: Some("ҳилол"), keywords: &["моҳ", "ҳилол"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยว"),
+			keywords: &[
+				"พระจ\u{e31}นทร\u{e4c}",
+				"พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยว",
+				"เส\u{e35}\u{e49}ยว",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ወርሒ ፍርቂ ወርሒ"),
+			keywords: &["ሮማዳን", "ቦታ", "ወርሒ", "ወርሒ ፍርቂ ወርሒ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýarym aý"),
+			keywords: &["aý", "ýarym aý", "ýarymaý"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("māhina kalipa"),
+			keywords: &["kalipa", "māhina"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("hilal"),
+			keywords: &["ay", "dilek", "gece", "gökyüzü", "hilal", "uzay", "yeni ay"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئورغاق ئاي"),
+			keywords: &["ئاي", "ئورغاق"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("серп місяця"),
+			keywords: &["космос", "місяць", "погода", "півмісяць", "серп місяця"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ہلال چاند"),
+			keywords: &["آسمان", "خلا", "رمضان", "قدرت", "موسم", "چاند", "ہلال"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("oy"),
+			keywords: &["koinot", "ob-havo", "oy", "ramazon", "ramazon oyi", "yarim oy"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trăng lưỡi liềm"),
+			keywords: &["lưỡi liềm", "mặt trăng", "trăng lưỡi liềm"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("weer wu sew di màgg"),
+			keywords: &["sew di màgg", "weer wu", "weer wu sew di màgg"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inyanga elicala"),
+			keywords: &["elicala", "inyanga"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ààbọ\u{300} Oṣùpá"),
+			keywords: &["Oṣùpá", "Ààbọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ààbɔ\u{300} Oshùpá"),
+			keywords: &["Oshùpá", "Ààbɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("弦月"), keywords: &["弦月", "月"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("弦月"), keywords: &["弦月", "月"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("弯月"),
+			keywords: &["娥眉月", "弯月", "新月形", "月亮", "残月", "蛾眉月"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("彎月"),
+			keywords: &["彎月", "新月", "月亮", "月牙", "残月"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["上弦月", "太空", "宇宙", "新月", "月亮", "齋戒月"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inyanga enciphile"),
+			keywords: &["inyanga", "inyanga enciphile", "isimo sezulu", "ukubheka emuva", "umkhathi"],
+		},
+	],
+};
+#[doc = "🌕\u{fe0f}"]
+pub const FULL_MOON: crate::Emoji = crate::Emoji {
+	glyph:                "🌕\u{fe0f}",
+	codepoint:            &[127765u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "full moon",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌛"]
+pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🌛",
+	codepoint:            &[127771u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "first quarter moon face",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("eerstekwartiermaan met gesig"),
+			keywords: &[
+				"eerste",
+				"eerstekwartiermaan met gesig",
+				"gesig",
+				"kwartier",
+				"maan",
+				"ruimte",
+				"weer",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የመጀመሪያ ሩብ ጨረቃ ከፊት ጋር"),
+			keywords: &["ህዋ", "ሩብ", "የመጀመሪያ ሩብ", "የመጀመሪያ ሩብ ጨረቃ ከፊት ጋር", "የአየር ንብረት", "ጨረቃ", "ፊት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("وجه تربيع أول"),
+			keywords: &["أول", "بداية الشهر", "بدر", "تربيع", "طقس", "فضاء", "قمر", "هلال", "وجه"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("চন\u{9cd}দ\u{9cd}ৰৰ প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশৰ ম\u{9c1}খ"),
+			keywords: &[
+				"চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ",
+				"চন\u{9cd}দ\u{9cd}ৰ",
+				"চন\u{9cd}দ\u{9cd}ৰৰ প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশৰ ম\u{9c1}খ",
+				"ম\u{9c1}খ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("ayın birinci dörrdə bir hissəsinin üzü"),
+			keywords: &[
+				"ay",
+				"ayın birinci dörrdə bir hissəsinin üzü",
+				"ayın ilk fazası",
+				"dörddə bir",
+				"hava",
+				"kosmos",
+				"üz",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("месяц у першай чвэрці з тварам"),
+			keywords: &[
+				"квадра",
+				"космас",
+				"месяц",
+				"месяц у першай чвэрці з тварам",
+				"першая",
+				"твар",
+				"чвэрць",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Луната в първа четвърт с лице"),
+			keywords: &[
+				"Луната в първа четвърт с лице",
+				"космос",
+				"лице",
+				"луна",
+				"луната в първа четвърт с лице",
+				"четвърт",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some(
+				"ম\u{9c1}খের স\u{9be}থে চ\u{9be}\u{981}দের প\u{9cd}রথম এক চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
+			),
+			keywords: &[
+				"চ\u{9be}\u{981}দ",
+				"মহ\u{9be}ক\u{9be}শ",
+				"ম\u{9c1}খ",
+				"ম\u{9c1}খের স\u{9be}থে চ\u{9be}\u{981}দের প\u{9cd}রথম এক চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("penn loar vihan ar cʼhresk"),
+			keywords: &["loar", "penn", "penn loar vihan ar cʼhresk"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("prva četvrtina lice"),
+			keywords: &["lice", "mjesec", "prva četvrtina lice"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("lluna en el primer quart amb cara"),
+			keywords: &[
+				"cara",
+				"creixent",
+				"espai",
+				"lluna",
+				"lluna en el primer quart amb cara",
+				"quart",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎢᎬᏱ ᎩᏄᏘᏗ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ"),
+			keywords: &["ᎢᎬᏱ ᎩᏄᏘᏗ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ", "ᎤᎧᏛ", "ᎩᏄᏘᏗ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("měsíc v první čtvrti s obličejem"),
+			keywords: &[
+				"dorůstající",
+				"dorůstá",
+				"fáze měsíce",
+				"měsíc",
+				"měsíc v první čtvrti s obličejem",
+				"obličej",
+				"počasí",
+				"půlměsíc",
+				"smajlík",
+				"tvář",
+				"vesmír",
+				"výraz",
+				"čtvrť",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("lleuad chwarter cyntaf gydag wyneb"),
+			keywords: &["chwarter", "gofod", "lleuad", "lleuad chwarter cyntaf gydag wyneb", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("måne med ansigt 1. fjerdedel"),
+			keywords: &["halvmåne", "måne", "måne med ansigt 1. fjerdedel", "måneansigt"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Mondsichel mit Gesicht links"),
+			keywords: &["Gesicht", "Mond", "Mondsichel", "Mondsichel mit Gesicht links", "Weltall"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("σελήνη πρώτου τετάρτου με πρόσωπο"),
+			keywords: &[
+				"διάστημα",
+				"πρόσωπο",
+				"σελήνη",
+				"σελήνη πρώτου τετάρτου με πρόσωπο",
+				"τέταρτο",
+				"φεγγάρι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("first quarter moon face"),
+			keywords: &["face", "first", "moon", "quarter", "space"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("luna de cuarto creciente con cara"),
+			keywords: &[
+				"cara",
+				"creciente",
+				"cuarto",
+				"espacio",
+				"luna",
+				"luna de cuarto creciente con cara",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"cara",
+				"creciente",
+				"cuarto",
+				"luna",
+				"luna de cuarto creciente con cara",
+				"media",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("näoga kasvav kuu"),
+			keywords: &["ilm", "kosmos", "kuu", "nägu", "näoga kasvav kuu", "poolkuu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("lehen ilargi-laurdena aurpegiarekin"),
+			keywords: &[
+				"aurpegi",
+				"eguraldi",
+				"espazio",
+				"ilargi",
+				"ilargi-laurdena ezkerrera begira",
+				"lehen ilargi-laurdena aurpegiarekin",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("صورت یک\u{200c}چهارم اول"),
+			keywords: &[
+				"آب\u{200c}وهوا",
+				"اول",
+				"تربیع",
+				"صورت",
+				"صورت هلال اول",
+				"فضا",
+				"ماه",
+				"نخست",
+				"یک\u{200c}چهارم",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kasvava puolikuu kasvoilla"),
+			keywords: &[
+				"kasvava puolikuu kasvoilla",
+				"kasvot",
+				"kuu",
+				"puolikuu",
+				"sää",
+				"taivaankappale",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("first quarter moon na may mukha"),
+			keywords: &["buwan", "first quarter", "first quarter moon na may mukha", "mukha", "quarter"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("andlit á vaksandi mána"),
+			keywords: &["andlit", "andlit á vaksandi mána", "hálvmáni", "máni", "vaksandi"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("premier quartier de lune avec visage"),
+			keywords: &[
+				"croissant de lune",
+				"espace",
+				"lune",
+				"lune à visage",
+				"nuit",
+				"premier quartier de lune",
+				"premier quartier de lune avec visage",
+				"quartier",
+				"visage",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["lune", "premier quartier", "visage"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("céad cheathrú na gealaí le haghaidh"),
+			keywords: &[
+				"aghaidh",
+				"aghaidh ghealaí",
+				"ceathrú",
+				"corrán gealaí le haghaidh",
+				"céad cheathrú na gealaí le haghaidh",
+				"gealach",
+				"spás",
+				"éadan",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("solas ùr na gealaich le aodann"),
+			keywords: &[
+				"aodann",
+				"ceathramh",
+				"gealach",
+				"gealach sa chiad cheathramh le aodann",
+				"solas ùr na gealaich le aodann",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lúa en cuarto crecente con cara"),
+			keywords: &["cara", "crecente", "cuarto", "lúa", "lúa en cuarto crecente con cara"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ચહ\u{ac7}રાવાળો શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર"),
+			keywords: &[
+				"અર\u{acd}ધ ચ\u{a82}દ\u{acd}ર",
+				"અર\u{acd}ધ ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો",
+				"ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રા સાથ\u{ac7}નો અર\u{acd}ધ ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રા સાથ\u{ac7}નો ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રાવાળો શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રો",
+				"શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("wata na farkon kwata tare da fuska"),
+			keywords: &[
+				"fuska",
+				"kwata",
+				"samaniya",
+				"wata",
+				"wata mai fuska",
+				"wata na farkon kwata tare da fuska",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("wata na farkon kwata tare da fuska"),
+			keywords: &[
+				"fuska",
+				"kwata",
+				"samaniya",
+				"wata",
+				"wata mai fuska",
+				"wata na farkon kwata tare da fuska",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("פני סהר מתמלא"),
+			keywords: &["ירח", "סהר", "פני סהר מתמלא", "פנים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("चौथाई माह क\u{947} चा\u{901}द वाला दाई\u{902} ओर च\u{947}हरा"),
+			keywords: &[
+				"चा\u{902}द",
+				"च\u{947}हरा",
+				"च\u{947}हर\u{947} वाला चा\u{902}द",
+				"चौथाई माह क\u{947} चा\u{901}द वाला दाई\u{902} ओर च\u{947}हरा",
+				"चौथाई माह क\u{947} चा\u{902}द वाला च\u{947}हरा",
+				"पहल\u{947} चौथाई माह का चा\u{902}द",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("mjesec prve četvrti s licem"),
+			keywords: &["lice", "mjesec", "mjesec prve četvrti s licem", "svemir", "vrijeme", "četvrt"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("első negyedben lévő hold arccal"),
+			keywords: &[
+				"arc",
+				"első negyed",
+				"első negyedben lévő hold arccal",
+				"hold",
+				"holdfázisok",
+				"ég",
+				"éjszaka",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("լուսինն առաջին քառորդում դեմքով"),
+			keywords: &[
+				"դեմք",
+				"եղանակ",
+				"լուսին",
+				"լուսինն առաջին քառորդում դեմքով",
+				"տիեզերք",
+				"քառորդ",
+			],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("wajah bulan perbani awal"),
+			keywords: &[
+				"antariksa",
+				"awal",
+				"bulan",
+				"kuartal",
+				"kuarter",
+				"luar angkasa",
+				"muka",
+				"perbani",
+				"wajah",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọnwa mbụ nke mmalite-afọ nwere ihu"),
+			keywords: &["ihu", "mbụ nke mmalite-afọ", "ọnwa", "ọnwa mbụ nke mmalite-afọ nwere ihu"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fyrsta kvartil tungls með andliti"),
+			keywords: &[
+				"andlit",
+				"fyrsta kvartil tungls",
+				"fyrsta kvartil tungls með andliti",
+				"máni",
+				"tungl",
+				"tunglsigð",
+			],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("faccina primo quarto di luna"),
+			keywords: &[
+				"cielo",
+				"faccina",
+				"faccina primo quarto di luna",
+				"luna",
+				"luna con faccina",
+				"natura",
+				"notte",
+				"primo quarto di luna",
+				"quarto di luna con faccina",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("顔のある上弦の月"),
+			keywords: &["上弦の月", "半月", "月", "顔", "顔のある上弦の月"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("rai bulan separo marep ngiwa"),
+			keywords: &["bulan", "rai", "rai bulan separo marep ngiwa", "sabit", "separo"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მთვარის პირველი მეოთხედი სახით"),
+			keywords: &[
+				"ამინდი",
+				"კოსმოსი",
+				"მეოთხედი",
+				"მთვარე",
+				"მთვარის პირველი მეოთხედი სახით",
+				"სახე",
+			],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("беті бар бірінші ширек айы"),
+			keywords: &["ай", "ауа райы", "бет", "беті бар бірінші ширек айы", "ширек", "ғарыш"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("måne med ansigt første kvarter"),
+			keywords: &["måne", "måne med ansigt første kvarter", "måneansigt"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខច\u{17c6}ន\u{17b7}តខែបែទៅឆ\u{17d2}វេង"),
+			keywords: &[
+				"ច\u{17c6}ន\u{17b7}តខែ",
+				"ទៅឆ\u{17d2}វេង",
+				"ម\u{17bb}ខ",
+				"ម\u{17bb}ខច\u{17c6}ន\u{17b7}តខែបែទៅឆ\u{17d2}វេង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರನ ಮುಖ"),
+			keywords: &[
+				"ಅರ\u{ccd}ಧಚಂದ\u{ccd}ರ",
+				"ಆಕಾಶ",
+				"ಕಾಲುಭಾಗ",
+				"ಚಂದ\u{ccd}ರ",
+				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
+				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರನ ಮುಖ",
+				"ಬಾಲಚಂದ\u{ccd}ರ",
+				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
+				"ಮುಖ",
+				"ಮುಖದ\u{cca}ಂದ\u{cbf}ಗ\u{cbf}ನ ಚಂದ\u{ccd}ರ",
+				"ಮುಖದ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕಾಲುಭಾಗದ ಚಂದ\u{ccd}ರ",
+				"ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರನ ಮುಖ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("얼굴이 있는 초승달"),
+			keywords: &["달", "달님", "얼굴", "얼굴이 있는 초승달", "우주"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पयल\u{94d}या प\u{902}दरशीच\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो"),
+			keywords: &[
+				"च\u{902}द\u{94d}र",
+				"च\u{947}रो",
+				"प\u{902}दरस",
+				"पयल\u{94d}या प\u{902}दरशीच\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жартысы толгон айдын бети"),
+			keywords: &["ай", "бет", "жартысы толгон", "жартысы толгон айдын бети", "космос"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("zouhuelenden Hallefmoundgesiicht"),
+			keywords: &["Gesiicht", "Hallef", "Mound", "Véierel", "zouhuelenden Hallefmoundgesiicht"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງທຳອ\u{eb4}ດ"),
+			keywords: &[
+				"ເຄ\u{eb4}\u{ec8}ງດວງ",
+				"ເດ\u{eb7}ອນ",
+				"ໜ\u{ec9}າ",
+				"ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງ",
+				"ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງທຳອ\u{eb4}ດ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("priešpilnio mėnulis su veidu"),
+			keywords: &[
+				"ketvirtis",
+				"kosmosas",
+				"mėnulis",
+				"priešpilnio mėnulis su veidu",
+				"priešpilnis",
+				"veidas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("augoša mēness sirpja seja"),
+			keywords: &["augoša mēness sirpja seja", "augošs", "mēness", "seja", "sirpis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("marama ahotū whai mata"),
+			keywords: &["hauwhā", "marama", "marama ahotū whai mata", "mata"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("прва четвртина на месечината со лице"),
+			keywords: &[
+				"вселена",
+				"лице",
+				"месечина",
+				"прва",
+				"прва четвртина на месечината со лице",
+				"четврт",
+				"четвртина",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം"),
+			keywords: &[
+				"അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം",
+				"അർധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം",
+				"ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
+				"ചന\u{d4d}ദ\u{d4d}രനിൽ മ\u{d41}ഖം",
+				"ചന\u{d4d}ദ\u{d4d}രൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("нүүртэй эхний хагас сар"),
+			keywords: &["нүүр", "нүүртэй эхний хагас сар", "сар", "хагас", "цаг агаар"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("श\u{941}क\u{94d}लपक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा"),
+			keywords: &[
+				"क\u{943}ष\u{94d}ण पक\u{94d}षातील च\u{902}द\u{94d}र",
+				"च\u{902}द\u{94d}र",
+				"चत\u{941}र\u{94d}थी",
+				"चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
+				"चत\u{941}र\u{94d}थीच\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
+				"च\u{947}हरा",
+				"च\u{947}हरा असल\u{947}ला चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
+				"च\u{947}हरा असल\u{947}ली च\u{902}द\u{94d}रकोर",
+				"श\u{941}क\u{94d}ल पक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा",
+				"श\u{941}क\u{94d}लपक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("muka bulan suku pertama"),
+			keywords: &["angkasa lepas", "bulan", "muka", "pertama", "suku"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("wiċċ tal-ewwel kwart tal-qamar"),
+			keywords: &["kwart", "qamar", "wiċċ", "wiċċ tal-ewwel kwart tal-qamar"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("လဆန\u{103a}းစ မျက\u{103a}န\u{103e}ာ"),
+			keywords: &[
+				"မျက\u{103a}န\u{103e}ာ",
+				"လ",
+				"လဆန\u{103a}းစ မျက\u{103a}န\u{103e}ာ",
+				"လေးပ\u{102f}\u{1036}တစ\u{103a}ပ\u{102f}\u{1036}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("अन\u{941}हारको आक\u{943}ति भएको पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा"),
+			keywords: &[
+				"अन\u{941}हार",
+				"अन\u{941}हारको आक\u{943}ति भएको पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा",
+				"एक चौ\u{902}थाइ",
+				"चन\u{94d}द\u{94d}रमा",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("maan met gezicht in eerste kwartier"),
+			keywords: &[
+				"avond",
+				"eerste kwartier",
+				"gezicht",
+				"kwartier",
+				"maan",
+				"maan in eerste kwartier met gezicht",
+				"maan met gezicht in eerste kwartier",
+				"ruimte",
+				"slapen",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("nymåne med andlet"),
+			keywords: &["kvartmåne med andlet", "måneandlet", "nymåne med andlet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}"),
+			keywords: &[
+				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ଖ",
+				"ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ପ\u{b4d}ରଥମ ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}",
+				"ମ\u{b41}ଖ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ"),
+			keywords: &[
+				"ਚਿਹਰਾ",
+				"ਚ\u{a70}ਦ",
+				"ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
+				"ਚ\u{a70}ਦਰਮਾ",
+				"ਚ\u{a70}ਨ",
+				"ਤਿਮਾਹੀ",
+				"ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
+				"ਪਹਿਲਾ ਤਿਮਾਹੀ ਚ\u{a70}ਦ",
+				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
+				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਦਾ ਚ\u{a70}ਦ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("شکل نال چاند دا پہلا چوتھائی حصہ"),
+			keywords: &["دی شکل", "شکل نال چاند دا پہلا چوتھائی حصہ", "چاند", "چوتھہ حص\u{651}ہ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Fẹ\u{301}st Kwọ\u{301}ta Mún Fes"),
+			keywords: &["Fes", "Fẹ\u{301}st Kwọ\u{301}ta Mún Fes", "Kwọ\u{301}ta", "Mun"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("pierwsza kwadra księżyca z twarzą"),
+			keywords: &[
+				"bajka",
+				"księżyc",
+				"księżyc z twarzą",
+				"noc",
+				"pierwsza kwadra",
+				"pierwsza kwadra księżyca",
+				"pierwsza kwadra księżyca z twarzą",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("په لومړۍ ربع سپوږمۍ مخ"),
+			keywords: &["د لومړۍ ربع سپوږمۍ مخ", "ربع", "سپوږمۍ", "مخ", "په لومړۍ ربع سپوږمۍ مخ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("rosto da lua de quarto crescente"),
+			keywords: &["crescente", "lua", "noite", "quarto", "rosto"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("lua em quarto crescente com cara"),
+			keywords: &[
+				"cara",
 				"espaço",
 				"lua",
-				"lua em quarto crescente",
+				"lua em quarto crescente com cara",
 				"meteorologia",
+				"quarto",
 				"quarto crescente",
-				"quatro",
 			],
 		},
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("hukñiqi wañu killa"),
-			keywords: &["hukñiqi wañu", "hukñiqi wañu killa", "killa"],
+			tts:      Some("chawpi killa uya"),
+			keywords: &["chawpi killa uya", "killa", "uya"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("lună în primul pătrar"),
-			keywords: &["lună", "lună în primul pătrar", "pătrar", "spațiu", "unu"],
+			tts:      Some("lună cu față în primul pătrar"),
+			keywords: &["față", "lună", "lună cu față în primul pătrar", "pătrar", "spațiu", "unu"],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-218"), keywords: &["E10-218"] },
+		crate::Annotation { lang: "root", tts: Some("E10-226"), keywords: &["E10-226"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("луна в первой четверти"),
-			keywords: &["луна", "луна в первой четверти", "месяц", "небо", "четверть"],
+			tts:      Some("луна в первой четверти с лицом"),
+			keywords: &[
+				"лицо",
+				"луна",
+				"луна в первой четверти с лицом",
+				"месяц",
+				"небо",
+				"половинка луны",
+				"четвертинка луны",
+				"четверть",
+				"четверть луны",
+			],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("icya kane cya mbere cy’ukwezi"),
-			keywords: &["icya kane cya mbere cy’ukwezi", "icyakane", "ukwezi"],
+			tts:      Some("icya kane cya mbere cy’ukwezi gifite isura"),
+			keywords: &["icya kane cya mbere cy’ukwezi gifite isura", "icyakane", "isura", "ukwezi"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("پهرين عشري جو چنڊ"),
-			keywords: &["ٽه ماهي", "پهرين عشري جو چنڊ", "چنڊ"],
+			tts:      Some("چهري سان گڏ پهري عشري جو چنڊ"),
+			keywords: &["عشرو", "چنڊ", "چهرو", "چهري سان گڏ پهري عشري جو چنڊ"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ"),
+			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ"),
 			keywords: &[
 				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
 				"ක\u{dcf}ලග\u{dd4}ණය",
-				"චත\u{dd4}ර\u{dca}ථක",
-				"පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ",
+				"චත\u{dd4}ර\u{dca}ථකය",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ",
 				"සඳ",
 			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("prvá štvrť mesiaca"),
+			tts:      Some("mesiac v prvej štvrti s tvárou"),
 			keywords: &[
-				"dorastajúci",
+				"dorastá",
 				"mesiac",
-				"mesiac v prvej štvrtine",
-				"noc",
-				"nočná obloha",
+				"mesiac v prvej štvrti s tvárou",
+				"mesiac v prvej štvrtine s tvárou",
 				"počasie",
-				"prvá štvrť mesiaca",
 				"príroda",
+				"tvár",
 				"vesmír",
 				"štvrtina",
 				"štvrť",
@@ -2498,62 +6749,82 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("polovično osvetljena luna v prvem krajcu"),
-			keywords: &["luna", "polovično osvetljena luna v prvem krajcu", "vesolje", "vreme", "četrt"],
+			tts:      Some("polovično osvetljena luna v prvem krajcu z obrazom"),
+			keywords: &[
+				"luna",
+				"obraz",
+				"polovično osvetljena luna v prvem krajcu z obrazom",
+				"vesolje",
+				"vreme",
+				"četrt",
+			],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("rubaca hore ee dayaxa"),
-			keywords: &["dayax", "rubac", "rubaca hore ee dayaxa"],
+			tts:      Some("rubaca hore ee waji dayaxeedka"),
+			keywords: &[
+				"dayax",
+				"rubac",
+				"rubaca hore ee waji dayaxeedka",
+				"rubaca hore waji dayaxeedka",
+				"waji",
+			],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("hëna e çerekut të parë"),
-			keywords: &["hapësirë", "hëna e çerekut të parë", "hënë", "moti", "çerek"],
+			tts:      Some("hëna e çerekut të parë me fytyrë"),
+			keywords: &["fytyrë", "hapësirë", "hëna e çerekut të parë me fytyrë", "hënë", "çerek"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("месец у првој четврти"),
-			keywords: &["месец", "прва", "свeмир", "чeтврт"],
+			tts:      Some("месец у првој четврти са лицем"),
+			keywords: &["лице", "месец", "прва", "свeмир", "чeтврт"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation {
 			lang:     "sr_Cyrl_BA",
-			tts:      Some("мјесец у првој четврти"),
-			keywords: &["мјесец", "мјесец у првој четврти", "чeтврт"],
+			tts:      Some("мјесец у првој четврти са лицем"),
+			keywords: &["лице", "мјесец", "мјесец у првој четврти са лицем", "чeтврт"],
 		},
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("mesec u prvoj četvrti"),
-			keywords: &["mesec", "prva", "svemir", "četvrt"],
+			tts:      Some("mesec u prvoj četvrti sa licem"),
+			keywords: &["lice", "mesec", "prva", "svemir", "četvrt"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation {
 			lang:     "sr_Latn_BA",
-			tts:      Some("mjesec u prvoj četvrti"),
-			keywords: &["mjesec", "mjesec u prvoj četvrti", "četvrt"],
+			tts:      Some("mjesec u prvoj četvrti sa licem"),
+			keywords: &["lice", "mjesec", "mjesec u prvoj četvrti sa licem", "četvrt"],
 		},
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("tilltagande halvmåne"),
-			keywords: &["kvarts", "måne", "tilltagande halvmåne"],
+			tts:      Some("tilltagande halvmåne med ansikte"),
+			keywords: &[
+				"ansikte",
+				"gubben i månen",
+				"halvmåne",
+				"månansikte",
+				"måne",
+				"tilltagande halvmåne med ansikte",
+			],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("mwezi wa robo ya kwanza"),
+			tts:      Some("mwezi wa robo ya kwanza wenye uso"),
 			keywords: &[
 				"anga",
 				"hali ya hewa",
-				"kushikwa kwa mwezi",
 				"mwezi",
-				"mwezi wa robo ya kwanza",
+				"mwezi wa robo ya kwanza wenye uso",
 				"robo",
+				"uso",
 			],
 		},
 		#[cfg(feature = "sw_KE")]
@@ -2561,81 +6832,94 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("அரைப\u{bbe}தி வளர\u{bcd}பிறை"),
+			tts:      Some("அரைப\u{bbe}தி வளர\u{bcd}பிறை முகம\u{bcd}"),
 			keywords: &[
-				"அரைநிலவு",
-				"அரைப\u{bbe}தி வளர\u{bcd}பிறை",
-				"இரவு",
+				"அரைப\u{bbe}தி வளர\u{bcd}பிறை முகம\u{bcd}",
 				"நில\u{bbe}",
-				"வளர\u{bcd}பிறை",
+				"முகம\u{bcd}",
+				"வளர\u{bcd}பிறை முகம\u{bcd}",
 			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("మ\u{c4a}దట\u{c3f} న\u{c3e}లుగవ వంతు చంద\u{c4d}రుడు"),
+			tts:      Some("న\u{c3e}లుగవ వంతు చంద\u{c4d}రున\u{c3f} ముఖం"),
 			keywords: &[
 				"అంతర\u{c3f}క\u{c4d}షం",
 				"చంద\u{c4d}రుడు",
+				"చంద\u{c4d}రున\u{c3f} ముఖం",
 				"న\u{c3e}లుగవ",
+				"న\u{c3e}లుగవ వంతు చంద\u{c4d}రున\u{c3f} ముఖం",
+				"న\u{c46}లవంక",
+				"ముఖం",
 				"మూన\u{c4d}",
-				"మ\u{c4a}దట\u{c3f} న\u{c3e}లుగవ వంతు చంద\u{c4d}రుడు",
-				"మ\u{c4a}దట\u{c3f} వంతు చంద\u{c4d}రుడు",
-				"స\u{c4d}ప\u{c46}స\u{c4d}",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("марҳилаи чоряки якуми моҳ"),
-			keywords: &["марҳилаи чоряки якуми моҳ", "моҳ", "чоряк"],
+			tts:      Some("чоряки якуми моҳ бо чеҳра"),
+			keywords: &["моҳ", "рӯй", "чоряк", "чоряки якуми моҳ бо чеҳра"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("พระจ\u{e31}นทร\u{e4c}คร\u{e36}\u{e48}งซ\u{e35}กขวา"),
-			keywords: &["คร\u{e36}\u{e48}งซ\u{e35}ก", "ดวงดาว", "พระจ\u{e31}นทร\u{e4c}", "อวกาศ"],
+			tts:      Some("หน\u{e49}าพระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวขวา"),
+			keywords: &[
+				"ซ\u{e35}ก",
+				"พระจ\u{e31}นทร\u{e4c}",
+				"หน\u{e49}า",
+				"อวกาศ",
+				"เส\u{e35}\u{e49}ยว",
+			],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ቀዳማይ ርብዒ ወርሒ"),
-			keywords: &["መጀመርታ", "ርብዒ ዓመት", "ቦታ", "ወርሒ"],
+			tts:      Some("ቀዳማይ ርብዒ ወርሒ ገጽ"),
+			keywords: &["መጀመርታ", "ርብዒ ዓመት", "ቦታ", "ወርሒ", "ገጽ"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("birinji çärýek aý"),
-			keywords: &["aý", "birinji çärýek aý", "çarýek"],
+			tts:      Some("ýüzli birinji çärýek aý"),
+			keywords: &["aý", "çärýek", "ýüz", "ýüzli birinji çärýek aý"],
 		},
 		#[cfg(feature = "to")]
 		crate::Annotation {
 			lang:     "to",
-			tts:      Some("māhina tuʻu efiafi"),
-			keywords: &["māhina", "māhina tuʻu efiafi", "vaeua"],
+			tts:      Some("mata māhina tuʻu efiafi"),
+			keywords: &["kalipa", "mata", "mata māhina tuʻu efiafi", "māhina"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("ilk dördün"),
-			keywords: &["ay", "ilk dördün", "uzay"],
+			tts:      Some("ilk dördün ay yüzü"),
+			keywords: &[
+				"ay",
+				"dördün",
+				"ilk dördün",
+				"ilk dördün ay yüzü",
+				"yüz",
+				"yüzü olan ay",
+				"yüzü olan ilk dördün",
+			],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("باش چارەك ئاي"),
-			keywords: &["ئاي", "باش چارەك ئاي", "چارەك"],
+			tts:      Some("يۈزلۈك باش چارەك ئاي"),
+			keywords: &["ئاي", "يۈزلۈك باش چارەك ئاي", "چارەك"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("перша чверть місяця"),
+			tts:      Some("перша чверть місяця з обличчям"),
 			keywords: &[
 				"космос",
-				"луна",
 				"місяць",
-				"місяць у першій чверті",
-				"перша чверть місяця",
+				"обличчя",
+				"перша чверть місяця з обличчям",
 				"погода",
 				"чверть",
 			],
@@ -2643,76 +6927,1182 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("پہلے کوارٹر کا چاند"),
-			keywords: &["موسم", "پہلے کوارٹر کا چاند", "چاند", "کوارٹر"],
+			tts:      Some("پہلے کوارٹر کا چاند مع چہرہ"),
+			keywords: &["موسم", "پہلے کوارٹر کا چاند مع چہرہ", "چاند", "چہرہ"],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("birinchi chorakdagi oy"),
-			keywords: &["birinchi chorakdagi oy", "chorak", "koinot", "ob-havo", "oy"],
+			tts:      Some("birinchi chorakdagi oy qiyofasi"),
+			keywords: &["birinchi chorakdagi oy qiyofasi", "chorak", "koinot", "ob-havo", "oy", "yuz"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("trăng thượng huyền"),
-			keywords: &["mặt trăng", "phần tư", "trăng thượng huyền"],
+			tts:      Some("trăng thượng huyền hình mặt người"),
+			keywords: &["mặt", "phần tư", "trăng", "trăng thượng huyền hình mặt người"],
 		},
 		#[cfg(feature = "wo")]
 		crate::Annotation {
 			lang:     "wo",
-			tts:      Some("xaaju weer wu njëkk"),
-			keywords: &["weer wu njëkk", "xaaj", "xaaju weer wu njëkk"],
+			tts:      Some("weeru xaaj bu njëkk"),
+			keywords: &["kanam", "weer", "weeru xaaj bu njëkk", "xaaj bu njëkk"],
 		},
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("inyanga yekota yokuqala"),
-			keywords: &["ikota", "inyanga", "inyanga yekota yokuqala"],
+			tts:      Some("inyanga yekota yokuqala enobuso"),
+			keywords: &["ikota", "inyanga", "inyanga yekota yokuqala enobuso", "ubuso"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301}"),
-			keywords: &["Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301}", "ìdámẹ\u{301}rin", "òṣùpá"],
+			tts:      Some("Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301} Pẹ\u{300}lú Ojú"),
+			keywords: &[
+				"Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301} Pẹ\u{300}lú Ojú",
+				"ojú",
+				"ìdámẹ\u{301}rin",
+				"òṣùpá",
+			],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301}"),
-			keywords: &["Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301}", "ìdámɛ\u{301}rin", "òshùpá"],
+			tts:      Some("Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301} Pɛ\u{300}lú Ojú"),
+			keywords: &[
+				"Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301} Pɛ\u{300}lú Ojú",
+				"ojú",
+				"ìdámɛ\u{301}rin",
+				"òshùpá",
+			],
 		},
 		#[cfg(feature = "yue")]
 		crate::Annotation {
 			lang:     "yue",
-			tts:      Some("上弦月"),
-			keywords: &["上弦月", "四分之一", "月"],
+			tts:      Some("上弦月面"),
+			keywords: &["上弦月面", "四分之一", "月", "臉"],
 		},
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("上弦月"),
-			keywords: &["上弦月", "四分之一", "月"],
+			tts:      Some("上弦月面"),
+			keywords: &["上弦月面", "四分之一", "月", "脸"],
 		},
 		#[cfg(feature = "zh")]
-		crate::Annotation { lang: "zh", tts: Some("上弦月"), keywords: &["上弦月", "月亮"] },
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("微笑的上弦月"),
+			keywords: &["上弦月", "微笑的上弦月", "月亮", "蛾眉月"],
+		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("上弦月"),
-			keywords: &["上弦月", "月亮"],
+			tts:      Some("彎月臉朝左"),
+			keywords: &["上弦月", "彎月臉朝左", "月亮", "眉月"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["上弦月", "半月", "太空", "宇宙", "月亮", "月蝕"],
+			tts:      Some("上弦月嘅面孔"),
+			keywords: &[
+				"上弦月",
+				"上弦月嘅面孔",
+				"太空",
+				"宇宙",
+				"彎月",
+				"月亮",
+				"月亮臉",
+				"月亮面",
+				"臉孔",
+			],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("ikota yokuqala yenyanga"),
-			keywords: &["ikota", "ikota yokuqala yenyanga", "inyanga", "isimo sezulu", "umkhathi"],
+			tts:      Some("inyanga yekota lokuqala elinobuso"),
+			keywords: &[
+				"inyanga",
+				"inyanga yekota lokuqala elinobuso",
+				"isimo sezulu",
+				"ubuso",
+				"umkhathi",
+			],
+		},
+	],
+};
+#[doc = "🌜\u{fe0f}"]
+pub const LAST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🌜\u{fe0f}",
+	codepoint:            &[127772u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "last quarter moon face",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌝"]
+pub const FULL_MOON_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🌝",
+	codepoint:            &[127773u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "full moon face",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("volmaan met gesig"),
+			keywords: &["gesig", "helder", "maan", "ruimte", "vol", "volmaan", "volmaan met gesig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሙሉ ጨረቃ ከፊት ጋር"),
+			keywords: &[
+				"ህዋ",
+				"ሙሉ",
+				"ሙሉ ጨረቃ ከፊት ጋር",
+				"ብሩህ",
+				"የአየር ንብረት",
+				"ጨረቃ",
+				"ፈገግታ",
+				"ፊት",
+				"ፊት ያላት ሙሉ ጨረቃ",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("وجه البدر"),
+			keywords: &[
+				"بدر",
+				"بدر بوجه",
+				"ساطعة",
+				"طقس",
+				"فضاء",
+				"قمر",
+				"قمر مكتمل",
+				"كامل",
+				"وجه",
+				"وجه البدر",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9c2}ৰ\u{9cd}ণ চন\u{9cd}দ\u{9cd}ৰৰ ম\u{9c1}খ"),
+			keywords: &[
+				"উজ\u{9cd}জ\u{9cd}বল",
+				"চন\u{9cd}দ\u{9cd}ৰ",
+				"প\u{9c2}ৰ\u{9cd}ণ চন\u{9cd}দ\u{9cd}ৰৰ ম\u{9c1}খ",
+				"ম\u{9c1}খ",
+				"সম\u{9cd}প\u{9c2}ৰ\u{9cd}ণ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("üzü olan tam ay"),
+			keywords: &["ay", "hava", "kosmos", "parlaq", "tam", "üz", "üzü olan tam ay"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("поўня з тварам"),
+			keywords: &["космас", "месяц", "ноч", "поўня", "поўня з тварам", "яркі"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Луната в пълнолуние с лице"),
+			keywords: &["Луната в пълнолуние с лице", "космос", "лице", "луна", "пълна", "ярък"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ম\u{9c1}খের স\u{9be}থে প\u{9c2}র\u{9cd}ণ চ\u{9be}\u{981}দ"),
+			keywords: &[
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"উজ\u{9cd}জ\u{9cd}বল",
+				"চ\u{9be}\u{981}দ",
+				"প\u{9c2}র\u{9cd}ণ",
+				"মহ\u{9be}ক\u{9be}শ",
+				"ম\u{9c1}খ",
+				"ম\u{9c1}খের স\u{9be}থে প\u{9c2}র\u{9cd}ণ চ\u{9be}\u{981}দ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("penn loargann"),
+			keywords: &["loar", "loargann", "penn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("puni mjesec lice"),
+			keywords: &["lice", "mjesec", "puni mjesec lice"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("lluna plena amb cara"),
+			keywords: &["brillant", "cara", "lluna", "lluna plena amb cara", "plena"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎧᎵ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ"),
+			keywords: &["ᎢᎦᎯ", "ᎤᎧᏛ", "ᎧᎵ", "ᎧᎵ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("měsíc v úplňku s obličejem"),
+			keywords: &[
+				"fáze měsíce",
+				"jasný",
+				"měsíc",
+				"měsíc v úplňku s obličejem",
+				"noc",
+				"obličej",
+				"počasí",
+				"smajlík",
+				"tvář",
+				"vesmír",
+				"výraz",
+				"úplněk",
+				"úplněk s obličejem",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("lleuad lawn gydag wyneb"),
+			keywords: &["llachar", "llawn", "lleuad", "lleuad lawn gydag wyneb", "wyneb"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("fuldmåne med ansigt"),
+			keywords: &[
+				"fuldmåne",
+				"fuldmåne med ansigt",
+				"fuldmåneansigt",
+				"måne med ansigt",
+				"måneansigt",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Vollmond mit Gesicht"),
+			keywords: &["Gesicht", "Vollmond", "Vollmond mit Gesicht"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("πανσέληνος με πρόσωπο"),
+			keywords: &[
+				"γεμάτο",
+				"διάστημα",
+				"καιρός",
+				"πανσέληνος",
+				"πανσέληνος με πρόσωπο",
+				"πρόσωπο",
+				"φεγγάρι",
+				"φωτεινό",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("full moon face"),
+			keywords: &["bright", "face", "full", "moon"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("full-moon face"),
+			keywords: &["bright", "face", "full", "full-moon face", "moon"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("luna llena con cara"),
+			keywords: &["cara", "llena", "luna", "luna llena con cara"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["brillante", "brillar", "cara de luna", "cara luna llena", "luna", "luna llena"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["brillante", "cara", "llena", "luna", "luna llena con cara"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("näoga täiskuu"),
+			keywords: &["ere", "ilm", "kosmos", "kuu", "nägu", "näoga täiskuu", "täiskuu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ilargi betea aurpegiarekin"),
+			keywords: &[
+				"argi",
+				"aurpegi",
+				"bete",
+				"eguraldi",
+				"espazio",
+				"ilargi",
+				"ilargi betea aurpegiarekin",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("صورت ماه کامل"),
+			keywords: &["آب\u{200c}وهوا", "تمام", "روشن", "صورت", "صورت ماه کامل", "فضا", "ماه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("täysikuu kasvoilla"),
+			keywords: &["kasvot", "kirkas", "kuu", "sää", "täysikuu kasvoilla", "valo"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("full moon na may mukha"),
+			keywords: &["bilog na buwan", "buwan", "full moon", "full moon na may mukha", "mukha"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("andlit á fullmána"),
+			keywords: &["andlit", "andlit á fullmána", "fullmáni", "máni"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("pleine lune avec visage"),
+			keywords: &[
+				"lune",
+				"lune à visage",
+				"nuit",
+				"pleine lune",
+				"pleine lune avec visage",
+				"sourire",
+				"visage",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["lune", "pleine", "visage"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("aghaidh na gealaí láine"),
+			keywords: &[
+				"aghaidh",
+				"aghaidh ar ghealach",
+				"aghaidh ghealaí láine",
+				"aghaidh na gealaí láine",
+				"geal",
+				"gealach",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("gealach làn le aodann"),
+			keywords: &["aodann", "gealach", "gealach làn le aodann", "làn", "soilleir"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lúa chea con cara"),
+			keywords: &["cara", "chea", "lúa", "lúa chea con cara"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો"),
+			keywords: &[
+				"ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રાવાળો ચ\u{a82}દ\u{acd}ર",
+				"ચહ\u{ac7}રો",
+				"પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો",
+				"પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રવાળો ચહ\u{ac7}રો",
+				"પ\u{ac2}નમનો ચ\u{a82}દ\u{acd}ર",
+				"પ\u{ac2}ર\u{acd}ણ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("cikakken wata tare da fuska"),
+			keywords: &[
+				"cikakke",
+				"cikakken wata tare da fuska",
+				"cikar wata",
+				"fuska",
+				"fuskar cikakken wata",
+				"haske",
+				"wata",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("cikakken wata tare da fuska"),
+			keywords: &[
+				"cikakke",
+				"cikakken wata tare da fuska",
+				"cikar wata",
+				"fuska",
+				"fuskar cikakken wata",
+				"haske",
+				"wata",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("פני ירח מלא"),
+			keywords: &["ירח", "מלא", "פני ירח מלא", "פנים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("प\u{942}र\u{947} चा\u{901}द वाला च\u{947}हरा"),
+			keywords: &[
+				"चा\u{902}द",
+				"च\u{947}हरा",
+				"च\u{947}हर\u{947} वाला चा\u{902}द",
+				"च\u{947}हर\u{947} वाला प\u{942}रा चा\u{902}द",
+				"प\u{942}रा",
+				"प\u{942}र\u{947} चा\u{901}द वाला च\u{947}हरा",
+				"प\u{942}र\u{947} चा\u{902}द वाला च\u{947}हरा",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("puni mjesec s licem"),
+			keywords: &[
+				"lice",
+				"mjesec",
+				"puni",
+				"puni mjesec s licem",
+				"smajlić",
+				"svemir",
+				"vedro",
+				"vrijeme",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("telihold arccal"),
+			keywords: &["arc", "hold", "holdfázisok", "telihold", "telihold arccal", "ég", "éjszaka"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("դեմքով լիալուսին"),
+			keywords: &["դեմք", "դեմքով լիալուսին", "եղանակ", "լիալուսին", "լուսին", "պայծառ", "տիեզերք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("wajah bulan purnama"),
+			keywords: &["angkasa", "bulan", "cuaca", "purnama", "terang", "wajah"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọnwa zuru òkè nwere ihu"),
+			keywords: &["ihu", "zuru òkè", "ìhè", "ọnwa", "ọnwa zuru òkè nwere ihu"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fullt tungl með andliti"),
+			keywords: &["andlit", "bjart", "fullt tungl", "fullt tungl með andliti", "máni", "tungl"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("faccina luna piena"),
+			keywords: &[
+				"faccina",
+				"faccina con la luna",
+				"faccina della luna",
+				"faccina luna piena",
+				"luna",
+				"luna con faccina",
+				"luna piena",
+				"luna piena con faccina",
+				"natura",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("顔のある満月"),
+			keywords: &["月", "満月", "顔", "顔のある満月"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("rai purnama sidi"),
+			keywords: &["bulan", "padhang", "purnama", "rai", "rai purnama sidi"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სავსე მთვარე სახით"),
+			keywords: &["ამინდი", "კაშკაშა", "კოსმოსი", "მთვარე", "სავსე", "სავსე მთვარე სახით", "სახე"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("толған ай беті"),
+			keywords: &["ай", "ашық", "бет", "беті бейнеленген толық ай", "толы", "толған ай беті"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("fuldmåneansigt"),
+			keywords: &[
+				"fuldmåne",
+				"fuldmåne med ansigt",
+				"fuldmåneansigt",
+				"måne med ansigt",
+				"måneansigt",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខព\u{17d2}រះចន\u{17d2}ទពេញវង\u{17cb}"),
+			keywords: &[
+				"ពេញវង\u{17cb}",
+				"ព\u{17d2}រះចន\u{17d2}ទ",
+				"ម\u{17bb}ខ",
+				"ម\u{17bb}ខព\u{17d2}រះចន\u{17d2}ទពេញវង\u{17cb}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಪ\u{cc2}ರ\u{ccd}ಣ ಚಂದ\u{ccd}ರನ ಮುಖ"),
+			keywords: &[
+				"ಚಂದ\u{ccd}ರ",
+				"ಪ\u{cc2}ರ\u{ccd}ಣ",
+				"ಪ\u{cc2}ರ\u{ccd}ಣ ಚಂದ\u{ccd}ರನ ಮುಖ",
+				"ಪ\u{cc2}ರ\u{ccd}ಣಚಂದ\u{ccd}ರ",
+				"ಪ\u{ccd}ರಕಾಶಮಾನ",
+				"ಮುಖ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("얼굴이 있는 보름달"),
+			keywords: &["달", "달님", "밝음", "얼굴", "얼굴이 있는 보름달"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("प\u{941}नव\u{947}च\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो"),
+			keywords: &[
+				"च\u{902}द\u{94d}र",
+				"च\u{947}रो",
+				"प\u{941}नव",
+				"प\u{941}नव\u{947}च\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो",
+				"प\u{94d}रकाश",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("толгон айдын бети"),
+			keywords: &["ай", "бет", "жарык", "толгон", "толгон айдын бети"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Vollmoundgesiicht"),
+			keywords: &["Gesiicht", "Mound", "Vollmoundgesiicht", "hell", "voll"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໜ\u{ec9}າເດ\u{eb7}ອນເຕ\u{eb1}ມດວງ"),
+			keywords: &["ເດ\u{eb7}ອນ", "ເຕ\u{eb1}ມດວງ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າເດ\u{eb7}ອນເຕ\u{eb1}ມດວງ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pilnatis su veidu"),
+			keywords: &["mėnulis", "pilnatis", "pilnatis su veidu", "veidas", "šviesu"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("pilnmēness seja"),
+			keywords: &["mēness", "pilnmēness", "seja"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("rākaunui whai mata"),
+			keywords: &["kanapa", "kī", "marama", "mata", "rākaunui whai mata"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("полна месечина со лице"),
+			keywords: &["ведро", "вселена", "лице", "месечина", "полна", "полна месечина со лице"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രന\u{d4d}റെ മ\u{d41}ഖം"),
+			keywords: &[
+				"ചന\u{d4d}ദ\u{d4d}രനിൽ മ\u{d41}ഖം",
+				"ചന\u{d4d}ദ\u{d4d}രൻ",
+				"പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രന\u{d4d}റെ മ\u{d41}ഖം",
+				"പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("нүүртэй бүтэн сар"),
+			keywords: &["бүтэн", "гэгээтэй", "нүүр", "нүүртэй бүтэн сар", "сар"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पौर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा"),
+			keywords: &[
+				"च\u{902}द\u{94d}र",
+				"चमकणारा",
+				"च\u{947}हरा",
+				"च\u{947}हरा असल\u{947}ला प\u{942}र\u{94d}ण च\u{902}द\u{94d}र",
+				"च\u{947}हरा असल\u{947}ला पौर\u{94d}णिम\u{947}चा च\u{902}द\u{94d}र",
+				"प\u{942}र\u{94d}ण",
+				"पोर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
+				"पौर\u{94d}णिमा",
+				"पौर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("muka bulan purnama"),
+			keywords: &["bulan", "muka", "penuh", "terang"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("wiċċ ta’ qamar sħiħ"),
+			keywords: &["qamar", "sħiħ", "tleqq", "wiċċ", "wiċċ ta’ qamar sħiħ"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("လပြည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ"),
+			keywords: &[
+				"တောက\u{103a}ပ",
+				"မျက\u{103a}န\u{103e}ာ",
+				"လ",
+				"လပြည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ",
+				"အပြည\u{1037}\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}वर\u{942}पसहितको प\u{942}र\u{94d}णिमा"),
+			keywords: &[
+				"अन\u{941}हार",
+				"उज\u{94d}यालो",
+				"चन\u{94d}द\u{94d}रमा",
+				"प\u{942}र\u{94d}ण चन\u{94d}द\u{94d}र",
+				"स\u{94d}वर\u{942}पसहितको प\u{942}र\u{94d}णिमा",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("volle maan met gezicht"),
+			keywords: &[
+				"avond",
+				"gezicht",
+				"helder",
+				"heldere maan",
+				"maan",
+				"ruimte",
+				"vol",
+				"volle maan",
+				"volle maan met gezicht",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("fullmåneandlet"),
+			keywords: &[
+				"andlet",
+				"fullmåne",
+				"fullmåne med andlet",
+				"fullmåneandlet",
+				"måne",
+				"måne med andlet",
+			],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}"),
+			keywords: &[
+				"ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ",
+				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}",
+				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ\u{b3f}ମ\u{b3e}",
+				"ମ\u{b41}ଖ",
+				"ମ\u{b41}ଖ ସହ\u{b3f}ତ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ମ\u{b41}ଖ ସହ\u{b3f}ତ ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ\u{b3f}ମ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪ\u{a42}ਰ\u{a47} ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ"),
+			keywords: &[
+				"ਚਮਕੀਲਾ",
+				"ਚਿਹਰਾ",
+				"ਚਿਹਰ\u{a47} ਨਾਲ ਪ\u{a42}ਰਾ ਚ\u{a70}ਦ",
+				"ਚ\u{a70}ਦ",
+				"ਚ\u{a70}ਨ",
+				"ਪ\u{a42}ਰਾ",
+				"ਪ\u{a42}ਰਾ ਚ\u{a70}ਦਾ",
+				"ਪ\u{a42}ਰ\u{a47} ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
+				"ਮ\u{a42}\u{a70}ਹ",
+				"ਮ\u{a42}\u{a70}ਹ ਨਾਲ ਪ\u{a42}ਰਾ ਚ\u{a70}ਦ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("شکل نال پورا چاند"),
+			keywords: &["دی شکل", "روشن", "شکل نال پورا چاند", "پورا", "چاند"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Fúl Mun Fes"),
+			keywords: &["Brait", "Fes", "Ful", "Fúl Mun Fes", "Mun"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("pełnia z twarzą"),
+			keywords: &[
+				"bajka",
+				"baśń",
+				"księżyc",
+				"księżyc w pełni",
+				"księżyc w pełni z twarzą",
+				"księżyc z twarzą",
+				"pełnia",
+				"pełnia z twarzą",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د بشپړه سپوږمۍ مخ"),
+			keywords: &["بشپړه", "د بشپړه سپوږمۍ مخ", "سپوږمۍ", "مخ", "پړقېدونکې"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("rosto da lua cheia"),
+			keywords: &[
+				"cheia",
+				"lua",
+				"lua cheia com rosto",
+				"lua com rosto",
+				"rosto",
+				"rosto da lua cheia",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("lua cheia com cara"),
+			keywords: &[
+				"brilhante",
+				"cara",
+				"cheia",
+				"espaço",
+				"lua",
+				"lua cheia com cara",
+				"meteorologia",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("hunta killa uya"),
+			keywords: &["chuya", "hunta", "killa", "uya"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("lună plină cu față"),
+			keywords: &["față", "lună plină", "lună plină cu față"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-228"), keywords: &["E10-228"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("полная луна с лицом"),
+			keywords: &[
+				"круглая",
+				"круглая луна",
+				"лицо",
+				"месяц",
+				"небо",
+				"полная луна",
+				"полная луна с лицом",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("inzora y’ukwezi ifite isura"),
+			keywords: &["cyuzuye", "gikeye", "inzora y’ukwezi ifite isura", "isura", "ukwezi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پوري چهري سان چنڊ"),
+			keywords: &["روشني", "پورو", "پوري چهري سان چنڊ", "چنڊ", "چهرو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ප\u{dd4}රසඳ"),
+			keywords: &[
+				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"ද\u{dd3}ප\u{dca}ත\u{dd2}මත\u{dca}",
+				"ප\u{dd6}ර\u{dca}ණ",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ප\u{dd4}රසඳ",
+				"සඳ",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("spln s tvárou"),
+			keywords: &[
+				"jas",
+				"mesiac",
+				"noc",
+				"nočná obloha",
+				"počasie",
+				"príroda",
+				"spln",
+				"spln s tvárou",
+				"tvár",
+				"vesmír",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("polna luna z obrazom"),
+			keywords: &["luna", "obraz", "polna luna z obrazom", "polno", "svetlo", "vesolje", "vreme"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("waji dayaxeed buuxa"),
+			keywords: &["buuxa", "dayax", "dhalaal", "waji", "waji dayaxeed buuxa"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("hënë e plotë me fytyrë"),
+			keywords: &["e ndritshme", "e plotë", "fytyrë", "hënë", "hënë e plotë me fytyrë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("пун месец са лицем"),
+			keywords: &["вeдрo", "лице", "месец", "пун"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("пун мјесец са лицем"),
+			keywords: &["вeдрo", "лице", "мјесец", "пун", "пун мјесец са лицем"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("pun mesec sa licem"),
+			keywords: &["lice", "mesec", "pun", "vedro"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("pun mjesec sa licem"),
+			keywords: &["lice", "mjesec", "pun", "pun mjesec sa licem", "vedro"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("fullmåne med ansikte"),
+			keywords: &[
+				"ansikte",
+				"fullmåne",
+				"fullmåne med ansikte",
+				"gubben i månen",
+				"månansikte",
+				"måne",
+			],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("uso unaokaa mwezi"),
+			keywords: &["anga", "hali ya hewa", "kamili", "kung’aa", "uso", "uso unaokaa mwezi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("முழுநில\u{bbe} முகம\u{bcd}"),
+			keywords: &[
+				"நில\u{bbe}",
+				"பிரக\u{bbe}சம\u{bcd}",
+				"பௌர\u{bcd}ணமி",
+				"முகம\u{bcd}",
+				"முழுநில\u{bbe} முகம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("పూర\u{c4d}ణ చంద\u{c4d}రున\u{c3f} ముఖం"),
+			keywords: &[
+				"నవ\u{c4d}వుతున\u{c4d}న చంద\u{c4d}రుడు",
+				"పూర\u{c4d}ణ చంద\u{c4d}రుడు",
+				"పూర\u{c4d}ణ చంద\u{c4d}రున\u{c3f} ముఖం",
+				"ముఖం",
+				"మూన\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("моҳи пурра бо чеҳра"),
+			keywords: &["моҳ", "моҳи пурра бо чеҳра", "пурра", "равшан", "рӯй"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("หน\u{e49}าพระจ\u{e31}นทร\u{e4c}เต\u{e47}มดวง"),
+			keywords: &["พระจ\u{e31}นทร\u{e4c}", "สว\u{e48}าง", "หน\u{e49}า", "อวกาศ", "เต\u{e47}มดวง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ምሉእ ወርሒ ገጽ"),
+			keywords: &["ምሉእ", "ወርሒ", "ድሙቕ", "ገጽ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýüzli dolan aý"),
+			keywords: &["aý", "doly", "ýagty", "ýüz", "ýüzli dolan aý"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mata māhina kātoa"),
+			keywords: &["kātoa", "mata", "māhina"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("dolunay yüzü"),
+			keywords: &[
+				"ay",
+				"dolu",
+				"dolunay",
+				"dolunay yüzü",
+				"yüz",
+				"yüzü olan ay",
+				"yüzü olan dolunay",
+			],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يۈزلۈك تولۇن ئاي"),
+			keywords: &["ئاي", "تولۇق", "يورۇق", "يۈزلۈك تولۇن ئاي", "چىراي"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("повний місяць з обличчям"),
+			keywords: &["місяць", "обличчя", "повний", "повний місяць з обличчям", "яскравий"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("چہرے والا پورا چاند"),
+			keywords: &["خلا", "صاف", "موسم", "مکمل", "چہرہ", "چہرے والا پورا چاند"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("to‘lin oy qiyofali"),
+			keywords: &[
+				"koinot",
+				"ob-havo",
+				"osmon",
+				"oy",
+				"toʻlin oy",
+				"to‘lin",
+				"to‘lin oy qiyofali",
+				"to‘liq",
+				"yorug‘lik",
+				"yuz",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("khuôn mặt trăng tròn"),
+			keywords: &["khuôn mặt trăng tròn", "mặt", "mặt trăng", "sáng", "tròn"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("weer ñumm bu am kanam"),
+			keywords: &["kanam", "weer", "weer ñumm bu am kanam", "yànj", "ñumm"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inyanga epheleleyo enobuso"),
+			keywords: &["epheleleyo", "inyanga", "inyanga epheleleyo enobuso", "ngokukhanyayo", "ubuso"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ẹ\u{300}kúnrẹ\u{301}rẹ\u{301} Òṣùpá Pẹ\u{300}lú Ojú"),
+			keywords: &[
+				"ojú",
+				"ìmọ\u{300}lẹ\u{300}",
+				"òṣùpá",
+				"Ẹ\u{300}kúnrẹ\u{301}rẹ\u{301} Òṣùpá Pẹ\u{300}lú Ojú",
+				"ẹ\u{300}kún",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɛ\u{300}kúnrɛ\u{301}rɛ\u{301} Òshùpá Pɛ\u{300}lú Ojú"),
+			keywords: &[
+				"ojú",
+				"ìmɔ\u{300}lɛ\u{300}",
+				"òshùpá",
+				"Ɛ\u{300}kúnrɛ\u{301}rɛ\u{301} Òshùpá Pɛ\u{300}lú Ojú",
+				"ɛ\u{300}kún",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("滿月面"),
+			keywords: &["光亮", "月", "滿", "滿月面", "臉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("满月面"),
+			keywords: &["光亮", "月", "满", "满月面", "脸"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("微笑的月亮"),
+			keywords: &["微笑的月亮", "月亮", "望月", "满月"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("微笑的滿月"),
+			keywords: &["微笑的滿月", "月亮"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("滿月嘅面孔"),
+			keywords: &["太空", "宇宙", "月亮", "月亮臉", "月亮面", "滿月", "滿月嘅面孔", "臉孔"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inyanga egcwele enobuso"),
+			keywords: &[
+				"inyanga egcwele",
+				"inyanga egcwele enobuso",
+				"isimo sezulu",
+				"ubuso",
+				"ukukhanya",
+				"umkhathi",
+			],
 		},
 	],
 };
@@ -3691,19 +9081,6 @@ pub const WAXING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
 			],
 		},
 	],
-};
-#[doc = "🌕\u{fe0f}"]
-pub const FULL_MOON: crate::Emoji = crate::Emoji {
-	glyph:                "🌕\u{fe0f}",
-	codepoint:            &[127765u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "full moon",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };
 #[doc = "🌖"]
 pub const WANING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
@@ -5641,6 +11018,937 @@ pub const LAST_QUARTER_MOON: crate::Emoji = crate::Emoji {
 		},
 	],
 };
+#[doc = "🌓"]
+pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
+	glyph:                "🌓",
+	codepoint:            &[127763u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "first quarter moon",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("eerstekwartiermaan"),
+			keywords: &["eerste", "eerstekwartiermaan", "kwartier", "maan", "naglig", "ruimte", "weer"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የመጀመሪያ ሩብ ጨረቃ"),
+			keywords: &["ህዋ", "ሩብ", "የመጀመሪያ ሩብ ጨረቃ", "የአየር ንብረት", "ግማሽ", "ጨረቃ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("تربيع أول"),
+			keywords: &["أول", "تربيع", "طبيعة", "طقس", "فضاء", "قمر"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ চন\u{9cd}দ\u{9cd}ৰ"),
+			keywords: &[
+				"চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ",
+				"চন\u{9cd}দ\u{9cd}ৰ",
+				"প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ চন\u{9cd}দ\u{9cd}ৰ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("ayın birinci dörrdə bir hissəsi"),
+			keywords: &["ay", "ayın birinci dörrdə bir hissəsi", "dörddə bir", "hava", "kosmos"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("першая чвэрць"),
+			keywords: &[
+				"квадра",
+				"космас",
+				"маладзік",
+				"месяц",
+				"ноч",
+				"палова",
+				"першая чвэрць",
+				"чвэрць",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Луната в първа четвърт"),
+			keywords: &["Луната в първа четвърт", "време", "космос", "луна", "четвърт"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("চ\u{9be}\u{981}দের প\u{9cd}রথম চত\u{9c1}র\u{9cd}থ\u{9be}ংশ"),
+			keywords: &[
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
+				"চ\u{9be}\u{981}দ",
+				"চ\u{9be}\u{981}দের প\u{9cd}রথম চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
+				"মহ\u{9be}ক\u{9be}শ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("hanterloar ar cʼhresk"),
+			keywords: &["hanterloar", "hanterloar ar cʼhresk", "loar"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("prva četvrtina"),
+			keywords: &["mjesec", "mjesečeve mijene", "prva četvrtina"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("lluna en el primer quart creixent"),
+			keywords: &["creixent", "espai", "lluna", "lluna en el primer quart creixent", "quart"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏘᏗ ᎧᎸᎢ"),
+			keywords: &["ᎩᏄᏘᏗ", "ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏗ ᎧᎸᎢ", "ᏅᏓ ᎤᏒ ᎡᎯ ᎢᎬᏱᏱ ᎩᏄᏘᏗ ᎧᎸᎢ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("měsíc v první čtvrti"),
+			keywords: &[
+				"dorůstající",
+				"dorůstá",
+				"fáze měsíce",
+				"měsíc",
+				"měsíc v první čtvrti",
+				"noc",
+				"počasí",
+				"první čtvrť",
+				"půlměsíc",
+				"vesmír",
+				"čtvrť",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("lleuad chwarter cyntaf"),
+			keywords: &["cilgant", "gofod", "lleuad", "lleuad chwarter cyntaf"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("halvmåne 1. fjerdedel"),
+			keywords: &["første kvarter måne", "halvmåne 1. fjerdedel", "måne", "månefase"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("zunehmender Halbmond"),
+			keywords: &["Halbmond", "Mond", "Zunehmender Halbmond", "zunehmend", "zunehmender Halbmond"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("σελήνη πρώτου τετάρτου"),
+			keywords: &["διάστημα", "σελήνη", "σελήνη πρώτου τετάρτου", "τέταρτο", "φεγγάρι"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("first quarter moon"),
+			keywords: &["first", "moon", "quarter", "space"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("luna en cuarto creciente"),
+			keywords: &["creciente", "cuarto", "espacio", "luna", "luna en cuarto creciente"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"clima",
+				"creciente",
+				"cuarto",
+				"espacio",
+				"luna",
+				"luna en cuarto creciente",
+				"noche",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"creciente",
+				"cuarto",
+				"espacio",
+				"fase lunar",
+				"luna",
+				"luna en cuarto creciente",
+			],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["cuarto", "luna", "luna en cuarto creciente"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kasvav poolkuu"),
+			keywords: &["ilm", "kasvav poolkuu", "kosmos", "kuu", "poolkuu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ilgora-erdia"),
+			keywords: &["eguraldi", "espazio", "ilargi", "ilgora-erdia"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("یک\u{200c}چهارم نخست"),
+			keywords: &["آب\u{200c}وهوا", "اول", "تربیع", "فضا", "ماه", "نخست", "یک\u{200c}چهارم"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("ensimmäinen neljänneskuu"),
+			keywords: &["ensimmäinen neljänneskuu", "kuu", "puolikuu", "sää", "taivaankappale"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("first quarter moon"),
+			keywords: &["buwan", "first quarter", "first quarter moon", "kalawakan", "quarter"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("vaksandi hálvmáni"),
+			keywords: &["hálvmáni", "máni", "vaksandi"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("premier quartier de lune"),
+			keywords: &[
+				"espace",
+				"lune",
+				"nuit",
+				"premier quartier",
+				"premier quartier de lune",
+				"quartier",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["lune", "premier quartier"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("céad cheathrú na gealí"),
+			keywords: &[
+				"ceathrú gealaí",
+				"céad cheathrú na gealí",
+				"gealach",
+				"gealach i mbéal ceathrún",
+				"spás",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("solas ùr na gealaich"),
+			keywords: &["ceathramh", "gealach", "gealach sa chiad cheathramh", "solas ùr na gealaich"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lúa en cuarto crecente"),
+			keywords: &["crecente", "cuarto", "lúa", "lúa en cuarto crecente"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પ\u{acd}રથમ ત\u{acd}રિમાસીનો ચ\u{a82}દ\u{acd}ર"),
+			keywords: &[
+				"ચ\u{a82}દ\u{acd}ર",
+				"ત\u{acd}રિમાસી",
+				"પ\u{acd}રથમ ત\u{acd}રિમાસી ચ\u{a82}દ\u{acd}ર",
+				"પ\u{acd}રથમ ત\u{acd}રિમાસીનો ચ\u{a82}દ\u{acd}ર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("wata na farkon kwata"),
+			keywords: &["kwata", "rabin wata", "samaniya", "wata", "wata na farkon kwata"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("wata na farkon kwata"),
+			keywords: &["kwata", "rabin wata", "samaniya", "wata", "wata na farkon kwata"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("חצי ירח מתמלא"),
+			keywords: &["חצי ירח מתמלא", "ירח", "ירח רבעון ראשון", "רבעון", "שבוע ראשון"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("क\u{943}ष\u{94d}ण पक\u{94d}ष अर\u{94d}धच\u{902}द\u{94d}र"),
+			keywords: &[
+				"क\u{943}ष\u{94d}ण पक\u{94d}ष अर\u{94d}धच\u{902}द\u{94d}र",
+				"चा\u{902}द",
+				"चौथाई",
+				"चौथाई माह",
+				"चौथाई माह का चा\u{902}द",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("mjesec prve četvrti"),
+			keywords: &["mjesec", "mjesec prve četvrti", "prva četvrt", "svemir", "vrijeme"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("első negyedben lévő hold"),
+			keywords: &["első negyedben lévő hold", "hold", "holdfázisok", "negyed", "ég", "éjszaka"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("լուսինն առաջին քառորդում"),
+			keywords: &["եղանակ", "լուսին", "լուսինն առաջին քառորդում", "տիեզերք", "քառորդ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("bulan perbani awal"),
+			keywords: &["antariksa", "bulan", "kuartal", "luar angkasa", "perbani", "pertama"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọnwa mbụ nke mmalite-afọ"),
+			keywords: &["mbụ nke mmalite-afọ", "ọnwa", "ọnwa mbụ nke mmalite-afọ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fyrsta kvartil tungls"),
+			keywords: &["fyrsta kvartil tungls", "máni", "tungl", "vaxandi hálfmáni"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("primo quarto di luna"),
+			keywords: &["luna", "natura", "notte", "primo quarto di luna", "quarto"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("上弦の月"),
+			keywords: &["上弦", "上弦の月", "半月", "宇宙", "月"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("bulan separo"),
+			keywords: &["bulan", "separo"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მთვარის პირველი მეოთხედი"),
+			keywords: &["ამინდი", "კოსმოსი", "მეოთხედი", "მთვარე", "მთვარის პირველი მეოთხედი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("айдың бірінші ширегі"),
+			keywords: &["ай", "айдың бірінші ширегі", "ауа райы", "ширек", "ғарыш"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("halvmåne første kvarter"),
+			keywords: &["første kvarter måne", "halvmåne første kvarter", "måne", "månefase"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នបាន១ភាគ៤"),
+			keywords: &[
+				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នបាន១ភាគ៤",
+				"ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ"),
+			keywords: &[
+				"ಆಕಾಶ",
+				"ಕಾಲುಭಾಗ",
+				"ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ",
+				"ಚಂದ\u{ccd}ರ",
+				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
+				"ತದ\u{cbf}ಗ\u{cc6}ಚಂದ\u{ccd}ರ",
+				"ಪಕ\u{ccd}ಷ",
+				"ಪಾಡ\u{ccd}ಯದ ಚಂದ\u{ccd}ರ",
+				"ಬಾಲಚಂದ\u{ccd}ರ",
+				"ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರ. ಚಂದ\u{ccd}ರ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("오른쪽 반달"),
+			keywords: &["달", "반달", "상현 반달", "오른쪽 반달", "우주"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some(
+				"उमाश\u{947}उपरा\u{902}तच\u{94d}या प\u{902}द\u{94d}रशीच\u{947}\u{902} पयल\u{947} चार दिस",
+			),
+			keywords: &[
+				"उमाश\u{947}उपरा\u{902}तची प\u{902}दरस",
+				"उमाश\u{947}उपरा\u{902}तच\u{94d}या प\u{902}द\u{94d}रशीच\u{947}\u{902} पयल\u{947} चार दिस",
+				"च\u{902}द\u{94d}र",
+				"पयल\u{947} चार दिस",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жартысы толгон ай"),
+			keywords: &["ай", "жартысы толгон ай", "жарым", "космос"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("zouhuelenden Hallefmound"),
+			keywords: &["Hallef", "Mound", "Véierel", "zouhuelenden Hallefmound"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເດ\u{eb7}ອນອອກໃໝ\u{ec8}ເຄ\u{eb4}\u{ec8}ງດວງ"),
+			keywords: &[
+				"ເຄ\u{eb4}\u{ec8}ງດວງ",
+				"ເດ\u{eb7}ອນອອກໃໝ\u{ec8}",
+				"ເດ\u{eb7}ອນອອກໃໝ\u{ec8}ເຄ\u{eb4}\u{ec8}ງດວງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pirmas fazės ketvirtis"),
+			keywords: &[
+				"ketvirtis",
+				"kosmosas",
+				"mėnulis",
+				"pirmas fazės ketvirtis",
+				"pirmoji mėnulio fazė",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("augošs pusmēness"),
+			keywords: &["augošs", "mēness", "pusmēness"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("marama ahotū"),
+			keywords: &["hauwhā", "marama", "marama ahotū"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("прва четвртина"),
+			keywords: &[
+				"време",
+				"вселена",
+				"месечина",
+				"прва",
+				"прва четвртина на месечина",
+				"четвртина",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി"),
+			keywords: &[
+				"അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി",
+				"അർദ\u{d4d}ധചന\u{d4d}ദ\u{d4d}രൻ",
+				"ചന\u{d4d}ദ\u{d4d}രൻ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("эхний улирлын сар"),
+			keywords: &["сар", "улирал", "эхний улирлын сар", "эхнийх"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("श\u{941}क\u{94d}ल पक\u{94d}षातील च\u{902}द\u{94d}र"),
+			keywords: &[
+				"च\u{902}द\u{94d}र",
+				"चत\u{941}र\u{94d}थी",
+				"चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
+				"चा\u{902}दोबा",
+				"श\u{941}क\u{94d}ल पक\u{94d}षातील च\u{902}द\u{94d}र",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("bulan suku pertama"),
+			keywords: &["angkasa lepas", "bulan", "bulan suku pertama", "cuaca", "suku"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("l-ewwel kwart tal-qamar"),
+			keywords: &["kwart", "l-ewwel kwart tal-qamar", "qamar"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("လ၏ ပထမအပတ\u{103a}"),
+			keywords: &["လ", "လေးပ\u{102f}\u{1036}တစ\u{103a}ပ\u{102f}\u{1036}", "လ၏ ပထမအပတ\u{103a}"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा"),
+			keywords: &[
+				"एक चौ\u{902}थाइ",
+				"चन\u{94d}द\u{94d}रमा",
+				"ठाउ\u{901}",
+				"पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा",
+				"मौ\u{902}सम",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("maan in eerste kwartier"),
+			keywords: &["avond", "kwartier", "maan", "maan in eerste kwartier", "ruimte"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("veksande halvmåne"),
+			keywords: &["første kvarter", "halvmåne", "måne", "månefase", "ny", "veksande halvmåne"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର"),
+			keywords: &[
+				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ପ\u{b4d}ରଥମ ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ"),
+			keywords: &[
+				"ਅ\u{a71}ਧਾ ਚ\u{a70}ਨ",
+				"ਚ\u{a70}ਦ",
+				"ਚ\u{a70}ਨ",
+				"ਤਿਮਾਹੀ",
+				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ",
+				"ਪ\u{a41}ਲਾੜ",
+				"ਮ\u{a4c}ਸਮ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("چاند دا پہلا چوتھائی حصہ"),
+			keywords: &["چاند", "چاند دا پہلا چوتھائی حصہ", "چوتھہ حص\u{651}ہ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mún Im Fẹ\u{301}st Kwọ\u{301}ta"),
+			keywords: &["Kwọ\u{301}ta", "Mun", "Mún Im Fẹ\u{301}st Kwọ\u{301}ta"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("pierwsza kwadra księżyca"),
+			keywords: &["księżyc", "kwadra", "noc", "pierwsza kwadra księżyca"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د لومړۍ ربعې سپوږمۍ"),
+			keywords: &["د لومړۍ ربعې سپوږمۍ", "ربع", "سپوږمۍ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("quarto crescente"),
+			keywords: &["lua", "lua de quarto crescente", "quarto", "quarto crescente"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("lua em quarto crescente"),
+			keywords: &[
+				"crescente",
+				"espaço",
+				"lua",
+				"lua em quarto crescente",
+				"meteorologia",
+				"quarto crescente",
+				"quatro",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("hukñiqi wañu killa"),
+			keywords: &["hukñiqi wañu", "hukñiqi wañu killa", "killa"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("lună în primul pătrar"),
+			keywords: &["lună", "lună în primul pătrar", "pătrar", "spațiu", "unu"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-218"), keywords: &["E10-218"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("луна в первой четверти"),
+			keywords: &["луна", "луна в первой четверти", "месяц", "небо", "четверть"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("icya kane cya mbere cy’ukwezi"),
+			keywords: &["icya kane cya mbere cy’ukwezi", "icyakane", "ukwezi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پهرين عشري جو چنڊ"),
+			keywords: &["ٽه ماهي", "پهرين عشري جو چنڊ", "چنڊ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ"),
+			keywords: &[
+				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"චත\u{dd4}ර\u{dca}ථක",
+				"පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ",
+				"සඳ",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("prvá štvrť mesiaca"),
+			keywords: &[
+				"dorastajúci",
+				"mesiac",
+				"mesiac v prvej štvrtine",
+				"noc",
+				"nočná obloha",
+				"počasie",
+				"prvá štvrť mesiaca",
+				"príroda",
+				"vesmír",
+				"štvrtina",
+				"štvrť",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("polovično osvetljena luna v prvem krajcu"),
+			keywords: &["luna", "polovično osvetljena luna v prvem krajcu", "vesolje", "vreme", "četrt"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("rubaca hore ee dayaxa"),
+			keywords: &["dayax", "rubac", "rubaca hore ee dayaxa"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("hëna e çerekut të parë"),
+			keywords: &["hapësirë", "hëna e çerekut të parë", "hënë", "moti", "çerek"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("месец у првој четврти"),
+			keywords: &["месец", "прва", "свeмир", "чeтврт"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("мјесец у првој четврти"),
+			keywords: &["мјесец", "мјесец у првој четврти", "чeтврт"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mesec u prvoj četvrti"),
+			keywords: &["mesec", "prva", "svemir", "četvrt"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("mjesec u prvoj četvrti"),
+			keywords: &["mjesec", "mjesec u prvoj četvrti", "četvrt"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("tilltagande halvmåne"),
+			keywords: &["kvarts", "måne", "tilltagande halvmåne"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mwezi wa robo ya kwanza"),
+			keywords: &[
+				"anga",
+				"hali ya hewa",
+				"kushikwa kwa mwezi",
+				"mwezi",
+				"mwezi wa robo ya kwanza",
+				"robo",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("அரைப\u{bbe}தி வளர\u{bcd}பிறை"),
+			keywords: &[
+				"அரைநிலவு",
+				"அரைப\u{bbe}தி வளர\u{bcd}பிறை",
+				"இரவு",
+				"நில\u{bbe}",
+				"வளர\u{bcd}பிறை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మ\u{c4a}దట\u{c3f} న\u{c3e}లుగవ వంతు చంద\u{c4d}రుడు"),
+			keywords: &[
+				"అంతర\u{c3f}క\u{c4d}షం",
+				"చంద\u{c4d}రుడు",
+				"న\u{c3e}లుగవ",
+				"మూన\u{c4d}",
+				"మ\u{c4a}దట\u{c3f} న\u{c3e}లుగవ వంతు చంద\u{c4d}రుడు",
+				"మ\u{c4a}దట\u{c3f} వంతు చంద\u{c4d}రుడు",
+				"స\u{c4d}ప\u{c46}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("марҳилаи чоряки якуми моҳ"),
+			keywords: &["марҳилаи чоряки якуми моҳ", "моҳ", "чоряк"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("พระจ\u{e31}นทร\u{e4c}คร\u{e36}\u{e48}งซ\u{e35}กขวา"),
+			keywords: &["คร\u{e36}\u{e48}งซ\u{e35}ก", "ดวงดาว", "พระจ\u{e31}นทร\u{e4c}", "อวกาศ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ቀዳማይ ርብዒ ወርሒ"),
+			keywords: &["መጀመርታ", "ርብዒ ዓመት", "ቦታ", "ወርሒ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("birinji çärýek aý"),
+			keywords: &["aý", "birinji çärýek aý", "çarýek"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("māhina tuʻu efiafi"),
+			keywords: &["māhina", "māhina tuʻu efiafi", "vaeua"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("ilk dördün"),
+			keywords: &["ay", "ilk dördün", "uzay"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("باش چارەك ئاي"),
+			keywords: &["ئاي", "باش چارەك ئاي", "چارەك"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("перша чверть місяця"),
+			keywords: &[
+				"космос",
+				"луна",
+				"місяць",
+				"місяць у першій чверті",
+				"перша чверть місяця",
+				"погода",
+				"чверть",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("پہلے کوارٹر کا چاند"),
+			keywords: &["موسم", "پہلے کوارٹر کا چاند", "چاند", "کوارٹر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("birinchi chorakdagi oy"),
+			keywords: &["birinchi chorakdagi oy", "chorak", "koinot", "ob-havo", "oy"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trăng thượng huyền"),
+			keywords: &["mặt trăng", "phần tư", "trăng thượng huyền"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("xaaju weer wu njëkk"),
+			keywords: &["weer wu njëkk", "xaaj", "xaaju weer wu njëkk"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inyanga yekota yokuqala"),
+			keywords: &["ikota", "inyanga", "inyanga yekota yokuqala"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301}"),
+			keywords: &["Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301}", "ìdámẹ\u{301}rin", "òṣùpá"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301}"),
+			keywords: &["Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301}", "ìdámɛ\u{301}rin", "òshùpá"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("上弦月"),
+			keywords: &["上弦月", "四分之一", "月"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("上弦月"),
+			keywords: &["上弦月", "四分之一", "月"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation { lang: "zh", tts: Some("上弦月"), keywords: &["上弦月", "月亮"] },
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("上弦月"),
+			keywords: &["上弦月", "月亮"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["上弦月", "半月", "太空", "宇宙", "月亮", "月蝕"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ikota yokuqala yenyanga"),
+			keywords: &["ikota", "ikota yokuqala yenyanga", "inyanga", "isimo sezulu", "umkhathi"],
+		},
+	],
+};
+#[doc = "🌦\u{fe0f}"]
+pub const SUN_BEHIND_RAIN_CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "🌦\u{fe0f}",
+	codepoint:            &[127782u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "sun behind rain cloud",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "🌘"]
 pub const WANING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
 	glyph:                "🌘",
@@ -6690,13 +12998,13 @@ pub const WANING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🌙"]
-pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
-	glyph:                "🌙",
-	codepoint:            &[127769u32],
+#[doc = "🌒"]
+pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
+	glyph:                "🌒",
+	codepoint:            &[127762u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "crescent moon",
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "waxing crescent moon",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -6705,131 +13013,154 @@ pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("sekelmaan"),
-			keywords: &["Ramadan", "maan", "ruimte", "sekel", "sekelmaan", "weer"],
+			tts:      Some("groeiende sekelmaan"),
+			keywords: &[
+				"drome",
+				"groei",
+				"groeiend",
+				"groeiende sekelmaan",
+				"maan",
+				"ruimte",
+				"sekel",
+				"weer",
+			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("ግማሽ ጨረቃ"),
-			keywords: &["ህዋ", "የአየር ንብረት", "ገሚስ ጨረቃ", "ግማሽ ጨረቃ", "ጨረቃ"],
+			tts:      Some("ትንሽ የበራች ግማሽ ጨረቃ"),
+			keywords: &["ህዋ", "ትንሽ የበራች ግማሽ ጨረቃ", "አዲስ ጨረቃ", "የበራች", "የአየር ንብረት", "ጨረቃ"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("هلال"),
-			keywords: &["الهلال", "رمضان", "طقس", "فضاء", "قمر", "هلال"],
+			tts:      Some("هلال بداية الشهر"),
+			keywords: &["طبيعة", "طقس", "فضاء", "قمر", "هلال", "هلال أول شهر", "هلال بداية الشهر"],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("ক\u{9be}\u{981}চিজোন"),
-			keywords: &["অৰ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ", "ক\u{9be}\u{981}চিজোন", "চন\u{9cd}দ\u{9cd}ৰ"],
+			tts:      Some("বৰ\u{9cd}দ\u{9cd}ধিত অৰ\u{9cd}দ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ"),
+			keywords: &[
+				"চন\u{9cd}দ\u{9cd}ৰ",
+				"বৰ\u{9cd}দ\u{9cd}ধিত",
+				"বৰ\u{9cd}দ\u{9cd}ধিত অৰ\u{9cd}দ\u{9cd}ধচন\u{9cd}দ\u{9cd}ৰ",
+				"ৱেক\u{9cd}সিং",
+			],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("aypara"),
-			keywords: &["ay", "aypara", "hava", "kosmos", "səma"],
+			tts:      Some("dörddə bir aypara"),
+			keywords: &["ay", "aypara", "dörddə bir", "dörddə bir aypara", "hava", "kosmos"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("паўмесяц"),
-			keywords: &["космас", "месяц", "ноч", "паўмесяц"],
+			tts:      Some("рост сярпа"),
+			keywords: &["космас", "маладзік", "месяц", "неаменія", "ноч", "рост сярпа", "серп"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("полумесец"),
-			keywords: &["време", "космос", "луна", "полумесец", "рамадан"],
+			tts:      Some("нарастващ полумесец на Луната"),
+			keywords: &["космос", "луна", "нарастващ", "нарастващ полумесец на Луната", "полумесец"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র"),
+			tts:      Some("ব\u{9c3}দ\u{9cd}ধিপ\u{9cd}র\u{9be}প\u{9cd}ত অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র"),
 			keywords: &[
 				"অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র",
 				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"ওয\u{9bc}\u{9be}ক\u{9cd}সিং",
 				"চ\u{9be}\u{981}দ",
+				"ব\u{9c3}দ\u{9cd}ধিপ\u{9cd}র\u{9be}প\u{9cd}ত অর\u{9cd}ধচন\u{9cd}দ\u{9cd}র",
 				"মহ\u{9be}ক\u{9be}শ",
-				"রমজ\u{9be}ন",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("kreskenn loar"),
-			keywords: &["kreskenn", "loar"],
+			tts:      Some("loar vihan ar cʼhresk"),
+			keywords: &["loar", "loar vihan ar cʼhresk"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("polumjesec"),
-			keywords: &["mjesec", "polumjesec"],
+			tts:      Some("uzdižući mjesec"),
+			keywords: &["mjesec", "mjesečeve mijene", "uzdižući mjesec"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("lluna creixent"),
-			keywords: &["creixent", "espai", "lluna", "ramadà"],
+			tts:      Some("lluna en quart creixent"),
+			keywords: &["creixent", "espai", "lluna", "lluna en quart creixent", "quart", "somnis"],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᎠᏓᏲᎲ ᏅᏓ ᎤᏒ ᎡᎯ"),
-			keywords: &["ᎠᏓᏲᎲ", "ᎠᏓᏲᎲ ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+			tts:      Some("ᎣᏂ ᏣᎢᏐ ᏅᏓ ᎤᏒ ᎡᎯ"),
+			keywords: &["ᎠᏓᏲᎲ", "ᎠᏲᎶᎦ ᎠᎦᏍᎦᏂ", "ᎣᏂ ᏣᎢᏐ ᏅᏓ ᎤᏒ ᎡᎯ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("srpek měsíce"),
+			tts:      Some("dorůstající měsíc po novoluní"),
 			keywords: &[
-				"Ramadán",
-				"couvá",
+				"dorůstající",
+				"dorůstající měsíc po novoluní",
+				"dorůstající srpek měsíce",
 				"dorůstá",
+				"fáze měsíce",
 				"měsíc",
 				"noc",
 				"počasí",
-				"přibývá",
 				"půlměsíc",
+				"sny",
 				"srpek",
-				"srpek měsíce",
-				"ubývá",
 				"vesmír",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("lleuad gilgant"),
-			keywords: &["cilgant", "gofod", "lleuad", "lleuad gilgant"],
+			tts:      Some("lleuad gilgant ar ei chynnydd"),
+			keywords: &[
+				"cilgant",
+				"cwyro",
+				"gofod",
+				"lleuad",
+				"lleuad gilgant ar ei chynnydd",
+				"lleuad gilgant ar ei mesurydd",
+				"tywydd",
+			],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("halvmåne"),
-			keywords: &["halvmåne", "tiltagende måne"],
+			tts:      Some("tiltagende måne"),
+			keywords: &["måne", "månefase", "tiltagende måne"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("Mondsichel"),
-			keywords: &["Mond", "Mondsichel", "Nacht"],
+			tts:      Some("erstes Mondviertel"),
+			keywords: &["Erstes Mondviertel", "Mond", "erstes Mondviertel", "zunehmend"],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("ημισέληνος"),
-			keywords: &["διάστημα", "ημισέληνος", "καιρός", "μηνίσκος", "πανσέληνος", "φεγγάρι"],
+			tts:      Some("αύξων μηνίσκος"),
+			keywords: &["αύξων", "διάστημα", "καιρός", "μηνίσκος", "φεγγάρι"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("crescent moon"),
-			keywords: &["crescent", "moon", "ramadan", "space"],
+			tts:      Some("waxing crescent moon"),
+			keywords: &["crescent", "dreams", "moon", "space", "waxing"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -6842,685 +13173,1688 @@ pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("luna"),
-			keywords: &["creciente", "espacio", "luna"],
+			tts:      Some("luna creciente"),
+			keywords: &["creciente", "cuarto", "espacio", "luna"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("media luna"),
-			keywords: &["clima", "creciente", "cuarto", "espacio", "luna", "media luna"],
+			tts:      Some("luna nueva visible"),
+			keywords: &[
+				"clima",
+				"creciente",
+				"cuarto",
+				"espacio",
+				"luna",
+				"luna en cuarto menguante",
+				"menguante",
+				"nueva",
+				"visible",
+			],
 		},
 		#[cfg(feature = "es_MX")]
 		crate::Annotation {
 			lang:     "es_MX",
 			tts:      Some("↑↑↑"),
-			keywords: &["cruasán", "cuarto creciente", "fase lunar", "luna creciente", "media luna"],
+			keywords: &["creciente", "espacio", "luna", "nueva", "visible"],
 		},
 		#[cfg(feature = "es_US")]
 		crate::Annotation {
 			lang:     "es_US",
-			tts:      Some("luna creciente"),
-			keywords: &["creciente", "luna"],
+			tts:      Some("↑↑↑"),
+			keywords: &["creciente", "luna", "luna nueva visible"],
 		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("kuusirp"),
-			keywords: &["ilm", "kosmos", "kuu", "kuusirp", "sirp"],
+			tts:      Some("kasvav kuusirp"),
+			keywords: &["ilm", "kasvav kuusirp", "kosmos", "kuu", "noorkuu", "sirp"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("ilargi-adarra"),
-			keywords: &["ilargi-adarra", "ilargia", "ilgora"],
+			tts:      Some("ilgora"),
+			keywords: &["ilargia", "ilgora"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("هلال ماه"),
-			keywords: &["آب\u{200c}وهوا", "داس ماه", "فضا", "ماه", "مه\u{200c}داس", "هلال"],
+			tts:      Some("هلال فزاینده ماه"),
+			keywords: &[
+				"آب\u{200c}وهوا",
+				"رو به بدر",
+				"سوی ماه تمام",
+				"فضا",
+				"ماه",
+				"هلال",
+				"هلال فزاینده ماه",
+			],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("kuunsirppi"),
-			keywords: &["kuu", "kuunsirppi", "sirppi", "sää", "taivaankappale"],
+			tts:      Some("kasvava kuunsirppi"),
+			keywords: &["kasvava", "kasvava kuunsirppi", "kuu", "sirppi", "sää", "taivaankappale"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("crescent moon"),
-			keywords: &["buwan", "crescent", "crescent moon", "kalawakan", "ramadan"],
+			tts:      Some("waxing crescent moon"),
+			keywords: &["buwan", "crescent", "kalawakan", "waxing", "waxing crescent moon"],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("hálvmáni"),
-			keywords: &["hálvmáni", "máni"],
+			tts:      Some("lítil vaksandi hálvmáni"),
+			keywords: &["hálvmáni", "lítil vaksandi hálvmáni", "máni", "vaksandi"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("croissant de lune"),
-			keywords: &["Ramadan", "croissant", "croissant de lune", "espace", "lune", "nuit"],
+			tts:      Some("lune croissante"),
+			keywords: &["espace", "lune", "lune croissante", "nuit"],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["Ramadan", "croissant", "espace", "lune"],
+			tts:      Some("premier croissant de lune"),
+			keywords: &["lune", "premier croissant"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("corrán gealaí"),
-			keywords: &["an ghealach", "corrán gealaí", "gealach", "luan", "ré"],
+			tts:      Some("corrán gealaí atá ag líonadh"),
+			keywords: &[
+				"corrán gealaí",
+				"corrán gealaí ag dul ar gcúl",
+				"corrán gealaí atá ag líonadh",
+				"gealach ag líonadh",
+				"gealach ag teacht ann",
+				"spás",
+			],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("gealach chorranach"),
-			keywords: &["corranach", "gealach", "gealach chorranach"],
+			tts:      Some("gealach chorranach a’ cinntinn"),
+			keywords: &["cinntinn", "corranach", "fàs", "gealach", "gealach chorranach a’ cinntinn"],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("lúa crecente"),
-			keywords: &["crecente", "lúa"],
+			tts:      Some("lúa nova visible"),
+			keywords: &["lúa", "nova", "visible"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("બીજનો ચા\u{a82}દ"),
-			keywords: &[
-				"અર\u{acd}ધચ\u{a82}દ\u{acd}રાકાર",
-				"ક\u{ac1}દરત",
-				"ચ\u{a82}દ\u{acd}ર",
-				"બીજનો ચ\u{a82}દ\u{acd}ર",
-				"બીજનો ચા\u{a82}દ",
-			],
+			tts:      Some("બીજનો ચ\u{a82}દ\u{acd}ર"),
+			keywords: &["ચ\u{a82}દ\u{acd}ર", "બીજ", "બીજનો ચ\u{a82}દ\u{acd}ર", "વધતો"],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("hilalin wata"),
-			keywords: &["hilalin wata", "jaririn wata", "samaniya", "wata"],
+			tts:      Some("hilalin wata mai ƙaruwa"),
+			keywords: &[
+				"fitowar wata",
+				"hilalin wata",
+				"hilalin wata mai ƙaruwa",
+				"jinjirin wata",
+				"mai ƙaruwa",
+				"ramadan",
+				"wata",
+			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("hilalin wata"),
-			keywords: &["hilalin wata", "jaririn wata", "samaniya", "wata"],
+			tts:      Some("hilalin wata mai ƙaruwa"),
+			keywords: &[
+				"fitowar wata",
+				"hilalin wata",
+				"hilalin wata mai ƙaruwa",
+				"jinjirin wata",
+				"mai ƙaruwa",
+				"ramadan",
+				"wata",
+			],
 		},
 		#[cfg(feature = "he")]
-		crate::Annotation { lang: "he", tts: Some("סהר"), keywords: &["ירח", "סהר"] },
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("סהר ירח מתמלא"),
+			keywords: &["חלל", "ירח", "סהר", "סהר ירח מתמלא"],
+		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("चापाकार च\u{902}द\u{94d}र"),
+			tts:      Some("द\u{942}ज का चा\u{901}द"),
 			keywords: &[
 				"चा\u{901}द",
 				"चा\u{902}द",
-				"चापाकार च\u{902}द\u{94d}र",
+				"द\u{942}ज का चा\u{901}द",
+				"नवच\u{902}द\u{94d}र",
 				"बालच\u{902}द\u{94d}र",
-				"रमजान",
+				"वर\u{94d}धमान",
+				"सपन\u{947}",
 			],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("polumjesec"),
-			keywords: &["mjesec", "polumjesec", "svemir", "vrijeme"],
+			tts:      Some("polumjesec prve četvrti"),
+			keywords: &[
+				"mjesec",
+				"polumjesec",
+				"polumjesec prve četvrti",
+				"prva četvrt",
+				"rastući polumjesec",
+				"svemir",
+				"vrijeme",
+			],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("növekvő hold"),
+			tts:      Some("növő, sarló alakú hold"),
 			keywords: &[
 				"hold",
 				"holdfázisok",
 				"kifli",
-				"kifli alakú hold",
-				"növekvő hold",
+				"növő",
+				"növő, kifli alakú hold",
+				"növő, sarló alakú hold",
 				"sarló",
+				"sarló alakú hold",
 				"ég",
 				"éjszaka",
+				"űr",
 			],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("մահիկ"),
-			keywords: &["եղանակ", "լուսին", "մահիկ", "տիեզերք"],
+			tts:      Some("աճող մահիկ"),
+			keywords: &["աճող", "եղանակ", "լուսին", "մահիկ", "տիեզերք"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("bulan sabit"),
-			keywords: &["angkasa", "bulan", "cuaca", "sabit"],
+			tts:      Some("bulan sabit awal"),
+			keywords: &["angkasa", "bulan", "bulan sabit awal", "cuaca", "membesar", "sabit"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ọnwa elu-ugwu"),
-			keywords: &["mmelite", "ọnwa", "ọnwa elu-ugwu"],
+			tts:      Some("imelite ọnwa gburu uhie"),
+			keywords: &["gburu uhie", "imelite ọnwa gburu uhie", "mmelite", "ọnwa"],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("hálfmáni"),
-			keywords: &["hálfmáni", "máni", "tungl"],
+			tts:      Some("vaxandi tungl (minna en hálft)"),
+			keywords: &["mánasigð", "máni", "tungl", "vaxandi", "vaxandi tungl (minna en hálft)"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("spicchio di luna"),
+			tts:      Some("luna crescente"),
 			keywords: &[
-				"calante",
-				"cielo",
+				"buona notte",
 				"crescente",
-				"gobba",
 				"luna",
+				"mezza luna",
 				"natura",
 				"notte",
-				"spazio",
+				"quarto di luna",
+				"sogni",
 				"spicchio di luna",
-				"ultimo quarto",
 			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("三日月"),
-			keywords: &["三日月", "宇宙", "月"],
+			tts:      Some("初月"),
+			keywords: &["三日月", "初月", "宇宙", "月"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("bulan nanggal sepisan"),
-			keywords: &["bulan", "bulan nanggal sepisan", "sabit"],
+			tts:      Some("bulan tanggal sepisan"),
+			keywords: &[
+				"bulan",
+				"bulan tanggal sepisan",
+				"padhange nambah sithik-sithik",
+				"tanggal sepisan",
+			],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("ნამგალა მთვარე"),
-			keywords: &["ამინდი", "კოსმოსი", "მთვარე", "ნამგალა"],
+			tts:      Some("მზარდი ნამგალა მთვარე"),
+			keywords: &["ამინდი", "კოსმოსი", "მზარდი", "მთვარე", "ნამგალა"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("жарты ай"),
-			keywords: &["ай", "ауа райы", "жарты ай", "ғарыш"],
+			tts:      Some("толып жатқан жарты ай"),
+			keywords: &["ай", "ауа райы", "жарты ай", "толып жатқан жарты ай", "толысып жатқан", "ғарыш"],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("halvmåne"),
-			keywords: &["aftagende måne", "halvmåne"],
+			tts:      Some("tiltagende måne"),
+			keywords: &["måne", "månefase", "tiltagende måne"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ច\u{17c6}ន\u{17b7}តខែ"),
-			keywords: &["ច\u{17c6}ន\u{17b7}តខែ", "ព\u{17d2}រះចន\u{17d2}ទ", "អឌ\u{17d2}ឍចន\u{17d2}ទ"],
+			tts:      Some(
+				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នម\u{17bd}យច\u{17c6}ន\u{17b7}ត",
+			),
+			keywords: &[
+				"ខ\u{17d2}នើត",
+				"ព\u{17d2}រះចន\u{17d2}ទ",
+				"ព\u{17d2}រះចន\u{17d2}ទបង\u{17d2}ហាញខ\u{17d2}ល\u{17bd}នម\u{17bd}យច\u{17c6}ន\u{17b7}ត",
+				"អឌ\u{17d2}ឍចន\u{17d2}ទ",
+			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಅರ\u{ccd}ಧಾಕಾರದ ಚಂದ\u{ccd}ರ"),
+			tts:      Some("ಅರ\u{ccd}ಧ ಚಂದ\u{ccd}ರ"),
 			keywords: &[
 				"ಅರ\u{ccd}ಧ ಚಂದ\u{ccd}ರ",
-				"ಅರ\u{ccd}ಧಚಂದ\u{ccd}ರ",
-				"ಅರ\u{ccd}ಧಾಕಾರದ ಚಂದ\u{ccd}ರ",
-				"ಆಕಾಶ",
+				"ಕನಸುಗಳು",
+				"ಕ\u{ccd}ರ\u{cc6}ಸ\u{cc6}ಂಟ\u{ccd}",
 				"ಚಂದ\u{ccd}ರ",
-				"ಚಂದ\u{ccd}ರಬ\u{cbf}ಂಬ",
-				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
-				"ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
-				"ರಂಜಾನ\u{ccd}",
+				"ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6}",
+				"ಮ\u{cc7}ಣ",
+				"ಮ\u{cc7}ಣದ ಚಂದ\u{ccd}ರ",
+				"ಶುಕ\u{ccd}ಲಪಕ\u{ccd}ಷ",
+				"ಶುಕ\u{ccd}ಲಪಕ\u{ccd}ಷದ ಬ\u{cbf}ದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("초승달"),
-			keywords: &["달", "라마단", "우주", "초승달"],
+			tts:      Some("초승달 상현"),
+			keywords: &["꿈", "달", "상현", "상현달", "우주", "초승달 상현"],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("च\u{902}द\u{94d}रकोर"),
-			keywords: &["च\u{902}द\u{94d}र", "च\u{902}द\u{94d}रकोर"],
+			tts:      Some("वाडट\u{94d}या च\u{902}द\u{94d}रकळ\u{947}ची च\u{902}द\u{94d}रकोर"),
+			keywords: &[
+				"च\u{902}द\u{94d}र",
+				"च\u{902}द\u{94d}रकोर",
+				"वाडटी च\u{902}द\u{94d}रकळा",
+				"वाडट\u{94d}या च\u{902}द\u{94d}रकळ\u{947}ची च\u{902}द\u{94d}रकोर",
+			],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("жарым ай"),
-			keywords: &["аба ырайы", "ай", "жарым", "космос"],
+			tts:      Some("толуп баштаган ай"),
+			keywords: &["аба ырайы", "ай", "космос", "толуп баштаган ай", "толуу"],
 		},
 		#[cfg(feature = "lb")]
 		crate::Annotation {
 			lang:     "lb",
-			tts:      Some("Moundséchel"),
-			keywords: &["Mound", "Moundséchel", "Séchel"],
+			tts:      Some("Séchelmound am éischte Véierel"),
+			keywords: &["Mound", "Séchelmound", "Séchelmound am éischte Véierel", "éischte Véierel"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ເດ\u{eb7}ອນສ\u{ec9}ຽວ"),
-			keywords: &["ດວງເດ\u{eb7}ອນ", "ສ\u{ec9}ຽວ", "ເດ\u{eb7}ອນ", "ເດ\u{eb7}ອນສ\u{ec9}ຽວ"],
+			tts:      Some("ເດ\u{eb7}ອນແຮມອອກໃໝ\u{ec8}"),
+			keywords: &["ເດ\u{eb7}ອນສ\u{ec9}ຽວ", "ເດ\u{eb7}ອນແຮມ", "ເດ\u{eb7}ອນແຮມອອກໃໝ\u{ec8}"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("pusmėnulis"),
-			keywords: &["kosmosas", "mėnulis", "pusmėnulis", "pusė", "ramadanas"],
+			tts:      Some("priešpilnis mėnulis"),
+			keywords: &["kosmosas", "mėnulis", "priešpilnis", "sapnai"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("mēness sirpis"),
-			keywords: &["mēness", "ramadāns", "sirpis"],
+			tts:      Some("augoša mēness sirpis"),
+			keywords: &["augoša mēness sirpis", "augošs", "kosmoss", "mēness", "sirpis"],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("marama pewa"),
-			keywords: &["marama", "pewa"],
+			tts:      Some("marama hua tipihori"),
+			keywords: &["hua", "marama", "marama hua tipihori", "pewa"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("месечев срп"),
-			keywords: &["време", "вселена", "месечев срп", "месечина", "полумесечина", "рамазан", "срп"],
+			tts:      Some("прва фаза - новина"),
+			keywords: &[
+				"вселена",
+				"месечина",
+				"новина",
+				"прва фаза - новина",
+				"прва фаза на месечина",
+				"сни",
+				"соништа",
+			],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല"),
+			tts:      Some(
+				"പ\u{d42}ർണ\u{d4d}ണത പ\u{d4d}ര\u{d3e}പിക\u{d4d}ക\u{d41}ന\u{d4d}ന ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
+			),
 			keywords: &[
 				"ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
 				"ചന\u{d4d}ദ\u{d4d}രൻ",
-				"വളഞ\u{d4d}ഞ ചന\u{d4d}ദ\u{d4d}രൻ",
+				"പ\u{d42}ർണ\u{d4d}ണത പ\u{d4d}ര\u{d3e}പിക\u{d4d}ക\u{d41}ന\u{d4d}ന ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("хавирган сар"),
-			keywords: &["сар", "хавирган сар"],
+			tts:      Some("хавирган сар (баруун)"),
+			keywords: &["сар", "хавирган сар", "хавирган сар (баруун)"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("च\u{902}द\u{94d}रकोर"),
-			keywords: &["च\u{902}द\u{94d}र", "च\u{902}द\u{94d}रकोर"],
+			tts:      Some(
+				"अर\u{94d}ध\u{94d}\u{200d}याप\u{947}क\u{94d}षा कमी प\u{94d}रकाशित असल\u{947}ला च\u{902}द\u{94d}राचा भाग",
+			),
+			keywords: &[
+				"अर\u{94d}ध\u{94d}\u{200d}याप\u{947}क\u{94d}षा कमी प\u{94d}रकाशित असल\u{947}ला च\u{902}द\u{94d}राचा भाग",
+				"च\u{902}द\u{94d}र",
+				"च\u{902}द\u{94d}रकोर",
+				"वाढणारा",
+				"वाढणारी च\u{902}द\u{94d}रकोर",
+			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("bulan sabit"),
-			keywords: &["angkasa lepas", "bulan", "bulan sabit", "cuaca", "puasa", "ramadan"],
+			tts:      Some("bulan sabit membesar"),
+			keywords: &["angkasa lepas", "bulan", "bulan sabit", "membesar", "mimpi"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("felli qamar"),
-			keywords: &["felli", "qamar"],
+			tts:      Some("felli qamar qed jikber"),
+			keywords: &["felli", "felli qamar qed jikber", "qamar", "qed jikber"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("လခြမ\u{103a}း"),
-			keywords: &["လ", "လခြမ\u{103a}း"],
+			tts:      Some("လဆန\u{103a}းရက\u{103a}"),
+			keywords: &["လ", "လခြမ\u{103a}း", "လဆန\u{103a}းရက\u{103a}"],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("क\u{94d}र\u{947}स\u{947}न\u{94d}ट चन\u{94d}द\u{94d}रमा"),
-			keywords: &[
-				"क\u{94d}र\u{947}स\u{947}न\u{94d}ट चन\u{94d}द\u{94d}रमा",
-				"क\u{94d}र\u{947}स\u{947}\u{947}न\u{94d}ट",
-				"चन\u{94d}द\u{94d}रमा",
-				"ठाउ\u{901}",
-				"मौ\u{902}सम",
-			],
+			tts:      Some("बढ\u{94d}दो चन\u{94d}द\u{94d}रमा"),
+			keywords: &["अर\u{94d}धचन\u{94d}द\u{94d}र", "चन\u{94d}द\u{94d}रमा", "बढ\u{94d}दो"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("maansikkel"),
+			tts:      Some("jonge maansikkel"),
 			keywords: &[
 				"avond",
-				"halvemaan",
+				"jonge maansikkel",
 				"maan",
-				"maansikkel",
-				"ramadan",
 				"ruimte",
 				"sikkel",
-				"slapen",
+				"wassend",
+				"wassende halvemaan",
 			],
 		},
 		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("veksande nymåne"),
+			keywords: &["måne", "månefase", "ny", "veksande", "veksande nymåne"],
+		},
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("କ\u{b4d}ର\u{b3f}ସେଣ\u{b4d}ଟ\u{b4d} ମ\u{b41}ନ\u{b4d}"),
+			tts:      Some(
+				"ବ\u{b43}ହତ\u{b4d}ତର ହେଉଥ\u{b3f}ବ\u{b3e} କ\u{b43}ସେଣ\u{b4d}ଟ\u{b4d} ଚନ\u{b4d}ଦ\u{b4d}ର",
+			),
 			keywords: &[
-				"କ\u{b4d}ର\u{b3f}ସେଣ\u{b4d}ଟ\u{b4d} ମ\u{b41}ନ\u{b4d}",
+				"ଅପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣଚନ\u{b4d}ଦ\u{b4d}ର",
 				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ବ\u{b3e}ଳଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ବଢ\u{b3c}ନ\u{b4d}ତ\u{b3e}",
+				"ବ\u{b43}ହତ\u{b4d}ତର ହେଉଥ\u{b3f}ବ\u{b3e} କ\u{b43}ସେଣ\u{b4d}ଟ\u{b4d} ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ୱେକ\u{b4d}ସ\u{b3f}ଂ କ\u{b4d}ରେସେଣ\u{b4d}ଟ ମ\u{b41}ନ\u{b4d}\u{200c}",
 			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਅ\u{a71}ਧਾ ਚ\u{a70}ਦ"),
+			tts:      Some("ਵ\u{a71}ਧਦਾ ਚ\u{a70}ਦ"),
 			keywords: &[
 				"ਅ\u{a71}ਧਾ",
-				"ਅ\u{a71}ਧਾ ਚ\u{a70}\u{a70}ਦ",
-				"ਈਦ",
 				"ਚ\u{a70}ਦ",
 				"ਚ\u{a70}ਨ",
 				"ਪ\u{a41}ਲਾੜ",
 				"ਮ\u{a4c}ਸਮ",
-				"ਰਮਜ\u{a3c}ਾਨ",
+				"ਵ\u{a71}ਧਦਾ",
+				"ਸ\u{a41}ਪਨਾ",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("ہلالی چاند"),
-			keywords: &["چاند", "ہلال", "ہلالی چاند"],
+			tts:      Some("نشوونما پاندا ہلالی چاند"),
+			keywords: &["نشوونما پاندا ہلالی چاند", "ویکسنگ", "چاند", "ہلال"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Krísẹ\u{301}nt Mun"),
-			keywords: &["Krísẹnt", "Krísẹ\u{301}nt Mun", "Mun"],
+			tts:      Some("Mun Im Braít Pat Jọ\u{301}s Stát To Bíg Mọọ\u{301} Mọọ"),
+			keywords: &[
+				"Kọ\u{301}v Shep",
+				"Mun",
+				"Mun Im Braít Pat Jọ\u{301}s Stát To Bíg Mọọ\u{301} Mọọ",
+			],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("półksiężyc"),
-			keywords: &["księżyc", "noc", "półksiężyc", "sierp", "sierp księżyca"],
+			tts:      Some("narastający półksiężyc"),
+			keywords: &["cieniutki księżyc", "księżyc", "narastający półksiężyc", "noc", "sierp"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("هلال سپوږمۍ"),
-			keywords: &["سپوږمۍ", "هلال"],
+			tts:      Some("رغېدونکې هلال سپوږمۍ"),
+			keywords: &["رغېدونکې", "سپوږمۍ", "هلال"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("lua crescente"),
-			keywords: &["crescente", "lua"],
+			tts:      Some("lua crescente côncava"),
+			keywords: &["crescente", "côncava", "lua", "noite"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
-			tts:      Some("lua crescente sem sombra"),
-			keywords: &["crescente", "espaço", "lua", "lua crescente sem sombra", "meteorologia"],
+			tts:      Some("lua na primeira falcada"),
+			keywords: &[
+				"crescente",
+				"espaço",
+				"lua",
+				"lua crescente convexa",
+				"lua crescente gibosa",
+				"lua na primeira falcada",
+				"meteorologia",
+			],
 		},
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("chawpi killa"),
-			keywords: &["chawpi", "killa", "pacha", "ramadan"],
+			tts:      Some("tukuspa chawpi killa"),
+			keywords: &["chawpi", "killa", "tukuspa"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("semilună"),
-			keywords: &["creștere", "islam", "lună", "lună crescătoare", "ramadan", "semilună", "spațiu"],
+			tts:      Some("lună concavă în creștere"),
+			keywords: &[
+				"concavă",
+				"crescătoare",
+				"creștere",
+				"lună",
+				"lună concavă în creștere",
+				"semilună",
+				"semilună în creștere",
+				"spațiu",
+				"vise",
+			],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-224"), keywords: &["E10-224"] },
+		crate::Annotation { lang: "root", tts: Some("E10-217"), keywords: &["E10-217"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("полумесяц"),
-			keywords: &["луна", "месяц", "полумесяц"],
+			tts:      Some("молодая луна"),
+			keywords: &["луна", "месяц", "молодая", "молодой"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("ukwezi kugenda gukura"),
-			keywords: &["ukwezi kugenda gukura"],
+			tts:      Some("bitutu bya kane by’ukwezi"),
+			keywords: &["bitutu bya kane by’ukwezi"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("ڪريسينٽ چنڊ"),
-			keywords: &["چنڊ", "ڪريسينٽ"],
+			tts:      Some("ننڍي چنڊ ڏانهن وڌندڙ"),
+			keywords: &["ننڍو چنڊ", "ننڍي چنڊ ڏانهن وڌندڙ", "وڌندڙ چند", "چنڊ"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("අඩසඳ"),
-			keywords: &["අඩසඳ", "අභ\u{dca}\u{200d}යවක\u{dcf}ශය", "ක\u{dcf}ලග\u{dd4}ණය", "සඳ"],
+			tts:      Some("ප\u{dd4}රපක\u{dca}ෂයේ අඩසඳ"),
+			keywords: &[
+				"අඩසඳ",
+				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"ප\u{dd4}ර",
+				"ප\u{dd4}රපක\u{dca}ෂයේ අඩසඳ",
+				"සඳ",
+			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("polmesiac"),
-			keywords: &["dorastá", "mesiac", "polmesiac", "počasie", "príroda", "ramadán", "vesmír"],
+			tts:      Some("dorastajúci polmesiac"),
+			keywords: &[
+				"dorastajúci",
+				"mesiac",
+				"narastajúci",
+				"nočná obloha",
+				"polmesiac",
+				"počasie",
+				"vesmír",
+			],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("lunin srp"),
-			keywords: &["krajec", "luna", "lunin srp", "vesolje", "vreme"],
+			tts:      Some("prvi krajec"),
+			keywords: &["krajec", "luna", "prvi", "vesolje", "vreme"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("dayax qoolaaban"),
-			keywords: &["bil qoolaaban", "dayax", "dayax qoolaaban"],
+			tts:      Some("qoolaabanka dayaxa oo badanaya"),
+			keywords: &["badidoodka", "bil qoolaaban", "dayax", "qoolaabanka dayaxa oo badanaya"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("hënë e ngrënë"),
-			keywords: &["e ngrënë", "hapësirë", "hënë", "hënë e ngrënë", "moti", "ramazan"],
+			tts:      Some("hënë e re më pak se gjysma"),
+			keywords: &["hapësirë", "hënë", "hënë e re më pak se gjysma", "moti", "ëndrra"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("месечев срп"),
-			keywords: &["Рамадан", "месец", "пoлумесец", "срп"],
+			tts:      Some("месечев срп у порасту"),
+			keywords: &["месец", "пoлумесец", "рaст", "свeмир"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation {
 			lang:     "sr_Cyrl_BA",
-			tts:      Some("мјесечев срп"),
-			keywords: &["мјесец", "мјесечев срп", "пoлумјесец"],
+			tts:      Some("мјесечев срп у порасту"),
+			keywords: &["мјесец", "мјесечев срп у порасту", "пoлумјесец"],
 		},
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("mesečev srp"),
-			keywords: &["Ramadan", "mesec", "polumesec", "srp"],
+			tts:      Some("mesečev srp u porastu"),
+			keywords: &["mesec", "polumesec", "rast", "svemir"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation {
 			lang:     "sr_Latn_BA",
-			tts:      Some("mjesečev srp"),
-			keywords: &["mjesec", "mjesečev srp", "polumjesec"],
+			tts:      Some("mjesečev srp u porastu"),
+			keywords: &["mjesec", "mjesečev srp u porastu", "polumjesec"],
 		},
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("månskära"),
-			keywords: &["måne", "månskära"],
+			tts:      Some("måne i första kvarteret"),
+			keywords: &["kvartsmåne", "måne", "måne i första kvarteret", "månskära", "tilltagande måne"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("mwezi unaoandama mwezi mpya"),
-			keywords: &[
-				"anga",
-				"hali ya hewa",
-				"mwandamo wa mwezi",
-				"mwezi",
-				"mwezi mwandamo",
-				"mwezi unaoandama mwezi mpya",
-			],
+			tts:      Some("mwezi mwandamo"),
+			keywords: &["anga", "hali ya hewa", "hali yahewa", "kuanza", "mwezi", "mwezi mwandamo"],
 		},
 		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &["anga", "hali ya hewa", "kuanza", "mwezi", "mwezi mwandamo"],
+		},
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("பிறைநிலவு"),
-			keywords: &[
-				"தேய\u{bcd}பிறை",
-				"நிலவொளி",
-				"நில\u{bbe}",
-				"பிறைநிலவு",
-				"ரமத\u{bbe}ன\u{bcd}",
-				"ரமல\u{bbe}ன\u{bcd}",
-				"ரம\u{bcd}ஜ\u{bbe}ன\u{bcd}",
-				"வளர\u{bcd}பிறை",
-			],
+			tts:      Some("வளர\u{bcd}பிறை"),
+			keywords: &["இரவு", "நில\u{bbe}", "பிறைநிலவு", "வளர\u{bcd}பிறை"],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("న\u{c46}లవంక"),
+			tts:      Some("ప\u{c46}రుగుతున\u{c4d}న చంద\u{c4d}రుడు"),
 			keywords: &[
-				"అంతర\u{c3f}క\u{c4d}షం",
-				"అర\u{c4d}ధచంద\u{c4d}రుడు",
+				"కలలు",
 				"క\u{c4d}ర\u{c46}స\u{c46}ంట\u{c4d}",
-				"చంద\u{c4d}రవంక",
 				"చంద\u{c4d}రుడు",
-				"న\u{c46}లవంక",
+				"ప\u{c46}రుగు",
+				"ప\u{c46}రుగుతున\u{c4d}న చంద\u{c4d}రుడు",
 				"మూన\u{c4d}",
-				"రమద\u{c3e}న\u{c4d}",
+				"వ\u{c4d}య\u{c3e}క\u{c4d}స\u{c3f}ంగ\u{c4d}",
 			],
 		},
 		#[cfg(feature = "tg")]
-		crate::Annotation { lang: "tg", tts: Some("ҳилол"), keywords: &["моҳ", "ҳилол"] },
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ҳилоли нав"),
+			keywords: &["калон шудани моҳ", "моҳ", "ҳилол", "ҳилоли нав"],
+		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยว"),
+			tts:      Some("พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวข\u{e49}างข\u{e36}\u{e49}น"),
 			keywords: &[
-				"พระจ\u{e31}นทร\u{e4c}",
-				"พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยว",
-				"เส\u{e35}\u{e49}ยว",
+				"ข\u{e49}างข\u{e36}\u{e49}น",
+				"พระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวข\u{e49}างข\u{e36}\u{e49}น",
 			],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ወርሒ ፍርቂ ወርሒ"),
-			keywords: &["ሮማዳን", "ቦታ", "ወርሒ", "ወርሒ ፍርቂ ወርሒ"],
+			tts:      Some("ዋክሲንግ ወርሓዊ ወርሒ"),
+			keywords: &["ሕልሚ", "ቦታ", "ወርሒ", "ወርሒ ፍርቂ ወርሒ", "ዋክሲንግ ምግባር"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("ýarym aý"),
-			keywords: &["aý", "ýarym aý", "ýarymaý"],
+			tts:      Some("ýaş aý"),
+			keywords: &["aý", "täze aý", "täze dogan", "ýaş aý"],
 		},
 		#[cfg(feature = "to")]
 		crate::Annotation {
 			lang:     "to",
-			tts:      Some("māhina kalipa"),
-			keywords: &["kalipa", "māhina"],
+			tts:      Some("māhina ʻilo ʻehe maama"),
+			keywords: &["kalipa", "māhina", "māhina ʻilo ʻehe maama"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("hilal"),
-			keywords: &["ay", "dilek", "gece", "gökyüzü", "hilal", "uzay", "yeni ay"],
+			tts:      Some("büyüyen ay"),
+			keywords: &["ay", "büyüyen ay", "hilal", "yükselen"],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("ئورغاق ئاي"),
-			keywords: &["ئاي", "ئورغاق"],
+			tts:      Some("پۈتەر ئورغاق ئاي"),
+			keywords: &["ئاي", "ئورغاق", "پۈتەر"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("серп місяця"),
-			keywords: &["космос", "місяць", "погода", "півмісяць", "серп місяця"],
+			tts:      Some("місяць у першій чверті"),
+			keywords: &[
+				"зростаючий",
+				"космос",
+				"молодий півмісяць",
+				"місяць",
+				"місяць у першій чверті",
+				"погода",
+				"півмісяць",
+			],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("ہلال چاند"),
-			keywords: &["آسمان", "خلا", "رمضان", "قدرت", "موسم", "چاند", "ہلال"],
+			tts:      Some("بڑھتا ہوا ہلال چاند"),
+			keywords: &[
+				"بڑھتا ہوا ہلال چاند",
+				"خواب",
+				"سپنے",
+				"قدرت",
+				"ماہ",
+				"ماہ تاب",
+				"موسم",
+				"چاند",
+				"ہلال",
+			],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("oy"),
-			keywords: &["koinot", "ob-havo", "oy", "ramazon", "ramazon oyi", "yarim oy"],
+			tts:      Some("kattalashib boruvchi yarim oy"),
+			keywords: &[
+				"kattalashib boruvchi",
+				"kattalashib boruvchi yarim oy",
+				"koinot",
+				"ob-havo",
+				"oy",
+			],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("trăng lưỡi liềm"),
-			keywords: &["lưỡi liềm", "mặt trăng", "trăng lưỡi liềm"],
+			tts:      Some("trăng lưỡi liềm đầu tháng"),
+			keywords: &["lưỡi liềm", "mặt trăng", "tròn dần", "trăng lưỡi liềm đầu tháng"],
 		},
 		#[cfg(feature = "wo")]
 		crate::Annotation {
 			lang:     "wo",
-			tts:      Some("weer wu sew di màgg"),
-			keywords: &["sew di màgg", "weer wu", "weer wu sew di màgg"],
+			tts:      Some("xaaju weer buy wàññiku"),
+			keywords: &["weer", "wàññiku", "xaaj", "xaaju weer buy wàññiku"],
 		},
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("inyanga elicala"),
-			keywords: &["elicala", "inyanga"],
+			tts:      Some("inyanga elicala efayo"),
+			keywords: &["efayo", "elicala", "inyanga"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("Ààbọ\u{300} Oṣùpá"),
-			keywords: &["Oṣùpá", "Ààbọ\u{300}"],
+			tts:      Some("Yíyọ\u{301} Ààbọ\u{300} Oṣùpá"),
+			keywords: &["Yíyọ\u{301} Ààbọ\u{300} Oṣùpá", "kírísẹ\u{301}ntì", "yíyọ\u{301}", "òṣùpá"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Ààbɔ\u{300} Oshùpá"),
-			keywords: &["Oshùpá", "Ààbɔ\u{300}"],
+			tts:      Some("Yíyɔ\u{301} Ààbɔ\u{300} Oshùpá"),
+			keywords: &["Yíyɔ\u{301} Ààbɔ\u{300} Oshùpá", "kírísɛ\u{301}ntì", "yíyɔ\u{301}", "òshùpá"],
 		},
 		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("弦月"), keywords: &["弦月", "月"] },
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("娥眉月"),
+			keywords: &["娥眉月", "弦月", "月", "盈"],
+		},
 		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("弦月"), keywords: &["弦月", "月"] },
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("娥眉月"),
+			keywords: &["娥眉月", "弦月", "月", "盈"],
+		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("弯月"),
-			keywords: &["娥眉月", "弯月", "新月形", "月亮", "残月", "蛾眉月"],
+			tts:      Some("蛾眉月"),
+			keywords: &["三日月", "娥眉月", "弯月", "月亮", "盈月", "眉月", "蛾眉月"],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("彎月"),
-			keywords: &["彎月", "新月", "月亮", "月牙", "残月"],
+			tts:      Some("眉形新月"),
+			keywords: &["彎月", "眉形新月"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("娥眉月"),
+			keywords: &["太空", "娥眉月", "宇宙", "峨嵋月", "新月", "月亮", "月蝕"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inyanga ewucezu olubheke emuva"),
+			keywords: &[
+				"inyanga",
+				"inyanga ewucezu olubheke emuva",
+				"isimo sezulu",
+				"ukubheka emuva",
+				"umkhathi",
+			],
+		},
+	],
+};
+#[doc = "⛈\u{fe0f}"]
+pub const CLOUD_WITH_LIGHTNING_AND_RAIN: crate::Emoji = crate::Emoji {
+	glyph:                "⛈\u{fe0f}",
+	codepoint:            &[9928u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "cloud with lightning and rain",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌠"]
+pub const SHOOTING_STAR: crate::Emoji = crate::Emoji {
+	glyph:                "🌠",
+	codepoint:            &[127776u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "shooting star",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("verskietende ster"),
+			keywords: &["nag", "ruimte", "skiet", "ster", "val", "verskiet", "verskietende ster"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ተወርዋሪ ኮከብ"),
+			keywords: &["ህዋ", "መወርወር", "መውደቅ", "ተወርዋሪ ኮከብ", "ኮሜት", "ኮከብ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("شهاب"),
+			keywords: &["انطلاق", "سقوط", "شهاب", "طبيعة", "فضاء", "قنص", "نجم"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("উল\u{9cd}ক\u{9be}"),
+			keywords: &["উল\u{9cd}ক\u{9be}", "তৰ\u{9be}", "পতিত", "শ\u{9cd}ব\u{9c1}টিং"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("düşən ulduz"),
+			keywords: &["düşən ulduz", "kosmos", "parlama", "tökülmək", "ulduz", "ulduz sürüşməsi"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("знічка"),
+			keywords: &["знічка", "зорка", "космас", "мара", "метэор"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("падаща звезда"),
+			keywords: &["звезда", "космос", "небе", "нощ", "падаща"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("উল\u{9cd}ক\u{9be}"),
+			keywords: &[
+				"উল\u{9cd}ক\u{9be}",
+				"ত\u{9be}র\u{9be}",
+				"পতিত",
+				"মহ\u{9be}ক\u{9be}শ",
+				"শ\u{9c1}টিং",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("steredenn-dared"),
+			keywords: &["steredenn", "steredenn-dared"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zvijezda padalica"),
+			keywords: &["padalica", "svemir", "zvijezda"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("estel fugaç"),
+			keywords: &["cel", "espai", "estel", "estrella", "fugaç", "pluja d’estels"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏬᎰᏒ ᏃᏈᏏ"),
+			keywords: &["ᎤᏬᎰᏒ", "ᎪᎰᏍᎬᎢ", "ᏃᏈᏏ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("padající hvězda"),
+			keywords: &["hvězda", "kometa", "kosmos", "noc", "padající", "vesmír"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("seren wib"),
+			keywords: &["gofod", "gwibio", "seren wib", "syrthio"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("stjerneskud"),
+			keywords: &["stjerne", "stjerneskud"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Sternschnuppe"),
+			keywords: &["Himmel", "Sternschnuppe"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("αστέρι που πέφτει"),
+			keywords: &["αστέρι", "αστέρι που πέφτει", "διάστημα", "νύχτα", "πεφταστέρι", "που πέφτει"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("shooting star"),
+			keywords: &["falling", "night", "shooting", "space", "star"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("estrella fugaz"),
+			keywords: &["estrella", "estrella fugaz", "lluvia"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["espacio", "estrella", "fugaz", "lluvia", "lluvia de estrellas"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["cayendo", "estrella", "fugaz"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("langev täht"),
+			keywords: &["komeet", "kosmos", "langev", "täht"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("izar-uxoa"),
+			keywords: &["espazio", "iheskor", "izar", "izar-uxoa", "uxo"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ستاره ثاقب"),
+			keywords: &["افتادن", "دنباله\u{200c}دار", "ستاره", "ستاره ثاقب", "سریع", "فضا"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("tähdenlento"),
+			keywords: &["avaruus", "toive", "tähdenlento", "tähti"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bulalakaw"),
+			keywords: &["bituin", "bulalakaw", "kalawakan", "shooting star", "tala"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("stjørnuskot"),
+			keywords: &["stjørna", "stjørnuskot"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("étoile filante"),
+			keywords: &["espace", "nuit", "étoile", "étoile filante"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["filante", "étoile"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("réalta reatha"),
+			keywords: &["oíche", "réalt", "réalta", "réalta reatha", "spás"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("rionnag earballach"),
+			keywords: &["dreag", "earballach", "reul", "rionnag", "tuiteam"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("estrela fugaz"),
+			keywords: &["choiva de estrelas", "chuvia de estrelas", "estrela", "fugaz"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ખરતો તારો"),
+			keywords: &["અવકાશ", "ખરતો", "ઝબ\u{ac2}કતો તારો", "તારલો", "તારો", "રાત\u{acd}રી", "સિતારો"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("mashi"),
+			keywords: &["Tauraro", "dare", "faɗowa", "faɗuwa", "mashi", "tauraro mai wutsiya"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("mashi"),
+			keywords: &["Tauraro", "dare", "faɗowa", "faɗuwa", "mashi", "tauraro mai wutsiya"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("כוכב שביט"),
+			keywords: &["חלל", "כוכב", "כוכב נופל", "שביט"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("उल\u{94d}का"),
+			keywords: &["उल\u{94d}का", "गिरता तारा", "ट\u{942}टता तारा", "तारा"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zvijezda padalica"),
+			keywords: &["komet", "meteor", "padanje", "zvijezda", "zvijezda padalica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hullócsillag"),
+			keywords: &["csillag", "csillaghullás", "hullócsillag", "ég"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ընկնող աստղ"),
+			keywords: &["աստղ", "ընկնող", "տիեզերք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("bintang jatuh"),
+			keywords: &["angkasa", "bintang", "jatuh"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("Kpakpando na-ada ada"),
+			keywords: &["abalị", "agbapụ", "kpakpando", "na-ada", "ọnwa"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("stjörnuhrap"),
+			keywords: &["stjarna", "stjörnuhrap", "óskastjarna"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("stella cadente"),
+			keywords: &["cadente", "desiderio", "fortuna", "notte", "stella"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("流れ星"),
+			keywords: &["スター", "夜", "宇宙", "星", "流れ星"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("lintang abuntut"),
+			keywords: &["buntut", "lintang", "lintang abuntut", "lintang ngalih", "tumiba"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ვარდნილი ვარსკვლავი"),
+			keywords: &["ვარდნა", "ვარდნილი ვარსკვლავი", "ვარსკვლავი", "კოსმოსი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ұшқан жұлдыз"),
+			keywords: &["жұлдыз", "түн", "ғарыш", "құлау", "ұшу", "ұшқан жұлдыз"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("stjerneskud"),
+			keywords: &["stjerne", "stjerneskud"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ផ\u{17d2}កាយហោះ"),
+			keywords: &["តារា", "ផ\u{17d2}កាយ", "ផ\u{17d2}កាយហោះ", "ហោះ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cc0}ಳುತ\u{ccd}ತ\u{cbf}ರುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ"),
+			keywords: &[
+				"ನಕ\u{ccd}ಷತ\u{ccd}ರ",
+				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
+				"ಬ\u{cc0}ಳುತ\u{ccd}ತ\u{cbf}ರುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ",
+				"ಬ\u{cc0}ಳುವ",
+				"ರಾತ\u{ccd}ರ\u{cbf}",
+				"ಶ\u{cc2}ಟ\u{cbf}ಂಗ\u{ccd}",
+				"ಶ\u{cc2}ಟ\u{cbf}ಂಗ\u{ccd} ಸ\u{ccd}ಟಾರ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("별똥별"),
+			keywords: &["낙성", "떨어지는", "밤", "별", "별똥별", "우주", "유성"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पडपी नख\u{947}त\u{94d}र"),
+			keywords: &["नख\u{947}त\u{94d}र", "पडपी", "श\u{941}टी\u{902}ग"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("учкан жылдыз"),
+			keywords: &["жылдыз", "учкан жылдыз", "учту", "учуу"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Stäreschnäiz"),
+			keywords: &["Stär", "Stäreschnäiz", "falend"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ດາວຕ\u{ebb}ກ"),
+			keywords: &["ດາວ", "ດາວຕ\u{ebb}ກ", "ຕ\u{ebb}ກ", "ອາວະກາດ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("krintanti žvaigždė"),
+			keywords: &["kosmosas", "krintanti", "žvaigždė"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("krītoša zvaigzne"),
+			keywords: &["krist", "krītoša zvaigzne", "zvaigzne"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("unahi o takero"),
+			keywords: &["hinga ana", "unahi", "unahi o takero", "whetū"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("ѕвезда што паѓа"),
+			keywords: &["вселена", "ноќ", "паѓа", "ѕвезда", "ѕвезда што паѓа"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("വ\u{d3e}ൽനക\u{d4d}ഷത\u{d4d}രം"),
+			keywords: &[
+				"നക\u{d4d}ഷത\u{d4d}രം",
+				"വ\u{d3e}ൽനക\u{d4d}ഷത\u{d4d}രം",
+				"വീഴ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("од харвах"),
+			keywords: &["аз", "од", "харвах"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पडणारा तारा"),
+			keywords: &[
+				"तारा",
+				"त\u{941}टणारा तारा",
+				"त\u{941}टण\u{947}",
+				"त\u{941}टता तारा",
+				"पडणारा तारा",
+				"पडण\u{947}",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("tahi bintang"),
+			keywords: &["angkasa lepas", "bintang", "jatuh", "malam", "tahi bintang"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("stilla feġġa"),
+			keywords: &["feġġa", "stilla", "taqa’"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ကြယ\u{103a}ကြ\u{103d}ေခြင\u{103a}း"),
+			keywords: &[
+				"ကြယ\u{103a}",
+				"ကြယ\u{103a}ကြ\u{103d}ေခြင\u{103a}း",
+				"ကြ\u{103d}ေကျခြင\u{103a}း",
+				"ကြ\u{103d}ေခြင\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("प\u{941}च\u{94d}छ\u{94d}र\u{947} तारा"),
+			keywords: &[
+				"आकाशग\u{902}गा",
+				"झरिरह\u{947}को",
+				"तारा",
+				"प\u{941}च\u{94d}छ\u{94d}र\u{947} तारा",
+				"श\u{942}टिङ\u{94d}ग",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("vallende ster"),
+			keywords: &["hemel", "ruimte", "ster", "vallen", "vallend", "vallende ster"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("stjerneskot"),
+			keywords: &["fallande stjerne", "fell", "stjerne", "stjerneskot", "verdsrommet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଉଲକ\u{b3e}"),
+			keywords: &["ଉଲକ\u{b3e}", "ଉଲକ\u{b3e}ତ\u{b3e}ର\u{b3e}", "ତ\u{b3e}ର\u{b3e}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਟ\u{a41}\u{a71}ਟਦਾ ਤਾਰਾ"),
+			keywords: &[
+				"ਟ\u{a41}\u{a71}ਟਣਾ",
+				"ਟ\u{a41}\u{a71}ਟਦਾ ਤਾਰਾ",
+				"ਡਿ\u{a71}ਗਣਾ",
+				"ਤਾਰਾ",
+				"ਪ\u{a41}ਲਾੜ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("شوٹنگ ستارہ"),
+			keywords: &["تارہ", "شوٹنگ", "شوٹنگ ستارہ", "ڈ\u{650}گنا"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Shútín Sta"),
+			keywords: &["Shútín Sta", "Sta", "To Fọl", "To Shut"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("spadająca gwiazda"),
+			keywords: &["gwiazda", "kometa", "noc", "spadająca", "życzenie"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د ډزو ستوري"),
+			keywords: &["د ډزو ستوري", "ستوری", "لوېدونکی", "ويشتونکی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("estrela cadente"),
+			keywords: &["cadente", "cai", "estrela"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["cadente", "espaço", "estrela"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("utqhay quyllur"),
+			keywords: &["quyllur", "urmay", "utqhay"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("stea căzătoare"),
+			keywords: &[
+				"cer",
+				"cometă",
+				"cădere",
+				"meteor",
+				"noapte",
+				"spațiu",
+				"stea",
+				"stea căzătoare",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-231"), keywords: &["E10-231"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("падающая звезда"),
+			keywords: &["желание", "загадать желание", "звезда", "звездопад", "небо", "падающая"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("kibonumwe"),
+			keywords: &["gufata amafoto", "inyenyeri", "kibonumwe", "kugwa"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ٽٽندڙ تارو"),
+			keywords: &["تارو", "ٽٽندڙ", "ڪرندي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("කඩ\u{dcf} වැටෙන තර\u{dd4}ව"),
+			keywords: &[
+				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
+				"කඩ\u{dcf} වැට\u{dd3}ම",
+				"කඩ\u{dcf} වැටෙන තර\u{dd4}ව",
+				"තර\u{dd4}ව",
+				"වැට\u{dd3}ම",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("padajúca hviezda"),
+			keywords: &["hviezda", "kométa", "padajúca", "vesmír"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("utrinek"),
+			keywords: &["padanje", "repatica", "utrinek", "vesolje", "zvezda"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("waran cireed"),
+			keywords: &["soo dhacaya", "toogasho", "waran cireed", "xiddig"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("yll që bie"),
+			keywords: &["hapësirë", "që bie", "që këputet", "yll", "yll që bie"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("звезда падалица"),
+			keywords: &["звезда", "ноћ", "падалица", "падање", "свемир"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("звијезда падалица"),
+			keywords: &["звијездa", "звијезда падалица", "пaдaње"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zvezda padalica"),
+			keywords: &["noć", "padalica", "padanje", "svemir", "zvezda"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("zvijezda padalica"),
+			keywords: &["padanje", "zvijezda", "zvijezda padalica"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("stjärnfall"),
+			keywords: &["fallande stjärna", "stjärnfall"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kimwondo"),
+			keywords: &["anga", "kaunguka", "kimondo", "kimwondo", "nyota", "nyota iangukayo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &["anga", "kimwondo", "kuanguka", "nyota"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("எரிநட\u{bcd}சத\u{bcd}திரம\u{bcd}"),
+			keywords: &[
+				"இரவு",
+				"எரிநட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+				"நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+				"வ\u{bbe}ல\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+				"விண\u{bcd}வெளி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఉల\u{c4d}క న\u{c47}ల ర\u{c3e}లడం"),
+			keywords: &[
+				"అంతర\u{c3f}క\u{c4d}షం",
+				"ఉల\u{c4d}క",
+				"ఉల\u{c4d}క న\u{c47}ల ర\u{c3e}లడం",
+				"నక\u{c4d}షత\u{c4d}రం",
+				"న\u{c47}ల",
+				"ర\u{c3e}త\u{c4d}ర\u{c3f}",
+				"షూట\u{c3f}ంగ\u{c4d}",
+				"స\u{c4d}ట\u{c3e}ర\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ситораи думдор"),
+			keywords: &["афтидан", "парондан", "ситора", "ситораи думдор"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang: "th", tts: Some("ดาวตก"), keywords: &["ดาว", "ดาวตก"]
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ተወንጫፊ ኮኾብ"),
+			keywords: &["ለይቲ", "ምትኳስ", "ምውዳቕ", "ቦታ", "ኮኾብ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("süýnýän ýyldyz"),
+			keywords: &["düşýän", "süýnýän", "ýyldyz"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("fetuʻu ʻesiafi"),
+			keywords: &["fetuʻu", "ʻesiafi"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("yıldız kayması"),
+			keywords: &["gece", "kayan", "meteor yağmuru", "uzay", "yıldız", "yıldız kayması"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئاقار يۇلتۇز"),
+			keywords: &["ئاتار", "ئاقار يۇلتۇز", "يۇلتۇز", "چۈشەر"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("метеор"),
+			keywords: &["зірка", "космос", "метеор", "небо", "падає"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("شہاب\u{650} ثاقب"),
+			keywords: &["رات", "ستارہ", "شب", "شہاب\u{650} ثاقب", "قدرت", "ٹوٹا تارہ", "گرتا"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("uchayotgan yulduz"),
+			keywords: &["fazo", "koinot", "osmon", "tun", "uchayotgan", "yulduz"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("sao băng"),
+			keywords: &["ngôi sao", "phóng", "rơi", "sao băng"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("biddeew buy daw"),
+			keywords: &["biddeew", "biddeew buy daw", "daanu", "dóor"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("inkwenkwezi edubulayo"),
+			keywords: &["ewayo", "inkwenkwezi", "inkwenkwezi edubulayo", "udubulayo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Irawọ Yiyọ"),
+			keywords: &["Irawọ Yiyọ", "jíjábọ\u{301}", "títa", "ìràwọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Irawɔ Yiyɔ"),
+			keywords: &["Irawɔ Yiyɔ", "jíjábɔ\u{301}", "títa", "ìràwɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("流星"),
+			keywords: &["墜落", "射擊", "星星", "流星"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("流星"),
+			keywords: &["坠落", "射击", "星星", "流星"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("流星"),
+			keywords: &["夜晚", "太空", "星空", "流星", "陨落之星"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("流星"),
+			keywords: &["星星", "星空", "流星"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
 			tts:      Some("↑↑↑"),
-			keywords: &["上弦月", "太空", "宇宙", "新月", "月亮", "齋戒月"],
+			keywords: &["一閃一閃", "墜落", "夜晚", "太空", "宇宙", "星星", "晚上", "流星"],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("inyanga enciphile"),
-			keywords: &["inyanga", "inyanga enciphile", "isimo sezulu", "ukubheka emuva", "umkhathi"],
+			tts:      Some("inkanyezi edubulayo"),
+			keywords: &["inkanyezi", "inkanyezi edubulayo", "ukudubula", "ukuwa", "umkhathi"],
 		},
 	],
+};
+#[doc = "🌬\u{fe0f}"]
+pub const WIND_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🌬\u{fe0f}",
+	codepoint:            &[127788u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "wind face",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌫\u{fe0f}"]
+pub const FOG: crate::Emoji = crate::Emoji {
+	glyph:                "🌫\u{fe0f}",
+	codepoint:            &[127787u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "fog",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "☁\u{fe0f}"]
+pub const CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "☁\u{fe0f}",
+	codepoint:            &[9729u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "cloud",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };
 #[doc = "🌚"]
 pub const NEW_MOON_FACE: crate::Emoji = crate::Emoji {
@@ -8443,13 +15777,13 @@ pub const NEW_MOON_FACE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🌛"]
-pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🌛",
-	codepoint:            &[127771u32],
+#[doc = "🌑"]
+pub const NEW_MOON: crate::Emoji = crate::Emoji {
+	glyph:                "🌑",
+	codepoint:            &[127761u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "first quarter moon face",
+	name:                 "new moon",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -8458,13 +15792,14 @@ pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("eerstekwartiermaan met gesig"),
+			tts:      Some("nuwemaan"),
 			keywords: &[
-				"eerste",
-				"eerstekwartiermaan met gesig",
-				"gesig",
-				"kwartier",
+				"donker",
+				"donker nag",
 				"maan",
+				"maansverduistering",
+				"nuwe",
+				"nuwemaan",
 				"ruimte",
 				"weer",
 			],
@@ -8472,169 +15807,120 @@ pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("የመጀመሪያ ሩብ ጨረቃ ከፊት ጋር"),
-			keywords: &["ህዋ", "ሩብ", "የመጀመሪያ ሩብ", "የመጀመሪያ ሩብ ጨረቃ ከፊት ጋር", "የአየር ንብረት", "ጨረቃ", "ፊት"],
+			tts:      Some("አዲስ ጨረቃ"),
+			keywords: &["ህዋ", "አዲስ ጨረቃ", "የአየር ንብረት", "ጨለማ", "ጨረቃ"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("وجه تربيع أول"),
-			keywords: &["أول", "بداية الشهر", "بدر", "تربيع", "طقس", "فضاء", "قمر", "هلال", "وجه"],
+			tts:      Some("محاق"),
+			keywords: &["طبيعة", "طقس", "فضاء", "قمر", "محاق", "معتم"],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("চন\u{9cd}দ\u{9cd}ৰৰ প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশৰ ম\u{9c1}খ"),
-			keywords: &[
-				"চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশ",
-				"চন\u{9cd}দ\u{9cd}ৰ",
-				"চন\u{9cd}দ\u{9cd}ৰৰ প\u{9cd}ৰথম চত\u{9c1}ৰ\u{9cd}থ\u{9be}ংশৰ ম\u{9c1}খ",
-				"ম\u{9c1}খ",
-			],
+			tts:      Some("ন জোন"),
+			keywords: &["আন\u{9cd}ধ\u{9be}ৰ", "চন\u{9cd}দ\u{9cd}ৰ", "ন জোন"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("ayın birinci dörrdə bir hissəsinin üzü"),
-			keywords: &[
-				"ay",
-				"ayın birinci dörrdə bir hissəsinin üzü",
-				"ayın ilk fazası",
-				"dörddə bir",
-				"hava",
-				"kosmos",
-				"üz",
-			],
+			tts:      Some("yeni ay"),
+			keywords: &["ay", "hava", "kosmos", "tünd", "yeni ay"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("месяц у першай чвэрці з тварам"),
-			keywords: &[
-				"квадра",
-				"космас",
-				"месяц",
-				"месяц у першай чвэрці з тварам",
-				"першая",
-				"твар",
-				"чвэрць",
-			],
+			tts:      Some("маладзік"),
+			keywords: &["космас", "маладзік", "новы месяц", "ноч", "перакрой", "пусты месяц"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("Луната в първа четвърт с лице"),
-			keywords: &[
-				"Луната в първа четвърт с лице",
-				"космос",
-				"лице",
-				"луна",
-				"луната в първа четвърт с лице",
-				"четвърт",
-			],
+			tts:      Some("новолуние"),
+			keywords: &["време", "космос", "луна", "новолуние", "тъмен"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some(
-				"ম\u{9c1}খের স\u{9be}থে চ\u{9be}\u{981}দের প\u{9cd}রথম এক চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
-			),
+			tts:      Some("আম\u{9be}বস\u{9cd}য\u{9be}"),
 			keywords: &[
+				"অন\u{9cd}ধক\u{9be}র",
+				"অম\u{9be}বস\u{9cd}য\u{9be}",
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"আম\u{9be}বস\u{9cd}য\u{9be}",
 				"চ\u{9be}\u{981}দ",
 				"মহ\u{9be}ক\u{9be}শ",
-				"ম\u{9c1}খ",
-				"ম\u{9c1}খের স\u{9be}থে চ\u{9be}\u{981}দের প\u{9cd}রথম এক চত\u{9c1}র\u{9cd}থ\u{9be}ংশ",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("penn loar vihan ar cʼhresk"),
-			keywords: &["loar", "penn", "penn loar vihan ar cʼhresk"],
+			tts:      Some("loar nevez"),
+			keywords: &["loar", "loar nevez"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("prva četvrtina lice"),
-			keywords: &["lice", "mjesec", "prva četvrtina lice"],
+			tts:      Some("mladi mjesec"),
+			keywords: &["mjesec", "mjesečeve mijene", "mladi mjesec", "svemir"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("lluna en el primer quart amb cara"),
-			keywords: &[
-				"cara",
-				"creixent",
-				"espai",
-				"lluna",
-				"lluna en el primer quart amb cara",
-				"quart",
-			],
+			tts:      Some("lluna nova"),
+			keywords: &["fosc", "fosca", "lluna", "nova"],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᎢᎬᏱ ᎩᏄᏘᏗ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ"),
-			keywords: &["ᎢᎬᏱ ᎩᏄᏘᏗ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ", "ᎤᎧᏛ", "ᎩᏄᏘᏗ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
+			tts:      Some("ᎢᏤ ᏅᏓ ᎤᏒᎢ ᎡᎯ"),
+			keywords: &["ᎢᏤ ᏅᏓ ᎤᏒᎢ ᎡᎯ", "ᎤᎵᏏᎩ", "ᏅᏓ ᎤᏒᎢ ᎡᎯ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("měsíc v první čtvrti s obličejem"),
+			tts:      Some("měsíc v novu"),
 			keywords: &[
-				"dorůstající",
-				"dorůstá",
 				"fáze měsíce",
 				"měsíc",
-				"měsíc v první čtvrti s obličejem",
-				"obličej",
+				"měsíc v novu",
+				"noc",
+				"nov",
+				"novoluní",
+				"nový",
 				"počasí",
-				"půlměsíc",
-				"smajlík",
-				"tvář",
+				"tma",
 				"vesmír",
-				"výraz",
-				"čtvrť",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("lleuad chwarter cyntaf gydag wyneb"),
-			keywords: &["chwarter", "gofod", "lleuad", "lleuad chwarter cyntaf gydag wyneb", "wyneb"],
+			tts:      Some("lleuad newydd"),
+			keywords: &["gofod", "lleuad", "lleuad newydd", "tywydd", "tywyllwch"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("måne med ansigt 1. fjerdedel"),
-			keywords: &["halvmåne", "måne", "måne med ansigt 1. fjerdedel", "måneansigt"],
+			tts:      Some("nymåne"),
+			keywords: &["måne", "månefase", "nymåne"],
 		},
 		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Mondsichel mit Gesicht links"),
-			keywords: &["Gesicht", "Mond", "Mondsichel", "Mondsichel mit Gesicht links", "Weltall"],
-		},
+		crate::Annotation { lang: "de", tts: Some("Neumond"), keywords: &["Mond", "Neumond"] },
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("σελήνη πρώτου τετάρτου με πρόσωπο"),
-			keywords: &[
-				"διάστημα",
-				"πρόσωπο",
-				"σελήνη",
-				"σελήνη πρώτου τετάρτου με πρόσωπο",
-				"τέταρτο",
-				"φεγγάρι",
-			],
+			tts:      Some("νέα σελήνη"),
+			keywords: &["διάστημα", "καιρός", "νέα σελήνη", "σελήνη", "σκοτάδι", "σκοτεινός", "φεγγάρι"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("first quarter moon face"),
-			keywords: &["face", "first", "moon", "quarter", "space"],
+			tts:      Some("new moon"),
+			keywords: &["dark", "moon", "new", "space"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -8647,6721 +15933,643 @@ pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("luna de cuarto creciente con cara"),
-			keywords: &[
-				"cara",
-				"creciente",
-				"cuarto",
-				"espacio",
-				"luna",
-				"luna de cuarto creciente con cara",
-			],
+			tts:      Some("luna nueva"),
+			keywords: &["luna", "luna nueva", "oscuridad"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
 			tts:      Some("↑↑↑"),
-			keywords: &[
-				"cara",
-				"creciente",
-				"cuarto",
-				"luna",
-				"luna de cuarto creciente con cara",
-				"media",
-			],
+			keywords: &["clima", "espacio", "luna", "negra", "nueva", "oscuridad"],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["espacio", "fase lunar", "luna", "luna nueva", "negra", "nuev"],
+		},
 		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["luna", "luna nueva", "oscuridad", "oscuro"],
+		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("näoga kasvav kuu"),
-			keywords: &["ilm", "kosmos", "kuu", "nägu", "näoga kasvav kuu", "poolkuu"],
+			tts:      Some("noorkuu"),
+			keywords: &["ilm", "kosmos", "kuu", "noorkuu", "pime"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("lehen ilargi-laurdena aurpegiarekin"),
-			keywords: &[
-				"aurpegi",
-				"eguraldi",
-				"espazio",
-				"ilargi",
-				"ilargi-laurdena ezkerrera begira",
-				"lehen ilargi-laurdena aurpegiarekin",
-			],
+			tts:      Some("ilargi berria"),
+			keywords: &["eguraldi", "espazio", "ilargi", "ilargi berria", "ilun"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("صورت یک\u{200c}چهارم اول"),
-			keywords: &[
-				"آب\u{200c}وهوا",
-				"اول",
-				"تربیع",
-				"صورت",
-				"صورت هلال اول",
-				"فضا",
-				"ماه",
-				"نخست",
-				"یک\u{200c}چهارم",
-			],
+			tts:      Some("ماه نو"),
+			keywords: &["آب\u{200c}وهوا", "تاریک", "فضا", "ماه", "ماه نو"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("kasvava puolikuu kasvoilla"),
-			keywords: &[
-				"kasvava puolikuu kasvoilla",
-				"kasvot",
-				"kuu",
-				"puolikuu",
-				"sää",
-				"taivaankappale",
-			],
+			tts:      Some("uusikuu"),
+			keywords: &["kuu", "pimeä", "sää", "taivaankappale", "uusikuu"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("first quarter moon na may mukha"),
-			keywords: &["buwan", "first quarter", "first quarter moon na may mukha", "mukha", "quarter"],
+			tts:      Some("new moon"),
+			keywords: &["buwan", "kalawakan", "madilim", "new moon"],
 		},
 		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("andlit á vaksandi mána"),
-			keywords: &["andlit", "andlit á vaksandi mána", "hálvmáni", "máni", "vaksandi"],
-		},
+		crate::Annotation { lang: "fo", tts: Some("nýmáni"), keywords: &["máni", "nýmáni"] },
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("premier quartier de lune avec visage"),
-			keywords: &[
-				"croissant de lune",
-				"espace",
-				"lune",
-				"lune à visage",
-				"nuit",
-				"premier quartier de lune",
-				"premier quartier de lune avec visage",
-				"quartier",
-				"visage",
-			],
+			tts:      Some("nouvelle lune"),
+			keywords: &["espace", "lune", "nouvelle lune", "sombre"],
 		},
 		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["lune", "premier quartier", "visage"],
-		},
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["lune", "nouvelle"] },
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("céad cheathrú na gealaí le haghaidh"),
-			keywords: &[
-				"aghaidh",
-				"aghaidh ghealaí",
-				"ceathrú",
-				"corrán gealaí le haghaidh",
-				"céad cheathrú na gealaí le haghaidh",
-				"gealach",
-				"spás",
-				"éadan",
-			],
+			tts:      Some("gealach úr"),
+			keywords: &["dorcha", "duibhré", "fánas", "gealach", "gealach nua", "ré nua", "spás", "úr"],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("solas ùr na gealaich le aodann"),
-			keywords: &[
-				"aodann",
-				"ceathramh",
-				"gealach",
-				"gealach sa chiad cheathramh le aodann",
-				"solas ùr na gealaich le aodann",
-			],
+			tts:      Some("gealach ùr"),
+			keywords: &["dorch", "gealach", "ùr"],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("lúa en cuarto crecente con cara"),
-			keywords: &["cara", "crecente", "cuarto", "lúa", "lúa en cuarto crecente con cara"],
+			tts:      Some("lúa nova"),
+			keywords: &["lúa", "nova", "novilunio"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("ચહ\u{ac7}રાવાળો શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર"),
+			tts:      Some("પ\u{acd}રતિપદાનો ચ\u{a82}દ\u{acd}ર"),
 			keywords: &[
-				"અર\u{acd}ધ ચ\u{a82}દ\u{acd}ર",
-				"અર\u{acd}ધ ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો",
+				"અમાસ",
 				"ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રા સાથ\u{ac7}નો અર\u{acd}ધ ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રા સાથ\u{ac7}નો ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રાવાળો શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રો",
-				"શ\u{ac1}ક\u{acd}લ પક\u{acd}ષનો ચ\u{a82}દ\u{acd}ર",
+				"ડાર\u{acd}ક",
+				"નવો",
+				"પ\u{acd}રતિપદાનો ચ\u{a82}દ\u{acd}ર",
 			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("wata na farkon kwata tare da fuska"),
-			keywords: &[
-				"fuska",
-				"kwata",
-				"samaniya",
-				"wata",
-				"wata mai fuska",
-				"wata na farkon kwata tare da fuska",
-			],
+			tts:      Some("sabon wata"),
+			keywords: &["duhu", "sabon wata", "samaniya", "wata"],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("wata na farkon kwata tare da fuska"),
-			keywords: &[
-				"fuska",
-				"kwata",
-				"samaniya",
-				"wata",
-				"wata mai fuska",
-				"wata na farkon kwata tare da fuska",
-			],
+			tts:      Some("sabon wata"),
+			keywords: &["duhu", "sabon wata", "samaniya", "wata"],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("פני סהר מתמלא"),
-			keywords: &["ירח", "סהר", "פני סהר מתמלא", "פנים"],
+			tts:      Some("ירח חדש"),
+			keywords: &["חושך", "חלל", "חשוך", "ירח", "ירח חדש", "מולד"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("चौथाई माह क\u{947} चा\u{901}द वाला दाई\u{902} ओर च\u{947}हरा"),
-			keywords: &[
-				"चा\u{902}द",
-				"च\u{947}हरा",
-				"च\u{947}हर\u{947} वाला चा\u{902}द",
-				"चौथाई माह क\u{947} चा\u{901}द वाला दाई\u{902} ओर च\u{947}हरा",
-				"चौथाई माह क\u{947} चा\u{902}द वाला च\u{947}हरा",
-				"पहल\u{947} चौथाई माह का चा\u{902}द",
-			],
+			tts:      Some("नया चा\u{901}द"),
+			keywords: &["गहरा", "चा\u{901}द", "चा\u{902}द", "नया"],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("mjesec prve četvrti s licem"),
-			keywords: &["lice", "mjesec", "mjesec prve četvrti s licem", "svemir", "vrijeme", "četvrt"],
+			tts:      Some("mlađak"),
+			keywords: &["mjesec", "mlađak", "mrak", "svemir", "vrijeme"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("első negyedben lévő hold arccal"),
-			keywords: &[
-				"arc",
-				"első negyed",
-				"első negyedben lévő hold arccal",
-				"hold",
-				"holdfázisok",
-				"ég",
-				"éjszaka",
-			],
+			tts:      Some("újhold"),
+			keywords: &["hold", "holdfázisok", "sötétség", "ég", "éjszaka", "újhold", "űr"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("լուսինն առաջին քառորդում դեմքով"),
-			keywords: &[
-				"դեմք",
-				"եղանակ",
-				"լուսին",
-				"լուսինն առաջին քառորդում դեմքով",
-				"տիեզերք",
-				"քառորդ",
-			],
+			tts:      Some("նորալուսին"),
+			keywords: &["եղանակ", "լուսին", "մութ", "նորալուսին", "տիեզերք"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("wajah bulan perbani awal"),
-			keywords: &[
-				"antariksa",
-				"awal",
-				"bulan",
-				"kuartal",
-				"kuarter",
-				"luar angkasa",
-				"muka",
-				"perbani",
-				"wajah",
-			],
+			tts:      Some("bulan baru"),
+			keywords: &["angkasa", "bulan", "bulan baru", "cuaca", "gelap"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ọnwa mbụ nke mmalite-afọ nwere ihu"),
-			keywords: &["ihu", "mbụ nke mmalite-afọ", "ọnwa", "ọnwa mbụ nke mmalite-afọ nwere ihu"],
+			tts:      Some("ọnwa ọhụrụ"),
+			keywords: &["ojii", "ọnwa", "ọnwa ọhụrụ"],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("fyrsta kvartil tungls með andliti"),
-			keywords: &[
-				"andlit",
-				"fyrsta kvartil tungls",
-				"fyrsta kvartil tungls með andliti",
-				"máni",
-				"tungl",
-				"tunglsigð",
-			],
+			tts:      Some("nýtt tungl"),
+			keywords: &["dökkt", "máni", "nýr máni", "nýtt", "tungl"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("faccina primo quarto di luna"),
-			keywords: &[
-				"cielo",
-				"faccina",
-				"faccina primo quarto di luna",
-				"luna",
-				"luna con faccina",
-				"natura",
-				"notte",
-				"primo quarto di luna",
-				"quarto di luna con faccina",
-			],
+			tts:      Some("luna nuova"),
+			keywords: &["cielo", "luna", "luna nera", "natura", "notte", "novilunio", "nuova"],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("顔のある上弦の月"),
-			keywords: &["上弦の月", "半月", "月", "顔", "顔のある上弦の月"],
+			tts:      Some("新月"),
+			keywords: &["宇宙", "新月", "月", "闇"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("rai bulan separo marep ngiwa"),
-			keywords: &["bulan", "rai", "rai bulan separo marep ngiwa", "sabit", "separo"],
+			tts:      Some("bulan kawitan"),
+			keywords: &["bulan", "bulan kawitan", "peteng", "rembulan"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("მთვარის პირველი მეოთხედი სახით"),
-			keywords: &[
-				"ამინდი",
-				"კოსმოსი",
-				"მეოთხედი",
-				"მთვარე",
-				"მთვარის პირველი მეოთხედი სახით",
-				"სახე",
-			],
+			tts:      Some("ახალი მთვარე"),
+			keywords: &["ამინდი", "ახალი მთვარე", "კოსმოსი", "მთვარე", "მუქი"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("беті бар бірінші ширек айы"),
-			keywords: &["ай", "ауа райы", "бет", "беті бар бірінші ширек айы", "ширек", "ғарыш"],
+			tts:      Some("жаңа ай"),
+			keywords: &["ай", "ауа райы", "жаңа ай", "ғарыш", "қараңғы"],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("måne med ansigt første kvarter"),
-			keywords: &["måne", "måne med ansigt første kvarter", "måneansigt"],
+			tts:      Some("nymåne"),
+			keywords: &["måne", "månefase", "nymåne"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ម\u{17bb}ខច\u{17c6}ន\u{17b7}តខែបែទៅឆ\u{17d2}វេង"),
+			tts:      Some("ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទថ\u{17d2}ម\u{17b8}"),
 			keywords: &[
-				"ច\u{17c6}ន\u{17b7}តខែ",
-				"ទៅឆ\u{17d2}វេង",
-				"ម\u{17bb}ខ",
-				"ម\u{17bb}ខច\u{17c6}ន\u{17b7}តខែបែទៅឆ\u{17d2}វេង",
+				"ងង\u{17b9}ត",
+				"ព\u{17d2}រះច\u{17d0}ន\u{17d2}ទថ\u{17d2}ម\u{17b8}",
+				"យប\u{17cb}",
+				"អាកាសធាត\u{17bb}",
 			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರನ ಮುಖ"),
+			tts:      Some("ಅಮಾವಾಸ\u{ccd}ಯ\u{cc6}"),
 			keywords: &[
-				"ಅರ\u{ccd}ಧಚಂದ\u{ccd}ರ",
+				"ಅಮವಾಸ\u{ccd}ಯ\u{cc6}",
+				"ಅಮಾವಾಸ\u{ccd}ಯ\u{cc6}",
 				"ಆಕಾಶ",
-				"ಕಾಲುಭಾಗ",
+				"ಕತ\u{ccd}ತಲು",
+				"ಕತ\u{ccd}ತಲ\u{cc6}",
+				"ಗಾಢ",
 				"ಚಂದ\u{ccd}ರ",
-				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರ",
-				"ತದ\u{cbf}ಗ\u{cc6} ಚಂದ\u{ccd}ರನ ಮುಖ",
-				"ಬಾಲಚಂದ\u{ccd}ರ",
 				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
-				"ಮುಖ",
-				"ಮುಖದ\u{cca}ಂದ\u{cbf}ಗ\u{cbf}ನ ಚಂದ\u{ccd}ರ",
-				"ಮುಖದ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕಾಲುಭಾಗದ ಚಂದ\u{ccd}ರ",
-				"ಮ\u{cca}ದಲ ಕಾಲುಭಾಗದಷ\u{ccd}ಟು ಚಂದ\u{ccd}ರನ ಮುಖ",
+				"ಹ\u{cca}ಸದು",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("얼굴이 있는 초승달"),
-			keywords: &["달", "달님", "얼굴", "얼굴이 있는 초승달", "우주"],
+			tts:      Some("삭"),
+			keywords: &["그믐", "그믐달", "뉴문", "달", "삭", "우주", "초승달"],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("पयल\u{94d}या प\u{902}दरशीच\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो"),
-			keywords: &[
-				"च\u{902}द\u{94d}र",
-				"च\u{947}रो",
-				"प\u{902}दरस",
-				"पयल\u{94d}या प\u{902}दरशीच\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो",
-			],
+			tts:      Some("अमास"),
+			keywords: &["अमास", "उमास", "काळोख"],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("жартысы толгон айдын бети"),
-			keywords: &["ай", "бет", "жартысы толгон", "жартысы толгон айдын бети", "космос"],
+			tts:      Some("жаңырган ай"),
+			keywords: &["ай", "жаңырган ай", "караңгы"],
 		},
 		#[cfg(feature = "lb")]
 		crate::Annotation {
 			lang:     "lb",
-			tts:      Some("zouhuelenden Hallefmoundgesiicht"),
-			keywords: &["Gesiicht", "Hallef", "Mound", "Véierel", "zouhuelenden Hallefmoundgesiicht"],
+			tts:      Some("Neimound"),
+			keywords: &["Mound", "Neimound", "däischter"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງທຳອ\u{eb4}ດ"),
-			keywords: &[
-				"ເຄ\u{eb4}\u{ec8}ງດວງ",
-				"ເດ\u{eb7}ອນ",
-				"ໜ\u{ec9}າ",
-				"ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງ",
-				"ໜ\u{ec9}າເດ\u{eb7}ອນເຄ\u{eb4}\u{ec8}ງດວງທຳອ\u{eb4}ດ",
-			],
+			tts:      Some("ເດ\u{eb7}ອນດ\u{eb1}ບ"),
+			keywords: &["ມ\u{eb7}ດ", "ເດ\u{eb7}ອນດ\u{eb1}ບ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("priešpilnio mėnulis su veidu"),
-			keywords: &[
-				"ketvirtis",
-				"kosmosas",
-				"mėnulis",
-				"priešpilnio mėnulis su veidu",
-				"priešpilnis",
-				"veidas",
-			],
+			tts:      Some("jaunas mėnulis"),
+			keywords: &["jaunas mėnulis", "jaunatis", "kosmosas", "mėnulis", "tamsa"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("augoša mēness sirpja seja"),
-			keywords: &["augoša mēness sirpja seja", "augošs", "mēness", "seja", "sirpis"],
+			tts:      Some("jauns mēness"),
+			keywords: &["jauns mēness", "kosmoss", "mēness", "tumšs"],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("marama ahotū whai mata"),
-			keywords: &["hauwhā", "marama", "marama ahotū whai mata", "mata"],
+			tts:      Some("marama kōhiti"),
+			keywords: &["marama", "marama kōhiti", "pōuri"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("прва четвртина на месечината со лице"),
-			keywords: &[
-				"вселена",
-				"лице",
-				"месечина",
-				"прва",
-				"прва четвртина на месечината со лице",
-				"четврт",
-				"четвртина",
-			],
+			tts:      Some("млада месечина"),
+			keywords: &["време", "вселена", "месечина", "млада", "нова месечина", "темна"],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം"),
+			tts:      Some("അമ\u{d3e}വ\u{d3e}സി"),
 			keywords: &[
-				"അർദ\u{d4d}ധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം",
-				"അർധ പ\u{d57}ർണ\u{d4d}ണമി മ\u{d41}ഖം",
-				"ചന\u{d4d}ദ\u{d4d}രക\u{d4d}കല",
-				"ചന\u{d4d}ദ\u{d4d}രനിൽ മ\u{d41}ഖം",
+				"അമ\u{d3e}വ\u{d3e}സി",
+				"കറ\u{d41}ത\u{d4d}ത ചന\u{d4d}ദ\u{d4d}രൻ",
+				"കറ\u{d41}ത\u{d4d}തവ\u{d3e}വ\u{d4d}",
 				"ചന\u{d4d}ദ\u{d4d}രൻ",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("нүүртэй эхний хагас сар"),
-			keywords: &["нүүр", "нүүртэй эхний хагас сар", "сар", "хагас", "цаг агаар"],
+			tts:      Some("шинэ сар"),
+			keywords: &["одон гариг", "сар", "цаг агаар", "шинэ"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("श\u{941}क\u{94d}लपक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा"),
-			keywords: &[
-				"क\u{943}ष\u{94d}ण पक\u{94d}षातील च\u{902}द\u{94d}र",
-				"च\u{902}द\u{94d}र",
-				"चत\u{941}र\u{94d}थी",
-				"चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
-				"चत\u{941}र\u{94d}थीच\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
-				"च\u{947}हरा",
-				"च\u{947}हरा असल\u{947}ला चत\u{941}र\u{94d}थीचा च\u{902}द\u{94d}र",
-				"च\u{947}हरा असल\u{947}ली च\u{902}द\u{94d}रकोर",
-				"श\u{941}क\u{94d}ल पक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा",
-				"श\u{941}क\u{94d}लपक\u{94d}षातील अर\u{94d}धच\u{902}द\u{94d}राचा च\u{947}हरा",
-			],
+			tts:      Some("अमावस\u{94d}या"),
+			keywords: &["अमावस\u{94d}या", "गडद", "च\u{902}द\u{94d}र"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("muka bulan suku pertama"),
-			keywords: &["angkasa lepas", "bulan", "muka", "pertama", "suku"],
+			tts:      Some("bulan baharu"),
+			keywords: &["anak bulan", "angkasa lepas", "bulan", "bulan baru", "gelap"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("wiċċ tal-ewwel kwart tal-qamar"),
-			keywords: &["kwart", "qamar", "wiċċ", "wiċċ tal-ewwel kwart tal-qamar"],
+			tts:      Some("qamar ġdid"),
+			keywords: &["qamar", "qamar ġdid", "skur"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("လဆန\u{103a}းစ မျက\u{103a}န\u{103e}ာ"),
-			keywords: &[
-				"မျက\u{103a}န\u{103e}ာ",
-				"လ",
-				"လဆန\u{103a}းစ မျက\u{103a}န\u{103e}ာ",
-				"လေးပ\u{102f}\u{1036}တစ\u{103a}ပ\u{102f}\u{1036}",
-			],
+			tts:      Some("လက\u{103d}ယ\u{103a}"),
+			keywords: &["မ\u{103e}ောင\u{103a}မည\u{103a}း", "လ", "လက\u{103d}ယ\u{103a}"],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("अन\u{941}हारको आक\u{943}ति भएको पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा"),
+			tts:      Some("औ\u{902}सी"),
 			keywords: &[
-				"अन\u{941}हार",
-				"अन\u{941}हारको आक\u{943}ति भएको पहिलो पक\u{94d}षीय चन\u{94d}द\u{94d}रमा",
-				"एक चौ\u{902}थाइ",
-				"चन\u{94d}द\u{94d}रमा",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("maan met gezicht in eerste kwartier"),
-			keywords: &[
-				"avond",
-				"eerste kwartier",
-				"gezicht",
-				"kwartier",
-				"maan",
-				"maan in eerste kwartier met gezicht",
-				"maan met gezicht in eerste kwartier",
-				"ruimte",
-				"slapen",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("nymåne med andlet"),
-			keywords: &["kvartmåne med andlet", "måneandlet", "nymåne med andlet"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}"),
-			keywords: &[
-				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ଖ",
-				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ପ\u{b4d}ରଥମ ଅର\u{b4d}ଦ\u{b4d}ଧ ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ପ\u{b4d}ରଥମ ଚତ\u{b41}ର\u{b4d}ଥ\u{b3e}ଂଶ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}",
-				"ମ\u{b41}ଖ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ"),
-			keywords: &[
-				"ਚਿਹਰਾ",
-				"ਚ\u{a70}ਦ",
-				"ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
-				"ਚ\u{a70}ਦਰਮਾ",
-				"ਚ\u{a70}ਨ",
-				"ਤਿਮਾਹੀ",
-				"ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
-				"ਪਹਿਲਾ ਤਿਮਾਹੀ ਚ\u{a70}ਦ",
-				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
-				"ਪਹਿਲੀ ਤਿਮਾਹੀ ਦਾ ਚ\u{a70}ਦ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("شکل نال چاند دا پہلا چوتھائی حصہ"),
-			keywords: &["دی شکل", "شکل نال چاند دا پہلا چوتھائی حصہ", "چاند", "چوتھہ حص\u{651}ہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fẹ\u{301}st Kwọ\u{301}ta Mún Fes"),
-			keywords: &["Fes", "Fẹ\u{301}st Kwọ\u{301}ta Mún Fes", "Kwọ\u{301}ta", "Mun"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("pierwsza kwadra księżyca z twarzą"),
-			keywords: &[
-				"bajka",
-				"księżyc",
-				"księżyc z twarzą",
-				"noc",
-				"pierwsza kwadra",
-				"pierwsza kwadra księżyca",
-				"pierwsza kwadra księżyca z twarzą",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("په لومړۍ ربع سپوږمۍ مخ"),
-			keywords: &["د لومړۍ ربع سپوږمۍ مخ", "ربع", "سپوږمۍ", "مخ", "په لومړۍ ربع سپوږمۍ مخ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("rosto da lua de quarto crescente"),
-			keywords: &["crescente", "lua", "noite", "quarto", "rosto"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("lua em quarto crescente com cara"),
-			keywords: &[
-				"cara",
-				"espaço",
-				"lua",
-				"lua em quarto crescente com cara",
-				"meteorologia",
-				"quarto",
-				"quarto crescente",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("chawpi killa uya"),
-			keywords: &["chawpi killa uya", "killa", "uya"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("lună cu față în primul pătrar"),
-			keywords: &["față", "lună", "lună cu față în primul pătrar", "pătrar", "spațiu", "unu"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-226"), keywords: &["E10-226"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("луна в первой четверти с лицом"),
-			keywords: &[
-				"лицо",
-				"луна",
-				"луна в первой четверти с лицом",
-				"месяц",
-				"небо",
-				"половинка луны",
-				"четвертинка луны",
-				"четверть",
-				"четверть луны",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("icya kane cya mbere cy’ukwezi gifite isura"),
-			keywords: &["icya kane cya mbere cy’ukwezi gifite isura", "icyakane", "isura", "ukwezi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("چهري سان گڏ پهري عشري جو چنڊ"),
-			keywords: &["عشرو", "چنڊ", "چهرو", "چهري سان گڏ پهري عشري جو چنڊ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ"),
-			keywords: &[
-				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"චත\u{dd4}ර\u{dca}ථකය",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත පළම\u{dd4} චත\u{dd4}ර\u{dca}ථක සඳ",
-				"සඳ",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("mesiac v prvej štvrti s tvárou"),
-			keywords: &[
-				"dorastá",
-				"mesiac",
-				"mesiac v prvej štvrti s tvárou",
-				"mesiac v prvej štvrtine s tvárou",
-				"počasie",
-				"príroda",
-				"tvár",
-				"vesmír",
-				"štvrtina",
-				"štvrť",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("polovično osvetljena luna v prvem krajcu z obrazom"),
-			keywords: &[
-				"luna",
-				"obraz",
-				"polovično osvetljena luna v prvem krajcu z obrazom",
-				"vesolje",
-				"vreme",
-				"četrt",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("rubaca hore ee waji dayaxeedka"),
-			keywords: &[
-				"dayax",
-				"rubac",
-				"rubaca hore ee waji dayaxeedka",
-				"rubaca hore waji dayaxeedka",
-				"waji",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("hëna e çerekut të parë me fytyrë"),
-			keywords: &["fytyrë", "hapësirë", "hëna e çerekut të parë me fytyrë", "hënë", "çerek"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("месец у првој четврти са лицем"),
-			keywords: &["лице", "месец", "прва", "свeмир", "чeтврт"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("мјесец у првој четврти са лицем"),
-			keywords: &["лице", "мјесец", "мјесец у првој четврти са лицем", "чeтврт"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mesec u prvoj četvrti sa licem"),
-			keywords: &["lice", "mesec", "prva", "svemir", "četvrt"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("mjesec u prvoj četvrti sa licem"),
-			keywords: &["lice", "mjesec", "mjesec u prvoj četvrti sa licem", "četvrt"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("tilltagande halvmåne med ansikte"),
-			keywords: &[
-				"ansikte",
-				"gubben i månen",
-				"halvmåne",
-				"månansikte",
-				"måne",
-				"tilltagande halvmåne med ansikte",
-			],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mwezi wa robo ya kwanza wenye uso"),
-			keywords: &[
-				"anga",
-				"hali ya hewa",
-				"mwezi",
-				"mwezi wa robo ya kwanza wenye uso",
-				"robo",
-				"uso",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("அரைப\u{bbe}தி வளர\u{bcd}பிறை முகம\u{bcd}"),
-			keywords: &[
-				"அரைப\u{bbe}தி வளர\u{bcd}பிறை முகம\u{bcd}",
-				"நில\u{bbe}",
-				"முகம\u{bcd}",
-				"வளர\u{bcd}பிறை முகம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("న\u{c3e}లుగవ వంతు చంద\u{c4d}రున\u{c3f} ముఖం"),
-			keywords: &[
-				"అంతర\u{c3f}క\u{c4d}షం",
-				"చంద\u{c4d}రుడు",
-				"చంద\u{c4d}రున\u{c3f} ముఖం",
-				"న\u{c3e}లుగవ",
-				"న\u{c3e}లుగవ వంతు చంద\u{c4d}రున\u{c3f} ముఖం",
-				"న\u{c46}లవంక",
-				"ముఖం",
-				"మూన\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("чоряки якуми моҳ бо чеҳра"),
-			keywords: &["моҳ", "рӯй", "чоряк", "чоряки якуми моҳ бо чеҳра"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("หน\u{e49}าพระจ\u{e31}นทร\u{e4c}เส\u{e35}\u{e49}ยวขวา"),
-			keywords: &[
-				"ซ\u{e35}ก",
-				"พระจ\u{e31}นทร\u{e4c}",
-				"หน\u{e49}า",
-				"อวกาศ",
-				"เส\u{e35}\u{e49}ยว",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቀዳማይ ርብዒ ወርሒ ገጽ"),
-			keywords: &["መጀመርታ", "ርብዒ ዓመት", "ቦታ", "ወርሒ", "ገጽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýüzli birinji çärýek aý"),
-			keywords: &["aý", "çärýek", "ýüz", "ýüzli birinji çärýek aý"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mata māhina tuʻu efiafi"),
-			keywords: &["kalipa", "mata", "mata māhina tuʻu efiafi", "māhina"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("ilk dördün ay yüzü"),
-			keywords: &[
-				"ay",
-				"dördün",
-				"ilk dördün",
-				"ilk dördün ay yüzü",
-				"yüz",
-				"yüzü olan ay",
-				"yüzü olan ilk dördün",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يۈزلۈك باش چارەك ئاي"),
-			keywords: &["ئاي", "يۈزلۈك باش چارەك ئاي", "چارەك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("перша чверть місяця з обличчям"),
-			keywords: &[
-				"космос",
-				"місяць",
-				"обличчя",
-				"перша чверть місяця з обличчям",
-				"погода",
-				"чверть",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("پہلے کوارٹر کا چاند مع چہرہ"),
-			keywords: &["موسم", "پہلے کوارٹر کا چاند مع چہرہ", "چاند", "چہرہ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("birinchi chorakdagi oy qiyofasi"),
-			keywords: &["birinchi chorakdagi oy qiyofasi", "chorak", "koinot", "ob-havo", "oy", "yuz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trăng thượng huyền hình mặt người"),
-			keywords: &["mặt", "phần tư", "trăng", "trăng thượng huyền hình mặt người"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("weeru xaaj bu njëkk"),
-			keywords: &["kanam", "weer", "weeru xaaj bu njëkk", "xaaj bu njëkk"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inyanga yekota yokuqala enobuso"),
-			keywords: &["ikota", "inyanga", "inyanga yekota yokuqala enobuso", "ubuso"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301} Pẹ\u{300}lú Ojú"),
-			keywords: &[
-				"Oṣùpá Ìlàrin Àkọ\u{301}kọ\u{301} Pẹ\u{300}lú Ojú",
-				"ojú",
-				"ìdámẹ\u{301}rin",
-				"òṣùpá",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301} Pɛ\u{300}lú Ojú"),
-			keywords: &[
-				"Oshùpá Ìlàrin Àkɔ\u{301}kɔ\u{301} Pɛ\u{300}lú Ojú",
-				"ojú",
-				"ìdámɛ\u{301}rin",
-				"òshùpá",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("上弦月面"),
-			keywords: &["上弦月面", "四分之一", "月", "臉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("上弦月面"),
-			keywords: &["上弦月面", "四分之一", "月", "脸"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("微笑的上弦月"),
-			keywords: &["上弦月", "微笑的上弦月", "月亮", "蛾眉月"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("彎月臉朝左"),
-			keywords: &["上弦月", "彎月臉朝左", "月亮", "眉月"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("上弦月嘅面孔"),
-			keywords: &[
-				"上弦月",
-				"上弦月嘅面孔",
-				"太空",
-				"宇宙",
-				"彎月",
-				"月亮",
-				"月亮臉",
-				"月亮面",
-				"臉孔",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inyanga yekota lokuqala elinobuso"),
-			keywords: &[
-				"inyanga",
-				"inyanga yekota lokuqala elinobuso",
-				"isimo sezulu",
-				"ubuso",
-				"umkhathi",
-			],
-		},
-	],
-};
-#[doc = "🌜\u{fe0f}"]
-pub const LAST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🌜\u{fe0f}",
-	codepoint:            &[127772u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "last quarter moon face",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌡\u{fe0f}"]
-pub const THERMOMETER: crate::Emoji = crate::Emoji {
-	glyph:                "🌡\u{fe0f}",
-	codepoint:            &[127777u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "thermometer",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "☀\u{fe0f}"]
-pub const SUN: crate::Emoji = crate::Emoji {
-	glyph:                "☀\u{fe0f}",
-	codepoint:            &[9728u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "sun",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌝"]
-pub const FULL_MOON_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🌝",
-	codepoint:            &[127773u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "full moon face",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("volmaan met gesig"),
-			keywords: &["gesig", "helder", "maan", "ruimte", "vol", "volmaan", "volmaan met gesig"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሙሉ ጨረቃ ከፊት ጋር"),
-			keywords: &[
-				"ህዋ",
-				"ሙሉ",
-				"ሙሉ ጨረቃ ከፊት ጋር",
-				"ብሩህ",
-				"የአየር ንብረት",
-				"ጨረቃ",
-				"ፈገግታ",
-				"ፊት",
-				"ፊት ያላት ሙሉ ጨረቃ",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("وجه البدر"),
-			keywords: &[
-				"بدر",
-				"بدر بوجه",
-				"ساطعة",
-				"طقس",
-				"فضاء",
-				"قمر",
-				"قمر مكتمل",
-				"كامل",
-				"وجه",
-				"وجه البدر",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9c2}ৰ\u{9cd}ণ চন\u{9cd}দ\u{9cd}ৰৰ ম\u{9c1}খ"),
-			keywords: &[
-				"উজ\u{9cd}জ\u{9cd}বল",
-				"চন\u{9cd}দ\u{9cd}ৰ",
-				"প\u{9c2}ৰ\u{9cd}ণ চন\u{9cd}দ\u{9cd}ৰৰ ম\u{9c1}খ",
-				"ম\u{9c1}খ",
-				"সম\u{9cd}প\u{9c2}ৰ\u{9cd}ণ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("üzü olan tam ay"),
-			keywords: &["ay", "hava", "kosmos", "parlaq", "tam", "üz", "üzü olan tam ay"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("поўня з тварам"),
-			keywords: &["космас", "месяц", "ноч", "поўня", "поўня з тварам", "яркі"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("Луната в пълнолуние с лице"),
-			keywords: &["Луната в пълнолуние с лице", "космос", "лице", "луна", "пълна", "ярък"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ম\u{9c1}খের স\u{9be}থে প\u{9c2}র\u{9cd}ণ চ\u{9be}\u{981}দ"),
-			keywords: &[
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"উজ\u{9cd}জ\u{9cd}বল",
-				"চ\u{9be}\u{981}দ",
-				"প\u{9c2}র\u{9cd}ণ",
-				"মহ\u{9be}ক\u{9be}শ",
-				"ম\u{9c1}খ",
-				"ম\u{9c1}খের স\u{9be}থে প\u{9c2}র\u{9cd}ণ চ\u{9be}\u{981}দ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("penn loargann"),
-			keywords: &["loar", "loargann", "penn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("puni mjesec lice"),
-			keywords: &["lice", "mjesec", "puni mjesec lice"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("lluna plena amb cara"),
-			keywords: &["brillant", "cara", "lluna", "lluna plena amb cara", "plena"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎧᎵ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ"),
-			keywords: &["ᎢᎦᎯ", "ᎤᎧᏛ", "ᎧᎵ", "ᎧᎵ ᏅᏓ ᎤᏒ ᎡᎯ ᎤᎧᏛ", "ᏅᏓ ᎤᏒ ᎡᎯ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("měsíc v úplňku s obličejem"),
-			keywords: &[
-				"fáze měsíce",
-				"jasný",
-				"měsíc",
-				"měsíc v úplňku s obličejem",
-				"noc",
-				"obličej",
-				"počasí",
-				"smajlík",
-				"tvář",
-				"vesmír",
-				"výraz",
-				"úplněk",
-				"úplněk s obličejem",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("lleuad lawn gydag wyneb"),
-			keywords: &["llachar", "llawn", "lleuad", "lleuad lawn gydag wyneb", "wyneb"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("fuldmåne med ansigt"),
-			keywords: &[
-				"fuldmåne",
-				"fuldmåne med ansigt",
-				"fuldmåneansigt",
-				"måne med ansigt",
-				"måneansigt",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Vollmond mit Gesicht"),
-			keywords: &["Gesicht", "Vollmond", "Vollmond mit Gesicht"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("πανσέληνος με πρόσωπο"),
-			keywords: &[
-				"γεμάτο",
-				"διάστημα",
-				"καιρός",
-				"πανσέληνος",
-				"πανσέληνος με πρόσωπο",
-				"πρόσωπο",
-				"φεγγάρι",
-				"φωτεινό",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("full moon face"),
-			keywords: &["bright", "face", "full", "moon"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("full-moon face"),
-			keywords: &["bright", "face", "full", "full-moon face", "moon"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("luna llena con cara"),
-			keywords: &["cara", "llena", "luna", "luna llena con cara"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["brillante", "brillar", "cara de luna", "cara luna llena", "luna", "luna llena"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["brillante", "cara", "llena", "luna", "luna llena con cara"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("näoga täiskuu"),
-			keywords: &["ere", "ilm", "kosmos", "kuu", "nägu", "näoga täiskuu", "täiskuu"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ilargi betea aurpegiarekin"),
-			keywords: &[
-				"argi",
-				"aurpegi",
-				"bete",
-				"eguraldi",
-				"espazio",
-				"ilargi",
-				"ilargi betea aurpegiarekin",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("صورت ماه کامل"),
-			keywords: &["آب\u{200c}وهوا", "تمام", "روشن", "صورت", "صورت ماه کامل", "فضا", "ماه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("täysikuu kasvoilla"),
-			keywords: &["kasvot", "kirkas", "kuu", "sää", "täysikuu kasvoilla", "valo"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("full moon na may mukha"),
-			keywords: &["bilog na buwan", "buwan", "full moon", "full moon na may mukha", "mukha"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("andlit á fullmána"),
-			keywords: &["andlit", "andlit á fullmána", "fullmáni", "máni"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("pleine lune avec visage"),
-			keywords: &[
-				"lune",
-				"lune à visage",
-				"nuit",
-				"pleine lune",
-				"pleine lune avec visage",
-				"sourire",
-				"visage",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["lune", "pleine", "visage"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("aghaidh na gealaí láine"),
-			keywords: &[
-				"aghaidh",
-				"aghaidh ar ghealach",
-				"aghaidh ghealaí láine",
-				"aghaidh na gealaí láine",
-				"geal",
-				"gealach",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("gealach làn le aodann"),
-			keywords: &["aodann", "gealach", "gealach làn le aodann", "làn", "soilleir"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("lúa chea con cara"),
-			keywords: &["cara", "chea", "lúa", "lúa chea con cara"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો"),
-			keywords: &[
-				"ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રાવાળો ચ\u{a82}દ\u{acd}ર",
-				"ચહ\u{ac7}રો",
-				"પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રનો ચહ\u{ac7}રો",
-				"પ\u{ac2}નમના ચ\u{a82}દ\u{acd}રવાળો ચહ\u{ac7}રો",
-				"પ\u{ac2}નમનો ચ\u{a82}દ\u{acd}ર",
-				"પ\u{ac2}ર\u{acd}ણ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("cikakken wata tare da fuska"),
-			keywords: &[
-				"cikakke",
-				"cikakken wata tare da fuska",
-				"cikar wata",
-				"fuska",
-				"fuskar cikakken wata",
-				"haske",
-				"wata",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("cikakken wata tare da fuska"),
-			keywords: &[
-				"cikakke",
-				"cikakken wata tare da fuska",
-				"cikar wata",
-				"fuska",
-				"fuskar cikakken wata",
-				"haske",
-				"wata",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("פני ירח מלא"),
-			keywords: &["ירח", "מלא", "פני ירח מלא", "פנים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("प\u{942}र\u{947} चा\u{901}द वाला च\u{947}हरा"),
-			keywords: &[
-				"चा\u{902}द",
-				"च\u{947}हरा",
-				"च\u{947}हर\u{947} वाला चा\u{902}द",
-				"च\u{947}हर\u{947} वाला प\u{942}रा चा\u{902}द",
-				"प\u{942}रा",
-				"प\u{942}र\u{947} चा\u{901}द वाला च\u{947}हरा",
-				"प\u{942}र\u{947} चा\u{902}द वाला च\u{947}हरा",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("puni mjesec s licem"),
-			keywords: &[
-				"lice",
-				"mjesec",
-				"puni",
-				"puni mjesec s licem",
-				"smajlić",
-				"svemir",
-				"vedro",
-				"vrijeme",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("telihold arccal"),
-			keywords: &["arc", "hold", "holdfázisok", "telihold", "telihold arccal", "ég", "éjszaka"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("դեմքով լիալուսին"),
-			keywords: &["դեմք", "դեմքով լիալուսին", "եղանակ", "լիալուսին", "լուսին", "պայծառ", "տիեզերք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("wajah bulan purnama"),
-			keywords: &["angkasa", "bulan", "cuaca", "purnama", "terang", "wajah"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ọnwa zuru òkè nwere ihu"),
-			keywords: &["ihu", "zuru òkè", "ìhè", "ọnwa", "ọnwa zuru òkè nwere ihu"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("fullt tungl með andliti"),
-			keywords: &["andlit", "bjart", "fullt tungl", "fullt tungl með andliti", "máni", "tungl"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("faccina luna piena"),
-			keywords: &[
-				"faccina",
-				"faccina con la luna",
-				"faccina della luna",
-				"faccina luna piena",
-				"luna",
-				"luna con faccina",
-				"luna piena",
-				"luna piena con faccina",
-				"natura",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("顔のある満月"),
-			keywords: &["月", "満月", "顔", "顔のある満月"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("rai purnama sidi"),
-			keywords: &["bulan", "padhang", "purnama", "rai", "rai purnama sidi"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("სავსე მთვარე სახით"),
-			keywords: &["ამინდი", "კაშკაშა", "კოსმოსი", "მთვარე", "სავსე", "სავსე მთვარე სახით", "სახე"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("толған ай беті"),
-			keywords: &["ай", "ашық", "бет", "беті бейнеленген толық ай", "толы", "толған ай беті"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("fuldmåneansigt"),
-			keywords: &[
-				"fuldmåne",
-				"fuldmåne med ansigt",
-				"fuldmåneansigt",
-				"måne med ansigt",
-				"måneansigt",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17bb}ខព\u{17d2}រះចន\u{17d2}ទពេញវង\u{17cb}"),
-			keywords: &[
-				"ពេញវង\u{17cb}",
-				"ព\u{17d2}រះចន\u{17d2}ទ",
-				"ម\u{17bb}ខ",
-				"ម\u{17bb}ខព\u{17d2}រះចន\u{17d2}ទពេញវង\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಪ\u{cc2}ರ\u{ccd}ಣ ಚಂದ\u{ccd}ರನ ಮುಖ"),
-			keywords: &[
-				"ಚಂದ\u{ccd}ರ",
-				"ಪ\u{cc2}ರ\u{ccd}ಣ",
-				"ಪ\u{cc2}ರ\u{ccd}ಣ ಚಂದ\u{ccd}ರನ ಮುಖ",
-				"ಪ\u{cc2}ರ\u{ccd}ಣಚಂದ\u{ccd}ರ",
-				"ಪ\u{ccd}ರಕಾಶಮಾನ",
-				"ಮುಖ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("얼굴이 있는 보름달"),
-			keywords: &["달", "달님", "밝음", "얼굴", "얼굴이 있는 보름달"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("प\u{941}नव\u{947}च\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो"),
-			keywords: &[
-				"च\u{902}द\u{94d}र",
-				"च\u{947}रो",
-				"प\u{941}नव",
-				"प\u{941}नव\u{947}च\u{94d}या च\u{902}द\u{94d}राचो च\u{947}रो",
-				"प\u{94d}रकाश",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("толгон айдын бети"),
-			keywords: &["ай", "бет", "жарык", "толгон", "толгон айдын бети"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Vollmoundgesiicht"),
-			keywords: &["Gesiicht", "Mound", "Vollmoundgesiicht", "hell", "voll"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໜ\u{ec9}າເດ\u{eb7}ອນເຕ\u{eb1}ມດວງ"),
-			keywords: &["ເດ\u{eb7}ອນ", "ເຕ\u{eb1}ມດວງ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າເດ\u{eb7}ອນເຕ\u{eb1}ມດວງ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("pilnatis su veidu"),
-			keywords: &["mėnulis", "pilnatis", "pilnatis su veidu", "veidas", "šviesu"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("pilnmēness seja"),
-			keywords: &["mēness", "pilnmēness", "seja"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("rākaunui whai mata"),
-			keywords: &["kanapa", "kī", "marama", "mata", "rākaunui whai mata"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("полна месечина со лице"),
-			keywords: &["ведро", "вселена", "лице", "месечина", "полна", "полна месечина со лице"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രന\u{d4d}റെ മ\u{d41}ഖം"),
-			keywords: &[
-				"ചന\u{d4d}ദ\u{d4d}രനിൽ മ\u{d41}ഖം",
-				"ചന\u{d4d}ദ\u{d4d}രൻ",
-				"പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രന\u{d4d}റെ മ\u{d41}ഖം",
-				"പ\u{d42}ർണ\u{d4d}ണചന\u{d4d}ദ\u{d4d}രൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("нүүртэй бүтэн сар"),
-			keywords: &["бүтэн", "гэгээтэй", "нүүр", "нүүртэй бүтэн сар", "сар"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पौर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा"),
-			keywords: &[
-				"च\u{902}द\u{94d}र",
-				"चमकणारा",
-				"च\u{947}हरा",
-				"च\u{947}हरा असल\u{947}ला प\u{942}र\u{94d}ण च\u{902}द\u{94d}र",
-				"च\u{947}हरा असल\u{947}ला पौर\u{94d}णिम\u{947}चा च\u{902}द\u{94d}र",
-				"प\u{942}र\u{94d}ण",
-				"पोर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
-				"पौर\u{94d}णिमा",
-				"पौर\u{94d}णिम\u{947}च\u{94d}या च\u{902}द\u{94d}राचा च\u{947}हरा",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("muka bulan purnama"),
-			keywords: &["bulan", "muka", "penuh", "terang"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("wiċċ ta’ qamar sħiħ"),
-			keywords: &["qamar", "sħiħ", "tleqq", "wiċċ", "wiċċ ta’ qamar sħiħ"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("လပြည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ"),
-			keywords: &[
-				"တောက\u{103a}ပ",
-				"မျက\u{103a}န\u{103e}ာ",
-				"လ",
-				"လပြည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ",
-				"အပြည\u{1037}\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}वर\u{942}पसहितको प\u{942}र\u{94d}णिमा"),
-			keywords: &[
-				"अन\u{941}हार",
-				"उज\u{94d}यालो",
-				"चन\u{94d}द\u{94d}रमा",
-				"प\u{942}र\u{94d}ण चन\u{94d}द\u{94d}र",
-				"स\u{94d}वर\u{942}पसहितको प\u{942}र\u{94d}णिमा",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("volle maan met gezicht"),
-			keywords: &[
-				"avond",
-				"gezicht",
-				"helder",
-				"heldere maan",
-				"maan",
-				"ruimte",
-				"vol",
-				"volle maan",
-				"volle maan met gezicht",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("fullmåneandlet"),
-			keywords: &[
-				"andlet",
-				"fullmåne",
-				"fullmåne med andlet",
-				"fullmåneandlet",
-				"måne",
-				"måne med andlet",
-			],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}"),
-			keywords: &[
-				"ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ",
-				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ ଚନ\u{b4d}ଦ\u{b4d}ର ମ\u{b41}ହ\u{b01}",
-				"ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ\u{b3f}ମ\u{b3e}",
-				"ମ\u{b41}ଖ",
-				"ମ\u{b41}ଖ ସହ\u{b3f}ତ ଚନ\u{b4d}ଦ\u{b4d}ର",
-				"ମ\u{b41}ଖ ସହ\u{b3f}ତ ପ\u{b42}ର\u{b4d}ଣ\u{b4d}ଣ\u{b3f}ମ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪ\u{a42}ਰ\u{a47} ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ"),
-			keywords: &[
-				"ਚਮਕੀਲਾ",
-				"ਚਿਹਰਾ",
-				"ਚਿਹਰ\u{a47} ਨਾਲ ਪ\u{a42}ਰਾ ਚ\u{a70}ਦ",
-				"ਚ\u{a70}ਦ",
-				"ਚ\u{a70}ਨ",
-				"ਪ\u{a42}ਰਾ",
-				"ਪ\u{a42}ਰਾ ਚ\u{a70}ਦਾ",
-				"ਪ\u{a42}ਰ\u{a47} ਚ\u{a70}ਦ ਦਾ ਚਿਹਰਾ",
-				"ਮ\u{a42}\u{a70}ਹ",
-				"ਮ\u{a42}\u{a70}ਹ ਨਾਲ ਪ\u{a42}ਰਾ ਚ\u{a70}ਦ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("شکل نال پورا چاند"),
-			keywords: &["دی شکل", "روشن", "شکل نال پورا چاند", "پورا", "چاند"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fúl Mun Fes"),
-			keywords: &["Brait", "Fes", "Ful", "Fúl Mun Fes", "Mun"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("pełnia z twarzą"),
-			keywords: &[
-				"bajka",
-				"baśń",
-				"księżyc",
-				"księżyc w pełni",
-				"księżyc w pełni z twarzą",
-				"księżyc z twarzą",
-				"pełnia",
-				"pełnia z twarzą",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د بشپړه سپوږمۍ مخ"),
-			keywords: &["بشپړه", "د بشپړه سپوږمۍ مخ", "سپوږمۍ", "مخ", "پړقېدونکې"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("rosto da lua cheia"),
-			keywords: &[
-				"cheia",
-				"lua",
-				"lua cheia com rosto",
-				"lua com rosto",
-				"rosto",
-				"rosto da lua cheia",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("lua cheia com cara"),
-			keywords: &[
-				"brilhante",
-				"cara",
-				"cheia",
-				"espaço",
-				"lua",
-				"lua cheia com cara",
-				"meteorologia",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("hunta killa uya"),
-			keywords: &["chuya", "hunta", "killa", "uya"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("lună plină cu față"),
-			keywords: &["față", "lună plină", "lună plină cu față"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-228"), keywords: &["E10-228"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("полная луна с лицом"),
-			keywords: &[
-				"круглая",
-				"круглая луна",
-				"лицо",
-				"месяц",
-				"небо",
-				"полная луна",
-				"полная луна с лицом",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("inzora y’ukwezi ifite isura"),
-			keywords: &["cyuzuye", "gikeye", "inzora y’ukwezi ifite isura", "isura", "ukwezi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("پوري چهري سان چنڊ"),
-			keywords: &["روشني", "پورو", "پوري چهري سان چنڊ", "چنڊ", "چهرو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ප\u{dd4}රසඳ"),
-			keywords: &[
-				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"ද\u{dd3}ප\u{dca}ත\u{dd2}මත\u{dca}",
-				"ප\u{dd6}ර\u{dca}ණ",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ප\u{dd4}රසඳ",
-				"සඳ",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("spln s tvárou"),
-			keywords: &[
-				"jas",
-				"mesiac",
-				"noc",
-				"nočná obloha",
-				"počasie",
-				"príroda",
-				"spln",
-				"spln s tvárou",
-				"tvár",
-				"vesmír",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("polna luna z obrazom"),
-			keywords: &["luna", "obraz", "polna luna z obrazom", "polno", "svetlo", "vesolje", "vreme"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("waji dayaxeed buuxa"),
-			keywords: &["buuxa", "dayax", "dhalaal", "waji", "waji dayaxeed buuxa"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("hënë e plotë me fytyrë"),
-			keywords: &["e ndritshme", "e plotë", "fytyrë", "hënë", "hënë e plotë me fytyrë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("пун месец са лицем"),
-			keywords: &["вeдрo", "лице", "месец", "пун"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("пун мјесец са лицем"),
-			keywords: &["вeдрo", "лице", "мјесец", "пун", "пун мјесец са лицем"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("pun mesec sa licem"),
-			keywords: &["lice", "mesec", "pun", "vedro"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("pun mjesec sa licem"),
-			keywords: &["lice", "mjesec", "pun", "pun mjesec sa licem", "vedro"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("fullmåne med ansikte"),
-			keywords: &[
-				"ansikte",
-				"fullmåne",
-				"fullmåne med ansikte",
-				"gubben i månen",
-				"månansikte",
-				"måne",
-			],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("uso unaokaa mwezi"),
-			keywords: &["anga", "hali ya hewa", "kamili", "kung’aa", "uso", "uso unaokaa mwezi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("முழுநில\u{bbe} முகம\u{bcd}"),
-			keywords: &[
-				"நில\u{bbe}",
-				"பிரக\u{bbe}சம\u{bcd}",
-				"பௌர\u{bcd}ணமி",
-				"முகம\u{bcd}",
-				"முழுநில\u{bbe} முகம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("పూర\u{c4d}ణ చంద\u{c4d}రున\u{c3f} ముఖం"),
-			keywords: &[
-				"నవ\u{c4d}వుతున\u{c4d}న చంద\u{c4d}రుడు",
-				"పూర\u{c4d}ణ చంద\u{c4d}రుడు",
-				"పూర\u{c4d}ణ చంద\u{c4d}రున\u{c3f} ముఖం",
-				"ముఖం",
-				"మూన\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("моҳи пурра бо чеҳра"),
-			keywords: &["моҳ", "моҳи пурра бо чеҳра", "пурра", "равшан", "рӯй"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("หน\u{e49}าพระจ\u{e31}นทร\u{e4c}เต\u{e47}มดวง"),
-			keywords: &["พระจ\u{e31}นทร\u{e4c}", "สว\u{e48}าง", "หน\u{e49}า", "อวกาศ", "เต\u{e47}มดวง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ምሉእ ወርሒ ገጽ"),
-			keywords: &["ምሉእ", "ወርሒ", "ድሙቕ", "ገጽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýüzli dolan aý"),
-			keywords: &["aý", "doly", "ýagty", "ýüz", "ýüzli dolan aý"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mata māhina kātoa"),
-			keywords: &["kātoa", "mata", "māhina"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("dolunay yüzü"),
-			keywords: &[
-				"ay",
-				"dolu",
-				"dolunay",
-				"dolunay yüzü",
-				"yüz",
-				"yüzü olan ay",
-				"yüzü olan dolunay",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يۈزلۈك تولۇن ئاي"),
-			keywords: &["ئاي", "تولۇق", "يورۇق", "يۈزلۈك تولۇن ئاي", "چىراي"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("повний місяць з обличчям"),
-			keywords: &["місяць", "обличчя", "повний", "повний місяць з обличчям", "яскравий"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("چہرے والا پورا چاند"),
-			keywords: &["خلا", "صاف", "موسم", "مکمل", "چہرہ", "چہرے والا پورا چاند"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("to‘lin oy qiyofali"),
-			keywords: &[
-				"koinot",
-				"ob-havo",
-				"osmon",
-				"oy",
-				"toʻlin oy",
-				"to‘lin",
-				"to‘lin oy qiyofali",
-				"to‘liq",
-				"yorug‘lik",
-				"yuz",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("khuôn mặt trăng tròn"),
-			keywords: &["khuôn mặt trăng tròn", "mặt", "mặt trăng", "sáng", "tròn"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("weer ñumm bu am kanam"),
-			keywords: &["kanam", "weer", "weer ñumm bu am kanam", "yànj", "ñumm"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inyanga epheleleyo enobuso"),
-			keywords: &["epheleleyo", "inyanga", "inyanga epheleleyo enobuso", "ngokukhanyayo", "ubuso"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ẹ\u{300}kúnrẹ\u{301}rẹ\u{301} Òṣùpá Pẹ\u{300}lú Ojú"),
-			keywords: &[
-				"ojú",
-				"ìmọ\u{300}lẹ\u{300}",
-				"òṣùpá",
-				"Ẹ\u{300}kúnrẹ\u{301}rẹ\u{301} Òṣùpá Pẹ\u{300}lú Ojú",
-				"ẹ\u{300}kún",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ɛ\u{300}kúnrɛ\u{301}rɛ\u{301} Òshùpá Pɛ\u{300}lú Ojú"),
-			keywords: &[
-				"ojú",
-				"ìmɔ\u{300}lɛ\u{300}",
-				"òshùpá",
-				"Ɛ\u{300}kúnrɛ\u{301}rɛ\u{301} Òshùpá Pɛ\u{300}lú Ojú",
-				"ɛ\u{300}kún",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("滿月面"),
-			keywords: &["光亮", "月", "滿", "滿月面", "臉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("满月面"),
-			keywords: &["光亮", "月", "满", "满月面", "脸"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("微笑的月亮"),
-			keywords: &["微笑的月亮", "月亮", "望月", "满月"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("微笑的滿月"),
-			keywords: &["微笑的滿月", "月亮"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("滿月嘅面孔"),
-			keywords: &["太空", "宇宙", "月亮", "月亮臉", "月亮面", "滿月", "滿月嘅面孔", "臉孔"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inyanga egcwele enobuso"),
-			keywords: &[
-				"inyanga egcwele",
-				"inyanga egcwele enobuso",
-				"isimo sezulu",
-				"ubuso",
-				"ukukhanya",
-				"umkhathi",
-			],
-		},
-	],
-};
-#[doc = "🌞"]
-pub const SUN_WITH_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🌞",
-	codepoint:            &[127774u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "sun with face",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("son met gesig"),
-			keywords: &[
-				"dag",
-				"gesig",
-				"helder",
-				"hitte",
-				"ruimte",
-				"skyn",
-				"son",
-				"son met gesig",
-				"sonnig",
-				"sonskyn",
-				"strand",
-				"weer",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ፀሐይ ከፊት ጋር"),
-			keywords: &[
-				"ህዋ",
-				"ሙቀት",
-				"ቀን",
-				"ብሩህ",
-				"ብርሃን",
-				"የባህር ዳርቻ",
-				"የአየር ንብረት",
-				"ፀሐያማ",
-				"ፀሐይ",
-				"ፀሐይ ከፊት ጋር",
-				"ፊት",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("وجه الشمس"),
-			keywords: &[
-				"حرارة",
-				"ساطع",
-				"شاطىء",
-				"شمس",
-				"شمس بوجه",
-				"طقس",
-				"فضاء",
-				"لامع",
-				"مشمس",
-				"نجم",
-				"نهار",
-				"وجه",
-				"وجه الشمس",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ম\u{9c1}খৰ সৈতে স\u{9c2}ৰ\u{9cd}য\u{9cd}য"),
-			keywords: &[
-				"উজ\u{9cd}জ\u{9cd}বল",
-				"ম\u{9c1}খ",
-				"ম\u{9c1}খৰ সৈতে স\u{9c2}ৰ\u{9cd}য\u{9cd}য",
-				"স\u{9c2}ৰ\u{9cd}য\u{9cd}য",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("üzü olan günəş"),
-			keywords: &[
-				"gün şüaları",
-				"günəş",
-				"hava",
-				"işıqlı",
-				"kosmos",
-				"parlaq",
-				"üz",
-				"üzü olan günəş",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("сонца з тварам"),
-			keywords: &["космас", "надвор’е", "сонца", "сонца з тварам", "твар", "яркае"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("Слънце с лице"),
-			keywords: &["време", "ден", "лице", "плаж", "слънце", "слънце с лице", "ярко", "ярък"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ম\u{9c1}খের স\u{9be}থে স\u{9c2}র\u{9cd}য"),
-			keywords: &[
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"উজ\u{9cd}জ\u{9cd}বল",
-				"মহ\u{9be}ক\u{9be}শ",
-				"ম\u{9c1}খ",
-				"ম\u{9c1}খের স\u{9be}থে স\u{9c2}র\u{9cd}য",
-				"স\u{9c2}র\u{9cd}য",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("penn heol"),
-			keywords: &["heol", "penn heol", "skin"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("sunce lice"),
-			keywords: &["lice", "prognoza", "sunce", "sunčano", "vrijeme"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("sol amb cara"),
-			keywords: &[
-				"assolellat",
-				"calor",
-				"cara",
-				"clar",
-				"dia",
-				"llum del sol",
-				"sol",
-				"sol amb cara",
-				"temps",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏅᏓ ᎢᎦ ᎡᎯ ᎤᎧᏓ"),
-			keywords: &["ᎢᎦᎯ", "ᎤᎧᏛ", "ᏅᏓ ᎢᎦ ᎡᎯ", "ᏅᏓ ᎢᎦ ᎡᎯ ᎤᎧᏓ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("slunce s obličejem"),
-			keywords: &[
-				"den",
-				"horko",
-				"jasno",
-				"jasný",
-				"pláž",
-				"počasí",
-				"slunce",
-				"slunce s obličejem",
-				"slunečný",
-				"slunný",
-				"sluníčko",
-				"smajlík",
-				"svítit",
-				"světlo",
-				"teplo",
-				"tvář",
-				"vedro",
-				"vesmír",
-				"výraz",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("lleuad ag wyneb"),
-			keywords: &["haul", "llachar", "lleuad ag wyneb", "tywydd", "wyneb"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("sol med ansigt"),
-			keywords: &["ansigt", "sol", "sol med ansigt"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Sonne mit Gesicht"),
-			keywords: &["Gesicht", "Sonne", "Sonne mit Gesicht", "Sonnengesicht", "Sonnenschein"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ήλιος με πρόσωπο"),
-			keywords: &[
-				"ήλιος",
-				"ήλιος με πρόσωπο",
-				"διάστημα",
-				"ζέστη",
-				"ηλιόλουστος",
-				"καιρός",
-				"λάμπω",
-				"λαμπερός",
-				"μέρα",
-				"παραλία",
-				"πρόσωπο",
-				"φωτεινός",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("sun with face"),
-			keywords: &[
-				"beach", "bright", "day", "face", "heat", "shine", "sun", "sunny", "sunshine", "weather",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("sol con cara"),
-			keywords: &["brillante", "cara", "sol", "sol con cara"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"brillante",
-				"calor",
-				"cara sol",
-				"cara sol brillante",
-				"clima",
-				"dia",
-				"playa",
-				"sol",
-				"soleado",
-				"verano",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("näoga päike"),
-			keywords: &["ere", "ilm", "kosmos", "nägu", "näoga päike", "päike"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("eguzkia aurpegiarekin"),
-			keywords: &["argi", "aurpegi", "eguraldi", "eguzki", "eguzkia aurpegiarekin", "espazio"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("صورت خورشید"),
-			keywords: &["آب\u{200c}وهوا", "خورشید", "روشن", "صورت", "فضا"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("aurinko kasvoilla"),
-			keywords: &["aurinko", "kasvot", "kuu", "paiste", "sää", "valo"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("araw na may mukha"),
-			keywords: &["araw", "araw na may mukha", "maliwanag", "mukha", "sinag"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("andlit á sól"),
-			keywords: &["andlit", "andlit á sól", "sól"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("soleil avec visage"),
-			keywords: &[
-				"chaleur",
-				"chaud",
-				"ensoleillé",
-				"jour",
-				"lumière",
-				"météo",
-				"plage",
-				"rayon de soleil",
-				"soleil",
-				"soleil avec visage",
-				"soleil à visage",
-				"éclat",
-				"éclatant",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["chaleur", "chaud", "ensoleillé", "jour", "plage", "soleil", "visage"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("an ghrian le haghaidh"),
-			keywords: &[
-				"aghaidh",
-				"aghaidh ar ghrian",
-				"aimsir",
-				"an ghrian le haghaidh",
-				"geal",
-				"grian",
-				"grian le haghaidh",
-				"grianmhar",
-				"lá",
-				"solas na gréine",
-				"taitneamh",
-				"teas",
-				"trá",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("a’ ghrian le aodann oirre"),
-			keywords: &["aodann", "a’ ghrian le aodann oirre", "grian", "soilleir"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sol con cara"),
-			keywords: &["cara", "sol", "sol con cara"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{ac2}ર\u{acd}યનો ચહ\u{ac7}રો"),
-			keywords: &[
-				"ગરમી",
-				"ચહ\u{ac7}રો",
-				"ત\u{ac7}જ",
-				"દિવસ",
-				"મોસમ",
-				"રોશની",
-				"સ\u{ac2}ર\u{acd}ય",
-				"સ\u{ac2}ર\u{acd}યન\u{ac1}\u{a82} ત\u{ac7}જ",
-				"સ\u{ac2}ર\u{acd}યનો ચહ\u{ac7}રો",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("rana tare da fuska"),
-			keywords: &[
-				"fuska",
-				"haske",
-				"hasken rana",
-				"rana",
-				"rana mai fuska",
-				"rana tare da fuska",
-				"tsakar rana",
-				"yanayi",
-				"zafin rana",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("rana tare da fuska"),
-			keywords: &[
-				"fuska",
-				"haske",
-				"hasken rana",
-				"rana",
-				"rana mai fuska",
-				"rana tare da fuska",
-				"tsakar rana",
-				"yanayi",
-				"zafin rana",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("פני שמש"),
-			keywords: &["חם", "חמה", "פני שמש", "פנים", "קיץ", "שמש"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{942}र\u{94d}य वाला च\u{947}हरा"),
-			keywords: &[
-				"च\u{947}हरा",
-				"स\u{942}रज",
-				"स\u{942}र\u{94d}य",
-				"स\u{942}र\u{94d}य वाला च\u{947}हरा",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("sunce s licem"),
-			keywords: &["lice", "sunce", "sunce s licem", "svemir", "vedro", "vrijeme"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nap arccal"),
-			keywords: &[
-				"arc",
-				"hőség",
-				"időjárás",
-				"nap",
-				"nap arccal",
-				"napfény",
-				"napos",
-				"strand",
-				"égitest",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("դեմքով արև"),
-			keywords: &["արև", "դեմք", "դեմքով արև", "եղանակ", "պայծառ", "տիեզերք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("wajah matahari"),
-			keywords: &["angkasa", "bersinar", "cuaca", "matahari", "sinar", "terang", "wajah"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("anyanwụ nwere ihu"),
-			keywords: &["anyanwụ", "anyanwụ nwere ihu", "ihu", "ìhè"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("sól með andliti"),
-			keywords: &["andlit", "sól", "sól með andliti"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("faccina sole"),
-			keywords: &[
-				"bel tempo",
-				"caldo",
-				"denari",
-				"estate",
-				"faccina",
-				"giornata",
-				"giorno",
-				"meteo",
-				"sole",
-				"soleggiato",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("顔のある太陽"),
-			keywords: &["太陽", "顔", "顔のある太陽"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("srengenge katon raine"),
-			keywords: &["padhang", "rai", "srengenge", "srengenge katon raine"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მზე სახით"),
-			keywords: &["ამინდი", "კაშკაშა", "კოსმოსი", "მზე", "მზე სახით", "სახე"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("беті бейнеленген күн"),
-			keywords: &["ашық", "бет", "беті бейнеленген күн", "күн"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("sol med ansigt"),
-			keywords: &["ansigt", "sol", "sol med ansigt"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17bb}ខព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ"),
-			keywords: &[
-				"ព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ",
-				"ម\u{17bb}ខ",
-				"ម\u{17bb}ខព\u{17d2}រះអាទ\u{17b7}ត\u{17d2}យ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಸ\u{cc2}ರ\u{ccd}ಯನ ಮುಖ"),
-			keywords: &[
-				"ದ\u{cbf}ನ",
-				"ಪ\u{ccd}ರಕಾಶಮಾನ",
-				"ಬ\u{cbf}ಸ\u{cbf}ಲು",
-				"ಬ\u{cc0}ಚ\u{ccd}",
-				"ಮ\u{cbf}ನುಗು",
-				"ಮುಖ",
-				"ಶಾಖ",
-				"ಸಮುದ\u{ccd}ರ ತ\u{cc0}ರ",
-				"ಸುರ\u{ccd}ಯ\u{ccb}ದಯ",
-				"ಸ\u{cc2}ರ\u{ccd}ಯ",
-				"ಸ\u{cc2}ರ\u{ccd}ಯನ ಮುಖ",
-				"ಸ\u{cc2}ರ\u{ccd}ಯಾಸ\u{ccd}ಥ",
-				"ಹವಾಮಾನ",
-				"ಹ\u{cca}ಳ\u{cc6}ಯು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("얼굴이 있는 해"),
-			keywords: &[
-				"날씨",
-				"낮",
-				"눈부신",
-				"밝은",
-				"얼굴",
-				"얼굴이 있는 해",
-				"열기",
-				"해 방긋",
-				"해님",
-				"햇빛",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("स\u{941}र\u{94d}याचो च\u{947}रो"),
-			keywords: &[
-				"च\u{947}रो",
-				"प\u{94d}रकाश",
-				"स\u{941}र\u{94d}य",
-				"स\u{941}र\u{94d}याचो च\u{947}रो",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("күндүн бети"),
-			keywords: &["бет", "жарык", "күн", "күндүн бети"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Sonnegesiicht"),
-			keywords: &["Gesiicht", "Sonn", "Sonnegesiicht", "hell"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໜ\u{ec9}າຕາເວ\u{eb1}ນ"),
-			keywords: &["ຕາເວ\u{eb1}ນ", "ສະຫວ\u{ec8}າງ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າຕາເວ\u{eb1}ນ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("saulė su veidu"),
-			keywords: &["oras", "paplūdimys", "saulė", "saulė su veidu", "veidas", "šviesu"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("saules seja"),
-			keywords: &[
-				"diena",
-				"gaišs",
-				"laikapstākļi",
-				"pludmale",
-				"saulains",
-				"saule",
-				"saules seja",
-				"seja",
-				"spīd",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("rā whai mata"),
-			keywords: &["kanapa", "mata", "rā", "rā whai mata"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("сонце со лице"),
-			keywords: &[
-				"време",
-				"ден",
-				"жешко",
-				"зраци",
-				"плажа",
-				"сонце",
-				"сонце со лице",
-				"сончева светлина",
-				"сончево",
-				"топлина",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സ\u{d42}ര\u{d4d}യനിൽ മ\u{d41}ഖം"),
-			keywords: &[
-				"മ\u{d41}ഖമ\u{d41}ള\u{d4d}ള സ\u{d42}ര\u{d4d}യൻ",
-				"സ\u{d42}ര\u{d4d}യനിൽ മ\u{d41}ഖം",
-				"സ\u{d42}ര\u{d4d}യൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("нүүртэй нар"),
-			keywords: &["нар", "нүүр", "нүүртэй нар", "цаг агаар"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("च\u{947}हरा असल\u{947}ला स\u{942}र\u{94d}य"),
-			keywords: &[
-				"चमकणारा",
-				"च\u{947}हरा",
-				"च\u{947}हरा असल\u{947}ला स\u{942}र\u{94d}य",
-				"स\u{942}र\u{94d}य",
-				"स\u{942}र\u{94d}याचा च\u{947}हरा",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("matahari dengan muka"),
-			keywords: &["angkasa lepas", "cuaca", "matahari", "matahari dengan muka", "muka", "terang"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("xemx b’wiċċ"),
-			keywords: &["tleqq", "wiċċ", "xemx b’wiċċ", "xemxi"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("နေ၏ မျက\u{103a}န\u{103e}ာ"),
-			keywords: &["တောက\u{103a}ပ", "နေ", "နေ၏ မျက\u{103a}န\u{103e}ာ", "မျက\u{103a}န\u{103e}ာ"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}वर\u{942}पसहितको स\u{942}र\u{94d}य"),
-			keywords: &[
-				"अन\u{941}हार",
-				"उज\u{94d}यालो",
-				"स\u{942}र\u{94d}य",
-				"स\u{94d}वर\u{942}पसहितको स\u{942}र\u{94d}य",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("zon met gezicht"),
-			keywords: &["gezicht", "helder", "warm", "weer", "zon", "zon met gezicht", "zonneschijn"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("solandlet"),
-			keywords: &["andlet", "lys", "sol", "solandlet"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ ମ\u{b41}ହ\u{b01}"),
-			keywords: &[
-				"ମ\u{b41}ଖ",
-				"ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ",
-				"ସ\u{b42}ର\u{b4d}ଯ\u{b4d}ୟ ମ\u{b41}ହ\u{b01}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸ\u{a42}ਰਜ ਦਾ ਚਿਹਰਾ"),
-			keywords: &[
-				"ਚਮਕਣਾ",
-				"ਚਮਕਦਾ",
-				"ਚਿਹਰਾ",
-				"ਮ\u{a42}\u{a70}ਹ",
-				"ਸ\u{a42}ਰਜ",
-				"ਸ\u{a42}ਰਜ ਦਾ ਚਿਹਰਾ",
-				"ਸ\u{a42}ਰਜ ਦਾ ਮ\u{a42}\u{a70}ਹ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("شکل نال سورج"),
-			keywords: &["دی شکل", "روشن", "سورج", "شکل نال سورج"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Sọn Wit Fes"),
-			keywords: &["Brait", "Fes", "Sọn", "Sọn Wit Fes"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("słońce z twarzą"),
-			keywords: &[
-				"bajka",
-				"baśń",
-				"ciepło",
-				"głowa",
-				"magia",
-				"promienny",
-				"słońce",
-				"słońce z twarzą",
-				"twarz",
-				"uśmiech",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("لمر د مخ سره"),
-			keywords: &["لمر", "لمر د مخ سره", "مخ", "پړقېدونکې"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("rosto do sol"),
-			keywords: &["praia", "rosto", "sol"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("sol com cara"),
-			keywords: &["brilhante", "calor", "cara", "espaço", "meteorologia", "sol", "sol com cara"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("inti uyawan"),
-			keywords: &["inti", "inti uyawan", "k’anchay", "uya"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("soare cu față"),
-			keywords: &[
-				"căldură",
-				"față",
-				"luminos",
-				"meteo",
-				"plajă",
-				"raze",
-				"soare",
-				"soare cu față",
-				"vreme frumoasă",
-				"zi însorită",
-				"însorit",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-229"), keywords: &["E10-229"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("солнце с лицом"),
-			keywords: &["лицо", "небо", "солнце", "солнце с лицом"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("izuba rifite isura"),
-			keywords: &["gikeye", "isura", "izuba", "izuba rifite isura"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("چهري سان گڏ سج"),
-			keywords: &["روشن", "سج", "چهرو", "چهري سان گڏ سج"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ස\u{dd6}ර\u{dca}යය\u{dcf}"),
-			keywords: &[
-				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"ද\u{dd3}ප\u{dca}ත\u{dd2}මත\u{dca}",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"ම\u{dd4}හ\u{dd4}ණ සහ\u{dd2}ත ස\u{dd6}ර\u{dca}යය\u{dcf}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("slnko s tvárou"),
-			keywords: &[
-				"deň",
-				"jas",
-				"počasie",
-				"príroda",
-				"slnečný",
-				"slnko",
-				"slnko s tvárou",
-				"teplo",
-				"tvár",
-				"vesmír",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("sonce z obrazom"),
-			keywords: &["obraz", "sonce", "sonce z obrazom", "sončno", "svetlo", "vreme", "vročina"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qorrax wajiyeed"),
-			keywords: &["dhalaal", "qorrax", "qorrax wajiyeed", "waji"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("diell me fytyrë"),
-			keywords: &[
-				"diell",
-				"diell me fytyrë",
-				"fytyrë",
-				"hapësirë",
-				"i ndritshëm",
-				"moti",
-				"nxehtësi",
-				"plazh",
-				"shkëlqej",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("сунце са лицем"),
-			keywords: &["вeдрo", "време", "лице", "плажа", "сунцe", "сунчано"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("sunce sa licem"),
-			keywords: &["lice", "plaža", "sunce", "sunčano", "vedro", "vreme"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("sol med ansikte"),
-			keywords: &["ansikte", "sol", "sol med ansikte"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("uso unaokaa jua"),
-			keywords: &[
-				"anga",
-				"hali ya hewa",
-				"jua",
-				"kua lenye uso",
-				"kung’aa",
-				"usi",
-				"uso unaokaa jua",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("சூரிய முகம\u{bcd}"),
-			keywords: &[
-				"ஒளி",
-				"கோடை",
-				"சூரிய முகம\u{bcd}",
-				"சூரியக\u{bcd} கடவுள\u{bcd}",
-				"சூரியன\u{bcd}",
-				"முகம\u{bcd}",
-				"வெப\u{bcd}பம\u{bcd}",
-				"வெயில\u{bcd}",
-				"வெளிச\u{bcd}சம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("సూర\u{c4d}య ముఖం"),
-			keywords: &[
-				"ఎండగ\u{c3e} ఉంద\u{c3f}",
-				"బ\u{c40}చ\u{c4d}",
-				"మ\u{c46}రుపు",
-				"ర\u{c4b}జు",
-				"వ\u{c3e}త\u{c3e}వరం",
-				"వ\u{c47}డ\u{c3f}",
-				"శుభ\u{c4b}దయం గుర\u{c4d}తు",
-				"సన\u{c4d}",
-				"సూర\u{c4d}యుడు",
-				"సూర\u{c4d}య\u{c4b}దయం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("офтоб бо чеҳра"),
-			keywords: &["офтоб", "офтоб бо чеҳра", "равшан", "рӯй"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("หน\u{e49}าพระอาท\u{e34}ตย\u{e4c}"),
-			keywords: &[
-				"พระอาท\u{e34}ตย\u{e4c}",
-				"สว\u{e48}าง",
-				"หน\u{e49}าพระอาท\u{e34}ตย\u{e4c}",
-				"อากาศ",
-				"ใบหน\u{e49}า",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጸሓይ ምስ ገጽ"),
-			keywords: &["መዓልቲ", "ሙቐት", "ብርሃን", "አየር", "ድሙቕ", "ገማግም ባሕሪ", "ገጽ", "ጸሓያዊ", "ጸሓይ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýüzli güneş"),
-			keywords: &["gün", "ýagty", "ýüz", "ýüzli güneş"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mata e laʻā"),
-			keywords: &["laʻā", "mata", "mata e laʻā"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("güneş yüz"),
-			keywords: &["güneş", "parlak", "sıcak", "yaz", "yüz"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يۈزلۈك قۇياش"),
-			keywords: &["كۈن", "يورۇق", "يۈز", "يۈزلۈك قۇياش"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сонце з обличчям"),
-			keywords: &[
-				"весна",
-				"космос",
-				"літо",
-				"обличчя",
-				"погода",
-				"сонце",
-				"сонце з обличчям",
-				"яскравий",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("چہرے والا سورج"),
-			keywords: &[
-				"آفتاب",
-				"آفتاب\u{650} روشن",
-				"خلا",
-				"روز",
-				"روشن دن",
-				"روشنی",
-				"سورج",
-				"شمس",
-				"صاف",
-				"قدرت",
-				"موسم",
-				"نور",
-				"چہرہ",
-				"چہرے والا سورج",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("quyosh qiyofasi"),
-			keywords: &[
-				"kun",
-				"ob-havo",
-				"oftob",
-				"osmon",
-				"quyosh",
-				"quyosh qiyofasi",
-				"yorug‘ilik",
-				"yuz",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("mặt trời có hình mặt người"),
-			keywords: &["bãi biển", "mặt", "mặt trời", "mặt trời có hình mặt người", "sáng", "thời tiết"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("jant bu am kanam"),
-			keywords: &["jant", "jant bu am kanam", "kanam", "yànj"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ilanga elinobuso"),
-			keywords: &["ilanga", "ilanga elinobuso", "ngokukhanyayo", "ubuso"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Oorun Pẹlu Oju"),
-			keywords: &["Oorun Pẹlu Oju", "ojú", "ìmọ\u{301}lẹ\u{300}", "òrùn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Oorun Pɛlu Oju"),
-			keywords: &["Oorun Pɛlu Oju", "ojú", "ìmɔ\u{301}lɛ\u{300}", "òrùn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("太陽表面"),
-			keywords: &["光亮", "太陽", "太陽表面", "臉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("太阳表面"),
-			keywords: &["光亮", "太阳", "太阳表面", "脸"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("微笑的太阳"),
-			keywords: &["太阳", "微笑的太阳", "温暖阳光", "阳光明媚"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("微笑的太陽"),
-			keywords: &["太陽", "微笑的太陽"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("太陽笑面"),
-			keywords: &[
-				"天氣",
-				"太陽",
-				"太陽笑面",
-				"太陽臉",
-				"太陽面",
-				"日頭",
-				"晴天",
-				"海灘",
-				"熱",
-				"臉孔",
-				"陽光",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ilanga elinobuso"),
-			keywords: &["ilanga", "ilanga elinobuso", "isimo sezulu", "ubuso", "ukukhanya", "umkhathi"],
-		},
-	],
-};
-#[doc = "🪐"]
-pub const RINGED_PLANET: crate::Emoji = crate::Emoji {
-	glyph:                "🪐",
-	codepoint:            &[129680u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-	name:                 "ringed planet",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("planeet met ring om"),
-			keywords: &[
-				"Saturnus",
-				"geringde planeet",
-				"planeet met ring om",
-				"ruimte",
-				"ruimtevaart",
-				"saturnies",
-				"saturnus",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ባለቀለበት ፕላኔት"),
-			keywords: &["ህዋ", "ህዋ ሳይንስ", "ሳተርን", "ቀለበት", "ባለቀለበት ፕላኔት", "የጨለመ", "ፕላኔት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("كوكب داخل حلقة"),
-			keywords: &[
-				"أماكن",
-				"الفضاء",
-				"الفضاء الخارجي",
-				"زحل",
-				"فضائي",
-				"كواكب",
-				"كوكب داخل حلقة",
-				"كوكب زحل",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("শনি গ\u{9cd}ৰহ"),
-			keywords: &["অপ\u{9cd}ৰফ\u{9c1}ল\u{9cd}ল", "শনি গ\u{9cd}ৰহ", "শনিগ\u{9cd}ৰহ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("üzüklü planet"),
-			keywords: &["saturn", "üzüklü planet"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("планета з кальцом"),
-			keywords: &["планета з кальцом", "сатурн"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("планета с пръстен"),
-			keywords: &["Сатурн", "планета с пръстен", "под влиянието на Сатурн", "под знака на Сатурн"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("বলয\u{9bc}য\u{9c1}ক\u{9cd}ত গ\u{9cd}রহ"),
-			keywords: &[
-				"গম\u{9cd}ভীরস\u{9cd}বভ\u{9be}ব",
-				"গ\u{9cd}রহ",
-				"নক\u{9cd}ষত\u{9cd}র",
-				"বলয\u{9bc} বেষ\u{9cd}টিত",
-				"বলয\u{9bc}য\u{9c1}ক\u{9cd}ত গ\u{9cd}রহ",
-				"মহ\u{9be}ক\u{9be}শ",
-				"শনি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("planedenn gant gwalennoù"),
-			keywords: &["Sadorn", "gwalenn", "planedenn", "planedenn gant gwalennoù"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("planeta s prstenom"),
-			keywords: &["planeta s prstenom", "pod uticajem saturna", "saturn"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("planeta amb anell"),
-			keywords: &[
-				"planeta amb anell",
-				"planeta amb anells",
-				"saturn",
-				"saturniana",
-				"saturnià",
-				"saturní",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᎵᏰᏑᏍᏔᏬ ᎡᎶᎯ"),
-			keywords: &["ᎠᎵᏰᏑᏍᏔᏬ ᎡᎶᎯ", "ᏌᏓᏂ", "ᏌᏓᏂ ᎢᏳᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("planeta s prstencem"),
-			keywords: &["planeta", "planeta s prstencem", "prstenec", "saturn", "vesmír"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("planed cylchog"),
-			keywords: &["planed", "planed cylchog", "sadwrn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("planet med ringe"),
-			keywords: &["Saturn", "planet", "planet med ringe"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Ringplanet"),
-			keywords: &["Gasplanet", "Himmelskörper", "Planet", "Ringplanet", "Saturn"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("πλανήτης με δακτύλιο"),
-			keywords: &["Κρόνος", "πλανήτης", "πλανήτης με δακτύλιο", "σαρδόνιος"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("ringed planet"),
-			keywords: &["planet", "ringed", "saturn", "saturnine"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("planeta con anillos"),
-			keywords: &["planeta con anillos", "saturnino", "saturno"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["planeta", "planeta con anillos", "saturnino", "saturno"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("rõngastega planeet"),
-			keywords: &["Saturn", "rõngastega planeet"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("planeta eraztunduna"),
-			keywords: &["Saturno", "goibel", "planeta eraztunduna"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("سیاره حلقه\u{200c}دار"),
-			keywords: &["دلگیر", "زحل", "سیاره", "سیاره حلقه\u{200c}دار"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("rengasplaneetta"),
-			keywords: &["Saturnus", "rengasplaneetta"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("planetang may singsing"),
-			keywords: &["planet", "planetang may singsing", "saturn", "saturnine"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gongustjørna við ringi"),
-			keywords: &["dapur", "gongustjørna", "gongustjørna við ringi", "saturn", "tunglyntur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("planète à anneaux"),
-			keywords: &["anneaux", "planète à anneaux", "saturne", "saturnien", "saturnienne"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["planète à anneaux", "saturne", "saturnien", "saturnienne"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("pláinéad le fáinne"),
-			keywords: &["Satarn", "pláinéad le fáinne"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("planaid fhàinneach"),
-			keywords: &[
-				"Rionnag nan Roth",
-				"Sathairn",
-				"gruamach",
-				"planaid fhàinneach",
-				"satarn",
-				"saturn",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("planeta con aneis"),
-			keywords: &["Saturno", "aneis", "sistema solar"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફરત\u{ac7} રિ\u{a82}ગ ધરાવતો ગ\u{acd}રહ"),
-			keywords: &[
-				"અ\u{a82}તરિક\u{acd}ષ",
-				"ગ\u{acd}રહ",
-				"ફરત\u{ac7} રિ\u{a82}ગ ધરાવતો ગ\u{acd}રહ",
-				"શનિ",
-				"શનિ દ\u{ac7}વ",
-				"શનિદ\u{ac7}વ",
-				"શનિનો ગ\u{acd}રહ",
-				"સ\u{ac7}ટર\u{acd}ન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("duniya mai zobe"),
-			keywords: &["duniya mai zobe", "samaniya", "satun", "saturn", "saturnayin"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("duniya mai zobe"),
-			keywords: &["duniya mai zobe", "samaniya", "satun", "saturn", "saturnayin"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("כוכב לכת עם טבעות"),
-			keywords: &["כוכב לכת", "כוכב לכת עם טבעות", "כוכבים", "שבתאי"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("छल\u{94d}ल\u{947}दार ग\u{94d}रह"),
-			keywords: &["ग\u{94d}रह", "छल\u{94d}ल\u{947}दार", "शनि ग\u{94d}रह"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("planet s prstenom"),
-			keywords: &["Saturn", "planet s prstenom"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("gyűrűs bolygó"),
-			keywords: &["Szaturnusz", "bolygó", "gyűrűs bolygó", "szaturnusz"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("օղակներով մոլորակ"),
-			keywords: &["Երևակ", "Սատուրն", "օղակներով մոլորակ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("planet bercincin"),
-			keywords: &["planet bercincin", "saturnus"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("mbara ụwa nwere okirikiri"),
-			keywords: &["ringed planet", "saturn", "saturnine"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("pláneta með hringi"),
-			keywords: &["fálátur", "pláneta með hringi", "satúrnus"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("pianeta con satellite"),
-			keywords: &[
-				"Saturno",
-				"corpo celeste",
-				"pianeta con anelli",
-				"pianeta con satellite",
-				"satellite",
-				"spazio",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("環のある惑星"),
-			keywords: &["リング", "土星", "天体", "惑星", "星", "環のある惑星"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("planet anganggo ali-ali"),
-			keywords: &[
-				"planet anganggo ali-ali",
-				"saturnus",
-				"wong sing lairane ketiban sipating saturnus",
-			],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("პლანეტა სარტყელით"),
-			keywords: &["პლანეტა სარტყელით", "სატურნი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("сақинасы бар планета"),
-			keywords: &["Сатурн белгісінде туылған", "планета", "сатурн", "сақинасы бар планета"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ភពដែលមាន\u{200b}កងរង\u{17d2}វង\u{17cb}ជ\u{17bb}\u{17c6}វ\u{17b7}ញ"),
-			keywords: &[
-				"ភពដែលមាន\u{200b}កងរង\u{17d2}វង\u{17cb}ជ\u{17bb}\u{17c6}វ\u{17b7}ញ",
-				"ភពសៅរ\u{17cd}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ವರ\u{ccd}ತುಲವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ"),
-			keywords: &[
-				"ಉಂಗುರವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ",
-				"ಗ\u{ccd}ರಹ",
-				"ವರ\u{ccd}ತುಲವ\u{cbf}ರುವ ಗ\u{ccd}ರಹ",
-				"ಶನ\u{cbf}ಗ\u{ccd}ರಹ",
-				"ಸ\u{ccc}ರಗ\u{ccd}ರಹ",
-				"ಸ\u{ccd}ಯಾಟರ\u{ccd}ನ\u{ccd}",
-				"ಸ\u{ccd}ಯಾಟ\u{ccd}ರನ\u{cc8}ನ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("고리가 있는 행성"),
-			keywords: &["고리가 있는 행성", "토성", "행성"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("वलय आसपी गिरो"),
-			keywords: &["वलय आसपी गिरो", "शनी", "शनीवलय"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("шакек менен курчалган планета"),
-			keywords: &["сатурн", "түнт", "шакек менен курчалган планета"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ວ\u{ebb}ງ\u{200b}ແຫວນ\u{200b}ດາວ\u{200b}ເຄາະ"),
-			keywords: &["ດາວ\u{200b}ເສ\u{ebb}າ", "ວ\u{ebb}ງ\u{200b}ແຫວນ\u{200b}ດາວ\u{200b}ເຄາະ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("planeta su žiedu"),
-			keywords: &["planeta", "planeta su žiedu", "saturnas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("gredzenota planēta"),
-			keywords: &["gredzenota planēta", "mīnijs", "saturns"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("планета со прстени"),
-			keywords: &["планета со прстени", "сатурн"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വളയങ\u{d4d}ങള\u{d41}ള\u{d4d}ള ഗ\u{d4d}രഹം"),
-			keywords: &["വളയങ\u{d4d}ങള\u{d41}ള\u{d4d}ള ഗ\u{d4d}രഹം", "ശനി", "ശനിഗ\u{d4d}രഹം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("тойрог замтай гараг"),
-			keywords: &["санчир", "санчир гараг", "тойрог замтай гараг"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("वलया\u{902}कित ग\u{94d}रह"),
-			keywords: &[
-				"ग\u{94d}रह",
-				"वलया\u{902}कित ग\u{94d}रह",
-				"शनी",
-				"शनी प\u{94d}रभावा\u{902}तर\u{94d}गत",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("planet bergelang"),
-			keywords: &["Zuhal", "planet", "planet bergelang", "suram", "zuhal"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some(
-				"က\u{103d}င\u{103a}းပါရ\u{103e}\u{102d}သည\u{1037}\u{103a} ဂြ\u{102d}\u{102f}ဟ\u{103a}",
-			),
-			keywords: &[
-				"က\u{103d}င\u{103a}းပါရ\u{103e}\u{102d}သည\u{1037}\u{103a} ဂြ\u{102d}\u{102f}ဟ\u{103a}",
-				"စနေဂြ\u{102d}\u{102f}ဟ\u{103a}",
-				"သ\u{102f}န\u{103a}မ\u{103e}\u{102f}န\u{103a}သော",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("चक\u{94d}रल\u{947} घ\u{947}रिएको ग\u{943}ह"),
-			keywords: &["उदास", "चक\u{94d}रल\u{947} घ\u{947}रिएको ग\u{943}ह", "शनि"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("planeet met ringen"),
-			keywords: &[
-				"Saturnus",
-				"heelal",
-				"planeet",
-				"planeet met ringen",
-				"ringen",
-				"ruimte",
-				"zonnestelsel",
-				"zwaarmoedig",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("planet med ringar"),
-			keywords: &["planet med ringar", "saturn", "verdsrommet"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ର\u{b3f}ଙ\u{b4d}ଗ ଗ\u{b4d}ରହ"),
-			keywords: &["ବ\u{b3f}ଷର\u{b4d}ଣ\u{b4d}ଣ", "ର\u{b3f}ଙ\u{b4d}ଗ ଗ\u{b4d}ରହ", "ଶନ\u{b3f}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਚ\u{a71}ਕਰਾਕਾਰ ਗ\u{a4d}ਰਹਿ"),
-			keywords: &[
-				"ਚ\u{a71}ਕਰਾਕਾਰ ਗ\u{a4d}ਰਹਿ",
-				"ਤਾਰਾ ਮ\u{a70}ਡਲ",
-				"ਰਿ\u{a70}ਗ",
-				"ਸ\u{a3c}ਨੀ",
-				"ਸ\u{a3c}ਨੀ ਗ\u{a4d}ਰਹਿ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Plánẹt Wé Ring-dẹm Sọraund"),
-			keywords: &[
-				"Plánẹt Wé Ring-dẹm Sọraund",
-				"Sátọn Sátọ\u{301}naín Fes",
-				"Síriọs Fes Wé De Vẹks",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("planeta z pierścieniami"),
-			keywords: &["pierścienie", "planeta", "planeta z pierścieniami", "saturn", "saturnowy"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("کړۍ داره سپوږمکۍ"),
-			keywords: &["زحل", "سيټورنين", "کړۍ داره سپوږمکۍ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("planeta com anéis"),
-			keywords: &["planeta", "planeta com anéis", "saturnino", "saturno"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("planeta anelado"),
-			keywords: &["planeta anelado", "planeta com anéis", "saturnino", "saturno"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("anillukunawan planeta"),
-			keywords: &["anillukunawan planeta", "saturnino", "saturno"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("planetă cu inele"),
-			keywords: &["planetă cu inele", "saturn", "saturnian", "spațiu"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E12–069"), keywords: &["E12–069"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("планета с кольцом"),
-			keywords: &["кольца", "кольцо", "космос", "планета", "планета с кольцом", "сатурн"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("رنگ وارو پلانيٽ"),
-			keywords: &["رنگ وارو پلانيٽ", "ساٽرن", "ساٽيورائن"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("වටක\u{dd4}ර\u{dd4} ග\u{dca}\u{200d}රහය\u{dcf}"),
-			keywords: &[
-				"නරච\u{dca}ඡ\u{dcf}ගය\u{dcf}",
-				"වටක\u{dd4}ර\u{dd4} ග\u{dca}\u{200d}රහය\u{dcf}",
-				"සෙනස\u{dd4}ර\u{dd4}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("planéta s prstencom"),
-			keywords: &["planéta", "planéta s prstencom", "prstenec", "saturn"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("planet z obročem"),
-			keywords: &["planet z obročem", "saturn", "saturnov obroč"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("meeraha gaaban"),
-			keywords: &["damman", "meeraha gaaban", "meeraha lixaad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("planet me unazë"),
-			keywords: &["Saturni", "planet", "planet me unazë", "unazë Saturni"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("планета са прстеном"),
-			keywords: &["планета", "прстен", "сатурн"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("planeta sa prstenom"),
-			keywords: &["planeta", "prsten", "saturn"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("planet med ringar"),
-			keywords: &["planet med ringar", "saturnine", "saturnus"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("sayari yenye duara"),
-			keywords: &["Dunia", "baridi", "sayari", "sayari yenye duara", "zohali"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வளையம\u{bcd} உள\u{bcd}ள கோள\u{bcd}"),
-			keywords: &[
-				"கிரகம\u{bcd}",
-				"கோள\u{bcd}",
-				"சனி",
-				"வளையம\u{bcd}",
-				"வளையம\u{bcd} உள\u{bcd}ள கோள\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("చుట\u{c4d}టూ వలయం ఉన\u{c4d}న గ\u{c4d}రహం"),
-			keywords: &[
-				"చుట\u{c4d}టూ వలయం ఉన\u{c4d}న గ\u{c4d}రహం",
-				"చుట\u{c4d}టూ వలయం గల గ\u{c4d}రహం",
-				"న\u{c3f}రుత\u{c4d}స\u{c3e}హం",
-				"శన\u{c3f}గ\u{c4d}రహం",
-				"శ\u{c3e}టర\u{c4d}న\u{c4d}",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ดาวเคราะห\u{e4c}ท\u{e35}\u{e48}ม\u{e35}วงแหวน"),
-			keywords: &[
-				"ดาวเคราะห\u{e4c}ท\u{e35}\u{e48}ม\u{e35}วงแหวน",
-				"ดาวเสาร\u{e4c}",
-				"แซตเท\u{e34}ร\u{e4c}นนายน\u{e4c}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቀለበት ዘለዎ ፕላኔት"),
-			keywords: &["ሳተርኒን ዝበሃል ፍረ እዩ።", "ሳተርን", "ቀለቤት ዝገበረ", "ፕላኔት"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("halkaly planeta"),
-			keywords: &["gamly", "halkaly planeta", "saturn"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("palanite mama"),
-			keywords: &["Sātuna", "palanite mama"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("halkalı gezegen"),
-			keywords: &["halkalı gezegen", "satürn"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("планета з кільцем"),
-			keywords: &["Сатурн", "планета з кільцем", "сатурн"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("حلقہ دار سیارہ"),
-			keywords: &[
-				"آسمان",
-				"آسمانی سیارے",
-				"حلقہ دار سیارہ",
-				"خلا",
-				"زحل",
-				"سیارہ",
-				"سیارہ زحل کے زیر اثر",
-				"فلکیات",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("halqali sayyora"),
-			keywords: &["halqali sayyora", "qoʻrgʻoshin", "saturn", "zuhal"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("hành tinh có vành đai bao quanh"),
-			keywords: &[
-				"Hành tinh",
-				"Thần Nông",
-				"Thổ tinh",
-				"hành tinh có vành đai bao quanh",
-				"sao Thổ",
-				"sao thổ",
-				"thần nông",
-				"thổ tinh",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("plánẹ\u{301}tì oiringì"),
-			keywords: &["plánẹ\u{301}tì oiringì", "sàtọ\u{301}nì"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("plánɛ\u{301}tì oiringì"),
-			keywords: &["plánɛ\u{301}tì oiringì", "sàtɔ\u{301}nì"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("環狀星球"),
-			keywords: &["土星", "環狀星球", "陰沉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("环状星球"),
-			keywords: &["土星", "环状星球", "阴沉"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("有环行星"),
-			keywords: &["土星", "有环行星", "行星"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("帶行星環的行星"),
-			keywords: &["土星", "土星環", "帶行星環的行星"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("有行星環的行星"),
-			keywords: &["土星", "土星環", "星球", "有行星環的行星", "環狀行星"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("iplanethi eringayo"),
-			keywords: &["i-saturine", "i-saturn", "iplanethi eringayo"],
-		},
-	],
-};
-#[doc = "⭐\u{fe0f}"]
-pub const STAR: crate::Emoji = crate::Emoji {
-	glyph:                "⭐\u{fe0f}",
-	codepoint:            &[11088u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "star",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌟"]
-pub const GLOWING_STAR: crate::Emoji = crate::Emoji {
-	glyph:                "🌟",
-	codepoint:            &[127775u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "glowing star",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("gloeiende ster"),
-			keywords: &[
-				"glans",
-				"glansend",
-				"gloei",
-				"gloeiende ster",
-				"nag",
-				"skitter",
-				"skitterend",
-				"skyn",
-				"ster",
-				"vonkel",
-				"wen",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ብልጭ ድርግም የሚል ኮከብ"),
-			keywords: &[
-				"ማሸነፍ",
-				"ማብራት",
-				"ማንጸባረቅ",
-				"ምሽት",
-				"ብልጭ ድርግም",
-				"ብልጭ ድርግም የሚል ኮከብ",
-				"አብለጭለጭ",
-				"ኮከብ",
-				"የሚያበራ ኮከብ",
-				"የሚያብረቀርቅ",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("نجم ساطع"),
-			keywords: &["إشراق", "ربح", "زهو", "سطوع", "لامع", "لمعان", "مساء", "نجم", "نجم ساطع"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("উজ\u{9cd}জ\u{9cd}বল তৰ\u{9be}"),
-			keywords: &["উজ\u{9cd}জ\u{9cd}বল", "জ\u{9be}কজমক", "তৰ\u{9be}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("parıldayan ulduz"),
-			keywords: &["işıq", "parlaq", "parıldayan", "qığılcım", "ulduz"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("бліскучая зорка"),
-			keywords: &["бліскучая зорка", "бліскучы", "ззянне", "зорка", "іскра"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("блестяща звезда"),
-			keywords: &["блестящ", "блестяща звезда", "блясък", "звезда", "искрящ", "нощ"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("উজ\u{9cd}জ\u{9cd}বল ত\u{9be}র\u{9be}"),
-			keywords: &[
-				"উজ\u{9cd}জ\u{9cd}বল ত\u{9be}র\u{9be}",
-				"উদ\u{9cd}ভ\u{9be}স",
-				"উদ\u{9cd}ভ\u{9be}সিত",
-				"জ\u{9cd}বলজ\u{9cd}বলে",
-				"ঝকমক",
-				"ত\u{9be}র\u{9be}",
-				"দ\u{9cd}য\u{9c1}তি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("steredenn skedus"),
-			keywords: &["steredenn", "steredenn skedus"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("sjajna zvijezda"),
-			keywords: &["blistavo", "sjajna zvijezda", "sjajno", "svemir", "zvijezda"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("estrella brillant"),
-			keywords: &[
-				"brillant",
-				"brillantor",
-				"brillar",
-				"centellejar",
-				"espurna",
-				"estrella",
-				"nit",
-				"victòria",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏥᏍᏓᎷᎩᏍᎩ ᏃᏈᏏ"),
-			keywords: &["ᎠᏔᏅᎩᎠ", "ᎠᏥᏍᏓᎷᎩᎠ", "ᎠᏥᏍᏓᎷᎩᏍᎩ", "ᎤᏥᏍᎳ", "ᎤᏥᏍᏓᎷᎩᏍᎩ ᏃᏈᏏ", "ᏃᏈᏏ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zářící hvězda"),
-			keywords: &[
-				"hvězda",
-				"hvězdička",
-				"jas",
-				"jiskra",
-				"noc",
-				"třpytit se",
-				"třpytivý",
-				"vyhrát",
-				"záře",
-				"zářící",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("seren yn tywynnu"),
-			keywords: &["disgleirio", "pelydru", "seren yn tywynnu", "tywynnu"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("blinkende stjerne"),
-			keywords: &["blinkende stjerne", "lysende stjerne", "lyser", "skinner", "stjerneskin"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("funkelnder Stern"),
-			keywords: &["Funkelnder Stern", "Stern", "funkeln", "funkelnder Stern", "glitzern"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("λαμπερό αστέρι"),
-			keywords: &[
-				"αστέρι",
-				"αστράφτω",
-				"αστραφτερό",
-				"γυαλιστερό",
-				"κερδίζω",
-				"λάμπω",
-				"λάμψη",
-				"λαμπερό",
-				"νικάω",
-				"νύχτα",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("glowing star"),
-			keywords: &["glittery", "glow", "glowing", "night", "shining", "sparkle", "star", "win"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("estrella brillante"),
-			keywords: &["brillante", "estrella", "resplandeciente"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["brillante", "brillar", "estrella", "estrella resplandeciente"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["brillante", "brillo", "centellar", "estrella"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("helendav täht"),
-			keywords: &["helendav", "sära", "täht"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("izar distiratsua"),
-			keywords: &["distira", "distiratsu", "izar", "izar distiratsua", "txinparta"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ستاره درخشان"),
-			keywords: &["جرقه", "درخشان", "ستاره", "فروزان"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("loistava tähti"),
-			keywords: &["loistava tähti", "loiste", "säihke", "tähti", "valo"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("kumikinang na bituin"),
-			keywords: &["bituin", "kumikinang", "kumikinang na bituin", "kumikislap"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("glógvandi stjørna"),
-			keywords: &["glógvandi stjørna", "stjørna"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("étoile brillante"),
-			keywords: &[
-				"nuit",
-				"nuit étoilée",
-				"succès",
-				"éclat",
-				"étincelant",
-				"étincelle",
-				"étoile",
-				"étoile brillante",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["brillante", "étoile"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("réalta ag lonrú"),
-			keywords: &["lonrú", "réalt", "réalta", "réalta ag lonrú"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("rionnag dhealrach"),
-			keywords: &[
-				"boillsgeadh",
-				"dealrach",
-				"dealradh",
-				"priobadh reul",
-				"rionnag",
-				"rionnag dhealrach",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("estrela brillante"),
-			keywords: &["brillante", "escintilante", "estrela"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ચમકતો તારો"),
-			keywords: &["ચમકતો", "ચમકદાર", "ચમકનાર", "ચળકવ\u{ac1}\u{a82}", "જીત", "તારો", "રાત\u{acd}રી"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("tauraro mai haske"),
-			keywords: &[
-				"haska",
-				"haske",
-				"mai ƙyalƙyali",
-				"nasara",
-				"taurari",
-				"tauraro",
-				"tauraro mai haske",
-				"tauraro mai ƙyalƙyali",
-				"yi ƙyalƙyali",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("tauraro mai haske"),
-			keywords: &[
-				"haska",
-				"haske",
-				"mai ƙyalƙyali",
-				"nasara",
-				"taurari",
-				"tauraro",
-				"tauraro mai haske",
-				"tauraro mai ƙyalƙyali",
-				"yi ƙyalƙyali",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("כוכב זוהר"),
-			keywords: &["זוהר", "כוכב", "מנצנץ"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("चमकदार तारा"),
-			keywords: &["चमक", "चमकदार", "चमकीला", "तारा"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zvijezda koja sjaji"),
-			keywords: &["iskre", "noć", "pobjeda", "sjaj", "zvijezda", "zvijezda koja sjaji"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("fénylő csillag"),
-			keywords: &["csillag", "csillog", "csillogás", "fény", "fényes", "fénylő csillag", "éjszaka"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("փայլող աստղ"),
-			keywords: &["աստղ", "կայծ", "շողացող", "փայլող աստղ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("bintang bersinar"),
-			keywords: &["berkilau", "bersinar", "bintang", "cemerlang", "malam"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("kpakpando na-amụke amụke"),
-			keywords: &[
-				"kpakpando",
-				"kpakpando na-amụke amụke",
-				"mmukesi",
-				"mmụke",
-				"mụrụmụrụ",
-				"nchapụta",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("skínandi stjarna"),
-			keywords: &["skínandi", "stjarna"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("stella che brilla"),
-			keywords: &[
-				"brillante",
-				"evvai",
-				"felicità",
-				"festeggiare",
-				"natura",
-				"notte",
-				"scintillante",
-				"sorpresa",
-				"stella",
-				"stella che brilla",
-				"stella con scintille",
-				"stellina",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("きらきら星"),
-			keywords: &["きらきら", "きらきら星", "キラキラ", "スター", "星", "輝き"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("lintang cemlorot"),
-			keywords: &["clorot", "kelip-kelip", "kerlip-kerlip", "lintang", "lintang cemlorot"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მბრწყინავი ვარსკვლავი"),
-			keywords: &["ბრწყინვა", "ვარსკვლავი", "კაშკაში", "მბრწყინავი ვარსკვლავი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жарқырап тұрған жұлдыз"),
-			keywords: &[
-				"жарқырап тұрған жұлдыз",
-				"жарқырау",
-				"жылтылдау",
-				"жылтырау",
-				"жұлдыз",
-				"сәуле шашу",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("blinkende stjerne"),
-			keywords: &["blinkende stjerne", "lysende stjerne", "lyser", "skinner", "stjerneskin"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ផ\u{17d2}កាយបញ\u{17d2}ចេញពន\u{17d2}ល\u{17ba}"),
-			keywords: &[
-				"តារា",
-				"ផ\u{17d2}កាយ",
-				"ផ\u{17d2}កាយបញ\u{17d2}ចេញពន\u{17d2}ល\u{17ba}",
-				"ពន\u{17d2}ល\u{17ba}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{cbf}ಣುಗುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ"),
-			keywords: &[
-				"ಗ\u{cc6}ಲುವು",
-				"ನಕ\u{ccd}ಷತ\u{ccd}ರ",
-				"ಪ\u{ccd}ರಕಾಶ",
-				"ಮ\u{cbf}ಂಚ\u{cbf}ನ",
-				"ಮ\u{cbf}ಣುಗುವ",
-				"ಮ\u{cbf}ನುಗುವ",
-				"ರಾತ\u{ccd}ರ\u{cbf}",
-				"ಹ\u{cca}ಳ\u{cc6}ಯುವ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("반짝이는 별"),
-			keywords: &[
-				"눈부시는",
-				"반짝거리는",
-				"반짝반짝",
-				"반짝이는 별",
-				"반짝이다",
-				"반짝임",
-				"밤",
-				"별",
-				"빛나는",
-				"승리",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("मिणमिणपी नख\u{947}त\u{94d}र"),
-			keywords: &[
-				"चकचक",
-				"चकचकीत",
-				"झगमग",
-				"झगमगता",
-				"झगमगपी नख\u{947}त\u{94d}र",
-				"नख\u{947}त\u{94d}र",
-				"मिणमिणपी नख\u{947}त\u{94d}र",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жаркыраган жылдыз"),
-			keywords: &["жалтылдаган", "жаркыраган жылдыз", "жылдыз", "жылтылдаган"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("liichtende Stär"),
-			keywords: &["Stär", "blénkeg", "blénken", "glënnerend", "liichtend", "liichtende Stär"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ດາວເປ\u{eb1}\u{ec8}ງປະກາຍ"),
-			keywords: &["ດາວ", "ດາວເປ\u{eb1}\u{ec8}ງປະກາຍ", "ເປ\u{eb1}\u{ec8}ງປະກາຍ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("žėrinti žvaigždė"),
-			keywords: &["kibirkštis", "šviesti", "žvaigždė", "žėrinti", "žėrėti"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("spīdoša zvaigzne"),
-			keywords: &[
-				"mirdzoša zvaigzne",
-				"mirdzums",
-				"mirdzēt",
-				"nakts",
-				"spīdoša zvaigzne",
-				"spīdēt",
-				"uzvara",
-				"zvaigzne",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("whetū mumura"),
-			keywords: &["hana", "korakora", "tīaho", "wheriko", "whetū", "whetū mumura"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("светлечка ѕвезда"),
-			keywords: &[
-				"блеска",
-				"блескава ѕвезда",
-				"победа",
-				"свети",
-				"светка",
-				"светлечка ѕвезда",
-				"сјае",
-				"сјај",
-				"ѕвезда",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("തിളങ\u{d4d}ങ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം"),
-			keywords: &[
-				"ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}",
-				"തിളക\u{d4d}കം",
-				"തിളങ\u{d4d}ങ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
-				"നക\u{d4d}ഷത\u{d4d}രം",
-				"മിന\u{d4d}ന\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("гялалзаж буй од"),
-			keywords: &["гялалзаж буй од", "гялалзах", "од", "тэнгэр"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("चमकणारा तारा"),
-			keywords: &["चमक", "चमकणारा", "चमकता तारा", "चमकदार", "चमचमता", "तारा"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("bintang bersinar"),
-			keywords: &["bercahaya", "berkilau", "berkilauan", "bersinar", "bintang"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("stilla tiddi"),
-			keywords: &["jiddi", "stilla", "tiddi", "tlellex", "tleqq"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("တောက\u{103a}ပသည\u{1037}\u{103a} ကြယ\u{103a}"),
-			keywords: &[
-				"ကြယ\u{103a}",
-				"တောက\u{103a}ပ",
-				"တောက\u{103a}ပသည\u{1037}\u{103a} ကြယ\u{103a}",
-				"လက\u{103a}",
-				"ဝင\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("चम\u{94d}किरह\u{947}को तारा"),
-			keywords: &[
-				"उज\u{94d}यालो",
-				"ग\u{94d}लिटरिङ\u{94d}",
-				"चम\u{94d}किरह\u{947}को तारा",
-				"चम\u{94d}क\u{947}को",
-				"चम\u{94d}मिकरह\u{947}को",
-				"तारा",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("stralende ster"),
-			keywords: &[
-				"fonkelen",
-				"fonkelend",
-				"schitteren",
-				"schitterend",
-				"schittering",
-				"ster",
-				"stralen",
-				"stralende ster",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("lysande stjerne"),
-			keywords: &["glitrande", "lysande stjerne", "skinande", "stjerne", "verdsrommet"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଉଜ\u{b4d}ଜ\u{b4d}ୱଳ ତ\u{b3e}ର\u{b3e}"),
-			keywords: &[
-				"ଉଜ\u{b4d}ଜ\u{b4d}ୱଳ ତ\u{b3e}ର\u{b3e}",
-				"ଚମକ",
-				"ଚମକ\u{b41}ଥ\u{b3f}ବ\u{b3e}",
-				"ତ\u{b3e}ର\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਜਗਮਗਾਉ\u{a02}ਦਾ ਤਾਰਾ"),
-			keywords: &[
-				"ਚਮਕ",
-				"ਚਮਕਦਾ",
-				"ਜਗਮਗਉ\u{a02}ਦਾ ਤਾਰਾ",
-				"ਜਗਮਗਾਉ\u{a02}ਦਾ ਤਾਰਾ",
-				"ਜਿ\u{a71}ਤ",
-				"ਝਿਲਮਿਲਾਉ\u{a02}ਦਾ",
-				"ਟਿਮਟਿਮਾਉਦਾ ਤਾਰਾ",
-				"ਤਾਰਾ",
-				"ਦਮਕਦਾ",
-				"ਸਟਾਰ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("روشن ستارہ"),
-			keywords: &["تارہ", "جگ مگ کرنا", "درخشاں", "روشن ستارہ", "لہکنا", "چمکدا ہوئیا"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Shaínín Sta"),
-			keywords: &["Shain", "Shaínín Sta", "Spákul", "Sta", "To Shaín Wẹ\u{301}l Wẹl"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("błyszcząca gwiazda"),
-			keywords: &["błyszcząca", "gwiazda", "gwiazdka", "lśniąca", "świecąca gwiazdka"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("پړقېدونکی ستوری"),
-			keywords: &["ستوری", "پړقېدونکی", "ځلا", "ځلېدونکی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("estrela brilhante"),
-			keywords: &["brilhante", "brilho", "cintilante", "estrela", "luminosa", "reluzente"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["brilhante", "brilho", "cintilante", "estrela"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("lliphisqa quyllur"),
-			keywords: &["k’anchay", "k’anchaynin", "lliphisqa", "quyllur"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("stea strălucitoare"),
-			keywords: &[
-				"noapte",
-				"sclipici",
-				"sclipicios",
-				"sclipitor",
-				"stea",
-				"stea strălucitoare",
-				"strălucire",
-				"victorie",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-230"), keywords: &["E10-230"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("сияющая звезда"),
-			keywords: &["звезда", "свет", "сияние", "сияющая звезда"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("inyenyeri ishashagirana"),
-			keywords: &[
-				"cyaka",
-				"gishashagirana",
-				"inyenyeri",
-				"inyenyeri ishashagirana",
-				"kirabagirana",
-				"kubengerana",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("چمڪندڙ تارو"),
-			keywords: &["تارو", "ٽمڪندڙ", "چمڪ", "چمڪندڙ", "چمڪيلو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ද\u{dd2}ලෙන තර\u{dd4}ව"),
-			keywords: &[
-				"තර\u{dd4}ව",
-				"ද\u{dd2}ද\u{dd4}ලන",
-				"ද\u{dd2}ලෙන තර\u{dd4}ව",
-				"ද\u{dd2}ළ\u{dd2}ස\u{dd3}ම",
-				"ද\u{dd2}ළ\u{dd2}සෙන",
-				"බැබළ\u{dd3}ම",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("žiariaca hviezda"),
-			keywords: &[
-				"hviezda",
-				"jas",
-				"noc",
-				"nočná",
-				"príroda",
-				"trblietajúca sa hviezda",
-				"trblietajúce sa",
-				"trblietanie",
-				"trblietať",
-				"záblesk",
-				"žiariaca hviezda",
-				"žiariť",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("žareča zvezda"),
-			keywords: &["bleščeče", "lesketanje", "sijanje", "zvezda", "žar", "žareča zvezda"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("xiddig kaahaya"),
-			keywords: &["dhalaalaya", "ifid", "kaah", "quruxsan", "xiddig", "xiddig kaahaya"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("yll që shkëlqen"),
-			keywords: &["i ndritshëm", "shkëlqim", "xixëllimë", "yll", "yll që shkëlqen"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("звезда која светли"),
-			keywords: &["звeздa", "искре", "ноћ", "сјај"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("звијезда која свијетли"),
-			keywords: &["блиставо", "звијездa", "звијезда која свијетли", "искрe", "сjaj", "сјајно"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zvezda koja svetli"),
-			keywords: &["iskre", "noć", "sjaj", "zvezda"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("zvijezda koja svijetli"),
-			keywords: &["blistavo", "iskre", "sjaj", "sjajno", "zvijezda", "zvijezda koja svijetli"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("blänkande stjärna"),
-			keywords: &["blänkande", "glittrande", "glänsande", "gnistrande", "natt", "seger", "stjärna"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("nyota inayong’aa"),
-			keywords: &["kumetameta", "kung’ara", "metameta", "ng’aa", "nyota", "nyota inayong’aa"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஒளி வ\u{bc0}சும\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}"),
-			keywords: &[
-				"ஒளி வ\u{bc0}சும\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
-				"திறமை",
-				"நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("మ\u{c46}ర\u{c3f}స\u{c47} నక\u{c4d}షత\u{c4d}రం"),
-			keywords: &[
-				"గ\u{c46}లుపు చ\u{c3f}హ\u{c4d}నం",
-				"గ\u{c4d}ల\u{c3f}టర\u{c3f}",
-				"గ\u{c4d}ల\u{c4b}",
-				"నక\u{c4d}షత\u{c4d}రం",
-				"మ\u{c46}రవడం",
-				"మ\u{c46}ర\u{c3f}స\u{c47}",
-				"మ\u{c46}రుస\u{c4d}తున\u{c4d}న నక\u{c4d}షత\u{c4d}రం",
-				"ర\u{c3e}త\u{c4d}ర\u{c3f}",
-				"వ\u{c3f}జయం",
-				"వ\u{c46}లుగు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("ситораи дурахшон"),
-			keywords: &[
-				"дурахшидан",
-				"дурахшон",
-				"пурҷило",
-				"ситора",
-				"ситораи дурахшон",
-				"ялаққос задан",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ดาวส\u{e48}องแสง"),
-			keywords: &["ดาว", "ดาวส\u{e48}องแสง", "ประกาย", "ระย\u{e34}บระย\u{e31}บ", "แสง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዝበርህ ኮኾብ"),
-			keywords: &["ለይቲ", "ብልጭ ዝብል", "ብልጭታ", "ብርሃን ዝህብ", "ኮኾብ", "ዓወት", "ዝበርህ", "ዝደምቕ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("lowurdaýan ýyldyz"),
-			keywords: &["lowurdaýan ýyldyz", "lowurdy", "parlaýan", "uçgun", "ýalpyldawuk", "ýyldyz"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("fetuʻu ngingila"),
-			keywords: &["fetuʻu", "ngingila"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("parıldayan yıldız"),
-			keywords: &[
-				"dilek",
-				"dilek yıldızı",
-				"kutup yıldızı",
-				"kıvılcım",
-				"parlak",
-				"parlayan yıldız",
-				"parıldama",
-				"parıldayan yıldız",
-				"pırıltı",
-				"yıldız",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("چاقنار يۇلتۇز"),
-			keywords: &["يارقىن", "يالقۇن", "يورۇق", "يۇلتۇز", "چاقنار يۇلتۇز", "چاقناش"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сяйна зірка"),
-			keywords: &["блискучий", "зірка", "світиться", "світло", "сяйна зірка", "сяє", "іскра"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("چمکتا ستارہ"),
-			keywords: &[
-				"جیت",
-				"رات",
-				"روشن ستارہ",
-				"ستارہ",
-				"شب",
-				"فطح",
-				"قدرت",
-				"نجم",
-				"نجمہ",
-				"نور",
-				"چمک",
-				"چمکتا",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("porlayotgan yulduz"),
-			keywords: &["charaqlash", "porlash", "porlayotgan", "porloq", "tun", "yulduz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ngôi sao lấp lánh"),
-			keywords: &["chiếu sáng", "lấp lánh", "ngôi sao", "ngôi sao lấp lánh", "phát sáng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("biddeew tàkk"),
-			keywords: &["biddeew", "leeraay", "tàkk", "yànj", "yànjaay"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inkwenkwezi ekhanyayo"),
-			keywords: &["bengezela", "ekhanyayo", "ekhazimlayo", "emenyezelayo", "inkwenkwezi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Irawọ Titan"),
-			keywords: &["Irawọ Titan", "dán", "dídán", "tàn", "ìràwọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Irawɔ Titan"),
-			keywords: &["Irawɔ Titan", "dán", "dídán", "tàn", "ìràwɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("發光嘅星星"),
-			keywords: &["星星", "發光", "發光嘅星星", "閃", "閃耀", "閃閃發光"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("发光嘅星星"),
-			keywords: &["发光", "发光嘅星星", "星星", "闪", "闪耀", "闪闪发光"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("闪亮的星星"),
-			keywords: &["发光", "星星", "闪亮", "闪亮的星星", "闪光"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("閃爍的星星"),
-			keywords: &["星星", "閃爍的星星"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("閃亮嘅星星"),
-			keywords: &["勝利", "夜晚", "星星", "發光", "閃亮", "閃亮嘅星星", "閃耀", "閃閃發光"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inkanyezi ebhanyazayo"),
-			keywords: &["inkanyezi", "inkanyezi ebhanyazayo", "ukubhayaza"],
-		},
-	],
-};
-#[doc = "🌠"]
-pub const SHOOTING_STAR: crate::Emoji = crate::Emoji {
-	glyph:                "🌠",
-	codepoint:            &[127776u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "shooting star",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("verskietende ster"),
-			keywords: &["nag", "ruimte", "skiet", "ster", "val", "verskiet", "verskietende ster"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ተወርዋሪ ኮከብ"),
-			keywords: &["ህዋ", "መወርወር", "መውደቅ", "ተወርዋሪ ኮከብ", "ኮሜት", "ኮከብ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("شهاب"),
-			keywords: &["انطلاق", "سقوط", "شهاب", "طبيعة", "فضاء", "قنص", "نجم"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("উল\u{9cd}ক\u{9be}"),
-			keywords: &["উল\u{9cd}ক\u{9be}", "তৰ\u{9be}", "পতিত", "শ\u{9cd}ব\u{9c1}টিং"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("düşən ulduz"),
-			keywords: &["düşən ulduz", "kosmos", "parlama", "tökülmək", "ulduz", "ulduz sürüşməsi"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("знічка"),
-			keywords: &["знічка", "зорка", "космас", "мара", "метэор"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("падаща звезда"),
-			keywords: &["звезда", "космос", "небе", "нощ", "падаща"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("উল\u{9cd}ক\u{9be}"),
-			keywords: &[
-				"উল\u{9cd}ক\u{9be}",
-				"ত\u{9be}র\u{9be}",
-				"পতিত",
-				"মহ\u{9be}ক\u{9be}শ",
-				"শ\u{9c1}টিং",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("steredenn-dared"),
-			keywords: &["steredenn", "steredenn-dared"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zvijezda padalica"),
-			keywords: &["padalica", "svemir", "zvijezda"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("estel fugaç"),
-			keywords: &["cel", "espai", "estel", "estrella", "fugaç", "pluja d’estels"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏬᎰᏒ ᏃᏈᏏ"),
-			keywords: &["ᎤᏬᎰᏒ", "ᎪᎰᏍᎬᎢ", "ᏃᏈᏏ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("padající hvězda"),
-			keywords: &["hvězda", "kometa", "kosmos", "noc", "padající", "vesmír"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("seren wib"),
-			keywords: &["gofod", "gwibio", "seren wib", "syrthio"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("stjerneskud"),
-			keywords: &["stjerne", "stjerneskud"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Sternschnuppe"),
-			keywords: &["Himmel", "Sternschnuppe"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("αστέρι που πέφτει"),
-			keywords: &["αστέρι", "αστέρι που πέφτει", "διάστημα", "νύχτα", "πεφταστέρι", "που πέφτει"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("shooting star"),
-			keywords: &["falling", "night", "shooting", "space", "star"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("estrella fugaz"),
-			keywords: &["estrella", "estrella fugaz", "lluvia"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["espacio", "estrella", "fugaz", "lluvia", "lluvia de estrellas"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["cayendo", "estrella", "fugaz"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("langev täht"),
-			keywords: &["komeet", "kosmos", "langev", "täht"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("izar-uxoa"),
-			keywords: &["espazio", "iheskor", "izar", "izar-uxoa", "uxo"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ستاره ثاقب"),
-			keywords: &["افتادن", "دنباله\u{200c}دار", "ستاره", "ستاره ثاقب", "سریع", "فضا"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("tähdenlento"),
-			keywords: &["avaruus", "toive", "tähdenlento", "tähti"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bulalakaw"),
-			keywords: &["bituin", "bulalakaw", "kalawakan", "shooting star", "tala"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("stjørnuskot"),
-			keywords: &["stjørna", "stjørnuskot"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("étoile filante"),
-			keywords: &["espace", "nuit", "étoile", "étoile filante"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["filante", "étoile"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("réalta reatha"),
-			keywords: &["oíche", "réalt", "réalta", "réalta reatha", "spás"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("rionnag earballach"),
-			keywords: &["dreag", "earballach", "reul", "rionnag", "tuiteam"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("estrela fugaz"),
-			keywords: &["choiva de estrelas", "chuvia de estrelas", "estrela", "fugaz"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ખરતો તારો"),
-			keywords: &["અવકાશ", "ખરતો", "ઝબ\u{ac2}કતો તારો", "તારલો", "તારો", "રાત\u{acd}રી", "સિતારો"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("mashi"),
-			keywords: &["Tauraro", "dare", "faɗowa", "faɗuwa", "mashi", "tauraro mai wutsiya"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("mashi"),
-			keywords: &["Tauraro", "dare", "faɗowa", "faɗuwa", "mashi", "tauraro mai wutsiya"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("כוכב שביט"),
-			keywords: &["חלל", "כוכב", "כוכב נופל", "שביט"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("उल\u{94d}का"),
-			keywords: &["उल\u{94d}का", "गिरता तारा", "ट\u{942}टता तारा", "तारा"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zvijezda padalica"),
-			keywords: &["komet", "meteor", "padanje", "zvijezda", "zvijezda padalica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("hullócsillag"),
-			keywords: &["csillag", "csillaghullás", "hullócsillag", "ég"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ընկնող աստղ"),
-			keywords: &["աստղ", "ընկնող", "տիեզերք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("bintang jatuh"),
-			keywords: &["angkasa", "bintang", "jatuh"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("Kpakpando na-ada ada"),
-			keywords: &["abalị", "agbapụ", "kpakpando", "na-ada", "ọnwa"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("stjörnuhrap"),
-			keywords: &["stjarna", "stjörnuhrap", "óskastjarna"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("stella cadente"),
-			keywords: &["cadente", "desiderio", "fortuna", "notte", "stella"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("流れ星"),
-			keywords: &["スター", "夜", "宇宙", "星", "流れ星"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("lintang abuntut"),
-			keywords: &["buntut", "lintang", "lintang abuntut", "lintang ngalih", "tumiba"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ვარდნილი ვარსკვლავი"),
-			keywords: &["ვარდნა", "ვარდნილი ვარსკვლავი", "ვარსკვლავი", "კოსმოსი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ұшқан жұлдыз"),
-			keywords: &["жұлдыз", "түн", "ғарыш", "құлау", "ұшу", "ұшқан жұлдыз"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("stjerneskud"),
-			keywords: &["stjerne", "stjerneskud"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ផ\u{17d2}កាយហោះ"),
-			keywords: &["តារា", "ផ\u{17d2}កាយ", "ផ\u{17d2}កាយហោះ", "ហោះ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cc0}ಳುತ\u{ccd}ತ\u{cbf}ರುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ"),
-			keywords: &[
-				"ನಕ\u{ccd}ಷತ\u{ccd}ರ",
-				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
-				"ಬ\u{cc0}ಳುತ\u{ccd}ತ\u{cbf}ರುವ ನಕ\u{ccd}ಷತ\u{ccd}ರ",
-				"ಬ\u{cc0}ಳುವ",
-				"ರಾತ\u{ccd}ರ\u{cbf}",
-				"ಶ\u{cc2}ಟ\u{cbf}ಂಗ\u{ccd}",
-				"ಶ\u{cc2}ಟ\u{cbf}ಂಗ\u{ccd} ಸ\u{ccd}ಟಾರ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("별똥별"),
-			keywords: &["낙성", "떨어지는", "밤", "별", "별똥별", "우주", "유성"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पडपी नख\u{947}त\u{94d}र"),
-			keywords: &["नख\u{947}त\u{94d}र", "पडपी", "श\u{941}टी\u{902}ग"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("учкан жылдыз"),
-			keywords: &["жылдыз", "учкан жылдыз", "учту", "учуу"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Stäreschnäiz"),
-			keywords: &["Stär", "Stäreschnäiz", "falend"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ດາວຕ\u{ebb}ກ"),
-			keywords: &["ດາວ", "ດາວຕ\u{ebb}ກ", "ຕ\u{ebb}ກ", "ອາວະກາດ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("krintanti žvaigždė"),
-			keywords: &["kosmosas", "krintanti", "žvaigždė"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("krītoša zvaigzne"),
-			keywords: &["krist", "krītoša zvaigzne", "zvaigzne"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("unahi o takero"),
-			keywords: &["hinga ana", "unahi", "unahi o takero", "whetū"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("ѕвезда што паѓа"),
-			keywords: &["вселена", "ноќ", "паѓа", "ѕвезда", "ѕвезда што паѓа"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വ\u{d3e}ൽനക\u{d4d}ഷത\u{d4d}രം"),
-			keywords: &[
-				"നക\u{d4d}ഷത\u{d4d}രം",
-				"വ\u{d3e}ൽനക\u{d4d}ഷത\u{d4d}രം",
-				"വീഴ\u{d41}ന\u{d4d}ന നക\u{d4d}ഷത\u{d4d}രം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("од харвах"),
-			keywords: &["аз", "од", "харвах"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पडणारा तारा"),
-			keywords: &[
-				"तारा",
-				"त\u{941}टणारा तारा",
-				"त\u{941}टण\u{947}",
-				"त\u{941}टता तारा",
-				"पडणारा तारा",
-				"पडण\u{947}",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("tahi bintang"),
-			keywords: &["angkasa lepas", "bintang", "jatuh", "malam", "tahi bintang"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("stilla feġġa"),
-			keywords: &["feġġa", "stilla", "taqa’"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ကြယ\u{103a}ကြ\u{103d}ေခြင\u{103a}း"),
-			keywords: &[
-				"ကြယ\u{103a}",
-				"ကြယ\u{103a}ကြ\u{103d}ေခြင\u{103a}း",
-				"ကြ\u{103d}ေကျခြင\u{103a}း",
-				"ကြ\u{103d}ေခြင\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("प\u{941}च\u{94d}छ\u{94d}र\u{947} तारा"),
-			keywords: &[
+				"अ\u{901}ध\u{94d}यारो",
 				"आकाशग\u{902}गा",
-				"झरिरह\u{947}को",
-				"तारा",
-				"प\u{941}च\u{94d}छ\u{94d}र\u{947} तारा",
-				"श\u{942}टिङ\u{94d}ग",
+				"औ\u{902}सी",
+				"चन\u{94d}द\u{94d}रमा",
+				"मौसम",
 			],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("vallende ster"),
-			keywords: &["hemel", "ruimte", "ster", "vallen", "vallend", "vallende ster"],
+			tts:      Some("nieuwe maan"),
+			keywords: &["avond", "donker", "maan", "maansverduistering", "nieuwe maan", "ruimte"],
 		},
 		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("stjerneskot"),
-			keywords: &["fallande stjerne", "fell", "stjerne", "stjerneskot", "verdsrommet"],
-		},
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ଉଲକ\u{b3e}"),
-			keywords: &["ଉଲକ\u{b3e}", "ଉଲକ\u{b3e}ତ\u{b3e}ର\u{b3e}", "ତ\u{b3e}ର\u{b3e}"],
+			tts:      Some("ନ\u{b42}ଆ ଚନ\u{b4d}ଦ\u{b4d}ର"),
+			keywords: &[
+				"ଅମବ\u{b3e}ସ\u{b4d}ୟ\u{b3e}",
+				"ଗ\u{b3e}ଢ\u{b3c}",
+				"ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ନ\u{b42}ଆ ଚନ\u{b4d}ଦ\u{b4d}ର",
+				"ନ\u{b42}ତନ",
+			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਟ\u{a41}\u{a71}ਟਦਾ ਤਾਰਾ"),
+			tts:      Some("ਨਵਾ\u{a02} ਚ\u{a70}ਦ"),
 			keywords: &[
-				"ਟ\u{a41}\u{a71}ਟਣਾ",
-				"ਟ\u{a41}\u{a71}ਟਦਾ ਤਾਰਾ",
-				"ਡਿ\u{a71}ਗਣਾ",
-				"ਤਾਰਾ",
+				"ਚ\u{a70}ਦ",
+				"ਚ\u{a70}ਨ",
+				"ਨਵਾ\u{a02}",
 				"ਪ\u{a41}ਲਾੜ",
+				"ਮ\u{a4c}ਸਮ",
+				"ਹਨ\u{a47}ਰਾ",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("شوٹنگ ستارہ"),
-			keywords: &["تارہ", "شوٹنگ", "شوٹنگ ستارہ", "ڈ\u{650}گنا"],
+			tts:      Some("نواں چاند"),
+			keywords: &["نواں چاند", "چاند", "ہنیرا"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Shútín Sta"),
-			keywords: &["Shútín Sta", "Sta", "To Fọl", "To Shut"],
+			tts:      Some("Níu Mun"),
+			keywords: &["Dak", "Mun", "Niú Mun", "Níu Mun"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("spadająca gwiazda"),
-			keywords: &["gwiazda", "kometa", "noc", "spadająca", "życzenie"],
+			tts:      Some("nów"),
+			keywords: &["ciemny księżyc", "księżyc", "noc", "nów"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("د ډزو ستوري"),
-			keywords: &["د ډزو ستوري", "ستوری", "لوېدونکی", "ويشتونکی"],
+			tts:      Some("نوې سپوږمۍ"),
+			keywords: &["تياره", "سپوږمۍ", "نوې سپوږمۍ"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("estrela cadente"),
-			keywords: &["cadente", "cai", "estrela"],
+			tts:      Some("lua nova"),
+			keywords: &["escuro", "lua", "lua negra", "noite", "nova"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
 			tts:      Some("↑↑↑"),
-			keywords: &["cadente", "espaço", "estrela"],
+			keywords: &["escuro", "espaço", "lua", "lua nova", "meteorologia"],
 		},
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("utqhay quyllur"),
-			keywords: &["quyllur", "urmay", "utqhay"],
+			tts:      Some("unu Killa"),
+			keywords: &["killa", "tuta", "unu Killa"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("stea căzătoare"),
-			keywords: &[
-				"cer",
-				"cometă",
-				"cădere",
-				"meteor",
-				"noapte",
-				"spațiu",
-				"stea",
-				"stea căzătoare",
-			],
+			tts:      Some("lună nouă"),
+			keywords: &["lună", "lună nouă", "spațiu", "întunecat", "întuneric"],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-231"), keywords: &["E10-231"] },
+		crate::Annotation { lang: "root", tts: Some("E10-216"), keywords: &["E10-216"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("падающая звезда"),
-			keywords: &["желание", "загадать желание", "звезда", "звездопад", "небо", "падающая"],
+			tts:      Some("новолуние"),
+			keywords: &["луна", "месяц", "новая", "новолуние", "ночь", "темная ночь", "темно"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("kibonumwe"),
-			keywords: &["gufata amafoto", "inyenyeri", "kibonumwe", "kugwa"],
+			tts:      Some("ukwezi gushya"),
+			keywords: &["kijimye", "ukwezi", "ukwezi gushya"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("ٽٽندڙ تارو"),
-			keywords: &["تارو", "ٽٽندڙ", "ڪرندي"],
+			tts:      Some("نئون چنڊ"),
+			keywords: &["اونداهو", "نئون چنڊ", "چنڊ"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("කඩ\u{dcf} වැටෙන තර\u{dd4}ව"),
+			tts:      Some("නව සඳ"),
 			keywords: &[
+				"අඳ\u{dd4}ර\u{dd4}",
 				"අභ\u{dca}\u{200d}යවක\u{dcf}ශය",
-				"කඩ\u{dcf} වැට\u{dd3}ම",
-				"කඩ\u{dcf} වැටෙන තර\u{dd4}ව",
-				"තර\u{dd4}ව",
-				"වැට\u{dd3}ම",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"නව සඳ",
+				"සඳ",
 			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("padajúca hviezda"),
-			keywords: &["hviezda", "kométa", "padajúca", "vesmír"],
+			tts:      Some("nov"),
+			keywords: &["mesiac", "noc", "nov", "nočná obloha", "počasie", "príroda", "tmavý", "vesmír"],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("utrinek"),
-			keywords: &["padanje", "repatica", "utrinek", "vesolje", "zvezda"],
+			tts:      Some("mlada luna"),
+			keywords: &["luna", "mlada luna", "tema", "vesolje", "vreme"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("waran cireed"),
-			keywords: &["soo dhacaya", "toogasho", "waran cireed", "xiddig"],
+			tts:      Some("dayaxa cusub"),
+			keywords: &["dayax", "dayaxa cusub", "madoow"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("yll që bie"),
-			keywords: &["hapësirë", "që bie", "që këputet", "yll", "yll që bie"],
+			tts:      Some("hëna e re"),
+			keywords: &["e errët", "hapësirë", "hëna e re", "hënë", "moti"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("звезда падалица"),
-			keywords: &["звезда", "ноћ", "падалица", "падање", "свемир"],
+			tts:      Some("млад месец"),
+			keywords: &["месец", "млад", "мрaк", "свeмир"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation {
 			lang:     "sr_Cyrl_BA",
-			tts:      Some("звијезда падалица"),
-			keywords: &["звијездa", "звијезда падалица", "пaдaње"],
+			tts:      Some("млад мјесец"),
+			keywords: &["млад мјесец", "мрaк", "мјесец"],
 		},
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("zvezda padalica"),
-			keywords: &["noć", "padalica", "padanje", "svemir", "zvezda"],
+			tts:      Some("mlad mesec"),
+			keywords: &["mesec", "mlad", "mrak", "svemir"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation {
 			lang:     "sr_Latn_BA",
-			tts:      Some("zvijezda padalica"),
-			keywords: &["padanje", "zvijezda", "zvijezda padalica"],
+			tts:      Some("mlad mjesec"),
+			keywords: &["mjesec", "mlad mjesec", "mrak"],
 		},
 		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("stjärnfall"),
-			keywords: &["fallande stjärna", "stjärnfall"],
-		},
+		crate::Annotation { lang: "sv", tts: Some("nymåne"), keywords: &["måne", "nymåne"] },
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("kimwondo"),
-			keywords: &["anga", "kaunguka", "kimondo", "kimwondo", "nyota", "nyota iangukayo"],
+			tts:      Some("mwezi mpya"),
+			keywords: &["anga", "hali ya hewa", "mwezi", "mwezi mpya", "nyeusi"],
 		},
 		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &["anga", "kimwondo", "kuanguka", "nyota"],
-		},
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("எரிநட\u{bcd}சத\u{bcd}திரம\u{bcd}"),
-			keywords: &[
-				"இரவு",
-				"எரிநட\u{bcd}சத\u{bcd}திரம\u{bcd}",
-				"நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
-				"வ\u{bbe}ல\u{bcd} நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
-				"விண\u{bcd}வெளி",
-			],
+			tts:      Some("அம\u{bbe}வசை"),
+			keywords: &["அம\u{bbe}வசை", "இரவு", "இருள\u{bcd}", "நில\u{bbe}"],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("ఉల\u{c4d}క న\u{c47}ల ర\u{c3e}లడం"),
+			tts:      Some("అమ\u{c3e}వ\u{c3e}స\u{c4d}య"),
 			keywords: &[
 				"అంతర\u{c3f}క\u{c4d}షం",
-				"ఉల\u{c4d}క",
-				"ఉల\u{c4d}క న\u{c47}ల ర\u{c3e}లడం",
-				"నక\u{c4d}షత\u{c4d}రం",
-				"న\u{c47}ల",
-				"ర\u{c3e}త\u{c4d}ర\u{c3f}",
-				"షూట\u{c3f}ంగ\u{c4d}",
-				"స\u{c4d}ట\u{c3e}ర\u{c4d}",
+				"అమ\u{c3e}వ\u{c3e}స\u{c4d}య",
+				"క\u{c4a}త\u{c4d}త చంద\u{c4d}రుడు",
+				"చంద\u{c4d}రుడు",
+				"స\u{c4d}ప\u{c47}స\u{c4d}",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("ситораи думдор"),
-			keywords: &["афтидан", "парондан", "ситора", "ситораи думдор"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang: "th", tts: Some("ดาวตก"), keywords: &["ดาว", "ดาวตก"]
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ተወንጫፊ ኮኾብ"),
-			keywords: &["ለይቲ", "ምትኳስ", "ምውዳቕ", "ቦታ", "ኮኾብ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("süýnýän ýyldyz"),
-			keywords: &["düşýän", "süýnýän", "ýyldyz"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("fetuʻu ʻesiafi"),
-			keywords: &["fetuʻu", "ʻesiafi"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yıldız kayması"),
-			keywords: &["gece", "kayan", "meteor yağmuru", "uzay", "yıldız", "yıldız kayması"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئاقار يۇلتۇز"),
-			keywords: &["ئاتار", "ئاقار يۇلتۇز", "يۇلتۇز", "چۈشەر"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("метеор"),
-			keywords: &["зірка", "космос", "метеор", "небо", "падає"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("شہاب\u{650} ثاقب"),
-			keywords: &["رات", "ستارہ", "شب", "شہاب\u{650} ثاقب", "قدرت", "ٹوٹا تارہ", "گرتا"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("uchayotgan yulduz"),
-			keywords: &["fazo", "koinot", "osmon", "tun", "uchayotgan", "yulduz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("sao băng"),
-			keywords: &["ngôi sao", "phóng", "rơi", "sao băng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("biddeew buy daw"),
-			keywords: &["biddeew", "biddeew buy daw", "daanu", "dóor"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("inkwenkwezi edubulayo"),
-			keywords: &["ewayo", "inkwenkwezi", "inkwenkwezi edubulayo", "udubulayo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Irawọ Yiyọ"),
-			keywords: &["Irawọ Yiyọ", "jíjábọ\u{301}", "títa", "ìràwọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Irawɔ Yiyɔ"),
-			keywords: &["Irawɔ Yiyɔ", "jíjábɔ\u{301}", "títa", "ìràwɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("流星"),
-			keywords: &["墜落", "射擊", "星星", "流星"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("流星"),
-			keywords: &["坠落", "射击", "星星", "流星"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("流星"),
-			keywords: &["夜晚", "太空", "星空", "流星", "陨落之星"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("流星"),
-			keywords: &["星星", "星空", "流星"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["一閃一閃", "墜落", "夜晚", "太空", "宇宙", "星星", "晚上", "流星"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inkanyezi edubulayo"),
-			keywords: &["inkanyezi", "inkanyezi edubulayo", "ukudubula", "ukuwa", "umkhathi"],
-		},
-	],
-};
-#[doc = "🌌"]
-pub const MILKY_WAY: crate::Emoji = crate::Emoji {
-	glyph:                "🌌",
-	codepoint:            &[127756u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "milky way",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("melkweg"),
-			keywords: &[
-				"Melkweg",
-				"galaksie",
-				"melkweg",
-				"ruimte",
-				"sterre",
-				"sterrestelsel",
-				"swerm sterrestelsels",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ፍኖተ ሐሊብ"),
-			keywords: &["ህዋ", "ሚልኪዌ", "የአየር ንብረት", "ፍኖተ ሐሊብ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("درب التبانة"),
-			keywords: &["درب التبانة", "طبيعة", "فضاء", "مجرة", "نجوم"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("আক\u{9be}শীগঙ\u{9cd}গ\u{9be}"),
-			keywords: &["আক\u{9be}শীগঙ\u{9cd}গ\u{9be}", "মহ\u{9be}ক\u{9be}শ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("süd yolu"),
-			keywords: &["hava", "kosmos", "süd yolu"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("млечны шлях"),
-			keywords: &["космас", "млечны шлях", "надвор’е", "ноч"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("Млечният път"),
-			keywords: &["Млечният път", "време", "космос"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("আক\u{9be}শগঙ\u{9cd}গ\u{9be}"),
-			keywords: &[
-				"আক\u{9be}শগঙ\u{9cd}গ\u{9be}",
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"মহ\u{9be}ক\u{9be}শ",
-				"মিল\u{9cd}কিওয\u{9bc}ে",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("Hent-sant-Jakez"),
-			keywords: &["Hent-sant-Jakez", "egor"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("mliječni put"),
-			keywords: &["mliječni put", "svemir", "vrijeme"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("Via Làctia"),
-			keywords: &["Via Làctia", "espai", "temps"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏃᏈᏏ ᏂᏚᏍᏗᏓᏅ"),
-			keywords: &["ᎤᏟᏅᏛᎢ", "ᏃᏈᏏ ᏂᏚᏍᏗᏓᏅ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("mléčná dráha"),
-			keywords: &["Mléčná dráha", "galaxie", "mléčná dráha", "noc", "obloha", "vesmír"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("y llwybr llaethog"),
-			keywords: &["gofod", "tywydd", "y llwybr llaethog"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("mælkevejen"),
-			keywords: &["galakse", "mælkevejen"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Milchstraße"),
-			keywords: &["Galaxie", "Milchstraße", "Universum"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Milchstrasse"),
-			keywords: &["Galaxie", "Milchstrasse"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("γαλαξίας"),
-			keywords: &["γαλαξίας", "διάστημα", "καιρός"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("milky way"),
-			keywords: &["milky", "space", "way"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("Milky Way"),
-			keywords: &["Milky Way", "space"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("Milky Way"),
-			keywords: &["Milky", "Way", "space"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("Vía Láctea"),
-			keywords: &["espacio", "galaxia", "láctea", "vía"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["cielo", "espacio", "estrellas", "galaxia", "láctea", "vía"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("Linnutee"),
-			keywords: &["Linnutee", "kosmos", "tähed"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("esne-bidea"),
-			keywords: &["eguraldi", "esne-bidea", "espazio"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("راه شیری"),
-			keywords: &["آب\u{200c}وهوا", "آسمان", "راه شیری", "سپهر", "فضا"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("linnunrata"),
-			keywords: &["avaruus", "galaksi", "linnunrata", "sää"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("milky way"),
-			keywords: &["bituin", "galaxy", "kalawakan", "milky way"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("vetrarbreytin"),
-			keywords: &["mjólkarvegur", "rúmdin", "stjørnubreyt", "vetrarbreytin"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("voie lactée"),
-			keywords: &["espace", "voie lactée"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("Bealach na Bó Finne"),
-			keywords: &[
-				"An Láir Bhán",
-				"Bealach na Bó Finne",
-				"Claí Mór na Réaltaí",
-				"an Láir Bhán",
-				"bealach na bó finne",
-				"spás",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("Slighe Chlann Uisnich"),
-			keywords: &["Slighe Chlann Uisnich", "fànas", "speur"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("Vía Láctea"),
-			keywords: &["espazo", "estrelas", "noite"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("આકાશગ\u{a82}ગા"),
-			keywords: &[
-				"આકાશગ\u{a82}ગા",
-				"તારા",
-				"દ\u{ac2}ધિય\u{ac1}\u{a82}",
-				"નિહારિકા",
-				"રાત\u{acd}રી",
-				"સિતારા",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("hanyar sama"),
-			keywords: &[
-				"cincirundon taurari",
-				"hanyar sama",
-				"milky way",
-				"sarari",
-				"tashar samaniya",
-				"taurari",
-				"ɗangon taurari",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("hanyar sama"),
-			keywords: &[
-				"cincirundon taurari",
-				"hanyar sama",
-				"milky way",
-				"sarari",
-				"tashar samaniya",
-				"taurari",
-				"ɗangon taurari",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("שביל החלב"),
-			keywords: &["אסטרונומיה", "חלל", "כוכבים", "שביל החלב", "שמיים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("आकाशग\u{902}गा"),
-			keywords: &["अ\u{902}तरिक\u{94d}ष", "आकाशग\u{902}गा", "द\u{942}धिया"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("Mliječna staza"),
-			keywords: &["Kumova slama", "Mliječna staza", "Mliječni put", "svemir"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("tejút"),
-			keywords: &["Tejút", "Tejútrendszer", "csillagrendszer", "tejút", "világűr", "űr"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ծիր կաթին"),
-			keywords: &["եղանակ", "ծիր կաթին", "տիեզերք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("bima sakti"),
-			keywords: &["antariksa", "bima", "luar angkasa", "sakti"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ụzọ igwe kpakpando"),
-			keywords: &["oghere", "ụzọ igwe kpakpando"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("vetrarbrautin"),
-			keywords: &["geimurinn", "vetrarbrautin"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("Via Lattea"),
-			keywords: &["Via Lattea", "lattea", "nebulosa", "notte", "spazio", "stelle"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("天の川"),
-			keywords: &["ミルキーウェイ", "夜空", "天の川", "宇宙", "星空", "銀河"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("bima sekti"),
-			keywords: &["antariksa", "bima sekti"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ირმის ნახტომი"),
-			keywords: &["ამინდი", "ირმის ნახტომი", "კოსმოსი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("Құс жолы"),
-			keywords: &["ауа райы", "ғарыш", "Құс жолы"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("mælkevejen"),
-			keywords: &["galakse", "mælkevejen"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ល\u{17c6}ហរចក\u{17d2}រវាឡ"),
-			keywords: &["មេឃ", "ល\u{17c6}ហរ", "ល\u{17c6}ហរចក\u{17d2}រវាឡ", "អកាស"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಕ\u{ccd}ಷ\u{cc0}ರ ಪಥ"),
-			keywords: &[
-				"ಆಕಾಶ",
-				"ಕ\u{ccd}ಷ\u{cc0}ರ ಪಥ",
-				"ಕ\u{ccd}ಷ\u{cc0}ರಪಥ",
-				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
-				"ಮ\u{cbf}ಲ\u{ccd}ಕ\u{cbf} ವ\u{cc7}",
-				"ಹಾಲುಹಾದ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("은하수"),
-			keywords: &["우주", "은하", "은하수", "행성"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("द\u{942}द ग\u{902}गा"),
-			keywords: &["अ\u{902}तराळ", "द\u{942}द ग\u{902}गा"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("саманчынын жолу"),
-			keywords: &["аба ырайы", "космос", "саманчынын жолу"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Mëllechstrooss"),
-			keywords: &["Mëllechstrooss", "Weltall"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ທາງຊ\u{ec9}າງເຜ\u{eb7}ອກ"),
-			keywords: &["ດາລາສາດ", "ດາວ", "ທາງຊ\u{ec9}າງເຜ\u{eb7}ອກ", "ອາວະກາດ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("paukščių takas"),
-			keywords: &["kosmosas", "paukščių takas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("Piena ceļš"),
-			keywords: &["Piena ceļš", "debesis", "kosmoss", "visums"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("ikarangi"),
-			keywords: &["ikarangi", "ātea"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("млечниот пат"),
-			keywords: &["време", "вселена", "млечен пат", "млечниот пат"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ആക\u{d3e}ശഗംഗ"),
-			keywords: &["ആക\u{d3e}ശഗംഗ", "മിൽക\u{d4d}കി വേ"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("сүүн зам"),
-			keywords: &["сансар", "сүүн зам"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("आकाशग\u{902}गा"),
-			keywords: &[
-				"अ\u{902}तराळ",
-				"आकाशग\u{902}गा",
-				"चा\u{902}दण\u{902}",
-				"तार\u{947}",
-				"रात\u{94d}र",
-				"हवामान",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("bima sakti"),
-			keywords: &["angkasa lepas", "bima sakti", "cuaca"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("triq ta’ Sant’Anna"),
-			keywords: &["spazju", "triq ta’ Sant’Anna"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("နဂါးင\u{103d}ေ\u{1037}တန\u{103a}း"),
-			keywords: &["နဂါးင\u{103d}ေ\u{1037}တန\u{103a}း", "အာကာသ"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("आकाशग\u{902}गा"),
-			keywords: &["आकाशग\u{902}गा", "मौसम"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("melkweg"),
-			keywords: &["melkweg", "ruimte"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("mjølkevegen"),
-			keywords: &["galakse", "mjølkevegen", "verdsrommet"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଆକ\u{b3e}ଶଗଙ\u{b4d}ଗ\u{b3e}"),
-			keywords: &["ଆକ\u{b3e}ଶଗଙ\u{b4d}ଗ\u{b3e}", "ଛ\u{b3e}ୟ\u{b3e}ପଥ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਆਕਾਸ\u{a3c}ਗ\u{a70}ਗਾ"),
-			keywords: &["ਅਕਾਸ\u{a3c}", "ਆਕਾਸ\u{a3c}ਗ\u{a70}ਗਾ", "ਪ\u{a41}ਲਾੜ", "ਮ\u{a4c}ਸਮ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("کہکشاں"),
-			keywords: &["جگہ", "کہکشاں"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Mílkí Wè"),
-			keywords: &["Mílkí Wè", "Spes"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("Droga Mleczna"),
-			keywords: &["Droga Mleczna", "gwiazdy", "niebo", "noc"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("کهکشان"), keywords: &["ځای", "کهکشان"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("via láctea"),
-			keywords: &["céu", "espaço", "estrelado", "via láctea"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["espaço", "via láctea"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("via lactea"),
-			keywords: &["kampu", "via lactea"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("Calea Lactee"),
-			keywords: &["Calea Lactee", "calea lactee", "constelație", "spațiu", "stele"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-211"), keywords: &["E10-211"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("Млечный Путь"),
-			keywords: &["Млечный Путь", "звезды", "космос", "молоко", "путь", "созвездие"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("inzira nyamata"),
-			keywords: &["inzira nyamata", "umwanya"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang: "sd", tts: Some("ڪهڪشان"), keywords: &["خلا", "ڪهڪشان"]
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ක\u{dca}ෂ\u{dd3}ර පථය"),
-			keywords: &["අභ\u{dca}\u{200d}යවක\u{dcf}ශය", "ක\u{dca}ෂ\u{dd3}ර පථය", "ක\u{dcf}ලග\u{dd4}ණය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("mliečna dráha"),
-			keywords: &["mliečna dráha", "noc", "nočná obloha", "obloha", "počasie", "vesmír"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("rimska cesta"),
-			keywords: &["rimska cesta", "vesolje", "vreme"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("habarjiid"),
-			keywords: &["dululaati", "habarjiid"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("rruga e qumështit"),
-			keywords: &["hapësirë", "moti", "rruga e qumështit"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("млечни пут"),
-			keywords: &["млечни", "пут", "свемир"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("млијечни пут"),
-			keywords: &["млијечни пут", "свeмир"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mlečni put"),
-			keywords: &["mlečni", "put", "svemir"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("mliječni put"),
-			keywords: &["mliječni put", "svemir"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("Vintergatan"),
-			keywords: &["Vintergatan", "galax", "rymden", "vintergatan"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kilimia"),
-			keywords: &["anga", "hali ya jewa", "hali ya jwa", "kilimia"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &["anga", "hali ya jewa", "kilimia"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பிரபஞ\u{bcd}சம\u{bcd}"),
-			keywords: &["அண\u{bcd}டம\u{bcd}", "இரவு", "ப\u{bbe}ல\u{bcd}வழி", "பிரபஞ\u{bcd}சம\u{bcd}"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ప\u{c3e}లపుంత"),
-			keywords: &[
-				"అంతర\u{c3f}క\u{c4d}షం",
-				"ఆక\u{c3e}శం",
-				"నక\u{c4d}షత\u{c4d}రవ\u{c40}ధ\u{c3f}",
-				"ప\u{c3e}లపుంత",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("роҳи Каҳкашон"),
-			keywords: &["роҳи Каҳкашон", "фазо"],
+			tts:      Some("моҳи нав"),
+			keywords: &["моҳ", "моҳи нав", "торик"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("ทางช\u{e49}างเผ\u{e37}อก"),
-			keywords: &["ดาราจ\u{e31}กร", "ทางช\u{e49}างเผ\u{e37}อก", "อวกาศ"],
+			tts:      Some("จ\u{e31}นทร\u{e4c}ด\u{e31}บ"),
+			keywords: &["จ\u{e31}นทร\u{e4c}ด\u{e31}บ", "จ\u{e31}นทร\u{e4c}ม\u{e37}ด", "ม\u{e37}ด"],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
-			lang: "ti", tts: Some("ሚልኪዌይ"), keywords: &["መገዲ", "ሚልኪ", "ጠፈር"]
+			lang:     "ti",
+			tts:      Some("ሓዳስ ወርሒ"),
+			keywords: &["ሓድሽ", "ቦታ", "ወርሒ", "ጸልማት"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("Akmaýanyň ýoly"),
-			keywords: &["Akmaýanyň ýoly", "asman"],
+			tts:      Some("täze aý"),
+			keywords: &["aý", "garaňky", "täze aý"],
 		},
 		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("kaniva"), keywords: &["kaniva"] },
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mate ʻae māhina"),
+			keywords: &["mate", "mate ʻae māhina", "māhina"],
+		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("samanyolu"),
-			keywords: &["gökyüzü", "samanyolu", "uzay"],
+			tts:      Some("yeni ay"),
+			keywords: &["ay", "karanlık", "yeni"],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("سامان يولى"),
-			keywords: &["بوشلۇق", "سامان يولى"],
+			tts:      Some("يېڭى ئاي"),
+			keywords: &["ئاي", "قاراڭغۇ", "يېڭى ئاي"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("Чумацький шлях"),
-			keywords: &["Чумацький шлях", "космос", "погода", "чумацький шлях"],
+			tts:      Some("молодий місяць"),
+			keywords: &["космос", "молодий", "місяць", "погода", "темний"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("کہکشاں"),
-			keywords: &["انجم", "تارے", "خلا", "ستارے", "فلک", "قدرت", "نجوم", "کواکب", "کہکشاں"],
+			tts:      Some("نیا چاند"),
+			keywords: &["اماس", "سیاہ", "قدرت", "ماہ نو", "موسم", "نیا چاند", "چاند"],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("somon yo‘li"),
-			keywords: &["fazo", "koinot", "ob-havo", "samo", "somon yo‘li"],
+			tts:      Some("yangi oy"),
+			keywords: &["koinot", "ob-havo", "oy", "qora", "tun", "yangi oy"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("dải ngân hà"),
-			keywords: &["dải ngân hà", "vũ trụ"],
+			tts:      Some("trăng non"),
+			keywords: &["bóng tối", "mặt trăng", "trăng non"],
 		},
 		#[cfg(feature = "wo")]
 		crate::Annotation {
 			lang:     "wo",
-			tts:      Some("asamaan aki biddéew"),
-			keywords: &["asamaan aki biddéew", "espaas"],
+			tts:      Some("weer wu bees"),
+			keywords: &["lëndëm", "moon", "weer wu bees"],
 		},
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("umnyele wezulu"),
-			keywords: &["isithuba", "umnyele wezulu"],
+			tts:      Some("inyanga entsha"),
+			keywords: &["inyanga", "inyanga entsha", "mnyama"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("Ọna Oniwara"),
-			keywords: &["ààyè", "Ọna Oniwara"],
+			tts:      Some("Òṣùpá Tuntun"),
+			keywords: &["dúdú", "Òṣùpá Tuntun", "òṣùpá"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Ɔna Oniwara"),
-			keywords: &["ààyè", "Ɔna Oniwara"],
+			tts:      Some("Òshùpá Tuntun"),
+			keywords: &["dúdú", "Òshùpá Tuntun", "òshùpá"],
 		},
 		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("銀河"), keywords: &["太空", "銀河"] },
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("新月"),
+			keywords: &["新月", "月亮", "黑暗"],
+		},
 		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("银河"), keywords: &["太空", "银河"] },
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("新月"),
+			keywords: &["新月", "月亮", "黑暗"],
+		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("银河"),
-			keywords: &["太空", "星空", "银河"],
+			tts:      Some("朔月"),
+			keywords: &["新月", "月亮", "朔月"],
 		},
 		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("銀河"), keywords: &["星空", "銀河"] },
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("新月"),
+			keywords: &["新月", "月亮", "朔月"],
+		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
 			tts:      Some("↑↑↑"),
-			keywords: &["太空", "宇宙", "銀河系"],
+			keywords: &["太空", "新月", "月亮", "黑暗", "黑月亮"],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("imilkhi weyi"),
-			keywords: &["imilkhi weyi", "isimo sezulu", "umkhathi"],
+			tts:      Some("inyanga entsha"),
+			keywords: &["inyanga", "inyanga entsha", "isimo sezulu", "ubumnyama", "umkhathi"],
 		},
 	],
-};
-#[doc = "☁\u{fe0f}"]
-pub const CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "☁\u{fe0f}",
-	codepoint:            &[9729u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "cloud",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⛅\u{fe0f}"]
-pub const SUN_BEHIND_CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "⛅\u{fe0f}",
-	codepoint:            &[9925u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "sun behind cloud",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⛈\u{fe0f}"]
-pub const CLOUD_WITH_LIGHTNING_AND_RAIN: crate::Emoji = crate::Emoji {
-	glyph:                "⛈\u{fe0f}",
-	codepoint:            &[9928u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "cloud with lightning and rain",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌤\u{fe0f}"]
-pub const SUN_BEHIND_SMALL_CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "🌤\u{fe0f}",
-	codepoint:            &[127780u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "sun behind small cloud",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌥\u{fe0f}"]
-pub const SUN_BEHIND_LARGE_CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "🌥\u{fe0f}",
-	codepoint:            &[127781u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "sun behind large cloud",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌦\u{fe0f}"]
-pub const SUN_BEHIND_RAIN_CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "🌦\u{fe0f}",
-	codepoint:            &[127782u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "sun behind rain cloud",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌧\u{fe0f}"]
-pub const CLOUD_WITH_RAIN: crate::Emoji = crate::Emoji {
-	glyph:                "🌧\u{fe0f}",
-	codepoint:            &[127783u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "cloud with rain",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌨\u{fe0f}"]
-pub const CLOUD_WITH_SNOW: crate::Emoji = crate::Emoji {
-	glyph:                "🌨\u{fe0f}",
-	codepoint:            &[127784u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "cloud with snow",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🌩\u{fe0f}"]
-pub const CLOUD_WITH_LIGHTNING: crate::Emoji = crate::Emoji {
-	glyph:                "🌩\u{fe0f}",
-	codepoint:            &[127785u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "cloud with lightning",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };
 #[doc = "🌪\u{fe0f}"]
 pub const TORNADO: crate::Emoji = crate::Emoji {
@@ -15376,31 +16584,942 @@ pub const TORNADO: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🌫\u{fe0f}"]
-pub const FOG: crate::Emoji = crate::Emoji {
-	glyph:                "🌫\u{fe0f}",
-	codepoint:            &[127787u32],
+#[doc = "❄\u{fe0f}"]
+pub const SNOWFLAKE: crate::Emoji = crate::Emoji {
+	glyph:                "❄\u{fe0f}",
+	codepoint:            &[10052u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "fog",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "snowflake",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🌬\u{fe0f}"]
-pub const WIND_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🌬\u{fe0f}",
-	codepoint:            &[127788u32],
+#[doc = "🌊"]
+pub const WATER_WAVE: crate::Emoji = crate::Emoji {
+	glyph:                "🌊",
+	codepoint:            &[127754u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "wind face",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "water wave",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("brander"),
+			keywords: &[
+				"brander",
+				"branderplank",
+				"branderplankry",
+				"branderplankryer",
+				"golf",
+				"natuur",
+				"oseaan",
+				"see",
+				"water",
+				"weer",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የውሃ ሞገድ"),
+			keywords: &["ሞገድ", "ተንሳፋፊ", "ተፈጥሮ", "ካንጋዋ", "ውሃ", "ውቅያኖስ", "የአየር ንብረት", "የውሃ ሞገድ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("موجة"),
+			keywords: &[
+				"امواج",
+				"ركوب البحر",
+				"ركوب امواج",
+				"طبيعة",
+				"طقس",
+				"ماء",
+				"محيط",
+				"موجة",
+				"مياه",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("জল তৰঙ\u{9cd}গ"),
+			keywords: &["জল তৰঙ\u{9cd}গ", "তৰঙ\u{9cd}গ", "প\u{9be}নী", "মহ\u{9be}স\u{9be}গৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("su dalğası"),
+			keywords: &["dalğa", "hava", "okean", "su", "su dalğası", "sörfinq"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("хваля"),
+			keywords: &["акіян", "вада", "надвор’е", "хваля"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("вълна"),
+			keywords: &["вода", "време", "вълна", "море", "океан", "сърфист"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("জল তরঙ\u{9cd}গ"),
+			keywords: &[
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"জল",
+				"জল তরঙ\u{9cd}গ",
+				"ঢেউ",
+				"প\u{9be}নি",
+				"মহ\u{9be}স\u{9be}গর",
+				"সম\u{9c1}দ\u{9cd}রের ঢেউ",
+				"স\u{9be}র\u{9cd}ফ\u{9be}র",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("gwagenn"),
+			keywords: &["gwagenn", "meurvor", "mor"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("val"),
+			keywords: &["more", "okean", "talas", "val", "voda"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("onada"),
+			keywords: &["aigua", "mar", "natura", "oceà", "ona", "onada", "surf", "surfista"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᎹ ᎤᏔᎾ ᎠᏖᎸᏓ"),
+			keywords: &["ᎠᎹ", "ᎠᎹ ᎤᏔᎾ ᎠᏖᎸᏓ", "ᎠᎹ ᏓᎵᏍᏗᎳᏁᎬ", "ᎠᎺᏉᎢ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("vodní vlna"),
+			keywords: &[
+				"Kanagawa",
+				"moře",
+				"oceán",
+				"počasí",
+				"příroda",
+				"surfař",
+				"surfařka",
+				"surfing",
+				"surfovat",
+				"tsunami",
+				"vlna",
+				"vlnobití",
+				"voda",
+				"vodní vlna",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("ton ddŵr"),
+			keywords: &["cefnfor", "dŵr", "ton", "ton ddŵr", "tywydd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("bølge"),
+			keywords: &["bølge", "havbølge", "vandbølge"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation { lang: "de", tts: Some("Welle"), keywords: &["Meer", "Welle"] },
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("θαλάσσιο κύμα"),
+			keywords: &[
+				"αφρός κυμάτων",
+				"θαλάσσιο κύμα",
+				"καιρός",
+				"κύμα",
+				"σέρφερ",
+				"σέρφινγκ",
+				"σερφ",
+				"φύση",
+				"ψηλό κύμα",
+				"ωκεανός",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("water wave"),
+			keywords: &["nature", "ocean", "surf", "surfer", "surfing", "water", "wave"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("ola de mar"),
+			keywords: &["mar", "océano", "ola", "ola de mar"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("ola"),
+			keywords: &[
+				"agua",
+				"azul",
+				"mar",
+				"naturaleza",
+				"oceano",
+				"océano",
+				"ola",
+				"ola de mar",
+				"ola oceánica",
+				"surf",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("veelaine"),
+			keywords: &["ilm", "laine", "meri", "ookean", "veelaine", "vesi"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("olatua"),
+			keywords: &["eguraldi", "olatu", "olatua", "ozeano", "ur"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("موج آب"),
+			keywords: &["آب", "آب\u{200c}وهوا", "اقیانوس", "موج"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("aalto"),
+			keywords: &["aalto", "meri", "tyrsky", "valtameri", "vesi"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("alon"),
+			keywords: &["alon", "dagat", "karagatan", "lagay ng panahon", "tsunami"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("alda"),
+			keywords: &["alda", "brim", "sjógvur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("vague"),
+			keywords: &[
+				"Kanagawa", "eau", "lame", "large", "marée", "mer", "nature", "océan", "remous", "rouleau",
+				"surf", "vague",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["eau", "mer", "océan", "vague"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("tonn san uisce"),
+			keywords: &[
+				"Kanagawa",
+				"farraige",
+				"muir",
+				"surfálaí",
+				"tonn",
+				"tonn san uisce",
+				"tonnmharcaíocht",
+				"uisce",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("stuagh"),
+			keywords: &["cuan", "stuagh", "tonn", "uisge"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("onda"),
+			keywords: &["mar", "océano", "onda", "onda do mar", "onda do océano"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પાણીની લહ\u{ac7}ર"),
+			keywords: &[
+				"ક\u{ac1}દરત",
+				"તર\u{a82}ગ",
+				"દરિયાન\u{ac1} મોજ\u{ac1}\u{a82}",
+				"દરીયો",
+				"નીર",
+				"પવન",
+				"પાણી",
+				"પાણીની લહ\u{ac7}ર",
+				"મહાસાગર",
+				"મોજા\u{a82}",
+				"લહ\u{ac7}ર",
+				"સમ\u{ac1}દ\u{acd}ર",
+				"સમ\u{ac1}દ\u{acd}રની લહ\u{ac7}ર",
+				"સાગર",
+				"હવા",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("igiyar ruwa"),
+			keywords: &["igiya", "igiyar ruwa", "ruwa", "teku", "wasan kan igiyar ruwa", "yanayi"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("igiyar ruwa"),
+			keywords: &["igiya", "igiyar ruwa", "ruwa", "teku", "wasan kan igiyar ruwa", "yanayi"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation { lang: "he", tts: Some("גל"), keywords: &["גל", "ים", "סערה"] },
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("सम\u{941}द\u{94d}र की लहर"),
+			keywords: &["तर\u{902}ग", "पानी की लहर", "महासागर", "लहर", "सम\u{941}द\u{94d}र की लहर"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("vodeni val"),
+			keywords: &["more", "ocean", "val", "voda", "vodeni val", "vrijeme"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("vízhullám"),
+			keywords: &["hullám", "hullám a vízen", "időjárás", "tenger", "víz", "vízhullám", "óceán"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ջրի ալիք"),
+			keywords: &["ծով", "ջուր", "ջրի ալիք", "օվկիանոս"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("ombak"),
+			keywords: &[
+				"air",
+				"alam",
+				"berselancar",
+				"gelombang",
+				"laut",
+				"ombak",
+				"peselancar",
+				"samudra",
+				"selancar",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ìkùkù mmiri"),
+			keywords: &["ebili", "mmiri", "oké osimiri", "sọfụ", "ịkwọ ụgbọ mmiri", "ọdịdị"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation { lang: "is", tts: Some("alda"), keywords: &["alda", "bylgja"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("onda"),
+			keywords: &[
+				"acqua",
+				"la grande onda",
+				"mare",
+				"natura",
+				"oceano",
+				"onda",
+				"onda del mare",
+				"onda d’acqua",
+				"surf",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("波"),
+			keywords: &["天気", "波", "波浪", "海", "自然"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ombak banyu"),
+			keywords: &["banyu", "ombak", "segara"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("წყლის ტალღა"),
+			keywords: &["ამინდი", "ოკეანე", "ტალღა", "წყალი", "წყლის ტალღა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("lmuja n waman"),
+			keywords: &["lmuja n waman"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("толқын"),
+			keywords: &["ауа райы", "мұхит", "серфинг", "су", "табиғат", "толқын"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("bølge"),
+			keywords: &["bølge", "havbølge", "vandbølge"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("រលក"),
+			keywords: &["ទ\u{17b9}ក", "រលក", "សម\u{17bb}ទ\u{17d2}រ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ನ\u{cc0}ರ\u{cbf}ನ ಅಲ\u{cc6}"),
+			keywords: &[
+				"ಅಲ\u{cc6}",
+				"ಕನಗಾವಾ ಪ\u{ccd}ರಾಂತ\u{ccd}ಯ",
+				"ನ\u{cc0}ರ\u{cbf}ನ ಅಲ\u{cc6}",
+				"ನ\u{cc0}ರು",
+				"ಪ\u{ccd}ರಕೃತ\u{cbf}",
+				"ಸಮುದ\u{ccd}ರ",
+				"ಸರ\u{ccd}ಫ\u{cbf}ಂಗ\u{ccd}",
+				"ಸಾಗರದ ಅಲ\u{cc6}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("파도"),
+			keywords: &["물결", "바다", "서퍼", "서핑", "서핑하는 사람", "자연", "파도", "풍랑"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उदकाचो तर\u{902}ग"),
+			keywords: &["उदक", "उदकाचो तर\u{902}ग", "तर\u{902}ग", "म\u{94d}हासागर"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("суу толкуну"),
+			keywords: &["океан", "суу", "суу толкуну", "толкун"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Waasserwell"),
+			keywords: &["Ozean", "Waasser", "Waasserwell", "Well"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຄ\u{eb7}\u{ec9}ນນ\u{ecd}\u{ec9}າ"),
+			keywords: &["ຄ\u{eb7}\u{ec9}ນທະເລ", "ຄ\u{eb7}\u{ec9}ນນ\u{ecd}\u{ec9}າ", "ທະເລ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("vandens banga"),
+			keywords: &["banga", "banglentininkas", "gamta", "vandens banga", "vandenynas", "vanduo"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("vilnis"),
+			keywords: &["daba", "jūra", "okeāns", "vilnis", "ūdens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("ngaru wai"),
+			keywords: &["moana", "ngaru", "wai"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("бран"),
+			keywords: &["бран", "вода", "воден бран", "време", "океан", "природа", "сурфање", "сурфер"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("തിരമ\u{d3e}ല"),
+			keywords: &["കടൽ", "ക\u{d3e}ല\u{d3e}വസ\u{d4d}ഥ", "തരംഗം", "തിരമ\u{d3e}ല"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("усны давлагаа"),
+			keywords: &["давлагаа", "далай", "ус", "усны давлагаа"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पाण\u{94d}याची लाट"),
+			keywords: &["पाणी", "पाण\u{94d}याची लाट", "महासागर", "महासागराची लाट", "लाट"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("ombak laut"),
+			keywords: &[
+				"air",
+				"alam semula jadi",
+				"cuaca",
+				"laut",
+				"lautan",
+				"luncur air",
+				"ombak",
+				"pelayar",
+				"peluncur",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("mewġa ilma"),
+			keywords: &["ilma", "mewġa", "oċean"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ရေလ\u{103e}\u{102d}\u{102f}င\u{103a}း"),
+			keywords: &["ရေ", "ရေလ\u{103e}\u{102d}\u{102f}င\u{103a}း", "သမ\u{102f}ဒ\u{1039}ဒရာ"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पानीको छाल"),
+			keywords: &["छाल", "पानी", "पानीको छाल", "सम\u{941}द\u{94d}र"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("golf"),
+			keywords: &[
+				"Japan",
+				"Kanagawa",
+				"golf",
+				"golfsurfen",
+				"golven",
+				"oceaan",
+				"surfen",
+				"water",
+				"weer",
+				"zee",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("bølgje"),
+			keywords: &["bølgje", "hav", "vatn"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଜଳ ତରଙ\u{b4d}ଗ"),
+			keywords: &[
+				"ଜଳ ତରଙ\u{b4d}ଗ",
+				"ପ\u{b3e}ଣ\u{b3f} ଲହଡ\u{b3c}\u{b3f}",
+				"ଲହଡ\u{b3c}\u{b3f}",
+				"ସ\u{b3e}ଗର ଲହଡ\u{b3c}\u{b3f}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਾਣੀ ਦੀ ਲਹਿਰ"),
+			keywords: &[
+				"ਕ\u{a41}ਦਰਤ",
+				"ਪਾਣੀ ਦੀ ਲਹਿਰ",
+				"ਮ\u{a4c}ਸਮ",
+				"ਲਹਿਰ",
+				"ਸਮ\u{a41}\u{a70}ਦਰ",
+				"ਸਰਫ\u{a3c}",
+				"ਸਾਗਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پانی دی لہر"),
+			keywords: &["سمندر", "لہر", "پانی", "پانی دی لہر"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Wọtá Wev"),
+			keywords: &["Bíg-Díp-Wọtá", "Wev", "Wọtá", "Óshẹn"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("fala"),
+			keywords: &[
+				"fala",
+				"fale",
+				"hokusai",
+				"kanagawa",
+				"morze",
+				"obraz",
+				"ocean",
+				"tsunami",
+				"wielka fala",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د اوبو څپه"),
+			keywords: &["اوبه", "بحر", "د اوبو څپه", "څپه"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("onda"),
+			keywords: &["onda", "onda de água", "onda do oceano", "tsunami"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["meteorologia", "natureza", "oceano", "onda", "surf", "surfar", "água"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("yaku wallcha"),
+			keywords: &["mama qucha", "wallcha", "yaku"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("val"),
+			keywords: &["apă", "mare", "natură", "ocean", "surf", "surfer", "val"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-209"), keywords: &["E10-209"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("волна"),
+			keywords: &["вода", "волна", "море", "морская пена", "океан", "серфинг"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umuvumba w’amazi"),
+			keywords: &["amazi", "inyanja", "umuvumba", "umuvumba w’amazi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پاڻي جي لهر"),
+			keywords: &["سمنڊ", "لهر", "پاڻي", "پاڻي جي لهر"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ද\u{dd2}ය රැල\u{dca}ල"),
+			keywords: &["ක\u{dcf}ලග\u{dd4}ණය", "ජලය", "ද\u{dd2}ය රැල\u{dca}ල", "ම\u{dd4}හ\u{dd4}ද", "රළ"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("morská vlna"),
+			keywords: &[
+				"Kanagawa",
+				"cunami",
+				"morská vlna",
+				"oceán",
+				"počasie",
+				"surf",
+				"surfovať",
+				"vlna",
+				"voda",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("vodni val"),
+			keywords: &["morje", "val", "voda", "vodni val", "vreme"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("hirka biyaha"),
+			keywords: &["badweyn", "hirka biyaha"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("dallgë uji"),
+			keywords: &["dallgë", "dallgë uji", "moti", "natyrë", "oqean", "sërf", "ujë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("талас"),
+			keywords: &["вода", "океан", "природа", "сурфер", "сурфовање", "талас"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("talas"),
+			keywords: &["okean", "priroda", "surfer", "surfovanje", "talas", "voda"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("våg"), keywords: &["havsvåg", "våg"] },
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("wimbi la maji"),
+			keywords: &["bahari", "maji", "wimbi la maji", "wimbi’ hali ya hewa"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("கடலலை"),
+			keywords: &[
+				"அலை",
+				"அலை ஓசை",
+				"கடலலை",
+				"கடல\u{bcd} அலை",
+				"சர\u{bcd}ஃபிங\u{bcd}",
+				"ச\u{bc0}ற\u{bcd}றம\u{bcd}",
+				"ந\u{bc0}ரலை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("సముద\u{c4d}రపు అల"),
+			keywords: &[
+				"అల",
+				"కనగ\u{c3e}వ\u{c3e}",
+				"క\u{c46}రటం",
+				"న\u{c40}ట\u{c3f} అల",
+				"న\u{c40}రు",
+				"ప\u{c4d}రకృత\u{c3f}",
+				"సముద\u{c4d}రం",
+				"సముద\u{c4d}రపు అల",
+				"సర\u{c4d}ఫర\u{c4d}",
+				"సర\u{c4d}ఫ\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("мавҷи об"),
+			keywords: &["мавҷ", "мавҷи об", "об", "уқёнус"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("คล\u{e37}\u{e48}น"),
+			keywords: &["คล\u{e37}\u{e48}น", "คล\u{e37}\u{e48}นทะเล"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ማዕበል ማይ"),
+			keywords: &["ማዕበል", "ማይ", "ሰርፈር", "ሰርፊንግ", "ሰርፍ", "ተፈጥሮ", "ውቅያኖስ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("suw tolkuny"),
+			keywords: &["suw", "suw tolkuny", "tolkun", "umman"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("peau"),
+			keywords: &["moana", "peau", "tahi"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("dalga"),
+			keywords: &["dalga", "okyanus dalgası", "su dalgası", "sörf"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("سۇ دولقۇنى"),
+			keywords: &["ئوكيان", "دولقۇن", "سۇ", "سۇ دولقۇنى"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("хвиля"),
+			keywords: &["вода", "океан", "погода", "хвиля"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("پانی کی لہر"),
+			keywords: &[
+				"اپھنتا سمندر",
+				"ترنگ",
+				"دریہ",
+				"ساحل",
+				"سمندر",
+				"قدرت",
+				"لہر",
+				"موج",
+				"موج\u{650} دریہ",
+				"موج\u{650} ساحل",
+				"موسم",
+				"پانی",
+				"پانی کی لہر",
+				"کناگوا",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("suv to‘lqini"),
+			keywords: &[
+				"ob-havo",
+				"okean",
+				"qirgʻoq toʻlqini",
+				"suv",
+				"suv to‘lqini",
+				"to‘lqin",
+				"ummon",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("sóng nước"),
+			keywords: &["nước", "sóng", "đại dương"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("duusu ndox"),
+			keywords: &["duusu ndox", "ndox", "oseyaŋ", "tàllal"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("iliza lamanzi"),
+			keywords: &["amanzi", "iliza", "iliza lamanzi", "ulwandle"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Iji Omi"),
+			keywords: &["Iji Omi", "omi", "ìjì", "òkun"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Iji Omi"),
+			keywords: &["Iji Omi", "omi", "ìjì", "òkun"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("海浪"),
+			keywords: &["水", "波浪", "海洋", "海浪"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("海浪"),
+			keywords: &["水", "波浪", "海洋", "海浪"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("浪花"),
+			keywords: &["波浪", "浪", "浪花", "海洋"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("波浪"),
+			keywords: &["波浪", "海浪", "神奈川", "衝浪"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("海浪"),
+			keywords: &["水", "水波", "波浪", "海水", "海洋", "海浪", "自然", "衝浪"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("igagasi lamanzi"),
+			keywords: &["amanzi", "igagasi", "igagasi lamanzi", "isimo sezulu", "ulwandle"],
+		},
+	],
 };
 #[doc = "🌀"]
 pub const CYCLONE: crate::Emoji = crate::Emoji {
@@ -16286,2140 +18405,26 @@ pub const CYCLONE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🌈"]
-pub const RAINBOW: crate::Emoji = crate::Emoji {
-	glyph:                "🌈",
-	codepoint:            &[127752u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "rainbow",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("reënboog"),
-			keywords: &[
-				"biseksueel",
-				"boog",
-				"gay",
-				"glbt",
-				"glbtq",
-				"lesbies",
-				"lgbt",
-				"lgbtq",
-				"queer",
-				"reën",
-				"reënboog",
-				"trans",
-				"trots",
-				"weer",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ቀስተ ደመና"),
-			keywords: &["ቀስተ ደመና", "ኤልጂቢቲ", "ዝናብ", "የአየር ንብረት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ألوان الطيف"),
-			keywords: &[
-				"ألوان الطيف",
-				"إل جي بي تي",
-				"الوان الطيف",
-				"انعكاس الضوء",
-				"انكسار الضوء",
-				"ثنائي الميول",
-				"طبيعة",
-				"طقس",
-				"قوس الرحمة",
-				"قوس قزح",
-				"متحول",
-				"مثلي",
-				"مثليات",
-				"مثلية",
-				"مثليين",
-				"مسيرة الفخر",
-				"مطر",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ৰ\u{9be}মধেন\u{9c1}"),
-			keywords: &["বৰষ\u{9c1}ণ", "ৰ\u{9be}মধেন\u{9c1}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("göyqurşağı"),
-			keywords: &["göyqurşağı", "hava", "lgbt simvolu", "yağış"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("вясёлка"),
-			keywords: &["вясёлка", "дождж", "надвор’е"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("дъга"),
-			keywords: &[
-				"време",
-				"гей",
-				"дъга",
-				"дъжд",
-				"лгбт",
-				"лгбти",
-				"лгбтк",
-				"лесбийка",
-				"прайд",
-				"транссексуален",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("র\u{9be}মধন\u{9c1}"),
-			keywords: &[
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"ব\u{9c3}ষ\u{9cd}টি",
-				"রংধন\u{9c1}",
-				"র\u{9be}মধন\u{9c1}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("kanevedenn"),
-			keywords: &["glav", "kanevedenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("duga"),
-			keywords: &["duga", "kiša", "vrijeme"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("arc de Sant Martí"),
-			keywords: &[
-				"Sant Martí",
-				"arc",
-				"arc de Sant Martí",
-				"bisexual",
-				"gai",
-				"gènere no-binari",
-				"lgbt",
-				"lgbtia",
-				"lgbtq",
-				"natura",
-				"orgull",
-				"pluja",
-				"queer",
-				"temps",
-				"transgènere",
-				"transsexual",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᎤᏃᏉᎳᏛ"), keywords: &["ᎠᎦᏍᎩ", "ᎤᏃᏉᎳᏛ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("duha"),
-			keywords: &[
-				"LGBT",
-				"asexuál",
-				"barevná duha",
-				"barevný",
-				"bisexuálové",
-				"duha",
-				"duhový",
-				"déšť",
-				"gayové",
-				"genderqueer",
-				"intersexuál",
-				"lesby",
-				"počasí",
-				"pride",
-				"příroda",
-				"queer",
-				"transgender",
-				"transsexuálové",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("enfys"),
-			keywords: &["enfys", "glaw", "tywydd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("regnbue"),
-			keywords: &["lgbt", "regn", "regnbue", "vejr"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Regenbogen"),
-			keywords: &["Regenbogen", "Wetter"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ουράνιο τόξο"),
-			keywords: &[
-				"ΛΟΑΤΚΙ",
-				"αμφιφυλόφιλος",
-				"βροχή",
-				"διεμφυλικός",
-				"καιρός",
-				"κοινότητα ομοφυλόφιλων",
-				"λεσβία",
-				"ομοφυλόφιλος",
-				"ουράνιο τόξο",
-				"περηφάνια",
-				"τρανσέξουαλ",
-				"υπερηφάνεια",
-				"φύση",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("rainbow"),
-			keywords: &[
-				"gay",
-				"genderqueer",
-				"glbt",
-				"glbtq",
-				"lesbian",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"nature",
-				"pride",
-				"queer",
-				"rain",
-				"rainbow",
-				"trans",
-				"transgender",
-				"weather",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("arcoíris"),
-			keywords: &["arcoíris", "colores", "lluvia"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["arcoíris", "clima", "colores", "lluvia"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["arcoíris", "lluvia"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("vikerkaar"),
-			keywords: &["ilm", "vihm", "vikerkaar"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ortzadarra"),
-			keywords: &["eguraldi", "euri", "ortzadarra"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("رنگین کمان"),
-			keywords: &["آب\u{200c}وهوا", "باران", "جشن غرور", "رنگین کمان", "علامت همجنسگرایان"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("sateenkaari"),
-			keywords: &[
-				"biseksuali",
-				"genderqueer",
-				"hlbt",
-				"hlbtq",
-				"hlbtqia",
-				"homo",
-				"lesbo",
-				"queer",
-				"sade",
-				"sateenkaari",
-				"sää",
-				"trans",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bahaghari"),
-			keywords: &[
-				"bahaghari",
-				"bakla",
-				"genderqueer",
-				"lagay ng panahon",
-				"lesbyana",
-				"lgbt",
-				"lgbtqia",
-				"panahon",
-				"queer",
-				"rainbow",
-				"transgender",
-				"ulan",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("ælabogi"), keywords: &["ælabogi"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("arc-en-ciel"),
-			keywords: &[
-				"Gay Pride",
-				"LGBT",
-				"LGBTQ",
-				"LGBTQIA",
-				"arc-en-ciel",
-				"bisexuel",
-				"bisexuelle",
-				"gay",
-				"homosexuel",
-				"homosexuelle",
-				"lesbienne",
-				"météo",
-				"nature",
-				"orgueil",
-				"pluie",
-				"trans",
-				"transgenre",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["arc-en-ciel", "pluie"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("bogha báistí"),
-			keywords: &[
-				"aerach",
-				"aiteach",
-				"an aimsir",
-				"bogha báistí",
-				"déghnéasach",
-				"leispiach",
-				"trasghnéasach",
-				"tuar ceatha",
-				"éighnéasach",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bogha-froise"),
-			keywords: &["bogha-froise", "uisge"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("arco da vella"),
-			keywords: &["arco da vella", "arco iris"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સપ\u{acd}તર\u{a82}ગી"),
-			keywords: &[
-				"ઈન\u{acd}દ\u{acd}રધન\u{ac1}ષ",
-				"ક\u{ac1}દરત",
-				"વરસાદ",
-				"સપ\u{acd}તર\u{a82}ગ",
-				"સપ\u{acd}તર\u{a82}ગી",
-				"હવામાન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("baƙangizo"),
-			keywords: &[
-				"auren jinsi",
-				"bakan gizo",
-				"baƙangizo",
-				"lgbt",
-				"lgbtq",
-				"luwaɗi",
-				"maɗigo",
-				"ruwan sama",
-				"sauya jinsi",
-				"tarayyar jinsi",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("baƙangizo"),
-			keywords: &[
-				"auren jinsi",
-				"bakan gizo",
-				"baƙangizo",
-				"lgbt",
-				"lgbtq",
-				"luwaɗi",
-				"maɗigo",
-				"ruwan sama",
-				"sauya jinsi",
-				"tarayyar jinsi",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("קשת בענן"),
-			keywords: &["בי", "גאווה", "גיי", "גשם", "טרנס", "להט״ב", "לסבית", "קשת", "קשת בענן"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("इ\u{902}द\u{94d}रधन\u{941}ष"),
-			keywords: &[
-				"इ\u{902}द\u{94d}रधन\u{941}ष",
-				"इ\u{902}द\u{94d}रधन\u{941}ष बारिश",
-				"मौसम",
-				"र\u{947}नबो",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("duga"),
-			keywords: &[
-				"duga",
-				"homoseksualno",
-				"kiša",
-				"lezbijski",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"pride",
-				"priroda",
-				"vrijeme",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("szivárvány"),
-			keywords: &[
-				"LGBT",
-				"LMBT",
-				"aszexuális",
-				"biszexuális",
-				"büszke",
-				"büszkeség",
-				"eső",
-				"homoszexuális",
-				"időjárás",
-				"interszexuális",
-				"kérdéses",
-				"kíváncsi",
-				"leszbikus",
-				"meleg",
-				"omniszexuális",
-				"pánszexuális",
-				"szivárvány",
-				"természet",
-				"transznemű",
-				"transzszexuális",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ծիածան"),
-			keywords: &["անձրև", "եղանակ", "ծիածան"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("pelangi"),
-			keywords: &["cuaca", "hujan", "pelangi"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("egwurugwu"),
-			keywords: &[
-				"egwurugwu",
-				"glbt",
-				"glbtq",
-				"ihu igwe",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"mmiri ozuzo",
-				"nganga",
-				"nwanyị nwere mmasị nwanyị",
-				"nwoke ghọrọ nwanyị ma ọbụ nwanyị ghọrọ nwoke",
-				"nwoke nwanyi",
-				"nwoke nwere mmasị nwoke",
-				"onye ukwu",
-				"trans",
-				"ọdịdị",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("regnbogi"),
-			keywords: &["regn", "regnbogi", "veður"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("arcobaleno"),
-			keywords: &[
-				"arcobaleno",
-				"bisessuale",
-				"colori",
-				"gay",
-				"lesbica",
-				"lgbt",
-				"meteo",
-				"natura",
-				"omosessuale",
-				"pace",
-				"pioggia",
-				"transgender",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("虹"),
-			keywords: &[
-				"GLBT",
-				"GLBTQ",
-				"LGBT",
-				"LGBTQ",
-				"ゲイ",
-				"トランスジェンダー",
-				"バイセクシュアル",
-				"レインボー",
-				"レズビアン",
-				"天気",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("kluwung"),
-			keywords: &["kluwung", "plangi", "udan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ცისარტყელა"),
-			keywords: &["ამინდი", "ცისარტყელა", "წვიმა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("tislit n unẓar"),
-			keywords: &["tislit n unẓar"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("кемпірқосақ"),
-			keywords: &[
-				"ауа райы",
-				"гомосексуализм",
-				"жаңбыр",
-				"кемпірқосақ",
-				"лгбт",
-				"түстер",
-				"шаттық",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("regnbue"),
-			keywords: &["regn", "regnbue", "vejr"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ឥន\u{17d2}ទធន\u{17bc}"),
-			keywords: &["អាកាសធាត\u{17bb}", "ឥន\u{17d2}ទធន\u{17bc}"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಕಾಮನಬ\u{cbf}ಲ\u{ccd}ಲು"),
-			keywords: &[
-				"ಕಾಮನಬ\u{cbf}ಲ\u{ccd}ಲು",
-				"ಕ\u{ccd}ವ\u{cc0}ರ\u{ccd}",
-				"ಗ\u{cc7}",
-				"ದ\u{ccd}ವ\u{cbf}ಲ\u{cbf}ಂಗ\u{cbf}",
-				"ಪ\u{ccd}ರಕೃತ\u{cbf}",
-				"ಭ\u{cbf}ನ\u{ccd}ನಲ\u{cbf}ಂಗ\u{cbf}",
-				"ಮಳ\u{cc6}",
-				"ಮಳ\u{cc6}ಬ\u{cbf}ಲ\u{ccd}ಲು",
-				"ಲ\u{cbf}ಂಗ ಪರ\u{cbf}ವರ\u{ccd}ತನ\u{cc6} ಮಾಡ\u{cbf}ಸ\u{cbf}ಕ\u{cca}ಂಡವರು",
-				"ಲ\u{cc6}ಸ\u{ccd}ಬ\u{cbf}ಯನ\u{ccd}",
-				"ಸಲ\u{cbf}ಂಗ\u{cbf}",
-				"ಹವಾಮಾನ",
-				"ಹ\u{cc6}ಮ\u{ccd}ಮ\u{cc6}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("무지개"),
-			keywords: &[
-				"게이",
-				"날씨",
-				"레인보우",
-				"레즈비언",
-				"무지개",
-				"양성애자",
-				"자연",
-				"젠더퀴어",
-				"트랜스",
-				"트랜스젠더",
-				"프라이드",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("इ\u{902}द\u{94d}रधोण\u{942}"),
-			keywords: &["इ\u{902}द\u{94d}रधोण\u{942}", "पावस"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("күн желеси"),
-			keywords: &["аба ырайы", "жамгыр", "күн желеси"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation { lang: "lb", tts: Some("Reebou"), keywords: &["Reebou", "Reen"] },
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຮ\u{eb8}\u{ec9}ງກ\u{eb4}ນນ\u{ecd}\u{ec9}າ"),
-			keywords: &[
-				"ຝ\u{ebb}ນຕ\u{ebb}ກ",
-				"ສະພາບອາກາດ",
-				"ສາຍຮ\u{eb8}\u{ec9}ງ",
-				"ຮ\u{eb8}\u{ec9}ງກ\u{eb4}ນນ\u{ecd}\u{ec9}າ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("vaivorykštė"),
-			keywords: &["gamta", "homoseksualus", "lgbt", "lietus", "vaivorykštė"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("varavīksne"),
-			keywords: &["laikapstākļi", "laiks", "lgbt", "lietus", "varavīksne"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation { lang: "mi", tts: Some("kahukura"), keywords: &["kahukura", "ua"] },
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("виножито"),
-			keywords: &[
-				"бисексуалност",
-				"виножито",
-				"време",
-				"геј",
-				"дожд",
-				"квир",
-				"лгбт",
-				"лезбијка",
-				"природа",
-				"трансродово лице",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മഴവില\u{d4d}ല\u{d4d}"),
-			keywords: &["മഴ", "മഴവില\u{d4d}ല\u{d4d}"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("солонго"),
-			keywords: &["солонго", "цаг агаар"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("इ\u{902}द\u{94d}रधन\u{941}ष\u{94d}य"),
-			keywords: &["इ\u{902}द\u{94d}रधन\u{941}ष\u{94d}य", "पाऊस", "हवामान"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pelangi"),
-			keywords: &[
-				"alam semula jadi",
-				"cuaca",
-				"gay",
-				"genderqueer",
-				"glbt",
-				"glbtq",
-				"hujan",
-				"kebanggaan",
-				"lesbian",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"pelangi",
-				"pelik",
-				"trans",
-				"transgender",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("qawsalla"),
-			keywords: &["qawsalla", "xita"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("သက\u{103a}တ\u{1036}"),
-			keywords: &["မ\u{102d}\u{102f}း", "သက\u{103a}တ\u{1036}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("इन\u{94d}द\u{94d}र\u{947}णी"),
-			keywords: &["इन\u{94d}द\u{94d}र\u{947}णी", "वर\u{94d}षा"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("regenboog"),
-			keywords: &[
-				"genderqueer",
-				"glbt",
-				"homoseksueel",
-				"lesbisch",
-				"lgbt",
-				"lgbtq",
-				"lgtbqia",
-				"lhbt",
-				"natuur",
-				"pride",
-				"queer",
-				"regen",
-				"regenboog",
-				"transgender",
-				"weer",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("regnboge"),
-			keywords: &["regn", "regnboge", "vêr"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଇନ\u{b4d}ଦ\u{b4d}ରଧନ\u{b41}"),
-			keywords: &["ଇନ\u{b4d}ଦ\u{b4d}ରଧନ\u{b41}", "ବର\u{b4d}ଷ\u{b3e}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਤਰ\u{a70}ਗੀ ਪੀ\u{a02}ਘ"),
-			keywords: &[
-				"ਇ\u{a70}ਦਰਧਨ\u{a41}ਸ\u{a3c}",
-				"ਕ\u{a41}ਦਰਤ",
-				"ਮੀ\u{a02}ਹ",
-				"ਮ\u{a4c}ਸਮ",
-				"ਸਤਰ\u{a70}ਗੀ ਪੀ\u{a02}ਘ",
-				"ਸਮਲਿ\u{a70}ਗੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("قوس قزح"),
-			keywords: &["قوس قزح", "مینہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation { lang: "pcm", tts: Some("Rénbo"), keywords: &["Ren", "Rénbo"] },
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("tęcza"),
-			keywords: &[
-				"deszcz",
-				"gej",
-				"geje",
-				"kolory",
-				"les",
-				"lesbijki",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"nadzieja",
-				"pogoda",
-				"pride",
-				"słońce",
-				"transpłciowość",
-				"tęcza",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("شنه زرغونه"),
-			keywords: &["باران", "شنه زرغونه"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("arco-íris"),
-			keywords: &[
-				"arco-íris",
-				"chuva",
-				"clima",
-				"gay",
-				"lgbt",
-				"lgbtqia+",
-				"lésbica",
-				"natureza",
-				"orgulho",
-				"queer",
-				"transgênero",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["arco-íris", "chuva", "cores", "lgbt", "meteorologia", "natureza", "orgulho"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation { lang: "qu", tts: Some("kʼuychi"), keywords: &["kʼuychi", "para"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("curcubeu"),
-			keywords: &[
-				"cer",
-				"culori",
-				"curcubeu",
-				"gay",
-				"glbt",
-				"homosexual",
-				"lesbiane",
-				"lgbt",
-				"lgbtq",
-				"lgbtqia",
-				"natură",
-				"pride",
-				"queer",
-				"trans",
-				"transsexual",
-				"vreme",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-207"), keywords: &["E10-207"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("радуга"),
-			keywords: &["дождь", "осадки", "погода", "природа", "радуга", "цвета"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umukororombya"),
-			keywords: &["imvura", "umukororombya"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang: "sd", tts: Some("انڊلٺ"), keywords: &["انڊلٺ", "برسات"]
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("දේද\u{dd4}න\u{dca}න"),
-			keywords: &["ක\u{dcf}ලග\u{dd4}ණය", "දේද\u{dd4}න\u{dca}න", "වැස\u{dca}ස"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("dúha"),
-			keywords: &[
-				"LGBT",
-				"bisexuál",
-				"dážď",
-				"dúha",
-				"farebná dúha",
-				"gay",
-				"lesba",
-				"lgbtqia",
-				"počasie",
-				"pride",
-				"príroda",
-				"transsexuál",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("mavrica"),
-			keywords: &[
-				"dež",
-				"homoseksualen",
-				"lezbično",
-				"lgbt",
-				"mavrica",
-				"narava",
-				"ponos",
-				"trans",
-				"transspolnost",
-				"vreme",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qaanso-roobaad"),
-			keywords: &["qaanso-roobaad", "roob"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ylber"),
-			keywords: &["gej", "krenari", "lesbike", "lgbt", "lgbtq", "moti", "natyrë", "shi", "ylber"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("дуга"),
-			keywords: &["време", "геј", "дуга", "кишa", "лгбт", "прајд", "природа"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("duga"),
-			keywords: &["duga", "gej", "kiša", "lgbt", "prajd", "priroda", "vreme"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("regnbåge"),
-			keywords: &["regn", "regnbåge", "väder"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("upinde wa mvua"),
-			keywords: &["hali ya hewa", "jinsiambili", "mvua", "shoga", "upinde wa mvua"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வ\u{bbe}னவில\u{bcd}"),
-			keywords: &[
-				"glbt",
-				"glbtq",
-				"lgbt",
-				"lgbtq",
-				"இருப\u{bbe}லினத\u{bcd}தவர\u{bcd}",
-				"ஓரினச\u{bcd}சேர\u{bcd}க\u{bcd}கைய\u{bbe}ளர\u{bcd}",
-				"கே",
-				"லெஸ\u{bcd}பியன\u{bcd}",
-				"வண\u{bcd}ணம\u{bcd}",
-				"வ\u{bbe}னவில\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఇంద\u{c4d}రధనుస\u{c4d}సు"),
-			keywords: &[
-				"అద\u{c4d}భుతం",
-				"ఇంద\u{c4d}రధనుస\u{c4d}సు",
-				"ఏడు రంగులు",
-				"క\u{c4d}యూర\u{c4d}",
-				"న\u{c47}చర\u{c4d}",
-				"ప\u{c4d}రకృత\u{c3f}",
-				"ర\u{c48}న\u{c4d}\u{200c}బ\u{c4b}",
-				"వ\u{c3e}త\u{c3e}వరణం",
-				"హర\u{c3f} వ\u{c3f}ల\u{c4d}లు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("тирукамон"),
-			keywords: &["борон", "тирукамон"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ร\u{e38}\u{e49}ง"),
-			keywords: &[
-				"คนข\u{e49}ามเพศ",
-				"ธรรมชาต\u{e34}",
-				"ฝน",
-				"สภาพอากาศ",
-				"สายร\u{e38}\u{e49}ง",
-				"ส\u{e35}ส\u{e31}น",
-				"เกย\u{e4c}ไพรด\u{e4c}",
-				"แอลจ\u{e35}บ\u{e35}ท\u{e35}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቀስተ ደበና"),
-			keywords: &[
-				"ሌዝቢያን",
-				"ልግብት",
-				"ቀስተ ደመና",
-				"ተፈጥሮ",
-				"ትምክሕቲ",
-				"ትራንስ",
-				"ትራንስጀንደር",
-				"አየር",
-				"ኲየር",
-				"ዝናብ ዝዘንብ",
-				"ጂኤልቢቲ",
-				"ጂኤልቢቲኪው",
-				"ጂኤልቢቲኪውአዬ",
-				"ግብረሰዶማውያን",
-				"ጾታዊ ርክብ ዝምልከት",
-			],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("älemgoşar"),
-			keywords: &["älemgoşar", "ýagyş"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("ʻūmata"), keywords: &["ʻūmata"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("gökkuşağı"),
-			keywords: &["biseksüel", "gay", "gökkuşağı", "hava durumu", "lezbiyen", "yağmur"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ھەسەن-ھۈسەن"),
-			keywords: &["يامغۇر", "ھەسەن-ھۈسەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("веселка"),
-			keywords: &[
-				"бісексуал",
-				"гей",
-				"гендер",
-				"глбт",
-				"дощ",
-				"квір",
-				"лгбт",
-				"лесбіянка",
-				"погода",
-				"природа",
-				"транс",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("قوس قزاح"),
-			keywords: &[
-				"بارش",
-				"دو جنسا",
-				"دھنک",
-				"رنگارنگ",
-				"فخر",
-				"قدرت",
-				"قوس قزاح",
-				"موسم",
-				"ہم جنس پرست",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("kamalak"),
-			keywords: &["kamalak", "ob-havo", "rang-barang", "ranglar", "yomg‘ir"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cầu vồng"),
-			keywords: &[
-				"chuyển giới",
-				"cầu vồng",
-				"lưỡng tính",
-				"mưa",
-				"thời tiết",
-				"tự nhiên",
-				"đồng tính",
-			],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation { lang: "wo", tts: Some("xon"), keywords: &["taw", "xon"] },
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umnyama"),
-			keywords: &["imvula", "umnyama"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang: "yo", tts: Some("òṣùmarè"), keywords: &["òjò", "òṣùmarè"]
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("òshùmarè"),
-			keywords: &["òjò", "òshùmarè"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("彩虹"), keywords: &["彩虹", "落雨"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("彩虹"), keywords: &["彩虹", "落雨"] },
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("彩虹"),
-			keywords: &["LGBT", "双性恋", "同志", "彩虹", "跨性别"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("彩虹"),
-			keywords: &["同性", "彩虹", "跨性別", "雙性"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"同性戀",
-				"天氣",
-				"女同性戀",
-				"彩虹",
-				"性別酷兒",
-				"男同性戀",
-				"跨性別",
-				"酷兒",
-				"雙性戀",
-				"驕傲",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("uthingo"),
-			keywords: &["imvula", "isimo sezulu", "uthingo"],
-		},
-	],
-};
-#[doc = "🌂"]
-pub const CLOSED_UMBRELLA: crate::Emoji = crate::Emoji {
-	glyph:                "🌂",
-	codepoint:            &[127746u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "closed umbrella",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("opgevoude sambreel"),
-			keywords: &[
-				"bring jou sambreel",
-				"klere",
-				"opgevoude sambreel",
-				"reën",
-				"sambreel",
-				"voorsorg tref",
-				"weer",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የታጠፈ ዣንጥላ"),
-			keywords: &["አልባሳት", "ክረምት", "ዝናብ", "ዣንጥላ", "የታጠፈ ዣንጥላ", "የአየር ሁኔታ", "የአየር ንብረት", "ጥላ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("شمسية مغلقة"),
-			keywords: &["أمطار", "شتاء", "شتي", "شمسية", "شمسية مغلقة", "طقس", "مطر", "مظلة", "ملابس"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("বন\u{9cd}ধ ছ\u{9be}তি"),
-			keywords: &["ছ\u{9be}তি", "পোছ\u{9be}ক", "বন\u{9cd}ধ ছ\u{9be}তি", "বৰষ\u{9c1}ণ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("bağlı çətir"),
-			keywords: &["bağlı çətir", "geyim", "hava", "yağmur", "yağış", "çimərlik"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("закрыты парасон"),
-			keywords: &["аксесуар", "дождж", "закрыты парасон", "надвор’е", "парасон"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("затворен чадър"),
-			keywords: &["време", "дъжд", "затворен чадър", "облекло", "чадър"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("বন\u{9cd}ধ ছ\u{9be}ত\u{9be}"),
-			keywords: &[
-				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"ছ\u{9be}ত\u{9be}",
-				"পোশ\u{9be}ক",
-				"বন\u{9cd}ধ ছ\u{9be}ত\u{9be}",
-				"ব\u{9c3}ষ\u{9cd}টি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("disglavier serr"),
-			keywords: &["disglavier", "disglavier serr", "glav"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zatvoren kišobran"),
-			keywords: &["asesoar", "kiša", "kišobran", "vrijeme", "zatvoren kišobran"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("paraigua tancat"),
-			keywords: &["paraigua", "pluja", "tancat"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏍᏚᏅ ᎠᏓᏩᏗᏍᏙᏗ"),
-			keywords: &["ᎠᎦᏍᎩ", "ᎠᏍᏚᏅ ᎠᏓᏩᏗᏍᏙᏗ", "ᎠᏓᏩᏗᏍᏙᏗ", "ᏗᎿᏬᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zavřený deštník"),
-			keywords: &["deštník", "déšť", "fialový", "oblečení", "paraple", "počasí", "zavřený deštník"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("ymbarél ar gau"),
-			keywords: &["dillad", "glaw", "tywydd", "ymbarél", "ymbarél ar gau"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("lukket paraply"),
-			keywords: &["lukket paraply", "paraply", "regn", "regnvejr"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("geschlossener Regenschirm"),
-			keywords: &["Geschlossener Regenschirm", "Regen", "Regenschirm", "geschlossener Regenschirm"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("κλειστή ομπρέλα"),
-			keywords: &["βροχή", "ενδυμασία", "καιρός", "κλειστή ομπρέλα", "ομπρέλα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("closed umbrella"),
-			keywords: &["closed", "clothing", "rain", "umbrella"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("paraguas cerrado"),
-			keywords: &["accesorios", "lluvia", "paraguas", "paraguas cerrado"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("paraguas"),
-			keywords: &[
-				"accesorios",
-				"clima",
-				"lluvia",
-				"lluvioso",
-				"paraguas",
-				"paraguas cerrado",
-				"sombrilla",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("paraguas cerrado"),
-			keywords: &["lluvia", "paraguas", "paraguas cerrado", "ropa"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("suletud vihmavari"),
-			keywords: &["ilm", "riided", "suletud vihmavari", "vihm", "vihmavari"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("aterki itxia"),
-			keywords: &["arropa", "aterki", "aterki itxia", "eguraldi", "euri"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("چتر بسته"),
-			keywords: &["آب\u{200c}وهوا", "باران", "پوشاک", "چتر", "چتر بسته"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("suljettu sateenvarjo"),
-			keywords: &["asuste", "sade", "sateenvarjo", "suljettu sateenvarjo", "sää"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("nakasarang payong"),
-			keywords: &[
-				"kagamitan",
-				"lagay ng panahon",
-				"mainit",
-				"maulan",
-				"nakasarang payong",
-				"panahon",
-				"payong",
-				"ulan",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("afturlatin paraplý"),
-			keywords: &["afturlatin paraplý", "paraplý", "regnskjól"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("parapluie fermé"),
-			keywords: &["météo", "parapluie", "parapluie fermé", "pluie"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["fermé", "parapluie", "pluie", "vêtement"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("scáth báistí dúnta"),
-			keywords: &[
-				"báiste",
-				"báisteach",
-				"fearthainn",
-				"scáth báistí",
-				"scáth báistí dúnta",
-				"scáth fearthainne",
-				"scáth fearthainne dúnta",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("sgàilean-uisge dùinte"),
-			keywords: &["aodach", "sgàilean", "sgàilean-uisge dùinte", "uisge"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("paraugas pechado"),
-			keywords: &["choiva", "paraugas", "paraugas pechado", "pingas"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("બ\u{a82}ધ છત\u{acd}રી"),
-			keywords: &[
-				"છત\u{acd}રી",
-				"બ\u{a82}ધ છત\u{acd}રી",
-				"મોસમ",
-				"વરસાદ",
-				"વરસાદી",
-				"વર\u{acd}ષા",
-				"વાદળા",
-				"શ\u{acd}રાવણ",
-				"સાવન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("rufaffiyar laima"),
-			keywords: &["laima", "lema", "rufaffiyar laima", "ruwa", "ruwan sama", "sutura"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("rufaffiyar laima"),
-			keywords: &["laima", "lema", "rufaffiyar laima", "ruwa", "ruwan sama", "sutura"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מטריה סגורה"),
-			keywords: &["גשם", "חורף", "מטריה", "מטריה סגורה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ब\u{902}द छाता"),
-			keywords: &["छाता", "ब\u{902}द छाता", "बारिश", "वर\u{94d}षा"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zatvoreni kišobran"),
-			keywords: &["kiša", "kišobran", "odjeća", "vrijeme", "zatvoreni kišobran"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("becsukott esernyő"),
-			keywords: &["becsukott esernyő", "ernyő", "esernyő", "eső", "időjárás", "kiegészítő"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("փակ անձրևանոց"),
-			keywords: &["անձրև", "անձրևանոց", "եղանակ", "հագուստ", "փակ անձրևանոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("payung tertutup"),
-			keywords: &["cuaca", "hujan", "pakaian", "payung", "payung tertutup"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ụmbrali mechiri emechi"),
-			keywords: &["akwà", "mechiri emechi", "mmiri òzùzò", "ụmbralị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("lokuð regnhlíf"),
-			keywords: &[
-				"klæðnaður",
-				"lokuð regnhlíf",
-				"regnhlíf",
-				"rigning",
-				"samanlögð regnhlíf",
-				"veður",
-			],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("ombrello chiuso"),
-			keywords: &["meteo", "ombrello chiuso", "pioggia", "piovere"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("閉じた傘"),
-			keywords: &["傘", "天気", "持ち物", "閉じた傘", "雨"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("payung mingkup"),
-			keywords: &["payung", "payung mingkup", "sandhangan", "udan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("დახურული ქოლგა"),
-			keywords: &["ამინდი", "დახურული ქოლგა", "ტანსაცმელი", "ქოლგა", "წვიმა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("ssiwan imedlen"),
-			keywords: &["ssiwan imedlen"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жабылған қолшатыр"),
-			keywords: &["ауа райы", "жабылған қолшатыр", "жаңбыр", "кию", "қол шатыр", "қолшатыр"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("lukket paraply"),
-			keywords: &["lukket paraply", "regn", "regnvejr"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ឆត\u{17d2}រប\u{17b7}ទ"),
-			keywords: &["ឆត\u{17d2}រ", "ឆត\u{17d2}រប\u{17b7}ទ", "ប\u{17b7}ទ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಛತ\u{ccd}ರ\u{cbf}"),
-			keywords: &[
-				"ಉಡುಪು",
-				"ಕ\u{cca}ಡ\u{cc6}",
-				"ಛತ\u{ccd}ರ\u{cbf}",
-				"ಮಳ\u{cc6}",
-				"ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಕ\u{cca}ಡ\u{cc6}",
-				"ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಛತ\u{ccd}ರ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("접힌 우산"),
-			keywords: &["비", "우산", "접힌 우산"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("धा\u{902}पिल\u{94d}ली सत\u{94d}री"),
-			keywords: &["कपड\u{947}", "धा\u{902}पिल\u{94d}ली सत\u{94d}री", "पावस", "सत\u{94d}री"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жабылган кол чатыр"),
-			keywords: &["аба ырайы", "жабылган кол чатыр", "жамгыр", "кийим", "кол чатыр"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("zoue Prabbeli"),
-			keywords: &["Kleedung", "Prabbeli", "Reen", "zoue Prabbeli"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມງ\u{eb1}ບໄວ\u{ec9}"),
-			keywords: &[
-				"ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມ",
-				"ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມງ\u{eb1}ບໄວ\u{ec9}",
-				"ຝ\u{ebb}ນ",
-				"ສະພາບອາກາດ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("suskleistas skėtis"),
-			keywords: &["drabužiai", "lietus", "skėtis", "suskleistas skėtis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("aizvērts lietussargs"),
-			keywords: &["aizvērts", "lietus", "lietussargs"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("hāmarara kopi"),
-			keywords: &["hāmarara", "hāmarara kopi", "kākahu", "ua"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("затворен чадор"),
-			keywords: &["време", "дожд", "затворен чадор", "чадор"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("അടച\u{d4d}ച ക\u{d41}ട"),
-			keywords: &["അടച\u{d4d}ച ക\u{d41}ട", "ക\u{d41}ട", "മഴ", "വർഷക\u{d4d}ക\u{d3e}ലം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("нээгээгүй шүхэр"),
-			keywords: &["бороо", "нээгээгүй шүхэр", "цаг агаар", "шүхэр"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ब\u{902}द क\u{947}ल\u{947}ली छत\u{94d}री"),
-			keywords: &[
-				"कपड\u{947}",
-				"छत\u{94d}री",
-				"पाऊस",
-				"पावसाळी",
-				"ब\u{902}द क\u{947}ल\u{947}ली छत\u{94d}री",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("payung tertutup"),
-			keywords: &["cuaca", "hujan", "pakaian", "payung", "payung tertutup"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("umbrella magħluqa"),
-			keywords: &["umbrella", "umbrella magħluqa", "xita", "ħwejjeġ"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} ထ\u{102e}း"),
-			keywords: &[
-				"ဆောင\u{103a}းစရာ",
-				"ထ\u{102e}း",
-				"ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} ထ\u{102e}း",
-				"မ\u{102d}\u{102f}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("बन\u{94d}द गर\u{947}को छाता"),
-			keywords: &["कपडा", "छाता", "बन\u{94d}द गर\u{947}को छाता", "मौसम", "वर\u{94d}षा"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("ingevouwen paraplu"),
-			keywords: &["dichte paraplu", "ingevouwen paraplu", "kleding", "paraplu", "regen", "weer"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("lukka paraply"),
-			keywords: &["lukka paraply", "regn", "regnvêr"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ବନ\u{b4d}ଦ ଥ\u{b3f}ବ\u{b3e} ଛତ\u{b3e}"),
-			keywords: &[
-				"ଛତ\u{b3e}",
-				"ବନ\u{b4d}ଦ ଥ\u{b3f}ବ\u{b3e} ଛତ\u{b3e}",
-				"ବର\u{b4d}ଷ\u{b3e}",
-				"ବର\u{b4d}ଷ\u{b3e} ଦ\u{b3f}ନ\u{b3f}ଆ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਬ\u{a70}ਦ ਛ\u{a71}ਤਰੀ"),
-			keywords: &["ਛ\u{a71}ਤਰੀ", "ਬਰਸਾਤ", "ਬ\u{a70}ਦ ਛ\u{a71}ਤਰੀ", "ਮੀ\u{a02}ਹ", "ਮ\u{a4c}ਸਮ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("بند چھتری"),
-			keywords: &["بند چھتری", "مینہ", "چھتری", "کپڑے"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Klóz Ọ\u{301}mbrẹ\u{301}la"),
-			keywords: &["Klóz Ọ\u{301}mbrẹ\u{301}la", "Klọt", "Ren", "Ọ\u{301}mbrẹ\u{301}la"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("złożony parasol"),
-			keywords: &["deszcz", "parasolka", "pogoda", "złożona", "złożony parasol"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("تړل شوي چترۍ"),
-			keywords: &["باران", "تړل شوي چترۍ", "تړل شوې چترۍ", "چترۍ", "کالي"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("guarda-chuva fechado"),
-			keywords: &["chuva", "chuvoso", "guarda-chuva", "guarda-chuva fechado"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["acessório", "chuva", "guarda-chuva", "guarda-chuva fechado", "meteorologia"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("wichqasqa para achiwa"),
-			keywords: &["para", "para achiwa", "pʼacha", "wichqasqa para achiwa"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("umbrelă închisă"),
-			keywords: &["accesoriu", "ploaie", "strâns", "umbrelă", "umbrelă închisă"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-201"), keywords: &["E10-201"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("закрытый зонт"),
-			keywords: &["дождь", "закрытый зонт", "зонт", "зонтик", "осадки"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umutaka ufunze"),
-			keywords: &["imvura", "umutaka", "umutaka ufunze", "umwambaro"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("بند ڇتي"),
-			keywords: &["برسات", "بند ڇتي", "لباس", "ڇٽي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("අක\u{dd4}ළන ලද ක\u{dd4}ඩය"),
-			keywords: &[
-				"අක\u{dd4}ළන ලද ක\u{dd4}ඩය",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"ක\u{dd4}ඩය",
-				"රෙද\u{dd2}ප\u{dd2}ළ\u{dd2}",
-				"වැස\u{dca}ස",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zatvorený dáždnik"),
-			keywords: &["dáždnik", "dážď", "fialový", "oblečenie", "počasie", "zatvorený dáždnik"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("zaprt dežnik"),
-			keywords: &["dež", "dežnik", "oblačila", "vreme", "zaprt dežnik"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dallad xiran"),
-			keywords: &["dallad", "dallad daboolan", "dallad xiran", "dhar", "roob"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("çadër e mbyllur"),
-			keywords: &["moti", "shi", "veshje", "çadër", "çadër e mbyllur"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("затворени кишобран"),
-			keywords: &["затворено", "киша", "кишобран", "одећа"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["затворени кишобран", "кишa", "кишoбрaн", "одјећа"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zatvoreni kišobran"),
-			keywords: &["kiša", "kišobran", "odeća", "zatvoreno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["kiša", "kišobran", "odjeća", "zatvoreni kišobran"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("hopfällt paraply"),
-			keywords: &["hopfällt paraply", "paraply"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mwavuli uliokunjwa"),
-			keywords: &["hali ya hewa", "mavazi", "mvua", "mwavuli", "mwavuli uliokunjwa"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மூடிய குடை"),
-			keywords: &["குடை", "மழை", "மூடிய குடை", "வெயில\u{bcd}"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("మూస\u{c3f}వ\u{c47}స\u{c3f}న గ\u{c4a}డుగు"),
-			keywords: &[
-				"గ\u{c4a}డుగు",
-				"మూయబడ\u{c3f}న",
-				"మూస\u{c3f}వ\u{c47}స\u{c3f}న గ\u{c4a}డుగు",
-				"వర\u{c4d}షం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("чатри пӯшида"),
-			keywords: &["борон", "либос", "чатр", "чатри пӯшида"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ร\u{e48}มห\u{e38}บ"),
-			keywords: &["ฝน", "ร\u{e48}ม", "เส\u{e37}\u{e49}อผ\u{e49}า"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዕጹው ጽላል"),
-			keywords: &["ተዓጽዩ", "ክዳውንቲ", "ዝናብ ዝዘንብ", "ጽላል"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýapyk saýawan"),
-			keywords: &["eşik", "saýawan", "ýagyş", "ýapyk saýawan"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tukuhifo fakamalu"),
-			keywords: &["fakamalu", "tukuhifo fakamalu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("kapalı şemsiye"),
-			keywords: &["kapalı şemsiye", "yağmur", "yağmurlu", "şemsiye"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يېپىق كۈنلۈك"),
-			keywords: &["كىيىم", "كۈنلۈك", "يامغۇر", "يېپىق كۈنلۈك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("складена парасолька"),
-			keywords: &["дощ", "одяг", "парасолька", "погода", "складена парасолька"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بند چھتری"),
-			keywords: &[
-				"اشیاء",
-				"بارش",
-				"برسات",
-				"بند چھتری",
-				"ساون",
-				"سایہ",
-				"موسم",
-				"چھتری",
-				"چھتڑی",
-				"چیز",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("yopiq soyabon"),
-			keywords: &["kiyim", "ob-havo", "soyabon", "yomg‘ir", "yopiq soyabon"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ô đã đóng"),
-			keywords: &["chiếc ô", "mưa", "quần áo", "ô đã đóng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("parasol bu tëju"),
-			keywords: &["parasol", "parasol bu tëju", "taw", "yéere"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isambrela esivaliweyo"),
-			keywords: &["impahla", "imvula", "isambrela", "isambrela esivaliweyo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Agboorun Toti"),
-			keywords: &["Agboorun Toti", "agbòrùn", "aṣọ", "òjò"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Agboorun Toti"),
-			keywords: &["Agboorun Toti", "agbòrùn", "ashɔ", "òjò"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("閂咗嘅遮"),
-			keywords: &["服裝", "遮", "閂咗嘅遮", "雨"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("闩咗嘅遮"),
-			keywords: &["服装", "遮", "闩咗嘅遮", "雨"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("收起的伞"),
-			keywords: &["下雨", "伞", "收起的伞", "雨", "雨伞"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("收合的傘"),
-			keywords: &["傘", "收合的傘", "雨傘"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("收起嘅遮"),
-			keywords: &["傘", "收起嘅遮", "遮", "雨傘", "雨遮"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isambulela esivaliwe"),
-			keywords: &[
-				"impahla egqokwayo",
-				"imvula",
-				"isambulela",
-				"isambulela esivaliwe",
-				"isimo sezulu",
-			],
-		},
-	],
-};
-#[doc = "☂\u{fe0f}"]
-pub const UMBRELLA: crate::Emoji = crate::Emoji {
-	glyph:                "☂\u{fe0f}",
-	codepoint:            &[9730u32],
+#[doc = "🌧\u{fe0f}"]
+pub const CLOUD_WITH_RAIN: crate::Emoji = crate::Emoji {
+	glyph:                "🌧\u{fe0f}",
+	codepoint:            &[127783u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "umbrella",
+	name:                 "cloud with rain",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "☔\u{fe0f}"]
-pub const UMBRELLA_WITH_RAIN_DROPS: crate::Emoji = crate::Emoji {
-	glyph:                "☔\u{fe0f}",
-	codepoint:            &[9748u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "umbrella with rain drops",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⛱\u{fe0f}"]
-pub const UMBRELLA_ON_GROUND: crate::Emoji = crate::Emoji {
-	glyph:                "⛱\u{fe0f}",
-	codepoint:            &[9969u32],
+#[doc = "🌨\u{fe0f}"]
+pub const CLOUD_WITH_SNOW: crate::Emoji = crate::Emoji {
+	glyph:                "🌨\u{fe0f}",
+	codepoint:            &[127784u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "umbrella on ground",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⚡\u{fe0f}"]
-pub const HIGH_VOLTAGE: crate::Emoji = crate::Emoji {
-	glyph:                "⚡\u{fe0f}",
-	codepoint:            &[9889u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "high voltage",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "❄\u{fe0f}"]
-pub const SNOWFLAKE: crate::Emoji = crate::Emoji {
-	glyph:                "❄\u{fe0f}",
-	codepoint:            &[10052u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "snowflake",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "☃\u{fe0f}"]
-pub const SNOWMAN: crate::Emoji = crate::Emoji {
-	glyph:                "☃\u{fe0f}",
-	codepoint:            &[9731u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "snowman",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⛄\u{fe0f}"]
-pub const SNOWMAN_WITHOUT_SNOW: crate::Emoji = crate::Emoji {
-	glyph:                "⛄\u{fe0f}",
-	codepoint:            &[9924u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "snowman without snow",
+	name:                 "cloud with snow",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -18438,744 +18443,6 @@ pub const COMET: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🔥"]
-pub const FIRE: crate::Emoji = crate::Emoji {
-	glyph:                "🔥",
-	codepoint:            &[128293u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "fire",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::SkyWeather,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("vuur"),
-			keywords: &["brand", "hulpmiddel", "verlig", "vlam", "vuur", "warm"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("እሳት"),
-			keywords: &["መለኮስ", "መሣሪያ", "ቃጠሎ", "ነበልባል", "እሳት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("حريق"),
-			keywords: &["تاجج", "حريق", "ساخن", "شوب", "لهب", "نار", "يحرق"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("অগ\u{9cd}নি"),
-			keywords: &["অগ\u{9cd}নি", "শিখ\u{9be}", "স\u{981}জ\u{9c1}লি"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("alov"),
-			keywords: &["alov", "alət", "atəş", "isti", "yanmaq"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("агонь"),
-			keywords: &["агонь", "полымя", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("огън"),
-			keywords: &["горещо", "запален", "огън", "пламък"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("আগ\u{9c1}ন"),
-			keywords: &["আগ\u{9c1}ন", "গরম", "শিখ\u{9be}", "সরঞ\u{9cd}জ\u{9be}ম"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation { lang: "br", tts: Some("tan"), keywords: &["flammenn", "tan"] },
-		#[cfg(feature = "bs")]
-		crate::Annotation { lang: "bs", tts: Some("vatra"), keywords: &["plamen", "vatra"] },
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("foc"),
-			keywords: &[
-				"calent", "calenta", "cremar", "eina", "encesa", "encès", "flama", "foc", "genial",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏥᎳ"),
-			keywords: &["ᎠᏓᏪᎳᎩᎲᎢ", "ᎠᏥᎳ", "ᎬᏔᏂᏓᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("oheň"),
-			keywords: &[
-				"horký",
-				"hořet",
-				"hranice",
-				"nástroj",
-				"oheň",
-				"ohniště",
-				"plamen",
-				"plameny",
-				"plamínek",
-				"požár",
-				"pálit",
-				"vzplanout",
-				"zapálit",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("tân"),
-			keywords: &["fflam", "offer", "tân"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ild"),
-			keywords: &["flamme", "ild", "varm"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Feuer"),
-			keywords: &["Feuer", "Flamme", "brennen", "heiß"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("↑↑↑"),
-			keywords: &["Feuer", "Flamme", "heiss"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("φωτιά"),
-			keywords: &["εργαλείο", "φλόγα", "φωτιά"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("fire"),
-			keywords: &["af", "burn", "fire", "flame", "hot", "lit", "litaf", "tool"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation { lang: "es", tts: Some("fuego"), keywords: &["fuego", "llama"] },
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["arder", "caliente", "fuego", "llama"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["fuego", "herramienta", "llama"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation { lang: "et", tts: Some("tuli"), keywords: &["leek", "tuli"] },
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("sua"),
-			keywords: &["sua", "sugar", "tresna"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("آتش"),
-			keywords: &["آتش", "ابزار", "شعله"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("tuli"),
-			keywords: &["liekki", "lieska", "nuotio", "tuli"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("apoy"),
-			keywords: &["apoy", "baga", "hot", "init", "mainit"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("eldur"),
-			keywords: &["bál", "eldsbruni", "eldur", "logi"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("feu"),
-			keywords: &["allumer", "brûler", "chaud", "feu", "flamme", "fournaise", "incendie"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["feu", "flamme", "outil"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("tine"),
-			keywords: &["dóiteán", "lasair", "lasracha", "te", "tine", "trí thine", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("teine"),
-			keywords: &["acainn", "lasair", "teine"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("lume"),
-			keywords: &["fogo", "incendio", "lapas", "lume"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("અગ\u{acd}નિ"),
-			keywords: &[
-				"અગ\u{acd}નિ",
-				"આગ",
-				"જ\u{acd}યોત",
-				"જ\u{acd}વાલા",
-				"ઝાલ",
-				"દરમ",
-				"દાઝવ\u{ac1}\u{a82}",
-				"ભડકા",
-				"સાધન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("wuta"),
-			keywords: &["cin wuta", "harshen wuta", "kama wuta", "kayan aiki", "wuta", "zafi", "ƙuna"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("wuta"),
-			keywords: &["cin wuta", "harshen wuta", "kama wuta", "kayan aiki", "wuta", "zafi", "ƙuna"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אש"),
-			keywords: &["אש", "דליקה", "להבה", "שלהבת", "שריפה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("आग"),
-			keywords: &["अग\u{94d}नि", "आग", "लपट"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("vatra"),
-			keywords: &["alat", "plamen", "požar", "vatra"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("tűz"),
-			keywords: &[
-				"felgyullad",
-				"forró",
-				"gyullad",
-				"gyúlékony",
-				"láng",
-				"meleg",
-				"perzsel",
-				"tűz",
-				"ég",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("կրակ"),
-			keywords: &["բոց", "գործիք", "կրակ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("api"),
-			keywords: &["alat", "api", "bakar", "kobaran", "panas"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ọkụ"),
-			keywords: &["af", "gbaa", "ire ọkụ", "litaf", "na-ekpo ọkụ", "ngwá ọrụ", "ọkụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation { lang: "is", tts: Some("eldur"), keywords: &["eldur", "logi"] },
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("fuoco"),
-			keywords: &[
-				"bruciare",
-				"caldo",
-				"calore",
-				"esplosione",
-				"falò",
-				"fiamma",
-				"fiamme",
-				"fuoco",
-				"inferno",
-				"passione",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("火"),
-			keywords: &["ファイアー", "ファイヤー", "火", "炎", "熱い", "燃える"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("geni"),
-			keywords: &["bekakas", "geni", "mbulating geni"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ცეცხლი"),
-			keywords: &["ალი", "ინსტრუმენტი", "ცეცხლი", "ხელსაწყო"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("times"), keywords: &["times"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("өрт"),
-			keywords: &["жалын", "құрал", "өрт"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation { lang: "kl", tts: Some("ild"), keywords: &["flamme", "ild"] },
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ភ\u{17d2}លើង"),
-			keywords: &["ភ\u{17d2}លើង", "អគ\u{17d2}គ\u{17b8}"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cc6}ಂಕ\u{cbf}"),
-			keywords: &[
-				"ಉರ\u{cbf}",
-				"ಜ\u{ccd}ವಾಲ\u{cc6}",
-				"ಬ\u{cbf}ಸ\u{cbf}",
-				"ಬ\u{cc6}ಂಕ\u{cbf}",
-				"ಲ\u{cbf}ಟ\u{ccd} ಎಎಫ\u{ccd} ಸ\u{ccd}ಟ\u{cbf}ಕ\u{ccd}ಕರ\u{ccd}",
-				"ಸಾಧನ",
-				"ಹ\u{cca}ತ\u{ccd}ತ\u{cbf}ಸು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("불"),
-			keywords: &["도구", "뜨거운", "불", "불꽃", "화끈한", "화재"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("उजो"),
-			keywords: &["उजो", "ज\u{94d}योत", "साधन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang: "ky", tts: Some("от"), keywords: &["жалын", "курал", "от"]
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Feier"),
-			keywords: &["Feier", "Flam", "Handwierksgeschir"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation { lang: "lo", tts: Some("ໄຟ"), keywords: &["ແປວໄຟ", "ໄຟ"] },
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("ugnis"),
-			keywords: &["karšta", "liepsna", "ugnis", "įrankis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("uguns"),
-			keywords: &["degt", "liesma", "uguns"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("ahi"),
-			keywords: &["ahi", "mura", "utauta"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("оган"),
-			keywords: &["алатка", "гори", "запалено", "оган", "пламен", "пожар", "топло"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("തീ"),
-			keywords: &[
-				"അഗ\u{d4d}നി",
-				"അഗ\u{d4d}നിബ\u{d3e}ധ",
-				"ജ\u{d4d}വ\u{d3e}ല",
-				"തീ",
-				"തീപിട\u{d41}ത\u{d4d}തം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang: "mn", tts: Some("гал"), keywords: &["гал", "гал хэрэгсэл"]
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("अग\u{94d}नी"),
-			keywords: &["अग\u{94d}नी", "आग", "ज\u{94d}वाला", "साधन"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("api"),
-			keywords: &["af", "alat", "kebakaran", "litaf", "menyala", "nyala api", "panas", "terbakar"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("nar"),
-			keywords: &["fjamma", "għodda", "nar"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မ\u{102e}း"),
-			keywords: &[
-				"တန\u{103a}ဆာပလာ",
-				"တ\u{1030}းလ\u{103a}",
-				"မ\u{102e}း",
-				"မ\u{102e}းလျ\u{103e}\u{1036}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("आगो"),
-			keywords: &["आगो", "ज\u{94d}वाला", "साधन"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("vuur"),
-			keywords: &["brand", "heet", "hulpmiddel", "vlam", "vuur"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("eld"), keywords: &["eld", "flamme"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ନ\u{b3f}ଆ\u{b01}"),
-			keywords: &["ଝ\u{b3e}ସ", "ନ\u{b3f}ଆ\u{b01}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਅ\u{a71}ਗ"),
-			keywords: &["ਅ\u{a71}ਗ", "ਔਜ\u{a3c}ਾਰ", "ਲਾਟ", "ਸਾੜਨਾ", "ਸ\u{a70}ਦ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("اگ"),
-			keywords: &["اوزار", "اگ", "شعلہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation { lang: "pcm", tts: Some("Fáya"), keywords: &["Fáya"] },
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("ogień"),
-			keywords: &["ogień", "pożar", "płomień"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("اور"), keywords: &["اله", "اور", "لمبه"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation { lang: "pt", tts: Some("fogo"), keywords: &["chama", "fogo"] },
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["chama", "fogo", "incêndio"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation { lang: "qu", tts: Some("nina"), keywords: &["llamkana", "nina"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("foc"),
-			keywords: &["arde", "arsură", "căldură", "fierbinte", "flacără", "flamă", "foc", "lumină"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-737"), keywords: &["E10-737"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("огонь"),
-			keywords: &["костер", "огонь", "очаг", "пламя"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umuriro"),
-			keywords: &["igikoresho", "umuriro", "urumuri"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang: "sd", tts: Some("باھ"), keywords: &["اوزار", "باھ", "لاٽ"]
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ග\u{dd2}න\u{dca}න"),
-			keywords: &["ග\u{dd2}න\u{dca}න", "ග\u{dd2}න\u{dd2} දැල\u{dca}ල", "මෙවලම"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("oheň"),
-			keywords: &["horenie", "horúci", "oheň", "plameň", "požiar", "prostriedok", "teplo"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("ogenj"),
-			keywords: &["ogenj", "orodje", "plamen", "vroče", "vročina"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dab"),
-			keywords: &["dab", "olol", "qalab"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zjarr"),
-			keywords: &["djeg", "flakë", "i nxehtë", "vegël", "zjarr"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("ватра"),
-			keywords: &["aлaт", "ватра", "гори", "плaмeн"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("vatra"),
-			keywords: &["alat", "gori", "plamen", "vatra"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("eld"),
-			keywords: &["brinner", "eld", "flamma"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("moto"),
-			keywords: &["choma", "moto", "mwale", "mwali", "zana"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &["moto", "mwale", "zana"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("த\u{bc0}"),
-			keywords: &["எரிதல\u{bcd}", "த\u{bc0}", "நெருப\u{bcd}பு"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("న\u{c3f}ప\u{c4d}పు"),
-			keywords: &[
-				"అగ\u{c4d}న\u{c3f}",
-				"క\u{c3e}లడం",
-				"టూల\u{c4d}",
-				"న\u{c3f}ప\u{c4d}పు",
-				"ఫ\u{c48}ర\u{c4d}",
-				"ఫ\u{c4d}ల\u{c47}మ\u{c4d}",
-				"బర\u{c4d}న\u{c4d}",
-				"మంట",
-				"వ\u{c47}డ\u{c3f}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("оташ"),
-			keywords: &["аланга", "асбоб", "оташ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang: "th", tts: Some("ไฟ"), keywords: &["เปลวไฟ", "ไฟ"]
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation { lang: "ti", tts: Some("ሓዊ"), keywords: &["ሓዊ", "ባርዕ"] },
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýangyn"),
-			keywords: &["alaw", "gural", "ýangyn"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("afi"), keywords: &["afi"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("ateş"),
-			keywords: &["alev", "ateş", "sıcak", "yakmak"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئوت"),
-			keywords: &["ئوت", "ئۇچقۇن", "قورال"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("вогонь"),
-			keywords: &["вогонь", "полум’я", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("آگ"),
-			keywords: &["آتش", "آلہ", "آگ", "اوزار", "جلانا", "جلنا", "شعلہ", "قدرت", "لو", "گرم", "گرمی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("olov"),
-			keywords: &["alanga", "asbob", "issiq", "olov", "yongʻin"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("lửa"),
-			keywords: &["dụng cụ", "lửa", "ngọn lửa"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("xal"),
-			keywords: &["flaam", "jumtukaay", "xal"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umlilo"),
-			keywords: &["isixhobo", "umlilo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Iná"),
-			keywords: &["Iná", "irinṣẹ\u{301}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Iná"),
-			keywords: &["Iná", "irinshɛ\u{301}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("火"), keywords: &["工具", "火", "火焰"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("火"),
-			keywords: &["工具", "火", "火焰"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("火焰"),
-			keywords: &["火", "火焰", "烧", "燃烧"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("火"),
-			keywords: &["火", "火焰", "火苗"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["火", "火焰", "熱", "燃燒"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("umlimo"),
-			keywords: &["ilangabi", "ithuluzi", "umlimo"],
-		},
-	],
 };
 #[doc = "💧"]
 pub const DROPLET: crate::Emoji = crate::Emoji {
@@ -20185,13 +19452,26 @@ pub const DROPLET: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🌊"]
-pub const WATER_WAVE: crate::Emoji = crate::Emoji {
-	glyph:                "🌊",
-	codepoint:            &[127754u32],
+#[doc = "☔\u{fe0f}"]
+pub const UMBRELLA_WITH_RAIN_DROPS: crate::Emoji = crate::Emoji {
+	glyph:                "☔\u{fe0f}",
+	codepoint:            &[9748u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "water wave",
+	name:                 "umbrella with rain drops",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌌"]
+pub const MILKY_WAY: crate::Emoji = crate::Emoji {
+	glyph:                "🌌",
+	codepoint:            &[127756u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "milky way",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::SkyWeather,
 	is_variant:           false,
@@ -20200,164 +19480,913 @@ pub const WATER_WAVE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("brander"),
+			tts:      Some("melkweg"),
 			keywords: &[
-				"brander",
-				"branderplank",
-				"branderplankry",
-				"branderplankryer",
-				"golf",
-				"natuur",
-				"oseaan",
-				"see",
-				"water",
+				"Melkweg",
+				"galaksie",
+				"melkweg",
+				"ruimte",
+				"sterre",
+				"sterrestelsel",
+				"swerm sterrestelsels",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ፍኖተ ሐሊብ"),
+			keywords: &["ህዋ", "ሚልኪዌ", "የአየር ንብረት", "ፍኖተ ሐሊብ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("درب التبانة"),
+			keywords: &["درب التبانة", "طبيعة", "فضاء", "مجرة", "نجوم"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("আক\u{9be}শীগঙ\u{9cd}গ\u{9be}"),
+			keywords: &["আক\u{9be}শীগঙ\u{9cd}গ\u{9be}", "মহ\u{9be}ক\u{9be}শ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("süd yolu"),
+			keywords: &["hava", "kosmos", "süd yolu"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("млечны шлях"),
+			keywords: &["космас", "млечны шлях", "надвор’е", "ноч"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Млечният път"),
+			keywords: &["Млечният път", "време", "космос"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("আক\u{9be}শগঙ\u{9cd}গ\u{9be}"),
+			keywords: &[
+				"আক\u{9be}শগঙ\u{9cd}গ\u{9be}",
+				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
+				"মহ\u{9be}ক\u{9be}শ",
+				"মিল\u{9cd}কিওয\u{9bc}ে",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("Hent-sant-Jakez"),
+			keywords: &["Hent-sant-Jakez", "egor"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("mliječni put"),
+			keywords: &["mliječni put", "svemir", "vrijeme"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("Via Làctia"),
+			keywords: &["Via Làctia", "espai", "temps"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏃᏈᏏ ᏂᏚᏍᏗᏓᏅ"),
+			keywords: &["ᎤᏟᏅᏛᎢ", "ᏃᏈᏏ ᏂᏚᏍᏗᏓᏅ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("mléčná dráha"),
+			keywords: &["Mléčná dráha", "galaxie", "mléčná dráha", "noc", "obloha", "vesmír"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("y llwybr llaethog"),
+			keywords: &["gofod", "tywydd", "y llwybr llaethog"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("mælkevejen"),
+			keywords: &["galakse", "mælkevejen"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Milchstraße"),
+			keywords: &["Galaxie", "Milchstraße", "Universum"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Milchstrasse"),
+			keywords: &["Galaxie", "Milchstrasse"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("γαλαξίας"),
+			keywords: &["γαλαξίας", "διάστημα", "καιρός"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("milky way"),
+			keywords: &["milky", "space", "way"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("Milky Way"),
+			keywords: &["Milky Way", "space"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("Milky Way"),
+			keywords: &["Milky", "Way", "space"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("Vía Láctea"),
+			keywords: &["espacio", "galaxia", "láctea", "vía"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["cielo", "espacio", "estrellas", "galaxia", "láctea", "vía"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("Linnutee"),
+			keywords: &["Linnutee", "kosmos", "tähed"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("esne-bidea"),
+			keywords: &["eguraldi", "esne-bidea", "espazio"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("راه شیری"),
+			keywords: &["آب\u{200c}وهوا", "آسمان", "راه شیری", "سپهر", "فضا"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("linnunrata"),
+			keywords: &["avaruus", "galaksi", "linnunrata", "sää"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("milky way"),
+			keywords: &["bituin", "galaxy", "kalawakan", "milky way"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("vetrarbreytin"),
+			keywords: &["mjólkarvegur", "rúmdin", "stjørnubreyt", "vetrarbreytin"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("voie lactée"),
+			keywords: &["espace", "voie lactée"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("Bealach na Bó Finne"),
+			keywords: &[
+				"An Láir Bhán",
+				"Bealach na Bó Finne",
+				"Claí Mór na Réaltaí",
+				"an Láir Bhán",
+				"bealach na bó finne",
+				"spás",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("Slighe Chlann Uisnich"),
+			keywords: &["Slighe Chlann Uisnich", "fànas", "speur"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("Vía Láctea"),
+			keywords: &["espazo", "estrelas", "noite"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("આકાશગ\u{a82}ગા"),
+			keywords: &[
+				"આકાશગ\u{a82}ગા",
+				"તારા",
+				"દ\u{ac2}ધિય\u{ac1}\u{a82}",
+				"નિહારિકા",
+				"રાત\u{acd}રી",
+				"સિતારા",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("hanyar sama"),
+			keywords: &[
+				"cincirundon taurari",
+				"hanyar sama",
+				"milky way",
+				"sarari",
+				"tashar samaniya",
+				"taurari",
+				"ɗangon taurari",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("hanyar sama"),
+			keywords: &[
+				"cincirundon taurari",
+				"hanyar sama",
+				"milky way",
+				"sarari",
+				"tashar samaniya",
+				"taurari",
+				"ɗangon taurari",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("שביל החלב"),
+			keywords: &["אסטרונומיה", "חלל", "כוכבים", "שביל החלב", "שמיים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("आकाशग\u{902}गा"),
+			keywords: &["अ\u{902}तरिक\u{94d}ष", "आकाशग\u{902}गा", "द\u{942}धिया"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("Mliječna staza"),
+			keywords: &["Kumova slama", "Mliječna staza", "Mliječni put", "svemir"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("tejút"),
+			keywords: &["Tejút", "Tejútrendszer", "csillagrendszer", "tejút", "világűr", "űr"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ծիր կաթին"),
+			keywords: &["եղանակ", "ծիր կաթին", "տիեզերք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("bima sakti"),
+			keywords: &["antariksa", "bima", "luar angkasa", "sakti"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ụzọ igwe kpakpando"),
+			keywords: &["oghere", "ụzọ igwe kpakpando"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("vetrarbrautin"),
+			keywords: &["geimurinn", "vetrarbrautin"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("Via Lattea"),
+			keywords: &["Via Lattea", "lattea", "nebulosa", "notte", "spazio", "stelle"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("天の川"),
+			keywords: &["ミルキーウェイ", "夜空", "天の川", "宇宙", "星空", "銀河"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("bima sekti"),
+			keywords: &["antariksa", "bima sekti"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ირმის ნახტომი"),
+			keywords: &["ამინდი", "ირმის ნახტომი", "კოსმოსი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("Құс жолы"),
+			keywords: &["ауа райы", "ғарыш", "Құс жолы"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("mælkevejen"),
+			keywords: &["galakse", "mælkevejen"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ល\u{17c6}ហរចក\u{17d2}រវាឡ"),
+			keywords: &["មេឃ", "ល\u{17c6}ហរ", "ល\u{17c6}ហរចក\u{17d2}រវាឡ", "អកាស"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಕ\u{ccd}ಷ\u{cc0}ರ ಪಥ"),
+			keywords: &[
+				"ಆಕಾಶ",
+				"ಕ\u{ccd}ಷ\u{cc0}ರ ಪಥ",
+				"ಕ\u{ccd}ಷ\u{cc0}ರಪಥ",
+				"ಬಾಹ\u{ccd}ಯಾಕಾಶ",
+				"ಮ\u{cbf}ಲ\u{ccd}ಕ\u{cbf} ವ\u{cc7}",
+				"ಹಾಲುಹಾದ\u{cbf}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("은하수"),
+			keywords: &["우주", "은하", "은하수", "행성"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("द\u{942}द ग\u{902}गा"),
+			keywords: &["अ\u{902}तराळ", "द\u{942}द ग\u{902}गा"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("саманчынын жолу"),
+			keywords: &["аба ырайы", "космос", "саманчынын жолу"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Mëllechstrooss"),
+			keywords: &["Mëllechstrooss", "Weltall"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ທາງຊ\u{ec9}າງເຜ\u{eb7}ອກ"),
+			keywords: &["ດາລາສາດ", "ດາວ", "ທາງຊ\u{ec9}າງເຜ\u{eb7}ອກ", "ອາວະກາດ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("paukščių takas"),
+			keywords: &["kosmosas", "paukščių takas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("Piena ceļš"),
+			keywords: &["Piena ceļš", "debesis", "kosmoss", "visums"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("ikarangi"),
+			keywords: &["ikarangi", "ātea"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("млечниот пат"),
+			keywords: &["време", "вселена", "млечен пат", "млечниот пат"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ആക\u{d3e}ശഗംഗ"),
+			keywords: &["ആക\u{d3e}ശഗംഗ", "മിൽക\u{d4d}കി വേ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("сүүн зам"),
+			keywords: &["сансар", "сүүн зам"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("आकाशग\u{902}गा"),
+			keywords: &[
+				"अ\u{902}तराळ",
+				"आकाशग\u{902}गा",
+				"चा\u{902}दण\u{902}",
+				"तार\u{947}",
+				"रात\u{94d}र",
+				"हवामान",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("bima sakti"),
+			keywords: &["angkasa lepas", "bima sakti", "cuaca"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("triq ta’ Sant’Anna"),
+			keywords: &["spazju", "triq ta’ Sant’Anna"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("နဂါးင\u{103d}ေ\u{1037}တန\u{103a}း"),
+			keywords: &["နဂါးင\u{103d}ေ\u{1037}တန\u{103a}း", "အာကာသ"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("आकाशग\u{902}गा"),
+			keywords: &["आकाशग\u{902}गा", "मौसम"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("melkweg"),
+			keywords: &["melkweg", "ruimte"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("mjølkevegen"),
+			keywords: &["galakse", "mjølkevegen", "verdsrommet"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଆକ\u{b3e}ଶଗଙ\u{b4d}ଗ\u{b3e}"),
+			keywords: &["ଆକ\u{b3e}ଶଗଙ\u{b4d}ଗ\u{b3e}", "ଛ\u{b3e}ୟ\u{b3e}ପଥ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਆਕਾਸ\u{a3c}ਗ\u{a70}ਗਾ"),
+			keywords: &["ਅਕਾਸ\u{a3c}", "ਆਕਾਸ\u{a3c}ਗ\u{a70}ਗਾ", "ਪ\u{a41}ਲਾੜ", "ਮ\u{a4c}ਸਮ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("کہکشاں"),
+			keywords: &["جگہ", "کہکشاں"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mílkí Wè"),
+			keywords: &["Mílkí Wè", "Spes"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("Droga Mleczna"),
+			keywords: &["Droga Mleczna", "gwiazdy", "niebo", "noc"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("کهکشان"), keywords: &["ځای", "کهکشان"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("via láctea"),
+			keywords: &["céu", "espaço", "estrelado", "via láctea"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["espaço", "via láctea"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("via lactea"),
+			keywords: &["kampu", "via lactea"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("Calea Lactee"),
+			keywords: &["Calea Lactee", "calea lactee", "constelație", "spațiu", "stele"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-211"), keywords: &["E10-211"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("Млечный Путь"),
+			keywords: &["Млечный Путь", "звезды", "космос", "молоко", "путь", "созвездие"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("inzira nyamata"),
+			keywords: &["inzira nyamata", "umwanya"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang: "sd", tts: Some("ڪهڪشان"), keywords: &["خلا", "ڪهڪشان"]
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ක\u{dca}ෂ\u{dd3}ර පථය"),
+			keywords: &["අභ\u{dca}\u{200d}යවක\u{dcf}ශය", "ක\u{dca}ෂ\u{dd3}ර පථය", "ක\u{dcf}ලග\u{dd4}ණය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("mliečna dráha"),
+			keywords: &["mliečna dráha", "noc", "nočná obloha", "obloha", "počasie", "vesmír"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("rimska cesta"),
+			keywords: &["rimska cesta", "vesolje", "vreme"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("habarjiid"),
+			keywords: &["dululaati", "habarjiid"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("rruga e qumështit"),
+			keywords: &["hapësirë", "moti", "rruga e qumështit"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("млечни пут"),
+			keywords: &["млечни", "пут", "свемир"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("млијечни пут"),
+			keywords: &["млијечни пут", "свeмир"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mlečni put"),
+			keywords: &["mlečni", "put", "svemir"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("mliječni put"),
+			keywords: &["mliječni put", "svemir"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("Vintergatan"),
+			keywords: &["Vintergatan", "galax", "rymden", "vintergatan"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kilimia"),
+			keywords: &["anga", "hali ya jewa", "hali ya jwa", "kilimia"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &["anga", "hali ya jewa", "kilimia"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பிரபஞ\u{bcd}சம\u{bcd}"),
+			keywords: &["அண\u{bcd}டம\u{bcd}", "இரவு", "ப\u{bbe}ல\u{bcd}வழி", "பிரபஞ\u{bcd}சம\u{bcd}"],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ప\u{c3e}లపుంత"),
+			keywords: &[
+				"అంతర\u{c3f}క\u{c4d}షం",
+				"ఆక\u{c3e}శం",
+				"నక\u{c4d}షత\u{c4d}రవ\u{c40}ధ\u{c3f}",
+				"ప\u{c3e}లపుంత",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("роҳи Каҳкашон"),
+			keywords: &["роҳи Каҳкашон", "фазо"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ทางช\u{e49}างเผ\u{e37}อก"),
+			keywords: &["ดาราจ\u{e31}กร", "ทางช\u{e49}างเผ\u{e37}อก", "อวกาศ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang: "ti", tts: Some("ሚልኪዌይ"), keywords: &["መገዲ", "ሚልኪ", "ጠፈር"]
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("Akmaýanyň ýoly"),
+			keywords: &["Akmaýanyň ýoly", "asman"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("kaniva"), keywords: &["kaniva"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("samanyolu"),
+			keywords: &["gökyüzü", "samanyolu", "uzay"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("سامان يولى"),
+			keywords: &["بوشلۇق", "سامان يولى"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("Чумацький шлях"),
+			keywords: &["Чумацький шлях", "космос", "погода", "чумацький шлях"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("کہکشاں"),
+			keywords: &["انجم", "تارے", "خلا", "ستارے", "فلک", "قدرت", "نجوم", "کواکب", "کہکشاں"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("somon yo‘li"),
+			keywords: &["fazo", "koinot", "ob-havo", "samo", "somon yo‘li"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("dải ngân hà"),
+			keywords: &["dải ngân hà", "vũ trụ"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("asamaan aki biddéew"),
+			keywords: &["asamaan aki biddéew", "espaas"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("umnyele wezulu"),
+			keywords: &["isithuba", "umnyele wezulu"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ọna Oniwara"),
+			keywords: &["ààyè", "Ọna Oniwara"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɔna Oniwara"),
+			keywords: &["ààyè", "Ɔna Oniwara"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("銀河"), keywords: &["太空", "銀河"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("银河"), keywords: &["太空", "银河"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("银河"),
+			keywords: &["太空", "星空", "银河"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("銀河"), keywords: &["星空", "銀河"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["太空", "宇宙", "銀河系"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("imilkhi weyi"),
+			keywords: &["imilkhi weyi", "isimo sezulu", "umkhathi"],
+		},
+	],
+};
+#[doc = "☂\u{fe0f}"]
+pub const UMBRELLA: crate::Emoji = crate::Emoji {
+	glyph:                "☂\u{fe0f}",
+	codepoint:            &[9730u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "umbrella",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🌂"]
+pub const CLOSED_UMBRELLA: crate::Emoji = crate::Emoji {
+	glyph:                "🌂",
+	codepoint:            &[127746u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "closed umbrella",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("opgevoude sambreel"),
+			keywords: &[
+				"bring jou sambreel",
+				"klere",
+				"opgevoude sambreel",
+				"reën",
+				"sambreel",
+				"voorsorg tref",
 				"weer",
 			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("የውሃ ሞገድ"),
-			keywords: &["ሞገድ", "ተንሳፋፊ", "ተፈጥሮ", "ካንጋዋ", "ውሃ", "ውቅያኖስ", "የአየር ንብረት", "የውሃ ሞገድ"],
+			tts:      Some("የታጠፈ ዣንጥላ"),
+			keywords: &["አልባሳት", "ክረምት", "ዝናብ", "ዣንጥላ", "የታጠፈ ዣንጥላ", "የአየር ሁኔታ", "የአየር ንብረት", "ጥላ"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("موجة"),
-			keywords: &[
-				"امواج",
-				"ركوب البحر",
-				"ركوب امواج",
-				"طبيعة",
-				"طقس",
-				"ماء",
-				"محيط",
-				"موجة",
-				"مياه",
-			],
+			tts:      Some("شمسية مغلقة"),
+			keywords: &["أمطار", "شتاء", "شتي", "شمسية", "شمسية مغلقة", "طقس", "مطر", "مظلة", "ملابس"],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("জল তৰঙ\u{9cd}গ"),
-			keywords: &["জল তৰঙ\u{9cd}গ", "তৰঙ\u{9cd}গ", "প\u{9be}নী", "মহ\u{9be}স\u{9be}গৰ"],
+			tts:      Some("বন\u{9cd}ধ ছ\u{9be}তি"),
+			keywords: &["ছ\u{9be}তি", "পোছ\u{9be}ক", "বন\u{9cd}ধ ছ\u{9be}তি", "বৰষ\u{9c1}ণ"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("su dalğası"),
-			keywords: &["dalğa", "hava", "okean", "su", "su dalğası", "sörfinq"],
+			tts:      Some("bağlı çətir"),
+			keywords: &["bağlı çətir", "geyim", "hava", "yağmur", "yağış", "çimərlik"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("хваля"),
-			keywords: &["акіян", "вада", "надвор’е", "хваля"],
+			tts:      Some("закрыты парасон"),
+			keywords: &["аксесуар", "дождж", "закрыты парасон", "надвор’е", "парасон"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("вълна"),
-			keywords: &["вода", "време", "вълна", "море", "океан", "сърфист"],
+			tts:      Some("затворен чадър"),
+			keywords: &["време", "дъжд", "затворен чадър", "облекло", "чадър"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("জল তরঙ\u{9cd}গ"),
+			tts:      Some("বন\u{9cd}ধ ছ\u{9be}ত\u{9be}"),
 			keywords: &[
 				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
-				"জল",
-				"জল তরঙ\u{9cd}গ",
-				"ঢেউ",
-				"প\u{9be}নি",
-				"মহ\u{9be}স\u{9be}গর",
-				"সম\u{9c1}দ\u{9cd}রের ঢেউ",
-				"স\u{9be}র\u{9cd}ফ\u{9be}র",
+				"ছ\u{9be}ত\u{9be}",
+				"পোশ\u{9be}ক",
+				"বন\u{9cd}ধ ছ\u{9be}ত\u{9be}",
+				"ব\u{9c3}ষ\u{9cd}টি",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("gwagenn"),
-			keywords: &["gwagenn", "meurvor", "mor"],
+			tts:      Some("disglavier serr"),
+			keywords: &["disglavier", "disglavier serr", "glav"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("val"),
-			keywords: &["more", "okean", "talas", "val", "voda"],
+			tts:      Some("zatvoren kišobran"),
+			keywords: &["asesoar", "kiša", "kišobran", "vrijeme", "zatvoren kišobran"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("onada"),
-			keywords: &["aigua", "mar", "natura", "oceà", "ona", "onada", "surf", "surfista"],
+			tts:      Some("paraigua tancat"),
+			keywords: &["paraigua", "pluja", "tancat"],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᎠᎹ ᎤᏔᎾ ᎠᏖᎸᏓ"),
-			keywords: &["ᎠᎹ", "ᎠᎹ ᎤᏔᎾ ᎠᏖᎸᏓ", "ᎠᎹ ᏓᎵᏍᏗᎳᏁᎬ", "ᎠᎺᏉᎢ"],
+			tts:      Some("ᎠᏍᏚᏅ ᎠᏓᏩᏗᏍᏙᏗ"),
+			keywords: &["ᎠᎦᏍᎩ", "ᎠᏍᏚᏅ ᎠᏓᏩᏗᏍᏙᏗ", "ᎠᏓᏩᏗᏍᏙᏗ", "ᏗᎿᏬᏍᏗ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("vodní vlna"),
-			keywords: &[
-				"Kanagawa",
-				"moře",
-				"oceán",
-				"počasí",
-				"příroda",
-				"surfař",
-				"surfařka",
-				"surfing",
-				"surfovat",
-				"tsunami",
-				"vlna",
-				"vlnobití",
-				"voda",
-				"vodní vlna",
-			],
+			tts:      Some("zavřený deštník"),
+			keywords: &["deštník", "déšť", "fialový", "oblečení", "paraple", "počasí", "zavřený deštník"],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("ton ddŵr"),
-			keywords: &["cefnfor", "dŵr", "ton", "ton ddŵr", "tywydd"],
+			tts:      Some("ymbarél ar gau"),
+			keywords: &["dillad", "glaw", "tywydd", "ymbarél", "ymbarél ar gau"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("bølge"),
-			keywords: &["bølge", "havbølge", "vandbølge"],
+			tts:      Some("lukket paraply"),
+			keywords: &["lukket paraply", "paraply", "regn", "regnvejr"],
 		},
 		#[cfg(feature = "de")]
-		crate::Annotation { lang: "de", tts: Some("Welle"), keywords: &["Meer", "Welle"] },
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("geschlossener Regenschirm"),
+			keywords: &["Geschlossener Regenschirm", "Regen", "Regenschirm", "geschlossener Regenschirm"],
+		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("θαλάσσιο κύμα"),
-			keywords: &[
-				"αφρός κυμάτων",
-				"θαλάσσιο κύμα",
-				"καιρός",
-				"κύμα",
-				"σέρφερ",
-				"σέρφινγκ",
-				"σερφ",
-				"φύση",
-				"ψηλό κύμα",
-				"ωκεανός",
-			],
+			tts:      Some("κλειστή ομπρέλα"),
+			keywords: &["βροχή", "ενδυμασία", "καιρός", "κλειστή ομπρέλα", "ομπρέλα"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("water wave"),
-			keywords: &["nature", "ocean", "surf", "surfer", "surfing", "water", "wave"],
+			tts:      Some("closed umbrella"),
+			keywords: &["closed", "clothing", "rain", "umbrella"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -20370,742 +20399,713 @@ pub const WATER_WAVE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("ola de mar"),
-			keywords: &["mar", "océano", "ola", "ola de mar"],
+			tts:      Some("paraguas cerrado"),
+			keywords: &["accesorios", "lluvia", "paraguas", "paraguas cerrado"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("ola"),
+			tts:      Some("paraguas"),
 			keywords: &[
-				"agua",
-				"azul",
-				"mar",
-				"naturaleza",
-				"oceano",
-				"océano",
-				"ola",
-				"ola de mar",
-				"ola oceánica",
-				"surf",
+				"accesorios",
+				"clima",
+				"lluvia",
+				"lluvioso",
+				"paraguas",
+				"paraguas cerrado",
+				"sombrilla",
 			],
 		},
 		#[cfg(feature = "es_MX")]
 		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("paraguas cerrado"),
+			keywords: &["lluvia", "paraguas", "paraguas cerrado", "ropa"],
+		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("veelaine"),
-			keywords: &["ilm", "laine", "meri", "ookean", "veelaine", "vesi"],
+			tts:      Some("suletud vihmavari"),
+			keywords: &["ilm", "riided", "suletud vihmavari", "vihm", "vihmavari"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("olatua"),
-			keywords: &["eguraldi", "olatu", "olatua", "ozeano", "ur"],
+			tts:      Some("aterki itxia"),
+			keywords: &["arropa", "aterki", "aterki itxia", "eguraldi", "euri"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("موج آب"),
-			keywords: &["آب", "آب\u{200c}وهوا", "اقیانوس", "موج"],
+			tts:      Some("چتر بسته"),
+			keywords: &["آب\u{200c}وهوا", "باران", "پوشاک", "چتر", "چتر بسته"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("aalto"),
-			keywords: &["aalto", "meri", "tyrsky", "valtameri", "vesi"],
+			tts:      Some("suljettu sateenvarjo"),
+			keywords: &["asuste", "sade", "sateenvarjo", "suljettu sateenvarjo", "sää"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("alon"),
-			keywords: &["alon", "dagat", "karagatan", "lagay ng panahon", "tsunami"],
+			tts:      Some("nakasarang payong"),
+			keywords: &[
+				"kagamitan",
+				"lagay ng panahon",
+				"mainit",
+				"maulan",
+				"nakasarang payong",
+				"panahon",
+				"payong",
+				"ulan",
+			],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("alda"),
-			keywords: &["alda", "brim", "sjógvur"],
+			tts:      Some("afturlatin paraplý"),
+			keywords: &["afturlatin paraplý", "paraplý", "regnskjól"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("vague"),
-			keywords: &[
-				"Kanagawa", "eau", "lame", "large", "marée", "mer", "nature", "océan", "remous", "rouleau",
-				"surf", "vague",
-			],
+			tts:      Some("parapluie fermé"),
+			keywords: &["météo", "parapluie", "parapluie fermé", "pluie"],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
 			tts:      Some("↑↑↑"),
-			keywords: &["eau", "mer", "océan", "vague"],
+			keywords: &["fermé", "parapluie", "pluie", "vêtement"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("tonn san uisce"),
+			tts:      Some("scáth báistí dúnta"),
 			keywords: &[
-				"Kanagawa",
-				"farraige",
-				"muir",
-				"surfálaí",
-				"tonn",
-				"tonn san uisce",
-				"tonnmharcaíocht",
-				"uisce",
+				"báiste",
+				"báisteach",
+				"fearthainn",
+				"scáth báistí",
+				"scáth báistí dúnta",
+				"scáth fearthainne",
+				"scáth fearthainne dúnta",
 			],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("stuagh"),
-			keywords: &["cuan", "stuagh", "tonn", "uisge"],
+			tts:      Some("sgàilean-uisge dùinte"),
+			keywords: &["aodach", "sgàilean", "sgàilean-uisge dùinte", "uisge"],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("onda"),
-			keywords: &["mar", "océano", "onda", "onda do mar", "onda do océano"],
+			tts:      Some("paraugas pechado"),
+			keywords: &["choiva", "paraugas", "paraugas pechado", "pingas"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("પાણીની લહ\u{ac7}ર"),
+			tts:      Some("બ\u{a82}ધ છત\u{acd}રી"),
 			keywords: &[
-				"ક\u{ac1}દરત",
-				"તર\u{a82}ગ",
-				"દરિયાન\u{ac1} મોજ\u{ac1}\u{a82}",
-				"દરીયો",
-				"નીર",
-				"પવન",
-				"પાણી",
-				"પાણીની લહ\u{ac7}ર",
-				"મહાસાગર",
-				"મોજા\u{a82}",
-				"લહ\u{ac7}ર",
-				"સમ\u{ac1}દ\u{acd}ર",
-				"સમ\u{ac1}દ\u{acd}રની લહ\u{ac7}ર",
-				"સાગર",
-				"હવા",
+				"છત\u{acd}રી",
+				"બ\u{a82}ધ છત\u{acd}રી",
+				"મોસમ",
+				"વરસાદ",
+				"વરસાદી",
+				"વર\u{acd}ષા",
+				"વાદળા",
+				"શ\u{acd}રાવણ",
+				"સાવન",
 			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("igiyar ruwa"),
-			keywords: &["igiya", "igiyar ruwa", "ruwa", "teku", "wasan kan igiyar ruwa", "yanayi"],
+			tts:      Some("rufaffiyar laima"),
+			keywords: &["laima", "lema", "rufaffiyar laima", "ruwa", "ruwan sama", "sutura"],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("igiyar ruwa"),
-			keywords: &["igiya", "igiyar ruwa", "ruwa", "teku", "wasan kan igiyar ruwa", "yanayi"],
+			tts:      Some("rufaffiyar laima"),
+			keywords: &["laima", "lema", "rufaffiyar laima", "ruwa", "ruwan sama", "sutura"],
 		},
 		#[cfg(feature = "he")]
-		crate::Annotation { lang: "he", tts: Some("גל"), keywords: &["גל", "ים", "סערה"] },
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מטריה סגורה"),
+			keywords: &["גשם", "חורף", "מטריה", "מטריה סגורה"],
+		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("सम\u{941}द\u{94d}र की लहर"),
-			keywords: &["तर\u{902}ग", "पानी की लहर", "महासागर", "लहर", "सम\u{941}द\u{94d}र की लहर"],
+			tts:      Some("ब\u{902}द छाता"),
+			keywords: &["छाता", "ब\u{902}द छाता", "बारिश", "वर\u{94d}षा"],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("vodeni val"),
-			keywords: &["more", "ocean", "val", "voda", "vodeni val", "vrijeme"],
+			tts:      Some("zatvoreni kišobran"),
+			keywords: &["kiša", "kišobran", "odjeća", "vrijeme", "zatvoreni kišobran"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("vízhullám"),
-			keywords: &["hullám", "hullám a vízen", "időjárás", "tenger", "víz", "vízhullám", "óceán"],
+			tts:      Some("becsukott esernyő"),
+			keywords: &["becsukott esernyő", "ernyő", "esernyő", "eső", "időjárás", "kiegészítő"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("ջրի ալիք"),
-			keywords: &["ծով", "ջուր", "ջրի ալիք", "օվկիանոս"],
+			tts:      Some("փակ անձրևանոց"),
+			keywords: &["անձրև", "անձրևանոց", "եղանակ", "հագուստ", "փակ անձրևանոց"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("ombak"),
-			keywords: &[
-				"air",
-				"alam",
-				"berselancar",
-				"gelombang",
-				"laut",
-				"ombak",
-				"peselancar",
-				"samudra",
-				"selancar",
-			],
+			tts:      Some("payung tertutup"),
+			keywords: &["cuaca", "hujan", "pakaian", "payung", "payung tertutup"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ìkùkù mmiri"),
-			keywords: &["ebili", "mmiri", "oké osimiri", "sọfụ", "ịkwọ ụgbọ mmiri", "ọdịdị"],
+			tts:      Some("ụmbrali mechiri emechi"),
+			keywords: &["akwà", "mechiri emechi", "mmiri òzùzò", "ụmbralị"],
 		},
 		#[cfg(feature = "is")]
-		crate::Annotation { lang: "is", tts: Some("alda"), keywords: &["alda", "bylgja"] },
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("lokuð regnhlíf"),
+			keywords: &[
+				"klæðnaður",
+				"lokuð regnhlíf",
+				"regnhlíf",
+				"rigning",
+				"samanlögð regnhlíf",
+				"veður",
+			],
+		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("onda"),
-			keywords: &[
-				"acqua",
-				"la grande onda",
-				"mare",
-				"natura",
-				"oceano",
-				"onda",
-				"onda del mare",
-				"onda d’acqua",
-				"surf",
-			],
+			tts:      Some("ombrello chiuso"),
+			keywords: &["meteo", "ombrello chiuso", "pioggia", "piovere"],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("波"),
-			keywords: &["天気", "波", "波浪", "海", "自然"],
+			tts:      Some("閉じた傘"),
+			keywords: &["傘", "天気", "持ち物", "閉じた傘", "雨"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("ombak banyu"),
-			keywords: &["banyu", "ombak", "segara"],
+			tts:      Some("payung mingkup"),
+			keywords: &["payung", "payung mingkup", "sandhangan", "udan"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("წყლის ტალღა"),
-			keywords: &["ამინდი", "ოკეანე", "ტალღა", "წყალი", "წყლის ტალღა"],
+			tts:      Some("დახურული ქოლგა"),
+			keywords: &["ამინდი", "დახურული ქოლგა", "ტანსაცმელი", "ქოლგა", "წვიმა"],
 		},
 		#[cfg(feature = "kab")]
 		crate::Annotation {
 			lang:     "kab",
-			tts:      Some("lmuja n waman"),
-			keywords: &["lmuja n waman"],
+			tts:      Some("ssiwan imedlen"),
+			keywords: &["ssiwan imedlen"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("толқын"),
-			keywords: &["ауа райы", "мұхит", "серфинг", "су", "табиғат", "толқын"],
+			tts:      Some("жабылған қолшатыр"),
+			keywords: &["ауа райы", "жабылған қолшатыр", "жаңбыр", "кию", "қол шатыр", "қолшатыр"],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("bølge"),
-			keywords: &["bølge", "havbølge", "vandbølge"],
+			tts:      Some("lukket paraply"),
+			keywords: &["lukket paraply", "regn", "regnvejr"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("រលក"),
-			keywords: &["ទ\u{17b9}ក", "រលក", "សម\u{17bb}ទ\u{17d2}រ"],
+			tts:      Some("ឆត\u{17d2}រប\u{17b7}ទ"),
+			keywords: &["ឆត\u{17d2}រ", "ឆត\u{17d2}រប\u{17b7}ទ", "ប\u{17b7}ទ"],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ನ\u{cc0}ರ\u{cbf}ನ ಅಲ\u{cc6}"),
+			tts:      Some("ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಛತ\u{ccd}ರ\u{cbf}"),
 			keywords: &[
-				"ಅಲ\u{cc6}",
-				"ಕನಗಾವಾ ಪ\u{ccd}ರಾಂತ\u{ccd}ಯ",
-				"ನ\u{cc0}ರ\u{cbf}ನ ಅಲ\u{cc6}",
-				"ನ\u{cc0}ರು",
-				"ಪ\u{ccd}ರಕೃತ\u{cbf}",
-				"ಸಮುದ\u{ccd}ರ",
-				"ಸರ\u{ccd}ಫ\u{cbf}ಂಗ\u{ccd}",
-				"ಸಾಗರದ ಅಲ\u{cc6}",
+				"ಉಡುಪು",
+				"ಕ\u{cca}ಡ\u{cc6}",
+				"ಛತ\u{ccd}ರ\u{cbf}",
+				"ಮಳ\u{cc6}",
+				"ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಕ\u{cca}ಡ\u{cc6}",
+				"ಮುಚ\u{ccd}ಚ\u{cbf}ದ ಛತ\u{ccd}ರ\u{cbf}",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("파도"),
-			keywords: &["물결", "바다", "서퍼", "서핑", "서핑하는 사람", "자연", "파도", "풍랑"],
+			tts:      Some("접힌 우산"),
+			keywords: &["비", "우산", "접힌 우산"],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("उदकाचो तर\u{902}ग"),
-			keywords: &["उदक", "उदकाचो तर\u{902}ग", "तर\u{902}ग", "म\u{94d}हासागर"],
+			tts:      Some("धा\u{902}पिल\u{94d}ली सत\u{94d}री"),
+			keywords: &["कपड\u{947}", "धा\u{902}पिल\u{94d}ली सत\u{94d}री", "पावस", "सत\u{94d}री"],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("суу толкуну"),
-			keywords: &["океан", "суу", "суу толкуну", "толкун"],
+			tts:      Some("жабылган кол чатыр"),
+			keywords: &["аба ырайы", "жабылган кол чатыр", "жамгыр", "кийим", "кол чатыр"],
 		},
 		#[cfg(feature = "lb")]
 		crate::Annotation {
 			lang:     "lb",
-			tts:      Some("Waasserwell"),
-			keywords: &["Ozean", "Waasser", "Waasserwell", "Well"],
+			tts:      Some("zoue Prabbeli"),
+			keywords: &["Kleedung", "Prabbeli", "Reen", "zoue Prabbeli"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ຄ\u{eb7}\u{ec9}ນນ\u{ecd}\u{ec9}າ"),
-			keywords: &["ຄ\u{eb7}\u{ec9}ນທະເລ", "ຄ\u{eb7}\u{ec9}ນນ\u{ecd}\u{ec9}າ", "ທະເລ"],
+			tts:      Some("ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມງ\u{eb1}ບໄວ\u{ec9}"),
+			keywords: &[
+				"ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມ",
+				"ຄ\u{eb1}ນຮ\u{ebb}\u{ec8}ມງ\u{eb1}ບໄວ\u{ec9}",
+				"ຝ\u{ebb}ນ",
+				"ສະພາບອາກາດ",
+			],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("vandens banga"),
-			keywords: &["banga", "banglentininkas", "gamta", "vandens banga", "vandenynas", "vanduo"],
+			tts:      Some("suskleistas skėtis"),
+			keywords: &["drabužiai", "lietus", "skėtis", "suskleistas skėtis"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("vilnis"),
-			keywords: &["daba", "jūra", "okeāns", "vilnis", "ūdens"],
+			tts:      Some("aizvērts lietussargs"),
+			keywords: &["aizvērts", "lietus", "lietussargs"],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("ngaru wai"),
-			keywords: &["moana", "ngaru", "wai"],
+			tts:      Some("hāmarara kopi"),
+			keywords: &["hāmarara", "hāmarara kopi", "kākahu", "ua"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("бран"),
-			keywords: &["бран", "вода", "воден бран", "време", "океан", "природа", "сурфање", "сурфер"],
+			tts:      Some("затворен чадор"),
+			keywords: &["време", "дожд", "затворен чадор", "чадор"],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("തിരമ\u{d3e}ല"),
-			keywords: &["കടൽ", "ക\u{d3e}ല\u{d3e}വസ\u{d4d}ഥ", "തരംഗം", "തിരമ\u{d3e}ല"],
+			tts:      Some("അടച\u{d4d}ച ക\u{d41}ട"),
+			keywords: &["അടച\u{d4d}ച ക\u{d41}ട", "ക\u{d41}ട", "മഴ", "വർഷക\u{d4d}ക\u{d3e}ലം"],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("усны давлагаа"),
-			keywords: &["давлагаа", "далай", "ус", "усны давлагаа"],
+			tts:      Some("нээгээгүй шүхэр"),
+			keywords: &["бороо", "нээгээгүй шүхэр", "цаг агаар", "шүхэр"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("पाण\u{94d}याची लाट"),
-			keywords: &["पाणी", "पाण\u{94d}याची लाट", "महासागर", "महासागराची लाट", "लाट"],
+			tts:      Some("ब\u{902}द क\u{947}ल\u{947}ली छत\u{94d}री"),
+			keywords: &[
+				"कपड\u{947}",
+				"छत\u{94d}री",
+				"पाऊस",
+				"पावसाळी",
+				"ब\u{902}द क\u{947}ल\u{947}ली छत\u{94d}री",
+			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("ombak laut"),
-			keywords: &[
-				"air",
-				"alam semula jadi",
-				"cuaca",
-				"laut",
-				"lautan",
-				"luncur air",
-				"ombak",
-				"pelayar",
-				"peluncur",
-			],
+			tts:      Some("payung tertutup"),
+			keywords: &["cuaca", "hujan", "pakaian", "payung", "payung tertutup"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("mewġa ilma"),
-			keywords: &["ilma", "mewġa", "oċean"],
+			tts:      Some("umbrella magħluqa"),
+			keywords: &["umbrella", "umbrella magħluqa", "xita", "ħwejjeġ"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("ရေလ\u{103e}\u{102d}\u{102f}င\u{103a}း"),
-			keywords: &["ရေ", "ရေလ\u{103e}\u{102d}\u{102f}င\u{103a}း", "သမ\u{102f}ဒ\u{1039}ဒရာ"],
+			tts:      Some("ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} ထ\u{102e}း"),
+			keywords: &[
+				"ဆောင\u{103a}းစရာ",
+				"ထ\u{102e}း",
+				"ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} ထ\u{102e}း",
+				"မ\u{102d}\u{102f}း",
+			],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("पानीको छाल"),
-			keywords: &["छाल", "पानी", "पानीको छाल", "सम\u{941}द\u{94d}र"],
+			tts:      Some("बन\u{94d}द गर\u{947}को छाता"),
+			keywords: &["कपडा", "छाता", "बन\u{94d}द गर\u{947}को छाता", "मौसम", "वर\u{94d}षा"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("golf"),
-			keywords: &[
-				"Japan",
-				"Kanagawa",
-				"golf",
-				"golfsurfen",
-				"golven",
-				"oceaan",
-				"surfen",
-				"water",
-				"weer",
-				"zee",
-			],
+			tts:      Some("ingevouwen paraplu"),
+			keywords: &["dichte paraplu", "ingevouwen paraplu", "kleding", "paraplu", "regen", "weer"],
 		},
 		#[cfg(feature = "nn")]
 		crate::Annotation {
 			lang:     "nn",
-			tts:      Some("bølgje"),
-			keywords: &["bølgje", "hav", "vatn"],
+			tts:      Some("lukka paraply"),
+			keywords: &["lukka paraply", "regn", "regnvêr"],
 		},
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ଜଳ ତରଙ\u{b4d}ଗ"),
+			tts:      Some("ବନ\u{b4d}ଦ ଥ\u{b3f}ବ\u{b3e} ଛତ\u{b3e}"),
 			keywords: &[
-				"ଜଳ ତରଙ\u{b4d}ଗ",
-				"ପ\u{b3e}ଣ\u{b3f} ଲହଡ\u{b3c}\u{b3f}",
-				"ଲହଡ\u{b3c}\u{b3f}",
-				"ସ\u{b3e}ଗର ଲହଡ\u{b3c}\u{b3f}",
+				"ଛତ\u{b3e}",
+				"ବନ\u{b4d}ଦ ଥ\u{b3f}ବ\u{b3e} ଛତ\u{b3e}",
+				"ବର\u{b4d}ଷ\u{b3e}",
+				"ବର\u{b4d}ଷ\u{b3e} ଦ\u{b3f}ନ\u{b3f}ଆ",
 			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਪਾਣੀ ਦੀ ਲਹਿਰ"),
-			keywords: &[
-				"ਕ\u{a41}ਦਰਤ",
-				"ਪਾਣੀ ਦੀ ਲਹਿਰ",
-				"ਮ\u{a4c}ਸਮ",
-				"ਲਹਿਰ",
-				"ਸਮ\u{a41}\u{a70}ਦਰ",
-				"ਸਰਫ\u{a3c}",
-				"ਸਾਗਰ",
-			],
+			tts:      Some("ਬ\u{a70}ਦ ਛ\u{a71}ਤਰੀ"),
+			keywords: &["ਛ\u{a71}ਤਰੀ", "ਬਰਸਾਤ", "ਬ\u{a70}ਦ ਛ\u{a71}ਤਰੀ", "ਮੀ\u{a02}ਹ", "ਮ\u{a4c}ਸਮ"],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("پانی دی لہر"),
-			keywords: &["سمندر", "لہر", "پانی", "پانی دی لہر"],
+			tts:      Some("بند چھتری"),
+			keywords: &["بند چھتری", "مینہ", "چھتری", "کپڑے"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Wọtá Wev"),
-			keywords: &["Bíg-Díp-Wọtá", "Wev", "Wọtá", "Óshẹn"],
+			tts:      Some("Klóz Ọ\u{301}mbrẹ\u{301}la"),
+			keywords: &["Klóz Ọ\u{301}mbrẹ\u{301}la", "Klọt", "Ren", "Ọ\u{301}mbrẹ\u{301}la"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("fala"),
-			keywords: &[
-				"fala",
-				"fale",
-				"hokusai",
-				"kanagawa",
-				"morze",
-				"obraz",
-				"ocean",
-				"tsunami",
-				"wielka fala",
-			],
+			tts:      Some("złożony parasol"),
+			keywords: &["deszcz", "parasolka", "pogoda", "złożona", "złożony parasol"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("د اوبو څپه"),
-			keywords: &["اوبه", "بحر", "د اوبو څپه", "څپه"],
+			tts:      Some("تړل شوي چترۍ"),
+			keywords: &["باران", "تړل شوي چترۍ", "تړل شوې چترۍ", "چترۍ", "کالي"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("onda"),
-			keywords: &["onda", "onda de água", "onda do oceano", "tsunami"],
+			tts:      Some("guarda-chuva fechado"),
+			keywords: &["chuva", "chuvoso", "guarda-chuva", "guarda-chuva fechado"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
 			tts:      Some("↑↑↑"),
-			keywords: &["meteorologia", "natureza", "oceano", "onda", "surf", "surfar", "água"],
+			keywords: &["acessório", "chuva", "guarda-chuva", "guarda-chuva fechado", "meteorologia"],
 		},
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("yaku wallcha"),
-			keywords: &["mama qucha", "wallcha", "yaku"],
+			tts:      Some("wichqasqa para achiwa"),
+			keywords: &["para", "para achiwa", "pʼacha", "wichqasqa para achiwa"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("val"),
-			keywords: &["apă", "mare", "natură", "ocean", "surf", "surfer", "val"],
+			tts:      Some("umbrelă închisă"),
+			keywords: &["accesoriu", "ploaie", "strâns", "umbrelă", "umbrelă închisă"],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-209"), keywords: &["E10-209"] },
+		crate::Annotation { lang: "root", tts: Some("E10-201"), keywords: &["E10-201"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("волна"),
-			keywords: &["вода", "волна", "море", "морская пена", "океан", "серфинг"],
+			tts:      Some("закрытый зонт"),
+			keywords: &["дождь", "закрытый зонт", "зонт", "зонтик", "осадки"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("umuvumba w’amazi"),
-			keywords: &["amazi", "inyanja", "umuvumba", "umuvumba w’amazi"],
+			tts:      Some("umutaka ufunze"),
+			keywords: &["imvura", "umutaka", "umutaka ufunze", "umwambaro"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("پاڻي جي لهر"),
-			keywords: &["سمنڊ", "لهر", "پاڻي", "پاڻي جي لهر"],
+			tts:      Some("بند ڇتي"),
+			keywords: &["برسات", "بند ڇتي", "لباس", "ڇٽي"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("ද\u{dd2}ය රැල\u{dca}ල"),
-			keywords: &["ක\u{dcf}ලග\u{dd4}ණය", "ජලය", "ද\u{dd2}ය රැල\u{dca}ල", "ම\u{dd4}හ\u{dd4}ද", "රළ"],
+			tts:      Some("අක\u{dd4}ළන ලද ක\u{dd4}ඩය"),
+			keywords: &[
+				"අක\u{dd4}ළන ලද ක\u{dd4}ඩය",
+				"ක\u{dcf}ලග\u{dd4}ණය",
+				"ක\u{dd4}ඩය",
+				"රෙද\u{dd2}ප\u{dd2}ළ\u{dd2}",
+				"වැස\u{dca}ස",
+			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("morská vlna"),
-			keywords: &[
-				"Kanagawa",
-				"cunami",
-				"morská vlna",
-				"oceán",
-				"počasie",
-				"surf",
-				"surfovať",
-				"vlna",
-				"voda",
-			],
+			tts:      Some("zatvorený dáždnik"),
+			keywords: &["dáždnik", "dážď", "fialový", "oblečenie", "počasie", "zatvorený dáždnik"],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("vodni val"),
-			keywords: &["morje", "val", "voda", "vodni val", "vreme"],
+			tts:      Some("zaprt dežnik"),
+			keywords: &["dež", "dežnik", "oblačila", "vreme", "zaprt dežnik"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("hirka biyaha"),
-			keywords: &["badweyn", "hirka biyaha"],
+			tts:      Some("dallad xiran"),
+			keywords: &["dallad", "dallad daboolan", "dallad xiran", "dhar", "roob"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("dallgë uji"),
-			keywords: &["dallgë", "dallgë uji", "moti", "natyrë", "oqean", "sërf", "ujë"],
+			tts:      Some("çadër e mbyllur"),
+			keywords: &["moti", "shi", "veshje", "çadër", "çadër e mbyllur"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("талас"),
-			keywords: &["вода", "океан", "природа", "сурфер", "сурфовање", "талас"],
+			tts:      Some("затворени кишобран"),
+			keywords: &["затворено", "киша", "кишобран", "одећа"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["затворени кишобран", "кишa", "кишoбрaн", "одјећа"],
+		},
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("talas"),
-			keywords: &["okean", "priroda", "surfer", "surfovanje", "talas", "voda"],
+			tts:      Some("zatvoreni kišobran"),
+			keywords: &["kiša", "kišobran", "odeća", "zatvoreno"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["kiša", "kišobran", "odjeća", "zatvoreni kišobran"],
+		},
 		#[cfg(feature = "sv")]
-		crate::Annotation { lang: "sv", tts: Some("våg"), keywords: &["havsvåg", "våg"] },
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("hopfällt paraply"),
+			keywords: &["hopfällt paraply", "paraply"],
+		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("wimbi la maji"),
-			keywords: &["bahari", "maji", "wimbi la maji", "wimbi’ hali ya hewa"],
+			tts:      Some("mwavuli uliokunjwa"),
+			keywords: &["hali ya hewa", "mavazi", "mvua", "mwavuli", "mwavuli uliokunjwa"],
 		},
 		#[cfg(feature = "sw_KE")]
 		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("கடலலை"),
-			keywords: &[
-				"அலை",
-				"அலை ஓசை",
-				"கடலலை",
-				"கடல\u{bcd} அலை",
-				"சர\u{bcd}ஃபிங\u{bcd}",
-				"ச\u{bc0}ற\u{bcd}றம\u{bcd}",
-				"ந\u{bc0}ரலை",
-			],
+			tts:      Some("மூடிய குடை"),
+			keywords: &["குடை", "மழை", "மூடிய குடை", "வெயில\u{bcd}"],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("సముద\u{c4d}రపు అల"),
+			tts:      Some("మూస\u{c3f}వ\u{c47}స\u{c3f}న గ\u{c4a}డుగు"),
 			keywords: &[
-				"అల",
-				"కనగ\u{c3e}వ\u{c3e}",
-				"క\u{c46}రటం",
-				"న\u{c40}ట\u{c3f} అల",
-				"న\u{c40}రు",
-				"ప\u{c4d}రకృత\u{c3f}",
-				"సముద\u{c4d}రం",
-				"సముద\u{c4d}రపు అల",
-				"సర\u{c4d}ఫర\u{c4d}",
-				"సర\u{c4d}ఫ\u{c4d}",
+				"గ\u{c4a}డుగు",
+				"మూయబడ\u{c3f}న",
+				"మూస\u{c3f}వ\u{c47}స\u{c3f}న గ\u{c4a}డుగు",
+				"వర\u{c4d}షం",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("мавҷи об"),
-			keywords: &["мавҷ", "мавҷи об", "об", "уқёнус"],
+			tts:      Some("чатри пӯшида"),
+			keywords: &["борон", "либос", "чатр", "чатри пӯшида"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("คล\u{e37}\u{e48}น"),
-			keywords: &["คล\u{e37}\u{e48}น", "คล\u{e37}\u{e48}นทะเล"],
+			tts:      Some("ร\u{e48}มห\u{e38}บ"),
+			keywords: &["ฝน", "ร\u{e48}ม", "เส\u{e37}\u{e49}อผ\u{e49}า"],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ማዕበል ማይ"),
-			keywords: &["ማዕበል", "ማይ", "ሰርፈር", "ሰርፊንግ", "ሰርፍ", "ተፈጥሮ", "ውቅያኖስ"],
+			tts:      Some("ዕጹው ጽላል"),
+			keywords: &["ተዓጽዩ", "ክዳውንቲ", "ዝናብ ዝዘንብ", "ጽላል"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("suw tolkuny"),
-			keywords: &["suw", "suw tolkuny", "tolkun", "umman"],
+			tts:      Some("ýapyk saýawan"),
+			keywords: &["eşik", "saýawan", "ýagyş", "ýapyk saýawan"],
 		},
 		#[cfg(feature = "to")]
 		crate::Annotation {
 			lang:     "to",
-			tts:      Some("peau"),
-			keywords: &["moana", "peau", "tahi"],
+			tts:      Some("tukuhifo fakamalu"),
+			keywords: &["fakamalu", "tukuhifo fakamalu"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("dalga"),
-			keywords: &["dalga", "okyanus dalgası", "su dalgası", "sörf"],
+			tts:      Some("kapalı şemsiye"),
+			keywords: &["kapalı şemsiye", "yağmur", "yağmurlu", "şemsiye"],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
 			lang:     "ug",
-			tts:      Some("سۇ دولقۇنى"),
-			keywords: &["ئوكيان", "دولقۇن", "سۇ", "سۇ دولقۇنى"],
+			tts:      Some("يېپىق كۈنلۈك"),
+			keywords: &["كىيىم", "كۈنلۈك", "يامغۇر", "يېپىق كۈنلۈك"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("хвиля"),
-			keywords: &["вода", "океан", "погода", "хвиля"],
+			tts:      Some("складена парасолька"),
+			keywords: &["дощ", "одяг", "парасолька", "погода", "складена парасолька"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("پانی کی لہر"),
+			tts:      Some("بند چھتری"),
 			keywords: &[
-				"اپھنتا سمندر",
-				"ترنگ",
-				"دریہ",
-				"ساحل",
-				"سمندر",
-				"قدرت",
-				"لہر",
-				"موج",
-				"موج\u{650} دریہ",
-				"موج\u{650} ساحل",
+				"اشیاء",
+				"بارش",
+				"برسات",
+				"بند چھتری",
+				"ساون",
+				"سایہ",
 				"موسم",
-				"پانی",
-				"پانی کی لہر",
-				"کناگوا",
+				"چھتری",
+				"چھتڑی",
+				"چیز",
 			],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("suv to‘lqini"),
-			keywords: &[
-				"ob-havo",
-				"okean",
-				"qirgʻoq toʻlqini",
-				"suv",
-				"suv to‘lqini",
-				"to‘lqin",
-				"ummon",
-			],
+			tts:      Some("yopiq soyabon"),
+			keywords: &["kiyim", "ob-havo", "soyabon", "yomg‘ir", "yopiq soyabon"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("sóng nước"),
-			keywords: &["nước", "sóng", "đại dương"],
+			tts:      Some("ô đã đóng"),
+			keywords: &["chiếc ô", "mưa", "quần áo", "ô đã đóng"],
 		},
 		#[cfg(feature = "wo")]
 		crate::Annotation {
 			lang:     "wo",
-			tts:      Some("duusu ndox"),
-			keywords: &["duusu ndox", "ndox", "oseyaŋ", "tàllal"],
+			tts:      Some("parasol bu tëju"),
+			keywords: &["parasol", "parasol bu tëju", "taw", "yéere"],
 		},
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("iliza lamanzi"),
-			keywords: &["amanzi", "iliza", "iliza lamanzi", "ulwandle"],
+			tts:      Some("isambrela esivaliweyo"),
+			keywords: &["impahla", "imvula", "isambrela", "isambrela esivaliweyo"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("Iji Omi"),
-			keywords: &["Iji Omi", "omi", "ìjì", "òkun"],
+			tts:      Some("Agboorun Toti"),
+			keywords: &["Agboorun Toti", "agbòrùn", "aṣọ", "òjò"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("Iji Omi"),
-			keywords: &["Iji Omi", "omi", "ìjì", "òkun"],
+			tts:      Some("Agboorun Toti"),
+			keywords: &["Agboorun Toti", "agbòrùn", "ashɔ", "òjò"],
 		},
 		#[cfg(feature = "yue")]
 		crate::Annotation {
 			lang:     "yue",
-			tts:      Some("海浪"),
-			keywords: &["水", "波浪", "海洋", "海浪"],
+			tts:      Some("閂咗嘅遮"),
+			keywords: &["服裝", "遮", "閂咗嘅遮", "雨"],
 		},
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("海浪"),
-			keywords: &["水", "波浪", "海洋", "海浪"],
+			tts:      Some("闩咗嘅遮"),
+			keywords: &["服装", "遮", "闩咗嘅遮", "雨"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("浪花"),
-			keywords: &["波浪", "浪", "浪花", "海洋"],
+			tts:      Some("收起的伞"),
+			keywords: &["下雨", "伞", "收起的伞", "雨", "雨伞"],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("波浪"),
-			keywords: &["波浪", "海浪", "神奈川", "衝浪"],
+			tts:      Some("收合的傘"),
+			keywords: &["傘", "收合的傘", "雨傘"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
-			tts:      Some("海浪"),
-			keywords: &["水", "水波", "波浪", "海水", "海洋", "海浪", "自然", "衝浪"],
+			tts:      Some("收起嘅遮"),
+			keywords: &["傘", "收起嘅遮", "遮", "雨傘", "雨遮"],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("igagasi lamanzi"),
-			keywords: &["amanzi", "igagasi", "igagasi lamanzi", "isimo sezulu", "ulwandle"],
+			tts:      Some("isambulela esivaliwe"),
+			keywords: &[
+				"impahla egqokwayo",
+				"imvula",
+				"isambulela",
+				"isambulela esivaliwe",
+				"isimo sezulu",
+			],
 		},
 	],
+};
+#[doc = "🌡\u{fe0f}"]
+pub const THERMOMETER: crate::Emoji = crate::Emoji {
+	glyph:                "🌡\u{fe0f}",
+	codepoint:            &[127777u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "thermometer",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::SkyWeather,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

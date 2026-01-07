@@ -1,3 +1,16 @@
+#[doc = "♾\u{fe0f}"]
+pub const INFINITY: crate::Emoji = crate::Emoji {
+	glyph:                "♾\u{fe0f}",
+	codepoint:            &[9854u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
+	name:                 "infinity",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Math,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "✖\u{fe0f}"]
 pub const MULTIPLY: crate::Emoji = crate::Emoji {
 	glyph:                "✖\u{fe0f}",
@@ -917,17 +930,4 @@ pub const HEAVY_EQUALS_SIGN: crate::Emoji = crate::Emoji {
 			keywords: &["amasayini asindayo alinganayo", "equality", "heavy equals sign", "math"],
 		},
 	],
-};
-#[doc = "♾\u{fe0f}"]
-pub const INFINITY: crate::Emoji = crate::Emoji {
-	glyph:                "♾\u{fe0f}",
-	codepoint:            &[9854u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
-	name:                 "infinity",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Math,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };

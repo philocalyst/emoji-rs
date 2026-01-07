@@ -1,10 +1,23 @@
-#[doc = "📱"]
-pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
-	glyph:                "📱",
-	codepoint:            &[128241u32],
+#[doc = "📟\u{fe0f}"]
+pub const PAGER: crate::Emoji = crate::Emoji {
+	glyph:                "📟\u{fe0f}",
+	codepoint:            &[128223u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "mobile phone",
+	name:                 "pager",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Phone,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📠"]
+pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
+	glyph:                "📠",
+	codepoint:            &[128224u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "fax machine",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Phone,
 	is_variant:           false,
@@ -13,118 +26,114 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("selfoon"),
-			keywords: &["foon", "kommunikasie", "mobiel", "sel", "selfoon", "telefoon"],
+			tts:      Some("faksmasjien"),
+			keywords: &["dokumente", "faks", "faksmasjien", "kommunikasie", "masjien"],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("ሞባይል ስልክ"),
-			keywords: &["ሞባይል", "ስልክ", "ተንቀሳቃሽ", "ቴሌፎን", "ግንኙነት"],
+			tts:      Some("ፋክስ ማሽን"),
+			keywords: &["ግንኙነት", "ፋክስ", "ፋክስ ማሽን"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("هاتف جوال"),
-			keywords: &["تليفون", "خلوي", "محمول", "موبايل", "نقال", "هاتف", "هاتف جوال"],
+			tts:      Some("فاكس"),
+			keywords: &["تلفاكس", "تواصل", "فاكس", "ماكنة"],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("মোব\u{9be}ইল ফোন"),
-			keywords: &["চেল", "টেলিফোন", "ফোন", "মোব\u{9be}ইল"],
+			tts:      Some("ফেক\u{9cd}স মেচিন"),
+			keywords: &["ফেক\u{9cd}স", "ফেক\u{9cd}স মেচিন"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("mobil telefon"),
-			keywords: &["mobil", "telefon", "əlaqə saxlamaq"],
+			tts:      Some("faks aparatı"),
+			keywords: &["faks", "faks aparatı"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("мабільны тэлефон"),
-			keywords: &["мабільны", "мабільнік", "смартфон", "сотавы", "тэлефон"],
+			tts:      Some("факсімільны апарат"),
+			keywords: &["факс", "факсімільны апарат"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("мобилен телефон"),
-			keywords: &["клетъчен", "комуникация", "мобилен", "телефон"],
+			tts:      Some("факс"),
+			keywords: &["комуникация", "факс"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("মোব\u{9be}ইল ফোন"),
-			keywords: &["টেলিফোন", "ফোন", "মোব\u{9be}ইল", "সেল"],
+			tts:      Some("ফ\u{9cd}য\u{9be}ক\u{9cd}স মেশিন"),
+			keywords: &["ফ\u{9cd}য\u{9be}ক\u{9cd}স", "ফ\u{9cd}য\u{9be}ক\u{9cd}স মেশিন"],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("pellgomzer hezoug"),
-			keywords: &["hezoug", "pellgomz", "pellgomzer"],
+			tts:      Some("pelleiler"),
+			keywords: &["fax", "pelleiler"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("mobitel"),
-			keywords: &["mobilni", "mobitel", "telefon"],
+			tts:      Some("faks"),
+			keywords: &["faks", "faks uređaj"],
 		},
 		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("telèfon mòbil"),
-			keywords: &["comunicació", "mòbil", "telèfon"],
-		},
+		crate::Annotation { lang: "ca", tts: Some("fax"), keywords: &["comunicació", "fax"] },
 		#[cfg(feature = "ccp")]
 		crate::Annotation {
 			lang:     "ccp",
-			tts:      Some("𑄟\u{1112e}𑄝\u{1112d}𑄣\u{11134}𑄜\u{1112e}𑄚\u{11134}"),
-			keywords: &["𑄟\u{1112e}𑄝\u{1112d}𑄣\u{11134}𑄜\u{1112e}𑄚\u{11134}"],
+			tts:      Some("𑄜\u{11133}𑄠𑄇\u{11134}𑄌\u{11134} 𑄟\u{11128}𑄥\u{11128}𑄚\u{11134}"),
+			keywords: &["𑄜\u{11133}𑄠𑄇\u{11134}𑄌\u{11134} 𑄟\u{11128}𑄥\u{11128}𑄚\u{11134}"],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"),
-			keywords: &["ᎠᏓᏅᏏᏙᎯ", "ᏗᏟᏃᎮᏗ", "ᏗᏟᏃᎵᏗ ᏂᏓᏏᎳᏛᎾ", "ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"],
+			tts:      Some("ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ ᏫᎦᏅᎥᏍᎩ"),
+			keywords: &["ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ", "ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ ᏫᎦᏅᎥᏍᎩ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("mobil"),
-			keywords: &["komunikace", "mobil", "mobilní", "smartphone", "telefon"],
+			tts:      Some("fax"),
+			keywords: &["fax", "faxovat", "komunikace", "telefax"],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("ffôn symudol"),
-			keywords: &["ffôn", "symudol"],
+			tts:      Some("peiriant ffacs"),
+			keywords: &["ffacs", "peiriant ffacs"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("mobil"),
-			keywords: &["mobil", "mobiltelefon"],
+			tts:      Some("fax"),
+			keywords: &["fax", "faxmaskine", "kommunikation", "telefax"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("Mobiltelefon"),
-			keywords: &["Handy", "Mobiltelefon", "Smartphone", "iPhone", "telefonieren"],
+			tts:      Some("Faxgerät"),
+			keywords: &["Fax", "Faxgerät", "Kommunikation"],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("κινητό τηλέφωνο"),
-			keywords: &["επικοινωνία", "κινητό", "τηλέφωνο"],
+			tts:      Some("συσκευή φαξ"),
+			keywords: &["επικοινωνία", "συσκευή φαξ", "φαξ"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("mobile phone"),
-			keywords: &["cell", "communication", "mobile", "phone", "telephone"],
+			tts:      Some("fax machine"),
+			keywords: &["communication", "fax", "machine"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -137,8 +146,8 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("teléfono móvil"),
-			keywords: &["celular", "móvil", "teléfono"],
+			tts:      Some("máquina de fax"),
+			keywords: &["comunicación", "fax", "máquina de fax"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -149,644 +158,573 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("mobiiltelefon"),
-			keywords: &["mobiil", "mobiiltelefon", "telefon"],
+			tts:      Some("faksimasin"),
+			keywords: &["faks", "faksimasin", "masin"],
 		},
 		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("telefono mugikorra"),
-			keywords: &["mugikor", "sare", "telefono", "telefono mugikorra"],
-		},
+		crate::Annotation { lang: "eu", tts: Some("faxa"), keywords: &["fax", "faxa"] },
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("تلفن همراه"),
-			keywords: &["تلفن", "موبایل", "همراه", "گوشی"],
+			tts:      Some("دستگاه نمابر"),
+			keywords: &["دستگاه فاکس", "دستگاه نمابر", "دورنگار", "فاکس", "نمابر"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("kännykkä"),
-			keywords: &["kännykkä", "matkapuhelin", "mobiili", "mobiililaite", "puhelin"],
+			tts:      Some("faksi"),
+			keywords: &["faksi", "faksilaite", "viestintä"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("mobile phone"),
-			keywords: &["cell", "komunikasyon", "mobile", "phone", "telepono"],
+			tts:      Some("fax machine"),
+			keywords: &["fax", "fax machine", "telepono"],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("fartelefon"),
-			keywords: &["fartelefon", "telefon"],
+			tts:      Some("telefaks"),
+			keywords: &["faks", "telefaks"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("téléphone portable"),
-			keywords: &["communication", "smartphone", "téléphone", "téléphone portable"],
+			tts:      Some("fax"),
+			keywords: &["communication", "fax", "télécopieur"],
 		},
 		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("téléphone cellulaire"),
-			keywords: &["téléphone", "téléphone cellulaire"],
-		},
+		crate::Annotation { lang: "fr_CA", tts: Some("télécopieur"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("guthán"),
-			keywords: &["cumarsáid", "fón", "fón póca", "guthán", "soghluaiste"],
+			tts:      Some("meaisín facsála"),
+			keywords: &["cumarsáid", "facs", "meaisín facs", "meaisín facsála"],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("fòn-làimhe"),
-			keywords: &["fòn", "fòn-làimhe", "mobile"],
+			tts:      Some("inneal facs"),
+			keywords: &["facs", "inneal facs"],
 		},
 		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("teléfono móbil"),
-			keywords: &["móbil", "teléfono"],
-		},
+		crate::Annotation { lang: "gl", tts: Some("fax"), keywords: &["fax", "telefax"] },
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("મોબાઇલ ફોન"),
-			keywords: &["ફોન", "ફોન કરો", "મોબાઇલ ફોન", "વાતો", "સ\u{a82}.ચાર", "સ\u{ac7}લ ફોન"],
+			tts:      Some("ફ\u{ac5}ક\u{acd}સ મશીન"),
+			keywords: &[
+				"ફ\u{ac5}ક\u{acd}સ",
+				"ફ\u{ac5}ક\u{acd}સ મશીન",
+				"વહ\u{ac7}વાર",
+				"સ\u{a82}ચાર",
+				"સ\u{a82}ચારણ",
+				"સાધન",
+			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("wayar hannu"),
+			tts:      Some("injin faks"),
 			keywords: &[
-				"babbar waya",
-				"na hannu",
-				"salula",
-				"sel",
-				"tafi-da-gidanka",
+				"faks",
+				"injin faks",
+				"mashin na sadarwa",
+				"rubutu",
+				"sadarwa",
+				"saƙo",
 				"tarho",
-				"waya",
-				"wayar hannu",
-				"wayar salula",
-				"wayar tafi-da-gidanka",
+				"wasiƙa",
 			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("wayar hannu"),
+			tts:      Some("injin faks"),
 			keywords: &[
-				"babbar waya",
-				"na hannu",
-				"salula",
-				"sel",
-				"tafi-da-gidanka",
+				"faks",
+				"injin faks",
+				"mashin na sadarwa",
+				"rubutu",
+				"sadarwa",
+				"saƙo",
 				"tarho",
-				"waya",
-				"wayar hannu",
-				"wayar salula",
-				"wayar tafi-da-gidanka",
+				"wasiƙa",
 			],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("טלפון נייד"),
-			keywords: &["טלפון", "נייד", "סלולרי"],
+			tts:      Some("מכשיר פקס"),
+			keywords: &["פקס", "פקסימיליה"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("मोबाइल फ\u{93c}ोन"),
-			keywords: &["चलभाष", "ट\u{947}लीफ\u{93c}ोन", "द\u{942}रभाष", "फ\u{93c}ोन", "मोबाइल"],
+			tts:      Some("फ\u{93c}\u{948}क\u{94d}स मशीन"),
+			keywords: &["फ\u{93c}\u{948}क\u{94d}स", "फ\u{93c}\u{948}क\u{94d}स मशीन", "स\u{902}चार"],
 		},
 		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("mobilni telefon"),
-			keywords: &["mobilni telefon", "mobitel", "telefon"],
-		},
+		crate::Annotation { lang: "hr", tts: Some("faks"), keywords: &["faks", "telefaks"] },
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("mobiltelefon"),
-			keywords: &["kommunikáció", "mobil", "mobiltelefon", "rádiótelefon", "telefon"],
+			tts:      Some("faxkészülék"),
+			keywords: &["fax", "faxkészülék"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("բջջային հեռախոս"),
-			keywords: &["բջջային", "հեռախոս", "շարժական"],
+			tts:      Some("ֆաքսի մեքենա"),
+			keywords: &["ֆաքս", "ֆաքսի մեքենա"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("ponsel"),
-			keywords: &["ponsel", "seluler", "telepon"],
+			tts:      Some("mesin faks"),
+			keywords: &["faksimili", "komunikasi", "mesin faks"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ekwentị kengaghari"),
-			keywords: &["ekwentị", "kengaghari", "mpanaka"],
+			tts:      Some("igwe ozi faasị"),
+			keywords: &["faasị", "igwe ozi faasị"],
 		},
 		#[cfg(feature = "is")]
-		crate::Annotation { lang: "is", tts: Some("farsími"), keywords: &["farsími", "sími"] },
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fax"),
+			keywords: &["bréfsími", "fax", "samskipti"],
+		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("telefono cellulare"),
-			keywords: &["cellulare", "chiamare", "comunicare", "smartphone", "telefono"],
+			tts:      Some("fax"),
+			keywords: &["computer", "comunicazione", "fax", "periferiche", "stampante", "ufficio"],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("携帯電話"),
-			keywords: &["スマホ", "スマートフォン", "モバイル", "携帯", "携帯電話"],
+			tts:      Some("ファックス"),
+			keywords: &["FAX", "ファックス", "複合機", "電話"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("telepon seluler"),
-			keywords: &["komunikasi", "sel", "seluler", "telepon", "telpon"],
+			tts:      Some("mesin faks"),
+			keywords: &["faks", "komunikasi", "mesin faks"],
 		},
 		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მობილური ტელეფონი"),
-			keywords: &["მობილური", "ტელეფონი", "ფიჭური"],
-		},
+		crate::Annotation { lang: "ka", tts: Some("ფაქსი"), keywords: &["ფაქსი"] },
 		#[cfg(feature = "kab")]
 		crate::Annotation {
 			lang:     "kab",
-			tts:      Some("tiliɣri tazirazt"),
-			keywords: &["tiliɣri tazirazt"],
+			tts:      Some("tamacint n unɣel"),
+			keywords: &["tamacint n unɣel"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("ұялы телефон"),
-			keywords: &["мобилді", "мобильді", "телефон", "ұялы"],
+			tts:      Some("факс машина"),
+			keywords: &["факс", "факс машина"],
 		},
 		#[cfg(feature = "kl")]
 		crate::Annotation {
 			lang:     "kl",
-			tts:      Some("mobil"),
-			keywords: &["mobil", "mobiltelefon"],
+			tts:      Some("fax"),
+			keywords: &["fax", "faxmaskine", "kommunikation"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន"),
+			tts:      Some("ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}វាក\u{17cb}"),
 			keywords: &[
-				"ទ\u{17bc}រសព\u{17d2}ទ",
-				"ទ\u{17bc}រសព\u{17d2}ទចល\u{17d0}ត",
-				"ទ\u{17bc}រសព\u{17d2}ទដៃ",
-				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ចល\u{17d0}ត",
-				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទដៃ",
-				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទទ",
-				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន",
+				"ម\u{17c9}ាស\u{17ca}\u{17b8}ន",
+				"ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}វាក\u{17cb}",
 			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}"),
-			keywords: &[
-				"ದ\u{cc2}ರವಾಣ\u{cbf}",
-				"ಫ\u{ccb}ನ\u{ccd}",
-				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd}",
-				"ಸ\u{cc6}ಲ\u{ccd}",
-			],
+			tts:      Some("ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd} ಯಂತ\u{ccd}ರ"),
+			keywords: &["ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd}", "ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd} ಯಂತ\u{ccd}ರ", "ಸಂವಹನ"],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("휴대전화"),
-			keywords: &["모바일폰", "셀폰", "전화", "커뮤니케이션", "휴대전화", "휴대폰"],
+			tts:      Some("팩스"),
+			keywords: &["커뮤니케이션", "팩스", "팩스기", "팩시밀리"],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("मोबायल फोन"),
-			keywords: &["ट\u{947}लिफोन", "फोन", "मोबायल", "स\u{945}ल"],
+			tts:      Some("फ\u{945}क\u{94d}स मशीन"),
+			keywords: &["फ\u{945}क\u{94d}स", "फ\u{945}क\u{94d}स मशीन"],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("мобилдик телефон"),
-			keywords: &["мобилдик", "телефон", "уюлдук"],
+			tts:      Some("факс машинасы"),
+			keywords: &["факс", "факс машинасы"],
 		},
 		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Handy"),
-			keywords: &["Funk", "Handy", "Mobil", "Telefon"],
-		},
+		crate::Annotation { lang: "lb", tts: Some("Fax"), keywords: &["Fax"] },
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}"),
-			keywords: &["ມ\u{eb7}ຖ\u{eb7}", "ໂທລະສ\u{eb1}ບ", "ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}"],
+			tts:      Some("ເຄ\u{eb7}\u{ec8}ອງຮ\u{eb1}ບສ\u{ebb}\u{ec8}ງແຟ\u{eb1}ກ"),
+			keywords: &["ເຄ\u{eb7}\u{ec8}ອງຮ\u{eb1}ບສ\u{ebb}\u{ec8}ງແຟ\u{eb1}ກ", "ແຟ\u{eb1}ກ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("mobilusis telefonas"),
-			keywords: &["mobilusis", "prietaisas", "telefonas"],
+			tts:      Some("fakso aparatas"),
+			keywords: &["faksas", "fakso aparatas"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("mobilais tālrunis"),
-			keywords: &["mobilais", "saziņa", "telefons", "tālrunis"],
+			tts:      Some("fakss"),
+			keywords: &["faksa aparāts", "fakss", "saziņa"],
 		},
 		#[cfg(feature = "mi")]
 		crate::Annotation {
 			lang:     "mi",
-			tts:      Some("waea pūkoro"),
-			keywords: &["pūkoro", "waea", "waeakawe"],
+			tts:      Some("mīhini waeatuhi"),
+			keywords: &["mīhini waeatuhi", "waeatuhi"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("мобилен телефон"),
-			keywords: &["комуникации", "мобилен", "телефон"],
+			tts:      Some("факс"),
+			keywords: &["комуникација", "машина", "факс", "факс-машина", "факс-уред"],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("മൊബൈൽ ഫോൺ"),
-			keywords: &["ആശയവിനിമയം", "ഫോൺ", "മൊബൈൽ", "സെൽ ഫോൺ"],
+			tts:      Some("ഫ\u{d3e}ക\u{d4d}\u{200c}സ\u{d4d} മെഷീൻ"),
+			keywords: &[
+				"ആശയവിനിമയം",
+				"ഫ\u{d3e}ക\u{d4d}സ\u{d4d}",
+				"ഫ\u{d3e}ക\u{d4d}\u{200c}സ\u{d4d} മെഷീൻ",
+			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("гар утас"),
-			keywords: &["гар утас", "мобайл", "утас"],
+			tts:      Some("факсын машин"),
+			keywords: &["факс", "факсын машин"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("मोबाईल फोन"),
-			keywords: &["फोन", "मोबाइल फोन", "मोबाईल फोन", "स\u{947}ल फोन"],
+			tts:      Some("फ\u{945}क\u{94d}स मशीन"),
+			keywords: &["फ\u{945}क\u{94d}स", "फ\u{945}क\u{94d}स मशीन", "स\u{902}वाद"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("telefon bimbit"),
-			keywords: &["komunikasi", "mudah alih", "sel", "telefon", "telefon bimbit"],
+			tts:      Some("mesin faksimili"),
+			keywords: &["faks", "komunikasi", "mesin faksimili"],
 		},
 		#[cfg(feature = "mt")]
 		crate::Annotation {
 			lang:     "mt",
-			tts:      Some("mowbajl"),
-			keywords: &["mowbajl", "telefown"],
+			tts:      Some("magna tal-fax"),
+			keywords: &["fax", "magna tal-fax"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း"),
+			tts:      Some("ဖက\u{103a}စ\u{103a} စာပ\u{102d}\u{102f}\u{1037}စက\u{103a}"),
 			keywords: &[
-				"ဆ\u{1032}လ\u{103a}",
-				"တယ\u{103a}လ\u{102e}ဖ\u{102f}န\u{103a}း",
-				"ဖ\u{102f}န\u{103a}း",
-				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း",
+				"ဖက\u{103a}စ\u{103a}",
+				"ဖက\u{103a}စ\u{103a} စာပ\u{102d}\u{102f}\u{1037}စက\u{103a}",
 			],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("मोबाइल फोन"),
-			keywords: &["कल", "ट\u{947}लिफोन", "फोन", "मोबाइल"],
+			tts:      Some("फ\u{94d}याक\u{94d}स म\u{947}सिन"),
+			keywords: &["फ\u{94d}याक\u{94d}स", "फ\u{94d}याक\u{94d}स म\u{947}सिन"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("mobiele telefoon"),
-			keywords: &["bellen", "communicatie", "mobiel", "mobiele telefoon", "smartphone", "telefoon"],
+			tts:      Some("fax"),
+			keywords: &["communicatie", "fax", "faxapparaat"],
 		},
 		#[cfg(feature = "nn")]
 		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}"),
+			tts:      Some("ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ ମେସ\u{b3f}ନ\u{b4d}\u{200c}"),
 			keywords: &[
-				"ଟେଲ\u{b3f}ଫୋନ\u{b4d}\u{200c}",
-				"ଫୋନ\u{b4d}\u{200c}",
-				"ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}",
-				"ସେଲ\u{b4d}\u{200c}",
+				"ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ",
+				"ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ ମେସ\u{b3f}ନ\u{b4d}\u{200c}",
+				"ଯୋଗ\u{b3e}ଯୋଗ",
 			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਮ\u{a4b}ਬਾਇਲ ਫ\u{a3c}\u{a4b}ਨ"),
+			tts:      Some("ਫ\u{a48}ਕਸ ਮਸ\u{a3c}ੀਨ"),
 			keywords: &[
-				"ਗ\u{a71}ਲ",
 				"ਗ\u{a71}ਲਬਾਤ",
-				"ਟ\u{a48}ਲੀਫ\u{a4b}ਨ",
-				"ਫ\u{a4b}ਨ",
-				"ਮ\u{a4b}ਬਾਇਲ",
-				"ਮ\u{a4b}ਬਾਇਲ ਫ\u{a3c}\u{a4b}ਨ",
-				"ਸ\u{a48}\u{a71}ਲਫ\u{a4b}ਨ",
+				"ਫ\u{a48}ਕਸ",
+				"ਫ\u{a48}ਕਸ ਮਸ\u{a3c}ੀਨ",
+				"ਸ\u{a70}ਚਾਰ",
+				"ਸ\u{a70}ਦ\u{a47}ਸ\u{a3c}",
 			],
 		},
 		#[cfg(feature = "pa_Arab")]
 		crate::Annotation {
 			lang:     "pa_Arab",
-			tts:      Some("موبائل فون"),
-			keywords: &["خ\u{64f}لیہ", "فون", "موبائل", "ٹیلی فون"],
+			tts:      Some("فیکس مشین"),
+			keywords: &["فیکس", "فیکس مشین"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Mọ\u{301}baíl Fon"),
-			keywords: &["Fon", "Mọ\u{301}bail", "Mọ\u{301}baíl Fon", "Sẹl", "Tẹlífon"],
+			tts:      Some("Fáks Mashin"),
+			keywords: &["Faks", "Fáks Mashin"],
 		},
 		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("telefon komórkowy"),
-			keywords: &["komóra", "komórka", "smartfon", "telefon", "telefon komórkowy"],
-		},
+		crate::Annotation { lang: "pl", tts: Some("faks"), keywords: &["biuro", "faks"] },
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("ګرځنده ټېلیفون"),
-			keywords: &["سل", "فون", "موبايل", "ټيليفون", "ګرځنده ټېلیفون"],
+			tts:      Some("د فکس ماشین"),
+			keywords: &["د فکس ماشين", "د فکس ماشین", "فکس"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("telefone celular"),
-			keywords: &["celular", "telefone", "telefone móvel"],
+			tts:      Some("fax"),
+			keywords: &["comunicação", "fax", "máquina de fax"],
 		},
 		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("telemóvel"),
-			keywords: &["comunicação", "telefone", "telemóvel"],
-		},
+		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "qu")]
 		crate::Annotation {
 			lang:     "qu",
-			tts:      Some("apaykachana telefono"),
-			keywords: &["apaykachana", "celular", "telefono"],
+			tts:      Some("maquina faxpaq"),
+			keywords: &["fax", "maquina faxpaq"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("telefon mobil"),
-			keywords: &["celular", "comunicare", "dispozitiv", "mobil", "mobilitate", "telefon"],
+			tts:      Some("echipament fax"),
+			keywords: &["comunicare", "dispozitiv", "echipament fax", "fax"],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-686"), keywords: &["E10-686"] },
+		crate::Annotation { lang: "root", tts: Some("E10-669"), keywords: &["E10-669"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("мобильный телефон"),
-			keywords: &["мобильник", "мобильный", "смартфон", "сотовый", "телефон"],
+			tts:      Some("факс"),
+			keywords: &["бумага", "сообщение", "факс"],
 		},
 		#[cfg(feature = "rw")]
 		crate::Annotation {
 			lang:     "rw",
-			tts:      Some("telefone igendanwa"),
-			keywords: &["kigendanwa", "telefone igendanwa", "telefoni", "telefoni igendanwa"],
-		},
-		#[cfg(feature = "sat")]
-		crate::Annotation {
-			lang:     "sat",
-			tts:      Some("ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"),
-			keywords: &["ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"],
+			tts:      Some("imashini ya fagisi"),
+			keywords: &["fagisi", "imashini ya fagisi"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("موبائيل فون"),
-			keywords: &["سيل", "فون", "موبائيل", "ٽيليفون"],
+			tts:      Some("فيڪس مشين"),
+			keywords: &["فيڪس", "فيڪس مشين"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("ජංගම ද\u{dd4}රකථනය"),
-			keywords: &["ජංගම", "ද\u{dd4}රකථනය", "සෙල\u{dca}", "ෆෝන\u{dca}"],
+			tts:      Some("ෆැක\u{dca}ස\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"),
+			keywords: &["ෆැක\u{dca}ස\u{dca}", "ෆැක\u{dca}ස\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("mobil"),
-			keywords: &["komunikácia", "mobil", "mobilný", "telefón"],
+			tts:      Some("fax"),
+			keywords: &["fax", "komunikácia", "telefax"],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("mobilni telefon"),
-			keywords: &["komunikacija", "mobilni telefon", "mobilnik", "mobilno", "telefon"],
+			tts:      Some("telefaks"),
+			keywords: &["faks", "komunikacija", "telefaks"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("moobil"),
-			keywords: &["foon", "moobil", "telefoon", "telefoonka gacanta"],
+			tts:      Some("mishiinka fakiska"),
+			keywords: &["fakis", "mishiinka fakiska"],
 		},
 		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("celular"),
-			keywords: &["celular", "i lëvizshëm", "komunikim", "telefon"],
-		},
+		crate::Annotation { lang: "sq", tts: Some("faks"), keywords: &["faks", "komunikim"] },
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("мобилни телефон"),
-			keywords: &["мобилни", "телефон"],
+			tts:      Some("факс"),
+			keywords: &["комуникација", "факс"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("mobilni telefon"),
-			keywords: &["mobilni", "telefon"],
+			tts:      Some("faks"),
+			keywords: &["faks", "komunikacija"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("mobiltelefon"),
-			keywords: &["mobil", "mobiltelefon", "telefon"],
+			tts:      Some("fax"),
+			keywords: &["fax", "kommunikation"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("simu ya mkononi"),
-			keywords: &["mawasiliano", "simu", "simu ya mkononi", "ya mkononi"],
+			tts:      Some("mashine ya faksi"),
+			keywords: &["faksi", "mashine ya faksi"],
 		},
 		#[cfg(feature = "sw_KE")]
 		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("மொபைல\u{bcd}"),
+			tts:      Some("பேக\u{bcd}ஸ\u{bcd}"),
 			keywords: &[
-				"ஃபோன\u{bcd}",
-				"செல\u{bcd}",
-				"செல\u{bcd}பேசி",
-				"செல\u{bcd}போன\u{bcd}",
+				"ஃபேக\u{bcd}ஸ\u{bcd}",
+				"இயந\u{bcd}திரம\u{bcd}",
 				"தகவல\u{bcd} தொடர\u{bcd}பு",
-				"பொருள\u{bcd}",
-				"மொபைல\u{bcd}",
+				"தொடர\u{bcd}புகொள\u{bcd}",
+				"தொலைநகலி",
+				"தொலைநகல\u{bcd}",
+				"பேக\u{bcd}ஸ\u{bcd}",
 			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}"),
+			tts:      Some("ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}"),
 			keywords: &[
-				"ట\u{c46}ల\u{c40}ఫ\u{c4b}న\u{c4d}",
-				"ఫ\u{c4b}న\u{c4d}",
-				"మ\u{c4a}బ\u{c48}ల\u{c4d}",
-				"స\u{c46}ల\u{c4d}",
-				"స\u{c4d}మ\u{c3e}ర\u{c4d}ట\u{c4d} ఫ\u{c4b}న\u{c4d}",
+				"కమ\u{c4d}యూన\u{c3f}క\u{c47}షన\u{c4d}",
+				"ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d}",
+				"ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}",
 			],
 		},
 		#[cfg(feature = "tg")]
 		crate::Annotation {
 			lang:     "tg",
-			tts:      Some("телефони мобилӣ"),
-			keywords: &["телефон", "телефони мобилӣ"],
+			tts:      Some("дастгоҳи факс"),
+			keywords: &["дастгоҳи факс", "факс"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อ"),
-			keywords: &[
-				"ม\u{e37}อถ\u{e37}อ",
-				"ส\u{e37}\u{e48}อสาร",
-				"โทรศ\u{e31}พท\u{e4c}",
-				"ไร\u{e49}สาย",
-			],
+			tts:      Some("แฟกซ\u{e4c}"),
+			keywords: &["เคร\u{e37}\u{e48}องแฟกซ\u{e4c}", "แฟกซ\u{e4c}"],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ሞባይል ቴሌፎን"),
-			keywords: &["ሞባይል", "ርክብ", "ስልኪ", "ቴሌፎን ስልኪ", "ዋህዮ"],
+			tts:      Some("ፋክስ ማሽን"),
+			keywords: &["ማሽን", "ርክብ", "ፋክስ"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("mobil telefon"),
-			keywords: &["el telefony", "mobil", "telefon", "öýjükli"],
+			tts:      Some("faks apparaty"),
+			keywords: &["faks", "faks apparaty"],
 		},
 		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("foni toʻotoʻo"),
-			keywords: &["foni toʻotoʻo"],
-		},
+		crate::Annotation { lang: "to", tts: Some("foni tohi"), keywords: &["foni tohi"] },
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("cep telefonu"),
-			keywords: &["cep telefonu", "iPhone", "mobil telefon", "telefon"],
+			tts:      Some("faks makinesi"),
+			keywords: &["faks makinesi", "iletişim"],
 		},
 		#[cfg(feature = "ug")]
 		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يانفون"),
-			keywords: &["تېلېفون", "فون", "كۆچمە", "يانفون"],
+			lang: "ug", tts: Some("فاكسچى"), keywords: &["فاكس", "فاكسچى"]
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("мобільний телефон"),
-			keywords: &["мобільний", "стільниковий", "стільниковий звʼязок", "телефон"],
+			tts:      Some("факс"),
+			keywords: &["телефакс", "факсимільний апарат"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("موبائل فون"),
-			keywords: &["ابلاغ", "برقی آلہ", "فون", "موبائل"],
+			tts:      Some("فیکس مشین"),
+			keywords: &["برقی آلہ", "فیکس", "فیکس مشین"],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("mobil telefon"),
-			keywords: &["aloqa", "mobil", "smartfon", "telefon", "uyali"],
+			tts:      Some("faks apparati"),
+			keywords: &["faks", "faks apparati"],
 		},
 		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("điện thoại di động"),
-			keywords: &["di động", "điện thoại", "điện thoại di động"],
-		},
+		crate::Annotation { lang: "vi", tts: Some("máy fax"), keywords: &["fax", "máy fax"] },
 		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("telefon portaabal"),
-			keywords: &["portaabal", "telefon"],
-		},
+		crate::Annotation { lang: "wo", tts: Some("faks"), keywords: &["faks", "fakse"] },
 		#[cfg(feature = "xh")]
 		crate::Annotation {
 			lang:     "xh",
-			tts:      Some("iselfowuni"),
-			keywords: &["ifowuni", "iselfowuni", "iseli"],
+			tts:      Some("umatshani wefeksi"),
+			keywords: &["ifeksi", "umatshani wefeksi"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("fóònù alágbèéká"),
-			keywords: &["alágbèéká", "fóònù", "tẹlifóònù"],
+			tts:      Some("ẹ\u{300}rọ fákìsì"),
+			keywords: &["fákìsì", "ẹ\u{300}rọ fákìsì"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("fóònù alágbèéká"),
-			keywords: &["alágbèéká", "fóònù", "tɛlifóònù"],
+			tts:      Some("ɛ\u{300}rɔ fákìsì"),
+			keywords: &["fákìsì", "ɛ\u{300}rɔ fákìsì"],
 		},
 		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("手提電話"),
-			keywords: &["手提電話", "手機", "流動", "電話"],
-		},
+		crate::Annotation { lang: "yue", tts: Some("傳真機"), keywords: &["傳真", "傳真機"] },
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("手提电话"),
-			keywords: &["手提电话", "手机", "流动", "电话"],
+			tts:      Some("传真机"),
+			keywords: &["传真", "传真机"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("手机"),
-			keywords: &["手提电话", "手机", "智能手机", "电话", "移动", "移动电话", "移动通信", "通信"],
+			tts:      Some("传真机"),
+			keywords: &["传真", "传真号", "传真机", "发传真"],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("手機"),
-			keywords: &["手機", "行動電話", "電話"],
+			tts:      Some("傳真機"),
+			keywords: &["FAX", "傳真機"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
-			tts:      Some("手提電話"),
-			keywords: &["手提電話", "手機", "溝通", "通訊", "電話"],
+			tts:      Some("↑↑↑"),
+			keywords: &["fax", "傳真", "傳真機", "通訊"],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("iselula"),
-			keywords: &["iselula", "ucingo"],
+			tts:      Some("umshini wefeksi"),
+			keywords: &["ifeksi", "umshini wefeksi"],
 		},
 	],
 };
@@ -2205,18 +2143,797 @@ pub const MOBILE_PHONE_WITH_ARROW: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "☎\u{fe0f}"]
-pub const TELEPHONE: crate::Emoji = crate::Emoji {
-	glyph:                "☎\u{fe0f}",
-	codepoint:            &[9742u32],
+#[doc = "📱"]
+pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
+	glyph:                "📱",
+	codepoint:            &[128241u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "telephone",
+	name:                 "mobile phone",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Phone,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("selfoon"),
+			keywords: &["foon", "kommunikasie", "mobiel", "sel", "selfoon", "telefoon"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሞባይል ስልክ"),
+			keywords: &["ሞባይል", "ስልክ", "ተንቀሳቃሽ", "ቴሌፎን", "ግንኙነት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("هاتف جوال"),
+			keywords: &["تليفون", "خلوي", "محمول", "موبايل", "نقال", "هاتف", "هاتف جوال"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("মোব\u{9be}ইল ফোন"),
+			keywords: &["চেল", "টেলিফোন", "ফোন", "মোব\u{9be}ইল"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("mobil telefon"),
+			keywords: &["mobil", "telefon", "əlaqə saxlamaq"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("мабільны тэлефон"),
+			keywords: &["мабільны", "мабільнік", "смартфон", "сотавы", "тэлефон"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("мобилен телефон"),
+			keywords: &["клетъчен", "комуникация", "мобилен", "телефон"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("মোব\u{9be}ইল ফোন"),
+			keywords: &["টেলিফোন", "ফোন", "মোব\u{9be}ইল", "সেল"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("pellgomzer hezoug"),
+			keywords: &["hezoug", "pellgomz", "pellgomzer"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("mobitel"),
+			keywords: &["mobilni", "mobitel", "telefon"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("telèfon mòbil"),
+			keywords: &["comunicació", "mòbil", "telèfon"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄟\u{1112e}𑄝\u{1112d}𑄣\u{11134}𑄜\u{1112e}𑄚\u{11134}"),
+			keywords: &["𑄟\u{1112e}𑄝\u{1112d}𑄣\u{11134}𑄜\u{1112e}𑄚\u{11134}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"),
+			keywords: &["ᎠᏓᏅᏏᏙᎯ", "ᏗᏟᏃᎮᏗ", "ᏗᏟᏃᎵᏗ ᏂᏓᏏᎳᏛᎾ", "ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("mobil"),
+			keywords: &["komunikace", "mobil", "mobilní", "smartphone", "telefon"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("ffôn symudol"),
+			keywords: &["ffôn", "symudol"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("mobil"),
+			keywords: &["mobil", "mobiltelefon"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Mobiltelefon"),
+			keywords: &["Handy", "Mobiltelefon", "Smartphone", "iPhone", "telefonieren"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("κινητό τηλέφωνο"),
+			keywords: &["επικοινωνία", "κινητό", "τηλέφωνο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("mobile phone"),
+			keywords: &["cell", "communication", "mobile", "phone", "telephone"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("teléfono móvil"),
+			keywords: &["celular", "móvil", "teléfono"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("mobiiltelefon"),
+			keywords: &["mobiil", "mobiiltelefon", "telefon"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("telefono mugikorra"),
+			keywords: &["mugikor", "sare", "telefono", "telefono mugikorra"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("تلفن همراه"),
+			keywords: &["تلفن", "موبایل", "همراه", "گوشی"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kännykkä"),
+			keywords: &["kännykkä", "matkapuhelin", "mobiili", "mobiililaite", "puhelin"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("mobile phone"),
+			keywords: &["cell", "komunikasyon", "mobile", "phone", "telepono"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("fartelefon"),
+			keywords: &["fartelefon", "telefon"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("téléphone portable"),
+			keywords: &["communication", "smartphone", "téléphone", "téléphone portable"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("téléphone cellulaire"),
+			keywords: &["téléphone", "téléphone cellulaire"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("guthán"),
+			keywords: &["cumarsáid", "fón", "fón póca", "guthán", "soghluaiste"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("fòn-làimhe"),
+			keywords: &["fòn", "fòn-làimhe", "mobile"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("teléfono móbil"),
+			keywords: &["móbil", "teléfono"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("મોબાઇલ ફોન"),
+			keywords: &["ફોન", "ફોન કરો", "મોબાઇલ ફોન", "વાતો", "સ\u{a82}.ચાર", "સ\u{ac7}લ ફોન"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("wayar hannu"),
+			keywords: &[
+				"babbar waya",
+				"na hannu",
+				"salula",
+				"sel",
+				"tafi-da-gidanka",
+				"tarho",
+				"waya",
+				"wayar hannu",
+				"wayar salula",
+				"wayar tafi-da-gidanka",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("wayar hannu"),
+			keywords: &[
+				"babbar waya",
+				"na hannu",
+				"salula",
+				"sel",
+				"tafi-da-gidanka",
+				"tarho",
+				"waya",
+				"wayar hannu",
+				"wayar salula",
+				"wayar tafi-da-gidanka",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("טלפון נייד"),
+			keywords: &["טלפון", "נייד", "סלולרי"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("मोबाइल फ\u{93c}ोन"),
+			keywords: &["चलभाष", "ट\u{947}लीफ\u{93c}ोन", "द\u{942}रभाष", "फ\u{93c}ोन", "मोबाइल"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("mobilni telefon"),
+			keywords: &["mobilni telefon", "mobitel", "telefon"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("mobiltelefon"),
+			keywords: &["kommunikáció", "mobil", "mobiltelefon", "rádiótelefon", "telefon"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բջջային հեռախոս"),
+			keywords: &["բջջային", "հեռախոս", "շարժական"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("ponsel"),
+			keywords: &["ponsel", "seluler", "telepon"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ekwentị kengaghari"),
+			keywords: &["ekwentị", "kengaghari", "mpanaka"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation { lang: "is", tts: Some("farsími"), keywords: &["farsími", "sími"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("telefono cellulare"),
+			keywords: &["cellulare", "chiamare", "comunicare", "smartphone", "telefono"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("携帯電話"),
+			keywords: &["スマホ", "スマートフォン", "モバイル", "携帯", "携帯電話"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("telepon seluler"),
+			keywords: &["komunikasi", "sel", "seluler", "telepon", "telpon"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მობილური ტელეფონი"),
+			keywords: &["მობილური", "ტელეფონი", "ფიჭური"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("tiliɣri tazirazt"),
+			keywords: &["tiliɣri tazirazt"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ұялы телефон"),
+			keywords: &["мобилді", "мобильді", "телефон", "ұялы"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("mobil"),
+			keywords: &["mobil", "mobiltelefon"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន"),
+			keywords: &[
+				"ទ\u{17bc}រសព\u{17d2}ទ",
+				"ទ\u{17bc}រសព\u{17d2}ទចល\u{17d0}ត",
+				"ទ\u{17bc}រសព\u{17d2}ទដៃ",
+				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ចល\u{17d0}ត",
+				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទដៃ",
+				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទទ",
+				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទស\u{17d2}មាតហ\u{17d2}វ\u{17bc}ន",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}"),
+			keywords: &[
+				"ದ\u{cc2}ರವಾಣ\u{cbf}",
+				"ಫ\u{ccb}ನ\u{ccd}",
+				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd}",
+				"ಸ\u{cc6}ಲ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("휴대전화"),
+			keywords: &["모바일폰", "셀폰", "전화", "커뮤니케이션", "휴대전화", "휴대폰"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("मोबायल फोन"),
+			keywords: &["ट\u{947}लिफोन", "फोन", "मोबायल", "स\u{945}ल"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("мобилдик телефон"),
+			keywords: &["мобилдик", "телефон", "уюлдук"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Handy"),
+			keywords: &["Funk", "Handy", "Mobil", "Telefon"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}"),
+			keywords: &["ມ\u{eb7}ຖ\u{eb7}", "ໂທລະສ\u{eb1}ບ", "ໂທລະສ\u{eb1}ບມ\u{eb7}ຖ\u{eb7}"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("mobilusis telefonas"),
+			keywords: &["mobilusis", "prietaisas", "telefonas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("mobilais tālrunis"),
+			keywords: &["mobilais", "saziņa", "telefons", "tālrunis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("waea pūkoro"),
+			keywords: &["pūkoro", "waea", "waeakawe"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("мобилен телефон"),
+			keywords: &["комуникации", "мобилен", "телефон"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മൊബൈൽ ഫോൺ"),
+			keywords: &["ആശയവിനിമയം", "ഫോൺ", "മൊബൈൽ", "സെൽ ഫോൺ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("гар утас"),
+			keywords: &["гар утас", "мобайл", "утас"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("मोबाईल फोन"),
+			keywords: &["फोन", "मोबाइल फोन", "मोबाईल फोन", "स\u{947}ल फोन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("telefon bimbit"),
+			keywords: &["komunikasi", "mudah alih", "sel", "telefon", "telefon bimbit"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("mowbajl"),
+			keywords: &["mowbajl", "telefown"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း ဖ\u{102f}န\u{103a}း"),
+			keywords: &[
+				"ဆ\u{1032}လ\u{103a}",
+				"တယ\u{103a}လ\u{102e}ဖ\u{102f}န\u{103a}း",
+				"ဖ\u{102f}န\u{103a}း",
+				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("मोबाइल फोन"),
+			keywords: &["कल", "ट\u{947}लिफोन", "फोन", "मोबाइल"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("mobiele telefoon"),
+			keywords: &["bellen", "communicatie", "mobiel", "mobiele telefoon", "smartphone", "telefoon"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c}"),
+			keywords: &[
+				"ଟେଲ\u{b3f}ଫୋନ\u{b4d}\u{200c}",
+				"ଫୋନ\u{b4d}\u{200c}",
+				"ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}",
+				"ସେଲ\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਮ\u{a4b}ਬਾਇਲ ਫ\u{a3c}\u{a4b}ਨ"),
+			keywords: &[
+				"ਗ\u{a71}ਲ",
+				"ਗ\u{a71}ਲਬਾਤ",
+				"ਟ\u{a48}ਲੀਫ\u{a4b}ਨ",
+				"ਫ\u{a4b}ਨ",
+				"ਮ\u{a4b}ਬਾਇਲ",
+				"ਮ\u{a4b}ਬਾਇਲ ਫ\u{a3c}\u{a4b}ਨ",
+				"ਸ\u{a48}\u{a71}ਲਫ\u{a4b}ਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("موبائل فون"),
+			keywords: &["خ\u{64f}لیہ", "فون", "موبائل", "ٹیلی فون"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mọ\u{301}baíl Fon"),
+			keywords: &["Fon", "Mọ\u{301}bail", "Mọ\u{301}baíl Fon", "Sẹl", "Tẹlífon"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("telefon komórkowy"),
+			keywords: &["komóra", "komórka", "smartfon", "telefon", "telefon komórkowy"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ګرځنده ټېلیفون"),
+			keywords: &["سل", "فون", "موبايل", "ټيليفون", "ګرځنده ټېلیفون"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("telefone celular"),
+			keywords: &["celular", "telefone", "telefone móvel"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("telemóvel"),
+			keywords: &["comunicação", "telefone", "telemóvel"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("apaykachana telefono"),
+			keywords: &["apaykachana", "celular", "telefono"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("telefon mobil"),
+			keywords: &["celular", "comunicare", "dispozitiv", "mobil", "mobilitate", "telefon"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-686"), keywords: &["E10-686"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("мобильный телефон"),
+			keywords: &["мобильник", "мобильный", "смартфон", "сотовый", "телефон"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("telefone igendanwa"),
+			keywords: &["kigendanwa", "telefone igendanwa", "telefoni", "telefoni igendanwa"],
+		},
+		#[cfg(feature = "sat")]
+		crate::Annotation {
+			lang:     "sat",
+			tts:      Some("ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"),
+			keywords: &["ᱢᱚᱵᱟᱭᱤᱞ ᱯᱷᱚᱱ"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("موبائيل فون"),
+			keywords: &["سيل", "فون", "موبائيل", "ٽيليفون"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ජංගම ද\u{dd4}රකථනය"),
+			keywords: &["ජංගම", "ද\u{dd4}රකථනය", "සෙල\u{dca}", "ෆෝන\u{dca}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("mobil"),
+			keywords: &["komunikácia", "mobil", "mobilný", "telefón"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("mobilni telefon"),
+			keywords: &["komunikacija", "mobilni telefon", "mobilnik", "mobilno", "telefon"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("moobil"),
+			keywords: &["foon", "moobil", "telefoon", "telefoonka gacanta"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("celular"),
+			keywords: &["celular", "i lëvizshëm", "komunikim", "telefon"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("мобилни телефон"),
+			keywords: &["мобилни", "телефон"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mobilni telefon"),
+			keywords: &["mobilni", "telefon"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("mobiltelefon"),
+			keywords: &["mobil", "mobiltelefon", "telefon"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("simu ya mkononi"),
+			keywords: &["mawasiliano", "simu", "simu ya mkononi", "ya mkononi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மொபைல\u{bcd}"),
+			keywords: &[
+				"ஃபோன\u{bcd}",
+				"செல\u{bcd}",
+				"செல\u{bcd}பேசி",
+				"செல\u{bcd}போன\u{bcd}",
+				"தகவல\u{bcd} தொடர\u{bcd}பு",
+				"பொருள\u{bcd}",
+				"மொபைல\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}"),
+			keywords: &[
+				"ట\u{c46}ల\u{c40}ఫ\u{c4b}న\u{c4d}",
+				"ఫ\u{c4b}న\u{c4d}",
+				"మ\u{c4a}బ\u{c48}ల\u{c4d}",
+				"స\u{c46}ల\u{c4d}",
+				"స\u{c4d}మ\u{c3e}ర\u{c4d}ట\u{c4d} ఫ\u{c4b}న\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("телефони мобилӣ"),
+			keywords: &["телефон", "телефони мобилӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("โทรศ\u{e31}พท\u{e4c}ม\u{e37}อถ\u{e37}อ"),
+			keywords: &[
+				"ม\u{e37}อถ\u{e37}อ",
+				"ส\u{e37}\u{e48}อสาร",
+				"โทรศ\u{e31}พท\u{e4c}",
+				"ไร\u{e49}สาย",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሞባይል ቴሌፎን"),
+			keywords: &["ሞባይል", "ርክብ", "ስልኪ", "ቴሌፎን ስልኪ", "ዋህዮ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("mobil telefon"),
+			keywords: &["el telefony", "mobil", "telefon", "öýjükli"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("foni toʻotoʻo"),
+			keywords: &["foni toʻotoʻo"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("cep telefonu"),
+			keywords: &["cep telefonu", "iPhone", "mobil telefon", "telefon"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يانفون"),
+			keywords: &["تېلېفون", "فون", "كۆچمە", "يانفون"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("мобільний телефон"),
+			keywords: &["мобільний", "стільниковий", "стільниковий звʼязок", "телефон"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("موبائل فون"),
+			keywords: &["ابلاغ", "برقی آلہ", "فون", "موبائل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("mobil telefon"),
+			keywords: &["aloqa", "mobil", "smartfon", "telefon", "uyali"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("điện thoại di động"),
+			keywords: &["di động", "điện thoại", "điện thoại di động"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("telefon portaabal"),
+			keywords: &["portaabal", "telefon"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("iselfowuni"),
+			keywords: &["ifowuni", "iselfowuni", "iseli"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("fóònù alágbèéká"),
+			keywords: &["alágbèéká", "fóònù", "tẹlifóònù"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("fóònù alágbèéká"),
+			keywords: &["alágbèéká", "fóònù", "tɛlifóònù"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("手提電話"),
+			keywords: &["手提電話", "手機", "流動", "電話"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("手提电话"),
+			keywords: &["手提电话", "手机", "流动", "电话"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("手机"),
+			keywords: &["手提电话", "手机", "智能手机", "电话", "移动", "移动电话", "移动通信", "通信"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("手機"),
+			keywords: &["手機", "行動電話", "電話"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("手提電話"),
+			keywords: &["手提電話", "手機", "溝通", "通訊", "電話"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("iselula"),
+			keywords: &["iselula", "ucingo"],
+		},
+	],
 };
 #[doc = "📞"]
 pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
@@ -3075,733 +3792,16 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "📟\u{fe0f}"]
-pub const PAGER: crate::Emoji = crate::Emoji {
-	glyph:                "📟\u{fe0f}",
-	codepoint:            &[128223u32],
+#[doc = "☎\u{fe0f}"]
+pub const TELEPHONE: crate::Emoji = crate::Emoji {
+	glyph:                "☎\u{fe0f}",
+	codepoint:            &[9742u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "pager",
+	name:                 "telephone",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Phone,
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "📠"]
-pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
-	glyph:                "📠",
-	codepoint:            &[128224u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "fax machine",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Phone,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("faksmasjien"),
-			keywords: &["dokumente", "faks", "faksmasjien", "kommunikasie", "masjien"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ፋክስ ማሽን"),
-			keywords: &["ግንኙነት", "ፋክስ", "ፋክስ ማሽን"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("فاكس"),
-			keywords: &["تلفاكس", "تواصل", "فاكس", "ماكنة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ফেক\u{9cd}স মেচিন"),
-			keywords: &["ফেক\u{9cd}স", "ফেক\u{9cd}স মেচিন"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("faks aparatı"),
-			keywords: &["faks", "faks aparatı"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("факсімільны апарат"),
-			keywords: &["факс", "факсімільны апарат"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("факс"),
-			keywords: &["комуникация", "факс"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ফ\u{9cd}য\u{9be}ক\u{9cd}স মেশিন"),
-			keywords: &["ফ\u{9cd}য\u{9be}ক\u{9cd}স", "ফ\u{9cd}য\u{9be}ক\u{9cd}স মেশিন"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("pelleiler"),
-			keywords: &["fax", "pelleiler"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("faks"),
-			keywords: &["faks", "faks uređaj"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation { lang: "ca", tts: Some("fax"), keywords: &["comunicació", "fax"] },
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄜\u{11133}𑄠𑄇\u{11134}𑄌\u{11134} 𑄟\u{11128}𑄥\u{11128}𑄚\u{11134}"),
-			keywords: &["𑄜\u{11133}𑄠𑄇\u{11134}𑄌\u{11134} 𑄟\u{11128}𑄥\u{11128}𑄚\u{11134}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ ᏫᎦᏅᎥᏍᎩ"),
-			keywords: &["ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ", "ᏗᏟᎶᏍᏔᏅ ᎪᏪᎵ ᏫᎦᏅᎥᏍᎩ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("fax"),
-			keywords: &["fax", "faxovat", "komunikace", "telefax"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("peiriant ffacs"),
-			keywords: &["ffacs", "peiriant ffacs"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("fax"),
-			keywords: &["fax", "faxmaskine", "kommunikation", "telefax"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Faxgerät"),
-			keywords: &["Fax", "Faxgerät", "Kommunikation"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("συσκευή φαξ"),
-			keywords: &["επικοινωνία", "συσκευή φαξ", "φαξ"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("fax machine"),
-			keywords: &["communication", "fax", "machine"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("máquina de fax"),
-			keywords: &["comunicación", "fax", "máquina de fax"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("faksimasin"),
-			keywords: &["faks", "faksimasin", "masin"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation { lang: "eu", tts: Some("faxa"), keywords: &["fax", "faxa"] },
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("دستگاه نمابر"),
-			keywords: &["دستگاه فاکس", "دستگاه نمابر", "دورنگار", "فاکس", "نمابر"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("faksi"),
-			keywords: &["faksi", "faksilaite", "viestintä"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("fax machine"),
-			keywords: &["fax", "fax machine", "telepono"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("telefaks"),
-			keywords: &["faks", "telefaks"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("fax"),
-			keywords: &["communication", "fax", "télécopieur"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("télécopieur"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("meaisín facsála"),
-			keywords: &["cumarsáid", "facs", "meaisín facs", "meaisín facsála"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("inneal facs"),
-			keywords: &["facs", "inneal facs"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation { lang: "gl", tts: Some("fax"), keywords: &["fax", "telefax"] },
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{ac5}ક\u{acd}સ મશીન"),
-			keywords: &[
-				"ફ\u{ac5}ક\u{acd}સ",
-				"ફ\u{ac5}ક\u{acd}સ મશીન",
-				"વહ\u{ac7}વાર",
-				"સ\u{a82}ચાર",
-				"સ\u{a82}ચારણ",
-				"સાધન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("injin faks"),
-			keywords: &[
-				"faks",
-				"injin faks",
-				"mashin na sadarwa",
-				"rubutu",
-				"sadarwa",
-				"saƙo",
-				"tarho",
-				"wasiƙa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("injin faks"),
-			keywords: &[
-				"faks",
-				"injin faks",
-				"mashin na sadarwa",
-				"rubutu",
-				"sadarwa",
-				"saƙo",
-				"tarho",
-				"wasiƙa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מכשיר פקס"),
-			keywords: &["פקס", "פקסימיליה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("फ\u{93c}\u{948}क\u{94d}स मशीन"),
-			keywords: &["फ\u{93c}\u{948}क\u{94d}स", "फ\u{93c}\u{948}क\u{94d}स मशीन", "स\u{902}चार"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation { lang: "hr", tts: Some("faks"), keywords: &["faks", "telefaks"] },
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("faxkészülék"),
-			keywords: &["fax", "faxkészülék"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ֆաքսի մեքենա"),
-			keywords: &["ֆաքս", "ֆաքսի մեքենա"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("mesin faks"),
-			keywords: &["faksimili", "komunikasi", "mesin faks"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("igwe ozi faasị"),
-			keywords: &["faasị", "igwe ozi faasị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("fax"),
-			keywords: &["bréfsími", "fax", "samskipti"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("fax"),
-			keywords: &["computer", "comunicazione", "fax", "periferiche", "stampante", "ufficio"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ファックス"),
-			keywords: &["FAX", "ファックス", "複合機", "電話"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("mesin faks"),
-			keywords: &["faks", "komunikasi", "mesin faks"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation { lang: "ka", tts: Some("ფაქსი"), keywords: &["ფაქსი"] },
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("tamacint n unɣel"),
-			keywords: &["tamacint n unɣel"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("факс машина"),
-			keywords: &["факс", "факс машина"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("fax"),
-			keywords: &["fax", "faxmaskine", "kommunikation"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}វាក\u{17cb}"),
-			keywords: &[
-				"ម\u{17c9}ាស\u{17ca}\u{17b8}ន",
-				"ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}វាក\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd} ಯಂತ\u{ccd}ರ"),
-			keywords: &["ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd}", "ಫ\u{ccd}ಯಾಕ\u{ccd}ಸ\u{ccd} ಯಂತ\u{ccd}ರ", "ಸಂವಹನ"],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("팩스"),
-			keywords: &["커뮤니케이션", "팩스", "팩스기", "팩시밀리"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("फ\u{945}क\u{94d}स मशीन"),
-			keywords: &["फ\u{945}क\u{94d}स", "फ\u{945}क\u{94d}स मशीन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("факс машинасы"),
-			keywords: &["факс", "факс машинасы"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation { lang: "lb", tts: Some("Fax"), keywords: &["Fax"] },
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເຄ\u{eb7}\u{ec8}ອງຮ\u{eb1}ບສ\u{ebb}\u{ec8}ງແຟ\u{eb1}ກ"),
-			keywords: &["ເຄ\u{eb7}\u{ec8}ອງຮ\u{eb1}ບສ\u{ebb}\u{ec8}ງແຟ\u{eb1}ກ", "ແຟ\u{eb1}ກ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("fakso aparatas"),
-			keywords: &["faksas", "fakso aparatas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("fakss"),
-			keywords: &["faksa aparāts", "fakss", "saziņa"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("mīhini waeatuhi"),
-			keywords: &["mīhini waeatuhi", "waeatuhi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("факс"),
-			keywords: &["комуникација", "машина", "факс", "факс-машина", "факс-уред"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഫ\u{d3e}ക\u{d4d}\u{200c}സ\u{d4d} മെഷീൻ"),
-			keywords: &[
-				"ആശയവിനിമയം",
-				"ഫ\u{d3e}ക\u{d4d}സ\u{d4d}",
-				"ഫ\u{d3e}ക\u{d4d}\u{200c}സ\u{d4d} മെഷീൻ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("факсын машин"),
-			keywords: &["факс", "факсын машин"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("फ\u{945}क\u{94d}स मशीन"),
-			keywords: &["फ\u{945}क\u{94d}स", "फ\u{945}क\u{94d}स मशीन", "स\u{902}वाद"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("mesin faksimili"),
-			keywords: &["faks", "komunikasi", "mesin faksimili"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("magna tal-fax"),
-			keywords: &["fax", "magna tal-fax"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဖက\u{103a}စ\u{103a} စာပ\u{102d}\u{102f}\u{1037}စက\u{103a}"),
-			keywords: &[
-				"ဖက\u{103a}စ\u{103a}",
-				"ဖက\u{103a}စ\u{103a} စာပ\u{102d}\u{102f}\u{1037}စက\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{94d}याक\u{94d}स म\u{947}सिन"),
-			keywords: &["फ\u{94d}याक\u{94d}स", "फ\u{94d}याक\u{94d}स म\u{947}सिन"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("fax"),
-			keywords: &["communicatie", "fax", "faxapparaat"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ ମେସ\u{b3f}ନ\u{b4d}\u{200c}"),
-			keywords: &[
-				"ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ",
-				"ଫ\u{b4d}ୟ\u{b3e}କ\u{b4d}ସ ମେସ\u{b3f}ନ\u{b4d}\u{200c}",
-				"ଯୋଗ\u{b3e}ଯୋଗ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਫ\u{a48}ਕਸ ਮਸ\u{a3c}ੀਨ"),
-			keywords: &[
-				"ਗ\u{a71}ਲਬਾਤ",
-				"ਫ\u{a48}ਕਸ",
-				"ਫ\u{a48}ਕਸ ਮਸ\u{a3c}ੀਨ",
-				"ਸ\u{a70}ਚਾਰ",
-				"ਸ\u{a70}ਦ\u{a47}ਸ\u{a3c}",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("فیکس مشین"),
-			keywords: &["فیکس", "فیکس مشین"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fáks Mashin"),
-			keywords: &["Faks", "Fáks Mashin"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation { lang: "pl", tts: Some("faks"), keywords: &["biuro", "faks"] },
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د فکس ماشین"),
-			keywords: &["د فکس ماشين", "د فکس ماشین", "فکس"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("fax"),
-			keywords: &["comunicação", "fax", "máquina de fax"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("maquina faxpaq"),
-			keywords: &["fax", "maquina faxpaq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("echipament fax"),
-			keywords: &["comunicare", "dispozitiv", "echipament fax", "fax"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-669"), keywords: &["E10-669"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("факс"),
-			keywords: &["бумага", "сообщение", "факс"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("imashini ya fagisi"),
-			keywords: &["fagisi", "imashini ya fagisi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("فيڪس مشين"),
-			keywords: &["فيڪس", "فيڪس مشين"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ෆැක\u{dca}ස\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"),
-			keywords: &["ෆැක\u{dca}ස\u{dca}", "ෆැක\u{dca}ස\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("fax"),
-			keywords: &["fax", "komunikácia", "telefax"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("telefaks"),
-			keywords: &["faks", "komunikacija", "telefaks"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("mishiinka fakiska"),
-			keywords: &["fakis", "mishiinka fakiska"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation { lang: "sq", tts: Some("faks"), keywords: &["faks", "komunikim"] },
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("факс"),
-			keywords: &["комуникација", "факс"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("faks"),
-			keywords: &["faks", "komunikacija"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("fax"),
-			keywords: &["fax", "kommunikation"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mashine ya faksi"),
-			keywords: &["faksi", "mashine ya faksi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பேக\u{bcd}ஸ\u{bcd}"),
-			keywords: &[
-				"ஃபேக\u{bcd}ஸ\u{bcd}",
-				"இயந\u{bcd}திரம\u{bcd}",
-				"தகவல\u{bcd} தொடர\u{bcd}பு",
-				"தொடர\u{bcd}புகொள\u{bcd}",
-				"தொலைநகலி",
-				"தொலைநகல\u{bcd}",
-				"பேக\u{bcd}ஸ\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}"),
-			keywords: &[
-				"కమ\u{c4d}యూన\u{c3f}క\u{c47}షన\u{c4d}",
-				"ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d}",
-				"ఫ\u{c4d}య\u{c3e}క\u{c4d}స\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("дастгоҳи факс"),
-			keywords: &["дастгоҳи факс", "факс"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("แฟกซ\u{e4c}"),
-			keywords: &["เคร\u{e37}\u{e48}องแฟกซ\u{e4c}", "แฟกซ\u{e4c}"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ፋክስ ማሽን"),
-			keywords: &["ማሽን", "ርክብ", "ፋክስ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("faks apparaty"),
-			keywords: &["faks", "faks apparaty"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("foni tohi"), keywords: &["foni tohi"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("faks makinesi"),
-			keywords: &["faks makinesi", "iletişim"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang: "ug", tts: Some("فاكسچى"), keywords: &["فاكس", "فاكسچى"]
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("факс"),
-			keywords: &["телефакс", "факсимільний апарат"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("فیکس مشین"),
-			keywords: &["برقی آلہ", "فیکس", "فیکس مشین"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("faks apparati"),
-			keywords: &["faks", "faks apparati"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation { lang: "vi", tts: Some("máy fax"), keywords: &["fax", "máy fax"] },
-		#[cfg(feature = "wo")]
-		crate::Annotation { lang: "wo", tts: Some("faks"), keywords: &["faks", "fakse"] },
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umatshani wefeksi"),
-			keywords: &["ifeksi", "umatshani wefeksi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ẹ\u{300}rọ fákìsì"),
-			keywords: &["fákìsì", "ẹ\u{300}rọ fákìsì"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ɛ\u{300}rɔ fákìsì"),
-			keywords: &["fákìsì", "ɛ\u{300}rɔ fákìsì"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("傳真機"), keywords: &["傳真", "傳真機"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("传真机"),
-			keywords: &["传真", "传真机"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("传真机"),
-			keywords: &["传真", "传真号", "传真机", "发传真"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("傳真機"),
-			keywords: &["FAX", "傳真機"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["fax", "傳真", "傳真機", "通訊"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("umshini wefeksi"),
-			keywords: &["ifeksi", "umshini wefeksi"],
-		},
-	],
 };

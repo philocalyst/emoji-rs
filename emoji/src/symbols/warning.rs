@@ -1,3 +1,29 @@
+#[doc = "☢\u{fe0f}"]
+pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
+	glyph:                "☢\u{fe0f}",
+	codepoint:            &[9762u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "radioactive",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "☣\u{fe0f}"]
+pub const BIOHAZARD: crate::Emoji = crate::Emoji {
+	glyph:                "☣\u{fe0f}",
+	codepoint:            &[9763u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "biohazard",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "⚠\u{fe0f}"]
 pub const WARNING: crate::Emoji = crate::Emoji {
 	glyph:                "⚠\u{fe0f}",
@@ -1116,6482 +1142,6 @@ pub const NO_ENTRY: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🚫"]
-pub const PROHIBITED: crate::Emoji = crate::Emoji {
-	glyph:                "🚫",
-	codepoint:            &[128683u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "prohibited",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("verbode"),
-			keywords: &["geen", "nee", "nie", "rook", "toegang", "verbode"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የተከለከለ"),
-			keywords: &["መግቢያ", "ምልክት", "አይ", "አይደለም", "የተከለከለ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ممنوع"),
-			keywords: &["إشارة", "رمز", "غير مسموح", "كلا", "ممنوع", "ممنوع الدخول"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("নিষেধ"),
-			keywords: &["নহয\u{9bc}", "নিষিদ\u{9cd}ধ", "নিষেধ", "প\u{9cd}ৰৱেশ", "সম\u{9c2}লি নহয\u{9bc}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qadağandır"),
-			keywords: &[
-				"giriş",
-				"giriş yoxdur",
-				"qadağan olunmuş",
-				"qadağandır",
-				"qadağandır işarəsi",
-				"xeyr",
-				"yox",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("забаронена"),
-			keywords: &["забаронена", "знак", "нельга", "няма ўваходу"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("забранено"),
-			keywords: &["влизане", "вход", "забрана", "забранено", "не", "пушене"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("নিষিদ\u{9cd}ধ"),
-			keywords: &["নয\u{9bc}", "ন\u{9be}", "নিষিদ\u{9cd}ধ", "প\u{9cd}রবেশ"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("berzet"),
-			keywords: &["berzet", "difennet", "tu"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zabrana"),
-			keywords: &["ne", "ulaz", "zabrana", "zabranjen", "zaustavljen"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("prohibit"),
-			keywords: &["accés", "entrada", "fumar", "no", "no passeu", "prohibició", "prohibit"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᎨᏳᏓᏅᎢ"),
-			keywords: &["ᎠᎨᏳᏓᏅᎢ", "ᎠᏴᏍᏗ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᏂᎨᏒᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zákaz"),
-			keywords: &["ne", "vstup", "zakázán", "zakázáno", "zákaz", "zákaz vstupu"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("wedi’i wahardd"),
-			keywords: &["dim", "gwahardd", "mynediad", "wedi’i wahardd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ingen adgang"),
-			keywords: &["adgang forbudt", "forbudt", "ingen adgang"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Verboten"),
-			keywords: &["Kein-Zutritt-Zeichen", "Verboten", "Verbotszeichen", "kein zutritt"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απαγορεύεται"),
-			keywords: &["απαγορευμένο", "απαγορεύεται", "δεν", "είσοδος", "καπνός", "μη", "όχι"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("prohibited"),
-			keywords: &["entry", "forbidden", "no", "not", "prohibited", "smoke"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("↑↑↑"),
-			keywords: &["denied", "entry", "forbidden", "no", "prohibited"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("prohibido"),
-			keywords: &["entrar", "no", "pasar", "prohibición", "prohibido"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("señal de prohibición"),
-			keywords: &[
-				"cancelar",
-				"entrar",
-				"fumar",
-				"no",
-				"pasar",
-				"prohibición",
-				"prohibido",
-				"señal",
-				"señal de no entrar",
-				"señal de prohibición",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["no", "pasar", "prohibido", "señal", "señal de prohibición"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["entrada", "entrar", "no", "prohibido", "señal de prohibición"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("keelatud"),
-			keywords: &["keelatud", "sisenemine"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("debekatuta"),
-			keywords: &["debekatuta", "ez", "sarrera"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ممنوع"),
-			keywords: &["ممنوع", "نه", "ورود"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("pääsy kielletty"),
-			keywords: &["ei", "kielletty", "liikenne", "pääsy"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bawal"),
-			keywords: &["bawal", "huwag", "ipinagbabawal", "wag"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("bannað"),
-			keywords: &["atgongd", "bannað", "forboð"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("symbole d’interdiction"),
-			keywords: &["entrée interdite", "interdiction", "interdit", "symbole d’interdiction"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("interdit"), keywords: &["interdit"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cosc ar dhul isteach"),
-			keywords: &[
-				"Cosc ar iontráil",
-				"Níl cead isteach",
-				"comhartha",
-				"cosc ar chaitheamh tobac",
-				"cosc ar dhul isteach",
-				"nil cead isteach",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("toirmisgte"),
-			keywords: &["diùltadh", "inntrigeadh", "toirmisgte", "àicheadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de prohibición"),
-			keywords: &["prohibición", "prohibido", "sinal", "sinal de prohibición"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પ\u{acd}રતિબ\u{a82}ધિત"),
-			keywords: &[
-				"ચિહ\u{acd}ન",
-				"નહી\u{a82}",
-				"ના",
-				"નિષિદ\u{acd}ધ",
-				"નિષ\u{ac7}ધ",
-				"પ\u{acd}રતિબ\u{a82}ધિત",
-				"પ\u{acd}રવ\u{ac7}શ નિષ\u{ac7}ધ",
-				"પ\u{acd}રવ\u{ac7}શ નિષ\u{ac7}ધ ચિહ\u{acd}ન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("an hana"),
-			keywords: &[
-				"an hana",
-				"a’a",
-				"ba shiga",
-				"babu",
-				"haram",
-				"haramun",
-				"harantacce",
-				"hayaƙi",
-				"shiga",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("an hana"),
-			keywords: &[
-				"an hana",
-				"a’a",
-				"ba shiga",
-				"babu",
-				"haram",
-				"haramun",
-				"harantacce",
-				"hayaƙi",
-				"shiga",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אסור"),
-			keywords: &["אין כניסה", "איסור", "אסור", "לא"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("निषिद\u{94d}ध"),
-			keywords: &["निषिद\u{94d}ध", "प\u{94d}रव\u{947}श", "मनाही"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zabranjeno"),
-			keywords: &["dim", "ne", "nema", "ulaz", "zabranjeno"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("tilos"),
-			keywords: &[
-				"KRESZ-tábla",
-				"behajtani tilos",
-				"behajtás",
-				"frogalom",
-				"közlekedési tábla",
-				"nincs behajtás",
-				"tilos",
-				"tiltott",
-				"tábla",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("արգելված է"),
-			keywords: &["արգելված", "արգելված է", "մուտք", "ոչ"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("prohibite"),
-			keywords: &["entrata", "no", "non", "prohibite", "sin"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("dilarang"),
-			keywords: &["dilarang", "masuk", "merokok", "rokok", "terlarang", "tidak", "tidak boleh"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("egbochiri"),
-			keywords: &["a", "amaghị", "egbochiri", "mbanye"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("bannað"),
-			keywords: &["bannað", "bannað að leggja"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("segnale di divieto"),
-			keywords: &[
-				"divieto",
-				"proibito",
-				"segnale di divieto",
-				"simbolo",
-				"simbolo di divieto",
-				"vietato",
-				"vietato fumare",
-				"vietato l’accesso",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("車両通行止め"),
-			keywords: &["標識", "禁止", "規制", "車両通行止め", "通行止め", "道路"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ora kena"),
-			keywords: &["aja", "larangan", "mlebu", "ora kena"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("აკრძალვა"),
-			keywords: &["აკრძალვა", "აკრძალულია", "არა", "შესვლა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("yegdel"), keywords: &["yegdel"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("тыйым салынған"),
-			keywords: &["емес", "жоқ", "кіріс", "тыйым салынған"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("ingen adgang"),
-			keywords: &["adgang forbudt", "ingen adgang"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សញ\u{17d2}ញាហាមឃាត\u{17cb}"),
-			keywords: &[
-				"ម\u{17b7}នអន\u{17bb}ញ\u{17d2}ញាត",
-				"សញ\u{17d2}ញា",
-				"សញ\u{17d2}ញាហាមឃាត\u{17cb}",
-				"ហាម",
-				"ហាមឃាត\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}"),
-			keywords: &[
-				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ಧ\u{cc2}ಮಪಾನ ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
-				"ಪ\u{ccd}ರವ\u{cc7}ಶ ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
-				"ಪ\u{ccd}ರವ\u{cc7}ಶವ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಪ\u{ccd}ರವ\u{cc7}ಶವ\u{cbf}ಲ\u{ccd}ಲದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("금지"),
-			keywords: &["금지", "들어오지 마시오", "안됨", "진입 금지 표시"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("प\u{94d}रतिब\u{902}धीत"),
-			keywords: &["ना", "नाका", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "प\u{94d}रव\u{947}श"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("тыюу салынган"),
-			keywords: &["жок", "кирүү", "тыюу салынган"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("verbueden"),
-			keywords: &["Accès", "keen", "neen", "verbueden"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ec9}າມຜ\u{ec8}ານ"),
-			keywords: &[
-				"ຕ\u{ec9}ອງຫ\u{ec9}າມ",
-				"ທາງເຂ\u{ebb}\u{ec9}າ",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມຜ\u{ec8}ານ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("draudžiama"),
-			keywords: &["draudžiama", "ne", "rūkyti", "uždrausta", "įėjimas", "ženklas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("aizliegts"),
-			keywords: &["aizliegts", "ieeja", "nedrīkst", "nē"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kua whakakore"),
-			keywords: &["kore", "kua whakakore", "kāo", "tomonga"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("забрана за влез"),
-			keywords: &[
-				"влез",
-				"забрана",
-				"забрана за влез",
-				"забранет влез",
-				"забрането",
-				"не",
-				"пушење",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("നിയന\u{d4d}ത\u{d4d}രിതമ\u{d3e}ണ\u{d4d}"),
-			keywords: &["നിയന\u{d4d}ത\u{d4d}രിതമ\u{d3e}ണ\u{d4d}", "പ\u{d4d}രവേശനമില\u{d4d}ല"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хориглосон"),
-			keywords: &["болохгүй", "нэвтрэх", "хориглосон", "хориотой"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("परवानगी नाही"),
-			keywords: &["चिन\u{94d}ह", "नाही", "निषिद\u{94d}ध", "परवानगी नाही", "प\u{94d}रव\u{947}श"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("dilarang"),
-			keywords: &["bukan", "dilarang", "masuk", "tidak"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("projbit"),
-			keywords: &["dħul", "ma", "mhux", "pprojbit", "projbit"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("တားမြစ\u{103a}နေရာ"),
-			keywords: &[
-				"တားမြစ\u{103a}",
-				"တားမြစ\u{103a}နေရာ",
-				"မရ\u{103e}\u{102d}",
-				"မလ\u{102f}ပ\u{103a}ရ",
-				"အဝင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("निष\u{947}धित"),
-			keywords: &["छ\u{948}न", "निष\u{947}धित", "प\u{94d}रव\u{947}श", "रोकिएको", "होइन"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("verboden"),
-			keywords: &["nee", "niet", "roken", "toegang", "verboden"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("forbode"),
-			keywords: &["forbode", "ikkje", "nei", "skilt", "tilgang forbode"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
-			keywords: &[
-				"ନ\u{b3e}",
-				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
-				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
-				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
-				"ପ\u{b4d}ରବେଶ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪਾਬ\u{a70}ਦੀ"),
-			keywords: &[
-				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਦਾਖਲਾ ਨਹੀ\u{a02}",
-				"ਦਾਖਲਾ ਨਹੀ\u{a02} ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਨਹੀ\u{a02}",
-				"ਪਾਬ\u{a70}ਦੀ",
-				"ਰ\u{a4b}ਕ",
-				"ਸਿਗਰਟ ਪੀਣਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ممنوع کیتا"),
-			keywords: &["اندراج", "حرام", "ممنوع کیتا", "نہیں"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Nọ\u{301} Dú Am"),
-			keywords: &["Fọbid", "No", "Nọ\u{301}", "Nọ\u{301} Alau", "Nọ\u{301} Dú Am", "Ẹ\u{301}nta"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("zakaz"),
-			keywords: &["brak przejścia", "wejście", "zabronione", "zakaz", "znak"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("منع شوی"),
-			keywords: &["داخلېدل", "ممنوع", "منع", "منع شوی", "نه"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("proibido"),
-			keywords: &["entrada", "não", "proibida", "proibido", "sinal", "símbolo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["entrada", "fumar", "não", "proibida", "proibido"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("amatasqa"),
-			keywords: &["amatasqa", "mana", "manaraq", "yaykuna"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("interzis"),
-			keywords: &["fum", "interdicție", "interzis", "intrare", "nu"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-959"), keywords: &["E10-959"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("запрещено"),
-			keywords: &["вход", "входа", "запрещено", "зачеркнутый", "красный", "круг", "нельзя", "нет"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("birabujijwe"),
-			keywords: &["birabujijwe", "kibujijwe", "nta", "oya", "ubwinjiriro"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("منع ڪيل"),
-			keywords: &["داخلا", "ممنوعه", "منع ڪيل", "نه"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("තහනම\u{dca}ය"),
-			keywords: &["ඇත\u{dd4}ළ\u{dd4} ව\u{dd3}ම", "එප\u{dcf}", "තහනම\u{dca}", "තහනම\u{dca}ය", "නැත"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zákaz"),
-			keywords: &["nie", "vstup", "zakázané", "zakázaný", "značka", "zákaz"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("prepovedano"),
-			keywords: &["kajenje prepovedano", "ne", "ni vstopa", "prepovedano", "vstop"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("reebban"),
-			keywords: &["gelitaan", "ma jirto", "mamnuuc", "maya", "reebban"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ndalohet"),
-			keywords: &["hyrje", "jo", "ndalohet", "nuk", "tym"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("забрањено"),
-			keywords: &["забрањено", "нe", "нeмa", "улaз"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zabranjeno"),
-			keywords: &["ne", "nema", "ulaz", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("förbjudet"),
-			keywords: &["förbjudet", "förbudsmarkering"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("imepigwa marufuku"),
-			keywords: &["hapana", "imepigwa marufuku", "katazwa", "kuingia", "siyo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி"),
-			keywords: &[
-				"அனுமதி இல\u{bcd}லை",
-				"அனுமதி இல\u{bcd}லை சின\u{bcd}னம\u{bcd}",
-				"தடுக\u{bcd}கப\u{bcd}பட\u{bcd}டது",
-				"தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("న\u{c3f}ష\u{c3f}ద\u{c4d}ధం"),
-			keywords: &[
-				"ఇక\u{c4d}కడ ప\u{c4d}రవ\u{c47}శ\u{c3f}ంచవద\u{c4d}దు",
-				"ఎంట\u{c4d}ర\u{c40}",
-				"న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
-				"న\u{c4b}",
-				"ప\u{c4a}గ త\u{c4d}ర\u{c3e}గర\u{c3e}దు",
-				"ప\u{c4d}రవ\u{c47}శం",
-				"ప\u{c4d}రవ\u{c47}శం న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
-				"ప\u{c4d}రవ\u{c47}శం ల\u{c47}దు",
-				"స\u{c4d}మ\u{c4b}క\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("манъ аст"),
-			keywords: &["вуруд", "манъ аст", "манъшуда", "не", "нест"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ป\u{e49}ายหวงห\u{e49}าม"),
-			keywords: &["ป\u{e49}ายหวงห\u{e49}าม", "ห\u{e49}ามเข\u{e49}า"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዝተኣገደ"),
-			keywords: &["ብሽክለታ", "ብሽክለታ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gadagan"),
-			keywords: &["bolanok", "gadagan", "giriş", "ýok"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("tapu"), keywords: &["feʻaluʻaki", "tapu"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("girmek yasak"),
-			keywords: &["Girilmez", "girmek yasak", "işaret"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("چەكلەنگەن"),
-			keywords: &["كىرىش", "ياق", "يوق", "چەكلەنگەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("заборонено"),
-			keywords: &[
-				"вʼїзд заборонено",
-				"заборонено",
-				"забороняється",
-				"не дозволено",
-				"не допускається",
-				"немає",
-				"ні",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ممنوع"),
-			keywords: &["داخلہ", "سائن", "ممانعت", "ممنوع", "منع", "ٹریفک"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("to‘xtab turish taqiqlanadi"),
-			keywords: &[
-				"kirish",
-				"man qilingan",
-				"mumkin emas",
-				"taqiqlangan",
-				"to‘xtab turish taqiqlanadi",
-				"yo‘l",
-				"yo‘q",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("bị cấm"),
-			keywords: &["bị cấm", "cấm", "không", "không có", "lối vào"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("dañu koy tere"),
-			keywords: &["bul", "dañu koy tere", "dugg", "déet", "luñ tere"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("yalelwe"),
-			keywords: &["hayi", "ithintelwe", "nakanye", "ukungena", "yalelwe"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kosaye"),
-			keywords: &["kosaye", "kò", "rárá", "àbáwo\u{329}lé", "èèwọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kosaye"),
-			keywords: &["kosaye", "kò", "rárá", "àbáwo\u{329}lé", "èèwɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("禁止"),
-			keywords: &["不", "不可", "禁止", "進入"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("禁止"),
-			keywords: &["不", "不可", "禁止", "进入"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("禁止"),
-			keywords: &["不准", "不许", "严禁", "禁入", "禁止", "禁行", "阻止"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("禁止通行"),
-			keywords: &["禁止", "禁止通行", "禁止進入"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("禁止標誌"),
-			keywords: &["不准進入", "標誌", "禁止", "禁止標誌", "禁止通行", "禁止進入"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("okuvinjiwe"),
-			keywords: &["cha", "okunqatshelwe", "okuvinjiwe", "ukungena"],
-		},
-	],
-};
-#[doc = "🚳"]
-pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
-	glyph:                "🚳",
-	codepoint:            &[128691u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "no bicycles",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("fietse verbode"),
-			keywords: &["fiets", "fietse verbode", "geen", "geen fietse", "verbode"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ብስክሌት አይፈቀድም"),
-			keywords: &["ብስክሌት", "ብስክሌት አይፈቀድም", "ተሽከርካሪ", "አይደለም", "ክልክል"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ممنوع ركوب الدراجات"),
-			keywords: &[
-				"بسكلات",
-				"دراجة",
-				"دراجة هوائية",
-				"رمز",
-				"مركبة",
-				"ممنوع البسكلتة",
-				"ممنوع ركوب الدراجات",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ব\u{9be}ইচ\u{9be}ইকেল নিষেধ"),
-			keywords: &[
-				"নহয\u{9bc}",
-				"নিষিদ\u{9cd}ধ",
-				"নিষেধ",
-				"ব\u{9be}ইক",
-				"ব\u{9be}ইচ\u{9be}ইকেল",
-				"সম\u{9c2}লি নহয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("velosiped sürmək olmaz"),
-			keywords: &[
-				"bayk",
-				"nəqliyyat",
-				"qadağa",
-				"qadağan olunmuş",
-				"velosiped",
-				"velosiped girişi yoxdur",
-				"velosiped sürmək olmaz",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("рух на веласіпедзе забаронены"),
-			keywords: &[
-				"веласіпед",
-				"дарожны",
-				"забаронена",
-				"знак",
-				"ровар",
-				"рух",
-				"рух на веласіпедзе забаронены",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("забранено за велосипеди"),
-			keywords: &[
-				"велосипед",
-				"забрана",
-				"забранено",
-				"забранено за велосипеди",
-				"забранено за велосипедисти",
-				"колело",
-				"не",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ব\u{9be}ইস\u{9be}ইকেল নিষিদ\u{9cd}ধ"),
-			keywords: &[
-				"নয\u{9bc}",
-				"ন\u{9be}",
-				"নিষিদ\u{9cd}ধ",
-				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
-				"ব\u{9be}ইক",
-				"ব\u{9be}ইস\u{9be}ইকেল",
-				"য\u{9be}নব\u{9be}হন",
-				"স\u{9be}ইকেল",
-				"স\u{9be}ইকেল চ\u{9be}ল\u{9be}নো য\u{9be}বে ন\u{9be}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("beloioù difennet"),
-			keywords: &["beloioù", "berzet", "difennet"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zabranjeno za bicikliste"),
-			keywords: &["biciklo", "ne", "vozilo", "zabranjeno", "zabranjeno za bicikliste"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("bicicletes prohibides"),
-			keywords: &[
-				"bici",
-				"bicicletes",
-				"bicicletes prohibides",
-				"bicis",
-				"bicis prohibides",
-				"prohibició",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏝᎨᏒ ᏔᎵ ᏗᎦᏩᏘ"),
-			keywords: &["ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ", "ᏔᎵ ᏗᎦᏆᏘ", "ᏝᎨᏒ ᏔᎵ ᏗᎦᏩᏘ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zákaz vjezdu cyklistů"),
-			keywords: &[
-				"doprava",
-				"jízdní kolo",
-				"kolo",
-				"ne",
-				"vozidlo",
-				"zakázáno",
-				"zákaz",
-				"zákaz jízdních kol",
-				"zákaz kol",
-				"zákaz vjezdu cyklistů",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dim beiciau"),
-			keywords: &["beic", "cerbyd", "dim beiciau", "gwahardd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("cykler forbudt"),
-			keywords: &["cykler forbudt", "ingen cykler"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Fahrräder verboten"),
-			keywords: &[
-				"Fahhrad",
-				"Fahrrad-verboten-Schild",
-				"Fahrräder verboten",
-				"Radfahren verboten",
-				"verboten",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απαγορεύονται τα ποδήλατα"),
-			keywords: &[
-				"απαγορευμένο",
-				"απαγορεύεται",
-				"απαγορεύονται τα ποδήλατα",
-				"μη",
-				"ποδήλατο",
-				"όχι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("no bicycles"),
-			keywords: &["bicycle", "bicycles", "bike", "forbidden", "no", "not", "prohibited"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("bicicletas prohibidas"),
-			keywords: &["bicicleta", "bicicletas prohibidas", "prohibido", "vehículo"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("no se permiten bicicletas"),
-			keywords: &[
-				"bicicleta",
-				"bicicletas",
-				"bicicletas no permitidas",
-				"no se permiten bicicletas",
-				"prohibido",
-				"señal",
-				"vehículo",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["bicicleta", "moto", "no", "no se permiten bicicletas", "prohibido"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("jalgrattad keelatud"),
-			keywords: &["jalgratas", "jalgrattad keelatud", "keelatud", "sõiduk"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bizikletarik ez"),
-			keywords: &["bizikleta", "bizikletarik ez", "debekatuta", "ez", "galarazita"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("دوچرخه ممنوع"),
-			keywords: &["دوچرخه", "ممنوع", "نه", "وسیله نقلیه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("polkupyörällä ajo kielletty"),
-			keywords: &[
-				"ei polkupyörille",
-				"kielletty",
-				"liikenne",
-				"polkupyörä",
-				"polkupyörällä ajo kielletty",
-				"pyörä",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bawal ang mga bisikleta"),
-			keywords: &["bawal ang mga bisikleta", "bisikleta", "huwag", "ipinagbabawal", "wala"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("ongar súkklur"),
-			keywords: &["forboð", "ongar súkklur", "súkkla"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("vélos interdits"),
-			keywords: &["bicyclette", "interdiction", "interdit", "vélo", "vélos interdits"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cosc ar rothair"),
-			keywords: &["cosc ar rothair", "cosc ar rothar", "feithicil", "rothar"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("rothaireachd toirmisgte"),
-			keywords: &[
-				"baidhseagal",
-				"diùltadh",
-				"rothair",
-				"rothaireachd toirmisgte",
-				"toirmisgte",
-				"àicheadh",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de prohibido bicicletas"),
-			keywords: &["bicicleta", "prohibición", "sinal", "sinal de prohibido bicicletas"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સાઇકલ નહી\u{a82}"),
-			keywords: &[
-				"પ\u{acd}રતિબ\u{a82}ધિત",
-				"બાઇક",
-				"બાઇક નહી\u{a82}",
-				"વાહન",
-				"સાઇકલ નહી\u{a82}",
-				"સાઇકલન\u{ac7} મ\u{a82}જ\u{ac2}રી નથી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("an hana ma keke"),
-			keywords: &[
-				"an hana",
-				"an hana ma keke",
-				"an haramta keke",
-				"a’a",
-				"babu",
-				"babur",
-				"ban da keke",
-				"ban da kekuna",
-				"haram",
-				"keke",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("an hana ma keke"),
-			keywords: &[
-				"an hana",
-				"an hana ma keke",
-				"an haramta keke",
-				"a’a",
-				"babu",
-				"babur",
-				"ban da keke",
-				"ban da kekuna",
-				"haram",
-				"keke",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אין כניסה לאופניים"),
-			keywords: &["אופניים", "אין כניסה", "אין כניסה לאופניים", "איסור", "אסור"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("साइकल नही\u{902}"),
-			keywords: &[
-				"निषिद\u{94d}ध",
-				"बाइक",
-				"बाइक निष\u{947}ध",
-				"बाईसिकिल",
-				"साइकल नही\u{902}",
-				"साइकिल की अन\u{941}मति नही\u{902}",
-				"साइकिल नही\u{902}",
-				"साइकिल निष\u{947}ध",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zabranjeno za bicikle"),
-			keywords: &["bicikl", "ne", "promet", "vozilo", "zabranjeno", "zabranjeno za bicikle"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("kerékpározni tilos"),
-			keywords: &["bicikli", "kerékpár", "kerékpározni tilos", "tilos", "tiltott"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("առանց հեծանիվների"),
-			keywords: &["առանց հեծանիվների", "արգելված", "հեծանիվ", "ոչ", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("bicyclettas prohibite"),
-			keywords: &["bicycletta", "bicyclettas prohibite", "bicyclo", "no", "prohibite", "sin"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("dilarang bersepeda"),
-			keywords: &[
-				"dilarang",
-				"dilarang bersepeda",
-				"kendaraan",
-				"sepeda",
-				"tanda",
-				"terlarang",
-				"tidak",
-				"tidak boleh",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("enweghị igwe"),
-			keywords: &["ana", "egbochighị", "egbochiri", "enweghị igwe", "igwe", "nke"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hjólreiðar bannaðar"),
-			keywords: &["hjól", "hjól bönnuð", "hjólreiðar bannaðar"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("segnale di divieto di transito delle biciclette"),
-			keywords: &[
-				"bici",
-				"bicicletta",
-				"divieto bicicletta",
-				"divieto biciclette",
-				"divieto di transito",
-				"divieto transito biciclette",
-				"proibito",
-				"segnale",
-				"segnale di divieto di transito delle biciclette",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("自転車禁止"),
-			keywords: &["標識", "禁止", "自転車", "自転車禁止", "規制", "道路"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("pit ora kena liwat"),
-			keywords: &["aja", "larangan", "pit", "pit ora kena liwat", "sepedha"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ველოსიპედებისთვის შესვლა აკრძალულია"),
-			keywords: &[
-				"აკრძალვა",
-				"აკრძალულია",
-				"არა",
-				"ველოსიპედებისთვის შესვლა აკრძალულია",
-				"ველოსიპედი",
-				"ტრანსპორტი",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("avilu yegdel"),
-			keywords: &["avilu yegdel"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("велосипед тебуге болмайды"),
-			keywords: &[
-				"байк",
-				"велосипед",
-				"велосипед тебуге болмайды",
-				"жоқ",
-				"рұқсат етілмеген",
-				"тыйым салынған",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("cykler forbudt"),
-			keywords: &["cykler forbudt", "ingen cykler"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សញ\u{17d2}ញាហាមច\u{17c6}ពោះកង\u{17cb}"),
-			keywords: &[
-				"កង\u{17cb}",
-				"ឃាត\u{17cb}",
-				"សញ\u{17d2}ញា",
-				"សញ\u{17d2}ញាហាមច\u{17c6}ពោះកង\u{17cb}",
-				"ហាម",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}\u{200c}ಗಳು ಇಲ\u{ccd}ಲ"),
-			keywords: &[
-				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಬ\u{cc8}ಕ\u{ccd}",
-				"ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}",
-				"ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}\u{200c}ಗಳು ಇಲ\u{ccd}ಲ",
-				"ಯಾವುದ\u{cc7} ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd} ಇಲ\u{ccd}ಲ",
-				"ವಾಹನ",
-				"ಸ\u{cc8}ಕಲ\u{ccd}",
-				"ಸ\u{cc8}ಕಲ\u{ccd} ಅನುಮತ\u{cbf}ಸಲಾಗುವುದ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಸ\u{cc8}ಕಲ\u{ccd} ಸವಾರ\u{cbf} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("자전거 금지"),
-			keywords: &["금지", "바이크", "안됨", "자전거", "자전거 주행 금지"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("सायकली ना"),
-			keywords: &["ना", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "बायक", "सायकल", "सायकली ना"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("велосипедке уруксат жок"),
-			keywords: &["велосипед", "велосипедке уруксат жок", "жок", "тыюу салынган", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("keng Vëloen"),
-			keywords: &["Vëlo", "keng", "keng Vëloen", "neen", "net", "verbueden"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ec9}າມລ\u{ebb}ດຖ\u{eb5}ບ"),
-			keywords: &[
-				"ລ\u{ebb}ດຖ\u{eb5}ບ",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມຂ\u{eb5}\u{ec8}ລ\u{ebb}ດຖ\u{eb5}ບ",
-				"ຫ\u{ec9}າມລ\u{ebb}ດຖ\u{eb5}ບ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("dviračiai draudžiami"),
-			keywords: &[
-				"draudžiama",
-				"dviratis",
-				"dviračiai draudžiami",
-				"ne",
-				"transporto priemonė",
-				"uždrausta",
-				"ženklas",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("velosipēdiem braukt aizliegts"),
-			keywords: &[
-				"aizliegts",
-				"braukt aizliegts",
-				"nē",
-				"velosipēdiem braukt aizliegts",
-				"velosipēds",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kaua he pahikara"),
-			keywords: &["kaua he pahikara", "kore", "kua whakakore", "kāo", "pahikara", "rāhuitia"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("забрана за велосипеди"),
-			keywords: &["велосипед", "забрана", "забрана за велосипеди", "забрането", "не"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സൈക\u{d4d}കിൾ പ\u{d3e}ടില\u{d4d}ല"),
-			keywords: &[
-				"നിരോധിക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
-				"പ\u{d3e}ടില\u{d4d}ല",
-				"ബൈക\u{d4d}ക\u{d4d}",
-				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
-				"സൈക\u{d4d}കിള\u{d41}കൾ പ\u{d3e}ടില\u{d4d}ല",
-				"സൈക\u{d4d}കിൾ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("дугуй унахыг хориглоно"),
-			keywords: &[
-				"болохгүй",
-				"дугуй",
-				"дугуй унахыг хориглоно",
-				"унадаг дугуй",
-				"унадаг дугуй унаж болохгүй",
-				"хориглосон",
-				"хориотой",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("सायकलीस अन\u{941}मती नाही"),
-			keywords: &[
-				"द\u{941}चाकी",
-				"नाही",
-				"निषिद\u{94d}ध",
-				"परवानगी नाही",
-				"वाहन",
-				"सायकल",
-				"सायकली",
-				"सायकली\u{902}साठी नाही",
-				"सायकलीस अन\u{941}मती नाही",
-				"सायकलीस परवानगी नाही",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("basikal dilarang"),
-			keywords: &["basikal", "bukan", "dilarang", "ditegah", "kenderaan", "sepeda", "tidak"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ebda rota"),
-			keywords: &["ebda rota", "ma", "mhux", "pprojbit", "projbit", "rota"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("စက\u{103a}ဘ\u{102e}းမစ\u{102e}းရ"),
-			keywords: &[
-				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
-				"စက\u{103a}ဘ\u{102e}း",
-				"စက\u{103a}ဘ\u{102e}းမစ\u{102e}းရ",
-				"တားမြစ\u{103a}",
-				"မစ\u{102e}းရ",
-				"မလ\u{102f}ပ\u{103a}ရ",
-				"ယာဉ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("साइकल चलाउन पाइ\u{901}द\u{948}न"),
-			keywords: &[
-				"निष\u{947}धित",
-				"बाइक",
-				"रोकिएको",
-				"साइकल",
-				"साइकल चलाउन पाइ\u{901}द\u{948}न",
-				"होइन",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen fietsen"),
-			keywords: &["fiets", "fietsen", "nee", "niet", "verboden"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("syklar forbode"),
-			keywords: &[
-				"ikkje",
-				"ingen syklar",
-				"nei",
-				"sykkel",
-				"sykkel ikkje tillate",
-				"syklar forbode",
-			],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ବ\u{b3e}ଇସେଇକେଲ\u{b4d}\u{200c} ନ\u{b3f}ଷେଧ"),
-			keywords: &[
-				"ନ\u{b3e}",
-				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
-				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
-				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
-				"ବ\u{b3e}ଇକ\u{b4d}\u{200c}",
-				"ବ\u{b3e}ଇସ\u{b3e}ଇକେଲ\u{b4d}\u{200c}",
-				"ବ\u{b3e}ଇସେଇକେଲ\u{b4d}\u{200c} ନ\u{b3f}ଷେଧ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਾਈਕਲ ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
-			keywords: &[
-				"ਦਾਖਲਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
-				"ਨਹੀ\u{a02}",
-				"ਬਾਈਕ",
-				"ਵਾਹਨ",
-				"ਸਾਈਕਲ ਨਹੀ\u{a02}",
-				"ਸਾਈਕਲ ਮਨਜ\u{a3c}\u{a42}ਰ ਨਹੀ\u{a02}",
-				"ਸਾਈਕਲ ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("سائیکل نہیں"),
-			keywords: &["بائیسیکل", "حرام", "سائیکل نہیں", "ممنوع کیتا", "موٹر سائیکل", "نہیں"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Nó Baísíkul Hia"),
-			keywords: &[
-				"Baik",
-				"Baísíkul",
-				"Fọbid",
-				"No",
-				"Nó Baísíkul",
-				"Nó Baísíkul Hia",
-				"Nọ\u{301} Dú Am",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("zakaz wjazdu rowerów"),
-			keywords: &["nie wolno", "pojazd", "rower", "zabroniony", "zakaz", "zakaz wjazdu rowerów"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("بایسکلانو ته اجازه نشته"),
-			keywords: &[
-				"بايسيکل",
-				"بايسکلانو ته اجازه نشته",
-				"بايک",
-				"بایسکلانو ته اجازه نشته",
-				"ممنوع",
-				"منع",
-				"نه",
-			],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("proibido andar de bicicleta"),
-			keywords: &["bicicleta", "não", "permitidas", "proibido", "sem"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["bicicleta", "não", "proibido", "proibido andar de bicicleta", "veículo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ama bicicletakuna"),
-			keywords: &["ama bicicletakuna", "amatasqa", "bici", "bicicleta", "mana"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("interzis accesul cu bicicleta"),
-			keywords: &[
-				"bicicletă",
-				"biclă",
-				"fără biciclete",
-				"interdicție",
-				"interzis",
-				"interzis accesul cu bicicleta",
-				"nu",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-967"), keywords: &["E10-967"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("перечеркнутый велосипед"),
-			keywords: &["велосипед", "въезд", "въезда", "запрещено", "нельзя", "нет", "перечеркнутый"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("amagare ntiyemewe"),
-			keywords: &[
-				"Igare",
-				"amagare ntiyemewe",
-				"ikinyabiziga bibiri",
-				"kibujijwe",
-				"kizira",
-				"nta",
-				"oya",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سائيڪلون نه"),
-			keywords: &["سائيڪلون نه", "ممنوعه", "منع ڪيل", "نه"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("බය\u{dd2}ස\u{dd2}කල\u{dca}වලට තහනම\u{dca}"),
-			keywords: &[
-				"එප\u{dcf}",
-				"තහනම\u{dca} කළ",
-				"නැත",
-				"බය\u{dd2}ක\u{dca}",
-				"බය\u{dd2}ස\u{dd2}කල\u{dca}වලට තහනම\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zákaz bicyklov"),
-			keywords: &[
-				"bicykel",
-				"dopravný prostriedok",
-				"nepovolené",
-				"nie",
-				"zakázané",
-				"zakázaný",
-				"zákaz",
-				"zákaz bicyklov",
-				"zákaz cyklistov",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("prepovedano za kolesa"),
-			keywords: &["kolo", "ne", "ni dovoljeno", "prepovedano", "prepovedano za kolesa", "vozilo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("baaskiil maya"),
-			keywords: &["baaskiil", "baaskiil wadista", "mamnuuc", "maya", "reebban"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ndalohen biçikletat"),
-			keywords: &["biçikletë", "jo", "mjet", "ndalohen biçikletat", "ndalohet"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("забрањено за бицикле"),
-			keywords: &["бицикл", "вoзилo", "зaбрaњeнo", "нe", "нeмa", "саобраћај"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zabranjeno za bicikle"),
-			keywords: &["bicikl", "ne", "nema", "saobraćaj", "vozilo", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("förbud mot trafik med cykel"),
-			keywords: &[
-				"cyklar förbjudna",
-				"fordon",
-				"förbud mot trafik med cykel",
-				"inte tillåtet att cykla",
-			],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("baisikeli haziruhusiwi"),
-			keywords: &[
-				"baisikeli",
-				"baisikeli haziruhusiwi",
-				"gari",
-				"hapana",
-				"katazwa",
-				"marufuku",
-				"siyo",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("சைக\u{bcd}கிளுக\u{bcd}கு அனுமதி இல\u{bcd}லை"),
-			keywords: &[
-				"சைக\u{bcd}கிளுக\u{bcd}கு அனுமதி இல\u{bcd}லை",
-				"சைக\u{bcd}கிள\u{bcd} செல\u{bcd}லக\u{bcd}கூட\u{bbe}து",
-				"சைக\u{bcd}கிள\u{bcd} நிறுத\u{bcd}தக\u{bcd}கூட\u{bbe}து",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some(
-				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు న\u{c3f}ష\u{c47}ధం",
-			),
-			keywords: &[
-				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు న\u{c3f}ష\u{c47}ధం",
-				"న\u{c3e}ట\u{c4d}",
-				"న\u{c3f}ష\u{c47}ధం",
-				"న\u{c4b}",
-				"బ\u{c48}క\u{c4d}",
-				"బ\u{c48}స\u{c3f}క\u{c3f}ల\u{c4d}",
-				"ర\u{c48}డ\u{c3f}ంగ\u{c4d}",
-				"స\u{c48}క\u{c3f}ల\u{c4d}లు నడపర\u{c3e}దు",
-				"స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("ҳаракати велосипедҳо манъ аст"),
-			keywords: &[
-				"велосипед",
-				"мамнуъ",
-				"манъшуда",
-				"не",
-				"нест",
-				"ҳаракат",
-				"ҳаракати велосипедҳо манъ аст",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e49}ามจ\u{e31}กรยาน"),
-			keywords: &[
-				"จราจร",
-				"จ\u{e31}กรยาน",
-				"ทางเท\u{e49}า",
-				"ห\u{e49}าม",
-				"ห\u{e49}ามจ\u{e31}กรยาน",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ብሽክለታ ኣይፍቀድን"),
-			keywords: &["ብሽክለታ", "ብሽክለታ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("welosiped gadagan"),
-			keywords: &["bolanok", "däl", "gadagan", "tigir", "welosiped gadagan", "ýok"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tapu pasikala"),
-			keywords: &["feʻaluʻaki", "pasikala", "tapu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("bisiklet yasak"),
-			keywords: &["bisiklet", "bisiklet giremez", "bisiklet yasak", "taşıt"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ۋېلىسىپىت مىنمەڭ"),
-			keywords: &["مىنمەڭ", "مىنىش", "ياق", "چەكلەنگەن", "ۋېلىسىپىت"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("велосипеди заборонено"),
-			keywords: &[
-				"велосипед",
-				"велосипеди заборонено",
-				"заборонено",
-				"рух на велосипеді заборонено",
-				"транспортний засіб",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سائیکلیں ممنوع"),
-			keywords: &["سائن", "سائیکل", "سائیکلیں ممنوع", "منع", "ٹریفک"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("velosipedda harakatlanish taqiqlanadi"),
-			keywords: &[
-				"mumkin emas",
-				"taqiqlangan",
-				"transport",
-				"velosiped",
-				"velosipedda harakatlanish taqiqlanadi",
-				"velosipedlar harakatlanishi taqiqlanadi",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cấm xe đạp"),
-			keywords: &["bị cấm", "bị nghiêm cấm", "cấm xe đạp", "không", "xe đạp"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("bu fi kenn dawal welo"),
-			keywords: &["bu fi kenn dawal welo", "bul", "déet", "luñ aaye", "luñ tere", "welo"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("iibhayisekile azivumelekanga"),
-			keywords: &[
-				"hayi",
-				"ibhayisekile",
-				"iibhayisekile azivumelekanga",
-				"ithintelwe",
-				"nakanye",
-				"yalelwe",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kosi awọn kẹkẹ"),
-			keywords: &[
-				"báíkì",
-				"kosi awọn kẹkẹ",
-				"kò",
-				"kòsáyè",
-				"kẹ\u{300}ké\u{329}",
-				"rárá",
-				"èèwọ\u{300}",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kosi awɔn kɛkɛ"),
-			keywords: &[
-				"báíkì",
-				"kosi awɔn kɛkɛ",
-				"kò",
-				"kòsáyè",
-				"kɛ\u{300}ké\u{329}",
-				"rárá",
-				"èèwɔ\u{300}",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("不准踩單車"),
-			keywords: &["不", "不准踩單車", "不可", "單車", "禁止", "自行車"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("不准踩单车"),
-			keywords: &["不", "不准踩单车", "不可", "单车", "禁止", "自行车"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("禁止自行车"),
-			keywords: &["严禁", "交通", "禁止", "禁止自行车", "禁行自行车", "自行车", "非机动车"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("禁行自行車"),
-			keywords: &["禁止通行", "禁行自行車"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("禁止單車"),
-			keywords: &["不准踩單車", "單車", "標誌", "禁止", "禁止單車"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("amabhayisikili akavunyelwe"),
-			keywords: &[
-				"akuvumelekile",
-				"amabhayisikili akavunyelwe",
-				"cha",
-				"ibhayisikili",
-				"isithuthi",
-				"isithuthuthu",
-				"kunqatshelwe",
-			],
-		},
-	],
-};
-#[doc = "🚭\u{fe0f}"]
-pub const NO_SMOKING: crate::Emoji = crate::Emoji {
-	glyph:                "🚭\u{fe0f}",
-	codepoint:            &[128685u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "no smoking",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🚯"]
-pub const NO_LITTERING: crate::Emoji = crate::Emoji {
-	glyph:                "🚯",
-	codepoint:            &[128687u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "no littering",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("moenie rommel strooi nie"),
-			keywords: &[
-				"geen",
-				"geen rommelstrooi",
-				"moenie rommel strooi nie",
-				"nee",
-				"nie",
-				"rommel",
-				"verbode",
-				"vullis",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ቆሻሻ መጣል ክልክል ነው"),
-			keywords: &["ቆሻሻ", "ቆሻሻ መጣል ክልክል ነው", "አይ", "አይደለም", "ክልክል", "የተከለከለ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ممنوع وضع النفايات"),
-			keywords: &[
-				"إشارة",
-				"إشارة لا تضع نفايات",
-				"حافظ على نظافة",
-				"رمز",
-				"لا ترم النفايات",
-				"لا ترم نقايات",
-				"لا تضع نفايات",
-				"لا نفايات",
-				"ممنوع وضع النفايات",
-				"نظافة",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("আৱৰ\u{9cd}জন\u{9be} পেলোৱ\u{9be} নিষেধ"),
-			keywords: &[
-				"আৱৰ\u{9cd}জন\u{9be}",
-				"আৱৰ\u{9cd}জন\u{9be} পেলোৱ\u{9be} নিষেধ",
-				"নহয\u{9bc}",
-				"নিষিদ\u{9cd}ধ",
-				"নিষেধ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("zibil atmaq olmaz"),
-			keywords: &[
-				"\"zibil atmaq qadağandır\" işarəsi",
-				"qadağa",
-				"qadağan olunmuş",
-				"xeyr",
-				"yox",
-				"zibil",
-				"zibil atmaq olmaz",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("смеціць забаронена"),
-			keywords: &["забаронена", "нельга", "смецце", "смеціць забаронена"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("забранено изхвърляне на боклук"),
-			keywords: &[
-				"боклук",
-				"забрана",
-				"забранено",
-				"забранено е изхвърлянето на боклуци",
-				"забранено изхвърляне на боклук",
-				"не",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("আবর\u{9cd}জন\u{9be} ছড\u{9bc}\u{9be}বেন ন\u{9be}"),
-			keywords: &[
-				"আবর\u{9cd}জন\u{9be} ছড\u{9bc}\u{9be}বেন ন\u{9be}",
-				"আবর\u{9cd}জন\u{9be} ফেলবেন ন\u{9be}",
-				"জঞ\u{9cd}জ\u{9be}ল",
-				"নয\u{9bc}",
-				"ন\u{9be}",
-				"নিষিদ\u{9cd}ধ",
-				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("arabat lakaat lastez"),
-			keywords: &["arabat lakaat lastez", "lastez"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zabranjeno bacanje otpada"),
-			keywords: &["ne bacati", "otpad", "smeće", "zabranjeno", "zabranjeno bacanje otpada"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("prohibit llençar brossa"),
-			keywords: &["brossa", "llençar", "no", "prohibició", "prohibit llençar brossa"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏞᏍᏗ ᎦᎵᎨᏴᏛᏅ"),
-			keywords: &["ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎦᎵᎨᏯᏛᏅᎢ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ", "ᏞᏍᏗ ᎦᎵᎨᏴᏛᏅ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zákaz odhazování odpadků"),
-			keywords: &[
-				"ne",
-				"neodhazujte odpadky",
-				"odpad",
-				"odpadky",
-				"smetí",
-				"zakázáno",
-				"zákaz",
-				"zákaz odhazování odpadků",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dim sbwriel"),
-			keywords: &["dim", "gwahardd", "sbwriel"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("smid ikke affald"),
-			keywords: &["affald", "forbudt", "ikke tilladt", "smid ikke affald"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Abfall verboten"),
-			keywords: &["Abfall", "Müll", "Müll-verboten-Zeichen", "verboten"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απαγορεύεται η ρίψη σκουπιδιών"),
-			keywords: &[
-				"απαγορεύεται",
-				"απαγορεύεται η ρίψη απορριμμάτων",
-				"απαγορεύεται η ρίψη σκουπιδιών",
-				"απορρίμματα",
-				"μη",
-				"σκουπίδια",
-				"όχι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("no littering"),
-			keywords: &["forbidden", "litter", "littering", "no", "not", "prohibited"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("↑↑↑"),
-			keywords: &["denied", "forbidden", "litter", "no", "no littering", "prohibited"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("prohibido tirar basura"),
-			keywords: &[
-				"basura",
-				"prohibido",
-				"prohibido tirar basura",
-				"señal",
-				"señal de no tirar basura",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["basura", "no tirar basura", "prohibido", "señal", "señal de no tirar basura"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["basura", "no", "prohibido", "prohibido tirar basura"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("risustamine keelatud"),
-			keywords: &["keelatud", "risustamine"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ezin da bota zaborra lurrera"),
-			keywords: &["debekatuta", "ez", "ezin da bota zaborra lurrera", "galarazita", "zabor"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ریختن زباله ممنوع"),
-			keywords: &["ریختن زباله ممنوع", "زباله", "زباله نریزید", "ممنوع", "نه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("roskaaminen kielletty"),
-			keywords: &["kielletty", "roska", "roskaaminen kielletty", "sotku"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bawal magkalat"),
-			keywords: &["basura", "bawal", "huwag", "ipinagbabawal", "kalat", "magkalat"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("ikki tveita burturkast"),
-			keywords: &[
-				"bannað",
-				"blaka",
-				"burturkast",
-				"forboð",
-				"ikki tveita burturkast",
-				"rusk",
-				"tveita",
-				"órudd",
-			],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("dépôt d’ordures interdit"),
-			keywords: &[
-				"déchets",
-				"dépôt d’ordures interdit",
-				"interdiction",
-				"interdit",
-				"ne pas jeter",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["déchet", "dépôt d’ordures interdit", "interdiction", "interdit", "ordure"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("ná caitear bruscar"),
-			keywords: &["coiscthe", "comhartha", "cosc ar bhruscar", "ná caitear bruscar"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("na tilg sgudal"),
-			keywords: &["diùltadh", "na tilg sgudal", "sgudal", "tilgeil", "toirmisgte", "àicheadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de prohibido guindar lixo"),
-			keywords: &["guindar", "lixo", "prohibido", "sinal de prohibido guindar lixo", "tirar"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}"),
-			keywords: &[
-				"કચરો કરશો નહી\u{a82}",
-				"કચરો ફ\u{ac7}\u{a82}કવો નહી\u{a82}",
-				"કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}",
-				"કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}ન\u{ac1}\u{a82} ચિહ\u{acd}ન",
-				"ચિહ\u{acd}ન",
-				"પ\u{acd}રતિબ\u{a82}ધિત",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("ba a zubar da shara"),
-			keywords: &[
-				"an hana",
-				"a’a",
-				"ba a zubar da shara",
-				"babu",
-				"haram",
-				"haramta zuba shara",
-				"shara",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("ba a zubar da shara"),
-			keywords: &[
-				"an hana",
-				"a’a",
-				"ba a zubar da shara",
-				"babu",
-				"haram",
-				"haramta zuba shara",
-				"shara",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אין להשליך פסולת"),
-			keywords: &["איסור", "אסור", "אסור להשליך פסולת", "לא ללכלך", "פסולת"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ग\u{902}दगी न फ\u{948}लाए\u{901}"),
-			keywords: &[
-				"क\u{942}ड\u{93c}ा",
-				"ग\u{902}दगी न कर\u{947}\u{902}",
-				"ग\u{902}दगी न कर\u{947}\u{902} का चिह\u{94d}न",
-				"ग\u{902}दगी न फ\u{948}लाए\u{901}",
-				"ग\u{902}दगी नही\u{902}",
-				"चिह\u{94d}न",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zabranjeno bacanje otpadaka"),
-			keywords: &[
-				"ne",
-				"nema",
-				"otpaci",
-				"zabranjen otpad",
-				"zabranjeno",
-				"zabranjeno bacanje otpadaka",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("szemetelni tilos"),
-			keywords: &["szemetelni tilos", "szemetelés", "szemét", "tilos", "tiltott"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("չաղտոտել"),
-			keywords: &["աղբ", "արգելված", "ոչ", "չաղտոտել"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("non abandonar immunditias"),
-			keywords: &[
-				"immunditias",
-				"jectar",
-				"lassar cader",
-				"non abandonar immunditias",
-				"prohibite",
-			],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("dilarang membuang sampah sembarangan"),
-			keywords: &["dilarang", "membuang sampah", "sampah", "terlarang", "tidak boleh"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("enweghị ntụsasị"),
-			keywords: &["ana", "egbochighị", "egbochiri", "enweghị ntụsasị", "nke", "ntụsasị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("ekkert rusl"),
-			keywords: &["bannað að fleygja rusli", "ekkert rusl", "ekki henda rusli"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("simbolo del divieto di gettare rifiuti"),
-			keywords: &[
-				"buttare",
-				"divieto",
-				"proibito",
-				"simbolo",
-				"simbolo del divieto di gettare rifiuti",
-				"simbolo vietato gettare rifiuti",
-				"vietato gettare rifiuti",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ポイ捨て禁止"),
-			keywords: &["ごみ", "ゴミ", "ゴミ捨て禁止", "ポイ捨て禁止", "禁止"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ora kena mbuwang sampah"),
-			keywords: &["aja", "larangan", "ora kena", "ora kena mbuwang sampah", "rereged", "sampah"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("დაბინძურება აკრძალულია"),
-			keywords: &["აკრძალვა", "აკრძალულია", "არა", "დაბინძურება აკრძალულია", "ნაგავი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("ur ttḍeyyir ara iḍumman"),
-			keywords: &["ur ttḍeyyir ara iḍumman"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("қоқыс тастауға тыйым салынған"),
-			keywords: &[
-				"емес",
-				"жоқ",
-				"рұқсат етілмеген",
-				"тыйым салынған",
-				"қоқыс",
-				"қоқыс тастауға тыйым салынған",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("smid ikke affald"),
-			keywords: &["affald", "forbudt", "ikke tilladt", "smid ikke affald"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សញ\u{17d2}ញាហាមចោលស\u{17c6}រាម"),
-			keywords: &["ចោលស\u{17c6}រាម", "សញ\u{17d2}ញា", "សញ\u{17d2}ញាហាមចោលស\u{17c6}រាម", "ហាម"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಕಸದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6} ಇಲ\u{ccd}ಲ"),
-			keywords: &[
-				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಕಸ ಎಸ\u{cc6}ಯಬ\u{cc7}ಡ\u{cbf}",
-				"ಕಸ ಎಸ\u{cc6}ಯಲು ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಕಸ ಹಾಕಬ\u{cc7}ಡ\u{cbf}",
-				"ಕಸ ಹಾಕಬ\u{cc7}ಡ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ಕಸದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6} ಇಲ\u{ccd}ಲ",
-				"ಕಸವ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಸ\u{ccd}ವಚ\u{ccd}ಛತ\u{cc6} ಕಾಪಾಡ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("쓰레기 투기 금지"),
-			keywords: &["금지", "쓰레기", "쓰레기 투기", "쓰레기 투기 금지"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("लिटरी\u{902}ग ना"),
-			keywords: &["ना", "नाका", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "लिटर", "लिटरी\u{902}ग"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("булгабагыла"),
-			keywords: &["булгабагыла", "жок", "таштанды", "тыюу салынган"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("keng Poubelle"),
-			keywords: &["Poubelle", "keng", "neen", "net", "verbueden"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ec9}າມຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ"),
-			keywords: &[
-				"ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
-				"ບ\u{ecd}\u{ec8}",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("šiukšlinti draudžiama"),
-			keywords: &["draudžiama", "ne", "uždrausta", "šiukšlinti draudžiama", "šiukšlės"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("atkritumus mest aizliegts"),
-			keywords: &["aizliegts", "atkritumi", "atkritumus mest aizliegts", "nedrīkst", "nē"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kaua e mahi para"),
-			keywords: &["kaua e mahi para", "kore", "kua whakakore", "kāo", "para", "rāhuitia"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("забрана за фрлање отпадоци"),
-			keywords: &[
-				"забрана",
-				"забрана за фрлање отпадоци",
-				"забрането",
-				"забрането фрлање отпадоци",
-				"не",
-				"отпадоци",
-				"фрлање отпадоци",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഇവിടെ ചവറ\u{d41}കളിടര\u{d41}ത\u{d4d}"),
-			keywords: &[
-				"ഇവിടെ ചവറ\u{d41}കളിടര\u{d41}ത\u{d4d}",
-				"ഇവിടെ ചവർ ഇടര\u{d41}ത\u{d4d}",
-				"ചവർ ഇടര\u{d41}ത\u{d4d}",
-				"ചവർ ഇവിടെ ഇടര\u{d41}ത\u{d4d}",
-				"മ\u{d3e}ലിന\u{d4d}യം നിക\u{d4d}ഷേപിക\u{d4d}കര\u{d41}ത\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хог хаяхыг хориглоно"),
-			keywords: &["хаях", "хог", "хог хаяхыг хориглоно", "хориглох"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("कचरा कर\u{942} नय\u{947}"),
-			keywords: &[
-				"कचरा",
-				"कचरा कर\u{942} नका",
-				"कचरा टाक\u{942} नय\u{947} चिन\u{94d}ह",
-				"नाही",
-				"निषिद\u{94d}ध",
-				"परवानगी नाही",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("dilarang membuang sampah"),
-			keywords: &["bukan", "dilarang", "dilarang membuang sampah", "ditegah", "sampah", "tidak"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ebda rimi"),
-			keywords: &["ebda rimi", "ma", "mhux", "pprojbit", "pprojbiti", "skart"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အမ\u{103e}\u{102d}\u{102f}က\u{103a} မပစ\u{103a}ရ"),
-			keywords: &[
-				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
-				"တားမြစ\u{103a}",
-				"မပစ\u{103a}ရ",
-				"အမ\u{103e}\u{102d}\u{102f}က\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फोहोर फाल\u{94d}न पाइ\u{901}द\u{948}न"),
-			keywords: &[
-				"छ\u{948}न",
-				"निष\u{947}धित",
-				"फोहोर",
-				"फोहोर फाल\u{94d}न पाइ\u{901}द\u{948}न",
-				"रोकिएको",
-				"होइन",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen afval weggooien"),
-			keywords: &["geen", "niet", "verboden", "zwerfvuil"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("forsøpling ikkje tillate"),
-			keywords: &["forsøpling ikkje tillate", "ikkje avfall", "inga kasting", "skilt"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ନ\u{b3f}ଷେଧ"),
-			keywords: &[
-				"ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e}",
-				"ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ନ\u{b3f}ଷେଧ",
-				"ନ\u{b3e}",
-				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
-				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
-				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਕ\u{a42}ੜਾ ਸ\u{a41}\u{a71}ਟਣਾ ਮਨ\u{a4d}ਹਾ ਹ\u{a48}"),
-			keywords: &[
-				"ਕ\u{a42}ੜਾ",
-				"ਕ\u{a42}ੜਾ ਨਾ ਸ\u{a41}\u{a71}ਟ\u{a4b}",
-				"ਕ\u{a42}ੜਾ ਨਾ ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਕ\u{a42}ੜਾ ਸ\u{a41}\u{a71}ਟਣਾ ਮਨ\u{a4d}ਹਾ ਹ\u{a48}",
-				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਪਾਬ\u{a70}ਦੀ",
-				"ਰ\u{a4b}ਕ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("کوڑا نا س\u{64f}ٹو"),
-			keywords: &["حرام", "ممنوع کیتا", "نہیں", "کوڑا نا س\u{64f}ٹو", "کوڑا کرکٹ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Nó Drọp Drọ\u{301}p Dọtí Hia"),
-			keywords: &["Dọtí", "Fọbid", "No", "Nó Drọp Drọ\u{301}p Dọtí Hia", "Nọ\u{301} Dú Am"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("zakaz śmiecenia"),
-			keywords: &[
-				"nie wolno",
-				"nie wyrzucać",
-				"nie śmiecić",
-				"zabronione",
-				"zakaz",
-				"zakaz śmiecenia",
-				"śmieci",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ورخړ خپرول منع دي"),
-			keywords: &["ممنوع", "منع", "نه", "ورخړ", "ورخړ خپرول منع دي"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("proibido jogar lixo no chão"),
-			keywords: &["jogar", "lixo", "não", "não jogue lixo no chão", "proibido", "símbolo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("não deitar lixo para o chão"),
-			keywords: &["lixo", "não", "não colocar lixo", "não deitar lixo para o chão", "proibido"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ama qupa chuqaychu"),
-			keywords: &["ama qupa chuqaychu", "amatasqa", "mana", "manaraq", "sansariy"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("nu aruncați gunoi pe jos"),
-			keywords: &["gunoi", "interdicție", "interzis", "nu", "nu aruncați gunoi pe jos"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-963"), keywords: &["E10-963"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("не мусорьте"),
-			keywords: &["запрещено", "красный", "мусор", "мусорить", "нельзя", "перечеркнутый", "черный"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("birabujijwe guta imyanda"),
-			keywords: &["birabujijwe guta imyanda", "imyanda", "kibujijwe", "kizira", "nta", "oya"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ڪچرو اڇلائن منع آهي"),
-			keywords: &["ممنوعه", "نه", "ڪچرو", "ڪچرو اڇلائن منع آهي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය දැම\u{dd3}ම තහනම\u{dca}"),
-			keywords: &[
-				"අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය",
-				"අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය දැම\u{dd3}ම තහනම\u{dca}",
-				"එප\u{dcf}",
-				"තහනම\u{dca}",
-				"තහනම\u{dca} කළ",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("neodhadzujte odpadky"),
-			keywords: &[
-				"neodhadzujte odpadky",
-				"nepovolené",
-				"nie",
-				"odpad",
-				"zakázané",
-				"zákaz",
-				"zákaz odpadkov",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("prepovedano odlaganje smeti"),
-			keywords: &[
-				"ne",
-				"ni dovoljeno",
-				"odlagati",
-				"prepovedano",
-				"prepovedano odlaganje smeti",
-				"smeti",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qashinka maya"),
-			keywords: &["ma jirto", "mamnuuc", "maya", "qashinka", "reebban"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ndalohet hedhja e mbeturinave"),
-			keywords: &["jo", "mbeturina", "ndalohet", "ndalohet hedhja e mbeturinave", "nuk"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("забрањено бацање отпада"),
-			keywords: &["бацање", "забрањено", "нe", "нeмa", "отпад"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zabranjeno bacanje otpada"),
-			keywords: &["bacanje", "ne", "nema", "otpad", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("skräpa inte ner"),
-			keywords: &["inget skräp", "skräpa inte ner", "släng inte skräp här", "symbol"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("hakuna kutupa taka"),
-			keywords: &["hakuna kutupa taka", "hapana", "katazwa", "kutupa taka", "marufuku", "siyo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}"),
-			keywords: &[
-				"குப\u{bcd}பை தடுக\u{bcd}கப\u{bcd}பட\u{bcd}டது",
-				"குப\u{bcd}பை தடை",
-				"குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}",
-				"குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}!",
-				"குப\u{bcd}பையைப\u{bcd} போடக\u{bcd}கூட\u{bbe}து சின\u{bcd}னம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("చ\u{c46}త\u{c4d}త వ\u{c47}యర\u{c3e}దు"),
-			keywords: &[
-				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} చ\u{c46}త\u{c4d}త వ\u{c47}యడం న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
-				"చ\u{c46}త\u{c4d}త వ\u{c47}యర\u{c3e}దు",
-				"చ\u{c46}త\u{c4d}త వ\u{c47}యవద\u{c4d}దు చ\u{c3f}హ\u{c4d}నం",
-				"న\u{c4b}",
-				"ఫ\u{c4b}ర\u{c4d}బ\u{c3f}డ\u{c4d}డన\u{c4d}",
-				"ల\u{c3f}ట\u{c4d}టర\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("партов партофтан манъ аст"),
-			keywords: &["мамнуъ", "манъшуда", "не", "нест", "партов", "партов партофтан манъ аст"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e49}ามท\u{e34}\u{e49}งขยะ"),
-			keywords: &["ป\u{e49}ายห\u{e49}ามท\u{e34}\u{e49}งขยะ", "ห\u{e49}ามท\u{e34}\u{e49}งขยะ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ምጉሓፍ ኣይፍቀድን"),
-			keywords: &["መጉሓፊ", "ምጉሓፍ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("zibil taşlamak gadagan"),
-			keywords: &["bolanok", "däl", "gadagan", "zibil", "zibil taşlamak gadagan", "ýok"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tapu fakaveve"),
-			keywords: &["fakaveve", "tapu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("çöp atılmaz"),
-			keywords: &["işaret", "çöp atmayın", "çöp atmayın işareti", "çöp atılmaz"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئەخلەت تاشلىماڭ"),
-			keywords: &["ئەخلەت", "تاشلىماڭ", "ياق", "يوق", "چەكلەنگەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("смітити заборонено"),
-			keywords: &["заборонено", "знак «не смітити»", "не", "смітити", "сміття"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("کوڑا پھینکنا منع ہے"),
-			keywords: &["سائن", "منع", "کوڑا", "کوڑا ممنوع", "کوڑا پھینکنا منع ہے"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("axlat tashlash taqiqlanadi"),
-			keywords: &["axlat qutisi", "axlat tashlash taqiqlanadi", "mumkin emas", "taqiqlangan"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cấm xả rác"),
-			keywords: &["bị cấm", "bị nghiêm cấm", "cấm xả rác", "không", "xả rác"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("bu fi kenn sànni mbalit"),
-			keywords: &["bu fi kenn sànni mbalit", "bul", "déet", "litter", "luñ aaye", "luñ tere"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("akulahlwa nkunkuma"),
-			keywords: &["akulahlwa nkunkuma", "hayi", "inkunkuma", "ithintelwe", "nakanye", "yalelwe"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kosi idahun-silẹ"),
-			keywords: &["dọ\u{300}tí", "kosi idahun-silẹ", "kò", "kòsáyè", "rárá", "èèwọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kosi idahun-silɛ"),
-			keywords: &["dɔ\u{300}tí", "kosi idahun-silɛ", "kò", "kòsáyè", "rárá", "èèwɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("不准拋垃圾"),
-			keywords: &["不", "不准", "不准拋垃圾", "不可", "垃圾", "禁止"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("不准抛垃圾"),
-			keywords: &["不", "不准", "不准抛垃圾", "不可", "垃圾", "禁止"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("禁止乱扔垃圾"),
-			keywords: &["严禁", "垃圾", "禁丢垃圾", "禁止", "禁止乱扔垃圾"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("禁止亂丟垃圾"),
-			keywords: &["禁止亂丟垃圾", "請勿亂丟垃圾"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("請勿亂丟垃圾"),
-			keywords: &["亂扔垃圾", "亂拋垃圾", "垃圾", "標誌", "禁止", "禁止亂扔垃圾", "請勿亂丟垃圾"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("akulahlwa"),
-			keywords: &["akulahlwa", "akuvunyelwe", "cha", "izibi", "kunqatshelwe"],
-		},
-	],
-};
-#[doc = "🚱"]
-pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
-	glyph:                "🚱",
-	codepoint:            &[128689u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "non-potable water",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("niedrinkbare water"),
-			keywords: &[
-				"droog",
-				"moenie drink nie",
-				"niedrinkbaar",
-				"niedrinkbare water",
-				"verbode",
-				"water",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የማይጠጣ ውሃ"),
-			keywords: &["ለመጠጥ የማይሆን", "ውሃ", "የማይቀዳ", "የማይንቀሳቀስ", "የማይጠጣ", "የተከለከለ", "ደረቅ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("مياه غير صالحة للشرب"),
-			keywords: &["جفاف", "غير صالحة للشرب", "مياه", "مياه غير صالحة للشرب"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("খোৱ\u{9be}ৰ অন\u{9c1}পযোগী প\u{9be}নী"),
-			keywords: &[
-				"খোৱ\u{9be}ৰ অন\u{9c1}পযোগী",
-				"খোৱ\u{9be}ৰ অন\u{9c1}পযোগী প\u{9be}নী",
-				"প\u{9be}ন কৰ\u{9be}ৰ অযোগ\u{9cd}য",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("su içməli deyil"),
-			keywords: &[
-				"içməli deyil",
-				"içməyə yararsız",
-				"su",
-				"su içmək qadağandır işarəsi",
-				"su içməli deyil",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("непрыдатная для піцця вада"),
-			keywords: &[
-				"вада",
-				"забаронена",
-				"непрыдатная",
-				"непрыдатная для піцця вада",
-				"непітны",
-				"піццё",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("непитейна вода"),
-			keywords: &[
-				"вода",
-				"забранено",
-				"негодна за пиене вода",
-				"непитейна",
-				"неподходяща за пиене",
-				"неподходяща за пиене вода",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("পেয\u{9bc} জল নয\u{9bc}"),
-			keywords: &[
-				"জল",
-				"জল প\u{9be}ন কর\u{9be}র উপয\u{9c1}ক\u{9cd}ত নয\u{9bc}",
-				"নিষিদ\u{9cd}ধ",
-				"পেয\u{9bc} জল নয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("dour fall da evañ"),
-			keywords: &["dour", "dour fall da evañ", "evañ"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("nepitka voda"),
-			keywords: &["nepitka voda", "nije pitka", "piće", "voda", "zabranjeno"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("aigua no potable"),
-			keywords: &["aigua", "aigua no potable", "no potable", "prohibit"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("Ꮭ-ᎦᏅᏥᏓᏍᏗ ᎠᎹ"),
-			keywords: &["ᎠᎹ", "Ꮭ-ᎠᏗᏔᏍᎦ", "Ꮭ-ᎦᏅᏥᏓᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("nepitná voda"),
-			keywords: &[
-				"kohoutek",
-				"nepitná voda",
-				"nevhodná",
-				"nápoj",
-				"pití",
-				"sucho",
-				"voda",
-				"voda není pitná",
-				"zakázáno",
-				"zákaz",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dŵr na ellir ei yfed"),
-			keywords: &["dwr na ellir ei yfed", "dŵr", "dŵr na ellir ei yfed", "gwahardd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ikke drikkevand"),
-			keywords: &["drik", "forbudt", "ikke drikkevand", "vand"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Kein Trinkwasser"),
-			keywords: &["Kein Trinkwasser", "Wasser", "kein Trinkwasser", "verboten", "verschmutzt"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μη πόσιμο νερό"),
-			keywords: &["απαγορευμένο", "μη πόσιμο", "μη πόσιμο νερό", "νερό", "ξυρασία"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("non-potable water"),
-			keywords: &["dry", "non-drinking", "non-potable", "prohibited", "water"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("non-drinkable water"),
-			keywords: &["non-drinkable water", "non-drinking", "non-potable", "water"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("agua no potable"),
-			keywords: &["agua", "agua no potable", "no potable"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["agua", "agua no potable", "no beber", "no potable", "seco"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("joomiseks kõlbmatu vesi"),
-			keywords: &["joodav", "joomiseks kõlbmatu vesi", "keelatud", "vesi"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("edateko ez den ura"),
-			keywords: &["debekatuta", "edan", "edateko", "edateko ez den ura", "ez", "galarazita", "ur"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("آب غیرآشامیدنی"),
-			keywords: &["آب", "آب غیرآشامیدنی", "آشامیدنی", "ممنوع", "نه", "نوشیدن"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("vesi ei juomakelpoista"),
-			keywords: &[
-				"ei juomakelpoinen",
-				"juomakelvoton",
-				"juominen kielletty",
-				"kielto",
-				"pilaantunut vesi",
-				"vesi",
-				"vesi ei juomakelpoista",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("hindi pwedeng inumin"),
-			keywords: &["bawal", "hindi pwedeng inumin", "huwag", "inumin", "ipinagbabawal", "tubig"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("ikki drekkandi vatn"),
-			keywords: &["drekkivatn", "ikki drekkandi vatn", "vatn"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("eau non potable"),
-			keywords: &[
-				"eau",
-				"eau non potable",
-				"imbuvable",
-				"interdiction",
-				"interdit",
-				"ne pas boire",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["eau", "non potable"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("uisce nach bhfuil le hól"),
-			keywords: &[
-				"coiscthe",
-				"nach bhfuil le hól",
-				"neamh-inólta",
-				"ná óltar é",
-				"tirim",
-				"uisce",
-				"uisce nach bhfuil le hól",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("uisge do-òlta"),
-			keywords: &["do-òlta", "na òl", "uisge"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de auga non potable"),
-			keywords: &["auga", "non beber", "non potable", "sinal de auga non potable"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પાણી પીવા યોગ\u{acd}ય નથી"),
-			keywords: &[
-				"પાણી",
-				"પાણી પીવા યોગ\u{acd}ય નથી",
-				"પીવા જોગ નહી\u{a82}",
-				"પીવા માટ\u{ac7} અયોગ\u{acd}ય પાણી",
-				"પીવા યોગ\u{acd}ય પાણી નથી",
-				"પીવાન\u{ac1}\u{a82} પાણી નહી\u{a82}",
-				"પ\u{ac7}ય નહી\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("ruwa mara kyau"),
-			keywords: &[
-				"an hana",
-				"an hana sha",
-				"ba a iya sha",
-				"ba na sha ba",
-				"gurɓatacce",
-				"gurɓataccen ruwa",
-				"mara kyau",
-				"ruwa",
-				"ruwa mara kyau",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("ruwa mara kyau"),
-			keywords: &[
-				"an hana",
-				"an hana sha",
-				"ba a iya sha",
-				"ba na sha ba",
-				"gurɓatacce",
-				"gurɓataccen ruwa",
-				"mara kyau",
-				"ruwa",
-				"ruwa mara kyau",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אין לשתות את המים"),
-			keywords: &["אסור לשתות", "ברז", "זיהום", "לא לשתות", "מזוהם", "מים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("पानी पीन\u{947} योग\u{94d}य नही\u{902}"),
-			keywords: &[
-				"पानी",
-				"पानी पीन\u{947} योग\u{94d}य नही\u{902}",
-				"पीन\u{947} अयोग\u{94d}य",
-				"पीन\u{947} लायक नही\u{902}",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("voda nije za piće"),
-			keywords: &["ne", "nije pitko", "voda", "voda nije za piće", "zabranjeno"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nem ivóvíz"),
-			keywords: &["ivás", "ivóvíz", "nem", "nem iható", "tilos", "tiltott", "víz"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ոչ խմելու ջուր"),
-			keywords: &["արգելված", "խմել", "խմելու", "ոչ", "ջուր"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("aqua non potabile"),
-			keywords: &["aqua", "aqua non potabile", "non bibibile", "non potabile"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("air tidak dapat diminum"),
-			keywords: &[
-				"air",
-				"air tidak dapat diminum",
-				"bukan air minum",
-				"dilarang",
-				"kering",
-				"lambang",
-				"simbol",
-				"tanda",
-				"terlarang",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("enweghị mmiri ọṅụṅụ dị mma"),
-			keywords: &["aṅụghị mmiri", "enweghị mmiri ọṅụṅụ dị mma", "mmiri", "nke adịghị mma"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("óhæft drykkjarvatn"),
-			keywords: &["ekki drekka", "vatn", "ódrekkandi", "óhæft drykkjarvatn"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("simbolo di acqua non potabile"),
-			keywords: &[
-				"acqua",
-				"acqua non potabile",
-				"divieto",
-				"non potabile",
-				"rubinetto",
-				"simbolo",
-				"simbolo acqua non potabile",
-				"simbolo di acqua non potabile",
-				"vietato",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("飲用不可"),
-			keywords: &["禁止", "飲めない水", "飲用不可", "飲用禁止"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("banyu kran ora kena diombe"),
-			keywords: &["banyu", "banyu kran ora kena diombe", "ora diombe langsung"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("არასასმელი წყალი"),
-			keywords: &[
-				"აკრძალვა",
-				"აკრძალულია",
-				"არა",
-				"არასასმელი წყალი",
-				"დალევა",
-				"დასალევი",
-				"სასმელი",
-				"სმა",
-				"წყალი",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("mačči d aman n tissit"),
-			keywords: &["mačči d aman n tissit"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ішетін су емес"),
-			keywords: &[
-				"рұқсат етілмеген",
-				"су",
-				"тыйым салынған",
-				"ішетін су емес",
-				"ішуге болмайды",
-				"ішуге жарамайды",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("ikke drikkevand"),
-			keywords: &["drik", "forbudt", "ikke drikkevand", "vand"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some(
-				"សញ\u{17d2}ញាទ\u{17b9}កចេញព\u{17b8}ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេម\u{17b7}នអាចផ\u{17b9}កបាន",
-			),
-			keywords: &[
-				"ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេ",
-				"ទ\u{17b9}ក",
-				"ផ\u{17b9}ក",
-				"ម\u{17b7}ន",
-				"សញ\u{17d2}ញា",
-				"សញ\u{17d2}ញាទ\u{17b9}កចេញព\u{17b8}ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេម\u{17b7}នអាចផ\u{17b9}កបាន",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಪ\u{ccb}ರ\u{ccd}ಟಬಲ\u{ccd} ಅಲ\u{ccd}ಲದ ನ\u{cc0}ರು"),
-			keywords: &[
-				"ಕುಡ\u{cbf}ಯದ ನ\u{cc0}ರು",
-				"ಕುಡ\u{cbf}ಯದ\u{cbf}ರುವ ನ\u{cc0}ರು",
-				"ಕುಡ\u{cbf}ಯಲು ಯ\u{ccb}ಗ\u{ccd}ಯವಲ\u{ccd}ಲದ ನ\u{cc0}ರು",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ನ\u{cc0}ರು",
-				"ಪ\u{ccb}ರ\u{ccd}ಟಬಲ\u{ccd} ಅಲ\u{ccd}ಲದ ನ\u{cc0}ರು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("마실 수 없는 물"),
-			keywords: &[
-				"금지",
-				"마른",
-				"마시지 마시오",
-				"마실 수 없는",
-				"마실 수 없는 물",
-				"물",
-				"섭취 금지",
-				"음료",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय अश\u{947}\u{902} उदक"),
-			keywords: &[
-				"उदक",
-				"पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय",
-				"पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय अश\u{947}\u{902} उदक",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("ичкенге жараксыз суу"),
-			keywords: &["ичкенге болбойт", "ичкенге жараксыз суу", "суу"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("keen Drénkwaasser"),
-			keywords: &["Waasser", "keen", "keen Drénkwaasser", "net drénkbar"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ນ\u{ecd}\u{ec9}າທ\u{eb5}\u{ec8}ດ\u{eb7}\u{ec8}ມບ\u{ecd}\u{ec8}ໄດ\u{ec9}"),
-			keywords: &[
-				"ດ\u{eb7}\u{ec8}ມ",
-				"ນ\u{ecd}\u{ec9}າ",
-				"ນ\u{ecd}\u{ec9}າທ\u{eb5}\u{ec8}ດ\u{eb7}\u{ec8}ມບ\u{ecd}\u{ec8}ໄດ\u{ec9}",
-				"ບ\u{ecd}\u{ec8}",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມດ\u{eb7}\u{ec8}ມນ\u{ec9}ຳ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("draudžiama gerti vandenį"),
-			keywords: &[
-				"draudžiama",
-				"draudžiama gerti vandenį",
-				"geriamas",
-				"gerti",
-				"gėrimas",
-				"ne",
-				"uždrausta",
-				"vanduo",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("nav dzeramais ūdens"),
-			keywords: &["aizliegts", "dzert", "nav dzeramais ūdens", "nedrīkst", "nē", "ūdens"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("wai kāore e pai hei unu"),
-			keywords: &["kaua e unu", "wai", "wai kāore e pai hei unu"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("водата не е за пиење"),
-			keywords: &["вода", "водата не е за пиење", "забрана", "забрането", "не е за пиење"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ശ\u{d41}ദ\u{d4d}ധജലമല\u{d4d}ല"),
-			keywords: &["അശ\u{d41}ദ\u{d4d}ധജലം", "വെള\u{d4d}ളം", "ശ\u{d41}ദ\u{d4d}ധജലമല\u{d4d}ല"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ундны зориулалтын бус ус"),
-			keywords: &["ундны зориулалтын бус", "ундны зориулалтын бус ус", "ус"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पाणी पिण\u{94d}यायोग\u{94d}य नाही"),
-			keywords: &[
-				"पाणी",
-				"पाणी आल\u{947} नाही",
-				"पाणी पिण\u{94d}यायोग\u{94d}य नाही",
-				"पाणी य\u{947}णार नाही",
-				"पिण\u{94d}याच\u{947} पाणी नाही",
-				"पिण\u{94d}यायोग\u{94d}य नाही",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("air tak boleh minum"),
-			keywords: &[
-				"air",
-				"air tak boleh minum",
-				"air tidak boleh minum",
-				"dilarang",
-				"ditegah",
-				"minum",
-				"tidak boleh minum",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ilma mhux tajjeb għax-xorb"),
-			keywords: &["ilma", "ilma mhux tajjeb għax-xorb", "mhux tajjeb għax-xorb"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("သောက\u{103a}ရေ မဟ\u{102f}တ\u{103a}"),
-			keywords: &[
-				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
-				"တားမြစ\u{103a}",
-				"မဟ\u{102f}တ\u{103a}",
-				"ရေ",
-				"သောက\u{103a}",
-				"သောက\u{103a}ရေ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("पिउन-अयोग\u{94d}य पानी"),
-			keywords: &["पानी", "पिउन अयोग\u{94d}य", "पिउन अयोग\u{94d}य पानी", "पिउन-अयोग\u{94d}य पानी"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen drinkwater"),
-			keywords: &["drinken verboden", "geen drinkwater", "niet drinkbaar", "niet drinken", "water"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("ikkje drikkevatn"),
-			keywords: &["ikkje drikkande", "ikkje drikkevatn", "vatn"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ ଜଳ"),
-			keywords: &[
-				"ଅଣ-ପ\u{b3e}ନୀୟ",
-				"ଜଳ",
-				"ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ",
-				"ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ ଜଳ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪਾਣੀ ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}"),
-			keywords: &[
-				"ਖ\u{a41}ਸ\u{a3c}ਕ",
-				"ਜਲ",
-				"ਪਾਣੀ",
-				"ਪਾਣੀ ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}",
-				"ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}",
-				"ਮਨਾਹੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("پین آلا پانی نہیں"),
-			keywords: &["غیر قابل\u{650} شرب", "ناں پیتی جان آلی", "پانی", "پین آلا پانی نہیں"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Dís Wọtá Nọ\u{301} Gúd Fọ Drink"),
-			keywords: &["Dís Wọtá Nọ\u{301} Gúd Fọ Drink", "Nọ\u{301}t Fọ Drink", "Wọtá"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("woda niezdatna do picia"),
-			keywords: &[
-				"nie pić",
-				"nie wolno",
-				"niezdatna",
-				"woda",
-				"woda niezdatna do picia",
-				"zabronione",
-				"zakaz",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د څښاک اوبه نه دي"),
-			keywords: &["اوبه", "د څښاک اوبه نه دي", "د څښاک نه", "د څکلو وړ نه"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("água não potável"),
-			keywords: &["consumo", "imprópria", "não", "potável", "proibido", "seco", "sem", "água"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["beber", "imprópria para consumo", "não", "potável", "proibido", "água"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ama yaku upyaypaq"),
-			keywords: &["ama yaku upyaypaq", "mana yaykuy", "yaku"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("apă nepotabilă"),
-			keywords: &["apă", "interdicție", "interzis", "nepotabilă", "uscat"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-965"), keywords: &["E10-965"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("непитьевая вода"),
-			keywords: &[
-				"вода",
-				"вредно",
-				"запрещено",
-				"кран",
-				"круг",
-				"не",
-				"нельзя",
-				"непитьевая",
-				"опасно",
-				"перечеркнутый",
-				"пить",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("amazi atari meza"),
-			keywords: &["amazi", "amazi atari meza", "kidashobora kunyobwa nta nkurikizi", "kitanyobwa"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("پيئڻ جو پاڻي ناهي"),
-			keywords: &["پيئڻ جو پاڻي ناهي", "پيئڻ جو پاڻي ناهي، پيئڻو ناهي، پاڻي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ප\u{dcf}න\u{dd3}ය-නොවන ජලය"),
-			keywords: &[
-				"ජලය",
-				"ප\u{dcf}නය කළ හැක\u{dd2}",
-				"ප\u{dcf}න\u{dd3}ය",
-				"ප\u{dcf}න\u{dd3}ය-නොවන ජලය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("nepitná voda"),
-			keywords: &["nepitná", "nepovolené", "nie", "otrávená", "voda", "zakázané", "zákaz"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("voda ni pitna"),
-			keywords: &["ne", "ni dovoljeno", "piti", "pitno", "prepovedati", "voda", "voda ni pitna"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("biyaha aan la isticmaali karin"),
-			keywords: &[
-				"aan la cabi karin",
-				"aan la isticmaali karin",
-				"biyaha aan la isticmaali karin",
-				"biyo",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ujë jo i pijshëm"),
-			keywords: &["i ndaluar", "jo i pijshëm", "ndalohet", "nuk", "pi", "ujë", "ujë jo i pijshëm"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("вода није за пиће"),
-			keywords: &["вода", "забрањено", "не", "није", "питка"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["вода", "вода није за пиће", "није за пиће", "није питка"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("voda nije za piće"),
-			keywords: &["ne", "nije", "pitka", "voda", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["nije pitka", "nije za piće", "voda", "voda nije za piće"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("ej dricksvatten"),
-			keywords: &["ej dricksvatten", "odrickbart vatten", "symbol"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("maji hayafai kwa matumizi ya kunywa"),
-			keywords: &[
-				"isiyo bebeka",
-				"kavu",
-				"maji",
-				"maji hayafai kwa matumizi ya kunywa",
-				"si ya kunywa",
-				"yamezuiwa",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("குடிந\u{bc0}ர\u{bcd} அல\u{bcd}ல"),
-			keywords: &[
-				"குடிந\u{bc0}ர\u{bcd} அல\u{bcd}ல",
-				"குடிப\u{bcd}பதற\u{bcd}க\u{bbe}ன தண\u{bcd}ண\u{bc0}ர\u{bcd} அல\u{bcd}ல",
-				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("త\u{c4d}ర\u{c3e}గున\u{c40}రు క\u{c3e}దు"),
-			keywords: &[
-				"త\u{c4d}ర\u{c3e}గున\u{c40}రు క\u{c3e}దు",
-				"న\u{c40}ట\u{c3f}న\u{c3f} ఉపయ\u{c4b}గ\u{c3f}ంచడం శ\u{c4d}ర\u{c47}యస\u{c4d}కరం క\u{c3e}దు",
-				"న\u{c40}రు లభ\u{c3f}ంచ\u{c47} ప\u{c4d}ర\u{c3e}ంతం క\u{c3e}దు",
-				"న\u{c40}రు ల\u{c47}న\u{c3f} ప\u{c4d}ర\u{c3e}ంతం",
-				"వ\u{c3f}న\u{c3f}య\u{c4b}గ\u{c3f}ంచదగ\u{c3f}న న\u{c40}రు క\u{c3e}దు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("оби ғайринӯшокӣ"),
-			keywords: &["об", "оби ғайринӯшокӣ", "ғайринӯшокӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e49}ามด\u{e37}\u{e48}มน\u{e49}ำ"),
-			keywords: &[
-				"ด\u{e37}\u{e48}ม",
-				"น\u{e49}ำ",
-				"ห\u{e49}าม",
-				"ห\u{e49}ามด\u{e37}\u{e48}มน\u{e49}ำ",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang: "ti", tts: Some("ዘይጽሩይ ማይ"), keywords: &["ማይ", "ዘይጽሩይ"]
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("içilmeýän suw"),
-			keywords: &["içilmeýän suw", "içip bolmaýar", "suw"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("vai taʻe inu"),
-			keywords: &["inu", "tapu", "vai", "vai taʻe inu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("içilmeyen su"),
-			keywords: &["içilmeyen", "içilmez", "su"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئىچىلمەس سۇ"),
-			keywords: &["ئىچكىلى بولمايدۇ", "ئىچمەڭ", "ئىچىلمەس سۇ", "سۇ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("непридатна для пиття вода"),
-			keywords: &[
-				"вода",
-				"заборонено",
-				"знак «непитна вода»",
-				"не",
-				"непитна вода",
-				"непридатна для пиття вода",
-				"непридатно",
-				"пити",
-				"пиття",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("نا پینے والا پانی"),
-			keywords: &[
-				"سائن",
-				"منع",
-				"نا پینے والا پانی",
-				"پانی",
-				"پینا",
-				"یہ پانی پینے کے قابل نہیں ہے",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("ichib bo‘lmaydigan suv"),
-			keywords: &[
-				"ichib bo‘lmaydigan suv",
-				"ichish",
-				"ichishga yaroqsiz",
-				"mumkin emas",
-				"suv",
-				"taqiqlangan",
-				"yo‘q",
-				"zararli",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("nước không uống được"),
-			keywords: &["không dùng để uống", "không uống được", "nước", "nước không uống được"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("ndox mii sellul"),
-			keywords: &["bu sellul", "ndox", "ndox mii sellul", "sellul"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("amanzi angaphathwayo"),
-			keywords: &["amanzi", "amanzi angaphathwayo", "awaselwa", "ayiphatheki"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("omi ti koṣeemu"),
-			keywords: &["kòṣéèmu", "omi", "omi ti koṣeemu", "àìmọlábọ\u{301}dé"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("omi ti kosheemu"),
-			keywords: &["kòshéèmu", "omi", "omi ti kosheemu", "àìmɔlábɔ\u{301}dé"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("冇自來水"),
-			keywords: &["不可飲用", "冇自來水", "水", "非飲用"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("冇自来水"),
-			keywords: &["不可饮用", "冇自来水", "水", "非饮用"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("非饮用水"),
-			keywords: &["水", "禁止用水", "节约用水", "非直饮水", "非饮用水"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("非飲用水"),
-			keywords: &["不得生飲", "非飲用水"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["乾旱", "禁止", "禁止喝水", "禁止飲水", "缺水", "非飲用水"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("amanzi angaphatheke"),
-			keywords: &["akuvunyelwe", "amanzi", "amanzi angaphatheke", "cha", "ukuphuza", "umpompi"],
-		},
-	],
-};
-#[doc = "🚷"]
-pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
-	glyph:                "🚷",
-	codepoint:            &[128695u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "no pedestrians",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("voetgangers verbode"),
-			keywords: &[
-				"geen",
-				"geen voetgangers",
-				"nie",
-				"verbied",
-				"verbode",
-				"voetganger",
-				"voetgangers verbode",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ለእግረኞች አይፈቀድም"),
-			keywords: &["ለእግረኞች አይፈቀድም", "አይ", "አይደለም", "እግረኛ", "ክልክል", "የተከለከለ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ممنوع سير المشاة"),
-			keywords: &["إشارة", "اشارة سير", "رمز", "ليس للمشاة", "مشاة", "ممنوع سير المشاة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("পথচ\u{9be}ৰী নিষেধ"),
-			keywords: &["নহয\u{9bc}", "নিষিদ\u{9cd}ধ", "নিষেধ", "পথচ\u{9be}ৰী", "সম\u{9c2}লি নহয\u{9bc}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("piyadalara keçmək olmaz"),
-			keywords: &[
-				"\"piyadalara keçmək qadağandır\" işarəsi",
-				"piyada",
-				"piyadalara keçmək olmaz",
-				"qadağa",
-				"qadağan olunmuş",
-				"xeyr",
-				"yox",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("рух пешаходаў забаронены"),
-			keywords: &[
-				"дарожны",
-				"забаронена",
-				"знак",
-				"нельга",
-				"пешаход",
-				"рух",
-				"рух пешаходаў забаронены",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("забранено за пешеходци"),
-			keywords: &["забрана", "забранено", "забранено за пешеходци", "не", "пешеходец", "пешеходци"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("য\u{9be}ত\u{9cd}রী প\u{9be}র\u{9be}প\u{9be}র নিষেধ"),
-			keywords: &[
-				"নয\u{9bc}",
-				"ন\u{9be}",
-				"নিষিদ\u{9cd}ধ",
-				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
-				"পথচ\u{9be}রী",
-				"য\u{9be}ত\u{9cd}রী প\u{9be}র\u{9be}প\u{9be}র নিষেধ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("difennet dʼar gerzhourien"),
-			keywords: &["berzet", "difennet", "difennet dʼar gerzhourien", "kerzhourien"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zabranjeno za pješake"),
-			keywords: &["nema", "pješačenje", "prolaz", "zabranjeno", "zabranjeno za pješake"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("prohibit el pas als vianants"),
-			keywords: &["no", "prohibició", "prohibit", "prohibit el pas als vianants", "vianants"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎥᏝ ᎠᎾᏨᏏᏰᏍᎩ"),
-			keywords: &["ᎠᏨᏏᏰᏍᎩ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎥᏝ ᎠᎾᏨᏏᏰᏍᎩ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zákaz vstupu chodců"),
-			keywords: &[
-				"chodci",
-				"chodec",
-				"ne",
-				"průchod",
-				"pěší",
-				"vstup zakázán",
-				"zakázán",
-				"zakázáno",
-				"zákaz",
-				"zákaz vstupu chodců",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dim cerddwyr"),
-			keywords: &["cerddwr", "dim", "dim cerddwyr", "gwahardd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ingen fodgængere"),
-			keywords: &["fodgænger", "forbudt", "ingen fodgængere"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Fußgänger verboten"),
-			keywords: &["Fußgänger verboten", "Fußgänger-verboten-Schild", "verboten"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Fussgänger-verboten-Schild"),
-			keywords: &["Fussgänger-verboten-Schild", "verboten"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απαγορεύεται η διάβαση πεζών"),
-			keywords: &[
-				"απαγορευμένο",
-				"απαγορεύεται",
-				"απαγορεύεται η διάβαση πεζών",
-				"απαγορεύονται οι πεζοί",
-				"πεζός",
-				"όχι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("no pedestrians"),
-			keywords: &["forbidden", "no", "not", "pedestrian", "pedestrians", "prohibited"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("↑↑↑"),
-			keywords: &["denied", "forbidden", "no", "no pedestrians", "pedestrian", "prohibited"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("prohibido el paso de peatones"),
-			keywords: &["peatones", "peatón", "prohibido", "prohibido el paso de peatones", "señal"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["no", "peatones", "peatón", "prohibido", "prohibido el paso de peatones"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("jalakäijad keelatud"),
-			keywords: &["jalakäija", "jalakäijad keelatud", "keelatud"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("oinezkorik ez"),
-			keywords: &["debekatuta", "ez", "galarazita", "oinezko", "oinezkorik ez"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("عابر پیاده ممنوع"),
-			keywords: &["عابر پیاده", "عابر پیاده ممنوع", "ممنوع", "نه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("jalankulku kielletty"),
-			keywords: &["jalankulkija", "jalankulku kielletty", "kielletty"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bawal tumawid"),
-			keywords: &["bawal", "huwag", "ipinagbabawal", "pedestrian", "tumawid"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("bannað fyri gangandi fólki"),
-			keywords: &["bannað", "bannað fyri gangandi fólki", "forboð", "ganga"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("interdit aux piétons"),
-			keywords: &["interdiction", "interdit", "interdit aux piétons"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cosc ar choisithe"),
-			keywords: &["coiscthe", "coisí", "comhartha", "cosc ar choisithe", "siúlóir"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("coiseachd toirmisgte"),
-			keywords: &["coiseachd", "coisiche", "diùltadh", "toirmisgte", "àicheadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de acceso prohibido a peóns"),
-			keywords: &["peóns", "prohibición", "prohibido", "sinal de acceso prohibido a peóns"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પદયાત\u{acd}રીઓ નહી\u{a82}"),
-			keywords: &[
-				"ચિહ\u{acd}ન",
-				"પદયાત\u{acd}રી",
-				"પદયાત\u{acd}રીઓ નહી\u{a82}",
-				"પદયાત\u{acd}રીઓન\u{ac7} મ\u{a82}જ\u{ac2}રી નથી",
-				"પ\u{acd}રતિબ\u{a82}ધિત",
-				"રાહદારી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("an hana ma masu tafiya a ƙafa"),
-			keywords: &[
-				"an hana",
-				"an hana ma masu tafiya a ƙafa",
-				"an haramta",
-				"a’a",
-				"babu",
-				"haram",
-				"mai taifya a ƙafa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("an hana ma masu tafiya a ƙafa"),
-			keywords: &[
-				"an hana",
-				"an hana ma masu tafiya a ƙafa",
-				"an haramta",
-				"a’a",
-				"babu",
-				"haram",
-				"mai taifya a ƙafa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אין כניסה להולכי רגל"),
-			keywords: &["אין כניסה", "איסור", "אסור", "הולך רגל", "הולכי רגל"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some(
-				"पदयात\u{94d}री निष\u{947}ध, प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
-			),
-			keywords: &[
-				"चिह\u{94d}न",
-				"निषिद\u{94d}ध",
-				"पदयात\u{94d}री",
-				"पदयात\u{94d}री निष\u{947}ध",
-				"पदयात\u{94d}री निष\u{947}ध, प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
-				"प\u{948}दल",
-				"प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zabranjeno za pješake"),
-			keywords: &["ne", "pješak", "promet", "zabranjeno", "zabranjeno za pješake"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nem gyalogos zóna"),
-			keywords: &["gyalog", "gyalogos", "nem gyalogos zóna", "tilos", "tiltott"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("հետիոտնների մուտքն արգելված է"),
-			keywords: &["արգելված", "հետիոտն", "հետիոտնների մուտքն արգելված է", "ոչ"],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("prohibite al pedones"),
-			keywords: &[
-				"accesso",
-				"interdicite",
-				"pedon",
-				"pedones",
-				"prohibite",
-				"prohibite al pedones",
-			],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("pejalan kaki dilarang masuk"),
-			keywords: &[
-				"dilarang",
-				"lambang",
-				"larangan",
-				"pejalan kaki",
-				"pejalan kaki dilarang masuk",
-				"simbol",
-				"tanda",
-				"terlarang",
-				"tidak",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("enweghị àkwà ngafe"),
-			keywords: &["ana", "egbochighị", "egbochiri", "enweghị àkwà ngafe", "nke", "àkwà ngafe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("bannað að ganga"),
-			keywords: &["bannað að ganga", "vegfarendur", "vegfarendur bannaðir"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("simbolo del divieto di transito pedoni"),
-			keywords: &[
-				"divieto transito pedoni",
-				"niente pedoni",
-				"no",
-				"no pedoni",
-				"proibito",
-				"segnale",
-				"simbolo",
-				"simbolo del divieto di transito pedoni",
-				"strada",
-				"vietato",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("歩行者立入禁止"),
-			keywords: &["標識", "歩行者立入禁止", "禁止", "規制", "道路"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("wong mlaku ora kena liwat"),
-			keywords: &["aja", "larangan", "ora kena", "wong mlaku", "wong mlaku ora kena liwat"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ქვეითებისთვის შესვლა აკრძალულია"),
-			keywords: &["აკრძალვა", "აკრძალულია", "არა", "ქვეითებისთვის შესვლა აკრძალულია", "ქვეითი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("igdel i yimesḍaṛen"),
-			keywords: &["igdel i yimesḍaṛen"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жаяу жүргіншілерге тыйым салынған"),
-			keywords: &[
-				"емес",
-				"жаяу жүргінші",
-				"жаяу жүргіншілерге тыйым салынған",
-				"жоқ",
-				"рұқсат етілмеген",
-				"тыйым салынған",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("ingen fodgængere"),
-			keywords: &["fodgænger", "forbudt", "ingen fodgængere"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ហាមអ\u{17d2}នកថ\u{17d2}មើរជើង"),
-			keywords: &[
-				"ឃាត\u{17cb}",
-				"ថ\u{17d2}មើរជើង",
-				"បម\u{17d2}រាម",
-				"ហាមអ\u{17d2}នកថ\u{17d2}មើរជើង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಪಾದಾಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಇಲ\u{ccd}ಲ"),
-			keywords: &[
-				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ನಡ\u{cc6}ಯುವವನು",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಪಾದಚಾರ\u{cbf}",
-				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಅನುಮತ\u{cbf}ಸಲಾಗುವುದ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಪಾದಾಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಇಲ\u{ccd}ಲ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("보행자 금지"),
-			keywords: &["금지", "보행자 금지", "보행자 통행 금지", "안됨"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पादचारी न\u{94d}हय"),
-			keywords: &[
-				"ना",
-				"नाका",
-				"निषिध\u{94d}द",
-				"पादचारी",
-				"पादचारी नात",
-				"पादचारी न\u{94d}हय",
-				"प\u{94d}रतिब\u{902}धीत",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жөө өткөнгө болбойт"),
-			keywords: &["жок", "жөө", "жөө өткөнгө болбойт", "тыюу салынган"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Foussgänger verbueden"),
-			keywords: &["Foussgänger", "neen", "net", "verbueden"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ec9}າມຄ\u{ebb}ນຍ\u{ec8}າງ"),
-			keywords: &[
-				"ຄ\u{ebb}ນຍ\u{ec8}າງ",
-				"ບ\u{ecd}\u{ec8}",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມຄ\u{ebb}ນຍ\u{ec8}າງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("pėstiesiems eiti draudžiama"),
-			keywords: &["draudžiama", "ne", "pėstiesiems eiti draudžiama", "pėstysis", "uždrausta"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("gājējiem iet aizliegts"),
-			keywords: &["aizliegts", "gājēji", "gājējiem iet aizliegts", "kājāmgājēji", "nedrīkst", "nē"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kaua he kaihīkoi"),
-			keywords: &["kaihīkoi", "kaua he kaihīkoi", "kore", "kua whakakore", "kāo", "rāhuitia"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("забрана за пешаци"),
-			keywords: &[
-				"забрана",
-				"забрана за пешаци",
-				"забрането",
-				"забрането за пешаци",
-				"не",
-				"пешаци",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ക\u{d3e}ൽനടയ\u{d3e}ത\u{d4d}ര പ\u{d3e}ടില\u{d4d}ല"),
-			keywords: &[
-				"ക\u{d3e}ൽനടക\u{d4d}ക\u{d3e}ർ ഇല\u{d4d}ല",
-				"ക\u{d3e}ൽനടയ\u{d3e}ത\u{d4d}ര പ\u{d3e}ടില\u{d4d}ല",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("явган хүн явах хориотой"),
-			keywords: &[
-				"хориглоно",
-				"хориотой",
-				"явган хүн",
-				"явган хүн явах хориотой",
-				"явган хүн явахыг хориглоно",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पादचार\u{94d}\u{200d}या\u{902}ना अन\u{941}मती नाही"),
-			keywords: &[
-				"चालणार\u{947}",
-				"चिन\u{94d}ह",
-				"नाही",
-				"निषिद\u{94d}ध",
-				"परवानगी नाही",
-				"पादचारी",
-				"पादचार\u{94d}\u{200d}या\u{902}ना अन\u{941}मती नाही",
-				"पादचाऱ\u{94d}या\u{902}ना अन\u{941}मती नाही",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pejalan kaki dilarang"),
-			keywords: &["bukan", "dilarang", "ditegah", "pejalan kaki", "pejalan kaki dilarang", "tidak"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ebda nies pedonali"),
-			keywords: &["ebda nies pedonali", "ma", "mhux", "pedonali", "pprojbit", "pprojbiti"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဖြတ\u{103a}သန\u{103a}း မသ\u{103d}ားရ"),
-			keywords: &[
-				"ခြေကျင\u{103a}",
-				"ခြေကျင\u{103a}မလျ\u{103e}ောက\u{103a}ရ",
-				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
-				"တားမြစ\u{103a}",
-				"ဖြတ\u{103a}သန\u{103a}း မသ\u{103d}ားရ",
-				"မလျ\u{103e}ောက\u{103a}ရ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("पदयात\u{94d}रीहर\u{942}को लागि होइन"),
-			keywords: &[
-				"छ\u{948}न",
-				"निष\u{947}धित",
-				"पदयात\u{94d}री",
-				"पदयात\u{94d}रीहर\u{942}को लागि होइन",
-				"रोकिएको",
-				"होइन",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen voetgangers"),
-			keywords: &["nee", "niet", "verboden", "voetganger", "voetgangers"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("fotgjengarar forbode"),
-			keywords: &[
-				"fotgjengar",
-				"fotgjengarar",
-				"fotgjengarar forbode",
-				"gåande",
-				"ikkje",
-				"ikkje tillate",
-				"nei",
-			],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପଥଚ\u{b3e}ରୀ ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
-			keywords: &[
-				"ନ\u{b3e}",
-				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
-				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
-				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
-				"ପଥଚ\u{b3e}ରୀ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
-			keywords: &[
-				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਦਾਖਲਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
-				"ਨਹੀ\u{a02}",
-				"ਪ\u{a48}ਦਲ",
-				"ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ਦੀ ਮਨਜ\u{a3c}\u{a42}ਰੀ ਨਹੀ\u{a02}",
-				"ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("کوئی پیدل ٹ\u{64f}رن آلے نہیں"),
-			keywords: &["حرام", "ممنوع کیتا", "نہیں", "پیدل ٹرن آلا", "کوئی پیدل ٹ\u{64f}رن آلے نہیں"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Nọ\u{301} Wáka Fọ Lẹg Hia"),
-			keywords: &[
-				"Fọbid",
-				"No",
-				"Nọt",
-				"Nọ\u{301} Dú Am",
-				"Nọ\u{301} Wáka Fọ Lẹg Hia",
-				"Pẹ\u{301}sin Wé De Wáka Fọ Lẹg",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("zakaz ruchu pieszych"),
-			keywords: &[
-				"nie wolno",
-				"pieszy",
-				"przejście wzbronione",
-				"zabronione",
-				"zakaz",
-				"zakaz dla pieszych",
-				"zakaz ruchu pieszych",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("پیاده منع دي"),
-			keywords: &["ممنوع", "منع", "نه", "پياده", "پياده منع دي", "پیاده منع دي"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("proibida a passagem de pedestres"),
-			keywords: &["não", "passagem", "pedestre", "permitidos", "proibida", "proibido"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("proibido a peões"),
-			keywords: &["não", "pedestre", "peões", "proibido", "proibido a peões"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ama transeuntes"),
-			keywords: &["ama transeuntes", "amatasqa", "mana", "manaraq", "transeuntes"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("interzis accesul pietonilor"),
-			keywords: &[
-				"interdicție",
-				"interzis",
-				"interzis accesul pietonilor",
-				"interzis pietonilor",
-				"nu",
-				"pietoni",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-971"), keywords: &["E10-971"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("переход запрещен"),
-			keywords: &[
-				"входить",
-				"запрещен",
-				"круг",
-				"не",
-				"опасно",
-				"переход",
-				"пешеход",
-				"пешеходный",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("nta banyamaguru bemerewe kuhanyura"),
-			keywords: &[
-				"kibujijwe",
-				"kizira",
-				"nta",
-				"nta banyamaguru bemerewe kuhanyura",
-				"oya",
-				"umunyamaguru",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("هلڻو ناهي"),
-			keywords: &["هلڻو ناهي", "پيدل نه"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("පද\u{dd2}කයන\u{dca}ට තහනම\u{dca}"),
-			keywords: &[
-				"එප\u{dcf}",
-				"තහනම\u{dca}",
-				"නැත",
-				"පද\u{dd2}කයන\u{dca}ට තහනම\u{dca}",
-				"පද\u{dd2}කය\u{dcf}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zákaz chodcov"),
-			keywords: &["chodec", "nie", "zakázané", "zákaz", "zákaz chodcov", "zákaz vstupu"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("prepovedano za pešce"),
-			keywords: &["ne", "ni dovoljeno", "pešec", "prepovedano", "prepovedano za pešce"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dadka lugaynaya maya"),
-			keywords: &[
-				"dadka lugaynaya",
-				"dadka lugaynaya maya",
-				"ma jirto",
-				"mamnuuc",
-				"maya",
-				"reebban",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ndalohen kalimtarët"),
-			keywords: &[
-				"jo",
-				"këmbësor",
-				"ndalohen kalimtarët",
-				"ndalohen këmbësorët",
-				"ndalohet",
-				"nuk",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("забрањено за пешаке"),
-			keywords: &["зaбрaњeнo", "нe", "нeмa", "пeшaк", "саобраћај"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("забрањено за пјешаке"),
-			keywords: &["зaбрaњeнo", "забрањено за пјешаке", "нe", "нeмa", "пјeшaк"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zabranjeno za pešake"),
-			keywords: &["ne", "nema", "pešak", "saobraćaj", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("zabranjeno za pješake"),
-			keywords: &["ne", "nema", "pješak", "zabranjeno", "zabranjeno za pješake"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("förbud mot gångtrafik"),
-			keywords: &["förbud mot gångtrafik", "inga fotgängare", "inte tillåtet att gå", "symbol"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("watembea kwa miguu hawaruhusiwi"),
-			keywords: &[
-				"hapana",
-				"katazwa",
-				"marufuku",
-				"mtembea kwa miguu",
-				"siyo",
-				"watembea kwa miguu hawaruhusiwi",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("நடந\u{bcd}து செல\u{bcd}லக\u{bcd}கூட\u{bbe}து"),
-			keywords: &[
-				"தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
-				"நடந\u{bcd}து செல\u{bcd}லக\u{bcd}கூட\u{bbe}து",
-				"நடை தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
-				"ப\u{bbe}தச\u{bbe}ரி",
-				"ப\u{bbe}தச\u{bbe}ரிகளுக\u{bcd}கு அனுமதி இல\u{bcd}லை",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ప\u{c3e}దచ\u{c3e}రులకు న\u{c3f}ష\u{c3f}ద\u{c4d}ధం"),
-			keywords: &[
-				"నడక",
-				"న\u{c3e}ట\u{c4d}",
-				"న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
-				"న\u{c4b}",
-				"ప\u{c3e}దచ\u{c3e}రులకు న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
-				"ప\u{c3e}దచ\u{c3e}రులు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("ҳаракати пиёдагардон манъ аст"),
-			keywords: &["мамнуъ", "манъшуда", "не", "нест", "пиёдарав", "ҳаракати пиёдагардон манъ аст"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e49}ามคนเด\u{e34}นเท\u{e49}า"),
-			keywords: &[
-				"คนเด\u{e34}นเท\u{e49}า",
-				"ห\u{e49}าม",
-				"ห\u{e49}ามคนเด\u{e34}นเท\u{e49}า",
-				"ห\u{e49}ามเด\u{e34}น",
-				"ไม\u{e48}ม\u{e35}คนเด\u{e34}นเท\u{e49}า",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ኣጋር የለዉን"),
-			keywords: &["ኣይኮነ", "ኣይኮነን", "ኣጋር", "ኣጋር የለዉን", "ዝተኣገደ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("pyýadalar gadagan"),
-			keywords: &["bolanok", "däl", "gadagan", "pyýada", "pyýadalar gadagan", "ýok"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tapu lue"),
-			keywords: &["feʻaluʻaki", "lue", "tapu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yayalara yasak"),
-			keywords: &["işaret", "yaya", "yayalar giremez", "yayalara yasak", "yürüyen"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("پىيادە ماڭماڭ"),
-			keywords: &["ماڭماڭ", "ياق", "يوق", "پىيادە", "چەكلەنگەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("пішохідний рух заборонено"),
-			keywords: &[
-				"заборонено",
-				"прохід заборонено",
-				"пішохідний рух заборонено",
-				"рух заборонено",
-				"рух пішоходів заборонено",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("پیدل چلنے والے ممنوع"),
-			keywords: &["سائن", "ممنوع", "منع", "ٹریفک", "پیدل", "پیدل چلنے والے ممنوع"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("piyodalar harakatlanishi mumkin emas"),
-			keywords: &[
-				"mumkin emas",
-				"piyodalar harakatlanishi mumkin emas",
-				"piyodalar mumkin emas",
-				"taqiqlangan",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cấm người đi bộ"),
-			keywords: &["cấm", "cấm người đi bộ", "không", "không cho phép", "không có", "người đi bộ"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("bu kenn dox jaar fii"),
-			keywords: &["bu kenn dox jaar fii", "bul", "déet", "kiy dox", "luñ aaye", "luñ tere"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("abahambi abavumelekanga"),
-			keywords: &[
-				"abahambi abavumelekanga",
-				"hayi",
-				"ithintelwe",
-				"nakanye",
-				"umntu ohamba ngeenyawo",
-				"yalelwe",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kosi olufẹsẹrin"),
-			keywords: &["kosi olufẹsẹrin", "kò", "kòsáyè", "olùfẹsẹ\u{300}rìn", "rárá", "èèwọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kosi olufɛsɛrin"),
-			keywords: &["kosi olufɛsɛrin", "kò", "kòsáyè", "olùfɛsɛ\u{300}rìn", "rárá", "èèwɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("不准行人進入"),
-			keywords: &["不", "不准", "不准行人進入", "不可", "禁止", "行人"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("不准行人进入"),
-			keywords: &["不", "不准", "不准行人进入", "不可", "禁止", "行人"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("禁止行人通行"),
-			keywords: &["严禁", "禁止行人通行", "行人"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("禁止行人通行"),
-			keywords: &["禁止行人通行", "禁止通行"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("行人禁止"),
-			keywords: &["不准通行", "標誌", "禁止", "禁止通行", "行人禁止"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("abavunyelwe abahamba ngezinyawo"),
-			keywords: &[
-				"abahamba ngezinyawo",
-				"abavunyelwe abahamba ngezinyawo",
-				"akuvunyelwe",
-				"cha",
-				"kunqatshelwe",
-			],
-		},
-	],
-};
-#[doc = "📵"]
-pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
-	glyph:                "📵",
-	codepoint:            &[128245u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "no mobile phones",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Warning,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("selfone verbode"),
-			keywords: &[
-				"foon",
-				"geen",
-				"nie",
-				"sel",
-				"selfone verbode",
-				"selfoon",
-				"telefoon",
-				"verbode",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሞባይል ስልኮች አይፈቀዱም"),
-			keywords: &["ሞባይል", "ሞባይል ስልኮች አይፈቀዱም", "ስልክ", "አይፈቀድም", "የተከለከለ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ممنوع استخدام الهاتف الجوال"),
-			keywords: &[
-				"جوال",
-				"خلوي",
-				"رمز",
-				"عدم استعمال الهاتف",
-				"ممنوع استخدام الهاتف الجوال",
-				"ممنوع استخدام الهاتف الخلوي",
-				"ممنوع الاتصال",
-				"نقال",
-				"هاتف",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("মোব\u{9be}ইল ফোন নিষেধ"),
-			keywords: &[
-				"চেল",
-				"নহয\u{9bc}",
-				"নিষিদ\u{9cd}ধ",
-				"ফোন",
-				"মোব\u{9be}ইল",
-				"মোব\u{9be}ইল ফোন নিষেধ",
-				"সম\u{9c2}লি নহয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("mobil telefondan istifadə etmək olmaz"),
-			keywords: &[
-				"\"mobil telefondan istifadə etmək qadağandır\" işarəsi",
-				"mobil",
-				"mobil telefondan istifadə etmək olmaz",
-				"qadağa",
-				"qadağan olunmuş",
-				"qadağandır",
-				"telefon",
-				"xeyr",
-				"yox",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("карыстацца мабільнымі тэлефонамі забаронена"),
-			keywords: &[
-				"забаронена",
-				"карыстацца мабільнымі тэлефонамі забаронена",
-				"мабільны",
-				"мабільнік",
-				"сотавы",
-				"тэлефон",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("забранени мобилни телефони"),
-			keywords: &[
-				"забранени мобилни телефони",
-				"забранено",
-				"забранено за мобилни телефони",
-				"клетъчен",
-				"мобилен",
-				"телефон",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("কোনো মোব\u{9be}ইল ফোন নেই"),
-			keywords: &[
-				"কোনো মোব\u{9be}ইল ফোন নেই",
-				"টেলিফোন",
-				"ন\u{9be}",
-				"নিষিদ\u{9cd}ধ",
-				"ফোন",
-				"মোব\u{9be}ইল",
-				"মোব\u{9be}ইলের অন\u{9c1}মতি নেই",
-				"সেল",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("pellgomzerioù difennet"),
-			keywords: &["berzet", "difennet", "pellgomzerioù"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zabranjeno korištenje mobilnog telefona"),
-			keywords: &[
-				"mobilni",
-				"ne",
-				"telefon",
-				"zabranjen",
-				"zabranjeno korištenje mobilnog telefona",
-			],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("prohibits els telèfons mòbils"),
-			keywords: &[
-				"mòbil",
-				"no",
-				"prohibició",
-				"prohibit",
-				"prohibit l’ús de telèfons mòbils",
-				"prohibits els telèfons mòbils",
-				"telèfon",
-				"telèfons mòbils",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("Ꮭ ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"),
-			keywords: &["ᎠᏓᏅᏏᏙᎯ ᎥᏝ", "ᎦᏅᏍᏙᏍᎬ", "ᎦᏅᏍᏙᏒᎢ", "ᏂᎨᏒᎾ", "ᏗᏟᏃᎮᏗᎢ", "Ꮭ ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("zákaz používání mobilních telefonů"),
-			keywords: &[
-				"mobil",
-				"mobilní",
-				"ne",
-				"telefon",
-				"telefonování",
-				"zakázáno",
-				"zákaz",
-				"zákaz mobilních telefonů",
-				"zákaz používání mobilních telefonů",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dim ffonau symudol"),
-			keywords: &["dim ffonau symudol", "ffôn", "gwahardd", "symudol"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("mobiltelefoner forbudt"),
-			keywords: &["ingen mobiltelefoner", "mobiltelefoner forbudt"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Mobiltelefone verboten"),
-			keywords: &["Handy", "Mobiltelefon", "Mobiltelefone verboten", "Verbot"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απαγορεύονται τα κινητά"),
-			keywords: &[
-				"απαγορεύεται",
-				"απαγορεύεται η χρήση κινητού",
-				"απαγορεύονται τα κινητά",
-				"κινητό",
-				"τηλέφωνο",
-				"όχι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("no mobile phones"),
-			keywords: &[
-				"cell",
-				"forbidden",
-				"mobile",
-				"no",
-				"not",
-				"phone",
-				"phones",
-				"prohibited",
-				"telephone",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("prohibido el uso de móviles"),
-			keywords: &[
-				"móvil",
-				"no hacer llamadas",
-				"prohibido",
-				"prohibido el uso de móviles",
-				"teléfono",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("no se permiten celulares"),
-			keywords: &[
-				"celular",
-				"móvil",
-				"móviles prohibidos",
-				"no hacer llamadas",
-				"no se permiten celulares",
-				"prohibido",
-				"prohibido el uso de móviles",
-				"teléfono",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["celular", "móvil", "no", "no se permiten celulares", "prohibido", "teléfono"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("telefonid on keelatud"),
-			keywords: &["ei", "keelatud", "mobiil", "telefon", "telefonid on keelatud"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("telefono mugikorrik ez"),
-			keywords: &["debekatuta", "ez", "mugikorra", "sarea", "telefono mugikorrik ez", "telefonoa"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("تلفن همراه ممنوع"),
-			keywords: &["تلفن", "تلفن همراه", "تلفن همراه ممنوع", "ممنوع", "موبایل", "نه", "گوشی"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("ei matkapuhelimia"),
-			keywords: &["ei matkapuhelimia", "kielletty", "matkapuhelin", "puhelin"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bawal ang mga mobile phone"),
-			keywords: &[
-				"bawal ang mga mobile phone",
-				"cell",
-				"huwag",
-				"ipinagbabawal",
-				"mobile",
-				"phone",
-				"telepono",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("fartelefon ikki loyvd"),
-			keywords: &["bannað", "fartelefon", "fartelefon ikki loyvd", "forboð"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("téléphones portables interdits"),
-			keywords: &[
-				"interdiction",
-				"interdit",
-				"portable",
-				"téléphone",
-				"téléphones portables interdits",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("téléphones cellulaires interdits"),
-			keywords: &[
-				"cellulaire",
-				"interdiction",
-				"interdit",
-				"mobile",
-				"portable",
-				"téléphones cellulaires interdits",
-			],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cosc ar fhóin phóca"),
-			keywords: &["cosc ar fhóin phóca", "guthán"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("fònaichean-làimhe toirmisgte"),
-			keywords: &[
-				"diùltadh",
-				"fòn",
-				"fòn-làimhe",
-				"fònaichean-làimhe toirmisgte",
-				"toirmisgte",
-				"àicheadh",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("sinal de prohibición de teléfonos móbiles"),
-			keywords: &[
-				"móbil",
-				"prohibido",
-				"sinal de prohibición de teléfonos móbiles",
-				"teléfono móbil",
-			],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("કોઈ મોબાઇલ ફોન નહી\u{a82}"),
-			keywords: &[
-				"કૉલ\u{acd}સ નહી\u{a82}",
-				"કોઈ મોબાઇલ ફોન નહી\u{a82}",
-				"ફોન",
-				"મોબાઇલ",
-				"સ\u{ac7}લ ફોન નહી\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("an hana wayoyin hannu"),
-			keywords: &[
-				"a kashe waya",
-				"an hana",
-				"an hana wayoyin hannu",
-				"a’a",
-				"haram",
-				"na hannu",
-				"sel",
-				"tarho",
-				"waya",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("an hana wayoyin hannu"),
-			keywords: &[
-				"a kashe waya",
-				"an hana",
-				"an hana wayoyin hannu",
-				"a’a",
-				"haram",
-				"na hannu",
-				"sel",
-				"tarho",
-				"waya",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אין להשתמש במכשירים ניידים"),
-			keywords: &[
-				"אין להשתמש במכשירים סלולריים",
-				"איסור",
-				"אסור",
-				"בלי טלפונים",
-				"טלפון",
-				"לסגור את הטלפון",
-				"נייד",
-				"סלולרי",
-			],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("मोबाइल फ\u{93c}ोन वर\u{94d}जित ह\u{948}"),
-			keywords: &[
-				"निष\u{947}ध",
-				"फ\u{93c}ोन",
-				"फ\u{93c}ोन पर बात करना मना ह\u{948}",
-				"फ\u{93c}ोन मना ह\u{948}",
-				"मोबाइल",
-				"मोबाइल फ\u{93c}ोन वर\u{94d}जित ह\u{948}",
-				"यहा\u{901} फ\u{93c}ोन पर बात न कर\u{947}\u{902}",
-				"स\u{947}ल",
-				"स\u{947}ल फ\u{93c}ोन निषिद\u{94d}ध",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("zabranjena uporaba mobilnih telefona"),
-			keywords: &[
-				"mobitel",
-				"ne",
-				"telefon",
-				"zabranjena uporaba mobilnih telefona",
-				"zabranjena upotreba mobilnih telefona",
-				"zabranjeno",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("mobiltelefon használata tilos"),
-			keywords: &[
-				"mobil",
-				"mobiltelefon",
-				"mobiltelefon használata tilos",
-				"telefon",
-				"tilos",
-				"tiltott",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("բջջային հեռախոսներն արգելվում են"),
-			keywords: &[
-				"արգելված",
-				"բջջային",
-				"բջջային հեռախոսներն արգելվում են",
-				"հեռախոս",
-				"շարժական",
-				"ոչ",
-			],
-		},
-		#[cfg(feature = "ia")]
-		crate::Annotation {
-			lang:     "ia",
-			tts:      Some("telephonos mobile prohibite"),
-			keywords: &[
-				"interdicite",
-				"mobile",
-				"portabile",
-				"prohibite",
-				"telephono",
-				"telephonos mobile prohibite",
-			],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("dilarang menggunakan ponsel"),
-			keywords: &[
-				"dilarang",
-				"dilarang menggunakan ponsel",
-				"lambang",
-				"mobile",
-				"ponsel",
-				"seluler",
-				"simbol",
-				"tanda",
-				"telepon",
-				"terlarang",
-				"tidak",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("enweghị ekwenti kengagharị gasị"),
-			keywords: &[
-				"amaghị",
-				"ana",
-				"egbochiri",
-				"ekwenti",
-				"enweghị ekwenti kengagharị gasị",
-				"kengagharị",
-				"mpanaka",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("enginn farsími"),
-			keywords: &["bannað að hringja", "enginn farsími", "farsími", "sími"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("simbolo che vieta l’uso dei cellulari"),
-			keywords: &[
-				"cellulare",
-				"cellulari vietati",
-				"divieto",
-				"niente cellulare",
-				"no cellulare",
-				"no telefono",
-				"proibito",
-				"segnale",
-				"segno",
-				"simbolo",
-				"simbolo che vieta l’uso dei cellulari",
-				"telefono",
-				"vietato",
-				"vietato telefonare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("携帯電話禁止"),
-			keywords: &["スマホ禁止", "スマートフォン禁止", "携帯禁止", "携帯電話禁止"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ora kena nguripke hp"),
-			keywords: &["aja", "hp", "larangan", "ora kena nguripake hp", "ponsel", "telpun"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მობილური ტელეფონის გამოყენება აკრძალულია"),
-			keywords: &[
-				"აკრძალვა",
-				"აკრძალულია",
-				"არა",
-				"მობილური",
-				"მობილური ტელეფონის გამოყენება აკრძალულია",
-				"ტელეფონი",
-				"ფიჭური",
-			],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("tiliɣri n ufus tegdel"),
-			keywords: &["tiliɣri n ufus tegdel"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ұялы телефондарды пайдалануға болмайды"),
-			keywords: &[
-				"жоқ",
-				"мобилді",
-				"мобильді",
-				"рұқсат етілмеген",
-				"телефон",
-				"ұялы",
-				"ұялы телефондарды пайдалануға болмайды",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("mobiltelefoner forbudt"),
-			keywords: &["ingen mobiltelefoner", "mobiltelefoner forbudt"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សញ\u{17d2}ញាហាមឃាត\u{17cb}ច\u{17c6}ពោះទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ"),
-			keywords: &[
-				"ឃាត\u{17cb}",
-				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ",
-				"សញ\u{17d2}ញា",
-				"សញ\u{17d2}ញាហាមឃាត\u{17cb}ច\u{17c6}ពោះទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ",
-				"ហាម",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}\u{200c}ಗಳ\u{cbf}ಲ\u{ccd}ಲ"),
-			keywords: &[
-				"ಇಲ\u{ccd}ಲ",
-				"ದ\u{cc2}ರವಾಣ\u{cbf}",
-				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಫ\u{ccb}ನ\u{ccd}",
-				"ಫ\u{ccb}ನ\u{ccd} ಬಳಕ\u{cc6} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
-				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd}",
-				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}\u{200c}ಗಳ\u{cbf}ಲ\u{ccd}ಲ",
-				"ಸ\u{cc6}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd} ಇಲ\u{ccd}ಲ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("휴대전화 사용금지"),
-			keywords: &[
-				"금지",
-				"모바일폰",
-				"셀폰",
-				"안됨",
-				"전화",
-				"전화 사용금지",
-				"폰",
-				"휴대전화 끄기",
-				"휴대전화 사용금지",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("मोबायल फोन ना"),
-			keywords: &["ना", "निषिध\u{94d}द", "फोन", "मोबायल", "स\u{945}ल"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("мобилдик телефонду өчүр"),
-			keywords: &["мобилдик", "мобилдик телефонду өчүр", "телефон", "тыюу салынат", "уюлдук"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Handye verbueden"),
-			keywords: &[
-				"Funk",
-				"Handy",
-				"Handye verbueden",
-				"Mobil",
-				"Telefon",
-				"keen",
-				"neen",
-				"net",
-				"verbueden",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ec9}າມໃຊ\u{ec9}ມ\u{eb7}ຖ\u{eb7}"),
-			keywords: &[
-				"ມ\u{eb7}ຖ\u{eb7}",
-				"ຫ\u{ec9}າມ",
-				"ຫ\u{ec9}າມໃຊ\u{ec9}ມ\u{eb7}ຖ\u{eb7}",
-				"ຫ\u{ec9}າມໃຊ\u{ec9}ໂທລະສ\u{eb1}ບ",
-				"ໂທລະສ\u{eb1}ບ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("jokių mobiliųjų telefonų"),
-			keywords: &[
-				"draudžiama",
-				"jokių mobiliųjų telefonų",
-				"mobilusis",
-				"ne",
-				"telefonas",
-				"uždrausta",
-				"ženklas",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("mobilie tālruņi aizliegti"),
-			keywords: &[
-				"aizliegts",
-				"mobilais",
-				"mobilie tālruņi aizliegti",
-				"nedrīkst",
-				"nē",
-				"telefons",
-				"tālrunis",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kaua te waea pūkoro"),
-			keywords: &["kaua te waea pūkoro", "kore", "kāo", "pūkoro", "rāhuitia", "waea", "whakakorea"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("забрана за мобилни телефони"),
-			keywords: &[
-				"забрана",
-				"забрана за мобилни телефони",
-				"забрането",
-				"мобилен",
-				"не",
-				"телефон",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മൊബൈൽ പ\u{d3e}ടില\u{d4d}ല"),
-			keywords: &[
-				"പ\u{d3e}ടില\u{d4d}ല",
-				"ഫോൺ",
-				"മൊബൈൽ",
-				"മൊബൈൽ ഫോണ\u{d41}കൾ പ\u{d3e}ടില\u{d4d}ല",
-				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
-				"സെൽ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("утас ашиглах хориотой"),
-			keywords: &[
-				"болохгүй",
-				"гар утас",
-				"гар утас ашиглаж болохгүй",
-				"мобайл",
-				"утас",
-				"утас ашиглах хориотой",
-				"хориглосон",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("मोबाईल फोनची अन\u{941}मती नाही"),
-			keywords: &[
-				"कॉल नाही",
-				"ट\u{947}लिफोन",
-				"नाही",
-				"निषिद\u{94d}ध",
-				"फोन",
-				"मोबाइल",
-				"मोबाईल",
-				"मोबाईल फोनची अन\u{941}मती नाही",
-				"स\u{947}ल",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("dilarang guna telefon bimbit"),
-			keywords: &[
-				"bukan",
-				"dilarang",
-				"dilarang guna telefon bimbit",
-				"fon",
-				"mudah alih",
-				"sel",
-				"telefon",
-				"telefon mudah alih dilarang",
-				"tidak",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ebda mowbajl"),
-			keywords: &["ebda mowbajl", "ma", "mhux", "mowbajl", "pprojbiti", "telefown"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some(
-				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}းဖ\u{102f}န\u{103a}း မသ\u{102f}\u{1036}းရ",
-			),
-			keywords: &[
-				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
-				"ဆ\u{1032}လ\u{103a}",
-				"တားမြစ\u{103a}",
-				"ဖ\u{102f}န\u{103a}း",
-				"မသ\u{102f}\u{1036}းရ",
-				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း",
-				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}းဖ\u{102f}န\u{103a}း မသ\u{102f}\u{1036}းရ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("मोबाइल फोनलाई अन\u{941}मति छ\u{948}न"),
-			keywords: &[
-				"निष\u{947}धित",
-				"फोन",
-				"मोबाइल",
-				"मोबाइल फोनलाई अन\u{941}मति छ\u{948}न",
-				"स\u{947}ल",
-				"होइन",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("geen mobiele telefoon"),
-			keywords: &["mobiel", "nee", "niet", "telefoon", "telefoons", "verboden"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("mobiltelefon ikkje tillate"),
-			keywords: &[
-				"forbode",
-				"ikkje",
-				"ikkje tillate",
-				"ingen telefonsamtalar",
-				"mobil",
-				"mobiltelefon",
-				"mobiltelefon ikkje tillate",
-				"nei",
-				"telefon",
-			],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c} ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
-			keywords: &[
-				"ଟେଲ\u{b3f}ଫୋନ\u{b4d}\u{200c}",
-				"ନ\u{b3e}",
-				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
-				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
-				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
-				"ଫୋନ\u{b4d}\u{200c}",
-				"ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}",
-				"ସେଲ\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
-			keywords: &[
-				"ਟ\u{a48}ਲੀਫ\u{a4b}ਨ",
-				"ਨਹੀ\u{a02}",
-				"ਪਾਬ\u{a70}ਦੀ",
-				"ਫ\u{a4b}ਨ",
-				"ਮਨਾਹੀ",
-				"ਮ\u{a4b}ਬਾਇਲ",
-				"ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
-				"ਰ\u{a4b}ਕ",
-				"ਸ\u{a48}ਲ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("موبائل فون نہیں"),
-			keywords: &["حرام", "خ\u{64f}لیہ", "فون", "ممنوع کیتا", "موبائل", "نہیں", "ٹیلی فون"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Nọ\u{301} Yúz Mọ\u{301}baíl Fon-dẹm Hia"),
-			keywords: &[
-				"Fon",
-				"Fọbid",
-				"Mọ\u{301}bail",
-				"No",
-				"Nó Mọ\u{301}baíl Fon-dẹm",
-				"Nọ\u{301} Yúz Mọ\u{301}baíl Fon-dẹm Hia",
-				"Sẹl",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("zakaz korzystania z telefonów komórkowych"),
-			keywords: &[
-				"komórka",
-				"nie wnosić",
-				"nie wolno",
-				"telefon komórkowy",
-				"zabroniony",
-				"zakaz",
-				"zakaz korzystania z telefonów komórkowych",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ګرځنده تیلیفونونه منع دي"),
-			keywords: &["سل", "فون", "منع", "موبايل", "نه", "ګرځنده تیلیفونونه منع دي"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("proibido o uso de telefone celular"),
-			keywords: &[
-				"cel",
-				"celular",
-				"não",
-				"permitidos",
-				"proibido",
-				"sem",
-				"smartphone",
-				"telefone",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("proibido usar telemóveis"),
-			keywords: &["não", "proibido", "proibido usar telemóveis", "telefone", "telemóvel"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ama apaykachana telefonokuna"),
-			keywords: &["ama apaykachana telefonokuna", "amatasqa", "apaykchana", "mana", "telefono"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("telefoanele mobile sunt interzise"),
-			keywords: &[
-				"celular",
-				"fără telefoane",
-				"interdicție",
-				"interzis",
-				"mobil",
-				"nu",
-				"telefoanele mobile sunt interzise",
-				"telefon",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-690"), keywords: &["E10-690"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("мобильные телефоны запрещены"),
-			keywords: &[
-				"запрещен",
-				"запрещено",
-				"запрещены",
-				"звонить",
-				"звонки",
-				"мобильный",
-				"перечеркнутый",
-				"смартфон",
-				"сотовый",
-				"телефон",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("telefoni zigendanwa ntizemewe"),
-			keywords: &[
-				"bibujijwe",
-				"birabujijwe",
-				"igedanwa",
-				"nta",
-				"oya",
-				"telefoni",
-				"telefoni zigendanwa ntizemewe",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("موبائيل فون نه"),
-			keywords: &["سيل", "فون", "ممنوعه", "منع ٿيل", "موبائيل", "نه", "ٽيليفون"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ජංගම ද\u{dd4}රකථන තහනම\u{dca}"),
-			keywords: &["එප\u{dcf}", "ජංගම ද\u{dd4}රකථන තහනම\u{dca}", "තහනම\u{dca}", "සෙල\u{dca}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zákaz mobilov"),
-			keywords: &[
-				"bez mobilov",
-				"mobil",
-				"mobilný",
-				"nepovolené",
-				"telefón",
-				"zakázané",
-				"zakázaný",
-				"zákaz",
-				"zákaz mobilov",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("mobilni telefoni prepovedani"),
-			keywords: &[
-				"mobilni telefoni prepovedani",
-				"mobilnik",
-				"mobilno",
-				"ne",
-				"ni dovoljeno",
-				"prepovedano",
-				"telefon",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("ma jiraan taleefoonada gacanta"),
-			keywords: &["ma jiraan taleefoonada gacanta", "mamnuuc", "maya", "moobeel", "taleefan"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ndalohen celularët"),
-			keywords: &["celular", "jo", "ndalohen celularët", "ndalohet", "telefon"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("забрањени мобилни телефони"),
-			keywords: &["забрањено", "мобилни", "нe", "тeлeфoн"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("zabranjeni mobilni telefoni"),
-			keywords: &["mobilni", "ne", "telefon", "zabranjeno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("mobil förbjuden"),
-			keywords: &["inga mobiler", "inga samtal", "mobil förbjuden"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("simu za mkononi haziruhusiwi"),
-			keywords: &[
-				"hapana",
-				"katazwa",
-				"marufuku",
-				"simu",
-				"simu ya mkononi",
-				"simu za mkononi haziruhusiwi",
-				"siyo",
-				"somu ya mkononi",
-				"ya mkononi",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"hapana",
-				"katazwa",
-				"marufuku",
-				"simu",
-				"simu ya mkononi",
-				"simu za mkononi haziruhusiwi",
-				"siyo",
-				"ya mkononi",
-			],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("செல\u{bcd} பயன\u{bcd}படுத\u{bcd}தக\u{bcd}கூட\u{bbe}து"),
-			keywords: &[
-				"செல\u{bcd} தடை",
-				"செல\u{bcd} தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி",
-				"செல\u{bcd} பயன\u{bcd}படுத\u{bcd}தக\u{bcd}கூட\u{bbe}து",
-				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
-				"மொபைல\u{bcd} கூட\u{bbe}து",
-				"மொபைல\u{bcd} தடை",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some(
-				"మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d} న\u{c3f}ష\u{c47}ధం చ\u{c3f}హ\u{c4d}నం",
-			),
-			keywords: &[
-				"చ\u{c3f}హ\u{c4d}నం",
-				"న\u{c3e}ట\u{c4d}",
-				"న\u{c3f}ష\u{c47}ధం",
-				"న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
-				"న\u{c4b}",
-				"న\u{c4b} మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}స\u{c4d}",
-				"ఫ\u{c4b}న\u{c4d}",
-				"మ\u{c4a}బ\u{c48}ల\u{c4d}",
-				"రద\u{c4d}దు",
-				"స\u{c46}ల\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("истифодаи телефонҳои мобилӣ манъ аст"),
-			keywords: &[
-				"истифодаи телефонҳои мобилӣ манъ аст",
-				"мамнуъ",
-				"манъшуда",
-				"не",
-				"нест",
-				"телефон",
-				"телефони мобилӣ",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e49}ามใช\u{e49}โทรศ\u{e31}พท\u{e4c}"),
-			keywords: &[
-				"ม\u{e37}อถ\u{e37}อ",
-				"ห\u{e49}าม",
-				"ห\u{e49}ามม\u{e37}อถ\u{e37}อ",
-				"ห\u{e49}ามโทรศ\u{e31}พท\u{e4c}",
-				"ห\u{e49}ามใช\u{e49}โทรศ\u{e31}พท\u{e4c}",
-				"โทรศ\u{e31}พท\u{e4c}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ተንቀሳቃሲ ተለፎን ኣይፍቀድን"),
-			keywords: &["ተለፎን", "ተንቀሳቃሲ ተለፎን", "ተንቀሳቃሲ ተለፎን ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("mobil telefonlar gadagan"),
-			keywords: &[
-				"bolanok",
-				"el telefony",
-				"gadagan",
-				"mobil",
-				"mobil telefonlar gadagan",
-				"telefon",
-				"öýjükli",
-			],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tapu telefoni"),
-			keywords: &["tapu", "telefoni"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("cep telefonu yasak"),
-			keywords: &["cep telefonu yasak", "mobil", "telefon", "çağrı yapılmaz"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يانفون ئىشلەتمەڭ"),
-			keywords: &["ئىشلەتمەڭ", "تېلېفون", "كاتەك", "كۆچمە", "ياق", "يانفون", "يوق", "چەكلەنگەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("мобільні телефони заборонено"),
-			keywords: &[
-				"заборонено",
-				"користуватися",
-				"мобільний",
-				"мобільні телефони заборонено",
-				"мобільні телефони заборонені",
-				"стільниковий",
-				"телефон",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("موبائل فون ممنوع"),
-			keywords: &["فون", "منع", "موبائل", "موبائل فون ممنوع"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("telefon mumkin emas"),
-			keywords: &[
-				"aloqa",
-				"man qilingan",
-				"mobil",
-				"mumkin emas",
-				"taqiqlangan",
-				"telefon",
-				"telefon mumkin emas",
-				"uyali",
-				"yo‘q",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cấm điện thoại di động"),
-			keywords: &[
-				"cấm",
-				"cấm điện thoại di động",
-				"di động",
-				"không",
-				"điện thoại",
-				"điện thoại di động",
-			],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("dañu fi tere portaabal"),
-			keywords: &[
-				"bul",
-				"dañu fi tere portaabal",
-				"déet",
-				"luñ aaye",
-				"luñ tere",
-				"portaabal",
-				"telefon",
-			],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("iiselfowuni azivumelekanga"),
-			keywords: &[
-				"hayi",
-				"ifowuni",
-				"iiselfowuni azivumelekanga",
-				"iselfowuni",
-				"iseli",
-				"ithintelwe",
-				"nakanye",
-				"yalelwe",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kosi awọn foonu alagbeka"),
-			keywords: &[
-				"fóònù",
-				"kosi awọn foonu alagbeka",
-				"kò",
-				"kòsáyè",
-				"rárá",
-				"tẹlifóònù",
-				"àgbéká",
-				"èèwò",
-				"Ẹ\u{300}rọ alágbéèká",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kosi awɔn foonu alagbeka"),
-			keywords: &[
-				"fóònù",
-				"kosi awɔn foonu alagbeka",
-				"kò",
-				"kòsáyè",
-				"rárá",
-				"tɛlifóònù",
-				"àgbéká",
-				"èèwò",
-				"Ɛ\u{300}rɔ alágbéèká",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("不准使用手提電話"),
-			keywords: &[
-				"不",
-				"不准",
-				"不准使用手提電話",
-				"不可",
-				"手提電話",
-				"手機",
-				"流動電話",
-				"禁止",
-				"電話",
-			],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("不准使用手提电话"),
-			keywords: &[
-				"不",
-				"不准",
-				"不准使用手提电话",
-				"不可",
-				"手提电话",
-				"手机",
-				"流动电话",
-				"电话",
-				"禁止",
-			],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("禁止使用手机"),
-			keywords: &["严禁", "手机", "电话", "禁止", "禁止使用手机"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("禁用手機"), keywords: &["禁用手機"] },
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("禁用手提電話"),
-			keywords: &[
-				"不准使用手機",
-				"手提電話",
-				"手機",
-				"禁止",
-				"禁用手提電話",
-				"禁用手機",
-				"關機",
-				"電話",
-				"靜音",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("akavumelekile amaselula"),
-			keywords: &[
-				"akavumelekile amaselula",
-				"akuvunyelwe",
-				"cha",
-				"inqatshelwe",
-				"iselula",
-				"ucingo",
-				"uthelefoni",
-			],
-		},
-	],
 };
 #[doc = "🔞"]
 pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
@@ -9128,29 +2678,6479 @@ pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "☢\u{fe0f}"]
-pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
-	glyph:                "☢\u{fe0f}",
-	codepoint:            &[9762u32],
+#[doc = "📵"]
+pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
+	glyph:                "📵",
+	codepoint:            &[128245u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "radioactive",
+	name:                 "no mobile phones",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("selfone verbode"),
+			keywords: &[
+				"foon",
+				"geen",
+				"nie",
+				"sel",
+				"selfone verbode",
+				"selfoon",
+				"telefoon",
+				"verbode",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሞባይል ስልኮች አይፈቀዱም"),
+			keywords: &["ሞባይል", "ሞባይል ስልኮች አይፈቀዱም", "ስልክ", "አይፈቀድም", "የተከለከለ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ممنوع استخدام الهاتف الجوال"),
+			keywords: &[
+				"جوال",
+				"خلوي",
+				"رمز",
+				"عدم استعمال الهاتف",
+				"ممنوع استخدام الهاتف الجوال",
+				"ممنوع استخدام الهاتف الخلوي",
+				"ممنوع الاتصال",
+				"نقال",
+				"هاتف",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("মোব\u{9be}ইল ফোন নিষেধ"),
+			keywords: &[
+				"চেল",
+				"নহয\u{9bc}",
+				"নিষিদ\u{9cd}ধ",
+				"ফোন",
+				"মোব\u{9be}ইল",
+				"মোব\u{9be}ইল ফোন নিষেধ",
+				"সম\u{9c2}লি নহয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("mobil telefondan istifadə etmək olmaz"),
+			keywords: &[
+				"\"mobil telefondan istifadə etmək qadağandır\" işarəsi",
+				"mobil",
+				"mobil telefondan istifadə etmək olmaz",
+				"qadağa",
+				"qadağan olunmuş",
+				"qadağandır",
+				"telefon",
+				"xeyr",
+				"yox",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("карыстацца мабільнымі тэлефонамі забаронена"),
+			keywords: &[
+				"забаронена",
+				"карыстацца мабільнымі тэлефонамі забаронена",
+				"мабільны",
+				"мабільнік",
+				"сотавы",
+				"тэлефон",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("забранени мобилни телефони"),
+			keywords: &[
+				"забранени мобилни телефони",
+				"забранено",
+				"забранено за мобилни телефони",
+				"клетъчен",
+				"мобилен",
+				"телефон",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("কোনো মোব\u{9be}ইল ফোন নেই"),
+			keywords: &[
+				"কোনো মোব\u{9be}ইল ফোন নেই",
+				"টেলিফোন",
+				"ন\u{9be}",
+				"নিষিদ\u{9cd}ধ",
+				"ফোন",
+				"মোব\u{9be}ইল",
+				"মোব\u{9be}ইলের অন\u{9c1}মতি নেই",
+				"সেল",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("pellgomzerioù difennet"),
+			keywords: &["berzet", "difennet", "pellgomzerioù"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zabranjeno korištenje mobilnog telefona"),
+			keywords: &[
+				"mobilni",
+				"ne",
+				"telefon",
+				"zabranjen",
+				"zabranjeno korištenje mobilnog telefona",
+			],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("prohibits els telèfons mòbils"),
+			keywords: &[
+				"mòbil",
+				"no",
+				"prohibició",
+				"prohibit",
+				"prohibit l’ús de telèfons mòbils",
+				"prohibits els telèfons mòbils",
+				"telèfon",
+				"telèfons mòbils",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("Ꮭ ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"),
+			keywords: &["ᎠᏓᏅᏏᏙᎯ ᎥᏝ", "ᎦᏅᏍᏙᏍᎬ", "ᎦᏅᏍᏙᏒᎢ", "ᏂᎨᏒᎾ", "ᏗᏟᏃᎮᏗᎢ", "Ꮭ ᏙᎴᎳᏊ ᏗᎵᏃᎮᏓ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zákaz používání mobilních telefonů"),
+			keywords: &[
+				"mobil",
+				"mobilní",
+				"ne",
+				"telefon",
+				"telefonování",
+				"zakázáno",
+				"zákaz",
+				"zákaz mobilních telefonů",
+				"zákaz používání mobilních telefonů",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dim ffonau symudol"),
+			keywords: &["dim ffonau symudol", "ffôn", "gwahardd", "symudol"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("mobiltelefoner forbudt"),
+			keywords: &["ingen mobiltelefoner", "mobiltelefoner forbudt"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Mobiltelefone verboten"),
+			keywords: &["Handy", "Mobiltelefon", "Mobiltelefone verboten", "Verbot"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απαγορεύονται τα κινητά"),
+			keywords: &[
+				"απαγορεύεται",
+				"απαγορεύεται η χρήση κινητού",
+				"απαγορεύονται τα κινητά",
+				"κινητό",
+				"τηλέφωνο",
+				"όχι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("no mobile phones"),
+			keywords: &[
+				"cell",
+				"forbidden",
+				"mobile",
+				"no",
+				"not",
+				"phone",
+				"phones",
+				"prohibited",
+				"telephone",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("prohibido el uso de móviles"),
+			keywords: &[
+				"móvil",
+				"no hacer llamadas",
+				"prohibido",
+				"prohibido el uso de móviles",
+				"teléfono",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("no se permiten celulares"),
+			keywords: &[
+				"celular",
+				"móvil",
+				"móviles prohibidos",
+				"no hacer llamadas",
+				"no se permiten celulares",
+				"prohibido",
+				"prohibido el uso de móviles",
+				"teléfono",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["celular", "móvil", "no", "no se permiten celulares", "prohibido", "teléfono"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("telefonid on keelatud"),
+			keywords: &["ei", "keelatud", "mobiil", "telefon", "telefonid on keelatud"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("telefono mugikorrik ez"),
+			keywords: &["debekatuta", "ez", "mugikorra", "sarea", "telefono mugikorrik ez", "telefonoa"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("تلفن همراه ممنوع"),
+			keywords: &["تلفن", "تلفن همراه", "تلفن همراه ممنوع", "ممنوع", "موبایل", "نه", "گوشی"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("ei matkapuhelimia"),
+			keywords: &["ei matkapuhelimia", "kielletty", "matkapuhelin", "puhelin"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bawal ang mga mobile phone"),
+			keywords: &[
+				"bawal ang mga mobile phone",
+				"cell",
+				"huwag",
+				"ipinagbabawal",
+				"mobile",
+				"phone",
+				"telepono",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("fartelefon ikki loyvd"),
+			keywords: &["bannað", "fartelefon", "fartelefon ikki loyvd", "forboð"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("téléphones portables interdits"),
+			keywords: &[
+				"interdiction",
+				"interdit",
+				"portable",
+				"téléphone",
+				"téléphones portables interdits",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("téléphones cellulaires interdits"),
+			keywords: &[
+				"cellulaire",
+				"interdiction",
+				"interdit",
+				"mobile",
+				"portable",
+				"téléphones cellulaires interdits",
+			],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cosc ar fhóin phóca"),
+			keywords: &["cosc ar fhóin phóca", "guthán"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("fònaichean-làimhe toirmisgte"),
+			keywords: &[
+				"diùltadh",
+				"fòn",
+				"fòn-làimhe",
+				"fònaichean-làimhe toirmisgte",
+				"toirmisgte",
+				"àicheadh",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de prohibición de teléfonos móbiles"),
+			keywords: &[
+				"móbil",
+				"prohibido",
+				"sinal de prohibición de teléfonos móbiles",
+				"teléfono móbil",
+			],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("કોઈ મોબાઇલ ફોન નહી\u{a82}"),
+			keywords: &[
+				"કૉલ\u{acd}સ નહી\u{a82}",
+				"કોઈ મોબાઇલ ફોન નહી\u{a82}",
+				"ફોન",
+				"મોબાઇલ",
+				"સ\u{ac7}લ ફોન નહી\u{a82}",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("an hana wayoyin hannu"),
+			keywords: &[
+				"a kashe waya",
+				"an hana",
+				"an hana wayoyin hannu",
+				"a’a",
+				"haram",
+				"na hannu",
+				"sel",
+				"tarho",
+				"waya",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("an hana wayoyin hannu"),
+			keywords: &[
+				"a kashe waya",
+				"an hana",
+				"an hana wayoyin hannu",
+				"a’a",
+				"haram",
+				"na hannu",
+				"sel",
+				"tarho",
+				"waya",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אין להשתמש במכשירים ניידים"),
+			keywords: &[
+				"אין להשתמש במכשירים סלולריים",
+				"איסור",
+				"אסור",
+				"בלי טלפונים",
+				"טלפון",
+				"לסגור את הטלפון",
+				"נייד",
+				"סלולרי",
+			],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("मोबाइल फ\u{93c}ोन वर\u{94d}जित ह\u{948}"),
+			keywords: &[
+				"निष\u{947}ध",
+				"फ\u{93c}ोन",
+				"फ\u{93c}ोन पर बात करना मना ह\u{948}",
+				"फ\u{93c}ोन मना ह\u{948}",
+				"मोबाइल",
+				"मोबाइल फ\u{93c}ोन वर\u{94d}जित ह\u{948}",
+				"यहा\u{901} फ\u{93c}ोन पर बात न कर\u{947}\u{902}",
+				"स\u{947}ल",
+				"स\u{947}ल फ\u{93c}ोन निषिद\u{94d}ध",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zabranjena uporaba mobilnih telefona"),
+			keywords: &[
+				"mobitel",
+				"ne",
+				"telefon",
+				"zabranjena uporaba mobilnih telefona",
+				"zabranjena upotreba mobilnih telefona",
+				"zabranjeno",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("mobiltelefon használata tilos"),
+			keywords: &[
+				"mobil",
+				"mobiltelefon",
+				"mobiltelefon használata tilos",
+				"telefon",
+				"tilos",
+				"tiltott",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բջջային հեռախոսներն արգելվում են"),
+			keywords: &[
+				"արգելված",
+				"բջջային",
+				"բջջային հեռախոսներն արգելվում են",
+				"հեռախոս",
+				"շարժական",
+				"ոչ",
+			],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("telephonos mobile prohibite"),
+			keywords: &[
+				"interdicite",
+				"mobile",
+				"portabile",
+				"prohibite",
+				"telephono",
+				"telephonos mobile prohibite",
+			],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("dilarang menggunakan ponsel"),
+			keywords: &[
+				"dilarang",
+				"dilarang menggunakan ponsel",
+				"lambang",
+				"mobile",
+				"ponsel",
+				"seluler",
+				"simbol",
+				"tanda",
+				"telepon",
+				"terlarang",
+				"tidak",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("enweghị ekwenti kengagharị gasị"),
+			keywords: &[
+				"amaghị",
+				"ana",
+				"egbochiri",
+				"ekwenti",
+				"enweghị ekwenti kengagharị gasị",
+				"kengagharị",
+				"mpanaka",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("enginn farsími"),
+			keywords: &["bannað að hringja", "enginn farsími", "farsími", "sími"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("simbolo che vieta l’uso dei cellulari"),
+			keywords: &[
+				"cellulare",
+				"cellulari vietati",
+				"divieto",
+				"niente cellulare",
+				"no cellulare",
+				"no telefono",
+				"proibito",
+				"segnale",
+				"segno",
+				"simbolo",
+				"simbolo che vieta l’uso dei cellulari",
+				"telefono",
+				"vietato",
+				"vietato telefonare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("携帯電話禁止"),
+			keywords: &["スマホ禁止", "スマートフォン禁止", "携帯禁止", "携帯電話禁止"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ora kena nguripke hp"),
+			keywords: &["aja", "hp", "larangan", "ora kena nguripake hp", "ponsel", "telpun"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მობილური ტელეფონის გამოყენება აკრძალულია"),
+			keywords: &[
+				"აკრძალვა",
+				"აკრძალულია",
+				"არა",
+				"მობილური",
+				"მობილური ტელეფონის გამოყენება აკრძალულია",
+				"ტელეფონი",
+				"ფიჭური",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("tiliɣri n ufus tegdel"),
+			keywords: &["tiliɣri n ufus tegdel"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ұялы телефондарды пайдалануға болмайды"),
+			keywords: &[
+				"жоқ",
+				"мобилді",
+				"мобильді",
+				"рұқсат етілмеген",
+				"телефон",
+				"ұялы",
+				"ұялы телефондарды пайдалануға болмайды",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("mobiltelefoner forbudt"),
+			keywords: &["ingen mobiltelefoner", "mobiltelefoner forbudt"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សញ\u{17d2}ញាហាមឃាត\u{17cb}ច\u{17c6}ពោះទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ"),
+			keywords: &[
+				"ឃាត\u{17cb}",
+				"ទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ",
+				"សញ\u{17d2}ញា",
+				"សញ\u{17d2}ញាហាមឃាត\u{17cb}ច\u{17c6}ពោះទ\u{17bc}រស\u{17d0}ព\u{17d2}ទ",
+				"ហាម",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}\u{200c}ಗಳ\u{cbf}ಲ\u{ccd}ಲ"),
+			keywords: &[
+				"ಇಲ\u{ccd}ಲ",
+				"ದ\u{cc2}ರವಾಣ\u{cbf}",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಫ\u{ccb}ನ\u{ccd}",
+				"ಫ\u{ccb}ನ\u{ccd} ಬಳಕ\u{cc6} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd}",
+				"ಮ\u{cca}ಬ\u{cc8}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd}\u{200c}ಗಳ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಸ\u{cc6}ಲ\u{ccd} ಫ\u{ccb}ನ\u{ccd} ಇಲ\u{ccd}ಲ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("휴대전화 사용금지"),
+			keywords: &[
+				"금지",
+				"모바일폰",
+				"셀폰",
+				"안됨",
+				"전화",
+				"전화 사용금지",
+				"폰",
+				"휴대전화 끄기",
+				"휴대전화 사용금지",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("मोबायल फोन ना"),
+			keywords: &["ना", "निषिध\u{94d}द", "फोन", "मोबायल", "स\u{945}ल"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("мобилдик телефонду өчүр"),
+			keywords: &["мобилдик", "мобилдик телефонду өчүр", "телефон", "тыюу салынат", "уюлдук"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Handye verbueden"),
+			keywords: &[
+				"Funk",
+				"Handy",
+				"Handye verbueden",
+				"Mobil",
+				"Telefon",
+				"keen",
+				"neen",
+				"net",
+				"verbueden",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ec9}າມໃຊ\u{ec9}ມ\u{eb7}ຖ\u{eb7}"),
+			keywords: &[
+				"ມ\u{eb7}ຖ\u{eb7}",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມໃຊ\u{ec9}ມ\u{eb7}ຖ\u{eb7}",
+				"ຫ\u{ec9}າມໃຊ\u{ec9}ໂທລະສ\u{eb1}ບ",
+				"ໂທລະສ\u{eb1}ບ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("jokių mobiliųjų telefonų"),
+			keywords: &[
+				"draudžiama",
+				"jokių mobiliųjų telefonų",
+				"mobilusis",
+				"ne",
+				"telefonas",
+				"uždrausta",
+				"ženklas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("mobilie tālruņi aizliegti"),
+			keywords: &[
+				"aizliegts",
+				"mobilais",
+				"mobilie tālruņi aizliegti",
+				"nedrīkst",
+				"nē",
+				"telefons",
+				"tālrunis",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kaua te waea pūkoro"),
+			keywords: &["kaua te waea pūkoro", "kore", "kāo", "pūkoro", "rāhuitia", "waea", "whakakorea"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("забрана за мобилни телефони"),
+			keywords: &[
+				"забрана",
+				"забрана за мобилни телефони",
+				"забрането",
+				"мобилен",
+				"не",
+				"телефон",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മൊബൈൽ പ\u{d3e}ടില\u{d4d}ല"),
+			keywords: &[
+				"പ\u{d3e}ടില\u{d4d}ല",
+				"ഫോൺ",
+				"മൊബൈൽ",
+				"മൊബൈൽ ഫോണ\u{d41}കൾ പ\u{d3e}ടില\u{d4d}ല",
+				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
+				"സെൽ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("утас ашиглах хориотой"),
+			keywords: &[
+				"болохгүй",
+				"гар утас",
+				"гар утас ашиглаж болохгүй",
+				"мобайл",
+				"утас",
+				"утас ашиглах хориотой",
+				"хориглосон",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("मोबाईल फोनची अन\u{941}मती नाही"),
+			keywords: &[
+				"कॉल नाही",
+				"ट\u{947}लिफोन",
+				"नाही",
+				"निषिद\u{94d}ध",
+				"फोन",
+				"मोबाइल",
+				"मोबाईल",
+				"मोबाईल फोनची अन\u{941}मती नाही",
+				"स\u{947}ल",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("dilarang guna telefon bimbit"),
+			keywords: &[
+				"bukan",
+				"dilarang",
+				"dilarang guna telefon bimbit",
+				"fon",
+				"mudah alih",
+				"sel",
+				"telefon",
+				"telefon mudah alih dilarang",
+				"tidak",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ebda mowbajl"),
+			keywords: &["ebda mowbajl", "ma", "mhux", "mowbajl", "pprojbiti", "telefown"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some(
+				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}းဖ\u{102f}န\u{103a}း မသ\u{102f}\u{1036}းရ",
+			),
+			keywords: &[
+				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
+				"ဆ\u{1032}လ\u{103a}",
+				"တားမြစ\u{103a}",
+				"ဖ\u{102f}န\u{103a}း",
+				"မသ\u{102f}\u{1036}းရ",
+				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}း",
+				"မ\u{102d}\u{102f}ဘ\u{102d}\u{102f}င\u{103a}းဖ\u{102f}န\u{103a}း မသ\u{102f}\u{1036}းရ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("मोबाइल फोनलाई अन\u{941}मति छ\u{948}न"),
+			keywords: &[
+				"निष\u{947}धित",
+				"फोन",
+				"मोबाइल",
+				"मोबाइल फोनलाई अन\u{941}मति छ\u{948}न",
+				"स\u{947}ल",
+				"होइन",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen mobiele telefoon"),
+			keywords: &["mobiel", "nee", "niet", "telefoon", "telefoons", "verboden"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("mobiltelefon ikkje tillate"),
+			keywords: &[
+				"forbode",
+				"ikkje",
+				"ikkje tillate",
+				"ingen telefonsamtalar",
+				"mobil",
+				"mobiltelefon",
+				"mobiltelefon ikkje tillate",
+				"nei",
+				"telefon",
+			],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋନ\u{b4d}\u{200c} ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
+			keywords: &[
+				"ଟେଲ\u{b3f}ଫୋନ\u{b4d}\u{200c}",
+				"ନ\u{b3e}",
+				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
+				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
+				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
+				"ଫୋନ\u{b4d}\u{200c}",
+				"ମୋବ\u{b3e}ଇଲ\u{b4d}\u{200c}",
+				"ସେଲ\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
+			keywords: &[
+				"ਟ\u{a48}ਲੀਫ\u{a4b}ਨ",
+				"ਨਹੀ\u{a02}",
+				"ਪਾਬ\u{a70}ਦੀ",
+				"ਫ\u{a4b}ਨ",
+				"ਮਨਾਹੀ",
+				"ਮ\u{a4b}ਬਾਇਲ",
+				"ਮ\u{a4b}ਬਾਇਲ ਫ\u{a4b}ਨਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
+				"ਰ\u{a4b}ਕ",
+				"ਸ\u{a48}ਲ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("موبائل فون نہیں"),
+			keywords: &["حرام", "خ\u{64f}لیہ", "فون", "ممنوع کیتا", "موبائل", "نہیں", "ٹیلی فون"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Nọ\u{301} Yúz Mọ\u{301}baíl Fon-dẹm Hia"),
+			keywords: &[
+				"Fon",
+				"Fọbid",
+				"Mọ\u{301}bail",
+				"No",
+				"Nó Mọ\u{301}baíl Fon-dẹm",
+				"Nọ\u{301} Yúz Mọ\u{301}baíl Fon-dẹm Hia",
+				"Sẹl",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("zakaz korzystania z telefonów komórkowych"),
+			keywords: &[
+				"komórka",
+				"nie wnosić",
+				"nie wolno",
+				"telefon komórkowy",
+				"zabroniony",
+				"zakaz",
+				"zakaz korzystania z telefonów komórkowych",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ګرځنده تیلیفونونه منع دي"),
+			keywords: &["سل", "فون", "منع", "موبايل", "نه", "ګرځنده تیلیفونونه منع دي"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("proibido o uso de telefone celular"),
+			keywords: &[
+				"cel",
+				"celular",
+				"não",
+				"permitidos",
+				"proibido",
+				"sem",
+				"smartphone",
+				"telefone",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("proibido usar telemóveis"),
+			keywords: &["não", "proibido", "proibido usar telemóveis", "telefone", "telemóvel"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ama apaykachana telefonokuna"),
+			keywords: &["ama apaykachana telefonokuna", "amatasqa", "apaykchana", "mana", "telefono"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("telefoanele mobile sunt interzise"),
+			keywords: &[
+				"celular",
+				"fără telefoane",
+				"interdicție",
+				"interzis",
+				"mobil",
+				"nu",
+				"telefoanele mobile sunt interzise",
+				"telefon",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-690"), keywords: &["E10-690"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("мобильные телефоны запрещены"),
+			keywords: &[
+				"запрещен",
+				"запрещено",
+				"запрещены",
+				"звонить",
+				"звонки",
+				"мобильный",
+				"перечеркнутый",
+				"смартфон",
+				"сотовый",
+				"телефон",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("telefoni zigendanwa ntizemewe"),
+			keywords: &[
+				"bibujijwe",
+				"birabujijwe",
+				"igedanwa",
+				"nta",
+				"oya",
+				"telefoni",
+				"telefoni zigendanwa ntizemewe",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("موبائيل فون نه"),
+			keywords: &["سيل", "فون", "ممنوعه", "منع ٿيل", "موبائيل", "نه", "ٽيليفون"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ජංගම ද\u{dd4}රකථන තහනම\u{dca}"),
+			keywords: &["එප\u{dcf}", "ජංගම ද\u{dd4}රකථන තහනම\u{dca}", "තහනම\u{dca}", "සෙල\u{dca}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zákaz mobilov"),
+			keywords: &[
+				"bez mobilov",
+				"mobil",
+				"mobilný",
+				"nepovolené",
+				"telefón",
+				"zakázané",
+				"zakázaný",
+				"zákaz",
+				"zákaz mobilov",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("mobilni telefoni prepovedani"),
+			keywords: &[
+				"mobilni telefoni prepovedani",
+				"mobilnik",
+				"mobilno",
+				"ne",
+				"ni dovoljeno",
+				"prepovedano",
+				"telefon",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("ma jiraan taleefoonada gacanta"),
+			keywords: &["ma jiraan taleefoonada gacanta", "mamnuuc", "maya", "moobeel", "taleefan"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ndalohen celularët"),
+			keywords: &["celular", "jo", "ndalohen celularët", "ndalohet", "telefon"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("забрањени мобилни телефони"),
+			keywords: &["забрањено", "мобилни", "нe", "тeлeфoн"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zabranjeni mobilni telefoni"),
+			keywords: &["mobilni", "ne", "telefon", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("mobil förbjuden"),
+			keywords: &["inga mobiler", "inga samtal", "mobil förbjuden"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("simu za mkononi haziruhusiwi"),
+			keywords: &[
+				"hapana",
+				"katazwa",
+				"marufuku",
+				"simu",
+				"simu ya mkononi",
+				"simu za mkononi haziruhusiwi",
+				"siyo",
+				"somu ya mkononi",
+				"ya mkononi",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"hapana",
+				"katazwa",
+				"marufuku",
+				"simu",
+				"simu ya mkononi",
+				"simu za mkononi haziruhusiwi",
+				"siyo",
+				"ya mkononi",
+			],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("செல\u{bcd} பயன\u{bcd}படுத\u{bcd}தக\u{bcd}கூட\u{bbe}து"),
+			keywords: &[
+				"செல\u{bcd} தடை",
+				"செல\u{bcd} தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி",
+				"செல\u{bcd} பயன\u{bcd}படுத\u{bcd}தக\u{bcd}கூட\u{bbe}து",
+				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
+				"மொபைல\u{bcd} கூட\u{bbe}து",
+				"மொபைல\u{bcd} தடை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some(
+				"మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d} న\u{c3f}ష\u{c47}ధం చ\u{c3f}హ\u{c4d}నం",
+			),
+			keywords: &[
+				"చ\u{c3f}హ\u{c4d}నం",
+				"న\u{c3e}ట\u{c4d}",
+				"న\u{c3f}ష\u{c47}ధం",
+				"న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
+				"న\u{c4b}",
+				"న\u{c4b} మ\u{c4a}బ\u{c48}ల\u{c4d} ఫ\u{c4b}న\u{c4d}స\u{c4d}",
+				"ఫ\u{c4b}న\u{c4d}",
+				"మ\u{c4a}బ\u{c48}ల\u{c4d}",
+				"రద\u{c4d}దు",
+				"స\u{c46}ల\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("истифодаи телефонҳои мобилӣ манъ аст"),
+			keywords: &[
+				"истифодаи телефонҳои мобилӣ манъ аст",
+				"мамнуъ",
+				"манъшуда",
+				"не",
+				"нест",
+				"телефон",
+				"телефони мобилӣ",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e49}ามใช\u{e49}โทรศ\u{e31}พท\u{e4c}"),
+			keywords: &[
+				"ม\u{e37}อถ\u{e37}อ",
+				"ห\u{e49}าม",
+				"ห\u{e49}ามม\u{e37}อถ\u{e37}อ",
+				"ห\u{e49}ามโทรศ\u{e31}พท\u{e4c}",
+				"ห\u{e49}ามใช\u{e49}โทรศ\u{e31}พท\u{e4c}",
+				"โทรศ\u{e31}พท\u{e4c}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ተንቀሳቃሲ ተለፎን ኣይፍቀድን"),
+			keywords: &["ተለፎን", "ተንቀሳቃሲ ተለፎን", "ተንቀሳቃሲ ተለፎን ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("mobil telefonlar gadagan"),
+			keywords: &[
+				"bolanok",
+				"el telefony",
+				"gadagan",
+				"mobil",
+				"mobil telefonlar gadagan",
+				"telefon",
+				"öýjükli",
+			],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tapu telefoni"),
+			keywords: &["tapu", "telefoni"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("cep telefonu yasak"),
+			keywords: &["cep telefonu yasak", "mobil", "telefon", "çağrı yapılmaz"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يانفون ئىشلەتمەڭ"),
+			keywords: &["ئىشلەتمەڭ", "تېلېفون", "كاتەك", "كۆچمە", "ياق", "يانفون", "يوق", "چەكلەنگەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("мобільні телефони заборонено"),
+			keywords: &[
+				"заборонено",
+				"користуватися",
+				"мобільний",
+				"мобільні телефони заборонено",
+				"мобільні телефони заборонені",
+				"стільниковий",
+				"телефон",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("موبائل فون ممنوع"),
+			keywords: &["فون", "منع", "موبائل", "موبائل فون ممنوع"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("telefon mumkin emas"),
+			keywords: &[
+				"aloqa",
+				"man qilingan",
+				"mobil",
+				"mumkin emas",
+				"taqiqlangan",
+				"telefon",
+				"telefon mumkin emas",
+				"uyali",
+				"yo‘q",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cấm điện thoại di động"),
+			keywords: &[
+				"cấm",
+				"cấm điện thoại di động",
+				"di động",
+				"không",
+				"điện thoại",
+				"điện thoại di động",
+			],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("dañu fi tere portaabal"),
+			keywords: &[
+				"bul",
+				"dañu fi tere portaabal",
+				"déet",
+				"luñ aaye",
+				"luñ tere",
+				"portaabal",
+				"telefon",
+			],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("iiselfowuni azivumelekanga"),
+			keywords: &[
+				"hayi",
+				"ifowuni",
+				"iiselfowuni azivumelekanga",
+				"iselfowuni",
+				"iseli",
+				"ithintelwe",
+				"nakanye",
+				"yalelwe",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kosi awọn foonu alagbeka"),
+			keywords: &[
+				"fóònù",
+				"kosi awọn foonu alagbeka",
+				"kò",
+				"kòsáyè",
+				"rárá",
+				"tẹlifóònù",
+				"àgbéká",
+				"èèwò",
+				"Ẹ\u{300}rọ alágbéèká",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kosi awɔn foonu alagbeka"),
+			keywords: &[
+				"fóònù",
+				"kosi awɔn foonu alagbeka",
+				"kò",
+				"kòsáyè",
+				"rárá",
+				"tɛlifóònù",
+				"àgbéká",
+				"èèwò",
+				"Ɛ\u{300}rɔ alágbéèká",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("不准使用手提電話"),
+			keywords: &[
+				"不",
+				"不准",
+				"不准使用手提電話",
+				"不可",
+				"手提電話",
+				"手機",
+				"流動電話",
+				"禁止",
+				"電話",
+			],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("不准使用手提电话"),
+			keywords: &[
+				"不",
+				"不准",
+				"不准使用手提电话",
+				"不可",
+				"手提电话",
+				"手机",
+				"流动电话",
+				"电话",
+				"禁止",
+			],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("禁止使用手机"),
+			keywords: &["严禁", "手机", "电话", "禁止", "禁止使用手机"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("禁用手機"), keywords: &["禁用手機"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("禁用手提電話"),
+			keywords: &[
+				"不准使用手機",
+				"手提電話",
+				"手機",
+				"禁止",
+				"禁用手提電話",
+				"禁用手機",
+				"關機",
+				"電話",
+				"靜音",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("akavumelekile amaselula"),
+			keywords: &[
+				"akavumelekile amaselula",
+				"akuvunyelwe",
+				"cha",
+				"inqatshelwe",
+				"iselula",
+				"ucingo",
+				"uthelefoni",
+			],
+		},
+	],
+};
+#[doc = "🚱"]
+pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
+	glyph:                "🚱",
+	codepoint:            &[128689u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "non-potable water",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("niedrinkbare water"),
+			keywords: &[
+				"droog",
+				"moenie drink nie",
+				"niedrinkbaar",
+				"niedrinkbare water",
+				"verbode",
+				"water",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የማይጠጣ ውሃ"),
+			keywords: &["ለመጠጥ የማይሆን", "ውሃ", "የማይቀዳ", "የማይንቀሳቀስ", "የማይጠጣ", "የተከለከለ", "ደረቅ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("مياه غير صالحة للشرب"),
+			keywords: &["جفاف", "غير صالحة للشرب", "مياه", "مياه غير صالحة للشرب"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("খোৱ\u{9be}ৰ অন\u{9c1}পযোগী প\u{9be}নী"),
+			keywords: &[
+				"খোৱ\u{9be}ৰ অন\u{9c1}পযোগী",
+				"খোৱ\u{9be}ৰ অন\u{9c1}পযোগী প\u{9be}নী",
+				"প\u{9be}ন কৰ\u{9be}ৰ অযোগ\u{9cd}য",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("su içməli deyil"),
+			keywords: &[
+				"içməli deyil",
+				"içməyə yararsız",
+				"su",
+				"su içmək qadağandır işarəsi",
+				"su içməli deyil",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("непрыдатная для піцця вада"),
+			keywords: &[
+				"вада",
+				"забаронена",
+				"непрыдатная",
+				"непрыдатная для піцця вада",
+				"непітны",
+				"піццё",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("непитейна вода"),
+			keywords: &[
+				"вода",
+				"забранено",
+				"негодна за пиене вода",
+				"непитейна",
+				"неподходяща за пиене",
+				"неподходяща за пиене вода",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("পেয\u{9bc} জল নয\u{9bc}"),
+			keywords: &[
+				"জল",
+				"জল প\u{9be}ন কর\u{9be}র উপয\u{9c1}ক\u{9cd}ত নয\u{9bc}",
+				"নিষিদ\u{9cd}ধ",
+				"পেয\u{9bc} জল নয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("dour fall da evañ"),
+			keywords: &["dour", "dour fall da evañ", "evañ"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("nepitka voda"),
+			keywords: &["nepitka voda", "nije pitka", "piće", "voda", "zabranjeno"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("aigua no potable"),
+			keywords: &["aigua", "aigua no potable", "no potable", "prohibit"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("Ꮭ-ᎦᏅᏥᏓᏍᏗ ᎠᎹ"),
+			keywords: &["ᎠᎹ", "Ꮭ-ᎠᏗᏔᏍᎦ", "Ꮭ-ᎦᏅᏥᏓᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("nepitná voda"),
+			keywords: &[
+				"kohoutek",
+				"nepitná voda",
+				"nevhodná",
+				"nápoj",
+				"pití",
+				"sucho",
+				"voda",
+				"voda není pitná",
+				"zakázáno",
+				"zákaz",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dŵr na ellir ei yfed"),
+			keywords: &["dwr na ellir ei yfed", "dŵr", "dŵr na ellir ei yfed", "gwahardd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ikke drikkevand"),
+			keywords: &["drik", "forbudt", "ikke drikkevand", "vand"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Kein Trinkwasser"),
+			keywords: &["Kein Trinkwasser", "Wasser", "kein Trinkwasser", "verboten", "verschmutzt"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μη πόσιμο νερό"),
+			keywords: &["απαγορευμένο", "μη πόσιμο", "μη πόσιμο νερό", "νερό", "ξυρασία"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("non-potable water"),
+			keywords: &["dry", "non-drinking", "non-potable", "prohibited", "water"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("non-drinkable water"),
+			keywords: &["non-drinkable water", "non-drinking", "non-potable", "water"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("agua no potable"),
+			keywords: &["agua", "agua no potable", "no potable"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["agua", "agua no potable", "no beber", "no potable", "seco"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("joomiseks kõlbmatu vesi"),
+			keywords: &["joodav", "joomiseks kõlbmatu vesi", "keelatud", "vesi"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("edateko ez den ura"),
+			keywords: &["debekatuta", "edan", "edateko", "edateko ez den ura", "ez", "galarazita", "ur"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("آب غیرآشامیدنی"),
+			keywords: &["آب", "آب غیرآشامیدنی", "آشامیدنی", "ممنوع", "نه", "نوشیدن"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("vesi ei juomakelpoista"),
+			keywords: &[
+				"ei juomakelpoinen",
+				"juomakelvoton",
+				"juominen kielletty",
+				"kielto",
+				"pilaantunut vesi",
+				"vesi",
+				"vesi ei juomakelpoista",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("hindi pwedeng inumin"),
+			keywords: &["bawal", "hindi pwedeng inumin", "huwag", "inumin", "ipinagbabawal", "tubig"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("ikki drekkandi vatn"),
+			keywords: &["drekkivatn", "ikki drekkandi vatn", "vatn"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("eau non potable"),
+			keywords: &[
+				"eau",
+				"eau non potable",
+				"imbuvable",
+				"interdiction",
+				"interdit",
+				"ne pas boire",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["eau", "non potable"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("uisce nach bhfuil le hól"),
+			keywords: &[
+				"coiscthe",
+				"nach bhfuil le hól",
+				"neamh-inólta",
+				"ná óltar é",
+				"tirim",
+				"uisce",
+				"uisce nach bhfuil le hól",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("uisge do-òlta"),
+			keywords: &["do-òlta", "na òl", "uisge"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de auga non potable"),
+			keywords: &["auga", "non beber", "non potable", "sinal de auga non potable"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પાણી પીવા યોગ\u{acd}ય નથી"),
+			keywords: &[
+				"પાણી",
+				"પાણી પીવા યોગ\u{acd}ય નથી",
+				"પીવા જોગ નહી\u{a82}",
+				"પીવા માટ\u{ac7} અયોગ\u{acd}ય પાણી",
+				"પીવા યોગ\u{acd}ય પાણી નથી",
+				"પીવાન\u{ac1}\u{a82} પાણી નહી\u{a82}",
+				"પ\u{ac7}ય નહી\u{a82}",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("ruwa mara kyau"),
+			keywords: &[
+				"an hana",
+				"an hana sha",
+				"ba a iya sha",
+				"ba na sha ba",
+				"gurɓatacce",
+				"gurɓataccen ruwa",
+				"mara kyau",
+				"ruwa",
+				"ruwa mara kyau",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("ruwa mara kyau"),
+			keywords: &[
+				"an hana",
+				"an hana sha",
+				"ba a iya sha",
+				"ba na sha ba",
+				"gurɓatacce",
+				"gurɓataccen ruwa",
+				"mara kyau",
+				"ruwa",
+				"ruwa mara kyau",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אין לשתות את המים"),
+			keywords: &["אסור לשתות", "ברז", "זיהום", "לא לשתות", "מזוהם", "מים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("पानी पीन\u{947} योग\u{94d}य नही\u{902}"),
+			keywords: &[
+				"पानी",
+				"पानी पीन\u{947} योग\u{94d}य नही\u{902}",
+				"पीन\u{947} अयोग\u{94d}य",
+				"पीन\u{947} लायक नही\u{902}",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("voda nije za piće"),
+			keywords: &["ne", "nije pitko", "voda", "voda nije za piće", "zabranjeno"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nem ivóvíz"),
+			keywords: &["ivás", "ivóvíz", "nem", "nem iható", "tilos", "tiltott", "víz"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ոչ խմելու ջուր"),
+			keywords: &["արգելված", "խմել", "խմելու", "ոչ", "ջուր"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("aqua non potabile"),
+			keywords: &["aqua", "aqua non potabile", "non bibibile", "non potabile"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("air tidak dapat diminum"),
+			keywords: &[
+				"air",
+				"air tidak dapat diminum",
+				"bukan air minum",
+				"dilarang",
+				"kering",
+				"lambang",
+				"simbol",
+				"tanda",
+				"terlarang",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("enweghị mmiri ọṅụṅụ dị mma"),
+			keywords: &["aṅụghị mmiri", "enweghị mmiri ọṅụṅụ dị mma", "mmiri", "nke adịghị mma"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("óhæft drykkjarvatn"),
+			keywords: &["ekki drekka", "vatn", "ódrekkandi", "óhæft drykkjarvatn"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("simbolo di acqua non potabile"),
+			keywords: &[
+				"acqua",
+				"acqua non potabile",
+				"divieto",
+				"non potabile",
+				"rubinetto",
+				"simbolo",
+				"simbolo acqua non potabile",
+				"simbolo di acqua non potabile",
+				"vietato",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("飲用不可"),
+			keywords: &["禁止", "飲めない水", "飲用不可", "飲用禁止"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("banyu kran ora kena diombe"),
+			keywords: &["banyu", "banyu kran ora kena diombe", "ora diombe langsung"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("არასასმელი წყალი"),
+			keywords: &[
+				"აკრძალვა",
+				"აკრძალულია",
+				"არა",
+				"არასასმელი წყალი",
+				"დალევა",
+				"დასალევი",
+				"სასმელი",
+				"სმა",
+				"წყალი",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("mačči d aman n tissit"),
+			keywords: &["mačči d aman n tissit"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ішетін су емес"),
+			keywords: &[
+				"рұқсат етілмеген",
+				"су",
+				"тыйым салынған",
+				"ішетін су емес",
+				"ішуге болмайды",
+				"ішуге жарамайды",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("ikke drikkevand"),
+			keywords: &["drik", "forbudt", "ikke drikkevand", "vand"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some(
+				"សញ\u{17d2}ញាទ\u{17b9}កចេញព\u{17b8}ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេម\u{17b7}នអាចផ\u{17b9}កបាន",
+			),
+			keywords: &[
+				"ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេ",
+				"ទ\u{17b9}ក",
+				"ផ\u{17b9}ក",
+				"ម\u{17b7}ន",
+				"សញ\u{17d2}ញា",
+				"សញ\u{17d2}ញាទ\u{17b9}កចេញព\u{17b8}ក\u{17d2}បាលរ\u{17c9}\u{17bc}ប\u{17ca}\u{17b8}នេម\u{17b7}នអាចផ\u{17b9}កបាន",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಪ\u{ccb}ರ\u{ccd}ಟಬಲ\u{ccd} ಅಲ\u{ccd}ಲದ ನ\u{cc0}ರು"),
+			keywords: &[
+				"ಕುಡ\u{cbf}ಯದ ನ\u{cc0}ರು",
+				"ಕುಡ\u{cbf}ಯದ\u{cbf}ರುವ ನ\u{cc0}ರು",
+				"ಕುಡ\u{cbf}ಯಲು ಯ\u{ccb}ಗ\u{ccd}ಯವಲ\u{ccd}ಲದ ನ\u{cc0}ರು",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ನ\u{cc0}ರು",
+				"ಪ\u{ccb}ರ\u{ccd}ಟಬಲ\u{ccd} ಅಲ\u{ccd}ಲದ ನ\u{cc0}ರು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("마실 수 없는 물"),
+			keywords: &[
+				"금지",
+				"마른",
+				"마시지 마시오",
+				"마실 수 없는",
+				"마실 수 없는 물",
+				"물",
+				"섭취 금지",
+				"음료",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय अश\u{947}\u{902} उदक"),
+			keywords: &[
+				"उदक",
+				"पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय",
+				"पिय\u{947}वपाच\u{947}\u{902} न\u{94d}हय अश\u{947}\u{902} उदक",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("ичкенге жараксыз суу"),
+			keywords: &["ичкенге болбойт", "ичкенге жараксыз суу", "суу"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("keen Drénkwaasser"),
+			keywords: &["Waasser", "keen", "keen Drénkwaasser", "net drénkbar"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ນ\u{ecd}\u{ec9}າທ\u{eb5}\u{ec8}ດ\u{eb7}\u{ec8}ມບ\u{ecd}\u{ec8}ໄດ\u{ec9}"),
+			keywords: &[
+				"ດ\u{eb7}\u{ec8}ມ",
+				"ນ\u{ecd}\u{ec9}າ",
+				"ນ\u{ecd}\u{ec9}າທ\u{eb5}\u{ec8}ດ\u{eb7}\u{ec8}ມບ\u{ecd}\u{ec8}ໄດ\u{ec9}",
+				"ບ\u{ecd}\u{ec8}",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມດ\u{eb7}\u{ec8}ມນ\u{ec9}ຳ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("draudžiama gerti vandenį"),
+			keywords: &[
+				"draudžiama",
+				"draudžiama gerti vandenį",
+				"geriamas",
+				"gerti",
+				"gėrimas",
+				"ne",
+				"uždrausta",
+				"vanduo",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("nav dzeramais ūdens"),
+			keywords: &["aizliegts", "dzert", "nav dzeramais ūdens", "nedrīkst", "nē", "ūdens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("wai kāore e pai hei unu"),
+			keywords: &["kaua e unu", "wai", "wai kāore e pai hei unu"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("водата не е за пиење"),
+			keywords: &["вода", "водата не е за пиење", "забрана", "забрането", "не е за пиење"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ശ\u{d41}ദ\u{d4d}ധജലമല\u{d4d}ല"),
+			keywords: &["അശ\u{d41}ദ\u{d4d}ധജലം", "വെള\u{d4d}ളം", "ശ\u{d41}ദ\u{d4d}ധജലമല\u{d4d}ല"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ундны зориулалтын бус ус"),
+			keywords: &["ундны зориулалтын бус", "ундны зориулалтын бус ус", "ус"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पाणी पिण\u{94d}यायोग\u{94d}य नाही"),
+			keywords: &[
+				"पाणी",
+				"पाणी आल\u{947} नाही",
+				"पाणी पिण\u{94d}यायोग\u{94d}य नाही",
+				"पाणी य\u{947}णार नाही",
+				"पिण\u{94d}याच\u{947} पाणी नाही",
+				"पिण\u{94d}यायोग\u{94d}य नाही",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("air tak boleh minum"),
+			keywords: &[
+				"air",
+				"air tak boleh minum",
+				"air tidak boleh minum",
+				"dilarang",
+				"ditegah",
+				"minum",
+				"tidak boleh minum",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ilma mhux tajjeb għax-xorb"),
+			keywords: &["ilma", "ilma mhux tajjeb għax-xorb", "mhux tajjeb għax-xorb"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("သောက\u{103a}ရေ မဟ\u{102f}တ\u{103a}"),
+			keywords: &[
+				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
+				"တားမြစ\u{103a}",
+				"မဟ\u{102f}တ\u{103a}",
+				"ရေ",
+				"သောက\u{103a}",
+				"သောက\u{103a}ရေ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पिउन-अयोग\u{94d}य पानी"),
+			keywords: &["पानी", "पिउन अयोग\u{94d}य", "पिउन अयोग\u{94d}य पानी", "पिउन-अयोग\u{94d}य पानी"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen drinkwater"),
+			keywords: &["drinken verboden", "geen drinkwater", "niet drinkbaar", "niet drinken", "water"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("ikkje drikkevatn"),
+			keywords: &["ikkje drikkande", "ikkje drikkevatn", "vatn"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ ଜଳ"),
+			keywords: &[
+				"ଅଣ-ପ\u{b3e}ନୀୟ",
+				"ଜଳ",
+				"ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ",
+				"ପ\u{b3e}ତ\u{b4d}ରରେ ଭର\u{b3f}ବ\u{b3e} ଅଯୋଗ\u{b4d}ୟ ଜଳ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਾਣੀ ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}"),
+			keywords: &[
+				"ਖ\u{a41}ਸ\u{a3c}ਕ",
+				"ਜਲ",
+				"ਪਾਣੀ",
+				"ਪਾਣੀ ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}",
+				"ਪੀਣਯ\u{a4b}ਗ ਨਹੀ\u{a02}",
+				"ਮਨਾਹੀ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پین آلا پانی نہیں"),
+			keywords: &["غیر قابل\u{650} شرب", "ناں پیتی جان آلی", "پانی", "پین آلا پانی نہیں"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Dís Wọtá Nọ\u{301} Gúd Fọ Drink"),
+			keywords: &["Dís Wọtá Nọ\u{301} Gúd Fọ Drink", "Nọ\u{301}t Fọ Drink", "Wọtá"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("woda niezdatna do picia"),
+			keywords: &[
+				"nie pić",
+				"nie wolno",
+				"niezdatna",
+				"woda",
+				"woda niezdatna do picia",
+				"zabronione",
+				"zakaz",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د څښاک اوبه نه دي"),
+			keywords: &["اوبه", "د څښاک اوبه نه دي", "د څښاک نه", "د څکلو وړ نه"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("água não potável"),
+			keywords: &["consumo", "imprópria", "não", "potável", "proibido", "seco", "sem", "água"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["beber", "imprópria para consumo", "não", "potável", "proibido", "água"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ama yaku upyaypaq"),
+			keywords: &["ama yaku upyaypaq", "mana yaykuy", "yaku"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("apă nepotabilă"),
+			keywords: &["apă", "interdicție", "interzis", "nepotabilă", "uscat"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-965"), keywords: &["E10-965"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("непитьевая вода"),
+			keywords: &[
+				"вода",
+				"вредно",
+				"запрещено",
+				"кран",
+				"круг",
+				"не",
+				"нельзя",
+				"непитьевая",
+				"опасно",
+				"перечеркнутый",
+				"пить",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("amazi atari meza"),
+			keywords: &["amazi", "amazi atari meza", "kidashobora kunyobwa nta nkurikizi", "kitanyobwa"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پيئڻ جو پاڻي ناهي"),
+			keywords: &["پيئڻ جو پاڻي ناهي", "پيئڻ جو پاڻي ناهي، پيئڻو ناهي، پاڻي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ප\u{dcf}න\u{dd3}ය-නොවන ජලය"),
+			keywords: &[
+				"ජලය",
+				"ප\u{dcf}නය කළ හැක\u{dd2}",
+				"ප\u{dcf}න\u{dd3}ය",
+				"ප\u{dcf}න\u{dd3}ය-නොවන ජලය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("nepitná voda"),
+			keywords: &["nepitná", "nepovolené", "nie", "otrávená", "voda", "zakázané", "zákaz"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("voda ni pitna"),
+			keywords: &["ne", "ni dovoljeno", "piti", "pitno", "prepovedati", "voda", "voda ni pitna"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("biyaha aan la isticmaali karin"),
+			keywords: &[
+				"aan la cabi karin",
+				"aan la isticmaali karin",
+				"biyaha aan la isticmaali karin",
+				"biyo",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ujë jo i pijshëm"),
+			keywords: &["i ndaluar", "jo i pijshëm", "ndalohet", "nuk", "pi", "ujë", "ujë jo i pijshëm"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("вода није за пиће"),
+			keywords: &["вода", "забрањено", "не", "није", "питка"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["вода", "вода није за пиће", "није за пиће", "није питка"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("voda nije za piće"),
+			keywords: &["ne", "nije", "pitka", "voda", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["nije pitka", "nije za piće", "voda", "voda nije za piće"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("ej dricksvatten"),
+			keywords: &["ej dricksvatten", "odrickbart vatten", "symbol"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("maji hayafai kwa matumizi ya kunywa"),
+			keywords: &[
+				"isiyo bebeka",
+				"kavu",
+				"maji",
+				"maji hayafai kwa matumizi ya kunywa",
+				"si ya kunywa",
+				"yamezuiwa",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("குடிந\u{bc0}ர\u{bcd} அல\u{bcd}ல"),
+			keywords: &[
+				"குடிந\u{bc0}ர\u{bcd} அல\u{bcd}ல",
+				"குடிப\u{bcd}பதற\u{bcd}க\u{bbe}ன தண\u{bcd}ண\u{bc0}ர\u{bcd} அல\u{bcd}ல",
+				"தடை செய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("త\u{c4d}ర\u{c3e}గున\u{c40}రు క\u{c3e}దు"),
+			keywords: &[
+				"త\u{c4d}ర\u{c3e}గున\u{c40}రు క\u{c3e}దు",
+				"న\u{c40}ట\u{c3f}న\u{c3f} ఉపయ\u{c4b}గ\u{c3f}ంచడం శ\u{c4d}ర\u{c47}యస\u{c4d}కరం క\u{c3e}దు",
+				"న\u{c40}రు లభ\u{c3f}ంచ\u{c47} ప\u{c4d}ర\u{c3e}ంతం క\u{c3e}దు",
+				"న\u{c40}రు ల\u{c47}న\u{c3f} ప\u{c4d}ర\u{c3e}ంతం",
+				"వ\u{c3f}న\u{c3f}య\u{c4b}గ\u{c3f}ంచదగ\u{c3f}న న\u{c40}రు క\u{c3e}దు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("оби ғайринӯшокӣ"),
+			keywords: &["об", "оби ғайринӯшокӣ", "ғайринӯшокӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e49}ามด\u{e37}\u{e48}มน\u{e49}ำ"),
+			keywords: &[
+				"ด\u{e37}\u{e48}ม",
+				"น\u{e49}ำ",
+				"ห\u{e49}าม",
+				"ห\u{e49}ามด\u{e37}\u{e48}มน\u{e49}ำ",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang: "ti", tts: Some("ዘይጽሩይ ማይ"), keywords: &["ማይ", "ዘይጽሩይ"]
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("içilmeýän suw"),
+			keywords: &["içilmeýän suw", "içip bolmaýar", "suw"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("vai taʻe inu"),
+			keywords: &["inu", "tapu", "vai", "vai taʻe inu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("içilmeyen su"),
+			keywords: &["içilmeyen", "içilmez", "su"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئىچىلمەس سۇ"),
+			keywords: &["ئىچكىلى بولمايدۇ", "ئىچمەڭ", "ئىچىلمەس سۇ", "سۇ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("непридатна для пиття вода"),
+			keywords: &[
+				"вода",
+				"заборонено",
+				"знак «непитна вода»",
+				"не",
+				"непитна вода",
+				"непридатна для пиття вода",
+				"непридатно",
+				"пити",
+				"пиття",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("نا پینے والا پانی"),
+			keywords: &[
+				"سائن",
+				"منع",
+				"نا پینے والا پانی",
+				"پانی",
+				"پینا",
+				"یہ پانی پینے کے قابل نہیں ہے",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("ichib bo‘lmaydigan suv"),
+			keywords: &[
+				"ichib bo‘lmaydigan suv",
+				"ichish",
+				"ichishga yaroqsiz",
+				"mumkin emas",
+				"suv",
+				"taqiqlangan",
+				"yo‘q",
+				"zararli",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("nước không uống được"),
+			keywords: &["không dùng để uống", "không uống được", "nước", "nước không uống được"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("ndox mii sellul"),
+			keywords: &["bu sellul", "ndox", "ndox mii sellul", "sellul"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("amanzi angaphathwayo"),
+			keywords: &["amanzi", "amanzi angaphathwayo", "awaselwa", "ayiphatheki"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("omi ti koṣeemu"),
+			keywords: &["kòṣéèmu", "omi", "omi ti koṣeemu", "àìmọlábọ\u{301}dé"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("omi ti kosheemu"),
+			keywords: &["kòshéèmu", "omi", "omi ti kosheemu", "àìmɔlábɔ\u{301}dé"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("冇自來水"),
+			keywords: &["不可飲用", "冇自來水", "水", "非飲用"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("冇自来水"),
+			keywords: &["不可饮用", "冇自来水", "水", "非饮用"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("非饮用水"),
+			keywords: &["水", "禁止用水", "节约用水", "非直饮水", "非饮用水"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("非飲用水"),
+			keywords: &["不得生飲", "非飲用水"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["乾旱", "禁止", "禁止喝水", "禁止飲水", "缺水", "非飲用水"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("amanzi angaphatheke"),
+			keywords: &["akuvunyelwe", "amanzi", "amanzi angaphatheke", "cha", "ukuphuza", "umpompi"],
+		},
+	],
+};
+#[doc = "🚭\u{fe0f}"]
+pub const NO_SMOKING: crate::Emoji = crate::Emoji {
+	glyph:                "🚭\u{fe0f}",
+	codepoint:            &[128685u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "no smoking",
 	group:                crate::Group::Symbols,
 	subgroup:             crate::Subgroup::Warning,
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "☣\u{fe0f}"]
-pub const BIOHAZARD: crate::Emoji = crate::Emoji {
-	glyph:                "☣\u{fe0f}",
-	codepoint:            &[9763u32],
+#[doc = "🚷"]
+pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
+	glyph:                "🚷",
+	codepoint:            &[128695u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "biohazard",
+	name:                 "no pedestrians",
 	group:                crate::Group::Symbols,
 	subgroup:             crate::Subgroup::Warning,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("voetgangers verbode"),
+			keywords: &[
+				"geen",
+				"geen voetgangers",
+				"nie",
+				"verbied",
+				"verbode",
+				"voetganger",
+				"voetgangers verbode",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ለእግረኞች አይፈቀድም"),
+			keywords: &["ለእግረኞች አይፈቀድም", "አይ", "አይደለም", "እግረኛ", "ክልክል", "የተከለከለ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ممنوع سير المشاة"),
+			keywords: &["إشارة", "اشارة سير", "رمز", "ليس للمشاة", "مشاة", "ممنوع سير المشاة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("পথচ\u{9be}ৰী নিষেধ"),
+			keywords: &["নহয\u{9bc}", "নিষিদ\u{9cd}ধ", "নিষেধ", "পথচ\u{9be}ৰী", "সম\u{9c2}লি নহয\u{9bc}"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("piyadalara keçmək olmaz"),
+			keywords: &[
+				"\"piyadalara keçmək qadağandır\" işarəsi",
+				"piyada",
+				"piyadalara keçmək olmaz",
+				"qadağa",
+				"qadağan olunmuş",
+				"xeyr",
+				"yox",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("рух пешаходаў забаронены"),
+			keywords: &[
+				"дарожны",
+				"забаронена",
+				"знак",
+				"нельга",
+				"пешаход",
+				"рух",
+				"рух пешаходаў забаронены",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("забранено за пешеходци"),
+			keywords: &["забрана", "забранено", "забранено за пешеходци", "не", "пешеходец", "пешеходци"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("য\u{9be}ত\u{9cd}রী প\u{9be}র\u{9be}প\u{9be}র নিষেধ"),
+			keywords: &[
+				"নয\u{9bc}",
+				"ন\u{9be}",
+				"নিষিদ\u{9cd}ধ",
+				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
+				"পথচ\u{9be}রী",
+				"য\u{9be}ত\u{9cd}রী প\u{9be}র\u{9be}প\u{9be}র নিষেধ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("difennet dʼar gerzhourien"),
+			keywords: &["berzet", "difennet", "difennet dʼar gerzhourien", "kerzhourien"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zabranjeno za pješake"),
+			keywords: &["nema", "pješačenje", "prolaz", "zabranjeno", "zabranjeno za pješake"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("prohibit el pas als vianants"),
+			keywords: &["no", "prohibició", "prohibit", "prohibit el pas als vianants", "vianants"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎥᏝ ᎠᎾᏨᏏᏰᏍᎩ"),
+			keywords: &["ᎠᏨᏏᏰᏍᎩ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎥᏝ ᎠᎾᏨᏏᏰᏍᎩ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zákaz vstupu chodců"),
+			keywords: &[
+				"chodci",
+				"chodec",
+				"ne",
+				"průchod",
+				"pěší",
+				"vstup zakázán",
+				"zakázán",
+				"zakázáno",
+				"zákaz",
+				"zákaz vstupu chodců",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dim cerddwyr"),
+			keywords: &["cerddwr", "dim", "dim cerddwyr", "gwahardd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ingen fodgængere"),
+			keywords: &["fodgænger", "forbudt", "ingen fodgængere"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Fußgänger verboten"),
+			keywords: &["Fußgänger verboten", "Fußgänger-verboten-Schild", "verboten"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Fussgänger-verboten-Schild"),
+			keywords: &["Fussgänger-verboten-Schild", "verboten"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απαγορεύεται η διάβαση πεζών"),
+			keywords: &[
+				"απαγορευμένο",
+				"απαγορεύεται",
+				"απαγορεύεται η διάβαση πεζών",
+				"απαγορεύονται οι πεζοί",
+				"πεζός",
+				"όχι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("no pedestrians"),
+			keywords: &["forbidden", "no", "not", "pedestrian", "pedestrians", "prohibited"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("↑↑↑"),
+			keywords: &["denied", "forbidden", "no", "no pedestrians", "pedestrian", "prohibited"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("prohibido el paso de peatones"),
+			keywords: &["peatones", "peatón", "prohibido", "prohibido el paso de peatones", "señal"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["no", "peatones", "peatón", "prohibido", "prohibido el paso de peatones"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("jalakäijad keelatud"),
+			keywords: &["jalakäija", "jalakäijad keelatud", "keelatud"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("oinezkorik ez"),
+			keywords: &["debekatuta", "ez", "galarazita", "oinezko", "oinezkorik ez"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("عابر پیاده ممنوع"),
+			keywords: &["عابر پیاده", "عابر پیاده ممنوع", "ممنوع", "نه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("jalankulku kielletty"),
+			keywords: &["jalankulkija", "jalankulku kielletty", "kielletty"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bawal tumawid"),
+			keywords: &["bawal", "huwag", "ipinagbabawal", "pedestrian", "tumawid"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("bannað fyri gangandi fólki"),
+			keywords: &["bannað", "bannað fyri gangandi fólki", "forboð", "ganga"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("interdit aux piétons"),
+			keywords: &["interdiction", "interdit", "interdit aux piétons"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cosc ar choisithe"),
+			keywords: &["coiscthe", "coisí", "comhartha", "cosc ar choisithe", "siúlóir"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("coiseachd toirmisgte"),
+			keywords: &["coiseachd", "coisiche", "diùltadh", "toirmisgte", "àicheadh"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de acceso prohibido a peóns"),
+			keywords: &["peóns", "prohibición", "prohibido", "sinal de acceso prohibido a peóns"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પદયાત\u{acd}રીઓ નહી\u{a82}"),
+			keywords: &[
+				"ચિહ\u{acd}ન",
+				"પદયાત\u{acd}રી",
+				"પદયાત\u{acd}રીઓ નહી\u{a82}",
+				"પદયાત\u{acd}રીઓન\u{ac7} મ\u{a82}જ\u{ac2}રી નથી",
+				"પ\u{acd}રતિબ\u{a82}ધિત",
+				"રાહદારી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("an hana ma masu tafiya a ƙafa"),
+			keywords: &[
+				"an hana",
+				"an hana ma masu tafiya a ƙafa",
+				"an haramta",
+				"a’a",
+				"babu",
+				"haram",
+				"mai taifya a ƙafa",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("an hana ma masu tafiya a ƙafa"),
+			keywords: &[
+				"an hana",
+				"an hana ma masu tafiya a ƙafa",
+				"an haramta",
+				"a’a",
+				"babu",
+				"haram",
+				"mai taifya a ƙafa",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אין כניסה להולכי רגל"),
+			keywords: &["אין כניסה", "איסור", "אסור", "הולך רגל", "הולכי רגל"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some(
+				"पदयात\u{94d}री निष\u{947}ध, प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
+			),
+			keywords: &[
+				"चिह\u{94d}न",
+				"निषिद\u{94d}ध",
+				"पदयात\u{94d}री",
+				"पदयात\u{94d}री निष\u{947}ध",
+				"पदयात\u{94d}री निष\u{947}ध, प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
+				"प\u{948}दल",
+				"प\u{948}दल चलन\u{947} की अन\u{941}मति नही\u{902}",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zabranjeno za pješake"),
+			keywords: &["ne", "pješak", "promet", "zabranjeno", "zabranjeno za pješake"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nem gyalogos zóna"),
+			keywords: &["gyalog", "gyalogos", "nem gyalogos zóna", "tilos", "tiltott"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("հետիոտնների մուտքն արգելված է"),
+			keywords: &["արգելված", "հետիոտն", "հետիոտնների մուտքն արգելված է", "ոչ"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("prohibite al pedones"),
+			keywords: &[
+				"accesso",
+				"interdicite",
+				"pedon",
+				"pedones",
+				"prohibite",
+				"prohibite al pedones",
+			],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("pejalan kaki dilarang masuk"),
+			keywords: &[
+				"dilarang",
+				"lambang",
+				"larangan",
+				"pejalan kaki",
+				"pejalan kaki dilarang masuk",
+				"simbol",
+				"tanda",
+				"terlarang",
+				"tidak",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("enweghị àkwà ngafe"),
+			keywords: &["ana", "egbochighị", "egbochiri", "enweghị àkwà ngafe", "nke", "àkwà ngafe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("bannað að ganga"),
+			keywords: &["bannað að ganga", "vegfarendur", "vegfarendur bannaðir"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("simbolo del divieto di transito pedoni"),
+			keywords: &[
+				"divieto transito pedoni",
+				"niente pedoni",
+				"no",
+				"no pedoni",
+				"proibito",
+				"segnale",
+				"simbolo",
+				"simbolo del divieto di transito pedoni",
+				"strada",
+				"vietato",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("歩行者立入禁止"),
+			keywords: &["標識", "歩行者立入禁止", "禁止", "規制", "道路"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("wong mlaku ora kena liwat"),
+			keywords: &["aja", "larangan", "ora kena", "wong mlaku", "wong mlaku ora kena liwat"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ქვეითებისთვის შესვლა აკრძალულია"),
+			keywords: &["აკრძალვა", "აკრძალულია", "არა", "ქვეითებისთვის შესვლა აკრძალულია", "ქვეითი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("igdel i yimesḍaṛen"),
+			keywords: &["igdel i yimesḍaṛen"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("жаяу жүргіншілерге тыйым салынған"),
+			keywords: &[
+				"емес",
+				"жаяу жүргінші",
+				"жаяу жүргіншілерге тыйым салынған",
+				"жоқ",
+				"рұқсат етілмеген",
+				"тыйым салынған",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("ingen fodgængere"),
+			keywords: &["fodgænger", "forbudt", "ingen fodgængere"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ហាមអ\u{17d2}នកថ\u{17d2}មើរជើង"),
+			keywords: &[
+				"ឃាត\u{17cb}",
+				"ថ\u{17d2}មើរជើង",
+				"បម\u{17d2}រាម",
+				"ហាមអ\u{17d2}នកថ\u{17d2}មើរជើង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಪಾದಾಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಇಲ\u{ccd}ಲ"),
+			keywords: &[
+				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ನಡ\u{cc6}ಯುವವನು",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಪಾದಚಾರ\u{cbf}",
+				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಅನುಮತ\u{cbf}ಸಲಾಗುವುದ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಪಾದಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಪಾದಾಚಾರ\u{cbf}ಗಳ\u{cbf}ಗ\u{cc6} ಇಲ\u{ccd}ಲ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("보행자 금지"),
+			keywords: &["금지", "보행자 금지", "보행자 통행 금지", "안됨"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पादचारी न\u{94d}हय"),
+			keywords: &[
+				"ना",
+				"नाका",
+				"निषिध\u{94d}द",
+				"पादचारी",
+				"पादचारी नात",
+				"पादचारी न\u{94d}हय",
+				"प\u{94d}रतिब\u{902}धीत",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жөө өткөнгө болбойт"),
+			keywords: &["жок", "жөө", "жөө өткөнгө болбойт", "тыюу салынган"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Foussgänger verbueden"),
+			keywords: &["Foussgänger", "neen", "net", "verbueden"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ec9}າມຄ\u{ebb}ນຍ\u{ec8}າງ"),
+			keywords: &[
+				"ຄ\u{ebb}ນຍ\u{ec8}າງ",
+				"ບ\u{ecd}\u{ec8}",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມຄ\u{ebb}ນຍ\u{ec8}າງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pėstiesiems eiti draudžiama"),
+			keywords: &["draudžiama", "ne", "pėstiesiems eiti draudžiama", "pėstysis", "uždrausta"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("gājējiem iet aizliegts"),
+			keywords: &["aizliegts", "gājēji", "gājējiem iet aizliegts", "kājāmgājēji", "nedrīkst", "nē"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kaua he kaihīkoi"),
+			keywords: &["kaihīkoi", "kaua he kaihīkoi", "kore", "kua whakakore", "kāo", "rāhuitia"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("забрана за пешаци"),
+			keywords: &[
+				"забрана",
+				"забрана за пешаци",
+				"забрането",
+				"забрането за пешаци",
+				"не",
+				"пешаци",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ക\u{d3e}ൽനടയ\u{d3e}ത\u{d4d}ര പ\u{d3e}ടില\u{d4d}ല"),
+			keywords: &[
+				"ക\u{d3e}ൽനടക\u{d4d}ക\u{d3e}ർ ഇല\u{d4d}ല",
+				"ക\u{d3e}ൽനടയ\u{d3e}ത\u{d4d}ര പ\u{d3e}ടില\u{d4d}ല",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("явган хүн явах хориотой"),
+			keywords: &[
+				"хориглоно",
+				"хориотой",
+				"явган хүн",
+				"явган хүн явах хориотой",
+				"явган хүн явахыг хориглоно",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पादचार\u{94d}\u{200d}या\u{902}ना अन\u{941}मती नाही"),
+			keywords: &[
+				"चालणार\u{947}",
+				"चिन\u{94d}ह",
+				"नाही",
+				"निषिद\u{94d}ध",
+				"परवानगी नाही",
+				"पादचारी",
+				"पादचार\u{94d}\u{200d}या\u{902}ना अन\u{941}मती नाही",
+				"पादचाऱ\u{94d}या\u{902}ना अन\u{941}मती नाही",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pejalan kaki dilarang"),
+			keywords: &["bukan", "dilarang", "ditegah", "pejalan kaki", "pejalan kaki dilarang", "tidak"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ebda nies pedonali"),
+			keywords: &["ebda nies pedonali", "ma", "mhux", "pedonali", "pprojbit", "pprojbiti"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဖြတ\u{103a}သန\u{103a}း မသ\u{103d}ားရ"),
+			keywords: &[
+				"ခြေကျင\u{103a}",
+				"ခြေကျင\u{103a}မလျ\u{103e}ောက\u{103a}ရ",
+				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
+				"တားမြစ\u{103a}",
+				"ဖြတ\u{103a}သန\u{103a}း မသ\u{103d}ားရ",
+				"မလျ\u{103e}ောက\u{103a}ရ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पदयात\u{94d}रीहर\u{942}को लागि होइन"),
+			keywords: &[
+				"छ\u{948}न",
+				"निष\u{947}धित",
+				"पदयात\u{94d}री",
+				"पदयात\u{94d}रीहर\u{942}को लागि होइन",
+				"रोकिएको",
+				"होइन",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen voetgangers"),
+			keywords: &["nee", "niet", "verboden", "voetganger", "voetgangers"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("fotgjengarar forbode"),
+			keywords: &[
+				"fotgjengar",
+				"fotgjengarar",
+				"fotgjengarar forbode",
+				"gåande",
+				"ikkje",
+				"ikkje tillate",
+				"nei",
+			],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପଥଚ\u{b3e}ରୀ ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
+			keywords: &[
+				"ନ\u{b3e}",
+				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
+				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
+				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
+				"ପଥଚ\u{b3e}ରୀ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
+			keywords: &[
+				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਦਾਖਲਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
+				"ਨਹੀ\u{a02}",
+				"ਪ\u{a48}ਦਲ",
+				"ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ਦੀ ਮਨਜ\u{a3c}\u{a42}ਰੀ ਨਹੀ\u{a02}",
+				"ਪ\u{a48}ਦਲ ਲ\u{a4b}ਕਾ\u{a02} ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("کوئی پیدل ٹ\u{64f}رن آلے نہیں"),
+			keywords: &["حرام", "ممنوع کیتا", "نہیں", "پیدل ٹرن آلا", "کوئی پیدل ٹ\u{64f}رن آلے نہیں"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Nọ\u{301} Wáka Fọ Lẹg Hia"),
+			keywords: &[
+				"Fọbid",
+				"No",
+				"Nọt",
+				"Nọ\u{301} Dú Am",
+				"Nọ\u{301} Wáka Fọ Lẹg Hia",
+				"Pẹ\u{301}sin Wé De Wáka Fọ Lẹg",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("zakaz ruchu pieszych"),
+			keywords: &[
+				"nie wolno",
+				"pieszy",
+				"przejście wzbronione",
+				"zabronione",
+				"zakaz",
+				"zakaz dla pieszych",
+				"zakaz ruchu pieszych",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("پیاده منع دي"),
+			keywords: &["ممنوع", "منع", "نه", "پياده", "پياده منع دي", "پیاده منع دي"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("proibida a passagem de pedestres"),
+			keywords: &["não", "passagem", "pedestre", "permitidos", "proibida", "proibido"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("proibido a peões"),
+			keywords: &["não", "pedestre", "peões", "proibido", "proibido a peões"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ama transeuntes"),
+			keywords: &["ama transeuntes", "amatasqa", "mana", "manaraq", "transeuntes"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("interzis accesul pietonilor"),
+			keywords: &[
+				"interdicție",
+				"interzis",
+				"interzis accesul pietonilor",
+				"interzis pietonilor",
+				"nu",
+				"pietoni",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-971"), keywords: &["E10-971"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("переход запрещен"),
+			keywords: &[
+				"входить",
+				"запрещен",
+				"круг",
+				"не",
+				"опасно",
+				"переход",
+				"пешеход",
+				"пешеходный",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("nta banyamaguru bemerewe kuhanyura"),
+			keywords: &[
+				"kibujijwe",
+				"kizira",
+				"nta",
+				"nta banyamaguru bemerewe kuhanyura",
+				"oya",
+				"umunyamaguru",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("هلڻو ناهي"),
+			keywords: &["هلڻو ناهي", "پيدل نه"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("පද\u{dd2}කයන\u{dca}ට තහනම\u{dca}"),
+			keywords: &[
+				"එප\u{dcf}",
+				"තහනම\u{dca}",
+				"නැත",
+				"පද\u{dd2}කයන\u{dca}ට තහනම\u{dca}",
+				"පද\u{dd2}කය\u{dcf}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zákaz chodcov"),
+			keywords: &["chodec", "nie", "zakázané", "zákaz", "zákaz chodcov", "zákaz vstupu"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("prepovedano za pešce"),
+			keywords: &["ne", "ni dovoljeno", "pešec", "prepovedano", "prepovedano za pešce"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dadka lugaynaya maya"),
+			keywords: &[
+				"dadka lugaynaya",
+				"dadka lugaynaya maya",
+				"ma jirto",
+				"mamnuuc",
+				"maya",
+				"reebban",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ndalohen kalimtarët"),
+			keywords: &[
+				"jo",
+				"këmbësor",
+				"ndalohen kalimtarët",
+				"ndalohen këmbësorët",
+				"ndalohet",
+				"nuk",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("забрањено за пешаке"),
+			keywords: &["зaбрaњeнo", "нe", "нeмa", "пeшaк", "саобраћај"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("забрањено за пјешаке"),
+			keywords: &["зaбрaњeнo", "забрањено за пјешаке", "нe", "нeмa", "пјeшaк"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zabranjeno za pešake"),
+			keywords: &["ne", "nema", "pešak", "saobraćaj", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("zabranjeno za pješake"),
+			keywords: &["ne", "nema", "pješak", "zabranjeno", "zabranjeno za pješake"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("förbud mot gångtrafik"),
+			keywords: &["förbud mot gångtrafik", "inga fotgängare", "inte tillåtet att gå", "symbol"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("watembea kwa miguu hawaruhusiwi"),
+			keywords: &[
+				"hapana",
+				"katazwa",
+				"marufuku",
+				"mtembea kwa miguu",
+				"siyo",
+				"watembea kwa miguu hawaruhusiwi",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("நடந\u{bcd}து செல\u{bcd}லக\u{bcd}கூட\u{bbe}து"),
+			keywords: &[
+				"தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
+				"நடந\u{bcd}து செல\u{bcd}லக\u{bcd}கூட\u{bbe}து",
+				"நடை தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}டது",
+				"ப\u{bbe}தச\u{bbe}ரி",
+				"ப\u{bbe}தச\u{bbe}ரிகளுக\u{bcd}கு அனுமதி இல\u{bcd}லை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ప\u{c3e}దచ\u{c3e}రులకు న\u{c3f}ష\u{c3f}ద\u{c4d}ధం"),
+			keywords: &[
+				"నడక",
+				"న\u{c3e}ట\u{c4d}",
+				"న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
+				"న\u{c4b}",
+				"ప\u{c3e}దచ\u{c3e}రులకు న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
+				"ప\u{c3e}దచ\u{c3e}రులు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ҳаракати пиёдагардон манъ аст"),
+			keywords: &["мамнуъ", "манъшуда", "не", "нест", "пиёдарав", "ҳаракати пиёдагардон манъ аст"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e49}ามคนเด\u{e34}นเท\u{e49}า"),
+			keywords: &[
+				"คนเด\u{e34}นเท\u{e49}า",
+				"ห\u{e49}าม",
+				"ห\u{e49}ามคนเด\u{e34}นเท\u{e49}า",
+				"ห\u{e49}ามเด\u{e34}น",
+				"ไม\u{e48}ม\u{e35}คนเด\u{e34}นเท\u{e49}า",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ኣጋር የለዉን"),
+			keywords: &["ኣይኮነ", "ኣይኮነን", "ኣጋር", "ኣጋር የለዉን", "ዝተኣገደ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("pyýadalar gadagan"),
+			keywords: &["bolanok", "däl", "gadagan", "pyýada", "pyýadalar gadagan", "ýok"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tapu lue"),
+			keywords: &["feʻaluʻaki", "lue", "tapu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("yayalara yasak"),
+			keywords: &["işaret", "yaya", "yayalar giremez", "yayalara yasak", "yürüyen"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("پىيادە ماڭماڭ"),
+			keywords: &["ماڭماڭ", "ياق", "يوق", "پىيادە", "چەكلەنگەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("пішохідний рух заборонено"),
+			keywords: &[
+				"заборонено",
+				"прохід заборонено",
+				"пішохідний рух заборонено",
+				"рух заборонено",
+				"рух пішоходів заборонено",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("پیدل چلنے والے ممنوع"),
+			keywords: &["سائن", "ممنوع", "منع", "ٹریفک", "پیدل", "پیدل چلنے والے ممنوع"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("piyodalar harakatlanishi mumkin emas"),
+			keywords: &[
+				"mumkin emas",
+				"piyodalar harakatlanishi mumkin emas",
+				"piyodalar mumkin emas",
+				"taqiqlangan",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cấm người đi bộ"),
+			keywords: &["cấm", "cấm người đi bộ", "không", "không cho phép", "không có", "người đi bộ"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("bu kenn dox jaar fii"),
+			keywords: &["bu kenn dox jaar fii", "bul", "déet", "kiy dox", "luñ aaye", "luñ tere"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("abahambi abavumelekanga"),
+			keywords: &[
+				"abahambi abavumelekanga",
+				"hayi",
+				"ithintelwe",
+				"nakanye",
+				"umntu ohamba ngeenyawo",
+				"yalelwe",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kosi olufẹsẹrin"),
+			keywords: &["kosi olufẹsẹrin", "kò", "kòsáyè", "olùfẹsẹ\u{300}rìn", "rárá", "èèwọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kosi olufɛsɛrin"),
+			keywords: &["kosi olufɛsɛrin", "kò", "kòsáyè", "olùfɛsɛ\u{300}rìn", "rárá", "èèwɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("不准行人進入"),
+			keywords: &["不", "不准", "不准行人進入", "不可", "禁止", "行人"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("不准行人进入"),
+			keywords: &["不", "不准", "不准行人进入", "不可", "禁止", "行人"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("禁止行人通行"),
+			keywords: &["严禁", "禁止行人通行", "行人"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("禁止行人通行"),
+			keywords: &["禁止行人通行", "禁止通行"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("行人禁止"),
+			keywords: &["不准通行", "標誌", "禁止", "禁止通行", "行人禁止"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("abavunyelwe abahamba ngezinyawo"),
+			keywords: &[
+				"abahamba ngezinyawo",
+				"abavunyelwe abahamba ngezinyawo",
+				"akuvunyelwe",
+				"cha",
+				"kunqatshelwe",
+			],
+		},
+	],
+};
+#[doc = "🚯"]
+pub const NO_LITTERING: crate::Emoji = crate::Emoji {
+	glyph:                "🚯",
+	codepoint:            &[128687u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "no littering",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("moenie rommel strooi nie"),
+			keywords: &[
+				"geen",
+				"geen rommelstrooi",
+				"moenie rommel strooi nie",
+				"nee",
+				"nie",
+				"rommel",
+				"verbode",
+				"vullis",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ቆሻሻ መጣል ክልክል ነው"),
+			keywords: &["ቆሻሻ", "ቆሻሻ መጣል ክልክል ነው", "አይ", "አይደለም", "ክልክል", "የተከለከለ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ممنوع وضع النفايات"),
+			keywords: &[
+				"إشارة",
+				"إشارة لا تضع نفايات",
+				"حافظ على نظافة",
+				"رمز",
+				"لا ترم النفايات",
+				"لا ترم نقايات",
+				"لا تضع نفايات",
+				"لا نفايات",
+				"ممنوع وضع النفايات",
+				"نظافة",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("আৱৰ\u{9cd}জন\u{9be} পেলোৱ\u{9be} নিষেধ"),
+			keywords: &[
+				"আৱৰ\u{9cd}জন\u{9be}",
+				"আৱৰ\u{9cd}জন\u{9be} পেলোৱ\u{9be} নিষেধ",
+				"নহয\u{9bc}",
+				"নিষিদ\u{9cd}ধ",
+				"নিষেধ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("zibil atmaq olmaz"),
+			keywords: &[
+				"\"zibil atmaq qadağandır\" işarəsi",
+				"qadağa",
+				"qadağan olunmuş",
+				"xeyr",
+				"yox",
+				"zibil",
+				"zibil atmaq olmaz",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("смеціць забаронена"),
+			keywords: &["забаронена", "нельга", "смецце", "смеціць забаронена"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("забранено изхвърляне на боклук"),
+			keywords: &[
+				"боклук",
+				"забрана",
+				"забранено",
+				"забранено е изхвърлянето на боклуци",
+				"забранено изхвърляне на боклук",
+				"не",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("আবর\u{9cd}জন\u{9be} ছড\u{9bc}\u{9be}বেন ন\u{9be}"),
+			keywords: &[
+				"আবর\u{9cd}জন\u{9be} ছড\u{9bc}\u{9be}বেন ন\u{9be}",
+				"আবর\u{9cd}জন\u{9be} ফেলবেন ন\u{9be}",
+				"জঞ\u{9cd}জ\u{9be}ল",
+				"নয\u{9bc}",
+				"ন\u{9be}",
+				"নিষিদ\u{9cd}ধ",
+				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("arabat lakaat lastez"),
+			keywords: &["arabat lakaat lastez", "lastez"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zabranjeno bacanje otpada"),
+			keywords: &["ne bacati", "otpad", "smeće", "zabranjeno", "zabranjeno bacanje otpada"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("prohibit llençar brossa"),
+			keywords: &["brossa", "llençar", "no", "prohibició", "prohibit llençar brossa"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏞᏍᏗ ᎦᎵᎨᏴᏛᏅ"),
+			keywords: &["ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎦᎵᎨᏯᏛᏅᎢ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ", "ᏞᏍᏗ ᎦᎵᎨᏴᏛᏅ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zákaz odhazování odpadků"),
+			keywords: &[
+				"ne",
+				"neodhazujte odpadky",
+				"odpad",
+				"odpadky",
+				"smetí",
+				"zakázáno",
+				"zákaz",
+				"zákaz odhazování odpadků",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dim sbwriel"),
+			keywords: &["dim", "gwahardd", "sbwriel"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("smid ikke affald"),
+			keywords: &["affald", "forbudt", "ikke tilladt", "smid ikke affald"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Abfall verboten"),
+			keywords: &["Abfall", "Müll", "Müll-verboten-Zeichen", "verboten"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απαγορεύεται η ρίψη σκουπιδιών"),
+			keywords: &[
+				"απαγορεύεται",
+				"απαγορεύεται η ρίψη απορριμμάτων",
+				"απαγορεύεται η ρίψη σκουπιδιών",
+				"απορρίμματα",
+				"μη",
+				"σκουπίδια",
+				"όχι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("no littering"),
+			keywords: &["forbidden", "litter", "littering", "no", "not", "prohibited"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("↑↑↑"),
+			keywords: &["denied", "forbidden", "litter", "no", "no littering", "prohibited"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("prohibido tirar basura"),
+			keywords: &[
+				"basura",
+				"prohibido",
+				"prohibido tirar basura",
+				"señal",
+				"señal de no tirar basura",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["basura", "no tirar basura", "prohibido", "señal", "señal de no tirar basura"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["basura", "no", "prohibido", "prohibido tirar basura"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("risustamine keelatud"),
+			keywords: &["keelatud", "risustamine"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ezin da bota zaborra lurrera"),
+			keywords: &["debekatuta", "ez", "ezin da bota zaborra lurrera", "galarazita", "zabor"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ریختن زباله ممنوع"),
+			keywords: &["ریختن زباله ممنوع", "زباله", "زباله نریزید", "ممنوع", "نه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("roskaaminen kielletty"),
+			keywords: &["kielletty", "roska", "roskaaminen kielletty", "sotku"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bawal magkalat"),
+			keywords: &["basura", "bawal", "huwag", "ipinagbabawal", "kalat", "magkalat"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("ikki tveita burturkast"),
+			keywords: &[
+				"bannað",
+				"blaka",
+				"burturkast",
+				"forboð",
+				"ikki tveita burturkast",
+				"rusk",
+				"tveita",
+				"órudd",
+			],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("dépôt d’ordures interdit"),
+			keywords: &[
+				"déchets",
+				"dépôt d’ordures interdit",
+				"interdiction",
+				"interdit",
+				"ne pas jeter",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["déchet", "dépôt d’ordures interdit", "interdiction", "interdit", "ordure"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("ná caitear bruscar"),
+			keywords: &["coiscthe", "comhartha", "cosc ar bhruscar", "ná caitear bruscar"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("na tilg sgudal"),
+			keywords: &["diùltadh", "na tilg sgudal", "sgudal", "tilgeil", "toirmisgte", "àicheadh"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de prohibido guindar lixo"),
+			keywords: &["guindar", "lixo", "prohibido", "sinal de prohibido guindar lixo", "tirar"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}"),
+			keywords: &[
+				"કચરો કરશો નહી\u{a82}",
+				"કચરો ફ\u{ac7}\u{a82}કવો નહી\u{a82}",
+				"કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}",
+				"કચરો ફ\u{ac7}\u{a82}કશો નહી\u{a82}ન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+				"ચિહ\u{acd}ન",
+				"પ\u{acd}રતિબ\u{a82}ધિત",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("ba a zubar da shara"),
+			keywords: &[
+				"an hana",
+				"a’a",
+				"ba a zubar da shara",
+				"babu",
+				"haram",
+				"haramta zuba shara",
+				"shara",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("ba a zubar da shara"),
+			keywords: &[
+				"an hana",
+				"a’a",
+				"ba a zubar da shara",
+				"babu",
+				"haram",
+				"haramta zuba shara",
+				"shara",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אין להשליך פסולת"),
+			keywords: &["איסור", "אסור", "אסור להשליך פסולת", "לא ללכלך", "פסולת"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ग\u{902}दगी न फ\u{948}लाए\u{901}"),
+			keywords: &[
+				"क\u{942}ड\u{93c}ा",
+				"ग\u{902}दगी न कर\u{947}\u{902}",
+				"ग\u{902}दगी न कर\u{947}\u{902} का चिह\u{94d}न",
+				"ग\u{902}दगी न फ\u{948}लाए\u{901}",
+				"ग\u{902}दगी नही\u{902}",
+				"चिह\u{94d}न",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zabranjeno bacanje otpadaka"),
+			keywords: &[
+				"ne",
+				"nema",
+				"otpaci",
+				"zabranjen otpad",
+				"zabranjeno",
+				"zabranjeno bacanje otpadaka",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("szemetelni tilos"),
+			keywords: &["szemetelni tilos", "szemetelés", "szemét", "tilos", "tiltott"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("չաղտոտել"),
+			keywords: &["աղբ", "արգելված", "ոչ", "չաղտոտել"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("non abandonar immunditias"),
+			keywords: &[
+				"immunditias",
+				"jectar",
+				"lassar cader",
+				"non abandonar immunditias",
+				"prohibite",
+			],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("dilarang membuang sampah sembarangan"),
+			keywords: &["dilarang", "membuang sampah", "sampah", "terlarang", "tidak boleh"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("enweghị ntụsasị"),
+			keywords: &["ana", "egbochighị", "egbochiri", "enweghị ntụsasị", "nke", "ntụsasị"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("ekkert rusl"),
+			keywords: &["bannað að fleygja rusli", "ekkert rusl", "ekki henda rusli"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("simbolo del divieto di gettare rifiuti"),
+			keywords: &[
+				"buttare",
+				"divieto",
+				"proibito",
+				"simbolo",
+				"simbolo del divieto di gettare rifiuti",
+				"simbolo vietato gettare rifiuti",
+				"vietato gettare rifiuti",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ポイ捨て禁止"),
+			keywords: &["ごみ", "ゴミ", "ゴミ捨て禁止", "ポイ捨て禁止", "禁止"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ora kena mbuwang sampah"),
+			keywords: &["aja", "larangan", "ora kena", "ora kena mbuwang sampah", "rereged", "sampah"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("დაბინძურება აკრძალულია"),
+			keywords: &["აკრძალვა", "აკრძალულია", "არა", "დაბინძურება აკრძალულია", "ნაგავი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("ur ttḍeyyir ara iḍumman"),
+			keywords: &["ur ttḍeyyir ara iḍumman"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("қоқыс тастауға тыйым салынған"),
+			keywords: &[
+				"емес",
+				"жоқ",
+				"рұқсат етілмеген",
+				"тыйым салынған",
+				"қоқыс",
+				"қоқыс тастауға тыйым салынған",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("smid ikke affald"),
+			keywords: &["affald", "forbudt", "ikke tilladt", "smid ikke affald"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សញ\u{17d2}ញាហាមចោលស\u{17c6}រាម"),
+			keywords: &["ចោលស\u{17c6}រាម", "សញ\u{17d2}ញា", "សញ\u{17d2}ញាហាមចោលស\u{17c6}រាម", "ហាម"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಕಸದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6} ಇಲ\u{ccd}ಲ"),
+			keywords: &[
+				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಕಸ ಎಸ\u{cc6}ಯಬ\u{cc7}ಡ\u{cbf}",
+				"ಕಸ ಎಸ\u{cc6}ಯಲು ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಕಸ ಹಾಕಬ\u{cc7}ಡ\u{cbf}",
+				"ಕಸ ಹಾಕಬ\u{cc7}ಡ\u{cbf} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+				"ಕಸದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6} ಇಲ\u{ccd}ಲ",
+				"ಕಸವ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಸ\u{ccd}ವಚ\u{ccd}ಛತ\u{cc6} ಕಾಪಾಡ\u{cbf}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("쓰레기 투기 금지"),
+			keywords: &["금지", "쓰레기", "쓰레기 투기", "쓰레기 투기 금지"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("लिटरी\u{902}ग ना"),
+			keywords: &["ना", "नाका", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "लिटर", "लिटरी\u{902}ग"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("булгабагыла"),
+			keywords: &["булгабагыла", "жок", "таштанды", "тыюу салынган"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("keng Poubelle"),
+			keywords: &["Poubelle", "keng", "neen", "net", "verbueden"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ec9}າມຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ"),
+			keywords: &[
+				"ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
+				"ບ\u{ecd}\u{ec8}",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("šiukšlinti draudžiama"),
+			keywords: &["draudžiama", "ne", "uždrausta", "šiukšlinti draudžiama", "šiukšlės"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("atkritumus mest aizliegts"),
+			keywords: &["aizliegts", "atkritumi", "atkritumus mest aizliegts", "nedrīkst", "nē"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kaua e mahi para"),
+			keywords: &["kaua e mahi para", "kore", "kua whakakore", "kāo", "para", "rāhuitia"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("забрана за фрлање отпадоци"),
+			keywords: &[
+				"забрана",
+				"забрана за фрлање отпадоци",
+				"забрането",
+				"забрането фрлање отпадоци",
+				"не",
+				"отпадоци",
+				"фрлање отпадоци",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഇവിടെ ചവറ\u{d41}കളിടര\u{d41}ത\u{d4d}"),
+			keywords: &[
+				"ഇവിടെ ചവറ\u{d41}കളിടര\u{d41}ത\u{d4d}",
+				"ഇവിടെ ചവർ ഇടര\u{d41}ത\u{d4d}",
+				"ചവർ ഇടര\u{d41}ത\u{d4d}",
+				"ചവർ ഇവിടെ ഇടര\u{d41}ത\u{d4d}",
+				"മ\u{d3e}ലിന\u{d4d}യം നിക\u{d4d}ഷേപിക\u{d4d}കര\u{d41}ത\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хог хаяхыг хориглоно"),
+			keywords: &["хаях", "хог", "хог хаяхыг хориглоно", "хориглох"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("कचरा कर\u{942} नय\u{947}"),
+			keywords: &[
+				"कचरा",
+				"कचरा कर\u{942} नका",
+				"कचरा टाक\u{942} नय\u{947} चिन\u{94d}ह",
+				"नाही",
+				"निषिद\u{94d}ध",
+				"परवानगी नाही",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("dilarang membuang sampah"),
+			keywords: &["bukan", "dilarang", "dilarang membuang sampah", "ditegah", "sampah", "tidak"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ebda rimi"),
+			keywords: &["ebda rimi", "ma", "mhux", "pprojbit", "pprojbiti", "skart"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အမ\u{103e}\u{102d}\u{102f}က\u{103a} မပစ\u{103a}ရ"),
+			keywords: &[
+				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
+				"တားမြစ\u{103a}",
+				"မပစ\u{103a}ရ",
+				"အမ\u{103e}\u{102d}\u{102f}က\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("फोहोर फाल\u{94d}न पाइ\u{901}द\u{948}न"),
+			keywords: &[
+				"छ\u{948}न",
+				"निष\u{947}धित",
+				"फोहोर",
+				"फोहोर फाल\u{94d}न पाइ\u{901}द\u{948}न",
+				"रोकिएको",
+				"होइन",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen afval weggooien"),
+			keywords: &["geen", "niet", "verboden", "zwerfvuil"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("forsøpling ikkje tillate"),
+			keywords: &["forsøpling ikkje tillate", "ikkje avfall", "inga kasting", "skilt"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ନ\u{b3f}ଷେଧ"),
+			keywords: &[
+				"ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e}",
+				"ଆବର\u{b4d}ଜନ\u{b3e} ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ନ\u{b3f}ଷେଧ",
+				"ନ\u{b3e}",
+				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
+				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
+				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਕ\u{a42}ੜਾ ਸ\u{a41}\u{a71}ਟਣਾ ਮਨ\u{a4d}ਹਾ ਹ\u{a48}"),
+			keywords: &[
+				"ਕ\u{a42}ੜਾ",
+				"ਕ\u{a42}ੜਾ ਨਾ ਸ\u{a41}\u{a71}ਟ\u{a4b}",
+				"ਕ\u{a42}ੜਾ ਨਾ ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਕ\u{a42}ੜਾ ਸ\u{a41}\u{a71}ਟਣਾ ਮਨ\u{a4d}ਹਾ ਹ\u{a48}",
+				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਪਾਬ\u{a70}ਦੀ",
+				"ਰ\u{a4b}ਕ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("کوڑا نا س\u{64f}ٹو"),
+			keywords: &["حرام", "ممنوع کیتا", "نہیں", "کوڑا نا س\u{64f}ٹو", "کوڑا کرکٹ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Nó Drọp Drọ\u{301}p Dọtí Hia"),
+			keywords: &["Dọtí", "Fọbid", "No", "Nó Drọp Drọ\u{301}p Dọtí Hia", "Nọ\u{301} Dú Am"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("zakaz śmiecenia"),
+			keywords: &[
+				"nie wolno",
+				"nie wyrzucać",
+				"nie śmiecić",
+				"zabronione",
+				"zakaz",
+				"zakaz śmiecenia",
+				"śmieci",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ورخړ خپرول منع دي"),
+			keywords: &["ممنوع", "منع", "نه", "ورخړ", "ورخړ خپرول منع دي"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("proibido jogar lixo no chão"),
+			keywords: &["jogar", "lixo", "não", "não jogue lixo no chão", "proibido", "símbolo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("não deitar lixo para o chão"),
+			keywords: &["lixo", "não", "não colocar lixo", "não deitar lixo para o chão", "proibido"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ama qupa chuqaychu"),
+			keywords: &["ama qupa chuqaychu", "amatasqa", "mana", "manaraq", "sansariy"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("nu aruncați gunoi pe jos"),
+			keywords: &["gunoi", "interdicție", "interzis", "nu", "nu aruncați gunoi pe jos"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-963"), keywords: &["E10-963"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("не мусорьте"),
+			keywords: &["запрещено", "красный", "мусор", "мусорить", "нельзя", "перечеркнутый", "черный"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("birabujijwe guta imyanda"),
+			keywords: &["birabujijwe guta imyanda", "imyanda", "kibujijwe", "kizira", "nta", "oya"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڪچرو اڇلائن منع آهي"),
+			keywords: &["ممنوعه", "نه", "ڪچرو", "ڪچرو اڇلائن منع آهي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය දැම\u{dd3}ම තහනම\u{dca}"),
+			keywords: &[
+				"අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය",
+				"අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය දැම\u{dd3}ම තහනම\u{dca}",
+				"එප\u{dcf}",
+				"තහනම\u{dca}",
+				"තහනම\u{dca} කළ",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("neodhadzujte odpadky"),
+			keywords: &[
+				"neodhadzujte odpadky",
+				"nepovolené",
+				"nie",
+				"odpad",
+				"zakázané",
+				"zákaz",
+				"zákaz odpadkov",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("prepovedano odlaganje smeti"),
+			keywords: &[
+				"ne",
+				"ni dovoljeno",
+				"odlagati",
+				"prepovedano",
+				"prepovedano odlaganje smeti",
+				"smeti",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qashinka maya"),
+			keywords: &["ma jirto", "mamnuuc", "maya", "qashinka", "reebban"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ndalohet hedhja e mbeturinave"),
+			keywords: &["jo", "mbeturina", "ndalohet", "ndalohet hedhja e mbeturinave", "nuk"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("забрањено бацање отпада"),
+			keywords: &["бацање", "забрањено", "нe", "нeмa", "отпад"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zabranjeno bacanje otpada"),
+			keywords: &["bacanje", "ne", "nema", "otpad", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("skräpa inte ner"),
+			keywords: &["inget skräp", "skräpa inte ner", "släng inte skräp här", "symbol"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("hakuna kutupa taka"),
+			keywords: &["hakuna kutupa taka", "hapana", "katazwa", "kutupa taka", "marufuku", "siyo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}"),
+			keywords: &[
+				"குப\u{bcd}பை தடுக\u{bcd}கப\u{bcd}பட\u{bcd}டது",
+				"குப\u{bcd}பை தடை",
+				"குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}",
+				"குப\u{bcd}பை போட\u{bbe}த\u{bc0}ர\u{bcd}!",
+				"குப\u{bcd}பையைப\u{bcd} போடக\u{bcd}கூட\u{bbe}து சின\u{bcd}னம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("చ\u{c46}త\u{c4d}త వ\u{c47}యర\u{c3e}దు"),
+			keywords: &[
+				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} చ\u{c46}త\u{c4d}త వ\u{c47}యడం న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
+				"చ\u{c46}త\u{c4d}త వ\u{c47}యర\u{c3e}దు",
+				"చ\u{c46}త\u{c4d}త వ\u{c47}యవద\u{c4d}దు చ\u{c3f}హ\u{c4d}నం",
+				"న\u{c4b}",
+				"ఫ\u{c4b}ర\u{c4d}బ\u{c3f}డ\u{c4d}డన\u{c4d}",
+				"ల\u{c3f}ట\u{c4d}టర\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("партов партофтан манъ аст"),
+			keywords: &["мамнуъ", "манъшуда", "не", "нест", "партов", "партов партофтан манъ аст"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e49}ามท\u{e34}\u{e49}งขยะ"),
+			keywords: &["ป\u{e49}ายห\u{e49}ามท\u{e34}\u{e49}งขยะ", "ห\u{e49}ามท\u{e34}\u{e49}งขยะ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ምጉሓፍ ኣይፍቀድን"),
+			keywords: &["መጉሓፊ", "ምጉሓፍ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("zibil taşlamak gadagan"),
+			keywords: &["bolanok", "däl", "gadagan", "zibil", "zibil taşlamak gadagan", "ýok"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tapu fakaveve"),
+			keywords: &["fakaveve", "tapu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("çöp atılmaz"),
+			keywords: &["işaret", "çöp atmayın", "çöp atmayın işareti", "çöp atılmaz"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئەخلەت تاشلىماڭ"),
+			keywords: &["ئەخلەت", "تاشلىماڭ", "ياق", "يوق", "چەكلەنگەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("смітити заборонено"),
+			keywords: &["заборонено", "знак «не смітити»", "не", "смітити", "сміття"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("کوڑا پھینکنا منع ہے"),
+			keywords: &["سائن", "منع", "کوڑا", "کوڑا ممنوع", "کوڑا پھینکنا منع ہے"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("axlat tashlash taqiqlanadi"),
+			keywords: &["axlat qutisi", "axlat tashlash taqiqlanadi", "mumkin emas", "taqiqlangan"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cấm xả rác"),
+			keywords: &["bị cấm", "bị nghiêm cấm", "cấm xả rác", "không", "xả rác"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("bu fi kenn sànni mbalit"),
+			keywords: &["bu fi kenn sànni mbalit", "bul", "déet", "litter", "luñ aaye", "luñ tere"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("akulahlwa nkunkuma"),
+			keywords: &["akulahlwa nkunkuma", "hayi", "inkunkuma", "ithintelwe", "nakanye", "yalelwe"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kosi idahun-silẹ"),
+			keywords: &["dọ\u{300}tí", "kosi idahun-silẹ", "kò", "kòsáyè", "rárá", "èèwọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kosi idahun-silɛ"),
+			keywords: &["dɔ\u{300}tí", "kosi idahun-silɛ", "kò", "kòsáyè", "rárá", "èèwɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("不准拋垃圾"),
+			keywords: &["不", "不准", "不准拋垃圾", "不可", "垃圾", "禁止"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("不准抛垃圾"),
+			keywords: &["不", "不准", "不准抛垃圾", "不可", "垃圾", "禁止"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("禁止乱扔垃圾"),
+			keywords: &["严禁", "垃圾", "禁丢垃圾", "禁止", "禁止乱扔垃圾"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("禁止亂丟垃圾"),
+			keywords: &["禁止亂丟垃圾", "請勿亂丟垃圾"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("請勿亂丟垃圾"),
+			keywords: &["亂扔垃圾", "亂拋垃圾", "垃圾", "標誌", "禁止", "禁止亂扔垃圾", "請勿亂丟垃圾"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("akulahlwa"),
+			keywords: &["akulahlwa", "akuvunyelwe", "cha", "izibi", "kunqatshelwe"],
+		},
+	],
+};
+#[doc = "🚳"]
+pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
+	glyph:                "🚳",
+	codepoint:            &[128691u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "no bicycles",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("fietse verbode"),
+			keywords: &["fiets", "fietse verbode", "geen", "geen fietse", "verbode"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ብስክሌት አይፈቀድም"),
+			keywords: &["ብስክሌት", "ብስክሌት አይፈቀድም", "ተሽከርካሪ", "አይደለም", "ክልክል"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ممنوع ركوب الدراجات"),
+			keywords: &[
+				"بسكلات",
+				"دراجة",
+				"دراجة هوائية",
+				"رمز",
+				"مركبة",
+				"ممنوع البسكلتة",
+				"ممنوع ركوب الدراجات",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ব\u{9be}ইচ\u{9be}ইকেল নিষেধ"),
+			keywords: &[
+				"নহয\u{9bc}",
+				"নিষিদ\u{9cd}ধ",
+				"নিষেধ",
+				"ব\u{9be}ইক",
+				"ব\u{9be}ইচ\u{9be}ইকেল",
+				"সম\u{9c2}লি নহয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("velosiped sürmək olmaz"),
+			keywords: &[
+				"bayk",
+				"nəqliyyat",
+				"qadağa",
+				"qadağan olunmuş",
+				"velosiped",
+				"velosiped girişi yoxdur",
+				"velosiped sürmək olmaz",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("рух на веласіпедзе забаронены"),
+			keywords: &[
+				"веласіпед",
+				"дарожны",
+				"забаронена",
+				"знак",
+				"ровар",
+				"рух",
+				"рух на веласіпедзе забаронены",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("забранено за велосипеди"),
+			keywords: &[
+				"велосипед",
+				"забрана",
+				"забранено",
+				"забранено за велосипеди",
+				"забранено за велосипедисти",
+				"колело",
+				"не",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ব\u{9be}ইস\u{9be}ইকেল নিষিদ\u{9cd}ধ"),
+			keywords: &[
+				"নয\u{9bc}",
+				"ন\u{9be}",
+				"নিষিদ\u{9cd}ধ",
+				"নিষিদ\u{9cd}ধ থ\u{9be}ক\u{9be}",
+				"ব\u{9be}ইক",
+				"ব\u{9be}ইস\u{9be}ইকেল",
+				"য\u{9be}নব\u{9be}হন",
+				"স\u{9be}ইকেল",
+				"স\u{9be}ইকেল চ\u{9be}ল\u{9be}নো য\u{9be}বে ন\u{9be}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("beloioù difennet"),
+			keywords: &["beloioù", "berzet", "difennet"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zabranjeno za bicikliste"),
+			keywords: &["biciklo", "ne", "vozilo", "zabranjeno", "zabranjeno za bicikliste"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("bicicletes prohibides"),
+			keywords: &[
+				"bici",
+				"bicicletes",
+				"bicicletes prohibides",
+				"bicis",
+				"bicis prohibides",
+				"prohibició",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏝᎨᏒ ᏔᎵ ᏗᎦᏩᏘ"),
+			keywords: &["ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᎦᏅᏍᏙᏍᎦ", "ᏂᎨᏒᎾ", "ᏔᎵ ᏗᎦᏆᏘ", "ᏝᎨᏒ ᏔᎵ ᏗᎦᏩᏘ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zákaz vjezdu cyklistů"),
+			keywords: &[
+				"doprava",
+				"jízdní kolo",
+				"kolo",
+				"ne",
+				"vozidlo",
+				"zakázáno",
+				"zákaz",
+				"zákaz jízdních kol",
+				"zákaz kol",
+				"zákaz vjezdu cyklistů",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dim beiciau"),
+			keywords: &["beic", "cerbyd", "dim beiciau", "gwahardd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("cykler forbudt"),
+			keywords: &["cykler forbudt", "ingen cykler"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Fahrräder verboten"),
+			keywords: &[
+				"Fahhrad",
+				"Fahrrad-verboten-Schild",
+				"Fahrräder verboten",
+				"Radfahren verboten",
+				"verboten",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απαγορεύονται τα ποδήλατα"),
+			keywords: &[
+				"απαγορευμένο",
+				"απαγορεύεται",
+				"απαγορεύονται τα ποδήλατα",
+				"μη",
+				"ποδήλατο",
+				"όχι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("no bicycles"),
+			keywords: &["bicycle", "bicycles", "bike", "forbidden", "no", "not", "prohibited"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("bicicletas prohibidas"),
+			keywords: &["bicicleta", "bicicletas prohibidas", "prohibido", "vehículo"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("no se permiten bicicletas"),
+			keywords: &[
+				"bicicleta",
+				"bicicletas",
+				"bicicletas no permitidas",
+				"no se permiten bicicletas",
+				"prohibido",
+				"señal",
+				"vehículo",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["bicicleta", "moto", "no", "no se permiten bicicletas", "prohibido"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("jalgrattad keelatud"),
+			keywords: &["jalgratas", "jalgrattad keelatud", "keelatud", "sõiduk"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bizikletarik ez"),
+			keywords: &["bizikleta", "bizikletarik ez", "debekatuta", "ez", "galarazita"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("دوچرخه ممنوع"),
+			keywords: &["دوچرخه", "ممنوع", "نه", "وسیله نقلیه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("polkupyörällä ajo kielletty"),
+			keywords: &[
+				"ei polkupyörille",
+				"kielletty",
+				"liikenne",
+				"polkupyörä",
+				"polkupyörällä ajo kielletty",
+				"pyörä",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bawal ang mga bisikleta"),
+			keywords: &["bawal ang mga bisikleta", "bisikleta", "huwag", "ipinagbabawal", "wala"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("ongar súkklur"),
+			keywords: &["forboð", "ongar súkklur", "súkkla"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("vélos interdits"),
+			keywords: &["bicyclette", "interdiction", "interdit", "vélo", "vélos interdits"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cosc ar rothair"),
+			keywords: &["cosc ar rothair", "cosc ar rothar", "feithicil", "rothar"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("rothaireachd toirmisgte"),
+			keywords: &[
+				"baidhseagal",
+				"diùltadh",
+				"rothair",
+				"rothaireachd toirmisgte",
+				"toirmisgte",
+				"àicheadh",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de prohibido bicicletas"),
+			keywords: &["bicicleta", "prohibición", "sinal", "sinal de prohibido bicicletas"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સાઇકલ નહી\u{a82}"),
+			keywords: &[
+				"પ\u{acd}રતિબ\u{a82}ધિત",
+				"બાઇક",
+				"બાઇક નહી\u{a82}",
+				"વાહન",
+				"સાઇકલ નહી\u{a82}",
+				"સાઇકલન\u{ac7} મ\u{a82}જ\u{ac2}રી નથી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("an hana ma keke"),
+			keywords: &[
+				"an hana",
+				"an hana ma keke",
+				"an haramta keke",
+				"a’a",
+				"babu",
+				"babur",
+				"ban da keke",
+				"ban da kekuna",
+				"haram",
+				"keke",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("an hana ma keke"),
+			keywords: &[
+				"an hana",
+				"an hana ma keke",
+				"an haramta keke",
+				"a’a",
+				"babu",
+				"babur",
+				"ban da keke",
+				"ban da kekuna",
+				"haram",
+				"keke",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אין כניסה לאופניים"),
+			keywords: &["אופניים", "אין כניסה", "אין כניסה לאופניים", "איסור", "אסור"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("साइकल नही\u{902}"),
+			keywords: &[
+				"निषिद\u{94d}ध",
+				"बाइक",
+				"बाइक निष\u{947}ध",
+				"बाईसिकिल",
+				"साइकल नही\u{902}",
+				"साइकिल की अन\u{941}मति नही\u{902}",
+				"साइकिल नही\u{902}",
+				"साइकिल निष\u{947}ध",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zabranjeno za bicikle"),
+			keywords: &["bicikl", "ne", "promet", "vozilo", "zabranjeno", "zabranjeno za bicikle"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("kerékpározni tilos"),
+			keywords: &["bicikli", "kerékpár", "kerékpározni tilos", "tilos", "tiltott"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("առանց հեծանիվների"),
+			keywords: &["առանց հեծանիվների", "արգելված", "հեծանիվ", "ոչ", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("bicyclettas prohibite"),
+			keywords: &["bicycletta", "bicyclettas prohibite", "bicyclo", "no", "prohibite", "sin"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("dilarang bersepeda"),
+			keywords: &[
+				"dilarang",
+				"dilarang bersepeda",
+				"kendaraan",
+				"sepeda",
+				"tanda",
+				"terlarang",
+				"tidak",
+				"tidak boleh",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("enweghị igwe"),
+			keywords: &["ana", "egbochighị", "egbochiri", "enweghị igwe", "igwe", "nke"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hjólreiðar bannaðar"),
+			keywords: &["hjól", "hjól bönnuð", "hjólreiðar bannaðar"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("segnale di divieto di transito delle biciclette"),
+			keywords: &[
+				"bici",
+				"bicicletta",
+				"divieto bicicletta",
+				"divieto biciclette",
+				"divieto di transito",
+				"divieto transito biciclette",
+				"proibito",
+				"segnale",
+				"segnale di divieto di transito delle biciclette",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("自転車禁止"),
+			keywords: &["標識", "禁止", "自転車", "自転車禁止", "規制", "道路"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("pit ora kena liwat"),
+			keywords: &["aja", "larangan", "pit", "pit ora kena liwat", "sepedha"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ველოსიპედებისთვის შესვლა აკრძალულია"),
+			keywords: &[
+				"აკრძალვა",
+				"აკრძალულია",
+				"არა",
+				"ველოსიპედებისთვის შესვლა აკრძალულია",
+				"ველოსიპედი",
+				"ტრანსპორტი",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("avilu yegdel"),
+			keywords: &["avilu yegdel"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("велосипед тебуге болмайды"),
+			keywords: &[
+				"байк",
+				"велосипед",
+				"велосипед тебуге болмайды",
+				"жоқ",
+				"рұқсат етілмеген",
+				"тыйым салынған",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("cykler forbudt"),
+			keywords: &["cykler forbudt", "ingen cykler"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សញ\u{17d2}ញាហាមច\u{17c6}ពោះកង\u{17cb}"),
+			keywords: &[
+				"កង\u{17cb}",
+				"ឃាត\u{17cb}",
+				"សញ\u{17d2}ញា",
+				"សញ\u{17d2}ញាហាមច\u{17c6}ពោះកង\u{17cb}",
+				"ហាម",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}\u{200c}ಗಳು ಇಲ\u{ccd}ಲ"),
+			keywords: &[
+				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ಬ\u{cc8}ಕ\u{ccd}",
+				"ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}",
+				"ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd}\u{200c}ಗಳು ಇಲ\u{ccd}ಲ",
+				"ಯಾವುದ\u{cc7} ಬ\u{cc8}ಸ\u{cbf}ಕಲ\u{ccd} ಇಲ\u{ccd}ಲ",
+				"ವಾಹನ",
+				"ಸ\u{cc8}ಕಲ\u{ccd}",
+				"ಸ\u{cc8}ಕಲ\u{ccd} ಅನುಮತ\u{cbf}ಸಲಾಗುವುದ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಸ\u{cc8}ಕಲ\u{ccd} ಸವಾರ\u{cbf} ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("자전거 금지"),
+			keywords: &["금지", "바이크", "안됨", "자전거", "자전거 주행 금지"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("सायकली ना"),
+			keywords: &["ना", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "बायक", "सायकल", "सायकली ना"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("велосипедке уруксат жок"),
+			keywords: &["велосипед", "велосипедке уруксат жок", "жок", "тыюу салынган", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("keng Vëloen"),
+			keywords: &["Vëlo", "keng", "keng Vëloen", "neen", "net", "verbueden"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ec9}າມລ\u{ebb}ດຖ\u{eb5}ບ"),
+			keywords: &[
+				"ລ\u{ebb}ດຖ\u{eb5}ບ",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມຂ\u{eb5}\u{ec8}ລ\u{ebb}ດຖ\u{eb5}ບ",
+				"ຫ\u{ec9}າມລ\u{ebb}ດຖ\u{eb5}ບ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("dviračiai draudžiami"),
+			keywords: &[
+				"draudžiama",
+				"dviratis",
+				"dviračiai draudžiami",
+				"ne",
+				"transporto priemonė",
+				"uždrausta",
+				"ženklas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("velosipēdiem braukt aizliegts"),
+			keywords: &[
+				"aizliegts",
+				"braukt aizliegts",
+				"nē",
+				"velosipēdiem braukt aizliegts",
+				"velosipēds",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kaua he pahikara"),
+			keywords: &["kaua he pahikara", "kore", "kua whakakore", "kāo", "pahikara", "rāhuitia"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("забрана за велосипеди"),
+			keywords: &["велосипед", "забрана", "забрана за велосипеди", "забрането", "не"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സൈക\u{d4d}കിൾ പ\u{d3e}ടില\u{d4d}ല"),
+			keywords: &[
+				"നിരോധിക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
+				"പ\u{d3e}ടില\u{d4d}ല",
+				"ബൈക\u{d4d}ക\u{d4d}",
+				"വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
+				"സൈക\u{d4d}കിള\u{d41}കൾ പ\u{d3e}ടില\u{d4d}ല",
+				"സൈക\u{d4d}കിൾ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("дугуй унахыг хориглоно"),
+			keywords: &[
+				"болохгүй",
+				"дугуй",
+				"дугуй унахыг хориглоно",
+				"унадаг дугуй",
+				"унадаг дугуй унаж болохгүй",
+				"хориглосон",
+				"хориотой",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("सायकलीस अन\u{941}मती नाही"),
+			keywords: &[
+				"द\u{941}चाकी",
+				"नाही",
+				"निषिद\u{94d}ध",
+				"परवानगी नाही",
+				"वाहन",
+				"सायकल",
+				"सायकली",
+				"सायकली\u{902}साठी नाही",
+				"सायकलीस अन\u{941}मती नाही",
+				"सायकलीस परवानगी नाही",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("basikal dilarang"),
+			keywords: &["basikal", "bukan", "dilarang", "ditegah", "kenderaan", "sepeda", "tidak"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ebda rota"),
+			keywords: &["ebda rota", "ma", "mhux", "pprojbit", "projbit", "rota"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စက\u{103a}ဘ\u{102e}းမစ\u{102e}းရ"),
+			keywords: &[
+				"ခ\u{103d}င\u{1037}\u{103a}မပြ\u{102f}",
+				"စက\u{103a}ဘ\u{102e}း",
+				"စက\u{103a}ဘ\u{102e}းမစ\u{102e}းရ",
+				"တားမြစ\u{103a}",
+				"မစ\u{102e}းရ",
+				"မလ\u{102f}ပ\u{103a}ရ",
+				"ယာဉ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("साइकल चलाउन पाइ\u{901}द\u{948}न"),
+			keywords: &[
+				"निष\u{947}धित",
+				"बाइक",
+				"रोकिएको",
+				"साइकल",
+				"साइकल चलाउन पाइ\u{901}द\u{948}न",
+				"होइन",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("geen fietsen"),
+			keywords: &["fiets", "fietsen", "nee", "niet", "verboden"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("syklar forbode"),
+			keywords: &[
+				"ikkje",
+				"ingen syklar",
+				"nei",
+				"sykkel",
+				"sykkel ikkje tillate",
+				"syklar forbode",
+			],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ବ\u{b3e}ଇସେଇକେଲ\u{b4d}\u{200c} ନ\u{b3f}ଷେଧ"),
+			keywords: &[
+				"ନ\u{b3e}",
+				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
+				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
+				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
+				"ବ\u{b3e}ଇକ\u{b4d}\u{200c}",
+				"ବ\u{b3e}ଇସ\u{b3e}ଇକେଲ\u{b4d}\u{200c}",
+				"ବ\u{b3e}ଇସେଇକେଲ\u{b4d}\u{200c} ନ\u{b3f}ଷେଧ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਾਈਕਲ ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ"),
+			keywords: &[
+				"ਦਾਖਲਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
+				"ਨਹੀ\u{a02}",
+				"ਬਾਈਕ",
+				"ਵਾਹਨ",
+				"ਸਾਈਕਲ ਨਹੀ\u{a02}",
+				"ਸਾਈਕਲ ਮਨਜ\u{a3c}\u{a42}ਰ ਨਹੀ\u{a02}",
+				"ਸਾਈਕਲ ‘ਤ\u{a47} ਪਾਬ\u{a70}ਦੀ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("سائیکل نہیں"),
+			keywords: &["بائیسیکل", "حرام", "سائیکل نہیں", "ممنوع کیتا", "موٹر سائیکل", "نہیں"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Nó Baísíkul Hia"),
+			keywords: &[
+				"Baik",
+				"Baísíkul",
+				"Fọbid",
+				"No",
+				"Nó Baísíkul",
+				"Nó Baísíkul Hia",
+				"Nọ\u{301} Dú Am",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("zakaz wjazdu rowerów"),
+			keywords: &["nie wolno", "pojazd", "rower", "zabroniony", "zakaz", "zakaz wjazdu rowerów"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("بایسکلانو ته اجازه نشته"),
+			keywords: &[
+				"بايسيکل",
+				"بايسکلانو ته اجازه نشته",
+				"بايک",
+				"بایسکلانو ته اجازه نشته",
+				"ممنوع",
+				"منع",
+				"نه",
+			],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("proibido andar de bicicleta"),
+			keywords: &["bicicleta", "não", "permitidas", "proibido", "sem"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["bicicleta", "não", "proibido", "proibido andar de bicicleta", "veículo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ama bicicletakuna"),
+			keywords: &["ama bicicletakuna", "amatasqa", "bici", "bicicleta", "mana"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("interzis accesul cu bicicleta"),
+			keywords: &[
+				"bicicletă",
+				"biclă",
+				"fără biciclete",
+				"interdicție",
+				"interzis",
+				"interzis accesul cu bicicleta",
+				"nu",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-967"), keywords: &["E10-967"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("перечеркнутый велосипед"),
+			keywords: &["велосипед", "въезд", "въезда", "запрещено", "нельзя", "нет", "перечеркнутый"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("amagare ntiyemewe"),
+			keywords: &[
+				"Igare",
+				"amagare ntiyemewe",
+				"ikinyabiziga bibiri",
+				"kibujijwe",
+				"kizira",
+				"nta",
+				"oya",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("سائيڪلون نه"),
+			keywords: &["سائيڪلون نه", "ممنوعه", "منع ڪيل", "نه"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("බය\u{dd2}ස\u{dd2}කල\u{dca}වලට තහනම\u{dca}"),
+			keywords: &[
+				"එප\u{dcf}",
+				"තහනම\u{dca} කළ",
+				"නැත",
+				"බය\u{dd2}ක\u{dca}",
+				"බය\u{dd2}ස\u{dd2}කල\u{dca}වලට තහනම\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zákaz bicyklov"),
+			keywords: &[
+				"bicykel",
+				"dopravný prostriedok",
+				"nepovolené",
+				"nie",
+				"zakázané",
+				"zakázaný",
+				"zákaz",
+				"zákaz bicyklov",
+				"zákaz cyklistov",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("prepovedano za kolesa"),
+			keywords: &["kolo", "ne", "ni dovoljeno", "prepovedano", "prepovedano za kolesa", "vozilo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("baaskiil maya"),
+			keywords: &["baaskiil", "baaskiil wadista", "mamnuuc", "maya", "reebban"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ndalohen biçikletat"),
+			keywords: &["biçikletë", "jo", "mjet", "ndalohen biçikletat", "ndalohet"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("забрањено за бицикле"),
+			keywords: &["бицикл", "вoзилo", "зaбрaњeнo", "нe", "нeмa", "саобраћај"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zabranjeno za bicikle"),
+			keywords: &["bicikl", "ne", "nema", "saobraćaj", "vozilo", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("förbud mot trafik med cykel"),
+			keywords: &[
+				"cyklar förbjudna",
+				"fordon",
+				"förbud mot trafik med cykel",
+				"inte tillåtet att cykla",
+			],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("baisikeli haziruhusiwi"),
+			keywords: &[
+				"baisikeli",
+				"baisikeli haziruhusiwi",
+				"gari",
+				"hapana",
+				"katazwa",
+				"marufuku",
+				"siyo",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("சைக\u{bcd}கிளுக\u{bcd}கு அனுமதி இல\u{bcd}லை"),
+			keywords: &[
+				"சைக\u{bcd}கிளுக\u{bcd}கு அனுமதி இல\u{bcd}லை",
+				"சைக\u{bcd}கிள\u{bcd} செல\u{bcd}லக\u{bcd}கூட\u{bbe}து",
+				"சைக\u{bcd}கிள\u{bcd} நிறுத\u{bcd}தக\u{bcd}கூட\u{bbe}து",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some(
+				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు న\u{c3f}ష\u{c47}ధం",
+			),
+			keywords: &[
+				"ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు న\u{c3f}ష\u{c47}ధం",
+				"న\u{c3e}ట\u{c4d}",
+				"న\u{c3f}ష\u{c47}ధం",
+				"న\u{c4b}",
+				"బ\u{c48}క\u{c4d}",
+				"బ\u{c48}స\u{c3f}క\u{c3f}ల\u{c4d}",
+				"ర\u{c48}డ\u{c3f}ంగ\u{c4d}",
+				"స\u{c48}క\u{c3f}ల\u{c4d}లు నడపర\u{c3e}దు",
+				"స\u{c48}క\u{c3f}ల\u{c4d}\u{200c}లు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ҳаракати велосипедҳо манъ аст"),
+			keywords: &[
+				"велосипед",
+				"мамнуъ",
+				"манъшуда",
+				"не",
+				"нест",
+				"ҳаракат",
+				"ҳаракати велосипедҳо манъ аст",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e49}ามจ\u{e31}กรยาน"),
+			keywords: &[
+				"จราจร",
+				"จ\u{e31}กรยาน",
+				"ทางเท\u{e49}า",
+				"ห\u{e49}าม",
+				"ห\u{e49}ามจ\u{e31}กรยาน",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ብሽክለታ ኣይፍቀድን"),
+			keywords: &["ብሽክለታ", "ብሽክለታ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("welosiped gadagan"),
+			keywords: &["bolanok", "däl", "gadagan", "tigir", "welosiped gadagan", "ýok"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tapu pasikala"),
+			keywords: &["feʻaluʻaki", "pasikala", "tapu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("bisiklet yasak"),
+			keywords: &["bisiklet", "bisiklet giremez", "bisiklet yasak", "taşıt"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ۋېلىسىپىت مىنمەڭ"),
+			keywords: &["مىنمەڭ", "مىنىش", "ياق", "چەكلەنگەن", "ۋېلىسىپىت"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("велосипеди заборонено"),
+			keywords: &[
+				"велосипед",
+				"велосипеди заборонено",
+				"заборонено",
+				"рух на велосипеді заборонено",
+				"транспортний засіб",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سائیکلیں ممنوع"),
+			keywords: &["سائن", "سائیکل", "سائیکلیں ممنوع", "منع", "ٹریفک"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("velosipedda harakatlanish taqiqlanadi"),
+			keywords: &[
+				"mumkin emas",
+				"taqiqlangan",
+				"transport",
+				"velosiped",
+				"velosipedda harakatlanish taqiqlanadi",
+				"velosipedlar harakatlanishi taqiqlanadi",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cấm xe đạp"),
+			keywords: &["bị cấm", "bị nghiêm cấm", "cấm xe đạp", "không", "xe đạp"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("bu fi kenn dawal welo"),
+			keywords: &["bu fi kenn dawal welo", "bul", "déet", "luñ aaye", "luñ tere", "welo"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("iibhayisekile azivumelekanga"),
+			keywords: &[
+				"hayi",
+				"ibhayisekile",
+				"iibhayisekile azivumelekanga",
+				"ithintelwe",
+				"nakanye",
+				"yalelwe",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kosi awọn kẹkẹ"),
+			keywords: &[
+				"báíkì",
+				"kosi awọn kẹkẹ",
+				"kò",
+				"kòsáyè",
+				"kẹ\u{300}ké\u{329}",
+				"rárá",
+				"èèwọ\u{300}",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kosi awɔn kɛkɛ"),
+			keywords: &[
+				"báíkì",
+				"kosi awɔn kɛkɛ",
+				"kò",
+				"kòsáyè",
+				"kɛ\u{300}ké\u{329}",
+				"rárá",
+				"èèwɔ\u{300}",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("不准踩單車"),
+			keywords: &["不", "不准踩單車", "不可", "單車", "禁止", "自行車"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("不准踩单车"),
+			keywords: &["不", "不准踩单车", "不可", "单车", "禁止", "自行车"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("禁止自行车"),
+			keywords: &["严禁", "交通", "禁止", "禁止自行车", "禁行自行车", "自行车", "非机动车"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("禁行自行車"),
+			keywords: &["禁止通行", "禁行自行車"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("禁止單車"),
+			keywords: &["不准踩單車", "單車", "標誌", "禁止", "禁止單車"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("amabhayisikili akavunyelwe"),
+			keywords: &[
+				"akuvumelekile",
+				"amabhayisikili akavunyelwe",
+				"cha",
+				"ibhayisikili",
+				"isithuthi",
+				"isithuthuthu",
+				"kunqatshelwe",
+			],
+		},
+	],
+};
+#[doc = "🚫"]
+pub const PROHIBITED: crate::Emoji = crate::Emoji {
+	glyph:                "🚫",
+	codepoint:            &[128683u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "prohibited",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Warning,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("verbode"),
+			keywords: &["geen", "nee", "nie", "rook", "toegang", "verbode"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የተከለከለ"),
+			keywords: &["መግቢያ", "ምልክት", "አይ", "አይደለም", "የተከለከለ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ممنوع"),
+			keywords: &["إشارة", "رمز", "غير مسموح", "كلا", "ممنوع", "ممنوع الدخول"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("নিষেধ"),
+			keywords: &["নহয\u{9bc}", "নিষিদ\u{9cd}ধ", "নিষেধ", "প\u{9cd}ৰৱেশ", "সম\u{9c2}লি নহয\u{9bc}"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qadağandır"),
+			keywords: &[
+				"giriş",
+				"giriş yoxdur",
+				"qadağan olunmuş",
+				"qadağandır",
+				"qadağandır işarəsi",
+				"xeyr",
+				"yox",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("забаронена"),
+			keywords: &["забаронена", "знак", "нельга", "няма ўваходу"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("забранено"),
+			keywords: &["влизане", "вход", "забрана", "забранено", "не", "пушене"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("নিষিদ\u{9cd}ধ"),
+			keywords: &["নয\u{9bc}", "ন\u{9be}", "নিষিদ\u{9cd}ধ", "প\u{9cd}রবেশ"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("berzet"),
+			keywords: &["berzet", "difennet", "tu"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zabrana"),
+			keywords: &["ne", "ulaz", "zabrana", "zabranjen", "zaustavljen"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("prohibit"),
+			keywords: &["accés", "entrada", "fumar", "no", "no passeu", "prohibició", "prohibit"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᎨᏳᏓᏅᎢ"),
+			keywords: &["ᎠᎨᏳᏓᏅᎢ", "ᎠᏴᏍᏗ", "ᎢᏯᏛᏁᏗ ᏂᎨᏒᎾ", "ᎥᏝ", "ᏂᎨᏒᎾ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("zákaz"),
+			keywords: &["ne", "vstup", "zakázán", "zakázáno", "zákaz", "zákaz vstupu"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("wedi’i wahardd"),
+			keywords: &["dim", "gwahardd", "mynediad", "wedi’i wahardd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ingen adgang"),
+			keywords: &["adgang forbudt", "forbudt", "ingen adgang"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Verboten"),
+			keywords: &["Kein-Zutritt-Zeichen", "Verboten", "Verbotszeichen", "kein zutritt"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απαγορεύεται"),
+			keywords: &["απαγορευμένο", "απαγορεύεται", "δεν", "είσοδος", "καπνός", "μη", "όχι"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("prohibited"),
+			keywords: &["entry", "forbidden", "no", "not", "prohibited", "smoke"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("↑↑↑"),
+			keywords: &["denied", "entry", "forbidden", "no", "prohibited"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("prohibido"),
+			keywords: &["entrar", "no", "pasar", "prohibición", "prohibido"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("señal de prohibición"),
+			keywords: &[
+				"cancelar",
+				"entrar",
+				"fumar",
+				"no",
+				"pasar",
+				"prohibición",
+				"prohibido",
+				"señal",
+				"señal de no entrar",
+				"señal de prohibición",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["no", "pasar", "prohibido", "señal", "señal de prohibición"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["entrada", "entrar", "no", "prohibido", "señal de prohibición"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("keelatud"),
+			keywords: &["keelatud", "sisenemine"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("debekatuta"),
+			keywords: &["debekatuta", "ez", "sarrera"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ممنوع"),
+			keywords: &["ممنوع", "نه", "ورود"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("pääsy kielletty"),
+			keywords: &["ei", "kielletty", "liikenne", "pääsy"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bawal"),
+			keywords: &["bawal", "huwag", "ipinagbabawal", "wag"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("bannað"),
+			keywords: &["atgongd", "bannað", "forboð"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("symbole d’interdiction"),
+			keywords: &["entrée interdite", "interdiction", "interdit", "symbole d’interdiction"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("interdit"), keywords: &["interdit"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cosc ar dhul isteach"),
+			keywords: &[
+				"Cosc ar iontráil",
+				"Níl cead isteach",
+				"comhartha",
+				"cosc ar chaitheamh tobac",
+				"cosc ar dhul isteach",
+				"nil cead isteach",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("toirmisgte"),
+			keywords: &["diùltadh", "inntrigeadh", "toirmisgte", "àicheadh"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("sinal de prohibición"),
+			keywords: &["prohibición", "prohibido", "sinal", "sinal de prohibición"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પ\u{acd}રતિબ\u{a82}ધિત"),
+			keywords: &[
+				"ચિહ\u{acd}ન",
+				"નહી\u{a82}",
+				"ના",
+				"નિષિદ\u{acd}ધ",
+				"નિષ\u{ac7}ધ",
+				"પ\u{acd}રતિબ\u{a82}ધિત",
+				"પ\u{acd}રવ\u{ac7}શ નિષ\u{ac7}ધ",
+				"પ\u{acd}રવ\u{ac7}શ નિષ\u{ac7}ધ ચિહ\u{acd}ન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("an hana"),
+			keywords: &[
+				"an hana",
+				"a’a",
+				"ba shiga",
+				"babu",
+				"haram",
+				"haramun",
+				"harantacce",
+				"hayaƙi",
+				"shiga",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("an hana"),
+			keywords: &[
+				"an hana",
+				"a’a",
+				"ba shiga",
+				"babu",
+				"haram",
+				"haramun",
+				"harantacce",
+				"hayaƙi",
+				"shiga",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אסור"),
+			keywords: &["אין כניסה", "איסור", "אסור", "לא"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("निषिद\u{94d}ध"),
+			keywords: &["निषिद\u{94d}ध", "प\u{94d}रव\u{947}श", "मनाही"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("zabranjeno"),
+			keywords: &["dim", "ne", "nema", "ulaz", "zabranjeno"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("tilos"),
+			keywords: &[
+				"KRESZ-tábla",
+				"behajtani tilos",
+				"behajtás",
+				"frogalom",
+				"közlekedési tábla",
+				"nincs behajtás",
+				"tilos",
+				"tiltott",
+				"tábla",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("արգելված է"),
+			keywords: &["արգելված", "արգելված է", "մուտք", "ոչ"],
+		},
+		#[cfg(feature = "ia")]
+		crate::Annotation {
+			lang:     "ia",
+			tts:      Some("prohibite"),
+			keywords: &["entrata", "no", "non", "prohibite", "sin"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("dilarang"),
+			keywords: &["dilarang", "masuk", "merokok", "rokok", "terlarang", "tidak", "tidak boleh"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("egbochiri"),
+			keywords: &["a", "amaghị", "egbochiri", "mbanye"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("bannað"),
+			keywords: &["bannað", "bannað að leggja"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("segnale di divieto"),
+			keywords: &[
+				"divieto",
+				"proibito",
+				"segnale di divieto",
+				"simbolo",
+				"simbolo di divieto",
+				"vietato",
+				"vietato fumare",
+				"vietato l’accesso",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("車両通行止め"),
+			keywords: &["標識", "禁止", "規制", "車両通行止め", "通行止め", "道路"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ora kena"),
+			keywords: &["aja", "larangan", "mlebu", "ora kena"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("აკრძალვა"),
+			keywords: &["აკრძალვა", "აკრძალულია", "არა", "შესვლა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("yegdel"), keywords: &["yegdel"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("тыйым салынған"),
+			keywords: &["емес", "жоқ", "кіріс", "тыйым салынған"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("ingen adgang"),
+			keywords: &["adgang forbudt", "ingen adgang"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សញ\u{17d2}ញាហាមឃាត\u{17cb}"),
+			keywords: &[
+				"ម\u{17b7}នអន\u{17bb}ញ\u{17d2}ញាត",
+				"សញ\u{17d2}ញា",
+				"សញ\u{17d2}ញាហាមឃាត\u{17cb}",
+				"ហាម",
+				"ហាមឃាត\u{17cb}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}"),
+			keywords: &[
+				"ಅನುಮತ\u{cbf}ಯ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+				"ಧ\u{cc2}ಮಪಾನ ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+				"ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
+				"ಪ\u{ccd}ರವ\u{cc7}ಶ ನ\u{cbf}ಷ\u{cc7}ಧ\u{cbf}ಸ\u{cbf}ದ\u{cc6}",
+				"ಪ\u{ccd}ರವ\u{cc7}ಶವ\u{cbf}ಲ\u{ccd}ಲ",
+				"ಪ\u{ccd}ರವ\u{cc7}ಶವ\u{cbf}ಲ\u{ccd}ಲದ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("금지"),
+			keywords: &["금지", "들어오지 마시오", "안됨", "진입 금지 표시"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("प\u{94d}रतिब\u{902}धीत"),
+			keywords: &["ना", "नाका", "निषिध\u{94d}द", "प\u{94d}रतिब\u{902}धीत", "प\u{94d}रव\u{947}श"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("тыюу салынган"),
+			keywords: &["жок", "кирүү", "тыюу салынган"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("verbueden"),
+			keywords: &["Accès", "keen", "neen", "verbueden"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ec9}າມຜ\u{ec8}ານ"),
+			keywords: &[
+				"ຕ\u{ec9}ອງຫ\u{ec9}າມ",
+				"ທາງເຂ\u{ebb}\u{ec9}າ",
+				"ຫ\u{ec9}າມ",
+				"ຫ\u{ec9}າມຜ\u{ec8}ານ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("draudžiama"),
+			keywords: &["draudžiama", "ne", "rūkyti", "uždrausta", "įėjimas", "ženklas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("aizliegts"),
+			keywords: &["aizliegts", "ieeja", "nedrīkst", "nē"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kua whakakore"),
+			keywords: &["kore", "kua whakakore", "kāo", "tomonga"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("забрана за влез"),
+			keywords: &[
+				"влез",
+				"забрана",
+				"забрана за влез",
+				"забранет влез",
+				"забрането",
+				"не",
+				"пушење",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("നിയന\u{d4d}ത\u{d4d}രിതമ\u{d3e}ണ\u{d4d}"),
+			keywords: &["നിയന\u{d4d}ത\u{d4d}രിതമ\u{d3e}ണ\u{d4d}", "പ\u{d4d}രവേശനമില\u{d4d}ല"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хориглосон"),
+			keywords: &["болохгүй", "нэвтрэх", "хориглосон", "хориотой"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("परवानगी नाही"),
+			keywords: &["चिन\u{94d}ह", "नाही", "निषिद\u{94d}ध", "परवानगी नाही", "प\u{94d}रव\u{947}श"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("dilarang"),
+			keywords: &["bukan", "dilarang", "masuk", "tidak"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("projbit"),
+			keywords: &["dħul", "ma", "mhux", "pprojbit", "projbit"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("တားမြစ\u{103a}နေရာ"),
+			keywords: &[
+				"တားမြစ\u{103a}",
+				"တားမြစ\u{103a}နေရာ",
+				"မရ\u{103e}\u{102d}",
+				"မလ\u{102f}ပ\u{103a}ရ",
+				"အဝင\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("निष\u{947}धित"),
+			keywords: &["छ\u{948}न", "निष\u{947}धित", "प\u{94d}रव\u{947}श", "रोकिएको", "होइन"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("verboden"),
+			keywords: &["nee", "niet", "roken", "toegang", "verboden"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("forbode"),
+			keywords: &["forbode", "ikkje", "nei", "skilt", "tilgang forbode"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ"),
+			keywords: &[
+				"ନ\u{b3e}",
+				"ନ\u{b3e}ହ\u{b3f}\u{b01}",
+				"ନ\u{b3f}ଷ\u{b3f}ଦ\u{b4d}ଧ",
+				"ନ\u{b3f}ଷେଧ\u{b3f}ତ",
+				"ପ\u{b4d}ରବେଶ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਾਬ\u{a70}ਦੀ"),
+			keywords: &[
+				"ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਦਾਖਲਾ ਨਹੀ\u{a02}",
+				"ਦਾਖਲਾ ਨਹੀ\u{a02} ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਨਹੀ\u{a02}",
+				"ਪਾਬ\u{a70}ਦੀ",
+				"ਰ\u{a4b}ਕ",
+				"ਸਿਗਰਟ ਪੀਣਾ ਮਨ\u{a4d}ਹਾ\u{a02} ਹ\u{a48}",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ممنوع کیتا"),
+			keywords: &["اندراج", "حرام", "ممنوع کیتا", "نہیں"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Nọ\u{301} Dú Am"),
+			keywords: &["Fọbid", "No", "Nọ\u{301}", "Nọ\u{301} Alau", "Nọ\u{301} Dú Am", "Ẹ\u{301}nta"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("zakaz"),
+			keywords: &["brak przejścia", "wejście", "zabronione", "zakaz", "znak"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("منع شوی"),
+			keywords: &["داخلېدل", "ممنوع", "منع", "منع شوی", "نه"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("proibido"),
+			keywords: &["entrada", "não", "proibida", "proibido", "sinal", "símbolo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["entrada", "fumar", "não", "proibida", "proibido"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("amatasqa"),
+			keywords: &["amatasqa", "mana", "manaraq", "yaykuna"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("interzis"),
+			keywords: &["fum", "interdicție", "interzis", "intrare", "nu"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-959"), keywords: &["E10-959"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("запрещено"),
+			keywords: &["вход", "входа", "запрещено", "зачеркнутый", "красный", "круг", "нельзя", "нет"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("birabujijwe"),
+			keywords: &["birabujijwe", "kibujijwe", "nta", "oya", "ubwinjiriro"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("منع ڪيل"),
+			keywords: &["داخلا", "ممنوعه", "منع ڪيل", "نه"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("තහනම\u{dca}ය"),
+			keywords: &["ඇත\u{dd4}ළ\u{dd4} ව\u{dd3}ම", "එප\u{dcf}", "තහනම\u{dca}", "තහනම\u{dca}ය", "නැත"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zákaz"),
+			keywords: &["nie", "vstup", "zakázané", "zakázaný", "značka", "zákaz"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("prepovedano"),
+			keywords: &["kajenje prepovedano", "ne", "ni vstopa", "prepovedano", "vstop"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("reebban"),
+			keywords: &["gelitaan", "ma jirto", "mamnuuc", "maya", "reebban"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ndalohet"),
+			keywords: &["hyrje", "jo", "ndalohet", "nuk", "tym"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("забрањено"),
+			keywords: &["забрањено", "нe", "нeмa", "улaз"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("zabranjeno"),
+			keywords: &["ne", "nema", "ulaz", "zabranjeno"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("förbjudet"),
+			keywords: &["förbjudet", "förbudsmarkering"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("imepigwa marufuku"),
+			keywords: &["hapana", "imepigwa marufuku", "katazwa", "kuingia", "siyo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி"),
+			keywords: &[
+				"அனுமதி இல\u{bcd}லை",
+				"அனுமதி இல\u{bcd}லை சின\u{bcd}னம\u{bcd}",
+				"தடுக\u{bcd}கப\u{bcd}பட\u{bcd}டது",
+				"தடைசெய\u{bcd}யப\u{bcd}பட\u{bcd}ட பகுதி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("న\u{c3f}ష\u{c3f}ద\u{c4d}ధం"),
+			keywords: &[
+				"ఇక\u{c4d}కడ ప\u{c4d}రవ\u{c47}శ\u{c3f}ంచవద\u{c4d}దు",
+				"ఎంట\u{c4d}ర\u{c40}",
+				"న\u{c3f}ష\u{c3f}ద\u{c4d}ధం",
+				"న\u{c4b}",
+				"ప\u{c4a}గ త\u{c4d}ర\u{c3e}గర\u{c3e}దు",
+				"ప\u{c4d}రవ\u{c47}శం",
+				"ప\u{c4d}రవ\u{c47}శం న\u{c3f}ష\u{c47}ధ\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
+				"ప\u{c4d}రవ\u{c47}శం ల\u{c47}దు",
+				"స\u{c4d}మ\u{c4b}క\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("манъ аст"),
+			keywords: &["вуруд", "манъ аст", "манъшуда", "не", "нест"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ป\u{e49}ายหวงห\u{e49}าม"),
+			keywords: &["ป\u{e49}ายหวงห\u{e49}าม", "ห\u{e49}ามเข\u{e49}า"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዝተኣገደ"),
+			keywords: &["ብሽክለታ", "ብሽክለታ ኣይፍቀድን", "ኣይኮነን", "ዝተኣገደ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gadagan"),
+			keywords: &["bolanok", "gadagan", "giriş", "ýok"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("tapu"), keywords: &["feʻaluʻaki", "tapu"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("girmek yasak"),
+			keywords: &["Girilmez", "girmek yasak", "işaret"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("چەكلەنگەن"),
+			keywords: &["كىرىش", "ياق", "يوق", "چەكلەنگەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("заборонено"),
+			keywords: &[
+				"вʼїзд заборонено",
+				"заборонено",
+				"забороняється",
+				"не дозволено",
+				"не допускається",
+				"немає",
+				"ні",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ممنوع"),
+			keywords: &["داخلہ", "سائن", "ممانعت", "ممنوع", "منع", "ٹریفک"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("to‘xtab turish taqiqlanadi"),
+			keywords: &[
+				"kirish",
+				"man qilingan",
+				"mumkin emas",
+				"taqiqlangan",
+				"to‘xtab turish taqiqlanadi",
+				"yo‘l",
+				"yo‘q",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("bị cấm"),
+			keywords: &["bị cấm", "cấm", "không", "không có", "lối vào"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("dañu koy tere"),
+			keywords: &["bul", "dañu koy tere", "dugg", "déet", "luñ tere"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("yalelwe"),
+			keywords: &["hayi", "ithintelwe", "nakanye", "ukungena", "yalelwe"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kosaye"),
+			keywords: &["kosaye", "kò", "rárá", "àbáwo\u{329}lé", "èèwọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kosaye"),
+			keywords: &["kosaye", "kò", "rárá", "àbáwo\u{329}lé", "èèwɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("禁止"),
+			keywords: &["不", "不可", "禁止", "進入"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("禁止"),
+			keywords: &["不", "不可", "禁止", "进入"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("禁止"),
+			keywords: &["不准", "不许", "严禁", "禁入", "禁止", "禁行", "阻止"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("禁止通行"),
+			keywords: &["禁止", "禁止通行", "禁止進入"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("禁止標誌"),
+			keywords: &["不准進入", "標誌", "禁止", "禁止標誌", "禁止通行", "禁止進入"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("okuvinjiwe"),
+			keywords: &["cha", "okunqatshelwe", "okuvinjiwe", "ukungena"],
+		},
+	],
 };

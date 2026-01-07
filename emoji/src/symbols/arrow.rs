@@ -1,159 +1,3 @@
-#[doc = "⬆\u{fe0f}"]
-pub const UP_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "⬆\u{fe0f}",
-	codepoint:            &[11014u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "up arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↗\u{fe0f}"]
-pub const UP_RIGHT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↗\u{fe0f}",
-	codepoint:            &[8599u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "up-right arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "➡\u{fe0f}"]
-pub const RIGHT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "➡\u{fe0f}",
-	codepoint:            &[10145u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "right arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↘\u{fe0f}"]
-pub const DOWN_RIGHT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↘\u{fe0f}",
-	codepoint:            &[8600u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "down-right arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⬇\u{fe0f}"]
-pub const DOWN_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "⬇\u{fe0f}",
-	codepoint:            &[11015u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "down arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↙\u{fe0f}"]
-pub const DOWN_LEFT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↙\u{fe0f}",
-	codepoint:            &[8601u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "down-left arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⬅\u{fe0f}"]
-pub const LEFT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "⬅\u{fe0f}",
-	codepoint:            &[11013u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "left arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↖\u{fe0f}"]
-pub const UP_LEFT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↖\u{fe0f}",
-	codepoint:            &[8598u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "up-left arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↕\u{fe0f}"]
-pub const UP_DOWN_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↕\u{fe0f}",
-	codepoint:            &[8597u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "up-down arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↔\u{fe0f}"]
-pub const LEFT_RIGHT_ARROW: crate::Emoji = crate::Emoji {
-	glyph:                "↔\u{fe0f}",
-	codepoint:            &[8596u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "left-right arrow",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↩\u{fe0f}"]
-pub const RIGHT_ARROW_CURVING_LEFT: crate::Emoji = crate::Emoji {
-	glyph:                "↩\u{fe0f}",
-	codepoint:            &[8617u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "right arrow curving left",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "↪\u{fe0f}"]
-pub const LEFT_ARROW_CURVING_RIGHT: crate::Emoji = crate::Emoji {
-	glyph:                "↪\u{fe0f}",
-	codepoint:            &[8618u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "left arrow curving right",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Arrow,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "⤴\u{fe0f}"]
 pub const RIGHT_ARROW_CURVING_UP: crate::Emoji = crate::Emoji {
 	glyph:                "⤴\u{fe0f}",
@@ -174,6 +18,32 @@ pub const RIGHT_ARROW_CURVING_DOWN: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
 	name:                 "right arrow curving down",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "➡\u{fe0f}"]
+pub const RIGHT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "➡\u{fe0f}",
+	codepoint:            &[10145u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "right arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⬇\u{fe0f}"]
+pub const DOWN_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "⬇\u{fe0f}",
+	codepoint:            &[11015u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "down arrow",
 	group:                crate::Group::Symbols,
 	subgroup:             crate::Subgroup::Arrow,
 	is_variant:           false,
@@ -1402,6 +1272,136 @@ pub const CLOCKWISE_VERTICAL_ARROWS: crate::Emoji = crate::Emoji {
 			],
 		},
 	],
+};
+#[doc = "⬅\u{fe0f}"]
+pub const LEFT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "⬅\u{fe0f}",
+	codepoint:            &[11013u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "left arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↗\u{fe0f}"]
+pub const UP_RIGHT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↗\u{fe0f}",
+	codepoint:            &[8599u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "up-right arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↘\u{fe0f}"]
+pub const DOWN_RIGHT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↘\u{fe0f}",
+	codepoint:            &[8600u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "down-right arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↙\u{fe0f}"]
+pub const DOWN_LEFT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↙\u{fe0f}",
+	codepoint:            &[8601u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "down-left arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↖\u{fe0f}"]
+pub const UP_LEFT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↖\u{fe0f}",
+	codepoint:            &[8598u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "up-left arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↩\u{fe0f}"]
+pub const RIGHT_ARROW_CURVING_LEFT: crate::Emoji = crate::Emoji {
+	glyph:                "↩\u{fe0f}",
+	codepoint:            &[8617u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "right arrow curving left",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↪\u{fe0f}"]
+pub const LEFT_ARROW_CURVING_RIGHT: crate::Emoji = crate::Emoji {
+	glyph:                "↪\u{fe0f}",
+	codepoint:            &[8618u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "left arrow curving right",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⬆\u{fe0f}"]
+pub const UP_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "⬆\u{fe0f}",
+	codepoint:            &[11014u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "up arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↕\u{fe0f}"]
+pub const UP_DOWN_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↕\u{fe0f}",
+	codepoint:            &[8597u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "up-down arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "↔\u{fe0f}"]
+pub const LEFT_RIGHT_ARROW: crate::Emoji = crate::Emoji {
+	glyph:                "↔\u{fe0f}",
+	codepoint:            &[8596u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "left-right arrow",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Arrow,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };
 #[doc = "🔄"]
 pub const COUNTERCLOCKWISE_ARROWS_BUTTON: crate::Emoji = crate::Emoji {

@@ -1,8 +1,12 @@
+use emoji::lookup_by_glyph::lookup;
+
 fn main() {
 	println!(
 		"There's only one emoji with the name 'shrimp'. It's: {}",
-		emoji::lookup_by_name::lookup("shrimp").unwrap().glyph
+		emoji::lookup_by_name::lookup("shrimp").unwrap().emoji().glyph
 	);
+
+	lookup("✅");
 
 	println!(
 		"There's no emoji called 'prawn'. However, searching through annotations for 'prawn' and taking the top result yields: {}",

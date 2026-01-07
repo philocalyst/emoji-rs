@@ -1,36 +1,23 @@
-#[doc = "🏔\u{fe0f}"]
-pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
-	glyph:                "🏔\u{fe0f}",
-	codepoint:            &[127956u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "snow-capped mountain",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "⛰\u{fe0f}"]
-pub const MOUNTAIN: crate::Emoji = crate::Emoji {
-	glyph:                "⛰\u{fe0f}",
-	codepoint:            &[9968u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "mountain",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "\u{1f6d8}"]
+#[doc = "🛘"]
 pub const LANDSLIDE: crate::Emoji = crate::Emoji {
-	glyph:                "\u{1f6d8}",
+	glyph:                "🛘",
 	codepoint:            &[128728u32],
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
 	name:                 "landslide",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏖\u{fe0f}"]
+pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
+	glyph:                "🏖\u{fe0f}",
+	codepoint:            &[127958u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "beach with umbrella",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
@@ -848,6 +835,84 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
 		},
 	],
 };
+#[doc = "🏕\u{fe0f}"]
+pub const CAMPING: crate::Emoji = crate::Emoji {
+	glyph:                "🏕\u{fe0f}",
+	codepoint:            &[127957u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "camping",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏝\u{fe0f}"]
+pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
+	glyph:                "🏝\u{fe0f}",
+	codepoint:            &[127965u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "desert island",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏜\u{fe0f}"]
+pub const DESERT: crate::Emoji = crate::Emoji {
+	glyph:                "🏜\u{fe0f}",
+	codepoint:            &[127964u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "desert",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏔\u{fe0f}"]
+pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
+	glyph:                "🏔\u{fe0f}",
+	codepoint:            &[127956u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "snow-capped mountain",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "⛰\u{fe0f}"]
+pub const MOUNTAIN: crate::Emoji = crate::Emoji {
+	glyph:                "⛰\u{fe0f}",
+	codepoint:            &[9968u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "mountain",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏞\u{fe0f}"]
+pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
+	glyph:                "🏞\u{fe0f}",
+	codepoint:            &[127966u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "national park",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "🗻"]
 pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
 	glyph:                "🗻",
@@ -1617,69 +1682,4 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
 			keywords: &["ifuji", "intaba"],
 		},
 	],
-};
-#[doc = "🏕\u{fe0f}"]
-pub const CAMPING: crate::Emoji = crate::Emoji {
-	glyph:                "🏕\u{fe0f}",
-	codepoint:            &[127957u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "camping",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🏖\u{fe0f}"]
-pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
-	glyph:                "🏖\u{fe0f}",
-	codepoint:            &[127958u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "beach with umbrella",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🏜\u{fe0f}"]
-pub const DESERT: crate::Emoji = crate::Emoji {
-	glyph:                "🏜\u{fe0f}",
-	codepoint:            &[127964u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "desert",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🏝\u{fe0f}"]
-pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
-	glyph:                "🏝\u{fe0f}",
-	codepoint:            &[127965u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "desert island",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🏞\u{fe0f}"]
-pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
-	glyph:                "🏞\u{fe0f}",
-	codepoint:            &[127966u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "national park",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };

@@ -1,15 +1,895 @@
-#[doc = "⚗\u{fe0f}"]
-pub const ALEMBIC: crate::Emoji = crate::Emoji {
-	glyph:                "⚗\u{fe0f}",
-	codepoint:            &[9879u32],
+#[doc = "📡"]
+pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
+	glyph:                "📡",
+	codepoint:            &[128225u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "alembic",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "satellite antenna",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Science,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("satellietantenna"),
+			keywords: &[
+				"antenna",
+				"antenne",
+				"kontak",
+				"satelliet",
+				"satellietantenna",
+				"satellietantenne",
+				"skottel",
+				"wetenskap",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሳተላይት አንቴና"),
+			keywords: &["ሳተላይት", "አንቴና", "ዲሽ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("طبق قمر صناعي"),
+			keywords: &[
+				"تواصل",
+				"دش",
+				"ساتلايت",
+				"ستلايت",
+				"صحن",
+				"طبق قمر صناعي",
+				"علم",
+				"قمر صناعي",
+				"هوائي",
+				"هوائي قمر صناعي",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}"),
+			keywords: &[
+				"উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}",
+				"এণ\u{9cd}টেন\u{9be}",
+				"ছেটেল\u{9be}ইট",
+				"ডিশ\u{9cd}ব",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("peyk antenası"),
+			keywords: &["antena", "peyk", "peyk antenası", "çanaq antenası"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("спадарожнікавая антэна"),
+			keywords: &["антэна", "спадарожнік", "спадарожнікавая антэна", "талерка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("сателитна антена"),
+			keywords: &["антена", "сателитна", "чиния"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}"),
+			keywords: &[
+				"অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
+				"উপগ\u{9cd}রহ",
+				"ডিশ",
+				"স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("stign loarell"),
+			keywords: &["loarell", "stign"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelitska", "tanjir"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("antena de satèl·lit"),
+			keywords: &[
+				"antena",
+				"antena de satèl·lit",
+				"ciència",
+				"contacte",
+				"extraterrestres",
+				"plat",
+				"satèl·lit",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"),
+			keywords: &["ᎤᏅᏪᏓ", "ᎦᎸᎳᏗ ᎡᏙᎯ ᎾᏏᎳᏛᎾ ᎦᏂᏱᏍᎩ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("satelitní anténa"),
+			keywords: &[
+				"anténa",
+				"družice",
+				"kontakt",
+				"parabolická anténa",
+				"satelit",
+				"satelitní anténa",
+				"talíř",
+				"věda",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("antena lloeren"),
+			keywords: &["antena", "lloeren"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("parabolantenne"),
+			keywords: &[
+				"aliens",
+				"antenne",
+				"parabol",
+				"parabolantenne",
+				"radioteleskop",
+				"rumvæsner",
+				"satellit",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Satellitenschüssel"),
+			keywords: &["Antenne", "Sat-Schüssel", "Satellitenschüssel", "Satschüssel", "Schüssel"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("δορυφορική κεραία"),
+			keywords: &["δορυφορική", "δορυφόρος", "εξωγήινοι", "επαφή", "κεραία", "πιάτο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("satellite antenna"),
+			keywords: &["aliens", "antenna", "contact", "dish", "satellite", "science"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("satellite dish"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("antena de satélite"),
+			keywords: &["antena", "antena de satélite", "comunicación", "satélite"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("antena satelital"),
+			keywords: &[
+				"antena",
+				"antena de satélite",
+				"antena satelital",
+				"comunicación",
+				"emisión",
+				"satélite",
+				"señal",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("satelliitantenn"),
+			keywords: &["antenn", "satelliit", "satelliitantenn", "taldrik"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("satelite bidezko antena"),
+			keywords: &["antena", "parabolikoa", "satelite bidezko antena"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("آنتن ماهواره"),
+			keywords: &["آنتن", "بشقاب", "دیش", "ماهواره"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("lautasantenni"),
+			keywords: &["antenni", "lautanen", "lautasantenni", "satelliitti", "satelliittiantenni"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("satellite antenna"),
+			keywords: &["antenna", "dish", "satellite"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("parabolur"),
+			keywords: &["antenna", "parabolur", "skálkampur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("antenne satellite"),
+			keywords: &["antenne", "antenne parabolique", "parabole", "satellite", "science"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("aeróg satailíte"),
+			keywords: &[
+				"aeróg",
+				"aeróg satailíte",
+				"aeróg shatailíte",
+				"eolaíocht",
+				"mias",
+				"mias satailíte",
+				"satailít",
+				"teagmháil",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("iadhaire-saideil"),
+			keywords: &["iadhaire", "iadhaire-saideil", "saideal", "soitheach"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("antena de satélite"),
+			keywords: &["antena", "antena de satélite", "satélite"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{ac7}ટ\u{ac7}લાઇટ એન\u{acd}ટ\u{ac7}ના"),
+			keywords: &[
+				"એન\u{acd}ટ\u{ac7}ના",
+				"ડિશ",
+				"સ\u{a82}ચાર",
+				"સ\u{a82}ચારણ",
+				"સાધન",
+				"સ\u{ac7}ટ\u{ac7}લાઇટ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("eriya na kumbo"),
+			keywords: &[
+				"dish",
+				"eriya",
+				"eriya na kumbo",
+				"kama tasha",
+				"kimiyya",
+				"kumbo",
+				"sadarwa",
+				"sararin samaniya",
+				"satalayit",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("eriya na kumbo"),
+			keywords: &[
+				"dish",
+				"eriya",
+				"eriya na kumbo",
+				"kama tasha",
+				"kimiyya",
+				"kumbo",
+				"sadarwa",
+				"sararin samaniya",
+				"satalayit",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("צלחת לוויין"),
+			keywords: &["אנטנה", "לוויין", "צלחת", "תקשורת"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना"),
+			keywords: &[
+				"उपग\u{94d}रह",
+				"डिश",
+				"स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना",
+				"स\u{948}ट\u{947}लाइट डिश",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelit", "satelitska antena", "tanjur"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("parabolaantenna"),
+			keywords: &["antenna", "műhold", "parabola antenna", "parabolaantenna", "tányér"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("արբանյակային ալեհավաք"),
+			keywords: &["ալեհավաք", "արբանյակ", "արբանյակային ալեհավաք", "ափսե"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "piring", "satelit"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("akara satịlitị"),
+			keywords: &["akara", "dishi", "satịlitị"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("gervihnattaloftnet"),
+			keywords: &["diskur", "gervihnattadiskur", "gervihnattaloftnet", "loftnet"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("antenna satellitare"),
+			keywords: &[
+				"antenna",
+				"antenna parabolica",
+				"antenne paraboliche",
+				"antenne satellitari",
+				"comunicazione",
+				"parabola",
+				"satellitare",
+				"satellite",
+				"scienza",
+				"scienze",
+				"tecnologia",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("パラボラアンテナ"),
+			keywords: &["アンテナ", "パラボラ", "パラボラアンテナ", "科学", "衛星アンテナ", "電波"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "parabola", "satelit"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("თანამგზავრული ანტენა"),
+			keywords: &["ანტენა", "თანამგზავრი", "თანამგზავრული", "თეფში", "სატელიტი", "სატელიტური"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("серіктік антенна"),
+			keywords: &["антенна", "серіктік", "тәрелке", "ғылым"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("parabolantenne"),
+			keywords: &["kommunikation", "parabolantenne"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ចានផ\u{17d2}កាយរណប"),
+			keywords: &["ចានផ\u{17d2}កាយរណប", "ផ\u{17d2}កាយរណប", "អង\u{17cb}តែន"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಉಪಗ\u{ccd}ರಹ ಆಂಟ\u{cc6}ನಾ"),
+			keywords: &[
+				"ಆಂಟ\u{cc6}ನಾ",
+				"ಉಪಗ\u{ccd}ರಹ",
+				"ಡ\u{cbf}ಶ\u{ccd}",
+				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
+				"ಸಂಪರ\u{ccd}ಕ",
+				"ಸಂವಹನ",
+				"ಸಾಟ\u{ccd}ಲ\u{cc8}ಟ\u{ccd} ಆಂಟ\u{cc6}ನಾ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("위성 안테나"),
+			keywords: &["과학", "발견", "안테나", "외계인", "위성", "위성 방송", "접시"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उपगिरो एण\u{94d}ट\u{947}ना"),
+			keywords: &["उपगिरो", "एण\u{94d}ट\u{947}ना", "डीश"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("спутниктик антенна"),
+			keywords: &["антенна", "спутник", "спутниктик антенна", "табак"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Satellittenantenn"),
+			keywords: &["Antenn", "Satellitt", "Satellittenantenn", "Teller"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເສ\u{ebb}າອາກາດດາວທຽມ"),
+			keywords: &["ດາວທຽມ", "ເສ\u{ebb}າອາກາດ", "ເສ\u{ebb}າອາກາດດາວທຽມ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("palydovinė antena"),
+			keywords: &["antena", "indas", "mokslas", "palydovas", "palydovinė antena"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("satelīta šķīvis"),
+			keywords: &["antena", "satelīta šķīvis", "satelīts", "šķīvis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("pūhihi amiorangi"),
+			keywords: &["amiorangi", "pūhihi", "rīhi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("сателитска антена"),
+			keywords: &["антена", "вонземјани", "контакт", "наука", "сателит", "сателитска", "чинија"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d} ആന\u{d4d}റിന"),
+			keywords: &[
+				"ആന\u{d4d}റിന",
+				"ആശയവിനിമയം",
+				"ടിവി ആന\u{d4d}റിന",
+				"ഡിഷ\u{d4d}",
+				"സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хиймэл дагуулын антен"),
+			keywords: &["антен", "таваг", "хиймэл дагуул", "хиймэл дагуулын антен"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना"),
+			keywords: &[
+				"अ\u{901}टिना",
+				"अ\u{901}ट\u{947}ना",
+				"उपग\u{94d}रह",
+				"उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना",
+				"उपग\u{94d}रह ए\u{902}टिना",
+				"डिश",
+				"स\u{902}वाद",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "hubungi", "makhluk asing", "piring", "sains", "satelit"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("antenna tas-satellita"),
+			keywords: &["antenna", "antenna tas-satellita", "dixx", "satellita"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း"),
+			keywords: &[
+				"ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း",
+				"ဆက\u{103a}သယ\u{103a}ရေး ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f}",
+				"ဧရ\u{102e}ယာတ\u{102d}\u{102f}င\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}याटलाइट एन\u{94d}ट\u{947}ना"),
+			keywords: &["एन\u{94d}ट\u{947}ना", "डिस\u{94d}", "स\u{94d}याटलाइट"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("satellietschotel"),
+			keywords: &["antenne", "communicatie", "satelliet", "satellietschotel", "schotel"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}"),
+			keywords: &[
+				"ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
+				"ଡ\u{b3f}ସ\u{b4d}",
+				"ଯୋଗ\u{b3e}ଯୋଗ",
+				"ସ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}",
+				"ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ"),
+			keywords: &[
+				"ਅ\u{a70}ਟੀਨਾ",
+				"ਏਲੀਅਨ",
+				"ਐਨਟੀਨਾ",
+				"ਡਿਸ\u{a3c}",
+				"ਸ\u{a48}ਟਲਾਈਟ",
+				"ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ",
+				"ਸ\u{a70}ਚਾਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("سیٹلائٹ انٹینا"),
+			keywords: &["انٹینا", "تھالی", "سیٹلائٹ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Sátálaít Antẹ\u{301}na"),
+			keywords: &["Antẹ\u{301}na", "Dish", "Sátálait", "Sátálaít Antẹ\u{301}na"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("antena satelitarna"),
+			keywords: &[
+				"antena",
+				"antena satelitarna",
+				"czasza",
+				"kosmici",
+				"nauka",
+				"obcy",
+				"satelita",
+				"talerz",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د سپوږمکۍ انټينا"),
+			keywords: &["انټينا", "د سپوږمکۍ انټينا", "سپوږمکۍ", "ډش"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("antena parabólica"),
+			keywords: &["antena", "comunicação", "parabólica", "satélite"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("antenă satelit"),
+			keywords: &["antenă", "comunicare", "contact", "extratereștri", "satelit", "știință"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-670"), keywords: &["E10-670"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("спутниковая антенна"),
+			keywords: &["антенна", "спутник", "спутниковая"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("anteni y’icyogajuru"),
+			keywords: &["anteni", "anteni y’icyogajuru", "icyogajuru", "isahani"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("سيٽ لائيٽ اينٽينا"),
+			keywords: &["اينٽينا", "سيٽ لائيٽ اينٽينا", "سيٽيلائيٽ", "ڊش"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව"),
+			keywords: &[
+				"ඇන\u{dca}ටන\u{dcf}ව",
+				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව",
+				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf}ව",
+				"ඩ\u{dd2}ෂ\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("satelitná anténa"),
+			keywords: &["anténa", "kontakt", "satelit", "satelitná anténa", "tanier", "veda"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "krožnik", "satelit", "satelitska antena", "satelitsko"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("aanteenada satalaytka"),
+			keywords: &["aanteena", "aanteenada satalaytka", "satalayt", "sixni"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("antenë satelitore"),
+			keywords: &["alien", "antenë", "kontakt", "satelit", "satelitore", "shkencë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("сателитска антена"),
+			keywords: &["антена", "ванземаљци", "сaтeлит", "сателитска", "тањир"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelit", "satelitska", "tanjir", "vanzemaljci"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("tv-satellit"),
+			keywords: &["antenn", "kommunikation", "satellit", "tv-satellit", "tv-satellitantenn"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("antena ya setilaiti"),
+			keywords: &["antena", "antena ya setilaiti", "dishi", "setilaiti", "ungo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}"),
+			keywords: &[
+				"ஆண\u{bcd}டென\u{bbe}",
+				"ஆன\u{bcd}டன\u{bbe}",
+				"ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}",
+				"செயற\u{bcd}கை கோள\u{bcd}",
+				"செயற\u{bcd}கைக\u{bcd}கோள\u{bcd}",
+				"டிவி",
+				"டிஷ\u{bcd}",
+				"தொடர\u{bcd}பு",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}"),
+			keywords: &[
+				"ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
+				"ఎల\u{c3f}యన\u{c4d}స\u{c4d}",
+				"క\u{c3e}ంట\u{c3e}క\u{c4d}ట\u{c4d}",
+				"డ\u{c3f}ష\u{c4d}",
+				"వ\u{c3f}జ\u{c4d}ఞ\u{c4d}య\u{c3e}నం",
+				"శ\u{c3e}ట\u{c3f}ల\u{c48}ట\u{c4d} య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
+				"స\u{c3e}ట\u{c3f}ల\u{c4d}ల\u{c48}ట\u{c4d} ఆంట\u{c46}న\u{c4d}న\u{c3e}",
+				"స\u{c48}న\u{c4d}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("антеннаи моҳвораӣ"),
+			keywords: &["антенна", "антеннаи моҳвораӣ", "моҳвора", "табақ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("จานดาวเท\u{e35}ยม"),
+			keywords: &["จาน", "จานดาวเท\u{e35}ยม", "ดาวเท\u{e35}ยม", "เสาอากาศ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሳተላይት ኣንቴና"),
+			keywords: &["ርክብ", "ሳተላይት", "ሳይንስ", "ኣንቴና", "ወጻእተኛታት", "ድስቲ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("hemra antennasy"),
+			keywords: &["anten", "hemra", "hemra antennasy", "tarelka"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tisi satelaite"),
+			keywords: &["tisi satelaite"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("uydu anteni"),
+			keywords: &["anten", "iletişim", "uydu", "uydu anteni", "çanak"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("سۈنئىي ھەمرا ئانتېنناسى"),
+			keywords: &["ئانتېننا", "تەخسە", "سۈنئىي ھەمرا ئانتېنناسى", "سۈنئىي ھەمراھ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("супутникова антена"),
+			keywords: &["антена", "супутникова", "тарілка"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سیٹلائٹ انٹینا"),
+			keywords: &["آلہ", "ابلاغ", "انٹینا", "رابطہ", "سٹلائٹ", "سیٹلائٹ انٹینا", "طشتری", "ڈش"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("sun’iy yo‘ldoshli antenna"),
+			keywords: &["aloqa", "antenna", "lagan", "sunʼiy yoʻldosh", "sun’iy yo‘ldoshli antenna"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("ăng-ten vệ tinh"),
+			keywords: &["vệ tinh", "ăng-ten", "ăng-ten vệ tinh", "đĩa"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("àntenu satelit"),
+			keywords: &["satelit", "sukup", "ànten", "àntenu satelit"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("intonga yesathelayithi"),
+			keywords: &["i-dish", "i-satellite", "intonga", "intonga yesathelayithi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("eria satalaiti"),
+			keywords: &["eria satalaiti", "àtagbà", "àwo", "ẹ\u{300}rọ alátagbà nlá"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("eria satalaiti"),
+			keywords: &["eria satalaiti", "àtagbà", "àwo", "ɛ\u{300}rɔ alátagbà nlá"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("衛星天線"),
+			keywords: &["天線", "碟", "衛星", "衛星天線"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("卫星天线"),
+			keywords: &["卫星", "卫星天线", "天线", "碟"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("卫星天线"),
+			keywords: &[
+				"信号接收",
+				"卫星",
+				"卫星天线",
+				"卫星接收天线",
+				"卫星碟形天线",
+				"外星人",
+				"天线",
+				"接触",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("衛星天線"),
+			keywords: &["外星人", "天線", "衛星天線"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["外星人", "天線", "太空", "宇宙", "碟", "科學", "衛星"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("u-eriyeli wesethelaythi"),
+			keywords: &["indishi", "isethelaythi", "u-eriyeli", "u-eriyeli wesethelaythi"],
+		},
+	],
 };
 #[doc = "🧪"]
 pub const TEST_TUBE: crate::Emoji = crate::Emoji {
@@ -1062,6 +1942,1932 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("ishubhu lokuhlola"),
 			keywords: &["chemist", "chemistry", "experiment", "ishubhu lokuhlola", "lab", "science"],
+		},
+	],
+};
+#[doc = "🔬"]
+pub const MICROSCOPE: crate::Emoji = crate::Emoji {
+	glyph:                "🔬",
+	codepoint:            &[128300u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "microscope",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Science,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("mikroskoop"),
+			keywords: &[
+				"eksperiment",
+				"laboratorium",
+				"mikroskoop",
+				"ondersoek",
+				"toerusting",
+				"vergroot",
+				"wetenskap",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ማይክሮስኮፕ"),
+			keywords: &["ላቦራቶሪ", "መሣሪያ", "መግልገያ", "ማይክሮስኮፕ", "ምርምር", "ሳይንስ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ميكروسكوب"),
+			keywords: &["أداة", "بحث", "تجارب", "طب", "طبابة", "علم", "فحص", "مختبر", "ميكروسكوب"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("অন\u{9c1}বীক\u{9cd}ষণ যন\u{9cd}ত\u{9cd}ৰ"),
+			keywords: &[
+				"অন\u{9c1}বীক\u{9cd}ষণ যন\u{9cd}ত\u{9cd}ৰ",
+				"বিজ\u{9cd}ঞ\u{9be}ন",
+				"স\u{981}জ\u{9c1}লি",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("mikroskop"),
+			keywords: &["alət", "mikroskop"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("мікраскоп"),
+			keywords: &["мікраскоп", "прыбор", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("микроскоп"),
+			keywords: &["експеримент", "инструмент", "лаборатория", "микроскоп", "наука"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ম\u{9be}ইক\u{9cd}রোস\u{9cd}কোপ"),
+			keywords: &["বিজ\u{9cd}ঞ\u{9be}ন", "ম\u{9be}ইক\u{9cd}রোস\u{9cd}কোপ", "সরঞ\u{9cd}জ\u{9be}ম"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("mikroskop"),
+			keywords: &["benveg", "mikroskop", "skiant"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("mikroskop"),
+			keywords: &["alat", "mikroskop"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("microscopi"),
+			keywords: &["augment", "ciència", "eina", "laboratori", "microscopi"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏍᏗ ᎪᎱᏍᏗ ᎠᎪᎵᏱᏍᏙᏗ"),
+			keywords: &["ᎠᎬᏛᏂᏓᏍᏗ", "ᎤᏍᏗ ᎪᎱᏍᏗ ᎠᎪᎵᏱᏍᏙᏗ", "ᎬᏔᏂᏓᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("mikroskop"),
+			keywords: &[
+				"experiment",
+				"laboratoř",
+				"mikroskop",
+				"nástroj",
+				"pokus",
+				"výzkum",
+				"věda",
+				"vědecký",
+				"zvětšení",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("microsgop"),
+			keywords: &["microsgop", "offeryn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("mikroskop"),
+			keywords: &["mikroskop", "naturfag", "redskab", "videnskab", "værktøj"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Mikroskop"),
+			keywords: &["Labor", "Mikroskop", "Wissenschaft", "untersuchen"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μικροσκόπιο"),
+			keywords: &["επιστήμη", "εργαλείο", "εργαστήριο", "μικροσκόπιο", "πείραμα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("microscope"),
+			keywords: &["experiment", "lab", "microscope", "science", "tool"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("microscopio"),
+			keywords: &["instrumento", "laboratorio", "microscopio"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"biología",
+				"experimento",
+				"instrumento",
+				"investigación",
+				"laboratorio",
+				"microscopio",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("mikroskoop"),
+			keywords: &["eksperiment", "labor", "mikroskoop", "teadus", "tööriist"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("mikroskopioa"),
+			keywords: &["mikroskopioa", "tresna"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("میکروسکوپ"),
+			keywords: &["آزمایشگاه", "ابزار", "علم", "میکروسکوپ"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("mikroskooppi"),
+			keywords: &["koe", "mikroskooppi", "tiede", "työkalu"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("microscope"),
+			keywords: &[
+				"agham",
+				"eksperimento",
+				"experiment",
+				"kagamitan",
+				"microscope",
+				"mikroskopyo",
+				"siyensiya",
+				"tool",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("mikroskop"),
+			keywords: &["mikroskop", "náttúruvísindi", "sjóneyka", "vísind"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("microscope"),
+			keywords: &["expérience", "laboratoire", "microscope", "outil", "science"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["microscope", "outi", "science"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("micreascóp"),
+			keywords: &["eolaíocht", "micreascóp", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("micreosgop"),
+			keywords: &["acainn", "glainne", "inneal", "meudachadh", "micreosgop", "saidheans"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("microscopio"),
+			keywords: &["ciencia", "laboratorio", "microscopio"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("માઇક\u{acd}રોસ\u{acd}કોપ"),
+			keywords: &[
+				"ઉપકરણ",
+				"ટ\u{ac2}લ",
+				"પ\u{acd}રયોગશાળા",
+				"માઇક\u{acd}રોસ\u{acd}કોપ",
+				"ય\u{a82}ત\u{acd}ર",
+				"વિજ\u{acd}ઞાન",
+				"સાધન",
+				"સ\u{ac2}ક\u{acd}ષ\u{acd}મદર\u{acd}શક ય\u{a82}ત\u{acd}ર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("madubin kimiyya"),
+			keywords: &[
+				"gwaje-gwaje",
+				"gwaji",
+				"kayan aiki",
+				"kimiyya",
+				"madubin bincike",
+				"madubin kimiyya",
+				"ɗakin bincike",
+				"ɗakin gwaji",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("madubin kimiyya"),
+			keywords: &[
+				"gwaje-gwaje",
+				"gwaji",
+				"kayan aiki",
+				"kimiyya",
+				"madubin bincike",
+				"madubin kimiyya",
+				"ɗakin bincike",
+				"ɗakin gwaji",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מיקרוסקופ"),
+			keywords: &["מדע", "מחקר", "מיקרוסקופ"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("माइक\u{94d}रोस\u{94d}कोप"),
+			keywords: &["उपकरण", "प\u{94d}रयोग", "माइक\u{94d}रोस\u{94d}कोप", "विज\u{94d}ञान"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("mikroskop"),
+			keywords: &["alat", "eksperiment", "laboratorij", "mikroskop", "znanost"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("mikroszkóp"),
+			keywords: &[
+				"biológia",
+				"eszköz",
+				"felszerelés",
+				"kísérlet",
+				"laboratórium",
+				"mikroszkóp",
+				"tudomány",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մանրադիտակ"),
+			keywords: &["գործիք", "մանրադիտակ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("mikroskop"),
+			keywords: &["alat", "eksperimen", "mikroskop", "percobaan", "sains"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ugogbe nnyota nje"),
+			keywords: &["ngwaọrụ", "sanyensi", "ugogbe nnyota nje"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("smásjá"),
+			keywords: &["smásjá", "verkfæri", "vísindi"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("microscopio"),
+			keywords: &[
+				"analisi",
+				"esperimento",
+				"microrganismo",
+				"microscopio",
+				"ricerca",
+				"scienza",
+				"scienziata",
+				"scienziato",
+				"strumento",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("顕微鏡"),
+			keywords: &["サイエンス", "実験", "研究", "科学", "顕微鏡"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("mikroskop"),
+			keywords: &["mikroskop", "pranti", "sains"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მიკროსკოპი"),
+			keywords: &["ინსტრუმენტი", "მიკროსკოპი", "ხელსაწყო"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("amikruskup"), keywords: &["amikruskup"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("микроскоп"),
+			keywords: &["зертхана", "микроскоп", "ғылым", "құрал"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("mikroskop"),
+			keywords: &["mikroskop", "redskab", "værktøj"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17b8}ក\u{17d2}រ\u{17bc}ទស\u{17d2}សន\u{17cd}"),
+			keywords: &["ឆ\u{17d2}ល\u{17bb}ះ", "ម\u{17b8}ក\u{17d2}រ\u{17bc}ទស\u{17d2}សន\u{17cd}"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}"),
+			keywords: &[
+				"ಉಪಕರಣ",
+				"ಪ\u{ccd}ರಯ\u{ccb}ಗ",
+				"ಪ\u{ccd}ರಯ\u{ccb}ಗಾಲಯ",
+				"ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}",
+				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
+				"ಸಾಧನ",
+				"ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮದರ\u{ccd}ಶಕ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("현미경"),
+			keywords: &["과학", "기구", "도구", "실험", "연구실", "장치", "현미경"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("मायक\u{94d}रोस\u{94d}कोप"),
+			keywords: &["मायक\u{94d}रोस\u{94d}कोप", "विज\u{94d}ञान", "साधन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("микроскоп"),
+			keywords: &["курал", "микроскоп"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Mikroskop"),
+			keywords: &["Apparat", "Mikroskop", "Wëssenschaft"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ກ\u{ec9}ອງຈ\u{eb8}ລະທ\u{eb1}ດ"),
+			keywords: &[
+				"ກ\u{ec9}ອງຈ\u{eb8}ລະທ\u{eb1}ດ",
+				"ທ\u{ebb}ດລອງ",
+				"ເຄ\u{eb7}\u{ec8}ອງທ\u{ebb}ດລອງ",
+				"ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}",
+				"ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}ທ\u{ebb}ດລອງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("mikroskopas"),
+			keywords: &["laboratorija", "mikroskopas", "mokslas", "įrankis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("mikroskops"),
+			keywords: &["eksperiments", "laboratorija", "mikroskops", "rīks", "zinātne"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("pūwhārahi"),
+			keywords: &["pūtaiao", "pūwhārahi", "utauta"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("микроскоп"),
+			keywords: &["алатка", "експеримент", "лабораторија", "микроскоп", "наука"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മൈക\u{d4d}രോസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"),
+			keywords: &["ഉപകരണം", "മൈക\u{d4d}രോസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("микроскоп"),
+			keywords: &["багаж", "микроскоп"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("मायक\u{94d}रोस\u{94d}कोप"),
+			keywords: &[
+				"बारीक नजर",
+				"मायक\u{94d}रोस\u{94d}कोप",
+				"मासक\u{94d}रोस\u{94d}कोप",
+				"विज\u{94d}ञान",
+				"साधन",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("mikroskop"),
+			keywords: &["alat", "eksperimen", "makmal", "mikroskop", "sains"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("mikroskopju"),
+			keywords: &["għodda", "mikroskopju", "xjenza"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အဏ\u{102f}ကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း"),
+			keywords: &[
+				"က\u{102d}ရ\u{102d}ယာ",
+				"အဏ\u{102f}ကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{941}क\u{94d}ष\u{94d}मदर\u{94d}शक यन\u{94d}त\u{94d}र"),
+			keywords: &[
+				"उपकरण",
+				"विज\u{94d}ञान",
+				"स\u{941}क\u{94d}ष\u{94d}मदर\u{94d}शक यन\u{94d}त\u{94d}र",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("microscoop"),
+			keywords: &[
+				"experiment",
+				"gereedschap",
+				"instrument",
+				"laboratorium",
+				"microscoop",
+				"onderzoek",
+				"wetenschap",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["forsking", "mikroskop", "verktøy", "vitskap"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମ\u{b3e}ଇକ\u{b4d}ରୋସ\u{b4d}କୋପ\u{b4d}\u{200c}"),
+			keywords: &["ମ\u{b3e}ଇକ\u{b4d}ରୋସ\u{b4d}କୋପ\u{b4d}\u{200c}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਮਾਈਕਰ\u{a4b}\u{a4b}ਸਕ\u{a4b}ਪ"),
+			keywords: &[
+				"ਔਜ\u{a3c}ਾਰ",
+				"ਟ\u{a42}ਲ",
+				"ਤਜਰਬਾ",
+				"ਪ\u{a4d}ਰਯ\u{a4b}ਗਸ\u{a3c}ਾਲਾ",
+				"ਮਾਈਕਰ\u{a4b}ਸਕ\u{a4b}ਪ",
+				"ਮਾਈਕਰ\u{a4b}\u{a4b}ਸਕ\u{a4b}ਪ",
+				"ਰਸਾਇਣਸ\u{a3c}ਾਲਾ",
+				"ਲ\u{a47}ਬਾਰਟਰੀ",
+				"ਲ\u{a48}ਬ",
+				"ਵਿਗਿਆਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("خورد بین"),
+			keywords: &["اوزار", "خورد بین", "سائنس"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Maíkroskop"),
+			keywords: &["Maíkroskop", "Sáyẹns", "Tul"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("mikroskop"),
+			keywords: &["laboratorium", "mikroskop", "nauka", "obserwacja", "powiększenie"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("مایکروسکوپ"),
+			keywords: &["اله", "سائينس", "مايکروسکوپ", "مایکروسکوپ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("microscópio"),
+			keywords: &["ciência", "ferramenta", "microscópico", "microscópio"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["ciência", "experiência", "ferramenta", "instrumento", "microscópio"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation { lang: "qu", tts: Some("microscopio"), keywords: &["microscopio"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("microscop"),
+			keywords: &[
+				"cercetare",
+				"experiment",
+				"instrument",
+				"laborator",
+				"medical",
+				"microscop",
+				"știință",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-744"), keywords: &["E10-744"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("микроскоп"),
+			keywords: &[
+				"биология",
+				"изучать",
+				"инструмент",
+				"исследовать",
+				"клетки",
+				"лупа",
+				"микробы",
+				"микроскоп",
+				"прибор",
+				"увеличение",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("mikorosikope"),
+			keywords: &["igikoresho", "mikorosikope", "siyansi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("مائڪرو اسڪوپ"),
+			keywords: &["سائنس، اوزار", "مائڪرو اسڪوپ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("අණ\u{dca}ව\u{dd3}ක\u{dca}ෂය"),
+			keywords: &["අණ\u{dca}ව\u{dd3}ක\u{dca}ෂය", "මෙවලම"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("mikroskop"),
+			keywords: &["laboratórium", "mikroskop", "nástroj", "veda", "vzdelanie", "výskum", "škola"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("mikroskop"),
+			keywords: &["laboratorij", "mikroskop", "orodje", "poskus", "znanost"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("maykriskoob"),
+			keywords: &["maykriskoob", "qalab", "saynis"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("mikroskop"),
+			keywords: &["eksperiment", "instrument", "laborator", "mikroskop", "shkencë", "vegël"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("микроскоп"),
+			keywords: &["алат", "експеримент", "лабораторија", "микроскоп", "наука"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mikroskop"),
+			keywords: &["alat", "eksperiment", "laboratorija", "mikroskop", "nauka"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("mikroskop"),
+			keywords: &["mikroskop", "vetenskap"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("hadubini"),
+			keywords: &["hadubini", "zana"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மைக\u{bcd}ரோஸ\u{bcd}கோப\u{bcd}"),
+			keywords: &[
+				"அறிவியல\u{bcd}",
+				"ஆர\u{bbe}ய\u{bcd}ச\u{bcd}சி",
+				"கருவி",
+				"நுண\u{bcd}ணோக\u{bcd}கி",
+				"பரிசோதனை",
+				"பெரித\u{bbe}க\u{bcd}கம\u{bcd}",
+				"பெருக\u{bcd}கி",
+				"பொருள\u{bcd}",
+				"மைக\u{bcd}ரோஸ\u{bcd}கோப\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మ\u{c48}క\u{c4d}ర\u{c4b}స\u{c4d}క\u{c4b}ప\u{c4d}"),
+			keywords: &[
+				"టూల\u{c4d}",
+				"మ\u{c48}క\u{c4d}ర\u{c4b}స\u{c4d}క\u{c4b}ప\u{c4d}",
+				"ల\u{c4d}య\u{c3e}బ\u{c4d}",
+				"వ\u{c3f}జ\u{c4d}ఞ\u{c3e}నము",
+				"సూక\u{c4d}ష\u{c4d}మదర\u{c4d}శ\u{c3f}న\u{c3f}",
+				"స\u{c48}న\u{c4d}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("микроскоп"),
+			keywords: &["асбоб", "илм", "микроскоп"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("กล\u{e49}องจ\u{e38}ลทรรศน\u{e4c}"),
+			keywords: &[
+				"กล\u{e49}องจ\u{e38}ลทรรศน\u{e4c}",
+				"ทดลอง",
+				"ว\u{e34}ทยาศาสตร\u{e4c}",
+				"เคร\u{e37}\u{e48}องม\u{e37}อ",
+				"แล\u{e47}บ",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ማይክሮስኮፕ"),
+			keywords: &["መሳርሒ", "ማይክሮስኮፕ", "ሳይንስ", "ቤተ ፈተነ", "ፈተነ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("mikroskop"),
+			keywords: &["gural", "mikroskop", "ylym"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("meʻa fakaʻataefu"),
+			keywords: &["meʻa fakaʻataefu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("mikroskop"),
+			keywords: &["alet", "bilim", "labrotuar", "mikroskop", "test"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("مىكروسكوپ"),
+			keywords: &["قورال", "مىكروسكوپ", "پەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("мікроскоп"),
+			keywords: &["мікроскоп", "інструмент"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("مائیکروسکوپ"),
+			keywords: &["آلہ", "سکوپ", "مائیکرو", "مائیکروسکوپ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("mikroskop"),
+			keywords: &["asbob", "laboratoriya", "mikroskop", "tajriba"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("kính hiển vi"),
+			keywords: &["dụng cụ", "khoa học", "kính hiển vi", "kính hiển vị", "thí nghiệm"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("mikroskop"),
+			keywords: &["jumtukaay", "mikroskop", "xarala"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("i-microscope"),
+			keywords: &["i-microscope", "inzululwazi", "isixhobo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("maikirosikopu"),
+			keywords: &["irinṣẹ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("maikirosikopu"),
+			keywords: &["irinshɛ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("顯微鏡"),
+			keywords: &["工具", "科學", "顯微鏡"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("显微镜"),
+			keywords: &["工具", "显微镜", "科学"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("显微镜"),
+			keywords: &["实验", "实验室", "工具", "显微镜", "生物", "科学", "细胞"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("顯微鏡"),
+			keywords: &["實驗", "實驗室", "顯微鏡"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["實驗", "實驗室", "工具", "科學", "顯微鏡"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("i-microscope"),
+			keywords: &["i-microscope", "ithuluzi"],
+		},
+	],
+};
+#[doc = "⚗\u{fe0f}"]
+pub const ALEMBIC: crate::Emoji = crate::Emoji {
+	glyph:                "⚗\u{fe0f}",
+	codepoint:            &[9879u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "alembic",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Science,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🧬"]
+pub const DNA: crate::Emoji = crate::Emoji {
+	glyph:                "🧬",
+	codepoint:            &[129516u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
+	name:                 "dna",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Science,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("dna"),
+			keywords: &[
+				"DNS",
+				"bioloog",
+				"dna",
+				"evolusie",
+				"gene",
+				"genetika",
+				"lewe",
+				"lewenskode",
+				"selkern",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ዲኤንኤ"),
+			keywords: &[
+				"ህይወት",
+				"ለውጥ",
+				"ዘረመል",
+				"ዝግመተ ለውጥ",
+				"የባዮሎጂ ሰው",
+				"የባዮሎጂ ባለሙያ",
+				"ዲኤንኤ",
+				"ጄኔቲክስ",
+				"ጅን",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("الحامض النووي"),
+			keywords: &[
+				"dna",
+				"أحيائي",
+				"الجينوم",
+				"الحامض النووي",
+				"الحياة",
+				"بيولوجي",
+				"تطور",
+				"جين",
+				"جينات",
+				"جيني",
+				"حلزون",
+				"حياة",
+				"دي إن إيه",
+				"دي ان اي",
+				"علم الجينات",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ডিএনএ"),
+			keywords: &["জিন", "জীববিজ\u{9cd}ঞ\u{9be}নী", "জীৱন", "ডিএনএ", "বংশগত", "বিবৰ\u{9cd}তন"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("dnt"),
+			keywords: &["bioloq", "dnt", "gen", "genetika", "təkamül", "yaşam"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("ДНК"),
+			keywords: &["ДНК", "біёлаг", "ген", "генетыка", "жыццё", "эвалюцыя"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("ДНК"),
+			keywords: &["ДНК", "биолог", "генетика", "гени", "еволюция", "живот"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ডিএনএ"),
+			keywords: &[
+				"জিন",
+				"জীন",
+				"জীবন",
+				"জীববিজ\u{9cd}ঞ\u{9be}নী",
+				"জেনেটিক\u{9cd}স",
+				"ডিএনএ",
+				"বিবর\u{9cd}তন",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation { lang: "br", tts: Some("TDN"), keywords: &["TDN", "bevoniour"] },
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("dnk"),
+			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "život"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("adn"),
+			keywords: &["adn", "biòleg", "biòloga", "evolució", "gen", "genètica", "vida"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ"),
+			keywords: &[
+				"ᎬᏂᏛ",
+				"ᎬᏃᏗ ᎤᏓᏁᏟᏴᏒ ᏧᎶᏒᎢ",
+				"ᎬᏃᏗ ᏄᏍᏛ ᎤᏎᏍᏗᏕᎩ",
+				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ",
+				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ ᎤᏓᏰᎶᏒᎢ",
+				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ ᎤᏓᏰᎶᏒᎢ ᎤᎾᎦᏎᏍᏗᏕᎩ",
+			],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("DNA"),
+			keywords: &[
+				"DNA",
+				"biolog",
+				"biologie",
+				"biologie člověka",
+				"bioložka",
+				"deoxyribonukleová kyselina",
+				"evoluce",
+				"gen",
+				"genetická informace",
+				"genetika",
+				"šroubovice",
+				"život",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("dna"),
+			keywords: &["biolegydd", "bywyd", "dna", "esblygiad", "geneteg", "genyn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("dna"),
+			keywords: &["biolog", "dna", "evolution", "gen", "genetik", "liv"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("DNA"),
+			keywords: &[
+				"Biologe",
+				"Biologie",
+				"Biologin",
+				"DNA",
+				"DNS",
+				"Evolution",
+				"Gen",
+				"Genetik",
+				"Genmanipulation",
+				"Leben",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("dna"),
+			keywords: &[
+				"dna",
+				"βιολόγος",
+				"γενετική",
+				"γενετικός",
+				"γονίδια",
+				"γονίδιο",
+				"εξέλιξη",
+				"ζωή",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("dna"),
+			keywords: &["biologist", "dna", "evolution", "gene", "genetics", "life"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("adn"),
+			keywords: &["adn", "biólogo", "evolución", "gen", "genética", "vida"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["adn", "bióloga", "biólogo", "evolución", "gen", "genes", "genética", "vida"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("ADN"),
+			keywords: &["ADN", "biólogo", "evolución", "gen", "genética", "vida"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("ADN"),
+			keywords: &["ADN", "biólogo", "evolución", "gen", "genética", "vida"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "bioloog", "elu", "evolutsioon", "geen", "geneetika"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "biologo", "bizitza", "eboluzio", "gene", "genetika"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("دی\u{200c}ان\u{200c}ای"),
+			keywords: &[
+				"تکامل",
+				"دی ان ای",
+				"دی\u{200c}ان\u{200c}ای",
+				"زندگی",
+				"زیست",
+				"زیست شناس",
+				"زیست شناسی",
+				"زیست\u{200c}شناس",
+				"فرگشت",
+				"وراثت",
+				"ژن",
+				"ژنتیک",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("dna"),
+			keywords: &["biologi", "dna", "evoluutio", "geeni", "genetiikka", "perimä"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("dna"),
+			keywords: &["biologist", "buhay", "dna", "ebolusyon", "gene", "genetics"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("dna"),
+			keywords: &["arvaeind", "dna", "lív", "lívfrøði", "lívmenning", "náttúruvísind", "ílega"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("adn"),
+			keywords: &[
+				"adn",
+				"biologie",
+				"biologiste",
+				"gène",
+				"génétique",
+				"science",
+				"vie",
+				"évolution",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("ADN"),
+			keywords: &["ADN", "beatha", "bitheolaí", "géin", "géinitic", "saol", "éabhlóid"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("dna"),
+			keywords: &[
+				"beatha",
+				"bith-eòlaiche",
+				"bith-eòlas",
+				"dna",
+				"eòlas-gintinneachd",
+				"gine",
+				"gintinneachd",
+				"gnè-fhàs",
+				"mean-fhàs",
+				"tarmachadh-gnè",
+				"èabhlaid",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("ADN"),
+			keywords: &["bioloxía", "evolución", "vida", "xene"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ડીએનએ"),
+			keywords: &[
+				"dna",
+				"ઉત\u{acd}ક\u{acd}રા\u{a82}તિ",
+				"ઉત\u{acd}ક\u{acd}રા\u{a82}તિવાદ",
+				"જનીન",
+				"જિન\u{ac7}ટિક\u{acd}સ",
+				"જીન",
+				"જીવ",
+				"જીવન",
+				"જીવવિજ\u{acd}ઞાની",
+				"ડીએનએ",
+				"બાયોલોજિસ\u{acd}ટ",
+				"ર\u{a82}ગસ\u{ac2}ત\u{acd}ર",
+				"વ\u{a82}શ",
+				"વ\u{a82}શાવળી",
+				"વિકાસવાદ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("dna"),
+			keywords: &[
+				"dna",
+				"ilimin halitta",
+				"juyin halitta",
+				"masanin ilmin halitta",
+				"rayuwa",
+				"tsatso",
+				"tsatson halitta",
+				"ƙwayar halitta",
+				"ƙwayoyin",
+				"ƙwayoyin halitta",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("dna"),
+			keywords: &[
+				"dna",
+				"ilimin halitta",
+				"juyin halitta",
+				"masanin ilmin halitta",
+				"rayuwa",
+				"tsatso",
+				"tsatson halitta",
+				"ƙwayar halitta",
+				"ƙwayoyin",
+				"ƙwayoyin halitta",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("די אנ איי"),
+			keywords: &["DNA", "אבולוציה", "ביולוגיה", "גנטיקה", "גנים", "די אנ איי", "חיים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("डीएनए"),
+			keywords: &[
+				"आन\u{941}व\u{902}शिक विज\u{94d}ञान",
+				"जीवन",
+				"जीवविज\u{94d}ञानी",
+				"डी.एन.ए",
+				"डीएनए",
+				"फ\u{948}ल",
+				"फ\u{948}लना",
+				"बायोलॉजिस\u{94d}ट",
+				"लाइफ\u{93c}",
+				"व\u{902}शाण\u{941}",
+				"विकास",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("dnk"),
+			keywords: &["biologija", "dnk", "evolucija", "genetika", "geni", "život"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("DNS"),
+			keywords: &[
+				"DNS",
+				"biológia",
+				"biológus",
+				"dns",
+				"evolúció",
+				"fejlődés",
+				"genetika",
+				"gén",
+				"gének",
+				"tudomány",
+				"élet",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("դնթ"),
+			keywords: &["գենետիկա", "դնթ", "էվոլյուցիա", "կենսաբան", "կենսաբանություն"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("dna"),
+			keywords: &[
+				"ahli biologi",
+				"biologi",
+				"dna",
+				"evolusi",
+				"gen",
+				"genetik",
+				"genetika",
+				"hidup",
+				"kehidupan",
+				"pakar biologi",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("dna"),
+			keywords: &["biologist", "dna", "evolution", "gene", "genetics", "ndu"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("dna"),
+			keywords: &["dna", "erfðaefni", "gen", "líf", "líffræðingur", "þróun"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("dna"),
+			keywords: &["biologo", "dna", "evoluzione", "gene", "genetica", "geni", "vita"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "生命", "生物学", "生物学者", "進化", "遺伝子"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("adn"),
+			keywords: &["adn", "ahli biologi", "evolusi", "gen", "genetik", "kauripan"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("დნმ"),
+			keywords: &["ბიოლოგი", "გენეტიკა", "გენი", "დნმ", "ევოლუცია", "სიცოცხლე"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("dna"), keywords: &["dna"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("днк"),
+			keywords: &["ДНҚ", "биолог", "биология", "ген", "генетика", "днк", "эволюция", "өмір"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("DNA"),
+			keywords: &[
+				"DNA",
+				"ការវ\u{17b7}វត\u{17d2}ត",
+				"ជ\u{17b8}វវ\u{17b7}ទ\u{17bc}",
+				"ជ\u{17b8}វ\u{17b7}ត",
+				"សេនេទ\u{17b7}ច",
+				"សែន",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಡ\u{cbf}ಎನ\u{ccd}ಎ"),
+			keywords: &[
+				"ಅನುವಂಶ\u{cc0}ಯತ\u{cc6}",
+				"ಜ\u{cc0}ನ\u{ccd}",
+				"ಜ\u{cc0}ವನ",
+				"ಜ\u{cc0}ವಶಾಸ\u{ccd}ತ\u{ccd}ರಜ\u{ccd}ಞ",
+				"ಜ\u{cc6}ನ\u{cc6}ಟ\u{cbf}ಕ\u{ccd}ಸ\u{ccd}",
+				"ಡ\u{cbf}ಎನ\u{ccd}ಎ",
+				"ತದ\u{ccd}ರ\u{cc2}ಪು",
+				"ತಳ\u{cbf} ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
+				"ವಂಶವಾಹ\u{cbf}",
+				"ವ\u{cbf}ಕಸನ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "생물", "생물학", "생물학자", "유전", "유전학", "진화"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("डीएनए"),
+			keywords: &[
+				"उत\u{94d}क\u{94d}रा\u{902}ती",
+				"जनक",
+				"जननशास\u{94d}त\u{94d}र",
+				"जीवन",
+				"जीवशास\u{94d}त\u{94d}रज\u{94d}ञ",
+				"डीएनए",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("днк"),
+			keywords: &["биология", "ген", "генетика", "днк", "жашоо", "эволюция"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("DNA"),
+			keywords: &[
+				"DNA",
+				"ກ\u{ec8}ຽວກ\u{eb1}ບຍ\u{eb5}\u{ec9}ນ",
+				"ຊ\u{eb5}ວ\u{eb4}ດ",
+				"ຍ\u{eb5}\u{ec9}ນ",
+				"ນ\u{eb1}ກຊ\u{eb5}ວະວ\u{eb4}ທະຍາ",
+				"ວ\u{eb4}ວ\u{eb1}ດທະນາການ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("DNR"),
+			keywords: &["DNR", "biologas", "evoliucija", "genas", "genetika", "gyvybė"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("DNS"),
+			keywords: &["DNS", "biologs", "dzīve", "evolūcija", "gēns", "ģenētika"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("днк"),
+			keywords: &["биолог", "ген", "генетика", "днк", "еволуција", "живот"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഡിഎൻഎ"),
+			keywords: &[
+				"ജനിതകശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രം",
+				"ജീവശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രജ\u{d4d}ഞൻ",
+				"ജീവൻ",
+				"ജീൻ",
+				"ഡിഎൻഎ",
+				"പരിണ\u{d3e}മം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ДНА"),
+			keywords: &["ДНА", "амьдрал", "биологич", "ген", "генетик", "хувьсал"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("डीएनए"),
+			keywords: &[
+				"आन\u{941}व\u{902}शिकता",
+				"आन\u{941}व\u{902}शिकताशास\u{94d}त\u{94d}र",
+				"उत\u{94d}क\u{94d}रा\u{902}ती",
+				"जिन\u{947}टिक\u{94d}स",
+				"जीन",
+				"जीवन",
+				"जीवशास\u{94d}त\u{94d}रज\u{94d}ञ",
+				"डीएनए",
+				"बायोलॉजिस\u{94d}ट",
+				"लाईफ",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("dna"),
+			keywords: &[
+				"ahli biologi",
+				"dna",
+				"evolusi",
+				"gen",
+				"genetik",
+				"hayat",
+				"kehidupan",
+				"sains",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇ"),
+			keywords: &[
+				"ဆင\u{1037}\u{103a}က\u{1032}ဖြစ\u{103a}စဥ\u{103a}",
+				"ဇ\u{102e}ဝပညာရ\u{103e}င\u{103a}",
+				"ဗ\u{102e}ဇ",
+				"မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇ",
+				"မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇပညာ",
+				"သက\u{103a}ရ\u{103e}\u{102d}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("डिएनए"),
+			keywords: &[
+				"क\u{94d}रमिक विकास",
+				"जिन",
+				"जिन विज\u{94d}ञान",
+				"जीवन",
+				"जीवशास\u{94d}त\u{94d}री",
+				"डिएनए",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("DNA"),
+			keywords: &[
+				"DNA",
+				"biologe",
+				"bioloog",
+				"dna",
+				"evolutie",
+				"gen",
+				"genetica",
+				"genetisch",
+				"leven",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["biolog", "dna", "evolusjon", "gen", "genetikk", "liv"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଡ\u{b3f}ଏନ\u{b4d}\u{200c}ଏ"),
+			keywords: &[
+				"ଜ\u{b3f}ନ\u{b4d}\u{200c}",
+				"ଜୀବନ",
+				"ଜେନେଟ\u{b3f}କ\u{b4d}ସ",
+				"ଡ\u{b3f}ଏନ\u{b4d}\u{200c}ଏ",
+				"ବ\u{b3e}ଓଲୋଜ\u{b3f}ଷ\u{b4d}ଟ",
+				"ଶ\u{b3f}କ\u{b4d}ଷ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਡੀਐਨਏ"),
+			keywords: &["ਜਣਨ ਵਿ\u{a71}ਦਿਆ", "ਜੀਨ", "ਜੀਵ-ਵਿਗਿਆਨਕ", "ਜੀਵਨ", "ਡੀਐਨਏ", "ਵਿਕਾਸ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("DNA"),
+			keywords: &[
+				"Bayọ\u{301}lọ\u{301}jí Ẹ\u{301}spat",
+				"DNA",
+				"Jiin",
+				"Jẹnẹ\u{301}tiks",
+				"Laif",
+				"Ívolúshọn",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("dna"),
+			keywords: &["biolog", "dna", "ewolucja", "gen", "genetyka", "geny", "życie"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ډي اين ای"),
+			keywords: &["ارتقاء", "جينيايي", "د بيالوژي پوهاند", "ډي اين ای", "ژوند"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("dna"),
+			keywords: &[
+				"biologista",
+				"biólogo",
+				"código",
+				"dna",
+				"evolução",
+				"gene",
+				"genética",
+				"genético",
+				"vida",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("adn"),
+			keywords: &["adn", "biólogo", "evolução", "gene", "genética", "vida"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("ADN"),
+			keywords: &[
+				"ADN",
+				"biolog",
+				"biologie",
+				"biologă",
+				"evoluție",
+				"evoluționism",
+				"gene",
+				"genetică",
+				"genă",
+				"viață",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E11-054"), keywords: &["E11-054"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("ДНК"),
+			keywords: &["ДНК", "биология", "генетика", "гены", "жизнь", "молекула", "эволюция"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڊي اين اي"),
+			keywords: &["ارتقا", "بايولاجسٽ", "جين", "جينيٽڪس", "زندگي", "ڊي اين اي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ඩ\u{dd3}එන\u{dca}ඒ"),
+			keywords: &[
+				"ජ\u{dcf}න",
+				"ජ\u{dcf}න ව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ව",
+				"ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ඥය\u{dcf}",
+				"ජ\u{dd3}ව\u{dd2}තය",
+				"ඩ\u{dd3}එන\u{dca}ඒ",
+				"පර\u{dd2}ණ\u{dcf}මය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("dna"),
+			keywords: &[
+				"DNA",
+				"biologička",
+				"biológ",
+				"biológia",
+				"deoxyribonukleová kyselina",
+				"dvojzávitnica",
+				"dvojzávitnicová špirála",
+				"evolúcia",
+				"genetická informácia",
+				"gén",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("dnk"),
+			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "življenje"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dna"),
+			keywords: &["bayoolajiyahan", "dna", "hide", "horumar", "nolol"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("ADN"),
+			keywords: &["ADN", "biolog", "evolucion", "evoluim", "gjene", "gjenetikë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("днк"),
+			keywords: &["биолог", "ген", "генетика", "днк", "еволуција", "живот"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("dnk"),
+			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "život"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "biolog", "evolution", "gen", "genetik", "liv"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("dna"),
+			keywords: &[
+				"biologist",
+				"dna",
+				"jenetiki",
+				"jeni",
+				"mageuko",
+				"mageuzi",
+				"maisha",
+				"mwanabiolojia",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation {
+			lang:     "sw_KE",
+			tts:      Some("↑↑↑"),
+			keywords: &["dna", "jenetiki", "jeni", "mageuko", "maisha", "mwanabiolojia"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("டிஎன\u{bcd}ஏ"),
+			keywords: &[
+				"உயிரியல\u{bbe}ளர\u{bcd}",
+				"ஜ\u{bc0}ன\u{bcd}",
+				"டிஎன\u{bcd}ஏ",
+				"பரிண\u{bbe}மம\u{bcd}",
+				"பொருள\u{bcd}",
+				"மரபணு",
+				"மரபியல\u{bcd}",
+				"வ\u{bbe}ழ\u{bcd}க\u{bcd}கை",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("డ\u{c3f}ఎన\u{c4d}ఎ"),
+			keywords: &[
+				"ఆవ\u{c3f}ర\u{c4d}భ\u{c3e}వం",
+				"జన\u{c4d}యుపటం",
+				"జన\u{c4d}యువు",
+				"జన\u{c4d}యుశ\u{c3e}స\u{c4d}త\u{c4d}రం",
+				"జ\u{c40}న\u{c4d}స\u{c4d}",
+				"జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}ర న\u{c3f}పుణులు",
+				"జ\u{c40}వ\u{c3f}తం",
+				"డ\u{c3f}ఎన\u{c4d}ఎ",
+				"బయ\u{c3e}లజ\u{c3f}స\u{c4d}ట\u{c4d}",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ด\u{e35}เอ\u{e47}นเอ"),
+			keywords: &[
+				"ช\u{e35}ว\u{e34}ต",
+				"ด\u{e35}เอ\u{e47}นเอ",
+				"น\u{e31}กช\u{e35}วว\u{e34}ทยา",
+				"พ\u{e31}นธ\u{e38}ศาสตร\u{e4c}",
+				"ย\u{e35}น",
+				"ว\u{e34}ว\u{e31}ฒนาการ",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("dna"),
+			keywords: &["dna", "ህይወት", "ተመራማሪ ስነ ህይወት", "ጀነቲክስ", "ጂን", "ፍልቀት"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("dnk"),
+			keywords: &["biolog", "dnk", "ewolýusiýa", "gen", "genetika", "ýaşaýyş"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("TNA"), keywords: &["TNA"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("dna"),
+			keywords: &["biyolog", "biyoloji", "dna", "evrim", "gen", "genetik", "sarmal", "yaşam"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("ДНК"),
+			keywords: &[
+				"ДНК",
+				"біолог",
+				"біологія",
+				"ген",
+				"генетика",
+				"днк",
+				"еволюція",
+				"життя",
+				"спіраль",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ڈی این اے"),
+			keywords: &["ارتقاء", "بائیالوجسٹ", "جین", "جینیات", "زندگی", "ڈی این اے"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("dnk"),
+			keywords: &["biologiya", "dnk", "evolyutsiya", "gen", "genetika", "genlar", "hayot"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("adn"),
+			keywords: &["adn", "di truyền", "gien", "nhà sinh vật học", "sự sống", "tiến hóa"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("dínà"),
+			keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("dínà"),
+			keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "基因", "生命", "生物學家", "進化", "遺傳學"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "基因", "生命", "生物学家", "进化", "遗传学"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "基因", "演化", "生命", "生物学家", "进化", "遗传学"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("DNA"),
+			keywords: &["DNA", "基因", "演化", "生命", "生物", "生物學家"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["dna", "基因", "生命", "生物學", "進化", "遺傳學"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ulibofuzo"),
+			keywords: &["biologist", "evolution", "gene", "genetics", "life", "ulibofuzo"],
 		},
 	],
 };
@@ -2248,1919 +5054,6 @@ pub const PETRI_DISH: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🧬"]
-pub const DNA: crate::Emoji = crate::Emoji {
-	glyph:                "🧬",
-	codepoint:            &[129516u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
-	name:                 "dna",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Science,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("dna"),
-			keywords: &[
-				"DNS",
-				"bioloog",
-				"dna",
-				"evolusie",
-				"gene",
-				"genetika",
-				"lewe",
-				"lewenskode",
-				"selkern",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ዲኤንኤ"),
-			keywords: &[
-				"ህይወት",
-				"ለውጥ",
-				"ዘረመል",
-				"ዝግመተ ለውጥ",
-				"የባዮሎጂ ሰው",
-				"የባዮሎጂ ባለሙያ",
-				"ዲኤንኤ",
-				"ጄኔቲክስ",
-				"ጅን",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("الحامض النووي"),
-			keywords: &[
-				"dna",
-				"أحيائي",
-				"الجينوم",
-				"الحامض النووي",
-				"الحياة",
-				"بيولوجي",
-				"تطور",
-				"جين",
-				"جينات",
-				"جيني",
-				"حلزون",
-				"حياة",
-				"دي إن إيه",
-				"دي ان اي",
-				"علم الجينات",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ডিএনএ"),
-			keywords: &["জিন", "জীববিজ\u{9cd}ঞ\u{9be}নী", "জীৱন", "ডিএনএ", "বংশগত", "বিবৰ\u{9cd}তন"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("dnt"),
-			keywords: &["bioloq", "dnt", "gen", "genetika", "təkamül", "yaşam"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("ДНК"),
-			keywords: &["ДНК", "біёлаг", "ген", "генетыка", "жыццё", "эвалюцыя"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("ДНК"),
-			keywords: &["ДНК", "биолог", "генетика", "гени", "еволюция", "живот"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ডিএনএ"),
-			keywords: &[
-				"জিন",
-				"জীন",
-				"জীবন",
-				"জীববিজ\u{9cd}ঞ\u{9be}নী",
-				"জেনেটিক\u{9cd}স",
-				"ডিএনএ",
-				"বিবর\u{9cd}তন",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation { lang: "br", tts: Some("TDN"), keywords: &["TDN", "bevoniour"] },
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("dnk"),
-			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "život"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("adn"),
-			keywords: &["adn", "biòleg", "biòloga", "evolució", "gen", "genètica", "vida"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ"),
-			keywords: &[
-				"ᎬᏂᏛ",
-				"ᎬᏃᏗ ᎤᏓᏁᏟᏴᏒ ᏧᎶᏒᎢ",
-				"ᎬᏃᏗ ᏄᏍᏛ ᎤᏎᏍᏗᏕᎩ",
-				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ",
-				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ ᎤᏓᏰᎶᏒᎢ",
-				"ᏧᏚᎪᏔᏅ ᎬᏃᏗ ᏧᏓᎴᏅᎲ ᎤᏓᏰᎶᏒᎢ ᎤᎾᎦᏎᏍᏗᏕᎩ",
-			],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("DNA"),
-			keywords: &[
-				"DNA",
-				"biolog",
-				"biologie",
-				"biologie člověka",
-				"bioložka",
-				"deoxyribonukleová kyselina",
-				"evoluce",
-				"gen",
-				"genetická informace",
-				"genetika",
-				"šroubovice",
-				"život",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("dna"),
-			keywords: &["biolegydd", "bywyd", "dna", "esblygiad", "geneteg", "genyn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("dna"),
-			keywords: &["biolog", "dna", "evolution", "gen", "genetik", "liv"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("DNA"),
-			keywords: &[
-				"Biologe",
-				"Biologie",
-				"Biologin",
-				"DNA",
-				"DNS",
-				"Evolution",
-				"Gen",
-				"Genetik",
-				"Genmanipulation",
-				"Leben",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("dna"),
-			keywords: &[
-				"dna",
-				"βιολόγος",
-				"γενετική",
-				"γενετικός",
-				"γονίδια",
-				"γονίδιο",
-				"εξέλιξη",
-				"ζωή",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("dna"),
-			keywords: &["biologist", "dna", "evolution", "gene", "genetics", "life"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "biologist", "evolution", "gene", "genetics", "life"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("adn"),
-			keywords: &["adn", "biólogo", "evolución", "gen", "genética", "vida"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["adn", "bióloga", "biólogo", "evolución", "gen", "genes", "genética", "vida"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("ADN"),
-			keywords: &["ADN", "biólogo", "evolución", "gen", "genética", "vida"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("ADN"),
-			keywords: &["ADN", "biólogo", "evolución", "gen", "genética", "vida"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "bioloog", "elu", "evolutsioon", "geen", "geneetika"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "biologo", "bizitza", "eboluzio", "gene", "genetika"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("دی\u{200c}ان\u{200c}ای"),
-			keywords: &[
-				"تکامل",
-				"دی ان ای",
-				"دی\u{200c}ان\u{200c}ای",
-				"زندگی",
-				"زیست",
-				"زیست شناس",
-				"زیست شناسی",
-				"زیست\u{200c}شناس",
-				"فرگشت",
-				"وراثت",
-				"ژن",
-				"ژنتیک",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("dna"),
-			keywords: &["biologi", "dna", "evoluutio", "geeni", "genetiikka", "perimä"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("dna"),
-			keywords: &["biologist", "buhay", "dna", "ebolusyon", "gene", "genetics"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("dna"),
-			keywords: &["arvaeind", "dna", "lív", "lívfrøði", "lívmenning", "náttúruvísind", "ílega"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("adn"),
-			keywords: &[
-				"adn",
-				"biologie",
-				"biologiste",
-				"gène",
-				"génétique",
-				"science",
-				"vie",
-				"évolution",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("ADN"),
-			keywords: &["ADN", "beatha", "bitheolaí", "géin", "géinitic", "saol", "éabhlóid"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("dna"),
-			keywords: &[
-				"beatha",
-				"bith-eòlaiche",
-				"bith-eòlas",
-				"dna",
-				"eòlas-gintinneachd",
-				"gine",
-				"gintinneachd",
-				"gnè-fhàs",
-				"mean-fhàs",
-				"tarmachadh-gnè",
-				"èabhlaid",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("ADN"),
-			keywords: &["bioloxía", "evolución", "vida", "xene"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ડીએનએ"),
-			keywords: &[
-				"dna",
-				"ઉત\u{acd}ક\u{acd}રા\u{a82}તિ",
-				"ઉત\u{acd}ક\u{acd}રા\u{a82}તિવાદ",
-				"જનીન",
-				"જિન\u{ac7}ટિક\u{acd}સ",
-				"જીન",
-				"જીવ",
-				"જીવન",
-				"જીવવિજ\u{acd}ઞાની",
-				"ડીએનએ",
-				"બાયોલોજિસ\u{acd}ટ",
-				"ર\u{a82}ગસ\u{ac2}ત\u{acd}ર",
-				"વ\u{a82}શ",
-				"વ\u{a82}શાવળી",
-				"વિકાસવાદ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("dna"),
-			keywords: &[
-				"dna",
-				"ilimin halitta",
-				"juyin halitta",
-				"masanin ilmin halitta",
-				"rayuwa",
-				"tsatso",
-				"tsatson halitta",
-				"ƙwayar halitta",
-				"ƙwayoyin",
-				"ƙwayoyin halitta",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("dna"),
-			keywords: &[
-				"dna",
-				"ilimin halitta",
-				"juyin halitta",
-				"masanin ilmin halitta",
-				"rayuwa",
-				"tsatso",
-				"tsatson halitta",
-				"ƙwayar halitta",
-				"ƙwayoyin",
-				"ƙwayoyin halitta",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("די אנ איי"),
-			keywords: &["DNA", "אבולוציה", "ביולוגיה", "גנטיקה", "גנים", "די אנ איי", "חיים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("डीएनए"),
-			keywords: &[
-				"आन\u{941}व\u{902}शिक विज\u{94d}ञान",
-				"जीवन",
-				"जीवविज\u{94d}ञानी",
-				"डी.एन.ए",
-				"डीएनए",
-				"फ\u{948}ल",
-				"फ\u{948}लना",
-				"बायोलॉजिस\u{94d}ट",
-				"लाइफ\u{93c}",
-				"व\u{902}शाण\u{941}",
-				"विकास",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("dnk"),
-			keywords: &["biologija", "dnk", "evolucija", "genetika", "geni", "život"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("DNS"),
-			keywords: &[
-				"DNS",
-				"biológia",
-				"biológus",
-				"dns",
-				"evolúció",
-				"fejlődés",
-				"genetika",
-				"gén",
-				"gének",
-				"tudomány",
-				"élet",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("դնթ"),
-			keywords: &["գենետիկա", "դնթ", "էվոլյուցիա", "կենսաբան", "կենսաբանություն"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("dna"),
-			keywords: &[
-				"ahli biologi",
-				"biologi",
-				"dna",
-				"evolusi",
-				"gen",
-				"genetik",
-				"genetika",
-				"hidup",
-				"kehidupan",
-				"pakar biologi",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("dna"),
-			keywords: &["biologist", "dna", "evolution", "gene", "genetics", "ndu"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("dna"),
-			keywords: &["dna", "erfðaefni", "gen", "líf", "líffræðingur", "þróun"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("dna"),
-			keywords: &["biologo", "dna", "evoluzione", "gene", "genetica", "geni", "vita"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "生命", "生物学", "生物学者", "進化", "遺伝子"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("adn"),
-			keywords: &["adn", "ahli biologi", "evolusi", "gen", "genetik", "kauripan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("დნმ"),
-			keywords: &["ბიოლოგი", "გენეტიკა", "გენი", "დნმ", "ევოლუცია", "სიცოცხლე"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("dna"), keywords: &["dna"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("днк"),
-			keywords: &["ДНҚ", "биолог", "биология", "ген", "генетика", "днк", "эволюция", "өмір"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("DNA"),
-			keywords: &[
-				"DNA",
-				"ការវ\u{17b7}វត\u{17d2}ត",
-				"ជ\u{17b8}វវ\u{17b7}ទ\u{17bc}",
-				"ជ\u{17b8}វ\u{17b7}ត",
-				"សេនេទ\u{17b7}ច",
-				"សែន",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಡ\u{cbf}ಎನ\u{ccd}ಎ"),
-			keywords: &[
-				"ಅನುವಂಶ\u{cc0}ಯತ\u{cc6}",
-				"ಜ\u{cc0}ನ\u{ccd}",
-				"ಜ\u{cc0}ವನ",
-				"ಜ\u{cc0}ವಶಾಸ\u{ccd}ತ\u{ccd}ರಜ\u{ccd}ಞ",
-				"ಜ\u{cc6}ನ\u{cc6}ಟ\u{cbf}ಕ\u{ccd}ಸ\u{ccd}",
-				"ಡ\u{cbf}ಎನ\u{ccd}ಎ",
-				"ತದ\u{ccd}ರ\u{cc2}ಪು",
-				"ತಳ\u{cbf} ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
-				"ವಂಶವಾಹ\u{cbf}",
-				"ವ\u{cbf}ಕಸನ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "생물", "생물학", "생물학자", "유전", "유전학", "진화"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("डीएनए"),
-			keywords: &[
-				"उत\u{94d}क\u{94d}रा\u{902}ती",
-				"जनक",
-				"जननशास\u{94d}त\u{94d}र",
-				"जीवन",
-				"जीवशास\u{94d}त\u{94d}रज\u{94d}ञ",
-				"डीएनए",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("днк"),
-			keywords: &["биология", "ген", "генетика", "днк", "жашоо", "эволюция"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("DNA"),
-			keywords: &[
-				"DNA",
-				"ກ\u{ec8}ຽວກ\u{eb1}ບຍ\u{eb5}\u{ec9}ນ",
-				"ຊ\u{eb5}ວ\u{eb4}ດ",
-				"ຍ\u{eb5}\u{ec9}ນ",
-				"ນ\u{eb1}ກຊ\u{eb5}ວະວ\u{eb4}ທະຍາ",
-				"ວ\u{eb4}ວ\u{eb1}ດທະນາການ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("DNR"),
-			keywords: &["DNR", "biologas", "evoliucija", "genas", "genetika", "gyvybė"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("DNS"),
-			keywords: &["DNS", "biologs", "dzīve", "evolūcija", "gēns", "ģenētika"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("днк"),
-			keywords: &["биолог", "ген", "генетика", "днк", "еволуција", "живот"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഡിഎൻഎ"),
-			keywords: &[
-				"ജനിതകശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രം",
-				"ജീവശ\u{d3e}സ\u{d4d}\u{200c}ത\u{d4d}രജ\u{d4d}ഞൻ",
-				"ജീവൻ",
-				"ജീൻ",
-				"ഡിഎൻഎ",
-				"പരിണ\u{d3e}മം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ДНА"),
-			keywords: &["ДНА", "амьдрал", "биологич", "ген", "генетик", "хувьсал"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("डीएनए"),
-			keywords: &[
-				"आन\u{941}व\u{902}शिकता",
-				"आन\u{941}व\u{902}शिकताशास\u{94d}त\u{94d}र",
-				"उत\u{94d}क\u{94d}रा\u{902}ती",
-				"जिन\u{947}टिक\u{94d}स",
-				"जीन",
-				"जीवन",
-				"जीवशास\u{94d}त\u{94d}रज\u{94d}ञ",
-				"डीएनए",
-				"बायोलॉजिस\u{94d}ट",
-				"लाईफ",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("dna"),
-			keywords: &[
-				"ahli biologi",
-				"dna",
-				"evolusi",
-				"gen",
-				"genetik",
-				"hayat",
-				"kehidupan",
-				"sains",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇ"),
-			keywords: &[
-				"ဆင\u{1037}\u{103a}က\u{1032}ဖြစ\u{103a}စဥ\u{103a}",
-				"ဇ\u{102e}ဝပညာရ\u{103e}င\u{103a}",
-				"ဗ\u{102e}ဇ",
-				"မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇ",
-				"မျ\u{102d}\u{102f}းရ\u{102d}\u{102f}းဗ\u{102e}ဇပညာ",
-				"သက\u{103a}ရ\u{103e}\u{102d}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("डिएनए"),
-			keywords: &[
-				"क\u{94d}रमिक विकास",
-				"जिन",
-				"जिन विज\u{94d}ञान",
-				"जीवन",
-				"जीवशास\u{94d}त\u{94d}री",
-				"डिएनए",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("DNA"),
-			keywords: &[
-				"DNA",
-				"biologe",
-				"bioloog",
-				"dna",
-				"evolutie",
-				"gen",
-				"genetica",
-				"genetisch",
-				"leven",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["biolog", "dna", "evolusjon", "gen", "genetikk", "liv"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଡ\u{b3f}ଏନ\u{b4d}\u{200c}ଏ"),
-			keywords: &[
-				"ଜ\u{b3f}ନ\u{b4d}\u{200c}",
-				"ଜୀବନ",
-				"ଜେନେଟ\u{b3f}କ\u{b4d}ସ",
-				"ଡ\u{b3f}ଏନ\u{b4d}\u{200c}ଏ",
-				"ବ\u{b3e}ଓଲୋଜ\u{b3f}ଷ\u{b4d}ଟ",
-				"ଶ\u{b3f}କ\u{b4d}ଷ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਡੀਐਨਏ"),
-			keywords: &["ਜਣਨ ਵਿ\u{a71}ਦਿਆ", "ਜੀਨ", "ਜੀਵ-ਵਿਗਿਆਨਕ", "ਜੀਵਨ", "ਡੀਐਨਏ", "ਵਿਕਾਸ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("DNA"),
-			keywords: &[
-				"Bayọ\u{301}lọ\u{301}jí Ẹ\u{301}spat",
-				"DNA",
-				"Jiin",
-				"Jẹnẹ\u{301}tiks",
-				"Laif",
-				"Ívolúshọn",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("dna"),
-			keywords: &["biolog", "dna", "ewolucja", "gen", "genetyka", "geny", "życie"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ډي اين ای"),
-			keywords: &["ارتقاء", "جينيايي", "د بيالوژي پوهاند", "ډي اين ای", "ژوند"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("dna"),
-			keywords: &[
-				"biologista",
-				"biólogo",
-				"código",
-				"dna",
-				"evolução",
-				"gene",
-				"genética",
-				"genético",
-				"vida",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("adn"),
-			keywords: &["adn", "biólogo", "evolução", "gene", "genética", "vida"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("ADN"),
-			keywords: &[
-				"ADN",
-				"biolog",
-				"biologie",
-				"biologă",
-				"evoluție",
-				"evoluționism",
-				"gene",
-				"genetică",
-				"genă",
-				"viață",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E11-054"), keywords: &["E11-054"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("ДНК"),
-			keywords: &["ДНК", "биология", "генетика", "гены", "жизнь", "молекула", "эволюция"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ڊي اين اي"),
-			keywords: &["ارتقا", "بايولاجسٽ", "جين", "جينيٽڪس", "زندگي", "ڊي اين اي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ඩ\u{dd3}එන\u{dca}ඒ"),
-			keywords: &[
-				"ජ\u{dcf}න",
-				"ජ\u{dcf}න ව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ව",
-				"ජ\u{dd3}වව\u{dd2}ද\u{dca}\u{200d}ය\u{dcf}ඥය\u{dcf}",
-				"ජ\u{dd3}ව\u{dd2}තය",
-				"ඩ\u{dd3}එන\u{dca}ඒ",
-				"පර\u{dd2}ණ\u{dcf}මය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("dna"),
-			keywords: &[
-				"DNA",
-				"biologička",
-				"biológ",
-				"biológia",
-				"deoxyribonukleová kyselina",
-				"dvojzávitnica",
-				"dvojzávitnicová špirála",
-				"evolúcia",
-				"genetická informácia",
-				"gén",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("dnk"),
-			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "življenje"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dna"),
-			keywords: &["bayoolajiyahan", "dna", "hide", "horumar", "nolol"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("ADN"),
-			keywords: &["ADN", "biolog", "evolucion", "evoluim", "gjene", "gjenetikë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("днк"),
-			keywords: &["биолог", "ген", "генетика", "днк", "еволуција", "живот"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("dnk"),
-			keywords: &["biolog", "dnk", "evolucija", "gen", "genetika", "život"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "biolog", "evolution", "gen", "genetik", "liv"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("dna"),
-			keywords: &[
-				"biologist",
-				"dna",
-				"jenetiki",
-				"jeni",
-				"mageuko",
-				"mageuzi",
-				"maisha",
-				"mwanabiolojia",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("↑↑↑"),
-			keywords: &["dna", "jenetiki", "jeni", "mageuko", "maisha", "mwanabiolojia"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("டிஎன\u{bcd}ஏ"),
-			keywords: &[
-				"உயிரியல\u{bbe}ளர\u{bcd}",
-				"ஜ\u{bc0}ன\u{bcd}",
-				"டிஎன\u{bcd}ஏ",
-				"பரிண\u{bbe}மம\u{bcd}",
-				"பொருள\u{bcd}",
-				"மரபணு",
-				"மரபியல\u{bcd}",
-				"வ\u{bbe}ழ\u{bcd}க\u{bcd}கை",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("డ\u{c3f}ఎన\u{c4d}ఎ"),
-			keywords: &[
-				"ఆవ\u{c3f}ర\u{c4d}భ\u{c3e}వం",
-				"జన\u{c4d}యుపటం",
-				"జన\u{c4d}యువు",
-				"జన\u{c4d}యుశ\u{c3e}స\u{c4d}త\u{c4d}రం",
-				"జ\u{c40}న\u{c4d}స\u{c4d}",
-				"జ\u{c40}వశ\u{c3e}స\u{c4d}త\u{c4d}ర న\u{c3f}పుణులు",
-				"జ\u{c40}వ\u{c3f}తం",
-				"డ\u{c3f}ఎన\u{c4d}ఎ",
-				"బయ\u{c3e}లజ\u{c3f}స\u{c4d}ట\u{c4d}",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ด\u{e35}เอ\u{e47}นเอ"),
-			keywords: &[
-				"ช\u{e35}ว\u{e34}ต",
-				"ด\u{e35}เอ\u{e47}นเอ",
-				"น\u{e31}กช\u{e35}วว\u{e34}ทยา",
-				"พ\u{e31}นธ\u{e38}ศาสตร\u{e4c}",
-				"ย\u{e35}น",
-				"ว\u{e34}ว\u{e31}ฒนาการ",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("dna"),
-			keywords: &["dna", "ህይወት", "ተመራማሪ ስነ ህይወት", "ጀነቲክስ", "ጂን", "ፍልቀት"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("dnk"),
-			keywords: &["biolog", "dnk", "ewolýusiýa", "gen", "genetika", "ýaşaýyş"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("TNA"), keywords: &["TNA"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("dna"),
-			keywords: &["biyolog", "biyoloji", "dna", "evrim", "gen", "genetik", "sarmal", "yaşam"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("ДНК"),
-			keywords: &[
-				"ДНК",
-				"біолог",
-				"біологія",
-				"ген",
-				"генетика",
-				"днк",
-				"еволюція",
-				"життя",
-				"спіраль",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ڈی این اے"),
-			keywords: &["ارتقاء", "بائیالوجسٹ", "جین", "جینیات", "زندگی", "ڈی این اے"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("dnk"),
-			keywords: &["biologiya", "dnk", "evolyutsiya", "gen", "genetika", "genlar", "hayot"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("adn"),
-			keywords: &["adn", "di truyền", "gien", "nhà sinh vật học", "sự sống", "tiến hóa"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("dínà"),
-			keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("dínà"),
-			keywords: &["baolojì", "d", "dínà", "emi", "inà", "jíni"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "基因", "生命", "生物學家", "進化", "遺傳學"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "基因", "生命", "生物学家", "进化", "遗传学"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "基因", "演化", "生命", "生物学家", "进化", "遗传学"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("DNA"),
-			keywords: &["DNA", "基因", "演化", "生命", "生物", "生物學家"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["dna", "基因", "生命", "生物學", "進化", "遺傳學"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ulibofuzo"),
-			keywords: &["biologist", "evolution", "gene", "genetics", "life", "ulibofuzo"],
-		},
-	],
-};
-#[doc = "🔬"]
-pub const MICROSCOPE: crate::Emoji = crate::Emoji {
-	glyph:                "🔬",
-	codepoint:            &[128300u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "microscope",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Science,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("mikroskoop"),
-			keywords: &[
-				"eksperiment",
-				"laboratorium",
-				"mikroskoop",
-				"ondersoek",
-				"toerusting",
-				"vergroot",
-				"wetenskap",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ማይክሮስኮፕ"),
-			keywords: &["ላቦራቶሪ", "መሣሪያ", "መግልገያ", "ማይክሮስኮፕ", "ምርምር", "ሳይንስ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ميكروسكوب"),
-			keywords: &["أداة", "بحث", "تجارب", "طب", "طبابة", "علم", "فحص", "مختبر", "ميكروسكوب"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("অন\u{9c1}বীক\u{9cd}ষণ যন\u{9cd}ত\u{9cd}ৰ"),
-			keywords: &[
-				"অন\u{9c1}বীক\u{9cd}ষণ যন\u{9cd}ত\u{9cd}ৰ",
-				"বিজ\u{9cd}ঞ\u{9be}ন",
-				"স\u{981}জ\u{9c1}লি",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("mikroskop"),
-			keywords: &["alət", "mikroskop"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("мікраскоп"),
-			keywords: &["мікраскоп", "прыбор", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("микроскоп"),
-			keywords: &["експеримент", "инструмент", "лаборатория", "микроскоп", "наука"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ম\u{9be}ইক\u{9cd}রোস\u{9cd}কোপ"),
-			keywords: &["বিজ\u{9cd}ঞ\u{9be}ন", "ম\u{9be}ইক\u{9cd}রোস\u{9cd}কোপ", "সরঞ\u{9cd}জ\u{9be}ম"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("mikroskop"),
-			keywords: &["benveg", "mikroskop", "skiant"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("mikroskop"),
-			keywords: &["alat", "mikroskop"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("microscopi"),
-			keywords: &["augment", "ciència", "eina", "laboratori", "microscopi"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏍᏗ ᎪᎱᏍᏗ ᎠᎪᎵᏱᏍᏙᏗ"),
-			keywords: &["ᎠᎬᏛᏂᏓᏍᏗ", "ᎤᏍᏗ ᎪᎱᏍᏗ ᎠᎪᎵᏱᏍᏙᏗ", "ᎬᏔᏂᏓᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("mikroskop"),
-			keywords: &[
-				"experiment",
-				"laboratoř",
-				"mikroskop",
-				"nástroj",
-				"pokus",
-				"výzkum",
-				"věda",
-				"vědecký",
-				"zvětšení",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("microsgop"),
-			keywords: &["microsgop", "offeryn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("mikroskop"),
-			keywords: &["mikroskop", "naturfag", "redskab", "videnskab", "værktøj"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Mikroskop"),
-			keywords: &["Labor", "Mikroskop", "Wissenschaft", "untersuchen"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μικροσκόπιο"),
-			keywords: &["επιστήμη", "εργαλείο", "εργαστήριο", "μικροσκόπιο", "πείραμα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("microscope"),
-			keywords: &["experiment", "lab", "microscope", "science", "tool"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("microscopio"),
-			keywords: &["instrumento", "laboratorio", "microscopio"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"biología",
-				"experimento",
-				"instrumento",
-				"investigación",
-				"laboratorio",
-				"microscopio",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("mikroskoop"),
-			keywords: &["eksperiment", "labor", "mikroskoop", "teadus", "tööriist"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("mikroskopioa"),
-			keywords: &["mikroskopioa", "tresna"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("میکروسکوپ"),
-			keywords: &["آزمایشگاه", "ابزار", "علم", "میکروسکوپ"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("mikroskooppi"),
-			keywords: &["koe", "mikroskooppi", "tiede", "työkalu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("microscope"),
-			keywords: &[
-				"agham",
-				"eksperimento",
-				"experiment",
-				"kagamitan",
-				"microscope",
-				"mikroskopyo",
-				"siyensiya",
-				"tool",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("mikroskop"),
-			keywords: &["mikroskop", "náttúruvísindi", "sjóneyka", "vísind"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("microscope"),
-			keywords: &["expérience", "laboratoire", "microscope", "outil", "science"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["microscope", "outi", "science"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("micreascóp"),
-			keywords: &["eolaíocht", "micreascóp", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("micreosgop"),
-			keywords: &["acainn", "glainne", "inneal", "meudachadh", "micreosgop", "saidheans"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("microscopio"),
-			keywords: &["ciencia", "laboratorio", "microscopio"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("માઇક\u{acd}રોસ\u{acd}કોપ"),
-			keywords: &[
-				"ઉપકરણ",
-				"ટ\u{ac2}લ",
-				"પ\u{acd}રયોગશાળા",
-				"માઇક\u{acd}રોસ\u{acd}કોપ",
-				"ય\u{a82}ત\u{acd}ર",
-				"વિજ\u{acd}ઞાન",
-				"સાધન",
-				"સ\u{ac2}ક\u{acd}ષ\u{acd}મદર\u{acd}શક ય\u{a82}ત\u{acd}ર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("madubin kimiyya"),
-			keywords: &[
-				"gwaje-gwaje",
-				"gwaji",
-				"kayan aiki",
-				"kimiyya",
-				"madubin bincike",
-				"madubin kimiyya",
-				"ɗakin bincike",
-				"ɗakin gwaji",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("madubin kimiyya"),
-			keywords: &[
-				"gwaje-gwaje",
-				"gwaji",
-				"kayan aiki",
-				"kimiyya",
-				"madubin bincike",
-				"madubin kimiyya",
-				"ɗakin bincike",
-				"ɗakin gwaji",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מיקרוסקופ"),
-			keywords: &["מדע", "מחקר", "מיקרוסקופ"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("माइक\u{94d}रोस\u{94d}कोप"),
-			keywords: &["उपकरण", "प\u{94d}रयोग", "माइक\u{94d}रोस\u{94d}कोप", "विज\u{94d}ञान"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("mikroskop"),
-			keywords: &["alat", "eksperiment", "laboratorij", "mikroskop", "znanost"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("mikroszkóp"),
-			keywords: &[
-				"biológia",
-				"eszköz",
-				"felszerelés",
-				"kísérlet",
-				"laboratórium",
-				"mikroszkóp",
-				"tudomány",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("մանրադիտակ"),
-			keywords: &["գործիք", "մանրադիտակ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("mikroskop"),
-			keywords: &["alat", "eksperimen", "mikroskop", "percobaan", "sains"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ugogbe nnyota nje"),
-			keywords: &["ngwaọrụ", "sanyensi", "ugogbe nnyota nje"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("smásjá"),
-			keywords: &["smásjá", "verkfæri", "vísindi"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("microscopio"),
-			keywords: &[
-				"analisi",
-				"esperimento",
-				"microrganismo",
-				"microscopio",
-				"ricerca",
-				"scienza",
-				"scienziata",
-				"scienziato",
-				"strumento",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("顕微鏡"),
-			keywords: &["サイエンス", "実験", "研究", "科学", "顕微鏡"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("mikroskop"),
-			keywords: &["mikroskop", "pranti", "sains"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მიკროსკოპი"),
-			keywords: &["ინსტრუმენტი", "მიკროსკოპი", "ხელსაწყო"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("amikruskup"), keywords: &["amikruskup"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("микроскоп"),
-			keywords: &["зертхана", "микроскоп", "ғылым", "құрал"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("mikroskop"),
-			keywords: &["mikroskop", "redskab", "værktøj"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17b8}ក\u{17d2}រ\u{17bc}ទស\u{17d2}សន\u{17cd}"),
-			keywords: &["ឆ\u{17d2}ល\u{17bb}ះ", "ម\u{17b8}ក\u{17d2}រ\u{17bc}ទស\u{17d2}សន\u{17cd}"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}"),
-			keywords: &[
-				"ಉಪಕರಣ",
-				"ಪ\u{ccd}ರಯ\u{ccb}ಗ",
-				"ಪ\u{ccd}ರಯ\u{ccb}ಗಾಲಯ",
-				"ಮ\u{cc8}ಕ\u{ccd}ರ\u{ccb}ಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}",
-				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
-				"ಸಾಧನ",
-				"ಸ\u{cc2}ಕ\u{ccd}ಷ\u{ccd}ಮದರ\u{ccd}ಶಕ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("현미경"),
-			keywords: &["과학", "기구", "도구", "실험", "연구실", "장치", "현미경"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("मायक\u{94d}रोस\u{94d}कोप"),
-			keywords: &["मायक\u{94d}रोस\u{94d}कोप", "विज\u{94d}ञान", "साधन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("микроскоп"),
-			keywords: &["курал", "микроскоп"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Mikroskop"),
-			keywords: &["Apparat", "Mikroskop", "Wëssenschaft"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ກ\u{ec9}ອງຈ\u{eb8}ລະທ\u{eb1}ດ"),
-			keywords: &[
-				"ກ\u{ec9}ອງຈ\u{eb8}ລະທ\u{eb1}ດ",
-				"ທ\u{ebb}ດລອງ",
-				"ເຄ\u{eb7}\u{ec8}ອງທ\u{ebb}ດລອງ",
-				"ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}",
-				"ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}ທ\u{ebb}ດລອງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("mikroskopas"),
-			keywords: &["laboratorija", "mikroskopas", "mokslas", "įrankis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("mikroskops"),
-			keywords: &["eksperiments", "laboratorija", "mikroskops", "rīks", "zinātne"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("pūwhārahi"),
-			keywords: &["pūtaiao", "pūwhārahi", "utauta"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("микроскоп"),
-			keywords: &["алатка", "експеримент", "лабораторија", "микроскоп", "наука"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മൈക\u{d4d}രോസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"),
-			keywords: &["ഉപകരണം", "മൈക\u{d4d}രോസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("микроскоп"),
-			keywords: &["багаж", "микроскоп"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("मायक\u{94d}रोस\u{94d}कोप"),
-			keywords: &[
-				"बारीक नजर",
-				"मायक\u{94d}रोस\u{94d}कोप",
-				"मासक\u{94d}रोस\u{94d}कोप",
-				"विज\u{94d}ञान",
-				"साधन",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("mikroskop"),
-			keywords: &["alat", "eksperimen", "makmal", "mikroskop", "sains"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("mikroskopju"),
-			keywords: &["għodda", "mikroskopju", "xjenza"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အဏ\u{102f}ကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း"),
-			keywords: &[
-				"က\u{102d}ရ\u{102d}ယာ",
-				"အဏ\u{102f}ကြည\u{1037}\u{103a}မ\u{103e}န\u{103a}ပြောင\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{941}क\u{94d}ष\u{94d}मदर\u{94d}शक यन\u{94d}त\u{94d}र"),
-			keywords: &[
-				"उपकरण",
-				"विज\u{94d}ञान",
-				"स\u{941}क\u{94d}ष\u{94d}मदर\u{94d}शक यन\u{94d}त\u{94d}र",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("microscoop"),
-			keywords: &[
-				"experiment",
-				"gereedschap",
-				"instrument",
-				"laboratorium",
-				"microscoop",
-				"onderzoek",
-				"wetenschap",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["forsking", "mikroskop", "verktøy", "vitskap"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମ\u{b3e}ଇକ\u{b4d}ରୋସ\u{b4d}କୋପ\u{b4d}\u{200c}"),
-			keywords: &["ମ\u{b3e}ଇକ\u{b4d}ରୋସ\u{b4d}କୋପ\u{b4d}\u{200c}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਮਾਈਕਰ\u{a4b}\u{a4b}ਸਕ\u{a4b}ਪ"),
-			keywords: &[
-				"ਔਜ\u{a3c}ਾਰ",
-				"ਟ\u{a42}ਲ",
-				"ਤਜਰਬਾ",
-				"ਪ\u{a4d}ਰਯ\u{a4b}ਗਸ\u{a3c}ਾਲਾ",
-				"ਮਾਈਕਰ\u{a4b}ਸਕ\u{a4b}ਪ",
-				"ਮਾਈਕਰ\u{a4b}\u{a4b}ਸਕ\u{a4b}ਪ",
-				"ਰਸਾਇਣਸ\u{a3c}ਾਲਾ",
-				"ਲ\u{a47}ਬਾਰਟਰੀ",
-				"ਲ\u{a48}ਬ",
-				"ਵਿਗਿਆਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("خورد بین"),
-			keywords: &["اوزار", "خورد بین", "سائنس"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Maíkroskop"),
-			keywords: &["Maíkroskop", "Sáyẹns", "Tul"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("mikroskop"),
-			keywords: &["laboratorium", "mikroskop", "nauka", "obserwacja", "powiększenie"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("مایکروسکوپ"),
-			keywords: &["اله", "سائينس", "مايکروسکوپ", "مایکروسکوپ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("microscópio"),
-			keywords: &["ciência", "ferramenta", "microscópico", "microscópio"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["ciência", "experiência", "ferramenta", "instrumento", "microscópio"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation { lang: "qu", tts: Some("microscopio"), keywords: &["microscopio"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("microscop"),
-			keywords: &[
-				"cercetare",
-				"experiment",
-				"instrument",
-				"laborator",
-				"medical",
-				"microscop",
-				"știință",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-744"), keywords: &["E10-744"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("микроскоп"),
-			keywords: &[
-				"биология",
-				"изучать",
-				"инструмент",
-				"исследовать",
-				"клетки",
-				"лупа",
-				"микробы",
-				"микроскоп",
-				"прибор",
-				"увеличение",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("mikorosikope"),
-			keywords: &["igikoresho", "mikorosikope", "siyansi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("مائڪرو اسڪوپ"),
-			keywords: &["سائنس، اوزار", "مائڪرو اسڪوپ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("අණ\u{dca}ව\u{dd3}ක\u{dca}ෂය"),
-			keywords: &["අණ\u{dca}ව\u{dd3}ක\u{dca}ෂය", "මෙවලම"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("mikroskop"),
-			keywords: &["laboratórium", "mikroskop", "nástroj", "veda", "vzdelanie", "výskum", "škola"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("mikroskop"),
-			keywords: &["laboratorij", "mikroskop", "orodje", "poskus", "znanost"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("maykriskoob"),
-			keywords: &["maykriskoob", "qalab", "saynis"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("mikroskop"),
-			keywords: &["eksperiment", "instrument", "laborator", "mikroskop", "shkencë", "vegël"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("микроскоп"),
-			keywords: &["алат", "експеримент", "лабораторија", "микроскоп", "наука"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mikroskop"),
-			keywords: &["alat", "eksperiment", "laboratorija", "mikroskop", "nauka"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("mikroskop"),
-			keywords: &["mikroskop", "vetenskap"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("hadubini"),
-			keywords: &["hadubini", "zana"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மைக\u{bcd}ரோஸ\u{bcd}கோப\u{bcd}"),
-			keywords: &[
-				"அறிவியல\u{bcd}",
-				"ஆர\u{bbe}ய\u{bcd}ச\u{bcd}சி",
-				"கருவி",
-				"நுண\u{bcd}ணோக\u{bcd}கி",
-				"பரிசோதனை",
-				"பெரித\u{bbe}க\u{bcd}கம\u{bcd}",
-				"பெருக\u{bcd}கி",
-				"பொருள\u{bcd}",
-				"மைக\u{bcd}ரோஸ\u{bcd}கோப\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("మ\u{c48}క\u{c4d}ర\u{c4b}స\u{c4d}క\u{c4b}ప\u{c4d}"),
-			keywords: &[
-				"టూల\u{c4d}",
-				"మ\u{c48}క\u{c4d}ర\u{c4b}స\u{c4d}క\u{c4b}ప\u{c4d}",
-				"ల\u{c4d}య\u{c3e}బ\u{c4d}",
-				"వ\u{c3f}జ\u{c4d}ఞ\u{c3e}నము",
-				"సూక\u{c4d}ష\u{c4d}మదర\u{c4d}శ\u{c3f}న\u{c3f}",
-				"స\u{c48}న\u{c4d}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("микроскоп"),
-			keywords: &["асбоб", "илм", "микроскоп"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("กล\u{e49}องจ\u{e38}ลทรรศน\u{e4c}"),
-			keywords: &[
-				"กล\u{e49}องจ\u{e38}ลทรรศน\u{e4c}",
-				"ทดลอง",
-				"ว\u{e34}ทยาศาสตร\u{e4c}",
-				"เคร\u{e37}\u{e48}องม\u{e37}อ",
-				"แล\u{e47}บ",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ማይክሮስኮፕ"),
-			keywords: &["መሳርሒ", "ማይክሮስኮፕ", "ሳይንስ", "ቤተ ፈተነ", "ፈተነ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("mikroskop"),
-			keywords: &["gural", "mikroskop", "ylym"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("meʻa fakaʻataefu"),
-			keywords: &["meʻa fakaʻataefu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("mikroskop"),
-			keywords: &["alet", "bilim", "labrotuar", "mikroskop", "test"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("مىكروسكوپ"),
-			keywords: &["قورال", "مىكروسكوپ", "پەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("мікроскоп"),
-			keywords: &["мікроскоп", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("مائیکروسکوپ"),
-			keywords: &["آلہ", "سکوپ", "مائیکرو", "مائیکروسکوپ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("mikroskop"),
-			keywords: &["asbob", "laboratoriya", "mikroskop", "tajriba"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("kính hiển vi"),
-			keywords: &["dụng cụ", "khoa học", "kính hiển vi", "kính hiển vị", "thí nghiệm"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("mikroskop"),
-			keywords: &["jumtukaay", "mikroskop", "xarala"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("i-microscope"),
-			keywords: &["i-microscope", "inzululwazi", "isixhobo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("maikirosikopu"),
-			keywords: &["irinṣẹ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("maikirosikopu"),
-			keywords: &["irinshɛ\u{301}", "maikirosikopu", "sáyé\u{329}nsì"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("顯微鏡"),
-			keywords: &["工具", "科學", "顯微鏡"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("显微镜"),
-			keywords: &["工具", "显微镜", "科学"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("显微镜"),
-			keywords: &["实验", "实验室", "工具", "显微镜", "生物", "科学", "细胞"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("顯微鏡"),
-			keywords: &["實驗", "實驗室", "顯微鏡"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["實驗", "實驗室", "工具", "科學", "顯微鏡"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("i-microscope"),
-			keywords: &["i-microscope", "ithuluzi"],
-		},
-	],
-};
 #[doc = "🔭"]
 pub const TELESCOPE: crate::Emoji = crate::Emoji {
 	glyph:                "🔭",
@@ -5053,899 +5946,6 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("i-telescope"),
 			keywords: &["i-telescope", "itelescope", "ithuluzi"],
-		},
-	],
-};
-#[doc = "📡"]
-pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
-	glyph:                "📡",
-	codepoint:            &[128225u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "satellite antenna",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Science,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("satellietantenna"),
-			keywords: &[
-				"antenna",
-				"antenne",
-				"kontak",
-				"satelliet",
-				"satellietantenna",
-				"satellietantenne",
-				"skottel",
-				"wetenskap",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሳተላይት አንቴና"),
-			keywords: &["ሳተላይት", "አንቴና", "ዲሽ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("طبق قمر صناعي"),
-			keywords: &[
-				"تواصل",
-				"دش",
-				"ساتلايت",
-				"ستلايت",
-				"صحن",
-				"طبق قمر صناعي",
-				"علم",
-				"قمر صناعي",
-				"هوائي",
-				"هوائي قمر صناعي",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}"),
-			keywords: &[
-				"উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}",
-				"এণ\u{9cd}টেন\u{9be}",
-				"ছেটেল\u{9be}ইট",
-				"ডিশ\u{9cd}ব",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("peyk antenası"),
-			keywords: &["antena", "peyk", "peyk antenası", "çanaq antenası"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("спадарожнікавая антэна"),
-			keywords: &["антэна", "спадарожнік", "спадарожнікавая антэна", "талерка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("сателитна антена"),
-			keywords: &["антена", "сателитна", "чиния"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}"),
-			keywords: &[
-				"অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
-				"উপগ\u{9cd}রহ",
-				"ডিশ",
-				"স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("stign loarell"),
-			keywords: &["loarell", "stign"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelitska", "tanjir"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("antena de satèl·lit"),
-			keywords: &[
-				"antena",
-				"antena de satèl·lit",
-				"ciència",
-				"contacte",
-				"extraterrestres",
-				"plat",
-				"satèl·lit",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"),
-			keywords: &["ᎤᏅᏪᏓ", "ᎦᎸᎳᏗ ᎡᏙᎯ ᎾᏏᎳᏛᎾ ᎦᏂᏱᏍᎩ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("satelitní anténa"),
-			keywords: &[
-				"anténa",
-				"družice",
-				"kontakt",
-				"parabolická anténa",
-				"satelit",
-				"satelitní anténa",
-				"talíř",
-				"věda",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("antena lloeren"),
-			keywords: &["antena", "lloeren"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("parabolantenne"),
-			keywords: &[
-				"aliens",
-				"antenne",
-				"parabol",
-				"parabolantenne",
-				"radioteleskop",
-				"rumvæsner",
-				"satellit",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Satellitenschüssel"),
-			keywords: &["Antenne", "Sat-Schüssel", "Satellitenschüssel", "Satschüssel", "Schüssel"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("δορυφορική κεραία"),
-			keywords: &["δορυφορική", "δορυφόρος", "εξωγήινοι", "επαφή", "κεραία", "πιάτο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("satellite antenna"),
-			keywords: &["aliens", "antenna", "contact", "dish", "satellite", "science"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("satellite dish"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("antena de satélite"),
-			keywords: &["antena", "antena de satélite", "comunicación", "satélite"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("antena satelital"),
-			keywords: &[
-				"antena",
-				"antena de satélite",
-				"antena satelital",
-				"comunicación",
-				"emisión",
-				"satélite",
-				"señal",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("satelliitantenn"),
-			keywords: &["antenn", "satelliit", "satelliitantenn", "taldrik"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("satelite bidezko antena"),
-			keywords: &["antena", "parabolikoa", "satelite bidezko antena"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("آنتن ماهواره"),
-			keywords: &["آنتن", "بشقاب", "دیش", "ماهواره"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("lautasantenni"),
-			keywords: &["antenni", "lautanen", "lautasantenni", "satelliitti", "satelliittiantenni"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("satellite antenna"),
-			keywords: &["antenna", "dish", "satellite"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("parabolur"),
-			keywords: &["antenna", "parabolur", "skálkampur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("antenne satellite"),
-			keywords: &["antenne", "antenne parabolique", "parabole", "satellite", "science"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("aeróg satailíte"),
-			keywords: &[
-				"aeróg",
-				"aeróg satailíte",
-				"aeróg shatailíte",
-				"eolaíocht",
-				"mias",
-				"mias satailíte",
-				"satailít",
-				"teagmháil",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("iadhaire-saideil"),
-			keywords: &["iadhaire", "iadhaire-saideil", "saideal", "soitheach"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("antena de satélite"),
-			keywords: &["antena", "antena de satélite", "satélite"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{ac7}ટ\u{ac7}લાઇટ એન\u{acd}ટ\u{ac7}ના"),
-			keywords: &[
-				"એન\u{acd}ટ\u{ac7}ના",
-				"ડિશ",
-				"સ\u{a82}ચાર",
-				"સ\u{a82}ચારણ",
-				"સાધન",
-				"સ\u{ac7}ટ\u{ac7}લાઇટ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("eriya na kumbo"),
-			keywords: &[
-				"dish",
-				"eriya",
-				"eriya na kumbo",
-				"kama tasha",
-				"kimiyya",
-				"kumbo",
-				"sadarwa",
-				"sararin samaniya",
-				"satalayit",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("eriya na kumbo"),
-			keywords: &[
-				"dish",
-				"eriya",
-				"eriya na kumbo",
-				"kama tasha",
-				"kimiyya",
-				"kumbo",
-				"sadarwa",
-				"sararin samaniya",
-				"satalayit",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("צלחת לוויין"),
-			keywords: &["אנטנה", "לוויין", "צלחת", "תקשורת"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना"),
-			keywords: &[
-				"उपग\u{94d}रह",
-				"डिश",
-				"स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना",
-				"स\u{948}ट\u{947}लाइट डिश",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelit", "satelitska antena", "tanjur"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("parabolaantenna"),
-			keywords: &["antenna", "műhold", "parabola antenna", "parabolaantenna", "tányér"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("արբանյակային ալեհավաք"),
-			keywords: &["ալեհավաք", "արբանյակ", "արբանյակային ալեհավաք", "ափսե"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "piring", "satelit"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("akara satịlitị"),
-			keywords: &["akara", "dishi", "satịlitị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("gervihnattaloftnet"),
-			keywords: &["diskur", "gervihnattadiskur", "gervihnattaloftnet", "loftnet"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("antenna satellitare"),
-			keywords: &[
-				"antenna",
-				"antenna parabolica",
-				"antenne paraboliche",
-				"antenne satellitari",
-				"comunicazione",
-				"parabola",
-				"satellitare",
-				"satellite",
-				"scienza",
-				"scienze",
-				"tecnologia",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("パラボラアンテナ"),
-			keywords: &["アンテナ", "パラボラ", "パラボラアンテナ", "科学", "衛星アンテナ", "電波"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "parabola", "satelit"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("თანამგზავრული ანტენა"),
-			keywords: &["ანტენა", "თანამგზავრი", "თანამგზავრული", "თეფში", "სატელიტი", "სატელიტური"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("серіктік антенна"),
-			keywords: &["антенна", "серіктік", "тәрелке", "ғылым"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("parabolantenne"),
-			keywords: &["kommunikation", "parabolantenne"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ចានផ\u{17d2}កាយរណប"),
-			keywords: &["ចានផ\u{17d2}កាយរណប", "ផ\u{17d2}កាយរណប", "អង\u{17cb}តែន"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಉಪಗ\u{ccd}ರಹ ಆಂಟ\u{cc6}ನಾ"),
-			keywords: &[
-				"ಆಂಟ\u{cc6}ನಾ",
-				"ಉಪಗ\u{ccd}ರಹ",
-				"ಡ\u{cbf}ಶ\u{ccd}",
-				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
-				"ಸಂಪರ\u{ccd}ಕ",
-				"ಸಂವಹನ",
-				"ಸಾಟ\u{ccd}ಲ\u{cc8}ಟ\u{ccd} ಆಂಟ\u{cc6}ನಾ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("위성 안테나"),
-			keywords: &["과학", "발견", "안테나", "외계인", "위성", "위성 방송", "접시"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("उपगिरो एण\u{94d}ट\u{947}ना"),
-			keywords: &["उपगिरो", "एण\u{94d}ट\u{947}ना", "डीश"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("спутниктик антенна"),
-			keywords: &["антенна", "спутник", "спутниктик антенна", "табак"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Satellittenantenn"),
-			keywords: &["Antenn", "Satellitt", "Satellittenantenn", "Teller"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເສ\u{ebb}າອາກາດດາວທຽມ"),
-			keywords: &["ດາວທຽມ", "ເສ\u{ebb}າອາກາດ", "ເສ\u{ebb}າອາກາດດາວທຽມ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("palydovinė antena"),
-			keywords: &["antena", "indas", "mokslas", "palydovas", "palydovinė antena"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("satelīta šķīvis"),
-			keywords: &["antena", "satelīta šķīvis", "satelīts", "šķīvis"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("pūhihi amiorangi"),
-			keywords: &["amiorangi", "pūhihi", "rīhi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("сателитска антена"),
-			keywords: &["антена", "вонземјани", "контакт", "наука", "сателит", "сателитска", "чинија"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d} ആന\u{d4d}റിന"),
-			keywords: &[
-				"ആന\u{d4d}റിന",
-				"ആശയവിനിമയം",
-				"ടിവി ആന\u{d4d}റിന",
-				"ഡിഷ\u{d4d}",
-				"സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хиймэл дагуулын антен"),
-			keywords: &["антен", "таваг", "хиймэл дагуул", "хиймэл дагуулын антен"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना"),
-			keywords: &[
-				"अ\u{901}टिना",
-				"अ\u{901}ट\u{947}ना",
-				"उपग\u{94d}रह",
-				"उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना",
-				"उपग\u{94d}रह ए\u{902}टिना",
-				"डिश",
-				"स\u{902}वाद",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "hubungi", "makhluk asing", "piring", "sains", "satelit"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("antenna tas-satellita"),
-			keywords: &["antenna", "antenna tas-satellita", "dixx", "satellita"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း"),
-			keywords: &[
-				"ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း",
-				"ဆက\u{103a}သယ\u{103a}ရေး ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f}",
-				"ဧရ\u{102e}ယာတ\u{102d}\u{102f}င\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}याटलाइट एन\u{94d}ट\u{947}ना"),
-			keywords: &["एन\u{94d}ट\u{947}ना", "डिस\u{94d}", "स\u{94d}याटलाइट"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("satellietschotel"),
-			keywords: &["antenne", "communicatie", "satelliet", "satellietschotel", "schotel"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}"),
-			keywords: &[
-				"ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
-				"ଡ\u{b3f}ସ\u{b4d}",
-				"ଯୋଗ\u{b3e}ଯୋଗ",
-				"ସ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}",
-				"ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ"),
-			keywords: &[
-				"ਅ\u{a70}ਟੀਨਾ",
-				"ਏਲੀਅਨ",
-				"ਐਨਟੀਨਾ",
-				"ਡਿਸ\u{a3c}",
-				"ਸ\u{a48}ਟਲਾਈਟ",
-				"ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ",
-				"ਸ\u{a70}ਚਾਰ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("سیٹلائٹ انٹینا"),
-			keywords: &["انٹینا", "تھالی", "سیٹلائٹ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Sátálaít Antẹ\u{301}na"),
-			keywords: &["Antẹ\u{301}na", "Dish", "Sátálait", "Sátálaít Antẹ\u{301}na"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("antena satelitarna"),
-			keywords: &[
-				"antena",
-				"antena satelitarna",
-				"czasza",
-				"kosmici",
-				"nauka",
-				"obcy",
-				"satelita",
-				"talerz",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د سپوږمکۍ انټينا"),
-			keywords: &["انټينا", "د سپوږمکۍ انټينا", "سپوږمکۍ", "ډش"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("antena parabólica"),
-			keywords: &["antena", "comunicação", "parabólica", "satélite"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("antenă satelit"),
-			keywords: &["antenă", "comunicare", "contact", "extratereștri", "satelit", "știință"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-670"), keywords: &["E10-670"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("спутниковая антенна"),
-			keywords: &["антенна", "спутник", "спутниковая"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("anteni y’icyogajuru"),
-			keywords: &["anteni", "anteni y’icyogajuru", "icyogajuru", "isahani"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سيٽ لائيٽ اينٽينا"),
-			keywords: &["اينٽينا", "سيٽ لائيٽ اينٽينا", "سيٽيلائيٽ", "ڊش"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව"),
-			keywords: &[
-				"ඇන\u{dca}ටන\u{dcf}ව",
-				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව",
-				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf}ව",
-				"ඩ\u{dd2}ෂ\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("satelitná anténa"),
-			keywords: &["anténa", "kontakt", "satelit", "satelitná anténa", "tanier", "veda"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "krožnik", "satelit", "satelitska antena", "satelitsko"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("aanteenada satalaytka"),
-			keywords: &["aanteena", "aanteenada satalaytka", "satalayt", "sixni"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("antenë satelitore"),
-			keywords: &["alien", "antenë", "kontakt", "satelit", "satelitore", "shkencë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("сателитска антена"),
-			keywords: &["антена", "ванземаљци", "сaтeлит", "сателитска", "тањир"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelit", "satelitska", "tanjir", "vanzemaljci"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("tv-satellit"),
-			keywords: &["antenn", "kommunikation", "satellit", "tv-satellit", "tv-satellitantenn"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("antena ya setilaiti"),
-			keywords: &["antena", "antena ya setilaiti", "dishi", "setilaiti", "ungo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}"),
-			keywords: &[
-				"ஆண\u{bcd}டென\u{bbe}",
-				"ஆன\u{bcd}டன\u{bbe}",
-				"ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}",
-				"செயற\u{bcd}கை கோள\u{bcd}",
-				"செயற\u{bcd}கைக\u{bcd}கோள\u{bcd}",
-				"டிவி",
-				"டிஷ\u{bcd}",
-				"தொடர\u{bcd}பு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}"),
-			keywords: &[
-				"ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
-				"ఎల\u{c3f}యన\u{c4d}స\u{c4d}",
-				"క\u{c3e}ంట\u{c3e}క\u{c4d}ట\u{c4d}",
-				"డ\u{c3f}ష\u{c4d}",
-				"వ\u{c3f}జ\u{c4d}ఞ\u{c4d}య\u{c3e}నం",
-				"శ\u{c3e}ట\u{c3f}ల\u{c48}ట\u{c4d} య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
-				"స\u{c3e}ట\u{c3f}ల\u{c4d}ల\u{c48}ట\u{c4d} ఆంట\u{c46}న\u{c4d}న\u{c3e}",
-				"స\u{c48}న\u{c4d}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("антеннаи моҳвораӣ"),
-			keywords: &["антенна", "антеннаи моҳвораӣ", "моҳвора", "табақ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("จานดาวเท\u{e35}ยม"),
-			keywords: &["จาน", "จานดาวเท\u{e35}ยม", "ดาวเท\u{e35}ยม", "เสาอากาศ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሳተላይት ኣንቴና"),
-			keywords: &["ርክብ", "ሳተላይት", "ሳይንስ", "ኣንቴና", "ወጻእተኛታት", "ድስቲ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("hemra antennasy"),
-			keywords: &["anten", "hemra", "hemra antennasy", "tarelka"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tisi satelaite"),
-			keywords: &["tisi satelaite"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("uydu anteni"),
-			keywords: &["anten", "iletişim", "uydu", "uydu anteni", "çanak"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("سۈنئىي ھەمرا ئانتېنناسى"),
-			keywords: &["ئانتېننا", "تەخسە", "سۈنئىي ھەمرا ئانتېنناسى", "سۈنئىي ھەمراھ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("супутникова антена"),
-			keywords: &["антена", "супутникова", "тарілка"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سیٹلائٹ انٹینا"),
-			keywords: &["آلہ", "ابلاغ", "انٹینا", "رابطہ", "سٹلائٹ", "سیٹلائٹ انٹینا", "طشتری", "ڈش"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("sun’iy yo‘ldoshli antenna"),
-			keywords: &["aloqa", "antenna", "lagan", "sunʼiy yoʻldosh", "sun’iy yo‘ldoshli antenna"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ăng-ten vệ tinh"),
-			keywords: &["vệ tinh", "ăng-ten", "ăng-ten vệ tinh", "đĩa"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("àntenu satelit"),
-			keywords: &["satelit", "sukup", "ànten", "àntenu satelit"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("intonga yesathelayithi"),
-			keywords: &["i-dish", "i-satellite", "intonga", "intonga yesathelayithi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("eria satalaiti"),
-			keywords: &["eria satalaiti", "àtagbà", "àwo", "ẹ\u{300}rọ alátagbà nlá"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("eria satalaiti"),
-			keywords: &["eria satalaiti", "àtagbà", "àwo", "ɛ\u{300}rɔ alátagbà nlá"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("衛星天線"),
-			keywords: &["天線", "碟", "衛星", "衛星天線"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("卫星天线"),
-			keywords: &["卫星", "卫星天线", "天线", "碟"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("卫星天线"),
-			keywords: &[
-				"信号接收",
-				"卫星",
-				"卫星天线",
-				"卫星接收天线",
-				"卫星碟形天线",
-				"外星人",
-				"天线",
-				"接触",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("衛星天線"),
-			keywords: &["外星人", "天線", "衛星天線"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["外星人", "天線", "太空", "宇宙", "碟", "科學", "衛星"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("u-eriyeli wesethelaythi"),
-			keywords: &["indishi", "isethelaythi", "u-eriyeli", "u-eriyeli wesethelaythi"],
 		},
 	],
 };

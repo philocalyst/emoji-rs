@@ -1,2172 +1,3 @@
-#[doc = "💉"]
-pub const SYRINGE: crate::Emoji = crate::Emoji {
-	glyph:                "💉",
-	codepoint:            &[128137u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "syringe",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Medical,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("inspuiting"),
-			keywords: &[
-				"dokter",
-				"griepinspuiting",
-				"inent",
-				"inenting",
-				"inentings",
-				"inspuiting",
-				"medisyne",
-				"naald",
-				"siek",
-				"spuitnaald",
-				"werktuig",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ስሪንጅ"),
-			keywords: &["ሕክምና", "መርፌ", "ስሪንጅ", "ተኩስ", "ክትባት", "የታመመ", "የደም ናሙና", "የደም ጠብታ", "ደም"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("إبرة حقن"),
-			keywords: &[
-				"إبرة",
-				"إبرة حقن",
-				"ابرة",
-				"تلقيح",
-				"جريب",
-				"حقنة",
-				"دواء",
-				"سرنجة",
-				"طب",
-				"طبيب",
-				"طعم",
-				"لقاح",
-				"مرض",
-				"مريض",
-				"مطاعيم",
-				"مطعوم",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("চিৰিঞ\u{9cd}জ"),
-			keywords: &[
-				"ঔষধ",
-				"ঔষধৰ বেজী",
-				"চিকিৎসক",
-				"চিৰিঞ\u{9cd}জ",
-				"বেজী",
-				"স\u{981}জ\u{9c1}লি",
-				"ৰোগী",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("şpris"),
-			keywords: &["alət", "həkim", "iynə", "naxoş", "tibb", "vaksin", "xəstə", "çəkmək", "şpris"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("шпрыц"),
-			keywords: &["доктар", "лекі", "укол", "шпрыц", "іголка", "ін’екцыя"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("спринцовка"),
-			keywords: &[
-				"болен",
-				"ваксина",
-				"грип",
-				"игла",
-				"инструмент",
-				"лекар",
-				"медицина",
-				"спринцовка",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("সিরিঞ\u{9cd}জ"),
-			keywords: &[
-				"অস\u{9c1}স\u{9cd}থ",
-				"ইঞ\u{9cd}জেকশন",
-				"ওষ\u{9c1}ধ",
-				"টিক\u{9be}",
-				"ড\u{9be}ক\u{9cd}ত\u{9be}র",
-				"ভ\u{9cd}য\u{9be}কসিন",
-				"সরঞ\u{9cd}জ\u{9be}ম",
-				"সিরিঞ\u{9cd}জ",
-				"স\u{9c2}\u{981}চ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("strinkell"),
-			keywords: &["mezegiezh", "strinkell"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("šprica"),
-			keywords: &["bolest", "igla", "injekcija", "lijek", "šprica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("xeringa"),
-			keywords: &[
-				"agulla",
-				"doctor",
-				"doctora",
-				"injecció",
-				"injecció contra la grip",
-				"instrument mèdic",
-				"malalt",
-				"malalta",
-				"medicina",
-				"metge",
-				"vacuna",
-				"vacunació",
-				"xeringa",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏴᎩ ᎠᏓᏣᏲᏍᏙᏗ"),
-			keywords: &["ᎠᎦᎾᎦᏘ", "ᎠᏓᏣᏲᏍᏗ", "ᎤᏓᏂᎵ", "ᎬᏔᏂᏓᏍᏗ", "ᏅᏬᏘ", "ᏴᎩ ᎠᏓᏣᏲᏍᏙᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("injekční stříkačka"),
-			keywords: &[
-				"doktor",
-				"dávka",
-				"injekce",
-				"injekční stříkačka",
-				"jehla",
-				"lék",
-				"lékař",
-				"nemoc",
-				"nemocný",
-				"nástroj",
-				"očkovat",
-				"očkování",
-				"očkování proti chřipce",
-				"prevence",
-				"stříkačka",
-				"vakcína",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("chwistrell"),
-			keywords: &["chwistrell", "doctor", "meddygaeth", "nodwydd", "sâl"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("sprøjte"),
-			keywords: &["indsprøjtning", "injektion", "kanyle", "læge", "medicin", "sprøjte"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Spritze"),
-			keywords: &["Arzt", "Impfung", "Injektion", "Kanüle", "Nadel", "Spritze", "impfen"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("σύριγγα"),
-			keywords: &[
-				"άρρωστος",
-				"ένεση",
-				"βελόνα",
-				"γιατρός",
-				"εμβολιασμοί",
-				"εμβολιασμός",
-				"εμβόλιο γρίπης",
-				"εργαλείο",
-				"σύριγγα",
-				"φάρμακο",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("syringe"),
-			keywords: &[
-				"doctor",
-				"flu",
-				"medicine",
-				"needle",
-				"shot",
-				"sick",
-				"syringe",
-				"tool",
-				"vaccination",
-			],
-		},
-		#[cfg(feature = "en_001")]
-		crate::Annotation {
-			lang:     "en_001",
-			tts:      None,
-			keywords: &["ill", "injection", "medicine", "needle", "syringe"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("jeringuilla"),
-			keywords: &["aguja", "jeringa", "jeringuilla", "medicina", "médico"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("jeringa"),
-			keywords: &[
-				"aguja",
-				"análisis",
-				"doctor",
-				"hospital",
-				"inyección",
-				"jeringa",
-				"jeringa cargada",
-				"medicina",
-				"sangre",
-				"vacuna",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["aguja", "enfermo", "inyección", "jeringa", "medicina", "médico", "vacuna"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("süstal"),
-			keywords: &["arst", "haigus", "nõel", "ravim", "süstal"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("xiringa"),
-			keywords: &["gaixo", "medikuntza", "orratz", "sendagile", "tresna", "xiringa", "ziztada"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("سرنگ"),
-			keywords: &["آمپول", "بیمار", "دارو", "دکتر", "سرنگ", "سوزن", "مریض", "واکسن", "پزشک"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("ruisku"),
-			keywords: &["lääke", "lääkäri", "piikki", "rokote", "ruisku", "tauti", "työkalu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("hiringgilya"),
-			keywords: &[
-				"bakuna",
-				"doktor",
-				"flu shot",
-				"gamot",
-				"hiringgilya",
-				"karayom",
-				"sakit",
-				"shot",
-				"turok",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("sproyta"),
-			keywords: &[
-				"amboð",
-				"heilivágur",
-				"innspræning",
-				"lækni",
-				"medisin",
-				"nál",
-				"sjúka",
-				"sproyta",
-			],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("seringue"),
-			keywords: &[
-				"aiguille",
-				"docteur",
-				"malade",
-				"médecine",
-				"piqûre",
-				"seringue",
-				"vaccin",
-				"vaccination",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("instealladh"),
-			keywords: &["dochtúir", "instealladh", "leigheas", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("steallair"),
-			keywords: &[
-				"acainn",
-				"bochd",
-				"dotair",
-				"inneal",
-				"leigheas",
-				"snàthad",
-				"stealladh",
-				"steallair",
-				"tinn",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("xiringa"),
-			keywords: &["inxección", "médico", "vacina", "virus", "xiringa"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સીરિ\u{a82}જ"),
-			keywords: &[
-				"ડોક\u{acd}ટર",
-				"દવા",
-				"બીમાર",
-				"રસી",
-				"રસીકરણ",
-				"વ\u{ac7}ક\u{acd}સીન",
-				"શોટ",
-				"સીરિ\u{a82}જ",
-				"સોય",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("allura"),
-			keywords: &[
-				"allura",
-				"ba da allura",
-				"jini",
-				"kayan aiki",
-				"lafiya",
-				"likita",
-				"magani",
-				"mara lafiya",
-				"maras lafiya",
-				"rigakafi",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("allura"),
-			keywords: &[
-				"allura",
-				"ba da allura",
-				"jini",
-				"kayan aiki",
-				"lafiya",
-				"likita",
-				"magani",
-				"mara lafiya",
-				"maras lafiya",
-				"rigakafi",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מזרק"),
-			keywords: &["זריקה", "חולה", "חיסון", "מזרק", "מחט", "תרופה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("सिरी\u{902}ज, स\u{942}ई"),
-			keywords: &[
-				"डॉक\u{94d}टर",
-				"दवाई",
-				"बीमार",
-				"मरीज\u{93c}",
-				"सिरि\u{902}ज",
-				"सिरी\u{902}ज",
-				"सिरी\u{902}ज, स\u{942}ई",
-				"स\u{941}ई",
-				"स\u{942}ई",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("šprica"),
-			keywords: &["bolest", "cjepivo", "igla", "injekcija", "medicina", "šprica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("fecskendő"),
-			keywords: &["eszköz", "fecskendő", "injekciós tű", "orvos", "véradás", "vérvétel"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ներարկիչ"),
-			keywords: &["ասեղ", "բժիշկ", "բժշկություն", "գործիք", "հիվանդ", "ներարկիչ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("suntikan"),
-			keywords: &["alat", "dokter", "jarum", "obat", "sakit", "suntikan", "vaksin", "vaksinasi"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ntụtụ"),
-			keywords: &["dọkịnta", "gbaa", "ngwaọrụ", "ntụtụ", "ọgwụ", "ọrịa"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("sprauta"),
-			keywords: &["lyf", "læknir", "nál", "sprauta"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("siringa"),
-			keywords: &[
-				"ago",
-				"dottore",
-				"iniezione",
-				"malato",
-				"medicina",
-				"medico",
-				"ospedale",
-				"puntura",
-				"sangue",
-				"siringa",
-				"vaccinare",
-				"vaccinazione",
-				"vaccino",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("注射器"),
-			keywords: &["予防接種", "医療器具", "医者", "注射", "注射器", "病気", "薬", "針"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("siring"),
-			keywords: &["bat", "dom", "lara", "siring", "suntik"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("შპრიცი"),
-			keywords: &["ავადმყოფობა", "ექიმი", "ინსტრუმენტი", "მედიცინა", "ნემსი", "შპრიცი", "ხელსაწყო"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("tisegnit"), keywords: &["tisegnit"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("шприц"),
-			keywords: &["ауру", "ине", "медицина", "салу", "шприц", "қан"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("sprøjte"),
-			keywords: &["indsprøjtning", "læge", "sprøjte"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ស\u{17ca}\u{17ba}រ\u{17c9}ាងចាក\u{17cb}ថ\u{17d2}មា\u{17c6}"),
-			keywords: &[
-				"ចាក\u{17cb}",
-				"ឈ\u{17ba}",
-				"ថ\u{17d2}នា\u{17c6}",
-				"ម\u{17d2}ជ\u{17bb}ល",
-				"ស\u{17ba}រ\u{17c9}ា\u{17c6}ង",
-				"ស\u{17ca}\u{17ba}រ\u{17c9}ាងចាក\u{17cb}ថ\u{17d2}មា\u{17c6}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}"),
-			keywords: &[
-				"ಅನಾರ\u{ccb}ಗ\u{ccd}ಯ",
-				"ಇಂಜ\u{cc6}ಕ\u{ccd}ಷನ\u{ccd}",
-				"ಔಷಧ",
-				"ಚುಚ\u{ccd}ಚುಮದ\u{ccd}ದು",
-				"ಡಾಕ\u{ccd}ಟರ\u{ccd}",
-				"ಲಸ\u{cbf}ಕ\u{cc6}",
-				"ವ\u{cc8}ದ\u{ccd}ಯರು",
-				"ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}",
-				"ಸ\u{cc2}ಜ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("주사기"),
-			keywords: &[
-				"도구",
-				"독감 주사",
-				"백신",
-				"병원",
-				"아픔",
-				"의사",
-				"의학",
-				"주사 바늘",
-				"주사기",
-				"치료",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("सिरि\u{902}ज"),
-			keywords: &[
-				"तो\u{902}पप",
-				"द\u{941}य\u{947}\u{902}त",
-				"वखदा\u{902}",
-				"सिरि\u{902}ज",
-				"स\u{941}य",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("шприц"),
-			keywords: &["дары", "ийне", "оору", "сай", "шприц"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Sprëtz"),
-			keywords: &["Dokter", "Medezin", "Nol", "Sprëtz", "Utensil", "krank"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຊະແລ\u{eb1}ງ"),
-			keywords: &["ຊະແລ\u{eb1}ງ", "ຫ\u{ebc}ອດສ\u{eb1}ກຢາ", "ເຂ\u{eb1}ມ", "ເຂ\u{eb1}ມສ\u{eb1}ກຢາ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("švirkštas"),
-			keywords: &["adata", "dūris", "gydytojas", "ligonis", "medicina", "įrankis", "švirkštas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("šļirce"),
-			keywords: &["adata", "medicīna", "pote", "slims", "ārsts", "šļirce"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("ngira"),
-			keywords: &["mate", "ngira", "pota", "rata", "rongoā", "utauta"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("шприц"),
-			keywords: &["болен", "вакцина", "вакцинација", "доктор", "игла", "инјекција", "лек", "шприц"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സിറിഞ\u{d4d}ച\u{d4d}"),
-			keywords: &[
-				"ക\u{d41}ത\u{d4d}തിവയ\u{d4d}പ\u{d4d}പ\u{d4d}",
-				"ഡോക\u{d4d}ടർ",
-				"മര\u{d41}ന\u{d4d}ന\u{d4d}",
-				"സിറിഞ\u{d4d}ച\u{d4d}",
-				"സ\u{d42}ചി",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("тариа"),
-			keywords: &["зүү", "тариа", "тариур", "эм", "өвчтэй"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("सिरि\u{902}ज"),
-			keywords: &[
-				"आजारी",
-				"इ\u{902}जक\u{94d}शन द\u{947}ण\u{947}",
-				"इ\u{902}ज\u{947}क\u{94d}शन द\u{947}ण\u{94d}\u{200d}याच\u{947} साधन",
-				"औषध",
-				"डॉक\u{94d}टर",
-				"शॉट",
-				"साधन",
-				"सिरि\u{902}ज",
-				"स\u{941}ई",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("picagari"),
-			keywords: &["alat", "doktor", "jarum", "perubatan", "picagari", "sakit", "suntikan"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("siringa"),
-			keywords: &["għodda", "labra", "marid", "mediċina", "siringa", "tabib", "vaċċin"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဆေးထ\u{102d}\u{102f}းအပ\u{103a}"),
-			keywords: &[
-				"ဆေး",
-				"ဆေးထ\u{102d}\u{102f}းပြ\u{103d}တ\u{103a}",
-				"ဆေးထ\u{102d}\u{102f}းအပ\u{103a}",
-				"ဖျားနာခြင\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{942}ई"),
-			keywords: &["औषधि", "बिरामी", "सट", "स\u{941}ई", "स\u{942}ई"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("injectiespuit"),
-			keywords: &[
-				"dokter",
-				"gereedschap",
-				"griep",
-				"injectie",
-				"medicijn",
-				"naald",
-				"spuit",
-				"vaccinatie",
-				"ziek",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["medisin", "nål", "sjuk", "sprøyte", "vaksine"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ"),
-			keywords: &[
-				"ଔଷଧ",
-				"ଛ\u{b41}ଞ\u{b4d}ଚ\u{b3f}",
-				"ର\u{b41}ଗ\u{b4d}\u{200c}ଣ",
-				"ସଟ\u{b4d}\u{200c}",
-				"ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ",
-				"ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਰਿ\u{a70}ਜ"),
-			keywords: &["ਟੀਕਾ", "ਦਵਾਈ", "ਬਿਮਾਰ", "ਮਰੀਜ\u{a3c}", "ਸਰਿ\u{a70}ਜ", "ਸ\u{a42}ਈ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ٹیکا"),
-			keywords: &["اوزار", "دوائی", "سوئی", "طبیب", "علیل", "نشانہ", "ٹیکا"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Sirinj"),
-			keywords: &["Mẹ\u{301}dísin", "Nídul", "Shọt", "Sik", "Sirinj"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("strzykawka"),
-			keywords: &[
-				"chory",
-				"doktor",
-				"lekarstwo",
-				"lekarz",
-				"pielęgniarka",
-				"strzykawka",
-				"szczepienie",
-				"szczepionka",
-				"zastrzyk",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("سرنج"),
-			keywords: &["درمل", "ستن", "سرنج", "سيرنج", "ناروغ", "وهل"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("seringa"),
-			keywords: &["agulha", "injeção", "médico", "remédio", "seringa", "vacina", "vacinação"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["agulha", "doente", "injeção", "medicamento", "médico", "remédio", "seringa"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("seringă"),
-			keywords: &[
-				"ac",
-				"antigripal",
-				"boală",
-				"bolnav",
-				"doctor",
-				"injecție",
-				"medicament",
-				"seringă",
-				"siringă",
-				"tratament",
-				"vaccin",
-				"vaccinare",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-582"), keywords: &["E10-582"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("шприц"),
-			keywords: &[
-				"инъекция",
-				"кровь",
-				"лечение",
-				"медицина",
-				"препарат",
-				"прививка",
-				"укол",
-				"шприц",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("urushinge rwo kwa muganga"),
-			keywords: &[
-				"guterwa urushinge",
-				"igikoresho",
-				"muganga",
-				"ubuvuzi",
-				"urushinge",
-				"urushinge rwo kwa muganga",
-				"urwaye",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سرنج"),
-			keywords: &["اوزار", "بيمار", "دوا", "سئي", "سرنج", "شاٽ", "ڊاڪٽر"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dd2}ර\u{dd2}න\u{dca}ජය"),
-			keywords: &[
-				"ඉඳ\u{dd2}කට\u{dd4}ව",
-				"ඖෂධ",
-				"ම\u{dcf}ත\u{dca}\u{200d}ර\u{dcf}ව",
-				"ලෙඩ",
-				"ස\u{dd2}ර\u{dd2}න\u{dca}ජය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("injekcia"),
-			keywords: &[
-				"choroba",
-				"doktor",
-				"ihla",
-				"injekcia",
-				"injekčná striekačka",
-				"krv",
-				"liek",
-				"medicína",
-				"nástroj",
-				"vakcína",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("injekcija"),
-			keywords: &["bolezen", "bolno", "igla", "injekcija", "medicina", "orodje", "zdravnik"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("irbad"),
-			keywords: &["dawo", "irbad", "talaal", "xanuunsanaya"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("shiringë"),
-			keywords: &["doktor", "gjilpërë", "ilaç", "injeksion", "shiringë", "vaksinë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("шприц"),
-			keywords: &["болест", "вакцина", "вакцинација", "иглa", "инјекција", "лек", "лекар", "шприц"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["болест", "игла", "инјекција", "лијек", "шприц"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("špric"),
-			keywords: &["bolest", "igla", "injekcija", "lek", "lekar", "vakcina", "vakcinacija", "špric"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["bolest", "igla", "injekcija", "lijek", "špric"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("spruta"),
-			keywords: &["nål", "sjukvård", "spruta"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("bomba la sindano"),
-			keywords: &[
-				"bomba la sindano",
-				"daktari",
-				"dawa",
-				"kuchoma sindano",
-				"mgonjwa",
-				"sindano",
-				"sindano ya mafua",
-				"zana",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஊசி"),
-			keywords: &[
-				"ஊசி",
-				"க\u{bbe}ய\u{bcd}ச\u{bcd}சல\u{bcd}",
-				"சிகிச\u{bcd}சை",
-				"சிரிஞ\u{bcd}சு",
-				"தடுப\u{bcd}பூசி",
-				"பொருள\u{bcd}",
-				"மருத\u{bcd}துவம\u{bcd}",
-				"மருந\u{bcd}து",
-				"வைத\u{bcd}தியம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("స\u{c3f}రంజ\u{c3f}"),
-			keywords: &[
-				"ట\u{c3e}క\u{c40}",
-				"డ\u{c3e}క\u{c4d}టర\u{c4d}",
-				"న\u{c40}డ\u{c3f}ల\u{c4d}",
-				"ఫ\u{c4d}లూ ష\u{c3e}ట\u{c4d}",
-				"మ\u{c46}డ\u{c3f}స\u{c3f}న\u{c4d}",
-				"స\u{c3f}రంజ\u{c3f}",
-				"సూద\u{c3f}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("сӯзандору"),
-			keywords: &["асбоб", "бемор", "дору", "духтур", "сӯзан", "сӯзандору", "сӯзанзанӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("กระบอกฉ\u{e35}ดยา"),
-			keywords: &["กระบอกฉ\u{e35}ดยา", "ฉ\u{e35}ดยา", "เข\u{e47}มฉ\u{e35}ดยา"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("መርፍእ ምውሳድ"),
-			keywords: &["ሓኪም", "መርፍእ", "መሳርሒ", "መድሃኒት", "ተኲሱ", "ክትባት", "ዝሓመመ", "ጉንፋዕ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("şpris"),
-			keywords: &["derman", "hassa", "iňňe", "sanjym", "şpris"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("meʻafana faitoʻo"),
-			keywords: &["meʻafana faitoʻo"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("şırınga"),
-			keywords: &["doktor", "ilaç", "iğne", "şırınga"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئىشپىرىس"),
-			keywords: &["ئوكۇل", "ئىشپىرىس", "دوختۇر", "دورا", "قورال", "كېسەل", "يىڭنە"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("шприц"),
-			keywords: &["голка", "лікар", "ліки", "укол", "хворий", "шприц", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سرنج"),
-			keywords: &["آلہ", "دوائی", "سرنج", "سوئی", "فلو", "ٹیکا", "ڈاکٹر"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("shprits"),
-			keywords: &["bemor", "dori", "igna", "kasal", "shprits", "ukol", "vaksina"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ống tiêm"),
-			keywords: &["bệnh", "kim", "thuốc", "tiêm", "vắc-xin", "ống tiêm"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("pikiir"),
-			keywords: &["doktor", "jam", "jumtukaay", "medsin", "pikiir", "puso", "sik"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isirinji"),
-			keywords: &["amayeza", "inaliti", "isirinji", "isixhobo", "ugqirha", "ukugula"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("abẹrẹ"),
-			keywords: &["abẹrẹ", "dókítà", "ikin", "irinṣẹ\u{301}", "yìn", "àìsàn", "òògùn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("abɛrɛ"),
-			keywords: &["abɛrɛ", "dókítà", "ikin", "irinshɛ\u{301}", "yìn", "àìsàn", "òògùn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("針筒"),
-			keywords: &["工具", "注射", "生病", "醫生", "醫藥", "針", "針筒"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("针筒"),
-			keywords: &["医生", "医药", "工具", "注射", "生病", "针", "针筒"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("注射器"),
-			keywords: &[
-				"医学",
-				"医生",
-				"工具",
-				"打针",
-				"接种",
-				"治疗",
-				"注射器",
-				"疫苗",
-				"药",
-				"针头",
-				"针筒",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("針筒"),
-			keywords: &["注射器", "針筒"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["工具", "打針", "抽血", "接種", "注射", "生病", "疫苗", "藥物", "醫生", "針"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("umjovo"),
-			keywords: &["imithi", "inaliti", "ithuluzi", "udokotela", "ukugula", "ukujova", "umjovo"],
-		},
-	],
-};
-#[doc = "🩸"]
-pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
-	glyph:                "🩸",
-	codepoint:            &[129656u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-	name:                 "drop of blood",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Medical,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("bloeddruppel"),
-			keywords: &[
-				"besering",
-				"bloeddruppel",
-				"bloedskenk",
-				"bloedskenking",
-				"bloei",
-				"medisyne",
-				"menstruasie",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የደም ጠብታ"),
-			keywords: &["ህክምና", "መድማት", "ቀይ", "ቀይ ጠብታ", "የወር አበባ", "የደም ጠብታ", "ደም ልገሳ", "ጉዳት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قطرة دم"),
-			keywords: &[
-				"تبرع بالدم",
-				"جرح",
-				"حيض",
-				"طب",
-				"طمث",
-				"قطرة دم",
-				"مختبر",
-				"نزيف",
-				"نقطة",
-				"ينزف",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("তেজৰ টোপ\u{9be}ল"),
-			keywords: &["ঋত\u{9c1}স\u{9cd}ৰ\u{9be}ব", "ঔষধ", "তেজৰ টোপ\u{9be}ল", "ৰক\u{9cd}তদ\u{9be}ন"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qan damlası"),
-			keywords: &["aybaşı", "menstruasiya", "qan damlası", "qan donoru", "tibb"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("кропля крыві"),
-			keywords: &["донарства крыві", "кропля крыві", "медыцына", "менструацыя"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("капка кръв"),
-			keywords: &[
-				"даряване на кръв",
-				"капка кръв",
-				"кървене",
-				"медицина",
-				"менструация",
-				"нараняване",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("এক ফো\u{981}ট\u{9be} রক\u{9cd}ত"),
-			keywords: &[
-				"আঘ\u{9be}ত",
-				"ঋত\u{9c1}স\u{9cd}র\u{9be}ব",
-				"এক ফো\u{981}ট\u{9be} রক\u{9cd}ত",
-				"ওষ\u{9c1}ধ",
-				"ঔষধ",
-				"রক\u{9cd}ত পর\u{9be}",
-				"রক\u{9cd}তদ\u{9be}ন",
-				"রজঃস\u{9cd}র\u{9be}ব",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("takenn wad"),
-			keywords: &["gwad", "medisinerezh", "mezegiezh", "takenn", "takenn wad"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("kapljica krvi"),
-			keywords: &["doniranje krvi", "kapljica krvi", "medicina", "menstruacija", "menzes"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("gota de sang"),
-			keywords: &[
-				"donació de sang",
-				"ferida",
-				"gota de sang",
-				"lesió",
-				"medicina",
-				"menstruació",
-				"sagnar",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎩᎦ"),
-			keywords: &["ᎩᎦ", "ᎩᎦ ᎠᎵᏍᎪᎸᏙᏗ", "ᏅᏬᏘ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("kapka krve"),
-			keywords: &[
-				"darovat krev",
-				"darování",
-				"darování krve",
-				"dárcovství",
-				"dárcovství krve",
-				"kapka krve",
-				"krev",
-				"krvácet",
-				"lékařství",
-				"medicína",
-				"menstruace",
-				"teče krev",
-				"zranění",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("diferyn o waed"),
-			keywords: &["diferyn o waed", "meddyginiaeth", "mislif", "rhoi gwaed"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("bloddråbe"),
-			keywords: &["blod", "bloddonor", "bloddråbe", "medicin", "menstruation", "sår"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Blutstropfen"),
-			keywords: &["Blutspende", "Blutstropfen", "Flüssigkeit", "Medizin", "Menstruation"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("σταγόνα αίματος"),
-			keywords: &["έμμηνος ρήση", "αιμοδοσία", "σταγόνα αίματος", "φάρμακο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("drop of blood"),
-			keywords: &["bleed", "blood", "donation", "drop", "injury", "medicine", "menstruation"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("gota de sangre"),
-			keywords: &[
-				"donación de sangre",
-				"donar sangre",
-				"gota de sangre",
-				"herida",
-				"medicina",
-				"sangre",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"donación de sangre",
-				"donar sangre",
-				"gota de sangre",
-				"gota roja",
-				"herida",
-				"medicina",
-				"menstruación",
-				"sangrar",
-				"sangre",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("veretilk"),
-			keywords: &["doonorlus", "meditsiin", "menstruatsioon", "tilk", "veri", "vigastus"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("odol tanta"),
-			keywords: &["hileroko", "medikuntza", "odol tanta", "odol-emate"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قطره خون"),
-			keywords: &[
-				"اهدای خون",
-				"خون",
-				"خون\u{200c}ریزی",
-				"دارو",
-				"رگل",
-				"صدمه",
-				"عادت ماهانه",
-				"عادت ماهیانه",
-				"قاعدگی",
-				"قطره خون",
-				"پریود",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("veripisara"),
-			keywords: &["kuukautiset", "lääketiede", "vamma", "verenluovutus", "veripisara"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("patak ng dugo"),
-			keywords: &[
-				"blood",
-				"blood donation",
-				"donasyon ng dugo",
-				"dugo",
-				"gamot",
-				"patak ng dugo",
-				"regla",
-				"sugat",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("blóðdropi"),
-			keywords: &["blóð", "blóðdropi", "blóðgevi", "blóðgáva", "dropi"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("goutte de sang"),
-			keywords: &[
-				"don du sang",
-				"goutte de sang",
-				"menstruation",
-				"menstruations",
-				"médecine",
-				"règles",
-				"sang",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("braoinín fola"),
-			keywords: &["braoinín fola", "cuir fuil", "deonú fola", "gortú", "leigheas", "míostrú"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("boinne fala"),
-			keywords: &[
-				"boinne",
-				"boinne fala",
-				"fuil",
-				"fuil mhìosail",
-				"fuil-mìos",
-				"leigheas",
-				"tabhartas fala",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("pinga de sangue"),
-			keywords: &["doazón de sangue", "medicina", "menstruación", "regra", "sangue"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("લોહીન\u{ac1}\u{a82} ટીપ\u{ac1}\u{a82}"),
-			keywords: &[
-				"ઇજા",
-				"ઈજા",
-				"દવા",
-				"પિરિયડ",
-				"પીરિયડ",
-				"બ\u{acd}લડ",
-				"બ\u{acd}લડ ડોન\u{ac7}શન",
-				"માસિક",
-				"માસિક સ\u{acd}ત\u{acd}રાવ",
-				"રક\u{acd}ત દાન",
-				"રક\u{acd}તદાન",
-				"રક\u{acd}તસ\u{acd}ત\u{acd}રાવ",
-				"રજોદર\u{acd}શન",
-				"લોહી",
-				"લોહીન\u{ac1}\u{a82} ટીપ\u{ac1}\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("ɗigon jini"),
-			keywords: &[
-				"ba da jini",
-				"gudummawar jini",
-				"jinin haila",
-				"magani",
-				"rauni",
-				"zub da jini",
-				"ɗaukar jini",
-				"ɗigon jini",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("ɗigon jini"),
-			keywords: &[
-				"ba da jini",
-				"gudummawar jini",
-				"jinin haila",
-				"magani",
-				"rauni",
-				"zub da jini",
-				"ɗaukar jini",
-				"ɗigon jini",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("טיפת דם"),
-			keywords: &["דם", "טיפת דם", "רפואה", "תרומת דם"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ख\u{93c}\u{942}न की ब\u{942}\u{901}द"),
-			keywords: &[
-				"ख\u{93c}\u{942}न",
-				"ख\u{93c}\u{942}न की ब\u{942}\u{901}द",
-				"ख\u{942}न",
-				"चिकित\u{94d}सा",
-				"पीरियड",
-				"मासिक धर\u{94d}म",
-				"रक\u{94d}त",
-				"रक\u{94d}तदान",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("kap krvi"),
-			keywords: &[
-				"darivanje krvi",
-				"doniranje krvi",
-				"kap krvi",
-				"krv",
-				"krvarenje",
-				"medicina",
-				"menstruacija",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("vércsepp"),
-			keywords: &[
-				"gyógyszer",
-				"menstruáció",
-				"seb",
-				"sebesülés",
-				"sérülés",
-				"véradás",
-				"vércsepp",
-				"vérvétel",
-				"vérzés",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("արյան կաթիլ"),
-			keywords: &["արյան դոնոր", "արյան կաթիլ", "բժշկություն", "դաշտան"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("tetesan darah"),
-			keywords: &[
-				"berdarah",
-				"darah",
-				"donor darah",
-				"luka",
-				"menstruasi",
-				"obat",
-				"tetesan darah",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("obara"),
-			keywords: &[
-				"igba obara",
-				"inye ọbara",
-				"mmerụ ahụ",
-				"nsọ nwanyị",
-				"obara",
-				"ogu",
-				"otu obara",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("blóðdropi"),
-			keywords: &["blæðingar", "blóðdropi", "blóðgjöf", "læknisfræði"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("goccia di sangue"),
-			keywords: &[
-				"ciclo mestruale",
-				"donare il sangue",
-				"donazione di sangue",
-				"goccia di sangue",
-				"medicina",
-				"medicinale",
-				"mestruazioni",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("血液"),
-			keywords: &["けが", "出血", "医療", "医者", "献血", "生理", "血液"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("satetes getih"),
-			keywords: &["donor getih", "menstruasi", "obat", "satetes getih"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("სისხლის წვეთი"),
-			keywords: &["დონორი", "მედიცინა", "მენსტრუაცია", "სისხლი", "სისხლის გაღება", "სისხლის წვეთი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("tiqiit n yidammen"),
-			keywords: &["tiqiit n yidammen"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("қан тамшысы"),
-			keywords: &[
-				"донорлық қан тапсыру",
-				"етеккір",
-				"медицина",
-				"тамшы",
-				"қан тамшысы",
-				"қызыл тамшы",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ត\u{17c6}ណក\u{17cb}ឈាម"),
-			keywords: &[
-				"ការធ\u{17d2}លាក\u{17cb}រដ\u{17bc}វ",
-				"ការបរ\u{17b7}ច\u{17d2}ចាគឈាម",
-				"ត\u{17c6}ណក\u{17cb}ឈាម",
-				"ឱសថ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ರಕ\u{ccd}ತದ ಹನ\u{cbf}"),
-			keywords: &[
-				"ಋತು ಚಕ\u{ccd}ರ",
-				"ಋತುಚಕ\u{ccd}ರ",
-				"ಔಷಧ",
-				"ಔಷಧ\u{cbf}",
-				"ಗಾಯ",
-				"ರಕ\u{ccd}ತದ ಹನ\u{cbf}",
-				"ರಕ\u{ccd}ತದಾನ",
-				"ರಕ\u{ccd}ತಸ\u{ccd}ರಾವ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("핏방울"),
-			keywords: &["생리", "의학", "핏방울", "헌혈"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("रक\u{94d}ताचो थ\u{947}\u{902}बो"),
-			keywords: &[
-				"द\u{941}खापत",
-				"मासीकधर\u{94d}म",
-				"रक\u{94d}त दान",
-				"रक\u{94d}ताचो थ\u{947}\u{902}बो",
-				"रगत",
-				"वखदा\u{902}",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("тамчы кан"),
-			keywords: &["айыз", "кан тапшыруу", "медицина", "тамчы кан"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຢ\u{ebb}ດ\u{200b}ເລ\u{eb7}\u{200b}ອດ"),
-			keywords: &[
-				"ບ\u{ecd}\u{200b}ລ\u{eb4}\u{200b}ຈາກ\u{200b}ເລ\u{eb7}ອດ",
-				"ປະ\u{200b}ຈຳ\u{200b}ເດ\u{eb7}ອນ",
-				"ຢ\u{ebb}ດ\u{200b}ເລ\u{eb7}\u{200b}ອດ",
-				"ຮ\u{eb1}ກ\u{200b}ສາ",
-				"ເລ\u{eb7}ອດ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("kraujo lašas"),
-			keywords: &["kraujas", "kraujo aukojimas", "kraujo lašas", "medicina", "menstruacijos"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("asins pile"),
-			keywords: &["asins pile", "asins ziedošana", "ievainojums", "medicīna", "menstruācija"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("капка крв"),
-			keywords: &[
-				"донирање крв",
-				"капка крв",
-				"крв",
-				"крварење",
-				"менструација",
-				"повреда",
-				"црвена капка",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("രക\u{d4d}തത\u{d4d}ത\u{d41}ള\u{d4d}ളി"),
-			keywords: &[
-				"ആർത\u{d4d}തവം",
-				"മര\u{d41}ന\u{d4d}ന\u{d4d}",
-				"രക\u{d4d}തത\u{d4d}ത\u{d41}ള\u{d4d}ളി",
-				"രക\u{d4d}തദ\u{d3e}നം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("дусал цус"),
-			keywords: &["дусал цус", "сарын тэмдэг", "цус хандивлах", "эмнэлэг"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("रक\u{94d}ताचा थ\u{947}\u{902}ब"),
-			keywords: &[
-				"औषध",
-				"मासिक पाळी",
-				"रक\u{94d}त",
-				"रक\u{94d}तदान",
-				"रक\u{94d}ताचा थ\u{947}\u{902}ब",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("titisan darah"),
-			keywords: &["cedera", "darah", "derma", "haid", "titisan", "ubat"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("သ\u{103d}ေးတစ\u{103a}စက\u{103a}"),
-			keywords: &[
-				"ဆေးဝါး",
-				"ရာသ\u{102e}လာခြင\u{103a}း",
-				"သ\u{103d}ေးတစ\u{103a}စက\u{103a}",
-				"သ\u{103d}ေးလ\u{103e}\u{1030}ခြင\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("रक\u{94d}तको थोपा"),
-			keywords: &["ऋत\u{941}स\u{94d}राव", "औषधी", "रक\u{94d}त दान", "रक\u{94d}तको थोपा"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("bloeddruppel"),
-			keywords: &[
-				"bloed",
-				"bloeden",
-				"donatie",
-				"druppel",
-				"medicijnen",
-				"menstruatie",
-				"verwonding",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("bloddrope"),
-			keywords: &["bloddrope", "blodgjevar", "medisin", "mens", "menstruasjon"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ରକ\u{b4d}ତ ଟୋପ\u{b3e}"),
-			keywords: &[
-				"ଔଷଧ",
-				"ମ\u{b3e}ସ\u{b3f}କ ସ\u{b4d}ର\u{b3e}ବ",
-				"ରକ\u{b4d}ତ ଟୋପ\u{b3e}",
-				"ରକ\u{b4d}ତ ଦ\u{b3e}ନ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਖ\u{a42}ਨਦਾਨ"),
-			keywords: &["ਖ\u{a42}ਨਦਾਨ", "ਦਵਾਈ", "ਬ\u{a42}\u{a70}ਦ", "ਮਾਸਿਕ ਧਰਮ", "ਮਾਹਵਾਰੀ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Drọ\u{301}p Ọf Blọd"),
-			keywords: &[
-				"Blid",
-				"Drọ\u{301}p Ọf Blọd",
-				"Mẹnsturéshọn",
-				"Mẹ\u{301}dísin",
-				"Taim",
-				"To Donét Blọd",
-				"Ínjúri",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("kropla krwi"),
-			keywords: &[
-				"krew",
-				"kropla krwi",
-				"krwawienie",
-				"krwiodawstwo",
-				"medycyna",
-				"menstruacja",
-				"oddawanie krwi",
-				"rana",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د وينې څاڅکی"),
-			keywords: &["حيض", "د وينې څاڅکی", "درمل", "وينه ورکول"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("gota de sangue"),
-			keywords: &["doação", "gota", "medicina", "menstruação", "sangrar", "sangue"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["doação de sangue", "ferimento", "gota de sangue", "medicina", "menstruação"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation { lang: "qu", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("picătură de sânge"),
-			keywords: &[
-				"ciclu",
-				"donare de sânge",
-				"medicină",
-				"menstruație",
-				"picătură de sânge",
-				"rană",
-				"sânge",
-				"sângerare",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E12–063"), keywords: &["E12–063"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("капля крови"),
-			keywords: &[
-				"донор",
-				"капля",
-				"капля крови",
-				"красный",
-				"кровить",
-				"кровоточить",
-				"кровь",
-				"медицина",
-				"менструация",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("رت جو فڙو"),
-			keywords: &["خون جو عطيو", "دوائون", "رت جو فڙو", "مهاواري"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ලේ බ\u{dd2}න\u{dca}ද\u{dd4}ව"),
-			keywords: &[
-				"ඔසප\u{dca} ව\u{dd3}ම",
-				"ඖෂධ",
-				"ර\u{dd4}ධ\u{dd2}රය පර\u{dd2}ත\u{dca}\u{200d}ය\u{dcf}ගය",
-				"ලේ බ\u{dd2}න\u{dca}ද\u{dd4}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("kvapka krvi"),
-			keywords: &[
-				"darcovstvo",
-				"darovanie",
-				"krv",
-				"kvapka krvi",
-				"lekárstvo",
-				"medicína",
-				"menštruácia",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("kaplja krvi"),
-			keywords: &["kaplja krvi", "krvodajalstvo", "medicina", "menstruacija", "zdravstvo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("dhibic dhiig ah"),
-			keywords: &["dawo", "dhibic dhiig ah", "dhiig bixin"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("pikë gjaku"),
-			keywords: &[
-				"dhurim gjaku",
-				"gjak",
-				"gjakrrjedhje",
-				"ilaç",
-				"lëndim",
-				"menstruacione",
-				"pikë gjaku",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("кап крви"),
-			keywords: &["кап", "крв", "крварење", "лек", "медицина", "менструација", "повреда"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["давање крви", "кап крви", "крварење", "лијек", "менструација", "повреда"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("kap krvi"),
-			keywords: &["kap", "krv", "krvarenje", "lek", "medicina", "menstruacija", "povreda"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["davanje krvi", "kap krvi", "krvarenje", "lijek", "menstruacija", "povreda"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("blodsdroppe"),
-			keywords: &["bloddroppe", "blodsdroppe", "ge blod", "medicin", "menstruation"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("tone la damu"),
-			keywords: &[
-				"changia damu",
-				"dawa",
-				"hedhi",
-				"jeraha",
-				"kuchangia damu",
-				"kuumia",
-				"tokwa na damu",
-				"tone la damu",
-				"vuja damu",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("இரத\u{bcd}தத\u{bcd} துளி"),
-			keywords: &[
-				"இரத\u{bcd}த த\u{bbe}னம\u{bcd}",
-				"இரத\u{bcd}தத\u{bcd} துளி",
-				"இரத\u{bcd}தம\u{bcd}",
-				"மருந\u{bcd}துவம\u{bcd}",
-				"ம\u{bbe}தவிட\u{bbe}ய\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("రక\u{c4d}తపు బ\u{c4a}ట\u{c4d}టు"),
-			keywords: &[
-				"గ\u{c3e}య\u{c3e}లు",
-				"న\u{c46}లసర\u{c3f}",
-				"బ\u{c4d}ల\u{c40}డ\u{c3f}ంగ\u{c4d}",
-				"మందు",
-				"రక\u{c4d}తద\u{c3e}నం",
-				"రక\u{c4d}తపు చుక\u{c4d}క",
-				"రక\u{c4d}తపు బ\u{c4a}ట\u{c4d}టు",
-				"రుతుక\u{c4d}రమం",
-				"వ\u{c48}ద\u{c4d}యం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("หยดเล\u{e37}อด"),
-			keywords: &[
-				"บร\u{e34}จาคเล\u{e37}อด",
-				"บาดเจ\u{e47}บ",
-				"ประจำเด\u{e37}อน",
-				"ยา",
-				"หยด",
-				"เมนส\u{e4c}",
-				"แผล",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ንጣብ ደም"),
-			keywords: &["መድሃኒት", "መጉዳእቲ", "ወርሓዊ ጽግያት", "ወፈያ", "ደም", "ደም ምፍሳስ", "ድሮፕ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gan damjasy"),
-			keywords: &["gan damjasy", "gan tabşyrmak", "lukmançylyk", "menstruasiýa"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("tulutā toto"), keywords: &["tulutā toto"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("kan damlası"),
-			keywords: &[
-				"aybaşı",
-				"ilaç",
-				"kan bağışı",
-				"kan damlası",
-				"mens",
-				"menstrüasyon",
-				"regl",
-				"tıp",
-				"yaralanma",
-				"âdet",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("крапля крові"),
-			keywords: &[
-				"аналіз крові",
-				"донорство крові",
-				"крапля крові",
-				"критичні дні",
-				"кров",
-				"кровотеча",
-				"медицина",
-				"менструація",
-				"місячне",
-				"стікати кровʼю",
-				"травма",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("خون کا قطرہ"),
-			keywords: &[
-				"حیض",
-				"خون",
-				"خون بہنا",
-				"خون کا بہاؤ",
-				"خون کا بہنا",
-				"خون کا رسنا",
-				"خون کا عطیہ",
-				"خون کا قطرہ",
-				"دوا",
-				"دوائی",
-				"زخم",
-				"عطیہ خون",
-				"قطرہ خون",
-				"چوٹ",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("qon tomchisi"),
-			keywords: &["hayz", "menstruatsiya", "qon tomchisi", "qon topshirish", "tibbiyot"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("giọt máu"),
-			keywords: &["chu kỳ kinh nguyệt", "chấn thương", "giọt máu", "hiến máu", "thuốc", "y tế"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ita ẹ\u{300}jẹ\u{300}"),
-			keywords: &["eje", "eje fifun", "ita ẹ\u{300}jẹ\u{300}", "nnkan osù", "ogun"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ita ɛ\u{300}jɛ\u{300}"),
-			keywords: &["eje", "eje fifun", "ita ɛ\u{300}jɛ\u{300}", "nnkan osù", "ogun"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("血液"),
-			keywords: &["捐血", "月經", "血液", "醫療"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("血液"),
-			keywords: &["医疗", "捐血", "月经", "血液"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("血滴"),
-			keywords: &["医疗", "月经", "流血", "献血", "经血", "血滴", "输血"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("血滴"),
-			keywords: &["受傷", "捐血", "流血", "生理期", "藥", "血滴"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("一滴血"),
-			keywords: &[
-				"一滴血",
-				"受傷",
-				"捐血",
-				"流血",
-				"滴血",
-				"獻血",
-				"紅色",
-				"經期",
-				"藥",
-				"藥物",
-				"血",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ithonsi legazi"),
-			keywords: &["imithi", "ithonsi legazi", "ukopha", "ukuphisana ngegazi"],
-		},
-	],
-};
 #[doc = "💊"]
 pub const PILL: crate::Emoji = crate::Emoji {
 	glyph:                "💊",
@@ -4901,13 +2732,13 @@ pub const CRUTCH: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🩺"]
-pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
-	glyph:                "🩺",
-	codepoint:            &[129658u32],
+#[doc = "💉"]
+pub const SYRINGE: crate::Emoji = crate::Emoji {
+	glyph:                "💉",
+	codepoint:            &[128137u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-	name:                 "stethoscope",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "syringe",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Medical,
 	is_variant:           false,
@@ -4916,152 +2747,226 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("stetoskoop"),
-			keywords: &["dokter", "hart", "medies", "medisyne", "ondersoek", "stetoskoop"],
+			tts:      Some("inspuiting"),
+			keywords: &[
+				"dokter",
+				"griepinspuiting",
+				"inent",
+				"inenting",
+				"inentings",
+				"inspuiting",
+				"medisyne",
+				"naald",
+				"siek",
+				"spuitnaald",
+				"werktuig",
+			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("ማዳመጫ"),
-			keywords: &["ሃኪም", "ህክምና", "ልብ", "ማዳመጫ", "ስቴቶስኮፕ", "ዶክተር"],
+			tts:      Some("ስሪንጅ"),
+			keywords: &["ሕክምና", "መርፌ", "ስሪንጅ", "ተኩስ", "ክትባት", "የታመመ", "የደም ናሙና", "የደም ጠብታ", "ደም"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("سماعة طبيب"),
+			tts:      Some("إبرة حقن"),
 			keywords: &[
-				"أداة",
-				"دكتور",
-				"سماعة طبيب",
-				"سماعة طبية",
-				"ضربات القلب",
+				"إبرة",
+				"إبرة حقن",
+				"ابرة",
+				"تلقيح",
+				"جريب",
+				"حقنة",
+				"دواء",
+				"سرنجة",
 				"طب",
 				"طبيب",
-				"قلب",
-				"كشف",
-				"نبضات القلب",
+				"طعم",
+				"لقاح",
+				"مرض",
+				"مريض",
+				"مطاعيم",
+				"مطعوم",
 			],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("ষ\u{9cd}টেথ’চক’প"),
-			keywords: &["ঔষধ", "চিকিৎসক", "ষ\u{9cd}টেথ’চক’প", "হ\u{9c3}দযন\u{9cd}ত\u{9cd}ৰ"],
+			tts:      Some("চিৰিঞ\u{9cd}জ"),
+			keywords: &[
+				"ঔষধ",
+				"ঔষধৰ বেজী",
+				"চিকিৎসক",
+				"চিৰিঞ\u{9cd}জ",
+				"বেজী",
+				"স\u{981}জ\u{9c1}লি",
+				"ৰোগী",
+			],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "döyünmə", "həkim", "stetoskop", "tibb", "ürək"],
+			tts:      Some("şpris"),
+			keywords: &["alət", "həkim", "iynə", "naxoş", "tibb", "vaksin", "xəstə", "çəkmək", "şpris"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("стэтаскоп"),
-			keywords: &["доктар", "медыцына", "стэтаскоп", "сэрца"],
+			tts:      Some("шпрыц"),
+			keywords: &["доктар", "лекі", "укол", "шпрыц", "іголка", "ін’екцыя"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("стетоскоп"),
-			keywords: &["лекар", "медицина", "стетоскоп", "сърце"],
+			tts:      Some("спринцовка"),
+			keywords: &[
+				"болен",
+				"ваксина",
+				"грип",
+				"игла",
+				"инструмент",
+				"лекар",
+				"медицина",
+				"спринцовка",
+			],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("স\u{9cd}টেথোস\u{9cd}কোপ"),
+			tts:      Some("সিরিঞ\u{9cd}জ"),
 			keywords: &[
+				"অস\u{9c1}স\u{9cd}থ",
+				"ইঞ\u{9cd}জেকশন",
 				"ওষ\u{9c1}ধ",
-				"ঔষধ",
+				"টিক\u{9be}",
 				"ড\u{9be}ক\u{9cd}ত\u{9be}র",
-				"নিঃশ\u{9cd}ব\u{9be}স",
-				"পরীক\u{9cd}ষ\u{9be} কর\u{9be}",
-				"শ\u{9cd}ব\u{9be}স প\u{9cd}রশ\u{9cd}ব\u{9be}স",
-				"স\u{9cd}টেথোস\u{9cd}কোপ",
-				"স\u{9cd}ব\u{9be}স\u{9cd}থ\u{9cd}য",
-				"হ\u{9be}র\u{9cd}ট",
+				"ভ\u{9cd}য\u{9be}কসিন",
+				"সরঞ\u{9cd}জ\u{9be}ম",
+				"সিরিঞ\u{9cd}জ",
+				"স\u{9c2}\u{981}চ",
 			],
 		},
 		#[cfg(feature = "br")]
 		crate::Annotation {
 			lang:     "br",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "medisinerezh", "mezegiezh", "stetoskop"],
+			tts:      Some("strinkell"),
+			keywords: &["mezegiezh", "strinkell"],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "medicina", "srce", "stetoskop"],
+			tts:      Some("šprica"),
+			keywords: &["bolest", "igla", "injekcija", "lijek", "šprica"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("estetoscopi"),
-			keywords: &["cor", "doctor", "estetoscopi", "medicina"],
+			tts:      Some("xeringa"),
+			keywords: &[
+				"agulla",
+				"doctor",
+				"doctora",
+				"injecció",
+				"injecció contra la grip",
+				"instrument mèdic",
+				"malalt",
+				"malalta",
+				"medicina",
+				"metge",
+				"vacuna",
+				"vacunació",
+				"xeringa",
+			],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᎤᎾᏫ ᎠᏛᏓᏍᏗ"),
-			keywords: &["ᎠᎦᎾᎦᏘ", "ᎤᎾᏫ", "ᎤᎾᏫ ᎠᏛᏓᏍᏗ", "ᏅᏬᏘ"],
+			tts:      Some("ᏴᎩ ᎠᏓᏣᏲᏍᏙᏗ"),
+			keywords: &["ᎠᎦᎾᎦᏘ", "ᎠᏓᏣᏲᏍᏗ", "ᎤᏓᏂᎵ", "ᎬᏔᏂᏓᏍᏗ", "ᏅᏬᏘ", "ᏴᎩ ᎠᏓᏣᏲᏍᏙᏗ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("stetoskop"),
+			tts:      Some("injekční stříkačka"),
 			keywords: &[
 				"doktor",
-				"fonendoskop",
+				"dávka",
+				"injekce",
+				"injekční stříkačka",
+				"jehla",
+				"lék",
 				"lékař",
-				"lékařství",
-				"medicína",
-				"srdce",
-				"stetoskop",
-				"tlukot srdce",
-				"vyšetření",
+				"nemoc",
+				"nemocný",
+				"nástroj",
+				"očkovat",
+				"očkování",
+				"očkování proti chřipce",
+				"prevence",
+				"stříkačka",
+				"vakcína",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("stethosgop"),
-			keywords: &["calon", "meddyg", "meddyginiaeth", "stethosgop"],
+			tts:      Some("chwistrell"),
+			keywords: &["chwistrell", "doctor", "meddygaeth", "nodwydd", "sâl"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "hjerte", "læge", "medicin", "stetoskop"],
+			tts:      Some("sprøjte"),
+			keywords: &["indsprøjtning", "injektion", "kanyle", "læge", "medicin", "sprøjte"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("Stethoskop"),
-			keywords: &[
-				"Arzt",
-				"Doktor",
-				"Herz",
-				"Herzschlag",
-				"Medizin",
-				"Stethoskop",
-				"Untersuchung",
-				"abhören",
-			],
+			tts:      Some("Spritze"),
+			keywords: &["Arzt", "Impfung", "Injektion", "Kanüle", "Nadel", "Spritze", "impfen"],
 		},
 		#[cfg(feature = "de_CH")]
 		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("στηθοσκόπιο"),
-			keywords: &["γιατρός", "καρδιά", "στηθοσκόπιο", "φάρμακο"],
+			tts:      Some("σύριγγα"),
+			keywords: &[
+				"άρρωστος",
+				"ένεση",
+				"βελόνα",
+				"γιατρός",
+				"εμβολιασμοί",
+				"εμβολιασμός",
+				"εμβόλιο γρίπης",
+				"εργαλείο",
+				"σύριγγα",
+				"φάρμακο",
+			],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("stethoscope"),
-			keywords: &["doctor", "heart", "medicine", "stethoscope"],
+			tts:      Some("syringe"),
+			keywords: &[
+				"doctor",
+				"flu",
+				"medicine",
+				"needle",
+				"shot",
+				"sick",
+				"syringe",
+				"tool",
+				"vaccination",
+			],
+		},
+		#[cfg(feature = "en_001")]
+		crate::Annotation {
+			lang:     "en_001",
+			tts:      None,
+			keywords: &["ill", "injection", "medicine", "needle", "syringe"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -5074,637 +2979,861 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("estetoscopio"),
-			keywords: &[
-				"corazón",
-				"doctor",
-				"estetoscopio",
-				"fonendoscopio",
-				"latido",
-				"medicina",
-				"médico",
-			],
+			tts:      Some("jeringuilla"),
+			keywords: &["aguja", "jeringa", "jeringuilla", "medicina", "médico"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["doctor", "estetoscopio", "latido", "medicina", "médico"],
+			tts:      Some("jeringa"),
+			keywords: &[
+				"aguja",
+				"análisis",
+				"doctor",
+				"hospital",
+				"inyección",
+				"jeringa",
+				"jeringa cargada",
+				"medicina",
+				"sangre",
+				"vacuna",
+			],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["corazón", "doctor", "estetoscopio", "fonendoscopio", "latido", "medicina"],
-		},
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["aguja", "enfermo", "inyección", "jeringa", "medicina", "médico", "vacuna"],
+		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("stetoskoop"),
-			keywords: &["arst", "kuuldetoru", "meditsiin", "stetoskoop", "süda"],
+			tts:      Some("süstal"),
+			keywords: &["arst", "haigus", "nõel", "ravim", "süstal"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("estetoskopioa"),
-			keywords: &["bihotz", "estetoskopioa", "mediku", "medikuntza"],
+			tts:      Some("xiringa"),
+			keywords: &["gaixo", "medikuntza", "orratz", "sendagile", "tresna", "xiringa", "ziztada"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("گوشی پزشکی"),
-			keywords: &["دارو", "دکتر", "قلب", "پزشک", "گوشی پزشکی"],
+			tts:      Some("سرنگ"),
+			keywords: &["آمپول", "بیمار", "دارو", "دکتر", "سرنگ", "سوزن", "مریض", "واکسن", "پزشک"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("stetoskooppi"),
-			keywords: &["kuuntelu", "lääkäri", "stetoskooppi", "sydän"],
+			tts:      Some("ruisku"),
+			keywords: &["lääke", "lääkäri", "piikki", "rokote", "ruisku", "tauti", "työkalu"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("stethoscope"),
-			keywords: &["doktor", "gamot", "medicine", "medisina", "puso", "stethoscope"],
+			tts:      Some("hiringgilya"),
+			keywords: &[
+				"bakuna",
+				"doktor",
+				"flu shot",
+				"gamot",
+				"hiringgilya",
+				"karayom",
+				"sakit",
+				"shot",
+				"turok",
+			],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("stetoskop"),
-			keywords: &["lurt", "læknalurt", "læknapípa", "stetoskop"],
+			tts:      Some("sproyta"),
+			keywords: &[
+				"amboð",
+				"heilivágur",
+				"innspræning",
+				"lækni",
+				"medisin",
+				"nál",
+				"sjúka",
+				"sproyta",
+			],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("stéthoscope"),
-			keywords: &["cœur", "diagnostic", "docteur", "médecin", "médecine", "poumons", "stéthoscope"],
+			tts:      Some("seringue"),
+			keywords: &[
+				"aiguille",
+				"docteur",
+				"malade",
+				"médecine",
+				"piqûre",
+				"seringue",
+				"vaccin",
+				"vaccination",
+			],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("steiteascóp"),
-			keywords: &["croí", "dochtúir", "doctúir", "leigheas", "steiteascóp"],
+			tts:      Some("instealladh"),
+			keywords: &["dochtúir", "instealladh", "leigheas", "uirlis"],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("steatasgop"),
-			keywords: &["cridhe", "dotair", "leigheas", "lighiche", "steatasgop", "steiteasgop"],
+			tts:      Some("steallair"),
+			keywords: &[
+				"acainn",
+				"bochd",
+				"dotair",
+				"inneal",
+				"leigheas",
+				"snàthad",
+				"stealladh",
+				"steallair",
+				"tinn",
+			],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("estetoscopio"),
-			keywords: &["corazón", "fonendoscopio", "medicina"],
+			tts:      Some("xiringa"),
+			keywords: &["inxección", "médico", "vacina", "virus", "xiringa"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("સ\u{acd}ટ\u{ac7}થોસ\u{acd}કોપ"),
+			tts:      Some("સીરિ\u{a82}જ"),
 			keywords: &[
-				"અપોઇન\u{acd}ટમ\u{ac7}ન\u{acd}ટ",
-				"ઇલાજ",
-				"ચ\u{ac7}કઅપ",
-				"ડૉક\u{acd}ટર",
 				"ડોક\u{acd}ટર",
-				"તપાસ",
 				"દવા",
-				"દાક\u{acd}તર",
-				"દિલ",
-				"ધબકારા",
-				"વ\u{ac8}દ\u{acd}ય",
-				"સ\u{acd}ટ\u{ac7}થોસ\u{acd}કોપ",
-				"સ\u{acd}વાસ\u{acd}થ\u{acd}ય",
-				"હાર\u{acd}ટ",
-				"હ\u{ac3}દય",
+				"બીમાર",
+				"રસી",
+				"રસીકરણ",
+				"વ\u{ac7}ક\u{acd}સીન",
+				"શોટ",
+				"સીરિ\u{a82}જ",
+				"સોય",
 			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("maʼunin likita"),
+			tts:      Some("allura"),
 			keywords: &[
-				"bugawar zuciya",
+				"allura",
+				"ba da allura",
+				"jini",
+				"kayan aiki",
+				"lafiya",
 				"likita",
 				"magani",
-				"maʼaunin lilkita",
-				"maʼunin likita",
-				"naʼurar auna bugun zuciya",
-				"naʼurar likita",
-				"zuciya",
+				"mara lafiya",
+				"maras lafiya",
+				"rigakafi",
 			],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("maʼunin likita"),
+			tts:      Some("allura"),
 			keywords: &[
-				"bugawar zuciya",
+				"allura",
+				"ba da allura",
+				"jini",
+				"kayan aiki",
+				"lafiya",
 				"likita",
 				"magani",
-				"maʼaunin lilkita",
-				"maʼunin likita",
-				"naʼurar auna bugun zuciya",
-				"naʼurar likita",
-				"zuciya",
+				"mara lafiya",
+				"maras lafiya",
+				"rigakafi",
 			],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("סטתוסקופ"),
-			keywords: &["מ\u{5b7}ס\u{5b0}כ\u{5b5}\u{5bc}ת", "סטתוסקופ", "רופא"],
+			tts:      Some("מזרק"),
+			keywords: &["זריקה", "חולה", "חיסון", "מזרק", "מחט", "תרופה"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
+			tts:      Some("सिरी\u{902}ज, स\u{942}ई"),
 			keywords: &[
-				"चिकित\u{94d}सा",
 				"डॉक\u{94d}टर",
-				"दवा",
-				"ब\u{94d}लड प\u{94d}र\u{947}शर",
-				"रक\u{94d}तचाप",
-				"स\u{94d}ट\u{947}थोस\u{94d}कोप",
+				"दवाई",
+				"बीमार",
+				"मरीज\u{93c}",
+				"सिरि\u{902}ज",
+				"सिरी\u{902}ज",
+				"सिरी\u{902}ज, स\u{942}ई",
+				"स\u{941}ई",
+				"स\u{942}ई",
 			],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("stetoskop"),
-			keywords: &["liječnik", "medicina", "srce", "stetoskop"],
+			tts:      Some("šprica"),
+			keywords: &["bolest", "cjepivo", "igla", "injekcija", "medicina", "šprica"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("sztetoszkóp"),
-			keywords: &["gyógyszer", "orvos", "sztetoszkóp", "szív", "szívhang"],
+			tts:      Some("fecskendő"),
+			keywords: &["eszköz", "fecskendő", "injekciós tű", "orvos", "véradás", "vérvétel"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("ստեթոսկոպ"),
-			keywords: &["բժիշկ", "բժշկություն", "սիրտ", "ստեթոսկոպ"],
+			tts:      Some("ներարկիչ"),
+			keywords: &["ասեղ", "բժիշկ", "բժշկություն", "գործիք", "հիվանդ", "ներարկիչ"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("stetoskop"),
-			keywords: &["dokter", "jantung", "obat", "stetoskop"],
+			tts:      Some("suntikan"),
+			keywords: &["alat", "dokter", "jarum", "obat", "sakit", "suntikan", "vaksin", "vaksinasi"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("stetoscope"),
-			keywords: &["dọkịta", "obi", "ogu", "stethoscope"],
+			tts:      Some("ntụtụ"),
+			keywords: &["dọkịnta", "gbaa", "ngwaọrụ", "ntụtụ", "ọgwụ", "ọrịa"],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("hlustunarpípa"),
-			keywords: &["hjarta", "hlustunarpípa", "læknir", "læknisfræði"],
+			tts:      Some("sprauta"),
+			keywords: &["lyf", "læknir", "nál", "sprauta"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("stetoscopio"),
-			keywords: &["cardiologo", "dottore", "dottoressa", "fonendoscopio", "medico", "stetoscopio"],
+			tts:      Some("siringa"),
+			keywords: &[
+				"ago",
+				"dottore",
+				"iniezione",
+				"malato",
+				"medicina",
+				"medico",
+				"ospedale",
+				"puntura",
+				"sangue",
+				"siringa",
+				"vaccinare",
+				"vaccinazione",
+				"vaccino",
+			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("聴診器"),
-			keywords: &["医療", "医者", "心臓", "病気", "聴診器"],
+			tts:      Some("注射器"),
+			keywords: &["予防接種", "医療器具", "医者", "注射", "注射器", "病気", "薬", "針"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("stetoskop"),
-			keywords: &["dhokter", "jantung", "obat", "stetoskop"],
+			tts:      Some("siring"),
+			keywords: &["bat", "dom", "lara", "siring", "suntik"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("ფონენდოსკოპი"),
-			keywords: &["გული", "მედიცინა", "სტეთოსკოპი", "ფილტვები", "ფონენდოსკოპი", "წნევა"],
+			tts:      Some("შპრიცი"),
+			keywords: &["ავადმყოფობა", "ექიმი", "ინსტრუმენტი", "მედიცინა", "ნემსი", "შპრიცი", "ხელსაწყო"],
 		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("tisegnit"), keywords: &["tisegnit"] },
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("стетоскоп"),
-			keywords: &["дәрігер", "жүрек", "медицина", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &["ауру", "ине", "медицина", "салу", "шприц", "қан"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("sprøjte"),
+			keywords: &["indsprøjtning", "læge", "sprøjte"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ស\u{17d2}តេត\u{17bc}"),
+			tts:      Some("ស\u{17ca}\u{17ba}រ\u{17c9}ាងចាក\u{17cb}ថ\u{17d2}មា\u{17c6}"),
 			keywords: &[
-				"បេះដ\u{17bc}ង",
-				"វេជ\u{17d2}ជបណ\u{17d2}ឌ\u{17b7}ត",
-				"ស\u{17d2}តេត\u{17bc}",
-				"ឱសថ",
+				"ចាក\u{17cb}",
+				"ឈ\u{17ba}",
+				"ថ\u{17d2}នា\u{17c6}",
+				"ម\u{17d2}ជ\u{17bb}ល",
+				"ស\u{17ba}រ\u{17c9}ា\u{17c6}ង",
+				"ស\u{17ca}\u{17ba}រ\u{17c9}ាងចាក\u{17cb}ថ\u{17d2}មា\u{17c6}",
 			],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}"),
+			tts:      Some("ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}"),
 			keywords: &[
-				"ಔಷಧ\u{cbf}",
+				"ಅನಾರ\u{ccb}ಗ\u{ccd}ಯ",
+				"ಇಂಜ\u{cc6}ಕ\u{ccd}ಷನ\u{ccd}",
+				"ಔಷಧ",
+				"ಚುಚ\u{ccd}ಚುಮದ\u{ccd}ದು",
+				"ಡಾಕ\u{ccd}ಟರ\u{ccd}",
+				"ಲಸ\u{cbf}ಕ\u{cc6}",
 				"ವ\u{cc8}ದ\u{ccd}ಯರು",
-				"ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}",
-				"ಹೃದಯ",
-				"ಹೃದಯ ಬಡ\u{cbf}ತ",
+				"ಸ\u{cbf}ರ\u{cbf}ಂಜ\u{ccd}",
+				"ಸ\u{cc2}ಜ\u{cbf}",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("청진기"),
-			keywords: &["심박수", "심장", "의사", "의학", "청진기"],
+			tts:      Some("주사기"),
+			keywords: &[
+				"도구",
+				"독감 주사",
+				"백신",
+				"병원",
+				"아픔",
+				"의사",
+				"의학",
+				"주사 바늘",
+				"주사기",
+				"치료",
+			],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("स\u{94d}थ\u{947}थोस\u{94d}कोप"),
-			keywords: &["काळीज", "दोतोर", "वखदा\u{902}", "स\u{94d}थ\u{947}थोस\u{94d}कोप"],
+			tts:      Some("सिरि\u{902}ज"),
+			keywords: &[
+				"तो\u{902}पप",
+				"द\u{941}य\u{947}\u{902}त",
+				"वखदा\u{902}",
+				"सिरि\u{902}ज",
+				"स\u{941}य",
+			],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("стетоскоп"),
-			keywords: &["дарыгер", "жүрөк", "медицина", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &["дары", "ийне", "оору", "сай", "шприц"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Sprëtz"),
+			keywords: &["Dokter", "Medezin", "Nol", "Sprëtz", "Utensil", "krank"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ຫ\u{eb9}\u{200b}ຟ\u{eb1}ງ\u{200b}ຂອງ\u{200b}ແພດ"),
-			keywords: &[
-				"ປ\u{eb4}\u{ec8}ນ\u{200b}ປ\u{ebb}ວ",
-				"ຫ\u{eb9}\u{200b}ຟ\u{eb1}ງ\u{200b}ຂອງ\u{200b}ແພດ",
-				"ຫ\u{ebb}ວ\u{200b}ໃຈ",
-				"ຮ\u{eb1}ກ\u{200b}ສາ",
-				"ແພດ",
-				"ໝ\u{ecd}",
-			],
+			tts:      Some("ຊະແລ\u{eb1}ງ"),
+			keywords: &["ຊະແລ\u{eb1}ງ", "ຫ\u{ebc}ອດສ\u{eb1}ກຢາ", "ເຂ\u{eb1}ມ", "ເຂ\u{eb1}ມສ\u{eb1}ກຢາ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("stetoskopas"),
-			keywords: &["gydytojas", "medicina", "stetoskopas", "širdis"],
+			tts:      Some("švirkštas"),
+			keywords: &["adata", "dūris", "gydytojas", "ligonis", "medicina", "įrankis", "švirkštas"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("stetoskops"),
-			keywords: &["medicīna", "sirds", "stetoskops", "ārsts"],
+			tts:      Some("šļirce"),
+			keywords: &["adata", "medicīna", "pote", "slims", "ārsts", "šļirce"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("ngira"),
+			keywords: &["mate", "ngira", "pota", "rata", "rongoā", "utauta"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("стетоскоп"),
-			keywords: &["доктор", "медицина", "срце", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &["болен", "вакцина", "вакцинација", "доктор", "игла", "инјекција", "лек", "шприц"],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("സ\u{d4d}റ\u{d4d}റെതസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"),
+			tts:      Some("സിറിഞ\u{d4d}ച\u{d4d}"),
 			keywords: &[
-				"ഡോക\u{d4d}\u{200c}ടർ",
+				"ക\u{d41}ത\u{d4d}തിവയ\u{d4d}പ\u{d4d}പ\u{d4d}",
+				"ഡോക\u{d4d}ടർ",
 				"മര\u{d41}ന\u{d4d}ന\u{d4d}",
-				"സ\u{d4d}റ\u{d4d}റെതസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}",
-				"ഹ\u{d43}ദയം",
+				"സിറിഞ\u{d4d}ച\u{d4d}",
+				"സ\u{d42}ചി",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("чагнуур"),
-			keywords: &["зүрх", "чагнуур", "эмнэлэг", "эмч"],
+			tts:      Some("тариа"),
+			keywords: &["зүү", "тариа", "тариур", "эм", "өвчтэй"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
-			keywords: &["औषध", "डॉक\u{94d}टर", "स\u{94d}ट\u{947}थोस\u{94d}कोप", "ह\u{943}दय"],
+			tts:      Some("सिरि\u{902}ज"),
+			keywords: &[
+				"आजारी",
+				"इ\u{902}जक\u{94d}शन द\u{947}ण\u{947}",
+				"इ\u{902}ज\u{947}क\u{94d}शन द\u{947}ण\u{94d}\u{200d}याच\u{947} साधन",
+				"औषध",
+				"डॉक\u{94d}टर",
+				"शॉट",
+				"साधन",
+				"सिरि\u{902}ज",
+				"स\u{941}ई",
+			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "jantung", "perubatan", "stetoskop"],
+			tts:      Some("picagari"),
+			keywords: &["alat", "doktor", "jarum", "perubatan", "picagari", "sakit", "suntikan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("siringa"),
+			keywords: &["għodda", "labra", "marid", "mediċina", "siringa", "tabib", "vaċċin"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
-			tts:      Some("ဆရာဝန\u{103a}သ\u{102f}\u{1036}း နားကြပ\u{103a}"),
+			tts:      Some("ဆေးထ\u{102d}\u{102f}းအပ\u{103a}"),
 			keywords: &[
-				"ဆရာဝန\u{103a}",
-				"ဆရာဝန\u{103a}သ\u{102f}\u{1036}း နားကြပ\u{103a}",
 				"ဆေး",
-				"န\u{103e}လ\u{102f}\u{1036}း",
+				"ဆေးထ\u{102d}\u{102f}းပြ\u{103d}တ\u{103a}",
+				"ဆေးထ\u{102d}\u{102f}းအပ\u{103a}",
+				"ဖျားနာခြင\u{103a}း",
 			],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
-			keywords: &["औषधी", "डाक\u{94d}टर", "स\u{94d}ट\u{947}थोस\u{94d}कोप", "ह\u{943}दय"],
+			tts:      Some("स\u{942}ई"),
+			keywords: &["औषधि", "बिरामी", "सट", "स\u{941}ई", "स\u{942}ई"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("stethoscoop"),
+			tts:      Some("injectiespuit"),
 			keywords: &[
-				"arts",
 				"dokter",
-				"geneeskunde",
-				"hart",
-				"medicijnen",
-				"stethoscoop",
-				"ziekenhuis",
+				"gereedschap",
+				"griep",
+				"injectie",
+				"medicijn",
+				"naald",
+				"spuit",
+				"vaccinatie",
+				"ziek",
 			],
 		},
 		#[cfg(feature = "nn")]
 		crate::Annotation {
 			lang:     "nn",
 			tts:      Some("↑↑↑"),
-			keywords: &["hjarte", "lege", "medisin", "stetoskop"],
+			keywords: &["medisin", "nål", "sjuk", "sprøyte", "vaksine"],
 		},
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some("ଷ\u{b4d}ଟେଥୋସ\u{b4d}କୋପ"),
-			keywords: &["ଔଷଧ", "ଡ\u{b3e}କ\u{b4d}ତର", "ଷ\u{b4d}ଟେଥୋସ\u{b4d}କୋପ", "ହ\u{b43}ଦୟ"],
+			tts:      Some("ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ"),
+			keywords: &[
+				"ଔଷଧ",
+				"ଛ\u{b41}ଞ\u{b4d}ଚ\u{b3f}",
+				"ର\u{b41}ଗ\u{b4d}\u{200c}ଣ",
+				"ସଟ\u{b4d}\u{200c}",
+				"ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ",
+				"ସ\u{b3f}ର\u{b3f}ଞ\u{b4d}ଜ\u{b4d}\u{200c}",
+			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਸਟ\u{a47}ਥ\u{a4b}ਸਕ\u{a4b}ਪ"),
-			keywords: &["ਡਾਕਟਰ", "ਦਵਾਈ", "ਦਿਲ", "ਧੜਕਣ", "ਸਟ\u{a47}ਥ\u{a4b}ਸਕ\u{a4b}ਪ"],
+			tts:      Some("ਸਰਿ\u{a70}ਜ"),
+			keywords: &["ਟੀਕਾ", "ਦਵਾਈ", "ਬਿਮਾਰ", "ਮਰੀਜ\u{a3c}", "ਸਰਿ\u{a70}ਜ", "ਸ\u{a42}ਈ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ٹیکا"),
+			keywords: &["اوزار", "دوائی", "سوئی", "طبیب", "علیل", "نشانہ", "ٹیکا"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("Stẹteskop"),
-			keywords: &["Dọ\u{301}ktọ", "Hat", "Mẹ\u{301}dísin", "Stẹteskop"],
+			tts:      Some("Sirinj"),
+			keywords: &["Mẹ\u{301}dísin", "Nídul", "Shọt", "Sik", "Sirinj"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("stetoskop"),
-			keywords: &["lekarz", "medycyna", "praca", "serce", "stetoskop"],
+			tts:      Some("strzykawka"),
+			keywords: &[
+				"chory",
+				"doktor",
+				"lekarstwo",
+				"lekarz",
+				"pielęgniarka",
+				"strzykawka",
+				"szczepienie",
+				"szczepionka",
+				"zastrzyk",
+			],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("ستېتوسکوپ"),
-			keywords: &["درمل", "زړه", "ستېتوسکوپ", "ډاکټر"],
+			tts:      Some("سرنج"),
+			keywords: &["درمل", "ستن", "سرنج", "سيرنج", "ناروغ", "وهل"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("estetoscópio"),
-			keywords: &["coração", "estetoscópio", "medicina", "médica", "médico", "tum tum"],
+			tts:      Some("seringa"),
+			keywords: &["agulha", "injeção", "médico", "remédio", "seringa", "vacina", "vacinação"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
 			tts:      Some("↑↑↑"),
-			keywords: &["coração", "estetoscópio", "medicina", "médico"],
+			keywords: &["agulha", "doente", "injeção", "medicamento", "médico", "remédio", "seringa"],
 		},
-		#[cfg(feature = "qu")]
-		crate::Annotation { lang: "qu", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("stetoscop"),
-			keywords: &["doctor", "inimă", "medicină", "stetoscop"],
+			tts:      Some("seringă"),
+			keywords: &[
+				"ac",
+				"antigripal",
+				"boală",
+				"bolnav",
+				"doctor",
+				"injecție",
+				"medicament",
+				"seringă",
+				"siringă",
+				"tratament",
+				"vaccin",
+				"vaccinare",
+			],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E12–065"), keywords: &["E12–065"] },
+		crate::Annotation { lang: "root", tts: Some("E10-582"), keywords: &["E10-582"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("стетоскоп"),
-			keywords: &["врач", "доктор", "инструмент", "медицина", "сердце", "слушать", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &[
+				"инъекция",
+				"кровь",
+				"лечение",
+				"медицина",
+				"препарат",
+				"прививка",
+				"укол",
+				"шприц",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("urushinge rwo kwa muganga"),
+			keywords: &[
+				"guterwa urushinge",
+				"igikoresho",
+				"muganga",
+				"ubuvuzi",
+				"urushinge",
+				"urushinge rwo kwa muganga",
+				"urwaye",
+			],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("اسٽيٿو اسڪوپ"),
-			keywords: &["اسٽيٿو اسڪوپ", "دل", "دوا", "ڊاڪٽر"],
+			tts:      Some("سرنج"),
+			keywords: &["اوزار", "بيمار", "دوا", "سئي", "سرنج", "شاٽ", "ڊاڪٽر"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("වෙද නළ\u{dcf}ව"),
-			keywords: &["ඖෂධ", "දොස\u{dca}තර", "වෙද නළ\u{dcf}ව", "හදවත"],
+			tts:      Some("ස\u{dd2}ර\u{dd2}න\u{dca}ජය"),
+			keywords: &[
+				"ඉඳ\u{dd2}කට\u{dd4}ව",
+				"ඖෂධ",
+				"ම\u{dcf}ත\u{dca}\u{200d}ර\u{dcf}ව",
+				"ලෙඩ",
+				"ස\u{dd2}ර\u{dd2}න\u{dca}ජය",
+			],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "lekár", "lekárstvo", "medicína", "srdce", "stetoskop"],
+			tts:      Some("injekcia"),
+			keywords: &[
+				"choroba",
+				"doktor",
+				"ihla",
+				"injekcia",
+				"injekčná striekačka",
+				"krv",
+				"liek",
+				"medicína",
+				"nástroj",
+				"vakcína",
+			],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("stetoskop"),
-			keywords: &["medicina", "pljuča", "prsni koš", "srce", "stetoskop", "zdravnik"],
+			tts:      Some("injekcija"),
+			keywords: &["bolezen", "bolno", "igla", "injekcija", "medicina", "orodje", "zdravnik"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("qalabka wadnaha lagu dhageysto"),
-			keywords: &["daawo", "dhakhtar", "qalabka wadnaha lagu dhageysto", "wadne"],
+			tts:      Some("irbad"),
+			keywords: &["dawo", "irbad", "talaal", "xanuunsanaya"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "ilaç", "stetoskop", "zemër"],
+			tts:      Some("shiringë"),
+			keywords: &["doktor", "gjilpërë", "ilaç", "injeksion", "shiringë", "vaksinë"],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("стетоскоп"),
-			keywords: &["лекар", "медицина", "срце", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &["болест", "вакцина", "вакцинација", "иглa", "инјекција", "лек", "лекар", "шприц"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation {
 			lang:     "sr_Cyrl_BA",
 			tts:      Some("↑↑↑"),
-			keywords: &["медицина", "срце", "стетоскоп", "љекар"],
+			keywords: &["болест", "игла", "инјекција", "лијек", "шприц"],
 		},
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("stetoskop"),
-			keywords: &["lekar", "medicina", "srce", "stetoskop"],
+			tts:      Some("špric"),
+			keywords: &["bolest", "igla", "injekcija", "lek", "lekar", "vakcina", "vakcinacija", "špric"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation {
 			lang:     "sr_Latn_BA",
 			tts:      Some("↑↑↑"),
-			keywords: &["ljekar", "medicina", "srce", "stetoskop"],
+			keywords: &["bolest", "igla", "injekcija", "lijek", "špric"],
 		},
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "hjärta", "medicin", "stetoskop"],
+			tts:      Some("spruta"),
+			keywords: &["nål", "sjukvård", "spruta"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("stetoskopu"),
-			keywords: &["daktari", "dawa", "moyo", "stetoskopu"],
+			tts:      Some("bomba la sindano"),
+			keywords: &[
+				"bomba la sindano",
+				"daktari",
+				"dawa",
+				"kuchoma sindano",
+				"mgonjwa",
+				"sindano",
+				"sindano ya mafua",
+				"zana",
+			],
 		},
 		#[cfg(feature = "sw_KE")]
 		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("ஸ\u{bcd}டெத\u{bbe}ஸ\u{bcd}கோப\u{bcd}"),
+			tts:      Some("ஊசி"),
 			keywords: &[
-				"இதயத\u{bcd}துடிப\u{bcd}பு",
-				"இதயம\u{bcd}",
-				"துடிப\u{bcd}பு",
+				"ஊசி",
+				"க\u{bbe}ய\u{bcd}ச\u{bcd}சல\u{bcd}",
+				"சிகிச\u{bcd}சை",
+				"சிரிஞ\u{bcd}சு",
+				"தடுப\u{bcd}பூசி",
+				"பொருள\u{bcd}",
 				"மருத\u{bcd}துவம\u{bcd}",
-				"மருத\u{bcd}துவர\u{bcd}",
-				"ஸ\u{bcd}டெதஸ\u{bcd}கோப\u{bcd}",
-				"ஸ\u{bcd}டெத\u{bbe}ஸ\u{bcd}கோப\u{bcd}",
+				"மருந\u{bcd}து",
+				"வைத\u{bcd}தியம\u{bcd}",
 			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("స\u{c4d}ట\u{c46}థస\u{c4d}క\u{c4b}ప\u{c4d}"),
+			tts:      Some("స\u{c3f}రంజ\u{c3f}"),
 			keywords: &[
-				"గుండ\u{c46}",
+				"ట\u{c3e}క\u{c40}",
 				"డ\u{c3e}క\u{c4d}టర\u{c4d}",
-				"మందులు",
+				"న\u{c40}డ\u{c3f}ల\u{c4d}",
+				"ఫ\u{c4d}లూ ష\u{c3e}ట\u{c4d}",
 				"మ\u{c46}డ\u{c3f}స\u{c3f}న\u{c4d}",
-				"వ\u{c48}ద\u{c4d}యుడు",
-				"వ\u{c48}ద\u{c4d}యులు",
-				"స\u{c4d}ట\u{c46}తస\u{c4d}క\u{c4b}ప\u{c4d}",
-				"స\u{c4d}ట\u{c46}థస\u{c4d}క\u{c4b}ప\u{c4d}",
+				"స\u{c3f}రంజ\u{c3f}",
+				"సూద\u{c3f}",
 			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("сӯзандору"),
+			keywords: &["асбоб", "бемор", "дору", "духтур", "сӯзан", "сӯзандору", "сӯзанзанӣ"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("เคร\u{e37}\u{e48}องฟ\u{e31}งตรวจ"),
-			keywords: &[
-				"ยา",
-				"หมอ",
-				"ห\u{e31}วใจ",
-				"ห\u{e39}ฟ\u{e31}ง",
-				"เคร\u{e37}\u{e48}องฟ\u{e31}งตรวจ",
-				"แพทย\u{e4c}",
-			],
+			tts:      Some("กระบอกฉ\u{e35}ดยา"),
+			keywords: &["กระบอกฉ\u{e35}ดยา", "ฉ\u{e35}ดยา", "เข\u{e47}มฉ\u{e35}ดยา"],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ስቴቶስኮፕ"),
-			keywords: &["ልቢ", "ሓኪም", "መድሃኒት", "ስቴቶስኮፕ"],
+			tts:      Some("መርፍእ ምውሳድ"),
+			keywords: &["ሓኪም", "መርፍእ", "መሳርሒ", "መድሃኒት", "ተኲሱ", "ክትባት", "ዝሓመመ", "ጉንፋዕ"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("stetoskop"),
-			keywords: &["lukman", "lukmançylyk", "stetoskop", "ýürek"],
+			tts:      Some("şpris"),
+			keywords: &["derman", "hassa", "iňňe", "sanjym", "şpris"],
 		},
 		#[cfg(feature = "to")]
 		crate::Annotation {
 			lang:     "to",
-			tts:      Some("meʻa fakaongo"),
-			keywords: &["meʻa fakaongo"],
+			tts:      Some("meʻafana faitoʻo"),
+			keywords: &["meʻafana faitoʻo"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "kalp", "stetoskop", "tıp"],
+			tts:      Some("şırınga"),
+			keywords: &["doktor", "ilaç", "iğne", "şırınga"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئىشپىرىس"),
+			keywords: &["ئوكۇل", "ئىشپىرىس", "دوختۇر", "دورا", "قورال", "كېسەل", "يىڭنە"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("стетоскоп"),
-			keywords: &["вислухувати серце", "лікар", "медицина", "серце", "слухати", "стетоскоп"],
+			tts:      Some("шприц"),
+			keywords: &["голка", "лікар", "ліки", "укол", "хворий", "шприц", "інструмент"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("سٹیتھو سکوپ"),
-			keywords: &["دل", "دوا", "سٹیتھو سکوپ", "ڈاکٹر"],
+			tts:      Some("سرنج"),
+			keywords: &["آلہ", "دوائی", "سرنج", "سوئی", "فلو", "ٹیکا", "ڈاکٹر"],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("stetoskop"),
-			keywords: &["doktor", "shifokor", "stetoskop", "tibbiyot", "vrach", "yurak"],
+			tts:      Some("shprits"),
+			keywords: &["bemor", "dori", "igna", "kasal", "shprits", "ukol", "vaksina"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("ống nghe"),
-			keywords: &["bác sĩ", "tim", "y tế", "ống nghe"],
+			tts:      Some("ống tiêm"),
+			keywords: &["bệnh", "kim", "thuốc", "tiêm", "vắc-xin", "ống tiêm"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("pikiir"),
+			keywords: &["doktor", "jam", "jumtukaay", "medsin", "pikiir", "puso", "sik"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isirinji"),
+			keywords: &["amayeza", "inaliti", "isirinji", "isixhobo", "ugqirha", "ukugula"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("sitesitosikoop]u"),
-			keywords: &["o]ogùn", "okan", "onisegun", "sitesitosikoop]u", "sítẹ\u{301}sítósikóòpù"],
+			tts:      Some("abẹrẹ"),
+			keywords: &["abẹrẹ", "dókítà", "ikin", "irinṣẹ\u{301}", "yìn", "àìsàn", "òògùn"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("sitesitosikoop]u"),
-			keywords: &["o]ogùn", "okan", "onisegun", "sitesitosikoop]u", "sítɛ\u{301}sítósikóòpù"],
+			tts:      Some("abɛrɛ"),
+			keywords: &["abɛrɛ", "dókítà", "ikin", "irinshɛ\u{301}", "yìn", "àìsàn", "òògùn"],
 		},
 		#[cfg(feature = "yue")]
 		crate::Annotation {
 			lang:     "yue",
-			tts:      Some("聽筒"),
-			keywords: &["心臟", "聽筒", "醫生", "醫療"],
+			tts:      Some("針筒"),
+			keywords: &["工具", "注射", "生病", "醫生", "醫藥", "針", "針筒"],
 		},
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("听筒"),
-			keywords: &["医生", "医疗", "听筒", "心脏"],
+			tts:      Some("针筒"),
+			keywords: &["医生", "医药", "工具", "注射", "生病", "针", "针筒"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("听诊器"),
-			keywords: &["医生", "医疗", "听诊器", "心脏", "心跳", "诊断"],
+			tts:      Some("注射器"),
+			keywords: &[
+				"医学",
+				"医生",
+				"工具",
+				"打针",
+				"接种",
+				"治疗",
+				"注射器",
+				"疫苗",
+				"药",
+				"针头",
+				"针筒",
+			],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("聽診器"),
-			keywords: &["心跳", "聽診器", "藥", "醫生"],
+			tts:      Some("針筒"),
+			keywords: &["注射器", "針筒"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
 		crate::Annotation {
 			lang:     "zh_Hant_HK",
 			tts:      Some("↑↑↑"),
-			keywords: &["心臟", "心跳", "看病", "聽診器", "醫學", "醫生"],
+			keywords: &["工具", "打針", "抽血", "接種", "注射", "生病", "疫苗", "藥物", "醫生", "針"],
 		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("i-slethoscope"),
-			keywords: &["i-slethoscope", "inhliziyo imithi", "udokotela"],
+			tts:      Some("umjovo"),
+			keywords: &["imithi", "inaliti", "ithuluzi", "udokotela", "ukugula", "ukujova", "umjovo"],
 		},
 	],
 };
@@ -6612,6 +4741,1877 @@ pub const X_RAY: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("x-ray"),
 			keywords: &["bones", "doctor", "medical", "skeleton", "x-ray"],
+		},
+	],
+};
+#[doc = "🩺"]
+pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
+	glyph:                "🩺",
+	codepoint:            &[129658u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+	name:                 "stethoscope",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Medical,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("stetoskoop"),
+			keywords: &["dokter", "hart", "medies", "medisyne", "ondersoek", "stetoskoop"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ማዳመጫ"),
+			keywords: &["ሃኪም", "ህክምና", "ልብ", "ማዳመጫ", "ስቴቶስኮፕ", "ዶክተር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("سماعة طبيب"),
+			keywords: &[
+				"أداة",
+				"دكتور",
+				"سماعة طبيب",
+				"سماعة طبية",
+				"ضربات القلب",
+				"طب",
+				"طبيب",
+				"قلب",
+				"كشف",
+				"نبضات القلب",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ষ\u{9cd}টেথ’চক’প"),
+			keywords: &["ঔষধ", "চিকিৎসক", "ষ\u{9cd}টেথ’চক’প", "হ\u{9c3}দযন\u{9cd}ত\u{9cd}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "döyünmə", "həkim", "stetoskop", "tibb", "ürək"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("стэтаскоп"),
+			keywords: &["доктар", "медыцына", "стэтаскоп", "сэрца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("стетоскоп"),
+			keywords: &["лекар", "медицина", "стетоскоп", "сърце"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}টেথোস\u{9cd}কোপ"),
+			keywords: &[
+				"ওষ\u{9c1}ধ",
+				"ঔষধ",
+				"ড\u{9be}ক\u{9cd}ত\u{9be}র",
+				"নিঃশ\u{9cd}ব\u{9be}স",
+				"পরীক\u{9cd}ষ\u{9be} কর\u{9be}",
+				"শ\u{9cd}ব\u{9be}স প\u{9cd}রশ\u{9cd}ব\u{9be}স",
+				"স\u{9cd}টেথোস\u{9cd}কোপ",
+				"স\u{9cd}ব\u{9be}স\u{9cd}থ\u{9cd}য",
+				"হ\u{9be}র\u{9cd}ট",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "medisinerezh", "mezegiezh", "stetoskop"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "medicina", "srce", "stetoskop"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("estetoscopi"),
+			keywords: &["cor", "doctor", "estetoscopi", "medicina"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᎾᏫ ᎠᏛᏓᏍᏗ"),
+			keywords: &["ᎠᎦᎾᎦᏘ", "ᎤᎾᏫ", "ᎤᎾᏫ ᎠᏛᏓᏍᏗ", "ᏅᏬᏘ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("stetoskop"),
+			keywords: &[
+				"doktor",
+				"fonendoskop",
+				"lékař",
+				"lékařství",
+				"medicína",
+				"srdce",
+				"stetoskop",
+				"tlukot srdce",
+				"vyšetření",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("stethosgop"),
+			keywords: &["calon", "meddyg", "meddyginiaeth", "stethosgop"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "hjerte", "læge", "medicin", "stetoskop"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Stethoskop"),
+			keywords: &[
+				"Arzt",
+				"Doktor",
+				"Herz",
+				"Herzschlag",
+				"Medizin",
+				"Stethoskop",
+				"Untersuchung",
+				"abhören",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("στηθοσκόπιο"),
+			keywords: &["γιατρός", "καρδιά", "στηθοσκόπιο", "φάρμακο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("stethoscope"),
+			keywords: &["doctor", "heart", "medicine", "stethoscope"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("estetoscopio"),
+			keywords: &[
+				"corazón",
+				"doctor",
+				"estetoscopio",
+				"fonendoscopio",
+				"latido",
+				"medicina",
+				"médico",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["doctor", "estetoscopio", "latido", "medicina", "médico"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["corazón", "doctor", "estetoscopio", "fonendoscopio", "latido", "medicina"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("stetoskoop"),
+			keywords: &["arst", "kuuldetoru", "meditsiin", "stetoskoop", "süda"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("estetoskopioa"),
+			keywords: &["bihotz", "estetoskopioa", "mediku", "medikuntza"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("گوشی پزشکی"),
+			keywords: &["دارو", "دکتر", "قلب", "پزشک", "گوشی پزشکی"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("stetoskooppi"),
+			keywords: &["kuuntelu", "lääkäri", "stetoskooppi", "sydän"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("stethoscope"),
+			keywords: &["doktor", "gamot", "medicine", "medisina", "puso", "stethoscope"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("stetoskop"),
+			keywords: &["lurt", "læknalurt", "læknapípa", "stetoskop"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("stéthoscope"),
+			keywords: &["cœur", "diagnostic", "docteur", "médecin", "médecine", "poumons", "stéthoscope"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("steiteascóp"),
+			keywords: &["croí", "dochtúir", "doctúir", "leigheas", "steiteascóp"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("steatasgop"),
+			keywords: &["cridhe", "dotair", "leigheas", "lighiche", "steatasgop", "steiteasgop"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("estetoscopio"),
+			keywords: &["corazón", "fonendoscopio", "medicina"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{acd}ટ\u{ac7}થોસ\u{acd}કોપ"),
+			keywords: &[
+				"અપોઇન\u{acd}ટમ\u{ac7}ન\u{acd}ટ",
+				"ઇલાજ",
+				"ચ\u{ac7}કઅપ",
+				"ડૉક\u{acd}ટર",
+				"ડોક\u{acd}ટર",
+				"તપાસ",
+				"દવા",
+				"દાક\u{acd}તર",
+				"દિલ",
+				"ધબકારા",
+				"વ\u{ac8}દ\u{acd}ય",
+				"સ\u{acd}ટ\u{ac7}થોસ\u{acd}કોપ",
+				"સ\u{acd}વાસ\u{acd}થ\u{acd}ય",
+				"હાર\u{acd}ટ",
+				"હ\u{ac3}દય",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("maʼunin likita"),
+			keywords: &[
+				"bugawar zuciya",
+				"likita",
+				"magani",
+				"maʼaunin lilkita",
+				"maʼunin likita",
+				"naʼurar auna bugun zuciya",
+				"naʼurar likita",
+				"zuciya",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("maʼunin likita"),
+			keywords: &[
+				"bugawar zuciya",
+				"likita",
+				"magani",
+				"maʼaunin lilkita",
+				"maʼunin likita",
+				"naʼurar auna bugun zuciya",
+				"naʼurar likita",
+				"zuciya",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("סטתוסקופ"),
+			keywords: &["מ\u{5b7}ס\u{5b0}כ\u{5b5}\u{5bc}ת", "סטתוסקופ", "רופא"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
+			keywords: &[
+				"चिकित\u{94d}सा",
+				"डॉक\u{94d}टर",
+				"दवा",
+				"ब\u{94d}लड प\u{94d}र\u{947}शर",
+				"रक\u{94d}तचाप",
+				"स\u{94d}ट\u{947}थोस\u{94d}कोप",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("stetoskop"),
+			keywords: &["liječnik", "medicina", "srce", "stetoskop"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("sztetoszkóp"),
+			keywords: &["gyógyszer", "orvos", "sztetoszkóp", "szív", "szívhang"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ստեթոսկոպ"),
+			keywords: &["բժիշկ", "բժշկություն", "սիրտ", "ստեթոսկոպ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("stetoskop"),
+			keywords: &["dokter", "jantung", "obat", "stetoskop"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("stetoscope"),
+			keywords: &["dọkịta", "obi", "ogu", "stethoscope"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hlustunarpípa"),
+			keywords: &["hjarta", "hlustunarpípa", "læknir", "læknisfræði"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("stetoscopio"),
+			keywords: &["cardiologo", "dottore", "dottoressa", "fonendoscopio", "medico", "stetoscopio"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("聴診器"),
+			keywords: &["医療", "医者", "心臓", "病気", "聴診器"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("stetoskop"),
+			keywords: &["dhokter", "jantung", "obat", "stetoskop"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ფონენდოსკოპი"),
+			keywords: &["გული", "მედიცინა", "სტეთოსკოპი", "ფილტვები", "ფონენდოსკოპი", "წნევა"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("стетоскоп"),
+			keywords: &["дәрігер", "жүрек", "медицина", "стетоскоп"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ស\u{17d2}តេត\u{17bc}"),
+			keywords: &[
+				"បេះដ\u{17bc}ង",
+				"វេជ\u{17d2}ជបណ\u{17d2}ឌ\u{17b7}ត",
+				"ស\u{17d2}តេត\u{17bc}",
+				"ឱសថ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}"),
+			keywords: &[
+				"ಔಷಧ\u{cbf}",
+				"ವ\u{cc8}ದ\u{ccd}ಯರು",
+				"ಸ\u{ccd}ಟ\u{cc6}ತಸ\u{ccd}ಕ\u{ccb}ಪ\u{ccd}",
+				"ಹೃದಯ",
+				"ಹೃದಯ ಬಡ\u{cbf}ತ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("청진기"),
+			keywords: &["심박수", "심장", "의사", "의학", "청진기"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("स\u{94d}थ\u{947}थोस\u{94d}कोप"),
+			keywords: &["काळीज", "दोतोर", "वखदा\u{902}", "स\u{94d}थ\u{947}थोस\u{94d}कोप"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("стетоскоп"),
+			keywords: &["дарыгер", "жүрөк", "медицина", "стетоскоп"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{eb9}\u{200b}ຟ\u{eb1}ງ\u{200b}ຂອງ\u{200b}ແພດ"),
+			keywords: &[
+				"ປ\u{eb4}\u{ec8}ນ\u{200b}ປ\u{ebb}ວ",
+				"ຫ\u{eb9}\u{200b}ຟ\u{eb1}ງ\u{200b}ຂອງ\u{200b}ແພດ",
+				"ຫ\u{ebb}ວ\u{200b}ໃຈ",
+				"ຮ\u{eb1}ກ\u{200b}ສາ",
+				"ແພດ",
+				"ໝ\u{ecd}",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("stetoskopas"),
+			keywords: &["gydytojas", "medicina", "stetoskopas", "širdis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("stetoskops"),
+			keywords: &["medicīna", "sirds", "stetoskops", "ārsts"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("стетоскоп"),
+			keywords: &["доктор", "медицина", "срце", "стетоскоп"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സ\u{d4d}റ\u{d4d}റെതസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}"),
+			keywords: &[
+				"ഡോക\u{d4d}\u{200c}ടർ",
+				"മര\u{d41}ന\u{d4d}ന\u{d4d}",
+				"സ\u{d4d}റ\u{d4d}റെതസ\u{d4d}\u{200c}കോപ\u{d4d}പ\u{d4d}",
+				"ഹ\u{d43}ദയം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("чагнуур"),
+			keywords: &["зүрх", "чагнуур", "эмнэлэг", "эмч"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
+			keywords: &["औषध", "डॉक\u{94d}टर", "स\u{94d}ट\u{947}थोस\u{94d}कोप", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "jantung", "perubatan", "stetoskop"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဆရာဝန\u{103a}သ\u{102f}\u{1036}း နားကြပ\u{103a}"),
+			keywords: &[
+				"ဆရာဝန\u{103a}",
+				"ဆရာဝန\u{103a}သ\u{102f}\u{1036}း နားကြပ\u{103a}",
+				"ဆေး",
+				"န\u{103e}လ\u{102f}\u{1036}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}ट\u{947}थोस\u{94d}कोप"),
+			keywords: &["औषधी", "डाक\u{94d}टर", "स\u{94d}ट\u{947}थोस\u{94d}कोप", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("stethoscoop"),
+			keywords: &[
+				"arts",
+				"dokter",
+				"geneeskunde",
+				"hart",
+				"medicijnen",
+				"stethoscoop",
+				"ziekenhuis",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["hjarte", "lege", "medisin", "stetoskop"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଷ\u{b4d}ଟେଥୋସ\u{b4d}କୋପ"),
+			keywords: &["ଔଷଧ", "ଡ\u{b3e}କ\u{b4d}ତର", "ଷ\u{b4d}ଟେଥୋସ\u{b4d}କୋପ", "ହ\u{b43}ଦୟ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਟ\u{a47}ਥ\u{a4b}ਸਕ\u{a4b}ਪ"),
+			keywords: &["ਡਾਕਟਰ", "ਦਵਾਈ", "ਦਿਲ", "ਧੜਕਣ", "ਸਟ\u{a47}ਥ\u{a4b}ਸਕ\u{a4b}ਪ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Stẹteskop"),
+			keywords: &["Dọ\u{301}ktọ", "Hat", "Mẹ\u{301}dísin", "Stẹteskop"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("stetoskop"),
+			keywords: &["lekarz", "medycyna", "praca", "serce", "stetoskop"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ستېتوسکوپ"),
+			keywords: &["درمل", "زړه", "ستېتوسکوپ", "ډاکټر"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("estetoscópio"),
+			keywords: &["coração", "estetoscópio", "medicina", "médica", "médico", "tum tum"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["coração", "estetoscópio", "medicina", "médico"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation { lang: "qu", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("stetoscop"),
+			keywords: &["doctor", "inimă", "medicină", "stetoscop"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E12–065"), keywords: &["E12–065"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("стетоскоп"),
+			keywords: &["врач", "доктор", "инструмент", "медицина", "сердце", "слушать", "стетоскоп"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اسٽيٿو اسڪوپ"),
+			keywords: &["اسٽيٿو اسڪوپ", "دل", "دوا", "ڊاڪٽر"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("වෙද නළ\u{dcf}ව"),
+			keywords: &["ඖෂධ", "දොස\u{dca}තර", "වෙද නළ\u{dcf}ව", "හදවත"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "lekár", "lekárstvo", "medicína", "srdce", "stetoskop"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("stetoskop"),
+			keywords: &["medicina", "pljuča", "prsni koš", "srce", "stetoskop", "zdravnik"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qalabka wadnaha lagu dhageysto"),
+			keywords: &["daawo", "dhakhtar", "qalabka wadnaha lagu dhageysto", "wadne"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "ilaç", "stetoskop", "zemër"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("стетоскоп"),
+			keywords: &["лекар", "медицина", "срце", "стетоскоп"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["медицина", "срце", "стетоскоп", "љекар"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("stetoskop"),
+			keywords: &["lekar", "medicina", "srce", "stetoskop"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["ljekar", "medicina", "srce", "stetoskop"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "hjärta", "medicin", "stetoskop"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("stetoskopu"),
+			keywords: &["daktari", "dawa", "moyo", "stetoskopu"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஸ\u{bcd}டெத\u{bbe}ஸ\u{bcd}கோப\u{bcd}"),
+			keywords: &[
+				"இதயத\u{bcd}துடிப\u{bcd}பு",
+				"இதயம\u{bcd}",
+				"துடிப\u{bcd}பு",
+				"மருத\u{bcd}துவம\u{bcd}",
+				"மருத\u{bcd}துவர\u{bcd}",
+				"ஸ\u{bcd}டெதஸ\u{bcd}கோப\u{bcd}",
+				"ஸ\u{bcd}டெத\u{bbe}ஸ\u{bcd}கோப\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("స\u{c4d}ట\u{c46}థస\u{c4d}క\u{c4b}ప\u{c4d}"),
+			keywords: &[
+				"గుండ\u{c46}",
+				"డ\u{c3e}క\u{c4d}టర\u{c4d}",
+				"మందులు",
+				"మ\u{c46}డ\u{c3f}స\u{c3f}న\u{c4d}",
+				"వ\u{c48}ద\u{c4d}యుడు",
+				"వ\u{c48}ద\u{c4d}యులు",
+				"స\u{c4d}ట\u{c46}తస\u{c4d}క\u{c4b}ప\u{c4d}",
+				"స\u{c4d}ట\u{c46}థస\u{c4d}క\u{c4b}ప\u{c4d}",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("เคร\u{e37}\u{e48}องฟ\u{e31}งตรวจ"),
+			keywords: &[
+				"ยา",
+				"หมอ",
+				"ห\u{e31}วใจ",
+				"ห\u{e39}ฟ\u{e31}ง",
+				"เคร\u{e37}\u{e48}องฟ\u{e31}งตรวจ",
+				"แพทย\u{e4c}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ስቴቶስኮፕ"),
+			keywords: &["ልቢ", "ሓኪም", "መድሃኒት", "ስቴቶስኮፕ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("stetoskop"),
+			keywords: &["lukman", "lukmançylyk", "stetoskop", "ýürek"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("meʻa fakaongo"),
+			keywords: &["meʻa fakaongo"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "kalp", "stetoskop", "tıp"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("стетоскоп"),
+			keywords: &["вислухувати серце", "лікар", "медицина", "серце", "слухати", "стетоскоп"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سٹیتھو سکوپ"),
+			keywords: &["دل", "دوا", "سٹیتھو سکوپ", "ڈاکٹر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("stetoskop"),
+			keywords: &["doktor", "shifokor", "stetoskop", "tibbiyot", "vrach", "yurak"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("ống nghe"),
+			keywords: &["bác sĩ", "tim", "y tế", "ống nghe"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("sitesitosikoop]u"),
+			keywords: &["o]ogùn", "okan", "onisegun", "sitesitosikoop]u", "sítẹ\u{301}sítósikóòpù"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("sitesitosikoop]u"),
+			keywords: &["o]ogùn", "okan", "onisegun", "sitesitosikoop]u", "sítɛ\u{301}sítósikóòpù"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("聽筒"),
+			keywords: &["心臟", "聽筒", "醫生", "醫療"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("听筒"),
+			keywords: &["医生", "医疗", "听筒", "心脏"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("听诊器"),
+			keywords: &["医生", "医疗", "听诊器", "心脏", "心跳", "诊断"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("聽診器"),
+			keywords: &["心跳", "聽診器", "藥", "醫生"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["心臟", "心跳", "看病", "聽診器", "醫學", "醫生"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("i-slethoscope"),
+			keywords: &["i-slethoscope", "inhliziyo imithi", "udokotela"],
+		},
+	],
+};
+#[doc = "🩸"]
+pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
+	glyph:                "🩸",
+	codepoint:            &[129656u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+	name:                 "drop of blood",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Medical,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("bloeddruppel"),
+			keywords: &[
+				"besering",
+				"bloeddruppel",
+				"bloedskenk",
+				"bloedskenking",
+				"bloei",
+				"medisyne",
+				"menstruasie",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የደም ጠብታ"),
+			keywords: &["ህክምና", "መድማት", "ቀይ", "ቀይ ጠብታ", "የወር አበባ", "የደም ጠብታ", "ደም ልገሳ", "ጉዳት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قطرة دم"),
+			keywords: &[
+				"تبرع بالدم",
+				"جرح",
+				"حيض",
+				"طب",
+				"طمث",
+				"قطرة دم",
+				"مختبر",
+				"نزيف",
+				"نقطة",
+				"ينزف",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("তেজৰ টোপ\u{9be}ল"),
+			keywords: &["ঋত\u{9c1}স\u{9cd}ৰ\u{9be}ব", "ঔষধ", "তেজৰ টোপ\u{9be}ল", "ৰক\u{9cd}তদ\u{9be}ন"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qan damlası"),
+			keywords: &["aybaşı", "menstruasiya", "qan damlası", "qan donoru", "tibb"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("кропля крыві"),
+			keywords: &["донарства крыві", "кропля крыві", "медыцына", "менструацыя"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("капка кръв"),
+			keywords: &[
+				"даряване на кръв",
+				"капка кръв",
+				"кървене",
+				"медицина",
+				"менструация",
+				"нараняване",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("এক ফো\u{981}ট\u{9be} রক\u{9cd}ত"),
+			keywords: &[
+				"আঘ\u{9be}ত",
+				"ঋত\u{9c1}স\u{9cd}র\u{9be}ব",
+				"এক ফো\u{981}ট\u{9be} রক\u{9cd}ত",
+				"ওষ\u{9c1}ধ",
+				"ঔষধ",
+				"রক\u{9cd}ত পর\u{9be}",
+				"রক\u{9cd}তদ\u{9be}ন",
+				"রজঃস\u{9cd}র\u{9be}ব",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("takenn wad"),
+			keywords: &["gwad", "medisinerezh", "mezegiezh", "takenn", "takenn wad"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("kapljica krvi"),
+			keywords: &["doniranje krvi", "kapljica krvi", "medicina", "menstruacija", "menzes"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("gota de sang"),
+			keywords: &[
+				"donació de sang",
+				"ferida",
+				"gota de sang",
+				"lesió",
+				"medicina",
+				"menstruació",
+				"sagnar",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎩᎦ"),
+			keywords: &["ᎩᎦ", "ᎩᎦ ᎠᎵᏍᎪᎸᏙᏗ", "ᏅᏬᏘ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("kapka krve"),
+			keywords: &[
+				"darovat krev",
+				"darování",
+				"darování krve",
+				"dárcovství",
+				"dárcovství krve",
+				"kapka krve",
+				"krev",
+				"krvácet",
+				"lékařství",
+				"medicína",
+				"menstruace",
+				"teče krev",
+				"zranění",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("diferyn o waed"),
+			keywords: &["diferyn o waed", "meddyginiaeth", "mislif", "rhoi gwaed"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("bloddråbe"),
+			keywords: &["blod", "bloddonor", "bloddråbe", "medicin", "menstruation", "sår"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Blutstropfen"),
+			keywords: &["Blutspende", "Blutstropfen", "Flüssigkeit", "Medizin", "Menstruation"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("σταγόνα αίματος"),
+			keywords: &["έμμηνος ρήση", "αιμοδοσία", "σταγόνα αίματος", "φάρμακο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("drop of blood"),
+			keywords: &["bleed", "blood", "donation", "drop", "injury", "medicine", "menstruation"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("gota de sangre"),
+			keywords: &[
+				"donación de sangre",
+				"donar sangre",
+				"gota de sangre",
+				"herida",
+				"medicina",
+				"sangre",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"donación de sangre",
+				"donar sangre",
+				"gota de sangre",
+				"gota roja",
+				"herida",
+				"medicina",
+				"menstruación",
+				"sangrar",
+				"sangre",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("veretilk"),
+			keywords: &["doonorlus", "meditsiin", "menstruatsioon", "tilk", "veri", "vigastus"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("odol tanta"),
+			keywords: &["hileroko", "medikuntza", "odol tanta", "odol-emate"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قطره خون"),
+			keywords: &[
+				"اهدای خون",
+				"خون",
+				"خون\u{200c}ریزی",
+				"دارو",
+				"رگل",
+				"صدمه",
+				"عادت ماهانه",
+				"عادت ماهیانه",
+				"قاعدگی",
+				"قطره خون",
+				"پریود",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("veripisara"),
+			keywords: &["kuukautiset", "lääketiede", "vamma", "verenluovutus", "veripisara"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("patak ng dugo"),
+			keywords: &[
+				"blood",
+				"blood donation",
+				"donasyon ng dugo",
+				"dugo",
+				"gamot",
+				"patak ng dugo",
+				"regla",
+				"sugat",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("blóðdropi"),
+			keywords: &["blóð", "blóðdropi", "blóðgevi", "blóðgáva", "dropi"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("goutte de sang"),
+			keywords: &[
+				"don du sang",
+				"goutte de sang",
+				"menstruation",
+				"menstruations",
+				"médecine",
+				"règles",
+				"sang",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("braoinín fola"),
+			keywords: &["braoinín fola", "cuir fuil", "deonú fola", "gortú", "leigheas", "míostrú"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("boinne fala"),
+			keywords: &[
+				"boinne",
+				"boinne fala",
+				"fuil",
+				"fuil mhìosail",
+				"fuil-mìos",
+				"leigheas",
+				"tabhartas fala",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("pinga de sangue"),
+			keywords: &["doazón de sangue", "medicina", "menstruación", "regra", "sangue"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("લોહીન\u{ac1}\u{a82} ટીપ\u{ac1}\u{a82}"),
+			keywords: &[
+				"ઇજા",
+				"ઈજા",
+				"દવા",
+				"પિરિયડ",
+				"પીરિયડ",
+				"બ\u{acd}લડ",
+				"બ\u{acd}લડ ડોન\u{ac7}શન",
+				"માસિક",
+				"માસિક સ\u{acd}ત\u{acd}રાવ",
+				"રક\u{acd}ત દાન",
+				"રક\u{acd}તદાન",
+				"રક\u{acd}તસ\u{acd}ત\u{acd}રાવ",
+				"રજોદર\u{acd}શન",
+				"લોહી",
+				"લોહીન\u{ac1}\u{a82} ટીપ\u{ac1}\u{a82}",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("ɗigon jini"),
+			keywords: &[
+				"ba da jini",
+				"gudummawar jini",
+				"jinin haila",
+				"magani",
+				"rauni",
+				"zub da jini",
+				"ɗaukar jini",
+				"ɗigon jini",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("ɗigon jini"),
+			keywords: &[
+				"ba da jini",
+				"gudummawar jini",
+				"jinin haila",
+				"magani",
+				"rauni",
+				"zub da jini",
+				"ɗaukar jini",
+				"ɗigon jini",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("טיפת דם"),
+			keywords: &["דם", "טיפת דם", "רפואה", "תרומת דם"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ख\u{93c}\u{942}न की ब\u{942}\u{901}द"),
+			keywords: &[
+				"ख\u{93c}\u{942}न",
+				"ख\u{93c}\u{942}न की ब\u{942}\u{901}द",
+				"ख\u{942}न",
+				"चिकित\u{94d}सा",
+				"पीरियड",
+				"मासिक धर\u{94d}म",
+				"रक\u{94d}त",
+				"रक\u{94d}तदान",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("kap krvi"),
+			keywords: &[
+				"darivanje krvi",
+				"doniranje krvi",
+				"kap krvi",
+				"krv",
+				"krvarenje",
+				"medicina",
+				"menstruacija",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("vércsepp"),
+			keywords: &[
+				"gyógyszer",
+				"menstruáció",
+				"seb",
+				"sebesülés",
+				"sérülés",
+				"véradás",
+				"vércsepp",
+				"vérvétel",
+				"vérzés",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("արյան կաթիլ"),
+			keywords: &["արյան դոնոր", "արյան կաթիլ", "բժշկություն", "դաշտան"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("tetesan darah"),
+			keywords: &[
+				"berdarah",
+				"darah",
+				"donor darah",
+				"luka",
+				"menstruasi",
+				"obat",
+				"tetesan darah",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("obara"),
+			keywords: &[
+				"igba obara",
+				"inye ọbara",
+				"mmerụ ahụ",
+				"nsọ nwanyị",
+				"obara",
+				"ogu",
+				"otu obara",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("blóðdropi"),
+			keywords: &["blæðingar", "blóðdropi", "blóðgjöf", "læknisfræði"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("goccia di sangue"),
+			keywords: &[
+				"ciclo mestruale",
+				"donare il sangue",
+				"donazione di sangue",
+				"goccia di sangue",
+				"medicina",
+				"medicinale",
+				"mestruazioni",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("血液"),
+			keywords: &["けが", "出血", "医療", "医者", "献血", "生理", "血液"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("satetes getih"),
+			keywords: &["donor getih", "menstruasi", "obat", "satetes getih"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სისხლის წვეთი"),
+			keywords: &["დონორი", "მედიცინა", "მენსტრუაცია", "სისხლი", "სისხლის გაღება", "სისხლის წვეთი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("tiqiit n yidammen"),
+			keywords: &["tiqiit n yidammen"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("қан тамшысы"),
+			keywords: &[
+				"донорлық қан тапсыру",
+				"етеккір",
+				"медицина",
+				"тамшы",
+				"қан тамшысы",
+				"қызыл тамшы",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ត\u{17c6}ណក\u{17cb}ឈាម"),
+			keywords: &[
+				"ការធ\u{17d2}លាក\u{17cb}រដ\u{17bc}វ",
+				"ការបរ\u{17b7}ច\u{17d2}ចាគឈាម",
+				"ត\u{17c6}ណក\u{17cb}ឈាម",
+				"ឱសថ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರಕ\u{ccd}ತದ ಹನ\u{cbf}"),
+			keywords: &[
+				"ಋತು ಚಕ\u{ccd}ರ",
+				"ಋತುಚಕ\u{ccd}ರ",
+				"ಔಷಧ",
+				"ಔಷಧ\u{cbf}",
+				"ಗಾಯ",
+				"ರಕ\u{ccd}ತದ ಹನ\u{cbf}",
+				"ರಕ\u{ccd}ತದಾನ",
+				"ರಕ\u{ccd}ತಸ\u{ccd}ರಾವ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("핏방울"),
+			keywords: &["생리", "의학", "핏방울", "헌혈"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("रक\u{94d}ताचो थ\u{947}\u{902}बो"),
+			keywords: &[
+				"द\u{941}खापत",
+				"मासीकधर\u{94d}म",
+				"रक\u{94d}त दान",
+				"रक\u{94d}ताचो थ\u{947}\u{902}बो",
+				"रगत",
+				"वखदा\u{902}",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("тамчы кан"),
+			keywords: &["айыз", "кан тапшыруу", "медицина", "тамчы кан"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຢ\u{ebb}ດ\u{200b}ເລ\u{eb7}\u{200b}ອດ"),
+			keywords: &[
+				"ບ\u{ecd}\u{200b}ລ\u{eb4}\u{200b}ຈາກ\u{200b}ເລ\u{eb7}ອດ",
+				"ປະ\u{200b}ຈຳ\u{200b}ເດ\u{eb7}ອນ",
+				"ຢ\u{ebb}ດ\u{200b}ເລ\u{eb7}\u{200b}ອດ",
+				"ຮ\u{eb1}ກ\u{200b}ສາ",
+				"ເລ\u{eb7}ອດ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("kraujo lašas"),
+			keywords: &["kraujas", "kraujo aukojimas", "kraujo lašas", "medicina", "menstruacijos"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("asins pile"),
+			keywords: &["asins pile", "asins ziedošana", "ievainojums", "medicīna", "menstruācija"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("капка крв"),
+			keywords: &[
+				"донирање крв",
+				"капка крв",
+				"крв",
+				"крварење",
+				"менструација",
+				"повреда",
+				"црвена капка",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("രക\u{d4d}തത\u{d4d}ത\u{d41}ള\u{d4d}ളി"),
+			keywords: &[
+				"ആർത\u{d4d}തവം",
+				"മര\u{d41}ന\u{d4d}ന\u{d4d}",
+				"രക\u{d4d}തത\u{d4d}ത\u{d41}ള\u{d4d}ളി",
+				"രക\u{d4d}തദ\u{d3e}നം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("дусал цус"),
+			keywords: &["дусал цус", "сарын тэмдэг", "цус хандивлах", "эмнэлэг"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("रक\u{94d}ताचा थ\u{947}\u{902}ब"),
+			keywords: &[
+				"औषध",
+				"मासिक पाळी",
+				"रक\u{94d}त",
+				"रक\u{94d}तदान",
+				"रक\u{94d}ताचा थ\u{947}\u{902}ब",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("titisan darah"),
+			keywords: &["cedera", "darah", "derma", "haid", "titisan", "ubat"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("သ\u{103d}ေးတစ\u{103a}စက\u{103a}"),
+			keywords: &[
+				"ဆေးဝါး",
+				"ရာသ\u{102e}လာခြင\u{103a}း",
+				"သ\u{103d}ေးတစ\u{103a}စက\u{103a}",
+				"သ\u{103d}ေးလ\u{103e}\u{1030}ခြင\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("रक\u{94d}तको थोपा"),
+			keywords: &["ऋत\u{941}स\u{94d}राव", "औषधी", "रक\u{94d}त दान", "रक\u{94d}तको थोपा"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("bloeddruppel"),
+			keywords: &[
+				"bloed",
+				"bloeden",
+				"donatie",
+				"druppel",
+				"medicijnen",
+				"menstruatie",
+				"verwonding",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("bloddrope"),
+			keywords: &["bloddrope", "blodgjevar", "medisin", "mens", "menstruasjon"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ରକ\u{b4d}ତ ଟୋପ\u{b3e}"),
+			keywords: &[
+				"ଔଷଧ",
+				"ମ\u{b3e}ସ\u{b3f}କ ସ\u{b4d}ର\u{b3e}ବ",
+				"ରକ\u{b4d}ତ ଟୋପ\u{b3e}",
+				"ରକ\u{b4d}ତ ଦ\u{b3e}ନ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਖ\u{a42}ਨਦਾਨ"),
+			keywords: &["ਖ\u{a42}ਨਦਾਨ", "ਦਵਾਈ", "ਬ\u{a42}\u{a70}ਦ", "ਮਾਸਿਕ ਧਰਮ", "ਮਾਹਵਾਰੀ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Drọ\u{301}p Ọf Blọd"),
+			keywords: &[
+				"Blid",
+				"Drọ\u{301}p Ọf Blọd",
+				"Mẹnsturéshọn",
+				"Mẹ\u{301}dísin",
+				"Taim",
+				"To Donét Blọd",
+				"Ínjúri",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("kropla krwi"),
+			keywords: &[
+				"krew",
+				"kropla krwi",
+				"krwawienie",
+				"krwiodawstwo",
+				"medycyna",
+				"menstruacja",
+				"oddawanie krwi",
+				"rana",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د وينې څاڅکی"),
+			keywords: &["حيض", "د وينې څاڅکی", "درمل", "وينه ورکول"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("gota de sangue"),
+			keywords: &["doação", "gota", "medicina", "menstruação", "sangrar", "sangue"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["doação de sangue", "ferimento", "gota de sangue", "medicina", "menstruação"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation { lang: "qu", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("picătură de sânge"),
+			keywords: &[
+				"ciclu",
+				"donare de sânge",
+				"medicină",
+				"menstruație",
+				"picătură de sânge",
+				"rană",
+				"sânge",
+				"sângerare",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E12–063"), keywords: &["E12–063"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("капля крови"),
+			keywords: &[
+				"донор",
+				"капля",
+				"капля крови",
+				"красный",
+				"кровить",
+				"кровоточить",
+				"кровь",
+				"медицина",
+				"менструация",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("رت جو فڙو"),
+			keywords: &["خون جو عطيو", "دوائون", "رت جو فڙو", "مهاواري"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ලේ බ\u{dd2}න\u{dca}ද\u{dd4}ව"),
+			keywords: &[
+				"ඔසප\u{dca} ව\u{dd3}ම",
+				"ඖෂධ",
+				"ර\u{dd4}ධ\u{dd2}රය පර\u{dd2}ත\u{dca}\u{200d}ය\u{dcf}ගය",
+				"ලේ බ\u{dd2}න\u{dca}ද\u{dd4}ව",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("kvapka krvi"),
+			keywords: &[
+				"darcovstvo",
+				"darovanie",
+				"krv",
+				"kvapka krvi",
+				"lekárstvo",
+				"medicína",
+				"menštruácia",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("kaplja krvi"),
+			keywords: &["kaplja krvi", "krvodajalstvo", "medicina", "menstruacija", "zdravstvo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("dhibic dhiig ah"),
+			keywords: &["dawo", "dhibic dhiig ah", "dhiig bixin"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("pikë gjaku"),
+			keywords: &[
+				"dhurim gjaku",
+				"gjak",
+				"gjakrrjedhje",
+				"ilaç",
+				"lëndim",
+				"menstruacione",
+				"pikë gjaku",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("кап крви"),
+			keywords: &["кап", "крв", "крварење", "лек", "медицина", "менструација", "повреда"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["давање крви", "кап крви", "крварење", "лијек", "менструација", "повреда"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("kap krvi"),
+			keywords: &["kap", "krv", "krvarenje", "lek", "medicina", "menstruacija", "povreda"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["davanje krvi", "kap krvi", "krvarenje", "lijek", "menstruacija", "povreda"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("blodsdroppe"),
+			keywords: &["bloddroppe", "blodsdroppe", "ge blod", "medicin", "menstruation"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("tone la damu"),
+			keywords: &[
+				"changia damu",
+				"dawa",
+				"hedhi",
+				"jeraha",
+				"kuchangia damu",
+				"kuumia",
+				"tokwa na damu",
+				"tone la damu",
+				"vuja damu",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("இரத\u{bcd}தத\u{bcd} துளி"),
+			keywords: &[
+				"இரத\u{bcd}த த\u{bbe}னம\u{bcd}",
+				"இரத\u{bcd}தத\u{bcd} துளி",
+				"இரத\u{bcd}தம\u{bcd}",
+				"மருந\u{bcd}துவம\u{bcd}",
+				"ம\u{bbe}தவிட\u{bbe}ய\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("రక\u{c4d}తపు బ\u{c4a}ట\u{c4d}టు"),
+			keywords: &[
+				"గ\u{c3e}య\u{c3e}లు",
+				"న\u{c46}లసర\u{c3f}",
+				"బ\u{c4d}ల\u{c40}డ\u{c3f}ంగ\u{c4d}",
+				"మందు",
+				"రక\u{c4d}తద\u{c3e}నం",
+				"రక\u{c4d}తపు చుక\u{c4d}క",
+				"రక\u{c4d}తపు బ\u{c4a}ట\u{c4d}టు",
+				"రుతుక\u{c4d}రమం",
+				"వ\u{c48}ద\u{c4d}యం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("หยดเล\u{e37}อด"),
+			keywords: &[
+				"บร\u{e34}จาคเล\u{e37}อด",
+				"บาดเจ\u{e47}บ",
+				"ประจำเด\u{e37}อน",
+				"ยา",
+				"หยด",
+				"เมนส\u{e4c}",
+				"แผล",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ንጣብ ደም"),
+			keywords: &["መድሃኒት", "መጉዳእቲ", "ወርሓዊ ጽግያት", "ወፈያ", "ደም", "ደም ምፍሳስ", "ድሮፕ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gan damjasy"),
+			keywords: &["gan damjasy", "gan tabşyrmak", "lukmançylyk", "menstruasiýa"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("tulutā toto"), keywords: &["tulutā toto"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("kan damlası"),
+			keywords: &[
+				"aybaşı",
+				"ilaç",
+				"kan bağışı",
+				"kan damlası",
+				"mens",
+				"menstrüasyon",
+				"regl",
+				"tıp",
+				"yaralanma",
+				"âdet",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("крапля крові"),
+			keywords: &[
+				"аналіз крові",
+				"донорство крові",
+				"крапля крові",
+				"критичні дні",
+				"кров",
+				"кровотеча",
+				"медицина",
+				"менструація",
+				"місячне",
+				"стікати кровʼю",
+				"травма",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("خون کا قطرہ"),
+			keywords: &[
+				"حیض",
+				"خون",
+				"خون بہنا",
+				"خون کا بہاؤ",
+				"خون کا بہنا",
+				"خون کا رسنا",
+				"خون کا عطیہ",
+				"خون کا قطرہ",
+				"دوا",
+				"دوائی",
+				"زخم",
+				"عطیہ خون",
+				"قطرہ خون",
+				"چوٹ",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("qon tomchisi"),
+			keywords: &["hayz", "menstruatsiya", "qon tomchisi", "qon topshirish", "tibbiyot"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("giọt máu"),
+			keywords: &["chu kỳ kinh nguyệt", "chấn thương", "giọt máu", "hiến máu", "thuốc", "y tế"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ita ẹ\u{300}jẹ\u{300}"),
+			keywords: &["eje", "eje fifun", "ita ẹ\u{300}jẹ\u{300}", "nnkan osù", "ogun"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ita ɛ\u{300}jɛ\u{300}"),
+			keywords: &["eje", "eje fifun", "ita ɛ\u{300}jɛ\u{300}", "nnkan osù", "ogun"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("血液"),
+			keywords: &["捐血", "月經", "血液", "醫療"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("血液"),
+			keywords: &["医疗", "捐血", "月经", "血液"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("血滴"),
+			keywords: &["医疗", "月经", "流血", "献血", "经血", "血滴", "输血"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("血滴"),
+			keywords: &["受傷", "捐血", "流血", "生理期", "藥", "血滴"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("一滴血"),
+			keywords: &[
+				"一滴血",
+				"受傷",
+				"捐血",
+				"流血",
+				"滴血",
+				"獻血",
+				"紅色",
+				"經期",
+				"藥",
+				"藥物",
+				"血",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ithonsi legazi"),
+			keywords: &["imithi", "ithonsi legazi", "ukopha", "ukuphisana ngegazi"],
 		},
 	],
 };

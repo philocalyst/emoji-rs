@@ -1,3 +1,1066 @@
+#[doc = "🫩"]
+pub const FACE_WITH_BAGS_UNDER_EYES: crate::Emoji = crate::Emoji {
+	glyph:                "🫩",
+	codepoint:            &[129769u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
+	name:                 "face with bags under eyes",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::FaceSleepy,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("gesig met sakke onder oë"),
+			keywords: &["gesig met sakke onder oë", "moeg", "slaperig", "uitgeput"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ከዓይኖች በታች ከረጢቶች ጋር ፊት"),
+			keywords: &["ረፍዷል", "ቦርሳዎች", "አሰልቺ", "አይኖች", "እንቅልፋም", "ደክሞ", "ደክሞኛል", "ፊት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("وجه بانتفاخ تحت العين"),
+			keywords: &["متعب", "مرهق", "نعاس", "وجه بانتفاخ تحت العين"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("চক\u{9c1}ৰ তলত মোন\u{9be} থক\u{9be} চেহেৰ\u{9be}"),
+			keywords: &[
+				"চক\u{9c1}",
+				"চেহেৰ\u{9be}",
+				"টোপনি ধৰ\u{9be}",
+				"পলম",
+				"বিৰক\u{9cd}ত",
+				"ভ\u{9be}গৰ লগ\u{9be}",
+				"ভ\u{9be}গৰি পৰ\u{9be}",
+				"ভ\u{9be}গৰ\u{9c1}ৱ\u{9be}",
+				"মোন\u{9be}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("altı torbalanmış gözləri olan üz"),
+			keywords: &[
+				"darıxan",
+				"gecikmiş",
+				"gözlər",
+				"haldan düşmüş",
+				"heydən düşmüş",
+				"torbalar",
+				"yorğun",
+				"yuxulu",
+				"çox yorğun",
+				"üz",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("твар з мяшкамі пад вачамі"),
+			keywords: &[
+				"вочы",
+				"змораны",
+				"знясілены",
+				"мяшкі",
+				"нуда",
+				"позна",
+				"сонны",
+				"стомлены",
+				"твар",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("лице с торбички под очите"),
+			keywords: &["изморен", "изтощен", "лице с торбички под очите", "сънен"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ক\u{9cd}ল\u{9be}ন\u{9cd}তি"),
+			keywords: &["ক\u{9cd}ল\u{9be}ন\u{9cd}ত", "ঘ\u{9c1}মন\u{9cd}ত"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("lice s podočnjacima"),
+			keywords: &[
+				"dosadno",
+				"iscrpljeno",
+				"kasno",
+				"lice",
+				"oči",
+				"podočnjaci",
+				"pospano",
+				"umorno",
+				"zamoreno",
+			],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("cara ullerosa"),
+			keywords: &["cansament", "cara que fa ulleres", "esgotament", "son"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᎧᏛ ᏧᎵᏏᎩ ᏗᎦᏙᎵ"),
+			keywords: &["ᎤᎧᏛ ᏧᎵᏏᎩ ᏗᎦᏙᎵ", "ᎦᎸᏍᎦ", "ᏓᎩᏯᏪᎦ", "ᏙᏳ ᏓᎩᏯᏪᎦ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("obličej s kruhy pod očima"),
+			keywords: &[
+				"kruhy",
+				"obličej",
+				"ospalost",
+				"oči",
+				"pozdě",
+				"vyčerpanost",
+				"váčky",
+				"znuděnost",
+				"únava",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("wyneb gyda bagiau dan y llygaid"),
+			keywords: &["cysglyd", "wedi blino", "wedi ymlâdd", "wyneb gyda bagiau dan y llygaid"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ansigt med poser under øjnene"),
+			keywords: &["ansigt med poser under øjnene", "søvnig", "træt", "udmattet"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Gesicht mit Augenringen"),
+			keywords: &["Augenringe", "Gesicht", "Smiley", "erschöpft", "müde", "schläfrig", "übermüdet"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Gesicht mit Augenringen"),
+			keywords: &["↑↑↑"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("πρόσωπο με σακούλες κάτω από τα μάτια"),
+			keywords: &[
+				"εξαντλημένος",
+				"κουρασμένος",
+				"νυσταγμένος",
+				"πρόσωπο με σακούλες κάτω από τα μάτια",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("face with bags under eyes"),
+			keywords: &[
+				"bags",
+				"bored",
+				"exhausted",
+				"eyes",
+				"face",
+				"fatigued",
+				"late",
+				"sleepy",
+				"tired",
+				"weary",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("cara con ojeras"),
+			keywords: &[
+				"agotado",
+				"agotamiento",
+				"cansado",
+				"cansancio",
+				"cara",
+				"extenuación",
+				"extenuado",
+				"ojeras",
+				"ojos",
+				"sueño",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("cara con ojeras"),
+			keywords: &[
+				"agotamiento",
+				"cansado",
+				"cansancio",
+				"cara",
+				"cara cansada",
+				"cara con ojeras",
+				"dormí mal",
+				"falta de sueño",
+				"no dormí",
+				"sueño",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("cara con ojeras"),
+			keywords: &["agotado", "cansado", "cara con bolsas bajo los ojos", "somnoliento"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["cansancio", "exhausto", "sueño"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("nägu kottidega silmade all"),
+			keywords: &[
+				"hilja",
+				"igav",
+				"kotid",
+				"kurnatud",
+				"nägu",
+				"silmad",
+				"tüdinud",
+				"tülpinud",
+				"unine",
+				"väsinud",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("begien azpian poltsak dituen aurpegia"),
+			keywords: &[
+				"begien azpian poltsak dituen aurpegia",
+				"leher eginda",
+				"lehertuta",
+				"logalea",
+				"logura",
+				"nekatuta",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("چهره با چشمان پف\u{200c}آلود"),
+			keywords: &["بی\u{200c}رمق", "خسته", "خواب\u{200c}آلود", "چهره با چشمان پف\u{200c}کرده"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("silmäpussit"),
+			keywords: &["pussit silmien alla", "uninen", "uupunut", "väsynyt"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("mukha na nangangalumata"),
+			keywords: &["inaantok", "mukhang nangangalumata", "pagod", "pagod na pagod"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("andlit við posum undir eygunum"),
+			keywords: &[
+				"andlit við posum undir eygunum",
+				"móð",
+				"móður",
+				"sovna",
+				"troytt",
+				"troytt andlit",
+				"troyttur",
+			],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("visage avec des valises sous les yeux"),
+			keywords: &[
+				"ensommeilé",
+				"fatigué",
+				"sommeil",
+				"visage avec des valises sous les yeux",
+				"épuisé",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("visage avec des cernes sous les yeux"),
+			keywords: &[
+				"cernes",
+				"endormi",
+				"fatigué",
+				"las",
+				"poches",
+				"somnolent",
+				"tard",
+				"valises",
+				"yeux",
+				"épuisé",
+			],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("aghaidh le sprochaillí faoi na súile"),
+			keywords: &["codlatach", "traochta", "tuirseach"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("aodann le buaile mu shùilean"),
+			keywords: &[
+				"buaile",
+				"claoidh",
+				"claoidhte",
+				"leigeadh roimhe",
+				"sùil",
+				"teirbheirt",
+				"toirbheart",
+				"toirt thairis",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("cara con olleiras"),
+			keywords: &["aburrimento", "cansazo", "olleiras", "ollos", "sono", "tarde"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("આ\u{a82}ખોની નીચ\u{ac7} બ\u{ac7}ગવાળો ચહ\u{ac7}રો"),
+			keywords: &[
+				"ઊ\u{a82}ઘ",
+				"થાક",
+				"થાક\u{ac7}લો ચહ\u{ac7}રો",
+				"નિ\u{a82}દ\u{acd}રાધીન ચહ\u{ac7}રો",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("fuska mai kumburi a ƙasan ido"),
+			keywords: &["fuska", "gajiya", "idanuwa", "jakunkuna", "mai jin barci", "makara"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("fuska mai kumburi a ƙasan ido"),
+			keywords: &["fuska", "gajiya", "idanuwa", "jakunkuna", "mai jin barci", "makara"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("פרצוף עם שקיות מתחת לעיניים"),
+			keywords: &["ישנוני", "עייף", "פרצוף", "שקיות", "תשוש"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("आ\u{901}खो\u{902} क\u{947} नीच\u{947} स\u{942}जन वाला च\u{947}हरा"),
+			keywords: &[
+				"आ\u{901}ख\u{947}\u{902}",
+				"ऊबा ह\u{941}आ",
+				"च\u{947}हरा",
+				"थक क\u{947} च\u{942}र ह\u{941}आ",
+				"थका ह\u{941}आ",
+				"द\u{947}र होना",
+				"नी\u{902}द",
+				"ब\u{948}ग",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("lice s podočnjacima"),
+			keywords: &["iscrpljenost", "lice s podočnjacima", "pospano", "umorno"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("arc táskás szemekkel"),
+			keywords: &[
+				"arc",
+				"elnyűtt",
+				"fáradt",
+				"kifáradt",
+				"kimerült",
+				"késő",
+				"szemek",
+				"táskás",
+				"unatkozik",
+				"álmos",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("աչքերի տակ պարկերով դեմք"),
+			keywords: &["աչքերի տակ պարկերով դեմք", "հոգնած", "ուժասպառ", "քնկոտ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("wajah dengan kantung mata"),
+			keywords: &["habis energi", "lelah", "ngantuk", "payah", "penat"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ihu nwere anya ụra"),
+			keywords: &["anya ụra", "ike gwụrụ", "ike ọgwụgwụ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("andlit með poka undir augum"),
+			keywords: &["andlit með poka undir augum", "syfjaður", "örþreyttur", "úrvinda", "þreyttur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("faccina con borse sotto gli occhi"),
+			keywords: &[
+				"assonnato",
+				"borse",
+				"esausto",
+				"occhiaie",
+				"sfinito",
+				"sonno",
+				"stanchezza",
+				"stanco",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("目にクマがある顔"),
+			keywords: &["クマ", "徹夜", "疲れた", "眠い", "顔"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("mata pendul"),
+			keywords: &["kesel", "ngantuk", "sayah"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სახე დასიებული თვალებით"),
+			keywords: &[
+				"გადაღლა",
+				"გვიანი",
+				"დაბერებული",
+				"დაქანცული",
+				"დაღლილი",
+				"თვალები",
+				"მობეზრებული",
+				"სახე",
+				"უძინარი",
+				"შეშუპება",
+			],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("udem s tcullaḍ ddaw wallen"),
+			keywords: &["udem s tcullaḍ ddaw wallen"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("көзі ісіп тұр"),
+			keywords: &["көзі ісіп тұр", "шаршау", "ұйқы"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17bb}ខមានថ\u{17d2}នក\u{17cb}ខ\u{17d2}មៅក\u{17d2}រោមភ\u{17d2}នែក"),
+			keywords: &[
+				"គ\u{17d2}មានកម\u{17d2}លា\u{17c6}ង",
+				"ងង\u{17bb}យគេង",
+				"ថ\u{17d2}នក\u{17cb}ភ\u{17d2}នែក",
+				"ធ\u{17bb}ញ",
+				"នឿយហត\u{17cb}",
+				"ភ\u{17d2}នែក",
+				"ម\u{17bb}ខ",
+				"យប\u{17cb}ជ\u{17d2}រៅ",
+				"ល\u{17d2}ហ\u{17b7}តល\u{17d2}ហៃ",
+				"អស\u{17cb}កម\u{17d2}លា\u{17c6}ង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ನ\u{cbf}ದ\u{ccd}ದ\u{cc6}ಗಣ\u{ccd}ಣ\u{cbf}ನ ಮುಖ"),
+			keywords: &[
+				"ಆಯಾಸ",
+				"ಕಣ\u{ccd}ಣುಗಳು",
+				"ತಡ",
+				"ದಣ\u{cbf}ವು",
+				"ನ\u{cbf}ದ\u{ccd}ರ\u{cc6}",
+				"ಬಳಲ\u{cbf}ಕ\u{cc6}",
+				"ಬ\u{cc7}ಜಾರು",
+				"ಬ\u{cc7}ಸರ",
+				"ಮುಖ",
+				"ಸುಸ\u{ccd}ತು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("다크서클이 있는 얼굴"),
+			keywords: &[
+				"눈",
+				"늦은",
+				"다크서클",
+				"부종",
+				"얼굴",
+				"졸린",
+				"지루한",
+				"지친",
+				"피곤한",
+				"피로한",
+				"힘든",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("दोळ\u{94d}या\u{902} सकयल स\u{941}रक\u{941}त\u{94d}यो आसपी च\u{947}रो"),
+			keywords: &[
+				"उशीर",
+				"च\u{947}रो",
+				"झ\u{947}मपी",
+				"थकावट",
+				"थकिल\u{94d}ल\u{947}",
+				"थकिल\u{94d}लो",
+				"दोळ\u{947}",
+				"प\u{941}रो जाल\u{94d}लो",
+				"ब\u{947}जारिल\u{94d}लो",
+				"स\u{941}रक\u{941}त\u{94d}यो",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("көздөрүнүн асты шишип калган бет"),
+			keywords: &[
+				"бет",
+				"жадаган",
+				"зериккен",
+				"кеч",
+				"көздөр",
+				"уйкусураган",
+				"чарчаган",
+				"шишик",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໜ\u{ec9}າຕາບວມ"),
+			keywords: &["ເມ\u{eb7}\u{ec8}ອຍ", "ເຫງ\u{ebb}ານອນ", "ໜ\u{ec9}າ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("veidas su maišeliais po akimis"),
+			keywords: &["išsekęs", "mieguistas", "pavargęs", "veidas su maišeliais po akimis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("seja ar maisiņiem zem acīm"),
+			keywords: &["maisiņi zem acīm", "miegains", "noguris", "pārgurums"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("лице со подочници"),
+			keywords: &["исцрпено", "поспано", "уморно"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("കൺതടത\u{d4d}തിൽ വീക\u{d4d}കമ\u{d41}ള\u{d4d}ള മ\u{d41}ഖം"),
+			keywords: &[
+				"ഉറക\u{d4d}കക\u{d4d}ഷീണം",
+				"കൺതട വീക\u{d4d}കം",
+				"കൺതടം വീങ\u{d4d}ങിയ",
+				"കൺതടങ\u{d4d}ങളിൽ വീക\u{d4d}കമ\u{d41}ള\u{d4d}ള മ\u{d41}ഖം",
+				"കൺതടത\u{d4d}തിൽ വീക\u{d4d}കം",
+				"തളർന\u{d4d}ന മ\u{d41}ഖം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("доогуураа хөхөрсөн нүдтэй царай"),
+			keywords: &["нойрмог", "нүд", "уйдсан", "хоцорсон", "хөхөрсөн", "царай", "ядарсан"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("डोळ\u{94d}या\u{902}खाली काळी वर\u{94d}त\u{941}ळ\u{947} असणारा च\u{947}हरा"),
+			keywords: &[
+				"डोळ\u{94d}या\u{902}खाली काळी वर\u{94d}त\u{941}ळ\u{947} असणारा च\u{947}हरा",
+				"थकल\u{947}ला",
+				"दमल\u{947}ला",
+				"प\u{947}\u{902}ग\u{941}ळल\u{947}ला",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("muka dengan lingkaran gelap bawah mata"),
+			keywords: &["kantuk", "letih", "mula dengan lingkaran gelap bawah mata", "penat"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some(
+				"အောက\u{103a}မျက\u{103a}ခ\u{103d}\u{1036} မ\u{102d}\u{102f}\u{1037}နေသော မျက\u{103a}န\u{103e}ာ",
+			),
+			keywords: &[
+				"ပင\u{103a}ပန\u{103a}း",
+				"အားက\u{102f}န\u{103a}နေသော",
+				"အ\u{102d}ပ\u{103a}ချင\u{103a}",
+				"အောက\u{103a}မျက\u{103a}ခ\u{103d}\u{1036} မ\u{102d}\u{102f}\u{1037}နေသော မျက\u{103a}န\u{103e}ာ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("आ\u{901}खाको तल पोकोसहितको अन\u{941}हार"),
+			keywords: &[
+				"अन\u{941}हार",
+				"अब\u{947}ला",
+				"आ\u{901}खा",
+				"थकित",
+				"थकित भएको",
+				"थाक\u{947}को",
+				"दिक\u{94d}क लाग\u{947}को",
+				"निद\u{94d}रा लाग\u{947}को",
+				"पोका",
+				"स\u{941}स\u{94d}त",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("gezicht met wallen onder de ogen"),
+			keywords: &["gezicht met wallen onder de ogen", "moe", "slaperig", "uitgeput"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("fjes med posar under auga"),
+			keywords: &["fjes med posar under auga", "sliten", "søvnig", "trøytt", "utsliten"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some(
+				"ଆଖ\u{b3f} ତଳେ ବ\u{200d}\u{b4d}ୟ\u{b3e}ଗ\u{b4d} ଥ\u{b3f}ବ\u{b3e} ମ\u{b41}ହ\u{b01}",
+			),
+			keywords: &[
+				"ଅବସନ\u{b4d}ନ",
+				"ଆଖ\u{b3f} ତଳେ ବ\u{200d}\u{b4d}ୟ\u{b3e}ଗ\u{b4d} ଥ\u{b3f}ବ\u{b3e} ମ\u{b41}ହ\u{b01}",
+				"କ\u{b4d}ଳ\u{b3e}ନ\u{b4d}ତ",
+				"ନ\u{b3f}ଦ\u{b41}ଆ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸ\u{a41}ਜੀਆ\u{a02} ਅ\u{a71}ਖਾ\u{a02} ਵਾਲਾ ਚਿਹਰਾ"),
+			keywords: &[
+				"ਥਕਾਨ",
+				"ਥ\u{a71}ਕਿਆ",
+				"ਨੀ\u{a02}ਦਰਾ",
+				"ਸ\u{a41}ਜੀਆ\u{a02} ਅ\u{a71}ਖਾ\u{a02} ਵਾਲਾ ਚਿਹਰਾ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("fes wé gẹ\u{301}t bíg bag under ai"),
+			keywords: &["ai", "bag", "fes", "slip", "táyá"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("twarz z workami pod oczami"),
+			keywords: &["podkrążone oczy", "senność", "worki pod oczami", "zmęczenie"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د سترګو لاندې کڅوړې سره مخ"),
+			keywords: &["سترګې", "ستړی", "ستړی شوی", "مخ", "ناوخته", "ویده", "کڅوړې"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("rosto com olheiras"),
+			keywords: &[
+				"cansada",
+				"cansado",
+				"cansaço",
+				"dorminhoco",
+				"exausta",
+				"exausto",
+				"olheiras",
+				"rosto com bolsas embaixo dos olhos",
+				"rosto com olheiras",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("cara com olheiras"),
+			keywords: &[
+				"cansada",
+				"cansado",
+				"cansaço",
+				"dorminhoca",
+				"dorminhoco",
+				"exausta",
+				"exausto",
+				"olheiras",
+				"olhos",
+				"tarde",
+			],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("față cu cearcăne"),
+			keywords: &[
+				"adormit",
+				"epuizare",
+				"epuizat",
+				"extenuare",
+				"extenuat",
+				"față cu pungi sub ochi",
+				"oboseală",
+				"obosit",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E16-007"), keywords: &["E16-007"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("лицо с мешками под глазами"),
+			keywords: &[
+				"без",
+				"глазами",
+				"истощение",
+				"мешки",
+				"под",
+				"сил",
+				"скучно",
+				"сон",
+				"спать",
+				"устал",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اکيون سڄل وارو منهن"),
+			keywords: &[
+				"اکيون",
+				"بور ٿيل",
+				"دير سان",
+				"سوڄ",
+				"منهن",
+				"ننڊاکو",
+				"ٿڪ وارو",
+				"ٿڪاوٽ سان ڀرپور",
+				"ٿڪل",
+			],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ඇස\u{dca} යට බෑග\u{dca} සහ\u{dd2}ත ම\u{dd4}හ\u{dd4}ණ"),
+			keywords: &[
+				"ඇස\u{dca}",
+				"කම\u{dca}මැල\u{dd2}",
+				"න\u{dd2}ද\u{dd2}මත",
+				"ප\u{dca}\u{200d}රම\u{dcf}ද",
+				"බෑග\u{dca}",
+				"මහන\u{dca}ස\u{dd2}",
+				"ම\u{dd4}හ\u{dd4}ණ",
+				"වෙහෙස ව\u{dd6}",
+				"වෙහෙසට පත\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("tvár s kruhmi pod očami"),
+			keywords: &["ospalý", "tvár s kruhmi pod očami", "unavený", "vyčerpaný"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("obraz s podočnjaki"),
+			keywords: &["izčrpanost", "obraz s podočnjaki", "utrujenost", "zaspanost"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("weji ay baagag uga hoos yaalan indhaha"),
+			keywords: &[
+				"baagag",
+				"caajisan",
+				"daahsan",
+				"daalay",
+				"daallan",
+				"hurdeysan",
+				"indho",
+				"waji",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("fytyrë me qeska poshtë syve"),
+			keywords: &["fytyrë", "qeska", "sy", "të lodhur", "të përgjumur", "vonë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("лице са подочњацима"),
+			keywords: &["забринуто", "исцрпљено", "касно", "лице", "подочњаци", "поспано", "уморно"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("lice sa podočnjacima"),
+			keywords: &["iscrpljeno", "kasno", "lice", "podočnjaci", "pospano", "umorno", "zabrinuto"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("ansikte med påsar under ögonen"),
+			keywords: &["ansikte", "rödögd", "sent", "sömnig", "trött", "utmattad"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("uso wenye macho yaliyovimba"),
+			keywords: &["kuchoka", "uchovu", "usingizi", "uso wenye macho yaliyovimba"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("உறக\u{bcd}கமற\u{bcd}ற முகம\u{bcd}"),
+			keywords: &[
+				"உறக\u{bcd}கமற\u{bcd}ற முகம\u{bcd}",
+				"சோர\u{bcd}ந\u{bcd}த",
+				"தளர\u{bcd}ந\u{bcd}த",
+				"தூங\u{bcd}குமூஞ\u{bcd}சி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("కళ\u{c4d}ల క\u{c3f}ంద వలయ\u{c3e}లు గల ముఖం"),
+			keywords: &[
+				"అలస\u{c3f}ప\u{c4b}య\u{c3f}న",
+				"కళ\u{c4d}ల క\u{c3f}ంద వలయ\u{c3e}లు గల ముఖం",
+				"త\u{c40}వ\u{c4d}ర అలసట",
+				"న\u{c3f}ద\u{c4d}ర ముంచుక\u{c4a}స\u{c4d}తున\u{c4d}న",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ถ\u{e38}งใต\u{e49}ตาบวม"),
+			keywords: &[
+				"ก\u{e31}งวล",
+				"ง\u{e48}วง",
+				"ด\u{e36}ก",
+				"ถ\u{e38}งใต\u{e49}ตาบวม",
+				"หน\u{e49}า",
+				"หมดแรง",
+				"เบ\u{e37}\u{e48}อ",
+				"เหน\u{e37}\u{e48}อย",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ኣብ ትሕቲ ዓይኒ ቦርሳ ዘለዎ ገጽ"),
+			keywords: &["ረፋድ", "ቦርሳታት", "ኣሰልቺዩዎ", "ዓይኒ", "ደኺሙ", "ድቃስ ዝኸልእ", "ገጽ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gözüniň aşagy halkaly ýüz"),
+			keywords: &[
+				"gözüň aşagy halkaly ýüz",
+				"lüti süýnen",
+				"uky bar",
+				"ysgynsyz",
+				"ýadaw",
+				"ýatasy gelýär",
+			],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("gözlerinin altı torbalı yüz"),
+			keywords: &["gözlerinin altı torbalı yüz", "tükenmiş", "uykulu", "yorgun"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("невиспане обличчя"),
+			keywords: &[
+				"виснаження",
+				"замореність",
+				"мішки",
+				"нудьга",
+				"обличчя",
+				"очі",
+				"пізно",
+				"сонливість",
+				"утома",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("آنکھوں کے گرد حلقوں والا چہرہ"),
+			keywords: &["آنکھوں کے گرد حلقوں والا چہرہ", "تھکا ماندہ", "تھکن زدہ", "نیم خواب"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("ko‘zlar tagi shishgan yuz"),
+			keywords: &[
+				"charchagan",
+				"holdan toygan",
+				"horg‘in",
+				"ko‘zlar tagi shishgan yuz",
+				"uyqisiragan",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("mặt có túi mắt"),
+			keywords: &["buồn ngủ", "kiệt sức", "mặt có túi mắt", "mệt mỏi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ojú pẹ\u{300}lú ìsàlẹ\u{300} ojú tó wú"),
+			keywords: &[
+				"ojú pẹ\u{300}lú ìsàlẹ\u{300} ojú tó wú",
+				"rírẹ\u{300} tọwọ\u{301} tẹsẹ\u{300}",
+				"rẹ\u{300}",
+				"tòògbé",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ojú pɛ\u{300}lú ìsàlɛ\u{300} ojú tó wú"),
+			keywords: &[
+				"ojú pɛ\u{300}lú ìsàlɛ\u{300} ojú tó wú",
+				"rírɛ\u{300} tɔwɔ\u{301} tɛsɛ\u{300}",
+				"rɛ\u{300}",
+				"tòògbé",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("有眼袋嘅臉"),
+			keywords: &["冇精神", "好攰", "悶", "散哂", "眼", "眼瞓", "眼袋", "臉", "面"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("有眼袋嘅脸"),
+			keywords: &["冇精神", "好攰", "散哂", "眼", "眼瞓", "眼袋", "脸", "闷", "面"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("有眼袋"),
+			keywords: &["厌倦", "困倦", "晚睡", "熬夜", "疲倦", "疲劳", "疲惫", "眼", "眼袋", "脸"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("臉上有眼袋"),
+			keywords: &["疲勞的", "睏了", "筋疲力盡", "臉上有眼袋"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("Ubuso obunezigobhe"),
+			keywords: &[
+				"bags",
+				"bored",
+				"exhausted",
+				"eyes",
+				"face",
+				"fatigued",
+				"late",
+				"sleepy",
+				"tired",
+				"weary",
+			],
+		},
+	],
+};
 #[doc = "😌"]
 pub const RELIEVED_FACE: crate::Emoji = crate::Emoji {
 	glyph:                "😌",
@@ -2073,955 +3136,6 @@ pub const PENSIVE_FACE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("ubuso obuphoxiwe"),
 			keywords: &["ubuso", "ubuso obuphoxiwe", "ukuphoxwa"],
-		},
-	],
-};
-#[doc = "😪"]
-pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "😪",
-	codepoint:            &[128554u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "sleepy face",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::FaceSleepy,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("vaak gesig"),
-			keywords: &[
-				"gesig",
-				"hartseer",
-				"huilend",
-				"moeg",
-				"slaap",
-				"slapend",
-				"slaperige gesig",
-				"vaak gesig",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("እንቅልፉ የመጣ ፊት"),
-			keywords: &["አልቃሽ", "እንቅልፉ የመጣ ፊት", "እንቅልፍ", "ፊት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("وجه ناعس"),
-			keywords: &[
-				"أبكي",
-				"بكاء",
-				"بكي",
-				"تبكي",
-				"تعبان",
-				"حزين",
-				"دمعة",
-				"دموع",
-				"متعب",
-				"ناعس",
-				"نعس",
-				"نعسان",
-				"وجه",
-				"يبكي",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("নিদ\u{9cd}ৰ\u{9be}ল\u{9c1} ম\u{9c1}খ"),
-			keywords: &["নিদ\u{9cd}ৰ\u{9be}", "নিদ\u{9cd}ৰ\u{9be}ল\u{9c1} ম\u{9c1}খ", "ম\u{9c1}খ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("yuxulu üz"),
-			keywords: &["kədərli üz", "qəmgin üz", "yatmaq", "yorğun üz", "yuxulu üz", "üz"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("сонны твар"),
-			keywords: &["санлівасць", "сон", "сонны твар"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("Сънено лице"),
-			keywords: &["изморен", "лице", "плачещ", "сън", "сънено лице", "тъжен"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ঘ\u{9c1}ম ঘ\u{9c1}ম ভ\u{9be}ব"),
-			keywords: &[
-				"ক\u{9cd}ল\u{9be}ন\u{9cd}ত",
-				"ঘ\u{9c1}ম ঘ\u{9c1}ম ভ\u{9be}ব",
-				"ঘ\u{9c1}মন\u{9cd}ত অবস\u{9cd}থ\u{9be}",
-				"ম\u{9c1}খ",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("pospanost"),
-			keywords: &["lice", "pospanost", "umor"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("cara de son"),
-			keywords: &[
-				"cansada",
-				"cansat",
-				"cara",
-				"cara de son",
-				"dormint",
-				"dormir",
-				"plorant",
-				"son",
-				"trist",
-				"trista",
-			],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄊\u{1112a}𑄟\u{11134} 𑄡𑄬𑄠𑄬 𑄟\u{1112a}"),
-			keywords: &["𑄊\u{1112a}𑄟\u{11134} 𑄡𑄬𑄠𑄬 𑄟\u{1112a}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏢᏍᎩ ᎤᎧᏛ"),
-			keywords: &["ᎤᎧᏛ", "ᎦᏟ", "ᎦᏢᏍᎩ ᎤᎧᏛ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("ospalý obličej"),
-			keywords: &[
-				"brečet",
-				"nachlazený",
-				"obličej",
-				"ospalý obličej",
-				"ospalý výraz",
-				"plakat",
-				"rozespalý",
-				"smajlík",
-				"smutný",
-				"spánek",
-				"tvář",
-				"unavený",
-				"uplakaný",
-				"výraz",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("wyneb cysglyd"),
-			keywords: &["cysgu", "wyneb", "wyneb cysglyd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("søvnigt ansigt"),
-			keywords: &["ansigt", "dyb søvn", "græder", "ked af det", "søvnigt ansigt", "træt"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("schläfriges Gesicht"),
-			keywords: &["Gesicht", "Nacht", "Smiley", "gute", "müde", "schläfrig", "traurig"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("νυσταγμένο πρόσωπο"),
-			keywords: &[
-				"κλαίω",
-				"κοιμάμαι",
-				"κουρασμένος",
-				"λυπημένος",
-				"νυσταγμένο πρόσωπο",
-				"πρόσωπο",
-				"ύπνος",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("sleepy face"),
-			keywords: &["crying", "face", "good", "night", "sad", "sleep", "sleeping", "sleepy", "tired"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("cara de sueño"),
-			keywords: &["cara", "cara de sueño", "dormir", "sueño"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"cara",
-				"cara de sueño",
-				"cara somnolienta",
-				"gota",
-				"mocos",
-				"resfriado",
-				"somnoliento",
-				"sueño",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("unine nägu"),
-			keywords: &["head", "kurb", "magamine", "nuttev", "nägu", "uni", "unine", "väsinud", "ööd"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("logura-aurpegia"),
-			keywords: &["aurpegi", "lo", "logura", "logura-aurpegia"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("خواب\u{200c}آلود"),
-			keywords: &["خواب", "خواب\u{200c}آلود", "صورت"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("unelias"),
-			keywords: &["naama", "unelias", "uni"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("inaantok na mukha"),
-			keywords: &["humihilik", "inaantok", "inaantok na mukha", "mukha", "natutulog", "tulog"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("lint andlit"),
-			keywords: &["andlit", "grætur", "lint"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("visage endormi"),
-			keywords: &[
-				"fatigué",
-				"larme",
-				"pleurer",
-				"sommeil",
-				"triste",
-				"visage",
-				"visage endormi",
-				"émoticône",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["endormi", "sommeil", "visage"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("straoiseog chodlatach"),
-			keywords: &[
-				"aghaidh",
-				"brónach",
-				"caoineadh",
-				"codladh",
-				"straoiseog chodlatach",
-				"tuirseach",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("aodann cadalach"),
-			keywords: &["aodann", "aodann cadalach", "cadal"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("cara de sono"),
-			keywords: &["cara", "cara de sono", "sono"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ઊ\u{a82}ઘતો ચહ\u{ac7}રો"),
-			keywords: &[
-				"ઊ\u{a82}ઘત\u{ac1}\u{a82}",
-				"ઊ\u{a82}ઘતો ચહ\u{ac7}રો",
-				"ચહ\u{ac7}રો",
-				"થાક\u{ac7}લ",
-				"રડતો ચહ\u{ac7}રો",
-				"સ\u{ac2}ત\u{ac7}લ\u{ac1}\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("fuska mai jin barci"),
-			keywords: &["barci", "fuska", "fuska mai jin barci", "gajiya", "jin bacci", "kuka"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("fuska mai jin barci"),
-			keywords: &["barci", "fuska", "fuska mai jin barci", "gajiya", "jin bacci", "kuka"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("פרצוף ישנוני"),
-			keywords: &["בוכה", "ישנוני", "מנוזל", "מצונן", "עצוב", "פרצוף"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("उनी\u{902}दा च\u{947}हरा"),
-			keywords: &[
-				"उदास",
-				"उनी\u{902}दा",
-				"च\u{947}हरा",
-				"थका ह\u{941}आ",
-				"नी\u{902}द",
-				"नी\u{902}द भरा च\u{947}हरा",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("pospano lice"),
-			keywords: &[
-				"laku noć",
-				"lice",
-				"plakanje",
-				"pospano lice",
-				"smajlić",
-				"spavanje",
-				"tužno",
-				"umorno",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("álmos arc"),
-			keywords: &["arc", "fáradt", "szmájli", "szomorú", "sír", "álmos", "ásít"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("քնատ դեմք"),
-			keywords: &["դեմք", "քնատ դեմք", "քնել"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("wajah mengantuk"),
-			keywords: &["lelah", "menangis", "muka", "ngantuk", "tidur", "wajah", "wajah mengantuk"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ihu anya ụra"),
-			keywords: &[
-				"abalị",
-				"akwa",
-				"dị mma",
-				"ihu",
-				"ike gwụrụ",
-				"mwute",
-				"na-ehi ụra",
-				"ura",
-				"ụra",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("syfjað andlit"),
-			keywords: &["andlit", "syfja", "syfjað andlit"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("faccina assonnata"),
-			keywords: &[
-				"assonnato",
-				"dormire",
-				"faccina",
-				"faccina assonnata",
-				"goccia",
-				"sonno",
-				"stanco",
-				"zzz",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("眠い"),
-			keywords: &["寝る", "疲れた", "眠い", "眠そうな顔", "眠っている顔", "眠る", "顔"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("rai ngantuk"),
-			keywords: &["ngantuk", "rai", "turu"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ძილმორეული სახე"),
-			keywords: &["სახე", "ძილი", "ძილმორეული სახე"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("udem yeṭṭsen"),
-			keywords: &["udem yeṭṭsen"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ұйқы басу"),
-			keywords: &["бет", "тұнжырау", "ұйқы", "ұйқы басу"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("dyb søvn"),
-			keywords: &["ansigt", "dyb søvn", "træt"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17bb}ខងង\u{17bb}យដេក"),
-			keywords: &["ងង\u{17bb}យ", "ដេក", "ម\u{17bb}ខងង\u{17bb}យដេក"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ನ\u{cbf}ದ\u{ccd}ದ\u{cc6} ಮುಖ"),
-			keywords: &[
-				"ಅಳುವುದು",
-				"ಆಯಾಸ",
-				"ಕಣ\u{ccd}ಣ\u{cc0}ರು",
-				"ದುಃಖ\u{cbf}ತ",
-				"ನ\u{cbf}ದ\u{ccd}ದ\u{cc6} ಮುಖ",
-				"ನ\u{cbf}ದ\u{ccd}ರಾ ಮುಖ",
-				"ನ\u{cbf}ದ\u{ccd}ರ\u{cc6}",
-				"ಬ\u{cc7}ಜಾರು",
-				"ಮುಖ",
-				"ಸುಸ\u{ccd}ತಾದ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("졸린 얼굴"),
-			keywords: &["슬픈", "얼굴", "잠", "졸린 얼굴", "졸림", "피곤한"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("न\u{94d}हिद आयिल\u{94d}लो च\u{947}रो"),
-			keywords: &[
-				"च\u{947}रो",
-				"न\u{94d}हिदपी च\u{947}रो",
-				"न\u{94d}हीद",
-				"न\u{94d}हीदपी च\u{947}रो",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("уйкусу келген бет"),
-			keywords: &["бет", "уйку", "уйкусу келген бет"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("schléifreg"),
-			keywords: &["Gesiicht", "Schlof", "schléifreg"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໜ\u{ec9}າເງ\u{ebb}ານອນ"),
-			keywords: &["ຫ\u{ebc}\u{eb1}ບ", "ເງ\u{ebb}ານອນ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າເງ\u{ebb}ານອນ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("mieguistas veidas"),
-			keywords: &["liūdnas", "miegas", "mieguistas veidas", "pavargęs", "veidas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("miegaina seja"),
-			keywords: &["gulēt", "miegaina seja", "miegs", "nogurums", "raudāt", "seja"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kanohi hiamoe"),
-			keywords: &["kanohi", "kanohi hiamoe", "moe"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("поспано лице"),
-			keywords: &[
-				"лице",
-				"мрсулав",
-				"плаче",
-				"поспано лице",
-				"спанко",
-				"спиење",
-				"тажно",
-				"уморно",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങ\u{d41}ന\u{d4d}ന മ\u{d41}ഖം"),
-			keywords: &[
-				"ഉറക\u{d4d}കം",
-				"ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങിയ മ\u{d41}ഖം",
-				"ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങ\u{d41}ന\u{d4d}ന മ\u{d41}ഖം",
-				"മ\u{d41}ഖം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("нойрмоглож буй царай"),
-			keywords: &["нойрмоглож буй царай", "нойрмоглох", "царай"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("झोप य\u{947}त असल\u{947}ला च\u{947}हरा"),
-			keywords: &[
-				"च\u{947}हरा",
-				"झोप",
-				"झोप य\u{947}त असल\u{947}ला च\u{947}हरा",
-				"झोप\u{947}त असल\u{947}ला",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("muka mengantuk"),
-			keywords: &["letih", "menangis", "muka", "muka mengantuk", "sedih", "tidur"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("wiċċ bi ngħas"),
-			keywords: &["rieqed", "wiċċ", "wiċċ bi ngħas"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some(
-				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}သည\u{1037}\u{103a}မျက\u{103a}န\u{103e}ာ",
-			),
-			keywords: &[
-				"မျက\u{103a}န\u{103e}ာ",
-				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}",
-				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}သည\u{1037}\u{103a}မျက\u{103a}န\u{103e}ာ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("निद\u{94d}राल\u{941} अन\u{941}हार"),
-			keywords: &["अन\u{941}हार", "निद\u{94d}राल\u{941} अन\u{941}हार", "स\u{941}त\u{947}को"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("slaperig gezicht"),
-			keywords: &["gezicht", "huilen", "slaap", "slaperig gezicht", "smiley", "traan"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ନ\u{b3f}ଦ\u{b4d}ର\u{b3e}ଳ\u{b41} ମ\u{b41}ହ\u{b01}"),
-			keywords: &[
-				"ନ\u{b3f}ଦ\u{b41}ଆ",
-				"ନ\u{b3f}ଦ\u{b4d}ର\u{b3e}ଳ\u{b41} ମ\u{b41}ହ\u{b01}",
-				"ମ\u{b41}ହ\u{b01}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਨੀ\u{a02}ਦਰਾ ਚਿਹਰਾ"),
-			keywords: &["ਉਦਾਸ", "ਚਿਹਰਾ", "ਥ\u{a71}ਕਿਆ", "ਨੀ\u{a02}ਦ", "ਨੀ\u{a02}ਦਰਾ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("س\u{64f}تی شکل"),
-			keywords: &["دی شکل", "سونا", "س\u{64f}تی شکل"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fes Wé Slip De Kach"),
-			keywords: &["Fes", "Fes Wé Slip De Kach", "Slip"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("senna twarz"),
-			keywords: &["buźka", "sen", "senna twarz", "senność", "spać", "śpiąca buźka"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("خوبيولى مخ"),
-			keywords: &["خوب", "خوبيولى مخ", "مخ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("rosto sonolento"),
-			keywords: &["cara de sono", "rosto", "rosto com sono", "rosto sonolento"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("cara sonolenta"),
-			keywords: &["cansado", "cara", "cara sonolenta", "chorar", "sono"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("uya puñuywan"),
-			keywords: &["puñuy", "uya", "uya puñuywan"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("față somnoroasă"),
-			keywords: &[
-				"adormit",
-				"doarme",
-				"față",
-				"față somnoroasă",
-				"obosit",
-				"plânge",
-				"plâns",
-				"plânset",
-				"somn",
-				"somnoros",
-				"trist",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-878"), keywords: &["E10-878"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("хочет спать"),
-			keywords: &["ночи", "плакать", "плач", "пора", "сон", "спать", "сплю", "спокойной", "устал"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("isura ifite ibitotsi"),
-			keywords: &["gusinzira", "isura", "isura ifite ibitotsi"],
-		},
-		#[cfg(feature = "sat")]
-		crate::Annotation {
-			lang:     "sat",
-			tts:      Some("ᱡᱟᱹᱯᱤᱫ ᱢᱚᱲᱟ"),
-			keywords: &["ᱡᱟᱹᱯᱤᱫ ᱢᱚᱲᱟ"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ننڊ وارو چهرو"),
-			keywords: &["ننڊ", "ننڊ وارو چهرو", "چهرو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("න\u{dd2}ද\u{dd2}බර ම\u{dd4}හ\u{dd4}ණ"),
-			keywords: &["න\u{dd2}ද\u{dd2}බර ම\u{dd4}හ\u{dd4}ණ", "න\u{dd2}න\u{dca}ද", "ම\u{dd4}හ\u{dd4}ණ"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("ospalá tvár"),
-			keywords: &["ospalá", "plakať", "smajlík", "smutný", "spánok", "tvár", "unavený", "únava"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("zaspan obraz"),
-			keywords: &["jok", "obraz", "spanje", "utrujen", "zaspan obraz"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("waji hurdeysan"),
-			keywords: &["hurdo", "waji", "waji hurdeysan"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("fytyrë e përgjumur"),
-			keywords: &[
-				"duke qarë",
-				"fle",
-				"fytyrë",
-				"fytyrë e përgjumur",
-				"gjumë",
-				"i lodhur",
-				"i mërzitur",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("поспано лице"),
-			keywords: &["лаку", "лице", "ноћ", "поспано", "спaвaњe", "спава", "тужно", "уморно"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("pospano lice"),
-			keywords: &["laku", "lice", "noć", "pospano", "spava", "spavanje", "tužno", "umorno"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("sömnigt ansikte"),
-			keywords: &["ansikte", "gråtande", "sömnig", "trött"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("uso unaosinzia"),
-			keywords: &["usingizi", "uso", "uso unaosinzia"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bcd}"),
-			keywords: &[
-				"அழுகை",
-				"களைப\u{bcd}பு",
-				"சோகம\u{bcd}",
-				"தூக\u{bcd}க கலக\u{bcd}கம\u{bcd}",
-				"தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bbe}ன முகம\u{bcd}",
-				"தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bcd}",
-				"தூக\u{bcd}கம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("న\u{c3f}ద\u{c4d}ర ఆవహ\u{c3f}ంచ\u{c3f}న ముఖం"),
-			keywords: &[
-				"క\u{c4d}రయ\u{c3f}ంగ\u{c4d}",
-				"ట\u{c48}ర\u{c4d}డ\u{c4d}",
-				"న\u{c3f}ద\u{c4d}ర",
-				"న\u{c3f}ద\u{c4d}ర ఆవహ\u{c3f}ంచ\u{c3f}న ముఖం",
-				"ఫ\u{c47}స\u{c4d}",
-				"ముఖం",
-				"స\u{c4d}య\u{c3e}డ\u{c4d}",
-				"స\u{c4d}ల\u{c40}ప\u{c3f} ఫ\u{c47}స\u{c4d}",
-				"స\u{c4d}ల\u{c40}ప\u{c3f}ంగ\u{c4d}",
-				"స\u{c4d}ల\u{c40}ప\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("рӯи хоболуд"),
-			keywords: &["рӯи хоболуд", "рӯй", "хоб кардан"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ง\u{e48}วง"),
-			keywords: &["ง\u{e48}วง", "หน\u{e49}า", "หล\u{e31}บ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዝታኸስ ገጽ"),
-			keywords: &["ዝታኸስ ገጽ", "ደሓን ሕደሩ", "ድቃስ", "ገጽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ukuly ýüz"),
-			keywords: &["ukuly ýüz", "uky", "ýüz"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mata fiemohea"),
-			keywords: &["fiemohea", "hafu", "mata"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("uykulu yüz"),
-			keywords: &["ağlayan yüz", "uykulu yüz", "yorgun", "yüz"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئۇيقۇ چىراي"),
-			keywords: &["ئۇخلاش", "ئۇيقۇ چىراي", "چىراي"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("заспане обличчя"),
-			keywords: &["втомлениий", "засмучений", "заспане обличчя", "обличчя", "сон"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("خوابیدہ چہرہ"),
-			keywords: &[
-				"تھکا ہوا",
-				"خوابیدہ چہرہ",
-				"دکھی",
-				"رونی صورت",
-				"غم",
-				"غمگین",
-				"غنودگی",
-				"فسردہ",
-				"نیند سے مخمور",
-				"نیند کا خمار",
-				"پریشان",
-				"چہرہ",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("uyqusiragan yuz"),
-			keywords: &["uxlash", "uyqusiragan yuz", "yuz"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("mặt buồn ngủ"),
-			keywords: &["buồn", "buồn ngủ", "khóc", "mặt", "mặt buồn ngủ"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("kanam guy nelaw"),
-			keywords: &["kanam", "kanam guy nelaw", "nelaw"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ubuso obozelayo"),
-			keywords: &["lala", "ubuso", "ubuso obozelayo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Oju Iloorun"),
-			keywords: &["Oju Iloorun", "ojú", "sùn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Oju Iloorun"),
-			keywords: &["Oju Iloorun", "ojú", "sùn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("眼訓嘅臉"),
-			keywords: &["眼訓嘅臉", "臉", "訓覺"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("眼训嘅脸"),
-			keywords: &["眼训嘅脸", "脸", "训觉"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("困"),
-			keywords: &["哭", "困", "想睡", "满脸睡容", "疲惫", "睡觉", "瞌睡", "脸"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("睏"),
-			keywords: &["打瞌睡", "掉淚", "睏", "臉", "面臉倦容"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["悶", "無聊", "疲倦", "睡眠", "睡覺", "累", "臉孔", "訓覺"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ubuso obuzelayo"),
-			keywords: &["lala", "ubuso", "ubuso obuzelayo"],
 		},
 	],
 };
@@ -5257,13 +5371,13 @@ pub const SLEEPING_FACE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🫩"]
-pub const FACE_WITH_BAGS_UNDER_EYES: crate::Emoji = crate::Emoji {
-	glyph:                "🫩",
-	codepoint:            &[129769u32],
+#[doc = "😪"]
+pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "😪",
+	codepoint:            &[128554u32],
 	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
-	name:                 "face with bags under eyes",
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "sleepy face",
 	group:                crate::Group::SmileysEmotion,
 	subgroup:             crate::Subgroup::FaceSleepy,
 	is_variant:           false,
@@ -5272,177 +5386,175 @@ pub const FACE_WITH_BAGS_UNDER_EYES: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "af")]
 		crate::Annotation {
 			lang:     "af",
-			tts:      Some("gesig met sakke onder oë"),
-			keywords: &["gesig met sakke onder oë", "moeg", "slaperig", "uitgeput"],
+			tts:      Some("vaak gesig"),
+			keywords: &[
+				"gesig",
+				"hartseer",
+				"huilend",
+				"moeg",
+				"slaap",
+				"slapend",
+				"slaperige gesig",
+				"vaak gesig",
+			],
 		},
 		#[cfg(feature = "am")]
 		crate::Annotation {
 			lang:     "am",
-			tts:      Some("ከዓይኖች በታች ከረጢቶች ጋር ፊት"),
-			keywords: &["ረፍዷል", "ቦርሳዎች", "አሰልቺ", "አይኖች", "እንቅልፋም", "ደክሞ", "ደክሞኛል", "ፊት"],
+			tts:      Some("እንቅልፉ የመጣ ፊት"),
+			keywords: &["አልቃሽ", "እንቅልፉ የመጣ ፊት", "እንቅልፍ", "ፊት"],
 		},
 		#[cfg(feature = "ar")]
 		crate::Annotation {
 			lang:     "ar",
-			tts:      Some("وجه بانتفاخ تحت العين"),
-			keywords: &["متعب", "مرهق", "نعاس", "وجه بانتفاخ تحت العين"],
+			tts:      Some("وجه ناعس"),
+			keywords: &[
+				"أبكي",
+				"بكاء",
+				"بكي",
+				"تبكي",
+				"تعبان",
+				"حزين",
+				"دمعة",
+				"دموع",
+				"متعب",
+				"ناعس",
+				"نعس",
+				"نعسان",
+				"وجه",
+				"يبكي",
+			],
 		},
 		#[cfg(feature = "as")]
 		crate::Annotation {
 			lang:     "as",
-			tts:      Some("চক\u{9c1}ৰ তলত মোন\u{9be} থক\u{9be} চেহেৰ\u{9be}"),
-			keywords: &[
-				"চক\u{9c1}",
-				"চেহেৰ\u{9be}",
-				"টোপনি ধৰ\u{9be}",
-				"পলম",
-				"বিৰক\u{9cd}ত",
-				"ভ\u{9be}গৰ লগ\u{9be}",
-				"ভ\u{9be}গৰি পৰ\u{9be}",
-				"ভ\u{9be}গৰ\u{9c1}ৱ\u{9be}",
-				"মোন\u{9be}",
-			],
+			tts:      Some("নিদ\u{9cd}ৰ\u{9be}ল\u{9c1} ম\u{9c1}খ"),
+			keywords: &["নিদ\u{9cd}ৰ\u{9be}", "নিদ\u{9cd}ৰ\u{9be}ল\u{9c1} ম\u{9c1}খ", "ম\u{9c1}খ"],
 		},
 		#[cfg(feature = "az")]
 		crate::Annotation {
 			lang:     "az",
-			tts:      Some("altı torbalanmış gözləri olan üz"),
-			keywords: &[
-				"darıxan",
-				"gecikmiş",
-				"gözlər",
-				"haldan düşmüş",
-				"heydən düşmüş",
-				"torbalar",
-				"yorğun",
-				"yuxulu",
-				"çox yorğun",
-				"üz",
-			],
+			tts:      Some("yuxulu üz"),
+			keywords: &["kədərli üz", "qəmgin üz", "yatmaq", "yorğun üz", "yuxulu üz", "üz"],
 		},
 		#[cfg(feature = "be")]
 		crate::Annotation {
 			lang:     "be",
-			tts:      Some("твар з мяшкамі пад вачамі"),
-			keywords: &[
-				"вочы",
-				"змораны",
-				"знясілены",
-				"мяшкі",
-				"нуда",
-				"позна",
-				"сонны",
-				"стомлены",
-				"твар",
-			],
+			tts:      Some("сонны твар"),
+			keywords: &["санлівасць", "сон", "сонны твар"],
 		},
 		#[cfg(feature = "bg")]
 		crate::Annotation {
 			lang:     "bg",
-			tts:      Some("лице с торбички под очите"),
-			keywords: &["изморен", "изтощен", "лице с торбички под очите", "сънен"],
+			tts:      Some("Сънено лице"),
+			keywords: &["изморен", "лице", "плачещ", "сън", "сънено лице", "тъжен"],
 		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
-			tts:      Some("ক\u{9cd}ল\u{9be}ন\u{9cd}তি"),
-			keywords: &["ক\u{9cd}ল\u{9be}ন\u{9cd}ত", "ঘ\u{9c1}মন\u{9cd}ত"],
+			tts:      Some("ঘ\u{9c1}ম ঘ\u{9c1}ম ভ\u{9be}ব"),
+			keywords: &[
+				"ক\u{9cd}ল\u{9be}ন\u{9cd}ত",
+				"ঘ\u{9c1}ম ঘ\u{9c1}ম ভ\u{9be}ব",
+				"ঘ\u{9c1}মন\u{9cd}ত অবস\u{9cd}থ\u{9be}",
+				"ম\u{9c1}খ",
+			],
 		},
 		#[cfg(feature = "bs")]
 		crate::Annotation {
 			lang:     "bs",
-			tts:      Some("lice s podočnjacima"),
-			keywords: &[
-				"dosadno",
-				"iscrpljeno",
-				"kasno",
-				"lice",
-				"oči",
-				"podočnjaci",
-				"pospano",
-				"umorno",
-				"zamoreno",
-			],
+			tts:      Some("pospanost"),
+			keywords: &["lice", "pospanost", "umor"],
 		},
 		#[cfg(feature = "ca")]
 		crate::Annotation {
 			lang:     "ca",
-			tts:      Some("cara ullerosa"),
-			keywords: &["cansament", "cara que fa ulleres", "esgotament", "son"],
+			tts:      Some("cara de son"),
+			keywords: &[
+				"cansada",
+				"cansat",
+				"cara",
+				"cara de son",
+				"dormint",
+				"dormir",
+				"plorant",
+				"son",
+				"trist",
+				"trista",
+			],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄊\u{1112a}𑄟\u{11134} 𑄡𑄬𑄠𑄬 𑄟\u{1112a}"),
+			keywords: &["𑄊\u{1112a}𑄟\u{11134} 𑄡𑄬𑄠𑄬 𑄟\u{1112a}"],
 		},
 		#[cfg(feature = "chr")]
 		crate::Annotation {
 			lang:     "chr",
-			tts:      Some("ᎤᎧᏛ ᏧᎵᏏᎩ ᏗᎦᏙᎵ"),
-			keywords: &["ᎤᎧᏛ ᏧᎵᏏᎩ ᏗᎦᏙᎵ", "ᎦᎸᏍᎦ", "ᏓᎩᏯᏪᎦ", "ᏙᏳ ᏓᎩᏯᏪᎦ"],
+			tts:      Some("ᎦᏢᏍᎩ ᎤᎧᏛ"),
+			keywords: &["ᎤᎧᏛ", "ᎦᏟ", "ᎦᏢᏍᎩ ᎤᎧᏛ"],
 		},
 		#[cfg(feature = "cs")]
 		crate::Annotation {
 			lang:     "cs",
-			tts:      Some("obličej s kruhy pod očima"),
+			tts:      Some("ospalý obličej"),
 			keywords: &[
-				"kruhy",
+				"brečet",
+				"nachlazený",
 				"obličej",
-				"ospalost",
-				"oči",
-				"pozdě",
-				"vyčerpanost",
-				"váčky",
-				"znuděnost",
-				"únava",
+				"ospalý obličej",
+				"ospalý výraz",
+				"plakat",
+				"rozespalý",
+				"smajlík",
+				"smutný",
+				"spánek",
+				"tvář",
+				"unavený",
+				"uplakaný",
+				"výraz",
 			],
 		},
 		#[cfg(feature = "cy")]
 		crate::Annotation {
 			lang:     "cy",
-			tts:      Some("wyneb gyda bagiau dan y llygaid"),
-			keywords: &["cysglyd", "wedi blino", "wedi ymlâdd", "wyneb gyda bagiau dan y llygaid"],
+			tts:      Some("wyneb cysglyd"),
+			keywords: &["cysgu", "wyneb", "wyneb cysglyd"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
-			tts:      Some("ansigt med poser under øjnene"),
-			keywords: &["ansigt med poser under øjnene", "søvnig", "træt", "udmattet"],
+			tts:      Some("søvnigt ansigt"),
+			keywords: &["ansigt", "dyb søvn", "græder", "ked af det", "søvnigt ansigt", "træt"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
-			tts:      Some("Gesicht mit Augenringen"),
-			keywords: &["Augenringe", "Gesicht", "Smiley", "erschöpft", "müde", "schläfrig", "übermüdet"],
+			tts:      Some("schläfriges Gesicht"),
+			keywords: &["Gesicht", "Nacht", "Smiley", "gute", "müde", "schläfrig", "traurig"],
 		},
 		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Gesicht mit Augenringen"),
-			keywords: &["↑↑↑"],
-		},
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "el")]
 		crate::Annotation {
 			lang:     "el",
-			tts:      Some("πρόσωπο με σακούλες κάτω από τα μάτια"),
+			tts:      Some("νυσταγμένο πρόσωπο"),
 			keywords: &[
-				"εξαντλημένος",
+				"κλαίω",
+				"κοιμάμαι",
 				"κουρασμένος",
-				"νυσταγμένος",
-				"πρόσωπο με σακούλες κάτω από τα μάτια",
+				"λυπημένος",
+				"νυσταγμένο πρόσωπο",
+				"πρόσωπο",
+				"ύπνος",
 			],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
-			tts:      Some("face with bags under eyes"),
-			keywords: &[
-				"bags",
-				"bored",
-				"exhausted",
-				"eyes",
-				"face",
-				"fatigued",
-				"late",
-				"sleepy",
-				"tired",
-				"weary",
-			],
+			tts:      Some("sleepy face"),
+			keywords: &["crying", "face", "good", "night", "sad", "sleep", "sleeping", "sleepy", "tired"],
 		},
 		#[cfg(feature = "en_AU")]
 		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
@@ -5455,868 +5567,756 @@ pub const FACE_WITH_BAGS_UNDER_EYES: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
-			tts:      Some("cara con ojeras"),
-			keywords: &[
-				"agotado",
-				"agotamiento",
-				"cansado",
-				"cansancio",
-				"cara",
-				"extenuación",
-				"extenuado",
-				"ojeras",
-				"ojos",
-				"sueño",
-			],
+			tts:      Some("cara de sueño"),
+			keywords: &["cara", "cara de sueño", "dormir", "sueño"],
 		},
 		#[cfg(feature = "es_419")]
 		crate::Annotation {
 			lang:     "es_419",
-			tts:      Some("cara con ojeras"),
+			tts:      Some("↑↑↑"),
 			keywords: &[
-				"agotamiento",
-				"cansado",
-				"cansancio",
 				"cara",
-				"cara cansada",
-				"cara con ojeras",
-				"dormí mal",
-				"falta de sueño",
-				"no dormí",
+				"cara de sueño",
+				"cara somnolienta",
+				"gota",
+				"mocos",
+				"resfriado",
+				"somnoliento",
 				"sueño",
 			],
 		},
 		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("cara con ojeras"),
-			keywords: &["agotado", "cansado", "cara con bolsas bajo los ojos", "somnoliento"],
-		},
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["cansancio", "exhausto", "sueño"],
-		},
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
-			tts:      Some("nägu kottidega silmade all"),
-			keywords: &[
-				"hilja",
-				"igav",
-				"kotid",
-				"kurnatud",
-				"nägu",
-				"silmad",
-				"tüdinud",
-				"tülpinud",
-				"unine",
-				"väsinud",
-			],
+			tts:      Some("unine nägu"),
+			keywords: &["head", "kurb", "magamine", "nuttev", "nägu", "uni", "unine", "väsinud", "ööd"],
 		},
 		#[cfg(feature = "eu")]
 		crate::Annotation {
 			lang:     "eu",
-			tts:      Some("begien azpian poltsak dituen aurpegia"),
-			keywords: &[
-				"begien azpian poltsak dituen aurpegia",
-				"leher eginda",
-				"lehertuta",
-				"logalea",
-				"logura",
-				"nekatuta",
-			],
+			tts:      Some("logura-aurpegia"),
+			keywords: &["aurpegi", "lo", "logura", "logura-aurpegia"],
 		},
 		#[cfg(feature = "fa")]
 		crate::Annotation {
 			lang:     "fa",
-			tts:      Some("چهره با چشمان پف\u{200c}آلود"),
-			keywords: &["بی\u{200c}رمق", "خسته", "خواب\u{200c}آلود", "چهره با چشمان پف\u{200c}کرده"],
+			tts:      Some("خواب\u{200c}آلود"),
+			keywords: &["خواب", "خواب\u{200c}آلود", "صورت"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
-			tts:      Some("silmäpussit"),
-			keywords: &["pussit silmien alla", "uninen", "uupunut", "väsynyt"],
+			tts:      Some("unelias"),
+			keywords: &["naama", "unelias", "uni"],
 		},
 		#[cfg(feature = "fil")]
 		crate::Annotation {
 			lang:     "fil",
-			tts:      Some("mukha na nangangalumata"),
-			keywords: &["inaantok", "mukhang nangangalumata", "pagod", "pagod na pagod"],
+			tts:      Some("inaantok na mukha"),
+			keywords: &["humihilik", "inaantok", "inaantok na mukha", "mukha", "natutulog", "tulog"],
 		},
 		#[cfg(feature = "fo")]
 		crate::Annotation {
 			lang:     "fo",
-			tts:      Some("andlit við posum undir eygunum"),
-			keywords: &[
-				"andlit við posum undir eygunum",
-				"móð",
-				"móður",
-				"sovna",
-				"troytt",
-				"troytt andlit",
-				"troyttur",
-			],
+			tts:      Some("lint andlit"),
+			keywords: &["andlit", "grætur", "lint"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
-			tts:      Some("visage avec des valises sous les yeux"),
+			tts:      Some("visage endormi"),
 			keywords: &[
-				"ensommeilé",
 				"fatigué",
+				"larme",
+				"pleurer",
 				"sommeil",
-				"visage avec des valises sous les yeux",
-				"épuisé",
+				"triste",
+				"visage",
+				"visage endormi",
+				"émoticône",
 			],
 		},
 		#[cfg(feature = "fr_CA")]
 		crate::Annotation {
 			lang:     "fr_CA",
-			tts:      Some("visage avec des cernes sous les yeux"),
-			keywords: &[
-				"cernes",
-				"endormi",
-				"fatigué",
-				"las",
-				"poches",
-				"somnolent",
-				"tard",
-				"valises",
-				"yeux",
-				"épuisé",
-			],
+			tts:      Some("↑↑↑"),
+			keywords: &["endormi", "sommeil", "visage"],
 		},
 		#[cfg(feature = "ga")]
 		crate::Annotation {
 			lang:     "ga",
-			tts:      Some("aghaidh le sprochaillí faoi na súile"),
-			keywords: &["codlatach", "traochta", "tuirseach"],
+			tts:      Some("straoiseog chodlatach"),
+			keywords: &[
+				"aghaidh",
+				"brónach",
+				"caoineadh",
+				"codladh",
+				"straoiseog chodlatach",
+				"tuirseach",
+			],
 		},
 		#[cfg(feature = "gd")]
 		crate::Annotation {
 			lang:     "gd",
-			tts:      Some("aodann le buaile mu shùilean"),
-			keywords: &[
-				"buaile",
-				"claoidh",
-				"claoidhte",
-				"leigeadh roimhe",
-				"sùil",
-				"teirbheirt",
-				"toirbheart",
-				"toirt thairis",
-			],
+			tts:      Some("aodann cadalach"),
+			keywords: &["aodann", "aodann cadalach", "cadal"],
 		},
 		#[cfg(feature = "gl")]
 		crate::Annotation {
 			lang:     "gl",
-			tts:      Some("cara con olleiras"),
-			keywords: &["aburrimento", "cansazo", "olleiras", "ollos", "sono", "tarde"],
+			tts:      Some("cara de sono"),
+			keywords: &["cara", "cara de sono", "sono"],
 		},
 		#[cfg(feature = "gu")]
 		crate::Annotation {
 			lang:     "gu",
-			tts:      Some("આ\u{a82}ખોની નીચ\u{ac7} બ\u{ac7}ગવાળો ચહ\u{ac7}રો"),
+			tts:      Some("ઊ\u{a82}ઘતો ચહ\u{ac7}રો"),
 			keywords: &[
-				"ઊ\u{a82}ઘ",
-				"થાક",
-				"થાક\u{ac7}લો ચહ\u{ac7}રો",
-				"નિ\u{a82}દ\u{acd}રાધીન ચહ\u{ac7}રો",
+				"ઊ\u{a82}ઘત\u{ac1}\u{a82}",
+				"ઊ\u{a82}ઘતો ચહ\u{ac7}રો",
+				"ચહ\u{ac7}રો",
+				"થાક\u{ac7}લ",
+				"રડતો ચહ\u{ac7}રો",
+				"સ\u{ac2}ત\u{ac7}લ\u{ac1}\u{a82}",
 			],
 		},
 		#[cfg(feature = "ha")]
 		crate::Annotation {
 			lang:     "ha",
-			tts:      Some("fuska mai kumburi a ƙasan ido"),
-			keywords: &["fuska", "gajiya", "idanuwa", "jakunkuna", "mai jin barci", "makara"],
+			tts:      Some("fuska mai jin barci"),
+			keywords: &["barci", "fuska", "fuska mai jin barci", "gajiya", "jin bacci", "kuka"],
 		},
 		#[cfg(feature = "ha_NE")]
 		crate::Annotation {
 			lang:     "ha_NE",
-			tts:      Some("fuska mai kumburi a ƙasan ido"),
-			keywords: &["fuska", "gajiya", "idanuwa", "jakunkuna", "mai jin barci", "makara"],
+			tts:      Some("fuska mai jin barci"),
+			keywords: &["barci", "fuska", "fuska mai jin barci", "gajiya", "jin bacci", "kuka"],
 		},
 		#[cfg(feature = "he")]
 		crate::Annotation {
 			lang:     "he",
-			tts:      Some("פרצוף עם שקיות מתחת לעיניים"),
-			keywords: &["ישנוני", "עייף", "פרצוף", "שקיות", "תשוש"],
+			tts:      Some("פרצוף ישנוני"),
+			keywords: &["בוכה", "ישנוני", "מנוזל", "מצונן", "עצוב", "פרצוף"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
-			tts:      Some("आ\u{901}खो\u{902} क\u{947} नीच\u{947} स\u{942}जन वाला च\u{947}हरा"),
+			tts:      Some("उनी\u{902}दा च\u{947}हरा"),
 			keywords: &[
-				"आ\u{901}ख\u{947}\u{902}",
-				"ऊबा ह\u{941}आ",
+				"उदास",
+				"उनी\u{902}दा",
 				"च\u{947}हरा",
-				"थक क\u{947} च\u{942}र ह\u{941}आ",
 				"थका ह\u{941}आ",
-				"द\u{947}र होना",
 				"नी\u{902}द",
-				"ब\u{948}ग",
+				"नी\u{902}द भरा च\u{947}हरा",
 			],
 		},
 		#[cfg(feature = "hr")]
 		crate::Annotation {
 			lang:     "hr",
-			tts:      Some("lice s podočnjacima"),
-			keywords: &["iscrpljenost", "lice s podočnjacima", "pospano", "umorno"],
+			tts:      Some("pospano lice"),
+			keywords: &[
+				"laku noć",
+				"lice",
+				"plakanje",
+				"pospano lice",
+				"smajlić",
+				"spavanje",
+				"tužno",
+				"umorno",
+			],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
-			tts:      Some("arc táskás szemekkel"),
-			keywords: &[
-				"arc",
-				"elnyűtt",
-				"fáradt",
-				"kifáradt",
-				"kimerült",
-				"késő",
-				"szemek",
-				"táskás",
-				"unatkozik",
-				"álmos",
-			],
+			tts:      Some("álmos arc"),
+			keywords: &["arc", "fáradt", "szmájli", "szomorú", "sír", "álmos", "ásít"],
 		},
 		#[cfg(feature = "hy")]
 		crate::Annotation {
 			lang:     "hy",
-			tts:      Some("աչքերի տակ պարկերով դեմք"),
-			keywords: &["աչքերի տակ պարկերով դեմք", "հոգնած", "ուժասպառ", "քնկոտ"],
+			tts:      Some("քնատ դեմք"),
+			keywords: &["դեմք", "քնատ դեմք", "քնել"],
 		},
 		#[cfg(feature = "id")]
 		crate::Annotation {
 			lang:     "id",
-			tts:      Some("wajah dengan kantung mata"),
-			keywords: &["habis energi", "lelah", "ngantuk", "payah", "penat"],
+			tts:      Some("wajah mengantuk"),
+			keywords: &["lelah", "menangis", "muka", "ngantuk", "tidur", "wajah", "wajah mengantuk"],
 		},
 		#[cfg(feature = "ig")]
 		crate::Annotation {
 			lang:     "ig",
-			tts:      Some("ihu nwere anya ụra"),
-			keywords: &["anya ụra", "ike gwụrụ", "ike ọgwụgwụ"],
+			tts:      Some("ihu anya ụra"),
+			keywords: &[
+				"abalị",
+				"akwa",
+				"dị mma",
+				"ihu",
+				"ike gwụrụ",
+				"mwute",
+				"na-ehi ụra",
+				"ura",
+				"ụra",
+			],
 		},
 		#[cfg(feature = "is")]
 		crate::Annotation {
 			lang:     "is",
-			tts:      Some("andlit með poka undir augum"),
-			keywords: &["andlit með poka undir augum", "syfjaður", "örþreyttur", "úrvinda", "þreyttur"],
+			tts:      Some("syfjað andlit"),
+			keywords: &["andlit", "syfja", "syfjað andlit"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
-			tts:      Some("faccina con borse sotto gli occhi"),
+			tts:      Some("faccina assonnata"),
 			keywords: &[
 				"assonnato",
-				"borse",
-				"esausto",
-				"occhiaie",
-				"sfinito",
+				"dormire",
+				"faccina",
+				"faccina assonnata",
+				"goccia",
 				"sonno",
-				"stanchezza",
 				"stanco",
+				"zzz",
 			],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
-			tts:      Some("目にクマがある顔"),
-			keywords: &["クマ", "徹夜", "疲れた", "眠い", "顔"],
+			tts:      Some("眠い"),
+			keywords: &["寝る", "疲れた", "眠い", "眠そうな顔", "眠っている顔", "眠る", "顔"],
 		},
 		#[cfg(feature = "jv")]
 		crate::Annotation {
 			lang:     "jv",
-			tts:      Some("mata pendul"),
-			keywords: &["kesel", "ngantuk", "sayah"],
+			tts:      Some("rai ngantuk"),
+			keywords: &["ngantuk", "rai", "turu"],
 		},
 		#[cfg(feature = "ka")]
 		crate::Annotation {
 			lang:     "ka",
-			tts:      Some("სახე დასიებული თვალებით"),
-			keywords: &[
-				"გადაღლა",
-				"გვიანი",
-				"დაბერებული",
-				"დაქანცული",
-				"დაღლილი",
-				"თვალები",
-				"მობეზრებული",
-				"სახე",
-				"უძინარი",
-				"შეშუპება",
-			],
+			tts:      Some("ძილმორეული სახე"),
+			keywords: &["სახე", "ძილი", "ძილმორეული სახე"],
 		},
 		#[cfg(feature = "kab")]
 		crate::Annotation {
 			lang:     "kab",
-			tts:      Some("udem s tcullaḍ ddaw wallen"),
-			keywords: &["udem s tcullaḍ ddaw wallen"],
+			tts:      Some("udem yeṭṭsen"),
+			keywords: &["udem yeṭṭsen"],
 		},
 		#[cfg(feature = "kk")]
 		crate::Annotation {
 			lang:     "kk",
-			tts:      Some("көзі ісіп тұр"),
-			keywords: &["көзі ісіп тұр", "шаршау", "ұйқы"],
+			tts:      Some("ұйқы басу"),
+			keywords: &["бет", "тұнжырау", "ұйқы", "ұйқы басу"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("dyb søvn"),
+			keywords: &["ansigt", "dyb søvn", "træt"],
 		},
 		#[cfg(feature = "km")]
 		crate::Annotation {
 			lang:     "km",
-			tts:      Some("ម\u{17bb}ខមានថ\u{17d2}នក\u{17cb}ខ\u{17d2}មៅក\u{17d2}រោមភ\u{17d2}នែក"),
-			keywords: &[
-				"គ\u{17d2}មានកម\u{17d2}លា\u{17c6}ង",
-				"ងង\u{17bb}យគេង",
-				"ថ\u{17d2}នក\u{17cb}ភ\u{17d2}នែក",
-				"ធ\u{17bb}ញ",
-				"នឿយហត\u{17cb}",
-				"ភ\u{17d2}នែក",
-				"ម\u{17bb}ខ",
-				"យប\u{17cb}ជ\u{17d2}រៅ",
-				"ល\u{17d2}ហ\u{17b7}តល\u{17d2}ហៃ",
-				"អស\u{17cb}កម\u{17d2}លា\u{17c6}ង",
-			],
+			tts:      Some("ម\u{17bb}ខងង\u{17bb}យដេក"),
+			keywords: &["ងង\u{17bb}យ", "ដេក", "ម\u{17bb}ខងង\u{17bb}យដេក"],
 		},
 		#[cfg(feature = "kn")]
 		crate::Annotation {
 			lang:     "kn",
-			tts:      Some("ನ\u{cbf}ದ\u{ccd}ದ\u{cc6}ಗಣ\u{ccd}ಣ\u{cbf}ನ ಮುಖ"),
+			tts:      Some("ನ\u{cbf}ದ\u{ccd}ದ\u{cc6} ಮುಖ"),
 			keywords: &[
+				"ಅಳುವುದು",
 				"ಆಯಾಸ",
-				"ಕಣ\u{ccd}ಣುಗಳು",
-				"ತಡ",
-				"ದಣ\u{cbf}ವು",
+				"ಕಣ\u{ccd}ಣ\u{cc0}ರು",
+				"ದುಃಖ\u{cbf}ತ",
+				"ನ\u{cbf}ದ\u{ccd}ದ\u{cc6} ಮುಖ",
+				"ನ\u{cbf}ದ\u{ccd}ರಾ ಮುಖ",
 				"ನ\u{cbf}ದ\u{ccd}ರ\u{cc6}",
-				"ಬಳಲ\u{cbf}ಕ\u{cc6}",
 				"ಬ\u{cc7}ಜಾರು",
-				"ಬ\u{cc7}ಸರ",
 				"ಮುಖ",
-				"ಸುಸ\u{ccd}ತು",
+				"ಸುಸ\u{ccd}ತಾದ",
 			],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
-			tts:      Some("다크서클이 있는 얼굴"),
-			keywords: &[
-				"눈",
-				"늦은",
-				"다크서클",
-				"부종",
-				"얼굴",
-				"졸린",
-				"지루한",
-				"지친",
-				"피곤한",
-				"피로한",
-				"힘든",
-			],
+			tts:      Some("졸린 얼굴"),
+			keywords: &["슬픈", "얼굴", "잠", "졸린 얼굴", "졸림", "피곤한"],
 		},
 		#[cfg(feature = "kok")]
 		crate::Annotation {
 			lang:     "kok",
-			tts:      Some("दोळ\u{94d}या\u{902} सकयल स\u{941}रक\u{941}त\u{94d}यो आसपी च\u{947}रो"),
+			tts:      Some("न\u{94d}हिद आयिल\u{94d}लो च\u{947}रो"),
 			keywords: &[
-				"उशीर",
 				"च\u{947}रो",
-				"झ\u{947}मपी",
-				"थकावट",
-				"थकिल\u{94d}ल\u{947}",
-				"थकिल\u{94d}लो",
-				"दोळ\u{947}",
-				"प\u{941}रो जाल\u{94d}लो",
-				"ब\u{947}जारिल\u{94d}लो",
-				"स\u{941}रक\u{941}त\u{94d}यो",
+				"न\u{94d}हिदपी च\u{947}रो",
+				"न\u{94d}हीद",
+				"न\u{94d}हीदपी च\u{947}रो",
 			],
 		},
 		#[cfg(feature = "ky")]
 		crate::Annotation {
 			lang:     "ky",
-			tts:      Some("көздөрүнүн асты шишип калган бет"),
-			keywords: &[
-				"бет",
-				"жадаган",
-				"зериккен",
-				"кеч",
-				"көздөр",
-				"уйкусураган",
-				"чарчаган",
-				"шишик",
-			],
+			tts:      Some("уйкусу келген бет"),
+			keywords: &["бет", "уйку", "уйкусу келген бет"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("schléifreg"),
+			keywords: &["Gesiicht", "Schlof", "schléifreg"],
 		},
 		#[cfg(feature = "lo")]
 		crate::Annotation {
 			lang:     "lo",
-			tts:      Some("ໜ\u{ec9}າຕາບວມ"),
-			keywords: &["ເມ\u{eb7}\u{ec8}ອຍ", "ເຫງ\u{ebb}ານອນ", "ໜ\u{ec9}າ"],
+			tts:      Some("ໜ\u{ec9}າເງ\u{ebb}ານອນ"),
+			keywords: &["ຫ\u{ebc}\u{eb1}ບ", "ເງ\u{ebb}ານອນ", "ໜ\u{ec9}າ", "ໜ\u{ec9}າເງ\u{ebb}ານອນ"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
-			tts:      Some("veidas su maišeliais po akimis"),
-			keywords: &["išsekęs", "mieguistas", "pavargęs", "veidas su maišeliais po akimis"],
+			tts:      Some("mieguistas veidas"),
+			keywords: &["liūdnas", "miegas", "mieguistas veidas", "pavargęs", "veidas"],
 		},
 		#[cfg(feature = "lv")]
 		crate::Annotation {
 			lang:     "lv",
-			tts:      Some("seja ar maisiņiem zem acīm"),
-			keywords: &["maisiņi zem acīm", "miegains", "noguris", "pārgurums"],
+			tts:      Some("miegaina seja"),
+			keywords: &["gulēt", "miegaina seja", "miegs", "nogurums", "raudāt", "seja"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kanohi hiamoe"),
+			keywords: &["kanohi", "kanohi hiamoe", "moe"],
 		},
 		#[cfg(feature = "mk")]
 		crate::Annotation {
 			lang:     "mk",
-			tts:      Some("лице со подочници"),
-			keywords: &["исцрпено", "поспано", "уморно"],
+			tts:      Some("поспано лице"),
+			keywords: &[
+				"лице",
+				"мрсулав",
+				"плаче",
+				"поспано лице",
+				"спанко",
+				"спиење",
+				"тажно",
+				"уморно",
+			],
 		},
 		#[cfg(feature = "ml")]
 		crate::Annotation {
 			lang:     "ml",
-			tts:      Some("കൺതടത\u{d4d}തിൽ വീക\u{d4d}കമ\u{d41}ള\u{d4d}ള മ\u{d41}ഖം"),
+			tts:      Some("ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങ\u{d41}ന\u{d4d}ന മ\u{d41}ഖം"),
 			keywords: &[
-				"ഉറക\u{d4d}കക\u{d4d}ഷീണം",
-				"കൺതട വീക\u{d4d}കം",
-				"കൺതടം വീങ\u{d4d}ങിയ",
-				"കൺതടങ\u{d4d}ങളിൽ വീക\u{d4d}കമ\u{d41}ള\u{d4d}ള മ\u{d41}ഖം",
-				"കൺതടത\u{d4d}തിൽ വീക\u{d4d}കം",
-				"തളർന\u{d4d}ന മ\u{d41}ഖം",
+				"ഉറക\u{d4d}കം",
+				"ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങിയ മ\u{d41}ഖം",
+				"ഉറക\u{d4d}കം ത\u{d42}ങ\u{d4d}ങ\u{d41}ന\u{d4d}ന മ\u{d41}ഖം",
+				"മ\u{d41}ഖം",
 			],
 		},
 		#[cfg(feature = "mn")]
 		crate::Annotation {
 			lang:     "mn",
-			tts:      Some("доогуураа хөхөрсөн нүдтэй царай"),
-			keywords: &["нойрмог", "нүд", "уйдсан", "хоцорсон", "хөхөрсөн", "царай", "ядарсан"],
+			tts:      Some("нойрмоглож буй царай"),
+			keywords: &["нойрмоглож буй царай", "нойрмоглох", "царай"],
 		},
 		#[cfg(feature = "mr")]
 		crate::Annotation {
 			lang:     "mr",
-			tts:      Some("डोळ\u{94d}या\u{902}खाली काळी वर\u{94d}त\u{941}ळ\u{947} असणारा च\u{947}हरा"),
+			tts:      Some("झोप य\u{947}त असल\u{947}ला च\u{947}हरा"),
 			keywords: &[
-				"डोळ\u{94d}या\u{902}खाली काळी वर\u{94d}त\u{941}ळ\u{947} असणारा च\u{947}हरा",
-				"थकल\u{947}ला",
-				"दमल\u{947}ला",
-				"प\u{947}\u{902}ग\u{941}ळल\u{947}ला",
+				"च\u{947}हरा",
+				"झोप",
+				"झोप य\u{947}त असल\u{947}ला च\u{947}हरा",
+				"झोप\u{947}त असल\u{947}ला",
 			],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
-			tts:      Some("muka dengan lingkaran gelap bawah mata"),
-			keywords: &["kantuk", "letih", "mula dengan lingkaran gelap bawah mata", "penat"],
+			tts:      Some("muka mengantuk"),
+			keywords: &["letih", "menangis", "muka", "muka mengantuk", "sedih", "tidur"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("wiċċ bi ngħas"),
+			keywords: &["rieqed", "wiċċ", "wiċċ bi ngħas"],
 		},
 		#[cfg(feature = "my")]
 		crate::Annotation {
 			lang:     "my",
 			tts:      Some(
-				"အောက\u{103a}မျက\u{103a}ခ\u{103d}\u{1036} မ\u{102d}\u{102f}\u{1037}နေသော မျက\u{103a}န\u{103e}ာ",
+				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}သည\u{1037}\u{103a}မျက\u{103a}န\u{103e}ာ",
 			),
 			keywords: &[
-				"ပင\u{103a}ပန\u{103a}း",
-				"အားက\u{102f}န\u{103a}နေသော",
-				"အ\u{102d}ပ\u{103a}ချင\u{103a}",
-				"အောက\u{103a}မျက\u{103a}ခ\u{103d}\u{1036} မ\u{102d}\u{102f}\u{1037}နေသော မျက\u{103a}န\u{103e}ာ",
+				"မျက\u{103a}န\u{103e}ာ",
+				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}",
+				"အ\u{102d}ပ\u{103a}င\u{102d}\u{102f}က\u{103a}သည\u{1037}\u{103a}မျက\u{103a}န\u{103e}ာ",
 			],
 		},
 		#[cfg(feature = "ne")]
 		crate::Annotation {
 			lang:     "ne",
-			tts:      Some("आ\u{901}खाको तल पोकोसहितको अन\u{941}हार"),
-			keywords: &[
-				"अन\u{941}हार",
-				"अब\u{947}ला",
-				"आ\u{901}खा",
-				"थकित",
-				"थकित भएको",
-				"थाक\u{947}को",
-				"दिक\u{94d}क लाग\u{947}को",
-				"निद\u{94d}रा लाग\u{947}को",
-				"पोका",
-				"स\u{941}स\u{94d}त",
-			],
+			tts:      Some("निद\u{94d}राल\u{941} अन\u{941}हार"),
+			keywords: &["अन\u{941}हार", "निद\u{94d}राल\u{941} अन\u{941}हार", "स\u{941}त\u{947}को"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
-			tts:      Some("gezicht met wallen onder de ogen"),
-			keywords: &["gezicht met wallen onder de ogen", "moe", "slaperig", "uitgeput"],
+			tts:      Some("slaperig gezicht"),
+			keywords: &["gezicht", "huilen", "slaap", "slaperig gezicht", "smiley", "traan"],
 		},
 		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("fjes med posar under auga"),
-			keywords: &["fjes med posar under auga", "sliten", "søvnig", "trøytt", "utsliten"],
-		},
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "or")]
 		crate::Annotation {
 			lang:     "or",
-			tts:      Some(
-				"ଆଖ\u{b3f} ତଳେ ବ\u{200d}\u{b4d}ୟ\u{b3e}ଗ\u{b4d} ଥ\u{b3f}ବ\u{b3e} ମ\u{b41}ହ\u{b01}",
-			),
+			tts:      Some("ନ\u{b3f}ଦ\u{b4d}ର\u{b3e}ଳ\u{b41} ମ\u{b41}ହ\u{b01}"),
 			keywords: &[
-				"ଅବସନ\u{b4d}ନ",
-				"ଆଖ\u{b3f} ତଳେ ବ\u{200d}\u{b4d}ୟ\u{b3e}ଗ\u{b4d} ଥ\u{b3f}ବ\u{b3e} ମ\u{b41}ହ\u{b01}",
-				"କ\u{b4d}ଳ\u{b3e}ନ\u{b4d}ତ",
 				"ନ\u{b3f}ଦ\u{b41}ଆ",
+				"ନ\u{b3f}ଦ\u{b4d}ର\u{b3e}ଳ\u{b41} ମ\u{b41}ହ\u{b01}",
+				"ମ\u{b41}ହ\u{b01}",
 			],
 		},
 		#[cfg(feature = "pa")]
 		crate::Annotation {
 			lang:     "pa",
-			tts:      Some("ਸ\u{a41}ਜੀਆ\u{a02} ਅ\u{a71}ਖਾ\u{a02} ਵਾਲਾ ਚਿਹਰਾ"),
-			keywords: &[
-				"ਥਕਾਨ",
-				"ਥ\u{a71}ਕਿਆ",
-				"ਨੀ\u{a02}ਦਰਾ",
-				"ਸ\u{a41}ਜੀਆ\u{a02} ਅ\u{a71}ਖਾ\u{a02} ਵਾਲਾ ਚਿਹਰਾ",
-			],
+			tts:      Some("ਨੀ\u{a02}ਦਰਾ ਚਿਹਰਾ"),
+			keywords: &["ਉਦਾਸ", "ਚਿਹਰਾ", "ਥ\u{a71}ਕਿਆ", "ਨੀ\u{a02}ਦ", "ਨੀ\u{a02}ਦਰਾ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("س\u{64f}تی شکل"),
+			keywords: &["دی شکل", "سونا", "س\u{64f}تی شکل"],
 		},
 		#[cfg(feature = "pcm")]
 		crate::Annotation {
 			lang:     "pcm",
-			tts:      Some("fes wé gẹ\u{301}t bíg bag under ai"),
-			keywords: &["ai", "bag", "fes", "slip", "táyá"],
+			tts:      Some("Fes Wé Slip De Kach"),
+			keywords: &["Fes", "Fes Wé Slip De Kach", "Slip"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
-			tts:      Some("twarz z workami pod oczami"),
-			keywords: &["podkrążone oczy", "senność", "worki pod oczami", "zmęczenie"],
+			tts:      Some("senna twarz"),
+			keywords: &["buźka", "sen", "senna twarz", "senność", "spać", "śpiąca buźka"],
 		},
 		#[cfg(feature = "ps")]
 		crate::Annotation {
 			lang:     "ps",
-			tts:      Some("د سترګو لاندې کڅوړې سره مخ"),
-			keywords: &["سترګې", "ستړی", "ستړی شوی", "مخ", "ناوخته", "ویده", "کڅوړې"],
+			tts:      Some("خوبيولى مخ"),
+			keywords: &["خوب", "خوبيولى مخ", "مخ"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
-			tts:      Some("rosto com olheiras"),
-			keywords: &[
-				"cansada",
-				"cansado",
-				"cansaço",
-				"dorminhoco",
-				"exausta",
-				"exausto",
-				"olheiras",
-				"rosto com bolsas embaixo dos olhos",
-				"rosto com olheiras",
-			],
+			tts:      Some("rosto sonolento"),
+			keywords: &["cara de sono", "rosto", "rosto com sono", "rosto sonolento"],
 		},
 		#[cfg(feature = "pt_PT")]
 		crate::Annotation {
 			lang:     "pt_PT",
-			tts:      Some("cara com olheiras"),
-			keywords: &[
-				"cansada",
-				"cansado",
-				"cansaço",
-				"dorminhoca",
-				"dorminhoco",
-				"exausta",
-				"exausto",
-				"olheiras",
-				"olhos",
-				"tarde",
-			],
+			tts:      Some("cara sonolenta"),
+			keywords: &["cansado", "cara", "cara sonolenta", "chorar", "sono"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("uya puñuywan"),
+			keywords: &["puñuy", "uya", "uya puñuywan"],
 		},
 		#[cfg(feature = "ro")]
 		crate::Annotation {
 			lang:     "ro",
-			tts:      Some("față cu cearcăne"),
+			tts:      Some("față somnoroasă"),
 			keywords: &[
 				"adormit",
-				"epuizare",
-				"epuizat",
-				"extenuare",
-				"extenuat",
-				"față cu pungi sub ochi",
-				"oboseală",
+				"doarme",
+				"față",
+				"față somnoroasă",
 				"obosit",
+				"plânge",
+				"plâns",
+				"plânset",
+				"somn",
+				"somnoros",
+				"trist",
 			],
 		},
 		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E16-007"), keywords: &["E16-007"] },
+		crate::Annotation { lang: "root", tts: Some("E10-878"), keywords: &["E10-878"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
-			tts:      Some("лицо с мешками под глазами"),
-			keywords: &[
-				"без",
-				"глазами",
-				"истощение",
-				"мешки",
-				"под",
-				"сил",
-				"скучно",
-				"сон",
-				"спать",
-				"устал",
-			],
+			tts:      Some("хочет спать"),
+			keywords: &["ночи", "плакать", "плач", "пора", "сон", "спать", "сплю", "спокойной", "устал"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("isura ifite ibitotsi"),
+			keywords: &["gusinzira", "isura", "isura ifite ibitotsi"],
+		},
+		#[cfg(feature = "sat")]
+		crate::Annotation {
+			lang:     "sat",
+			tts:      Some("ᱡᱟᱹᱯᱤᱫ ᱢᱚᱲᱟ"),
+			keywords: &["ᱡᱟᱹᱯᱤᱫ ᱢᱚᱲᱟ"],
 		},
 		#[cfg(feature = "sd")]
 		crate::Annotation {
 			lang:     "sd",
-			tts:      Some("اکيون سڄل وارو منهن"),
-			keywords: &[
-				"اکيون",
-				"بور ٿيل",
-				"دير سان",
-				"سوڄ",
-				"منهن",
-				"ننڊاکو",
-				"ٿڪ وارو",
-				"ٿڪاوٽ سان ڀرپور",
-				"ٿڪل",
-			],
+			tts:      Some("ننڊ وارو چهرو"),
+			keywords: &["ننڊ", "ننڊ وارو چهرو", "چهرو"],
 		},
 		#[cfg(feature = "si")]
 		crate::Annotation {
 			lang:     "si",
-			tts:      Some("ඇස\u{dca} යට බෑග\u{dca} සහ\u{dd2}ත ම\u{dd4}හ\u{dd4}ණ"),
-			keywords: &[
-				"ඇස\u{dca}",
-				"කම\u{dca}මැල\u{dd2}",
-				"න\u{dd2}ද\u{dd2}මත",
-				"ප\u{dca}\u{200d}රම\u{dcf}ද",
-				"බෑග\u{dca}",
-				"මහන\u{dca}ස\u{dd2}",
-				"ම\u{dd4}හ\u{dd4}ණ",
-				"වෙහෙස ව\u{dd6}",
-				"වෙහෙසට පත\u{dca}",
-			],
+			tts:      Some("න\u{dd2}ද\u{dd2}බර ම\u{dd4}හ\u{dd4}ණ"),
+			keywords: &["න\u{dd2}ද\u{dd2}බර ම\u{dd4}හ\u{dd4}ණ", "න\u{dd2}න\u{dca}ද", "ම\u{dd4}හ\u{dd4}ණ"],
 		},
 		#[cfg(feature = "sk")]
 		crate::Annotation {
 			lang:     "sk",
-			tts:      Some("tvár s kruhmi pod očami"),
-			keywords: &["ospalý", "tvár s kruhmi pod očami", "unavený", "vyčerpaný"],
+			tts:      Some("ospalá tvár"),
+			keywords: &["ospalá", "plakať", "smajlík", "smutný", "spánok", "tvár", "unavený", "únava"],
 		},
 		#[cfg(feature = "sl")]
 		crate::Annotation {
 			lang:     "sl",
-			tts:      Some("obraz s podočnjaki"),
-			keywords: &["izčrpanost", "obraz s podočnjaki", "utrujenost", "zaspanost"],
+			tts:      Some("zaspan obraz"),
+			keywords: &["jok", "obraz", "spanje", "utrujen", "zaspan obraz"],
 		},
 		#[cfg(feature = "so")]
 		crate::Annotation {
 			lang:     "so",
-			tts:      Some("weji ay baagag uga hoos yaalan indhaha"),
-			keywords: &[
-				"baagag",
-				"caajisan",
-				"daahsan",
-				"daalay",
-				"daallan",
-				"hurdeysan",
-				"indho",
-				"waji",
-			],
+			tts:      Some("waji hurdeysan"),
+			keywords: &["hurdo", "waji", "waji hurdeysan"],
 		},
 		#[cfg(feature = "sq")]
 		crate::Annotation {
 			lang:     "sq",
-			tts:      Some("fytyrë me qeska poshtë syve"),
-			keywords: &["fytyrë", "qeska", "sy", "të lodhur", "të përgjumur", "vonë"],
+			tts:      Some("fytyrë e përgjumur"),
+			keywords: &[
+				"duke qarë",
+				"fle",
+				"fytyrë",
+				"fytyrë e përgjumur",
+				"gjumë",
+				"i lodhur",
+				"i mërzitur",
+			],
 		},
 		#[cfg(feature = "sr")]
 		crate::Annotation {
 			lang:     "sr",
-			tts:      Some("лице са подочњацима"),
-			keywords: &["забринуто", "исцрпљено", "касно", "лице", "подочњаци", "поспано", "уморно"],
+			tts:      Some("поспано лице"),
+			keywords: &["лаку", "лице", "ноћ", "поспано", "спaвaњe", "спава", "тужно", "уморно"],
 		},
 		#[cfg(feature = "sr_Cyrl_BA")]
 		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sr_Latn")]
 		crate::Annotation {
 			lang:     "sr_Latn",
-			tts:      Some("lice sa podočnjacima"),
-			keywords: &["iscrpljeno", "kasno", "lice", "podočnjaci", "pospano", "umorno", "zabrinuto"],
+			tts:      Some("pospano lice"),
+			keywords: &["laku", "lice", "noć", "pospano", "spava", "spavanje", "tužno", "umorno"],
 		},
 		#[cfg(feature = "sr_Latn_BA")]
 		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
-			tts:      Some("ansikte med påsar under ögonen"),
-			keywords: &["ansikte", "rödögd", "sent", "sömnig", "trött", "utmattad"],
+			tts:      Some("sömnigt ansikte"),
+			keywords: &["ansikte", "gråtande", "sömnig", "trött"],
 		},
 		#[cfg(feature = "sw")]
 		crate::Annotation {
 			lang:     "sw",
-			tts:      Some("uso wenye macho yaliyovimba"),
-			keywords: &["kuchoka", "uchovu", "usingizi", "uso wenye macho yaliyovimba"],
+			tts:      Some("uso unaosinzia"),
+			keywords: &["usingizi", "uso", "uso unaosinzia"],
 		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "ta")]
 		crate::Annotation {
 			lang:     "ta",
-			tts:      Some("உறக\u{bcd}கமற\u{bcd}ற முகம\u{bcd}"),
+			tts:      Some("தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bcd}"),
 			keywords: &[
-				"உறக\u{bcd}கமற\u{bcd}ற முகம\u{bcd}",
-				"சோர\u{bcd}ந\u{bcd}த",
-				"தளர\u{bcd}ந\u{bcd}த",
-				"தூங\u{bcd}குமூஞ\u{bcd}சி",
+				"அழுகை",
+				"களைப\u{bcd}பு",
+				"சோகம\u{bcd}",
+				"தூக\u{bcd}க கலக\u{bcd}கம\u{bcd}",
+				"தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bbe}ன முகம\u{bcd}",
+				"தூக\u{bcd}கக\u{bcd} கலக\u{bcd}கம\u{bcd}",
+				"தூக\u{bcd}கம\u{bcd}",
 			],
 		},
 		#[cfg(feature = "te")]
 		crate::Annotation {
 			lang:     "te",
-			tts:      Some("కళ\u{c4d}ల క\u{c3f}ంద వలయ\u{c3e}లు గల ముఖం"),
+			tts:      Some("న\u{c3f}ద\u{c4d}ర ఆవహ\u{c3f}ంచ\u{c3f}న ముఖం"),
 			keywords: &[
-				"అలస\u{c3f}ప\u{c4b}య\u{c3f}న",
-				"కళ\u{c4d}ల క\u{c3f}ంద వలయ\u{c3e}లు గల ముఖం",
-				"త\u{c40}వ\u{c4d}ర అలసట",
-				"న\u{c3f}ద\u{c4d}ర ముంచుక\u{c4a}స\u{c4d}తున\u{c4d}న",
+				"క\u{c4d}రయ\u{c3f}ంగ\u{c4d}",
+				"ట\u{c48}ర\u{c4d}డ\u{c4d}",
+				"న\u{c3f}ద\u{c4d}ర",
+				"న\u{c3f}ద\u{c4d}ర ఆవహ\u{c3f}ంచ\u{c3f}న ముఖం",
+				"ఫ\u{c47}స\u{c4d}",
+				"ముఖం",
+				"స\u{c4d}య\u{c3e}డ\u{c4d}",
+				"స\u{c4d}ల\u{c40}ప\u{c3f} ఫ\u{c47}స\u{c4d}",
+				"స\u{c4d}ల\u{c40}ప\u{c3f}ంగ\u{c4d}",
+				"స\u{c4d}ల\u{c40}ప\u{c4d}",
 			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("рӯи хоболуд"),
+			keywords: &["рӯи хоболуд", "рӯй", "хоб кардан"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
-			tts:      Some("ถ\u{e38}งใต\u{e49}ตาบวม"),
-			keywords: &[
-				"ก\u{e31}งวล",
-				"ง\u{e48}วง",
-				"ด\u{e36}ก",
-				"ถ\u{e38}งใต\u{e49}ตาบวม",
-				"หน\u{e49}า",
-				"หมดแรง",
-				"เบ\u{e37}\u{e48}อ",
-				"เหน\u{e37}\u{e48}อย",
-			],
+			tts:      Some("ง\u{e48}วง"),
+			keywords: &["ง\u{e48}วง", "หน\u{e49}า", "หล\u{e31}บ"],
 		},
 		#[cfg(feature = "ti")]
 		crate::Annotation {
 			lang:     "ti",
-			tts:      Some("ኣብ ትሕቲ ዓይኒ ቦርሳ ዘለዎ ገጽ"),
-			keywords: &["ረፋድ", "ቦርሳታት", "ኣሰልቺዩዎ", "ዓይኒ", "ደኺሙ", "ድቃስ ዝኸልእ", "ገጽ"],
+			tts:      Some("ዝታኸስ ገጽ"),
+			keywords: &["ዝታኸስ ገጽ", "ደሓን ሕደሩ", "ድቃስ", "ገጽ"],
 		},
 		#[cfg(feature = "tk")]
 		crate::Annotation {
 			lang:     "tk",
-			tts:      Some("gözüniň aşagy halkaly ýüz"),
-			keywords: &[
-				"gözüň aşagy halkaly ýüz",
-				"lüti süýnen",
-				"uky bar",
-				"ysgynsyz",
-				"ýadaw",
-				"ýatasy gelýär",
-			],
+			tts:      Some("ukuly ýüz"),
+			keywords: &["ukuly ýüz", "uky", "ýüz"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mata fiemohea"),
+			keywords: &["fiemohea", "hafu", "mata"],
 		},
 		#[cfg(feature = "tr")]
 		crate::Annotation {
 			lang:     "tr",
-			tts:      Some("gözlerinin altı torbalı yüz"),
-			keywords: &["gözlerinin altı torbalı yüz", "tükenmiş", "uykulu", "yorgun"],
+			tts:      Some("uykulu yüz"),
+			keywords: &["ağlayan yüz", "uykulu yüz", "yorgun", "yüz"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئۇيقۇ چىراي"),
+			keywords: &["ئۇخلاش", "ئۇيقۇ چىراي", "چىراي"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
-			tts:      Some("невиспане обличчя"),
-			keywords: &[
-				"виснаження",
-				"замореність",
-				"мішки",
-				"нудьга",
-				"обличчя",
-				"очі",
-				"пізно",
-				"сонливість",
-				"утома",
-			],
+			tts:      Some("заспане обличчя"),
+			keywords: &["втомлениий", "засмучений", "заспане обличчя", "обличчя", "сон"],
 		},
 		#[cfg(feature = "ur")]
 		crate::Annotation {
 			lang:     "ur",
-			tts:      Some("آنکھوں کے گرد حلقوں والا چہرہ"),
-			keywords: &["آنکھوں کے گرد حلقوں والا چہرہ", "تھکا ماندہ", "تھکن زدہ", "نیم خواب"],
+			tts:      Some("خوابیدہ چہرہ"),
+			keywords: &[
+				"تھکا ہوا",
+				"خوابیدہ چہرہ",
+				"دکھی",
+				"رونی صورت",
+				"غم",
+				"غمگین",
+				"غنودگی",
+				"فسردہ",
+				"نیند سے مخمور",
+				"نیند کا خمار",
+				"پریشان",
+				"چہرہ",
+			],
 		},
 		#[cfg(feature = "uz")]
 		crate::Annotation {
 			lang:     "uz",
-			tts:      Some("ko‘zlar tagi shishgan yuz"),
-			keywords: &[
-				"charchagan",
-				"holdan toygan",
-				"horg‘in",
-				"ko‘zlar tagi shishgan yuz",
-				"uyqisiragan",
-			],
+			tts:      Some("uyqusiragan yuz"),
+			keywords: &["uxlash", "uyqusiragan yuz", "yuz"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
-			tts:      Some("mặt có túi mắt"),
-			keywords: &["buồn ngủ", "kiệt sức", "mặt có túi mắt", "mệt mỏi"],
+			tts:      Some("mặt buồn ngủ"),
+			keywords: &["buồn", "buồn ngủ", "khóc", "mặt", "mặt buồn ngủ"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("kanam guy nelaw"),
+			keywords: &["kanam", "kanam guy nelaw", "nelaw"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ubuso obozelayo"),
+			keywords: &["lala", "ubuso", "ubuso obozelayo"],
 		},
 		#[cfg(feature = "yo")]
 		crate::Annotation {
 			lang:     "yo",
-			tts:      Some("ojú pẹ\u{300}lú ìsàlẹ\u{300} ojú tó wú"),
-			keywords: &[
-				"ojú pẹ\u{300}lú ìsàlẹ\u{300} ojú tó wú",
-				"rírẹ\u{300} tọwọ\u{301} tẹsẹ\u{300}",
-				"rẹ\u{300}",
-				"tòògbé",
-			],
+			tts:      Some("Oju Iloorun"),
+			keywords: &["Oju Iloorun", "ojú", "sùn"],
 		},
 		#[cfg(feature = "yo_BJ")]
 		crate::Annotation {
 			lang:     "yo_BJ",
-			tts:      Some("ojú pɛ\u{300}lú ìsàlɛ\u{300} ojú tó wú"),
-			keywords: &[
-				"ojú pɛ\u{300}lú ìsàlɛ\u{300} ojú tó wú",
-				"rírɛ\u{300} tɔwɔ\u{301} tɛsɛ\u{300}",
-				"rɛ\u{300}",
-				"tòògbé",
-			],
+			tts:      Some("Oju Iloorun"),
+			keywords: &["Oju Iloorun", "ojú", "sùn"],
 		},
 		#[cfg(feature = "yue")]
 		crate::Annotation {
 			lang:     "yue",
-			tts:      Some("有眼袋嘅臉"),
-			keywords: &["冇精神", "好攰", "悶", "散哂", "眼", "眼瞓", "眼袋", "臉", "面"],
+			tts:      Some("眼訓嘅臉"),
+			keywords: &["眼訓嘅臉", "臉", "訓覺"],
 		},
 		#[cfg(feature = "yue_Hans")]
 		crate::Annotation {
 			lang:     "yue_Hans",
-			tts:      Some("有眼袋嘅脸"),
-			keywords: &["冇精神", "好攰", "散哂", "眼", "眼瞓", "眼袋", "脸", "闷", "面"],
+			tts:      Some("眼训嘅脸"),
+			keywords: &["眼训嘅脸", "脸", "训觉"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
-			tts:      Some("有眼袋"),
-			keywords: &["厌倦", "困倦", "晚睡", "熬夜", "疲倦", "疲劳", "疲惫", "眼", "眼袋", "脸"],
+			tts:      Some("困"),
+			keywords: &["哭", "困", "想睡", "满脸睡容", "疲惫", "睡觉", "瞌睡", "脸"],
 		},
 		#[cfg(feature = "zh_Hant")]
 		crate::Annotation {
 			lang:     "zh_Hant",
-			tts:      Some("臉上有眼袋"),
-			keywords: &["疲勞的", "睏了", "筋疲力盡", "臉上有眼袋"],
+			tts:      Some("睏"),
+			keywords: &["打瞌睡", "掉淚", "睏", "臉", "面臉倦容"],
 		},
 		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["悶", "無聊", "疲倦", "睡眠", "睡覺", "累", "臉孔", "訓覺"],
+		},
 		#[cfg(feature = "zu")]
 		crate::Annotation {
 			lang:     "zu",
-			tts:      Some("Ubuso obunezigobhe"),
-			keywords: &[
-				"bags",
-				"bored",
-				"exhausted",
-				"eyes",
-				"face",
-				"fatigued",
-				"late",
-				"sleepy",
-				"tired",
-				"weary",
-			],
+			tts:      Some("ubuso obuzelayo"),
+			keywords: &["lala", "ubuso", "ubuso obuzelayo"],
 		},
 	],
 };
