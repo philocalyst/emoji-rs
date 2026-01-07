@@ -1,16 +1,3 @@
-#[doc = "🇨🇶"]
-pub const FLAG_SARK: crate::Emoji = crate::Emoji {
-	glyph:                "🇨🇶",
-	codepoint:            &[127464u32, 127478u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Sark",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇹🇴"]
 pub const FLAG_TONGA: crate::Emoji = crate::Emoji {
 	glyph:                "🇹🇴",
@@ -349,19 +336,6 @@ pub const FLAG_ROMANIA: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇪🇦"]
-pub const FLAG_CEUTA_AND_MELILLA: crate::Emoji = crate::Emoji {
-	glyph:                "🇪🇦",
-	codepoint:            &[127466u32, 127462u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Ceuta & Melilla",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇪🇸"]
 pub const FLAG_SPAIN: crate::Emoji = crate::Emoji {
 	glyph:                "🇪🇸",
@@ -369,6 +343,19 @@ pub const FLAG_SPAIN: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
 	name:                 "flag: Spain",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇪🇦"]
+pub const FLAG_CEUTA_AND_MELILLA: crate::Emoji = crate::Emoji {
+	glyph:                "🇪🇦",
+	codepoint:            &[127466u32, 127462u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Ceuta & Melilla",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -596,19 +583,6 @@ pub const FLAG_JORDAN: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇧🇱"]
-pub const FLAG_ST_BARTHELEMY: crate::Emoji = crate::Emoji {
-	glyph:                "🇧🇱",
-	codepoint:            &[127463u32, 127473u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: St. Barthélemy",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇧🇹"]
 pub const FLAG_BHUTAN: crate::Emoji = crate::Emoji {
 	glyph:                "🇧🇹",
@@ -694,19 +668,6 @@ pub const FLAG_GUINEA_BISSAU: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Guinea-Bissau",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🇨🇾"]
-pub const FLAG_CYPRUS: crate::Emoji = crate::Emoji {
-	glyph:                "🇨🇾",
-	codepoint:            &[127464u32, 127486u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Cyprus",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -1019,19 +980,6 @@ pub const FLAG_TOGO: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Togo",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🇻🇮"]
-pub const FLAG_US_VIRGIN_ISLANDS: crate::Emoji = crate::Emoji {
-	glyph:                "🇻🇮",
-	codepoint:            &[127483u32, 127470u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: U.S. Virgin Islands",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -1532,19 +1480,6 @@ pub const FLAG_NAMIBIA: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇸🇸"]
-pub const FLAG_SOUTH_SUDAN: crate::Emoji = crate::Emoji {
-	glyph:                "🇸🇸",
-	codepoint:            &[127480u32, 127480u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: South Sudan",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇧🇸"]
 pub const FLAG_BAHAMAS: crate::Emoji = crate::Emoji {
 	glyph:                "🇧🇸",
@@ -1578,19 +1513,6 @@ pub const FLAG_ST_PIERRE_AND_MIQUELON: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: St. Pierre & Miquelon",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🇿🇦"]
-pub const FLAG_SOUTH_AFRICA: crate::Emoji = crate::Emoji {
-	glyph:                "🇿🇦",
-	codepoint:            &[127487u32, 127462u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: South Africa",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -2429,19 +2351,6 @@ pub const FLAG_SLOVENIA: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇰🇷"]
-pub const FLAG_SOUTH_KOREA: crate::Emoji = crate::Emoji {
-	glyph:                "🇰🇷",
-	codepoint:            &[127472u32, 127479u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "flag: South Korea",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇭🇹"]
 pub const FLAG_HAITI: crate::Emoji = crate::Emoji {
 	glyph:                "🇭🇹",
@@ -2449,19 +2358,6 @@ pub const FLAG_HAITI: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Haiti",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🇦🇽"]
-pub const FLAG_ALAND_ISLANDS: crate::Emoji = crate::Emoji {
-	glyph:                "🇦🇽",
-	codepoint:            &[127462u32, 127485u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Åland Islands",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -2507,19 +2403,6 @@ pub const FLAG_CLIPPERTON_ISLAND: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇫🇷"]
-pub const FLAG_FRANCE: crate::Emoji = crate::Emoji {
-	glyph:                "🇫🇷",
-	codepoint:            &[127467u32, 127479u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "flag: France",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇲🇫"]
 pub const FLAG_ST_MARTIN: crate::Emoji = crate::Emoji {
 	glyph:                "🇲🇫",
@@ -2527,6 +2410,19 @@ pub const FLAG_ST_MARTIN: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: St. Martin",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇫🇷"]
+pub const FLAG_FRANCE: crate::Emoji = crate::Emoji {
+	glyph:                "🇫🇷",
+	codepoint:            &[127467u32, 127479u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "flag: France",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -2741,19 +2637,6 @@ pub const FLAG_KIRIBATI: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇾🇹"]
-pub const FLAG_MAYOTTE: crate::Emoji = crate::Emoji {
-	glyph:                "🇾🇹",
-	codepoint:            &[127486u32, 127481u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Mayotte",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇰🇵"]
 pub const FLAG_NORTH_KOREA: crate::Emoji = crate::Emoji {
 	glyph:                "🇰🇵",
@@ -2767,19 +2650,6 @@ pub const FLAG_NORTH_KOREA: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇺🇲"]
-pub const FLAG_US_OUTLYING_ISLANDS: crate::Emoji = crate::Emoji {
-	glyph:                "🇺🇲",
-	codepoint:            &[127482u32, 127474u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: U.S. Outlying Islands",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇺🇸"]
 pub const FLAG_UNITED_STATES: crate::Emoji = crate::Emoji {
 	glyph:                "🇺🇸",
@@ -2787,6 +2657,19 @@ pub const FLAG_UNITED_STATES: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
 	name:                 "flag: United States",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇺🇲"]
+pub const FLAG_US_OUTLYING_ISLANDS: crate::Emoji = crate::Emoji {
+	glyph:                "🇺🇲",
+	codepoint:            &[127482u32, 127474u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: U.S. Outlying Islands",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -3092,19 +2975,6 @@ pub const FLAG_BAHRAIN: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🇲🇨"]
-pub const FLAG_MONACO: crate::Emoji = crate::Emoji {
-	glyph:                "🇲🇨",
-	codepoint:            &[127474u32, 127464u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "flag: Monaco",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🇾🇪"]
 pub const FLAG_YEMEN: crate::Emoji = crate::Emoji {
 	glyph:                "🇾🇪",
@@ -3112,6 +2982,19 @@ pub const FLAG_YEMEN: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Yemen",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇲🇨"]
+pub const FLAG_MONACO: crate::Emoji = crate::Emoji {
+	glyph:                "🇲🇨",
+	codepoint:            &[127474u32, 127464u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Monaco",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -3151,19 +3034,6 @@ pub const FLAG_MONGOLIA: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Mongolia",
-	group:                crate::Group::Flags,
-	subgroup:             crate::Subgroup::CountryFlag,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🇯🇵"]
-pub const FLAG_JAPAN: crate::Emoji = crate::Emoji {
-	glyph:                "🇯🇵",
-	codepoint:            &[127471u32, 127477u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "flag: Japan",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,
@@ -3359,6 +3229,136 @@ pub const FLAG_EGYPT: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
 	name:                 "flag: Egypt",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇨🇶"]
+pub const FLAG_SARK: crate::Emoji = crate::Emoji {
+	glyph:                "🇨🇶",
+	codepoint:            &[127464u32, 127478u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Sark",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇸🇸"]
+pub const FLAG_SOUTH_SUDAN: crate::Emoji = crate::Emoji {
+	glyph:                "🇸🇸",
+	codepoint:            &[127480u32, 127480u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: South Sudan",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇿🇦"]
+pub const FLAG_SOUTH_AFRICA: crate::Emoji = crate::Emoji {
+	glyph:                "🇿🇦",
+	codepoint:            &[127487u32, 127462u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: South Africa",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇦🇽"]
+pub const FLAG_ALAND_ISLANDS: crate::Emoji = crate::Emoji {
+	glyph:                "🇦🇽",
+	codepoint:            &[127462u32, 127485u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Åland Islands",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇰🇷"]
+pub const FLAG_SOUTH_KOREA: crate::Emoji = crate::Emoji {
+	glyph:                "🇰🇷",
+	codepoint:            &[127472u32, 127479u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "flag: South Korea",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇻🇮"]
+pub const FLAG_US_VIRGIN_ISLANDS: crate::Emoji = crate::Emoji {
+	glyph:                "🇻🇮",
+	codepoint:            &[127483u32, 127470u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: U.S. Virgin Islands",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇾🇹"]
+pub const FLAG_MAYOTTE: crate::Emoji = crate::Emoji {
+	glyph:                "🇾🇹",
+	codepoint:            &[127486u32, 127481u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Mayotte",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇧🇱"]
+pub const FLAG_ST_BARTHELEMY: crate::Emoji = crate::Emoji {
+	glyph:                "🇧🇱",
+	codepoint:            &[127463u32, 127473u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: St. Barthélemy",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇨🇾"]
+pub const FLAG_CYPRUS: crate::Emoji = crate::Emoji {
+	glyph:                "🇨🇾",
+	codepoint:            &[127464u32, 127486u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "flag: Cyprus",
+	group:                crate::Group::Flags,
+	subgroup:             crate::Subgroup::CountryFlag,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🇯🇵"]
+pub const FLAG_JAPAN: crate::Emoji = crate::Emoji {
+	glyph:                "🇯🇵",
+	codepoint:            &[127471u32, 127477u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "flag: Japan",
 	group:                crate::Group::Flags,
 	subgroup:             crate::Subgroup::CountryFlag,
 	is_variant:           false,

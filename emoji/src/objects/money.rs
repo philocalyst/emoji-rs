@@ -1,16 +1,3 @@
-#[doc = "🪎"]
-pub const TREASURE_CHEST: crate::Emoji = crate::Emoji {
-	glyph:                "🪎",
-	codepoint:            &[129678u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-	name:                 "treasure chest",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Money,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "💳\u{fe0f}"]
 pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
 	glyph:                "💳\u{fe0f}",
@@ -7235,1024 +7222,6 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🧾"]
-pub const RECEIPT: crate::Emoji = crate::Emoji {
-	glyph:                "🧾",
-	codepoint:            &[129534u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
-	name:                 "receipt",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Money,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("kwitansie"),
-			keywords: &[
-				"bewys",
-				"bewyse",
-				"boekhou",
-				"faktuur",
-				"koopbewys",
-				"kwitansie",
-				"rekeningkunde",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ደረሰኝ"),
-			keywords: &["ሂሳብ አያያዝ", "ማረጋገጫ", "ማስረጃ", "ክፍያ መጠየቂያ", "የመዝገብ አያያዝ", "ደረሰኝ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("إيصال"),
-			keywords: &[
-				"إثبات",
-				"إيصال",
-				"برهان",
-				"حساب",
-				"حسابات",
-				"حفظ الدفاتر",
-				"دليل",
-				"ريسيت",
-				"فاتورة",
-				"فواتير",
-				"محاسبة",
-				"مستند",
-				"وص\u{652}ل",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ৰচিদ"),
-			keywords: &[
-				"এক\u{9be}উণ\u{9cd}টিং",
-				"প\u{9cd}ৰম\u{9be}ণ",
-				"প\u{9cd}ৰ\u{9be}ম\u{9be}ণিক তথ\u{9cd}য",
-				"ব\u{9c1}ককিপিং",
-				"ৰচিদ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qəbz"),
-			keywords: &["dəlil", "faktura", "mühasibat", "mühasibatlıq", "qəbz", "sübut"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("чэк"),
-			keywords: &["бухгалтэрыя", "доказ", "пацвярджэнне", "разлікі", "чэк"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("разписка"),
-			keywords: &["доказателство", "разписка", "счетоводство", "фактура"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("রসিদ"),
-			keywords: &[
-				"অ\u{9cd}য\u{9be}ক\u{9be}উন\u{9cd}টিং",
-				"ইনভয\u{9bc}েস",
-				"গণন\u{9be}",
-				"চ\u{9be}ল\u{9be}ন",
-				"দলিল",
-				"নথি",
-				"প\u{9cd}রম\u{9be}ণ",
-				"রসিদ",
-				"হিস\u{9be}ব",
-				"হিস\u{9be}বরক\u{9cd}ষণ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("skrid-degemer"),
-			keywords: &["prouenn", "skrid-degemer"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("račun"),
-			keywords: &["evidencija", "izvod", "knjigovodstvo", "račun", "računovodstvo"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("rebut"),
-			keywords: &["comptabilitat", "factura", "llibres", "prova", "rebut", "tiquet"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ"),
-			keywords: &["ᎠᏕᎳ ᏗᏎᎯᎯ", "ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ", "ᎪᎯᏳᏔᏅᎯ", "ᎪᏪᎵ ᏗᎦᏘᏍᏗ", "ᏗᎳᏏᏙᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("účtenka"),
-			keywords: &[
-				"doklad",
-				"důkaz",
-				"faktura",
-				"potvrzení",
-				"stvrzenka",
-				"účet",
-				"účetnictví",
-				"účetní",
-				"účtenka",
-				"účty",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("derbynneb"),
-			keywords: &["cadw llyfrau", "cyfrifyddu", "derbynneb", "prawf", "tystiolaeth"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("kvittering"),
-			keywords: &["bevis", "bilag", "bogføring", "kvittering", "regnskab"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Beleg"),
-			keywords: &[
-				"Abrechnung",
-				"Aufstellung",
-				"Beleg",
-				"Blatt",
-				"Buchhalter",
-				"Buchhaltung",
-				"Quittung",
-				"Rechnung",
-				"Rechnungswesen",
-				"Schriftstück",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("απόδειξη"),
-			keywords: &[
-				"αποδείξεις",
-				"αποδεικτικά στοιχεία",
-				"απόδειξη",
-				"λογιστικά",
-				"λογιστική",
-				"τιμολόγιο",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("receipt"),
-			keywords: &["accounting", "bookkeeping", "evidence", "invoice", "proof", "receipt"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("recibo"),
-			keywords: &["contabilidad", "prueba", "recibo", "teneduría de libros", "testimonio"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"contabilidad",
-				"contador",
-				"contaduría",
-				"cuenta",
-				"escritura",
-				"evidencia",
-				"factura",
-				"prueba",
-				"recibo",
-				"registro",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["contabilidad", "contaduría", "evidencia", "recibo"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("kviitung"),
-			keywords: &["arvepidamine", "dokument", "kviitung", "raamatupidamine", "tõend"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("ordainagiri"),
-			keywords: &["froga", "kontabilitate", "ordainagiri"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("رسید"),
-			keywords: &[
-				"ثبت",
-				"حساب داری",
-				"حساب رسی",
-				"حساب و کتاب",
-				"حساب کتاب",
-				"حسابداری",
-				"حسابرسی",
-				"دفتردار",
-				"دفترداری",
-				"رسید",
-				"صورت حساب",
-				"صورتحساب",
-				"فاکتور",
-				"مدرک",
-				"گواه",
-				"گواهی",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kuitti"),
-			keywords: &["kirjanpito", "kuitti", "kulut", "tilinpito", "todistus", "tosite"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("resibo"),
-			keywords: &["accounting", "bookkeeping", "katibayan", "patunay", "resibo"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("kvittan"),
-			keywords: &["keyp", "kvittan", "prógv", "søla"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("reçu"),
-			keywords: &[
-				"compta",
-				"comptabilité",
-				"comptable",
-				"facture",
-				"faire les comptes",
-				"justificatif",
-				"preuve",
-				"reçu",
-				"ticket de caisse",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("admháil"),
-			keywords: &["admháil", "cuntasaíocht", "fianaise", "leabharchoiméad", "sonrasc"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cuidhteas"),
-			keywords: &[
-				"cuidhteas",
-				"cunntas",
-				"cunntasachd",
-				"dearbh",
-				"dearbhadh",
-				"dearbhaich",
-				"fianais",
-				"leabhar-chunntas",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("recibo"),
-			keywords: &["contabilidade", "resgardo", "tícket", "xustificante"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("રસીદ"),
-			keywords: &[
-				"ઇનવોઇસ",
-				"એકાઉન\u{acd}ટિ\u{a82}ગ",
-				"નામ\u{ac1}\u{a82}",
-				"પ\u{ac1}રાવો",
-				"પ\u{acd}ર\u{ac2}ફ",
-				"બિલ",
-				"બ\u{ac1}કકિપિ\u{a82}ગ",
-				"રસીદ",
-				"રિસિપ\u{acd}ટ",
-				"સાબિતી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("rasit"),
-			keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "rasiti", "shaida"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("rasit"),
-			keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "rasiti", "shaida"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("קבלה"),
-			keywords: &["הוכחה", "הנהלת חשבונות", "חשבונית", "קבלה", "ראיית חשבון"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("रसीद"),
-			keywords: &[
-				"अकाउ\u{902}ट",
-				"कागज\u{93c}",
-				"खाता",
-				"खात\u{947}",
-				"नोट",
-				"प\u{94d}रमाण",
-				"प\u{94d}र\u{942}फ\u{93c}",
-				"बहिखाता",
-				"बहीखाता",
-				"रसीद",
-				"रिसीट",
-				"ल\u{902}बा",
-				"ल\u{902}बी",
-				"लिस\u{94d}ट",
-				"ल\u{947}खा\u{902}कन",
-				"साक\u{94d}ष\u{94d}य",
-				"स\u{942}ची",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("račun"),
-			keywords: &["dokaz", "dokaz o kupnji", "faktura", "knjigovodstvo", "račun", "računovodstvo"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nyugta"),
-			keywords: &[
-				"bizonylat",
-				"bizonyíták",
-				"bizonyíték",
-				"könyvelés",
-				"nyugta",
-				"pénzügyek",
-				"számla",
-				"számvitel",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("անդորրագիր"),
-			keywords: &["անդորրագիր", "ապացույց", "հաշվապահություն", "վկայություն"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("kuitansi"),
-			keywords: &[
-				"akuntansi",
-				"bon",
-				"bukti",
-				"bukti pembayaran",
-				"faktur",
-				"kuitansi",
-				"kwitansi",
-				"pembukuan",
-				"resi",
-				"tagihan",
-				"tanda terima",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("akwukwo ngwa ahia"),
-			keywords: &["akwukwo ngwa ahia", "ihe akaebe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("kvittun"),
-			keywords: &["bókfærsla", "bókhald", "endurskoðun", "kvittun", "sönnun", "sönnunargagn"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("scontrino"),
-			keywords: &[
-				"contabilità",
-				"fattura",
-				"invoice",
-				"prova",
-				"ricevuta",
-				"ricevuta di pagamento",
-				"scontrino",
-				"tenuta dei libri",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("レシート"),
-			keywords: &["レシート", "会計", "簿記", "請求書", "領収書"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("struk tetukon"),
-			keywords: &["akuntansi", "bukti", "kwitansi", "pembukuan", "struk tetukon"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ქვითარი"),
-			keywords: &["ბუღალტერია", "მტკიცებულება", "საბუთი", "ქვითარი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("awwaḍ"), keywords: &["awwaḍ"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("түбіртек"),
-			keywords: &["бухгалтерлік", "бухгалтерлік есеп", "дәлел", "растау", "түбіртек"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បង\u{17d2}កាន\u{17cb}ដៃ"),
-			keywords: &[
-				"ការកត\u{17cb}ត\u{17d2}រាក\u{17d2}ន\u{17bb}ងបញ\u{17d2}ជ\u{17b8}គណនេយ\u{17d2}យ",
-				"គណនេយ\u{17d2}យ",
-				"ត\u{17b9}កតាង",
-				"បង\u{17d2}កាន\u{17cb}ដៃ",
-				"ភស\u{17d2}ត\u{17bb}តាង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ರಸ\u{cc0}ದ\u{cbf}"),
-			keywords: &[
-				"ಅಕ\u{ccc}ಂಟ\u{cbf}ಂಗ\u{ccd}",
-				"ಇನ\u{ccd}\u{200c}ವಾಯ\u{ccd}ಸ\u{ccd}",
-				"ಋಜುವಾತು",
-				"ದಸ\u{ccd}ತಾವ\u{cc7}ಜು ನ\u{cbf}ರ\u{ccd}ವಹಣ\u{cc6}",
-				"ಪುರಾವ\u{cc6}",
-				"ಪುರಾವ\u{cc6}ಗಳು",
-				"ಬುಕ\u{ccd}\u{200c}ಕ\u{cc0}ಪ\u{cbf}ಂಗ\u{ccd}",
-				"ರಸ\u{cc0}ದ\u{cbf}",
-				"ಲ\u{cc6}ಕ\u{ccd}ಕಪತ\u{ccd}ರ",
-				"ಲ\u{cc6}ಕ\u{ccd}ಕಪತ\u{ccd}ರ ನ\u{cbf}ರ\u{ccd}ವಹಣ\u{cc6}",
-				"ಸಂದಾಯದ ರಶ\u{cc0}ದ\u{cbf}",
-				"ಸರಕುಪಟ\u{ccd}ಟ\u{cbf}",
-				"ಸಾಕ\u{ccd}ಷ\u{ccd}ಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("영수증"),
-			keywords: &["기록", "영수증", "증빙", "청구", "회계"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पावती"),
-			keywords: &["गवाय", "पावती", "प\u{941}रावो", "हिशोब", "हिशोब बरोवप"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("дүмүрчөк"),
-			keywords: &["бухгалтерия", "далил", "документ", "дүмүрчөк", "эсеп-кысап"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໃບຮ\u{eb1}ບເງ\u{eb4}ນ"),
-			keywords: &[
-				"ການບ\u{eb1}ນຊ\u{eb5}",
-				"ຂ\u{ecd}\u{ec9}ພ\u{eb4}ສ\u{eb9}ດ",
-				"ຜ\u{eb9}\u{ec9}ຖ\u{eb7}ບ\u{eb1}ນຊ\u{eb5}",
-				"ຫ\u{ebc}\u{eb1}ກຖານ",
-				"ໃບຮ\u{eb1}ບເງ\u{eb4}ນ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("čekis"),
-			keywords: &["apskaita", "čekis", "įrodymai"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("kvīts"),
-			keywords: &["apstiprinājums", "grāmatvedība", "kvīts", "pierādījums", "uzskaite"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("сметка"),
-			keywords: &[
-				"доказ",
-				"евиденција",
-				"потврда",
-				"сметка",
-				"сметководство",
-				"фактура",
-				"фискална",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("രസീത\u{d4d}"),
-			keywords: &[
-				"അക\u{d4d}ക\u{d57}ണ\u{d4d}ടിംഗ\u{d4d}",
-				"തെളിവ\u{d4d}",
-				"തെളിവ\u{d4d} രേഖ",
-				"ബ\u{d41}ക\u{d4d}ക\u{d4d} സ\u{d42}ക\u{d4d}ഷിക\u{d4d}കൽ",
-				"രസീത\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("төлбөрийн баримт"),
-			keywords: &["баримт", "данс хөтлөх", "нотолгоо", "нягтлан бодох", "төлбөрийн баримт"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("रीसिप\u{94d}ट"),
-			keywords: &[
-				"इनव\u{94d}हॉइस",
-				"जमाखर\u{94d}च",
-				"दाखला",
-				"पावती",
-				"प\u{941}रावा",
-				"प\u{941}स\u{94d}तपालन",
-				"बीजक",
-				"रीसिप\u{94d}ट",
-				"ल\u{947}खा",
-				"ल\u{947}खापरीक\u{94d}षण",
-				"हिश\u{947}ब",
-				"हिश\u{947}बनीस",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("resit"),
-			keywords: &[
-				"bukti",
-				"invois",
-				"keterangan",
-				"penyata",
-				"perakaunan",
-				"resit",
-				"simpan kira",
-				"simpan kira-kira",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပြေစာ"),
-			keywords: &[
-				"စာရင\u{103a}းက\u{102d}\u{102f}င\u{103a}ခြင\u{103a}း",
-				"စာရင\u{103a}းက\u{102d}\u{102f}င\u{103a}လ\u{102f}ပ\u{103a}ငန\u{103a}း",
-				"ပြေစာ",
-				"အက\u{102d}\u{102f}းအကား",
-				"အထောက\u{103a}အထား",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("भर\u{94d}पाई"),
-			keywords: &["प\u{94d}रमाण", "ब\u{941}ककिपिङ", "भर\u{94d}पाई", "ल\u{947}खा"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("kassabon"),
-			keywords: &[
-				"administratie",
-				"bewijs",
-				"boekhouden",
-				"boekhouding",
-				"bonnetje",
-				"factuur",
-				"kassabon",
-				"kwitantie",
-				"rekening",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "rekneskap"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ରସ\u{b3f}ଦ"),
-			keywords: &[
-				"ଏକ\u{b3e}ଉଣ\u{b4d}ଟ\u{b3f}ଂ",
-				"ପ\u{b4d}ରମ\u{b3e}ଣ",
-				"ବ\u{b41}କକ\u{b3f}ପ\u{b3f}ଙ\u{b4d}ଗ",
-				"ରସ\u{b3f}ଦ",
-				"ସ\u{b41}ର\u{b3e}ଗ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਰਸੀਦ"),
-			keywords: &["ਪ\u{a4d}ਰਮਾਣ", "ਬਿ\u{a71}ਲ", "ਰਸੀਦ", "ਲ\u{a47}ਖਾ", "ਵਹੀ-ਖਾਤਾ", "ਸਬ\u{a42}ਤ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Risit"),
-			keywords: &["Akaunt", "Bukkípin", "Pruv", "Risit"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("paragon"),
-			keywords: &[
-				"dowód",
-				"faktura",
-				"księgowość",
-				"kwitek",
-				"paragon",
-				"pokwitowanie",
-				"rachunek",
-				"rachunkowość",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("رسيد"),
-			keywords: &["ثبوت", "حساب کتاب", "دليل", "رسيد", "کتاب ساتنه"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("recibo"),
-			keywords: &["contabilidade", "escrituração", "evidência", "fatura", "prova", "recibo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["comprovativo", "contabilidade", "fatura", "prova", "recibo", "tesouraria"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("recibo"),
-			keywords: &["chaskiy", "contabilidad", "evidencia", "prueba", "recibo"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("chitanță"),
-			keywords: &[
-				"chitanță",
-				"contabilitate",
-				"dovadă",
-				"evidențe",
-				"evidență",
-				"factură",
-				"proces-verbal",
-				"recipisă",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E11-072"), keywords: &["E11-072"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("чек"),
-			keywords: &["бухгалтерия", "доказательство", "квитанция", "счет", "фактура", "чек"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("رسيد"),
-			keywords: &["اڪائونٽنگ", "بڪ ڪيپنگ", "ثبوت", "رسيد"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ර\u{dd2}ස\u{dd2}ට\u{dca} පත"),
-			keywords: &[
-				"ග\u{dd2}ණ\u{dd4}ම\u{dca}කරණය",
-				"පොත\u{dca} තැබ\u{dd3}ම",
-				"ර\u{dd2}ස\u{dd2}ට\u{dca} පත",
-				"ස\u{dcf}ක\u{dca}ෂ\u{dd2}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("účtenka"),
-			keywords: &[
-				"doklad",
-				"dôkaz",
-				"faktúra",
-				"paragón",
-				"potvrdenie",
-				"potvrdenka",
-				"príjmový doklad",
-				"účtenka",
-				"účtovná evidencia",
-				"účtovníctvo",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("račun"),
-			keywords: &["dokaz", "dokazilo", "knjigovodstvo", "račun", "računovodstvo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("rasiidh"),
-			keywords: &["cadeyn", "markhaati", "rasiidh", "xisaabaadka", "xisaabinta"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("faturë"),
-			keywords: &["bllok llogarie", "faturë", "kontabilitet", "mandatpagesë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("признаница"),
-			keywords: &["доказ", "књиговодство", "потврда", "признаница", "рачуноводство"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("priznanica"),
-			keywords: &["dokaz", "knjigovodstvo", "potvrda", "priznanica", "računovodstvo"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("kvitto"),
-			keywords: &["belägg", "bevis", "bokföring", "kvitto", "redovisning"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("risiti"),
-			keywords: &["rekodi", "risiti", "thibitisho", "uhasibu", "ushahidi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ரச\u{bc0}து"),
-			keywords: &[
-				"ஆத\u{bbe}ரம\u{bcd}",
-				"இன\u{bcd}வ\u{bbe}ய\u{bcd}ஸ\u{bcd}",
-				"கணக\u{bcd}குவழக\u{bcd}கு",
-				"ச\u{bbe}ட\u{bcd}சியம\u{bcd}",
-				"பொருள\u{bcd}",
-				"ரச\u{bc0}து",
-				"வரவு செலவு",
-				"விலை பட\u{bcd}டியல\u{bcd}",
-				"விலைப\u{bcd}பட\u{bcd}டியல\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("రస\u{c40}దు"),
-			keywords: &[
-				"అక\u{c4c}ంట\u{c3f}ంగ\u{c4d}",
-				"ఇన\u{c4d}వ\u{c3e}య\u{c3f}స\u{c4d}",
-				"ఎవ\u{c3f}డ\u{c46}న\u{c4d}స\u{c4d}",
-				"పుస\u{c4d}తకంల\u{c4b} న\u{c4b}ట\u{c4d} చ\u{c47}సుక\u{c4b}వడం",
-				"ప\u{c4d}రూఫ\u{c4d}",
-				"బుక\u{c4d} క\u{c40}ప\u{c3f}ంగ\u{c4d}",
-				"రస\u{c40}దు",
-				"ర\u{c3f}స\u{c40}ట\u{c4d}",
-				"రుజువు",
-				"స\u{c3e}క\u{c4d}ష\u{c4d}యం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ใบเสร\u{e47}จ"),
-			keywords: &[
-				"บ\u{e31}ญช\u{e35}",
-				"บ\u{e34}ล",
-				"ร\u{e31}บเง\u{e34}น",
-				"หล\u{e31}กฐาน",
-				"แจ\u{e49}งหน\u{e35}\u{e49}",
-				"ใบเสร\u{e47}จ",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቅብሊት"),
-			keywords: &["መርትዖ", "መርትዖታት", "ምሕላው መዝገብ", "ቅብሊት", "ኣካውንቲንግ", "ፋክቱር"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("töleg haty"),
-			keywords: &["delil", "hasaphana", "hasapçylyk", "kwitansiýa", "subutnama", "töleg haty"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("lisiti"), keywords: &["lisiti"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("makbuz"),
-			keywords: &[
-				"bakiye",
-				"belge",
-				"defter tutma",
-				"dekont",
-				"ekstre",
-				"evrak",
-				"fatura",
-				"finans",
-				"fiş",
-				"hesap",
-				"irsaliye",
-				"kanıt",
-				"kayıt",
-				"kağıt",
-				"makbuz",
-				"maliye",
-				"maliyet",
-				"muhasebe",
-				"senet",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("квитанція"),
-			keywords: &[
-				"бухгалтерія",
-				"доказ",
-				"документ",
-				"квитанція",
-				"рахунок",
-				"рахунок-фактура",
-				"фактура",
-				"чек",
-				"інвойс",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("رسید"),
-			keywords: &[
-				"اکاؤنٹنگ",
-				"اکاؤنٹنگ، ب\u{64f}ک کیپنگ، مشاہدہ، ثبوت، رسید، انوائس",
-				"ثبوت",
-				"حساب نویسی",
-				"رسید",
-				"شہادت",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("chek"),
-			keywords: &["buxgalteriya", "chek", "cho‘t", "hisob", "hisobchilik"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("biên nhận"),
-			keywords: &[
-				"biên nhận",
-				"chứng từ",
-				"ghi sổ sách",
-				"giấy tờ chứng thực",
-				"hóa đơn",
-				"kế toán",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ìwé owó"),
-			keywords: &["erí", "ìdájú", "ìwé owó"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ìwé owó"),
-			keywords: &["erí", "ìdájú", "ìwé owó"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("收據"),
-			keywords: &["收據", "會計", "簿記", "證據", "證明"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("收据"),
-			keywords: &["会计", "收据", "簿记", "证据", "证明"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("收据"),
-			keywords: &[
-				"会计", "信封", "凭据", "发票", "收据", "收条", "簿记", "记账", "证据", "证明", "账单",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("收據"),
-			keywords: &["收執聯", "收據", "會計", "發票", "簿記", "紙本", "記帳", "證據", "證明"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["單", "帳單", "收據", "明細", "會計", "發票", "簿記", "記賬", "證據", "證明"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("receipt"),
-			keywords: &["accounting", "bookkeeping", "evidence", "proof", "receipt"],
-		},
-	],
-};
 #[doc = "💷"]
 pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
 	glyph:                "💷",
@@ -9447,6 +8416,1037 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("imali eyi-pound"),
 			keywords: &["i-pound", "ibhange", "imali", "imali eyi-pound", "isikweletu", "uhlobo lwemali"],
+		},
+	],
+};
+#[doc = "🪎"]
+pub const TREASURE_CHEST: crate::Emoji = crate::Emoji {
+	glyph:                "🪎",
+	codepoint:            &[129678u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+	name:                 "treasure chest",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Money,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🧾"]
+pub const RECEIPT: crate::Emoji = crate::Emoji {
+	glyph:                "🧾",
+	codepoint:            &[129534u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 11u8, minor: 0u8, patch: 0u8 },
+	name:                 "receipt",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Money,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("kwitansie"),
+			keywords: &[
+				"bewys",
+				"bewyse",
+				"boekhou",
+				"faktuur",
+				"koopbewys",
+				"kwitansie",
+				"rekeningkunde",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ደረሰኝ"),
+			keywords: &["ሂሳብ አያያዝ", "ማረጋገጫ", "ማስረጃ", "ክፍያ መጠየቂያ", "የመዝገብ አያያዝ", "ደረሰኝ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("إيصال"),
+			keywords: &[
+				"إثبات",
+				"إيصال",
+				"برهان",
+				"حساب",
+				"حسابات",
+				"حفظ الدفاتر",
+				"دليل",
+				"ريسيت",
+				"فاتورة",
+				"فواتير",
+				"محاسبة",
+				"مستند",
+				"وص\u{652}ل",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ৰচিদ"),
+			keywords: &[
+				"এক\u{9be}উণ\u{9cd}টিং",
+				"প\u{9cd}ৰম\u{9be}ণ",
+				"প\u{9cd}ৰ\u{9be}ম\u{9be}ণিক তথ\u{9cd}য",
+				"ব\u{9c1}ককিপিং",
+				"ৰচিদ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qəbz"),
+			keywords: &["dəlil", "faktura", "mühasibat", "mühasibatlıq", "qəbz", "sübut"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("чэк"),
+			keywords: &["бухгалтэрыя", "доказ", "пацвярджэнне", "разлікі", "чэк"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("разписка"),
+			keywords: &["доказателство", "разписка", "счетоводство", "фактура"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("রসিদ"),
+			keywords: &[
+				"অ\u{9cd}য\u{9be}ক\u{9be}উন\u{9cd}টিং",
+				"ইনভয\u{9bc}েস",
+				"গণন\u{9be}",
+				"চ\u{9be}ল\u{9be}ন",
+				"দলিল",
+				"নথি",
+				"প\u{9cd}রম\u{9be}ণ",
+				"রসিদ",
+				"হিস\u{9be}ব",
+				"হিস\u{9be}বরক\u{9cd}ষণ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("skrid-degemer"),
+			keywords: &["prouenn", "skrid-degemer"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("račun"),
+			keywords: &["evidencija", "izvod", "knjigovodstvo", "račun", "računovodstvo"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("rebut"),
+			keywords: &["comptabilitat", "factura", "llibres", "prova", "rebut", "tiquet"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ"),
+			keywords: &["ᎠᏕᎳ ᏗᏎᎯᎯ", "ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ", "ᎪᎯᏳᏔᏅᎯ", "ᎪᏪᎵ ᏗᎦᏘᏍᏗ", "ᏗᎳᏏᏙᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("účtenka"),
+			keywords: &[
+				"doklad",
+				"důkaz",
+				"faktura",
+				"potvrzení",
+				"stvrzenka",
+				"účet",
+				"účetnictví",
+				"účetní",
+				"účtenka",
+				"účty",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("derbynneb"),
+			keywords: &["cadw llyfrau", "cyfrifyddu", "derbynneb", "prawf", "tystiolaeth"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("kvittering"),
+			keywords: &["bevis", "bilag", "bogføring", "kvittering", "regnskab"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Beleg"),
+			keywords: &[
+				"Abrechnung",
+				"Aufstellung",
+				"Beleg",
+				"Blatt",
+				"Buchhalter",
+				"Buchhaltung",
+				"Quittung",
+				"Rechnung",
+				"Rechnungswesen",
+				"Schriftstück",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("απόδειξη"),
+			keywords: &[
+				"αποδείξεις",
+				"αποδεικτικά στοιχεία",
+				"απόδειξη",
+				"λογιστικά",
+				"λογιστική",
+				"τιμολόγιο",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("receipt"),
+			keywords: &["accounting", "bookkeeping", "evidence", "invoice", "proof", "receipt"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("recibo"),
+			keywords: &["contabilidad", "prueba", "recibo", "teneduría de libros", "testimonio"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"contabilidad",
+				"contador",
+				"contaduría",
+				"cuenta",
+				"escritura",
+				"evidencia",
+				"factura",
+				"prueba",
+				"recibo",
+				"registro",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["contabilidad", "contaduría", "evidencia", "recibo"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kviitung"),
+			keywords: &["arvepidamine", "dokument", "kviitung", "raamatupidamine", "tõend"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("ordainagiri"),
+			keywords: &["froga", "kontabilitate", "ordainagiri"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("رسید"),
+			keywords: &[
+				"ثبت",
+				"حساب داری",
+				"حساب رسی",
+				"حساب و کتاب",
+				"حساب کتاب",
+				"حسابداری",
+				"حسابرسی",
+				"دفتردار",
+				"دفترداری",
+				"رسید",
+				"صورت حساب",
+				"صورتحساب",
+				"فاکتور",
+				"مدرک",
+				"گواه",
+				"گواهی",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kuitti"),
+			keywords: &["kirjanpito", "kuitti", "kulut", "tilinpito", "todistus", "tosite"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("resibo"),
+			keywords: &["accounting", "bookkeeping", "katibayan", "patunay", "resibo"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("kvittan"),
+			keywords: &["keyp", "kvittan", "prógv", "søla"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("reçu"),
+			keywords: &[
+				"compta",
+				"comptabilité",
+				"comptable",
+				"facture",
+				"faire les comptes",
+				"justificatif",
+				"preuve",
+				"reçu",
+				"ticket de caisse",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("admháil"),
+			keywords: &["admháil", "cuntasaíocht", "fianaise", "leabharchoiméad", "sonrasc"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cuidhteas"),
+			keywords: &[
+				"cuidhteas",
+				"cunntas",
+				"cunntasachd",
+				"dearbh",
+				"dearbhadh",
+				"dearbhaich",
+				"fianais",
+				"leabhar-chunntas",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("recibo"),
+			keywords: &["contabilidade", "resgardo", "tícket", "xustificante"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("રસીદ"),
+			keywords: &[
+				"ઇનવોઇસ",
+				"એકાઉન\u{acd}ટિ\u{a82}ગ",
+				"નામ\u{ac1}\u{a82}",
+				"પ\u{ac1}રાવો",
+				"પ\u{acd}ર\u{ac2}ફ",
+				"બિલ",
+				"બ\u{ac1}કકિપિ\u{a82}ગ",
+				"રસીદ",
+				"રિસિપ\u{acd}ટ",
+				"સાબિતી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("rasit"),
+			keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "rasiti", "shaida"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("rasit"),
+			keywords: &["ajiyar kuɗi", "hujja", "lissafin kuɗi", "rasit", "rasiti", "shaida"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("קבלה"),
+			keywords: &["הוכחה", "הנהלת חשבונות", "חשבונית", "קבלה", "ראיית חשבון"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("रसीद"),
+			keywords: &[
+				"अकाउ\u{902}ट",
+				"कागज\u{93c}",
+				"खाता",
+				"खात\u{947}",
+				"नोट",
+				"प\u{94d}रमाण",
+				"प\u{94d}र\u{942}फ\u{93c}",
+				"बहिखाता",
+				"बहीखाता",
+				"रसीद",
+				"रिसीट",
+				"ल\u{902}बा",
+				"ल\u{902}बी",
+				"लिस\u{94d}ट",
+				"ल\u{947}खा\u{902}कन",
+				"साक\u{94d}ष\u{94d}य",
+				"स\u{942}ची",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("račun"),
+			keywords: &["dokaz", "dokaz o kupnji", "faktura", "knjigovodstvo", "račun", "računovodstvo"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nyugta"),
+			keywords: &[
+				"bizonylat",
+				"bizonyíták",
+				"bizonyíték",
+				"könyvelés",
+				"nyugta",
+				"pénzügyek",
+				"számla",
+				"számvitel",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("անդորրագիր"),
+			keywords: &["անդորրագիր", "ապացույց", "հաշվապահություն", "վկայություն"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("kuitansi"),
+			keywords: &[
+				"akuntansi",
+				"bon",
+				"bukti",
+				"bukti pembayaran",
+				"faktur",
+				"kuitansi",
+				"kwitansi",
+				"pembukuan",
+				"resi",
+				"tagihan",
+				"tanda terima",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("akwukwo ngwa ahia"),
+			keywords: &["akwukwo ngwa ahia", "ihe akaebe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("kvittun"),
+			keywords: &["bókfærsla", "bókhald", "endurskoðun", "kvittun", "sönnun", "sönnunargagn"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("scontrino"),
+			keywords: &[
+				"contabilità",
+				"fattura",
+				"invoice",
+				"prova",
+				"ricevuta",
+				"ricevuta di pagamento",
+				"scontrino",
+				"tenuta dei libri",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("レシート"),
+			keywords: &["レシート", "会計", "簿記", "請求書", "領収書"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("struk tetukon"),
+			keywords: &["akuntansi", "bukti", "kwitansi", "pembukuan", "struk tetukon"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ქვითარი"),
+			keywords: &["ბუღალტერია", "მტკიცებულება", "საბუთი", "ქვითარი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("awwaḍ"), keywords: &["awwaḍ"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("түбіртек"),
+			keywords: &["бухгалтерлік", "бухгалтерлік есеп", "дәлел", "растау", "түбіртек"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បង\u{17d2}កាន\u{17cb}ដៃ"),
+			keywords: &[
+				"ការកត\u{17cb}ត\u{17d2}រាក\u{17d2}ន\u{17bb}ងបញ\u{17d2}ជ\u{17b8}គណនេយ\u{17d2}យ",
+				"គណនេយ\u{17d2}យ",
+				"ត\u{17b9}កតាង",
+				"បង\u{17d2}កាន\u{17cb}ដៃ",
+				"ភស\u{17d2}ត\u{17bb}តាង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರಸ\u{cc0}ದ\u{cbf}"),
+			keywords: &[
+				"ಅಕ\u{ccc}ಂಟ\u{cbf}ಂಗ\u{ccd}",
+				"ಇನ\u{ccd}\u{200c}ವಾಯ\u{ccd}ಸ\u{ccd}",
+				"ಋಜುವಾತು",
+				"ದಸ\u{ccd}ತಾವ\u{cc7}ಜು ನ\u{cbf}ರ\u{ccd}ವಹಣ\u{cc6}",
+				"ಪುರಾವ\u{cc6}",
+				"ಪುರಾವ\u{cc6}ಗಳು",
+				"ಬುಕ\u{ccd}\u{200c}ಕ\u{cc0}ಪ\u{cbf}ಂಗ\u{ccd}",
+				"ರಸ\u{cc0}ದ\u{cbf}",
+				"ಲ\u{cc6}ಕ\u{ccd}ಕಪತ\u{ccd}ರ",
+				"ಲ\u{cc6}ಕ\u{ccd}ಕಪತ\u{ccd}ರ ನ\u{cbf}ರ\u{ccd}ವಹಣ\u{cc6}",
+				"ಸಂದಾಯದ ರಶ\u{cc0}ದ\u{cbf}",
+				"ಸರಕುಪಟ\u{ccd}ಟ\u{cbf}",
+				"ಸಾಕ\u{ccd}ಷ\u{ccd}ಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("영수증"),
+			keywords: &["기록", "영수증", "증빙", "청구", "회계"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पावती"),
+			keywords: &["गवाय", "पावती", "प\u{941}रावो", "हिशोब", "हिशोब बरोवप"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("дүмүрчөк"),
+			keywords: &["бухгалтерия", "далил", "документ", "дүмүрчөк", "эсеп-кысап"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໃບຮ\u{eb1}ບເງ\u{eb4}ນ"),
+			keywords: &[
+				"ການບ\u{eb1}ນຊ\u{eb5}",
+				"ຂ\u{ecd}\u{ec9}ພ\u{eb4}ສ\u{eb9}ດ",
+				"ຜ\u{eb9}\u{ec9}ຖ\u{eb7}ບ\u{eb1}ນຊ\u{eb5}",
+				"ຫ\u{ebc}\u{eb1}ກຖານ",
+				"ໃບຮ\u{eb1}ບເງ\u{eb4}ນ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("čekis"),
+			keywords: &["apskaita", "čekis", "įrodymai"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("kvīts"),
+			keywords: &["apstiprinājums", "grāmatvedība", "kvīts", "pierādījums", "uzskaite"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("сметка"),
+			keywords: &[
+				"доказ",
+				"евиденција",
+				"потврда",
+				"сметка",
+				"сметководство",
+				"фактура",
+				"фискална",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("രസീത\u{d4d}"),
+			keywords: &[
+				"അക\u{d4d}ക\u{d57}ണ\u{d4d}ടിംഗ\u{d4d}",
+				"തെളിവ\u{d4d}",
+				"തെളിവ\u{d4d} രേഖ",
+				"ബ\u{d41}ക\u{d4d}ക\u{d4d} സ\u{d42}ക\u{d4d}ഷിക\u{d4d}കൽ",
+				"രസീത\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("төлбөрийн баримт"),
+			keywords: &["баримт", "данс хөтлөх", "нотолгоо", "нягтлан бодох", "төлбөрийн баримт"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("रीसिप\u{94d}ट"),
+			keywords: &[
+				"इनव\u{94d}हॉइस",
+				"जमाखर\u{94d}च",
+				"दाखला",
+				"पावती",
+				"प\u{941}रावा",
+				"प\u{941}स\u{94d}तपालन",
+				"बीजक",
+				"रीसिप\u{94d}ट",
+				"ल\u{947}खा",
+				"ल\u{947}खापरीक\u{94d}षण",
+				"हिश\u{947}ब",
+				"हिश\u{947}बनीस",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("resit"),
+			keywords: &[
+				"bukti",
+				"invois",
+				"keterangan",
+				"penyata",
+				"perakaunan",
+				"resit",
+				"simpan kira",
+				"simpan kira-kira",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပြေစာ"),
+			keywords: &[
+				"စာရင\u{103a}းက\u{102d}\u{102f}င\u{103a}ခြင\u{103a}း",
+				"စာရင\u{103a}းက\u{102d}\u{102f}င\u{103a}လ\u{102f}ပ\u{103a}ငန\u{103a}း",
+				"ပြေစာ",
+				"အက\u{102d}\u{102f}းအကား",
+				"အထောက\u{103a}အထား",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("भर\u{94d}पाई"),
+			keywords: &["प\u{94d}रमाण", "ब\u{941}ककिपिङ", "भर\u{94d}पाई", "ल\u{947}खा"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("kassabon"),
+			keywords: &[
+				"administratie",
+				"bewijs",
+				"boekhouden",
+				"boekhouding",
+				"bonnetje",
+				"factuur",
+				"kassabon",
+				"kwitantie",
+				"rekening",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "rekneskap"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ରସ\u{b3f}ଦ"),
+			keywords: &[
+				"ଏକ\u{b3e}ଉଣ\u{b4d}ଟ\u{b3f}ଂ",
+				"ପ\u{b4d}ରମ\u{b3e}ଣ",
+				"ବ\u{b41}କକ\u{b3f}ପ\u{b3f}ଙ\u{b4d}ଗ",
+				"ରସ\u{b3f}ଦ",
+				"ସ\u{b41}ର\u{b3e}ଗ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਰਸੀਦ"),
+			keywords: &["ਪ\u{a4d}ਰਮਾਣ", "ਬਿ\u{a71}ਲ", "ਰਸੀਦ", "ਲ\u{a47}ਖਾ", "ਵਹੀ-ਖਾਤਾ", "ਸਬ\u{a42}ਤ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Risit"),
+			keywords: &["Akaunt", "Bukkípin", "Pruv", "Risit"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("paragon"),
+			keywords: &[
+				"dowód",
+				"faktura",
+				"księgowość",
+				"kwitek",
+				"paragon",
+				"pokwitowanie",
+				"rachunek",
+				"rachunkowość",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("رسيد"),
+			keywords: &["ثبوت", "حساب کتاب", "دليل", "رسيد", "کتاب ساتنه"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("recibo"),
+			keywords: &["contabilidade", "escrituração", "evidência", "fatura", "prova", "recibo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["comprovativo", "contabilidade", "fatura", "prova", "recibo", "tesouraria"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("recibo"),
+			keywords: &["chaskiy", "contabilidad", "evidencia", "prueba", "recibo"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("chitanță"),
+			keywords: &[
+				"chitanță",
+				"contabilitate",
+				"dovadă",
+				"evidențe",
+				"evidență",
+				"factură",
+				"proces-verbal",
+				"recipisă",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E11-072"), keywords: &["E11-072"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("чек"),
+			keywords: &["бухгалтерия", "доказательство", "квитанция", "счет", "фактура", "чек"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("رسيد"),
+			keywords: &["اڪائونٽنگ", "بڪ ڪيپنگ", "ثبوت", "رسيد"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ර\u{dd2}ස\u{dd2}ට\u{dca} පත"),
+			keywords: &[
+				"ග\u{dd2}ණ\u{dd4}ම\u{dca}කරණය",
+				"පොත\u{dca} තැබ\u{dd3}ම",
+				"ර\u{dd2}ස\u{dd2}ට\u{dca} පත",
+				"ස\u{dcf}ක\u{dca}ෂ\u{dd2}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("účtenka"),
+			keywords: &[
+				"doklad",
+				"dôkaz",
+				"faktúra",
+				"paragón",
+				"potvrdenie",
+				"potvrdenka",
+				"príjmový doklad",
+				"účtenka",
+				"účtovná evidencia",
+				"účtovníctvo",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("račun"),
+			keywords: &["dokaz", "dokazilo", "knjigovodstvo", "račun", "računovodstvo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("rasiidh"),
+			keywords: &["cadeyn", "markhaati", "rasiidh", "xisaabaadka", "xisaabinta"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("faturë"),
+			keywords: &["bllok llogarie", "faturë", "kontabilitet", "mandatpagesë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("признаница"),
+			keywords: &["доказ", "књиговодство", "потврда", "признаница", "рачуноводство"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("priznanica"),
+			keywords: &["dokaz", "knjigovodstvo", "potvrda", "priznanica", "računovodstvo"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("kvitto"),
+			keywords: &["belägg", "bevis", "bokföring", "kvitto", "redovisning"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("risiti"),
+			keywords: &["rekodi", "risiti", "thibitisho", "uhasibu", "ushahidi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ரச\u{bc0}து"),
+			keywords: &[
+				"ஆத\u{bbe}ரம\u{bcd}",
+				"இன\u{bcd}வ\u{bbe}ய\u{bcd}ஸ\u{bcd}",
+				"கணக\u{bcd}குவழக\u{bcd}கு",
+				"ச\u{bbe}ட\u{bcd}சியம\u{bcd}",
+				"பொருள\u{bcd}",
+				"ரச\u{bc0}து",
+				"வரவு செலவு",
+				"விலை பட\u{bcd}டியல\u{bcd}",
+				"விலைப\u{bcd}பட\u{bcd}டியல\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("రస\u{c40}దు"),
+			keywords: &[
+				"అక\u{c4c}ంట\u{c3f}ంగ\u{c4d}",
+				"ఇన\u{c4d}వ\u{c3e}య\u{c3f}స\u{c4d}",
+				"ఎవ\u{c3f}డ\u{c46}న\u{c4d}స\u{c4d}",
+				"పుస\u{c4d}తకంల\u{c4b} న\u{c4b}ట\u{c4d} చ\u{c47}సుక\u{c4b}వడం",
+				"ప\u{c4d}రూఫ\u{c4d}",
+				"బుక\u{c4d} క\u{c40}ప\u{c3f}ంగ\u{c4d}",
+				"రస\u{c40}దు",
+				"ర\u{c3f}స\u{c40}ట\u{c4d}",
+				"రుజువు",
+				"స\u{c3e}క\u{c4d}ష\u{c4d}యం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ใบเสร\u{e47}จ"),
+			keywords: &[
+				"บ\u{e31}ญช\u{e35}",
+				"บ\u{e34}ล",
+				"ร\u{e31}บเง\u{e34}น",
+				"หล\u{e31}กฐาน",
+				"แจ\u{e49}งหน\u{e35}\u{e49}",
+				"ใบเสร\u{e47}จ",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ቅብሊት"),
+			keywords: &["መርትዖ", "መርትዖታት", "ምሕላው መዝገብ", "ቅብሊት", "ኣካውንቲንግ", "ፋክቱር"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("töleg haty"),
+			keywords: &["delil", "hasaphana", "hasapçylyk", "kwitansiýa", "subutnama", "töleg haty"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("lisiti"), keywords: &["lisiti"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("makbuz"),
+			keywords: &[
+				"bakiye",
+				"belge",
+				"defter tutma",
+				"dekont",
+				"ekstre",
+				"evrak",
+				"fatura",
+				"finans",
+				"fiş",
+				"hesap",
+				"irsaliye",
+				"kanıt",
+				"kayıt",
+				"kağıt",
+				"makbuz",
+				"maliye",
+				"maliyet",
+				"muhasebe",
+				"senet",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("квитанція"),
+			keywords: &[
+				"бухгалтерія",
+				"доказ",
+				"документ",
+				"квитанція",
+				"рахунок",
+				"рахунок-фактура",
+				"фактура",
+				"чек",
+				"інвойс",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("رسید"),
+			keywords: &[
+				"اکاؤنٹنگ",
+				"اکاؤنٹنگ، ب\u{64f}ک کیپنگ، مشاہدہ، ثبوت، رسید، انوائس",
+				"ثبوت",
+				"حساب نویسی",
+				"رسید",
+				"شہادت",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("chek"),
+			keywords: &["buxgalteriya", "chek", "cho‘t", "hisob", "hisobchilik"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("biên nhận"),
+			keywords: &[
+				"biên nhận",
+				"chứng từ",
+				"ghi sổ sách",
+				"giấy tờ chứng thực",
+				"hóa đơn",
+				"kế toán",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ìwé owó"),
+			keywords: &["erí", "ìdájú", "ìwé owó"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ìwé owó"),
+			keywords: &["erí", "ìdájú", "ìwé owó"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("收據"),
+			keywords: &["收據", "會計", "簿記", "證據", "證明"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("收据"),
+			keywords: &["会计", "收据", "簿记", "证据", "证明"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("收据"),
+			keywords: &[
+				"会计", "信封", "凭据", "发票", "收据", "收条", "簿记", "记账", "证据", "证明", "账单",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("收據"),
+			keywords: &["收執聯", "收據", "會計", "發票", "簿記", "紙本", "記帳", "證據", "證明"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["單", "帳單", "收據", "明細", "會計", "發票", "簿記", "記賬", "證據", "證明"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("receipt"),
+			keywords: &["accounting", "bookkeeping", "evidence", "proof", "receipt"],
 		},
 	],
 };

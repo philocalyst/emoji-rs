@@ -24,19 +24,6 @@ pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🎚\u{fe0f}"]
-pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
-	glyph:                "🎚\u{fe0f}",
-	codepoint:            &[127898u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "level slider",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Music,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🎧\u{fe0f}"]
 pub const HEADPHONE: crate::Emoji = crate::Emoji {
 	glyph:                "🎧\u{fe0f}",
@@ -2361,19 +2348,6 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🎛\u{fe0f}"]
-pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
-	glyph:                "🎛\u{fe0f}",
-	codepoint:            &[127899u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "control knobs",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Music,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🎼"]
 pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
 	glyph:                "🎼",
@@ -3157,4 +3131,30 @@ pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
 			keywords: &["umbhalo", "umbhalo womculo", "umculo"],
 		},
 	],
+};
+#[doc = "🎛\u{fe0f}"]
+pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
+	glyph:                "🎛\u{fe0f}",
+	codepoint:            &[127899u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "control knobs",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Music,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🎚\u{fe0f}"]
+pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
+	glyph:                "🎚\u{fe0f}",
+	codepoint:            &[127898u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "level slider",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Music,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

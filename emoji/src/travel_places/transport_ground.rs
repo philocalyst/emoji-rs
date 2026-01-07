@@ -3604,890 +3604,6 @@ pub const RACING_CAR: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🚈"]
-pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
-	glyph:                "🚈",
-	codepoint:            &[128648u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "light rail",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("smalspoortrein"),
-			keywords: &[
-				"aangekom",
-				"enkelspoorbaan",
-				"ligte spoorlyn",
-				"smalspoortrein",
-				"sneltrein",
-				"spoor",
-				"spoorweg",
-				"trein",
-				"voertuig",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ቀላል ባቡር"),
-			keywords: &["መድረስ", "ቀላል ባቡር", "ባቡር መንገድ", "ተሽከርካሪ", "ነጠላ ሃዲድ", "የባቡር መንገድ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("نقل خفيف"),
-			keywords: &["خفيف", "سفر", "سكة حديد", "قطار", "مركبة", "نقل خفيف", "نقل عام"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9be}তল ৰেইল"),
-			keywords: &["প\u{9be}তল ৰেইল", "ৰেইলৱে"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("işıq qatarı"),
-			keywords: &["dəmir yolu", "dəmiryolu", "işıq qatarı", "monorels", "nəqliyyat"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("электрычка"),
-			keywords: &["бч", "рэйкі", "чыгунка", "электрычка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("лека железница"),
-			keywords: &["железница", "лека железница", "превозно средство"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("রেলের ল\u{9be}ইট"),
-			keywords: &["য\u{9be}নব\u{9be}হন", "রেলওয\u{9bc}ে", "রেলের ল\u{9be}ইট", "রেলের ল\u{9be}ইন"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("metro skañv"),
-			keywords: &["hent-houarn", "metro skañv"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("svjetlosna pruga"),
-			keywords: &["svjetlosna pruga", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("tren lleuger"),
-			keywords: &[
-				"arribada",
-				"arribat",
-				"ferrocarril",
-				"ferrocarril lleuger",
-				"metro lleuger",
-				"monorail",
-				"tren",
-				"tren lleuger",
-				"vehicle",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏎᎧ ᏗᏐᏲ"),
-			keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᎦᏎᎧ ᏗᏐᏲ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("rychlodrážní tramvaj"),
-			keywords: &[
-				"doprava",
-				"jednokolejka",
-				"příjezd",
-				"příměstský vlak",
-				"rychlodrážní tramvaj",
-				"tramvaj",
-				"vozidlo",
-				"železnice",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("rheilffordd ysgafn"),
-			keywords: &["rheilffordd", "rheilffordd ysgafn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("letbane"),
-			keywords: &["køretøj", "letbane", "tog"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("S-Bahn"),
-			keywords: &["Bahn", "ICE", "Monorail", "S-Bahn", "Zug"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ελαφρύς σιδηρόδρομος"),
-			keywords: &["αφίχθη", "ελαφρύς σιδηρόδρομος", "προαστιακός", "σιδηρόδρομος", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("light rail"),
-			keywords: &["arrived", "light", "monorail", "rail", "railway"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("tren ligero"),
-			keywords: &["ferrocarril", "transporte", "tren", "tren ligero"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["ferrocarril", "monorriel", "transporte", "tren", "tren ligero", "viaje"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("kergraudtee"),
-			keywords: &["kergraudtee", "raudtee", "rong", "saabunud", "sõiduk"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("tren arina"),
-			keywords: &["ibilgailu", "tren arina", "trenbide"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قطار سبک شهری"),
-			keywords: &["راه\u{200c}آهن", "ریل", "قطار سبک شهری", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kevytraidejuna"),
-			keywords: &["ajoneuvo", "juna", "kevytraidejuna", "rautatie"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("light rail"),
-			keywords: &["light rail", "lrt", "mrt", "sasakyan", "tren"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("nærtok"), keywords: &["nærtok", "tok"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("métro léger"),
-			keywords: &["RER", "monorail", "moyen de transport", "métro", "métro léger", "rail"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("train de banlieue"),
-			keywords: &["chemin de fer", "métro léger", "train de banlieue"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("iarnród éadrom"),
-			keywords: &["aonráille", "feithicil", "iarnród", "iarnród éadrom", "éadrom. iarnród"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("rèile aotrom"),
-			keywords: &["rathad-iarainn", "rèile", "rèile aotrom", "slighe-iarainn"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("tren lixeiro"),
-			keywords: &["tranvía", "tren lixeiro"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("લાઇટ ર\u{ac7}લ"),
-			keywords: &["ર\u{ac7}લ", "લાઇટ", "વાહન", "સવારી"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("reluwe na cunkoso mara yawa"),
-			keywords: &[
-				"jirgin ƙasa mai titi ɗaya",
-				"reluwe",
-				"reluwe na cunkoso mara yawa",
-				"tashar jirgin ƙasa",
-				"ya iso",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("reluwe na cunkoso mara yawa"),
-			keywords: &[
-				"jirgin ƙasa mai titi ɗaya",
-				"reluwe",
-				"reluwe na cunkoso mara yawa",
-				"tashar jirgin ƙasa",
-				"ya iso",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("רכבת קלה"),
-			keywords: &["חדפס", "קלה", "רכבת", "תחבורה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("लाइट र\u{947}ल"),
-			keywords: &["आगमन", "र\u{947}ल", "र\u{947}लव\u{947}", "लाइट र\u{947}ल", "वाहन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("laka željeznica"),
-			keywords: &["dolazak", "laka željeznica", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("hév"),
-			keywords: &["hév", "jármű", "közlekedés", "metró", "vasút"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("վերգետնյա մետրո"),
-			keywords: &["երկաթուղի", "վերգետնյա մետրո", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("light rail"),
-			keywords: &["light", "monorail", "monorel", "rail", "tiba"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("nwa obere ọkụ okporoigwe"),
-			keywords: &["nwa obere ọkụ okporoigwe", "okporoigwe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("léttlest"),
-			keywords: &["lest", "létt", "léttlest"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("metrotranvia"),
-			keywords: &[
-				"arrivare",
-				"ferrovia",
-				"metrotranvia",
-				"mezzo",
-				"monorotaia",
-				"tram",
-				"trasporti",
-				"trasporto",
-				"treno",
-				"veicolo",
-				"viaggiare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ライトレール"),
-			keywords: &["モノレール", "ライトレール", "乗り物", "鉄道", "電車"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("sepur LRT"),
-			keywords: &["jalur ril", "sepur LRT"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მსუბუქი რკინიგზა"),
-			keywords: &["მსუბუქი რკინიგზა", "რკინიგზა", "ტრანსპორტი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("amitru afess"),
-			keywords: &["amitru afess"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("тар табанды темір жол"),
-			keywords: &["көлік", "тар табанды темір жол", "темір жол"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("letbane"),
-			keywords: &["køretøj", "letbane", "tog"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("រថភ\u{17d2}លើងក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង"),
-			keywords: &[
-				"ក\u{17d2}បាលរថភ\u{17d2}លើង",
-				"រថភ\u{17d2}លើង",
-				"រថភ\u{17d2}លើងក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಲಘು ರ\u{cc8}ಲು"),
-			keywords: &[
-				"ನ\u{cbf}ಲ\u{ccd}ದಾಣ",
-				"ಬಂದರು",
-				"ಮ\u{cca}ನ\u{ccb}ರ\u{cc8}ಲು",
-				"ರ\u{cc8}ಲು",
-				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
-				"ಲಘು ರ\u{cc8}ಲು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("경전철"),
-			keywords: &["경전철", "교통수단", "기차", "도착", "모노레일", "바트"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("लायट र\u{947}ल"),
-			keywords: &["र\u{947}ल\u{94d}व\u{947}", "लायट र\u{947}ल"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("чакан метро"),
-			keywords: &["темир жол", "чакан метро"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Stadbunn"),
-			keywords: &["Eisebunn", "Stadbunn"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລາງລ\u{ebb}ດເບ\u{ebb}າ"),
-			keywords: &["ພາຫະນະ", "ລາງລ\u{ebb}ດເບ\u{ebb}າ", "ລ\u{ebb}ດໄຟ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("miesto tramvajus"),
-			keywords: &["geležinkelis", "miesto tramvajus"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("piepilsētas vilciens"),
-			keywords: &["dzelzceļš", "piepilsētas vilciens", "transports", "viensliedes", "vilciens"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("rerewē māmā"),
-			keywords: &["rerewē", "rerewē māmā"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("лесна железница"),
-			keywords: &[
-				"воз",
-				"возило",
-				"едношинска железница",
-				"железница",
-				"лесна железница",
-				"пристигна",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ലൈറ\u{d4d}റ\u{d4d} റെയിൽ"),
-			keywords: &["റെയിൽ", "ലൈറ\u{d4d}റ\u{d4d}", "വ\u{d3e}ഹനം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хөнгөн төмөр зам"),
-			keywords: &["төмөр зам", "хөнгөн", "хөнгөн төмөр зам"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("लाइट र\u{947}ल"),
-			keywords: &[
-				"ट\u{94d}र\u{947}न",
-				"प\u{94d}रकाश",
-				"र\u{947}ल\u{94d}व\u{947}",
-				"लाइट र\u{947}ल",
-				"वाहन",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("rel ringan"),
-			keywords: &[
-				"kenderaan",
-				"landasan kereta api",
-				"lrt",
-				"monorel",
-				"rel kereta api",
-				"rel ringan",
-				"tiba",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ferrovija ħafifa"),
-			keywords: &["ferrovija", "ferrovija ħafifa"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အပေါ\u{1037}စား ရထား"),
-			keywords: &["ရထားလမ\u{103a}း", "အပေါ\u{1037}စား ရထား"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("हल\u{94d}का र\u{947}ल"),
-			keywords: &["गाडी", "र\u{947}लव\u{947}", "हल\u{94d}का र\u{947}ल"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("lightrail"),
-			keywords: &["lightrail", "monorail", "spoor", "vervoermiddel", "voertuig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["framkomstmiddel", "jernbane", "lokaltog"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ହ\u{b3e}ଲକ\u{b3e} ଟ\u{b4d}ରେନ\u{b4d}\u{200c}"),
-			keywords: &[
-				"ବ\u{b3e}ହ\u{b3e}ନ",
-				"ରେଳ",
-				"ଲ\u{b3e}ଇଟ\u{b4d}",
-				"ହ\u{b3e}ଲକ\u{b3e} ଟ\u{b4d}ରେନ\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਲਾਈਟ ਰ\u{a47}ਲ"),
-			keywords: &[
-				"ਟਰ\u{a47}ਨ",
-				"ਪਹ\u{a41}\u{a70}ਚਣਾ",
-				"ਮ\u{a48}ਟਰ\u{a4b}",
-				"ਰ\u{a47}ਲ",
-				"ਰ\u{a47}ਲਵ\u{a47}",
-				"ਲਾਈਟ ਰ\u{a47}ਲ",
-				"ਵਾਹਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("لائٹ ٹرین"),
-			keywords: &["ریلوے", "لائٹ ٹرین"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Laít Rel"),
-			keywords: &["Laít Rel", "Relwè"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("kolej miejska"),
-			keywords: &[
-				"kolej",
-				"kolejka",
-				"metro",
-				"miejska",
-				"pociąg",
-				"podmiejska",
-				"podmiejski",
-				"pojazd",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("کوچنی اور کاډی"),
-			keywords: &["ريلوی", "کوچنی اور کاډی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("trem urbano"),
-			keywords: &["chegada", "cheguei", "leve", "trem", "trem urbano", "veículo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("metro de superfície"),
-			keywords: &["linha ferroviária", "metro de superfície", "monocarril", "veículo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("tren ligero"),
-			keywords: &["ferrocarril", "tren ligero", "tren logero"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("tren ușor"),
-			keywords: &["cale ferată", "monorai", "sosire", "sosit", "tren ușor", "șine", "șină"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-924"), keywords: &["E10-924"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("легкий рельсовый транспорт"),
-			keywords: &[
-				"легкий рельсовый транспорт",
-				"метро",
-				"монорельс",
-				"трамвай",
-				"транспорт",
-				"электричка",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("gariyamoshi yoroheje"),
-			keywords: &["gariyamoshi yoroheje", "irayirayi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("برقي جي ري گاڏي"),
-			keywords: &["برقي جي ري گاڏي", "ريلوي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("සැහැල\u{dca}ල\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
-			keywords: &[
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
-				"ව\u{dcf}හනය",
-				"සැහැල\u{dca}ල\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("ľahké metro"),
-			keywords: &[
-				"cestovanie",
-				"doprava",
-				"dopravný prostriedok",
-				"električka",
-				"mestský vlak",
-				"vlak",
-				"ľahké metro",
-				"železnica",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("ozkotirna železnica"),
-			keywords: &["ozkotirna železnica", "vlak", "vozilo", "železnica"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("tareenka fudud"),
-			keywords: &["jidka tareenka", "tareenka fudud"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("metro e lehtë"),
-			keywords: &["hekurudhë", "mbërriti", "metro e lehtë", "mjet"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("градска железница"),
-			keywords: &["град", "железница", "монорејл"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("градска жељезница"),
-			keywords: &["градска жељезница", "жељeзницa"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("gradska železnica"),
-			keywords: &["grad", "monorejl", "železnica"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("gradska željeznica"),
-			keywords: &["gradska željeznica", "željeznica"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("snabbspårväg"),
-			keywords: &["fordon", "lättbana", "snabbspårväg", "snabbtåg"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("reli nyepesi"),
-			keywords: &["gari", "reli", "reli nyepesi"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("லைட\u{bcd} ரயில\u{bcd}"),
-			keywords: &[
-				"இரயில\u{bcd}",
-				"மோனோரயில\u{bcd}",
-				"ரயில\u{bcd}",
-				"ரயில\u{bcd}வே",
-				"லைட\u{bcd} ரயில\u{bcd}",
-				"வந\u{bcd}தடைந\u{bcd}தது",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("తక\u{c4d}కువ పర\u{c3f}మ\u{c3e}ణ ర\u{c48}లు"),
-			keywords: &[
-				"తక\u{c4d}కువ పర\u{c3f}మ\u{c3e}ణ ర\u{c48}లు",
-				"పర\u{c3f}మ\u{c3e}ణం",
-				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"మ\u{c4b}న\u{c4b}ర\u{c48}ల\u{c4d}",
-				"ర\u{c48}లు",
-				"ర\u{c48}ల\u{c4d}వ\u{c47}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("метрои сабук"),
-			keywords: &["метрои сабук", "роҳи оҳан"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("รถไฟรางเบา"),
-			keywords: &["ยานพาหนะ", "รถไฟ", "รถไฟรางเบา"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዜጋ"),
-			keywords: &["መንገዲ ባቡር", "ሞኖረይል", "በጺሑ", "ባቡር", "ብርሃን"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýeňil metro"),
-			keywords: &["demir ýol", "ýeňil metro"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("kiʻi lēlue"),
-			keywords: &["kiʻi lēlue", "lēlue"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("hafif raylı"),
-			keywords: &[
-				"demiryolu",
-				"hafif",
-				"hafif raylı",
-				"taşıt",
-				"tren",
-				"tren yolculuğu",
-				"tren yolu",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يېنىك تۆمۈريول"),
-			keywords: &["تۆمۈريول", "يېنىك تۆمۈريول"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("швидкісний трамвай"),
-			keywords: &["електропоїзд", "залізниця", "поїзд", "транспорт", "швидкісний трамвай"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("لائٹ ریل"),
-			keywords: &["آمد", "بارٹ ریل", "ریلوے", "سواری", "لائٹ ریل", "یکہ ریل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("tor izli temiryo‘l"),
-			keywords: &[
-				"bir izli osma temir yoʼl",
-				"temir yoʻl",
-				"temiryo‘l",
-				"tor izli temir yoʻl",
-				"tor izli temiryo‘l",
-				"transport",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("tàu điện nhẹ"),
-			keywords: &["tàu điện nhẹ", "xe cộ", "đường sắt"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("otoraay bu moome fépp"),
-			keywords: &["otoraay bu moome fépp", "raay"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("intonga yokukhanya"),
-			keywords: &["intonga yokukhanya", "isiporo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ọkọ oju-irin kekere"),
-			keywords: &["Ọkọ oju-irin kekere", "ọkọ Oju-irin"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ɔkɔ oju-irin kekere"),
-			keywords: &["Ɔkɔ oju-irin kekere", "ɔkɔ Oju-irin"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("輕鐵"), keywords: &["輕鐵", "鐵路"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("轻铁"), keywords: &["轻铁", "铁路"] },
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("轻轨"),
-			keywords: &["到站", "单轨电车", "火车", "轻轨"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("輕軌"),
-			keywords: &["抵達", "捷運", "火車", "輕軌", "鐵道"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("輕軌列車"),
-			keywords: &[
-				"列車",
-				"到站",
-				"到達",
-				"單軌",
-				"抵達",
-				"火車",
-				"火車到站",
-				"輕軌",
-				"輕軌列車",
-				"輕鐵",
-				"鐵路",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isitimela esingengethilamu"),
-			keywords: &["imoto", "isitimela esingengethilamu", "ujantshi"],
-		},
-	],
-};
 #[doc = "🚕"]
 pub const TAXI: crate::Emoji = crate::Emoji {
 	glyph:                "🚕",
@@ -9692,1047 +8808,6 @@ pub const TRACTOR: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🚞"]
-pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
-	glyph:                "🚞",
-	codepoint:            &[128670u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "mountain railway",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("bergtreinspoor"),
-			keywords: &[
-				"berg",
-				"bergtreinspoor",
-				"reis",
-				"spoor",
-				"spoorweg",
-				"trein",
-				"treinwa",
-				"voertuig",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የባቡር ሐዲድ ያለው ተራራ"),
-			keywords: &["ሃዲድ", "መኪና", "ተራራ", "ተሽከርካሪ", "የባቡር ሐዲድ ያለው ተራራ", "የባቡር መንገድ", "ፉርጎ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("سكة حديد جبلية"),
-			keywords: &["جبل", "رحلة", "سكة حديد", "سكة حديد جبلية", "عربة قطار جبلي", "مركبة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9be}হ\u{9be}ৰৰ ৰেইলৱে"),
-			keywords: &["গ\u{9be}ড\u{9bc}ী", "প\u{9be}হ\u{9be}ৰ", "প\u{9be}হ\u{9be}ৰৰ ৰেইলৱে", "ৰেইলৱে"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("dağ yolu"),
-			keywords: &["dağ", "dağ yolu", "dəmir yolu", "dəmiryolu", "maşın", "nəqliyyat"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("чыгунка ў гарах"),
-			keywords: &["гара", "рэйкі", "цягнік", "чыгунка", "чыгунка ў гарах"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("планинска железница"),
-			keywords: &["вагон", "железница", "планина", "планинска железница", "превозно средство"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("পর\u{9cd}বতের রেলওয\u{9bc}ে"),
-			keywords: &[
-				"পর\u{9cd}বত",
-				"পর\u{9cd}বতের রেলওয\u{9bc}ে",
-				"মোটরগ\u{9be}ড\u{9bc}ি",
-				"য\u{9be}নব\u{9be}হন",
-				"রেল",
-				"রেল ল\u{9be}ইন",
-				"রেলওয\u{9bc}ে",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("tren ar menezioù"),
-			keywords: &["hent-houarn", "tren ar menezioù"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("pruga kroz tunel"),
-			keywords: &["planina", "pruga kroz tunel", "voz", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("ferrocarril de muntanya"),
-			keywords: &["ferrocarril", "ferrocarril de muntanya", "muntanya", "vagó", "viatge"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎣᏓᎸ ᎦᏥᏄᎵ ᎤᎶᎯᏍᏗ"),
-			keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᎣᏓᎸ ᎦᏥᏄᎵ ᎤᎶᎯᏍᏗ", "ᏙᏆᎴᎵ", "ᏚᏅᏓᏢᎢ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("horská železnice"),
-			keywords: &[
-				"doprava",
-				"hora",
-				"horská železnice",
-				"horský vlak",
-				"hory",
-				"ozubnicová dráha",
-				"vagon",
-				"vagón",
-				"vozidlo",
-				"výlet",
-				"železnice",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("rheilffordd fynydd"),
-			keywords: &["car", "mynydd", "rheilffordd", "rheilffordd fynydd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("bjergbane"),
-			keywords: &["bjerg", "bjergbane", "jernbane", "svævebane", "tog"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Bergbahn"),
-			keywords: &["Bahn", "Bergbahn", "Bimmelbahn", "Zug"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ορεινός σιδηρόδρομος"),
-			keywords: &["βαγόνι", "βουνό", "ορεινός σιδηρόδρομος", "σιδηρόδρομος", "ταξίδι", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("mountain railway"),
-			keywords: &["car", "mountain", "railway", "trip"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("ferrocarril de montaña"),
-			keywords: &["ferrocarril", "ferrocarril de montaña", "montaña", "vehículo"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"ferrocarril",
-				"ferrocarril de montaña",
-				"montaña",
-				"transporte",
-				"tren",
-				"vehículo",
-				"viajar",
-				"viaje",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"ferrocarril",
-				"ferrocarril de montaña",
-				"montaña",
-				"transporte",
-				"tren",
-				"viajar",
-			],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"ferrocarril",
-				"ferrocarril de montaña",
-				"montaña",
-				"transporte",
-				"tren",
-				"viajar",
-			],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("mägiraudtee"),
-			keywords: &["mägi", "raudtee", "reis", "vagun"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("mendiko trenbidea"),
-			keywords: &["auto", "ibilgailu", "mendi", "mendiko trenbidea", "trenbide"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ریل کوهستانی"),
-			keywords: &[
-				"خودرو",
-				"راه\u{200c}آهن",
-				"ریل",
-				"ریل کوهستانی",
-				"وسیله نقلیه",
-				"وسیله\u{654} نقلیه",
-				"کوه",
-				"کوهستان",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("rinnerata"),
-			keywords: &["ajoneuvo", "funikulaari", "juna", "matka", "rautatie"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("mountain railway"),
-			keywords: &["bundok", "mountain railway", "sasakyan", "tren"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("fjallajarnbreyt"),
-			keywords: &["fjallajarnbreyt", "jarnbreyt", "tok"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("train de montagne"),
-			keywords: &[
-				"chemin de fer",
-				"moyen de transport",
-				"rail",
-				"train",
-				"train de montagne",
-				"voyage",
-				"wagon",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["chemin de fer", "montagne", "train", "train de montagne", "voiture", "wagon"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("iarnród sléibhe"),
-			keywords: &[
-				"carr",
-				"carr cábla sléibhe",
-				"feithicil",
-				"iarnród",
-				"iarnród sléibhe",
-				"sliabh",
-				"turas",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("rèile-bheinne"),
-			keywords: &[
-				"beinn",
-				"càr",
-				"còidse",
-				"rathad-iarainn",
-				"rèile",
-				"rèile-bheinne",
-				"slighe-iarainn",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("ferrocarril de montaña"),
-			keywords: &["ferrocarril", "ferrocarril de montaña"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પર\u{acd}વતોની ર\u{ac7}લ\u{acd}વ\u{ac7}"),
-			keywords: &[
-				"કાર",
-				"ક\u{ac1}દરત",
-				"પર\u{acd}વત",
-				"પર\u{acd}વતોની ક\u{ac5}બલ કાર",
-				"પર\u{acd}વતોની ર\u{ac7}લ\u{acd}વ\u{ac7}",
-				"મ\u{ac1}સાફરી",
-				"ર\u{ac7}લ\u{acd}વ\u{ac7}",
-				"વાહન",
-				"સવારી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("reluwen tsauni"),
-			keywords: &[
-				"jirgi",
-				"mota",
-				"reluwe",
-				"reluwen tsauni",
-				"tafiya",
-				"titin jirgin ƙasa na kan tsauni",
-				"tsauni",
-				"ƙaramar mota",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("reluwen tsauni"),
-			keywords: &[
-				"jirgi",
-				"mota",
-				"reluwe",
-				"reluwen tsauni",
-				"tafiya",
-				"titin jirgin ƙasa na kan tsauni",
-				"tsauni",
-				"ƙaramar mota",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("רכבת בהרים"),
-			keywords: &["הרים", "רכבת", "רכבת הררית", "תחבורה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("माउ\u{902}ट\u{947}न र\u{947}लव\u{947}"),
-			keywords: &[
-				"कार",
-				"गाडी",
-				"पहाड\u{93c}",
-				"पहाड\u{93c}ी क\u{947}बल कार",
-				"पहाड\u{93c}ी र\u{947}लव\u{947}",
-				"माउ\u{902}ट\u{947}न र\u{947}लव\u{947}",
-				"यात\u{94d}रा",
-				"वाहन",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("planinska željeznica"),
-			keywords: &["planina", "planinska željeznica", "vagon", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("hegyi vasút"),
-			keywords: &["hegyi vasút", "jármű", "kocsi", "közlekedés", "vasút"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("լեռնային երկաթուղի"),
-			keywords: &["երկաթուղի", "լեռ", "լեռնային երկաթուղի", "վագոն", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("jalur kereta pegunungan"),
-			keywords: &["gunung", "jalur kereta pegunungan", "kendaraan", "kereta", "mobil", "rel"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ugwu okporoigwe"),
-			keywords: &["okporoigwe", "ugwu", "ụgbọala"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("fjallalest"),
-			keywords: &["fjall", "fjallakláfur", "fjallalest", "kláfur", "lest"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("ferrovia di montagna"),
-			keywords: &[
-				"ferrovia",
-				"ferrovia di montagna",
-				"montagna",
-				"trasporti",
-				"treno",
-				"treno di montagna",
-				"veicolo",
-				"viaggiare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("登山鉄道"),
-			keywords: &["乗り物", "登山鉄道", "登山電車", "電車"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("jalur sepur nggunung"),
-			keywords: &["gunung", "jalur ril", "jalur sepur nggunung", "montor"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მთის რკინიგზა"),
-			keywords: &["მანქანა", "მთა", "მთის რკინიგზა", "რკინიგზა", "ტრანსპორტი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("таулы аймақтағы темір жол"),
-			keywords: &["автокөлік", "көлік", "пойыз", "тау", "таулы аймақтағы темір жол", "темір жол"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("bjergbane"),
-			keywords: &["bjergbane", "svævebane"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើងលើភ\u{17d2}ន\u{17c6}"),
-			keywords: &[
-				"ទ\u{17bc}រថភ\u{17d2}លើង",
-				"ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើង",
-				"ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើងលើភ\u{17d2}ន\u{17c6}",
-				"ភ\u{17d2}ន\u{17c6}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಪರ\u{ccd}ವತ ರ\u{cc8}ಲುಮಾರ\u{ccd}ಗ"),
-			keywords: &[
-				"ಕಾರ\u{ccd}",
-				"ಪರ\u{ccd}ವತ",
-				"ಪರ\u{ccd}ವತ ಕ\u{cc7}ಬಲ\u{ccd} ಕಾರ\u{ccd}",
-				"ಪರ\u{ccd}ವತ ರ\u{cc8}ಲುಮಾರ\u{ccd}ಗ",
-				"ಪ\u{ccd}ರವಾಸ",
-				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("기차 터널"),
-			keywords: &["기차", "산", "산악 철도", "산터널", "차", "터널"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पर\u{94d}वतीय र\u{947}ल\u{94d}व\u{947}"),
-			keywords: &[
-				"कार",
-				"पर\u{94d}वत",
-				"पर\u{94d}वतीय र\u{947}ल\u{94d}व\u{947}",
-				"र\u{947}ल\u{94d}व\u{947}",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("тоодогу темир жол"),
-			keywords: &["вагон", "темир жол", "тоо", "тоодогу темир жол", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Biergzuch"),
-			keywords: &["Bierg", "Biergzuch", "Eisebunn", "Waggon"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລາງລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ"),
-			keywords: &[
-				"ພາຫະນະ",
-				"ລາງລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ",
-				"ລ\u{ebb}ດໄຟ",
-				"ລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("kalnų traukinys"),
-			keywords: &[
-				"automobilis",
-				"geležinkelis",
-				"kalnas",
-				"kalnų traukinys",
-				"kelionė traukiniu",
-				"transporto priemonė",
-				"traukinys",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("kalnu dzelzceļš"),
-			keywords: &[
-				"dzelzceļš",
-				"kalni",
-				"kalnu dzelzceļš",
-				"transportlīdzeklis",
-				"transports",
-				"vagons",
-				"vilciens",
-			],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("rerewē maunga"),
-			keywords: &["maunga", "rerewē", "waka"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("планинска железница"),
-			keywords: &["вагон", "возило", "железница", "патување", "планина", "планинска железница"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("പർവ\u{d4d}വത റെയിൽവേ"),
-			keywords: &[
-				"ക\u{d3e}ർ",
-				"പർവ\u{d4d}വത കേബിൾ ക\u{d3e}ർ",
-				"പർവ\u{d4d}വത റെയിൽവേ",
-				"പർവ\u{d4d}വതം",
-				"റെയിൽവേ",
-				"വ\u{d3e}ഹനം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("уулын төмөр зам"),
-			keywords: &["машин", "төмөр зам", "уул", "уулын төмөр зам"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पर\u{94d}वतावरील र\u{947}ल\u{94d}व\u{947}"),
-			keywords: &[
-				"कार",
-				"झ\u{941}कझ\u{941}क गाडी",
-				"डो\u{902}गर",
-				"डो\u{902}गरावरील",
-				"पर\u{94d}वतावरील र\u{947}ल\u{94d}व\u{947}",
-				"पर\u{94d}वतीय क\u{947}बल कार",
-				"र\u{947}ल\u{94d}व\u{947}",
-				"वाहन",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kereta api gunung"),
-			keywords: &[
-				"gunung",
-				"kenderaan",
-				"kereta",
-				"kereta api gunung",
-				"landasan kereta api",
-				"perjalanan",
-				"rel kereta api",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ferrovija tal-muntanji"),
-			keywords: &["ferrovija", "ferrovija tal-muntanji", "karozza", "muntanja"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("တောင\u{103a}ပေါ\u{103a} ရထားလမ\u{103a}း"),
-			keywords: &[
-				"တောင\u{103a}တန\u{103a}း",
-				"တောင\u{103a}ပေါ\u{103a} ရထားလမ\u{103a}း",
-				"ရထားတ\u{103d}\u{1032}",
-				"ရထားလမ\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("पर\u{94d}वतीय र\u{947}लव\u{947}"),
-			keywords: &["कार", "गाडी", "पर\u{94d}वतीय", "र\u{947}लव\u{947}"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("bergspoor"),
-			keywords: &["berg", "bergspoor", "spoor", "vervoermiddel", "voertuig", "wagon"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["bane", "fjell", "fjellbane", "framkomstmiddel"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପର\u{b4d}ବତ ରେଳୱେ"),
-			keywords: &[
-				"କ\u{b3e}ର\u{b4d}",
-				"ପର\u{b4d}ବତ ରେଳୱେ",
-				"ବ\u{b3e}ହ\u{b3e}ନ",
-				"ମ\u{b3e}ଉଣ\u{b4d}ଟେନ\u{b4d}",
-				"ମ\u{b3e}ଉଣ\u{b4d}ଟେନ\u{b4d} କେବଲ\u{b4d} କ\u{b3e}ର\u{b4d}",
-				"ରେଲୱେ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪਹਾੜੀ ਰ\u{a47}ਲਵ\u{a47}"),
-			keywords: &[
-				"ਕਾਰ",
-				"ਟਰ\u{a47}ਨ",
-				"ਪਹਾੜ",
-				"ਪਹਾੜੀ ਕ\u{a47}ਬਲ ਕਾਰ",
-				"ਪਹਾੜੀ ਰ\u{a47}ਲਵ\u{a47}",
-				"ਰ\u{a47}ਲਵ\u{a47}",
-				"ਵਾਹਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("پہاڑی ریلوے"),
-			keywords: &["ریلوے", "پہاڑ", "پہاڑی ریلوے", "کار"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Maúntín Relwè"),
-			keywords: &["Kaa", "Maúntin", "Maúntín Relwè", "Móto", "Relwè"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("kolej górska"),
-			keywords: &["górska", "górski", "góry", "kolej", "kolejka", "pojazd", "wagon"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د غره پټلۍ"),
-			keywords: &["د غره پټلۍ", "ريلوی", "غر", "موټر"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("estrada de ferro na montanha"),
-			keywords: &[
-				"carro",
-				"estrada de ferro",
-				"estrada de ferro na montanha",
-				"montanha",
-				"teleférico",
-				"veículo",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("comboio de montanha"),
-			keywords: &[
-				"carruagem",
-				"comboio de montanha",
-				"linha ferroviária",
-				"montanha",
-				"transporte",
-				"veículo",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ferrocarril urqupaq"),
-			keywords: &["autu", "ferrocarril", "ferrocarril urqupaq", "urqu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("cale ferată montană"),
-			keywords: &[
-				"cale ferată",
-				"cale ferată montană",
-				"călătorie",
-				"excursie",
-				"munte",
-				"vagon",
-				"șină montană",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-946"), keywords: &["E10-946"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("поезд в горах"),
-			keywords: &[
-				"горы",
-				"дорога",
-				"железная",
-				"поезд",
-				"поезд в горах",
-				"рельсы",
-				"транспорт",
-				"электричка",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("gariyamoshi inyura mu misozi"),
-			keywords: &["gariyamoshi inyura mu misozi", "imodoka"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("جابلو ريلوي"),
-			keywords: &["جابلو ريلوي", "جبل", "ريلوي", "ڪار"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("කඳ\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
-			keywords: &[
-				"කන\u{dca}ද",
-				"කඳ\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
-				"මෝටර\u{dca} රථය",
-				"ව\u{dcf}හනය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zubačka"),
-			keywords: &[
-				"dopravný prostriedok",
-				"horská",
-				"vlak",
-				"vozeň",
-				"výlet",
-				"zubačka",
-				"železnica",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("gorska železnica"),
-			keywords: &["avto", "gora", "gorska železnica", "vozilo", "železnica"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("jidka tareenka buurta"),
-			keywords: &["buur", "gaari", "jidka tareenka", "jidka tareenka buurta"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("hekurudhë në mal"),
-			keywords: &["hekurudhë", "hekurudhë në mal", "makinë", "mal", "mjet", "udhëtim"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("планинска железница"),
-			keywords: &["вагон", "жeлeзницa", "плaнинa", "путовање"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("планинска жељезница"),
-			keywords: &["возило", "жељезница", "планина", "планинска жељезница"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("planinska železnica"),
-			keywords: &["planina", "putovanje", "vagon", "železnica"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("planinska željeznica"),
-			keywords: &["planina", "planinska željeznica", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("bergbana"),
-			keywords: &["bergbana", "bergsbana", "bergståg", "järnväg"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("reli ya milimani"),
-			keywords: &["gari", "mlima", "reli", "reli ya milimani", "safari"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மலைப\u{bcd} ப\u{bbe}தை ரயில\u{bcd}"),
-			keywords: &[
-				"ந\u{bc0}லகிரி",
-				"பயணம\u{bcd}",
-				"மலை ரயில\u{bcd}",
-				"மலைப\u{bcd} ப\u{bbe}தை ரயில\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some(
-				"పర\u{c4d}వత\u{c3e}ల\u{c4d}ల\u{c4b} ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
-			),
-			keywords: &[
-				"క\u{c3e}ర\u{c4d}",
-				"పర\u{c4d}వతం",
-				"పర\u{c4d}వత\u{c3e}ల\u{c4d}ల\u{c4b} ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
-				"ప\u{c4d}రయ\u{c3e}ణం",
-				"ర\u{c48}లు",
-				"ర\u{c48}ల\u{c4d}వ\u{c47}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("роҳи оҳани куҳӣ"),
-			keywords: &["куҳ", "мошин", "роҳи оҳан", "роҳи оҳани куҳӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("รางรถไฟภ\u{e39}เขา"),
-			keywords: &["ภ\u{e39}เขา", "ยานพาหนะ", "รถไฟ", "ราง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ናይ ከረን ባቡር"),
-			keywords: &["መንገዲ ባቡር", "መኪና", "እምባ", "ጉዕዞ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("dag demirýoly"),
-			keywords: &["dag", "dag demirýoly", "demir ýol", "wagon"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("hala lēlue moʻunga"),
-			keywords: &["hala", "lēlue", "moʻunga"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("dağ demiryolu"),
-			keywords: &[
-				"dağ",
-				"dağ teleferiği",
-				"demiryolu",
-				"taşıt",
-				"teleferik",
-				"tren",
-				"vagon",
-				"yolculuk",
-			],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("تاغ تۆمۈريولى"),
-			keywords: &["تاغ", "تاغ تۆمۈريولى", "تۆمۈر يول", "ماشىنا"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("залізниця в горах"),
-			keywords: &[
-				"вагон",
-				"гора",
-				"гірська залізниця",
-				"залізниця",
-				"залізниця в горах",
-				"поїзд",
-				"транспорт",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ماؤنٹین ریلوے"),
-			keywords: &["ریل گاڑی", "ریلوے", "سفر", "ماؤنٹین ریلوے", "پہاڑ", "پہاڑی ریل وے", "گاڑی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("to‘g‘ temiryo‘li"),
-			keywords: &[
-				"mashina",
-				"sayohat",
-				"temir yoʻl",
-				"temiryo‘l",
-				"togʻ temir yoʻli",
-				"tog‘",
-				"to‘g‘ temiryo‘li",
-				"transport",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đường ray leo núi"),
-			keywords: &["núi", "toa xe", "đường ray leo núi", "đường sắt"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("raayu tund"),
-			keywords: &["montaañ", "oto", "raay", "raayu tund"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isiporo sentaba"),
-			keywords: &["imoto", "intaba", "isiporo", "isiporo sentaba"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Reluwe Oloke"),
-			keywords: &["Reluwe Oloke", "òké", "ọkọ ojú-irin", "ọkọ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Reluwe Oloke"),
-			keywords: &["Reluwe Oloke", "òké", "ɔkɔ ojú-irin", "ɔkɔ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("山上鐵路"),
-			keywords: &["山", "山上鐵路", "汽車", "鐵路"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("山上铁路"),
-			keywords: &["山", "山上铁路", "汽车", "铁路"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("山区铁路"),
-			keywords: &["山区", "山区铁路", "山地铁路", "火车", "铁路"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("山區鐵路"),
-			keywords: &["山區鐵路", "火車"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("上山鐵路"),
-			keywords: &["上山鐵路", "山脈", "旅行", "汽車", "火車", "登山鐵路", "鐵路"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ujantshi wasentabeni"),
-			keywords: &["imoto", "intaba", "ujantshi", "ujantshi wasentabeni"],
-		},
-	],
-};
-#[doc = "🚍\u{fe0f}"]
-pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
-	glyph:                "🚍\u{fe0f}",
-	codepoint:            &[128653u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "oncoming bus",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🚛"]
 pub const ARTICULATED_LORRY: crate::Emoji = crate::Emoji {
 	glyph:                "🚛",
@@ -12555,804 +10630,6 @@ pub const TROLLEYBUS: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🛞"]
-pub const WHEEL: crate::Emoji = crate::Emoji {
-	glyph:                "🛞",
-	codepoint:            &[128734u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 14u8, minor: 0u8, patch: 0u8 },
-	name:                 "wheel",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("wiel"),
-			keywords: &["band", "draai", "kar", "motor", "sirkel", "velling", "voertuig", "wiel"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ጎማ"),
-			keywords: &["መታጠፊያ", "መኪና", "ተሽከርካሪ", "ክብ", "ክብ ውስጥ ያለ ኮኮብ", "ኮከብ", "የማሽከርከር ምልክት", "ጎማ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("عجلة"),
-			keywords: &["إطار", "دائرة", "دوران", "سيارة", "عجلة", "مركبة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("চক\u{9be}"),
-			keywords: &["গোল", "ঘ\u{9c2}ৰ\u{9be}", "চক\u{9be}", "ট\u{9be}য\u{9bc}\u{9be}ৰ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("təkər"),
-			keywords: &["dairə", "maşın", "minik", "növbə", "təkər", "şin"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("кола"),
-			keywords: &["абарот", "кола", "круг", "пакрышка", "шына"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("колело"),
-			keywords: &["автомобил", "въртене", "гума", "кола", "колело", "кръг", "превозно средство"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("চ\u{9be}ক\u{9be}"),
-			keywords: &[
-				"গ\u{9be}ড\u{9bc}ি",
-				"চ\u{9be}ক\u{9be}",
-				"ট\u{9be}য\u{9bc}\u{9be}র",
-				"ব\u{9be}\u{981}ক",
-				"ব\u{9c3}ত\u{9cd}ত",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("točak"),
-			keywords: &["guma", "krug", "okretanje", "točak"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("roda"),
-			keywords: &["cercle", "cotxe", "girar", "pneumàtic", "roda", "rodar", "vehicle"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏆᏙᏗ"),
-			keywords: &["ᎠᎦᏔᎲᏍᏗ", "ᎠᏜ ᎠᏢᏗ", "ᎦᏆᏙᏗ", "ᎦᏌᏆᎳ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("kolo"),
-			keywords: &[
-				"auto",
-				"koleso",
-				"kolo",
-				"kruh",
-				"kulatý",
-				"otáčení",
-				"pneumatika",
-				"rezerva",
-				"točit",
-				"volant",
-				"vozidlo",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("olwyn"),
-			keywords: &["cylch", "olwyn", "teiar", "troi"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("hjul"),
-			keywords: &["bil", "cirkel", "dreje", "dæk", "fælg", "hjul", "køretøj"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Autorad"),
-			keywords: &[
-				"Autorad",
-				"Autoreifen",
-				"Rad",
-				"Reifen",
-				"Reifen mit Felgen",
-				"drehen",
-				"rotieren",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τροχός"),
-			keywords: &["αυτοκίνητο", "ελαστικό", "κύκλος", "μηχανάκι", "ρόδα", "στροφή", "τροχός"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("wheel"),
-			keywords: &["car", "circle", "tire", "turn", "vehicle", "wheel"],
-		},
-		#[cfg(feature = "en_001")]
-		crate::Annotation {
-			lang:     "en_001",
-			tts:      None,
-			keywords: &["circle", "turn", "tyre", "wheel"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("rueda"),
-			keywords: &["círculo", "girar", "neumático", "rodar", "rueda"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"auto",
-				"carro",
-				"girar",
-				"llanta",
-				"neumático",
-				"rodar",
-				"rueda",
-				"vehículo",
-				"viajes y lugares",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["círculo", "girar", "llanta", "neumático", "rodar", "rueda"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("ratas"),
-			keywords: &["auto", "pöörama", "ratas", "rehv", "ring"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("gurpila"),
-			keywords: &["bira", "gurpila", "pneumatiko", "zirkulu"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("چرخ"),
-			keywords: &[
-				"تایر",
-				"حلقه",
-				"خودرو",
-				"دور",
-				"سفر",
-				"لاستیک",
-				"مکان\u{200c}ها",
-				"وسیله نقلیه",
-				"چرخ",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("rengas"),
-			keywords: &["ajoneuvo", "auto", "autonrengas", "kääntyminen", "pyörä"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("gulong"),
-			keywords: &["bilog", "goma", "gulong", "kotse", "sasakyan"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("hjól"),
-			keywords: &["akfar", "bildekk", "dekk", "felga", "hjól"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("roue"),
-			keywords: &["cercle", "pneu", "roue", "tourner", "voiture", "véhicule"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("roth"),
-			keywords: &["bonn", "carr", "feithicil", "roth"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cuibhle"),
-			keywords: &["cearcall", "cuibhle", "roth", "taidhir", "tionndadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("roda"),
-			keywords: &["círculo", "pneumático", "xirar"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પ\u{ac8}ડ\u{ac1}\u{a82}"),
-			keywords: &["કાર", "ગોળ", "ટાયર", "પ\u{ac8}ડ\u{ac1}\u{a82}", "વળા\u{a82}ક", "વાહન"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("taya"),
-			keywords: &["daʼira", "juyawa", "taya", "tayar mota", "wili"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("taya"),
-			keywords: &["daʼira", "juyawa", "taya", "tayar mota", "wili"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("גלגל"),
-			keywords: &["אוטו", "גלגל", "מכונית", "מעגל", "סיבוב", "עיגול", "צמיג", "רכב"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("पहिया"),
-			keywords: &[
-				"कार",
-				"गाड\u{93c}ी",
-				"गाड\u{93c}ी का पहिया",
-				"गोल",
-				"टायर",
-				"पहिया",
-				"मोड\u{93c}",
-				"वाहन",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("kotač"),
-			keywords: &["automobil", "guma", "kotač", "krug", "okret", "vozilo"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("kerék"),
-			keywords: &["abroncs", "felni", "fordul", "gumiabroncs", "kerék", "kör"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("անիվ"),
-			keywords: &["անիվ", "անվադող", "շրջան", "պտույտ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("roda"),
-			keywords: &["ban", "belok", "kendaraan", "lingkaran", "mobil", "roda"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ukwu ụgbọala"),
-			keywords: &["circle", "tire", "turn", "ukwu ụgbọala"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hjól"),
-			keywords: &["beygja", "hjól", "hjólbarði", "hringur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("ruota"),
-			keywords: &[
-				"auto",
-				"cerchio",
-				"cerchione",
-				"girare",
-				"gomma",
-				"pneumatico",
-				"ruota",
-				"veicolo",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ホイール"),
-			keywords: &["スポーク", "タイヤ", "ホイール", "自動車", "車", "車輪"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("rodha"),
-			keywords: &["ban", "bunder", "nguripake", "rodha"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ბორბალი"),
-			keywords: &["ბორბალი", "მობრუნება", "საბურავი", "წრე"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("дөңгелек"),
-			keywords: &["автомобиль", "бұрылу", "дөңгелек", "көлік", "шина"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("សញ\u{17d2}ញារ\u{17bc}បកង\u{17cb}ឡាន"),
-			keywords: &["កង\u{17cb}", "កង\u{17cb}ឡាន", "សញ\u{17d2}ញារ\u{17bc}បកង\u{17cb}ឡាន"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಚಕ\u{ccd}ರ"),
-			keywords: &[
-				"ಚಕ\u{ccd}ರ",
-				"ಟ\u{cc8}ರ\u{ccd}",
-				"ತ\u{cbf}ರುವು",
-				"ವಾಹನದ ಚಕ\u{ccd}ರ",
-				"ವೃತ\u{ccd}ತ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("휠"),
-			keywords: &["바퀴", "원", "자동차", "차", "카", "타이어", "탈 것", "회전", "휠"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("चाक"),
-			keywords: &["चाक", "टायर", "बा\u{902}क", "वर\u{94d}त\u{941}ळ"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("дөңгөлөк"),
-			keywords: &["айлануу", "дөңгөлөк", "руль", "тегерек"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{ecd}\u{ec9}ລ\u{ebb}ດ"),
-			keywords: &[
-				"ກ\u{ebb}ງລ\u{ebb}ດ",
-				"ກ\u{ebb}ງລ\u{ecd}\u{ec9}",
-				"ຕ\u{eb5}ນລ\u{ebb}ດ",
-				"ພວງມະໄລ",
-				"ຢາງລ\u{ebb}ດ",
-				"ລ\u{ec9}ຽວ",
-				"ລ\u{ecd}\u{ec9}ລ\u{ebb}ດ",
-				"ວ\u{ebb}ງມ\u{ebb}ນ",
-				"ວ\u{ebb}ງລ\u{ecd}\u{ec9}",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("ratas"),
-			keywords: &["apskritimas", "automobilis", "padanga", "ratas", "suktis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("ritenis"),
-			keywords: &["aplis", "auto", "pagriezties", "riepa", "ritenis"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("тркало"),
-			keywords: &["автомобил", "возило", "врти", "гума", "круг", "тркало"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ചക\u{d4d}രം"),
-			keywords: &[
-				"ക\u{d3e}ർ",
-				"ചക\u{d4d}രം",
-				"ടയർ",
-				"തിരിയ\u{d41}ക",
-				"വ\u{d3e}ഹനം",
-				"വീൽ",
-				"വ\u{d43}ത\u{d4d}തം",
-				"സ\u{d4d}റ\u{d4d}റിയറിംഗ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("дугуй"),
-			keywords: &["дугуй", "хаймар", "эргэх"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("चाक"),
-			keywords: &["गोल", "चाक", "टायर", "वर\u{94d}त\u{941}ळ"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("roda"),
-			keywords: &["bulatan", "putar", "roda", "tayar"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("စတ\u{102e}ယာရင\u{103a} ဘ\u{102e}း"),
-			keywords: &[
-				"စက\u{103a}ဝ\u{102d}\u{102f}င\u{103a}း",
-				"စတ\u{102e}ယာရင\u{103a} ဘ\u{102e}း",
-				"တာယာ",
-				"လ\u{103e}\u{102d}မ\u{1037}\u{103a}သည\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("पाङ\u{94d}ग\u{94d}रा"),
-			keywords: &["पाङ\u{94d}ग\u{94d}रा", "बायर", "मोड", "व\u{943}त\u{94d}त"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("wiel"),
-			keywords: &[
-				"auto", "band", "cirkel", "draaien", "velg", "velgen", "vervoer", "voertuig", "wiel",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଚକ"),
-			keywords: &["ଚକ", "ଟର\u{b4d}ନ\u{b4d}", "ଟ\u{b3e}ୟ\u{b3e}ର", "ବ\u{b43}ତ\u{b4d}ତ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪਹੀਆ"),
-			keywords: &[
-				"ਕਾਰ",
-				"ਘ\u{a41}\u{a70}ਮਦਾ ਹ\u{a4b}ਇਆ",
-				"ਚ\u{a71}ਕਰ",
-				"ਚ\u{a71}ਕਾ",
-				"ਟਾਇਰ",
-				"ਪਹੀਆ",
-				"ਵਾਹਨ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Wiil"),
-			keywords: &["Sákul", "Táya", "Tọn", "Wiil"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("koło pojazdu"),
-			keywords: &["koło", "koło pojazdu", "kręcić", "opona", "samochód"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("څرخ"),
-			keywords: &["حلقه", "موټر", "وګرځي", "ټایر", "څرخ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("roda"),
-			keywords: &["carro", "círculo", "direção", "girar", "pneu", "roda", "veículo", "volante"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["círculo", "girar", "pneu", "pneumático", "roda", "rodar", "veículo", "viatura"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("rueda"),
-			keywords: &["llanta", "muyu", "muyuy", "rueda"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("roată"),
-			keywords: &["anvelopă", "cauciuc", "cerc", "roată", "învârti"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E14-028"), keywords: &["E14-028"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("автомобильное колесо"),
-			keywords: &["автомобильное колесо", "диск", "колесо", "колпак", "круг", "поворот", "шина"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ڦيٿو"),
-			keywords: &["مڙڻ", "ٽائر", "ڦيرو", "ڦيٿو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("රෝදය"),
-			keywords: &["කවය", "ටයර\u{dca}", "රෝදය", "හැරෙන\u{dca}න"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("koleso"),
-			keywords: &["auto", "koleso", "kruh", "otáčanie", "pneumatika", "vozidlo"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("avtomobilsko kolo"),
-			keywords: &["avto", "avtomobilsko kolo", "krog", "pnevmatika", "vozilo", "vrtenje"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("gaari"),
-			keywords: &["gaari", "goobaabin", "leexo", "taayir"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("rrotë"),
-			keywords: &["automjet", "gomë", "kthesë", "makinë", "rreth", "rrotë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("точак"),
-			keywords: &["ауто", "возило", "гума", "круг", "скренути", "точак"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("točak"),
-			keywords: &["auto", "guma", "krug", "skrenuti", "točak", "vozilo"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("hjul"),
-			keywords: &["cirkel", "däck", "hjul", "rulla"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("gurudumu"),
-			keywords: &["gari", "gurudumu", "mviringo", "mzunguko", "tairi"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("சக\u{bcd}கரம\u{bcd}"),
-			keywords: &[
-				"க\u{bbe}ர\u{bcd}",
-				"சக\u{bcd}கரம\u{bcd}",
-				"டயர\u{bcd}",
-				"திருப\u{bcd}புதல\u{bcd}",
-				"வட\u{bcd}டம\u{bcd}",
-				"வ\u{bbe}கனம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("చక\u{c4d}రం"),
-			keywords: &[
-				"క\u{c3e}రు",
-				"చక\u{c4d}రం",
-				"టర\u{c4d}న\u{c4d}",
-				"ట\u{c48}రు",
-				"బండ\u{c3f}చక\u{c4d}రం పట\u{c4d}ట\u{c40}",
-				"వ\u{c3e}హనం",
-				"వ\u{c40}ల\u{c4d}",
-				"సర\u{c4d}క\u{c3f}ల\u{c4d}",
-				"స\u{c4d}ట\u{c40}ర\u{c3f}ంగ\u{c4d}",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ล\u{e49}อรถ"),
-			keywords: &[
-				"ยาง",
-				"ยางรถยนต\u{e4c}",
-				"รถ",
-				"รถยนต\u{e4c}",
-				"ล\u{e49}อรถ",
-				"วงกลม",
-				"หม\u{e38}น",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("መንኮርኮር"),
-			keywords: &["መንኮርኮር", "መኪና", "መጠወሪ", "ተሽከርካሪት", "ዓንኬል", "ጎማ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("tigir"),
-			keywords: &["aýlanmak", "pokryşka", "tegelek", "tigir"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("veʻelapa"),
-			keywords: &["afe", "seakale", "veʻelapa"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("tekerlek"),
-			keywords: &[
-				"araba",
-				"dönüş",
-				"jant",
-				"lastik",
-				"oto",
-				"otomobil",
-				"seyahat",
-				"tekerlek",
-				"yedek parça",
-				"yolculuk",
-				"çark",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("колесо"),
-			keywords: &["автомобіль", "колесо", "коло", "машина", "обертатися", "транспорт", "шина"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("پہیہ"),
-			keywords: &["دائرہ", "ٹائر", "پہیہ", "کار", "گاڑی", "گھومنا"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("gʻildirak"),
-			keywords: &[
-				"avtomobil",
-				"aylana",
-				"balon",
-				"burilish",
-				"doira",
-				"dumaloq",
-				"gʻildirak",
-				"shina",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("bánh xe"),
-			keywords: &["bánh xe", "hình tròn", "lốp xe", "xoay"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("keke"),
-			keywords: &["keke", "sakù", "táyà", "yí"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("keke"),
-			keywords: &["keke", "sakù", "táyà", "yí"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("轆"),
-			keywords: &["圈", "車胎", "轆", "轉"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("辘"),
-			keywords: &["圈", "车胎", "转", "辘"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("车轮"),
-			keywords: &["圆圈", "汽车", "车轮", "车辆", "转动", "轮胎"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("輪子"),
-			keywords: &["圓圈", "車", "車輛", "輪子", "輪胎", "轉動"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["換軚", "汽車", "爆軚", "車胎", "車軚", "車輛", "車轆", "輪胎", "輪軚", "轆"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isondo"),
-			keywords: &["circle", "isondo", "tire", "turn", "wheel"],
-		},
-	],
-};
 #[doc = "🛣\u{fe0f}"]
 pub const MOTORWAY: crate::Emoji = crate::Emoji {
 	glyph:                "🛣\u{fe0f}",
@@ -13365,2346 +10642,6 @@ pub const MOTORWAY: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🚉"]
-pub const STATION: crate::Emoji = crate::Emoji {
-	glyph:                "🚉",
-	codepoint:            &[128649u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "station",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("stasie"),
-			keywords: &["sneltrein", "spoor", "spoorweg", "stasie", "trein", "voertuig"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ጣቢያ"),
-			keywords: &["ባቡር", "ባቡር መቆሚያ", "ተሽከርካሪ", "የባቡር መንገድ", "ጣቢያ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("محطة قطار"),
-			keywords: &["سفر", "سكة", "قطار", "محطة", "نقل عام"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ষ\u{9cd}টেচন"),
-			keywords: &["ট\u{9cd}ৰেইন", "ষ\u{9cd}টেচন", "ৰেইলৱে"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("stansiya"),
-			keywords: &[
-				"dəmir yolu",
-				"dəmiryolu",
-				"nəqliyyat",
-				"nəqliyyat vasitəsi",
-				"qatar",
-				"stansiya",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("станцыя"),
-			keywords: &["прыпынак", "станцыя", "цягнік", "чыгунка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("гара"),
-			keywords: &["влак", "гара", "железница", "превозно средство"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}টেশন"),
-			keywords: &["ট\u{9cd}রেন", "য\u{9be}নব\u{9be}হন", "রেলওয\u{9bc}ে", "স\u{9cd}টেশন"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("porzh-houarn"),
-			keywords: &["hent-houarn", "porzh-houarn", "tren"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("stanica"),
-			keywords: &["stanica", "voz", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("estació"),
-			keywords: &["estació", "ferrocarril", "tren", "vehicle", "vies"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏓᏁᎸ"),
-			keywords: &["ᎠᏓᏁᎸ", "ᎠᏥᎳ ᏅᏃᎯ", "ᏗᎦᏣᏄᎵ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("stanice"),
-			keywords: &[
-				"doprava",
-				"elektrický",
-				"lokomotiva",
-				"mašinka",
-				"nástupiště",
-				"peron",
-				"příměstský vlak",
-				"stanice",
-				"vlak",
-				"vláček",
-				"vozidlo",
-				"zastávka",
-				"železnice",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("gorsaf"),
-			keywords: &["gorsaf", "rheilffordd", "trên"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("togstation"),
-			keywords: &["jernbane", "station", "tog", "togstation"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Bahnhof"),
-			keywords: &["Bahn", "Bahnhof", "Zug"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("σταθμός"),
-			keywords: &["σιδηρόδρομος", "σταθμός", "τρένο", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("station"),
-			keywords: &["railway", "station", "train"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("estación de tren"),
-			keywords: &["estación", "estación de tren", "tren"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"estación",
-				"estación de tren",
-				"ferrocarril",
-				"transporte",
-				"tranvía",
-				"tren",
-				"viaje",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("jaam"),
-			keywords: &["jaam", "raudtee", "rong"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("geltokia"),
-			keywords: &["geltokia", "ibilgailu", "trenbide"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ایستگاه قطار"),
-			keywords: &[
-				"ایستگاه قطار",
-				"راه\u{200c}آهن",
-				"ریل",
-				"قطار",
-				"وسیله نقلیه",
-				"وسیله\u{654} نقلیه",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("asema"),
-			keywords: &["ajoneuvo", "asema", "juna", "rautatie"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("istasyon"),
-			keywords: &["istasyon", "lrt", "mrt", "platform", "sasakyan", "tren"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("jarnbreytarstøð"),
-			keywords: &["jarnbreyt", "jarnbreytarstøð", "støð", "tok"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("gare"),
-			keywords: &["RER", "chemin de fer", "gare", "moyen de transport", "rail", "train"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["chemin de fer", "gare", "train"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("stáisiún traenach"),
-			keywords: &[
-				"bóthar iarainn",
-				"dart",
-				"iarnród",
-				"luas",
-				"stad na traenach",
-				"stáisiún",
-				"stáisiún traenach",
-				"traein",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("stèisean"),
-			keywords: &["rathad-iarainn", "rèile", "slighe-iarainn", "stèisean", "trèana"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("estación"),
-			keywords: &["estación", "tranvía", "tren"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ટ\u{acd}ર\u{ac7}ન સ\u{acd}ટ\u{ac7}શન"),
-			keywords: &[
-				"ટ\u{acd}ર\u{ac7}ન",
-				"ર\u{ac7}લ",
-				"ર\u{ac7}લગાડી",
-				"વાહન",
-				"સવારી",
-				"સ\u{acd}ટ\u{ac7}શન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("tasha"),
-			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "tasha", "tashar jirgin ƙasa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("tasha"),
-			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "tasha", "tashar jirgin ƙasa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("תחנה"),
-			keywords: &["רכבת", "תחבורה", "תחנה", "תחנת רכבת"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{94d}ट\u{947}शन"),
-			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "स\u{94d}ट\u{947}शन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("postaja"),
-			keywords: &["postaja", "vlak", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("állomás"),
-			keywords: &["jármű", "közlekedés", "vasút", "vonat", "állomás"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("կայարան"),
-			keywords: &["գնացք", "երկաթուղի", "կայարան", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("stasiun"),
-			keywords: &["kendaraan", "kereta", "rel", "stasiun"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ọdụ ụgbọ"),
-			keywords: &["okporoigwe", "ọdụ ụgbọ", "ụgbọokporoigwe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("lestarstöð"),
-			keywords: &["lest", "lestarstöð", "stöð"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("stazione"),
-			keywords: &[
-				"arrivo",
-				"fermata",
-				"ferrovia",
-				"ritardo",
-				"stazione",
-				"trasporto",
-				"treno",
-				"veicolo",
-				"viaggiare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("駅"),
-			keywords: &["ステーション", "乗り物", "列車", "電車", "駅"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("setasiun"),
-			keywords: &["jalur ril", "sepur", "setasiun"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("სადგური"),
-			keywords: &["მატარებელი", "რკინიგზა", "სადგური", "ტრანსპორტი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("станция"),
-			keywords: &["көлік", "пойыз", "станция", "темір жол"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("togstation"),
-			keywords: &["tog", "togstation"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ស\u{17d2}ថាន\u{17b8}យ"),
-			keywords: &["ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើង", "រថភ\u{17d2}លើង", "ស\u{17d2}ថាន\u{17b8}យ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ನ\u{cbf}ಲ\u{ccd}ದಾಣ"),
-			keywords: &["ನ\u{cbf}ಲ\u{ccd}ದಾಣ", "ರ\u{cc8}ಲು", "ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}", "ಸರಕು"],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("기차역"),
-			keywords: &["기차", "기차역", "바트", "역", "전철역", "지하철역", "철도"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("स\u{94d}ट\u{947}शन"),
-			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}", "स\u{94d}ट\u{947}शन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("станция"),
-			keywords: &["поезд", "станция", "темир жол", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Haltestell"),
-			keywords: &["Eisebunn", "Haltestell", "Zuch"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ສະຖານ\u{eb5}"),
-			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ", "ສະຖານ\u{eb5}"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("stotis"),
-			keywords: &["geležinkelis", "stotis", "traukinys"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("stacija"),
-			keywords: &["dzelzceļš", "stacija", "transportlīdzeklis", "transports", "vilciens"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("teihana"),
-			keywords: &["rerewē", "teihana", "tereina"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("станица"),
-			keywords: &["воз", "возило", "железница", "железничка станица", "станица"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("റെയിൽവേ സ\u{d4d}റ\u{d4d}റേഷൻ"),
-			keywords: &["ട\u{d4d}രെയിൻ", "റെയിൽവേ സ\u{d4d}റ\u{d4d}റേഷൻ", "സ\u{d4d}റ\u{d4d}റേഷൻ"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("галт тэрэгний буудал"),
-			keywords: &["буудал", "галт тэрэг", "галт тэрэгний буудал"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("स\u{94d}ट\u{947}शन"),
-			keywords: &[
-				"आगगाडी",
-				"ट\u{94d}र\u{947}न",
-				"फलाट",
-				"र\u{947}ल\u{94d}व\u{947}",
-				"र\u{947}ल\u{94d}व\u{947} स\u{94d}थानक",
-				"स\u{94d}ट\u{947}शन",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("stesen"),
-			keywords: &["kenderaan", "kereta api", "landasan kereta api", "rel kereta api", "stesen"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("stazzjon"),
-			keywords: &["ferrovija", "stazzjon"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဘ\u{1030}တာရ\u{102f}\u{1036}"),
-			keywords: &["ဘ\u{1030}တာရ\u{102f}\u{1036}", "ရထား", "ရထားလမ\u{103a}း"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}ट\u{947}शन"),
-			keywords: &["गाडी", "ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "स\u{94d}ट\u{947}शन"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("treinstation"),
-			keywords: &["spoor", "station", "trein", "treinstation", "vervoermiddel", "voertuig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଷ\u{b4d}ଟେସନ\u{b4d}\u{200c}"),
-			keywords: &["ଟ\u{b4d}ରେନ\u{b4d}", "ଷ\u{b4d}ଟେସନ\u{b4d}\u{200c}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਟ\u{a47}ਸ\u{a3c}ਨ"),
-			keywords: &[
-				"ਟਰ\u{a47}ਨ",
-				"ਮ\u{a48}ਟਰ\u{a4b}",
-				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ",
-				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ ਸਟ\u{a47}ਸ\u{a3c}ਨ",
-				"ਸਟ\u{a47}ਸ\u{a3c}ਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("سٹیشن"),
-			keywords: &["ریلوے", "سٹیشن", "ٹرین"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Stéshọn"),
-			keywords: &["Relwè", "Stéshọn", "Tren"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("stacja"),
-			keywords: &["dworzec", "kolej", "kolejowa", "pociąg", "podróż", "pojazd", "stacja"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("تمځای"),
-			keywords: &["اور کاډی", "تمځای", "ريلوی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("estação"),
-			keywords: &["estação", "estação de trem", "metrô", "trem"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["comboio", "estação", "linha ferroviária"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("estacion"),
-			keywords: &["estacion", "ferrocarril", "tren"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("gară"),
-			keywords: &["cale ferată", "gară", "haltă", "stație", "tren"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-925"), keywords: &["E10-925"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("железнодорожный вокзал"),
-			keywords: &[
-				"вокзал",
-				"ж/д вокзал",
-				"ж/д станция",
-				"железнодорожная станция",
-				"железнодорожный вокзал",
-				"рельсы",
-				"станция",
-				"электричка",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("sitasiyo"),
-			keywords: &["gariyamoshi", "irayirayi", "sitasiyo"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اسٽيشن"),
-			keywords: &["اسٽيشن", "ريل", "ريلوي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("නැවත\u{dd4}ම\u{dca}පොළ"),
-			keywords: &[
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
-				"නැවත\u{dd4}ම\u{dca}පොළ",
-				"ව\u{dcf}හනය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("stanica"),
-			keywords: &[
-				"dopravný prostriedok",
-				"elektrický vlak",
-				"rušeň",
-				"stanica",
-				"vlak",
-				"železnica",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("postaja"),
-			keywords: &["postaja", "vlak", "vozilo", "železnica"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("saldhig"),
-			keywords: &["jidka tareenka", "saldhig", "saldhigga", "tareen"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("stacion"),
-			keywords: &["hekurudhë", "mjet", "stacion", "tren"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("станица"),
-			keywords: &["воз", "жeлeзницa", "станица"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["воз", "жeљeзницa", "станица"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("stanica"),
-			keywords: &["stanica", "voz", "železnica"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["stanica", "voz", "željeznica"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("tågstation"),
-			keywords: &["station", "tåg", "tågstation"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kituo"),
-			keywords: &["gari", "kituo", "kituo cha treni", "reli", "teni", "treni"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ரயில\u{bcd} நிலையம\u{bcd}"),
-			keywords: &[
-				"இரயில\u{bcd}",
-				"இரயில\u{bcd} நிலையம\u{bcd}",
-				"டிரெயின\u{bcd}",
-				"நிறுத\u{bcd}தம\u{bcd}",
-				"ரயில\u{bcd}",
-				"ரயில\u{bcd} நிலையம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ర\u{c48}ల\u{c4d}వ\u{c47} స\u{c4d}ట\u{c47}షన\u{c4d}"),
-			keywords: &[
-				"ప\u{c4d}రయ\u{c3e}ణం",
-				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"ర\u{c48}లు",
-				"ర\u{c48}ల\u{c4d}వ\u{c47} స\u{c4d}ట\u{c47}షన\u{c4d}",
-				"స\u{c4d}ట\u{c47}షన\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("истгоҳ"),
-			keywords: &["истгоҳ", "роҳи оҳан", "қатора"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("สถาน\u{e35}รถไฟ"),
-			keywords: &["ยานพาหนะ", "รถไฟ", "สถาน\u{e35}รถไฟ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጣብያ"),
-			keywords: &["መንገዲ ባቡር", "ባቡር", "ጣብያ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("menzil"),
-			keywords: &["demir ýol", "menzil", "otly"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tauʻanga lēlue"),
-			keywords: &["lēlue", "tauʻanga"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("tren istasyonu"),
-			keywords: &["istasyon", "taşıt", "tren", "tren istasyonu", "tren yolu"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ۋوگزال"),
-			keywords: &["تۆمۈر يول", "پويىز", "ۋوگزال"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("станція"),
-			keywords: &["cтанція", "залізниця", "зупинка", "потяг", "станція", "транспорт"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("اسٹیشن"),
-			keywords: &["اسٹیشن", "بارٹ", "ریلوے", "ٹرین"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("bekat"),
-			keywords: &["bekat", "poyezd", "temir yoʻl", "temiryo‘l", "transport"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ga tàu"),
-			keywords: &["ga tàu", "tàu hỏa", "đường sắt"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("gaar"),
-			keywords: &["gaar", "otoraay", "raay"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isitishi"),
-			keywords: &["isiporo", "isitishi", "uloliwe"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ibudo"),
-			keywords: &["Ibudo", "ojú-irin", "ọkọ ojú-irin"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ibudo"),
-			keywords: &["Ibudo", "ojú-irin", "ɔkɔ ojú-irin"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("車站"),
-			keywords: &["火車", "車站", "鐵路"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("车站"),
-			keywords: &["火车", "车站", "铁路"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("车站"),
-			keywords: &["地铁", "捷运", "火车", "车站", "铁路"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("車站"),
-			keywords: &["捷運", "車站", "鐵路"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["列車", "火車", "車站", "鐵路"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isiteshi"),
-			keywords: &["imoto", "isiteshi", "isitimela", "ujantshi"],
-		},
-	],
-};
-#[doc = "🚊"]
-pub const TRAM: crate::Emoji = crate::Emoji {
-	glyph:                "🚊",
-	codepoint:            &[128650u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "tram",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("trem"),
-			keywords: &["openbare vervoer", "spoor", "spoorlose trem", "trem", "vervoer", "voertuig"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ባቡር መሰል አውቶቡስ"),
-			keywords: &["ሃዲድ", "ቀላል ባቡር", "ባቡር", "ባቡር መሰል አውቶቡስ", "ተሽከርካሪ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ترام"),
-			keywords: &["ترام", "سفر", "قطار", "مركبة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ট\u{9cd}ৰ\u{9be}ম"),
-			keywords: &["ট\u{9cd}ৰ\u{9be}ম", "ট\u{9cd}ৰ’লীব\u{9be}ছ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("stritkar"),
-			keywords: &["nəqliyyat", "nəqliyyat vasitəsi", "stritkar", "tramvay", "trolleybus"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("трамвай"),
-			keywords: &["рэйкі", "трамвай", "цягнік"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("трамвай"),
-			keywords: &["превозно средство", "трамвай", "тролейбус"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ট\u{9cd}র\u{9be}ম"),
-			keywords: &["ট\u{9cd}রলিব\u{9be}স", "ট\u{9cd}র\u{9be}ম", "য\u{9be}নব\u{9be}হন"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("tramgarr"),
-			keywords: &["tramgarr", "trollebus"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("tramvaj"),
-			keywords: &["tramvaj", "trolejbus", "vozilo"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("tramvia"),
-			keywords: &["tramvia", "transport", "troleibús", "tròlei", "vehicle"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏗᎦᏣᏄᎵ ᎦᏚᎲ"),
-			keywords: &["ᏗᎦᏣᏄᎵ ᎦᏚᎲ", "ᏴᏫ ᏗᏘᏂᏙ ᏙᎴᎳ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("tramvaj"),
-			keywords: &["doprava", "příměstský vlak", "tramvaj", "vozidlo"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("tram"),
-			keywords: &["bysys trydan", "tram"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("sporvogn"),
-			keywords: &["køretøj", "letbane", "sporvogn", "trolleybus"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Straßenbahn"),
-			keywords: &["Straßenbahn", "Tram", "Verkehrsmittel"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Strassenbahn"),
-			keywords: &["Strassenbahn", "Tram"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τραμ"),
-			keywords: &["τραμ", "τρόλεϊ", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation { lang: "en", tts: Some("tram"), keywords: &["tram", "trolleybus"] },
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("oncoming light rail"),
-			keywords: &["light rail", "oncoming", "oncoming light rail", "tram", "trolleybus"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["car", "streetcar", "tram", "tramcar", "trolley", "trolley bus", "trolleybus"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("tranvía"),
-			keywords: &["transporte", "tranvía", "trolebús"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["transporte", "tranvía", "tren ligero"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation { lang: "et", tts: Some("tramm"), keywords: &["tramm", "troll"] },
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("tranbia"),
-			keywords: &["ibilgailu", "tranbia", "trolebus"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("تراموا"),
-			keywords: &["اتوبوس برقی", "تراموا", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("raitioliikenne"),
-			keywords: &["ajoneuvo", "raiteet", "raitioliikenne"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("tram"),
-			keywords: &["lrt", "mrt", "sasakyan", "tram", "trambiya", "tren", "trolley"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gron á sporvogni"),
-			keywords: &["gron á sporvogni", "sporvognur", "tráðbussur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("tramway"),
-			keywords: &[
-				"RER",
-				"moyen de transport",
-				"tram",
-				"tramway",
-				"transport",
-				"trolley",
-				"trolleybus",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["tram", "tramway", "trolley", "trolleybus"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("tram"),
-			keywords: &["bus tralaí", "feithicil", "luas", "riancharr", "tram"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("trama"),
-			keywords: &["bus-troilidh", "trama"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation { lang: "gl", tts: Some("tranvía"), keywords: &["tranvía"] },
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ટ\u{acd}રામ"),
-			keywords: &["ટ\u{acd}રામ", "મ\u{ac1}સાફરી", "વાહન", "સફર", "સાધન"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("jirgin tram"),
-			keywords: &["bas mai aiki da lantarki", "jirgi", "jirgin tram", "jirgin ƙasa", "tram"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("jirgin tram"),
-			keywords: &["bas mai aiki da lantarki", "jirgi", "jirgin tram", "jirgin ƙasa", "tram"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("חשמלית"),
-			keywords: &["חשמלית", "רכבת", "תחבורה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ट\u{94d}राम"),
-			keywords: &["ट\u{94d}राम", "बार\u{94d}ट", "वाहन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("tramvaj"),
-			keywords: &["tramvaj", "trolejbus", "vozilo"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("villamos"),
-			keywords: &[
-				"hév",
-				"jármű",
-				"közlekedés",
-				"közlekedési eszköz",
-				"metró",
-				"nagyvárosi közlekedés",
-				"személyszállítás",
-				"villamos",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("տրամվայ"),
-			keywords: &["տրամվայ", "տրոլեյբուս", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("trem"),
-			keywords: &["kendaraan", "kereta", "listrik", "trem"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("tramụ"),
-			keywords: &["ogologo ụgbọala", "tramụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("vagn"),
-			keywords: &["farartæki", "sporvagn", "vagn"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("tram"),
-			keywords: &[
-				"arrivo",
-				"ferrovia",
-				"frecce",
-				"freccia",
-				"partire",
-				"pendolare",
-				"tram",
-				"trasporto",
-				"treno",
-				"veicolo",
-				"veloce",
-				"velocità",
-				"viaggiare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("路面電車正面"),
-			keywords: &["乗り物", "路面電車", "路面電車正面", "電車"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation { lang: "jv", tts: Some("trem"), keywords: &["bis troli", "trem"] },
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ტრამვაი"),
-			keywords: &["ტრამვაი", "ტრანსპორტი", "ტროლეიბუსი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("трамвай"),
-			keywords: &["көлік", "пойыз", "темір жол", "трамвай", "троллейбус"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("sporvogn"),
-			keywords: &["køretøj", "sporvogn", "trolleybus"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some(
-				"រថភ\u{17d2}លើងអគ\u{17d2}គ\u{17b7}សន\u{17b8}រថក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
-			),
-			keywords: &[
-				"រថភ\u{17d2}លើង",
-				"រថភ\u{17d2}លើងអគ\u{17d2}គ\u{17b7}សន\u{17b8}រថក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಟ\u{ccd}ರಾಮ\u{ccd}"),
-			keywords: &[
-				"ಟ\u{ccd}ರಾಮ\u{ccd}",
-				"ಟ\u{ccd}ರಾಲ\u{cbf}ಬಸ\u{ccd}",
-				"ಬಾರ\u{ccd}ಟ\u{ccd}",
-				"ವಾಹನ",
-				"ವ\u{cbf}ದ\u{ccd}ಯುತ\u{ccd} ಬಂಡ\u{cbf}",
-				"ಸಾರ\u{cbf}ಗ\u{cc6}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("트램"),
-			keywords: &["바트", "전차", "트램", "트롤리버스"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ट\u{94d}राम"),
-			keywords: &["ट\u{94d}राम", "ट\u{94d}रॉलिबस"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("трамвай"),
-			keywords: &["трамвай", "троллейбус", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation { lang: "lb", tts: Some("Tram"), keywords: &["Tram", "Trolleybus"] },
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{ebb}ດລາງ"),
-			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດລາງ", "ລ\u{ebb}ດໄຟ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("tramvajus"),
-			keywords: &["tramvajus", "troleibusas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("tramvajs"),
-			keywords: &["tramvajs", "transportlīdzeklis", "transports"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tarāme"),
-			keywords: &["tarāme", "waka pāhiko"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("трамвај"),
-			keywords: &["возило", "трамвај", "тролејбус"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ട\u{d4d}ര\u{d3e}ം"),
-			keywords: &["ട\u{d4d}ര\u{d3e}ം", "വ\u{d3e}ഹനം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("трамвай"),
-			keywords: &["машин", "трамвай"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ट\u{94d}राम"),
-			keywords: &["ट\u{94d}राम", "ट\u{94d}रॉलीबस", "प\u{94d}रवास", "वाहन"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("trem"),
-			keywords: &["bas letrik", "bas troli", "kenderaan", "trem"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("tramm"),
-			keywords: &["tramm", "trolleybus"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဓာတ\u{103a}ရထား"),
-			keywords: &["ထရော\u{103a}လ\u{102e}ဘတ\u{103a}စ\u{103a}", "ဓာတ\u{103a}ရထား"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("ट\u{94d}राम"),
-			keywords: &["गाडी", "ट\u{94d}रलिबस", "ट\u{94d}राम"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("tram"),
-			keywords: &["tram", "trolleybus", "vervoermiddel", "voertuig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["framkomstmiddel", "trikk"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଟ\u{b4d}ର\u{b3e}ମ\u{b4d}"),
-			keywords: &["ଟ\u{b4d}ରଲ\u{b3f}ବସ\u{b4d}", "ଟ\u{b4d}ର\u{b3e}ମ\u{b4d}", "ବ\u{b3e}ହ\u{b3e}ନ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਟ\u{a4d}ਰ\u{a48}ਮ"),
-			keywords: &["ਟਰਾਮ", "ਟ\u{a4d}ਰ\u{a48}ਮ", "ਰ\u{a47}ਲ", "ਵਾਹਨ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ٹرام"),
-			keywords: &["بجلی نال چلن آلی بس", "ٹرام"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation { lang: "pcm", tts: Some("Tram"), keywords: &["Tram", "Trọlíbọs"] },
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("tramwaj"),
-			keywords: &["pociąg", "pojazd", "szynowy", "tramwaj", "trolejbus"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("ټرام"), keywords: &["ټرالي بس", "ټرام"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("bonde elétrico"),
-			keywords: &["bonde elétrico", "trólebus", "veículo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("elétrico"),
-			keywords: &["eléctrico", "elétrico", "veículo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("tranvia"),
-			keywords: &["tranvia", "trolebus", "ñan"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("tramvai"),
-			keywords: &["tramvai", "transport", "troleibuz", "troleu"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-926"), keywords: &["E10-926"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("трамвай"),
-			keywords: &["рельсы", "трамвай", "транспорт"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("taramu"),
-			keywords: &["bisi ikoreshwa n’amashanyarazi", "taramu"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang: "sd", tts: Some("ٽرام"), keywords: &["ٽرالي بس", "ٽرام"]
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ට\u{dca}\u{200d}රෑම\u{dca}"),
-			keywords: &["ට\u{dca}\u{200d}රෑම\u{dca}", "ට\u{dca}\u{200d}රොල\u{dd2} බසය", "ව\u{dcf}හනය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("električka"),
-			keywords: &[
-				"cestovanie",
-				"doprava",
-				"dopravný prostriedok",
-				"električka",
-				"trolejbus",
-				"vozidlo",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("tramvaj"),
-			keywords: &["tramvaj", "trolejbus", "vozilo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("taraam"),
-			keywords: &["baska ragaad", "taraam"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("tramvaj"),
-			keywords: &["filobus", "mjet", "tramvaj"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("трамвај"),
-			keywords: &["трoлejбус", "трамвај"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("tramvaj"),
-			keywords: &["tramvaj", "trolejbus"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("spårvagn"),
-			keywords: &["fordon", "spårvagn"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("tramu"),
-			keywords: &["basi la tramu", "mwendokasi", "tramu"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("டிர\u{bbe}ம\u{bcd}"),
-			keywords: &[
-				"டிர\u{bbe}ம\u{bcd}",
-				"டிர\u{bbe}ம\u{bcd} வண\u{bcd}டி",
-				"டிர\u{bbe}லி பஸ\u{bcd}",
-				"வ\u{bbe}கனம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ట\u{c4d}ర\u{c3e}మ\u{c4d}"),
-			keywords: &[
-				"ట\u{c4d}ర\u{c3e}మ\u{c4d}",
-				"ట\u{c4d}ర\u{c3e}ల\u{c40}బస\u{c4d}",
-				"ప\u{c4d}రయ\u{c3e}ణం",
-				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"మందువ\u{c48}పు చూపుతున\u{c4d}న ట\u{c4d}ర\u{c3e}మ\u{c4d} క\u{c3e}రు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("трамвай"),
-			keywords: &["трамвай", "троллейбус"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("รถรางบนราง"),
-			keywords: &["ยานพาหนะ", "รถไฟ", "ราง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang: "ti", tts: Some("ትራም"), keywords: &["ትራም", "ትሮሊባስ"]
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("tramwaý"),
-			keywords: &["tramwaý", "trolleýbus"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("talamu"), keywords: &["talamu"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("tramvay"),
-			keywords: &["metrobüs", "taşıt", "tramvay"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("تىرامۋاي"),
-			keywords: &["تىراللىبۇس", "تىرامۋاي"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("трамвай"),
-			keywords: &["метро", "потяг", "трамвай", "транспорт", "тролейбус"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ٹرام"),
-			keywords: &["سواری", "ٹرالی بس", "ٹرام"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("tramvay"),
-			keywords: &["tramvay", "transport", "trolleybus"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("xe điện"),
-			keywords: &["xe điện", "ô tô điện"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation { lang: "wo", tts: Some("tram"), keywords: &["tram", "trolleybus"] },
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("utramu"),
-			keywords: &["ibhasi yombane", "utramu"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Tiramu"),
-			keywords: &["Tiramu", "Ọkọ Akero Oniwiwọ"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Tiramu"),
-			keywords: &["Tiramu", "Ɔkɔ Akero Oniwiwɔ"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("電車"), keywords: &["有軌電車", "電車"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("电车"),
-			keywords: &["有轨电车", "电车"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("路面电车"),
-			keywords: &["捷运", "电车", "路面电车"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("路面電車"),
-			keywords: &["捷運", "路面電車", "軌道電車"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("電車"),
-			keywords: &["無軌電車", "車輛", "電動巴士", "電車"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ithilamu"),
-			keywords: &["ibhasi", "imoto", "ithilamu"],
-		},
-	],
-};
-#[doc = "🚝"]
-pub const MONORAIL: crate::Emoji = crate::Emoji {
-	glyph:                "🚝",
-	codepoint:            &[128669u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "monorail",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("enkelspoortrein"),
-			keywords: &["enkelspoortrein", "sneltrein", "spoor", "trein", "voertuig"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የባቡር መሄጃ ድልድይ"),
-			keywords: &["ተሽከርካሪ", "የባቡር መሄጃ ድልድይ", "የባቡር ድልድይ፣ ተሽከርካሪ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("خط سكة حديد أحادي"),
-			keywords: &["خط سكة حديد أحادي", "قطار", "مركبة", "نقل عام"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ম’ন’ৰেইল"),
-			keywords: &["ব\u{9be}হন", "ম’ন’ৰেইল"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("monorels"),
-			keywords: &["monorels", "nəqliyyat", "nəqliyyat vasitəsi"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("манарэйка"),
-			keywords: &["манарэйка", "метро", "рэйкі"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("монорелсова железница"),
-			keywords: &["монорелсова железница", "превозно средство"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("মোনোরেল"),
-			keywords: &["মনোরেল", "মোনোরেল", "য\u{9be}নব\u{9be}হন", "রেল"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("unroudenn"),
-			keywords: &["karbed", "unroudenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("pruga s jednom tračnicom"),
-			keywords: &["pruga s jednom tračnicom", "vozilo"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("monocarril"),
-			keywords: &["monocarril", "monorail", "vehicle"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏍᏌᏊ ᎦᏅᏅ ᏥᏴ"),
-			keywords: &["ᏍᏌᏊ ᎦᏅᏅ ᏥᏴ", "ᏙᏆᎴᎵ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("jednokolejka"),
-			keywords: &["doprava", "jednokolejka", "jednokolejná", "visutá dráha", "vozidlo"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("trên un gledren"),
-			keywords: &["cerbyd", "trên un gledren"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("monorail"),
-			keywords: &["køretøj", "monorail"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Einschienenbahn"),
-			keywords: &["Bahn", "Einschienenbahn", "Magnetschwebebahn", "Monorail"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τρένο μονής τροχιάς"),
-			keywords: &["τρένο μονής τροχιάς", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("monorail"),
-			keywords: &["monorail", "vehicle"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("monorraíl"),
-			keywords: &["ferrocarril", "monocarril", "monorraíl", "transporte", "tren"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("monorriel"),
-			keywords: &["ferrocarril", "monocarril", "monorraíl", "monorriel", "transporte", "tren"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("üherööpmeline raudtee"),
-			keywords: &["raudtee", "rong", "sõiduk", "üherööpmeline raudtee"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("monoraila"),
-			keywords: &["ibilgailu", "monoraila"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("تک\u{200c}ریل"),
-			keywords: &[
-				"تک\u{200c}ریل",
-				"راه\u{200c}آهن تک\u{200c}ریلی",
-				"مونوریل",
-				"وسیله نقلیه",
-				"وسیله\u{654} نقلیه",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("monorail"),
-			keywords: &["ajoneuvo", "juna", "raide", "yksiraidejuna"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("monorail"),
-			keywords: &["lrt", "monorail", "mrt", "sasakyan", "tren"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("einsporað jarnbreyt"),
-			keywords: &["einsporað jarnbreyt", "tok"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("monorail"),
-			keywords: &["monorail", "moyen de transport", "véhicule"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("aonráille"),
-			keywords: &["aonráille", "feithicil", "traein"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("aona-rèile"),
-			keywords: &["aona-rèile", "carbad"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation { lang: "gl", tts: Some("monorraíl"), keywords: &["monorraíl"] },
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("મોનોર\u{ac7}લ"),
-			keywords: &[
-				"ટ\u{acd}ર\u{ac7}ન",
-				"મોનોર\u{ac7}લ",
-				"ર\u{ac7}લ",
-				"ર\u{ac7}લગાડી",
-				"વાહન",
-				"સવારી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("reluwe guda"),
-			keywords: &[
-				"jirgin ƙasa",
-				"jirgin ƙasa mai sauri",
-				"jirgin ƙasa mai titi guda",
-				"jirgin ƙasa na zamani",
-				"mota",
-				"reluwe guda",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("reluwe guda"),
-			keywords: &[
-				"jirgin ƙasa",
-				"jirgin ƙasa mai sauri",
-				"jirgin ƙasa mai titi guda",
-				"jirgin ƙasa na zamani",
-				"mota",
-				"reluwe guda",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("רכבת עילית"),
-			keywords: &["עילית", "רכבת", "תחבורה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("मोनोर\u{947}ल"),
-			keywords: &["मोनोर\u{947}ल", "वाहन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("jednotračna željeznica"),
-			keywords: &["jednotračna željeznica", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("egysínű vasút"),
-			keywords: &[
-				"egysínű vasút",
-				"jármű",
-				"közlekedés",
-				"közlekedési eszköz",
-				"személyszállítás",
-				"vasút",
-				"vonat",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("մոնոռելս"),
-			keywords: &["մոնոռելս", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("monorel"),
-			keywords: &["kendaraan", "monorel"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("otù okporoigwe"),
-			keywords: &["otù okporoigwe", "ụgbọala"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("einteinungur"),
-			keywords: &["einteinungur", "lest"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("monorotaia"),
-			keywords: &[
-				"mezzo",
-				"monorotaia",
-				"trasporti",
-				"trasporto",
-				"veicolo",
-				"veloce",
-				"viaggiare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("モノレール"),
-			keywords: &["モノレール", "乗り物", "電車"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("monoril"),
-			keywords: &["monoril", "tetumpakan"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მონორელსი"),
-			keywords: &["მონორელსი", "ტრანსპორტი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("дара рельсті темір жол"),
-			keywords: &["дара рельсті темір жол", "көлік", "пойыз", "темір жол"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("monorail"),
-			keywords: &["køretøj", "monorail"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("រថភ\u{17d2}លើងរថលើផ\u{17d2}ល\u{17bc}វតែម\u{17bd}យ"),
-			keywords: &[
-				"រថភ\u{17d2}លើង",
-				"រថភ\u{17d2}លើងរថលើផ\u{17d2}ល\u{17bc}វតែម\u{17bd}យ",
-				"រថភ\u{17d2}លើងលើផ\u{17d2}ល\u{17bc}វ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{ccb}ನ\u{cca}ರ\u{cc8}ಲು"),
-			keywords: &[
-				"ಮ\u{ccb}ನ\u{cca}ರ\u{cc8}ಲು",
-				"ಮ\u{ccb}ನ\u{ccb}ರ\u{cc8}ಲ\u{ccd}",
-				"ವಾಹನ",
-				"ವ\u{cc6}ಹ\u{cbf}ಕಲ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("모노레일"),
-			keywords: &["교통수단", "기차", "모노레일"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("मोनोर\u{947}ल"),
-			keywords: &["मोनोर\u{947}ल", "वाहन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жалгыз рельс"),
-			keywords: &["жалгыз рельс", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Monorail"),
-			keywords: &["Gefier", "Monorail"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{ebb}ດໄຟລາງດຽວ"),
-			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ", "ລ\u{ebb}ດໄຟລາງດຽວ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("vienbėgis geležinkelis"),
-			keywords: &["transporto priemonė", "vienbėgis geležinkelis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("viensliedes dzelzceļš"),
-			keywords: &["dzelzceļš", "transports", "viensliedes", "vilciens"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("rōautahi"),
-			keywords: &["rōautahi", "waka"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("едношинска железница"),
-			keywords: &["воз", "возило", "едношинска железница", "железница"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മോണോറെയിൽ"),
-			keywords: &["മോണോറെയിൽ", "വ\u{d3e}ഹനം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("дүүжин төмөр зам"),
-			keywords: &["дүүжин", "дүүжин төмөр зам", "төмөр зам"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("मोनोर\u{947}ल"),
-			keywords: &["प\u{94d}रवास", "मोनोर\u{947}ल", "वाहन"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("monorel"),
-			keywords: &["kenderaan", "monorel"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("monorail"),
-			keywords: &["monorail", "vettura"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မ\u{102d}\u{102f}န\u{102d}\u{102f}ရထား"),
-			keywords: &["မ\u{102d}\u{102f}န\u{102d}\u{102f}ရထား", "ယာဥ\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("मोनोर\u{947}ल"),
-			keywords: &["गाडी", "मोनोर\u{947}ल"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("monorail"),
-			keywords: &["monorail", "vervoermiddel", "voertuig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["framkomstmiddel", "monorail"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମୋନୋରେଲ\u{b4d}\u{200c}"),
-			keywords: &["ବ\u{b3e}ହ\u{b3e}ନ", "ମନୋରେଲ\u{b4d}\u{200c}", "ମୋନୋରେଲ\u{b4d}\u{200c}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਮ\u{a4b}ਨ\u{a4b}ਰ\u{a47}ਲ"),
-			keywords: &[
-				"ਆਵਾਜਾਈ ਦਾ ਸਾਧਨ",
-				"ਟ\u{a4d}ਰ\u{a47}ਨ",
-				"ਮ\u{a4b}ਨ\u{a4b}ਰ\u{a47}ਲ",
-				"ਵਹੀਕਲ",
-				"ਵਾਹਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("مونو ریل"),
-			keywords: &["مونو ریل", "گڈی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Mónórel"),
-			keywords: &["Mónórel", "Móto"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("kolej jednoszynowa"),
-			keywords: &["jednoszynowa", "kolej", "pojazd", "szynowy"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("مونوریل"),
-			keywords: &["مونوريل", "مونوریل", "ګاډی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("monotrilho"),
-			keywords: &["monotrilho", "trem", "veículo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("monocarril"),
-			keywords: &["monocarril", "veículo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("monorrail"),
-			keywords: &["carru", "monorrail"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("monorai"),
-			keywords: &["monorai", "monoșină", "tren", "vehicul"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-945"), keywords: &["E10-945"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("монорельс"),
-			keywords: &["легкое", "метро", "монорельс", "рельсы", "транспорт"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("gariyamoshi inyura ku muhanda umwe"),
-			keywords: &["gariyamoshi inyura ku muhanda umwe", "imodoka"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang: "sd", tts: Some("مونوريل"), keywords: &["مونوريل", "گاڏي"]
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("මොනොරේල\u{dca}"),
-			keywords: &["මොනොරේල\u{dca}", "ව\u{dcf}හනය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("monorail"),
-			keywords: &[
-				"doprava",
-				"dopravný prostriedok",
-				"jednokoľajka",
-				"jednokoľajová",
-				"monorail",
-				"rýchlovlak",
-				"visutá dráha",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("enotirna železnica"),
-			keywords: &["enotirna železnica", "vozilo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("hal jid tareen kor u qaadan"),
-			keywords: &["gaari", "hal jid tareen kor u qaadan"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("hekurudhë me një shinë"),
-			keywords: &["hekurudhë me një shinë", "mjet", "mjet udhëtimi"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("монорејл"),
-			keywords: &["вoзилo", "монорејл"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("monorejl"),
-			keywords: &["monorejl", "vozilo"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("monorail"),
-			keywords: &["balkbana", "fordon", "monorail", "tåg"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("reli moja"),
-			keywords: &["gari", "reli moja"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மோனோரயில\u{bcd}"),
-			keywords: &["மோனோரயில\u{bcd}", "மோனோரயில\u{bcd} வண\u{bcd}டி", "வ\u{bbe}கனம\u{bcd}"],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఒక\u{c47} ట\u{c4d}ర\u{c3e}క\u{c4d} ఉండ\u{c47} ర\u{c48}లు"),
-			keywords: &[
-				"ఎలక\u{c4d}ట\u{c4d}ర\u{c3f}క\u{c4d} ర\u{c48}లు",
-				"ఒక\u{c47} ట\u{c4d}ర\u{c3e}క\u{c4d} ఉండ\u{c47} ర\u{c48}లు",
-				"ట\u{c4d}ర\u{c3e}క\u{c4d}",
-				"మ\u{c46}ట\u{c4d}ర\u{c4b} ర\u{c48}లు",
-				"ర\u{c48}లు",
-				"ర\u{c48}లు ఆగమనం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("якрелса"),
-			keywords: &["нақлиёт", "якрелса"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("รถไฟรางเด\u{e35}\u{e48}ยว"),
-			keywords: &["ยานพาหนะ", "รถไฟ", "ราง", "เด\u{e35}\u{e48}ยว", "โมโนเรล"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang: "ti", tts: Some("ሞኖረይል"), keywords: &["ሞኖረይል", "ተሽከርካሪ"]
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("monorels"),
-			keywords: &["monorels", "ulag"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("lēlue poutaha"),
-			keywords: &["lēlue", "poutaha"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("monoray"),
-			keywords: &["araç", "metro", "monoray", "taşıt", "tramvay"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("بىررېلىس"),
-			keywords: &["ئاپتوموبىل", "بىررېلىس"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("монорейка"),
-			keywords: &["метро", "монорейка", "монорейкова залізниця", "транспорт", "швидкий потяг"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("مونو ریل"),
-			keywords: &["ریل", "سواری", "مونو ریل", "یک ریل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("bir izli temiryo‘l"),
-			keywords: &[
-				"bir izli osma temir yoʼl",
-				"bir izli temir yoʻl",
-				"bir izli temiryo‘l",
-				"transport",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đường một ray"),
-			keywords: &["xe cộ", "đường một ray"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("monoraay"),
-			keywords: &["monoraay", "waruwaay"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isiporo esinenkasayiya enye"),
-			keywords: &["inqwelo-mafutha", "isiporo esinenkasayiya enye"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Oju irin kan"),
-			keywords: &["Oju irin kan", "nṣe ọkọ\u{301}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Oju irin kan"),
-			keywords: &["Oju irin kan", "nshe ɔkɔ\u{301}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("單軌"), keywords: &["單軌", "車輛"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("单轨"), keywords: &["单轨", "车辆"] },
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("单轨"),
-			keywords: &["单轨", "单轨电车", "火车"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("單軌"), keywords: &["單軌", "火車"] },
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("單軌電車"),
-			keywords: &["列車", "單軌列車", "單軌鐵路", "單軌電車", "車輛"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ujantshi owodwa"),
-			keywords: &["imoto", "ujantshi owodwa"],
-		},
-	],
 };
 #[doc = "🛤\u{fe0f}"]
 pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
@@ -15731,765 +10668,6 @@ pub const ONCOMING_AUTOMOBILE: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🚆"]
-pub const TRAIN: crate::Emoji = crate::Emoji {
-	glyph:                "🚆",
-	codepoint:            &[128646u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "train",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("trein"),
-			keywords: &[
-				"aangekom",
-				"sneltrein",
-				"spoor",
-				"spoorweg",
-				"tjoek-tjoek",
-				"trein",
-				"treinspoor",
-				"voertuig",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ባቡር"),
-			keywords: &["መድረስ", "ባቡር", "ተሽከርካሪ", "የባቡር መንገድ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قطار"),
-			keywords: &["تشو تشو", "سكة حديد", "قطار", "قطر", "مركبة", "نقل عام", "وصول"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ট\u{9cd}ৰেইন"),
-			keywords: &["ট\u{9cd}ৰেইন", "ৰেইলৱে"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qatar"),
-			keywords: &["dəmir yolu", "dəmiryolu", "nəqliyyat", "qatar"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("цягнік"),
-			keywords: &["бч", "рэйкі", "цягнік", "чыгунка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("влак"),
-			keywords: &["влак", "железница", "превозно средство", "пуф-паф"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ট\u{9cd}রেন"),
-			keywords: &[
-				"ক\u{9c1} জিক জিক",
-				"চো\u{981}\u{981} চো\u{981}\u{981}",
-				"ট\u{9cd}রেন",
-				"ভ\u{9cd}রমণ ও স\u{9cd}থ\u{9be}ন",
-				"য\u{9be}নব\u{9be}হন",
-				"রেলওয\u{9bc}ে",
-				"রেলগ\u{9be}ড\u{9bc}ি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("tren"),
-			keywords: &["hent-houarn", "tren"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("voz"),
-			keywords: &["voz", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("tren"),
-			keywords: &[
-				"arribada",
-				"arribat",
-				"ferrocarril",
-				"tren",
-				"vehicle",
-				"via del tren",
-				"xuc-xuc",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᏗᎦᏣᏄᎵ"), keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᏗᎦᏣᏄᎵ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("vlak"),
-			keywords: &[
-				"doprava",
-				"húú",
-				"lokomotiva",
-				"mašinka",
-				"příjezd",
-				"vlak",
-				"vláček",
-				"vozidlo",
-				"železnice",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("trên"),
-			keywords: &["cerbyd", "rheilffordd", "trên"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("tog"),
-			keywords: &["jernbane", "køretøj", "tog"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Zug"),
-			keywords: &["Bahn", "Eisenbahn", "ICE", "Zug"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τρένο"),
-			keywords: &["άφιξη", "σιδηρόδρομος", "τρένο", "τσουφ τσουφ", "όχημα"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("train"),
-			keywords: &["arrived", "choo", "railway", "train"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("tren"),
-			keywords: &["ferrocarril", "tren", "vehículo"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["chu chu", "ferrocarril", "transporte", "tren", "viajar", "viaje"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["ferrocarril", "tren"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("rong"),
-			keywords: &["raudtee", "rong", "sõiduk"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("trena"),
-			keywords: &["ibilgailu", "trena", "trenbide"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قطار"),
-			keywords: &["راه\u{200c}آهن", "ریل", "قطار", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("juna"),
-			keywords: &["ajoneuvo", "rautatie", "saapunut"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("tren"),
-			keywords: &["choo choo", "sasakyan", "tren"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("tok"), keywords: &["jarnbreyt", "tok"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("train"),
-			keywords: &["arrivée", "chemin de fer", "moyen de transport", "rail", "train", "voyage"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("traein"),
-			keywords: &["bóthar iarainn", "feithicil", "iarnród", "sroichte", "tagtha", "traein"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("trèana"),
-			keywords: &["rathad-iarainn", "rèile", "slighe-iarainn", "trèana"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("tren"),
-			keywords: &["ferrocarril", "tren"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ટ\u{acd}ર\u{ac7}ન"),
-			keywords: &[
-				"આગમન",
-				"ક\u{ac2}કગાડી",
-				"છ\u{ac1}કછ\u{ac1}ક",
-				"છ\u{ac1}કછ\u{ac1}ક ગાડી",
-				"ટ\u{acd}ર\u{ac7}ન",
-				"ર\u{ac7}લગાડી",
-				"ર\u{ac7}લ\u{acd}વ\u{ac7}",
-				"વાહન",
-				"સવારી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("jirgin ƙasa"),
-			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "titin jirgin ƙasa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("jirgin ƙasa"),
-			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "titin jirgin ƙasa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("רכבת"),
-			keywords: &["פסי רכבת", "רכבת", "תחבורה", "תחבורה ציבורית"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ट\u{94d}र\u{947}न"),
-			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "वाहन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("vlak"),
-			keywords: &["dolazak vlaka", "vlak", "vozilo", "željeznica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("vonat"),
-			keywords: &["jármű", "közlekedés", "vasút", "vonat"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("գնացք"),
-			keywords: &["գնացք", "երկաթուղի", "փոխադրամիջոց"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("kereta"),
-			keywords: &["kendaraan", "kereta", "rel"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ụgbọ okporoigwe"),
-			keywords: &["okporoigwe", "ụgbọ okporoigwe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation { lang: "is", tts: Some("lest"), keywords: &["járnbraut", "lest"] },
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("treno"),
-			keywords: &[
-				"arrivo",
-				"binari",
-				"ferrovia",
-				"freccia",
-				"mezzo",
-				"trasporto",
-				"treno",
-				"veloce",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("電車正面"),
-			keywords: &["乗り物", "列車", "電車", "電車正面"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("sepur"),
-			keywords: &["jalur ril", "sepur"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მატარებელი"),
-			keywords: &["მატარებელი", "რკინიგზა", "ტრანსპორტი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("пойыз"),
-			keywords: &["көлік", "пойыз", "темір жол"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation { lang: "kl", tts: Some("tog"), keywords: &["køretøj", "tog"] },
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("រថភ\u{17d2}លើងមើលព\u{17b8}ម\u{17bb}ខ"),
-			keywords: &["ក\u{17d2}បាលរថភ\u{17d2}លើង", "រថភ\u{17d2}លើងមើលព\u{17b8}ម\u{17bb}ខ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ರ\u{cc8}ಲು"),
-			keywords: &[
-				"ಚುಕ\u{ccd} ಬುಕ\u{ccd}",
-				"ತಲುಪ\u{cbf}ದ\u{cc6}",
-				"ರ\u{cc8}ಲು",
-				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("기차"),
-			keywords: &["기차", "도착", "철도", "칙칙폭폭"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ट\u{94d}र\u{947}न"),
-			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("поезд"),
-			keywords: &["поезд", "темир жол", "унаа"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation { lang: "lb", tts: Some("Zuch"), keywords: &["Eisebunn", "Zuch"] },
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{ebb}ດໄຟ"),
-			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("traukinys"),
-			keywords: &["geležinkelis", "traukinys"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("vilciens"),
-			keywords: &["dzelzceļš", "transports", "vilciens"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tereina"),
-			keywords: &["rerewē", "tereina"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("воз"),
-			keywords: &["воз", "возило", "железница", "пристигна", "пруга"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ട\u{d4d}രെയിൻ"),
-			keywords: &["ട\u{d4d}രെയിൻ", "റെയിൽവേ", "വ\u{d3e}ഹനം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("галт тэрэг"),
-			keywords: &["галт тэрэг", "төмөр зам"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ट\u{94d}र\u{947}न"),
-			keywords: &["आगगाडी", "ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}", "वाहन"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kereta api"),
-			keywords: &["kenderaan", "kereta api", "landasan kereta api", "rel kereta api"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation { lang: "mt", tts: Some("ferrovija"), keywords: &["ferrovija"] },
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ရထား"),
-			keywords: &["ရထား", "ရထားလမ\u{103a}း"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("र\u{947}ल"),
-			keywords: &["गाडी", "र\u{947}ल", "र\u{947}लमार\u{94d}ग"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("trein"),
-			keywords: &["aankomst", "spoor", "trein", "vertrek", "vervoermiddel", "voertuig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["framkomstmiddel", "jernbane", "tog"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଟ\u{b4d}ରେନ\u{b4d}\u{200c}"),
-			keywords: &["ଟ\u{b4d}ରେନ\u{b4d}\u{200c}", "ବ\u{b3e}ହ\u{b3e}ନ", "ରେଲୱେ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਰ\u{a47}ਲਗ\u{a71}ਡੀ"),
-			keywords: &[
-				"ਟਰ\u{a47}ਨ",
-				"ਪਹ\u{a41}\u{a70}ਚਣ",
-				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ",
-				"ਰ\u{a47}ਲ ਗ\u{a71}\u{a71}ਡੀ",
-				"ਰ\u{a47}ਲਗ\u{a71}\u{a71}ਡੀ",
-				"ਰ\u{a47}ਲਵ\u{a47}",
-				"ਵਾਹਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang: "pa_Arab", tts: Some("ٹرین"), keywords: &["ریلوے", "ٹرین"]
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation { lang: "pcm", tts: Some("Tren"), keywords: &["Relwè", "Tren"] },
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("pociąg"),
-			keywords: &["kolej", "pociąg", "podróż", "pojazd"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("اور ګاډی"),
-			keywords: &["اور ګاډی", "ريلوی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("trem"),
-			keywords: &["ferrovia", "trem", "veículo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("comboio"),
-			keywords: &["comboio", "linha ferroviária", "linha férrea", "veículo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("tren"),
-			keywords: &["ferrocarril", "tren"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("tren"),
-			keywords: &["cale ferată", "sosire", "sosit", "tren", "șine"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-922"), keywords: &["E10-922"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("поезд"),
-			keywords: &["дорога", "ж/д", "железная дорога", "поезд", "транспорт"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("gariyamoshi"),
-			keywords: &["gariyamoshi", "irayirayi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ريل گاڏي"),
-			keywords: &["ريل گاڏي", "ريلوي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
-			keywords: &[
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
-				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
-				"ව\u{dcf}හනය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("vlak"),
-			keywords: &[
-				"cestovanie",
-				"doprava",
-				"dopravný prostriedok",
-				"lokomotíva",
-				"rušeň",
-				"vlak",
-				"železnica",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("vlak"),
-			keywords: &["prihod", "vlak", "vozilo", "železnica"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("tareen"),
-			keywords: &["jidka tareenka", "tareen", "tareenka"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("tren"),
-			keywords: &["hekurudhë", "mbërriti", "mjet", "tren"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation { lang: "sr", tts: Some("воз"), keywords: &["воз", "жeлeзницa"] },
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["воз", "жeљeзницa"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("voz"),
-			keywords: &["voz", "železnica"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["voz", "željeznica"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("tåg"),
-			keywords: &["fordon", "järnväg", "tåg"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("treni"),
-			keywords: &["gari", "reli", "treni"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("இரயில\u{bcd}"),
-			keywords: &[
-				"இரயில\u{bcd}",
-				"இரயில\u{bcd} வண\u{bcd}டி",
-				"டிரெயின\u{bcd}",
-				"மெட\u{bcd}ரோ",
-				"ரயில\u{bcd}",
-				"ரயில\u{bcd} வண\u{bcd}டி",
-				"ரயில\u{bcd}வே",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ర\u{c48}లు"),
-			keywords: &[
-				"చ\u{c47}రుకుంటున\u{c4d}న ర\u{c48}లు",
-				"ప\u{c4d}రయ\u{c3e}ణం ల\u{c4b} ఉన\u{c4d}న ర\u{c48}లు",
-				"బయలుద\u{c47}రుతున\u{c4d}న ర\u{c48}లు",
-				"ర\u{c48}లు",
-				"స\u{c3e}ధ\u{c3e}రణ కర\u{c46}ంటు ల\u{c47}ద\u{c3e} డ\u{c40}జ\u{c3f}ల\u{c4d} ర\u{c48}లు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("қатора"),
-			keywords: &["роҳи оҳан", "қатора"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang: "th", tts: Some("รถไฟ"), keywords: &["ยานพาหนะ", "รถไฟ"]
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ባቡር"),
-			keywords: &["መንገዲ ባቡር", "በጺሑ", "ባቡር", "ቹ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation { lang: "tk", tts: Some("otly"), keywords: &["demir ýol", "otly"] },
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("lēlue"), keywords: &["lēlue"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("tren"),
-			keywords: &["demiryolu", "taşıt", "tren"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang: "ug", tts: Some("پويىز"), keywords: &["تۆمۈريول", "پويىز"]
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("потяг"),
-			keywords: &["електропотяг", "залізниця", "потяг", "транспорт"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ٹرین"),
-			keywords: &["ریل گاڑی", "سواری", "ٹرین", "چھک چھک", "چھک چھک گاڑی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("poyezd"),
-			keywords: &["poyezd", "temiryo‘l", "transport", "yetib kelyapman"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("tàu hỏa"),
-			keywords: &["tàu hỏa", "đường sắt"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation { lang: "wo", tts: Some("saxaar"), keywords: &["raay", "saxaar"] },
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("uloliwe"),
-			keywords: &["isiporo", "uloliwe"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ṣèdánilẹ\u{301}kọ\u{300}ọ\u{301}"),
-			keywords: &["Ṣèdánilẹ\u{301}kọ\u{300}ọ\u{301}", "ọkọ Oju-irin"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Shèdánilɛ\u{301}kɔ\u{300}ɔ\u{301}"),
-			keywords: &["Shèdánilɛ\u{301}kɔ\u{300}ɔ\u{301}", "ɔkɔ Oju-irin"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("火車"), keywords: &["火車", "鐵路"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("火车"), keywords: &["火车", "铁路"] },
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("火车"),
-			keywords: &["到站", "呜呜", "火车", "铁路"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("火車"),
-			keywords: &["到站", "火車", "鐵道"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["MTR", "到達", "地下鐵路", "地鐵", "港鐵", "火車", "鐵路"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isitimela"),
-			keywords: &["imoto", "isitimela", "ujantshi"],
-		},
-	],
 };
 #[doc = "🚐"]
 pub const MINIBUS: crate::Emoji = crate::Emoji {
@@ -22986,32 +17164,6 @@ pub const KICK_SCOOTER: crate::Emoji = crate::Emoji {
 			keywords: &["isikuta esikhahlelwayo", "isithuthuthu", "khahlela"],
 		},
 	],
-};
-#[doc = "🚇\u{fe0f}"]
-pub const METRO: crate::Emoji = crate::Emoji {
-	glyph:                "🚇\u{fe0f}",
-	codepoint:            &[128647u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "metro",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🚑\u{fe0f}"]
-pub const AMBULANCE: crate::Emoji = crate::Emoji {
-	glyph:                "🚑\u{fe0f}",
-	codepoint:            &[128657u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "ambulance",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };
 #[doc = "🚋"]
 pub const TRAM_CAR: crate::Emoji = crate::Emoji {
@@ -30171,827 +24323,6 @@ pub const POLICE_CAR_LIGHT: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🛼"]
-pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
-	glyph:                "🛼",
-	codepoint:            &[128764u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-	name:                 "roller skate",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportGround,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("Rolskaats"),
-			keywords: &[
-				"Rolskaats",
-				"kinderpret",
-				"lemme",
-				"ontspanning",
-				"pret",
-				"rolskaats",
-				"skaats",
-				"speel",
-				"speelgoed",
-				"sport",
-				"voortsnel",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ተሽከርካሪ ስኬት"),
-			keywords: &["መንሸራተቻ", "ምላጭ", "ሮለር ስኬት", "ሮለር ስኬቶች", "ስፖርት", "ተሽከርካሪ ስኬት"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("حذاء مع عجلات"),
-			keywords: &[
-				"أماكن",
-				"أنشطة",
-				"باتيناج",
-				"ترفيه",
-				"تزلج",
-				"حذاء",
-				"حذاء بعجلات",
-				"حذاء مع عجلات",
-				"رحلة",
-				"رياضة",
-				"زلاجة",
-				"عجلات",
-				"مزلجة",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ৰোল\u{9be}ৰ স\u{9cd}কেট"),
-			keywords: &["স\u{9cd}কেট", "ৰোল\u{9be}ৰ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("diyircəkli konki"),
-			keywords: &["diyircək", "diyircəkli konki", "konki"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("ролікавы канёк"),
-			keywords: &["канёк", "ролік", "ролікавы канёк"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("ролери"),
-			keywords: &["кънка", "кънки", "пързаляне", "ролер", "ролери", "ролкови кънки", "спорт"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("রোল\u{9be}র স\u{9cd}কেট"),
-			keywords: &[
-				"ক\u{9cd}রীড\u{9bc}\u{9be}",
-				"খেল\u{9be}ধ\u{9c1}ল\u{9be}",
-				"রোল\u{9be}র",
-				"স\u{9cd}কেট",
-				"স\u{9cd}কেটিং জ\u{9c1}তো",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("botez-ruilh"),
-			keywords: &["botez", "botez-ruilh"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("rolšue"),
-			keywords: &["roleri", "rolšua", "rolšue"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("patí de rodes"),
-			keywords: &["esport", "patí", "patí de rodes", "rodes"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏓᎾᏟᎾᏒᏗᎲᎢ ᏗᎦᏆᏙᏗ"),
-			keywords: &["ᏓᎾᏟᎾᏒᏗᎲᎢ", "ᏗᎦᏆᏙᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("kolečková brusle"),
-			keywords: &[
-				"bruslení",
-				"bruslit",
-				"inlajny",
-				"inline",
-				"jízda na bruslích",
-				"kolečková brusle",
-				"kolečkové",
-				"quad",
-				"roller derby",
-				"sport",
-				"trekové brusle",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("esgid sglefrio"),
-			keywords: &["esgid", "sglefrio"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("rulleskøjte"),
-			keywords: &["rulle", "rulleskøjte", "skøjte", "sport"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Rollschuh"),
-			keywords: &["Rollen", "Rollerskate", "Rollschuh", "Rollschuh laufen", "Schuh", "Sport"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("πατίνια"),
-			keywords: &["πατίνι", "πατίνια", "ρολάρω", "ρόλερ", "σκέιτ", "σπορ", "τροχοπέδιλο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("roller skate"),
-			keywords: &["blades", "roller", "skate", "skates", "sport"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("rollerskate"),
-			keywords: &["roller", "rollerskate", "skate"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("patines"),
-			keywords: &["patines", "patín", "patín de 4 ruedas", "patín de cuatro ruedas"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"cordones",
-				"deporte",
-				"patinar",
-				"patines",
-				"patines quad",
-				"patín",
-				"patín de 4 ruedas",
-				"patín sobre ruedas",
-				"rollers",
-				"skating",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("patín"), keywords: &["patín"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("patín"),
-			keywords: &["patines", "patines quad", "patín", "patín sobre ruedas", "rollers"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("rulluisk"),
-			keywords: &["rulluisk", "rulluisutama", "sport", "uisk"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("gurpil-lerroko irristailu"),
-			keywords: &["gurpil-lerroa", "gurpil-lerroko irristailu", "irristailua"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("کفش اسکیت"),
-			keywords: &["اسکیت", "تیغه", "رول\u{200c}اسکیت", "غلتک", "ورزش", "پالیزه", "کفش اسکیت"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("rullaluistin"),
-			keywords: &["luistin", "urheilu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("roller skate"),
-			keywords: &["roller", "roller blade", "skate", "sports"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("rulluskoyta"), keywords: &["rulluskoyta"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("patin à roulettes"),
-			keywords: &["derby", "patin à roulettes", "roller", "roulette", "roulettes", "sport"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["patin", "roulettes"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("scáta rothach"),
-			keywords: &["scáta rothach", "scátáil", "spórt"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bròg ròla-spèilidh"),
-			keywords: &["bròg ròla-spèilidh", "bròg-spèilidh", "ròla", "spèileadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("patín"),
-			keywords: &["deporte", "patinaxe"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("રૉલર સ\u{acd}ક\u{ac7}ટ"),
-			keywords: &[
-				"પ\u{ac8}ડા\u{a82} વાળા જ\u{ac2}તા",
-				"બ\u{acd}લ\u{ac7}ડ",
-				"રૉલર",
-				"સ\u{acd}ક\u{ac7}ટ",
-				"સ\u{acd}ક\u{ac7}ટિ\u{a82}ગ",
-				"સ\u{acd}પોર\u{acd}ટ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("takalmin taya"),
-			keywords: &["takalmi", "takalmi mai taya", "takalmin taya", "taya"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("takalmin taya"),
-			keywords: &["takalmi", "takalmi mai taya", "takalmin taya", "taya"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("גלגיליות"),
-			keywords: &["גלגיליות", "החלקה", "סקטים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("पहिय\u{947} वाला ज\u{942}ता"),
-			keywords: &[
-				"ख\u{947}ल",
-				"पहिय\u{947} वाला ज\u{942}ता",
-				"पहिय\u{947} वाल\u{947} ज\u{942}त\u{947}",
-				"फिसलना",
-				"रोलर",
-				"स\u{94d}क\u{947}ट",
-				"स\u{94d}क\u{947}टि\u{902}ग",
-				"स\u{94d}पोर\u{94d}ट\u{94d}स",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("koturaljka"),
-			keywords: &["koturaljka", "koturaljke", "rolanje", "role", "sport"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("görkorcsolya"),
-			keywords: &["görkorcsolya", "görkori", "kori", "sport"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("անվաչմուշկ"),
-			keywords: &["անիվ", "անվաչմուշկ", "չմուշկ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("sepatu roda"),
-			keywords: &["olahraga", "roda", "roller skate", "sepatu", "sepatu luncur"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("akpụkpọ ụkwụ nwere wiil"),
-			keywords: &["roller", "skate"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hjólaskautar"),
-			keywords: &["hjól", "hjólaskautar", "skauti"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("pattini a rotelle"),
-			keywords: &["pattinaggio", "pattinare", "pattini", "pattini a rotelle", "rotelle", "sport"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ローラースケート"),
-			keywords: &["スケート", "スポーツ", "ローラースケート"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("sepatu rodha"),
-			keywords: &["gulungan", "sepatu rodha"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("გორგოლაჭიანი ციგურები"),
-			keywords: &["გორგოლაჭები", "გორგოლაჭიანი ციგურები", "როლიკები", "ციგური"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ролик"),
-			keywords: &["дөңгелек", "ролик", "спорт"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ស\u{17d2}បែកជើងស\u{17d2}គ\u{17b8}"),
-			keywords: &[
-				"កង\u{17cb}វ\u{17b7}ល",
-				"ស\u{17d2}គ\u{17b8}",
-				"ស\u{17d2}បែកជើងស\u{17d2}គ\u{17b8}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ರ\u{ccb}ಲರ\u{ccd}\u{200c} ಸ\u{ccd}ಕ\u{cc7}ಟ\u{ccd}\u{200c}"),
-			keywords: &[
-				"ಕ\u{ccd}ರ\u{cc0}ಡ\u{cc6}",
-				"ಬ\u{ccd}ಲ\u{cc7}ಡ\u{ccd}\u{200d}ಗಳು",
-				"ರ\u{ccb}ಲರ\u{ccd}\u{200c}",
-				"ಸ\u{ccd}ಕ\u{cc7}ಟರ\u{ccd}",
-				"ಸ\u{ccd}ಕ\u{cc7}ಟ\u{cbf}ಂಗ\u{ccd}",
-				"ಸ\u{ccd}ಕ\u{cc7}ಟ\u{ccd}\u{200c}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("롤러스케이트"),
-			keywords: &["날", "롤러", "롤러스케이트", "블레이드", "스케이트", "스포츠", "운동"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
-			keywords: &["रोलर", "स\u{94d}क\u{947}ट"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("ролик конькиси"),
-			keywords: &["коньки", "ролик", "ролик конькиси"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເກ\u{eb5}ບ\u{200b}ສະ\u{200b}ເກດ"),
-			keywords: &[
-				"ລ\u{ecd}\u{ec9}\u{200b}ກ\u{eb4}\u{ec9}ງ",
-				"ສະເກ\u{eb1}ດ",
-				"ສະ\u{200b}ເກດ",
-				"ເກ\u{eb5}ບ",
-				"ເກ\u{eb5}ບສະເກ\u{eb1}ດ",
-				"ເກ\u{eb5}ບ\u{200b}ສະ\u{200b}ເກດ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("riedučiai"),
-			keywords: &["riedučiai", "sportas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("skrituļslida"),
-			keywords: &["skritulis", "skrituļslida", "slida", "slidot", "sports"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("ролшуи"),
-			keywords: &["возење", "ролери", "ролшуи", "спорт"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("റോളർ സ\u{d4d}കേറ\u{d4d}റർ"),
-			keywords: &[
-				"റോളർ",
-				"റോളർ സ\u{d4d}കേറ\u{d4d}റർ",
-				"സ\u{d4d}കേറ\u{d4d}റ\u{d4d}",
-				"സ\u{d4d}\u{200c}കേറ\u{d4d}റിംഗ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("дугуйтай тэшүүр"),
-			keywords: &["бул", "дугуйтай тэшүүр", "тэшүүр"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
-			keywords: &["ब\u{94d}ल\u{947}ड\u{94d}स", "रोलर", "स\u{94d}क\u{947}ट", "स\u{94d}पोर\u{94d}ट"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kasut roda"),
-			keywords: &["kasut", "meluncur", "roda", "sukan"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ရ\u{102d}\u{102f}လာ စက\u{102d}တ\u{103a}"),
-			keywords: &["စက\u{102d}တ\u{103a}", "ရ\u{102d}\u{102f}လာ"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
-			keywords: &["रोलर", "स\u{94d}क\u{947}ट"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("rolschaats"),
-			keywords: &[
-				"hobby",
-				"rollerskate",
-				"rollerskates",
-				"rolschaats",
-				"rolschaatsen",
-				"schaats",
-				"skaten",
-				"sport",
-				"sporten",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ରୋଲର ସ\u{b4d}କେଟ"),
-			keywords: &["ରୋଲର", "ସ\u{b4d}କେଟ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਰ\u{a4b}ਲਰ ਸਕ\u{a47}ਟ"),
-			keywords: &[
-				"ਪਹੀਏਦਾਰ ਬ\u{a42}ਟ",
-				"ਪ\u{a48}ਡਲਦਾਰ ਬ\u{a42}ਟ",
-				"ਰ\u{a4b}ਲਰ",
-				"ਸਕ\u{a47}ਟ",
-				"ਸਕ\u{a47}ਟਿ\u{a70}ਗ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Rólá Sket"),
-			keywords: &["Róla", "Rólá Sket", "Sket"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("wrotka"),
-			keywords: &[
-				"jazda na rolkach",
-				"rolki",
-				"sport",
-				"wrotka",
-				"wrotkarstwo",
-				"wrotki",
-				"łyżworolki",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("رولر سکيټ"), keywords: &["رولر", "سکيټ"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("patins de rodas"),
-			keywords: &["esporte", "patinação", "patins", "patins de rodas", "rodas", "roller"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["desporto", "patins", "patins de rodas", "rodas"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ruedaswan patines"),
-			keywords: &["muyuq", "patinar", "ruedaswan patines"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("patină cu rotile"),
-			keywords: &[
-				"călătorii",
-				"patinaj",
-				"patinat",
-				"patină",
-				"patină cu rotile",
-				"rotile",
-				"sport",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E13-050"), keywords: &["E13-050"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("роликовые коньки"),
-			keywords: &["коньки", "ролики", "роликовые коньки", "спорт"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("رولر اسڪيٽ"),
-			keywords: &["اسڪيٽ", "رولر"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("රෝද සපත\u{dca}ත\u{dd4}"),
-			keywords: &["රෝද", "ල\u{dd2}ස\u{dca}ස\u{dcf} යෑම", "සපත\u{dca}ත\u{dd4}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("koliesková korčuľa"),
-			keywords: &["koliesková", "korčuľa", "korčuľovanie", "korčuľovať sa", "šport"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("kotalke"),
-			keywords: &["kotalka", "kotalkanje", "kotalke", "roler", "šport"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("skaytka kaha"),
-			keywords: &["duub", "iskeeti ciyaarista", "skaytka kaha"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("rollerskejt"),
-			keywords: &["patina", "patina me rrota", "roller", "rollerskejt", "skejt", "sport"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("ролшуа"),
-			keywords: &["котураљка", "ролери", "ролшуа", "спорт"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("rolšua"),
-			keywords: &["koturaljka", "roleri", "rolšua", "sport"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("rullskridsko"),
-			keywords: &["rullskridsko"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("rolasketi"),
-			keywords: &["mchezo", "michezo", "rola", "rolasketi", "teleza"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ரோலர\u{bcd} ஸ\u{bcd}கேட\u{bcd}"),
-			keywords: &[
-				"ரோலர\u{bcd}",
-				"ரோலர\u{bcd} ஷூ",
-				"விளைய\u{bbe}ட\u{bcd}டு",
-				"ஸ\u{bcd}கேட\u{bcd}",
-				"ஸ\u{bcd}கேட\u{bcd}டிங\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}"),
-			keywords: &[
-				"క\u{c4d}ర\u{c40}డ",
-				"బ\u{c4d}ల\u{c47}డ\u{c4d}స\u{c4d}",
-				"ర\u{c4b}లర\u{c4d}",
-				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d} ఆట",
-				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}లు",
-				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}స\u{c4d}",
-				"స\u{c4d}క\u{c47}ట\u{c3f}ంగ\u{c4d}",
-				"స\u{c4d}క\u{c47}ట\u{c4d}",
-				"స\u{c4d}ప\u{c4b}ర\u{c4d}ట\u{c4d}",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("รองเท\u{e49}าสเก\u{e47}ต"),
-			keywords: &[
-				"ก\u{e35}ฬา",
-				"รองเท\u{e49}าสเก\u{e47}ต",
-				"สเก\u{e47}ต",
-				"โรลเลอร\u{e4c}",
-				"โรลเลอร\u{e4c}สเก\u{e47}ต",
-				"โรลเลอร\u{e4c}เบลด",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሮለር ስኬት"),
-			keywords: &["ሮለር", "ስንቂ", "ስኬት", "ስፖርት"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("tigirli konki"),
-			keywords: &["konki", "tigirli konki", "tigirçekli"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("sū sikeiti"),
-			keywords: &["sikeiti", "sū"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("paten"),
-			keywords: &[
-				"paten",
-				"paten kaymak",
-				"patenle kaymak",
-				"roller blade",
-				"roller skate",
-				"seyahat",
-				"spor",
-				"tekerlek",
-				"tekerlekli paten",
-				"tekerlekli patenler",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("роликовий ковзан"),
-			keywords: &[
-				"катання",
-				"катання на роликах",
-				"ковзан",
-				"ковзани",
-				"коліщата",
-				"ролики",
-				"роликовий",
-				"спорт",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("رولر سکیٹ"),
-			keywords: &["اسکیٹ", "بلیڈز", "رولر", "سکیٹ", "کھیل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("gʻildirakli konki"),
-			keywords: &["gʻildirakli konki", "konki", "roller", "skeyt", "sport"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("giày trượt patin"),
-			keywords: &["con lăn", "giày trượt", "giày trượt patin", "thể thao", "trượt patin"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("síkéètì ti ó s;are"),
-			keywords: &["are", "saré", "síkéètì", "síkéètì ti ó s", "síkéètì ti ó s;are"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("síkéètì ti ó s;are"),
-			keywords: &["are", "saré", "síkéètì", "síkéètì ti ó s", "síkéètì ti ó s;are"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("滾軸溜冰鞋"),
-			keywords: &["溜冰鞋", "滾軸", "滾軸溜冰鞋"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("滚轴溜冰鞋"),
-			keywords: &["溜冰鞋", "滚轴", "滚轴溜冰鞋"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("四轮滑冰鞋"),
-			keywords: &["四轮滑冰鞋", "旱冰", "溜冰", "溜冰鞋", "滑冰", "轮式", "运动"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("輪式溜冰鞋"),
-			keywords: &["單排輪", "溜冰", "溜冰鞋", "滑輪", "直排輪", "輪式溜冰鞋", "運動"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["溜冰鞋", "滾軸溜冰", "滾軸溜冰鞋", "運動"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("i-roller skate"),
-			keywords: &["i-roller", "i-roller skate", "i-skate"],
-		},
-	],
-};
 #[doc = "🛑"]
 pub const STOP_SIGN: crate::Emoji = crate::Emoji {
 	glyph:                "🛑",
@@ -33599,6 +26930,6675 @@ pub const LOCOMOTIVE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("ikhanda lesitmela"),
 			keywords: &["ikhanda lesitmela", "injini", "isithuthi", "isitimela", "isitimu", "ujantshi"],
+		},
+	],
+};
+#[doc = "🚇\u{fe0f}"]
+pub const METRO: crate::Emoji = crate::Emoji {
+	glyph:                "🚇\u{fe0f}",
+	codepoint:            &[128647u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "metro",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🛞"]
+pub const WHEEL: crate::Emoji = crate::Emoji {
+	glyph:                "🛞",
+	codepoint:            &[128734u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 14u8, minor: 0u8, patch: 0u8 },
+	name:                 "wheel",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("wiel"),
+			keywords: &["band", "draai", "kar", "motor", "sirkel", "velling", "voertuig", "wiel"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ጎማ"),
+			keywords: &["መታጠፊያ", "መኪና", "ተሽከርካሪ", "ክብ", "ክብ ውስጥ ያለ ኮኮብ", "ኮከብ", "የማሽከርከር ምልክት", "ጎማ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("عجلة"),
+			keywords: &["إطار", "دائرة", "دوران", "سيارة", "عجلة", "مركبة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("চক\u{9be}"),
+			keywords: &["গোল", "ঘ\u{9c2}ৰ\u{9be}", "চক\u{9be}", "ট\u{9be}য\u{9bc}\u{9be}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("təkər"),
+			keywords: &["dairə", "maşın", "minik", "növbə", "təkər", "şin"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("кола"),
+			keywords: &["абарот", "кола", "круг", "пакрышка", "шына"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("колело"),
+			keywords: &["автомобил", "въртене", "гума", "кола", "колело", "кръг", "превозно средство"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("চ\u{9be}ক\u{9be}"),
+			keywords: &[
+				"গ\u{9be}ড\u{9bc}ি",
+				"চ\u{9be}ক\u{9be}",
+				"ট\u{9be}য\u{9bc}\u{9be}র",
+				"ব\u{9be}\u{981}ক",
+				"ব\u{9c3}ত\u{9cd}ত",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("točak"),
+			keywords: &["guma", "krug", "okretanje", "točak"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("roda"),
+			keywords: &["cercle", "cotxe", "girar", "pneumàtic", "roda", "rodar", "vehicle"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏆᏙᏗ"),
+			keywords: &["ᎠᎦᏔᎲᏍᏗ", "ᎠᏜ ᎠᏢᏗ", "ᎦᏆᏙᏗ", "ᎦᏌᏆᎳ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("kolo"),
+			keywords: &[
+				"auto",
+				"koleso",
+				"kolo",
+				"kruh",
+				"kulatý",
+				"otáčení",
+				"pneumatika",
+				"rezerva",
+				"točit",
+				"volant",
+				"vozidlo",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("olwyn"),
+			keywords: &["cylch", "olwyn", "teiar", "troi"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("hjul"),
+			keywords: &["bil", "cirkel", "dreje", "dæk", "fælg", "hjul", "køretøj"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Autorad"),
+			keywords: &[
+				"Autorad",
+				"Autoreifen",
+				"Rad",
+				"Reifen",
+				"Reifen mit Felgen",
+				"drehen",
+				"rotieren",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τροχός"),
+			keywords: &["αυτοκίνητο", "ελαστικό", "κύκλος", "μηχανάκι", "ρόδα", "στροφή", "τροχός"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("wheel"),
+			keywords: &["car", "circle", "tire", "turn", "vehicle", "wheel"],
+		},
+		#[cfg(feature = "en_001")]
+		crate::Annotation {
+			lang:     "en_001",
+			tts:      None,
+			keywords: &["circle", "turn", "tyre", "wheel"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("rueda"),
+			keywords: &["círculo", "girar", "neumático", "rodar", "rueda"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"auto",
+				"carro",
+				"girar",
+				"llanta",
+				"neumático",
+				"rodar",
+				"rueda",
+				"vehículo",
+				"viajes y lugares",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["círculo", "girar", "llanta", "neumático", "rodar", "rueda"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("ratas"),
+			keywords: &["auto", "pöörama", "ratas", "rehv", "ring"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("gurpila"),
+			keywords: &["bira", "gurpila", "pneumatiko", "zirkulu"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("چرخ"),
+			keywords: &[
+				"تایر",
+				"حلقه",
+				"خودرو",
+				"دور",
+				"سفر",
+				"لاستیک",
+				"مکان\u{200c}ها",
+				"وسیله نقلیه",
+				"چرخ",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("rengas"),
+			keywords: &["ajoneuvo", "auto", "autonrengas", "kääntyminen", "pyörä"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("gulong"),
+			keywords: &["bilog", "goma", "gulong", "kotse", "sasakyan"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("hjól"),
+			keywords: &["akfar", "bildekk", "dekk", "felga", "hjól"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("roue"),
+			keywords: &["cercle", "pneu", "roue", "tourner", "voiture", "véhicule"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("roth"),
+			keywords: &["bonn", "carr", "feithicil", "roth"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cuibhle"),
+			keywords: &["cearcall", "cuibhle", "roth", "taidhir", "tionndadh"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("roda"),
+			keywords: &["círculo", "pneumático", "xirar"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પ\u{ac8}ડ\u{ac1}\u{a82}"),
+			keywords: &["કાર", "ગોળ", "ટાયર", "પ\u{ac8}ડ\u{ac1}\u{a82}", "વળા\u{a82}ક", "વાહન"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("taya"),
+			keywords: &["daʼira", "juyawa", "taya", "tayar mota", "wili"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("taya"),
+			keywords: &["daʼira", "juyawa", "taya", "tayar mota", "wili"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("גלגל"),
+			keywords: &["אוטו", "גלגל", "מכונית", "מעגל", "סיבוב", "עיגול", "צמיג", "רכב"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("पहिया"),
+			keywords: &[
+				"कार",
+				"गाड\u{93c}ी",
+				"गाड\u{93c}ी का पहिया",
+				"गोल",
+				"टायर",
+				"पहिया",
+				"मोड\u{93c}",
+				"वाहन",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("kotač"),
+			keywords: &["automobil", "guma", "kotač", "krug", "okret", "vozilo"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("kerék"),
+			keywords: &["abroncs", "felni", "fordul", "gumiabroncs", "kerék", "kör"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("անիվ"),
+			keywords: &["անիվ", "անվադող", "շրջան", "պտույտ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("roda"),
+			keywords: &["ban", "belok", "kendaraan", "lingkaran", "mobil", "roda"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ukwu ụgbọala"),
+			keywords: &["circle", "tire", "turn", "ukwu ụgbọala"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hjól"),
+			keywords: &["beygja", "hjól", "hjólbarði", "hringur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("ruota"),
+			keywords: &[
+				"auto",
+				"cerchio",
+				"cerchione",
+				"girare",
+				"gomma",
+				"pneumatico",
+				"ruota",
+				"veicolo",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ホイール"),
+			keywords: &["スポーク", "タイヤ", "ホイール", "自動車", "車", "車輪"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("rodha"),
+			keywords: &["ban", "bunder", "nguripake", "rodha"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ბორბალი"),
+			keywords: &["ბორბალი", "მობრუნება", "საბურავი", "წრე"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("дөңгелек"),
+			keywords: &["автомобиль", "бұрылу", "дөңгелек", "көлік", "шина"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("សញ\u{17d2}ញារ\u{17bc}បកង\u{17cb}ឡាន"),
+			keywords: &["កង\u{17cb}", "កង\u{17cb}ឡាន", "សញ\u{17d2}ញារ\u{17bc}បកង\u{17cb}ឡាន"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಚಕ\u{ccd}ರ"),
+			keywords: &[
+				"ಚಕ\u{ccd}ರ",
+				"ಟ\u{cc8}ರ\u{ccd}",
+				"ತ\u{cbf}ರುವು",
+				"ವಾಹನದ ಚಕ\u{ccd}ರ",
+				"ವೃತ\u{ccd}ತ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("휠"),
+			keywords: &["바퀴", "원", "자동차", "차", "카", "타이어", "탈 것", "회전", "휠"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("चाक"),
+			keywords: &["चाक", "टायर", "बा\u{902}क", "वर\u{94d}त\u{941}ळ"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("дөңгөлөк"),
+			keywords: &["айлануу", "дөңгөлөк", "руль", "тегерек"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{ecd}\u{ec9}ລ\u{ebb}ດ"),
+			keywords: &[
+				"ກ\u{ebb}ງລ\u{ebb}ດ",
+				"ກ\u{ebb}ງລ\u{ecd}\u{ec9}",
+				"ຕ\u{eb5}ນລ\u{ebb}ດ",
+				"ພວງມະໄລ",
+				"ຢາງລ\u{ebb}ດ",
+				"ລ\u{ec9}ຽວ",
+				"ລ\u{ecd}\u{ec9}ລ\u{ebb}ດ",
+				"ວ\u{ebb}ງມ\u{ebb}ນ",
+				"ວ\u{ebb}ງລ\u{ecd}\u{ec9}",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("ratas"),
+			keywords: &["apskritimas", "automobilis", "padanga", "ratas", "suktis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("ritenis"),
+			keywords: &["aplis", "auto", "pagriezties", "riepa", "ritenis"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("тркало"),
+			keywords: &["автомобил", "возило", "врти", "гума", "круг", "тркало"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ചക\u{d4d}രം"),
+			keywords: &[
+				"ക\u{d3e}ർ",
+				"ചക\u{d4d}രം",
+				"ടയർ",
+				"തിരിയ\u{d41}ക",
+				"വ\u{d3e}ഹനം",
+				"വീൽ",
+				"വ\u{d43}ത\u{d4d}തം",
+				"സ\u{d4d}റ\u{d4d}റിയറിംഗ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("дугуй"),
+			keywords: &["дугуй", "хаймар", "эргэх"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("चाक"),
+			keywords: &["गोल", "चाक", "टायर", "वर\u{94d}त\u{941}ळ"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("roda"),
+			keywords: &["bulatan", "putar", "roda", "tayar"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စတ\u{102e}ယာရင\u{103a} ဘ\u{102e}း"),
+			keywords: &[
+				"စက\u{103a}ဝ\u{102d}\u{102f}င\u{103a}း",
+				"စတ\u{102e}ယာရင\u{103a} ဘ\u{102e}း",
+				"တာယာ",
+				"လ\u{103e}\u{102d}မ\u{1037}\u{103a}သည\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पाङ\u{94d}ग\u{94d}रा"),
+			keywords: &["पाङ\u{94d}ग\u{94d}रा", "बायर", "मोड", "व\u{943}त\u{94d}त"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("wiel"),
+			keywords: &[
+				"auto", "band", "cirkel", "draaien", "velg", "velgen", "vervoer", "voertuig", "wiel",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଚକ"),
+			keywords: &["ଚକ", "ଟର\u{b4d}ନ\u{b4d}", "ଟ\u{b3e}ୟ\u{b3e}ର", "ବ\u{b43}ତ\u{b4d}ତ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਹੀਆ"),
+			keywords: &[
+				"ਕਾਰ",
+				"ਘ\u{a41}\u{a70}ਮਦਾ ਹ\u{a4b}ਇਆ",
+				"ਚ\u{a71}ਕਰ",
+				"ਚ\u{a71}ਕਾ",
+				"ਟਾਇਰ",
+				"ਪਹੀਆ",
+				"ਵਾਹਨ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Wiil"),
+			keywords: &["Sákul", "Táya", "Tọn", "Wiil"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("koło pojazdu"),
+			keywords: &["koło", "koło pojazdu", "kręcić", "opona", "samochód"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("څرخ"),
+			keywords: &["حلقه", "موټر", "وګرځي", "ټایر", "څرخ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("roda"),
+			keywords: &["carro", "círculo", "direção", "girar", "pneu", "roda", "veículo", "volante"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["círculo", "girar", "pneu", "pneumático", "roda", "rodar", "veículo", "viatura"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("rueda"),
+			keywords: &["llanta", "muyu", "muyuy", "rueda"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("roată"),
+			keywords: &["anvelopă", "cauciuc", "cerc", "roată", "învârti"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E14-028"), keywords: &["E14-028"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("автомобильное колесо"),
+			keywords: &["автомобильное колесо", "диск", "колесо", "колпак", "круг", "поворот", "шина"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڦيٿو"),
+			keywords: &["مڙڻ", "ٽائر", "ڦيرو", "ڦيٿو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("රෝදය"),
+			keywords: &["කවය", "ටයර\u{dca}", "රෝදය", "හැරෙන\u{dca}න"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("koleso"),
+			keywords: &["auto", "koleso", "kruh", "otáčanie", "pneumatika", "vozidlo"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("avtomobilsko kolo"),
+			keywords: &["avto", "avtomobilsko kolo", "krog", "pnevmatika", "vozilo", "vrtenje"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("gaari"),
+			keywords: &["gaari", "goobaabin", "leexo", "taayir"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("rrotë"),
+			keywords: &["automjet", "gomë", "kthesë", "makinë", "rreth", "rrotë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("точак"),
+			keywords: &["ауто", "возило", "гума", "круг", "скренути", "точак"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("točak"),
+			keywords: &["auto", "guma", "krug", "skrenuti", "točak", "vozilo"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("hjul"),
+			keywords: &["cirkel", "däck", "hjul", "rulla"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("gurudumu"),
+			keywords: &["gari", "gurudumu", "mviringo", "mzunguko", "tairi"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("சக\u{bcd}கரம\u{bcd}"),
+			keywords: &[
+				"க\u{bbe}ர\u{bcd}",
+				"சக\u{bcd}கரம\u{bcd}",
+				"டயர\u{bcd}",
+				"திருப\u{bcd}புதல\u{bcd}",
+				"வட\u{bcd}டம\u{bcd}",
+				"வ\u{bbe}கனம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("చక\u{c4d}రం"),
+			keywords: &[
+				"క\u{c3e}రు",
+				"చక\u{c4d}రం",
+				"టర\u{c4d}న\u{c4d}",
+				"ట\u{c48}రు",
+				"బండ\u{c3f}చక\u{c4d}రం పట\u{c4d}ట\u{c40}",
+				"వ\u{c3e}హనం",
+				"వ\u{c40}ల\u{c4d}",
+				"సర\u{c4d}క\u{c3f}ల\u{c4d}",
+				"స\u{c4d}ట\u{c40}ర\u{c3f}ంగ\u{c4d}",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ล\u{e49}อรถ"),
+			keywords: &[
+				"ยาง",
+				"ยางรถยนต\u{e4c}",
+				"รถ",
+				"รถยนต\u{e4c}",
+				"ล\u{e49}อรถ",
+				"วงกลม",
+				"หม\u{e38}น",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("መንኮርኮር"),
+			keywords: &["መንኮርኮር", "መኪና", "መጠወሪ", "ተሽከርካሪት", "ዓንኬል", "ጎማ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("tigir"),
+			keywords: &["aýlanmak", "pokryşka", "tegelek", "tigir"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("veʻelapa"),
+			keywords: &["afe", "seakale", "veʻelapa"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("tekerlek"),
+			keywords: &[
+				"araba",
+				"dönüş",
+				"jant",
+				"lastik",
+				"oto",
+				"otomobil",
+				"seyahat",
+				"tekerlek",
+				"yedek parça",
+				"yolculuk",
+				"çark",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("колесо"),
+			keywords: &["автомобіль", "колесо", "коло", "машина", "обертатися", "транспорт", "шина"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("پہیہ"),
+			keywords: &["دائرہ", "ٹائر", "پہیہ", "کار", "گاڑی", "گھومنا"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("gʻildirak"),
+			keywords: &[
+				"avtomobil",
+				"aylana",
+				"balon",
+				"burilish",
+				"doira",
+				"dumaloq",
+				"gʻildirak",
+				"shina",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("bánh xe"),
+			keywords: &["bánh xe", "hình tròn", "lốp xe", "xoay"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("keke"),
+			keywords: &["keke", "sakù", "táyà", "yí"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("keke"),
+			keywords: &["keke", "sakù", "táyà", "yí"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("轆"),
+			keywords: &["圈", "車胎", "轆", "轉"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("辘"),
+			keywords: &["圈", "车胎", "转", "辘"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("车轮"),
+			keywords: &["圆圈", "汽车", "车轮", "车辆", "转动", "轮胎"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("輪子"),
+			keywords: &["圓圈", "車", "車輛", "輪子", "輪胎", "轉動"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["換軚", "汽車", "爆軚", "車胎", "車軚", "車輛", "車轆", "輪胎", "輪軚", "轆"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isondo"),
+			keywords: &["circle", "isondo", "tire", "turn", "wheel"],
+		},
+	],
+};
+#[doc = "🚉"]
+pub const STATION: crate::Emoji = crate::Emoji {
+	glyph:                "🚉",
+	codepoint:            &[128649u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "station",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("stasie"),
+			keywords: &["sneltrein", "spoor", "spoorweg", "stasie", "trein", "voertuig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ጣቢያ"),
+			keywords: &["ባቡር", "ባቡር መቆሚያ", "ተሽከርካሪ", "የባቡር መንገድ", "ጣቢያ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("محطة قطار"),
+			keywords: &["سفر", "سكة", "قطار", "محطة", "نقل عام"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ষ\u{9cd}টেচন"),
+			keywords: &["ট\u{9cd}ৰেইন", "ষ\u{9cd}টেচন", "ৰেইলৱে"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("stansiya"),
+			keywords: &[
+				"dəmir yolu",
+				"dəmiryolu",
+				"nəqliyyat",
+				"nəqliyyat vasitəsi",
+				"qatar",
+				"stansiya",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("станцыя"),
+			keywords: &["прыпынак", "станцыя", "цягнік", "чыгунка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("гара"),
+			keywords: &["влак", "гара", "железница", "превозно средство"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}টেশন"),
+			keywords: &["ট\u{9cd}রেন", "য\u{9be}নব\u{9be}হন", "রেলওয\u{9bc}ে", "স\u{9cd}টেশন"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("porzh-houarn"),
+			keywords: &["hent-houarn", "porzh-houarn", "tren"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("stanica"),
+			keywords: &["stanica", "voz", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("estació"),
+			keywords: &["estació", "ferrocarril", "tren", "vehicle", "vies"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏓᏁᎸ"),
+			keywords: &["ᎠᏓᏁᎸ", "ᎠᏥᎳ ᏅᏃᎯ", "ᏗᎦᏣᏄᎵ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("stanice"),
+			keywords: &[
+				"doprava",
+				"elektrický",
+				"lokomotiva",
+				"mašinka",
+				"nástupiště",
+				"peron",
+				"příměstský vlak",
+				"stanice",
+				"vlak",
+				"vláček",
+				"vozidlo",
+				"zastávka",
+				"železnice",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("gorsaf"),
+			keywords: &["gorsaf", "rheilffordd", "trên"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("togstation"),
+			keywords: &["jernbane", "station", "tog", "togstation"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Bahnhof"),
+			keywords: &["Bahn", "Bahnhof", "Zug"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("σταθμός"),
+			keywords: &["σιδηρόδρομος", "σταθμός", "τρένο", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("station"),
+			keywords: &["railway", "station", "train"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("estación de tren"),
+			keywords: &["estación", "estación de tren", "tren"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"estación",
+				"estación de tren",
+				"ferrocarril",
+				"transporte",
+				"tranvía",
+				"tren",
+				"viaje",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("jaam"),
+			keywords: &["jaam", "raudtee", "rong"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("geltokia"),
+			keywords: &["geltokia", "ibilgailu", "trenbide"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ایستگاه قطار"),
+			keywords: &[
+				"ایستگاه قطار",
+				"راه\u{200c}آهن",
+				"ریل",
+				"قطار",
+				"وسیله نقلیه",
+				"وسیله\u{654} نقلیه",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("asema"),
+			keywords: &["ajoneuvo", "asema", "juna", "rautatie"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("istasyon"),
+			keywords: &["istasyon", "lrt", "mrt", "platform", "sasakyan", "tren"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("jarnbreytarstøð"),
+			keywords: &["jarnbreyt", "jarnbreytarstøð", "støð", "tok"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("gare"),
+			keywords: &["RER", "chemin de fer", "gare", "moyen de transport", "rail", "train"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["chemin de fer", "gare", "train"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("stáisiún traenach"),
+			keywords: &[
+				"bóthar iarainn",
+				"dart",
+				"iarnród",
+				"luas",
+				"stad na traenach",
+				"stáisiún",
+				"stáisiún traenach",
+				"traein",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("stèisean"),
+			keywords: &["rathad-iarainn", "rèile", "slighe-iarainn", "stèisean", "trèana"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("estación"),
+			keywords: &["estación", "tranvía", "tren"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ટ\u{acd}ર\u{ac7}ન સ\u{acd}ટ\u{ac7}શન"),
+			keywords: &[
+				"ટ\u{acd}ર\u{ac7}ન",
+				"ર\u{ac7}લ",
+				"ર\u{ac7}લગાડી",
+				"વાહન",
+				"સવારી",
+				"સ\u{acd}ટ\u{ac7}શન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("tasha"),
+			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "tasha", "tashar jirgin ƙasa"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("tasha"),
+			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "tasha", "tashar jirgin ƙasa"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("תחנה"),
+			keywords: &["רכבת", "תחבורה", "תחנה", "תחנת רכבת"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}ट\u{947}शन"),
+			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "स\u{94d}ट\u{947}शन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("postaja"),
+			keywords: &["postaja", "vlak", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("állomás"),
+			keywords: &["jármű", "közlekedés", "vasút", "vonat", "állomás"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("կայարան"),
+			keywords: &["գնացք", "երկաթուղի", "կայարան", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("stasiun"),
+			keywords: &["kendaraan", "kereta", "rel", "stasiun"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọdụ ụgbọ"),
+			keywords: &["okporoigwe", "ọdụ ụgbọ", "ụgbọokporoigwe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("lestarstöð"),
+			keywords: &["lest", "lestarstöð", "stöð"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("stazione"),
+			keywords: &[
+				"arrivo",
+				"fermata",
+				"ferrovia",
+				"ritardo",
+				"stazione",
+				"trasporto",
+				"treno",
+				"veicolo",
+				"viaggiare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("駅"),
+			keywords: &["ステーション", "乗り物", "列車", "電車", "駅"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("setasiun"),
+			keywords: &["jalur ril", "sepur", "setasiun"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სადგური"),
+			keywords: &["მატარებელი", "რკინიგზა", "სადგური", "ტრანსპორტი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("станция"),
+			keywords: &["көлік", "пойыз", "станция", "темір жол"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("togstation"),
+			keywords: &["tog", "togstation"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ស\u{17d2}ថាន\u{17b8}យ"),
+			keywords: &["ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើង", "រថភ\u{17d2}លើង", "ស\u{17d2}ថាន\u{17b8}យ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ನ\u{cbf}ಲ\u{ccd}ದಾಣ"),
+			keywords: &["ನ\u{cbf}ಲ\u{ccd}ದಾಣ", "ರ\u{cc8}ಲು", "ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}", "ಸರಕು"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("기차역"),
+			keywords: &["기차", "기차역", "바트", "역", "전철역", "지하철역", "철도"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("स\u{94d}ट\u{947}शन"),
+			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}", "स\u{94d}ट\u{947}शन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("станция"),
+			keywords: &["поезд", "станция", "темир жол", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Haltestell"),
+			keywords: &["Eisebunn", "Haltestell", "Zuch"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ສະຖານ\u{eb5}"),
+			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ", "ສະຖານ\u{eb5}"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("stotis"),
+			keywords: &["geležinkelis", "stotis", "traukinys"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("stacija"),
+			keywords: &["dzelzceļš", "stacija", "transportlīdzeklis", "transports", "vilciens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("teihana"),
+			keywords: &["rerewē", "teihana", "tereina"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("станица"),
+			keywords: &["воз", "возило", "железница", "железничка станица", "станица"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("റെയിൽവേ സ\u{d4d}റ\u{d4d}റേഷൻ"),
+			keywords: &["ട\u{d4d}രെയിൻ", "റെയിൽവേ സ\u{d4d}റ\u{d4d}റേഷൻ", "സ\u{d4d}റ\u{d4d}റേഷൻ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("галт тэрэгний буудал"),
+			keywords: &["буудал", "галт тэрэг", "галт тэрэгний буудал"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{94d}ट\u{947}शन"),
+			keywords: &[
+				"आगगाडी",
+				"ट\u{94d}र\u{947}न",
+				"फलाट",
+				"र\u{947}ल\u{94d}व\u{947}",
+				"र\u{947}ल\u{94d}व\u{947} स\u{94d}थानक",
+				"स\u{94d}ट\u{947}शन",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("stesen"),
+			keywords: &["kenderaan", "kereta api", "landasan kereta api", "rel kereta api", "stesen"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("stazzjon"),
+			keywords: &["ferrovija", "stazzjon"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဘ\u{1030}တာရ\u{102f}\u{1036}"),
+			keywords: &["ဘ\u{1030}တာရ\u{102f}\u{1036}", "ရထား", "ရထားလမ\u{103a}း"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}ट\u{947}शन"),
+			keywords: &["गाडी", "ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "स\u{94d}ट\u{947}शन"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("treinstation"),
+			keywords: &["spoor", "station", "trein", "treinstation", "vervoermiddel", "voertuig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଷ\u{b4d}ଟେସନ\u{b4d}\u{200c}"),
+			keywords: &["ଟ\u{b4d}ରେନ\u{b4d}", "ଷ\u{b4d}ଟେସନ\u{b4d}\u{200c}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਟ\u{a47}ਸ\u{a3c}ਨ"),
+			keywords: &[
+				"ਟਰ\u{a47}ਨ",
+				"ਮ\u{a48}ਟਰ\u{a4b}",
+				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ",
+				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ ਸਟ\u{a47}ਸ\u{a3c}ਨ",
+				"ਸਟ\u{a47}ਸ\u{a3c}ਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("سٹیشن"),
+			keywords: &["ریلوے", "سٹیشن", "ٹرین"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Stéshọn"),
+			keywords: &["Relwè", "Stéshọn", "Tren"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("stacja"),
+			keywords: &["dworzec", "kolej", "kolejowa", "pociąg", "podróż", "pojazd", "stacja"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("تمځای"),
+			keywords: &["اور کاډی", "تمځای", "ريلوی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("estação"),
+			keywords: &["estação", "estação de trem", "metrô", "trem"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["comboio", "estação", "linha ferroviária"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("estacion"),
+			keywords: &["estacion", "ferrocarril", "tren"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("gară"),
+			keywords: &["cale ferată", "gară", "haltă", "stație", "tren"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-925"), keywords: &["E10-925"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("железнодорожный вокзал"),
+			keywords: &[
+				"вокзал",
+				"ж/д вокзал",
+				"ж/д станция",
+				"железнодорожная станция",
+				"железнодорожный вокзал",
+				"рельсы",
+				"станция",
+				"электричка",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("sitasiyo"),
+			keywords: &["gariyamoshi", "irayirayi", "sitasiyo"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اسٽيشن"),
+			keywords: &["اسٽيشن", "ريل", "ريلوي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("නැවත\u{dd4}ම\u{dca}පොළ"),
+			keywords: &[
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
+				"නැවත\u{dd4}ම\u{dca}පොළ",
+				"ව\u{dcf}හනය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("stanica"),
+			keywords: &[
+				"dopravný prostriedok",
+				"elektrický vlak",
+				"rušeň",
+				"stanica",
+				"vlak",
+				"železnica",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("postaja"),
+			keywords: &["postaja", "vlak", "vozilo", "železnica"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("saldhig"),
+			keywords: &["jidka tareenka", "saldhig", "saldhigga", "tareen"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("stacion"),
+			keywords: &["hekurudhë", "mjet", "stacion", "tren"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("станица"),
+			keywords: &["воз", "жeлeзницa", "станица"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["воз", "жeљeзницa", "станица"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("stanica"),
+			keywords: &["stanica", "voz", "železnica"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["stanica", "voz", "željeznica"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("tågstation"),
+			keywords: &["station", "tåg", "tågstation"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kituo"),
+			keywords: &["gari", "kituo", "kituo cha treni", "reli", "teni", "treni"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ரயில\u{bcd} நிலையம\u{bcd}"),
+			keywords: &[
+				"இரயில\u{bcd}",
+				"இரயில\u{bcd} நிலையம\u{bcd}",
+				"டிரெயின\u{bcd}",
+				"நிறுத\u{bcd}தம\u{bcd}",
+				"ரயில\u{bcd}",
+				"ரயில\u{bcd} நிலையம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ర\u{c48}ల\u{c4d}వ\u{c47} స\u{c4d}ట\u{c47}షన\u{c4d}"),
+			keywords: &[
+				"ప\u{c4d}రయ\u{c3e}ణం",
+				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"ర\u{c48}లు",
+				"ర\u{c48}ల\u{c4d}వ\u{c47} స\u{c4d}ట\u{c47}షన\u{c4d}",
+				"స\u{c4d}ట\u{c47}షన\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("истгоҳ"),
+			keywords: &["истгоҳ", "роҳи оҳан", "қатора"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("สถาน\u{e35}รถไฟ"),
+			keywords: &["ยานพาหนะ", "รถไฟ", "สถาน\u{e35}รถไฟ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጣብያ"),
+			keywords: &["መንገዲ ባቡር", "ባቡር", "ጣብያ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("menzil"),
+			keywords: &["demir ýol", "menzil", "otly"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tauʻanga lēlue"),
+			keywords: &["lēlue", "tauʻanga"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("tren istasyonu"),
+			keywords: &["istasyon", "taşıt", "tren", "tren istasyonu", "tren yolu"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ۋوگزال"),
+			keywords: &["تۆمۈر يول", "پويىز", "ۋوگزال"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("станція"),
+			keywords: &["cтанція", "залізниця", "зупинка", "потяг", "станція", "транспорт"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("اسٹیشن"),
+			keywords: &["اسٹیشن", "بارٹ", "ریلوے", "ٹرین"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("bekat"),
+			keywords: &["bekat", "poyezd", "temir yoʻl", "temiryo‘l", "transport"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("ga tàu"),
+			keywords: &["ga tàu", "tàu hỏa", "đường sắt"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("gaar"),
+			keywords: &["gaar", "otoraay", "raay"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isitishi"),
+			keywords: &["isiporo", "isitishi", "uloliwe"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ibudo"),
+			keywords: &["Ibudo", "ojú-irin", "ọkọ ojú-irin"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ibudo"),
+			keywords: &["Ibudo", "ojú-irin", "ɔkɔ ojú-irin"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("車站"),
+			keywords: &["火車", "車站", "鐵路"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("车站"),
+			keywords: &["火车", "车站", "铁路"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("车站"),
+			keywords: &["地铁", "捷运", "火车", "车站", "铁路"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("車站"),
+			keywords: &["捷運", "車站", "鐵路"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["列車", "火車", "車站", "鐵路"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isiteshi"),
+			keywords: &["imoto", "isiteshi", "isitimela", "ujantshi"],
+		},
+	],
+};
+#[doc = "🚊"]
+pub const TRAM: crate::Emoji = crate::Emoji {
+	glyph:                "🚊",
+	codepoint:            &[128650u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "tram",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("trem"),
+			keywords: &["openbare vervoer", "spoor", "spoorlose trem", "trem", "vervoer", "voertuig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ባቡር መሰል አውቶቡስ"),
+			keywords: &["ሃዲድ", "ቀላል ባቡር", "ባቡር", "ባቡር መሰል አውቶቡስ", "ተሽከርካሪ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ترام"),
+			keywords: &["ترام", "سفر", "قطار", "مركبة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ট\u{9cd}ৰ\u{9be}ম"),
+			keywords: &["ট\u{9cd}ৰ\u{9be}ম", "ট\u{9cd}ৰ’লীব\u{9be}ছ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("stritkar"),
+			keywords: &["nəqliyyat", "nəqliyyat vasitəsi", "stritkar", "tramvay", "trolleybus"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("трамвай"),
+			keywords: &["рэйкі", "трамвай", "цягнік"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("трамвай"),
+			keywords: &["превозно средство", "трамвай", "тролейбус"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ট\u{9cd}র\u{9be}ম"),
+			keywords: &["ট\u{9cd}রলিব\u{9be}স", "ট\u{9cd}র\u{9be}ম", "য\u{9be}নব\u{9be}হন"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("tramgarr"),
+			keywords: &["tramgarr", "trollebus"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("tramvaj"),
+			keywords: &["tramvaj", "trolejbus", "vozilo"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("tramvia"),
+			keywords: &["tramvia", "transport", "troleibús", "tròlei", "vehicle"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏗᎦᏣᏄᎵ ᎦᏚᎲ"),
+			keywords: &["ᏗᎦᏣᏄᎵ ᎦᏚᎲ", "ᏴᏫ ᏗᏘᏂᏙ ᏙᎴᎳ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("tramvaj"),
+			keywords: &["doprava", "příměstský vlak", "tramvaj", "vozidlo"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("tram"),
+			keywords: &["bysys trydan", "tram"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("sporvogn"),
+			keywords: &["køretøj", "letbane", "sporvogn", "trolleybus"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Straßenbahn"),
+			keywords: &["Straßenbahn", "Tram", "Verkehrsmittel"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Strassenbahn"),
+			keywords: &["Strassenbahn", "Tram"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τραμ"),
+			keywords: &["τραμ", "τρόλεϊ", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation { lang: "en", tts: Some("tram"), keywords: &["tram", "trolleybus"] },
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("oncoming light rail"),
+			keywords: &["light rail", "oncoming", "oncoming light rail", "tram", "trolleybus"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["car", "streetcar", "tram", "tramcar", "trolley", "trolley bus", "trolleybus"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("tranvía"),
+			keywords: &["transporte", "tranvía", "trolebús"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["transporte", "tranvía", "tren ligero"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("tramm"), keywords: &["tramm", "troll"] },
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("tranbia"),
+			keywords: &["ibilgailu", "tranbia", "trolebus"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("تراموا"),
+			keywords: &["اتوبوس برقی", "تراموا", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("raitioliikenne"),
+			keywords: &["ajoneuvo", "raiteet", "raitioliikenne"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("tram"),
+			keywords: &["lrt", "mrt", "sasakyan", "tram", "trambiya", "tren", "trolley"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("gron á sporvogni"),
+			keywords: &["gron á sporvogni", "sporvognur", "tráðbussur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("tramway"),
+			keywords: &[
+				"RER",
+				"moyen de transport",
+				"tram",
+				"tramway",
+				"transport",
+				"trolley",
+				"trolleybus",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["tram", "tramway", "trolley", "trolleybus"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("tram"),
+			keywords: &["bus tralaí", "feithicil", "luas", "riancharr", "tram"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("trama"),
+			keywords: &["bus-troilidh", "trama"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation { lang: "gl", tts: Some("tranvía"), keywords: &["tranvía"] },
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ટ\u{acd}રામ"),
+			keywords: &["ટ\u{acd}રામ", "મ\u{ac1}સાફરી", "વાહન", "સફર", "સાધન"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("jirgin tram"),
+			keywords: &["bas mai aiki da lantarki", "jirgi", "jirgin tram", "jirgin ƙasa", "tram"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("jirgin tram"),
+			keywords: &["bas mai aiki da lantarki", "jirgi", "jirgin tram", "jirgin ƙasa", "tram"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("חשמלית"),
+			keywords: &["חשמלית", "רכבת", "תחבורה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ट\u{94d}राम"),
+			keywords: &["ट\u{94d}राम", "बार\u{94d}ट", "वाहन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("tramvaj"),
+			keywords: &["tramvaj", "trolejbus", "vozilo"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("villamos"),
+			keywords: &[
+				"hév",
+				"jármű",
+				"közlekedés",
+				"közlekedési eszköz",
+				"metró",
+				"nagyvárosi közlekedés",
+				"személyszállítás",
+				"villamos",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("տրամվայ"),
+			keywords: &["տրամվայ", "տրոլեյբուս", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("trem"),
+			keywords: &["kendaraan", "kereta", "listrik", "trem"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("tramụ"),
+			keywords: &["ogologo ụgbọala", "tramụ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("vagn"),
+			keywords: &["farartæki", "sporvagn", "vagn"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("tram"),
+			keywords: &[
+				"arrivo",
+				"ferrovia",
+				"frecce",
+				"freccia",
+				"partire",
+				"pendolare",
+				"tram",
+				"trasporto",
+				"treno",
+				"veicolo",
+				"veloce",
+				"velocità",
+				"viaggiare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("路面電車正面"),
+			keywords: &["乗り物", "路面電車", "路面電車正面", "電車"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation { lang: "jv", tts: Some("trem"), keywords: &["bis troli", "trem"] },
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ტრამვაი"),
+			keywords: &["ტრამვაი", "ტრანსპორტი", "ტროლეიბუსი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("трамвай"),
+			keywords: &["көлік", "пойыз", "темір жол", "трамвай", "троллейбус"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("sporvogn"),
+			keywords: &["køretøj", "sporvogn", "trolleybus"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some(
+				"រថភ\u{17d2}លើងអគ\u{17d2}គ\u{17b7}សន\u{17b8}រថក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
+			),
+			keywords: &[
+				"រថភ\u{17d2}លើង",
+				"រថភ\u{17d2}លើងអគ\u{17d2}គ\u{17b7}សន\u{17b8}រថក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಟ\u{ccd}ರಾಮ\u{ccd}"),
+			keywords: &[
+				"ಟ\u{ccd}ರಾಮ\u{ccd}",
+				"ಟ\u{ccd}ರಾಲ\u{cbf}ಬಸ\u{ccd}",
+				"ಬಾರ\u{ccd}ಟ\u{ccd}",
+				"ವಾಹನ",
+				"ವ\u{cbf}ದ\u{ccd}ಯುತ\u{ccd} ಬಂಡ\u{cbf}",
+				"ಸಾರ\u{cbf}ಗ\u{cc6}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("트램"),
+			keywords: &["바트", "전차", "트램", "트롤리버스"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("ट\u{94d}राम"),
+			keywords: &["ट\u{94d}राम", "ट\u{94d}रॉलिबस"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("трамвай"),
+			keywords: &["трамвай", "троллейбус", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation { lang: "lb", tts: Some("Tram"), keywords: &["Tram", "Trolleybus"] },
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{ebb}ດລາງ"),
+			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດລາງ", "ລ\u{ebb}ດໄຟ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("tramvajus"),
+			keywords: &["tramvajus", "troleibusas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("tramvajs"),
+			keywords: &["tramvajs", "transportlīdzeklis", "transports"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tarāme"),
+			keywords: &["tarāme", "waka pāhiko"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("трамвај"),
+			keywords: &["возило", "трамвај", "тролејбус"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ട\u{d4d}ര\u{d3e}ം"),
+			keywords: &["ട\u{d4d}ര\u{d3e}ം", "വ\u{d3e}ഹനം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("трамвай"),
+			keywords: &["машин", "трамвай"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ट\u{94d}राम"),
+			keywords: &["ट\u{94d}राम", "ट\u{94d}रॉलीबस", "प\u{94d}रवास", "वाहन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("trem"),
+			keywords: &["bas letrik", "bas troli", "kenderaan", "trem"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("tramm"),
+			keywords: &["tramm", "trolleybus"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဓာတ\u{103a}ရထား"),
+			keywords: &["ထရော\u{103a}လ\u{102e}ဘတ\u{103a}စ\u{103a}", "ဓာတ\u{103a}ရထား"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("ट\u{94d}राम"),
+			keywords: &["गाडी", "ट\u{94d}रलिबस", "ट\u{94d}राम"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("tram"),
+			keywords: &["tram", "trolleybus", "vervoermiddel", "voertuig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["framkomstmiddel", "trikk"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଟ\u{b4d}ର\u{b3e}ମ\u{b4d}"),
+			keywords: &["ଟ\u{b4d}ରଲ\u{b3f}ବସ\u{b4d}", "ଟ\u{b4d}ର\u{b3e}ମ\u{b4d}", "ବ\u{b3e}ହ\u{b3e}ନ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਟ\u{a4d}ਰ\u{a48}ਮ"),
+			keywords: &["ਟਰਾਮ", "ਟ\u{a4d}ਰ\u{a48}ਮ", "ਰ\u{a47}ਲ", "ਵਾਹਨ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ٹرام"),
+			keywords: &["بجلی نال چلن آلی بس", "ٹرام"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation { lang: "pcm", tts: Some("Tram"), keywords: &["Tram", "Trọlíbọs"] },
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("tramwaj"),
+			keywords: &["pociąg", "pojazd", "szynowy", "tramwaj", "trolejbus"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("ټرام"), keywords: &["ټرالي بس", "ټرام"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("bonde elétrico"),
+			keywords: &["bonde elétrico", "trólebus", "veículo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("elétrico"),
+			keywords: &["eléctrico", "elétrico", "veículo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("tranvia"),
+			keywords: &["tranvia", "trolebus", "ñan"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("tramvai"),
+			keywords: &["tramvai", "transport", "troleibuz", "troleu"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-926"), keywords: &["E10-926"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("трамвай"),
+			keywords: &["рельсы", "трамвай", "транспорт"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("taramu"),
+			keywords: &["bisi ikoreshwa n’amashanyarazi", "taramu"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang: "sd", tts: Some("ٽرام"), keywords: &["ٽرالي بس", "ٽرام"]
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ට\u{dca}\u{200d}රෑම\u{dca}"),
+			keywords: &["ට\u{dca}\u{200d}රෑම\u{dca}", "ට\u{dca}\u{200d}රොල\u{dd2} බසය", "ව\u{dcf}හනය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("električka"),
+			keywords: &[
+				"cestovanie",
+				"doprava",
+				"dopravný prostriedok",
+				"električka",
+				"trolejbus",
+				"vozidlo",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("tramvaj"),
+			keywords: &["tramvaj", "trolejbus", "vozilo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("taraam"),
+			keywords: &["baska ragaad", "taraam"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("tramvaj"),
+			keywords: &["filobus", "mjet", "tramvaj"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("трамвај"),
+			keywords: &["трoлejбус", "трамвај"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("tramvaj"),
+			keywords: &["tramvaj", "trolejbus"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("spårvagn"),
+			keywords: &["fordon", "spårvagn"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("tramu"),
+			keywords: &["basi la tramu", "mwendokasi", "tramu"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("டிர\u{bbe}ம\u{bcd}"),
+			keywords: &[
+				"டிர\u{bbe}ம\u{bcd}",
+				"டிர\u{bbe}ம\u{bcd} வண\u{bcd}டி",
+				"டிர\u{bbe}லி பஸ\u{bcd}",
+				"வ\u{bbe}கனம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ట\u{c4d}ర\u{c3e}మ\u{c4d}"),
+			keywords: &[
+				"ట\u{c4d}ర\u{c3e}మ\u{c4d}",
+				"ట\u{c4d}ర\u{c3e}ల\u{c40}బస\u{c4d}",
+				"ప\u{c4d}రయ\u{c3e}ణం",
+				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"మందువ\u{c48}పు చూపుతున\u{c4d}న ట\u{c4d}ర\u{c3e}మ\u{c4d} క\u{c3e}రు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("трамвай"),
+			keywords: &["трамвай", "троллейбус"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("รถรางบนราง"),
+			keywords: &["ยานพาหนะ", "รถไฟ", "ราง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang: "ti", tts: Some("ትራም"), keywords: &["ትራም", "ትሮሊባስ"]
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("tramwaý"),
+			keywords: &["tramwaý", "trolleýbus"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("talamu"), keywords: &["talamu"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("tramvay"),
+			keywords: &["metrobüs", "taşıt", "tramvay"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("تىرامۋاي"),
+			keywords: &["تىراللىبۇس", "تىرامۋاي"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("трамвай"),
+			keywords: &["метро", "потяг", "трамвай", "транспорт", "тролейбус"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ٹرام"),
+			keywords: &["سواری", "ٹرالی بس", "ٹرام"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("tramvay"),
+			keywords: &["tramvay", "transport", "trolleybus"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("xe điện"),
+			keywords: &["xe điện", "ô tô điện"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation { lang: "wo", tts: Some("tram"), keywords: &["tram", "trolleybus"] },
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("utramu"),
+			keywords: &["ibhasi yombane", "utramu"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Tiramu"),
+			keywords: &["Tiramu", "Ọkọ Akero Oniwiwọ"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Tiramu"),
+			keywords: &["Tiramu", "Ɔkɔ Akero Oniwiwɔ"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("電車"), keywords: &["有軌電車", "電車"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("电车"),
+			keywords: &["有轨电车", "电车"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("路面电车"),
+			keywords: &["捷运", "电车", "路面电车"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("路面電車"),
+			keywords: &["捷運", "路面電車", "軌道電車"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("電車"),
+			keywords: &["無軌電車", "車輛", "電動巴士", "電車"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ithilamu"),
+			keywords: &["ibhasi", "imoto", "ithilamu"],
+		},
+	],
+};
+#[doc = "🛼"]
+pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
+	glyph:                "🛼",
+	codepoint:            &[128764u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+	name:                 "roller skate",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("Rolskaats"),
+			keywords: &[
+				"Rolskaats",
+				"kinderpret",
+				"lemme",
+				"ontspanning",
+				"pret",
+				"rolskaats",
+				"skaats",
+				"speel",
+				"speelgoed",
+				"sport",
+				"voortsnel",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ተሽከርካሪ ስኬት"),
+			keywords: &["መንሸራተቻ", "ምላጭ", "ሮለር ስኬት", "ሮለር ስኬቶች", "ስፖርት", "ተሽከርካሪ ስኬት"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("حذاء مع عجلات"),
+			keywords: &[
+				"أماكن",
+				"أنشطة",
+				"باتيناج",
+				"ترفيه",
+				"تزلج",
+				"حذاء",
+				"حذاء بعجلات",
+				"حذاء مع عجلات",
+				"رحلة",
+				"رياضة",
+				"زلاجة",
+				"عجلات",
+				"مزلجة",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ৰোল\u{9be}ৰ স\u{9cd}কেট"),
+			keywords: &["স\u{9cd}কেট", "ৰোল\u{9be}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("diyircəkli konki"),
+			keywords: &["diyircək", "diyircəkli konki", "konki"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("ролікавы канёк"),
+			keywords: &["канёк", "ролік", "ролікавы канёк"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("ролери"),
+			keywords: &["кънка", "кънки", "пързаляне", "ролер", "ролери", "ролкови кънки", "спорт"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("রোল\u{9be}র স\u{9cd}কেট"),
+			keywords: &[
+				"ক\u{9cd}রীড\u{9bc}\u{9be}",
+				"খেল\u{9be}ধ\u{9c1}ল\u{9be}",
+				"রোল\u{9be}র",
+				"স\u{9cd}কেট",
+				"স\u{9cd}কেটিং জ\u{9c1}তো",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("botez-ruilh"),
+			keywords: &["botez", "botez-ruilh"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("rolšue"),
+			keywords: &["roleri", "rolšua", "rolšue"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("patí de rodes"),
+			keywords: &["esport", "patí", "patí de rodes", "rodes"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏓᎾᏟᎾᏒᏗᎲᎢ ᏗᎦᏆᏙᏗ"),
+			keywords: &["ᏓᎾᏟᎾᏒᏗᎲᎢ", "ᏗᎦᏆᏙᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("kolečková brusle"),
+			keywords: &[
+				"bruslení",
+				"bruslit",
+				"inlajny",
+				"inline",
+				"jízda na bruslích",
+				"kolečková brusle",
+				"kolečkové",
+				"quad",
+				"roller derby",
+				"sport",
+				"trekové brusle",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("esgid sglefrio"),
+			keywords: &["esgid", "sglefrio"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("rulleskøjte"),
+			keywords: &["rulle", "rulleskøjte", "skøjte", "sport"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Rollschuh"),
+			keywords: &["Rollen", "Rollerskate", "Rollschuh", "Rollschuh laufen", "Schuh", "Sport"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("πατίνια"),
+			keywords: &["πατίνι", "πατίνια", "ρολάρω", "ρόλερ", "σκέιτ", "σπορ", "τροχοπέδιλο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("roller skate"),
+			keywords: &["blades", "roller", "skate", "skates", "sport"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("rollerskate"),
+			keywords: &["roller", "rollerskate", "skate"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("patines"),
+			keywords: &["patines", "patín", "patín de 4 ruedas", "patín de cuatro ruedas"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"cordones",
+				"deporte",
+				"patinar",
+				"patines",
+				"patines quad",
+				"patín",
+				"patín de 4 ruedas",
+				"patín sobre ruedas",
+				"rollers",
+				"skating",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("patín"), keywords: &["patín"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("patín"),
+			keywords: &["patines", "patines quad", "patín", "patín sobre ruedas", "rollers"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("rulluisk"),
+			keywords: &["rulluisk", "rulluisutama", "sport", "uisk"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("gurpil-lerroko irristailu"),
+			keywords: &["gurpil-lerroa", "gurpil-lerroko irristailu", "irristailua"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("کفش اسکیت"),
+			keywords: &["اسکیت", "تیغه", "رول\u{200c}اسکیت", "غلتک", "ورزش", "پالیزه", "کفش اسکیت"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("rullaluistin"),
+			keywords: &["luistin", "urheilu"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("roller skate"),
+			keywords: &["roller", "roller blade", "skate", "sports"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation { lang: "fo", tts: Some("rulluskoyta"), keywords: &["rulluskoyta"] },
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("patin à roulettes"),
+			keywords: &["derby", "patin à roulettes", "roller", "roulette", "roulettes", "sport"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["patin", "roulettes"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("scáta rothach"),
+			keywords: &["scáta rothach", "scátáil", "spórt"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("bròg ròla-spèilidh"),
+			keywords: &["bròg ròla-spèilidh", "bròg-spèilidh", "ròla", "spèileadh"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("patín"),
+			keywords: &["deporte", "patinaxe"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("રૉલર સ\u{acd}ક\u{ac7}ટ"),
+			keywords: &[
+				"પ\u{ac8}ડા\u{a82} વાળા જ\u{ac2}તા",
+				"બ\u{acd}લ\u{ac7}ડ",
+				"રૉલર",
+				"સ\u{acd}ક\u{ac7}ટ",
+				"સ\u{acd}ક\u{ac7}ટિ\u{a82}ગ",
+				"સ\u{acd}પોર\u{acd}ટ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("takalmin taya"),
+			keywords: &["takalmi", "takalmi mai taya", "takalmin taya", "taya"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("takalmin taya"),
+			keywords: &["takalmi", "takalmi mai taya", "takalmin taya", "taya"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("גלגיליות"),
+			keywords: &["גלגיליות", "החלקה", "סקטים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("पहिय\u{947} वाला ज\u{942}ता"),
+			keywords: &[
+				"ख\u{947}ल",
+				"पहिय\u{947} वाला ज\u{942}ता",
+				"पहिय\u{947} वाल\u{947} ज\u{942}त\u{947}",
+				"फिसलना",
+				"रोलर",
+				"स\u{94d}क\u{947}ट",
+				"स\u{94d}क\u{947}टि\u{902}ग",
+				"स\u{94d}पोर\u{94d}ट\u{94d}स",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("koturaljka"),
+			keywords: &["koturaljka", "koturaljke", "rolanje", "role", "sport"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("görkorcsolya"),
+			keywords: &["görkorcsolya", "görkori", "kori", "sport"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("անվաչմուշկ"),
+			keywords: &["անիվ", "անվաչմուշկ", "չմուշկ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("sepatu roda"),
+			keywords: &["olahraga", "roda", "roller skate", "sepatu", "sepatu luncur"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("akpụkpọ ụkwụ nwere wiil"),
+			keywords: &["roller", "skate"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hjólaskautar"),
+			keywords: &["hjól", "hjólaskautar", "skauti"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("pattini a rotelle"),
+			keywords: &["pattinaggio", "pattinare", "pattini", "pattini a rotelle", "rotelle", "sport"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ローラースケート"),
+			keywords: &["スケート", "スポーツ", "ローラースケート"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("sepatu rodha"),
+			keywords: &["gulungan", "sepatu rodha"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("გორგოლაჭიანი ციგურები"),
+			keywords: &["გორგოლაჭები", "გორგოლაჭიანი ციგურები", "როლიკები", "ციგური"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ролик"),
+			keywords: &["дөңгелек", "ролик", "спорт"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ស\u{17d2}បែកជើងស\u{17d2}គ\u{17b8}"),
+			keywords: &[
+				"កង\u{17cb}វ\u{17b7}ល",
+				"ស\u{17d2}គ\u{17b8}",
+				"ស\u{17d2}បែកជើងស\u{17d2}គ\u{17b8}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರ\u{ccb}ಲರ\u{ccd}\u{200c} ಸ\u{ccd}ಕ\u{cc7}ಟ\u{ccd}\u{200c}"),
+			keywords: &[
+				"ಕ\u{ccd}ರ\u{cc0}ಡ\u{cc6}",
+				"ಬ\u{ccd}ಲ\u{cc7}ಡ\u{ccd}\u{200d}ಗಳು",
+				"ರ\u{ccb}ಲರ\u{ccd}\u{200c}",
+				"ಸ\u{ccd}ಕ\u{cc7}ಟರ\u{ccd}",
+				"ಸ\u{ccd}ಕ\u{cc7}ಟ\u{cbf}ಂಗ\u{ccd}",
+				"ಸ\u{ccd}ಕ\u{cc7}ಟ\u{ccd}\u{200c}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("롤러스케이트"),
+			keywords: &["날", "롤러", "롤러스케이트", "블레이드", "스케이트", "스포츠", "운동"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
+			keywords: &["रोलर", "स\u{94d}क\u{947}ट"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("ролик конькиси"),
+			keywords: &["коньки", "ролик", "ролик конькиси"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເກ\u{eb5}ບ\u{200b}ສະ\u{200b}ເກດ"),
+			keywords: &[
+				"ລ\u{ecd}\u{ec9}\u{200b}ກ\u{eb4}\u{ec9}ງ",
+				"ສະເກ\u{eb1}ດ",
+				"ສະ\u{200b}ເກດ",
+				"ເກ\u{eb5}ບ",
+				"ເກ\u{eb5}ບສະເກ\u{eb1}ດ",
+				"ເກ\u{eb5}ບ\u{200b}ສະ\u{200b}ເກດ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("riedučiai"),
+			keywords: &["riedučiai", "sportas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("skrituļslida"),
+			keywords: &["skritulis", "skrituļslida", "slida", "slidot", "sports"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("ролшуи"),
+			keywords: &["возење", "ролери", "ролшуи", "спорт"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("റോളർ സ\u{d4d}കേറ\u{d4d}റർ"),
+			keywords: &[
+				"റോളർ",
+				"റോളർ സ\u{d4d}കേറ\u{d4d}റർ",
+				"സ\u{d4d}കേറ\u{d4d}റ\u{d4d}",
+				"സ\u{d4d}\u{200c}കേറ\u{d4d}റിംഗ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("дугуйтай тэшүүр"),
+			keywords: &["бул", "дугуйтай тэшүүр", "тэшүүр"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
+			keywords: &["ब\u{94d}ल\u{947}ड\u{94d}स", "रोलर", "स\u{94d}क\u{947}ट", "स\u{94d}पोर\u{94d}ट"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kasut roda"),
+			keywords: &["kasut", "meluncur", "roda", "sukan"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ရ\u{102d}\u{102f}လာ စက\u{102d}တ\u{103a}"),
+			keywords: &["စက\u{102d}တ\u{103a}", "ရ\u{102d}\u{102f}လာ"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("रोलर स\u{94d}क\u{947}ट"),
+			keywords: &["रोलर", "स\u{94d}क\u{947}ट"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("rolschaats"),
+			keywords: &[
+				"hobby",
+				"rollerskate",
+				"rollerskates",
+				"rolschaats",
+				"rolschaatsen",
+				"schaats",
+				"skaten",
+				"sport",
+				"sporten",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ରୋଲର ସ\u{b4d}କେଟ"),
+			keywords: &["ରୋଲର", "ସ\u{b4d}କେଟ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਰ\u{a4b}ਲਰ ਸਕ\u{a47}ਟ"),
+			keywords: &[
+				"ਪਹੀਏਦਾਰ ਬ\u{a42}ਟ",
+				"ਪ\u{a48}ਡਲਦਾਰ ਬ\u{a42}ਟ",
+				"ਰ\u{a4b}ਲਰ",
+				"ਸਕ\u{a47}ਟ",
+				"ਸਕ\u{a47}ਟਿ\u{a70}ਗ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Rólá Sket"),
+			keywords: &["Róla", "Rólá Sket", "Sket"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("wrotka"),
+			keywords: &[
+				"jazda na rolkach",
+				"rolki",
+				"sport",
+				"wrotka",
+				"wrotkarstwo",
+				"wrotki",
+				"łyżworolki",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("رولر سکيټ"), keywords: &["رولر", "سکيټ"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("patins de rodas"),
+			keywords: &["esporte", "patinação", "patins", "patins de rodas", "rodas", "roller"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["desporto", "patins", "patins de rodas", "rodas"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ruedaswan patines"),
+			keywords: &["muyuq", "patinar", "ruedaswan patines"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("patină cu rotile"),
+			keywords: &[
+				"călătorii",
+				"patinaj",
+				"patinat",
+				"patină",
+				"patină cu rotile",
+				"rotile",
+				"sport",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E13-050"), keywords: &["E13-050"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("роликовые коньки"),
+			keywords: &["коньки", "ролики", "роликовые коньки", "спорт"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("رولر اسڪيٽ"),
+			keywords: &["اسڪيٽ", "رولر"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("රෝද සපත\u{dca}ත\u{dd4}"),
+			keywords: &["රෝද", "ල\u{dd2}ස\u{dca}ස\u{dcf} යෑම", "සපත\u{dca}ත\u{dd4}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("koliesková korčuľa"),
+			keywords: &["koliesková", "korčuľa", "korčuľovanie", "korčuľovať sa", "šport"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("kotalke"),
+			keywords: &["kotalka", "kotalkanje", "kotalke", "roler", "šport"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("skaytka kaha"),
+			keywords: &["duub", "iskeeti ciyaarista", "skaytka kaha"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("rollerskejt"),
+			keywords: &["patina", "patina me rrota", "roller", "rollerskejt", "skejt", "sport"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("ролшуа"),
+			keywords: &["котураљка", "ролери", "ролшуа", "спорт"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("rolšua"),
+			keywords: &["koturaljka", "roleri", "rolšua", "sport"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("rullskridsko"),
+			keywords: &["rullskridsko"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("rolasketi"),
+			keywords: &["mchezo", "michezo", "rola", "rolasketi", "teleza"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ரோலர\u{bcd} ஸ\u{bcd}கேட\u{bcd}"),
+			keywords: &[
+				"ரோலர\u{bcd}",
+				"ரோலர\u{bcd} ஷூ",
+				"விளைய\u{bbe}ட\u{bcd}டு",
+				"ஸ\u{bcd}கேட\u{bcd}",
+				"ஸ\u{bcd}கேட\u{bcd}டிங\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}"),
+			keywords: &[
+				"క\u{c4d}ర\u{c40}డ",
+				"బ\u{c4d}ల\u{c47}డ\u{c4d}స\u{c4d}",
+				"ర\u{c4b}లర\u{c4d}",
+				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d} ఆట",
+				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}లు",
+				"ర\u{c4b}లర\u{c4d} స\u{c4d}క\u{c47}ట\u{c4d}స\u{c4d}",
+				"స\u{c4d}క\u{c47}ట\u{c3f}ంగ\u{c4d}",
+				"స\u{c4d}క\u{c47}ట\u{c4d}",
+				"స\u{c4d}ప\u{c4b}ర\u{c4d}ట\u{c4d}",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("รองเท\u{e49}าสเก\u{e47}ต"),
+			keywords: &[
+				"ก\u{e35}ฬา",
+				"รองเท\u{e49}าสเก\u{e47}ต",
+				"สเก\u{e47}ต",
+				"โรลเลอร\u{e4c}",
+				"โรลเลอร\u{e4c}สเก\u{e47}ต",
+				"โรลเลอร\u{e4c}เบลด",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሮለር ስኬት"),
+			keywords: &["ሮለር", "ስንቂ", "ስኬት", "ስፖርት"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("tigirli konki"),
+			keywords: &["konki", "tigirli konki", "tigirçekli"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("sū sikeiti"),
+			keywords: &["sikeiti", "sū"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("paten"),
+			keywords: &[
+				"paten",
+				"paten kaymak",
+				"patenle kaymak",
+				"roller blade",
+				"roller skate",
+				"seyahat",
+				"spor",
+				"tekerlek",
+				"tekerlekli paten",
+				"tekerlekli patenler",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("роликовий ковзан"),
+			keywords: &[
+				"катання",
+				"катання на роликах",
+				"ковзан",
+				"ковзани",
+				"коліщата",
+				"ролики",
+				"роликовий",
+				"спорт",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("رولر سکیٹ"),
+			keywords: &["اسکیٹ", "بلیڈز", "رولر", "سکیٹ", "کھیل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("gʻildirakli konki"),
+			keywords: &["gʻildirakli konki", "konki", "roller", "skeyt", "sport"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("giày trượt patin"),
+			keywords: &["con lăn", "giày trượt", "giày trượt patin", "thể thao", "trượt patin"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("síkéètì ti ó s;are"),
+			keywords: &["are", "saré", "síkéètì", "síkéètì ti ó s", "síkéètì ti ó s;are"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("síkéètì ti ó s;are"),
+			keywords: &["are", "saré", "síkéètì", "síkéètì ti ó s", "síkéètì ti ó s;are"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("滾軸溜冰鞋"),
+			keywords: &["溜冰鞋", "滾軸", "滾軸溜冰鞋"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("滚轴溜冰鞋"),
+			keywords: &["溜冰鞋", "滚轴", "滚轴溜冰鞋"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("四轮滑冰鞋"),
+			keywords: &["四轮滑冰鞋", "旱冰", "溜冰", "溜冰鞋", "滑冰", "轮式", "运动"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("輪式溜冰鞋"),
+			keywords: &["單排輪", "溜冰", "溜冰鞋", "滑輪", "直排輪", "輪式溜冰鞋", "運動"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["溜冰鞋", "滾軸溜冰", "滾軸溜冰鞋", "運動"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("i-roller skate"),
+			keywords: &["i-roller", "i-roller skate", "i-skate"],
+		},
+	],
+};
+#[doc = "🚈"]
+pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
+	glyph:                "🚈",
+	codepoint:            &[128648u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "light rail",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("smalspoortrein"),
+			keywords: &[
+				"aangekom",
+				"enkelspoorbaan",
+				"ligte spoorlyn",
+				"smalspoortrein",
+				"sneltrein",
+				"spoor",
+				"spoorweg",
+				"trein",
+				"voertuig",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ቀላል ባቡር"),
+			keywords: &["መድረስ", "ቀላል ባቡር", "ባቡር መንገድ", "ተሽከርካሪ", "ነጠላ ሃዲድ", "የባቡር መንገድ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("نقل خفيف"),
+			keywords: &["خفيف", "سفر", "سكة حديد", "قطار", "مركبة", "نقل خفيف", "نقل عام"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9be}তল ৰেইল"),
+			keywords: &["প\u{9be}তল ৰেইল", "ৰেইলৱে"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("işıq qatarı"),
+			keywords: &["dəmir yolu", "dəmiryolu", "işıq qatarı", "monorels", "nəqliyyat"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("электрычка"),
+			keywords: &["бч", "рэйкі", "чыгунка", "электрычка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("лека железница"),
+			keywords: &["железница", "лека железница", "превозно средство"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("রেলের ল\u{9be}ইট"),
+			keywords: &["য\u{9be}নব\u{9be}হন", "রেলওয\u{9bc}ে", "রেলের ল\u{9be}ইট", "রেলের ল\u{9be}ইন"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("metro skañv"),
+			keywords: &["hent-houarn", "metro skañv"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("svjetlosna pruga"),
+			keywords: &["svjetlosna pruga", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("tren lleuger"),
+			keywords: &[
+				"arribada",
+				"arribat",
+				"ferrocarril",
+				"ferrocarril lleuger",
+				"metro lleuger",
+				"monorail",
+				"tren",
+				"tren lleuger",
+				"vehicle",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏎᎧ ᏗᏐᏲ"),
+			keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᎦᏎᎧ ᏗᏐᏲ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("rychlodrážní tramvaj"),
+			keywords: &[
+				"doprava",
+				"jednokolejka",
+				"příjezd",
+				"příměstský vlak",
+				"rychlodrážní tramvaj",
+				"tramvaj",
+				"vozidlo",
+				"železnice",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("rheilffordd ysgafn"),
+			keywords: &["rheilffordd", "rheilffordd ysgafn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("letbane"),
+			keywords: &["køretøj", "letbane", "tog"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("S-Bahn"),
+			keywords: &["Bahn", "ICE", "Monorail", "S-Bahn", "Zug"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ελαφρύς σιδηρόδρομος"),
+			keywords: &["αφίχθη", "ελαφρύς σιδηρόδρομος", "προαστιακός", "σιδηρόδρομος", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("light rail"),
+			keywords: &["arrived", "light", "monorail", "rail", "railway"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("tren ligero"),
+			keywords: &["ferrocarril", "transporte", "tren", "tren ligero"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["ferrocarril", "monorriel", "transporte", "tren", "tren ligero", "viaje"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kergraudtee"),
+			keywords: &["kergraudtee", "raudtee", "rong", "saabunud", "sõiduk"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("tren arina"),
+			keywords: &["ibilgailu", "tren arina", "trenbide"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قطار سبک شهری"),
+			keywords: &["راه\u{200c}آهن", "ریل", "قطار سبک شهری", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kevytraidejuna"),
+			keywords: &["ajoneuvo", "juna", "kevytraidejuna", "rautatie"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("light rail"),
+			keywords: &["light rail", "lrt", "mrt", "sasakyan", "tren"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation { lang: "fo", tts: Some("nærtok"), keywords: &["nærtok", "tok"] },
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("métro léger"),
+			keywords: &["RER", "monorail", "moyen de transport", "métro", "métro léger", "rail"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("train de banlieue"),
+			keywords: &["chemin de fer", "métro léger", "train de banlieue"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("iarnród éadrom"),
+			keywords: &["aonráille", "feithicil", "iarnród", "iarnród éadrom", "éadrom. iarnród"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("rèile aotrom"),
+			keywords: &["rathad-iarainn", "rèile", "rèile aotrom", "slighe-iarainn"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("tren lixeiro"),
+			keywords: &["tranvía", "tren lixeiro"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("લાઇટ ર\u{ac7}લ"),
+			keywords: &["ર\u{ac7}લ", "લાઇટ", "વાહન", "સવારી"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("reluwe na cunkoso mara yawa"),
+			keywords: &[
+				"jirgin ƙasa mai titi ɗaya",
+				"reluwe",
+				"reluwe na cunkoso mara yawa",
+				"tashar jirgin ƙasa",
+				"ya iso",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("reluwe na cunkoso mara yawa"),
+			keywords: &[
+				"jirgin ƙasa mai titi ɗaya",
+				"reluwe",
+				"reluwe na cunkoso mara yawa",
+				"tashar jirgin ƙasa",
+				"ya iso",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("רכבת קלה"),
+			keywords: &["חדפס", "קלה", "רכבת", "תחבורה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("लाइट र\u{947}ल"),
+			keywords: &["आगमन", "र\u{947}ल", "र\u{947}लव\u{947}", "लाइट र\u{947}ल", "वाहन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("laka željeznica"),
+			keywords: &["dolazak", "laka željeznica", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hév"),
+			keywords: &["hév", "jármű", "közlekedés", "metró", "vasút"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("վերգետնյա մետրո"),
+			keywords: &["երկաթուղի", "վերգետնյա մետրո", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("light rail"),
+			keywords: &["light", "monorail", "monorel", "rail", "tiba"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("nwa obere ọkụ okporoigwe"),
+			keywords: &["nwa obere ọkụ okporoigwe", "okporoigwe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("léttlest"),
+			keywords: &["lest", "létt", "léttlest"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("metrotranvia"),
+			keywords: &[
+				"arrivare",
+				"ferrovia",
+				"metrotranvia",
+				"mezzo",
+				"monorotaia",
+				"tram",
+				"trasporti",
+				"trasporto",
+				"treno",
+				"veicolo",
+				"viaggiare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ライトレール"),
+			keywords: &["モノレール", "ライトレール", "乗り物", "鉄道", "電車"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("sepur LRT"),
+			keywords: &["jalur ril", "sepur LRT"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მსუბუქი რკინიგზა"),
+			keywords: &["მსუბუქი რკინიგზა", "რკინიგზა", "ტრანსპორტი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("amitru afess"),
+			keywords: &["amitru afess"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("тар табанды темір жол"),
+			keywords: &["көлік", "тар табанды темір жол", "темір жол"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("letbane"),
+			keywords: &["køretøj", "letbane", "tog"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("រថភ\u{17d2}លើងក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង"),
+			keywords: &[
+				"ក\u{17d2}បាលរថភ\u{17d2}លើង",
+				"រថភ\u{17d2}លើង",
+				"រថភ\u{17d2}លើងក\u{17d2}ន\u{17bb}ងក\u{17d2}រ\u{17bb}ង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಲಘು ರ\u{cc8}ಲು"),
+			keywords: &[
+				"ನ\u{cbf}ಲ\u{ccd}ದಾಣ",
+				"ಬಂದರು",
+				"ಮ\u{cca}ನ\u{ccb}ರ\u{cc8}ಲು",
+				"ರ\u{cc8}ಲು",
+				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
+				"ಲಘು ರ\u{cc8}ಲು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("경전철"),
+			keywords: &["경전철", "교통수단", "기차", "도착", "모노레일", "바트"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("लायट र\u{947}ल"),
+			keywords: &["र\u{947}ल\u{94d}व\u{947}", "लायट र\u{947}ल"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("чакан метро"),
+			keywords: &["темир жол", "чакан метро"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Stadbunn"),
+			keywords: &["Eisebunn", "Stadbunn"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລາງລ\u{ebb}ດເບ\u{ebb}າ"),
+			keywords: &["ພາຫະນະ", "ລາງລ\u{ebb}ດເບ\u{ebb}າ", "ລ\u{ebb}ດໄຟ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("miesto tramvajus"),
+			keywords: &["geležinkelis", "miesto tramvajus"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("piepilsētas vilciens"),
+			keywords: &["dzelzceļš", "piepilsētas vilciens", "transports", "viensliedes", "vilciens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("rerewē māmā"),
+			keywords: &["rerewē", "rerewē māmā"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("лесна железница"),
+			keywords: &[
+				"воз",
+				"возило",
+				"едношинска железница",
+				"железница",
+				"лесна железница",
+				"пристигна",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ലൈറ\u{d4d}റ\u{d4d} റെയിൽ"),
+			keywords: &["റെയിൽ", "ലൈറ\u{d4d}റ\u{d4d}", "വ\u{d3e}ഹനം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хөнгөн төмөр зам"),
+			keywords: &["төмөр зам", "хөнгөн", "хөнгөн төмөр зам"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("लाइट र\u{947}ल"),
+			keywords: &[
+				"ट\u{94d}र\u{947}न",
+				"प\u{94d}रकाश",
+				"र\u{947}ल\u{94d}व\u{947}",
+				"लाइट र\u{947}ल",
+				"वाहन",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("rel ringan"),
+			keywords: &[
+				"kenderaan",
+				"landasan kereta api",
+				"lrt",
+				"monorel",
+				"rel kereta api",
+				"rel ringan",
+				"tiba",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ferrovija ħafifa"),
+			keywords: &["ferrovija", "ferrovija ħafifa"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အပေါ\u{1037}စား ရထား"),
+			keywords: &["ရထားလမ\u{103a}း", "အပေါ\u{1037}စား ရထား"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("हल\u{94d}का र\u{947}ल"),
+			keywords: &["गाडी", "र\u{947}लव\u{947}", "हल\u{94d}का र\u{947}ल"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("lightrail"),
+			keywords: &["lightrail", "monorail", "spoor", "vervoermiddel", "voertuig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["framkomstmiddel", "jernbane", "lokaltog"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ହ\u{b3e}ଲକ\u{b3e} ଟ\u{b4d}ରେନ\u{b4d}\u{200c}"),
+			keywords: &[
+				"ବ\u{b3e}ହ\u{b3e}ନ",
+				"ରେଳ",
+				"ଲ\u{b3e}ଇଟ\u{b4d}",
+				"ହ\u{b3e}ଲକ\u{b3e} ଟ\u{b4d}ରେନ\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਲਾਈਟ ਰ\u{a47}ਲ"),
+			keywords: &[
+				"ਟਰ\u{a47}ਨ",
+				"ਪਹ\u{a41}\u{a70}ਚਣਾ",
+				"ਮ\u{a48}ਟਰ\u{a4b}",
+				"ਰ\u{a47}ਲ",
+				"ਰ\u{a47}ਲਵ\u{a47}",
+				"ਲਾਈਟ ਰ\u{a47}ਲ",
+				"ਵਾਹਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("لائٹ ٹرین"),
+			keywords: &["ریلوے", "لائٹ ٹرین"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Laít Rel"),
+			keywords: &["Laít Rel", "Relwè"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("kolej miejska"),
+			keywords: &[
+				"kolej",
+				"kolejka",
+				"metro",
+				"miejska",
+				"pociąg",
+				"podmiejska",
+				"podmiejski",
+				"pojazd",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("کوچنی اور کاډی"),
+			keywords: &["ريلوی", "کوچنی اور کاډی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("trem urbano"),
+			keywords: &["chegada", "cheguei", "leve", "trem", "trem urbano", "veículo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("metro de superfície"),
+			keywords: &["linha ferroviária", "metro de superfície", "monocarril", "veículo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("tren ligero"),
+			keywords: &["ferrocarril", "tren ligero", "tren logero"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("tren ușor"),
+			keywords: &["cale ferată", "monorai", "sosire", "sosit", "tren ușor", "șine", "șină"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-924"), keywords: &["E10-924"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("легкий рельсовый транспорт"),
+			keywords: &[
+				"легкий рельсовый транспорт",
+				"метро",
+				"монорельс",
+				"трамвай",
+				"транспорт",
+				"электричка",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("gariyamoshi yoroheje"),
+			keywords: &["gariyamoshi yoroheje", "irayirayi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("برقي جي ري گاڏي"),
+			keywords: &["برقي جي ري گاڏي", "ريلوي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("සැහැල\u{dca}ල\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
+			keywords: &[
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
+				"ව\u{dcf}හනය",
+				"සැහැල\u{dca}ල\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("ľahké metro"),
+			keywords: &[
+				"cestovanie",
+				"doprava",
+				"dopravný prostriedok",
+				"električka",
+				"mestský vlak",
+				"vlak",
+				"ľahké metro",
+				"železnica",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("ozkotirna železnica"),
+			keywords: &["ozkotirna železnica", "vlak", "vozilo", "železnica"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("tareenka fudud"),
+			keywords: &["jidka tareenka", "tareenka fudud"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("metro e lehtë"),
+			keywords: &["hekurudhë", "mbërriti", "metro e lehtë", "mjet"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("градска железница"),
+			keywords: &["град", "железница", "монорејл"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("градска жељезница"),
+			keywords: &["градска жељезница", "жељeзницa"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("gradska železnica"),
+			keywords: &["grad", "monorejl", "železnica"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("gradska željeznica"),
+			keywords: &["gradska željeznica", "željeznica"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("snabbspårväg"),
+			keywords: &["fordon", "lättbana", "snabbspårväg", "snabbtåg"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("reli nyepesi"),
+			keywords: &["gari", "reli", "reli nyepesi"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("லைட\u{bcd} ரயில\u{bcd}"),
+			keywords: &[
+				"இரயில\u{bcd}",
+				"மோனோரயில\u{bcd}",
+				"ரயில\u{bcd}",
+				"ரயில\u{bcd}வே",
+				"லைட\u{bcd} ரயில\u{bcd}",
+				"வந\u{bcd}தடைந\u{bcd}தது",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("తక\u{c4d}కువ పర\u{c3f}మ\u{c3e}ణ ర\u{c48}లు"),
+			keywords: &[
+				"తక\u{c4d}కువ పర\u{c3f}మ\u{c3e}ణ ర\u{c48}లు",
+				"పర\u{c3f}మ\u{c3e}ణం",
+				"బ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"మ\u{c4b}న\u{c4b}ర\u{c48}ల\u{c4d}",
+				"ర\u{c48}లు",
+				"ర\u{c48}ల\u{c4d}వ\u{c47}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("метрои сабук"),
+			keywords: &["метрои сабук", "роҳи оҳан"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("รถไฟรางเบา"),
+			keywords: &["ยานพาหนะ", "รถไฟ", "รถไฟรางเบา"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዜጋ"),
+			keywords: &["መንገዲ ባቡር", "ሞኖረይል", "በጺሑ", "ባቡር", "ብርሃን"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýeňil metro"),
+			keywords: &["demir ýol", "ýeňil metro"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("kiʻi lēlue"),
+			keywords: &["kiʻi lēlue", "lēlue"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("hafif raylı"),
+			keywords: &[
+				"demiryolu",
+				"hafif",
+				"hafif raylı",
+				"taşıt",
+				"tren",
+				"tren yolculuğu",
+				"tren yolu",
+			],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يېنىك تۆمۈريول"),
+			keywords: &["تۆمۈريول", "يېنىك تۆمۈريول"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("швидкісний трамвай"),
+			keywords: &["електропоїзд", "залізниця", "поїзд", "транспорт", "швидкісний трамвай"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("لائٹ ریل"),
+			keywords: &["آمد", "بارٹ ریل", "ریلوے", "سواری", "لائٹ ریل", "یکہ ریل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("tor izli temiryo‘l"),
+			keywords: &[
+				"bir izli osma temir yoʼl",
+				"temir yoʻl",
+				"temiryo‘l",
+				"tor izli temir yoʻl",
+				"tor izli temiryo‘l",
+				"transport",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("tàu điện nhẹ"),
+			keywords: &["tàu điện nhẹ", "xe cộ", "đường sắt"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("otoraay bu moome fépp"),
+			keywords: &["otoraay bu moome fépp", "raay"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("intonga yokukhanya"),
+			keywords: &["intonga yokukhanya", "isiporo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ọkọ oju-irin kekere"),
+			keywords: &["Ọkọ oju-irin kekere", "ọkọ Oju-irin"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɔkɔ oju-irin kekere"),
+			keywords: &["Ɔkɔ oju-irin kekere", "ɔkɔ Oju-irin"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("輕鐵"), keywords: &["輕鐵", "鐵路"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("轻铁"), keywords: &["轻铁", "铁路"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("轻轨"),
+			keywords: &["到站", "单轨电车", "火车", "轻轨"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("輕軌"),
+			keywords: &["抵達", "捷運", "火車", "輕軌", "鐵道"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("輕軌列車"),
+			keywords: &[
+				"列車",
+				"到站",
+				"到達",
+				"單軌",
+				"抵達",
+				"火車",
+				"火車到站",
+				"輕軌",
+				"輕軌列車",
+				"輕鐵",
+				"鐵路",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isitimela esingengethilamu"),
+			keywords: &["imoto", "isitimela esingengethilamu", "ujantshi"],
+		},
+	],
+};
+#[doc = "🚍\u{fe0f}"]
+pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
+	glyph:                "🚍\u{fe0f}",
+	codepoint:            &[128653u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "oncoming bus",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🚝"]
+pub const MONORAIL: crate::Emoji = crate::Emoji {
+	glyph:                "🚝",
+	codepoint:            &[128669u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "monorail",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("enkelspoortrein"),
+			keywords: &["enkelspoortrein", "sneltrein", "spoor", "trein", "voertuig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የባቡር መሄጃ ድልድይ"),
+			keywords: &["ተሽከርካሪ", "የባቡር መሄጃ ድልድይ", "የባቡር ድልድይ፣ ተሽከርካሪ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("خط سكة حديد أحادي"),
+			keywords: &["خط سكة حديد أحادي", "قطار", "مركبة", "نقل عام"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ম’ন’ৰেইল"),
+			keywords: &["ব\u{9be}হন", "ম’ন’ৰেইল"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("monorels"),
+			keywords: &["monorels", "nəqliyyat", "nəqliyyat vasitəsi"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("манарэйка"),
+			keywords: &["манарэйка", "метро", "рэйкі"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("монорелсова железница"),
+			keywords: &["монорелсова железница", "превозно средство"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("মোনোরেল"),
+			keywords: &["মনোরেল", "মোনোরেল", "য\u{9be}নব\u{9be}হন", "রেল"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("unroudenn"),
+			keywords: &["karbed", "unroudenn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("pruga s jednom tračnicom"),
+			keywords: &["pruga s jednom tračnicom", "vozilo"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("monocarril"),
+			keywords: &["monocarril", "monorail", "vehicle"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏍᏌᏊ ᎦᏅᏅ ᏥᏴ"),
+			keywords: &["ᏍᏌᏊ ᎦᏅᏅ ᏥᏴ", "ᏙᏆᎴᎵ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("jednokolejka"),
+			keywords: &["doprava", "jednokolejka", "jednokolejná", "visutá dráha", "vozidlo"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("trên un gledren"),
+			keywords: &["cerbyd", "trên un gledren"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("monorail"),
+			keywords: &["køretøj", "monorail"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Einschienenbahn"),
+			keywords: &["Bahn", "Einschienenbahn", "Magnetschwebebahn", "Monorail"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τρένο μονής τροχιάς"),
+			keywords: &["τρένο μονής τροχιάς", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("monorail"),
+			keywords: &["monorail", "vehicle"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("monorraíl"),
+			keywords: &["ferrocarril", "monocarril", "monorraíl", "transporte", "tren"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("monorriel"),
+			keywords: &["ferrocarril", "monocarril", "monorraíl", "monorriel", "transporte", "tren"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("üherööpmeline raudtee"),
+			keywords: &["raudtee", "rong", "sõiduk", "üherööpmeline raudtee"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("monoraila"),
+			keywords: &["ibilgailu", "monoraila"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("تک\u{200c}ریل"),
+			keywords: &[
+				"تک\u{200c}ریل",
+				"راه\u{200c}آهن تک\u{200c}ریلی",
+				"مونوریل",
+				"وسیله نقلیه",
+				"وسیله\u{654} نقلیه",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("monorail"),
+			keywords: &["ajoneuvo", "juna", "raide", "yksiraidejuna"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("monorail"),
+			keywords: &["lrt", "monorail", "mrt", "sasakyan", "tren"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("einsporað jarnbreyt"),
+			keywords: &["einsporað jarnbreyt", "tok"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("monorail"),
+			keywords: &["monorail", "moyen de transport", "véhicule"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("aonráille"),
+			keywords: &["aonráille", "feithicil", "traein"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("aona-rèile"),
+			keywords: &["aona-rèile", "carbad"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation { lang: "gl", tts: Some("monorraíl"), keywords: &["monorraíl"] },
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("મોનોર\u{ac7}લ"),
+			keywords: &[
+				"ટ\u{acd}ર\u{ac7}ન",
+				"મોનોર\u{ac7}લ",
+				"ર\u{ac7}લ",
+				"ર\u{ac7}લગાડી",
+				"વાહન",
+				"સવારી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("reluwe guda"),
+			keywords: &[
+				"jirgin ƙasa",
+				"jirgin ƙasa mai sauri",
+				"jirgin ƙasa mai titi guda",
+				"jirgin ƙasa na zamani",
+				"mota",
+				"reluwe guda",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("reluwe guda"),
+			keywords: &[
+				"jirgin ƙasa",
+				"jirgin ƙasa mai sauri",
+				"jirgin ƙasa mai titi guda",
+				"jirgin ƙasa na zamani",
+				"mota",
+				"reluwe guda",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("רכבת עילית"),
+			keywords: &["עילית", "רכבת", "תחבורה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("मोनोर\u{947}ल"),
+			keywords: &["मोनोर\u{947}ल", "वाहन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("jednotračna željeznica"),
+			keywords: &["jednotračna željeznica", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("egysínű vasút"),
+			keywords: &[
+				"egysínű vasút",
+				"jármű",
+				"közlekedés",
+				"közlekedési eszköz",
+				"személyszállítás",
+				"vasút",
+				"vonat",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մոնոռելս"),
+			keywords: &["մոնոռելս", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("monorel"),
+			keywords: &["kendaraan", "monorel"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("otù okporoigwe"),
+			keywords: &["otù okporoigwe", "ụgbọala"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("einteinungur"),
+			keywords: &["einteinungur", "lest"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("monorotaia"),
+			keywords: &[
+				"mezzo",
+				"monorotaia",
+				"trasporti",
+				"trasporto",
+				"veicolo",
+				"veloce",
+				"viaggiare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("モノレール"),
+			keywords: &["モノレール", "乗り物", "電車"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("monoril"),
+			keywords: &["monoril", "tetumpakan"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მონორელსი"),
+			keywords: &["მონორელსი", "ტრანსპორტი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("дара рельсті темір жол"),
+			keywords: &["дара рельсті темір жол", "көлік", "пойыз", "темір жол"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("monorail"),
+			keywords: &["køretøj", "monorail"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("រថភ\u{17d2}លើងរថលើផ\u{17d2}ល\u{17bc}វតែម\u{17bd}យ"),
+			keywords: &[
+				"រថភ\u{17d2}លើង",
+				"រថភ\u{17d2}លើងរថលើផ\u{17d2}ល\u{17bc}វតែម\u{17bd}យ",
+				"រថភ\u{17d2}លើងលើផ\u{17d2}ល\u{17bc}វ",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{ccb}ನ\u{cca}ರ\u{cc8}ಲು"),
+			keywords: &[
+				"ಮ\u{ccb}ನ\u{cca}ರ\u{cc8}ಲು",
+				"ಮ\u{ccb}ನ\u{ccb}ರ\u{cc8}ಲ\u{ccd}",
+				"ವಾಹನ",
+				"ವ\u{cc6}ಹ\u{cbf}ಕಲ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("모노레일"),
+			keywords: &["교통수단", "기차", "모노레일"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("मोनोर\u{947}ल"),
+			keywords: &["मोनोर\u{947}ल", "वाहन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жалгыз рельс"),
+			keywords: &["жалгыз рельс", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Monorail"),
+			keywords: &["Gefier", "Monorail"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{ebb}ດໄຟລາງດຽວ"),
+			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ", "ລ\u{ebb}ດໄຟລາງດຽວ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("vienbėgis geležinkelis"),
+			keywords: &["transporto priemonė", "vienbėgis geležinkelis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("viensliedes dzelzceļš"),
+			keywords: &["dzelzceļš", "transports", "viensliedes", "vilciens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("rōautahi"),
+			keywords: &["rōautahi", "waka"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("едношинска железница"),
+			keywords: &["воз", "возило", "едношинска железница", "железница"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മോണോറെയിൽ"),
+			keywords: &["മോണോറെയിൽ", "വ\u{d3e}ഹനം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("дүүжин төмөр зам"),
+			keywords: &["дүүжин", "дүүжин төмөр зам", "төмөр зам"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("मोनोर\u{947}ल"),
+			keywords: &["प\u{94d}रवास", "मोनोर\u{947}ल", "वाहन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("monorel"),
+			keywords: &["kenderaan", "monorel"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("monorail"),
+			keywords: &["monorail", "vettura"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မ\u{102d}\u{102f}န\u{102d}\u{102f}ရထား"),
+			keywords: &["မ\u{102d}\u{102f}န\u{102d}\u{102f}ရထား", "ယာဥ\u{103a}"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("मोनोर\u{947}ल"),
+			keywords: &["गाडी", "मोनोर\u{947}ल"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("monorail"),
+			keywords: &["monorail", "vervoermiddel", "voertuig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["framkomstmiddel", "monorail"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମୋନୋରେଲ\u{b4d}\u{200c}"),
+			keywords: &["ବ\u{b3e}ହ\u{b3e}ନ", "ମନୋରେଲ\u{b4d}\u{200c}", "ମୋନୋରେଲ\u{b4d}\u{200c}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਮ\u{a4b}ਨ\u{a4b}ਰ\u{a47}ਲ"),
+			keywords: &[
+				"ਆਵਾਜਾਈ ਦਾ ਸਾਧਨ",
+				"ਟ\u{a4d}ਰ\u{a47}ਨ",
+				"ਮ\u{a4b}ਨ\u{a4b}ਰ\u{a47}ਲ",
+				"ਵਹੀਕਲ",
+				"ਵਾਹਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("مونو ریل"),
+			keywords: &["مونو ریل", "گڈی"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Mónórel"),
+			keywords: &["Mónórel", "Móto"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("kolej jednoszynowa"),
+			keywords: &["jednoszynowa", "kolej", "pojazd", "szynowy"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("مونوریل"),
+			keywords: &["مونوريل", "مونوریل", "ګاډی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("monotrilho"),
+			keywords: &["monotrilho", "trem", "veículo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("monocarril"),
+			keywords: &["monocarril", "veículo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("monorrail"),
+			keywords: &["carru", "monorrail"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("monorai"),
+			keywords: &["monorai", "monoșină", "tren", "vehicul"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-945"), keywords: &["E10-945"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("монорельс"),
+			keywords: &["легкое", "метро", "монорельс", "рельсы", "транспорт"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("gariyamoshi inyura ku muhanda umwe"),
+			keywords: &["gariyamoshi inyura ku muhanda umwe", "imodoka"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang: "sd", tts: Some("مونوريل"), keywords: &["مونوريل", "گاڏي"]
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("මොනොරේල\u{dca}"),
+			keywords: &["මොනොරේල\u{dca}", "ව\u{dcf}හනය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("monorail"),
+			keywords: &[
+				"doprava",
+				"dopravný prostriedok",
+				"jednokoľajka",
+				"jednokoľajová",
+				"monorail",
+				"rýchlovlak",
+				"visutá dráha",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("enotirna železnica"),
+			keywords: &["enotirna železnica", "vozilo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("hal jid tareen kor u qaadan"),
+			keywords: &["gaari", "hal jid tareen kor u qaadan"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("hekurudhë me një shinë"),
+			keywords: &["hekurudhë me një shinë", "mjet", "mjet udhëtimi"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("монорејл"),
+			keywords: &["вoзилo", "монорејл"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("monorejl"),
+			keywords: &["monorejl", "vozilo"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("monorail"),
+			keywords: &["balkbana", "fordon", "monorail", "tåg"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("reli moja"),
+			keywords: &["gari", "reli moja"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மோனோரயில\u{bcd}"),
+			keywords: &["மோனோரயில\u{bcd}", "மோனோரயில\u{bcd} வண\u{bcd}டி", "வ\u{bbe}கனம\u{bcd}"],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఒక\u{c47} ట\u{c4d}ర\u{c3e}క\u{c4d} ఉండ\u{c47} ర\u{c48}లు"),
+			keywords: &[
+				"ఎలక\u{c4d}ట\u{c4d}ర\u{c3f}క\u{c4d} ర\u{c48}లు",
+				"ఒక\u{c47} ట\u{c4d}ర\u{c3e}క\u{c4d} ఉండ\u{c47} ర\u{c48}లు",
+				"ట\u{c4d}ర\u{c3e}క\u{c4d}",
+				"మ\u{c46}ట\u{c4d}ర\u{c4b} ర\u{c48}లు",
+				"ర\u{c48}లు",
+				"ర\u{c48}లు ఆగమనం",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("якрелса"),
+			keywords: &["нақлиёт", "якрелса"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("รถไฟรางเด\u{e35}\u{e48}ยว"),
+			keywords: &["ยานพาหนะ", "รถไฟ", "ราง", "เด\u{e35}\u{e48}ยว", "โมโนเรล"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang: "ti", tts: Some("ሞኖረይል"), keywords: &["ሞኖረይል", "ተሽከርካሪ"]
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("monorels"),
+			keywords: &["monorels", "ulag"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("lēlue poutaha"),
+			keywords: &["lēlue", "poutaha"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("monoray"),
+			keywords: &["araç", "metro", "monoray", "taşıt", "tramvay"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("بىررېلىس"),
+			keywords: &["ئاپتوموبىل", "بىررېلىس"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("монорейка"),
+			keywords: &["метро", "монорейка", "монорейкова залізниця", "транспорт", "швидкий потяг"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("مونو ریل"),
+			keywords: &["ریل", "سواری", "مونو ریل", "یک ریل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("bir izli temiryo‘l"),
+			keywords: &[
+				"bir izli osma temir yoʼl",
+				"bir izli temir yoʻl",
+				"bir izli temiryo‘l",
+				"transport",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đường một ray"),
+			keywords: &["xe cộ", "đường một ray"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("monoraay"),
+			keywords: &["monoraay", "waruwaay"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isiporo esinenkasayiya enye"),
+			keywords: &["inqwelo-mafutha", "isiporo esinenkasayiya enye"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Oju irin kan"),
+			keywords: &["Oju irin kan", "nṣe ọkọ\u{301}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Oju irin kan"),
+			keywords: &["Oju irin kan", "nshe ɔkɔ\u{301}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("單軌"), keywords: &["單軌", "車輛"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("单轨"), keywords: &["单轨", "车辆"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("单轨"),
+			keywords: &["单轨", "单轨电车", "火车"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("單軌"), keywords: &["單軌", "火車"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("單軌電車"),
+			keywords: &["列車", "單軌列車", "單軌鐵路", "單軌電車", "車輛"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ujantshi owodwa"),
+			keywords: &["imoto", "ujantshi owodwa"],
+		},
+	],
+};
+#[doc = "🚑\u{fe0f}"]
+pub const AMBULANCE: crate::Emoji = crate::Emoji {
+	glyph:                "🚑\u{fe0f}",
+	codepoint:            &[128657u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "ambulance",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🚆"]
+pub const TRAIN: crate::Emoji = crate::Emoji {
+	glyph:                "🚆",
+	codepoint:            &[128646u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "train",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("trein"),
+			keywords: &[
+				"aangekom",
+				"sneltrein",
+				"spoor",
+				"spoorweg",
+				"tjoek-tjoek",
+				"trein",
+				"treinspoor",
+				"voertuig",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ባቡር"),
+			keywords: &["መድረስ", "ባቡር", "ተሽከርካሪ", "የባቡር መንገድ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قطار"),
+			keywords: &["تشو تشو", "سكة حديد", "قطار", "قطر", "مركبة", "نقل عام", "وصول"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ট\u{9cd}ৰেইন"),
+			keywords: &["ট\u{9cd}ৰেইন", "ৰেইলৱে"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qatar"),
+			keywords: &["dəmir yolu", "dəmiryolu", "nəqliyyat", "qatar"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("цягнік"),
+			keywords: &["бч", "рэйкі", "цягнік", "чыгунка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("влак"),
+			keywords: &["влак", "железница", "превозно средство", "пуф-паф"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ট\u{9cd}রেন"),
+			keywords: &[
+				"ক\u{9c1} জিক জিক",
+				"চো\u{981}\u{981} চো\u{981}\u{981}",
+				"ট\u{9cd}রেন",
+				"ভ\u{9cd}রমণ ও স\u{9cd}থ\u{9be}ন",
+				"য\u{9be}নব\u{9be}হন",
+				"রেলওয\u{9bc}ে",
+				"রেলগ\u{9be}ড\u{9bc}ি",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("tren"),
+			keywords: &["hent-houarn", "tren"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("voz"),
+			keywords: &["voz", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("tren"),
+			keywords: &[
+				"arribada",
+				"arribat",
+				"ferrocarril",
+				"tren",
+				"vehicle",
+				"via del tren",
+				"xuc-xuc",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang: "chr", tts: Some("ᏗᎦᏣᏄᎵ"), keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᏗᎦᏣᏄᎵ"]
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("vlak"),
+			keywords: &[
+				"doprava",
+				"húú",
+				"lokomotiva",
+				"mašinka",
+				"příjezd",
+				"vlak",
+				"vláček",
+				"vozidlo",
+				"železnice",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("trên"),
+			keywords: &["cerbyd", "rheilffordd", "trên"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("tog"),
+			keywords: &["jernbane", "køretøj", "tog"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Zug"),
+			keywords: &["Bahn", "Eisenbahn", "ICE", "Zug"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τρένο"),
+			keywords: &["άφιξη", "σιδηρόδρομος", "τρένο", "τσουφ τσουφ", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("train"),
+			keywords: &["arrived", "choo", "railway", "train"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("tren"),
+			keywords: &["ferrocarril", "tren", "vehículo"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["chu chu", "ferrocarril", "transporte", "tren", "viajar", "viaje"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["ferrocarril", "tren"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("rong"),
+			keywords: &["raudtee", "rong", "sõiduk"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("trena"),
+			keywords: &["ibilgailu", "trena", "trenbide"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قطار"),
+			keywords: &["راه\u{200c}آهن", "ریل", "قطار", "وسیله نقلیه", "وسیله\u{654} نقلیه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("juna"),
+			keywords: &["ajoneuvo", "rautatie", "saapunut"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("tren"),
+			keywords: &["choo choo", "sasakyan", "tren"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation { lang: "fo", tts: Some("tok"), keywords: &["jarnbreyt", "tok"] },
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("train"),
+			keywords: &["arrivée", "chemin de fer", "moyen de transport", "rail", "train", "voyage"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("traein"),
+			keywords: &["bóthar iarainn", "feithicil", "iarnród", "sroichte", "tagtha", "traein"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("trèana"),
+			keywords: &["rathad-iarainn", "rèile", "slighe-iarainn", "trèana"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("tren"),
+			keywords: &["ferrocarril", "tren"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ટ\u{acd}ર\u{ac7}ન"),
+			keywords: &[
+				"આગમન",
+				"ક\u{ac2}કગાડી",
+				"છ\u{ac1}કછ\u{ac1}ક",
+				"છ\u{ac1}કછ\u{ac1}ક ગાડી",
+				"ટ\u{acd}ર\u{ac7}ન",
+				"ર\u{ac7}લગાડી",
+				"ર\u{ac7}લ\u{acd}વ\u{ac7}",
+				"વાહન",
+				"સવારી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("jirgin ƙasa"),
+			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "titin jirgin ƙasa"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("jirgin ƙasa"),
+			keywords: &["jirgi", "jirgin ƙasa", "reluwe", "titin jirgin ƙasa"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("רכבת"),
+			keywords: &["פסי רכבת", "רכבת", "תחבורה", "תחבורה ציבורית"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ट\u{94d}र\u{947}न"),
+			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}लव\u{947}", "वाहन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("vlak"),
+			keywords: &["dolazak vlaka", "vlak", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("vonat"),
+			keywords: &["jármű", "közlekedés", "vasút", "vonat"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("գնացք"),
+			keywords: &["գնացք", "երկաթուղի", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("kereta"),
+			keywords: &["kendaraan", "kereta", "rel"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ụgbọ okporoigwe"),
+			keywords: &["okporoigwe", "ụgbọ okporoigwe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation { lang: "is", tts: Some("lest"), keywords: &["járnbraut", "lest"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("treno"),
+			keywords: &[
+				"arrivo",
+				"binari",
+				"ferrovia",
+				"freccia",
+				"mezzo",
+				"trasporto",
+				"treno",
+				"veloce",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("電車正面"),
+			keywords: &["乗り物", "列車", "電車", "電車正面"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("sepur"),
+			keywords: &["jalur ril", "sepur"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მატარებელი"),
+			keywords: &["მატარებელი", "რკინიგზა", "ტრანსპორტი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("пойыз"),
+			keywords: &["көлік", "пойыз", "темір жол"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation { lang: "kl", tts: Some("tog"), keywords: &["køretøj", "tog"] },
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("រថភ\u{17d2}លើងមើលព\u{17b8}ម\u{17bb}ខ"),
+			keywords: &["ក\u{17d2}បាលរថភ\u{17d2}លើង", "រថភ\u{17d2}លើងមើលព\u{17b8}ម\u{17bb}ខ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ರ\u{cc8}ಲು"),
+			keywords: &[
+				"ಚುಕ\u{ccd} ಬುಕ\u{ccd}",
+				"ತಲುಪ\u{cbf}ದ\u{cc6}",
+				"ರ\u{cc8}ಲು",
+				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("기차"),
+			keywords: &["기차", "도착", "철도", "칙칙폭폭"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("ट\u{94d}र\u{947}न"),
+			keywords: &["ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("поезд"),
+			keywords: &["поезд", "темир жол", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation { lang: "lb", tts: Some("Zuch"), keywords: &["Eisebunn", "Zuch"] },
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{ebb}ດໄຟ"),
+			keywords: &["ພາຫະນະ", "ລ\u{ebb}ດໄຟ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("traukinys"),
+			keywords: &["geležinkelis", "traukinys"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("vilciens"),
+			keywords: &["dzelzceļš", "transports", "vilciens"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tereina"),
+			keywords: &["rerewē", "tereina"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("воз"),
+			keywords: &["воз", "возило", "железница", "пристигна", "пруга"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ട\u{d4d}രെയിൻ"),
+			keywords: &["ട\u{d4d}രെയിൻ", "റെയിൽവേ", "വ\u{d3e}ഹനം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("галт тэрэг"),
+			keywords: &["галт тэрэг", "төмөр зам"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ट\u{94d}र\u{947}न"),
+			keywords: &["आगगाडी", "ट\u{94d}र\u{947}न", "र\u{947}ल\u{94d}व\u{947}", "वाहन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kereta api"),
+			keywords: &["kenderaan", "kereta api", "landasan kereta api", "rel kereta api"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation { lang: "mt", tts: Some("ferrovija"), keywords: &["ferrovija"] },
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ရထား"),
+			keywords: &["ရထား", "ရထားလမ\u{103a}း"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("र\u{947}ल"),
+			keywords: &["गाडी", "र\u{947}ल", "र\u{947}लमार\u{94d}ग"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("trein"),
+			keywords: &["aankomst", "spoor", "trein", "vertrek", "vervoermiddel", "voertuig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["framkomstmiddel", "jernbane", "tog"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଟ\u{b4d}ରେନ\u{b4d}\u{200c}"),
+			keywords: &["ଟ\u{b4d}ରେନ\u{b4d}\u{200c}", "ବ\u{b3e}ହ\u{b3e}ନ", "ରେଲୱେ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਰ\u{a47}ਲਗ\u{a71}ਡੀ"),
+			keywords: &[
+				"ਟਰ\u{a47}ਨ",
+				"ਪਹ\u{a41}\u{a70}ਚਣ",
+				"ਰ\u{a47}ਲ ਗ\u{a71}ਡੀ",
+				"ਰ\u{a47}ਲ ਗ\u{a71}\u{a71}ਡੀ",
+				"ਰ\u{a47}ਲਗ\u{a71}\u{a71}ਡੀ",
+				"ਰ\u{a47}ਲਵ\u{a47}",
+				"ਵਾਹਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang: "pa_Arab", tts: Some("ٹرین"), keywords: &["ریلوے", "ٹرین"]
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation { lang: "pcm", tts: Some("Tren"), keywords: &["Relwè", "Tren"] },
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("pociąg"),
+			keywords: &["kolej", "pociąg", "podróż", "pojazd"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("اور ګاډی"),
+			keywords: &["اور ګاډی", "ريلوی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("trem"),
+			keywords: &["ferrovia", "trem", "veículo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("comboio"),
+			keywords: &["comboio", "linha ferroviária", "linha férrea", "veículo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("tren"),
+			keywords: &["ferrocarril", "tren"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("tren"),
+			keywords: &["cale ferată", "sosire", "sosit", "tren", "șine"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-922"), keywords: &["E10-922"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("поезд"),
+			keywords: &["дорога", "ж/д", "железная дорога", "поезд", "транспорт"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("gariyamoshi"),
+			keywords: &["gariyamoshi", "irayirayi"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ريل گاڏي"),
+			keywords: &["ريل گاڏي", "ريلوي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
+			keywords: &[
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
+				"ව\u{dcf}හනය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("vlak"),
+			keywords: &[
+				"cestovanie",
+				"doprava",
+				"dopravný prostriedok",
+				"lokomotíva",
+				"rušeň",
+				"vlak",
+				"železnica",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("vlak"),
+			keywords: &["prihod", "vlak", "vozilo", "železnica"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("tareen"),
+			keywords: &["jidka tareenka", "tareen", "tareenka"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("tren"),
+			keywords: &["hekurudhë", "mbërriti", "mjet", "tren"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation { lang: "sr", tts: Some("воз"), keywords: &["воз", "жeлeзницa"] },
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["воз", "жeљeзницa"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("voz"),
+			keywords: &["voz", "železnica"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["voz", "željeznica"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("tåg"),
+			keywords: &["fordon", "järnväg", "tåg"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("treni"),
+			keywords: &["gari", "reli", "treni"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("இரயில\u{bcd}"),
+			keywords: &[
+				"இரயில\u{bcd}",
+				"இரயில\u{bcd} வண\u{bcd}டி",
+				"டிரெயின\u{bcd}",
+				"மெட\u{bcd}ரோ",
+				"ரயில\u{bcd}",
+				"ரயில\u{bcd} வண\u{bcd}டி",
+				"ரயில\u{bcd}வே",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ర\u{c48}లు"),
+			keywords: &[
+				"చ\u{c47}రుకుంటున\u{c4d}న ర\u{c48}లు",
+				"ప\u{c4d}రయ\u{c3e}ణం ల\u{c4b} ఉన\u{c4d}న ర\u{c48}లు",
+				"బయలుద\u{c47}రుతున\u{c4d}న ర\u{c48}లు",
+				"ర\u{c48}లు",
+				"స\u{c3e}ధ\u{c3e}రణ కర\u{c46}ంటు ల\u{c47}ద\u{c3e} డ\u{c40}జ\u{c3f}ల\u{c4d} ర\u{c48}లు",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("қатора"),
+			keywords: &["роҳи оҳан", "қатора"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang: "th", tts: Some("รถไฟ"), keywords: &["ยานพาหนะ", "รถไฟ"]
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ባቡር"),
+			keywords: &["መንገዲ ባቡር", "በጺሑ", "ባቡር", "ቹ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation { lang: "tk", tts: Some("otly"), keywords: &["demir ýol", "otly"] },
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("lēlue"), keywords: &["lēlue"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("tren"),
+			keywords: &["demiryolu", "taşıt", "tren"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang: "ug", tts: Some("پويىز"), keywords: &["تۆمۈريول", "پويىز"]
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("потяг"),
+			keywords: &["електропотяг", "залізниця", "потяг", "транспорт"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ٹرین"),
+			keywords: &["ریل گاڑی", "سواری", "ٹرین", "چھک چھک", "چھک چھک گاڑی"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("poyezd"),
+			keywords: &["poyezd", "temiryo‘l", "transport", "yetib kelyapman"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("tàu hỏa"),
+			keywords: &["tàu hỏa", "đường sắt"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation { lang: "wo", tts: Some("saxaar"), keywords: &["raay", "saxaar"] },
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("uloliwe"),
+			keywords: &["isiporo", "uloliwe"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ṣèdánilẹ\u{301}kọ\u{300}ọ\u{301}"),
+			keywords: &["Ṣèdánilẹ\u{301}kọ\u{300}ọ\u{301}", "ọkọ Oju-irin"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Shèdánilɛ\u{301}kɔ\u{300}ɔ\u{301}"),
+			keywords: &["Shèdánilɛ\u{301}kɔ\u{300}ɔ\u{301}", "ɔkɔ Oju-irin"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("火車"), keywords: &["火車", "鐵路"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("火车"), keywords: &["火车", "铁路"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("火车"),
+			keywords: &["到站", "呜呜", "火车", "铁路"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("火車"),
+			keywords: &["到站", "火車", "鐵道"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["MTR", "到達", "地下鐵路", "地鐵", "港鐵", "火車", "鐵路"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isitimela"),
+			keywords: &["imoto", "isitimela", "ujantshi"],
+		},
+	],
+};
+#[doc = "🚞"]
+pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
+	glyph:                "🚞",
+	codepoint:            &[128670u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "mountain railway",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportGround,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("bergtreinspoor"),
+			keywords: &[
+				"berg",
+				"bergtreinspoor",
+				"reis",
+				"spoor",
+				"spoorweg",
+				"trein",
+				"treinwa",
+				"voertuig",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የባቡር ሐዲድ ያለው ተራራ"),
+			keywords: &["ሃዲድ", "መኪና", "ተራራ", "ተሽከርካሪ", "የባቡር ሐዲድ ያለው ተራራ", "የባቡር መንገድ", "ፉርጎ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("سكة حديد جبلية"),
+			keywords: &["جبل", "رحلة", "سكة حديد", "سكة حديد جبلية", "عربة قطار جبلي", "مركبة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9be}হ\u{9be}ৰৰ ৰেইলৱে"),
+			keywords: &["গ\u{9be}ড\u{9bc}ী", "প\u{9be}হ\u{9be}ৰ", "প\u{9be}হ\u{9be}ৰৰ ৰেইলৱে", "ৰেইলৱে"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("dağ yolu"),
+			keywords: &["dağ", "dağ yolu", "dəmir yolu", "dəmiryolu", "maşın", "nəqliyyat"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("чыгунка ў гарах"),
+			keywords: &["гара", "рэйкі", "цягнік", "чыгунка", "чыгунка ў гарах"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("планинска железница"),
+			keywords: &["вагон", "железница", "планина", "планинска железница", "превозно средство"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("পর\u{9cd}বতের রেলওয\u{9bc}ে"),
+			keywords: &[
+				"পর\u{9cd}বত",
+				"পর\u{9cd}বতের রেলওয\u{9bc}ে",
+				"মোটরগ\u{9be}ড\u{9bc}ি",
+				"য\u{9be}নব\u{9be}হন",
+				"রেল",
+				"রেল ল\u{9be}ইন",
+				"রেলওয\u{9bc}ে",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("tren ar menezioù"),
+			keywords: &["hent-houarn", "tren ar menezioù"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("pruga kroz tunel"),
+			keywords: &["planina", "pruga kroz tunel", "voz", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("ferrocarril de muntanya"),
+			keywords: &["ferrocarril", "ferrocarril de muntanya", "muntanya", "vagó", "viatge"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎣᏓᎸ ᎦᏥᏄᎵ ᎤᎶᎯᏍᏗ"),
+			keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᎣᏓᎸ ᎦᏥᏄᎵ ᎤᎶᎯᏍᏗ", "ᏙᏆᎴᎵ", "ᏚᏅᏓᏢᎢ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("horská železnice"),
+			keywords: &[
+				"doprava",
+				"hora",
+				"horská železnice",
+				"horský vlak",
+				"hory",
+				"ozubnicová dráha",
+				"vagon",
+				"vagón",
+				"vozidlo",
+				"výlet",
+				"železnice",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("rheilffordd fynydd"),
+			keywords: &["car", "mynydd", "rheilffordd", "rheilffordd fynydd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("bjergbane"),
+			keywords: &["bjerg", "bjergbane", "jernbane", "svævebane", "tog"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Bergbahn"),
+			keywords: &["Bahn", "Bergbahn", "Bimmelbahn", "Zug"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ορεινός σιδηρόδρομος"),
+			keywords: &["βαγόνι", "βουνό", "ορεινός σιδηρόδρομος", "σιδηρόδρομος", "ταξίδι", "όχημα"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("mountain railway"),
+			keywords: &["car", "mountain", "railway", "trip"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("ferrocarril de montaña"),
+			keywords: &["ferrocarril", "ferrocarril de montaña", "montaña", "vehículo"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"ferrocarril",
+				"ferrocarril de montaña",
+				"montaña",
+				"transporte",
+				"tren",
+				"vehículo",
+				"viajar",
+				"viaje",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"ferrocarril",
+				"ferrocarril de montaña",
+				"montaña",
+				"transporte",
+				"tren",
+				"viajar",
+			],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"ferrocarril",
+				"ferrocarril de montaña",
+				"montaña",
+				"transporte",
+				"tren",
+				"viajar",
+			],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("mägiraudtee"),
+			keywords: &["mägi", "raudtee", "reis", "vagun"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("mendiko trenbidea"),
+			keywords: &["auto", "ibilgailu", "mendi", "mendiko trenbidea", "trenbide"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ریل کوهستانی"),
+			keywords: &[
+				"خودرو",
+				"راه\u{200c}آهن",
+				"ریل",
+				"ریل کوهستانی",
+				"وسیله نقلیه",
+				"وسیله\u{654} نقلیه",
+				"کوه",
+				"کوهستان",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("rinnerata"),
+			keywords: &["ajoneuvo", "funikulaari", "juna", "matka", "rautatie"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("mountain railway"),
+			keywords: &["bundok", "mountain railway", "sasakyan", "tren"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("fjallajarnbreyt"),
+			keywords: &["fjallajarnbreyt", "jarnbreyt", "tok"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("train de montagne"),
+			keywords: &[
+				"chemin de fer",
+				"moyen de transport",
+				"rail",
+				"train",
+				"train de montagne",
+				"voyage",
+				"wagon",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["chemin de fer", "montagne", "train", "train de montagne", "voiture", "wagon"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("iarnród sléibhe"),
+			keywords: &[
+				"carr",
+				"carr cábla sléibhe",
+				"feithicil",
+				"iarnród",
+				"iarnród sléibhe",
+				"sliabh",
+				"turas",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("rèile-bheinne"),
+			keywords: &[
+				"beinn",
+				"càr",
+				"còidse",
+				"rathad-iarainn",
+				"rèile",
+				"rèile-bheinne",
+				"slighe-iarainn",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("ferrocarril de montaña"),
+			keywords: &["ferrocarril", "ferrocarril de montaña"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પર\u{acd}વતોની ર\u{ac7}લ\u{acd}વ\u{ac7}"),
+			keywords: &[
+				"કાર",
+				"ક\u{ac1}દરત",
+				"પર\u{acd}વત",
+				"પર\u{acd}વતોની ક\u{ac5}બલ કાર",
+				"પર\u{acd}વતોની ર\u{ac7}લ\u{acd}વ\u{ac7}",
+				"મ\u{ac1}સાફરી",
+				"ર\u{ac7}લ\u{acd}વ\u{ac7}",
+				"વાહન",
+				"સવારી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("reluwen tsauni"),
+			keywords: &[
+				"jirgi",
+				"mota",
+				"reluwe",
+				"reluwen tsauni",
+				"tafiya",
+				"titin jirgin ƙasa na kan tsauni",
+				"tsauni",
+				"ƙaramar mota",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("reluwen tsauni"),
+			keywords: &[
+				"jirgi",
+				"mota",
+				"reluwe",
+				"reluwen tsauni",
+				"tafiya",
+				"titin jirgin ƙasa na kan tsauni",
+				"tsauni",
+				"ƙaramar mota",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("רכבת בהרים"),
+			keywords: &["הרים", "רכבת", "רכבת הררית", "תחבורה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("माउ\u{902}ट\u{947}न र\u{947}लव\u{947}"),
+			keywords: &[
+				"कार",
+				"गाडी",
+				"पहाड\u{93c}",
+				"पहाड\u{93c}ी क\u{947}बल कार",
+				"पहाड\u{93c}ी र\u{947}लव\u{947}",
+				"माउ\u{902}ट\u{947}न र\u{947}लव\u{947}",
+				"यात\u{94d}रा",
+				"वाहन",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("planinska željeznica"),
+			keywords: &["planina", "planinska željeznica", "vagon", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hegyi vasút"),
+			keywords: &["hegyi vasút", "jármű", "kocsi", "közlekedés", "vasút"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("լեռնային երկաթուղի"),
+			keywords: &["երկաթուղի", "լեռ", "լեռնային երկաթուղի", "վագոն", "փոխադրամիջոց"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("jalur kereta pegunungan"),
+			keywords: &["gunung", "jalur kereta pegunungan", "kendaraan", "kereta", "mobil", "rel"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ugwu okporoigwe"),
+			keywords: &["okporoigwe", "ugwu", "ụgbọala"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fjallalest"),
+			keywords: &["fjall", "fjallakláfur", "fjallalest", "kláfur", "lest"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("ferrovia di montagna"),
+			keywords: &[
+				"ferrovia",
+				"ferrovia di montagna",
+				"montagna",
+				"trasporti",
+				"treno",
+				"treno di montagna",
+				"veicolo",
+				"viaggiare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("登山鉄道"),
+			keywords: &["乗り物", "登山鉄道", "登山電車", "電車"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("jalur sepur nggunung"),
+			keywords: &["gunung", "jalur ril", "jalur sepur nggunung", "montor"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მთის რკინიგზა"),
+			keywords: &["მანქანა", "მთა", "მთის რკინიგზა", "რკინიგზა", "ტრანსპორტი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("таулы аймақтағы темір жол"),
+			keywords: &["автокөлік", "көлік", "пойыз", "тау", "таулы аймақтағы темір жол", "темір жол"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("bjergbane"),
+			keywords: &["bjergbane", "svævebane"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើងលើភ\u{17d2}ន\u{17c6}"),
+			keywords: &[
+				"ទ\u{17bc}រថភ\u{17d2}លើង",
+				"ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើង",
+				"ផ\u{17d2}ល\u{17bc}វរថភ\u{17d2}លើងលើភ\u{17d2}ន\u{17c6}",
+				"ភ\u{17d2}ន\u{17c6}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಪರ\u{ccd}ವತ ರ\u{cc8}ಲುಮಾರ\u{ccd}ಗ"),
+			keywords: &[
+				"ಕಾರ\u{ccd}",
+				"ಪರ\u{ccd}ವತ",
+				"ಪರ\u{ccd}ವತ ಕ\u{cc7}ಬಲ\u{ccd} ಕಾರ\u{ccd}",
+				"ಪರ\u{ccd}ವತ ರ\u{cc8}ಲುಮಾರ\u{ccd}ಗ",
+				"ಪ\u{ccd}ರವಾಸ",
+				"ರ\u{cc8}ಲ\u{ccd}ವ\u{cc7}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("기차 터널"),
+			keywords: &["기차", "산", "산악 철도", "산터널", "차", "터널"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पर\u{94d}वतीय र\u{947}ल\u{94d}व\u{947}"),
+			keywords: &[
+				"कार",
+				"पर\u{94d}वत",
+				"पर\u{94d}वतीय र\u{947}ल\u{94d}व\u{947}",
+				"र\u{947}ल\u{94d}व\u{947}",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("тоодогу темир жол"),
+			keywords: &["вагон", "темир жол", "тоо", "тоодогу темир жол", "унаа"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Biergzuch"),
+			keywords: &["Bierg", "Biergzuch", "Eisebunn", "Waggon"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລາງລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ"),
+			keywords: &[
+				"ພາຫະນະ",
+				"ລາງລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ",
+				"ລ\u{ebb}ດໄຟ",
+				"ລ\u{ebb}ດໄຟພ\u{eb9}ເຂ\u{ebb}າ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("kalnų traukinys"),
+			keywords: &[
+				"automobilis",
+				"geležinkelis",
+				"kalnas",
+				"kalnų traukinys",
+				"kelionė traukiniu",
+				"transporto priemonė",
+				"traukinys",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("kalnu dzelzceļš"),
+			keywords: &[
+				"dzelzceļš",
+				"kalni",
+				"kalnu dzelzceļš",
+				"transportlīdzeklis",
+				"transports",
+				"vagons",
+				"vilciens",
+			],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("rerewē maunga"),
+			keywords: &["maunga", "rerewē", "waka"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("планинска железница"),
+			keywords: &["вагон", "возило", "железница", "патување", "планина", "планинска железница"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("പർവ\u{d4d}വത റെയിൽവേ"),
+			keywords: &[
+				"ക\u{d3e}ർ",
+				"പർവ\u{d4d}വത കേബിൾ ക\u{d3e}ർ",
+				"പർവ\u{d4d}വത റെയിൽവേ",
+				"പർവ\u{d4d}വതം",
+				"റെയിൽവേ",
+				"വ\u{d3e}ഹനം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("уулын төмөр зам"),
+			keywords: &["машин", "төмөр зам", "уул", "уулын төмөр зам"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पर\u{94d}वतावरील र\u{947}ल\u{94d}व\u{947}"),
+			keywords: &[
+				"कार",
+				"झ\u{941}कझ\u{941}क गाडी",
+				"डो\u{902}गर",
+				"डो\u{902}गरावरील",
+				"पर\u{94d}वतावरील र\u{947}ल\u{94d}व\u{947}",
+				"पर\u{94d}वतीय क\u{947}बल कार",
+				"र\u{947}ल\u{94d}व\u{947}",
+				"वाहन",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kereta api gunung"),
+			keywords: &[
+				"gunung",
+				"kenderaan",
+				"kereta",
+				"kereta api gunung",
+				"landasan kereta api",
+				"perjalanan",
+				"rel kereta api",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ferrovija tal-muntanji"),
+			keywords: &["ferrovija", "ferrovija tal-muntanji", "karozza", "muntanja"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("တောင\u{103a}ပေါ\u{103a} ရထားလမ\u{103a}း"),
+			keywords: &[
+				"တောင\u{103a}တန\u{103a}း",
+				"တောင\u{103a}ပေါ\u{103a} ရထားလမ\u{103a}း",
+				"ရထားတ\u{103d}\u{1032}",
+				"ရထားလမ\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पर\u{94d}वतीय र\u{947}लव\u{947}"),
+			keywords: &["कार", "गाडी", "पर\u{94d}वतीय", "र\u{947}लव\u{947}"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("bergspoor"),
+			keywords: &["berg", "bergspoor", "spoor", "vervoermiddel", "voertuig", "wagon"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["bane", "fjell", "fjellbane", "framkomstmiddel"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପର\u{b4d}ବତ ରେଳୱେ"),
+			keywords: &[
+				"କ\u{b3e}ର\u{b4d}",
+				"ପର\u{b4d}ବତ ରେଳୱେ",
+				"ବ\u{b3e}ହ\u{b3e}ନ",
+				"ମ\u{b3e}ଉଣ\u{b4d}ଟେନ\u{b4d}",
+				"ମ\u{b3e}ଉଣ\u{b4d}ଟେନ\u{b4d} କେବଲ\u{b4d} କ\u{b3e}ର\u{b4d}",
+				"ରେଲୱେ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪਹਾੜੀ ਰ\u{a47}ਲਵ\u{a47}"),
+			keywords: &[
+				"ਕਾਰ",
+				"ਟਰ\u{a47}ਨ",
+				"ਪਹਾੜ",
+				"ਪਹਾੜੀ ਕ\u{a47}ਬਲ ਕਾਰ",
+				"ਪਹਾੜੀ ਰ\u{a47}ਲਵ\u{a47}",
+				"ਰ\u{a47}ਲਵ\u{a47}",
+				"ਵਾਹਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پہاڑی ریلوے"),
+			keywords: &["ریلوے", "پہاڑ", "پہاڑی ریلوے", "کار"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Maúntín Relwè"),
+			keywords: &["Kaa", "Maúntin", "Maúntín Relwè", "Móto", "Relwè"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("kolej górska"),
+			keywords: &["górska", "górski", "góry", "kolej", "kolejka", "pojazd", "wagon"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د غره پټلۍ"),
+			keywords: &["د غره پټلۍ", "ريلوی", "غر", "موټر"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("estrada de ferro na montanha"),
+			keywords: &[
+				"carro",
+				"estrada de ferro",
+				"estrada de ferro na montanha",
+				"montanha",
+				"teleférico",
+				"veículo",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("comboio de montanha"),
+			keywords: &[
+				"carruagem",
+				"comboio de montanha",
+				"linha ferroviária",
+				"montanha",
+				"transporte",
+				"veículo",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("ferrocarril urqupaq"),
+			keywords: &["autu", "ferrocarril", "ferrocarril urqupaq", "urqu"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("cale ferată montană"),
+			keywords: &[
+				"cale ferată",
+				"cale ferată montană",
+				"călătorie",
+				"excursie",
+				"munte",
+				"vagon",
+				"șină montană",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-946"), keywords: &["E10-946"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("поезд в горах"),
+			keywords: &[
+				"горы",
+				"дорога",
+				"железная",
+				"поезд",
+				"поезд в горах",
+				"рельсы",
+				"транспорт",
+				"электричка",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("gariyamoshi inyura mu misozi"),
+			keywords: &["gariyamoshi inyura mu misozi", "imodoka"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("جابلو ريلوي"),
+			keywords: &["جابلو ريلوي", "جبل", "ريلوي", "ڪار"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("කඳ\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
+			keywords: &[
+				"කන\u{dca}ද",
+				"කඳ\u{dd4} ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
+				"ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
+				"මෝටර\u{dca} රථය",
+				"ව\u{dcf}හනය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("zubačka"),
+			keywords: &[
+				"dopravný prostriedok",
+				"horská",
+				"vlak",
+				"vozeň",
+				"výlet",
+				"zubačka",
+				"železnica",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("gorska železnica"),
+			keywords: &["avto", "gora", "gorska železnica", "vozilo", "železnica"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("jidka tareenka buurta"),
+			keywords: &["buur", "gaari", "jidka tareenka", "jidka tareenka buurta"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("hekurudhë në mal"),
+			keywords: &["hekurudhë", "hekurudhë në mal", "makinë", "mal", "mjet", "udhëtim"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("планинска железница"),
+			keywords: &["вагон", "жeлeзницa", "плaнинa", "путовање"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("планинска жељезница"),
+			keywords: &["возило", "жељезница", "планина", "планинска жељезница"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("planinska železnica"),
+			keywords: &["planina", "putovanje", "vagon", "železnica"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("planinska željeznica"),
+			keywords: &["planina", "planinska željeznica", "vozilo", "željeznica"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("bergbana"),
+			keywords: &["bergbana", "bergsbana", "bergståg", "järnväg"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("reli ya milimani"),
+			keywords: &["gari", "mlima", "reli", "reli ya milimani", "safari"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மலைப\u{bcd} ப\u{bbe}தை ரயில\u{bcd}"),
+			keywords: &[
+				"ந\u{bc0}லகிரி",
+				"பயணம\u{bcd}",
+				"மலை ரயில\u{bcd}",
+				"மலைப\u{bcd} ப\u{bbe}தை ரயில\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some(
+				"పర\u{c4d}వత\u{c3e}ల\u{c4d}ల\u{c4b} ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
+			),
+			keywords: &[
+				"క\u{c3e}ర\u{c4d}",
+				"పర\u{c4d}వతం",
+				"పర\u{c4d}వత\u{c3e}ల\u{c4d}ల\u{c4b} ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
+				"ప\u{c4d}రయ\u{c3e}ణం",
+				"ర\u{c48}లు",
+				"ర\u{c48}ల\u{c4d}వ\u{c47}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("роҳи оҳани куҳӣ"),
+			keywords: &["куҳ", "мошин", "роҳи оҳан", "роҳи оҳани куҳӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("รางรถไฟภ\u{e39}เขา"),
+			keywords: &["ภ\u{e39}เขา", "ยานพาหนะ", "รถไฟ", "ราง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ናይ ከረን ባቡር"),
+			keywords: &["መንገዲ ባቡር", "መኪና", "እምባ", "ጉዕዞ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("dag demirýoly"),
+			keywords: &["dag", "dag demirýoly", "demir ýol", "wagon"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("hala lēlue moʻunga"),
+			keywords: &["hala", "lēlue", "moʻunga"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("dağ demiryolu"),
+			keywords: &[
+				"dağ",
+				"dağ teleferiği",
+				"demiryolu",
+				"taşıt",
+				"teleferik",
+				"tren",
+				"vagon",
+				"yolculuk",
+			],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("تاغ تۆمۈريولى"),
+			keywords: &["تاغ", "تاغ تۆمۈريولى", "تۆمۈر يول", "ماشىنا"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("залізниця в горах"),
+			keywords: &[
+				"вагон",
+				"гора",
+				"гірська залізниця",
+				"залізниця",
+				"залізниця в горах",
+				"поїзд",
+				"транспорт",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ماؤنٹین ریلوے"),
+			keywords: &["ریل گاڑی", "ریلوے", "سفر", "ماؤنٹین ریلوے", "پہاڑ", "پہاڑی ریل وے", "گاڑی"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("to‘g‘ temiryo‘li"),
+			keywords: &[
+				"mashina",
+				"sayohat",
+				"temir yoʻl",
+				"temiryo‘l",
+				"togʻ temir yoʻli",
+				"tog‘",
+				"to‘g‘ temiryo‘li",
+				"transport",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đường ray leo núi"),
+			keywords: &["núi", "toa xe", "đường ray leo núi", "đường sắt"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("raayu tund"),
+			keywords: &["montaañ", "oto", "raay", "raayu tund"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isiporo sentaba"),
+			keywords: &["imoto", "intaba", "isiporo", "isiporo sentaba"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Reluwe Oloke"),
+			keywords: &["Reluwe Oloke", "òké", "ọkọ ojú-irin", "ọkọ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Reluwe Oloke"),
+			keywords: &["Reluwe Oloke", "òké", "ɔkɔ ojú-irin", "ɔkɔ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("山上鐵路"),
+			keywords: &["山", "山上鐵路", "汽車", "鐵路"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("山上铁路"),
+			keywords: &["山", "山上铁路", "汽车", "铁路"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("山区铁路"),
+			keywords: &["山区", "山区铁路", "山地铁路", "火车", "铁路"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("山區鐵路"),
+			keywords: &["山區鐵路", "火車"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("上山鐵路"),
+			keywords: &["上山鐵路", "山脈", "旅行", "汽車", "火車", "登山鐵路", "鐵路"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ujantshi wasentabeni"),
+			keywords: &["imoto", "intaba", "ujantshi", "ujantshi wasentabeni"],
 		},
 	],
 };

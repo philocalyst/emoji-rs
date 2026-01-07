@@ -1,3398 +1,3 @@
-#[doc = "🩷"]
-pub const PINK_HEART: crate::Emoji = crate::Emoji {
-	glyph:                "🩷",
-	codepoint:            &[129655u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "pink heart",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Heart,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("pienk hart"),
-			keywords: &["hart", "hartjie", "hou van", "liefde", "oulik", "pienk", "spesiaal"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሮዝ ልብ"),
-			keywords: &[
-				"143",
-				"ልብ",
-				"ልዩ",
-				"መውደድ",
-				"ሮዝ",
-				"ስሜት",
-				"ቆንጆ",
-				"እወድሃለሁ",
-				"እወድሻለሁ",
-				"የሚወደድ",
-				"የሚያምር",
-				"ጣፋጭ",
-				"ፍቅር",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قلب وردي"),
-			keywords: &["أحبك", "إعجاب", "حب", "زهري", "فاتن", "قلب", "وردي"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("গোল\u{9be}পী হ\u{9c3}দয\u{9bc}"),
-			keywords: &[
-				"গ\u{9c1}লপীয\u{9bc}\u{9be}",
-				"গোল\u{9be}পী হ\u{9c3}দয\u{9bc}",
-				"প\u{9cd}ৰেম",
-				"মৰমলগ\u{9be}",
-				"ল\u{9be}ইক",
-				"হ\u{9c3}দয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("çəhrayı ürək"),
-			keywords: &["emosiya", "sevgi", "xoş", "xoşlamaq", "çəhrayı", "ürək", "şirin"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("ружовае сэрца"),
-			keywords: &["каханне", "мілы", "падабаецца", "ружовае сэрца", "ружовы", "сэрца"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("розово сърце"),
-			keywords: &["емоция", "любов", "обичам те", "розово", "сладко", "сърце", "харесвам"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("গোল\u{9be}পী হ\u{9be}র\u{9cd}ট"),
-			keywords: &[
-				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
-				"গোল\u{9be}পী",
-				"গোল\u{9be}পী হ\u{9be}র\u{9cd}ট",
-				"পছন\u{9cd}দ",
-				"ভ\u{9be}লব\u{9be}স\u{9be}",
-				"ভ\u{9be}লোব\u{9be}স\u{9be}",
-				"মিষ\u{9cd}টি",
-				"স\u{9c1}ন\u{9cd}দর",
-				"হ\u{9c3}দয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("ružičasto srce"),
-			keywords: &["ljubav", "ružičasta", "ružičasto srce", "slatko", "srce", "sviđanje"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("cor rosa"),
-			keywords: &["adorable", "agradar", "amor", "bonic", "cor", "especial", "rosa"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎩᎦᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
-			keywords: &["ᎠᎩᎸᏉᏗ", "ᎤᎾᏫ", "ᎤᏍᎪᎸ", "ᎩᎦᎨ", "ᎬᎨᏳ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("růžové srdce"),
-			keywords: &[
-				"láska",
-				"líbí",
-				"roztomilý",
-				"růžová",
-				"růžové srdce",
-				"růžové srdíčko",
-				"srdce",
-				"srdíčko",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("calon binc"),
-			keywords: &[
-				"143",
-				"arbennig",
-				"calon",
-				"calon binc",
-				"caru",
-				"ciwt",
-				"emosiwn",
-				"hoffi",
-				"melys",
-				"pert",
-				"pinc",
-			],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("lyserødt hjerte"),
-			keywords: &[
-				"elsker",
-				"følelse",
-				"hjerte",
-				"kærlighed",
-				"lyserød",
-				"lyserødt hjerte",
-				"nuttet",
-				"pink",
-				"synes om",
-				"særligt",
-				"sødt",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("pinkes Herz"),
-			keywords: &[
-				"Gefühl", "Herz", "Liebe", "gefallen", "gefällt", "mag", "mögen", "niedlich", "pink",
-				"rosa", "süß", "verliebt",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"Gefühl", "Herz", "Liebe", "flirten", "gefallen", "gefällt", "mag", "mögen", "pink",
-				"rosa", "süss", "verliebt",
-			],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ροζ καρδιά"),
-			keywords: &["αγάπη", "γλυκό", "καρδιά", "μου αρέσει", "ροζ"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("pink heart"),
-			keywords: &[
-				"143", "adorable", "cute", "emotion", "heart", "ily", "like", "love", "pink", "special",
-				"sweet",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("corazón rosa"),
-			keywords: &["amor", "bonito", "corazón", "gustar", "rosa"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"adorable", "amor", "corazón", "dulce", "emoción", "especial", "rosa", "ternura", "tierno",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("roosa süda"),
-			keywords: &[
-				"armas",
-				"armastan",
-				"armastus",
-				"emotsioon",
-				"eriline",
-				"meeldib",
-				"nunnu",
-				"roosa",
-				"süda",
-				"tunne",
-			],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bihotz arrosa"),
-			keywords: &[
-				"143",
-				"arrosa",
-				"atsegin",
-				"bihotz arrosa",
-				"bihotza",
-				"gogoko",
-				"maitagarria",
-				"maitasuna",
-				"polita",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قلب صورتی"),
-			keywords: &[
-				"احساس",
-				"بامزه",
-				"خاص",
-				"دوست داشتن",
-				"دوستت دارم",
-				"دوست\u{200c}داشتنی",
-				"صورتی",
-				"عشق",
-				"علاقه",
-				"قلب",
-				"ناز",
-				"۱۴۳",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("pinkki sydän"),
-			keywords: &["pinkki", "rakkaus", "sydän", "söpö", "tunne", "tykkäys", "vaaleanpunainen"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("pink na puso"),
-			keywords: &["cute", "gusto", "kulay rosas", "pink na puso", "puso"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("ljósareytt hjarta"),
-			keywords: &["hjarta", "kærleiki", "ljósareytt"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("cœur rose"),
-			keywords: &["143", "adorable", "aimer", "amour", "cœur", "jtm", "mignon", "rose", "émotion"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["aimer", "amour", "cœur", "mignon", "rose"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("croí bándearg"),
-			keywords: &["bándearg", "croí", "gleoite", "grá", "is maith liom"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("crithe pinc"),
-			keywords: &["cridhe", "crithe pinc", "gaol", "pinc", "stampa", "toil"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("corazón rosa"),
-			keywords: &["adorable", "amor", "doce", "emoción", "especial", "gustar", "quérote", "rosa"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ગ\u{ac1}લાબી ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
-			keywords: &[
-				"143",
-				"ગ\u{ac1}લાબી",
-				"ગ\u{ac1}લાબી ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
-				"દિલ",
-				"પસ\u{a82}દ",
-				"પ\u{acd}યાર",
-				"પ\u{acd}રિય",
-				"પ\u{acd}ર\u{ac7}મ",
-				"વ\u{acd}હાલ\u{ac1}\u{a82}",
-				"સ\u{ac1}\u{a82}દર",
-				"હ\u{ac3}દય",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("zuciya ruwan hoda"),
-			keywords: &[
-				"bege",
-				"gwanina",
-				"kamar",
-				"kyau",
-				"ruwan hoda",
-				"so",
-				"soyayya",
-				"zuciya",
-				"zuciya ruwan hoda",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("zuciya ruwan hoda"),
-			keywords: &[
-				"bege",
-				"gwanina",
-				"kamar",
-				"kyau",
-				"ruwan hoda",
-				"so",
-				"soyayya",
-				"zuciya",
-				"zuciya ruwan hoda",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("לב ורוד"),
-			keywords: &["אהבה", "אהבתי", "ורוד", "חמוד", "לב", "רגש"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ग\u{941}लाबी दिल"),
-			keywords: &[
-				"आई लव य\u{942}",
-				"ग\u{941}लाबी",
-				"दिल",
-				"पस\u{902}द",
-				"प\u{94d}यार",
-				"प\u{94d}यारा",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("ružičasto srce"),
-			keywords: &[
-				"emocija",
-				"ljubav",
-				"neodoljivo",
-				"posebno",
-				"roza",
-				"ružičasto",
-				"slatko",
-				"srce",
-				"sviđanje",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("rózsaszín szív"),
-			keywords: &["cuki", "rózsaszín", "szerelem", "szív", "tetszik"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("վարդագույն սիրտ"),
-			keywords: &["սեր", "սիրում եմ", "սիրտ", "սրտիկ", "վարդագույն"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("hati merah muda"),
-			keywords: &[
-				"cinta",
-				"hati",
-				"hati merah muda",
-				"imut",
-				"lucu",
-				"merah muda",
-				"pink",
-				"spesial",
-				"suka",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("obi na-acha pink"),
-			keywords: &[
-				"143",
-				"ihunanya",
-				"ily",
-				"mara mma",
-				"mmasị",
-				"mmetụta",
-				"obi",
-				"pink",
-				"pụrụ iche",
-				"ụtọ",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("bleikt hjarta"),
-			keywords: &["bleikt", "hjarta", "krútt", "sætt", "ást"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("cuore rosa"),
-			keywords: &["affetto", "amore", "cuore", "emozione", "rosa"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ピンクのハート"),
-			keywords: &[
-				"かわいい",
-				"スペシャル",
-				"ハート",
-				"ピンク",
-				"ピンクのハート",
-				"ラブ",
-				"好き",
-				"愛",
-				"愛してる",
-				"気持ち",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ati jambon"),
-			keywords: &["ati", "imut", "jambon", "seneng", "tresna"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ვარდისფერი გული"),
-			keywords: &["გული", "ვარდისფერი", "მოწონება", "საყვარელი", "სიყვარული"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("ul axuxi"), keywords: &["ul axuxi"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("қызғылт жүрек"),
-			keywords: &["143", "жүрек", "махаббат", "сүйкімді", "қызғылт", "ұнату"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ផ\u{17d2}កាឈ\u{17bc}ក"),
-			keywords: &[
-				"គ\u{17bd}រឱ\u{17d2}យស\u{17d2}រឡាញ\u{17cb}",
-				"ច\u{17bc}លច\u{17b7}ត\u{17d2}ត",
-				"បេះដ\u{17bc}ង",
-				"បេះដ\u{17bc}ងពណ\u{17cc}ផ\u{17d2}កាឈ\u{17bc}ក",
-				"ផ\u{17d2}កាឈ\u{17bc}ក",
-				"ស\u{17d2}រឡាញ\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಗುಲಾಬ\u{cbf} ಬಣ\u{ccd}ಣದ ಹೃದಯ"),
-			keywords: &[
-				"ಇಷ\u{ccd}ಟ",
-				"ಗುಲಾಬ\u{cbf}",
-				"ಗುಲಾಬ\u{cbf} ಬಣ\u{ccd}ಣದ ಹೃದಯ",
-				"ಪ\u{cbf}ಂಕ\u{ccd}",
-				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
-				"ಮುದ\u{ccd}ದಾದ",
-				"ಲವ\u{ccd}",
-				"ಸ\u{ccd}ವ\u{cc0}ಟ\u{ccd}",
-				"ಹೃದಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("분홍색 하트"),
-			keywords: &["귀여움", "분홍색", "사랑해", "좋아해", "하트"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ग\u{941}लाबी र\u{902}गाच\u{947}\u{902} काळीज"),
-			keywords: &[
-				"ily",
-				"आराध\u{94d}य",
-				"काळजाच\u{947}\u{902}",
-				"खाश\u{947}ल\u{947}\u{902}",
-				"ग\u{941}लाबी र\u{902}गाच\u{947}\u{902}",
-				"गो\u{902}डस",
-				"गोड",
-				"भावन\u{947}च\u{947}\u{902}",
-				"मोग",
-				"सारक\u{947}\u{902}",
-				"१४३",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("кызгылт түстөгү жүрөк"),
-			keywords: &["жакты", "жүрөк", "кызгылт", "кызгылт түстөгү жүрөк", "сүйкүмдүү"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ບ\u{ebb}ວ"),
-			keywords: &[
-				"143",
-				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
-				"ຄວາມຮ\u{eb1}ກ",
-				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
-				"ຕາແພງ",
-				"ພ\u{eb4}ເສດ",
-				"ມ\u{eb1}ກ",
-				"ສ\u{eb5}ບ\u{ebb}ວ",
-				"ຫ\u{ebb}ວໃຈ",
-				"ຫ\u{ebb}ວໃຈສ\u{eb5}ບ\u{ebb}ວ",
-				"ຮ\u{eb1}ກ",
-				"ເປ\u{eb1}ນຕາແພງ",
-				"ໜ\u{ec9}າຮ\u{eb1}ກ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("rožinė širdelė"),
-			keywords: &[
-				"aš tave myliu",
-				"emocija",
-				"meilė",
-				"miela",
-				"myliu",
-				"patinka",
-				"rožinė",
-				"rožinė širdelė",
-				"ypatinga",
-				"širdis",
-				"žavinga",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("rozā sirds"),
-			keywords: &["jauka", "mīlestība", "patīk", "rozā", "sirds"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("розово срце"),
-			keywords: &["неодоливо", "розово", "симпатично", "слатко", "срце", "чувство", "љубов"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("പിങ\u{d4d}ക\u{d4d} നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
-			keywords: &[
-				"ഇഷ\u{d4d}ടം",
-				"ചന\u{d4d}തമ\u{d41}ള\u{d4d}ള",
-				"പിങ\u{d4d}ക\u{d4d}",
-				"പിങ\u{d4d}ക\u{d4d} നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-				"പ\u{d4d}രണയം",
-				"പ\u{d4d}രേമം",
-				"ഭംഗി",
-				"സ\u{d4d}നേഹം",
-				"ഹ\u{d43}ദയം",
-				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ягаан зүрх"),
-			keywords: &["дуртай", "зүрх", "хайр", "эгдүүтэй", "ягаан"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ग\u{941}लाबी ह\u{943}दय"),
-			keywords: &["आवड", "ग\u{941}लाबी", "प\u{94d}र\u{947}म", "स\u{941}\u{902}दर", "ह\u{943}दय"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("hati merah jambu"),
-			keywords: &[
-				"143",
-				"ILY",
-				"cinta",
-				"comel",
-				"emosi",
-				"hati",
-				"istimewa",
-				"manis",
-				"menawan",
-				"merah jambu",
-				"suka",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပန\u{103a}းရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
-			keywords: &[
-				"ချစ\u{103a}စရာ",
-				"န\u{103e}စ\u{103a}သက\u{103a}",
-				"န\u{103e}လ\u{102f}\u{1036}း",
-				"ပန\u{103a}းရောင\u{103a}",
-				"အချစ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("ग\u{941}लाबी म\u{941}ट\u{941}"),
-			keywords: &[
-				"ग\u{941}लाबी",
-				"मन पराउन\u{941}",
-				"माया",
-				"म\u{941}ट\u{941}",
-				"स\u{941}न\u{94d}दर",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("roze hart"),
-			keywords: &["hart", "leuk", "liefde", "roze", "schattig"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("rosa hjarte"),
-			keywords: &["elskar", "hjarte", "liker", "rosa", "søtt"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଗୋଲ\u{b3e}ପୀ ହ\u{b43}ଦୟ"),
-			keywords: &["ଗୋଲ\u{b3e}ପୀ", "ପ\u{b4d}ରେମ", "ଯେପର\u{b3f}", "ସ\u{b41}ନ\u{b4d}ଦର", "ହ\u{b43}ଦୟ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਗ\u{a41}ਲਾਬੀ ਦਿਲ"),
-			keywords: &["ਗ\u{a41}ਲਾਬੀ", "ਜਜ\u{a3c}ਬਾਤ", "ਦਿਲ", "ਪਿਆਰ", "ਮਨਪਸ\u{a70}ਦ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Pínk Kọ\u{301}lọ Hat"),
-			keywords: &["Fain", "Hat", "Laik", "Lọv", "Pínk Kọ\u{301}lọ", "Pínk Kọ\u{301}lọ Hat"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("różowe serce"),
-			keywords: &[
-				"143",
-				"emocje",
-				"kocham cię",
-				"lubić",
-				"miłość",
-				"różowe",
-				"serce",
-				"sympatia",
-				"słodkie",
-				"urocze",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ګلابي زړه"),
-			keywords: &["زړه", "لکه", "مینه", "ښکلی", "ګلابي"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("coração rosa"),
-			keywords: &[
-				"adorar",
-				"adorei",
-				"adorável",
-				"amo você",
-				"amor",
-				"amável",
-				"coração",
-				"curtir",
-				"emoção",
-				"especial",
-				"eu te amo",
-				"fofo",
-				"gostar",
-				"gostei",
-				"rosa",
-				"te amo",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"adorável",
-				"amor",
-				"cor-de-rosa",
-				"coração",
-				"fofo",
-				"gostar",
-				"querido",
-				"rosa",
-				"ternura",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("rusadu sunqu"),
-			keywords: &["kuyay", "munay", "rusadu", "sumaq", "sunqu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("inimă roz"),
-			keywords: &["adorabil", "dragoste", "drăguț", "inimă", "iubi", "plăcea", "roz"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-004"), keywords: &["E15-004"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("розовое сердце"),
-			keywords: &["люблю", "любовь", "мило", "нравится", "розовое", "сердце"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("گلابي دل"),
-			keywords: &["دل", "سھڻو", "پسند", "پيار", "گلابي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("රෝස හදවත"),
-			keywords: &["ආදරය", "රෝස", "වැන\u{dd2}", "හදවත", "හ\u{dd4}ර\u{dd4}බ\u{dd4}හ\u{dd4}ට\u{dd2}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("ružové srdce"),
-			keywords: &["láska", "páči", "roztomilé", "ružové", "srdce"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("rožnato srce"),
-			keywords: &["RTM", "ljubezen", "prisrčno", "rožnato", "srce", "všeč", "všeč si mi", "čustva"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("wadnaha casaan ah"),
-			keywords: &["casaan", "jacayl", "qurxoon", "sida", "wadnaha casaan ah", "wadne"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zemër ngjyrë rozë"),
-			keywords: &[
-				"143",
-				"dashuri",
-				"e adhurueshme",
-				"e lezetshme",
-				"e veçantë",
-				"e ëmbël",
-				"të dua",
-				"zemër",
-				"zemër ngjyrë rozë",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("розе срце"),
-			keywords: &["емоција", "посебно", "розе", "свиђа", "слатко", "срце", "љубав", "љупко"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("roze srce"),
-			keywords: &["emocija", "ljubav", "ljupko", "posebno", "roze", "slatko", "srce", "sviđa"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("rosa hjärta"),
-			keywords: &["bedårande", "gullig", "hjärta", "kärlek", "rosa", "sött", "älskar"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("moyo wa waridi"),
-			keywords: &[
-				"143",
-				"husudu",
-				"maalum",
-				"mlimbwende",
-				"moyo",
-				"moyo wa waridi",
-				"mzuri",
-				"nakupenda",
-				"penda",
-				"rembo",
-				"tabasamu na hisia",
-				"upendo",
-				"waridi",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("இளஞ\u{bcd}சிவப\u{bcd}பு இதயம\u{bcd}"),
-			keywords: &[
-				"அழகு",
-				"இதயம\u{bcd}",
-				"இளஞ\u{bcd}சிவப\u{bcd}பு",
-				"க\u{bbe}தல\u{bcd}",
-				"லவ\u{bcd}லி",
-				"விருப\u{bcd}பம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("గుల\u{c3e}బ\u{c40} రంగు హృదయం"),
-			keywords: &[
-				"ఇష\u{c4d}టం",
-				"గుల\u{c3e}బ\u{c40} రంగు",
-				"గుల\u{c3e}బ\u{c40} రంగు హృదయం",
-				"ప\u{c4d}ర\u{c47}మ",
-				"భ\u{c3e}వ\u{c4b}ద\u{c4d}వ\u{c47}గం",
-				"ముద\u{c4d}దుగ\u{c3e} ఉన\u{c4d}న",
-				"ల\u{c48}క\u{c4d}",
-				"స\u{c4d}ప\u{c46}షల\u{c4d}",
-				"స\u{c4d}వ\u{c40}ట\u{c4d}",
-				"హ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"హృదయం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e31}วใจส\u{e35}ชมพ\u{e39}"),
-			keywords: &[
-				"ชอบ",
-				"ซ\u{e36}\u{e49}ง",
-				"น\u{e48}าร\u{e31}ก",
-				"พ\u{e34}เศษ",
-				"สว\u{e35}ท",
-				"ส\u{e35}ชมพ\u{e39}",
-				"หลงร\u{e31}ก",
-				"ห\u{e31}วใจ",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሮዝ ልቢ"),
-			keywords: &["ልቢ", "ምፍታው", "ሮዝ", "ጽቡቕ", "ፍቕሪ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gülgüne ýürek"),
-			keywords: &["gülgüne ýürek"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mafu lanupingikī"),
-			keywords: &["kulokula", "lanupingikī", "maama", "mafu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("pembe kalp"),
-			keywords: &[
-				"aşk",
-				"beğen",
-				"duygu",
-				"kalp",
-				"pembe",
-				"seni seviyorum",
-				"sevgi",
-				"sevimli",
-				"özel kişi",
-				"şirin",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("рожеве серце"),
-			keywords: &[
-				"добрий",
-				"емоція",
-				"люблю",
-				"любов",
-				"милий",
-				"особливий",
-				"подобається",
-				"рожеве серце",
-				"рожевий",
-				"серце",
-				"солодкий",
-				"чарівний",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("گلابی دل"),
-			keywords: &["جذبات", "خاص", "دل", "محبت", "پسند", "پسندیدگی", "پیارا", "گلابی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("pushti yurak"),
-			keywords: &["hissiyot", "pushti", "sevgi", "sevimli", "yoqimtoy", "yoqtirish", "yurak"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trái tim màu hồng"),
-			keywords: &["dễ thương", "hồng", "thích", "trái tim", "trái tim màu hồng", "yêu"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("Xol bu rose"),
-			keywords: &["Xol bu rose", "bëgg", "nob", "rafet", "rose", "xol"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ọkàn pinki"),
-			keywords: &["dára", "fẹ\u{301}ràn", "pínkì", "ìfẹ\u{301}", "ọkàn", "ọkàn pinki"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ɔkàn pinki"),
-			keywords: &["dára", "fɛ\u{301}ràn", "pínkì", "ìfɛ\u{301}", "ɔkàn", "ɔkàn pinki"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("粉紅色心"),
-			keywords: &["可愛", "心形", "愛情", "粉紅", "粉紅色心", "鍾意"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("粉红色心"),
-			keywords: &["可爱", "心形", "爱情", "粉红", "粉红色心", "钟意"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("粉红色的心"),
-			keywords: &[
-				"可爱",
-				"喜欢",
-				"心",
-				"感情",
-				"我爱你",
-				"爱",
-				"特殊",
-				"甜蜜",
-				"粉红",
-				"粉红色的心",
-				"讨人喜欢",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("粉紅心"),
-			keywords: &[
-				"可愛",
-				"喜歡",
-				"心型",
-				"愛",
-				"粉紅",
-				"粉紅心",
-				"粉紅，愛，可愛，甜蜜，可愛的，特殊，心情，心，喜歡",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"可愛",
-				"喜歡",
-				"得意",
-				"情緒",
-				"愛",
-				"愛你",
-				"愛心",
-				"愛情",
-				"我愛你",
-				"特別",
-				"甜美",
-				"粉紅心",
-				"粉紅色",
-				"鍾意",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inhliziyo e-pink"),
-			keywords: &["Qhazisayo", "inhliziyo", "inhliziyo e-pink", "njenge", "pink", "thando"],
-		},
-	],
-};
-#[doc = "🩵"]
-pub const LIGHT_BLUE_HEART: crate::Emoji = crate::Emoji {
-	glyph:                "🩵",
-	codepoint:            &[129653u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "light blue heart",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Heart,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("ligblou hart"),
-			keywords: &["groenblou", "hart", "liefde", "ligblou", "oulik", "siaan", "spesiaal"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ፈዛዛ ሰማያዊ ልብ"),
-			keywords: &[
-				"143",
-				"ልብ",
-				"ልዩ",
-				"መውደድ",
-				"ሰማያዊ",
-				"ሳያን",
-				"ስሜት",
-				"ሻይ",
-				"ቆንጆ",
-				"እወድሃለሁ",
-				"እወድሻለሁ",
-				"ደማቅ ውሃ ሰማያዊ",
-				"ደስ የሚል",
-				"ፈዛዛ ሰማያዊ",
-				"ፈዛዛ ሰማያዊ ልብ",
-				"ፈዛዛ አረንጓዴ-ሰማያዊ",
-				"ፍቅር",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قلب أزرق فاتح"),
-			keywords: &[
-				"أزرق سماوي",
-				"أزرق فاتح",
-				"أزرق مخضر",
-				"إعجاب",
-				"استثنائي",
-				"حب",
-				"رقيق",
-				"سماوي",
-				"شرشيري",
-				"عاطفة",
-				"عشق",
-				"قلب",
-				"قلب أزرق فاتح",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9be}তল নীল\u{9be} হ\u{9c3}দয\u{9bc}"),
-			keywords: &[
-				"টীল",
-				"প\u{9be}তল নীল\u{9be}",
-				"প\u{9be}তল নীল\u{9be} হ\u{9c3}দয\u{9bc}",
-				"সেউজ নীল\u{9be}",
-				"হ\u{9c3}দয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("açıq mavi ürək"),
-			keywords: &[
-				"açıq mavi",
-				"açıq mavi ürək",
-				"emosiya",
-				"mavi",
-				"sevgi",
-				"səma mavisi",
-				"xoşlamaq",
-				"ördəkbaşı",
-				"ürək",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("блакітнае сэрца"),
-			keywords: &["блакітнае сэрца", "блакітны", "бірузовы", "нябесны", "сэрца"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("светлосиньо сърце"),
-			keywords: &[
-				"емоция",
-				"небесносиньо",
-				"обичам те",
-				"светлосиньо",
-				"синьо-зелено",
-				"специален",
-				"сърце",
-				"циан",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("হ\u{9be}লক\u{9be} নীল হ\u{9be}র\u{9cd}ট"),
-			keywords: &[
-				"আবেগ",
-				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
-				"নীলচে সব\u{9c1}জ",
-				"ভ\u{9be}লোব\u{9be}স\u{9be}",
-				"মিষ\u{9cd}টি",
-				"সবজে নীল",
-				"হ\u{9be}র\u{9cd}ট",
-				"হ\u{9be}লক\u{9be} নীল",
-				"হ\u{9be}লক\u{9be} নীল হ\u{9be}র\u{9cd}ট",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("svijetloplavo srce"),
-			keywords: &["cijan", "plavozelena", "srce", "svijetloplava", "svijetloplavo srce"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("cor blau cel"),
-			keywords: &["amor", "blau cel", "bonic", "cian", "cor", "cor blau cel", "turquesa"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
-			keywords: &["ᎤᎾᏫ", "ᎤᏍᎪᎸ", "ᎦᎸᎳᏗ", "ᏌᎪᏂᎨ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("světlemodré srdce"),
-			keywords: &[
-				"azurová",
-				"láska",
-				"líbí",
-				"modrozelená",
-				"petrolejová",
-				"srdce",
-				"srdíčko",
-				"světle modrá",
-				"světlemodrá",
-				"světlemodré srdce",
-				"světlemodré srdíčko",
-				"šedozelená",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("calon las golau"),
-			keywords: &[
-				"143",
-				"arbennig",
-				"calon",
-				"calon las golau",
-				"caru",
-				"ciwt",
-				"emosiwn",
-				"glas golau",
-				"gwyrddlas",
-				"hoffi",
-			],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("lyseblåt hjerte"),
-			keywords: &[
-				"cyan",
-				"elsker",
-				"følelse",
-				"grønblå",
-				"himmelblå",
-				"hjerte",
-				"lyseblå",
-				"lyseblåt hjerte",
-				"nuttet",
-				"særligt",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("hellblaues Herz"),
-			keywords: &[
-				"Emotion",
-				"Gefühl",
-				"Herz",
-				"Liebe",
-				"aquamarin",
-				"gefallen",
-				"gefällt",
-				"hdl",
-				"hellblau",
-				"mag",
-				"mögen",
-				"niedlich",
-				"süß",
-				"türkis",
-				"zyan",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("γαλάζια καρδιά"),
-			keywords: &["γαλάζια", "γαλαζοπράσινο", "καρδιά", "μπλε", "μπλε παστέλ"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("light blue heart"),
-			keywords: &[
-				"143", "blue", "cute", "cyan", "emotion", "heart", "ily", "light", "like", "love", "sky",
-				"special", "teal",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("corazón azul claro"),
-			keywords: &["azul", "celeste", "cián", "claro", "corazón"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("corazón celeste"),
-			keywords: &[
-				"amor", "azulado", "celeste", "cian", "cielo", "corazón", "emoción", "especial", "ternura",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("corazón azul claro"),
-			keywords: &["corazón azul claro"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("helesinine süda"),
-			keywords: &[
-				"armas",
-				"armastan",
-				"armastus",
-				"emotsioon",
-				"eriline",
-				"helesinine",
-				"meeldib",
-				"rohekassinine",
-				"sinakasroheline",
-				"süda",
-				"taevasinine",
-				"tsüaan",
-			],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bihotz urdin argia"),
-			keywords: &["143", "anila", "bihotz urdin argia", "bihotza", "urdin argia", "ziana"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قلب آبی کم\u{200c}رنگ"),
-			keywords: &[
-				"آبی",
-				"آبی آسمانی",
-				"آبی روشن",
-				"احساسات",
-				"خاص",
-				"دوستت دارم",
-				"سبزآبی",
-				"عشق",
-				"علاقه",
-				"فیروزه\u{200c}ای",
-				"قلب",
-				"ناز",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("vaaleansininen sydän"),
-			keywords: &["rakkaus", "sinivihreä", "syaani", "sydän", "tunne", "vaaleansininen"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("light blue na puso"),
-			keywords: &["cyan", "light blue", "light blue na puso", "puso", "teal"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("ljósablátt hjarta"),
-			keywords: &["hjarta", "ljósablátt"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("cœur bleu clair"),
-			keywords: &[
-				"143",
-				"aimer",
-				"amour",
-				"bleu ciel",
-				"bleu clair",
-				"bleu sarcelle",
-				"cyan",
-				"cœur",
-				"cœur bleu clair",
-				"jtm",
-				"mignon",
-				"spécial",
-				"émotion",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("croí bánghorm"),
-			keywords: &["bánghorm", "cian", "croí", "téal"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cridhe solleir-ghorm"),
-			keywords: &["crann-lach", "cridhe", "cridhe solleir-ghorm", "saidhean", "soilleir-ghorm"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("corazón azul claro"),
-			keywords: &[
-				"adorable", "amor", "azul", "ceo", "ciano", "claro", "emoción", "especial", "quérote",
-			],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("આછો વાદળી ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
-			keywords: &[
-				"143",
-				"આકાશી વાદળી",
-				"આછો વાદળી",
-				"આછો વાદળી ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
-				"ખાસ",
-				"ટીલ",
-				"દિલ",
-				"પ\u{acd}યાર",
-				"પ\u{acd}ર\u{ac7}મ",
-				"ભાવના",
-				"લવ",
-				"સ\u{acd}યાન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("zuciya shuɗiya mai haske"),
-			keywords: &[
-				"abin so",
-				"nawa",
-				"shayi",
-				"shuɗi mai haske",
-				"shuɗi-shuɗi",
-				"shuɗin gajimare",
-				"so",
-				"zuciya",
-				"zuciya shuɗiya mai haske",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("zuciya shuɗiya mai haske"),
-			keywords: &[
-				"abin so",
-				"nawa",
-				"shayi",
-				"shuɗi mai haske",
-				"shuɗi-shuɗi",
-				"shuɗin gajimare",
-				"so",
-				"zuciya",
-				"zuciya shuɗiya mai haske",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("לב תכלת"),
-			keywords: &["אהבה", "חמוד", "ירוק-כחול", "כחול בהיר", "לב", "לב תכלת", "ציאן", "רגש"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("हल\u{94d}का नीला दिल"),
-			keywords: &[
-				"143",
-				"टील",
-				"दिल",
-				"नीला दिल",
-				"साइऐन",
-				"हल\u{94d}का नीला",
-				"हल\u{94d}का नीला दिल",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("svjetloplavo srce"),
-			keywords: &[
-				"emocija",
-				"nebesko plavo",
-				"plavo",
-				"posebno",
-				"slatko",
-				"srce",
-				"svjetloplavo",
-				"tirkizno",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("világoskék szív"),
-			keywords: &["cián", "pávakék", "szív", "világoskék"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("բաց կապույտ սիրտ"),
-			keywords: &["բաց կապույտ սիրտ", "երկնագույն", "կապույտ", "սիրտ", "սրտիկ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("hati biru muda"),
-			keywords: &[
-				"biru kehijauan",
-				"biru langit",
-				"biru muda",
-				"hati",
-				"hati biru langit",
-				"hati biru muda",
-				"imut",
-				"lucu",
-				"sian",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("obi na-acha blụ"),
-			keywords: &[
-				"143",
-				"acha anụnụ anụnụ",
-				"agba tii",
-				"cyan",
-				"elu igwe",
-				"ily",
-				"mara mma",
-				"mmasị",
-				"mmetụta",
-				"obi",
-				"pụrụ iche",
-				"ìhè",
-				"ịhụnanya",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("ljósblátt hjarta"),
-			keywords: &["blágrænn", "hjarta", "ljósblár", "ljósblátt hjarta", "sægrænn"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("cuore azzurro"),
-			keywords: &["affetto", "amore", "azzurro", "celeste", "cuore", "emozione"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("薄い青のハート"),
-			keywords: &[
-				"かわいい",
-				"シアン",
-				"ティールブルー",
-				"ハート",
-				"ラブ",
-				"好き",
-				"愛",
-				"水色",
-				"空色",
-				"薄い青",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ati biru enom"),
-			keywords: &["ati", "ati biru enom", "biru enom", "biru kaijoan", "biru semburat ijo"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ღია ცისფერი გული"),
-			keywords: &["ლაჟვარდისფერი", "ღია ცისფერი გული", "ციანი", "ცისფერი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("ul amidadi"), keywords: &["ul amidadi"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ақшыл көк жүрек"),
-			keywords: &[
-				"143",
-				"аспан көк",
-				"аспан көк жүрек",
-				"ақшыл көк",
-				"ақшыл көк жүрек",
-				"жүрек",
-				"көк-жасыл",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ខៀវស\u{17d2}រាល"),
-			keywords: &[
-				"កាប\u{17cb}ស\u{17d2}ដា\u{17c6}ង",
-				"ខៀវស\u{17d2}រាល",
-				"បេះដ\u{17bc}ង",
-				"បេះដ\u{17bc}ងពណ\u{17cc}ខៀវស\u{17d2}រាល",
-				"ស\u{17ca}\u{17b8}លាប",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf} ಹೃದಯ"),
-			keywords: &[
-				"ಟ\u{cc0}ಲ\u{ccd}",
-				"ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf}",
-				"ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf} ಹೃದಯ",
-				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
-				"ಭಾವನ\u{cc6}",
-				"ಮುದ\u{ccd}ದಾದ",
-				"ವ\u{cbf}ಶ\u{cc7}ಷ",
-				"ಸಯಾನ\u{ccd}",
-				"ಹೃದಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("밝은 파란색 하트"),
-			keywords: &["밝은 파란색", "밝은 파란색 하트", "청록색", "푸른", "하늘색 하트", "하트"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("फिकट निळ\u{947}\u{902} काळीज"),
-			keywords: &[
-				"ily",
-				"उजवाड",
-				"काळीज",
-				"खाश\u{947}ल\u{947}\u{902}",
-				"गो\u{902}डस",
-				"निळ\u{947}\u{902}",
-				"पाचवो-निळसर",
-				"भावना",
-				"मळब",
-				"मोग",
-				"सारक\u{947}\u{902}",
-				"हलको निळसर",
-				"१४३",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("көгүш түстүү жүрөк"),
-			keywords: &[
-				"143",
-				"асман",
-				"ачык көк",
-				"жагымдуу",
-				"жүрөк",
-				"көгүлтүр",
-				"көгүш",
-				"көгүш түстүү жүрөк",
-				"эмоция",
-				"өзгөчө",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ"),
-			keywords: &[
-				"143",
-				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
-				"ຄວາມຮ\u{eb1}ກ",
-				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
-				"ພ\u{eb4}ເສດ",
-				"ສ\u{eb5}ຄາມ",
-				"ສ\u{eb5}ທະເລ",
-				"ສ\u{eb5}ຟ\u{ec9}າ",
-				"ສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ",
-				"ຫ\u{ebb}ວໃຈ",
-				"ຫ\u{ebb}ວໃຈສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ",
-				"ຮ\u{eb1}ກ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("šviesiai mėlyna širdelė"),
-			keywords: &[
-				"aš tave myliu",
-				"emocija",
-				"meilė",
-				"miela",
-				"patinka",
-				"širdis",
-				"šviesiai mėlyna",
-				"šviesiai mėlyna širdelė",
-				"žalsvai mėlyna",
-				"žydra",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("gaiši zila sirds"),
-			keywords: &["ciānzils", "gaiši zila sirds", "gaiši zils", "sirds", "zilganzaļš"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("светлосино срце"),
-			keywords: &["светлосино", "синозелено", "срце", "тиркизно", "чувство", "љубов"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഇളം നീല നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
-			keywords: &[
-				"ഇളം നീല",
-				"ഇളം നീല നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-				"ഇളം നീല ഹ\u{d43}ദയം",
-				"ടീൽ",
-				"പ\u{d4d}രണയം",
-				"സിയ\u{d3e}ൻ",
-				"ഹ\u{d43}ദയം",
-				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("цайвар цэнхэр зүрх"),
-			keywords: &["зүрх", "номин ногоон", "цайвар хөх", "цайвар цэнхэр", "цайвар цэнхэр зүрх"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("आकाशी ह\u{943}दय"),
-			keywords: &["आकाशी", "निळसर", "निळसर-हिरवा", "ह\u{943}दय"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("hati biru muda"),
-			keywords: &["biru muda", "hati", "hati biru muda", "sian", "teal"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အပြာန\u{102f}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
-			keywords: &[
-				"စ\u{102d}မ\u{103a}းပြာ",
-				"စ\u{102d}မ\u{103a}းပြာရောင\u{103a}",
-				"န\u{103e}လ\u{102f}\u{1036}း",
-				"အချစ\u{103a}",
-				"အပြာန\u{102f}",
-				"အပြာန\u{102f}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("हल\u{94d}का नीलो र\u{902}गको दिल"),
-			keywords: &[
-				"टिल",
-				"म\u{941}ट\u{941}",
-				"स\u{94d}यान",
-				"हल\u{94d}का नीलो",
-				"हल\u{94d}का नीलो र\u{902}गको दिल",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("lichtblauw hart"),
-			keywords: &["blauwgroen", "groenblauw", "hart", "lichtblauw"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("lyseblått hjarte"),
-			keywords: &["blågrønt", "cyan", "hjarte", "ljosblått", "lysblått", "lyseblått"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ ହ\u{b43}ଦୟ"),
-			keywords: &[
-				"ଟ\u{b3f}ଲ\u{b4d}",
-				"ସ\u{b3e}ଇନ\u{b4d}",
-				"ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ",
-				"ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ ହ\u{b43}ଦୟ",
-				"ହ\u{b43}ଦୟ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਹਲਕਾ ਨੀਲਾ ਦਿਲ"),
-			keywords: &[
-				"ਖਾਸ",
-				"ਜਜ\u{a3c}ਬਾਤ",
-				"ਦਿਲ",
-				"ਨੀਲਾ ਹਰਾ",
-				"ਪਿਆਰ",
-				"ਮਨ",
-				"ਹਲਕਾ ਨੀਲਾ",
-				"ਹਲਕਾ ਨੀਲਾ ਦਿਲ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Hat Wé Dé Laít Blu"),
-			keywords: &[
-				"Blú Kọ\u{301}lọ Wé Míks Wit Grín Kọ\u{301}lọ",
-				"Grín Kọ\u{301}lọ Wé Míks Wit Blú Kọ\u{301}lọ",
-				"Hat",
-				"Hat Wé Dé Laít Blu",
-				"Laít Blu",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("jasnoniebieskie serce"),
-			keywords: &[
-				"143",
-				"błękitne",
-				"jasnoniebieskie",
-				"kocham cię",
-				"lubić",
-				"miłość",
-				"serce",
-				"sympatia",
-				"turkusowe",
-				"urocze",
-				"zielononiebieskie",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("روښانه ودي زړه"),
-			keywords: &[
-				"143",
-				"آسمان",
-				"احساسات",
-				"تېل",
-				"رڼا",
-				"زړه",
-				"سیان",
-				"لکه",
-				"مینه",
-				"نیلي",
-				"ځانګړې",
-				"ښکلی",
-			],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("coração azul-claro"),
-			keywords: &[
-				"adorar",
-				"adorei",
-				"amo você",
-				"amor",
-				"azul",
-				"azul claro",
-				"azul-claro",
-				"ciano",
-				"cor do céu",
-				"coração",
-				"emoção",
-				"especial",
-				"eu te amo",
-				"fofo",
-				"gostar",
-				"gostei",
-				"te amo",
-				"verde-azulado",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"afeição",
-				"amor",
-				"azul-claro",
-				"carinho",
-				"celeste",
-				"cor do céu",
-				"coração",
-				"ternura",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("chuya anqas sunqu"),
-			keywords: &["chuya anqas", "chuya anqas sunqu", "cian", "sunqu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("inimă albastru-deschis"),
-			keywords: &["albastru-deschis", "albastru-verzui", "bleu", "cyan", "inimă"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-002"), keywords: &["E15-002"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("голубое сердце"),
-			keywords: &[
-				"бирюзовое",
-				"голубое",
-				"люблю",
-				"любовь",
-				"милый",
-				"нравится",
-				"сердечко",
-				"сердце",
-				"чувства",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ھلڪي نيري دل"),
-			keywords: &[
-				"تيز سائو نيرو",
-				"دل",
-				"هلڪو نيرو",
-				"هلڪو نيرو دل",
-				"ھلڪو سائو بلو",
-				"ھلڪي نيري دل",
-			],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ල\u{dcf} න\u{dd2}ල\u{dca} හදවත"),
-			keywords: &[
-				"ල\u{dcf} න\u{dd2}ල\u{dca}",
-				"ල\u{dcf} න\u{dd2}ල\u{dca} හදවත",
-				"සයන\u{dca}",
-				"හදවත",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("svetlomodré srdce"),
-			keywords: &["azúrové", "roztomilé", "sivozelené", "srdce", "svetlomodré"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("svetlomodro srce"),
-			keywords: &[
-				"RTM",
-				"cijan",
-				"ljubezen",
-				"nebo",
-				"prisrčno",
-				"srce",
-				"svetlomodra",
-				"svetlomodro srce",
-				"všeč si mi",
-				"zelenomodra",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qalbi buluug khafiif ah"),
-			keywords: &["buluug khafiif ah", "qalbi buluug khafiif ah", "wadne"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zemër ngjyrë blu e çelët"),
-			keywords: &[
-				"143",
-				"bajukë",
-				"blu e çelët",
-				"dashuri",
-				"e kaltër",
-				"e lezetshme",
-				"emocion",
-				"të dua",
-				"zemër",
-				"zemër ngjyrë blu e çelët",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("светлоплаво срце"),
-			keywords: &[
-				"емоција",
-				"небо",
-				"плаво",
-				"светло",
-				"светлоплаво",
-				"свиђа",
-				"слатко",
-				"срце",
-				"цијан",
-				"љубав",
-			],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("свијетлоплаво срце"),
-			keywords: &["плава", "свијетлоплаво", "срце", "тиркиз"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("svetloplavo srce"),
-			keywords: &[
-				"cijan",
-				"emocija",
-				"ljubav",
-				"nebo",
-				"plavo",
-				"slatko",
-				"srce",
-				"svetlo",
-				"svetloplavo",
-				"sviđa",
-			],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("svijetloplavo srce"),
-			keywords: &["plava", "srce", "svijetloplavo", "tirkiz"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("ljusblått hjärta"),
-			keywords: &["cyan", "himmelsblå", "hjärta", "känsla", "kärlek", "ljusblå"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("moyo wa buluu hafifu"),
-			keywords: &[
-				"143",
-				"bluu bahari",
-				"bluu kijani",
-				"buluu",
-				"hafifu",
-				"hisia",
-				"maalum",
-				"mawingu ya bluu",
-				"moyo",
-				"moyo wa buluu hafifu",
-				"nakupenda",
-				"penda",
-				"rembo",
-				"upendo",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வெளிர\u{bcd} ந\u{bc0}ல இதயம\u{bcd}"),
-			keywords: &[
-				"அழகு",
-				"இதயம\u{bcd}",
-				"சிய\u{bbe}ன\u{bcd}",
-				"ட\u{bc0}ல\u{bcd}",
-				"லவ\u{bcd}லி",
-				"வெளிர\u{bcd} ந\u{bc0}ல இதயம\u{bcd}",
-				"வெளிர\u{bcd} ந\u{bc0}லம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ల\u{c47}త న\u{c40}లం రంగు హృదయం"),
-			keywords: &[
-				"ఐ లవ\u{c4d}యూ",
-				"న\u{c40}లం ఆకుపచ\u{c4d}చ కల\u{c3f}స\u{c3f}న రంగు",
-				"ప\u{c4d}ర\u{c47}మ",
-				"భ\u{c3e}వ\u{c4b}ద\u{c4d}వ\u{c47}గం",
-				"ల\u{c47}త న\u{c40}లం",
-				"ల\u{c47}త న\u{c40}లం రంగు హృదయం",
-				"ల\u{c48}క\u{c4d}",
-				"ల\u{c48}ట\u{c4d} బ\u{c4d}లూ",
-				"స\u{c4d}ప\u{c46}షల\u{c4d}",
-				"హృదయం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e31}วใจส\u{e35}ฟ\u{e49}า"),
-			keywords: &[
-				"ชอบ",
-				"ซ\u{e36}\u{e49}ง",
-				"น\u{e48}าร\u{e31}ก",
-				"ฟ\u{e49}าอ\u{e48}อน",
-				"ส\u{e35}น\u{e49}ำเง\u{e34}น",
-				"ห\u{e31}วใจ",
-				"เข\u{e35}ยว",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ደብዛዝ ሰማያዊ ልቢ"),
-			keywords: &["ልቢ", "ሓምለዋይ ሰማያዊ", "ሓምላይ ሰማያዊ", "ደብዛዝ ሰማያዊ", "ደብዛዝ ሰማያዊ ልቢ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("açyk gök ýürek"),
-			keywords: &["açyk gök ýürek"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mafu lanupulū maama"),
-			keywords: &["lanupulū", "maama", "mafu"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("açık mavi kalp"),
-			keywords: &[
-				"açık mavi",
-				"açık mavi kalp",
-				"aşk",
-				"camgöbeği",
-				"deniz mavisi",
-				"duygu",
-				"gökyüzü mavisi",
-				"kalp",
-				"sevgi",
-				"özel kişi",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("блакитне серце"),
-			keywords: &[
-				"блакитне серце",
-				"блакитний",
-				"емоція",
-				"люблю",
-				"любов",
-				"милий",
-				"особливий",
-				"подобатися",
-				"світло-синій",
-				"серце",
-				"синій",
-				"ціановий",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ہلکا نیلا دل"),
-			keywords: &[
-				"آسمانی نیلا",
-				"جذبات",
-				"خاص",
-				"دل",
-				"سیان",
-				"محبت",
-				"نیلگوں",
-				"ہلکا نیلا",
-				"ہلکا نیلا دل",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("och koʻk yurak"),
-			keywords: &[
-				"hissiyot",
-				"koʻk",
-				"moviy",
-				"och koʻk",
-				"och koʻk yurak",
-				"sevimli",
-				"yoqimtoy",
-				"yurak",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trái tim màu xanh dương nhạt"),
-			keywords: &[
-				"143",
-				"cảm xúc",
-				"dễ thương",
-				"thích",
-				"trái tim",
-				"trái tim màu xanh dương nhạt",
-				"xanh dương nhạt",
-				"xanh lơ",
-				"xanh mòng két",
-				"yêu",
-				"đặc biệt",
-			],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("xol bu bleu clair"),
-			keywords: &["bleu clair", "cyan", "sarcelle", "xol", "xol bleu clair", "xol bu bleu clair"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("okàn buluu díè"),
-			keywords: &["búlùú díẹ\u{300}", "okàn buluu díè", "síyánì", "tílì", "ọkàn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("okàn buluu díè"),
-			keywords: &["búlùú díɛ\u{300}", "okàn buluu díè", "síyánì", "tílì", "ɔkàn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("淺藍色心"),
-			keywords: &["心形", "淺藍", "淺藍色心", "青", "青色"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("浅蓝色心"),
-			keywords: &["心形", "浅蓝", "浅蓝色心", "青", "青色"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("浅蓝色的心"),
-			keywords: &[
-				"可爱",
-				"喜欢",
-				"天蓝",
-				"心",
-				"感情",
-				"我爱你",
-				"浅蓝",
-				"浅蓝色的心",
-				"爱",
-				"特殊",
-				"蓝绿",
-				"蓝绿色",
-				"青色",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("淺藍心"),
-			keywords: &[
-				"心型",
-				"淺藍",
-				"淺藍心",
-				"淺藍，天蘭，喜歡，心情，心，可愛，愛，特殊，藍綠",
-				"藍綠",
-				"青綠",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"可愛",
-				"喜歡",
-				"天藍色",
-				"情緒",
-				"愛心",
-				"愛情",
-				"我愛你",
-				"深藍綠色",
-				"淺藍色",
-				"特別",
-				"藍心",
-				"藍綠色",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("light blue heart"),
-			keywords: &[
-				"cyan",
-				"inhiziyo eluhlaza okukhanyayo",
-				"inhliziyo",
-				"light blue heart",
-				"luhlaza olukhanyako",
-				"teal",
-			],
-		},
-	],
-};
-#[doc = "🩶"]
-pub const GREY_HEART: crate::Emoji = crate::Emoji {
-	glyph:                "🩶",
-	codepoint:            &[129654u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "grey heart",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Heart,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("grys hart"),
-			keywords: &["143", "emosie", "grys", "hart", "leikleurig", "liefde", "silwer", "spesiaal"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ግራጫ ልብ"),
-			keywords: &["143", "ልብ", "ልዩ", "ሰሌዳ", "ስሜት", "ሽበት", "ብር", "እወድሃለሁ", "እወድሻለሁ", "ግራጫ", "ፍቅር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قلب رمادي"),
-			keywords: &["أحبك", "حب", "رمادي", "صخري", "عاطفة", "فضي", "قلب", "مشاعر خاصة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ধ\u{9c2}সৰ নীল\u{9be}"),
-			keywords: &[
-				"ধ\u{9c2}সৰ",
-				"ধ\u{9c2}সৰ নীল\u{9be}",
-				"শ\u{9cd}লেট",
-				"হ\u{9c3}দয\u{9bc}",
-				"ৰ\u{9c2}প\u{9be}লী",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("boz ürək"),
-			keywords: &["boz", "gümüş", "sevgi", "xüsusi şəxs", "ürək", "şifer"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("шэрае сэрца"),
-			keywords: &["грыфельны", "срэбны", "сэрца", "шэрае сэрца", "шэры"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("сиво сърце"),
-			keywords: &[
-				"емоция",
-				"обичам те",
-				"сив",
-				"сиво сърце",
-				"сребристо",
-				"сребърно",
-				"сърце",
-				"тъмносиво",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ধ\u{9c2}সর হ\u{9be}র\u{9cd}ট"),
-			keywords: &[
-				"আবেগ",
-				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
-				"ধ\u{9c2}সর",
-				"র\u{9c1}পো",
-				"স\u{9cd}লেট",
-				"হ\u{9be}র\u{9cd}ট",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("sivo srce"),
-			keywords: &["kamen", "siva", "sivo srce", "srce", "srebrna"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("cor gris"),
-			keywords: &["amor", "bonic", "cor", "gris", "plata", "platejat"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎬᎿᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
-			keywords: &["ᎤᎾᏫ", "ᎤᏁᎦ ᎠᏕᎳ", "ᎤᏍᎪᎸ", "ᎬᎿᎨ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("šedé srdce"),
-			keywords: &[
-				"břidlice",
-				"břidlicová",
-				"láska",
-				"líbí",
-				"srdce",
-				"srdíčko",
-				"stříbrná",
-				"šedivá",
-				"šedá",
-				"šedé srdce",
-				"šedé srdíčko",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("calon lwyd"),
-			keywords: &["143", "arbennig", "arian", "calon", "calon lwyd", "emosiwn", "llechi", "llwyd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("gråt hjerte"),
-			keywords: &["elsker", "følelse", "gråt", "hjerte", "skifer", "særligt", "sølv"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("graues Herz"),
-			keywords: &[
-				"Emotion",
-				"Herz",
-				"Liebe",
-				"grau",
-				"graues Herz",
-				"hdl",
-				"schieferfarben",
-				"silber",
-				"silberfarben",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("γκρι καρδιά"),
-			keywords: &["ασημί", "γκρι", "καρδιά", "σχιστόλιθος"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("grey heart"),
-			keywords: &[
-				"143", "emotion", "gray", "grey", "heart", "ily", "love", "silver", "slate", "special",
-			],
-		},
-		#[cfg(feature = "en_001")]
-		crate::Annotation {
-			lang:     "en_001",
-			tts:      None,
-			keywords: &["grey", "heart", "silver", "slate"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("corazón gris"),
-			keywords: &["corazón", "gris", "pizarra", "plata"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["amor", "corazón", "emoción", "especial", "gris", "metalizado", "plateado"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("hall süda"),
-			keywords: &[
-				"armastan",
-				"armastus",
-				"emotsioon",
-				"eriline",
-				"hall",
-				"hõbedane",
-				"meeldib",
-				"paehall",
-				"süda",
-			],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bihotz grisa"),
-			keywords: &[
-				"143",
-				"arbela",
-				"bihotz grisa",
-				"bihotza",
-				"emozioa",
-				"grisa",
-				"zilarra",
-				"zirrara",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قلب خاکستری"),
-			keywords: &[
-				"احساس",
-				"خاص",
-				"خاکستری",
-				"دوستت دارم",
-				"رنگ خاکستری لوح",
-				"عشق",
-				"قلب",
-				"نقره\u{200c}ای",
-				"ویژه",
-				"۱۴۳",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("harmaa sydän"),
-			keywords: &["harmaa", "hopea", "rakkaus", "siniharmaa", "sydän", "tunne"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("grey na puso"),
-			keywords: &["gray", "grey na puso", "puso", "silver"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("grátt hjarta"),
-			keywords: &["grátt", "hjarta"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("cœur gris"),
-			keywords: &[
-				"143", "amour", "ardoise", "argent", "argenté", "cœur", "gris", "jtm", "spécial", "émotion",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["ardoise", "argenté", "cœur", "gris"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("croí liath"),
-			keywords: &["airgead", "croí", "liath", "slinn"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cridhe glas"),
-			keywords: &["airgead", "cridhe", "glas", "liath", "sgleat"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("corazón gris"),
-			keywords: &["amor", "emoción", "especial", "gris", "prateado", "quérote"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ભ\u{ac2}ખરા ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
-			keywords: &[
-				"143",
-				"ગ\u{acd}ર\u{ac7}",
-				"ચા\u{a82}દી",
-				"દિલ",
-				"પ\u{acd}યાર",
-				"પ\u{acd}ર\u{ac7}મ",
-				"ભ\u{ac2}ખરા",
-				"ભ\u{ac2}ખરા ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
-				"રાખોડી",
-				"ર\u{ac2}પ\u{ac1}\u{a82}",
-				"લવ",
-				"લાગણી",
-				"સ\u{acd}લ\u{ac7}ટ",
-				"હ\u{ac3}દય",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("zuciya ruwan toka"),
-			keywords: &[
-				"allo",
-				"azurfa",
-				"motsa zuciya",
-				"ruwan toka",
-				"so",
-				"zuciya",
-				"zuciya ruwan toka",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("zuciya ruwan toka"),
-			keywords: &[
-				"allo",
-				"azurfa",
-				"motsa zuciya",
-				"ruwan toka",
-				"so",
-				"zuciya",
-				"zuciya ruwan toka",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("לב אפור"),
-			keywords: &["אהבה", "אפור", "כסוף", "לב", "רגש"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{94d}ल\u{947}टी दिल"),
-			keywords: &[
-				"143",
-				"ग\u{94d}र\u{947}",
-				"दिल",
-				"प\u{94d}यार",
-				"रजत",
-				"स\u{94d}ल\u{947}ट",
-				"स\u{94d}ल\u{947}टी",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("sivo srce"),
-			keywords: &["emocija", "ljubav", "osjećaj", "posebno", "sivo", "srce", "srebrno"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("szürke szív"),
-			keywords: &["ezüst", "pala", "szív", "szürke"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("մոխրագույն սիրտ"),
-			keywords: &["արծաթագույն", "գորշ", "մոխրագույն", "սիրտ", "սրտիկ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("hati abu-abu"),
-			keywords: &["abu-abu", "hati", "hati terbuat dari batu", "perak"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("obi na-acha gré"),
-			keywords: &[
-				"143",
-				"ily",
-				"mmetụta",
-				"na-acha ntụ",
-				"obi",
-				"pụrụ iche",
-				"ìgbe ndesịta",
-				"ịhụnanya",
-				"ọlaọcha",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("grátt hjarta"),
-			keywords: &["blágrár", "grátt", "hjarta", "silfur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("cuore grigio"),
-			keywords: &["amore", "ardesia", "argento", "cuore", "emozione", "grigio"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("灰色のハート"),
-			keywords: &[
-				"グレー",
-				"スレートグレー",
-				"ハート",
-				"ラブ",
-				"好き",
-				"愛",
-				"灰色",
-				"灰色のハート",
-				"銀色",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("ati awu-awu"),
-			keywords: &["ati", "awu-awu", "awu-awu tuwa", "salaka"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("რუხი გული"),
-			keywords: &["გული", "ვერცხლისფერი", "ნაცრისფერი", "რუხი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("ul idbar"),
-			keywords: &["u idbar", "ul idbar"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("сұр жүрек"),
-			keywords: &["143", "жүрек", "күміс", "көкшіл сұр", "махаббат", "сұр", "эмоция"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ប\u{17d2}រផេះ"),
-			keywords: &[
-				"បេះដ\u{17bc}ង",
-				"បេះដ\u{17bc}ងពណ\u{17cc}ប\u{17d2}រផេះ",
-				"ប\u{17d2}រផេះ",
-				"ប\u{17d2}រាក\u{17cb}",
-				"ភក\u{17cb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cc2}ದು ಬಣ\u{ccd}ಣದ ಹೃದಯ"),
-			keywords: &[
-				"143",
-				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
-				"ಬ\u{cc2}ದು",
-				"ಬ\u{cc2}ದು ಬಣ\u{ccd}ಣದ ಹೃದಯ",
-				"ಬ\u{cc6}ಳ\u{ccd}ಳ\u{cbf}",
-				"ಸ\u{ccd}ಲ\u{cc7}ಟ\u{ccd}",
-				"ಹೃದಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("회색 하트"),
-			keywords: &["슬레이트색", "은색", "하트", "회색"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("राखी र\u{902}गाच\u{947}\u{902} काळीज"),
-			keywords: &[
-				"ily",
-				"काळीज",
-				"खास",
-				"गोबरो",
-				"पाटी",
-				"भावना",
-				"मोग",
-				"राखाडी",
-				"र\u{941}प\u{947}\u{902}",
-				"१४३",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("боз түстөгү жүрөк"),
-			keywords: &[
-				"143",
-				"боз",
-				"боз түстөгү жүрөк",
-				"жүрөк",
-				"күмүш",
-				"шифер түстүү",
-				"эмоция",
-				"өзгөчө",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ເທ\u{ebb}າ"),
-			keywords: &[
-				"143",
-				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
-				"ຄວາມຮ\u{eb1}ກ",
-				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
-				"ພ\u{eb4}ເສດ",
-				"ສ\u{eb5}ຂ\u{eb5}\u{ec9}ເຖ\u{ebb}\u{ec8}າ",
-				"ສ\u{eb5}ດ\u{ec9}ານ",
-				"ສ\u{eb5}ເງ\u{eb4}ນ",
-				"ສ\u{eb5}ເທ\u{ebb}າ",
-				"ຫ\u{ebb}ວໃຈ",
-				"ຫ\u{ebb}ວໃຈສ\u{eb5}ຂ\u{eb5}\u{ec9}ເຖ\u{ebb}\u{ec8}າ",
-				"ຫ\u{ebb}ວໃຈສ\u{eb5}ເງ\u{eb4}ນ",
-				"ຫ\u{ebb}ວໃຈສ\u{eb5}ເທ\u{ebb}າ",
-				"ຮ\u{eb1}ກ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("pilka širdelė"),
-			keywords: &[
-				"aš tave myliu",
-				"emocija",
-				"granitas",
-				"meilė",
-				"pilka",
-				"pilka širdelė",
-				"sidabras",
-				"ypatinga",
-				"širdis",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("pelēka sirds"),
-			keywords: &["pelēka sirds", "pelēks", "sirds", "sudrabs", "šīferis"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("сиво срце"),
-			keywords: &["сиво", "сребрено", "срце", "чувство", "љубов"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ച\u{d3e}ര നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
-			keywords: &[
-				"ച\u{d3e}ര നിറ ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-				"ച\u{d3e}ര നിറം",
-				"ച\u{d3e}ര നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-				"പ\u{d4d}രണയം",
-				"വെള\u{d4d}ളി",
-				"സ\u{d4d}ലേറ\u{d4d}റ\u{d4d}",
-				"ഹ\u{d43}ദയം",
-				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("саарал зүрх"),
-			keywords: &["зүрх", "мөнгөлөг", "саарал", "хавтан"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("करड\u{947} ह\u{943}दय"),
-			keywords: &["करडा", "करड\u{947} ह\u{943}दय", "च\u{902}द\u{947}री", "दगडी", "ह\u{943}दय"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("hati kelabu"),
-			keywords: &["hati", "hati pucat", "kelabu", "perak", "slat"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မ\u{102e}းခ\u{102d}\u{102f}းရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
-			keywords: &[
-				"င\u{103d}ေရောင\u{103a}",
-				"န\u{103e}လ\u{102f}\u{1036}း",
-				"မ\u{102e}းခ\u{102d}\u{102f}းရောင\u{103a}",
-				"သင\u{103a}ပ\u{102f}န\u{103a}းရောင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("ख\u{948}रो म\u{941}ट\u{941}"),
-			keywords: &[
-				"143",
-				"ily",
-				"ख\u{948}रो",
-				"ग\u{94d}र\u{947}",
-				"चा\u{901}दी",
-				"भावना",
-				"माया",
-				"म\u{941}ट\u{941}",
-				"विश\u{947}ष",
-				"स\u{94d}ल\u{947}ट",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("grijs hart"),
-			keywords: &["grijs", "hart", "leigrijs", "zilver"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("grått hjarte"),
-			keywords: &["grått", "hjarte", "skifer", "sylv", "sølv"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଧ\u{b42}ସର ହ\u{b43}ଦୟ"),
-			keywords: &["ଧ\u{b42}ସର", "ସ\u{b3f}ଲଭର\u{b4d}", "ସ\u{b4d}ଲେଟ\u{b4d}", "ହ\u{b43}ଦୟ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਲ\u{a47}ਟੀ ਦਿਲ"),
-			keywords: &["143", "ਚਾ\u{a02}ਦੀ", "ਦਿਲ", "ਪਿਆਰ", "ਮਨ", "ਸਲ\u{a47}ਟੀ", "ਸਿਲਵਰ", "ਸ\u{a41}ਰਮਈ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Gré Kọ\u{301}lọ Hat"),
-			keywords: &[
-				"Dák Gré Kọ\u{301}lọ",
-				"Gré Kọ\u{301}lọ",
-				"Gré Kọ\u{301}lọ Hat",
-				"Hat",
-				"Sílvá Kọ\u{301}lọ",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("szare serce"),
-			keywords: &[
-				"143",
-				"ciemnoszare",
-				"kocham cię",
-				"miłość",
-				"serce",
-				"specjalne",
-				"srebrne",
-				"szare",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("خړ زړه"),
-			keywords: &["خړ", "زړه", "سلیټ", "سپين زر"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("coração cinza"),
-			keywords: &[
-				"adorar",
-				"adorei",
-				"amo você",
-				"amor",
-				"ardósia",
-				"cinza",
-				"coração",
-				"emoção",
-				"especial",
-				"eu te amo",
-				"gostar",
-				"gostei",
-				"prata",
-				"te amo",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("coração cinzento"),
-			keywords: &["ardósia", "chumbo", "cinza", "cinzento", "coração", "prata", "prateado"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("uqi sunqu"),
-			keywords: &["qata", "sunqu", "uqi"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("inimă gri"),
-			keywords: &["argintiu", "cenușiu", "gri", "inimă"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-003"), keywords: &["E15-003"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("серое сердце"),
-			keywords: &["любовь", "сердце", "серебряное", "серое"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سرمائي دل"),
-			keywords: &["دل", "سرمائي", "سليٽ", "چاندي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("අළ\u{dd4} හදවත"),
-			keywords: &["අළ\u{dd4}", "ර\u{dd2}ද\u{dd3}", "හදවත"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("sivé srdce"),
-			keywords: &["láska", "sivé", "srdce", "strieborné", "šedé"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("sivo srce"),
-			keywords: &[
-				"RTM",
-				"ljubezen",
-				"sivo",
-				"skrilasto",
-				"srce",
-				"srebrno",
-				"všeč si mi",
-				"čustva",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qalbi cawlan"),
-			keywords: &["cawlan", "qalbi", "qalin", "slate"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zemër ngjyrë gri"),
-			keywords: &[
-				"143",
-				"argjend",
-				"dashuri",
-				"e hirtë",
-				"e veçantë",
-				"emocion",
-				"gri",
-				"të dua",
-				"zemër ngjyrë gri",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("сиво срце"),
-			keywords: &["емоција", "посебно", "сиво", "сребрно", "срце", "шкриљац љубав"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("sivo srce"),
-			keywords: &["emocija", "posebno", "sivo", "srce", "srebrno", "škriljac ljubav"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("grått hjärta"),
-			keywords: &["grå", "hjärta", "känsla", "kärlek", "silver", "skiffer"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("moyo wa kijivu"),
-			keywords: &[
-				"143",
-				"fedha",
-				"hisia",
-				"kijivu",
-				"maalum",
-				"moyo",
-				"moyo wa kijivu",
-				"nakupenda",
-				"tabasamu na hisia",
-				"upendo",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ச\u{bbe}ம\u{bcd}பல\u{bcd} நிற இதயம\u{bcd}"),
-			keywords: &[
-				"இதயம\u{bcd}",
-				"க\u{bbe}தல\u{bcd}",
-				"கிரே இதயம\u{bcd}",
-				"ச\u{bbe}ம\u{bcd}பல\u{bcd} நிற இதயம\u{bcd}",
-				"ச\u{bbe}ம\u{bcd}பல\u{bcd} நிறம\u{bcd}",
-				"சில\u{bcd}வர\u{bcd}",
-				"ஸ\u{bcd}லேட\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("బూడ\u{c3f}ద రంగు హృదయం"),
-			keywords: &[
-				"ఐ లవ\u{c4d}యూ",
-				"పలక",
-				"ప\u{c4d}ర\u{c47}మ",
-				"బూడ\u{c3f}ద రంగు",
-				"బూడ\u{c3f}ద రంగు హృదయం",
-				"వ\u{c46}ండ\u{c3f}",
-				"స\u{c4d}ప\u{c46}షల\u{c4d} పర\u{c4d}సన\u{c4d}",
-				"హృదయం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e31}วใจส\u{e35}เทา"),
-			keywords: &[
-				"พ\u{e34}เศษ",
-				"ร\u{e31}ก",
-				"ส\u{e35}เทา",
-				"ห\u{e31}วใจ",
-				"ห\u{e34}นชนวน",
-				"อารมณ\u{e4c}",
-				"เง\u{e34}น",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ግራጭ ልቢ"),
-			keywords: &["ልቢ", "ብሩር ዝመስል", "ግራጭ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("küljümek ýürek"),
-			keywords: &["küljümek ýürek"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mafu lanulavilavi"),
-			keywords: &["fulutui", "lanulavilavi", "mafu", "tukumisi"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("gri kalp"),
-			keywords: &["aşk", "duygu", "gri", "gümüş", "kalp", "kurşun", "sevgi", "taş", "özel kişi"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сіре серце"),
-			keywords: &[
-				"графітовий",
-				"емоція",
-				"люблю",
-				"любов",
-				"особливий",
-				"серце",
-				"срібний",
-				"сіре серце",
-				"сірий",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("خاکستری دل"),
-			keywords: &["جذبات", "خاکستری", "دل", "سلور", "سلیٹ", "محبت"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("kulrang yurak"),
-			keywords: &["143", "hissiyot", "kulrang", "kumush", "maxsus", "sevgi", "yurak"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trái tim màu xám"),
-			keywords: &[
-				"143",
-				"bạc",
-				"cảm xúc",
-				"trái tim",
-				"trái tim màu xám",
-				"xám",
-				"xám đen",
-				"yêu",
-				"đặc biệt",
-			],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("xol bu doomu-taal"),
-			keywords: &["arduwaas", "doomu-taal", "xaalis", "xol", "xol bu doomu-taal"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ọkan eerú"),
-			keywords: &["eérú", "sífà", "síléètì", "ọkan eerú", "ọkàn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ɔkan eerú"),
-			keywords: &["eérú", "sífà", "síléètì", "ɔkan eerú", "ɔkàn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("灰色心"),
-			keywords: &["心形", "灰心", "灰色", "灰色心", "銀色"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("灰色心"),
-			keywords: &["心形", "灰心", "灰色", "灰色心", "银色"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("灰心"),
-			keywords: &["心", "感情", "我爱你", "暗灰", "灰", "灰心", "灰色", "爱", "特殊", "银", "银色"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("灰色愛心"),
-			keywords: &[
-				"心型",
-				"暗灰色",
-				"灰",
-				"灰色愛心",
-				"灰色，特殊，心情，愛心，愛，銀色",
-				"石板色",
-				"銀",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("灰色心"),
-			keywords: &[
-				"傷心",
-				"冇心情",
-				"心型",
-				"愛心",
-				"愛情",
-				"我愛你",
-				"暗灰色",
-				"灰",
-				"灰心",
-				"灰色",
-				"灰色心",
-				"無心情",
-				"特別",
-				"石板色",
-				"銀",
-				"銀心",
-				"銀色",
-				"黑白",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inhliziyo e-grey"),
-			keywords: &["gray", "inhliziyo", "inhliziyo e-grey", "inhliziyo egray", "silver", "slate"],
-		},
-	],
-};
 #[doc = "💘"]
 pub const HEART_WITH_ARROW: crate::Emoji = crate::Emoji {
 	glyph:                "💘",
@@ -9319,662 +5924,6 @@ pub const BLUE_HEART: crate::Emoji = crate::Emoji {
 				"inhliziyo",
 				"inhliziyo eluhlaza kwesibhakabhaka",
 			],
-		},
-	],
-};
-#[doc = "🤍"]
-pub const WHITE_HEART: crate::Emoji = crate::Emoji {
-	glyph:                "🤍",
-	codepoint:            &[129293u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-	name:                 "white heart",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Heart,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("wit hartjie"),
-			keywords: &["goeie bedoelings", "hartjie", "rein", "suiwer", "wit"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ነጭ ልብ"),
-			keywords: &["ልብ", "ነጭ", "ድጋፍ", "ፍቅር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قلب أبيض"),
-			keywords: &["أبيض", "أشكال", "بياض", "حب", "شكل", "صفاء", "قلب", "مسامحة", "نقاء", "يحب"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("বগ\u{9be} হ\u{9c3}দয\u{9bc}ৰ ছবি"),
-			keywords: &["বগ\u{9be}", "বগ\u{9be} হ\u{9c3}দয\u{9bc}ৰ ছবি", "হ\u{9c3}দয\u{9bc}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation { lang: "az", tts: Some("ağ ürək"), keywords: &["ağ", "ürək"] },
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("белае сэрца"),
-			keywords: &["белае", "сэрца"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("бяло сърце"),
-			keywords: &["бяло", "сърце"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9be}দ\u{9be} হ\u{9be}র\u{9cd}ট"),
-			keywords: &[
-				"স\u{9be}দ\u{9be}",
-				"হ\u{9be}র\u{9cd}ট",
-				"হ\u{9be}র\u{9cd}ট চিহ\u{9cd}ন",
-				"হ\u{9c3}দয\u{9bc}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("kalon wenn"),
-			keywords: &["gwenn", "kalon wenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("bijelo srce"),
-			keywords: &["bijela", "bijelo srce", "srce"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation { lang: "ca", tts: Some("cor blanc"), keywords: &["blanc", "cor"] },
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᎤᏁᎦ ᎤᎾᏫ"), keywords: &["ᎤᎾᏫ", "ᎤᏁᎦ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("bílé srdce"),
-			keywords: &["bílá", "bílé srdce", "bílé srdíčko", "láska", "srdce", "srdíčko"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("calon wen"),
-			keywords: &["calon", "calon wen", "gwyn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("hvidt hjerte"),
-			keywords: &["hjerte", "hvid", "hvidt hjerte"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("weißes Herz"),
-			keywords: &["Herz", "weiß", "weißes Herz"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("weisses Herz"),
-			keywords: &["Herz", "weiss", "weisses Herz"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("λευκή καρδιά"),
-			keywords: &["καρδιά", "λευκή καρδιά", "λευκό"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("white heart"),
-			keywords: &["143", "heart", "white"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("corazón blanco"),
-			keywords: &["blanco", "corazón", "emoción"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["blanco", "corazón"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("valge süda"),
-			keywords: &["süda", "valge"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bihotz zuria"),
-			keywords: &["bihotz", "bihotz zuria", "zuri"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("قلب سفید"),
-			keywords: &["دل", "سفید", "قلب"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("valkoinen sydän"),
-			keywords: &["sydän", "valkoinen"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("puting puso"),
-			keywords: &["puso", "puti", "puting puso"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("hvítt hjarta"),
-			keywords: &["hjarta", "hvítt"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("cœur blanc"),
-			keywords: &["blanc", "cœur"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation { lang: "ga", tts: Some("croí bán"), keywords: &["bán", "croí"] },
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cridhe geal"),
-			keywords: &["cridhe", "geal"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("corazón branco"),
-			keywords: &["branco", "corazón"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("શ\u{acd}વ\u{ac7}ત હ\u{ac3}દય"),
-			keywords: &[
-				"દિલ",
-				"ધોળ\u{ac1}\u{a82} દિલ",
-				"નિખાલસ",
-				"ન\u{ac7}ક",
-				"પવિત\u{acd}ર",
-				"ર\u{a82}ગ",
-				"વ\u{acd}હાઈટ",
-				"શ\u{acd}વ\u{ac7}ત",
-				"સફ\u{ac7}દ",
-				"સાફ દિલ",
-				"હ\u{ac3}દય",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("farar zuciya"),
-			keywords: &["fara", "farar", "fari", "zuciya"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("farar zuciya"),
-			keywords: &["fara", "farar", "fari", "zuciya"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation { lang: "he", tts: Some("לב לבן"), keywords: &["לב", "לבן"] },
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("सफ\u{93c}\u{947}द दिल"),
-			keywords: &["दिल", "शा\u{902}ति", "सफ\u{93c}\u{947}द"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("bijelo srce"),
-			keywords: &["bijelo", "srce"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("fehér szív"),
-			keywords: &["fehér", "szív"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("սպիտակ սիրտ"),
-			keywords: &["սիրտ", "սպիտակ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("hati putih"),
-			keywords: &["hati", "putih"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("obi na-acha ọcha"),
-			keywords: &["obi", "obi na-acha ọcha", "ọcha"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hvítt hjarta"),
-			keywords: &["hjarta", "hvítt"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("cuore bianco"),
-			keywords: &["bianco", "cuore", "emozione"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("白いハート"),
-			keywords: &["ハート", "白", "白いハート"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation { lang: "jv", tts: Some("ati putih"), keywords: &["ati", "putih"] },
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("თეთრი გული"),
-			keywords: &["გული", "თეთრი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("ul amellal"), keywords: &["ul amellal"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang: "kk", tts: Some("ақ жүрек"), keywords: &["ақ", "жүрек"]
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ស"),
-			keywords: &["បេះដ\u{17bc}ង", "បេះដ\u{17bc}ងពណ\u{17cc}ស", "ពណ\u{17cc}ស"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cbf}ಳ\u{cbf}ಯ ಹೃದಯ"),
-			keywords: &[
-				"ಅಪ\u{ccd}ಪಟ",
-				"ಕಳಂಕ ರಹ\u{cbf}ತ",
-				"ನ\u{cbf}ರ\u{ccd}ಮಲ ಹೃದಯ",
-				"ಪರ\u{cbf}ಶುದ\u{ccd}ಧ",
-				"ಬ\u{cbf}ಳ\u{cbf}",
-				"ಬ\u{cbf}ಳ\u{cbf}ಯ ಹೃದಯ",
-				"ಶಾಂತ\u{cbf}",
-				"ಹೃದಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation { lang: "ko", tts: Some("흰색 하트"), keywords: &["하트", "흰색"] },
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("धव\u{947}\u{902} काळीज"),
-			keywords: &["काळीज", "धव\u{947}\u{902}"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang: "ky", tts: Some("ак жүрөк"), keywords: &["ак", "жүрөк"]
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຫ\u{ebb}ວ\u{200b}ໃຈ\u{200b}ຂາວ"),
-			keywords: &["ສ\u{eb5}\u{200b}ຂາວ", "ຫ\u{ebb}ວ\u{200b}ໃຈ", "ຫ\u{ebb}ວ\u{200b}ໃຈ\u{200b}ຂາວ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("balta širdelė"),
-			keywords: &["balta", "širdelė"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("balta sirds"),
-			keywords: &["balta", "mīlu", "sirds"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang: "mk", tts: Some("бело срце"), keywords: &["бело", "срце"]
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വെള\u{d41}ത\u{d4d}ത ഹ\u{d43}ദയം"),
-			keywords: &["വെള\u{d41}ത\u{d4d}ത ഹ\u{d43}ദയം", "വെള\u{d4d}ള", "വെള\u{d4d}ള ഹ\u{d43}ദയം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("цагаан зүрх"),
-			keywords: &["зүрх", "цагаан"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("पा\u{902}ढर\u{947} ह\u{943}दय"),
-			keywords: &["पा\u{902}ढर\u{947}", "हार\u{94d}ट", "ह\u{943}दय"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("hati putih"),
-			keywords: &["143", "hati", "putih"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အဖြ\u{1030}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}းသား"),
-			keywords: &[
-				"န\u{103e}လ\u{102f}\u{1036}း",
-				"အဖြ\u{1030}",
-				"အဖြ\u{1030}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}းသား",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{947}तो ह\u{943}दय"),
-			keywords: &["स\u{947}तो", "ह\u{943}दय"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("wit hart"),
-			keywords: &["hart", "liefde", "symbool", "wit"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("kvitt hjarte"),
-			keywords: &["hjarte", "kvit", "kvitt hjarte"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଧଳ\u{b3e} ହ\u{b43}ଦୟ"),
-			keywords: &["ଧଳ\u{b3e}", "ହ\u{b43}ଦୟ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਚਿ\u{a71}ਟਾ ਦਿਲ"),
-			keywords: &["ਚਿ\u{a71}ਟਾ", "ਦਿਲ", "ਪਿਆਰ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Waít Hat"),
-			keywords: &["Hat", "Wait", "Waít Hat"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("białe serce"),
-			keywords: &["białe", "serce"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("سپين زړه"), keywords: &["زړه", "سپين"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("coração branco"),
-			keywords: &["branco", "coração", "s2"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["branco", "coração"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("yuraq sunqu"),
-			keywords: &["sunqu", "yuraq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("inimă albă"),
-			keywords: &["alb", "albă", "inimioară", "inimă"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E12–022"), keywords: &["E12–022"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("белое сердце"),
-			keywords: &["белое", "любовь", "сердце", "чувства", "эмоции"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation { lang: "sd", tts: Some("سفيد دل"), keywords: &["دل", "سفيد"] },
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dd4}ද\u{dd4} හදවත"),
-			keywords: &["ස\u{dd4}ද\u{dd4}", "හදවත"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("biele srdce"),
-			keywords: &["biele", "srdce"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation { lang: "sl", tts: Some("belo srce"), keywords: &["belo", "srce"] },
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("wadne cad (cabsi og)"),
-			keywords: &["cad", "wadne", "wadne cad (cabsi og)"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zemër e bardhë"),
-			keywords: &["e bardhë", "zemër", "zemër e bardhë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang: "sr", tts: Some("бело срце"), keywords: &["бело", "срце"]
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("бијело срце"),
-			keywords: &["бијело срце"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("belo srce"),
-			keywords: &["belo", "srce"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("bijelo srce"),
-			keywords: &["bijelo srce"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("vitt hjärta"),
-			keywords: &["hjärta", "vitt"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("moyo mweupe"),
-			keywords: &["moyo", "moyo mweupe", "moyo safi", "nyeupe"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வெள\u{bcd}ளை நிற இதயம\u{bcd}"),
-			keywords: &[
-				"இதயம\u{bcd}",
-				"க\u{bbe}தலிக\u{bcd}கிறேன\u{bcd}",
-				"வெள\u{bcd}ளை",
-				"வெள\u{bcd}ளை நிற இதயம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("త\u{c46}లుపురంగు హృదయం"),
-			keywords: &[
-				"త\u{c46}లుపు రంగు గుండ\u{c46}",
-				"త\u{c46}లుపురంగు",
-				"శ\u{c4d}వ\u{c47}త",
-				"హృదయం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ห\u{e31}วใจส\u{e35}ขาว"),
-			keywords: &["บร\u{e34}ส\u{e38}ทธ\u{e34}\u{e4c}", "สะอาด", "ส\u{e35}ขาว", "ห\u{e31}วใจ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang: "ti", tts: Some("ጻዕዳ ልቢ"), keywords: &["ልቢ", "ጻዕዳ"]
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation { lang: "tk", tts: Some("ak ýürek"), keywords: &["ak", "ýürek"] },
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mafu hinehina"),
-			keywords: &["hinehina", "mafu", "tea"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("beyaz kalp"),
-			keywords: &["beyaz", "kalp"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("біле серце"),
-			keywords: &["біле", "серце"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سفید دل"),
-			keywords: &["دل", "سفید", "نیک دل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation { lang: "uz", tts: Some("oq yurak"), keywords: &["oq", "yurak"] },
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("trái tim màu trắng"),
-			keywords: &["màu trắng", "trái tim", "trái tim màu trắng"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("Xol bu weex"),
-			keywords: &["Xol bu weex", "weex", "xol"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("ọkàn funfun"),
-			keywords: &["ọkàn / funfun", "ọkàn funfun"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("ɔkàn funfun"),
-			keywords: &["ɔkàn / funfun", "ɔkàn funfun"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("白色心"),
-			keywords: &["心", "白色", "白色心"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("白色心"),
-			keywords: &["心", "白色", "白色心"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("白心"),
-			keywords: &["心", "心形", "爱心", "白", "白心", "白色", "白色爱心"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("白心"),
-			keywords: &["心", "愛心", "白", "白心", "白色"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("白心｜白色心｜白色嘅心"),
-			keywords: &["喜歡", "心", "愛", "白", "白心｜白色心｜白色嘅心", "白色"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("inhliziyo emhlophe"),
-			keywords: &["inhliziyo", "inhliziyo emhlophe", "mhlophe"],
 		},
 	],
 };
@@ -19791,6 +15740,4057 @@ pub const SPARKLING_HEART: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("inhliziyo ekhazimulayo"),
 			keywords: &["inhliziyo", "inhliziyo ekhazimulayo", "intokozo", "ukukhazimula"],
+		},
+	],
+};
+#[doc = "🩵"]
+pub const LIGHT_BLUE_HEART: crate::Emoji = crate::Emoji {
+	glyph:                "🩵",
+	codepoint:            &[129653u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "light blue heart",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Heart,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("ligblou hart"),
+			keywords: &["groenblou", "hart", "liefde", "ligblou", "oulik", "siaan", "spesiaal"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ፈዛዛ ሰማያዊ ልብ"),
+			keywords: &[
+				"143",
+				"ልብ",
+				"ልዩ",
+				"መውደድ",
+				"ሰማያዊ",
+				"ሳያን",
+				"ስሜት",
+				"ሻይ",
+				"ቆንጆ",
+				"እወድሃለሁ",
+				"እወድሻለሁ",
+				"ደማቅ ውሃ ሰማያዊ",
+				"ደስ የሚል",
+				"ፈዛዛ ሰማያዊ",
+				"ፈዛዛ ሰማያዊ ልብ",
+				"ፈዛዛ አረንጓዴ-ሰማያዊ",
+				"ፍቅር",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قلب أزرق فاتح"),
+			keywords: &[
+				"أزرق سماوي",
+				"أزرق فاتح",
+				"أزرق مخضر",
+				"إعجاب",
+				"استثنائي",
+				"حب",
+				"رقيق",
+				"سماوي",
+				"شرشيري",
+				"عاطفة",
+				"عشق",
+				"قلب",
+				"قلب أزرق فاتح",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9be}তল নীল\u{9be} হ\u{9c3}দয\u{9bc}"),
+			keywords: &[
+				"টীল",
+				"প\u{9be}তল নীল\u{9be}",
+				"প\u{9be}তল নীল\u{9be} হ\u{9c3}দয\u{9bc}",
+				"সেউজ নীল\u{9be}",
+				"হ\u{9c3}দয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("açıq mavi ürək"),
+			keywords: &[
+				"açıq mavi",
+				"açıq mavi ürək",
+				"emosiya",
+				"mavi",
+				"sevgi",
+				"səma mavisi",
+				"xoşlamaq",
+				"ördəkbaşı",
+				"ürək",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("блакітнае сэрца"),
+			keywords: &["блакітнае сэрца", "блакітны", "бірузовы", "нябесны", "сэрца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("светлосиньо сърце"),
+			keywords: &[
+				"емоция",
+				"небесносиньо",
+				"обичам те",
+				"светлосиньо",
+				"синьо-зелено",
+				"специален",
+				"сърце",
+				"циан",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("হ\u{9be}লক\u{9be} নীল হ\u{9be}র\u{9cd}ট"),
+			keywords: &[
+				"আবেগ",
+				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
+				"নীলচে সব\u{9c1}জ",
+				"ভ\u{9be}লোব\u{9be}স\u{9be}",
+				"মিষ\u{9cd}টি",
+				"সবজে নীল",
+				"হ\u{9be}র\u{9cd}ট",
+				"হ\u{9be}লক\u{9be} নীল",
+				"হ\u{9be}লক\u{9be} নীল হ\u{9be}র\u{9cd}ট",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("svijetloplavo srce"),
+			keywords: &["cijan", "plavozelena", "srce", "svijetloplava", "svijetloplavo srce"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("cor blau cel"),
+			keywords: &["amor", "blau cel", "bonic", "cian", "cor", "cor blau cel", "turquesa"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏌᎪᏂᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
+			keywords: &["ᎤᎾᏫ", "ᎤᏍᎪᎸ", "ᎦᎸᎳᏗ", "ᏌᎪᏂᎨ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("světlemodré srdce"),
+			keywords: &[
+				"azurová",
+				"láska",
+				"líbí",
+				"modrozelená",
+				"petrolejová",
+				"srdce",
+				"srdíčko",
+				"světle modrá",
+				"světlemodrá",
+				"světlemodré srdce",
+				"světlemodré srdíčko",
+				"šedozelená",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("calon las golau"),
+			keywords: &[
+				"143",
+				"arbennig",
+				"calon",
+				"calon las golau",
+				"caru",
+				"ciwt",
+				"emosiwn",
+				"glas golau",
+				"gwyrddlas",
+				"hoffi",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("lyseblåt hjerte"),
+			keywords: &[
+				"cyan",
+				"elsker",
+				"følelse",
+				"grønblå",
+				"himmelblå",
+				"hjerte",
+				"lyseblå",
+				"lyseblåt hjerte",
+				"nuttet",
+				"særligt",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("hellblaues Herz"),
+			keywords: &[
+				"Emotion",
+				"Gefühl",
+				"Herz",
+				"Liebe",
+				"aquamarin",
+				"gefallen",
+				"gefällt",
+				"hdl",
+				"hellblau",
+				"mag",
+				"mögen",
+				"niedlich",
+				"süß",
+				"türkis",
+				"zyan",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("γαλάζια καρδιά"),
+			keywords: &["γαλάζια", "γαλαζοπράσινο", "καρδιά", "μπλε", "μπλε παστέλ"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("light blue heart"),
+			keywords: &[
+				"143", "blue", "cute", "cyan", "emotion", "heart", "ily", "light", "like", "love", "sky",
+				"special", "teal",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("corazón azul claro"),
+			keywords: &["azul", "celeste", "cián", "claro", "corazón"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("corazón celeste"),
+			keywords: &[
+				"amor", "azulado", "celeste", "cian", "cielo", "corazón", "emoción", "especial", "ternura",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("corazón azul claro"),
+			keywords: &["corazón azul claro"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("helesinine süda"),
+			keywords: &[
+				"armas",
+				"armastan",
+				"armastus",
+				"emotsioon",
+				"eriline",
+				"helesinine",
+				"meeldib",
+				"rohekassinine",
+				"sinakasroheline",
+				"süda",
+				"taevasinine",
+				"tsüaan",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bihotz urdin argia"),
+			keywords: &["143", "anila", "bihotz urdin argia", "bihotza", "urdin argia", "ziana"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قلب آبی کم\u{200c}رنگ"),
+			keywords: &[
+				"آبی",
+				"آبی آسمانی",
+				"آبی روشن",
+				"احساسات",
+				"خاص",
+				"دوستت دارم",
+				"سبزآبی",
+				"عشق",
+				"علاقه",
+				"فیروزه\u{200c}ای",
+				"قلب",
+				"ناز",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("vaaleansininen sydän"),
+			keywords: &["rakkaus", "sinivihreä", "syaani", "sydän", "tunne", "vaaleansininen"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("light blue na puso"),
+			keywords: &["cyan", "light blue", "light blue na puso", "puso", "teal"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("ljósablátt hjarta"),
+			keywords: &["hjarta", "ljósablátt"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("cœur bleu clair"),
+			keywords: &[
+				"143",
+				"aimer",
+				"amour",
+				"bleu ciel",
+				"bleu clair",
+				"bleu sarcelle",
+				"cyan",
+				"cœur",
+				"cœur bleu clair",
+				"jtm",
+				"mignon",
+				"spécial",
+				"émotion",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("croí bánghorm"),
+			keywords: &["bánghorm", "cian", "croí", "téal"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cridhe solleir-ghorm"),
+			keywords: &["crann-lach", "cridhe", "cridhe solleir-ghorm", "saidhean", "soilleir-ghorm"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("corazón azul claro"),
+			keywords: &[
+				"adorable", "amor", "azul", "ceo", "ciano", "claro", "emoción", "especial", "quérote",
+			],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("આછો વાદળી ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
+			keywords: &[
+				"143",
+				"આકાશી વાદળી",
+				"આછો વાદળી",
+				"આછો વાદળી ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
+				"ખાસ",
+				"ટીલ",
+				"દિલ",
+				"પ\u{acd}યાર",
+				"પ\u{acd}ર\u{ac7}મ",
+				"ભાવના",
+				"લવ",
+				"સ\u{acd}યાન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("zuciya shuɗiya mai haske"),
+			keywords: &[
+				"abin so",
+				"nawa",
+				"shayi",
+				"shuɗi mai haske",
+				"shuɗi-shuɗi",
+				"shuɗin gajimare",
+				"so",
+				"zuciya",
+				"zuciya shuɗiya mai haske",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("zuciya shuɗiya mai haske"),
+			keywords: &[
+				"abin so",
+				"nawa",
+				"shayi",
+				"shuɗi mai haske",
+				"shuɗi-shuɗi",
+				"shuɗin gajimare",
+				"so",
+				"zuciya",
+				"zuciya shuɗiya mai haske",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("לב תכלת"),
+			keywords: &["אהבה", "חמוד", "ירוק-כחול", "כחול בהיר", "לב", "לב תכלת", "ציאן", "רגש"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("हल\u{94d}का नीला दिल"),
+			keywords: &[
+				"143",
+				"टील",
+				"दिल",
+				"नीला दिल",
+				"साइऐन",
+				"हल\u{94d}का नीला",
+				"हल\u{94d}का नीला दिल",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("svjetloplavo srce"),
+			keywords: &[
+				"emocija",
+				"nebesko plavo",
+				"plavo",
+				"posebno",
+				"slatko",
+				"srce",
+				"svjetloplavo",
+				"tirkizno",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("világoskék szív"),
+			keywords: &["cián", "pávakék", "szív", "világoskék"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բաց կապույտ սիրտ"),
+			keywords: &["բաց կապույտ սիրտ", "երկնագույն", "կապույտ", "սիրտ", "սրտիկ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("hati biru muda"),
+			keywords: &[
+				"biru kehijauan",
+				"biru langit",
+				"biru muda",
+				"hati",
+				"hati biru langit",
+				"hati biru muda",
+				"imut",
+				"lucu",
+				"sian",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("obi na-acha blụ"),
+			keywords: &[
+				"143",
+				"acha anụnụ anụnụ",
+				"agba tii",
+				"cyan",
+				"elu igwe",
+				"ily",
+				"mara mma",
+				"mmasị",
+				"mmetụta",
+				"obi",
+				"pụrụ iche",
+				"ìhè",
+				"ịhụnanya",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("ljósblátt hjarta"),
+			keywords: &["blágrænn", "hjarta", "ljósblár", "ljósblátt hjarta", "sægrænn"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("cuore azzurro"),
+			keywords: &["affetto", "amore", "azzurro", "celeste", "cuore", "emozione"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("薄い青のハート"),
+			keywords: &[
+				"かわいい",
+				"シアン",
+				"ティールブルー",
+				"ハート",
+				"ラブ",
+				"好き",
+				"愛",
+				"水色",
+				"空色",
+				"薄い青",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ati biru enom"),
+			keywords: &["ati", "ati biru enom", "biru enom", "biru kaijoan", "biru semburat ijo"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ღია ცისფერი გული"),
+			keywords: &["ლაჟვარდისფერი", "ღია ცისფერი გული", "ციანი", "ცისფერი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("ul amidadi"), keywords: &["ul amidadi"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ақшыл көк жүрек"),
+			keywords: &[
+				"143",
+				"аспан көк",
+				"аспан көк жүрек",
+				"ақшыл көк",
+				"ақшыл көк жүрек",
+				"жүрек",
+				"көк-жасыл",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ខៀវស\u{17d2}រាល"),
+			keywords: &[
+				"កាប\u{17cb}ស\u{17d2}ដា\u{17c6}ង",
+				"ខៀវស\u{17d2}រាល",
+				"បេះដ\u{17bc}ង",
+				"បេះដ\u{17bc}ងពណ\u{17cc}ខៀវស\u{17d2}រាល",
+				"ស\u{17ca}\u{17b8}លាប",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf} ಹೃದಯ"),
+			keywords: &[
+				"ಟ\u{cc0}ಲ\u{ccd}",
+				"ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf}",
+				"ತ\u{cbf}ಳ\u{cbf} ನ\u{cc0}ಲ\u{cbf} ಹೃದಯ",
+				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
+				"ಭಾವನ\u{cc6}",
+				"ಮುದ\u{ccd}ದಾದ",
+				"ವ\u{cbf}ಶ\u{cc7}ಷ",
+				"ಸಯಾನ\u{ccd}",
+				"ಹೃದಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("밝은 파란색 하트"),
+			keywords: &["밝은 파란색", "밝은 파란색 하트", "청록색", "푸른", "하늘색 하트", "하트"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("फिकट निळ\u{947}\u{902} काळीज"),
+			keywords: &[
+				"ily",
+				"उजवाड",
+				"काळीज",
+				"खाश\u{947}ल\u{947}\u{902}",
+				"गो\u{902}डस",
+				"निळ\u{947}\u{902}",
+				"पाचवो-निळसर",
+				"भावना",
+				"मळब",
+				"मोग",
+				"सारक\u{947}\u{902}",
+				"हलको निळसर",
+				"१४३",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("көгүш түстүү жүрөк"),
+			keywords: &[
+				"143",
+				"асман",
+				"ачык көк",
+				"жагымдуу",
+				"жүрөк",
+				"көгүлтүр",
+				"көгүш",
+				"көгүш түстүү жүрөк",
+				"эмоция",
+				"өзгөчө",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ"),
+			keywords: &[
+				"143",
+				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
+				"ຄວາມຮ\u{eb1}ກ",
+				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
+				"ພ\u{eb4}ເສດ",
+				"ສ\u{eb5}ຄາມ",
+				"ສ\u{eb5}ທະເລ",
+				"ສ\u{eb5}ຟ\u{ec9}າ",
+				"ສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ",
+				"ຫ\u{ebb}ວໃຈ",
+				"ຫ\u{ebb}ວໃຈສ\u{eb5}ຟ\u{ec9}າອ\u{ec8}ອນ",
+				"ຮ\u{eb1}ກ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("šviesiai mėlyna širdelė"),
+			keywords: &[
+				"aš tave myliu",
+				"emocija",
+				"meilė",
+				"miela",
+				"patinka",
+				"širdis",
+				"šviesiai mėlyna",
+				"šviesiai mėlyna širdelė",
+				"žalsvai mėlyna",
+				"žydra",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("gaiši zila sirds"),
+			keywords: &["ciānzils", "gaiši zila sirds", "gaiši zils", "sirds", "zilganzaļš"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("светлосино срце"),
+			keywords: &["светлосино", "синозелено", "срце", "тиркизно", "чувство", "љубов"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഇളം നീല നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
+			keywords: &[
+				"ഇളം നീല",
+				"ഇളം നീല നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+				"ഇളം നീല ഹ\u{d43}ദയം",
+				"ടീൽ",
+				"പ\u{d4d}രണയം",
+				"സിയ\u{d3e}ൻ",
+				"ഹ\u{d43}ദയം",
+				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("цайвар цэнхэр зүрх"),
+			keywords: &["зүрх", "номин ногоон", "цайвар хөх", "цайвар цэнхэр", "цайвар цэнхэр зүрх"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("आकाशी ह\u{943}दय"),
+			keywords: &["आकाशी", "निळसर", "निळसर-हिरवा", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("hati biru muda"),
+			keywords: &["biru muda", "hati", "hati biru muda", "sian", "teal"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အပြာန\u{102f}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
+			keywords: &[
+				"စ\u{102d}မ\u{103a}းပြာ",
+				"စ\u{102d}မ\u{103a}းပြာရောင\u{103a}",
+				"န\u{103e}လ\u{102f}\u{1036}း",
+				"အချစ\u{103a}",
+				"အပြာန\u{102f}",
+				"အပြာန\u{102f}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("हल\u{94d}का नीलो र\u{902}गको दिल"),
+			keywords: &[
+				"टिल",
+				"म\u{941}ट\u{941}",
+				"स\u{94d}यान",
+				"हल\u{94d}का नीलो",
+				"हल\u{94d}का नीलो र\u{902}गको दिल",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("lichtblauw hart"),
+			keywords: &["blauwgroen", "groenblauw", "hart", "lichtblauw"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("lyseblått hjarte"),
+			keywords: &["blågrønt", "cyan", "hjarte", "ljosblått", "lysblått", "lyseblått"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ ହ\u{b43}ଦୟ"),
+			keywords: &[
+				"ଟ\u{b3f}ଲ\u{b4d}",
+				"ସ\u{b3e}ଇନ\u{b4d}",
+				"ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ",
+				"ହ\u{b3e}ଲ\u{b41}କ\u{b3e} ନୀଳ ହ\u{b43}ଦୟ",
+				"ହ\u{b43}ଦୟ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਹਲਕਾ ਨੀਲਾ ਦਿਲ"),
+			keywords: &[
+				"ਖਾਸ",
+				"ਜਜ\u{a3c}ਬਾਤ",
+				"ਦਿਲ",
+				"ਨੀਲਾ ਹਰਾ",
+				"ਪਿਆਰ",
+				"ਮਨ",
+				"ਹਲਕਾ ਨੀਲਾ",
+				"ਹਲਕਾ ਨੀਲਾ ਦਿਲ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Hat Wé Dé Laít Blu"),
+			keywords: &[
+				"Blú Kọ\u{301}lọ Wé Míks Wit Grín Kọ\u{301}lọ",
+				"Grín Kọ\u{301}lọ Wé Míks Wit Blú Kọ\u{301}lọ",
+				"Hat",
+				"Hat Wé Dé Laít Blu",
+				"Laít Blu",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("jasnoniebieskie serce"),
+			keywords: &[
+				"143",
+				"błękitne",
+				"jasnoniebieskie",
+				"kocham cię",
+				"lubić",
+				"miłość",
+				"serce",
+				"sympatia",
+				"turkusowe",
+				"urocze",
+				"zielononiebieskie",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("روښانه ودي زړه"),
+			keywords: &[
+				"143",
+				"آسمان",
+				"احساسات",
+				"تېل",
+				"رڼا",
+				"زړه",
+				"سیان",
+				"لکه",
+				"مینه",
+				"نیلي",
+				"ځانګړې",
+				"ښکلی",
+			],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("coração azul-claro"),
+			keywords: &[
+				"adorar",
+				"adorei",
+				"amo você",
+				"amor",
+				"azul",
+				"azul claro",
+				"azul-claro",
+				"ciano",
+				"cor do céu",
+				"coração",
+				"emoção",
+				"especial",
+				"eu te amo",
+				"fofo",
+				"gostar",
+				"gostei",
+				"te amo",
+				"verde-azulado",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"afeição",
+				"amor",
+				"azul-claro",
+				"carinho",
+				"celeste",
+				"cor do céu",
+				"coração",
+				"ternura",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("chuya anqas sunqu"),
+			keywords: &["chuya anqas", "chuya anqas sunqu", "cian", "sunqu"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("inimă albastru-deschis"),
+			keywords: &["albastru-deschis", "albastru-verzui", "bleu", "cyan", "inimă"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-002"), keywords: &["E15-002"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("голубое сердце"),
+			keywords: &[
+				"бирюзовое",
+				"голубое",
+				"люблю",
+				"любовь",
+				"милый",
+				"нравится",
+				"сердечко",
+				"сердце",
+				"чувства",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ھلڪي نيري دل"),
+			keywords: &[
+				"تيز سائو نيرو",
+				"دل",
+				"هلڪو نيرو",
+				"هلڪو نيرو دل",
+				"ھلڪو سائو بلو",
+				"ھلڪي نيري دل",
+			],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ල\u{dcf} න\u{dd2}ල\u{dca} හදවත"),
+			keywords: &[
+				"ල\u{dcf} න\u{dd2}ල\u{dca}",
+				"ල\u{dcf} න\u{dd2}ල\u{dca} හදවත",
+				"සයන\u{dca}",
+				"හදවත",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("svetlomodré srdce"),
+			keywords: &["azúrové", "roztomilé", "sivozelené", "srdce", "svetlomodré"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("svetlomodro srce"),
+			keywords: &[
+				"RTM",
+				"cijan",
+				"ljubezen",
+				"nebo",
+				"prisrčno",
+				"srce",
+				"svetlomodra",
+				"svetlomodro srce",
+				"všeč si mi",
+				"zelenomodra",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qalbi buluug khafiif ah"),
+			keywords: &["buluug khafiif ah", "qalbi buluug khafiif ah", "wadne"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zemër ngjyrë blu e çelët"),
+			keywords: &[
+				"143",
+				"bajukë",
+				"blu e çelët",
+				"dashuri",
+				"e kaltër",
+				"e lezetshme",
+				"emocion",
+				"të dua",
+				"zemër",
+				"zemër ngjyrë blu e çelët",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("светлоплаво срце"),
+			keywords: &[
+				"емоција",
+				"небо",
+				"плаво",
+				"светло",
+				"светлоплаво",
+				"свиђа",
+				"слатко",
+				"срце",
+				"цијан",
+				"љубав",
+			],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("свијетлоплаво срце"),
+			keywords: &["плава", "свијетлоплаво", "срце", "тиркиз"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("svetloplavo srce"),
+			keywords: &[
+				"cijan",
+				"emocija",
+				"ljubav",
+				"nebo",
+				"plavo",
+				"slatko",
+				"srce",
+				"svetlo",
+				"svetloplavo",
+				"sviđa",
+			],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("svijetloplavo srce"),
+			keywords: &["plava", "srce", "svijetloplavo", "tirkiz"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("ljusblått hjärta"),
+			keywords: &["cyan", "himmelsblå", "hjärta", "känsla", "kärlek", "ljusblå"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("moyo wa buluu hafifu"),
+			keywords: &[
+				"143",
+				"bluu bahari",
+				"bluu kijani",
+				"buluu",
+				"hafifu",
+				"hisia",
+				"maalum",
+				"mawingu ya bluu",
+				"moyo",
+				"moyo wa buluu hafifu",
+				"nakupenda",
+				"penda",
+				"rembo",
+				"upendo",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("வெளிர\u{bcd} ந\u{bc0}ல இதயம\u{bcd}"),
+			keywords: &[
+				"அழகு",
+				"இதயம\u{bcd}",
+				"சிய\u{bbe}ன\u{bcd}",
+				"ட\u{bc0}ல\u{bcd}",
+				"லவ\u{bcd}லி",
+				"வெளிர\u{bcd} ந\u{bc0}ல இதயம\u{bcd}",
+				"வெளிர\u{bcd} ந\u{bc0}லம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ల\u{c47}త న\u{c40}లం రంగు హృదయం"),
+			keywords: &[
+				"ఐ లవ\u{c4d}యూ",
+				"న\u{c40}లం ఆకుపచ\u{c4d}చ కల\u{c3f}స\u{c3f}న రంగు",
+				"ప\u{c4d}ర\u{c47}మ",
+				"భ\u{c3e}వ\u{c4b}ద\u{c4d}వ\u{c47}గం",
+				"ల\u{c47}త న\u{c40}లం",
+				"ల\u{c47}త న\u{c40}లం రంగు హృదయం",
+				"ల\u{c48}క\u{c4d}",
+				"ల\u{c48}ట\u{c4d} బ\u{c4d}లూ",
+				"స\u{c4d}ప\u{c46}షల\u{c4d}",
+				"హృదయం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e31}วใจส\u{e35}ฟ\u{e49}า"),
+			keywords: &[
+				"ชอบ",
+				"ซ\u{e36}\u{e49}ง",
+				"น\u{e48}าร\u{e31}ก",
+				"ฟ\u{e49}าอ\u{e48}อน",
+				"ส\u{e35}น\u{e49}ำเง\u{e34}น",
+				"ห\u{e31}วใจ",
+				"เข\u{e35}ยว",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ደብዛዝ ሰማያዊ ልቢ"),
+			keywords: &["ልቢ", "ሓምለዋይ ሰማያዊ", "ሓምላይ ሰማያዊ", "ደብዛዝ ሰማያዊ", "ደብዛዝ ሰማያዊ ልቢ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("açyk gök ýürek"),
+			keywords: &["açyk gök ýürek"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mafu lanupulū maama"),
+			keywords: &["lanupulū", "maama", "mafu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("açık mavi kalp"),
+			keywords: &[
+				"açık mavi",
+				"açık mavi kalp",
+				"aşk",
+				"camgöbeği",
+				"deniz mavisi",
+				"duygu",
+				"gökyüzü mavisi",
+				"kalp",
+				"sevgi",
+				"özel kişi",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("блакитне серце"),
+			keywords: &[
+				"блакитне серце",
+				"блакитний",
+				"емоція",
+				"люблю",
+				"любов",
+				"милий",
+				"особливий",
+				"подобатися",
+				"світло-синій",
+				"серце",
+				"синій",
+				"ціановий",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ہلکا نیلا دل"),
+			keywords: &[
+				"آسمانی نیلا",
+				"جذبات",
+				"خاص",
+				"دل",
+				"سیان",
+				"محبت",
+				"نیلگوں",
+				"ہلکا نیلا",
+				"ہلکا نیلا دل",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("och koʻk yurak"),
+			keywords: &[
+				"hissiyot",
+				"koʻk",
+				"moviy",
+				"och koʻk",
+				"och koʻk yurak",
+				"sevimli",
+				"yoqimtoy",
+				"yurak",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trái tim màu xanh dương nhạt"),
+			keywords: &[
+				"143",
+				"cảm xúc",
+				"dễ thương",
+				"thích",
+				"trái tim",
+				"trái tim màu xanh dương nhạt",
+				"xanh dương nhạt",
+				"xanh lơ",
+				"xanh mòng két",
+				"yêu",
+				"đặc biệt",
+			],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("xol bu bleu clair"),
+			keywords: &["bleu clair", "cyan", "sarcelle", "xol", "xol bleu clair", "xol bu bleu clair"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("okàn buluu díè"),
+			keywords: &["búlùú díẹ\u{300}", "okàn buluu díè", "síyánì", "tílì", "ọkàn"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("okàn buluu díè"),
+			keywords: &["búlùú díɛ\u{300}", "okàn buluu díè", "síyánì", "tílì", "ɔkàn"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("淺藍色心"),
+			keywords: &["心形", "淺藍", "淺藍色心", "青", "青色"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("浅蓝色心"),
+			keywords: &["心形", "浅蓝", "浅蓝色心", "青", "青色"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("浅蓝色的心"),
+			keywords: &[
+				"可爱",
+				"喜欢",
+				"天蓝",
+				"心",
+				"感情",
+				"我爱你",
+				"浅蓝",
+				"浅蓝色的心",
+				"爱",
+				"特殊",
+				"蓝绿",
+				"蓝绿色",
+				"青色",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("淺藍心"),
+			keywords: &[
+				"心型",
+				"淺藍",
+				"淺藍心",
+				"淺藍，天蘭，喜歡，心情，心，可愛，愛，特殊，藍綠",
+				"藍綠",
+				"青綠",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"可愛",
+				"喜歡",
+				"天藍色",
+				"情緒",
+				"愛心",
+				"愛情",
+				"我愛你",
+				"深藍綠色",
+				"淺藍色",
+				"特別",
+				"藍心",
+				"藍綠色",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("light blue heart"),
+			keywords: &[
+				"cyan",
+				"inhiziyo eluhlaza okukhanyayo",
+				"inhliziyo",
+				"light blue heart",
+				"luhlaza olukhanyako",
+				"teal",
+			],
+		},
+	],
+};
+#[doc = "🩶"]
+pub const GREY_HEART: crate::Emoji = crate::Emoji {
+	glyph:                "🩶",
+	codepoint:            &[129654u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "grey heart",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Heart,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("grys hart"),
+			keywords: &["143", "emosie", "grys", "hart", "leikleurig", "liefde", "silwer", "spesiaal"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ግራጫ ልብ"),
+			keywords: &["143", "ልብ", "ልዩ", "ሰሌዳ", "ስሜት", "ሽበት", "ብር", "እወድሃለሁ", "እወድሻለሁ", "ግራጫ", "ፍቅር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قلب رمادي"),
+			keywords: &["أحبك", "حب", "رمادي", "صخري", "عاطفة", "فضي", "قلب", "مشاعر خاصة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ধ\u{9c2}সৰ নীল\u{9be}"),
+			keywords: &[
+				"ধ\u{9c2}সৰ",
+				"ধ\u{9c2}সৰ নীল\u{9be}",
+				"শ\u{9cd}লেট",
+				"হ\u{9c3}দয\u{9bc}",
+				"ৰ\u{9c2}প\u{9be}লী",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("boz ürək"),
+			keywords: &["boz", "gümüş", "sevgi", "xüsusi şəxs", "ürək", "şifer"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("шэрае сэрца"),
+			keywords: &["грыфельны", "срэбны", "сэрца", "шэрае сэрца", "шэры"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("сиво сърце"),
+			keywords: &[
+				"емоция",
+				"обичам те",
+				"сив",
+				"сиво сърце",
+				"сребристо",
+				"сребърно",
+				"сърце",
+				"тъмносиво",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ধ\u{9c2}সর হ\u{9be}র\u{9cd}ট"),
+			keywords: &[
+				"আবেগ",
+				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
+				"ধ\u{9c2}সর",
+				"র\u{9c1}পো",
+				"স\u{9cd}লেট",
+				"হ\u{9be}র\u{9cd}ট",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("sivo srce"),
+			keywords: &["kamen", "siva", "sivo srce", "srce", "srebrna"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("cor gris"),
+			keywords: &["amor", "bonic", "cor", "gris", "plata", "platejat"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎬᎿᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
+			keywords: &["ᎤᎾᏫ", "ᎤᏁᎦ ᎠᏕᎳ", "ᎤᏍᎪᎸ", "ᎬᎿᎨ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("šedé srdce"),
+			keywords: &[
+				"břidlice",
+				"břidlicová",
+				"láska",
+				"líbí",
+				"srdce",
+				"srdíčko",
+				"stříbrná",
+				"šedivá",
+				"šedá",
+				"šedé srdce",
+				"šedé srdíčko",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("calon lwyd"),
+			keywords: &["143", "arbennig", "arian", "calon", "calon lwyd", "emosiwn", "llechi", "llwyd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("gråt hjerte"),
+			keywords: &["elsker", "følelse", "gråt", "hjerte", "skifer", "særligt", "sølv"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("graues Herz"),
+			keywords: &[
+				"Emotion",
+				"Herz",
+				"Liebe",
+				"grau",
+				"graues Herz",
+				"hdl",
+				"schieferfarben",
+				"silber",
+				"silberfarben",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("γκρι καρδιά"),
+			keywords: &["ασημί", "γκρι", "καρδιά", "σχιστόλιθος"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("grey heart"),
+			keywords: &[
+				"143", "emotion", "gray", "grey", "heart", "ily", "love", "silver", "slate", "special",
+			],
+		},
+		#[cfg(feature = "en_001")]
+		crate::Annotation {
+			lang:     "en_001",
+			tts:      None,
+			keywords: &["grey", "heart", "silver", "slate"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("corazón gris"),
+			keywords: &["corazón", "gris", "pizarra", "plata"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["amor", "corazón", "emoción", "especial", "gris", "metalizado", "plateado"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("hall süda"),
+			keywords: &[
+				"armastan",
+				"armastus",
+				"emotsioon",
+				"eriline",
+				"hall",
+				"hõbedane",
+				"meeldib",
+				"paehall",
+				"süda",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bihotz grisa"),
+			keywords: &[
+				"143",
+				"arbela",
+				"bihotz grisa",
+				"bihotza",
+				"emozioa",
+				"grisa",
+				"zilarra",
+				"zirrara",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قلب خاکستری"),
+			keywords: &[
+				"احساس",
+				"خاص",
+				"خاکستری",
+				"دوستت دارم",
+				"رنگ خاکستری لوح",
+				"عشق",
+				"قلب",
+				"نقره\u{200c}ای",
+				"ویژه",
+				"۱۴۳",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("harmaa sydän"),
+			keywords: &["harmaa", "hopea", "rakkaus", "siniharmaa", "sydän", "tunne"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("grey na puso"),
+			keywords: &["gray", "grey na puso", "puso", "silver"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("grátt hjarta"),
+			keywords: &["grátt", "hjarta"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("cœur gris"),
+			keywords: &[
+				"143", "amour", "ardoise", "argent", "argenté", "cœur", "gris", "jtm", "spécial", "émotion",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["ardoise", "argenté", "cœur", "gris"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("croí liath"),
+			keywords: &["airgead", "croí", "liath", "slinn"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cridhe glas"),
+			keywords: &["airgead", "cridhe", "glas", "liath", "sgleat"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("corazón gris"),
+			keywords: &["amor", "emoción", "especial", "gris", "prateado", "quérote"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ભ\u{ac2}ખરા ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
+			keywords: &[
+				"143",
+				"ગ\u{acd}ર\u{ac7}",
+				"ચા\u{a82}દી",
+				"દિલ",
+				"પ\u{acd}યાર",
+				"પ\u{acd}ર\u{ac7}મ",
+				"ભ\u{ac2}ખરા",
+				"ભ\u{ac2}ખરા ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
+				"રાખોડી",
+				"ર\u{ac2}પ\u{ac1}\u{a82}",
+				"લવ",
+				"લાગણી",
+				"સ\u{acd}લ\u{ac7}ટ",
+				"હ\u{ac3}દય",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("zuciya ruwan toka"),
+			keywords: &[
+				"allo",
+				"azurfa",
+				"motsa zuciya",
+				"ruwan toka",
+				"so",
+				"zuciya",
+				"zuciya ruwan toka",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("zuciya ruwan toka"),
+			keywords: &[
+				"allo",
+				"azurfa",
+				"motsa zuciya",
+				"ruwan toka",
+				"so",
+				"zuciya",
+				"zuciya ruwan toka",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("לב אפור"),
+			keywords: &["אהבה", "אפור", "כסוף", "לב", "רגש"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}ल\u{947}टी दिल"),
+			keywords: &[
+				"143",
+				"ग\u{94d}र\u{947}",
+				"दिल",
+				"प\u{94d}यार",
+				"रजत",
+				"स\u{94d}ल\u{947}ट",
+				"स\u{94d}ल\u{947}टी",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("sivo srce"),
+			keywords: &["emocija", "ljubav", "osjećaj", "posebno", "sivo", "srce", "srebrno"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("szürke szív"),
+			keywords: &["ezüst", "pala", "szív", "szürke"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մոխրագույն սիրտ"),
+			keywords: &["արծաթագույն", "գորշ", "մոխրագույն", "սիրտ", "սրտիկ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("hati abu-abu"),
+			keywords: &["abu-abu", "hati", "hati terbuat dari batu", "perak"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("obi na-acha gré"),
+			keywords: &[
+				"143",
+				"ily",
+				"mmetụta",
+				"na-acha ntụ",
+				"obi",
+				"pụrụ iche",
+				"ìgbe ndesịta",
+				"ịhụnanya",
+				"ọlaọcha",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("grátt hjarta"),
+			keywords: &["blágrár", "grátt", "hjarta", "silfur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("cuore grigio"),
+			keywords: &["amore", "ardesia", "argento", "cuore", "emozione", "grigio"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("灰色のハート"),
+			keywords: &[
+				"グレー",
+				"スレートグレー",
+				"ハート",
+				"ラブ",
+				"好き",
+				"愛",
+				"灰色",
+				"灰色のハート",
+				"銀色",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ati awu-awu"),
+			keywords: &["ati", "awu-awu", "awu-awu tuwa", "salaka"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("რუხი გული"),
+			keywords: &["გული", "ვერცხლისფერი", "ნაცრისფერი", "რუხი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("ul idbar"),
+			keywords: &["u idbar", "ul idbar"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("сұр жүрек"),
+			keywords: &["143", "жүрек", "күміс", "көкшіл сұр", "махаббат", "сұр", "эмоция"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ប\u{17d2}រផេះ"),
+			keywords: &[
+				"បេះដ\u{17bc}ង",
+				"បេះដ\u{17bc}ងពណ\u{17cc}ប\u{17d2}រផេះ",
+				"ប\u{17d2}រផេះ",
+				"ប\u{17d2}រាក\u{17cb}",
+				"ភក\u{17cb}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cc2}ದು ಬಣ\u{ccd}ಣದ ಹೃದಯ"),
+			keywords: &[
+				"143",
+				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
+				"ಬ\u{cc2}ದು",
+				"ಬ\u{cc2}ದು ಬಣ\u{ccd}ಣದ ಹೃದಯ",
+				"ಬ\u{cc6}ಳ\u{ccd}ಳ\u{cbf}",
+				"ಸ\u{ccd}ಲ\u{cc7}ಟ\u{ccd}",
+				"ಹೃದಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("회색 하트"),
+			keywords: &["슬레이트색", "은색", "하트", "회색"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("राखी र\u{902}गाच\u{947}\u{902} काळीज"),
+			keywords: &[
+				"ily",
+				"काळीज",
+				"खास",
+				"गोबरो",
+				"पाटी",
+				"भावना",
+				"मोग",
+				"राखाडी",
+				"र\u{941}प\u{947}\u{902}",
+				"१४३",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("боз түстөгү жүрөк"),
+			keywords: &[
+				"143",
+				"боз",
+				"боз түстөгү жүрөк",
+				"жүрөк",
+				"күмүш",
+				"шифер түстүү",
+				"эмоция",
+				"өзгөчө",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ເທ\u{ebb}າ"),
+			keywords: &[
+				"143",
+				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
+				"ຄວາມຮ\u{eb1}ກ",
+				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
+				"ພ\u{eb4}ເສດ",
+				"ສ\u{eb5}ຂ\u{eb5}\u{ec9}ເຖ\u{ebb}\u{ec8}າ",
+				"ສ\u{eb5}ດ\u{ec9}ານ",
+				"ສ\u{eb5}ເງ\u{eb4}ນ",
+				"ສ\u{eb5}ເທ\u{ebb}າ",
+				"ຫ\u{ebb}ວໃຈ",
+				"ຫ\u{ebb}ວໃຈສ\u{eb5}ຂ\u{eb5}\u{ec9}ເຖ\u{ebb}\u{ec8}າ",
+				"ຫ\u{ebb}ວໃຈສ\u{eb5}ເງ\u{eb4}ນ",
+				"ຫ\u{ebb}ວໃຈສ\u{eb5}ເທ\u{ebb}າ",
+				"ຮ\u{eb1}ກ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("pilka širdelė"),
+			keywords: &[
+				"aš tave myliu",
+				"emocija",
+				"granitas",
+				"meilė",
+				"pilka",
+				"pilka širdelė",
+				"sidabras",
+				"ypatinga",
+				"širdis",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("pelēka sirds"),
+			keywords: &["pelēka sirds", "pelēks", "sirds", "sudrabs", "šīferis"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("сиво срце"),
+			keywords: &["сиво", "сребрено", "срце", "чувство", "љубов"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ച\u{d3e}ര നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
+			keywords: &[
+				"ച\u{d3e}ര നിറ ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+				"ച\u{d3e}ര നിറം",
+				"ച\u{d3e}ര നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+				"പ\u{d4d}രണയം",
+				"വെള\u{d4d}ളി",
+				"സ\u{d4d}ലേറ\u{d4d}റ\u{d4d}",
+				"ഹ\u{d43}ദയം",
+				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("саарал зүрх"),
+			keywords: &["зүрх", "мөнгөлөг", "саарал", "хавтан"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("करड\u{947} ह\u{943}दय"),
+			keywords: &["करडा", "करड\u{947} ह\u{943}दय", "च\u{902}द\u{947}री", "दगडी", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("hati kelabu"),
+			keywords: &["hati", "hati pucat", "kelabu", "perak", "slat"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မ\u{102e}းခ\u{102d}\u{102f}းရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
+			keywords: &[
+				"င\u{103d}ေရောင\u{103a}",
+				"န\u{103e}လ\u{102f}\u{1036}း",
+				"မ\u{102e}းခ\u{102d}\u{102f}းရောင\u{103a}",
+				"သင\u{103a}ပ\u{102f}န\u{103a}းရောင\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("ख\u{948}रो म\u{941}ट\u{941}"),
+			keywords: &[
+				"143",
+				"ily",
+				"ख\u{948}रो",
+				"ग\u{94d}र\u{947}",
+				"चा\u{901}दी",
+				"भावना",
+				"माया",
+				"म\u{941}ट\u{941}",
+				"विश\u{947}ष",
+				"स\u{94d}ल\u{947}ट",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("grijs hart"),
+			keywords: &["grijs", "hart", "leigrijs", "zilver"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("grått hjarte"),
+			keywords: &["grått", "hjarte", "skifer", "sylv", "sølv"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଧ\u{b42}ସର ହ\u{b43}ଦୟ"),
+			keywords: &["ଧ\u{b42}ସର", "ସ\u{b3f}ଲଭର\u{b4d}", "ସ\u{b4d}ଲେଟ\u{b4d}", "ହ\u{b43}ଦୟ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਲ\u{a47}ਟੀ ਦਿਲ"),
+			keywords: &["143", "ਚਾ\u{a02}ਦੀ", "ਦਿਲ", "ਪਿਆਰ", "ਮਨ", "ਸਲ\u{a47}ਟੀ", "ਸਿਲਵਰ", "ਸ\u{a41}ਰਮਈ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Gré Kọ\u{301}lọ Hat"),
+			keywords: &[
+				"Dák Gré Kọ\u{301}lọ",
+				"Gré Kọ\u{301}lọ",
+				"Gré Kọ\u{301}lọ Hat",
+				"Hat",
+				"Sílvá Kọ\u{301}lọ",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("szare serce"),
+			keywords: &[
+				"143",
+				"ciemnoszare",
+				"kocham cię",
+				"miłość",
+				"serce",
+				"specjalne",
+				"srebrne",
+				"szare",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("خړ زړه"),
+			keywords: &["خړ", "زړه", "سلیټ", "سپين زر"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("coração cinza"),
+			keywords: &[
+				"adorar",
+				"adorei",
+				"amo você",
+				"amor",
+				"ardósia",
+				"cinza",
+				"coração",
+				"emoção",
+				"especial",
+				"eu te amo",
+				"gostar",
+				"gostei",
+				"prata",
+				"te amo",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("coração cinzento"),
+			keywords: &["ardósia", "chumbo", "cinza", "cinzento", "coração", "prata", "prateado"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("uqi sunqu"),
+			keywords: &["qata", "sunqu", "uqi"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("inimă gri"),
+			keywords: &["argintiu", "cenușiu", "gri", "inimă"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-003"), keywords: &["E15-003"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("серое сердце"),
+			keywords: &["любовь", "сердце", "серебряное", "серое"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("سرمائي دل"),
+			keywords: &["دل", "سرمائي", "سليٽ", "چاندي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("අළ\u{dd4} හදවත"),
+			keywords: &["අළ\u{dd4}", "ර\u{dd2}ද\u{dd3}", "හදවත"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("sivé srdce"),
+			keywords: &["láska", "sivé", "srdce", "strieborné", "šedé"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("sivo srce"),
+			keywords: &[
+				"RTM",
+				"ljubezen",
+				"sivo",
+				"skrilasto",
+				"srce",
+				"srebrno",
+				"všeč si mi",
+				"čustva",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qalbi cawlan"),
+			keywords: &["cawlan", "qalbi", "qalin", "slate"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zemër ngjyrë gri"),
+			keywords: &[
+				"143",
+				"argjend",
+				"dashuri",
+				"e hirtë",
+				"e veçantë",
+				"emocion",
+				"gri",
+				"të dua",
+				"zemër ngjyrë gri",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("сиво срце"),
+			keywords: &["емоција", "посебно", "сиво", "сребрно", "срце", "шкриљац љубав"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("sivo srce"),
+			keywords: &["emocija", "posebno", "sivo", "srce", "srebrno", "škriljac ljubav"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("grått hjärta"),
+			keywords: &["grå", "hjärta", "känsla", "kärlek", "silver", "skiffer"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("moyo wa kijivu"),
+			keywords: &[
+				"143",
+				"fedha",
+				"hisia",
+				"kijivu",
+				"maalum",
+				"moyo",
+				"moyo wa kijivu",
+				"nakupenda",
+				"tabasamu na hisia",
+				"upendo",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ச\u{bbe}ம\u{bcd}பல\u{bcd} நிற இதயம\u{bcd}"),
+			keywords: &[
+				"இதயம\u{bcd}",
+				"க\u{bbe}தல\u{bcd}",
+				"கிரே இதயம\u{bcd}",
+				"ச\u{bbe}ம\u{bcd}பல\u{bcd} நிற இதயம\u{bcd}",
+				"ச\u{bbe}ம\u{bcd}பல\u{bcd} நிறம\u{bcd}",
+				"சில\u{bcd}வர\u{bcd}",
+				"ஸ\u{bcd}லேட\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("బూడ\u{c3f}ద రంగు హృదయం"),
+			keywords: &[
+				"ఐ లవ\u{c4d}యూ",
+				"పలక",
+				"ప\u{c4d}ర\u{c47}మ",
+				"బూడ\u{c3f}ద రంగు",
+				"బూడ\u{c3f}ద రంగు హృదయం",
+				"వ\u{c46}ండ\u{c3f}",
+				"స\u{c4d}ప\u{c46}షల\u{c4d} పర\u{c4d}సన\u{c4d}",
+				"హృదయం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e31}วใจส\u{e35}เทา"),
+			keywords: &[
+				"พ\u{e34}เศษ",
+				"ร\u{e31}ก",
+				"ส\u{e35}เทา",
+				"ห\u{e31}วใจ",
+				"ห\u{e34}นชนวน",
+				"อารมณ\u{e4c}",
+				"เง\u{e34}น",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ግራጭ ልቢ"),
+			keywords: &["ልቢ", "ብሩር ዝመስል", "ግራጭ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("küljümek ýürek"),
+			keywords: &["küljümek ýürek"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mafu lanulavilavi"),
+			keywords: &["fulutui", "lanulavilavi", "mafu", "tukumisi"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("gri kalp"),
+			keywords: &["aşk", "duygu", "gri", "gümüş", "kalp", "kurşun", "sevgi", "taş", "özel kişi"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сіре серце"),
+			keywords: &[
+				"графітовий",
+				"емоція",
+				"люблю",
+				"любов",
+				"особливий",
+				"серце",
+				"срібний",
+				"сіре серце",
+				"сірий",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("خاکستری دل"),
+			keywords: &["جذبات", "خاکستری", "دل", "سلور", "سلیٹ", "محبت"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("kulrang yurak"),
+			keywords: &["143", "hissiyot", "kulrang", "kumush", "maxsus", "sevgi", "yurak"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trái tim màu xám"),
+			keywords: &[
+				"143",
+				"bạc",
+				"cảm xúc",
+				"trái tim",
+				"trái tim màu xám",
+				"xám",
+				"xám đen",
+				"yêu",
+				"đặc biệt",
+			],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("xol bu doomu-taal"),
+			keywords: &["arduwaas", "doomu-taal", "xaalis", "xol", "xol bu doomu-taal"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ọkan eerú"),
+			keywords: &["eérú", "sífà", "síléètì", "ọkan eerú", "ọkàn"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ɔkan eerú"),
+			keywords: &["eérú", "sífà", "síléètì", "ɔkan eerú", "ɔkàn"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("灰色心"),
+			keywords: &["心形", "灰心", "灰色", "灰色心", "銀色"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("灰色心"),
+			keywords: &["心形", "灰心", "灰色", "灰色心", "银色"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("灰心"),
+			keywords: &["心", "感情", "我爱你", "暗灰", "灰", "灰心", "灰色", "爱", "特殊", "银", "银色"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("灰色愛心"),
+			keywords: &[
+				"心型",
+				"暗灰色",
+				"灰",
+				"灰色愛心",
+				"灰色，特殊，心情，愛心，愛，銀色",
+				"石板色",
+				"銀",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("灰色心"),
+			keywords: &[
+				"傷心",
+				"冇心情",
+				"心型",
+				"愛心",
+				"愛情",
+				"我愛你",
+				"暗灰色",
+				"灰",
+				"灰心",
+				"灰色",
+				"灰色心",
+				"無心情",
+				"特別",
+				"石板色",
+				"銀",
+				"銀心",
+				"銀色",
+				"黑白",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inhliziyo e-grey"),
+			keywords: &["gray", "inhliziyo", "inhliziyo e-grey", "inhliziyo egray", "silver", "slate"],
+		},
+	],
+};
+#[doc = "🩷"]
+pub const PINK_HEART: crate::Emoji = crate::Emoji {
+	glyph:                "🩷",
+	codepoint:            &[129655u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "pink heart",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Heart,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("pienk hart"),
+			keywords: &["hart", "hartjie", "hou van", "liefde", "oulik", "pienk", "spesiaal"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሮዝ ልብ"),
+			keywords: &[
+				"143",
+				"ልብ",
+				"ልዩ",
+				"መውደድ",
+				"ሮዝ",
+				"ስሜት",
+				"ቆንጆ",
+				"እወድሃለሁ",
+				"እወድሻለሁ",
+				"የሚወደድ",
+				"የሚያምር",
+				"ጣፋጭ",
+				"ፍቅር",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قلب وردي"),
+			keywords: &["أحبك", "إعجاب", "حب", "زهري", "فاتن", "قلب", "وردي"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("গোল\u{9be}পী হ\u{9c3}দয\u{9bc}"),
+			keywords: &[
+				"গ\u{9c1}লপীয\u{9bc}\u{9be}",
+				"গোল\u{9be}পী হ\u{9c3}দয\u{9bc}",
+				"প\u{9cd}ৰেম",
+				"মৰমলগ\u{9be}",
+				"ল\u{9be}ইক",
+				"হ\u{9c3}দয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("çəhrayı ürək"),
+			keywords: &["emosiya", "sevgi", "xoş", "xoşlamaq", "çəhrayı", "ürək", "şirin"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("ружовае сэрца"),
+			keywords: &["каханне", "мілы", "падабаецца", "ружовае сэрца", "ружовы", "сэрца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("розово сърце"),
+			keywords: &["емоция", "любов", "обичам те", "розово", "сладко", "сърце", "харесвам"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("গোল\u{9be}পী হ\u{9be}র\u{9cd}ট"),
+			keywords: &[
+				"আমি তোম\u{9be}কে ভ\u{9be}লোব\u{9be}সি",
+				"গোল\u{9be}পী",
+				"গোল\u{9be}পী হ\u{9be}র\u{9cd}ট",
+				"পছন\u{9cd}দ",
+				"ভ\u{9be}লব\u{9be}স\u{9be}",
+				"ভ\u{9be}লোব\u{9be}স\u{9be}",
+				"মিষ\u{9cd}টি",
+				"স\u{9c1}ন\u{9cd}দর",
+				"হ\u{9c3}দয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("ružičasto srce"),
+			keywords: &["ljubav", "ružičasta", "ružičasto srce", "slatko", "srce", "sviđanje"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("cor rosa"),
+			keywords: &["adorable", "agradar", "amor", "bonic", "cor", "especial", "rosa"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎩᎦᎨ ᎤᏍᎪᎸ ᎤᎾᏫ"),
+			keywords: &["ᎠᎩᎸᏉᏗ", "ᎤᎾᏫ", "ᎤᏍᎪᎸ", "ᎩᎦᎨ", "ᎬᎨᏳ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("růžové srdce"),
+			keywords: &[
+				"láska",
+				"líbí",
+				"roztomilý",
+				"růžová",
+				"růžové srdce",
+				"růžové srdíčko",
+				"srdce",
+				"srdíčko",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("calon binc"),
+			keywords: &[
+				"143",
+				"arbennig",
+				"calon",
+				"calon binc",
+				"caru",
+				"ciwt",
+				"emosiwn",
+				"hoffi",
+				"melys",
+				"pert",
+				"pinc",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("lyserødt hjerte"),
+			keywords: &[
+				"elsker",
+				"følelse",
+				"hjerte",
+				"kærlighed",
+				"lyserød",
+				"lyserødt hjerte",
+				"nuttet",
+				"pink",
+				"synes om",
+				"særligt",
+				"sødt",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("pinkes Herz"),
+			keywords: &[
+				"Gefühl", "Herz", "Liebe", "gefallen", "gefällt", "mag", "mögen", "niedlich", "pink",
+				"rosa", "süß", "verliebt",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"Gefühl", "Herz", "Liebe", "flirten", "gefallen", "gefällt", "mag", "mögen", "pink",
+				"rosa", "süss", "verliebt",
+			],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ροζ καρδιά"),
+			keywords: &["αγάπη", "γλυκό", "καρδιά", "μου αρέσει", "ροζ"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("pink heart"),
+			keywords: &[
+				"143", "adorable", "cute", "emotion", "heart", "ily", "like", "love", "pink", "special",
+				"sweet",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("corazón rosa"),
+			keywords: &["amor", "bonito", "corazón", "gustar", "rosa"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"adorable", "amor", "corazón", "dulce", "emoción", "especial", "rosa", "ternura", "tierno",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("roosa süda"),
+			keywords: &[
+				"armas",
+				"armastan",
+				"armastus",
+				"emotsioon",
+				"eriline",
+				"meeldib",
+				"nunnu",
+				"roosa",
+				"süda",
+				"tunne",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bihotz arrosa"),
+			keywords: &[
+				"143",
+				"arrosa",
+				"atsegin",
+				"bihotz arrosa",
+				"bihotza",
+				"gogoko",
+				"maitagarria",
+				"maitasuna",
+				"polita",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قلب صورتی"),
+			keywords: &[
+				"احساس",
+				"بامزه",
+				"خاص",
+				"دوست داشتن",
+				"دوستت دارم",
+				"دوست\u{200c}داشتنی",
+				"صورتی",
+				"عشق",
+				"علاقه",
+				"قلب",
+				"ناز",
+				"۱۴۳",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("pinkki sydän"),
+			keywords: &["pinkki", "rakkaus", "sydän", "söpö", "tunne", "tykkäys", "vaaleanpunainen"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("pink na puso"),
+			keywords: &["cute", "gusto", "kulay rosas", "pink na puso", "puso"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("ljósareytt hjarta"),
+			keywords: &["hjarta", "kærleiki", "ljósareytt"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("cœur rose"),
+			keywords: &["143", "adorable", "aimer", "amour", "cœur", "jtm", "mignon", "rose", "émotion"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["aimer", "amour", "cœur", "mignon", "rose"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("croí bándearg"),
+			keywords: &["bándearg", "croí", "gleoite", "grá", "is maith liom"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("crithe pinc"),
+			keywords: &["cridhe", "crithe pinc", "gaol", "pinc", "stampa", "toil"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("corazón rosa"),
+			keywords: &["adorable", "amor", "doce", "emoción", "especial", "gustar", "quérote", "rosa"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ગ\u{ac1}લાબી ર\u{a82}ગન\u{ac1}\u{a82} દિલ"),
+			keywords: &[
+				"143",
+				"ગ\u{ac1}લાબી",
+				"ગ\u{ac1}લાબી ર\u{a82}ગન\u{ac1}\u{a82} દિલ",
+				"દિલ",
+				"પસ\u{a82}દ",
+				"પ\u{acd}યાર",
+				"પ\u{acd}રિય",
+				"પ\u{acd}ર\u{ac7}મ",
+				"વ\u{acd}હાલ\u{ac1}\u{a82}",
+				"સ\u{ac1}\u{a82}દર",
+				"હ\u{ac3}દય",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("zuciya ruwan hoda"),
+			keywords: &[
+				"bege",
+				"gwanina",
+				"kamar",
+				"kyau",
+				"ruwan hoda",
+				"so",
+				"soyayya",
+				"zuciya",
+				"zuciya ruwan hoda",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("zuciya ruwan hoda"),
+			keywords: &[
+				"bege",
+				"gwanina",
+				"kamar",
+				"kyau",
+				"ruwan hoda",
+				"so",
+				"soyayya",
+				"zuciya",
+				"zuciya ruwan hoda",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("לב ורוד"),
+			keywords: &["אהבה", "אהבתי", "ורוד", "חמוד", "לב", "רגש"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ग\u{941}लाबी दिल"),
+			keywords: &[
+				"आई लव य\u{942}",
+				"ग\u{941}लाबी",
+				"दिल",
+				"पस\u{902}द",
+				"प\u{94d}यार",
+				"प\u{94d}यारा",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("ružičasto srce"),
+			keywords: &[
+				"emocija",
+				"ljubav",
+				"neodoljivo",
+				"posebno",
+				"roza",
+				"ružičasto",
+				"slatko",
+				"srce",
+				"sviđanje",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("rózsaszín szív"),
+			keywords: &["cuki", "rózsaszín", "szerelem", "szív", "tetszik"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("վարդագույն սիրտ"),
+			keywords: &["սեր", "սիրում եմ", "սիրտ", "սրտիկ", "վարդագույն"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("hati merah muda"),
+			keywords: &[
+				"cinta",
+				"hati",
+				"hati merah muda",
+				"imut",
+				"lucu",
+				"merah muda",
+				"pink",
+				"spesial",
+				"suka",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("obi na-acha pink"),
+			keywords: &[
+				"143",
+				"ihunanya",
+				"ily",
+				"mara mma",
+				"mmasị",
+				"mmetụta",
+				"obi",
+				"pink",
+				"pụrụ iche",
+				"ụtọ",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("bleikt hjarta"),
+			keywords: &["bleikt", "hjarta", "krútt", "sætt", "ást"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("cuore rosa"),
+			keywords: &["affetto", "amore", "cuore", "emozione", "rosa"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ピンクのハート"),
+			keywords: &[
+				"かわいい",
+				"スペシャル",
+				"ハート",
+				"ピンク",
+				"ピンクのハート",
+				"ラブ",
+				"好き",
+				"愛",
+				"愛してる",
+				"気持ち",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("ati jambon"),
+			keywords: &["ati", "imut", "jambon", "seneng", "tresna"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ვარდისფერი გული"),
+			keywords: &["გული", "ვარდისფერი", "მოწონება", "საყვარელი", "სიყვარული"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("ul axuxi"), keywords: &["ul axuxi"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("қызғылт жүрек"),
+			keywords: &["143", "жүрек", "махаббат", "сүйкімді", "қызғылт", "ұнату"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ផ\u{17d2}កាឈ\u{17bc}ក"),
+			keywords: &[
+				"គ\u{17bd}រឱ\u{17d2}យស\u{17d2}រឡាញ\u{17cb}",
+				"ច\u{17bc}លច\u{17b7}ត\u{17d2}ត",
+				"បេះដ\u{17bc}ង",
+				"បេះដ\u{17bc}ងពណ\u{17cc}ផ\u{17d2}កាឈ\u{17bc}ក",
+				"ផ\u{17d2}កាឈ\u{17bc}ក",
+				"ស\u{17d2}រឡាញ\u{17cb}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಗುಲಾಬ\u{cbf} ಬಣ\u{ccd}ಣದ ಹೃದಯ"),
+			keywords: &[
+				"ಇಷ\u{ccd}ಟ",
+				"ಗುಲಾಬ\u{cbf}",
+				"ಗುಲಾಬ\u{cbf} ಬಣ\u{ccd}ಣದ ಹೃದಯ",
+				"ಪ\u{cbf}ಂಕ\u{ccd}",
+				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
+				"ಮುದ\u{ccd}ದಾದ",
+				"ಲವ\u{ccd}",
+				"ಸ\u{ccd}ವ\u{cc0}ಟ\u{ccd}",
+				"ಹೃದಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("분홍색 하트"),
+			keywords: &["귀여움", "분홍색", "사랑해", "좋아해", "하트"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("ग\u{941}लाबी र\u{902}गाच\u{947}\u{902} काळीज"),
+			keywords: &[
+				"ily",
+				"आराध\u{94d}य",
+				"काळजाच\u{947}\u{902}",
+				"खाश\u{947}ल\u{947}\u{902}",
+				"ग\u{941}लाबी र\u{902}गाच\u{947}\u{902}",
+				"गो\u{902}डस",
+				"गोड",
+				"भावन\u{947}च\u{947}\u{902}",
+				"मोग",
+				"सारक\u{947}\u{902}",
+				"१४३",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("кызгылт түстөгү жүрөк"),
+			keywords: &["жакты", "жүрөк", "кызгылт", "кызгылт түстөгү жүрөк", "сүйкүмдүү"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ebb}ວໃຈສ\u{eb5}ບ\u{ebb}ວ"),
+			keywords: &[
+				"143",
+				"ຂ\u{ec9}ອຍຮ\u{eb1}ກເຈ\u{ebb}\u{ec9}າ",
+				"ຄວາມຮ\u{eb1}ກ",
+				"ຄວາມຮ\u{eb9}\u{ec9}ສ\u{eb6}ກ",
+				"ຕາແພງ",
+				"ພ\u{eb4}ເສດ",
+				"ມ\u{eb1}ກ",
+				"ສ\u{eb5}ບ\u{ebb}ວ",
+				"ຫ\u{ebb}ວໃຈ",
+				"ຫ\u{ebb}ວໃຈສ\u{eb5}ບ\u{ebb}ວ",
+				"ຮ\u{eb1}ກ",
+				"ເປ\u{eb1}ນຕາແພງ",
+				"ໜ\u{ec9}າຮ\u{eb1}ກ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("rožinė širdelė"),
+			keywords: &[
+				"aš tave myliu",
+				"emocija",
+				"meilė",
+				"miela",
+				"myliu",
+				"patinka",
+				"rožinė",
+				"rožinė širdelė",
+				"ypatinga",
+				"širdis",
+				"žavinga",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("rozā sirds"),
+			keywords: &["jauka", "mīlestība", "patīk", "rozā", "sirds"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("розово срце"),
+			keywords: &["неодоливо", "розово", "симпатично", "слатко", "срце", "чувство", "љубов"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("പിങ\u{d4d}ക\u{d4d} നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം"),
+			keywords: &[
+				"ഇഷ\u{d4d}ടം",
+				"ചന\u{d4d}തമ\u{d41}ള\u{d4d}ള",
+				"പിങ\u{d4d}ക\u{d4d}",
+				"പിങ\u{d4d}ക\u{d4d} നിറത\u{d4d}തില\u{d41}ള\u{d4d}ള ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+				"പ\u{d4d}രണയം",
+				"പ\u{d4d}രേമം",
+				"ഭംഗി",
+				"സ\u{d4d}നേഹം",
+				"ഹ\u{d43}ദയം",
+				"ഹ\u{d43}ദയചിഹ\u{d4d}നം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ягаан зүрх"),
+			keywords: &["дуртай", "зүрх", "хайр", "эгдүүтэй", "ягаан"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ग\u{941}लाबी ह\u{943}दय"),
+			keywords: &["आवड", "ग\u{941}लाबी", "प\u{94d}र\u{947}म", "स\u{941}\u{902}दर", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("hati merah jambu"),
+			keywords: &[
+				"143",
+				"ILY",
+				"cinta",
+				"comel",
+				"emosi",
+				"hati",
+				"istimewa",
+				"manis",
+				"menawan",
+				"merah jambu",
+				"suka",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပန\u{103a}းရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}း"),
+			keywords: &[
+				"ချစ\u{103a}စရာ",
+				"န\u{103e}စ\u{103a}သက\u{103a}",
+				"န\u{103e}လ\u{102f}\u{1036}း",
+				"ပန\u{103a}းရောင\u{103a}",
+				"အချစ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("ग\u{941}लाबी म\u{941}ट\u{941}"),
+			keywords: &[
+				"ग\u{941}लाबी",
+				"मन पराउन\u{941}",
+				"माया",
+				"म\u{941}ट\u{941}",
+				"स\u{941}न\u{94d}दर",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("roze hart"),
+			keywords: &["hart", "leuk", "liefde", "roze", "schattig"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("rosa hjarte"),
+			keywords: &["elskar", "hjarte", "liker", "rosa", "søtt"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଗୋଲ\u{b3e}ପୀ ହ\u{b43}ଦୟ"),
+			keywords: &["ଗୋଲ\u{b3e}ପୀ", "ପ\u{b4d}ରେମ", "ଯେପର\u{b3f}", "ସ\u{b41}ନ\u{b4d}ଦର", "ହ\u{b43}ଦୟ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਗ\u{a41}ਲਾਬੀ ਦਿਲ"),
+			keywords: &["ਗ\u{a41}ਲਾਬੀ", "ਜਜ\u{a3c}ਬਾਤ", "ਦਿਲ", "ਪਿਆਰ", "ਮਨਪਸ\u{a70}ਦ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Pínk Kọ\u{301}lọ Hat"),
+			keywords: &["Fain", "Hat", "Laik", "Lọv", "Pínk Kọ\u{301}lọ", "Pínk Kọ\u{301}lọ Hat"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("różowe serce"),
+			keywords: &[
+				"143",
+				"emocje",
+				"kocham cię",
+				"lubić",
+				"miłość",
+				"różowe",
+				"serce",
+				"sympatia",
+				"słodkie",
+				"urocze",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ګلابي زړه"),
+			keywords: &["زړه", "لکه", "مینه", "ښکلی", "ګلابي"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("coração rosa"),
+			keywords: &[
+				"adorar",
+				"adorei",
+				"adorável",
+				"amo você",
+				"amor",
+				"amável",
+				"coração",
+				"curtir",
+				"emoção",
+				"especial",
+				"eu te amo",
+				"fofo",
+				"gostar",
+				"gostei",
+				"rosa",
+				"te amo",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"adorável",
+				"amor",
+				"cor-de-rosa",
+				"coração",
+				"fofo",
+				"gostar",
+				"querido",
+				"rosa",
+				"ternura",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("rusadu sunqu"),
+			keywords: &["kuyay", "munay", "rusadu", "sumaq", "sunqu"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("inimă roz"),
+			keywords: &["adorabil", "dragoste", "drăguț", "inimă", "iubi", "plăcea", "roz"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-004"), keywords: &["E15-004"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("розовое сердце"),
+			keywords: &["люблю", "любовь", "мило", "нравится", "розовое", "сердце"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("گلابي دل"),
+			keywords: &["دل", "سھڻو", "پسند", "پيار", "گلابي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("රෝස හදවත"),
+			keywords: &["ආදරය", "රෝස", "වැන\u{dd2}", "හදවත", "හ\u{dd4}ර\u{dd4}බ\u{dd4}හ\u{dd4}ට\u{dd2}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("ružové srdce"),
+			keywords: &["láska", "páči", "roztomilé", "ružové", "srdce"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("rožnato srce"),
+			keywords: &["RTM", "ljubezen", "prisrčno", "rožnato", "srce", "všeč", "všeč si mi", "čustva"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("wadnaha casaan ah"),
+			keywords: &["casaan", "jacayl", "qurxoon", "sida", "wadnaha casaan ah", "wadne"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zemër ngjyrë rozë"),
+			keywords: &[
+				"143",
+				"dashuri",
+				"e adhurueshme",
+				"e lezetshme",
+				"e veçantë",
+				"e ëmbël",
+				"të dua",
+				"zemër",
+				"zemër ngjyrë rozë",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("розе срце"),
+			keywords: &["емоција", "посебно", "розе", "свиђа", "слатко", "срце", "љубав", "љупко"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("roze srce"),
+			keywords: &["emocija", "ljubav", "ljupko", "posebno", "roze", "slatko", "srce", "sviđa"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("rosa hjärta"),
+			keywords: &["bedårande", "gullig", "hjärta", "kärlek", "rosa", "sött", "älskar"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("moyo wa waridi"),
+			keywords: &[
+				"143",
+				"husudu",
+				"maalum",
+				"mlimbwende",
+				"moyo",
+				"moyo wa waridi",
+				"mzuri",
+				"nakupenda",
+				"penda",
+				"rembo",
+				"tabasamu na hisia",
+				"upendo",
+				"waridi",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("இளஞ\u{bcd}சிவப\u{bcd}பு இதயம\u{bcd}"),
+			keywords: &[
+				"அழகு",
+				"இதயம\u{bcd}",
+				"இளஞ\u{bcd}சிவப\u{bcd}பு",
+				"க\u{bbe}தல\u{bcd}",
+				"லவ\u{bcd}லி",
+				"விருப\u{bcd}பம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("గుల\u{c3e}బ\u{c40} రంగు హృదయం"),
+			keywords: &[
+				"ఇష\u{c4d}టం",
+				"గుల\u{c3e}బ\u{c40} రంగు",
+				"గుల\u{c3e}బ\u{c40} రంగు హృదయం",
+				"ప\u{c4d}ర\u{c47}మ",
+				"భ\u{c3e}వ\u{c4b}ద\u{c4d}వ\u{c47}గం",
+				"ముద\u{c4d}దుగ\u{c3e} ఉన\u{c4d}న",
+				"ల\u{c48}క\u{c4d}",
+				"స\u{c4d}ప\u{c46}షల\u{c4d}",
+				"స\u{c4d}వ\u{c40}ట\u{c4d}",
+				"హ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"హృదయం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e31}วใจส\u{e35}ชมพ\u{e39}"),
+			keywords: &[
+				"ชอบ",
+				"ซ\u{e36}\u{e49}ง",
+				"น\u{e48}าร\u{e31}ก",
+				"พ\u{e34}เศษ",
+				"สว\u{e35}ท",
+				"ส\u{e35}ชมพ\u{e39}",
+				"หลงร\u{e31}ก",
+				"ห\u{e31}วใจ",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሮዝ ልቢ"),
+			keywords: &["ልቢ", "ምፍታው", "ሮዝ", "ጽቡቕ", "ፍቕሪ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gülgüne ýürek"),
+			keywords: &["gülgüne ýürek"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mafu lanupingikī"),
+			keywords: &["kulokula", "lanupingikī", "maama", "mafu"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("pembe kalp"),
+			keywords: &[
+				"aşk",
+				"beğen",
+				"duygu",
+				"kalp",
+				"pembe",
+				"seni seviyorum",
+				"sevgi",
+				"sevimli",
+				"özel kişi",
+				"şirin",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("рожеве серце"),
+			keywords: &[
+				"добрий",
+				"емоція",
+				"люблю",
+				"любов",
+				"милий",
+				"особливий",
+				"подобається",
+				"рожеве серце",
+				"рожевий",
+				"серце",
+				"солодкий",
+				"чарівний",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("گلابی دل"),
+			keywords: &["جذبات", "خاص", "دل", "محبت", "پسند", "پسندیدگی", "پیارا", "گلابی"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("pushti yurak"),
+			keywords: &["hissiyot", "pushti", "sevgi", "sevimli", "yoqimtoy", "yoqtirish", "yurak"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trái tim màu hồng"),
+			keywords: &["dễ thương", "hồng", "thích", "trái tim", "trái tim màu hồng", "yêu"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("Xol bu rose"),
+			keywords: &["Xol bu rose", "bëgg", "nob", "rafet", "rose", "xol"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ọkàn pinki"),
+			keywords: &["dára", "fẹ\u{301}ràn", "pínkì", "ìfẹ\u{301}", "ọkàn", "ọkàn pinki"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ɔkàn pinki"),
+			keywords: &["dára", "fɛ\u{301}ràn", "pínkì", "ìfɛ\u{301}", "ɔkàn", "ɔkàn pinki"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("粉紅色心"),
+			keywords: &["可愛", "心形", "愛情", "粉紅", "粉紅色心", "鍾意"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("粉红色心"),
+			keywords: &["可爱", "心形", "爱情", "粉红", "粉红色心", "钟意"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("粉红色的心"),
+			keywords: &[
+				"可爱",
+				"喜欢",
+				"心",
+				"感情",
+				"我爱你",
+				"爱",
+				"特殊",
+				"甜蜜",
+				"粉红",
+				"粉红色的心",
+				"讨人喜欢",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("粉紅心"),
+			keywords: &[
+				"可愛",
+				"喜歡",
+				"心型",
+				"愛",
+				"粉紅",
+				"粉紅心",
+				"粉紅，愛，可愛，甜蜜，可愛的，特殊，心情，心，喜歡",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"可愛",
+				"喜歡",
+				"得意",
+				"情緒",
+				"愛",
+				"愛你",
+				"愛心",
+				"愛情",
+				"我愛你",
+				"特別",
+				"甜美",
+				"粉紅心",
+				"粉紅色",
+				"鍾意",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inhliziyo e-pink"),
+			keywords: &["Qhazisayo", "inhliziyo", "inhliziyo e-pink", "njenge", "pink", "thando"],
+		},
+	],
+};
+#[doc = "🤍"]
+pub const WHITE_HEART: crate::Emoji = crate::Emoji {
+	glyph:                "🤍",
+	codepoint:            &[129293u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+	name:                 "white heart",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Heart,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("wit hartjie"),
+			keywords: &["goeie bedoelings", "hartjie", "rein", "suiwer", "wit"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ነጭ ልብ"),
+			keywords: &["ልብ", "ነጭ", "ድጋፍ", "ፍቅር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قلب أبيض"),
+			keywords: &["أبيض", "أشكال", "بياض", "حب", "شكل", "صفاء", "قلب", "مسامحة", "نقاء", "يحب"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("বগ\u{9be} হ\u{9c3}দয\u{9bc}ৰ ছবি"),
+			keywords: &["বগ\u{9be}", "বগ\u{9be} হ\u{9c3}দয\u{9bc}ৰ ছবি", "হ\u{9c3}দয\u{9bc}"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation { lang: "az", tts: Some("ağ ürək"), keywords: &["ağ", "ürək"] },
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("белае сэрца"),
+			keywords: &["белае", "сэрца"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("бяло сърце"),
+			keywords: &["бяло", "сърце"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9be}দ\u{9be} হ\u{9be}র\u{9cd}ট"),
+			keywords: &[
+				"স\u{9be}দ\u{9be}",
+				"হ\u{9be}র\u{9cd}ট",
+				"হ\u{9be}র\u{9cd}ট চিহ\u{9cd}ন",
+				"হ\u{9c3}দয\u{9bc}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("kalon wenn"),
+			keywords: &["gwenn", "kalon wenn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("bijelo srce"),
+			keywords: &["bijela", "bijelo srce", "srce"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation { lang: "ca", tts: Some("cor blanc"), keywords: &["blanc", "cor"] },
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang: "chr", tts: Some("ᎤᏁᎦ ᎤᎾᏫ"), keywords: &["ᎤᎾᏫ", "ᎤᏁᎦ"]
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("bílé srdce"),
+			keywords: &["bílá", "bílé srdce", "bílé srdíčko", "láska", "srdce", "srdíčko"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("calon wen"),
+			keywords: &["calon", "calon wen", "gwyn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("hvidt hjerte"),
+			keywords: &["hjerte", "hvid", "hvidt hjerte"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("weißes Herz"),
+			keywords: &["Herz", "weiß", "weißes Herz"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("weisses Herz"),
+			keywords: &["Herz", "weiss", "weisses Herz"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("λευκή καρδιά"),
+			keywords: &["καρδιά", "λευκή καρδιά", "λευκό"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("white heart"),
+			keywords: &["143", "heart", "white"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("corazón blanco"),
+			keywords: &["blanco", "corazón", "emoción"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["blanco", "corazón"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("valge süda"),
+			keywords: &["süda", "valge"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bihotz zuria"),
+			keywords: &["bihotz", "bihotz zuria", "zuri"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("قلب سفید"),
+			keywords: &["دل", "سفید", "قلب"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("valkoinen sydän"),
+			keywords: &["sydän", "valkoinen"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("puting puso"),
+			keywords: &["puso", "puti", "puting puso"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("hvítt hjarta"),
+			keywords: &["hjarta", "hvítt"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("cœur blanc"),
+			keywords: &["blanc", "cœur"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation { lang: "ga", tts: Some("croí bán"), keywords: &["bán", "croí"] },
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cridhe geal"),
+			keywords: &["cridhe", "geal"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("corazón branco"),
+			keywords: &["branco", "corazón"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("શ\u{acd}વ\u{ac7}ત હ\u{ac3}દય"),
+			keywords: &[
+				"દિલ",
+				"ધોળ\u{ac1}\u{a82} દિલ",
+				"નિખાલસ",
+				"ન\u{ac7}ક",
+				"પવિત\u{acd}ર",
+				"ર\u{a82}ગ",
+				"વ\u{acd}હાઈટ",
+				"શ\u{acd}વ\u{ac7}ત",
+				"સફ\u{ac7}દ",
+				"સાફ દિલ",
+				"હ\u{ac3}દય",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("farar zuciya"),
+			keywords: &["fara", "farar", "fari", "zuciya"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("farar zuciya"),
+			keywords: &["fara", "farar", "fari", "zuciya"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation { lang: "he", tts: Some("לב לבן"), keywords: &["לב", "לבן"] },
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("सफ\u{93c}\u{947}द दिल"),
+			keywords: &["दिल", "शा\u{902}ति", "सफ\u{93c}\u{947}द"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("bijelo srce"),
+			keywords: &["bijelo", "srce"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("fehér szív"),
+			keywords: &["fehér", "szív"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("սպիտակ սիրտ"),
+			keywords: &["սիրտ", "սպիտակ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("hati putih"),
+			keywords: &["hati", "putih"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("obi na-acha ọcha"),
+			keywords: &["obi", "obi na-acha ọcha", "ọcha"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hvítt hjarta"),
+			keywords: &["hjarta", "hvítt"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("cuore bianco"),
+			keywords: &["bianco", "cuore", "emozione"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("白いハート"),
+			keywords: &["ハート", "白", "白いハート"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation { lang: "jv", tts: Some("ati putih"), keywords: &["ati", "putih"] },
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("თეთრი გული"),
+			keywords: &["გული", "თეთრი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("ul amellal"), keywords: &["ul amellal"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang: "kk", tts: Some("ақ жүрек"), keywords: &["ақ", "жүрек"]
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បេះដ\u{17bc}ងពណ\u{17cc}ស"),
+			keywords: &["បេះដ\u{17bc}ង", "បេះដ\u{17bc}ងពណ\u{17cc}ស", "ពណ\u{17cc}ស"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cbf}ಳ\u{cbf}ಯ ಹೃದಯ"),
+			keywords: &[
+				"ಅಪ\u{ccd}ಪಟ",
+				"ಕಳಂಕ ರಹ\u{cbf}ತ",
+				"ನ\u{cbf}ರ\u{ccd}ಮಲ ಹೃದಯ",
+				"ಪರ\u{cbf}ಶುದ\u{ccd}ಧ",
+				"ಬ\u{cbf}ಳ\u{cbf}",
+				"ಬ\u{cbf}ಳ\u{cbf}ಯ ಹೃದಯ",
+				"ಶಾಂತ\u{cbf}",
+				"ಹೃದಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation { lang: "ko", tts: Some("흰색 하트"), keywords: &["하트", "흰색"] },
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("धव\u{947}\u{902} काळीज"),
+			keywords: &["काळीज", "धव\u{947}\u{902}"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang: "ky", tts: Some("ак жүрөк"), keywords: &["ак", "жүрөк"]
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຫ\u{ebb}ວ\u{200b}ໃຈ\u{200b}ຂາວ"),
+			keywords: &["ສ\u{eb5}\u{200b}ຂາວ", "ຫ\u{ebb}ວ\u{200b}ໃຈ", "ຫ\u{ebb}ວ\u{200b}ໃຈ\u{200b}ຂາວ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("balta širdelė"),
+			keywords: &["balta", "širdelė"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("balta sirds"),
+			keywords: &["balta", "mīlu", "sirds"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang: "mk", tts: Some("бело срце"), keywords: &["бело", "срце"]
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("വെള\u{d41}ത\u{d4d}ത ഹ\u{d43}ദയം"),
+			keywords: &["വെള\u{d41}ത\u{d4d}ത ഹ\u{d43}ദയം", "വെള\u{d4d}ള", "വെള\u{d4d}ള ഹ\u{d43}ദയം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("цагаан зүрх"),
+			keywords: &["зүрх", "цагаан"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("पा\u{902}ढर\u{947} ह\u{943}दय"),
+			keywords: &["पा\u{902}ढर\u{947}", "हार\u{94d}ट", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("hati putih"),
+			keywords: &["143", "hati", "putih"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အဖြ\u{1030}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}းသား"),
+			keywords: &[
+				"န\u{103e}လ\u{102f}\u{1036}း",
+				"အဖြ\u{1030}",
+				"အဖြ\u{1030}ရောင\u{103a} န\u{103e}လ\u{102f}\u{1036}းသား",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{947}तो ह\u{943}दय"),
+			keywords: &["स\u{947}तो", "ह\u{943}दय"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("wit hart"),
+			keywords: &["hart", "liefde", "symbool", "wit"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("kvitt hjarte"),
+			keywords: &["hjarte", "kvit", "kvitt hjarte"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଧଳ\u{b3e} ହ\u{b43}ଦୟ"),
+			keywords: &["ଧଳ\u{b3e}", "ହ\u{b43}ଦୟ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਚਿ\u{a71}ਟਾ ਦਿਲ"),
+			keywords: &["ਚਿ\u{a71}ਟਾ", "ਦਿਲ", "ਪਿਆਰ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Waít Hat"),
+			keywords: &["Hat", "Wait", "Waít Hat"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("białe serce"),
+			keywords: &["białe", "serce"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("سپين زړه"), keywords: &["زړه", "سپين"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("coração branco"),
+			keywords: &["branco", "coração", "s2"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["branco", "coração"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("yuraq sunqu"),
+			keywords: &["sunqu", "yuraq"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("inimă albă"),
+			keywords: &["alb", "albă", "inimioară", "inimă"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E12–022"), keywords: &["E12–022"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("белое сердце"),
+			keywords: &["белое", "любовь", "сердце", "чувства", "эмоции"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation { lang: "sd", tts: Some("سفيد دل"), keywords: &["دل", "سفيد"] },
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ස\u{dd4}ද\u{dd4} හදවත"),
+			keywords: &["ස\u{dd4}ද\u{dd4}", "හදවත"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("biele srdce"),
+			keywords: &["biele", "srdce"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation { lang: "sl", tts: Some("belo srce"), keywords: &["belo", "srce"] },
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("wadne cad (cabsi og)"),
+			keywords: &["cad", "wadne", "wadne cad (cabsi og)"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zemër e bardhë"),
+			keywords: &["e bardhë", "zemër", "zemër e bardhë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang: "sr", tts: Some("бело срце"), keywords: &["бело", "срце"]
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("бијело срце"),
+			keywords: &["бијело срце"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("belo srce"),
+			keywords: &["belo", "srce"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("bijelo srce"),
+			keywords: &["bijelo srce"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("vitt hjärta"),
+			keywords: &["hjärta", "vitt"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("moyo mweupe"),
+			keywords: &["moyo", "moyo mweupe", "moyo safi", "nyeupe"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("வெள\u{bcd}ளை நிற இதயம\u{bcd}"),
+			keywords: &[
+				"இதயம\u{bcd}",
+				"க\u{bbe}தலிக\u{bcd}கிறேன\u{bcd}",
+				"வெள\u{bcd}ளை",
+				"வெள\u{bcd}ளை நிற இதயம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("త\u{c46}లుపురంగు హృదయం"),
+			keywords: &[
+				"త\u{c46}లుపు రంగు గుండ\u{c46}",
+				"త\u{c46}లుపురంగు",
+				"శ\u{c4d}వ\u{c47}త",
+				"హృదయం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ห\u{e31}วใจส\u{e35}ขาว"),
+			keywords: &["บร\u{e34}ส\u{e38}ทธ\u{e34}\u{e4c}", "สะอาด", "ส\u{e35}ขาว", "ห\u{e31}วใจ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang: "ti", tts: Some("ጻዕዳ ልቢ"), keywords: &["ልቢ", "ጻዕዳ"]
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation { lang: "tk", tts: Some("ak ýürek"), keywords: &["ak", "ýürek"] },
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mafu hinehina"),
+			keywords: &["hinehina", "mafu", "tea"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("beyaz kalp"),
+			keywords: &["beyaz", "kalp"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("біле серце"),
+			keywords: &["біле", "серце"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سفید دل"),
+			keywords: &["دل", "سفید", "نیک دل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation { lang: "uz", tts: Some("oq yurak"), keywords: &["oq", "yurak"] },
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("trái tim màu trắng"),
+			keywords: &["màu trắng", "trái tim", "trái tim màu trắng"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("Xol bu weex"),
+			keywords: &["Xol bu weex", "weex", "xol"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("ọkàn funfun"),
+			keywords: &["ọkàn / funfun", "ọkàn funfun"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("ɔkàn funfun"),
+			keywords: &["ɔkàn / funfun", "ɔkàn funfun"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("白色心"),
+			keywords: &["心", "白色", "白色心"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("白色心"),
+			keywords: &["心", "白色", "白色心"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("白心"),
+			keywords: &["心", "心形", "爱心", "白", "白心", "白色", "白色爱心"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("白心"),
+			keywords: &["心", "愛心", "白", "白心", "白色"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("白心｜白色心｜白色嘅心"),
+			keywords: &["喜歡", "心", "愛", "白", "白心｜白色心｜白色嘅心", "白色"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("inhliziyo emhlophe"),
+			keywords: &["inhliziyo", "inhliziyo emhlophe", "mhlophe"],
 		},
 	],
 };

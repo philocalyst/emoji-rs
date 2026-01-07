@@ -2692,1978 +2692,6 @@ pub const BELL: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🔈\u{fe0f}"]
-pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
-	glyph:                "🔈\u{fe0f}",
-	codepoint:            &[128264u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "speaker low volume",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Sound,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🔉"]
-pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
-	glyph:                "🔉",
-	codepoint:            &[128265u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "speaker medium volume",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Sound,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("luidspreker medium volume"),
-			keywords: &["klank", "klankgolf", "luidspreker", "luidspreker aan", "medium", "volume"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ስፒከር በርቷል"),
-			keywords: &["መካከለኛ ድምጽ", "ሞገድ", "ስፒከር", "ስፒከር በርቷል", "ዝቅ", "የድምጽ መጠን", "ድምጽ ማጉያ", "ድምፅ መጠን"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("صوت معتدل"),
-			keywords: &[
-				"رمز",
-				"سبيكر",
-				"سماعة بصوت",
-				"سماعة بصوت منخفض",
-				"صوت",
-				"صوت سماعة متوسط",
-				"صوت معتدل",
-				"متوسط",
-				"منخفض",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ মধ\u{9cd}যমীয\u{9bc}\u{9be}"),
-			keywords: &[
-				"মধ\u{9cd}যমীয\u{9bc}\u{9be}",
-				"স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ মধ\u{9cd}যমীয\u{9bc}\u{9be}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("səsucaldan aktivdir"),
-			keywords: &["aşağı", "dalğa", "səs", "səsucaldan", "səsucaldan aktivdir"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("ціха"),
-			keywords: &["гучнасць", "дынамік", "нізкая", "ціха"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("високоговорител със средносилен звук"),
-			keywords: &[
-				"високоговорител",
-				"високоговорител със средносилен звук",
-				"включен високоговорител",
-				"сила на звука",
-				"средносилен",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}পিক\u{9be}র ম\u{9be}ঝ\u{9be}রি আওয\u{9bc}\u{9be}জ"),
-			keywords: &[
-				"ভলিউম",
-				"ম\u{9be}ঝ\u{9be}রি",
-				"স\u{9cd}পিক\u{9be}র",
-				"স\u{9cd}পিক\u{9be}র ম\u{9be}ঝ\u{9be}রি আওয\u{9bc}\u{9be}জ",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zvučnik srednja glasnoća"),
-			keywords: &["srednje", "zvučnik srednja glasnoća"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("altaveu amb el volum mitjà"),
-			keywords: &["altaveu amb el volum mitjà", "mitjà", "so", "volum mitjà"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏬᏂᏍᎩ ᎠᏰᏟ ᎠᏍᏓᏱᏗᏍᏗ"),
-			keywords: &["ᎠᏲᏟᎨ", "ᎦᏬᏂᏍᎩ ᎠᏰᏟ ᎠᏍᏓᏱᏗᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("středně hlasitý reproduktor"),
-			keywords: &["hlasitost", "hlasitý", "reproduktor", "střední", "středně", "tlampač", "zvuk"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("seinydd ymlaen"),
-			keywords: &["isel", "seinydd ymlaen", "siarad", "ton"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("højttaler mellem lydstyrke"),
-			keywords: &[
-				"højtaler med en lydbølge",
-				"højttaler medium volumen",
-				"højttaler mellem lydstyrke",
-				"lav volumen",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Lautsprecher mit mittlerer Lautstärke"),
-			keywords: &[
-				"Lautsprecher mit einer Schallwelle",
-				"Lautsprecher mit mittlerer Lautstärke",
-				"Ton",
-				"leise",
-				"mittellaut",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ηχείο σε μέτρια ένταση"),
-			keywords: &["ένταση ήχου", "ήχος", "ηχείο", "ηχείο σε μέτρια ένταση"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("speaker medium volume"),
-			keywords: &["medium", "sound", "speaker", "volume"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("altavoz a volumen medio"),
-			keywords: &["altavoz a volumen medio", "altavoz con volumen medio", "medio", "volumen medio"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"altavoz con volumen medio",
-				"altavoz encendido",
-				"bocina",
-				"medio",
-				"volumen medio",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("bocina a volumen medio"),
-			keywords: &["bocina a volumen medio"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("poolvalju heliga kõlar"),
-			keywords: &["heli", "kõlar", "poolvalju heliga kõlar", "vaikne"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bozgorailua piztuta"),
-			keywords: &["baxu", "bolumen", "bozgorailu", "bozgorailua piztuta", "uhin"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("بلندگو با صدای متعادل"),
-			keywords: &[
-				"بلندگو",
-				"بلندگو با صدای متعادل",
-				"بلندگو روشن",
-				"صدا",
-				"موج",
-				"میانه",
-				"نه کم نه زیاد",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kaiutin normaalilla äänenvoimakkuudella"),
-			keywords: &["kaiutin", "kaiutin normaalilla äänenvoimakkuudella", "äänenvoimakkuus", "äänet"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("speaker na katamtaman ang sound"),
-			keywords: &[
-				"naka-medium",
-				"naka-on ang speaker",
-				"speaker",
-				"speaker na katamtaman ang sound",
-				"volume",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("miðal ljóðstyrki á hátalara"),
-			keywords: &["hátalari", "ljóðstyrki", "miðal", "miðal ljóðstyrki á hátalara"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("volume des enceintes moyen"),
-			keywords: &[
-				"enceinte",
-				"haut-parleur",
-				"haut-parleur d’enceinte",
-				"son",
-				"volume des enceintes moyen",
-				"volume moyen",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("volume moyen"),
-			keywords: &["son moyen", "volume moyen"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("callaire fuaime ísle"),
-			keywords: &[
-				"callaire",
-				"callaire ar leibhéal meánach",
-				"callaire fuaime ísle",
-				"fuaim",
-				"meánach",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("glaodhaire ’s fhuaim mheadhanach"),
-			keywords: &[
-				"fuaim",
-				"glaodhaire a’ cur a-mach fuaim mheadhanach",
-				"glaodhaire ’s fhuaim mheadhanach",
-				"meadhanach",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("altofalante activado"),
-			keywords: &["altofalante", "altofalante activado", "baixo", "volume"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{acd}પીકર મધ\u{acd}યમ વૉલ\u{acd}ય\u{ac2}મ"),
-			keywords: &[
-				"ઓછા વૉલ\u{acd}ય\u{ac2}મ સાથ\u{ac7}ન\u{ac1}\u{a82} સ\u{acd}પીકર",
-				"ઓછ\u{ac1}\u{a82}",
-				"ઓછ\u{ac1}\u{a82} વૉલ\u{acd}ય\u{ac2}મ",
-				"મધ\u{acd}યમ",
-				"સ\u{acd}પીકર",
-				"સ\u{acd}પીકર ચાલ\u{ac1}",
-				"સ\u{acd}પીકર મધ\u{acd}યમ વૉલ\u{acd}ય\u{ac2}મ",
-				"સ\u{acd}પીકર માધ\u{acd}યમ વોલ\u{acd}ય\u{ac1}મ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("sifika matsakaicin ƙarfin murya"),
-			keywords: &[
-				"matsakaici",
-				"matsakaicin sauti",
-				"sauti",
-				"sifika",
-				"sifika matsakaicin ƙarfin murya",
-				"ƙarfin murya",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("sifika matsakaicin ƙarfin murya"),
-			keywords: &[
-				"matsakaici",
-				"matsakaicin sauti",
-				"sauti",
-				"sifika",
-				"sifika matsakaicin ƙarfin murya",
-				"ƙarfin murya",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("ווליום בינוני"),
-			keywords: &["בינוני", "ווליום בינוני", "ווליום בינוני של הרמקול"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{94d}पीकर मीडियम वॉल\u{94d}य\u{942}म"),
-			keywords: &[
-				"मध\u{94d}यम",
-				"मीडियम",
-				"स\u{94d}पीकर",
-				"स\u{94d}पीकर मीडियम वॉल\u{94d}य\u{942}म",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("srednje glasan zvučnik"),
-			keywords: &["srednja glasnoća", "srednje glasan zvučnik", "zvuk"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("bekapcsolt hangszóró"),
-			keywords: &["alacsony hangerő", "bekapcsolt hangszóró", "hangerő", "hangszóró"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("բարձրախոսը միացված է"),
-			keywords: &["ալիք", "բարձրախոս", "բարձրախոսը միացված է", "ձայն", "ցածր"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("volume speaker medium"),
-			keywords: &["bunyi", "medium", "speaker", "suara", "volume"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("òkwù okwu ụhàraụdà ndịna etiti"),
-			keywords: &["etiti", "òkwù okwu ụhàraụdà ndịna etiti"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hátalari í gangi"),
-			keywords: &["hljóðstyrkur", "hátalari", "hátalari í gangi", "lágt"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("altoparlante a volume intermedio"),
-			keywords: &[
-				"altoparlante a volume intermedio",
-				"altoparlante volume basso",
-				"audio",
-				"basso",
-				"megafono",
-				"speaker",
-				"suono",
-				"volume basso",
-				"volume intermedio",
-				"volume medio",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("スピーカー音量小"),
-			keywords: &["スピーカー", "スピーカー音量小", "ボリューム", "音量", "音量小"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("volume medium speaker"),
-			keywords: &["medium", "volume medium speaker"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("დინამიკი ჩართულია"),
-			keywords: &["დინამიკი", "დინამიკი ჩართულია", "ტალღა", "ხმა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("imesli alemmas"),
-			keywords: &["imesli alemmas"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("динамикті қосу"),
-			keywords: &[
-				"динамик",
-				"динамикті қосу",
-				"динамиктің дыбыс деңгейі орташа",
-				"дыбыс деңгейі",
-				"толқын",
-				"төмен",
-			],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("højttaler til"),
-			keywords: &["højtaler med en lydbølge", "højttaler til", "lav volumen"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang: "km", tts: Some("បាសបើក"), keywords: &["បាសបើក", "បើក"]
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಮ\u{cc0}ಡ\u{cbf}ಯಂ ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}"),
-			keywords: &[
-				"ಕಡ\u{cbf}ಮ\u{cc6}",
-				"ಧ\u{ccd}ವನ\u{cbf}",
-				"ಮ\u{cc0}ಡ\u{cbf}ಯಂ",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd}",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಆನ\u{ccd}",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಮ\u{cc0}ಡ\u{cbf}ಯಂ ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd} ಕಡ\u{cbf}ಮ\u{cc6} ಮಾಡು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("스피커 소리 작게"),
-			keywords: &[
-				"미디엄",
-				"소리",
-				"소리 작게",
-				"소리 작음",
-				"소리 줄이기",
-				"스피커 미디엄 소리",
-				"스피커 소리 작게",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("मध\u{94d}यम आवाजाचो स\u{94d}पिकर"),
-			keywords: &["मध\u{94d}यम", "मध\u{94d}यम आवाजाचो स\u{94d}पिकर"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("колонка күйүк"),
-			keywords: &["колонка", "колонка күйүк", "төмөн", "үн көлөмү"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Lautsprecher op mëttel agestallt"),
-			keywords: &["Lautsprecher op mëttel agestallt", "mëttel"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເປ\u{eb5}ດລຳໂພງ"),
-			keywords: &["ກະຈາຍສຽງ", "ລຳໂພງ", "ເປ\u{eb5}ດ", "ເປ\u{eb5}ດລຳໂພງ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("vidutinio garso garsiakalbis"),
-			keywords: &["garsiakalbis", "vidutinio garso garsiakalbis", "vidutinis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("ieslēgts skaļrunis"),
-			keywords: &["ieslēgts skaļrunis", "vidējs", "vidējs skaļruņa skaļums"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tukuoro kahaoro waenga"),
-			keywords: &["tukuoro kahaoro waenga", "waenga"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("вклучен звучник"),
-			keywords: &[
-				"вклучен звучник",
-				"вклучен звучник на средно",
-				"глас",
-				"звук",
-				"звучник",
-				"звучник на средна гласност",
-				"звучник на средно",
-				"средно",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some(
-				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
-			),
-			keywords: &[
-				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദം",
-				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("чанга яригчийн дууны түвшин дунд зэрэг"),
-			keywords: &["дунд зэрэг", "чанга яригчийн дууны түвшин дунд зэрэг"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("स\u{94d}पीकर चाल\u{942}"),
-			keywords: &[
-				"आवाज",
-				"कमी",
-				"कमी ध\u{94d}वनी",
-				"कमी ध\u{94d}वनी असल\u{947}ला स\u{94d}पीकर",
-				"मध\u{94d}यम",
-				"स\u{94d}पीकर",
-				"स\u{94d}पीकर चाल\u{942}",
-				"स\u{94d}पीकरचा आवाज मध\u{94d}यम",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kelantangan sederhana pembesar suara"),
-			keywords: &["bunyi", "kelantangan", "pembesar suara", "sederhana"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("speaker volum medju"),
-			keywords: &["medju", "speaker volum medju"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("စပ\u{102e}ကာ ဖ\u{103d}င\u{1037}\u{103a}"),
-			keywords: &[
-				"စပ\u{102e}ကာ ဖ\u{103d}င\u{1037}\u{103a}",
-				"အသ\u{1036} အလယ\u{103a}အလတ\u{103a}",
-				"အသ\u{1036} အလယ\u{103a}အလတ\u{103a}ဖ\u{103d}င\u{1037}\u{103a}ထားသော စပ\u{102e}ကာ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("मध\u{94d}य भोल\u{94d}य\u{941}मको स\u{94d}पिकर"),
-			keywords: &["मध\u{94d}य भोल\u{94d}य\u{941}मको स\u{94d}पिकर", "मध\u{94d}यम"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("speaker aan"),
-			keywords: &["gemiddeld volume", "luidspreker", "speaker", "speaker aan", "volume"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("høgtalar med middels volum"),
-			keywords: &["høgtalar med middels volum", "lyd", "middels", "ropert"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମଧ\u{b4d}ୟମ ଧରଣର ଧ\u{b4d}ୱନ\u{b3f} ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}"),
-			keywords: &[
-				"କମ\u{b4d}",
-				"କମ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d}",
-				"କମ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d} ସହ\u{b3f}ତ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
-				"ମଧ\u{b4d}ୟମ ଧରଣର ଧ\u{b4d}ୱନ\u{b3f} ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
-				"ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਪੀਕਰ ਔਸਤ ਵ\u{a4c}ਲਿਊਮ"),
-			keywords: &[
-				"ਆਵਾਜ\u{a3c}",
-				"ਘ\u{a71}ਟ",
-				"ਘ\u{a71}ਟ ਅਾਵਾਜ\u{a3c} ਨਾਲ ਸਪੀਕਰ",
-				"ਸਪੀਕਰ",
-				"ਸਪੀਕਰ ਔਸਤ ਵ\u{a4c}ਲਿਊਮ",
-				"ਸ\u{a70}ਗੀਤ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("درمیانی واج آلا اسپیکر"),
-			keywords: &["درمیانہ", "درمیانی واج آلا اسپیکر"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Laúdspíka Mídiúm Vọ\u{301}lium"),
-			keywords: &["Laúdspíka Mídiúm Vọ\u{301}lium", "Mídiọm"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("średnia głośność głośnika"),
-			keywords: &[
-				"dźwięk",
-				"głośnik",
-				"głośność",
-				"mała głośność",
-				"średnia głośność",
-				"średnia głośność głośnika",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د سپیکر منځنی غږ"),
-			keywords: &["د سپیکر منځنی غږ", "منځنی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("alto-falante com volume médio"),
-			keywords: &[
-				"alto-falante com som baixo",
-				"alto-falante com volume baixo",
-				"alto-falante com volume médio",
-				"baixo",
-				"diminuir o volume",
-				"volume baixo",
-				"volume médio",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("altifalante médio"),
-			keywords: &[
-				"altifalante",
-				"altifalante médio",
-				"baixo",
-				"onda sonora",
-				"som médio",
-				"volume",
-				"volume médio",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("altavoz chawpi chanrawan"),
-			keywords: &["altavoz chawpi chanrawan", "chawpi"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("volum mediu al difuzorului"),
-			keywords: &[
-				"difuzor activat",
-				"difuzor pornit",
-				"sunet",
-				"sunet mediu",
-				"volum mediu",
-				"volum mediu al difuzorului",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-709"), keywords: &["E10-709"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("средняя громкость"),
-			keywords: &[
-				"громкоговоритель",
-				"громкость",
-				"динамик",
-				"звук",
-				"рупор",
-				"спикер",
-				"средняя",
-				"уровень",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("indangururamajwi ifite ubwirangire buringaniye"),
-			keywords: &["indangururamajwi ifite ubwirangire buringaniye", "iringaniye"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اسپيڪر جو وچولو آواز"),
-			keywords: &["اسپيڪر جو وچولو آواز", "وچولو"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dca}ප\u{dd3}කරය ක\u{dca}\u{200d}ර\u{dd2}ය\u{dcf}ත\u{dca}මකය\u{dd2}"),
-			keywords: &[
-				"අඩ\u{dd4}",
-				"තරංගය",
-				"ස\u{dca}ප\u{dd3}කරය",
-				"ස\u{dca}ප\u{dd3}කරය ක\u{dca}\u{200d}ර\u{dd2}ය\u{dcf}ත\u{dca}මකය\u{dd2}",
-				"හඩ පර\u{dd2}ම\u{dcf}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("stredná hlasitosť"),
-			keywords: &["hlasitosť", "reproduktor", "stredná", "vlna", "zapnutý reproduktor", "zvuk"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("zvočnik pri zmerni glasnosti"),
-			keywords: &[
-				"glasnost",
-				"nizko",
-				"val",
-				"zmerno",
-				"zvok",
-				"zvočnik",
-				"zvočnik pri zmerni glasnosti",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("sameecad codkeedu dhexdhexaad yahay"),
-			keywords: &["dhexdhexaad", "sameecad codkeedu dhexdhexaad yahay"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("altoparlant me zë mesatar"),
-			keywords: &["altoparlant", "altoparlant me zë mesatar", "i ulët", "mesatar", "valë", "volum"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("укључен звучник"),
-			keywords: &["звук", "звучник", "средње", "јачина"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("uključen zvučnik"),
-			keywords: &["jačina", "srednje", "zvuk", "zvučnik"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("högtalare med medium volym"),
-			keywords: &["högtalare", "högtalare med medium volym", "volym"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("spika imewashwa"),
-			keywords: &[
-				"chini",
-				"sauti",
-				"spika",
-				"spika imewashwa",
-				"spika imewashwa sauti ya kati",
-				"wingu",
-			],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd} ஆன\u{bcd}"),
-			keywords: &[
-				"ஒலி",
-				"ஒலிப\u{bcd}பெருக\u{bcd}கி",
-				"குறைந\u{bcd}த ஒலி",
-				"சவுண\u{bcd}ட\u{bcd}",
-				"நடுத\u{bcd}தர ஒலி",
-				"பொருள\u{bcd}",
-				"மெதுவ\u{bbe}க பேசு",
-				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
-				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd} ஆன\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("మధ\u{c4d}యస\u{c4d}థ శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}"),
-			keywords: &[
-				"తక\u{c4d}కువ శబ\u{c4d}దం చ\u{c47}య\u{c3f}",
-				"మధ\u{c4d}యస\u{c4d}థ శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}",
-				"మధ\u{c4d}యస\u{c4d}థం",
-				"మ\u{c40}డ\u{c3f}యం",
-				"వ\u{c3e}ల\u{c4d}యూమ\u{c4d} తగ\u{c4d}గ\u{c3f}ంచు",
-				"శబ\u{c4d}దం",
-				"స\u{c4c}ండ\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("садои миёнаи баландгӯяк"),
-			keywords: &["миёна", "садои миёнаи баландгӯяк"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ลำโพงเส\u{e35}ยงปานกลาง"),
-			keywords: &["ปานกลาง", "ลำโพง", "วอลล\u{e38}\u{e48}ม", "เส\u{e35}ยง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ስፒከር ማእከላይ ድምጺ"),
-			keywords: &["ማእከላይ", "ተዛራባይ", "ትሕዝቶ", "ድምጺ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("orta sesli dinamik"),
-			keywords: &["orta sesli dinamik", "ortaça"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("leʻo loto"), keywords: &["leʻo loto"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("ses açık"),
-			keywords: &["düşük", "düşük ses", "düşük sesli hoparlör", "ses açık"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئارا ئۈنلۈك ياڭراتقۇ"),
-			keywords: &["ئارا", "ئارا ئۈنلۈك ياڭراتقۇ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("середня гучність динаміка"),
-			keywords: &[
-				"гучність",
-				"динамік",
-				"середньо",
-				"середня гучність динаміка",
-				"увімкнений динамік",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("اوسط آواز نکالتے اسپیکر"),
-			keywords: &["آواز", "اسپیکر", "اسپیکر آن", "اوسط آواز نکالتے اسپیکر", "با آواز اسپیکر"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("ovozli"),
-			keywords: &["karnay", "ovoz balandligi", "ovozli", "past", "tovush", "to‘lqin"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("âm lượng loa trung bình"),
-			keywords: &["trung bình", "âm lượng loa trung bình", "âm thanh"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("oparlër bu xumbul noonu"),
-			keywords: &["oparlër bu xumbul noonu", "yam"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ivolyum ephakathi yespikha"),
-			keywords: &["ephakathi", "ivolyum ephakathi yespikha"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Gbohungbohun ti Ohun rẹ wa Laarin"),
-			keywords: &["Gbohungbohun ti Ohun rẹ wa Laarin", "àárín"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Gbohungbohun ti Ohun rɛ wa Laarin"),
-			keywords: &["Gbohungbohun ti Ohun rɛ wa Laarin", "àárín"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("中音量喇叭"),
-			keywords: &["中等", "中音量喇叭"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("中音量喇叭"),
-			keywords: &["中等", "中音量喇叭"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("中等音量的扬声器"),
-			keywords: &["中等", "中等音量", "中等音量的扬声器", "中音量", "中音量扬声器", "扬声器"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("低音量"),
-			keywords: &["中音", "低音量", "喇叭"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("聲量中等嘅喇叭"),
-			keywords: &[
-				"中音量",
-				"喇叭",
-				"揚聲器",
-				"聲量中等",
-				"聲量中等嘅喇叭",
-				"聲音",
-				"音樂",
-				"音量",
-				"音響",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ukuvula ispikha"),
-			keywords: &["igagasi", "isipikha", "phansi", "ukuvula ispikha", "umsindo"],
-		},
-	],
-};
-#[doc = "🔊"]
-pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
-	glyph:                "🔊",
-	codepoint:            &[128266u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "speaker high volume",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Sound,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("luidspreker hard"),
-			keywords: &[
-				"3",
-				"drie",
-				"hard",
-				"harde luidspreker",
-				"hardop",
-				"hoë volume",
-				"klank",
-				"luidspreker",
-				"luidspreker hard speel",
-				"musiek",
-				"volume",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ስፒከር ድምፁ ከፍ ብሏል"),
-			keywords: &[
-				"ስፒከር",
-				"ስፒከር ድምፁ ከፍ ብሏል",
-				"ከፍ ያለ ድምጽ",
-				"ከፍተኛ",
-				"የድምጽ ብክለት",
-				"ድምጽ ማጉያ",
-				"ድምፅ መጠን",
-				"ጮክ",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("صوت سماعة مرتفع"),
-			keywords: &["سماعة بصوت مرتفع", "صوت سماعة مرتفع", "صوت عالي", "مرتفع"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ তীব\u{9cd}ৰ"),
-			keywords: &["তীব\u{9cd}ৰ", "স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ তীব\u{9cd}ৰ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("səsucaldan yüksəkdir"),
-			keywords: &["3", "səs", "səsucaldan", "səsucaldan yüksəkdir", "uca", "yüksək", "üç"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("гучна"),
-			keywords: &["высокая", "гучна", "гучнасць", "дынамік"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("високоговорител със силен звук"),
-			keywords: &[
-				"високоговорител",
-				"високоговорител със силен звук",
-				"звук",
-				"музика",
-				"сила на звука",
-				"силен",
-				"силно пуснат високоговорител",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}পিক\u{9be}র জোরে"),
-			keywords: &[
-				"খ\u{9c1}ব জোরে",
-				"খ\u{9c1}ব জোরে স\u{9cd}পিক\u{9be}র",
-				"জোরে",
-				"স\u{9cd}পিক\u{9be}র",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("zvučnik glasno"),
-			keywords: &["jako", "zvučnik glasno"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("altaveu amb el volum alt"),
-			keywords: &["alt", "altaveu amb el volum alt", "fort", "música", "so", "volum fort"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏬᏂᏍᎩ ᎦᎸᎳᏗ ᎠᏍᏓᏱᏗᏍᏗ"),
-			keywords: &["ᎦᏬᏂᏍᎩ ᎦᎸᎳᏗ ᎠᏍᏓᏱᏗᏍᏗ", "ᏧᎵᏍᏙᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("hlasitý reproduktor"),
-			keywords: &["hlasitost", "hlasitý", "hudba", "nahlas", "reproduktor", "zvuk"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("seinydd uchel"),
-			keywords: &["3", "seinydd", "uchel"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("højttaler høj lydstyrke"),
-			keywords: &[
-				"høj volumen",
-				"højtaler med høj volumen",
-				"højttaler høj lydstyrke",
-				"højttaler høj volumen",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Lautsprecher mit hoher Lautstärke"),
-			keywords: &[
-				"Dezibel",
-				"Lautsprecher mit drei Schallwellen",
-				"Lautsprecher mit hoher Lautstärke",
-				"Musik",
-				"Schallwellen",
-				"laut",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ηχείο σε υψηλή ένταση"),
-			keywords: &[
-				"ένταση ήχου",
-				"ήχος",
-				"δυνατή",
-				"ηχείο",
-				"ηχείο σε υψηλή ένταση",
-				"μουσική",
-				"υψηλή ένταση ήχου",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("speaker high volume"),
-			keywords: &["high", "loud", "music", "sound", "speaker", "volume"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("altavoz a volumen alto"),
-			keywords: &["altavoz", "altavoz a volumen alto", "alto", "volumen alto"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"altavoz",
-				"altavoz con volumen alto",
-				"alto",
-				"bocina",
-				"corneta",
-				"sonido",
-				"volumen",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("bocina a volumen alto"),
-			keywords: &["bocina a volumen alto"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("valju heliga kõlar"),
-			keywords: &["heli", "kõlar", "vali", "valju heliga kõlar"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("bozgorailua ozen"),
-			keywords: &["3", "altu", "bolumen", "bozgorailu", "bozgorailua ozen", "hiru"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("بلندگو با صدای بلند"),
-			keywords: &[
-				"بالا",
-				"بلند",
-				"بلندگو",
-				"بلندگو با صدای بلند",
-				"بلندگو با صدای زیاد",
-				"زیاد",
-				"صدا",
-				"موج",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("äänekäs kaiutin"),
-			keywords: &["kaiutin", "kovempaa", "lisää", "äänekäs kaiutin", "äänenvoimakkuus"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("malakas ang speaker"),
-			keywords: &["maingay", "malakas", "malakas ang speaker", "speaker", "volume"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("høg ljóðstyrki á hátalara"),
-			keywords: &["hátalari", "høg", "høg ljóðstyrki á hátalara", "ljóðstyrki"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("volume des enceintes élevé"),
-			keywords: &[
-				"enceinte",
-				"fort",
-				"haut-parleur",
-				"haut-parleur d’enceinte",
-				"musique",
-				"son",
-				"volume des enceintes élevé",
-				"volume élevé",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("volume élevé"),
-			keywords: &["son fort", "son puissant", "son élevé", "volume fort", "volume élevé"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("callaire fuaime airde"),
-			keywords: &["airde", "ard", "callaire", "callaire fuaime airde", "ceol", "fuaim"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("glaodhaire ’s fhuaim àrd"),
-			keywords: &["fuaim", "glaodhaire a’ cur a-mach fuaim àrd", "glaodhaire ’s fhuaim àrd", "àrd"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("altofalante con volume alto"),
-			keywords: &["alto", "altofalante", "altofalante con volume alto", "volume"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("વધ\u{ac1} અવાજમા\u{a82} સ\u{acd}પીકર"),
-			keywords: &[
-				"ઊ\u{a82}ચો",
-				"વધ\u{ac1}",
-				"વધ\u{ac1} અવાજમા\u{a82} સ\u{acd}પીકર",
-				"વધ\u{ac1} વૉલ\u{acd}ય\u{ac2}મ",
-				"વધ\u{ac1} વૉલ\u{acd}ય\u{ac2}મ સાથ\u{ac7}ન\u{ac1}\u{a82} સ\u{acd}પીકર",
-				"સાધન",
-				"સ\u{acd}પીકર",
-				"સ\u{acd}પીકર ઊચો અવાજ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("sifika ƙarfin murya na sama"),
-			keywords: &[
-				"mai ƙarfi",
-				"sauti",
-				"sifika mai ƙara",
-				"sifika ƙarfin murya na sama",
-				"ƙara murya",
-				"ƙara sauti",
-				"ƙure sauti",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("sifika ƙarfin murya na sama"),
-			keywords: &[
-				"mai ƙarfi",
-				"sauti",
-				"sifika mai ƙara",
-				"sifika ƙarfin murya na sama",
-				"ƙara murya",
-				"ƙara sauti",
-				"ƙure sauti",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("ווליום חזק"),
-			keywords: &["ווליום", "חזק", "רמקול"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("उच\u{94d}च वॉल\u{94d}य\u{942}म स\u{94d}पीकर"),
-			keywords: &[
-				"अधिक आवाज\u{93c}",
-				"अधिक आवाज\u{93c} म\u{947}\u{902} स\u{94d}पीकर",
-				"उच\u{94d}च वॉल\u{94d}य\u{942}म स\u{94d}पीकर",
-				"त\u{947}ज\u{93c} आवाज\u{93c} म\u{947}\u{902} स\u{94d}पीकर",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("glasan zvučnik"),
-			keywords: &["glasan zvučnik", "glasno", "glazba", "zvučnik"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("hangos hangszóró"),
-			keywords: &["hangos", "hangszóró", "nagy hangerő", "zene"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("բարձրախոսի ձայնը բարձր է"),
-			keywords: &["բարձր ձայն", "բարձրախոսի ձայնը բարձր է", "բարձրաձայն", "ձայնարկիչ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("volume speaker tinggi"),
-			keywords: &[
-				"berisik", "bising", "bunyi", "kencang", "keras", "musik", "speaker", "suara", "tinggi",
-				"volume",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("òkwù okwu ụhàraụdà dị elu"),
-			keywords: &["òkwù okwu ụhàraụdà dị elu", "ụda"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hávær hátalari"),
-			keywords: &["hljóðstyrkur", "hátalari", "hátt", "hávær hátalari"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("altoparlante a volume alto"),
-			keywords: &[
-				"alto",
-				"altoparlante a volume alto",
-				"audio",
-				"megafono",
-				"musica",
-				"speaker",
-				"suono",
-				"volume",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("スピーカー音量大"),
-			keywords: &["スピーカー", "スピーカー音量大", "ボリューム", "大音量", "音量", "音量大"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("volume banter speaker"),
-			keywords: &["sero", "volume banter speaker"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ხმამაღალი დინამიკი"),
-			keywords: &["3", "დინამიკი", "სამი", "ხმა", "ხმამაღალი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("imesli meqqren"),
-			keywords: &["imesli meqqren"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("динамиктің дыбысын шығару"),
-			keywords: &["динамиктің дыбысын көбейту", "динамиктің дыбысын шығару", "дыбыс", "қатты"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("højttaler høj"),
-			keywords: &["høj volumen", "højtaler med høj volumen", "højttaler høj"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បាសបើកខ\u{17d2}លា\u{17c6}ង"),
-			keywords: &["បាស", "បាសបើកខ\u{17d2}លា\u{17c6}ង", "បើកខ\u{17d2}លា\u{17c6}ង"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಹ\u{cc8} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}"),
-			keywords: &[
-				"ಎತ\u{ccd}ತರ",
-				"ಜ\u{ccb}ರಾಗ\u{cbf}",
-				"ಜ\u{ccb}ರಾದ ಧ\u{ccd}ವನ\u{cbf}ಯ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd}",
-				"ಧ\u{ccd}ವನ\u{cbf}",
-				"ಲ\u{ccc}ಡ\u{ccd}",
-				"ಸಂಗ\u{cc0}ತ",
-				"ಸ\u{ccc}ಂಡ\u{ccd}",
-				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಹ\u{cc8} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("스피커 소리 크게"),
-			keywords: &["높게", "소리", "소리 큼", "소리 키우기", "스피커 소리 크게", "음악", "크게"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("उच\u{94d}च आवाजाचो स\u{94d}पिकर"),
-			keywords: &["उच\u{94d}च आवाजाचो स\u{94d}पिकर", "व\u{94d}हड"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("колонка катуу"),
-			keywords: &["3", "жогору", "катуу", "колонка", "үч"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Lautsprecher op haart agestallt"),
-			keywords: &["Lautsprecher op haart agestallt", "haart"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ລ\u{ecd}າໂພງດ\u{eb1}ງ"),
-			keywords: &[
-				"ລ\u{ecd}າໂພງ",
-				"ລ\u{ecd}າໂພງດ\u{eb1}ງ",
-				"ລ\u{ecd}າໂພງເປ\u{eb5}ດ",
-				"ສຽງດ\u{eb1}ງ",
-				"ເປ\u{eb5}ດລ\u{ecd}າໂພງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("didelis garsiakalbio garsumas"),
-			keywords: &["didelis garsiakalbio garsumas", "garsiakalbis", "garsus", "prietaisas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("skaļš skaļrunis"),
-			keywords: &["skaļrunis", "skaļums", "skaļš", "skaņa"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tukuoro kahaoro teitei"),
-			keywords: &["nui", "tukuoro kahaoro teitei"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("гласен звучник"),
-			keywords: &["глас", "гласен звучник", "гласно", "звук", "звучник", "музика", "најгласно"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some(
-				"ഉച\u{d4d}ചത\u{d4d}തിൽ ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
-			),
-			keywords: &[
-				"ഉച\u{d4d}ചത\u{d4d}തില\u{d41}ള\u{d4d}ള ശബ\u{d4d}\u{200c}ദം",
-				"ഉച\u{d4d}ചത\u{d4d}തിൽ ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("чанга яригчийн дууны түвшин чанга"),
-			keywords: &["чанга", "чанга яригчийн дууны түвшин чанга"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("स\u{94d}पीकरचा मोठा आवाज"),
-			keywords: &[
-				"आवाज",
-				"उच\u{94d}च",
-				"उच\u{94d}च ध\u{94d}वनी",
-				"उच\u{94d}च ध\u{94d}वनी असल\u{947}ला स\u{94d}पीकर",
-				"मोठा",
-				"स\u{902}गीत",
-				"स\u{94d}पीकर",
-				"स\u{94d}पीकरचा आवाज मोठा",
-				"स\u{94d}पीकरचा मोठा आवाज",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kelantangan tinggi pembesar suara"),
-			keywords: &["bunyi", "kelantangan", "kuat", "lantang", "muzik", "pembesar suara", "tinggi"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("speaker volum għoli"),
-			keywords: &["speaker volum għoli", "ħsejjes għolja"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("စပ\u{102e}ကာ အသ\u{1036}ကျယ\u{103a}"),
-			keywords: &["ကျယ\u{103a}လောင\u{103a}", "စပ\u{102e}ကာ အသ\u{1036}ကျယ\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("ठ\u{942}लो आवाजको स\u{94d}पिकर"),
-			keywords: &[
-				"चर\u{94d}को आवाज",
-				"ठ\u{942}लो आवाजको स\u{94d}पिकर",
-				"ठ\u{942}लो भोल\u{94d}य\u{941}मको स\u{94d}पिकर",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("speaker luid"),
-			keywords: &["hard", "hoog volume", "luid", "luidspreker", "speaker", "volume"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("høgtalar med høgt volum"),
-			keywords: &["høg", "høgtalar med høgt volum", "lyd", "ropert"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some(
-				"ଉଚ\u{b4d}ଚ ଧ\u{b4d}ୱନ\u{b3f} ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
-			),
-			keywords: &[
-				"ଉଚ\u{b4d}ଚ",
-				"ଉଚ\u{b4d}ଚ ଧ\u{b4d}ୱନ\u{b3f} ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
-				"ଉଚ\u{b4d}ଚ ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d}",
-				"ଲ\u{b3e}ଉଡ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d} ସହ\u{b3f}ତ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
-				"ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਪੀਕਰ ਉ\u{a71}ਚ ਵ\u{a4c}ਲਿਊਮ"),
-			keywords: &[
-				"ਆਵਾਜ\u{a3c}",
-				"ਉ\u{a71}ਚੀ",
-				"ਮਿਊਜ\u{a3c}ਕ",
-				"ਵ\u{a71}ਧ",
-				"ਵ\u{a71}ਧ ਆਵਾਜ\u{a3c} ਨਾਲ ਸਪੀਕਰ",
-				"ਸਪੀਕਰ",
-				"ਸਪੀਕਰ ਉ\u{a71}ਚ ਵ\u{a4c}ਲਿਊਮ",
-				"ਸਾਊ\u{a02}ਡ",
-				"ਸ\u{a70}ਗੀਤ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ا\u{64f}وچے واج آلا اسپیکر"),
-			keywords: &["ا\u{64f}وچا", "ا\u{64f}وچے واج آلا اسپیکر"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Laúdspíka Haí Vọ\u{301}lium"),
-			keywords: &["Laud", "Laúdspíka Haí Vọ\u{301}lium"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("wysoka głośność głośnika"),
-			keywords: &[
-				"duża głośność",
-				"dźwięk",
-				"głośnik",
-				"głośność",
-				"wysoka głośność",
-				"wysoka głośność głośnika",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د سپیکر لوړ غږ"),
-			keywords: &["د سپیکر لوړ غږ", "لوړ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("alto-falante com volume alto"),
-			keywords: &[
-				"alto",
-				"alto-falante com som alto",
-				"alto-falante com volume alto",
-				"música",
-				"volume alto",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("altifalante alto"),
-			keywords: &["altifalante", "alto", "elevado", "música", "som", "volume"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("altavoz hatun chanrawan"),
-			keywords: &["altavoz hatun chanrawan", "hatun"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("volum ridicat al difuzorului"),
-			keywords: &[
-				"dat tare",
-				"difuzor",
-				"difuzor cu sunet puternic",
-				"gălăgie",
-				"muzică",
-				"sunet",
-				"sunet puternic",
-				"volum mare",
-				"volum ridicat",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-710"), keywords: &["E10-710"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("высокая громкость"),
-			keywords: &["высокая", "громкость", "динамик", "звук", "уровень"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("indangururamajwi ifite ubwirangire bwo hejuru"),
-			keywords: &["indangururamajwi ifite ubwirangire bwo hejuru", "kiranguruye"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اسپيڪر جو وڏو آواز"),
-			keywords: &["اسپيڪر جو وڏو آواز", "لائوڊ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dca}ප\u{dd3}කර ශබ\u{dca}දය වැඩ\u{dd2}"),
-			keywords: &[
-				"ඉහළ ශබ\u{dca}දය",
-				"ස\u{dca}ප\u{dd3}කර ශබ\u{dca}දය වැඩ\u{dd2}",
-				"ස\u{dca}ප\u{dd3}කරය",
-				"හඩ පර\u{dd2}ම\u{dcf}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("vysoká hlasitosť"),
-			keywords: &[
-				"hlasitosť",
-				"nahlas",
-				"nahlas zapnutý reproduktor",
-				"reproduktor",
-				"vysoká",
-				"zvuk",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("zvočnik na glas"),
-			keywords: &["glasba", "glasno", "zvok", "zvočnik", "zvočnik na glas"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("sameecad codkeedu sareeyo"),
-			keywords: &["sameecad codkeedu sareeyo", "sare"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("altoparlant me zë të lartë"),
-			keywords: &[
-				"altoparlant",
-				"altoparlant me 3 vija",
-				"altoparlant me zë të lartë",
-				"i lartë",
-				"volum i lartë",
-				"zë i fortë",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("појачан звучник"),
-			keywords: &["високо", "гласно", "звук", "звучник", "музика", "јачина"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("pojačan zvučnik"),
-			keywords: &["glasno", "jačina", "muzika", "visoko", "zvuk", "zvučnik"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("högtalare med hög volym"),
-			keywords: &["högtalare", "högtalare med hög volym", "volym"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("spika yenye sauti ya juu"),
-			keywords: &["juu", "sauti", "spika", "spika yenye sauti ya juu"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("அலறும\u{bcd} ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}"),
-			keywords: &[
-				"அலறும\u{bcd} ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
-				"இரைச\u{bcd}சல\u{bcd}",
-				"சத\u{bcd}தம\u{bbe}கப\u{bcd} பேசு",
-				"சவுண\u{bcd}ட\u{bcd}",
-				"பொருள\u{bcd}",
-				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
-				"ஹைபிட\u{bcd}ச\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ప\u{c46}ద\u{c4d}ద శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}"),
-			keywords: &[
-				"గర\u{c3f}ష\u{c4d}ట వ\u{c3e}ల\u{c4d}యూమ\u{c4d}",
-				"ప\u{c46}ద\u{c4d}ద శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}",
-				"మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
-				"ల\u{c4c}డ\u{c4d}",
-				"వ\u{c3e}ల\u{c4d}యూమ\u{c4d} ఎక\u{c4d}కువగ\u{c3e} ఉంద\u{c3f}",
-				"సంగ\u{c40}తం",
-				"స\u{c4c}ండ\u{c4d}",
-				"స\u{c4d}ప\u{c40}కర\u{c4d} హ\u{c48} వ\u{c3e}ల\u{c4d}యూం",
-				"హ\u{c48}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("садои баланди баландгӯяк"),
-			keywords: &["баланд", "садои баланди баландгӯяк"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ลำโพงเส\u{e35}ยงด\u{e31}ง"),
-			keywords: &["ลำโพง", "ลำโพงด\u{e31}ง", "ลำโพงเส\u{e35}ยงด\u{e31}ง"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ስፒከር ልዑል ድምጺ"),
-			keywords: &["ልዑል", "ሙዚቃ", "ተዛራባይ", "ትሕዝቶ", "ዓው ኢሉ", "ድምጺ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gaty sesli dinamik"),
-			keywords: &["batly", "gaty sesli dinamik"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("leʻo lahi"), keywords: &["leʻo lahi"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yüksek ses"),
-			keywords: &["yüksek", "yüksek ses", "yüksek sesli hoparlör"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يۇقىرى ئۈنلۈك ياڭراتقۇ"),
-			keywords: &["ئۈنلۈك", "يۇقىرى ئۈنلۈك ياڭراتقۇ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("високий рівень гучності динаміка"),
-			keywords: &[
-				"висока гучність динаміка",
-				"високий рівень гучності динаміка",
-				"голосно",
-				"гучний",
-				"гучно",
-				"гучномовець",
-				"гучність",
-				"динамік",
-				"музика",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بلند آواز نکالتے اسپیکر"),
-			keywords: &["آواز", "اسپیکر", "بلند", "بلند آواز نکالتے اسپیکر"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("baland ovoz"),
-			keywords: &[
-				"3",
-				"baland",
-				"baland ovoz",
-				"karnay",
-				"ovoz balandligi",
-				"tovush",
-				"uch",
-				"yuqori",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("âm lượng loa cao"),
-			keywords: &["lớn", "âm lượng loa cao"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("oparlër bu xumbul lool"),
-			keywords: &["oparlër bu xumbul lool", "xumb"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ivolyum ephezulu yespikha"),
-			keywords: &["ephezulu", "ivolyum ephezulu yespikha"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Gbohungbohun ti Ohun rẹ lọSoke"),
-			keywords: &["Gbohungbohun ti Ohun rẹ lọSoke", "pariwo"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Gbohungbohun ti Ohun rɛ lɔSoke"),
-			keywords: &["Gbohungbohun ti Ohun rɛ lɔSoke", "pariwo"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("高音量喇叭"),
-			keywords: &["大聲", "高音量喇叭"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("高音量喇叭"),
-			keywords: &["大声", "高音量喇叭"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("高音量的扬声器"),
-			keywords: &["大声", "大音量", "扬声器", "音量", "高音量", "高音量的扬声器"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("高音量"),
-			keywords: &["喇叭", "揚聲器", "聲音", "高音量"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("聲量大嘅喇叭"),
-			keywords: &[
-				"喇叭",
-				"大聲",
-				"揚聲器",
-				"聲量大嘅喇叭",
-				"聲音",
-				"音樂",
-				"音量",
-				"音響",
-				"高音量",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ispikha esiphezulu"),
-			keywords: &["3", "ispikha", "ispikha esiphezulu", "ivolumu", "phezulu", "umsindo"],
-		},
-	],
-};
 #[doc = "📣"]
 pub const MEGAPHONE: crate::Emoji = crate::Emoji {
 	glyph:                "📣",
@@ -7420,4 +5448,1976 @@ pub const LOUDSPEAKER: crate::Emoji = crate::Emoji {
 			keywords: &["isipikha esimemezayo", "ukukhuluma nomphakathi", "umsindo"],
 		},
 	],
+};
+#[doc = "🔊"]
+pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
+	glyph:                "🔊",
+	codepoint:            &[128266u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "speaker high volume",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Sound,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("luidspreker hard"),
+			keywords: &[
+				"3",
+				"drie",
+				"hard",
+				"harde luidspreker",
+				"hardop",
+				"hoë volume",
+				"klank",
+				"luidspreker",
+				"luidspreker hard speel",
+				"musiek",
+				"volume",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ስፒከር ድምፁ ከፍ ብሏል"),
+			keywords: &[
+				"ስፒከር",
+				"ስፒከር ድምፁ ከፍ ብሏል",
+				"ከፍ ያለ ድምጽ",
+				"ከፍተኛ",
+				"የድምጽ ብክለት",
+				"ድምጽ ማጉያ",
+				"ድምፅ መጠን",
+				"ጮክ",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("صوت سماعة مرتفع"),
+			keywords: &["سماعة بصوت مرتفع", "صوت سماعة مرتفع", "صوت عالي", "مرتفع"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ তীব\u{9cd}ৰ"),
+			keywords: &["তীব\u{9cd}ৰ", "স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ তীব\u{9cd}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("səsucaldan yüksəkdir"),
+			keywords: &["3", "səs", "səsucaldan", "səsucaldan yüksəkdir", "uca", "yüksək", "üç"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("гучна"),
+			keywords: &["высокая", "гучна", "гучнасць", "дынамік"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("високоговорител със силен звук"),
+			keywords: &[
+				"високоговорител",
+				"високоговорител със силен звук",
+				"звук",
+				"музика",
+				"сила на звука",
+				"силен",
+				"силно пуснат високоговорител",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}পিক\u{9be}র জোরে"),
+			keywords: &[
+				"খ\u{9c1}ব জোরে",
+				"খ\u{9c1}ব জোরে স\u{9cd}পিক\u{9be}র",
+				"জোরে",
+				"স\u{9cd}পিক\u{9be}র",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zvučnik glasno"),
+			keywords: &["jako", "zvučnik glasno"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("altaveu amb el volum alt"),
+			keywords: &["alt", "altaveu amb el volum alt", "fort", "música", "so", "volum fort"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏬᏂᏍᎩ ᎦᎸᎳᏗ ᎠᏍᏓᏱᏗᏍᏗ"),
+			keywords: &["ᎦᏬᏂᏍᎩ ᎦᎸᎳᏗ ᎠᏍᏓᏱᏗᏍᏗ", "ᏧᎵᏍᏙᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("hlasitý reproduktor"),
+			keywords: &["hlasitost", "hlasitý", "hudba", "nahlas", "reproduktor", "zvuk"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("seinydd uchel"),
+			keywords: &["3", "seinydd", "uchel"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("højttaler høj lydstyrke"),
+			keywords: &[
+				"høj volumen",
+				"højtaler med høj volumen",
+				"højttaler høj lydstyrke",
+				"højttaler høj volumen",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Lautsprecher mit hoher Lautstärke"),
+			keywords: &[
+				"Dezibel",
+				"Lautsprecher mit drei Schallwellen",
+				"Lautsprecher mit hoher Lautstärke",
+				"Musik",
+				"Schallwellen",
+				"laut",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ηχείο σε υψηλή ένταση"),
+			keywords: &[
+				"ένταση ήχου",
+				"ήχος",
+				"δυνατή",
+				"ηχείο",
+				"ηχείο σε υψηλή ένταση",
+				"μουσική",
+				"υψηλή ένταση ήχου",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("speaker high volume"),
+			keywords: &["high", "loud", "music", "sound", "speaker", "volume"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("altavoz a volumen alto"),
+			keywords: &["altavoz", "altavoz a volumen alto", "alto", "volumen alto"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"altavoz",
+				"altavoz con volumen alto",
+				"alto",
+				"bocina",
+				"corneta",
+				"sonido",
+				"volumen",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("bocina a volumen alto"),
+			keywords: &["bocina a volumen alto"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("valju heliga kõlar"),
+			keywords: &["heli", "kõlar", "vali", "valju heliga kõlar"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bozgorailua ozen"),
+			keywords: &["3", "altu", "bolumen", "bozgorailu", "bozgorailua ozen", "hiru"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("بلندگو با صدای بلند"),
+			keywords: &[
+				"بالا",
+				"بلند",
+				"بلندگو",
+				"بلندگو با صدای بلند",
+				"بلندگو با صدای زیاد",
+				"زیاد",
+				"صدا",
+				"موج",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("äänekäs kaiutin"),
+			keywords: &["kaiutin", "kovempaa", "lisää", "äänekäs kaiutin", "äänenvoimakkuus"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("malakas ang speaker"),
+			keywords: &["maingay", "malakas", "malakas ang speaker", "speaker", "volume"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("høg ljóðstyrki á hátalara"),
+			keywords: &["hátalari", "høg", "høg ljóðstyrki á hátalara", "ljóðstyrki"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("volume des enceintes élevé"),
+			keywords: &[
+				"enceinte",
+				"fort",
+				"haut-parleur",
+				"haut-parleur d’enceinte",
+				"musique",
+				"son",
+				"volume des enceintes élevé",
+				"volume élevé",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("volume élevé"),
+			keywords: &["son fort", "son puissant", "son élevé", "volume fort", "volume élevé"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("callaire fuaime airde"),
+			keywords: &["airde", "ard", "callaire", "callaire fuaime airde", "ceol", "fuaim"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("glaodhaire ’s fhuaim àrd"),
+			keywords: &["fuaim", "glaodhaire a’ cur a-mach fuaim àrd", "glaodhaire ’s fhuaim àrd", "àrd"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("altofalante con volume alto"),
+			keywords: &["alto", "altofalante", "altofalante con volume alto", "volume"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("વધ\u{ac1} અવાજમા\u{a82} સ\u{acd}પીકર"),
+			keywords: &[
+				"ઊ\u{a82}ચો",
+				"વધ\u{ac1}",
+				"વધ\u{ac1} અવાજમા\u{a82} સ\u{acd}પીકર",
+				"વધ\u{ac1} વૉલ\u{acd}ય\u{ac2}મ",
+				"વધ\u{ac1} વૉલ\u{acd}ય\u{ac2}મ સાથ\u{ac7}ન\u{ac1}\u{a82} સ\u{acd}પીકર",
+				"સાધન",
+				"સ\u{acd}પીકર",
+				"સ\u{acd}પીકર ઊચો અવાજ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("sifika ƙarfin murya na sama"),
+			keywords: &[
+				"mai ƙarfi",
+				"sauti",
+				"sifika mai ƙara",
+				"sifika ƙarfin murya na sama",
+				"ƙara murya",
+				"ƙara sauti",
+				"ƙure sauti",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("sifika ƙarfin murya na sama"),
+			keywords: &[
+				"mai ƙarfi",
+				"sauti",
+				"sifika mai ƙara",
+				"sifika ƙarfin murya na sama",
+				"ƙara murya",
+				"ƙara sauti",
+				"ƙure sauti",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("ווליום חזק"),
+			keywords: &["ווליום", "חזק", "רמקול"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("उच\u{94d}च वॉल\u{94d}य\u{942}म स\u{94d}पीकर"),
+			keywords: &[
+				"अधिक आवाज\u{93c}",
+				"अधिक आवाज\u{93c} म\u{947}\u{902} स\u{94d}पीकर",
+				"उच\u{94d}च वॉल\u{94d}य\u{942}म स\u{94d}पीकर",
+				"त\u{947}ज\u{93c} आवाज\u{93c} म\u{947}\u{902} स\u{94d}पीकर",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("glasan zvučnik"),
+			keywords: &["glasan zvučnik", "glasno", "glazba", "zvučnik"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hangos hangszóró"),
+			keywords: &["hangos", "hangszóró", "nagy hangerő", "zene"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բարձրախոսի ձայնը բարձր է"),
+			keywords: &["բարձր ձայն", "բարձրախոսի ձայնը բարձր է", "բարձրաձայն", "ձայնարկիչ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("volume speaker tinggi"),
+			keywords: &[
+				"berisik", "bising", "bunyi", "kencang", "keras", "musik", "speaker", "suara", "tinggi",
+				"volume",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("òkwù okwu ụhàraụdà dị elu"),
+			keywords: &["òkwù okwu ụhàraụdà dị elu", "ụda"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hávær hátalari"),
+			keywords: &["hljóðstyrkur", "hátalari", "hátt", "hávær hátalari"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("altoparlante a volume alto"),
+			keywords: &[
+				"alto",
+				"altoparlante a volume alto",
+				"audio",
+				"megafono",
+				"musica",
+				"speaker",
+				"suono",
+				"volume",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("スピーカー音量大"),
+			keywords: &["スピーカー", "スピーカー音量大", "ボリューム", "大音量", "音量", "音量大"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("volume banter speaker"),
+			keywords: &["sero", "volume banter speaker"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ხმამაღალი დინამიკი"),
+			keywords: &["3", "დინამიკი", "სამი", "ხმა", "ხმამაღალი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("imesli meqqren"),
+			keywords: &["imesli meqqren"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("динамиктің дыбысын шығару"),
+			keywords: &["динамиктің дыбысын көбейту", "динамиктің дыбысын шығару", "дыбыс", "қатты"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("højttaler høj"),
+			keywords: &["høj volumen", "højtaler med høj volumen", "højttaler høj"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បាសបើកខ\u{17d2}លា\u{17c6}ង"),
+			keywords: &["បាស", "បាសបើកខ\u{17d2}លា\u{17c6}ង", "បើកខ\u{17d2}លា\u{17c6}ង"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಹ\u{cc8} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}"),
+			keywords: &[
+				"ಎತ\u{ccd}ತರ",
+				"ಜ\u{ccb}ರಾಗ\u{cbf}",
+				"ಜ\u{ccb}ರಾದ ಧ\u{ccd}ವನ\u{cbf}ಯ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd}",
+				"ಧ\u{ccd}ವನ\u{cbf}",
+				"ಲ\u{ccc}ಡ\u{ccd}",
+				"ಸಂಗ\u{cc0}ತ",
+				"ಸ\u{ccc}ಂಡ\u{ccd}",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಹ\u{cc8} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("스피커 소리 크게"),
+			keywords: &["높게", "소리", "소리 큼", "소리 키우기", "스피커 소리 크게", "음악", "크게"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उच\u{94d}च आवाजाचो स\u{94d}पिकर"),
+			keywords: &["उच\u{94d}च आवाजाचो स\u{94d}पिकर", "व\u{94d}हड"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("колонка катуу"),
+			keywords: &["3", "жогору", "катуу", "колонка", "үч"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Lautsprecher op haart agestallt"),
+			keywords: &["Lautsprecher op haart agestallt", "haart"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ລ\u{ecd}າໂພງດ\u{eb1}ງ"),
+			keywords: &[
+				"ລ\u{ecd}າໂພງ",
+				"ລ\u{ecd}າໂພງດ\u{eb1}ງ",
+				"ລ\u{ecd}າໂພງເປ\u{eb5}ດ",
+				"ສຽງດ\u{eb1}ງ",
+				"ເປ\u{eb5}ດລ\u{ecd}າໂພງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("didelis garsiakalbio garsumas"),
+			keywords: &["didelis garsiakalbio garsumas", "garsiakalbis", "garsus", "prietaisas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("skaļš skaļrunis"),
+			keywords: &["skaļrunis", "skaļums", "skaļš", "skaņa"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tukuoro kahaoro teitei"),
+			keywords: &["nui", "tukuoro kahaoro teitei"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("гласен звучник"),
+			keywords: &["глас", "гласен звучник", "гласно", "звук", "звучник", "музика", "најгласно"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some(
+				"ഉച\u{d4d}ചത\u{d4d}തിൽ ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
+			),
+			keywords: &[
+				"ഉച\u{d4d}ചത\u{d4d}തില\u{d41}ള\u{d4d}ള ശബ\u{d4d}\u{200c}ദം",
+				"ഉച\u{d4d}ചത\u{d4d}തിൽ ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("чанга яригчийн дууны түвшин чанга"),
+			keywords: &["чанга", "чанга яригчийн дууны түвшин чанга"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{94d}पीकरचा मोठा आवाज"),
+			keywords: &[
+				"आवाज",
+				"उच\u{94d}च",
+				"उच\u{94d}च ध\u{94d}वनी",
+				"उच\u{94d}च ध\u{94d}वनी असल\u{947}ला स\u{94d}पीकर",
+				"मोठा",
+				"स\u{902}गीत",
+				"स\u{94d}पीकर",
+				"स\u{94d}पीकरचा आवाज मोठा",
+				"स\u{94d}पीकरचा मोठा आवाज",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kelantangan tinggi pembesar suara"),
+			keywords: &["bunyi", "kelantangan", "kuat", "lantang", "muzik", "pembesar suara", "tinggi"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("speaker volum għoli"),
+			keywords: &["speaker volum għoli", "ħsejjes għolja"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စပ\u{102e}ကာ အသ\u{1036}ကျယ\u{103a}"),
+			keywords: &["ကျယ\u{103a}လောင\u{103a}", "စပ\u{102e}ကာ အသ\u{1036}ကျယ\u{103a}"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("ठ\u{942}लो आवाजको स\u{94d}पिकर"),
+			keywords: &[
+				"चर\u{94d}को आवाज",
+				"ठ\u{942}लो आवाजको स\u{94d}पिकर",
+				"ठ\u{942}लो भोल\u{94d}य\u{941}मको स\u{94d}पिकर",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("speaker luid"),
+			keywords: &["hard", "hoog volume", "luid", "luidspreker", "speaker", "volume"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("høgtalar med høgt volum"),
+			keywords: &["høg", "høgtalar med høgt volum", "lyd", "ropert"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some(
+				"ଉଚ\u{b4d}ଚ ଧ\u{b4d}ୱନ\u{b3f} ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
+			),
+			keywords: &[
+				"ଉଚ\u{b4d}ଚ",
+				"ଉଚ\u{b4d}ଚ ଧ\u{b4d}ୱନ\u{b3f} ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
+				"ଉଚ\u{b4d}ଚ ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d}",
+				"ଲ\u{b3e}ଉଡ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d} ସହ\u{b3f}ତ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
+				"ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਪੀਕਰ ਉ\u{a71}ਚ ਵ\u{a4c}ਲਿਊਮ"),
+			keywords: &[
+				"ਆਵਾਜ\u{a3c}",
+				"ਉ\u{a71}ਚੀ",
+				"ਮਿਊਜ\u{a3c}ਕ",
+				"ਵ\u{a71}ਧ",
+				"ਵ\u{a71}ਧ ਆਵਾਜ\u{a3c} ਨਾਲ ਸਪੀਕਰ",
+				"ਸਪੀਕਰ",
+				"ਸਪੀਕਰ ਉ\u{a71}ਚ ਵ\u{a4c}ਲਿਊਮ",
+				"ਸਾਊ\u{a02}ਡ",
+				"ਸ\u{a70}ਗੀਤ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ا\u{64f}وچے واج آلا اسپیکر"),
+			keywords: &["ا\u{64f}وچا", "ا\u{64f}وچے واج آلا اسپیکر"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Laúdspíka Haí Vọ\u{301}lium"),
+			keywords: &["Laud", "Laúdspíka Haí Vọ\u{301}lium"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("wysoka głośność głośnika"),
+			keywords: &[
+				"duża głośność",
+				"dźwięk",
+				"głośnik",
+				"głośność",
+				"wysoka głośność",
+				"wysoka głośność głośnika",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د سپیکر لوړ غږ"),
+			keywords: &["د سپیکر لوړ غږ", "لوړ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("alto-falante com volume alto"),
+			keywords: &[
+				"alto",
+				"alto-falante com som alto",
+				"alto-falante com volume alto",
+				"música",
+				"volume alto",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("altifalante alto"),
+			keywords: &["altifalante", "alto", "elevado", "música", "som", "volume"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("altavoz hatun chanrawan"),
+			keywords: &["altavoz hatun chanrawan", "hatun"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("volum ridicat al difuzorului"),
+			keywords: &[
+				"dat tare",
+				"difuzor",
+				"difuzor cu sunet puternic",
+				"gălăgie",
+				"muzică",
+				"sunet",
+				"sunet puternic",
+				"volum mare",
+				"volum ridicat",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-710"), keywords: &["E10-710"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("высокая громкость"),
+			keywords: &["высокая", "громкость", "динамик", "звук", "уровень"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("indangururamajwi ifite ubwirangire bwo hejuru"),
+			keywords: &["indangururamajwi ifite ubwirangire bwo hejuru", "kiranguruye"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اسپيڪر جو وڏو آواز"),
+			keywords: &["اسپيڪر جو وڏو آواز", "لائوڊ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ස\u{dca}ප\u{dd3}කර ශබ\u{dca}දය වැඩ\u{dd2}"),
+			keywords: &[
+				"ඉහළ ශබ\u{dca}දය",
+				"ස\u{dca}ප\u{dd3}කර ශබ\u{dca}දය වැඩ\u{dd2}",
+				"ස\u{dca}ප\u{dd3}කරය",
+				"හඩ පර\u{dd2}ම\u{dcf}ව",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("vysoká hlasitosť"),
+			keywords: &[
+				"hlasitosť",
+				"nahlas",
+				"nahlas zapnutý reproduktor",
+				"reproduktor",
+				"vysoká",
+				"zvuk",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("zvočnik na glas"),
+			keywords: &["glasba", "glasno", "zvok", "zvočnik", "zvočnik na glas"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("sameecad codkeedu sareeyo"),
+			keywords: &["sameecad codkeedu sareeyo", "sare"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("altoparlant me zë të lartë"),
+			keywords: &[
+				"altoparlant",
+				"altoparlant me 3 vija",
+				"altoparlant me zë të lartë",
+				"i lartë",
+				"volum i lartë",
+				"zë i fortë",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("појачан звучник"),
+			keywords: &["високо", "гласно", "звук", "звучник", "музика", "јачина"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("pojačan zvučnik"),
+			keywords: &["glasno", "jačina", "muzika", "visoko", "zvuk", "zvučnik"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("högtalare med hög volym"),
+			keywords: &["högtalare", "högtalare med hög volym", "volym"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("spika yenye sauti ya juu"),
+			keywords: &["juu", "sauti", "spika", "spika yenye sauti ya juu"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("அலறும\u{bcd} ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}"),
+			keywords: &[
+				"அலறும\u{bcd} ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
+				"இரைச\u{bcd}சல\u{bcd}",
+				"சத\u{bcd}தம\u{bbe}கப\u{bcd} பேசு",
+				"சவுண\u{bcd}ட\u{bcd}",
+				"பொருள\u{bcd}",
+				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
+				"ஹைபிட\u{bcd}ச\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ప\u{c46}ద\u{c4d}ద శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}"),
+			keywords: &[
+				"గర\u{c3f}ష\u{c4d}ట వ\u{c3e}ల\u{c4d}యూమ\u{c4d}",
+				"ప\u{c46}ద\u{c4d}ద శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}",
+				"మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
+				"ల\u{c4c}డ\u{c4d}",
+				"వ\u{c3e}ల\u{c4d}యూమ\u{c4d} ఎక\u{c4d}కువగ\u{c3e} ఉంద\u{c3f}",
+				"సంగ\u{c40}తం",
+				"స\u{c4c}ండ\u{c4d}",
+				"స\u{c4d}ప\u{c40}కర\u{c4d} హ\u{c48} వ\u{c3e}ల\u{c4d}యూం",
+				"హ\u{c48}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("садои баланди баландгӯяк"),
+			keywords: &["баланд", "садои баланди баландгӯяк"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ลำโพงเส\u{e35}ยงด\u{e31}ง"),
+			keywords: &["ลำโพง", "ลำโพงด\u{e31}ง", "ลำโพงเส\u{e35}ยงด\u{e31}ง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ስፒከር ልዑል ድምጺ"),
+			keywords: &["ልዑል", "ሙዚቃ", "ተዛራባይ", "ትሕዝቶ", "ዓው ኢሉ", "ድምጺ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gaty sesli dinamik"),
+			keywords: &["batly", "gaty sesli dinamik"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("leʻo lahi"), keywords: &["leʻo lahi"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("yüksek ses"),
+			keywords: &["yüksek", "yüksek ses", "yüksek sesli hoparlör"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يۇقىرى ئۈنلۈك ياڭراتقۇ"),
+			keywords: &["ئۈنلۈك", "يۇقىرى ئۈنلۈك ياڭراتقۇ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("високий рівень гучності динаміка"),
+			keywords: &[
+				"висока гучність динаміка",
+				"високий рівень гучності динаміка",
+				"голосно",
+				"гучний",
+				"гучно",
+				"гучномовець",
+				"гучність",
+				"динамік",
+				"музика",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بلند آواز نکالتے اسپیکر"),
+			keywords: &["آواز", "اسپیکر", "بلند", "بلند آواز نکالتے اسپیکر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("baland ovoz"),
+			keywords: &[
+				"3",
+				"baland",
+				"baland ovoz",
+				"karnay",
+				"ovoz balandligi",
+				"tovush",
+				"uch",
+				"yuqori",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("âm lượng loa cao"),
+			keywords: &["lớn", "âm lượng loa cao"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("oparlër bu xumbul lool"),
+			keywords: &["oparlër bu xumbul lool", "xumb"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ivolyum ephezulu yespikha"),
+			keywords: &["ephezulu", "ivolyum ephezulu yespikha"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Gbohungbohun ti Ohun rẹ lọSoke"),
+			keywords: &["Gbohungbohun ti Ohun rẹ lọSoke", "pariwo"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Gbohungbohun ti Ohun rɛ lɔSoke"),
+			keywords: &["Gbohungbohun ti Ohun rɛ lɔSoke", "pariwo"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("高音量喇叭"),
+			keywords: &["大聲", "高音量喇叭"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("高音量喇叭"),
+			keywords: &["大声", "高音量喇叭"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("高音量的扬声器"),
+			keywords: &["大声", "大音量", "扬声器", "音量", "高音量", "高音量的扬声器"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("高音量"),
+			keywords: &["喇叭", "揚聲器", "聲音", "高音量"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("聲量大嘅喇叭"),
+			keywords: &[
+				"喇叭",
+				"大聲",
+				"揚聲器",
+				"聲量大嘅喇叭",
+				"聲音",
+				"音樂",
+				"音量",
+				"音響",
+				"高音量",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ispikha esiphezulu"),
+			keywords: &["3", "ispikha", "ispikha esiphezulu", "ivolumu", "phezulu", "umsindo"],
+		},
+	],
+};
+#[doc = "🔉"]
+pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
+	glyph:                "🔉",
+	codepoint:            &[128265u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "speaker medium volume",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Sound,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("luidspreker medium volume"),
+			keywords: &["klank", "klankgolf", "luidspreker", "luidspreker aan", "medium", "volume"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ስፒከር በርቷል"),
+			keywords: &["መካከለኛ ድምጽ", "ሞገድ", "ስፒከር", "ስፒከር በርቷል", "ዝቅ", "የድምጽ መጠን", "ድምጽ ማጉያ", "ድምፅ መጠን"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("صوت معتدل"),
+			keywords: &[
+				"رمز",
+				"سبيكر",
+				"سماعة بصوت",
+				"سماعة بصوت منخفض",
+				"صوت",
+				"صوت سماعة متوسط",
+				"صوت معتدل",
+				"متوسط",
+				"منخفض",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ মধ\u{9cd}যমীয\u{9bc}\u{9be}"),
+			keywords: &[
+				"মধ\u{9cd}যমীয\u{9bc}\u{9be}",
+				"স\u{9cd}পীক\u{9be}ৰৰ স\u{9cd}বৰ মধ\u{9cd}যমীয\u{9bc}\u{9be}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("səsucaldan aktivdir"),
+			keywords: &["aşağı", "dalğa", "səs", "səsucaldan", "səsucaldan aktivdir"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("ціха"),
+			keywords: &["гучнасць", "дынамік", "нізкая", "ціха"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("високоговорител със средносилен звук"),
+			keywords: &[
+				"високоговорител",
+				"високоговорител със средносилен звук",
+				"включен високоговорител",
+				"сила на звука",
+				"средносилен",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}পিক\u{9be}র ম\u{9be}ঝ\u{9be}রি আওয\u{9bc}\u{9be}জ"),
+			keywords: &[
+				"ভলিউম",
+				"ম\u{9be}ঝ\u{9be}রি",
+				"স\u{9cd}পিক\u{9be}র",
+				"স\u{9cd}পিক\u{9be}র ম\u{9be}ঝ\u{9be}রি আওয\u{9bc}\u{9be}জ",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("zvučnik srednja glasnoća"),
+			keywords: &["srednje", "zvučnik srednja glasnoća"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("altaveu amb el volum mitjà"),
+			keywords: &["altaveu amb el volum mitjà", "mitjà", "so", "volum mitjà"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏬᏂᏍᎩ ᎠᏰᏟ ᎠᏍᏓᏱᏗᏍᏗ"),
+			keywords: &["ᎠᏲᏟᎨ", "ᎦᏬᏂᏍᎩ ᎠᏰᏟ ᎠᏍᏓᏱᏗᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("středně hlasitý reproduktor"),
+			keywords: &["hlasitost", "hlasitý", "reproduktor", "střední", "středně", "tlampač", "zvuk"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("seinydd ymlaen"),
+			keywords: &["isel", "seinydd ymlaen", "siarad", "ton"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("højttaler mellem lydstyrke"),
+			keywords: &[
+				"højtaler med en lydbølge",
+				"højttaler medium volumen",
+				"højttaler mellem lydstyrke",
+				"lav volumen",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Lautsprecher mit mittlerer Lautstärke"),
+			keywords: &[
+				"Lautsprecher mit einer Schallwelle",
+				"Lautsprecher mit mittlerer Lautstärke",
+				"Ton",
+				"leise",
+				"mittellaut",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ηχείο σε μέτρια ένταση"),
+			keywords: &["ένταση ήχου", "ήχος", "ηχείο", "ηχείο σε μέτρια ένταση"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("speaker medium volume"),
+			keywords: &["medium", "sound", "speaker", "volume"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("altavoz a volumen medio"),
+			keywords: &["altavoz a volumen medio", "altavoz con volumen medio", "medio", "volumen medio"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"altavoz con volumen medio",
+				"altavoz encendido",
+				"bocina",
+				"medio",
+				"volumen medio",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("bocina a volumen medio"),
+			keywords: &["bocina a volumen medio"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("poolvalju heliga kõlar"),
+			keywords: &["heli", "kõlar", "poolvalju heliga kõlar", "vaikne"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("bozgorailua piztuta"),
+			keywords: &["baxu", "bolumen", "bozgorailu", "bozgorailua piztuta", "uhin"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("بلندگو با صدای متعادل"),
+			keywords: &[
+				"بلندگو",
+				"بلندگو با صدای متعادل",
+				"بلندگو روشن",
+				"صدا",
+				"موج",
+				"میانه",
+				"نه کم نه زیاد",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kaiutin normaalilla äänenvoimakkuudella"),
+			keywords: &["kaiutin", "kaiutin normaalilla äänenvoimakkuudella", "äänenvoimakkuus", "äänet"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("speaker na katamtaman ang sound"),
+			keywords: &[
+				"naka-medium",
+				"naka-on ang speaker",
+				"speaker",
+				"speaker na katamtaman ang sound",
+				"volume",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("miðal ljóðstyrki á hátalara"),
+			keywords: &["hátalari", "ljóðstyrki", "miðal", "miðal ljóðstyrki á hátalara"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("volume des enceintes moyen"),
+			keywords: &[
+				"enceinte",
+				"haut-parleur",
+				"haut-parleur d’enceinte",
+				"son",
+				"volume des enceintes moyen",
+				"volume moyen",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("volume moyen"),
+			keywords: &["son moyen", "volume moyen"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("callaire fuaime ísle"),
+			keywords: &[
+				"callaire",
+				"callaire ar leibhéal meánach",
+				"callaire fuaime ísle",
+				"fuaim",
+				"meánach",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("glaodhaire ’s fhuaim mheadhanach"),
+			keywords: &[
+				"fuaim",
+				"glaodhaire a’ cur a-mach fuaim mheadhanach",
+				"glaodhaire ’s fhuaim mheadhanach",
+				"meadhanach",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("altofalante activado"),
+			keywords: &["altofalante", "altofalante activado", "baixo", "volume"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{acd}પીકર મધ\u{acd}યમ વૉલ\u{acd}ય\u{ac2}મ"),
+			keywords: &[
+				"ઓછા વૉલ\u{acd}ય\u{ac2}મ સાથ\u{ac7}ન\u{ac1}\u{a82} સ\u{acd}પીકર",
+				"ઓછ\u{ac1}\u{a82}",
+				"ઓછ\u{ac1}\u{a82} વૉલ\u{acd}ય\u{ac2}મ",
+				"મધ\u{acd}યમ",
+				"સ\u{acd}પીકર",
+				"સ\u{acd}પીકર ચાલ\u{ac1}",
+				"સ\u{acd}પીકર મધ\u{acd}યમ વૉલ\u{acd}ય\u{ac2}મ",
+				"સ\u{acd}પીકર માધ\u{acd}યમ વોલ\u{acd}ય\u{ac1}મ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("sifika matsakaicin ƙarfin murya"),
+			keywords: &[
+				"matsakaici",
+				"matsakaicin sauti",
+				"sauti",
+				"sifika",
+				"sifika matsakaicin ƙarfin murya",
+				"ƙarfin murya",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("sifika matsakaicin ƙarfin murya"),
+			keywords: &[
+				"matsakaici",
+				"matsakaicin sauti",
+				"sauti",
+				"sifika",
+				"sifika matsakaicin ƙarfin murya",
+				"ƙarfin murya",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("ווליום בינוני"),
+			keywords: &["בינוני", "ווליום בינוני", "ווליום בינוני של הרמקול"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}पीकर मीडियम वॉल\u{94d}य\u{942}म"),
+			keywords: &[
+				"मध\u{94d}यम",
+				"मीडियम",
+				"स\u{94d}पीकर",
+				"स\u{94d}पीकर मीडियम वॉल\u{94d}य\u{942}म",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("srednje glasan zvučnik"),
+			keywords: &["srednja glasnoća", "srednje glasan zvučnik", "zvuk"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("bekapcsolt hangszóró"),
+			keywords: &["alacsony hangerő", "bekapcsolt hangszóró", "hangerő", "hangszóró"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("բարձրախոսը միացված է"),
+			keywords: &["ալիք", "բարձրախոս", "բարձրախոսը միացված է", "ձայն", "ցածր"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("volume speaker medium"),
+			keywords: &["bunyi", "medium", "speaker", "suara", "volume"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("òkwù okwu ụhàraụdà ndịna etiti"),
+			keywords: &["etiti", "òkwù okwu ụhàraụdà ndịna etiti"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hátalari í gangi"),
+			keywords: &["hljóðstyrkur", "hátalari", "hátalari í gangi", "lágt"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("altoparlante a volume intermedio"),
+			keywords: &[
+				"altoparlante a volume intermedio",
+				"altoparlante volume basso",
+				"audio",
+				"basso",
+				"megafono",
+				"speaker",
+				"suono",
+				"volume basso",
+				"volume intermedio",
+				"volume medio",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("スピーカー音量小"),
+			keywords: &["スピーカー", "スピーカー音量小", "ボリューム", "音量", "音量小"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("volume medium speaker"),
+			keywords: &["medium", "volume medium speaker"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("დინამიკი ჩართულია"),
+			keywords: &["დინამიკი", "დინამიკი ჩართულია", "ტალღა", "ხმა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("imesli alemmas"),
+			keywords: &["imesli alemmas"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("динамикті қосу"),
+			keywords: &[
+				"динамик",
+				"динамикті қосу",
+				"динамиктің дыбыс деңгейі орташа",
+				"дыбыс деңгейі",
+				"толқын",
+				"төмен",
+			],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("højttaler til"),
+			keywords: &["højtaler med en lydbølge", "højttaler til", "lav volumen"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang: "km", tts: Some("បាសបើក"), keywords: &["បាសបើក", "បើក"]
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಮ\u{cc0}ಡ\u{cbf}ಯಂ ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}"),
+			keywords: &[
+				"ಕಡ\u{cbf}ಮ\u{cc6}",
+				"ಧ\u{ccd}ವನ\u{cbf}",
+				"ಮ\u{cc0}ಡ\u{cbf}ಯಂ",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd}",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಆನ\u{ccd}",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ಮ\u{cc0}ಡ\u{cbf}ಯಂ ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd}",
+				"ಸ\u{ccd}ಪ\u{cc0}ಕರ\u{ccd} ವಾಲ\u{ccd}ಯ\u{cc2}ಮ\u{ccd} ಕಡ\u{cbf}ಮ\u{cc6} ಮಾಡು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("스피커 소리 작게"),
+			keywords: &[
+				"미디엄",
+				"소리",
+				"소리 작게",
+				"소리 작음",
+				"소리 줄이기",
+				"스피커 미디엄 소리",
+				"스피커 소리 작게",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("मध\u{94d}यम आवाजाचो स\u{94d}पिकर"),
+			keywords: &["मध\u{94d}यम", "मध\u{94d}यम आवाजाचो स\u{94d}पिकर"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("колонка күйүк"),
+			keywords: &["колонка", "колонка күйүк", "төмөн", "үн көлөмү"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Lautsprecher op mëttel agestallt"),
+			keywords: &["Lautsprecher op mëttel agestallt", "mëttel"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເປ\u{eb5}ດລຳໂພງ"),
+			keywords: &["ກະຈາຍສຽງ", "ລຳໂພງ", "ເປ\u{eb5}ດ", "ເປ\u{eb5}ດລຳໂພງ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("vidutinio garso garsiakalbis"),
+			keywords: &["garsiakalbis", "vidutinio garso garsiakalbis", "vidutinis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("ieslēgts skaļrunis"),
+			keywords: &["ieslēgts skaļrunis", "vidējs", "vidējs skaļruņa skaļums"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tukuoro kahaoro waenga"),
+			keywords: &["tukuoro kahaoro waenga", "waenga"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("вклучен звучник"),
+			keywords: &[
+				"вклучен звучник",
+				"вклучен звучник на средно",
+				"глас",
+				"звук",
+				"звучник",
+				"звучник на средна гласност",
+				"звучник на средно",
+				"средно",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some(
+				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
+			),
+			keywords: &[
+				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദം",
+				"അധികം ഉച\u{d4d}ചത\u{d4d}തിലല\u{d4d}ല\u{d3e}ത\u{d4d}ത ശബ\u{d4d}\u{200c}ദമ\u{d41}ള\u{d4d}ള സ\u{d4d}\u{200c}പീക\u{d4d}കർ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("чанга яригчийн дууны түвшин дунд зэрэг"),
+			keywords: &["дунд зэрэг", "чанга яригчийн дууны түвшин дунд зэрэг"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{94d}पीकर चाल\u{942}"),
+			keywords: &[
+				"आवाज",
+				"कमी",
+				"कमी ध\u{94d}वनी",
+				"कमी ध\u{94d}वनी असल\u{947}ला स\u{94d}पीकर",
+				"मध\u{94d}यम",
+				"स\u{94d}पीकर",
+				"स\u{94d}पीकर चाल\u{942}",
+				"स\u{94d}पीकरचा आवाज मध\u{94d}यम",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kelantangan sederhana pembesar suara"),
+			keywords: &["bunyi", "kelantangan", "pembesar suara", "sederhana"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("speaker volum medju"),
+			keywords: &["medju", "speaker volum medju"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စပ\u{102e}ကာ ဖ\u{103d}င\u{1037}\u{103a}"),
+			keywords: &[
+				"စပ\u{102e}ကာ ဖ\u{103d}င\u{1037}\u{103a}",
+				"အသ\u{1036} အလယ\u{103a}အလတ\u{103a}",
+				"အသ\u{1036} အလယ\u{103a}အလတ\u{103a}ဖ\u{103d}င\u{1037}\u{103a}ထားသော စပ\u{102e}ကာ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("मध\u{94d}य भोल\u{94d}य\u{941}मको स\u{94d}पिकर"),
+			keywords: &["मध\u{94d}य भोल\u{94d}य\u{941}मको स\u{94d}पिकर", "मध\u{94d}यम"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("speaker aan"),
+			keywords: &["gemiddeld volume", "luidspreker", "speaker", "speaker aan", "volume"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("høgtalar med middels volum"),
+			keywords: &["høgtalar med middels volum", "lyd", "middels", "ropert"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମଧ\u{b4d}ୟମ ଧରଣର ଧ\u{b4d}ୱନ\u{b3f} ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}"),
+			keywords: &[
+				"କମ\u{b4d}",
+				"କମ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d}",
+				"କମ\u{b4d} ଭଲ\u{b4d}ୟ\u{b41}ମ\u{b4d} ସହ\u{b3f}ତ ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
+				"ମଧ\u{b4d}ୟମ ଧରଣର ଧ\u{b4d}ୱନ\u{b3f} ସ\u{b4d}ପ\u{b3f}କର\u{b4d}\u{200c}",
+				"ସ\u{b4d}ପ\u{b3f}କର\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਪੀਕਰ ਔਸਤ ਵ\u{a4c}ਲਿਊਮ"),
+			keywords: &[
+				"ਆਵਾਜ\u{a3c}",
+				"ਘ\u{a71}ਟ",
+				"ਘ\u{a71}ਟ ਅਾਵਾਜ\u{a3c} ਨਾਲ ਸਪੀਕਰ",
+				"ਸਪੀਕਰ",
+				"ਸਪੀਕਰ ਔਸਤ ਵ\u{a4c}ਲਿਊਮ",
+				"ਸ\u{a70}ਗੀਤ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("درمیانی واج آلا اسپیکر"),
+			keywords: &["درمیانہ", "درمیانی واج آلا اسپیکر"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Laúdspíka Mídiúm Vọ\u{301}lium"),
+			keywords: &["Laúdspíka Mídiúm Vọ\u{301}lium", "Mídiọm"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("średnia głośność głośnika"),
+			keywords: &[
+				"dźwięk",
+				"głośnik",
+				"głośność",
+				"mała głośność",
+				"średnia głośność",
+				"średnia głośność głośnika",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د سپیکر منځنی غږ"),
+			keywords: &["د سپیکر منځنی غږ", "منځنی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("alto-falante com volume médio"),
+			keywords: &[
+				"alto-falante com som baixo",
+				"alto-falante com volume baixo",
+				"alto-falante com volume médio",
+				"baixo",
+				"diminuir o volume",
+				"volume baixo",
+				"volume médio",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("altifalante médio"),
+			keywords: &[
+				"altifalante",
+				"altifalante médio",
+				"baixo",
+				"onda sonora",
+				"som médio",
+				"volume",
+				"volume médio",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("altavoz chawpi chanrawan"),
+			keywords: &["altavoz chawpi chanrawan", "chawpi"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("volum mediu al difuzorului"),
+			keywords: &[
+				"difuzor activat",
+				"difuzor pornit",
+				"sunet",
+				"sunet mediu",
+				"volum mediu",
+				"volum mediu al difuzorului",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-709"), keywords: &["E10-709"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("средняя громкость"),
+			keywords: &[
+				"громкоговоритель",
+				"громкость",
+				"динамик",
+				"звук",
+				"рупор",
+				"спикер",
+				"средняя",
+				"уровень",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("indangururamajwi ifite ubwirangire buringaniye"),
+			keywords: &["indangururamajwi ifite ubwirangire buringaniye", "iringaniye"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اسپيڪر جو وچولو آواز"),
+			keywords: &["اسپيڪر جو وچولو آواز", "وچولو"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ස\u{dca}ප\u{dd3}කරය ක\u{dca}\u{200d}ර\u{dd2}ය\u{dcf}ත\u{dca}මකය\u{dd2}"),
+			keywords: &[
+				"අඩ\u{dd4}",
+				"තරංගය",
+				"ස\u{dca}ප\u{dd3}කරය",
+				"ස\u{dca}ප\u{dd3}කරය ක\u{dca}\u{200d}ර\u{dd2}ය\u{dcf}ත\u{dca}මකය\u{dd2}",
+				"හඩ පර\u{dd2}ම\u{dcf}ව",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("stredná hlasitosť"),
+			keywords: &["hlasitosť", "reproduktor", "stredná", "vlna", "zapnutý reproduktor", "zvuk"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("zvočnik pri zmerni glasnosti"),
+			keywords: &[
+				"glasnost",
+				"nizko",
+				"val",
+				"zmerno",
+				"zvok",
+				"zvočnik",
+				"zvočnik pri zmerni glasnosti",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("sameecad codkeedu dhexdhexaad yahay"),
+			keywords: &["dhexdhexaad", "sameecad codkeedu dhexdhexaad yahay"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("altoparlant me zë mesatar"),
+			keywords: &["altoparlant", "altoparlant me zë mesatar", "i ulët", "mesatar", "valë", "volum"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("укључен звучник"),
+			keywords: &["звук", "звучник", "средње", "јачина"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("uključen zvučnik"),
+			keywords: &["jačina", "srednje", "zvuk", "zvučnik"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("högtalare med medium volym"),
+			keywords: &["högtalare", "högtalare med medium volym", "volym"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("spika imewashwa"),
+			keywords: &[
+				"chini",
+				"sauti",
+				"spika",
+				"spika imewashwa",
+				"spika imewashwa sauti ya kati",
+				"wingu",
+			],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd} ஆன\u{bcd}"),
+			keywords: &[
+				"ஒலி",
+				"ஒலிப\u{bcd}பெருக\u{bcd}கி",
+				"குறைந\u{bcd}த ஒலி",
+				"சவுண\u{bcd}ட\u{bcd}",
+				"நடுத\u{bcd}தர ஒலி",
+				"பொருள\u{bcd}",
+				"மெதுவ\u{bbe}க பேசு",
+				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd}",
+				"ஸ\u{bcd}ப\u{bc0}க\u{bcd}கர\u{bcd} ஆன\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మధ\u{c4d}యస\u{c4d}థ శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}"),
+			keywords: &[
+				"తక\u{c4d}కువ శబ\u{c4d}దం చ\u{c47}య\u{c3f}",
+				"మధ\u{c4d}యస\u{c4d}థ శబ\u{c4d}దంత\u{c4b} స\u{c4d}ప\u{c40}కర\u{c4d}",
+				"మధ\u{c4d}యస\u{c4d}థం",
+				"మ\u{c40}డ\u{c3f}యం",
+				"వ\u{c3e}ల\u{c4d}యూమ\u{c4d} తగ\u{c4d}గ\u{c3f}ంచు",
+				"శబ\u{c4d}దం",
+				"స\u{c4c}ండ\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("садои миёнаи баландгӯяк"),
+			keywords: &["миёна", "садои миёнаи баландгӯяк"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ลำโพงเส\u{e35}ยงปานกลาง"),
+			keywords: &["ปานกลาง", "ลำโพง", "วอลล\u{e38}\u{e48}ม", "เส\u{e35}ยง"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ስፒከር ማእከላይ ድምጺ"),
+			keywords: &["ማእከላይ", "ተዛራባይ", "ትሕዝቶ", "ድምጺ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("orta sesli dinamik"),
+			keywords: &["orta sesli dinamik", "ortaça"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("leʻo loto"), keywords: &["leʻo loto"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("ses açık"),
+			keywords: &["düşük", "düşük ses", "düşük sesli hoparlör", "ses açık"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئارا ئۈنلۈك ياڭراتقۇ"),
+			keywords: &["ئارا", "ئارا ئۈنلۈك ياڭراتقۇ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("середня гучність динаміка"),
+			keywords: &[
+				"гучність",
+				"динамік",
+				"середньо",
+				"середня гучність динаміка",
+				"увімкнений динамік",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("اوسط آواز نکالتے اسپیکر"),
+			keywords: &["آواز", "اسپیکر", "اسپیکر آن", "اوسط آواز نکالتے اسپیکر", "با آواز اسپیکر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("ovozli"),
+			keywords: &["karnay", "ovoz balandligi", "ovozli", "past", "tovush", "to‘lqin"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("âm lượng loa trung bình"),
+			keywords: &["trung bình", "âm lượng loa trung bình", "âm thanh"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("oparlër bu xumbul noonu"),
+			keywords: &["oparlër bu xumbul noonu", "yam"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ivolyum ephakathi yespikha"),
+			keywords: &["ephakathi", "ivolyum ephakathi yespikha"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Gbohungbohun ti Ohun rẹ wa Laarin"),
+			keywords: &["Gbohungbohun ti Ohun rẹ wa Laarin", "àárín"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Gbohungbohun ti Ohun rɛ wa Laarin"),
+			keywords: &["Gbohungbohun ti Ohun rɛ wa Laarin", "àárín"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("中音量喇叭"),
+			keywords: &["中等", "中音量喇叭"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("中音量喇叭"),
+			keywords: &["中等", "中音量喇叭"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("中等音量的扬声器"),
+			keywords: &["中等", "中等音量", "中等音量的扬声器", "中音量", "中音量扬声器", "扬声器"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("低音量"),
+			keywords: &["中音", "低音量", "喇叭"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("聲量中等嘅喇叭"),
+			keywords: &[
+				"中音量",
+				"喇叭",
+				"揚聲器",
+				"聲量中等",
+				"聲量中等嘅喇叭",
+				"聲音",
+				"音樂",
+				"音量",
+				"音響",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ukuvula ispikha"),
+			keywords: &["igagasi", "isipikha", "phansi", "ukuvula ispikha", "umsindo"],
+		},
+	],
+};
+#[doc = "🔈\u{fe0f}"]
+pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
+	glyph:                "🔈\u{fe0f}",
+	codepoint:            &[128264u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "speaker low volume",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Sound,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

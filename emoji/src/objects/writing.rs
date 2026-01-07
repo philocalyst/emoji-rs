@@ -24,6 +24,58 @@ pub const PEN: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
+#[doc = "🖋\u{fe0f}"]
+pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
+	glyph:                "🖋\u{fe0f}",
+	codepoint:            &[128395u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "fountain pen",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Writing,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "✒\u{fe0f}"]
+pub const BLACK_NIB: crate::Emoji = crate::Emoji {
+	glyph:                "✒\u{fe0f}",
+	codepoint:            &[10002u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "black nib",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Writing,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🖌\u{fe0f}"]
+pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
+	glyph:                "🖌\u{fe0f}",
+	codepoint:            &[128396u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "paintbrush",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Writing,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🖍\u{fe0f}"]
+pub const CRAYON: crate::Emoji = crate::Emoji {
+	glyph:                "🖍\u{fe0f}",
+	codepoint:            &[128397u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "crayon",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Writing,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "📝"]
 pub const MEMO: crate::Emoji = crate::Emoji {
 	glyph:                "📝",
@@ -860,56 +912,4 @@ pub const MEMO: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "zu")]
 		crate::Annotation { lang: "zu", tts: Some("imemo"), keywords: &["imemo", "ipenseli"] },
 	],
-};
-#[doc = "🖋\u{fe0f}"]
-pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
-	glyph:                "🖋\u{fe0f}",
-	codepoint:            &[128395u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "fountain pen",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Writing,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "✒\u{fe0f}"]
-pub const BLACK_NIB: crate::Emoji = crate::Emoji {
-	glyph:                "✒\u{fe0f}",
-	codepoint:            &[10002u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "black nib",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Writing,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🖌\u{fe0f}"]
-pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
-	glyph:                "🖌\u{fe0f}",
-	codepoint:            &[128396u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "paintbrush",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Writing,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🖍\u{fe0f}"]
-pub const CRAYON: crate::Emoji = crate::Emoji {
-	glyph:                "🖍\u{fe0f}",
-	codepoint:            &[128397u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "crayon",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Writing,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };

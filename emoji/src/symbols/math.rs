@@ -11,19 +11,6 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "✖\u{fe0f}"]
-pub const MULTIPLY: crate::Emoji = crate::Emoji {
-	glyph:                "✖\u{fe0f}",
-	codepoint:            &[10006u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "multiply",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Math,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "➕\u{fe0f}"]
 pub const PLUS: crate::Emoji = crate::Emoji {
 	glyph:                "➕\u{fe0f}",
@@ -31,32 +18,6 @@ pub const PLUS: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
 	name:                 "plus",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Math,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "➖\u{fe0f}"]
-pub const MINUS: crate::Emoji = crate::Emoji {
-	glyph:                "➖\u{fe0f}",
-	codepoint:            &[10134u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "minus",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Math,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "➗\u{fe0f}"]
-pub const DIVIDE: crate::Emoji = crate::Emoji {
-	glyph:                "➗\u{fe0f}",
-	codepoint:            &[10135u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "divide",
 	group:                crate::Group::Symbols,
 	subgroup:             crate::Subgroup::Math,
 	is_variant:           false,
@@ -930,4 +891,43 @@ pub const HEAVY_EQUALS_SIGN: crate::Emoji = crate::Emoji {
 			keywords: &["amasayini asindayo alinganayo", "equality", "heavy equals sign", "math"],
 		},
 	],
+};
+#[doc = "➖\u{fe0f}"]
+pub const MINUS: crate::Emoji = crate::Emoji {
+	glyph:                "➖\u{fe0f}",
+	codepoint:            &[10134u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "minus",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Math,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "✖\u{fe0f}"]
+pub const MULTIPLY: crate::Emoji = crate::Emoji {
+	glyph:                "✖\u{fe0f}",
+	codepoint:            &[10006u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "multiply",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Math,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "➗\u{fe0f}"]
+pub const DIVIDE: crate::Emoji = crate::Emoji {
+	glyph:                "➗\u{fe0f}",
+	codepoint:            &[10135u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "divide",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Math,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

@@ -1181,19 +1181,6 @@ pub const ARTIST_PALETTE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🎭\u{fe0f}"]
-pub const PERFORMING_ARTS: crate::Emoji = crate::Emoji {
-	glyph:                "🎭\u{fe0f}",
-	codepoint:            &[127917u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "performing arts",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::ArtsCrafts,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🪢"]
 pub const KNOT: crate::Emoji = crate::Emoji {
 	glyph:                "🪢",
@@ -4908,6 +4895,19 @@ pub const FRAMED_PICTURE: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
 	name:                 "framed picture",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::ArtsCrafts,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🎭\u{fe0f}"]
+pub const PERFORMING_ARTS: crate::Emoji = crate::Emoji {
+	glyph:                "🎭\u{fe0f}",
+	codepoint:            &[127917u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "performing arts",
 	group:                crate::Group::Activities,
 	subgroup:             crate::Subgroup::ArtsCrafts,
 	is_variant:           false,

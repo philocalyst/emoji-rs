@@ -50796,1259 +50796,6 @@ pub const PREGNANT_MAN: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🥷"]
-pub const NINJA: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🥷",
-		codepoint:            &[129399u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-		name:                 "ninja",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("ninja"),
-				keywords: &[
-					"geveg",
-					"kryger",
-					"ninja",
-					"oorlog",
-					"persoon",
-					"sluipmoordenaar",
-					"stilletjies",
-					"vaardighede",
-					"vegter",
-					"verberg",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ኒንጃ"),
-				keywords: &[
-					"ምስጢር",
-					"ሰላይ",
-					"ሰው",
-					"ቅጥር ነብሰ ገዳይ",
-					"ችሎታዎች",
-					"ነብሰ ገዳይ",
-					"ኒንጃ",
-					"ክህሎቶች",
-					"ወታደር",
-					"ውጊያ",
-					"ጦርነት",
-					"ፀብ",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("نينجا"),
-				keywords: &["خفي", "شخص", "متخفي", "متخف\u{64d}", "محارب", "مقاتل", "مقن\u{651}ع", "نينجا"],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("নিনজ\u{9be}"),
-				keywords: &[
-					"চৌৰ\u{9cd}য\u{9cd}য",
-					"নিনজ\u{9be}",
-					"যোদ\u{9cd}ধ\u{9be}",
-					"ল\u{9c1}ক\u{9be}ই থক\u{9be}",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("nindza"),
-				keywords: &["döyüş", "döyüşçü", "gizli", "gizlilik", "insan", "nindza"],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("ніндзя"),
-				keywords: &["баец", "нябачны", "ніндзя", "схаваны"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("нинджа"),
-				keywords: &[
-					"воин",
-					"война",
-					"наемен убиец",
-					"нинджа",
-					"прокрадване",
-					"скрит",
-					"човек",
-					"шпионин",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("নিনজ\u{9be}"),
-				keywords: &[
-					"কৌশলী",
-					"গ\u{9c1}প\u{9cd}ত",
-					"ঘ\u{9be}তক",
-					"জোয\u{9bc}\u{9be}ন",
-					"নিনজ\u{9be}",
-					"য\u{9c1}দ\u{9cd}ধ",
-					"লড\u{9bc}\u{9be}ই কর\u{9be}",
-					"লড\u{9bc}\u{9be}ক\u{9c1}",
-					"ল\u{9c1}কোনো",
-					"লোক",
-					"সিপ\u{9be}হী",
-					"সৈনিক",
-					"হত\u{9cd}য\u{9be}ক\u{9be}রী",
-				],
-			},
-			#[cfg(feature = "br")]
-			crate::Annotation {
-				lang:     "br",
-				tts:      Some("ninja"),
-				keywords: &["brezelour", "kuzh", "ninja"],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("nindža"),
-				keywords: &["borac", "nindža", "prikradanje", "sakrivanje"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("ninja"),
-				keywords: &["assassí", "guerrer", "lluitador", "ninja", "ocult", "persona", "sigilós"],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᏂᏅᏣ"),
-				keywords: &["ᎤᏓᏕᎵᏍᏗ", "ᏂᏅᏣ", "ᏓᎿᏩ ᎠᎾᎵᎯ", "ᏯᎬᏍᎦᎳᏁᎳ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("nindža"),
-				keywords: &[
-					"bojovník",
-					"kradmý",
-					"kukla",
-					"nenápadný",
-					"nindža",
-					"ninja",
-					"nájemný vrah",
-					"osoba",
-					"plížit se",
-					"přikrást se",
-					"tajný",
-					"člověk",
-					"špion",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("ninja"),
-				keywords: &["cudd", "cuddio", "ninja", "ymladdwr"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("ninja"),
-				keywords: &[
-					"hemmelig",
-					"krig",
-					"kriger",
-					"liste",
-					"maske",
-					"ninja",
-					"ninjakriger",
-					"person",
-					"skjult",
-					"soldat",
-					"stealth",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Ninja"),
-				keywords: &[
-					"Ausdauer",
-					"Geheimmission",
-					"Killer",
-					"Krieger",
-					"Kunoichi",
-					"Kämpfer",
-					"Mörder",
-					"Ninja",
-					"Person",
-					"Shinobi",
-					"Soldat",
-					"vermummt",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("νίντζα"),
-				keywords: &[
-					"Ιαπωνία",
-					"άτομο",
-					"αόρατος",
-					"δολοφόνος",
-					"κρυμμένος",
-					"μαχητής",
-					"νίντζα",
-					"πολεμικές τέχνες",
-					"σπαθί",
-				],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("ninja"),
-				keywords: &[
-					"assassin", "fight", "fighter", "hidden", "ninja", "person", "secret", "skills", "sly",
-					"soldier", "stealth", "war",
-				],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("ninja"),
-				keywords: &["furtivo", "guerrero", "luchador", "ninja", "oculto", "sigilo"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"guerrero",
-					"hábil",
-					"luchador",
-					"ninja",
-					"oculto",
-					"secreto",
-					"sigilo",
-					"silencioso",
-					"soldado",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation {
-				lang:     "es_MX",
-				tts:      Some("↑↑↑"),
-				keywords: &["luchador", "ninja", "oculto", "silencioso"],
-			},
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("ninja"),
-				keywords: &[
-					"inimene",
-					"ninja",
-					"oskused",
-					"palgamõrvar",
-					"peidetud",
-					"salajane",
-					"salakuulaja",
-					"sõda",
-					"sõdalane",
-					"võitleja",
-					"võitlus",
-				],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("ninja"),
-				keywords: &["borrokalari", "ezkutu", "isil-gorde", "ninja"],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("نینجا"),
-				keywords: &[
-					"آدم",
-					"آدم\u{200c}کش",
-					"افراد",
-					"انسان",
-					"جنگ",
-					"جنگجو",
-					"دزدکی",
-					"سرباز",
-					"شخص",
-					"فرد",
-					"مبارزه",
-					"مخفی",
-					"مردم",
-					"مهارت",
-					"نینجا",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("ninja"),
-				keywords: &["piilossa", "sotilas", "soturi", "taistelija", "väijyy"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("ninja"),
-				keywords: &[
-					"assassin",
-					"madirigma",
-					"maliksi",
-					"manlalaban",
-					"nakatago",
-					"ninja",
-					"stealth",
-					"tao",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("ninja andlit"),
-				keywords: &["fjaldur", "ninja", "ninja andlit", "sníkjandi", "stríðsmaður"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("ninja"),
-				keywords: &[
-					"assassin", "combat", "furtif", "guerrier", "masqué", "ninja", "personne", "sabre",
-					"secret", "soldat",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("ninja"),
-				keywords: &["comhrac", "duine", "feallmharfóir", "ninja", "púicín", "saighdiúir"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("ninja"),
-				keywords: &["falaichte", "fàillidh", "gaisgeach", "ninja"],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("ninja"),
-				keywords: &["combatente", "guerreiro", "silandeiro", "sixiloso"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("નિન\u{acd}જા"),
-				keywords: &[
-					"કાતિલ",
-					"ગ\u{ac1}પ\u{acd}ત",
-					"ચાલાક",
-					"ચોરીચ\u{ac2}પકી",
-					"છ\u{ac1}પાય\u{ac7}લ",
-					"જલ\u{acd}લાદ",
-					"ડાક\u{ac1}",
-					"તલવાર",
-					"તલવારધારી",
-					"નિન\u{acd}જા",
-					"યોદ\u{acd}ધો",
-					"લડાઈ",
-					"લ\u{ac2}\u{a82}ટારો",
-					"સિપાઈ",
-					"સ\u{ac8}નિક",
-					"હત\u{acd}યારો",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("shigar ninja"),
-				keywords: &[
-					"faɗa",
-					"mai faɗa",
-					"mai kisa",
-					"ninja",
-					"shigar ninja",
-					"soja",
-					"yaƙi",
-					"ɓoye",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("shigar ninja"),
-				keywords: &[
-					"faɗa",
-					"mai faɗa",
-					"mai kisa",
-					"ninja",
-					"shigar ninja",
-					"soja",
-					"yaƙi",
-					"ɓoye",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("נינג׳ה"),
-				keywords: &["אומנויות לחימה", "לוחם", "נינג׳ה"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("नि\u{902}जा"),
-				keywords: &[
-					"इ\u{902}सान",
-					"चालबाज\u{93c}",
-					"चालबाज\u{93c}ी",
-					"छिपा ह\u{941}आ",
-					"डाक\u{942}",
-					"नि\u{902}जा",
-					"लड\u{93c}ाई",
-					"लड\u{93c}ाक\u{942}",
-					"ल\u{941}ट\u{947}रा",
-					"स\u{948}निक",
-					"हत\u{94d}यारा",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("nindža"),
-				keywords: &[
-					"borac",
-					"nindža",
-					"osoba",
-					"prikradanje",
-					"rat",
-					"skrivanje",
-					"tajna",
-					"ubojica",
-					"vojnik",
-				],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("nindzsa"),
-				keywords: &["ember", "harcos", "nindzsa", "ninja", "rejtett", "rejtőzködés"],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("նինջա"),
-				keywords: &["աննկատ", "մարտիկ", "նինջա", "քողարկված"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("ninja"),
-				keywords: &[
-					"kelahi",
-					"ninja",
-					"penyusup",
-					"perang",
-					"petarung",
-					"rahasia",
-					"samurai",
-					"sembunyi-sembunyi",
-					"tersembunyi",
-				],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("ninja"),
-				keywords: &[
-					"agha",
-					"aghụghọ",
-					"ninja",
-					"nka",
-					"nzuzo",
-					"ogbu mmadu",
-					"onye",
-					"zoro ezo",
-					"ọgụ",
-				],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("ninja"),
-				keywords: &["bardagamaður", "falinn", "laumulegur", "ninja"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("ninja"),
-				keywords: &[
-					"abilità",
-					"assassino",
-					"combattimento",
-					"furtivo",
-					"guerra",
-					"guerriero",
-					"invisibile",
-					"nascosto",
-					"ninja",
-					"persona",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("忍者"),
-				keywords: &["スパイ", "人", "忍び", "忍者", "忍術", "草の者", "隠密"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("ninja"),
-				keywords: &["didhelikake", "ndhelik-ndhelik", "ninja", "wira"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("ნინძა"),
-				keywords: &["მებრძოლი", "ნინძა", "უჩინარი"],
-			},
-			#[cfg(feature = "kab")]
-			crate::Annotation { lang: "kab", tts: Some("aninja"), keywords: &["aninja"] },
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("ниндзя"),
-				keywords: &[
-					"адам",
-					"бетперде",
-					"жасырын",
-					"жасырыну",
-					"күресші",
-					"көзге көрінбеу",
-					"ниндзя",
-					"сарбаз",
-					"соғыс",
-					"қылыш",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("ន\u{17b7}នចា"),
-				keywords: &[
-					"ការធ\u{17d2}វើចលនាយ\u{17c9}ាងស\u{17d2}ងាត\u{17cb}",
-					"ន\u{17b7}នចា",
-					"ប\u{17c6}បា\u{17c6}ងខ\u{17d2}ល\u{17bd}ន",
-					"អ\u{17d2}នកប\u{17d2}រយ\u{17bb}ទ\u{17d2}ធ",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ನ\u{cbf}ಂಜಾ"),
-				keywords: &[
-					"ಕ\u{ccc}ಶಲ\u{ccd}ಯ",
-					"ನ\u{cbf}ಂಜಾ",
-					"ಫ\u{cc8}ಟರ\u{ccd}",
-					"ಮರ\u{cc6}ಮಾಡಲಾಗ\u{cbf}ದ\u{cc6}",
-					"ಮ\u{ccb}ಸ",
-					"ಯುದ\u{ccd}ಧ",
-					"ರಹಸ\u{ccd}ಯ",
-					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ಸಮರ",
-					"ಸ\u{cc8}ನ\u{cbf}ಕ",
-					"ಹಂತಕ",
-					"ಹ\u{ccb}ರಾಟ",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("닌자"),
-				keywords: &[
-					"군인",
-					"기술",
-					"닌자",
-					"몰래 하기",
-					"비밀",
-					"사람",
-					"숨은",
-					"싸움",
-					"암살자",
-					"야비함",
-					"전쟁",
-					"전투원",
-				],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("निन\u{94d}जा"),
-				keywords: &["निन\u{94d}जा", "लढपी", "लिपचोरया\u{902}", "लिपिल\u{94d}लो"],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation { lang: "ky", tts: Some("ниндзя"), keywords: &["ниндзя"] },
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ນ\u{eb4}ນຈາ"),
-				keywords: &[
-					"ທະຫານ",
-					"ນ\u{eb1}ກຂ\u{ec9}າ",
-					"ນ\u{eb1}ກສ\u{eb9}\u{ec9}",
-					"ນ\u{eb4}ນຈາ",
-					"ລ\u{eb1}ກຊ\u{eb1}ບ",
-					"ສ\u{eb1}ງຫານ",
-					"ສ\u{eb9}\u{ec9}",
-					"ເຊ\u{eb7}\u{ec8}ອງໄວ\u{ec9}",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("nindzė"),
-				keywords: &["kovotojas", "nindzė", "paslaptis", "užsimaskavęs", "žmogus"],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("nindzja"),
-				keywords: &[
-					"cilvēks",
-					"cīnītājs",
-					"kareivis",
-					"nindzja",
-					"paslēpts",
-					"persona",
-					"slepens",
-					"slepkava",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("нинџа"),
-				keywords: &[
-					"атентатор",
-					"борач",
-					"вештина",
-					"војна",
-					"војник",
-					"нинџа",
-					"сокриен",
-					"таен",
-					"убиец",
-					"човек",
-				],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("നിഞ\u{d4d}ജ"),
-				keywords: &[
-					"ഒളിപ\u{d4d}പിച\u{d4d}ച",
-					"നിഞ\u{d4d}ച",
-					"നിഞ\u{d4d}ജ",
-					"പോര\u{d3e}ട\u{d4d}ടം",
-					"പോര\u{d3e}ളി",
-					"യ\u{d41}ദ\u{d4d}ധം",
-					"ശക\u{d4d}തിയ\u{d41}ള\u{d4d}ള",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("нинжа"),
-				keywords: &["нинжа", "нуугдмал", "нууцаар", "тулаанч"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("निन\u{94d}जा"),
-				keywords: &[
-					"चोरी करणारा",
-					"ध\u{942}र\u{94d}त",
-					"निन\u{94d}जा",
-					"य\u{941}द\u{94d}ध",
-					"लढणारा",
-					"लपल\u{947}ला",
-					"सिक\u{94d}र\u{947}ट",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("ninja"),
-				keywords: &[
-					"askar",
-					"kemahiran",
-					"licik",
-					"ninja",
-					"pejuang",
-					"pembunuh upahan",
-					"perang",
-					"pertempuran",
-					"rahsia",
-					"senyap-senyap",
-					"tersembunyi",
-				],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("နင\u{103a}ဂျာ"),
-				keywords: &[
-					"နင\u{103a}ဂျာ",
-					"နင\u{103a}းဂျား",
-					"ပ\u{102f}န\u{103a}းနေသည\u{103a}",
-					"ဖ\u{102d}\u{102f}က\u{103a}တာ",
-					"လျ\u{103e}\u{102d}\u{102f}\u{1037}ဝ\u{103e}က\u{103a}",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("निन\u{94d}जा"),
-				keywords: &["चालबाजी", "निन\u{94d}जा", "फाइटर", "ल\u{941}क\u{947}को"],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("ninja"),
-				keywords: &[
-					"geheim",
-					"japan",
-					"krijger",
-					"ninja",
-					"persoon",
-					"samurai",
-					"sluipmoordenaar",
-					"vechten",
-					"verborgen",
-					"zwaard",
-				],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("↑↑↑"),
-				keywords: &["gøymd", "kampkunst", "krigar", "ninja"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ନ\u{b3f}ଞ\u{b4d}ଜ\u{b3e}"),
-				keywords: &[
-					"ଗ\u{b41}ପ\u{b4d}ତ ବ\u{b4d}ୟବହ\u{b3e}ର",
-					"ନ\u{b3f}ଞ\u{b4d}ଜ\u{b3e}",
-					"ଯୋଦ\u{b4d}ଧ\u{b3e}",
-					"ଲ\u{b41}କ\u{b4d}କ\u{b3e}ୟ\u{b3f}ତ",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਨਿ\u{a70}ਜਾ"),
-				keywords: &["ਨਿ\u{a70}ਜਾ", "ਭ\u{a47}ਤ", "ਲੜਾਈ", "ਸਿਪਾਹੀ", "ਸ\u{a42}ਰਬੀਰ", "ਹਿਡਨ"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Nínja"),
-				keywords: &["Dú Sọ\u{301}mtin Fọ Síkrít Wè", "Faíta", "Haid", "Nínja"],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("ninja"),
-				keywords: &[
-					"najemnik",
-					"niewidoczny",
-					"ninja",
-					"osoba",
-					"skradać się",
-					"tajny agent",
-					"ukryty",
-					"wojna",
-					"wojownik",
-					"żołnierz",
-				],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("ننجا"),
-				keywords: &["جنګېدونکی", "ننجا", "په پټه", "پټ"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("ninja"),
-				keywords: &[
-					"assassino",
-					"furtividade",
-					"guerra",
-					"habilidades",
-					"luta",
-					"lutador",
-					"ninja",
-					"oculto",
-					"pessoa",
-					"soldado",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("↑↑↑"),
-				keywords: &["assassino", "escondido", "lutador", "ninja", "oculto", "secreto", "soldado"],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("ninja"),
-				keywords: &["maqanakuy", "ninja", "pakasqa", "siqilo"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("ninja"),
-				keywords: &[
-					"asasin",
-					"ascuns",
-					"invizibil",
-					"luptător",
-					"ninja",
-					"persoană",
-					"războinic",
-					"secret",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E13-002"), keywords: &["E13-002"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("ниндзя"),
-				keywords: &[
-					"воин",
-					"диверсант",
-					"ниндзя",
-					"синоби",
-					"скрытный",
-					"солдат",
-					"убийца",
-					"человек",
-					"шпион",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("ننجا"),
-				keywords: &["اسٽيلٿ", "لڪيل", "ننجا", "ويڙهاڪ"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("න\u{dd2}න\u{dca}ජ\u{dcf}"),
-				keywords: &[
-					"න\u{dd2}න\u{dca}ජ\u{dcf}",
-					"රහස\u{dd2}ගත",
-					"සටන\u{dca}කර\u{dd4}ව\u{dcf}",
-					"සැඟව\u{dd4}ණ\u{dd4}",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("nindža"),
-				keywords: &["bojovať", "bojovník", "nindža", "skrytý", "tajný", "utajený"],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("nindža"),
-				keywords: &[
-					"bojevnik",
-					"borba",
-					"morilec",
-					"nindža",
-					"oseba",
-					"prikrivanje",
-					"sablja",
-					"skrivanje",
-					"vojak",
-				],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("ninja"),
-				keywords: &["dagaalyahan", "ninja", "qarsoon", "sir ah"],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("ninxhë"),
-				keywords: &[
-					"aftësi",
-					"betejë",
-					"dinak",
-					"fshehtësi",
-					"luftë",
-					"luftëtar",
-					"ninxha",
-					"sekret",
-					"ushtar",
-					"vrasës",
-				],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("нинџа"),
-				keywords: &["борац", "невидљив", "нинџа", "особа", "рат", "ратник", "скривен", "убица"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("nindža"),
-				keywords: &["borac", "nevidljiv", "nindža", "osoba", "rat", "ratnik", "skriven", "ubica"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("ninja"),
-				keywords: &["gömd", "hemlig", "lönnmördare", "ninja"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("ninja"),
-				keywords: &[
-					"askari",
-					"chinichini",
-					"jeshi",
-					"kachinja",
-					"mpiganaji",
-					"muuaji",
-					"ninja",
-					"shushushu",
-					"siri",
-					"vita",
-				],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("நிஞ\u{bcd}ச\u{bbe}"),
-				keywords: &[
-					"நிஞ\u{bcd}ச\u{bbe}",
-					"போர\u{bbe}ளி",
-					"மறைமுகம\u{bbe}னவன\u{bcd}",
-					"வ\u{bc0}ரர\u{bcd}",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("న\u{c3f}ంజ\u{c3e}"),
-				keywords: &[
-					"గూఢచ\u{c3e}ర\u{c3f}",
-					"న\u{c3f}ంజ\u{c3e}",
-					"ప\u{c4b}ర\u{c3e}టయ\u{c4b}ధుడు",
-					"మ\u{c4b}సక\u{c3e}ర\u{c3f}",
-					"యుద\u{c4d}ధ వ\u{c40}రుడు",
-					"యుద\u{c4d}ధం",
-					"య\u{c4b}ధుడు",
-					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"స\u{c48}న\u{c3f}కుడు",
-					"స\u{c4b}ల\u{c4d}జర\u{c4d}",
-					"హంతకుడు",
-				],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("น\u{e34}นจา"),
-				keywords: &[
-					"คน",
-					"ความล\u{e31}บ",
-					"ซ\u{e48}อน",
-					"ต\u{e48}อส\u{e39}\u{e49}",
-					"ทหาร",
-					"ท\u{e31}กษะ",
-					"น\u{e34}นจา",
-					"พรางต\u{e31}ว",
-					"สงคราม",
-					"ส\u{e31}งหาร",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ኒንጃ"),
-				keywords: &[
-					"ሕቡእ",
-					"ምስጢር",
-					"ምቅላስ",
-					"ሰብ",
-					"ቀታሊ",
-					"ብስርቂ",
-					"ተንኮለኛ",
-					"ተጋዳላይ",
-					"ኒንጃ",
-					"ክእለት",
-					"ወተሃደር",
-					"ውግእ",
-				],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("nindzýa"),
-				keywords: &["gizlenen", "gizlin", "nindzýa", "urşujy"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("mata ninisā"),
-				keywords: &["mata ninisā"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("ninja"),
-				keywords: &[
-					"asker",
-					"dövüşçü",
-					"gizli",
-					"insan",
-					"katana",
-					"kavga",
-					"kiralık katil",
-					"ninja",
-					"saklı",
-					"savaş",
-					"suikast",
-				],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("ніндзя"),
-				keywords: &[
-					"боєць",
-					"вбивця",
-					"воїн",
-					"крадькома",
-					"людина",
-					"маска",
-					"найманець",
-					"невидимка",
-					"покрадьки",
-					"потайки",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("ننجا"),
-				keywords: &[
-					"جنگ",
-					"خفیہ",
-					"سپاہی",
-					"صلاحیت",
-					"فرد",
-					"فوجی",
-					"قاتل",
-					"لڑاکا",
-					"مہارت",
-					"ننجا",
-					"پوشیدگی",
-				],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("ninza"),
-				keywords: &[
-					"askar",
-					"jang",
-					"jangchi",
-					"koʻrinmas",
-					"maxfiy",
-					"ninza",
-					"urush",
-					"yashirin",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("ninja"),
-				keywords: &[
-					"chiến tranh",
-					"kẻ sát nhân",
-					"kỹ năng",
-					"người",
-					"ninja",
-					"tàng hình",
-					"đấu sĩ",
-					"ẩn",
-				],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("nínjà"),
-				keywords: &["ajagun", "ninja", "nínjà", "oja", "sápamọ\u{301}"],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("nínjà"),
-				keywords: &["ajagun", "ninja", "nínjà", "oja", "sápamɔ\u{301}"],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("忍者"),
-				keywords: &["忍者", "戰鬥機", "隱形", "隱身"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("忍者"),
-				keywords: &["忍者", "战斗机", "隐形"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("忍者"),
-				keywords: &[
-					"人物", "侠客", "刺客", "士兵", "忍者", "战斗", "打斗", "狡猾", "秘密", "隐藏", "隐身",
-				],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("忍者"),
-				keywords: &["刺客", "士兵", "忍者", "戰爭", "打鬥", "技巧", "武者", "隱身"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("↑↑↑"),
-				keywords: &["人物", "刺客", "士兵", "忍者", "戰爭", "戰鬥", "狡猾", "秘密"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("ininja"),
-				keywords: &["fihliwe", "i-fighter", "i-stealth", "ininja"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🥷🏻",
-			codepoint:            &[129399u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-			name:                 "ninja: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🥷🏼",
-			codepoint:            &[129399u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-			name:                 "ninja: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🥷🏽",
-			codepoint:            &[129399u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-			name:                 "ninja: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🥷🏾",
-			codepoint:            &[129399u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-			name:                 "ninja: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🥷🏿",
-			codepoint:            &[129399u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
-			name:                 "ninja: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "🧑\u{200d}🔧"]
 pub const MECHANIC: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -54177,83 +52924,6 @@ pub const POLICE_OFFICER: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🕵\u{fe0f}\u{200d}♀\u{fe0f}"]
-pub const WOMAN_DETECTIVE: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🕵\u{fe0f}\u{200d}♀\u{fe0f}",
-		codepoint:            &[128373u32, 65039u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman detective",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🕵🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[128373u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman detective: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[128373u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman detective: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[128373u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman detective: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[128373u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman detective: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[128373u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman detective: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "👮\u{200d}♂\u{fe0f}"]
 pub const MAN_POLICE_OFFICER: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -54323,3829 +52993,6 @@ pub const MAN_POLICE_OFFICER: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "man police officer: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🔧"]
-pub const MAN_MECHANIC: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🔧",
-		codepoint:            &[128104u32, 8205u32, 128295u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "man mechanic",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("manlike motorwerktuigkundige"),
-				keywords: &[
-					"elektrisiën",
-					"handwerkspersoon",
-					"loodgieter",
-					"man",
-					"manlike motorwerktuigkundige",
-					"mechanic",
-					"moersleutel",
-					"motorwerktuigkundige",
-					"werktuigkundige",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ወንድ ሜካኒክ"),
-				keywords: &["መካኒክ", "ሜካኒክ", "ሰው", "ወንድ", "የቧንቧ ሰራተኛ", "የኤሊክትሪክ ሰራተኛ"],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("ميكانيكي"),
-				keywords: &["حرفي", "سمكري", "سنغري", "سنكري", "عامل", "ميكانيسيان", "ميكانيكي"],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("প\u{9c1}ৰ\u{9c1}ষ মেক\u{9be}নিক"),
-				keywords: &[
-					"ইলেক\u{9cd}ট\u{9cd}ৰিচিয\u{9bc}\u{9be}ন",
-					"ট\u{9cd}ৰেডপ\u{9be}ৰ\u{9cd}চন",
-					"প\u{9c1}ৰ\u{9c1}ষ",
-					"প\u{9cd}ল\u{9be}ম\u{9cd}ব\u{9be}ৰ",
-					"মেক\u{9be}নিক",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("kişi mexanik"),
-				keywords: &["elektrik", "kişi", "mexanik", "peşəkar", "çilingər"],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("мужчына-механік"),
-				keywords: &["майстар", "механік", "мужчына", "мужчына-механік", "сантэхнік", "электрык"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("мъж механик"),
-				keywords: &[
-					"водопроводчик",
-					"електротехник",
-					"майстор",
-					"механик",
-					"мъж",
-					"специалист",
-					"техник",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("ছেলে , প\u{9c1}র\u{9c1}ষ , মেক\u{9be}নিক"),
-				keywords: &[
-					"ইলেকট\u{9cd}রিশিয\u{9bc}\u{9be}ন",
-					"ছেলে",
-					"ছেলে , প\u{9c1}র\u{9c1}ষ , মেক\u{9be}নিক",
-					"ট\u{9cd}রেডপ\u{9be}র\u{9cd}সন",
-					"প\u{9c1}র\u{9c1}ষ",
-					"প\u{9cd}ল\u{9be}ম\u{9cd}ব\u{9be}র",
-					"মেক\u{9be}নিক",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("mehaničar muškarac"),
-				keywords: &["električar", "mehaničar", "muškarac", "trgovac", "vodoinstalater"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("home mecànic"),
-				keywords: &[
-					"comerciant",
-					"electricista",
-					"home",
-					"lampista",
-					"masculí",
-					"mecànic",
-					"operari",
-				],
-			},
-			#[cfg(feature = "ccp")]
-			crate::Annotation {
-				lang:     "ccp",
-				tts:      Some("𑄟\u{11127}𑄢\u{11127}𑄘\u{11134} 𑄇𑄣\u{11128}𑄉\u{11127}𑄢\u{11134}"),
-				keywords: &["𑄟\u{11127}𑄢\u{11127}𑄘\u{11134} 𑄇𑄣\u{11128}𑄉\u{11127}𑄢\u{11134}"],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᏍᎦᏯ ᏙᏆᎴᎷ ᏧᎸᏫᏍᏓᏁᎯ"),
-				keywords: &[
-					"ᎠᎵᎢᏛᎲᏍᎩ",
-					"ᎠᎹ ᏧᏪᏓᏍᏗᎢ ᎣᏍᏓ ᏱᏗᎬᏁᎯ",
-					"ᎠᏍᎦᏯ",
-					"ᎠᏍᎦᏯ ᏙᏆᎴᎷ ᏧᎸᏫᏍᏓᏁᎯ",
-					"ᏗᎾᎦᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ",
-					"ᏙᏆᎴᎷ ᎣᏍᏓ ᏱᏗᎬᏁᎯ",
-				],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("mechanik"),
-				keywords: &[
-					"elektrikář",
-					"elektrotechnik",
-					"instalatér",
-					"mechanik",
-					"montér",
-					"muž",
-					"opravář",
-					"povolání",
-					"práce",
-					"zámečník",
-					"člověk",
-					"řemeslník",
-					"živnostník",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("peiriannydd gwrywaidd"),
-				keywords: &["dyn", "peiriannydd", "peiriannydd gwrywaidd", "plymwr", "trydanwr"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("mandlig mekaniker"),
-				keywords: &[
-					"håndværker",
-					"mand",
-					"mandlig mekaniker",
-					"mekaniker",
-					"skruenøgle",
-					"værktøj",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Mechaniker"),
-				keywords: &["Elektriker", "Handwerker", "Klempner", "Mann", "Mechaniker"],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("άντρας μηχανικός"),
-				keywords: &["άντρας", "έμπορος", "ηλεκτρολόγος", "μηχανικός", "υδραυλικός"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("man mechanic"),
-				keywords: &["electrician", "man", "mechanic", "plumber", "tradesperson"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("profesional de la mecánica hombre"),
-				keywords: &[
-					"electricista",
-					"fontanero",
-					"hombre",
-					"mecánico",
-					"operario",
-					"profesional de la mecánica hombre",
-				],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("meesmehaanik"),
-				keywords: &["elektrik", "mees", "mehaanik", "torulukksepp", "torumees"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("gizon mekanikaria"),
-				keywords: &[
-					"elektrikari",
-					"gizon",
-					"gizon mekanikaria",
-					"gizonezko",
-					"iturgin",
-					"mekarikari",
-					"saltzaile",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("تعمیرکار مرد"),
-				keywords: &["برق\u{200c}کار", "تعمیرکار مرد", "لوله\u{200c}کش", "مکانیک", "کارگر"],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("miesmekaanikko"),
-				keywords: &["jakoavain", "mekaanikko", "mies", "miesmekaanikko", "työkalu"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("lalaking mekaniko"),
-				keywords: &[
-					"electrician",
-					"elektrisyan",
-					"lalaki",
-					"lalaking mekaniko",
-					"makinista",
-					"mekaniko",
-					"tubero",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("mannligur mekanikari"),
-				keywords: &["elektrikari", "mannligur mekanikari", "maður", "mekanikari", "rørsmiður"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("mécanicien"),
-				keywords: &[
-					"homme",
-					"mécanicien",
-					"mécanique",
-					"métier",
-					"ouvrier",
-					"plombier",
-					"électricien",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation {
-				lang:     "fr_CA",
-				tts:      Some("mécanicien homme"),
-				keywords: &["↑↑↑"],
-			},
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("meicneoir fireann"),
-				keywords: &["ceardaí", "fear", "leictreoir", "meicneoir", "meicneoir fireann", "pluiméir"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("meacanaig fireann"),
-				keywords: &[
-					"dealanair",
-					"duine",
-					"fear",
-					"fireannach",
-					"meacanaig",
-					"meacanaig fireann",
-					"neach-ciùird",
-					"plumair",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("mecánico"),
-				keywords: &["electricista", "fontaneiro", "home", "mecánico"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("મ\u{ac7}ક\u{ac5}નિક"),
-				keywords: &[
-					"ઇલ\u{ac7}ક\u{acd}ટ\u{acd}રિશન",
-					"કારીગર",
-					"પ\u{ac1}ર\u{ac1}ષ",
-					"પ\u{acd}લમ\u{acd}બર",
-					"મ\u{ac7}ક\u{ac5}નિક",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mutum makanika"),
-				keywords: &[
-					"gyaran wuta",
-					"mai aikin lantarki",
-					"mai gyara",
-					"mai gyaran famfo",
-					"mai gyaran mota",
-					"maigyaran inji",
-					"makanika",
-					"makanike",
-					"mutum",
-					"sifana",
-					"ɗan kasuwa",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mutum makanika"),
-				keywords: &[
-					"gyaran wuta",
-					"mai aikin lantarki",
-					"mai gyara",
-					"mai gyaran famfo",
-					"mai gyaran mota",
-					"maigyaran inji",
-					"makanika",
-					"makanike",
-					"mutum",
-					"sifana",
-					"ɗan kasuwa",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("מכונאי"),
-				keywords: &[
-					"אינסטלטור",
-					"איש",
-					"איש מקצוע",
-					"גבר",
-					"חשמלאי",
-					"טכנאי",
-					"מכונאי",
-					"שיפוצניק",
-					"שרברב",
-				],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("मिस\u{94d}त\u{94d}री"),
-				keywords: &[
-					"आदमी",
-					"प\u{941}र\u{941}ष",
-					"बिजली मिस\u{94d}त\u{94d}री",
-					"मिस\u{94d}त\u{94d}री",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("mehaničar"),
-				keywords: &["električar", "majstor", "mehaničar", "muškarac", "vodoinstalater"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("szerelő"),
-				keywords: &["foglalkozás", "férfi", "szerelő", "villanyszerelő", "vízszerelő"],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("տղամարդ փականագործ"),
-				keywords: &["էլեկտրիկ", "մեխանիկ", "տղամարդ", "փականագործ"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("montir pria"),
-				keywords: &["laki-laki", "montir", "perbaikan", "pria", "teknisi", "tukang"],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwoke onye na-arụzi ụgbọala"),
-				keywords: &[
-					"nwoke",
-					"nwoke onye na-arụzi ụgbọala",
-					"onye na-arụzi ụgbọala",
-					"onye ọrụ ngwaọkụ",
-					"onyeazụmaahịa",
-					"plọmba",
-				],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("karl með skiptilykil"),
-				keywords: &["karl", "karl með skiptilykil", "verkfæri", "viðgerð", "viðhald"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("meccanico uomo"),
-				keywords: &[
-					"chiave inglese",
-					"idraulico",
-					"lavoro",
-					"meccanico",
-					"operaio",
-					"tecnico specializzato",
-					"tuta blu",
-					"uomo",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("男性の整備士"),
-				keywords: &[
-					"スパナ",
-					"メカニック",
-					"工作",
-					"男",
-					"男性",
-					"男性の整備士",
-					"配管工",
-					"電気工",
-				],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("montir lanang"),
-				keywords: &["lanang", "montir", "tukang", "tukang ledheng", "tukang listrik"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("მექანიკოსი კაცი"),
-				keywords: &["ელექტრიკი", "კაცი", "მექანიკოსი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("ер механик"),
-				keywords: &["ер", "механик", "сантехник", "электрик"],
-			},
-			#[cfg(feature = "kl")]
-			crate::Annotation {
-				lang:     "kl",
-				tts:      Some("mekaniker"),
-				keywords: &["håndværker", "mand", "mekaniker", "skruenøgle", "værktøj"],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("ជាងម\u{17c9}ាស\u{17ca}\u{17b8}នប\u{17d2}រ\u{17bb}ស"),
-				keywords: &[
-					"ជាង",
-					"ជាងទ\u{17bb}យោ",
-					"ជាងភ\u{17d2}លើង",
-					"ជាងម\u{17c9}ាស\u{17ca}\u{17b8}ន",
-					"ជាងម\u{17c9}ាស\u{17ca}\u{17b8}នប\u{17d2}រ\u{17bb}ស",
-					"ឈ\u{17d2}ម\u{17bd}ញ",
-					"ប\u{17bb}រស",
-					"ប\u{17d2}រ\u{17bb}ស",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಪುರುಷ ಮ\u{cc6}ಕ\u{ccd}ಯಾನ\u{cbf}ಕ\u{ccd}"),
-				keywords: &[
-					"ಎಲ\u{cc6}ಕ\u{ccd}ಟ\u{ccd}ರ\u{cbf}ಷ\u{cbf}ಯನ\u{ccd}",
-					"ಕ\u{cca}ಳಾಯ\u{cbf}ಗಾರ",
-					"ಪುರುಷ",
-					"ಪ\u{ccd}ಲಂಬರ\u{ccd}",
-					"ಮ\u{cc6}ಕ\u{ccd}ಯಾನ\u{cbf}ಕ\u{ccd}",
-					"ವ\u{ccd}ಯಾಪಾರ\u{cbf}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("남자 정비공"),
-				keywords: &["기술자", "남자", "배관공", "수리공", "전기 기사", "정비공"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("दादलो म\u{945}कानीक"),
-				keywords: &[
-					"इल\u{945}क\u{94d}ट\u{94d}रिशियन",
-					"दादलो",
-					"प\u{94d}लम\u{94d}बर",
-					"म\u{945}कानीक",
-					"व\u{947}पारी",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("эркек механик"),
-				keywords: &["механик", "сантехник", "соодагер", "электрик", "эркек"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Mecanicien"),
-				keywords: &["Elektriker", "Handwierker", "Installateur", "Mann", "Mecanicien"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ຊ\u{ec8}າງກ\u{ebb}ນຊາຍ"),
-				keywords: &[
-					"ຊ\u{ec8}າງກ\u{ebb}ນຊາຍ",
-					"ຊ\u{ec8}າງແປງ",
-					"ຊ\u{ec8}າງໄຟ",
-					"ຊ\u{ec8}າງໄຟຟ\u{ec9}າ",
-					"ຜ\u{eb9}\u{ec9}ຊາຍ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("mechanikas"),
-				keywords: &["elektrikas", "mechanikas", "prekybininkas", "santechnikas", "vyras"],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("mehāniķis"),
-				keywords: &[
-					"cilvēks",
-					"darbs",
-					"elektriķis",
-					"mehāniķis",
-					"profesija",
-					"santehniķis",
-					"vīrietis",
-				],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("kaiaka mīhini tāne"),
-				keywords: &[
-					"kaiaka mīhini",
-					"kaiaka mīhini tāne",
-					"kaimahi hiko",
-					"kaimahi paipa wai",
-					"kaimahi-ā-rehe",
-					"tāne",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("маж механичар"),
-				keywords: &["водоводџија", "електричар", "маж", "механичар", "трговец"],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("പ\u{d41}ര\u{d41}ഷ മെക\u{d4d}ക\u{d3e}നിക\u{d4d}"),
-				keywords: &[
-					"ഇലക\u{d4d}ട\u{d4d}രീഷ\u{d4d}യൻ",
-					"പ\u{d41}ര\u{d41}ഷ മെക\u{d4d}ക\u{d3e}നിക\u{d4d}",
-					"പ\u{d4d}ലംബർ",
-					"മെക\u{d4d}ക\u{d3e}നിക\u{d4d}",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("эрэгтэй механикч"),
-				keywords: &[
-					"механик",
-					"сантехникч",
-					"худалдаачин",
-					"цахилгаанчин",
-					"эрэгтэй",
-					"эрэгтэй механикч",
-				],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("य\u{902}त\u{94d}रज\u{94d}ञ"),
-				keywords: &[
-					"इल\u{947}क\u{94d}ट\u{94d}रिशियन",
-					"नळकारागीर",
-					"नोकरी",
-					"प\u{941}र\u{941}ष",
-					"प\u{941}र\u{942}ष",
-					"म\u{947}क\u{945}निक",
-					"य\u{902}त\u{94d}रज\u{94d}ञ",
-					"वीजत\u{902}त\u{94d}री",
-					"व\u{94d}यक\u{94d}ती",
-					"व\u{94d}यवसाय",
-					"व\u{94d}यापारी",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("mekanik lelaki"),
-				keywords: &["juruelektrik", "lelaki", "mekanik", "tukang", "tukang paip"],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("mekkanik maskili"),
-				keywords: &[
-					"electrician",
-					"mekkanik",
-					"mekkanik maskili",
-					"plumber",
-					"raġel",
-					"ħaddiem tas-sengħa",
-				],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("အမျ\u{102d}\u{102f}းသား စက\u{103a}ပြင\u{103a}သ\u{1030}"),
-				keywords: &[
-					"စက\u{103a}ပြင\u{103a}သ\u{1030}",
-					"ပ\u{102d}\u{102f}က\u{103a}ဆက\u{103a}သ\u{1030}",
-					"မ\u{102e}းသမား",
-					"အမျ\u{102d}\u{102f}းသား",
-					"အရောင\u{103a}းအဝယ\u{103a}သမား",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("प\u{941}र\u{942}ष मिस\u{94d}त\u{94d}री"),
-				keywords: &[
-					"छोरामान\u{94d}छ\u{947}",
-					"प\u{941}र\u{942}ष",
-					"प\u{94d}लम\u{94d}बर",
-					"बिज\u{941}लीको काम गर\u{94d}न\u{947} व\u{94d}यक\u{94d}ति",
-					"मिस\u{94d}त\u{94d}री",
-					"व\u{94d}यापारी",
-				],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("mannelijke monteur"),
-				keywords: &["elektricien", "handelsman", "loodgieter", "man", "monteur"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("mannleg mekanikar"),
-				keywords: &[
-					"bil",
-					"elektrikar",
-					"handverkar",
-					"mann",
-					"mannleg mekanikar",
-					"mekanikar",
-					"motor",
-					"røyrleggjar",
-				],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ପ\u{b41}ର\u{b41}ଷ ମେକ\u{b3e}ନ\u{b3f}କ\u{b4d}\u{200c}"),
-				keywords: &[
-					"ଇଲେକ\u{b4d}ଟ\u{b4d}ର\u{b3f}ସ\u{b3f}ଆନ\u{b4d}\u{200c}",
-					"ପ\u{b3e}ଇପ\u{b4d}\u{200c} ମ\u{b3f}ସ\u{b4d}ତ\u{b4d}ରୀ",
-					"ପ\u{b41}ର\u{b41}ଷ",
-					"ବ\u{b4d}ୟବସ\u{b3e}ୟୀ",
-					"ମେକ\u{b3e}ନ\u{b3f}କ\u{b4d}\u{200c}",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਮਕ\u{a48}ਨਿਕ"),
-				keywords: &[
-					"ਇਲ\u{a48}ਕਟ\u{a4d}ਰਿਸ\u{a3c}ਨ",
-					"ਪਲ\u{a70}ਬਰ",
-					"ਪ\u{a41}ਰਸ\u{a3c}",
-					"ਬ\u{a70}ਦਾ",
-					"ਮਕ\u{a48}ਨਿਕ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("مرد مکینک"),
-				keywords: &["الیکٹریشن", "بندہ", "تربیت یافتہ مزدور", "مرد مکینک", "مکینک", "پلمبر"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Mán Mẹkánik"),
-				keywords: &[
-					"Man",
-					"Mán Mẹkánik",
-					"Mẹkánik",
-					"Plọ\u{301}mba Hándwọ\u{301}ka",
-					"Ẹlẹ\u{301}ktríshian",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("mężczyzna elektryk"),
-				keywords: &["elektryk", "hydraulik", "mechanik", "mężczyzna", "osoba", "praca", "zawód"],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("سړی مستري"),
-				keywords: &["تجار", "سړی", "مستري", "ميخانيک", "پلمبر"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("mecânico"),
-				keywords: &["eletricista", "encanador", "homem", "mecânico", "prestador de serviços"],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("mecânico (homem)"),
-				keywords: &[
-					"canalizador",
-					"electricista",
-					"eletricista",
-					"homem",
-					"mecânico",
-					"mecânico (homem)",
-				],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("tata mecanico"),
-				keywords: &["electrico", "mecanico", "plomero", "ranqhaq", "tata"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("mecanic bărbat"),
-				keywords: &["bărbat", "electrician", "instalator", "mecanic", "meșter"],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-1170"), keywords: &["E10-1170"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("мужчина-механик"),
-				keywords: &["механик", "мужчина", "сантехник", "электрик"],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umugabo w’umukanishi"),
-				keywords: &[
-					"inzobere mu mwuga",
-					"kanyamashanyazi",
-					"kanyamigezi",
-					"umugabo",
-					"umugabo w’umukanishi",
-					"umukanishi",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("مرد مستري"),
-				keywords: &["مرد مستري", "مرد، واپاري، مستري، پلمبر، اليڪٽريشن"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}"),
-				keywords: &[
-					"ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
-					"ගන\u{dd4}දෙන\u{dd4} ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
-					"ජල නළ ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
-					"ප\u{dd2}ර\u{dd2}ම\u{dd2} ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
-					"ම\u{dd2}න\u{dd2}හ\u{dcf}",
-					"ව\u{dd2}ද\u{dd4}ල\u{dd2} ශ\u{dd2}ල\u{dca}ප\u{dd2}ය\u{dcf}",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("remeselník muž"),
-				keywords: &[
-					"automechanik",
-					"elektrikár",
-					"inštalatér",
-					"muž",
-					"povolanie",
-					"práca",
-					"remeselník",
-					"zamestnanie",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("mehanik"),
-				keywords: &[
-					"avtomehanik",
-					"električar",
-					"fant",
-					"mehanik",
-					"mehanična delavnica",
-					"moški",
-					"orodje",
-					"prodajalec",
-					"vodovodar",
-				],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("nin makaanik ah"),
-				keywords: &[
-					"dhuumo yaqaan",
-					"ganacsade",
-					"koronto yaqaan",
-					"makaanik",
-					"nin",
-					"nin makaanik ah",
-				],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("mekanik"),
-				keywords: &["burrë", "elektricist", "hidraulik", "mekanik", "tregtar"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("мушкарац механичар"),
-				keywords: &["водоинсталатер", "електричар", "мајстор", "механичар", "мушкарац"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("muškarac mehaničar"),
-				keywords: &["električar", "majstor", "mehaničar", "muškarac", "vodoinstalater"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("manlig mekaniker"),
-				keywords: &[
-					"bil",
-					"elektriker",
-					"man",
-					"manlig mekaniker",
-					"mekaniker",
-					"motor",
-					"rörmokare",
-				],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("fundi mitambo wa kiume"),
-				keywords: &[
-					"fundi gari",
-					"fundi mitambo wa kiume",
-					"makenika",
-					"mekanika",
-					"mwanamume",
-					"spana",
-				],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("ஆண\u{bcd} மெக\u{bcd}க\u{bbe}னிக\u{bcd}"),
-				keywords: &[
-					"ஆண\u{bcd}",
-					"நபர\u{bcd}",
-					"பழுது ப\u{bbe}ர\u{bcd}ப\u{bcd}பவர\u{bcd}",
-					"பிளம\u{bcd}பர\u{bcd}",
-					"மெக\u{bcd}க\u{bbe}னிக\u{bcd}",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("మగ మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}"),
-				keywords: &[
-					"ఎలక\u{c4d}ట\u{c4d}ర\u{c40}ష\u{c3f}యన\u{c4d}",
-					"ట\u{c4d}ర\u{c47}డ\u{c4d}స\u{c4d}\u{200c}పర\u{c4d}సన\u{c4d}",
-					"పురుషుడు",
-					"ప\u{c4d}లంబర\u{c4d}",
-					"మగ మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}",
-					"మగ\u{c3e}డు",
-					"మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}",
-					"వ\u{c4d}య\u{c3e}ప\u{c3e}రవ\u{c47}త\u{c4d}త",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("марди механик"),
-				keywords: &["водопроводчӣ", "мард", "марди механик", "механик", "савдогар", "устои барқ"],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("ช\u{e48}างซ\u{e48}อมชาย"),
-				keywords: &[
-					"งาน",
-					"ช\u{e48}างกล",
-					"ช\u{e48}างประปา",
-					"ช\u{e48}างไฟฟ\u{e49}า",
-					"ซ\u{e48}อมแซม",
-					"ผ\u{e39}\u{e49}ชาย",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ሰብኣይ መካኒክ"),
-				keywords: &["መካኒክ", "ሰራሕ ቧንቧ", "ሰብኣይ", "ነጋዳይ", "ኤሌክትሪሻን"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("erkek mehanik"),
-				keywords: &["elektrik", "erkek", "mehanik", "santehnik", "söwdagär"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("ʻenisinia tangata"),
-				keywords: &["ʻenisinia tangata"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("erkek tamirci"),
-				keywords: &["adam", "elektrikçi", "erkek", "esnaf", "meslek", "tamirci", "tesisatçı"],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("ئەر رېمونتچى"),
-				keywords: &["ئەر", "توكچى", "تۇرۇبا ئىشچىسى", "رېمونتچى", "سودىگەر"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("механік"),
-				keywords: &[
-					"водопровідник",
-					"електрик",
-					"електротехнік",
-					"механік",
-					"робота",
-					"сантехнік",
-					"фахівець",
-					"чоловік",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("مرد مکینک"),
-				keywords: &["الیکٹریشن", "لوگ", "مرد", "مکینک", "پلمبر", "کاریگر"],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("erkak mexanik"),
-				keywords: &["elektrik", "erkak mexanik", "hunarmand", "mexanik", "santexnik"],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("thợ máy nam"),
-				keywords: &[
-					"cơ khí",
-					"nam",
-					"người đàn ông",
-					"thợ",
-					"thợ máy nam",
-					"thợ sửa ống nước",
-					"thợ điện",
-				],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("mekaniyee bu góor"),
-				keywords: &[
-					"elektrisiyee",
-					"góor",
-					"jaaykat",
-					"mekanisee",
-					"mekaniyee bu góor",
-					"plombiyee",
-				],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umkhandi oyindoda"),
-				keywords: &[
-					"incutshe yombane",
-					"indoda",
-					"umkhandi",
-					"umkhandi oyindoda",
-					"umntu ongumrhwebi",
-					"umtywini",
-				],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("ọkùnrin atún ọkọ\u{300} ṣe"),
-				keywords: &[
-					"atún ináṣe",
-					"atún ọkọ\u{300} ṣe",
-					"pílọ\u{301}bà",
-					"ẹni ṣòwò",
-					"ọkùnrin",
-					"ọkùnrin atún ọkọ\u{300} ṣe",
-				],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("ɔkùnrin atún ɔkɔ\u{300} she"),
-				keywords: &[
-					"atún ináshe",
-					"atún ɔkɔ\u{300} she",
-					"pílɔ\u{301}bà",
-					"ɔkùnrin",
-					"ɔkùnrin atún ɔkɔ\u{300} she",
-					"ɛni shòwò",
-				],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("男技工"),
-				keywords: &["商人", "技工", "水管工人", "男", "男技工", "電工"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("男技工"),
-				keywords: &["商人", "技工", "水管工人", "电工", "男", "男技工"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("男技工"),
-				keywords: &["技工", "机械工", "杂工", "水管工", "水管工人", "电工", "男", "男技工"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("男技工"),
-				keywords: &["技工", "機械技師", "男", "男技工", "電工", "黑手"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("↑↑↑"),
-				keywords: &["人物", "修理", "技工", "水管工", "男士", "男性", "維修", "電工"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umakhenikha wesilisa"),
-				keywords: &[
-					"indoda",
-					"odayisayo",
-					"umakhenikha",
-					"umakhenikha wesilisa",
-					"umkhandi kagesi",
-					"uplamba",
-				],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🔧",
-			codepoint:            &[128104u32, 127995u32, 8205u32, 128295u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man mechanic: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🔧",
-			codepoint:            &[128104u32, 127996u32, 8205u32, 128295u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man mechanic: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🔧",
-			codepoint:            &[128104u32, 127997u32, 8205u32, 128295u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man mechanic: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🔧",
-			codepoint:            &[128104u32, 127998u32, 8205u32, 128295u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man mechanic: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🔧",
-			codepoint:            &[128104u32, 127999u32, 8205u32, 128295u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man mechanic: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🕵\u{fe0f}"]
-pub const DETECTIVE: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🕵\u{fe0f}",
-		codepoint:            &[128373u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-		name:                 "detective",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🕵🏻",
-			codepoint:            &[128373u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-			name:                 "detective: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏼",
-			codepoint:            &[128373u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-			name:                 "detective: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏽",
-			codepoint:            &[128373u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-			name:                 "detective: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏾",
-			codepoint:            &[128373u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-			name:                 "detective: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏿",
-			codepoint:            &[128373u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-			name:                 "detective: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🎤"]
-pub const MAN_SINGER: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🎤",
-		codepoint:            &[128104u32, 8205u32, 127908u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "man singer",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("manlike sanger"),
-				keywords: &[
-					"man",
-					"manlike sanger",
-					"persoon",
-					"rock",
-					"rockster",
-					"sanger",
-					"ster",
-					"vermaak",
-					"vermaaklikheid",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ወንድ ዘፋኝ"),
-				keywords: &["ተዋናይ", "አዝናኝ", "ኮከብ", "ወንድ", "ዘፋኝ"],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("مطرب"),
-				keywords: &["رجل", "روك", "مطرب", "مغني", "ممثل", "نجم", "وان مان شو"],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("প\u{9c1}ৰ\u{9c1}ষ গ\u{9be}য\u{9bc}ক"),
-				keywords: &[
-					"অভিনেত\u{9be}",
-					"গ\u{9be}য\u{9bc}ক",
-					"ত\u{9be}ৰক\u{9be}",
-					"প\u{9c1}ৰ\u{9c1}ষ",
-					"বিনোদক",
-					"ৰ’ক",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("kişi müğənni"),
-				keywords: &[
-					"aktyor",
-					"estrada artisti",
-					"kişi",
-					"müğənni",
-					"rok",
-					"rok ulduzu",
-					"sənətçi",
-					"ulduz",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("спявак"),
-				keywords: &["зорка", "мужчына", "рок", "спеў", "спявак", "эстраднік"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("мъж певец"),
-				keywords: &[
-					"актьор",
-					"артист",
-					"музика",
-					"музикален изпълнител",
-					"мъж певец",
-					"певец",
-					"рок звезда",
-					"творец",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("ছেলে , প\u{9c1}র\u{9c1}ষ গ\u{9be}য\u{9bc}ক"),
-				keywords: &[
-					"অভিনেত\u{9be}",
-					"এন\u{9cd}ট\u{9be}টেন\u{9be}র",
-					"গ\u{9be}য\u{9bc}ক",
-					"ছেলে",
-					"ছেলে , প\u{9c1}র\u{9c1}ষ গ\u{9be}য\u{9bc}ক",
-					"প\u{9c1}র\u{9c1}ষ",
-					"রক",
-					"স\u{9cd}ট\u{9be}র",
-				],
-			},
-			#[cfg(feature = "br")]
-			crate::Annotation { lang: "br", tts: Some("kaner"), keywords: &["kaner"] },
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("pjevač muškarac"),
-				keywords: &["izvođač", "pjevač", "pjevač muškarac", "roker", "zabavljač", "zvijezda"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("cantant home"),
-				keywords: &[
-					"actor",
-					"artista",
-					"cantant",
-					"cantant home",
-					"estrella",
-					"estrella del rock",
-					"presentador",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᏍᎦᏯ ᏗᎧᏃᎩᏍᎩ"),
-				keywords: &["ᎠᏍᎦᏯ", "ᎠᏛᏁᎵᏍᎩ", "ᎠᏛᏁᎸᏍᎩ", "ᏃᏈᏏ", "ᏅᏯ", "ᏗᎧᏃᎩᏍᎩ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("zpěvák"),
-				keywords: &[
-					"bavič",
-					"herec",
-					"hvězda",
-					"muž",
-					"povolání",
-					"práce",
-					"punker",
-					"rock",
-					"rocker",
-					"zpěvák",
-					"zábava",
-					"člověk",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("cantor"),
-				keywords: &["actor", "adlonni", "cantor", "dyn"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("mandlig sanger"),
-				keywords: &[
-					"entertainer",
-					"karaoke",
-					"mand",
-					"mandlig sanger",
-					"rock",
-					"sang",
-					"sanger",
-					"skuespiller",
-					"stjerne",
-					"synge",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Sänger"),
-				keywords: &["Mann", "Mikrofon", "Popstar", "Schauspieler", "Sänger"],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("τραγουδιστής"),
-				keywords: &[
-					"άντρας",
-					"διασκέδαση",
-					"διασκεδαστής",
-					"ηθοποιός",
-					"ροκ",
-					"στάρ",
-					"τραγουδιστής",
-					"τραγούδι",
-				],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("man singer"),
-				keywords: &["actor", "entertainer", "man", "rock", "rockstar", "singer", "star"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("cantante hombre"),
-				keywords: &["artista", "cantante hombre", "estrella", "hombre", "rock"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("meeslaulja"),
-				keywords: &["laulja", "meelelahutaja", "mees", "näitleja", "rokk", "rokkstaar", "staar"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("gizon abeslaria"),
-				keywords: &[
-					"abeslaria",
-					"aisia",
-					"aktorea",
-					"gizon abeslaria",
-					"gizona",
-					"gizonezkoa",
-					"izarra",
-					"rocka",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("خواننده مرد"),
-				keywords: &["خواننده", "خواننده مرد", "ستاره", "میکروفن", "هنرمند"],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("mieslaulaja"),
-				keywords: &["karaoke", "laulaja", "mies", "mieslaulaja", "mikki"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("lalaking mang-aawit"),
-				keywords: &[
-					"aktor",
-					"artista",
-					"bokalista",
-					"lalaki",
-					"lalaking mang-aawit",
-					"mang-aawit",
-					"manganganta",
-					"rakista",
-					"rock",
-					"rockstar",
-					"singer",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("mannligur sangari"),
-				keywords: &[
-					"mannligur sangari",
-					"maður",
-					"sangari",
-					"sjónleikari",
-					"skemtari",
-					"undirhaldari",
-					"vertur",
-				],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("chanteur"),
-				keywords: &["acteur", "artiste", "chanteur", "homme", "métier", "rock", "rockeur", "star"],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation {
-				lang:     "fr_CA",
-				tts:      Some("chanteur homme"),
-				keywords: &["artiste", "chanteur", "homme", "rock", "vedette"],
-			},
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("amhránaí fireann"),
-				keywords: &[
-					"aisteoir",
-					"amhránaí",
-					"amhránaí fireann",
-					"boc mór",
-					"fear",
-					"roc",
-					"réalt",
-					"siamsóir",
-					"siamóir",
-				],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("seinneadair fireann"),
-				keywords: &[
-					"actair",
-					"cleasaiche",
-					"duine",
-					"fear",
-					"fireannach",
-					"rionnag",
-					"ròc",
-					"seinneadair",
-					"seinneadair fireann",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("cantante de sexo masculino"),
-				keywords: &["actor", "cantante", "cantante de sexo masculino", "home", "rock"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("ગાયક"),
-				keywords: &[
-					"અભિન\u{ac7}તા",
-					"ગાયક",
-					"પ\u{ac1}ર\u{ac1}ષ",
-					"મનોર\u{a82}જનકર\u{acd}તા",
-					"રૉક",
-					"સ\u{acd}ટાર",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mutum mawaƙi"),
-				keywords: &[
-					"mai sa nishaɗi",
-					"mai shaƙatawa",
-					"mawaƙi",
-					"mutum",
-					"tauraro",
-					"waƙar rock",
-					"ɗan wasa",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mutum mawaƙi"),
-				keywords: &[
-					"mai sa nishaɗi",
-					"mai shaƙatawa",
-					"mawaƙi",
-					"mutum",
-					"tauraro",
-					"waƙar rock",
-					"ɗan wasa",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("זמר"),
-				keywords: &["איש", "בדרן", "גבר", "זמר", "כוכב", "רוק", "שחקן"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("गायक"),
-				keywords: &[
-					"अभिन\u{947}ता",
-					"आदमी",
-					"गायक",
-					"तारा",
-					"प\u{941}र\u{941}ष",
-					"मनोर\u{902}जन",
-					"रॉक",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("pjevač"),
-				keywords: &["glumac", "muškarac", "pjevač", "zabavljač", "zvijezda"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("férfi énekes"),
-				keywords: &[
-					"előadó",
-					"foglalkozás",
-					"férfi",
-					"művész",
-					"rock",
-					"sztár",
-					"színész",
-					"énekes",
-				],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("տղամարդ երգիչ"),
-				keywords: &["աստղ", "երգիչ", "կատարող", "տղամարդ"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("penyanyi pria"),
-				keywords: &["aktor", "bintang", "lelaki", "penghibur", "penyanyi", "rock"],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwoke ọgụụ egwu"),
-				keywords: &[
-					"nwoke",
-					"nwoke ọgụụ egwu",
-					"onye ama ama",
-					"onye na-eme ihe nkiri",
-					"rọkụ",
-					"ọgụụ egwu",
-					"ọkpaiheọchị",
-				],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("söngvari"),
-				keywords: &["karl", "skemmtikraftur", "söngvari", "tónlist"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("cantante uomo"),
-				keywords: &["attore", "cantante", "lavoro", "musica", "rock star", "star", "uomo", "ziggy"],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("男性歌手"),
-				keywords: &[
-					"アーティスト",
-					"エンターテイナー",
-					"シンガー",
-					"スター",
-					"ロックスター",
-					"俳優",
-					"歌手",
-					"男",
-					"男性",
-					"男性歌手",
-				],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("biduan lanang"),
-				keywords: &["aktor", "biduan", "lanang", "musik rock", "panampil", "selebriti"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("მომღერალი კაცი"),
-				keywords: &["ბიჭი", "კაცი", "მომღერალი", "მსახიობი", "როკერი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("ер әнші"),
-				keywords: &["ер", "жұлдыз", "сахна", "әнші"],
-			},
-			#[cfg(feature = "kl")]
-			crate::Annotation {
-				lang:     "kl",
-				tts:      Some("sanger"),
-				keywords: &[
-					"entertainer",
-					"karaoke",
-					"mand",
-					"sang",
-					"sanger",
-					"skuespiller",
-					"stjerne",
-					"synge",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("អ\u{17d2}នកចម\u{17d2}រៀងប\u{17d2}រ\u{17bb}ស"),
-				keywords: &[
-					"តារា",
-					"ត\u{17bd}សម\u{17d2}តែង",
-					"ប\u{17d2}រ\u{17bb}ស",
-					"អ\u{17d2}នកចម\u{17d2}រៀង",
-					"អ\u{17d2}នកចម\u{17d2}រៀងប\u{17d2}រ\u{17bb}ស",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಗಾಯಕ"),
-				keywords: &[
-					"ಗಾಯಕ",
-					"ನಟ",
-					"ಪುರುಷ",
-					"ಮನರಂಜಕ",
-					"ಮನರಂಜನ\u{cc6}",
-					"ರಾಕ\u{ccd}",
-					"ರಾಕ\u{ccd} ಸ\u{cbf}ಂಗರ\u{ccd}",
-					"ರಾಕ\u{ccd}\u{200c}ಸ\u{ccd}ಟಾರ\u{ccd}",
-					"ಸ\u{ccd}ಟಾರ\u{ccd}",
-					"ಹಾಡು ಹ\u{cc7}ಳುವವನು",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("남자 가수"),
-				keywords: &[
-					"가수",
-					"남자",
-					"노래",
-					"락",
-					"락스타",
-					"마이크",
-					"배우",
-					"스타",
-					"엔터테이너",
-					"연예인",
-				],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("दादलो गायक"),
-				keywords: &["कलाकार", "गायक", "दादलो", "मनरिजवण करपी", "रॉक", "स\u{94d}टार"],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("эркек ырчы"),
-				keywords: &["актер", "алып баруучу", "рок", "ырчы", "эркек"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Sänger"),
-				keywords: &["Entertainer", "Mann", "Rock", "Schauspiller", "Star", "Sänger"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ນ\u{eb1}ກຮ\u{ec9}ອງຊາຍ"),
-				keywords: &["ຊາຍ", "ນ\u{eb1}ກຮ\u{ec9}ອງ", "ນ\u{eb1}ກຮ\u{ec9}ອງຊາຍ"],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("dainininkas"),
-				keywords: &["aktorius", "dainininkas", "rokas", "vyras", "žvaigždė"],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("dziedātājs"),
-				keywords: &[
-					"aktieris",
-					"bovijs",
-					"cilvēks",
-					"dziedātājs",
-					"izklaide",
-					"roks",
-					"rokzvaigzne",
-					"vīrietis",
-					"zvaigzne",
-				],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("kaiwaiata tāne"),
-				keywords: &["kaitapere", "kaiwaiata", "kaiwhakangahau", "raka", "tāne", "whetū"],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("маж пејач"),
-				keywords: &["актер", "забавувач", "маж", "пејач", "рок", "ѕвезда"],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("ഗ\u{d3e}യകൻ"),
-				keywords: &[
-					"ഗ\u{d3e}യകൻ",
-					"പ\u{d3e}ട\u{d4d}ട\u{d41}ക\u{d3e}രൻ",
-					"റോക\u{d4d}ക\u{d4d}\u{200c}സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d3e}ർ",
-					"സംഗീതം",
-					"സംഗീതജ\u{d4d}ഞൻ",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("эрэгтэй дуучин"),
-				keywords: &["дуучин", "жүжигчин", "од", "рок", "эрэгтэй"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("गायक"),
-				keywords: &[
-					"कलाकार",
-					"गायक",
-					"नट",
-					"प\u{941}र\u{941}ष",
-					"मनोर\u{902}जक",
-					"मनोर\u{902}जन",
-					"रॉक",
-					"व\u{94d}यक\u{94d}ती",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("penyanyi lelaki"),
-				keywords: &["bintang", "lelaki", "pelakon", "penghibur", "penyanyi", "rock"],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("kantant maskili"),
-				keywords: &["attur", "entertainer", "kantant", "kantant maskili", "raġel", "rock", "star"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("အမျ\u{102d}\u{102f}းသား အဆ\u{102d}\u{102f}တော\u{103a}"),
-				keywords: &[
-					"ဖျော\u{103a}ဖြေတင\u{103a}ဆက\u{103a}သ\u{1030}",
-					"ရော\u{1037}ခ\u{103a}တေးဂ\u{102e}တ",
-					"သရ\u{102f}ပ\u{103a}ဆောင\u{103a}",
-					"အဆ\u{102d}\u{102f}တော\u{103a}",
-					"အမျ\u{102d}\u{102f}းသား",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("प\u{941}र\u{942}ष गायक"),
-				keywords: &[
-					"कलाकार",
-					"गायक",
-					"छोरामान\u{94d}छ\u{947}",
-					"तारा",
-					"प\u{941}र\u{942}ष",
-					"मनोरञ\u{94d}जक",
-					"रक",
-				],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("mannelijke zanger"),
-				keywords: &["acteur", "entertainer", "man", "rock", "rockster", "ster", "zanger"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("mannleg artist"),
-				keywords: &["artist", "konsert", "mann", "mannleg artist", "songar"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ପ\u{b41}ର\u{b41}ଷ ଗ\u{b3e}ୟ\u{b3f}କ"),
-				keywords: &[
-					"ଅଭ\u{b3f}ନେତ\u{b3e}",
-					"ଗ\u{b3e}ୟ\u{b3f}କ",
-					"ପ\u{b41}ର\u{b41}ଷ",
-					"ମନୋରଞ\u{b4d}ଜନକ\u{b3e}ରୀ",
-					"ରକ\u{b4d}\u{200c}",
-					"ଷ\u{b4d}ଟ\u{b3e}ର\u{b4d}\u{200c}",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਗਾਇਕ"),
-				keywords: &[
-					"ਅਦਾਕਾਰ",
-					"ਕਲਾਕਾਰ",
-					"ਗਾਇਕ",
-					"ਪ\u{a41}ਰਸ\u{a3c}",
-					"ਬ\u{a70}ਦਾ",
-					"ਮਸਖਰਾ",
-					"ਰ\u{a4c}ਕਸਟਾਰ",
-					"ਸਟਾਰ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("گلوکار"),
-				keywords: &["اداکار", "بندہ", "تارہ", "تفریح مہیا کرن آلا", "چٹان", "گلوکار"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Mán Sínga"),
-				keywords: &[
-					"Man",
-					"Miúzik Sta",
-					"Mán Sínga",
-					"Pẹ\u{301}sin Wé De Dú Tins Wé De Mék Pípul Laf An Hapí",
-					"Rọ\u{301}k Miúzik",
-					"Sínga",
-					"Áktọ",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("mężczyzna piosenkarz"),
-				keywords: &[
-					"aktor",
-					"mężczyzna",
-					"osoba",
-					"piosenkarz",
-					"praca",
-					"rock",
-					"rocker",
-					"zawód",
-				],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("سړی سندرغاړی"),
-				keywords: &["اکټر", "خوشالوونکی", "راک", "ستوری", "سندرغاړی", "سړی"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("cantor homem"),
-				keywords: &["artista", "ator", "cantor", "homem", "pop", "rock"],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("cantor"),
-				keywords: &["ator", "cantor", "estrela", "estrela do rock", "homem", "rock"],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("tata takiq"),
-				keywords: &["artista", "imaymana yanakuq", "quyllur", "rock", "takiq", "tata"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("cântăreț"),
-				keywords: &[
-					"actor",
-					"bărbat",
-					"comediant",
-					"cântăreț",
-					"divertisment",
-					"rock",
-					"star",
-					"vedetă",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-1164"), keywords: &["E10-1164"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("мужчина-певец"),
-				keywords: &[
-					"жест",
-					"звезда",
-					"исполнитель",
-					"коза",
-					"мужчина",
-					"музыка",
-					"певец",
-					"рок",
-					"сцена",
-				],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umugabo w’umuririmbyi"),
-				keywords: &[
-					"icyamamare",
-					"roke",
-					"umugabo",
-					"umugabo w’umuririmbyi",
-					"umukinnyi",
-					"umuririmbyi",
-					"usetsa",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("مرد ڳائڻو"),
-				keywords: &["مرد ڳائڻو", "مرد، ڳائڻو، وندرائيندڙ، راڪ، اسٽار، اداڪار"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ග\u{dcf}යකය\u{dcf}"),
-				keywords: &[
-					"ග\u{dcf}යකය\u{dcf}",
-					"තර\u{dd4}ව",
-					"නළ\u{dd4}ව\u{dcf}",
-					"ප\u{dd2}ර\u{dd2}ම\u{dd2} ග\u{dcf}යකය\u{dcf}",
-					"ප\u{dd2}ර\u{dd2}ම\u{dd2}ය\u{dcf}",
-					"රොක\u{dca}",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("spevák muž"),
-				keywords: &[
-					"hudba",
-					"hviezda",
-					"muž",
-					"osoba",
-					"pankáč",
-					"povolanie",
-					"práca",
-					"punker",
-					"rocker",
-					"spevák",
-					"zabávač",
-					"zamestnanie",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("pevec"),
-				keywords: &["fant", "igralec", "komik", "moški", "pevec", "roker", "zabavljač", "zvezdnik"],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("nin fannaan ah"),
-				keywords: &[
-					"atoore",
-					"fannaan",
-					"maddadaaleeye",
-					"nin",
-					"nin fannaan ah",
-					"xiddig",
-					"xiddig heesaa",
-				],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("këngëtar"),
-				keywords: &["aktor", "burrë", "këngëtar", "muzikant", "rok"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("мушкарац певач"),
-				keywords: &["глумац", "звезда", "мушкарац", "певач", "рок"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation {
-				lang:     "sr_Cyrl_BA",
-				tts:      Some("мушкарац пјевач"),
-				keywords: &["глумац", "мушкарац", "пјевач", "рок"],
-			},
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("muškarac pevač"),
-				keywords: &["glumac", "muškarac", "pevač", "rok", "zvezda"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation {
-				lang:     "sr_Latn_BA",
-				tts:      Some("muškarac pjevač"),
-				keywords: &["glumac", "muškarac", "pjevač", "rok"],
-			},
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("manlig sångare"),
-				keywords: &["artist", "konsert", "kändis", "man", "manlig sångare", "stjärna"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mwimbaji wa kiume"),
-				keywords: &["maikrofoni", "msanii", "mwanamume", "mwimbaji", "mwimbaji wa kiume"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("ஆண\u{bcd} ப\u{bbe}டகர\u{bcd}"),
-				keywords: &[
-					"ஆண\u{bcd}",
-					"நடிகர\u{bcd}",
-					"நபர\u{bcd}",
-					"ப\u{bbe}டகர\u{bcd}",
-					"பொழுதுபோக\u{bcd}கு",
-					"ர\u{bbe}க\u{bcd}ஸ\u{bcd}ட\u{bbe}ர\u{bcd}",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("గ\u{c3e}యకుడు"),
-				keywords: &[
-					"ఎంటర\u{c4d}ట\u{c48}నర\u{c4d}",
-					"గ\u{c3e}యకుడు",
-					"పురుషుడు",
-					"ప\u{c4d}రముఖుడు",
-					"మగ\u{c3e}డు",
-					"య\u{c3e}క\u{c4d}టర\u{c4d}",
-					"ర\u{c3e}క\u{c4d}",
-					"ర\u{c3e}క\u{c4d}\u{200c}స\u{c4d}ట\u{c3e}ర\u{c4d}",
-					"స\u{c3f}ంగర\u{c4d}",
-					"స\u{c4d}ట\u{c3e}ర\u{c4d}",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("марди сароянда"),
-				keywords: &[
-					"корманди санъат",
-					"мард",
-					"марди сароянда",
-					"рок",
-					"сароянда",
-					"ситора",
-					"ҳунарманд",
-				],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("น\u{e31}กร\u{e49}องชาย"),
-				keywords: &[
-					"งาน",
-					"ดารา",
-					"น\u{e31}กร\u{e49}อง",
-					"น\u{e31}กแสดง",
-					"ผ\u{e39}\u{e49}ชาย",
-					"ผ\u{e39}\u{e49}ให\u{e49}ความบ\u{e31}นเท\u{e34}ง",
-					"ร\u{e47}อค",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ሰብኣይ ደራፋይ"),
-				keywords: &["ሮክስታር", "ሰብኣይ", "ተዋሳኣይ", "ኣዘናጋዒ", "ከውሒ", "ኮኾብ", "ደራፋይ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("erkek aýdymçy"),
-				keywords: &["aktýor", "aýdymçy", "erkek", "medeniýet işgäri", "rok", "ýyldyz"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("tangata hiva"),
-				keywords: &["tangata hiva"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("erkek şarkıcı"),
-				keywords: &["adam", "aktör", "erkek", "gösterici", "meslek", "rock", "star", "şarkıcı"],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("ئەر ناخشىچى"),
-				keywords: &["ئەر", "داڭلىق", "سەنئەتكار", "كۆڭۈل ئېچىش", "ناخشىچى", "چولپان"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("співак"),
-				keywords: &[
-					"артист",
-					"виконавець",
-					"зірка",
-					"людина",
-					"пісняр",
-					"рок",
-					"соліст",
-					"співак",
-					"чоловік",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("گلوکار"),
-				keywords: &["اسٹار", "راک اسٹار", "سنگر", "فنکار", "لوگ", "گلوکار", "گیت سنگیت"],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("erkak qo‘shiqchi"),
-				keywords: &[
-					"aktyor",
-					"erkak",
-					"erkak qo‘shiqchi",
-					"estrada artisti",
-					"qoʻshiqchi",
-					"rok",
-					"yulduz",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("nam ca sĩ"),
-				keywords: &[
-					"ca sĩ",
-					"nam ca sĩ",
-					"nam diễn viên",
-					"nghệ sĩ",
-					"ngôi sao",
-					"người đàn ông",
-					"nhạc rock",
-				],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("góor waykat"),
-				keywords: &["aktër", "begalkat", "biddeew", "góor", "rok", "waykat"],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umculi oyindoda"),
-				keywords: &[
-					"i-rock",
-					"indoda",
-					"ingcali",
-					"umculi",
-					"umculi oyindoda",
-					"umdlali",
-					"umonwabisi",
-				],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("ọkùnrin olórin"),
-				keywords: &[
-					"adánirárayá",
-					"akọrin",
-					"àpáta",
-					"ìràwọ\u{300}",
-					"ọkùnrin",
-					"ọkùnrin olórin",
-					"ọṣèré",
-				],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("ɔkùnrin olórin"),
-				keywords: &[
-					"adánirárayá",
-					"akɔrin",
-					"àpáta",
-					"ìràwɔ\u{300}",
-					"ɔkùnrin",
-					"ɔkùnrin olórin",
-					"ɔshèré",
-				],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("男歌手"),
-				keywords: &["搖滾", "明星", "歌手", "演員", "男", "男歌手", "藝人"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("男歌手"),
-				keywords: &["摇滚", "明星", "歌手", "演员", "男", "男歌手", "艺人"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("男歌手"),
-				keywords: &["摇滚歌手", "明星", "歌手", "男", "男歌手", "男演员", "艺人"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("男歌手"),
-				keywords: &["搖滾", "明星", "歌手", "男", "男歌手"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("↑↑↑"),
-				keywords: &["人物", "搖滾", "明星", "歌手", "演員", "男士", "男性", "藝人"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umculi wesilisa"),
-				keywords: &["isilomo", "owesilisa", "umculi", "umculi wesilisa", "umlingisi"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🎤",
-			codepoint:            &[128104u32, 127995u32, 8205u32, 127908u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man singer: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🎤",
-			codepoint:            &[128104u32, 127996u32, 8205u32, 127908u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man singer: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🎤",
-			codepoint:            &[128104u32, 127997u32, 8205u32, 127908u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man singer: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🎤",
-			codepoint:            &[128104u32, 127998u32, 8205u32, 127908u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man singer: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🎤",
-			codepoint:            &[128104u32, 127999u32, 8205u32, 127908u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man singer: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🕵\u{fe0f}\u{200d}♂\u{fe0f}"]
-pub const MAN_DETECTIVE: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🕵\u{fe0f}\u{200d}♂\u{fe0f}",
-		codepoint:            &[128373u32, 65039u32, 8205u32, 9794u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "man detective",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🕵🏻\u{200d}♂\u{fe0f}",
-			codepoint:            &[128373u32, 127995u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man detective: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏼\u{200d}♂\u{fe0f}",
-			codepoint:            &[128373u32, 127996u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man detective: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏽\u{200d}♂\u{fe0f}",
-			codepoint:            &[128373u32, 127997u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man detective: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏾\u{200d}♂\u{fe0f}",
-			codepoint:            &[128373u32, 127998u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man detective: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕵🏿\u{200d}♂\u{fe0f}",
-			codepoint:            &[128373u32, 127999u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "man detective: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🏭"]
-pub const WOMAN_FACTORY_WORKER: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🏭",
-		codepoint:            &[128105u32, 8205u32, 127981u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman factory worker",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonRole,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("vroulike fabriekswerker"),
-				keywords: &[
-					"fabriek",
-					"fabriekswerker",
-					"industrieel",
-					"montering",
-					"persoon",
-					"vrou",
-					"vroulike fabriekswerker",
-					"werker",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ሴት የፋብሪካ ሰራተኛ"),
-				keywords: &["መገጣጠሚያ", "ሰራተኛ", "ሴት የፋብሪካ ሰራተኛ", "ኢንዱስትሪ", "ፋብሪካ"],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("عاملة مصنع"),
-				keywords: &["امرأة", "تجميع", "سيدة", "صناعة", "عاملة", "مصنع"],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("মহিল\u{9be} ফেক\u{9cd}টৰী কৰ\u{9cd}মচ\u{9be}ৰী"),
-				keywords: &[
-					"উদ\u{9cd}যোগিক",
-					"কৰ\u{9cd}মচ\u{9be}ৰী",
-					"ফেক\u{9cd}টৰী",
-					"বৈঠক",
-					"মহিল\u{9be}",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("qadın fabrik işçisi"),
-				keywords: &["fabrik", "işçi", "qadın", "qadın fabrik işçisi", "sənaye", "yığım"],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("працаўніца завода"),
-				keywords: &["жанчына", "завод", "прамысловасць", "працаўніца", "працаўніца завода"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("работничка в завод"),
-				keywords: &["жена", "производство", "работничка в завод", "фабрика"],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("মেয\u{9bc}ে , মহিল\u{9be} , মিলের কর\u{9cd}মি"),
-				keywords: &[
-					"অ\u{9cd}য\u{9be}সেমব\u{9cd}লি",
-					"ইনড\u{9be}সট\u{9cd}রি",
-					"ইন\u{9cd}ড\u{9be}স\u{9cd}ট\u{9cd}রি",
-					"কর\u{9cd}মি",
-					"কর\u{9cd}মী",
-					"ক\u{9be}রখ\u{9be}ন\u{9be}",
-					"মহিল\u{9be}",
-					"মিলের কর\u{9cd}মি",
-					"মেয\u{9bc}ে",
-					"মেয\u{9bc}ে , মহিল\u{9be} , মিলের কর\u{9cd}মি",
-				],
-			},
-			#[cfg(feature = "br")]
-			crate::Annotation {
-				lang:     "br",
-				tts:      Some("micherourez"),
-				keywords: &["micherourez"],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("radnica u fabrici"),
-				keywords: &["fabrika", "industrija", "montaža", "radnica u fabrici", "radnik", "žena"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("operària"),
-				keywords: &["dona", "fàbrica", "industrial", "muntatge", "operària", "treballadora"],
-			},
-			#[cfg(feature = "ccp")]
-			crate::Annotation {
-				lang:     "ccp",
-				tts:      Some(
-					"𑄜\u{11133}𑄠𑄇\u{11134}𑄑\u{1112e}𑄢\u{11128}𑄖\u{11134} 𑄇𑄟\u{11134} 𑄉\u{11127}𑄢\u{11128}𑄠𑄬 𑄟\u{11128}𑄣𑄬",
-				),
-				keywords: &[
-					"𑄜\u{11133}𑄠𑄇\u{11134}𑄑\u{1112e}𑄢\u{11128}𑄖\u{11134} 𑄇𑄟\u{11134} 𑄉\u{11127}𑄢\u{11128}𑄠𑄬 𑄟\u{11128}𑄣𑄬",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᎨᏯ ᏗᎦᎸᏫᏍᏓᏁᏗ ᏧᎸᏫᏍᏓᏁᎯ"),
-				keywords: &[
-					"ᎠᎨᏯ",
-					"ᎠᎨᏯ ᏗᎦᎸᏫᏍᏓᏁᏗ ᏧᎸᏫᏍᏓᏁᎯ",
-					"ᏂᎦᏓ ᏚᏂᎸᏫᏍᏓᏁᎲᎢ",
-					"ᏗᎦᎸᏫᏍᏓᏁᏗ ᎤᏙᎴᏒᎢ",
-					"ᏗᎦᎸᏫᏍᏓᏁᏗ ᏚᏙᏢᏒᎢ",
-					"ᏧᎸᏫᏍᏓᏁᎯ",
-				],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("dělnice v továrně"),
-				keywords: &[
-					"dílna",
-					"dělnice",
-					"dělnice v továrně",
-					"fabrika",
-					"montérka",
-					"povolání",
-					"práce",
-					"průmysl",
-					"svářečka",
-					"továrna",
-					"výroba",
-					"člověk",
-					"žena",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("gweithwraig ffatri"),
-				keywords: &["benyw", "cydosod", "diwydiant", "ffatri", "gweithwraig ffatri"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("kvindelig fabriksarbejder"),
-				keywords: &["arbejder", "fabrik", "industri", "kvinde", "kvindelig fabriksarbejder"],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Fabrikarbeiterin"),
-				keywords: &["Fabrik", "Fabrikarbeiterin", "Frau", "Helm"],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation {
-				lang:     "de_CH",
-				tts:      Some("↑↑↑"),
-				keywords: &["Arbeiter", "Fabrik", "Fabrikarbeiterin", "Montage", "industriell"],
-			},
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("εργάτρια"),
-				keywords: &["γυναίκα", "εργάτρια", "εργοστάσιο", "οικοδομή", "συναρμολόγηση"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("woman factory worker"),
-				keywords: &["assembly", "factory", "industrial", "woman", "worker"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("profesional industrial mujer"),
-				keywords: &[
-					"fábrica",
-					"montaje",
-					"obrera",
-					"operaria",
-					"profesional industrial mujer",
-					"trabajadora",
-				],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("naissoost tehasetööline"),
-				keywords: &["liinitööline", "naine", "tehas", "tööline"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("fabrikako emakume langilea"),
-				keywords: &[
-					"emakume",
-					"emakumezko",
-					"fabrika",
-					"fabrikako emakume langilea",
-					"industria",
-					"langile",
-					"mihiztatu",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("کارگر کارخانه زن"),
-				keywords: &["آدم", "عمله", "کارگر", "کارگر کارخانه", "کارگر کارخانه زن"],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("naistehdastyöntekijä"),
-				keywords: &["hitsaaja", "nainen", "naistehdastyöntekijä", "tehdas", "työntekijä"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("babaeng manggagawa sa pabrika"),
-				keywords: &[
-					"babae",
-					"babaeng manggagawa sa pabrika",
-					"manggagawa",
-					"obrero",
-					"pabrika",
-					"trabahadora",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("kvinnuligur sveisari"),
-				keywords: &[
-					"arbeiðskvinna",
-					"kona",
-					"kvinna",
-					"kvinnuligur sveisari",
-					"sj´óðari",
-					"sveisari",
-				],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("ouvrière"),
-				keywords: &["assemblage", "femme", "industrie", "montage", "métier", "ouvrière", "usine"],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation {
-				lang:     "fr_CA",
-				tts:      Some("↑↑↑"),
-				keywords: &["assemblage", "femme", "industrie", "ouvrière", "usine"],
-			},
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("oibrí monarchan baineann"),
-				keywords: &[
-					"bean",
-					"cóimeáil",
-					"monarcha",
-					"oibrí",
-					"oibrí monarchan baineann",
-					"tionsclaíoch",
-				],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("obraiche-factaraidh boireann"),
-				keywords: &[
-					"boireannach",
-					"factaraidh",
-					"gnìomhachas",
-					"neach-obrach",
-					"obraiche",
-					"obraiche-factaraidh boireann",
-					"tionaladh",
-					"tè",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("operaria"),
-				keywords: &["fábrica", "muller", "obreira", "operaria", "traballadora"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("સ\u{acd}ત\u{acd}રી ફ\u{ac5}ક\u{acd}ટરી કાર\u{acd}યકર\u{acd}તા"),
-				keywords: &[
-					"ઔદ\u{acd}યોગિક",
-					"કાર\u{acd}યકર\u{acd}તા",
-					"ફ\u{ac5}ક\u{acd}ટરી",
-					"મ\u{a82}ડલી",
-					"સ\u{acd}ત\u{acd}રી",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mace ma’aikacin masana’antu"),
-				keywords: &[
-					"mace",
-					"mace ma’aikacin masana’antu",
-					"masana’anta",
-					"masana’antu",
-					"maʼaikaciya",
-					"maʼaikata",
-					"ma’aikaci",
-					"ma’aikatar harhaɗa",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mace ma’aikacin masana’antu"),
-				keywords: &[
-					"mace",
-					"mace ma’aikacin masana’antu",
-					"masana’anta",
-					"masana’antu",
-					"maʼaikaciya",
-					"maʼaikata",
-					"ma’aikaci",
-					"ma’aikatar harhaɗa",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("פועלת"),
-				keywords: &["אישה", "מפעילה", "מפעל", "מרכיבה", "עובדת", "עובדת תעשייה", "פועלת"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("महिला फ\u{948}क\u{94d}टरी मजद\u{942}र"),
-				keywords: &[
-					"औद\u{94d}योगिक",
-					"कारखाना",
-					"मज\u{93c}द\u{942}र",
-					"महिला",
-					"महिला फ\u{948}क\u{94d}टरी मजद\u{942}र",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("tvornička radnica"),
-				keywords: &["industrija", "radnica", "traka", "tvornica", "tvornička radnica", "žena"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("női munkás"),
-				keywords: &[
-					"dolgozó",
-					"foglalkozás",
-					"forraszt",
-					"gyári",
-					"munkás",
-					"nő",
-					"női munkás",
-					"szerel",
-					"összeszerel",
-				],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("բանվորուհի"),
-				keywords: &["արդյունաբերություն", "բանվոր", "բանվորուհի", "գործարան", "կին"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("pekerja pabrik wanita"),
-				keywords: &["pabrik", "pekerja", "perempuan", "wanita"],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwanyị onyeọrụ ụlọ ọrụ"),
-				keywords: &["nwanyị", "nwanyị onyeọrụ ụlọ ọrụ", "onyeọrụ", "ọgbakọ", "ụlọ ọrụ", "ụlọọrụ"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("kvenkyns verksmiðjustarfsmaður"),
-				keywords: &["iðnaður", "kona", "kvenkyns verksmiðjustarfsmaður", "verkfæri", "verksmiðja"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("operaia"),
-				keywords: &[
-					"donna",
-					"fabbrica",
-					"industria",
-					"lavoro",
-					"operaia",
-					"saldatrice",
-					"tuta blu",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("女性の溶接工"),
-				keywords: &["女", "女性", "女性の溶接工", "工員", "溶接"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("buruh pabrik wadon"),
-				keywords: &["buruh", "buruh pabrik wadon", "industri", "karoseri", "lanang", "pabrik"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("ქარხნის მუშაკი ქალი"),
-				keywords: &["ინდუსტრია", "ქალი", "ქარხანა", "ქარხნის მუშაკი", "ქარხნის მუშაკი ქალი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("жұмысшы әйел"),
-				keywords: &["жұмысшы", "зауыт", "әйел", "әйел зауытшы", "өнеркәсіп"],
-			},
-			#[cfg(feature = "kl")]
-			crate::Annotation {
-				lang:     "kl",
-				tts:      Some("kvindelig fabriksarbejder"),
-				keywords: &["arbejder", "fabrik", "industri", "kvinde", "kvindelig fabriksarbejder"],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("កម\u{17d2}មការន\u{17b8}រោងចក\u{17d2}រ"),
-				keywords: &[
-					"កម\u{17d2}មករ",
-					"កម\u{17d2}មការន\u{17b8}",
-					"កម\u{17d2}មការន\u{17b8}រោងចក\u{17d2}រ",
-					"នារ\u{17b8}",
-					"រោងចក\u{17d2}រ",
-					"ស\u{17d2}រ\u{17b8}",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಕಾರ\u{ccd}ಖಾನ\u{cc6}ಯ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}"),
-				keywords: &[
-					"ಅಸ\u{cc6}ಂಬ\u{ccd}ಲ\u{cbf}",
-					"ಕಾರ\u{ccd}ಖಾನ\u{cc6}",
-					"ಕಾರ\u{ccd}ಖಾನ\u{cc6}ಯ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಕ\u{cc6}ಲಸಗಾರ",
-					"ಕ\u{cc6}ಲಸಗಾರ\u{ccd}ತ\u{cbf}",
-					"ಕ\u{cc8}ಗಾರ\u{cbf}ಕ\u{cc6}",
-					"ಮಹ\u{cbf}ಳಾ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ",
-					"ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ವ\u{cbf}ಧಾನಸಭ\u{cc6}",
-					"ಸ\u{ccd}ತ\u{ccd}ರ\u{cc0}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("공장 여자 직원"),
-				keywords: &["공업", "공장", "산업", "여자", "조립", "조립공", "직원"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("बायल फ\u{945}क\u{94d}ट\u{94d}री कामगार"),
-				keywords: &[
-					"अस\u{945}म\u{94d}बली",
-					"उद\u{94d}य\u{947}गध\u{902}दो",
-					"कामगार",
-					"फ\u{945}क\u{94d}ट\u{94d}री",
-					"बायल",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("аял завод жумушчусу"),
-				keywords: &["аял", "аял завод жумушчусу", "жумушчу", "завод", "фабрика", "цех"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Aarbechterin"),
-				keywords: &["Aarbechterin", "Fabrik", "Fra", "Industrie", "Montage"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ພະນ\u{eb1}ກງານໂຮງງານຍ\u{eb4}ງ"),
-				keywords: &[
-					"ຜ\u{eb9}\u{ec9}ຍ\u{eb4}ງ",
-					"ພະນ\u{eb1}ກງານໂຮງງານຍ\u{eb4}ງ",
-					"ອ\u{eb8}ດສາຫະກຳ",
-					"ແຮງງານ",
-					"ໂຮງງານ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("fabriko darbininkė"),
-				keywords: &[
-					"darbas",
-					"darbuotoja",
-					"fabrikas",
-					"fabriko darbininkė",
-					"gamyba",
-					"moteris",
-					"susirinkimas",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("fabrikas strādniece"),
-				keywords: &[
-					"darbs",
-					"fabrikas strādniece",
-					"profesija",
-					"ražošana",
-					"rūpnīca",
-					"sieviete",
-					"strādniece",
-				],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("wahine mahi wheketere"),
-				keywords: &[
-					"ahumahi",
-					"hangahanga",
-					"kaimahi",
-					"wahine",
-					"wahine mahi wheketere",
-					"wheketere",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("работничка"),
-				keywords: &[
-					"жена",
-					"индустриски",
-					"индустрија",
-					"работник",
-					"работничка",
-					"склопување",
-					"фабрика",
-				],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("ഫ\u{d3e}ക\u{d4d}ടറി ജീവനക\u{d4d}ക\u{d3e}രി"),
-				keywords: &[
-					"ജോലിക\u{d4d}ക\u{d3e}രി",
-					"ഫ\u{d3e}ക\u{d4d}ടറി",
-					"ഫ\u{d3e}ക\u{d4d}ടറി ജീവനക\u{d4d}ക\u{d3e}രി",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("эмэгтэй үйлдвэрийн ажилтан"),
-				keywords: &[
-					"аж үйлдвэрийн",
-					"ажилтан",
-					"угсрах",
-					"эмэгтэй",
-					"эмэгтэй үйлдвэрийн ажилтан",
-					"үйлдвэр",
-				],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("महिला कारखाना कामगार"),
-				keywords: &[
-					"औद\u{94d}योगिक",
-					"कामगार",
-					"कारखाना",
-					"नोकरी",
-					"परिषद",
-					"महिला",
-					"व\u{94d}यक\u{94d}ती",
-					"व\u{94d}यवसाय",
-					"स\u{94d}त\u{94d}री",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("pekerja kilang wanita"),
-				keywords: &[
-					"industri",
-					"kilang",
-					"pekerja",
-					"pekerjaan",
-					"pemasangan",
-					"perempuan",
-					"wanita",
-				],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("ħaddiema tal-fabbrika"),
-				keywords: &[
-					"assemblaġġ",
-					"fabbrika",
-					"industrijali",
-					"mara",
-					"ħaddiem",
-					"ħaddiema tal-fabbrika",
-				],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("စက\u{103a}ရ\u{102f}\u{1036}အလ\u{102f}ပ\u{103a}သမ"),
-				keywords: &[
-					"စက\u{103a}မ\u{103e}\u{102f}လ\u{102f}ပ\u{103a}ငန\u{103a}း",
-					"စက\u{103a}ရ\u{102f}\u{1036}",
-					"စက\u{103a}ရ\u{102f}\u{1036}အလ\u{102f}ပ\u{103a}သမ",
-					"တပ\u{103a}ဆင\u{103a}ခြင\u{103a}း",
-					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-					"အလ\u{102f}ပ\u{103a}သမ",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("कारखानाको महिला मजद\u{941}र"),
-				keywords: &[
-					"औद\u{94d}योगिक",
-					"कारखाना",
-					"कारखानाको महिला मजद\u{941}र",
-					"छोरीमान\u{94d}छ\u{947}",
-					"मजद\u{941}र",
-					"महिला",
-					"सभा",
-				],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("fabrieksarbeidster"),
-				keywords: &["arbeider", "fabriek", "industrieel", "lopende band", "vrouw"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("kvinneleg industriarbeidar"),
-				keywords: &[
-					"arbeidar",
-					"fabrikk",
-					"industri",
-					"industriarbeidar",
-					"kvinne",
-					"kvinneleg industriarbeidar",
-					"produksjon",
-				],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ମହ\u{b3f}ଳ\u{b3e} କ\u{b3e}ରଖ\u{b3e}ନ\u{b3e} ଶ\u{b4d}ରମ\u{b3f}କ"),
-				keywords: &[
-					"ଔଦ\u{b4d}ୟୋଗ\u{b3f}କ",
-					"କ\u{b3e}ରଖ\u{b3e}ନ\u{b3e}",
-					"ମହ\u{b3f}ଳ\u{b3e}",
-					"ଶ\u{b4d}ରମ\u{b3f}କ",
-					"ସମ\u{b3e}ବେଶ",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਇਸਤਰੀ ਫ\u{a48}ਕਟਰੀ ਵਰਕਰ"),
-				keywords: &[
-					"ਅਸ\u{a48}\u{a02}ਬਲੀ",
-					"ਇਸਤਰੀ",
-					"ਔਰਤ",
-					"ਕਰਮਚਾਰੀ",
-					"ਕਾਮਾ",
-					"ਫ\u{a48}ਕਟਰੀ",
-					"ਵਰਕਰ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("فیکٹری وچ کم کرن آلی زنانی"),
-				keywords: &[
-					"اجتماع",
-					"زنانی",
-					"صنعتی",
-					"فیکٹری",
-					"فیکٹری وچ کم کرن آلی زنانی",
-					"کم کرن آلا",
-				],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Wúmán Fáktrí Wọ\u{301}ka"),
-				keywords: &[
-					"Asẹ\u{301}mbúl Fáktri",
-					"Fáktri",
-					"Wúman",
-					"Wúmán Fáktrí Wọ\u{301}ka",
-					"Wọ\u{301}ka",
-					"Índọ\u{301}stri",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("pracownica fabryki"),
-				keywords: &[
-					"fabryka",
-					"kobieta",
-					"montażystka",
-					"osoba",
-					"praca",
-					"pracownica",
-					"pracownica fabryki",
-					"pracownik",
-					"spawacz",
-					"zawód",
-				],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("ښځه د فابريکې کارګر"),
-				keywords: &["صنعتي", "فابريکه", "يوځای کول", "ښځه", "ښځه د فابريکې کارګر", "کار کوونکی"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("operária"),
-				keywords: &["fábrica", "indústria", "mulher", "operária", "trabalhadora"],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("operária fabril"),
-				keywords: &[
-					"fábrica",
-					"industrial",
-					"indústria",
-					"montagem",
-					"mulher",
-					"operária",
-					"operária fabril",
-					"trabalhadora",
-				],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("warmi fabrica llamkaq"),
-				keywords: &["asamblea", "fabrica", "industrial", "llamkaq", "warmi"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("muncitoare în fabrică"),
-				keywords: &[
-					"asamblare",
-					"fabrică",
-					"femeie",
-					"industrial",
-					"muncitoare",
-					"muncitoare în fabrică",
-					"uzină",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-1183"), keywords: &["E10-1183"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("работница"),
-				keywords: &[
-					"женщина",
-					"завод",
-					"инженер",
-					"промышленность",
-					"работница",
-					"рабочий",
-					"строитель",
-				],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umugore ukora mu ruganda"),
-				keywords: &[
-					"cy’inganda",
-					"inteko",
-					"umugore",
-					"umugore ukora mu ruganda",
-					"umukozi",
-					"uruganda",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("عورت ڪارخانو مزدور"),
-				keywords: &["عورت ڪارخانو مزدور", "عورت، صنحت، اسيمبلي، ڪارخانو، مزدور"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("ගැහැණ\u{dd4} කම\u{dca}හල\u{dca} කම\u{dca}කර\u{dd4}ව\u{dcf}"),
-				keywords: &[
-					"එකලස",
-					"කම\u{dca}කර\u{dd4}ව\u{dcf}",
-					"කම\u{dca}හල",
-					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-					"ක\u{dcf}ර\u{dca}ම\u{dd2}ක",
-					"ගැහැණ\u{dd4} කම\u{dca}හල\u{dca} කම\u{dca}කර\u{dd4}ව\u{dcf}",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("robotníčka"),
-				keywords: &[
-					"osoba",
-					"povolanie",
-					"priemysel",
-					"prilba",
-					"práca",
-					"robotníčka",
-					"továreň",
-					"zamestnanie",
-					"zváranie",
-					"zváračka",
-					"žena",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("delavka v tovarni"),
-				keywords: &[
-					"dekle",
-					"delavka",
-					"delavka v tovarni",
-					"industrijski",
-					"proizvodnja",
-					"tekoči trak",
-					"tovarna",
-					"tovarnarka",
-					"ženska",
-				],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("naag shaqaale warshad ah"),
-				keywords: &[
-					"isugeynta",
-					"naag",
-					"naag shaqaale warshad ah",
-					"shaqaale",
-					"warshad",
-					"warshad ah",
-				],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("punëtore fabrike"),
-				keywords: &["fabrikë", "grua", "industri", "montatore", "punëtore", "punëtore fabrike"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("радница"),
-				keywords: &["жена", "индустрија", "радница", "фабрика"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("radnica"),
-				keywords: &["fabrika", "industrija", "radnica", "žena"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("kvinnlig fabriksarbetare"),
-				keywords: &["fabrik", "industri", "kvinna", "kvinnlig fabriksarbetare", "produktion"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mwanamke na gesi ya kuchoma"),
-				keywords: &["fundi", "jua kali", "kuchomelea", "mfanyakazi", "mwanamke na gesi ya kuchoma"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("பெண\u{bcd} தொழில\u{bbe}ளி"),
-				keywords: &["ஆலை", "தொழிற\u{bcd}ச\u{bbe}லை", "தொழில\u{bbe}ளி", "நபர\u{bcd}", "பெண\u{bcd}"],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("క\u{c3e}ర\u{c4d}మ\u{c3f}కుర\u{c3e}లు"),
-				keywords: &[
-					"అస\u{c46}ంబ\u{c4d}ల\u{c40}",
-					"ఇండస\u{c4d}ట\u{c4d}ర\u{c3f}యల\u{c4d}",
-					"కర\u{c4d}మ\u{c3e}గ\u{c3e}రం",
-					"క\u{c3e}ర\u{c4d}మ\u{c3f}కుర\u{c3e}లు",
-					"పర\u{c3f}శ\u{c4d}రమ",
-					"ఫ\u{c4d}య\u{c3e}క\u{c4d}టర\u{c40}",
-					"మహ\u{c3f}ళ",
-					"వుమన\u{c4d}",
-					"స\u{c4d}త\u{c4d}ర\u{c40}",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("зани коргари фабрика"),
-				keywords: &["ассамблея", "зан", "зани коргари фабрика", "коргар", "саноатӣ", "фабрика"],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("พน\u{e31}กงานโรงงานหญ\u{e34}ง"),
-				keywords: &[
-					"คน",
-					"ประกอบ",
-					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
-					"พน\u{e31}กงาน",
-					"อ\u{e38}ตสาหกรรม",
-					"โรงงาน",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ጓል ኣንስተይቲ ሰራሕተኛ ፋብሪካ"),
-				keywords: &["ምትእኽኻብ", "ሰራሕተኛ", "ሰበይቲ", "ኢንዱስትርያዊ", "ፋብሪካ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("zenan zawod işçisi"),
-				keywords: &["gurnama", "işçi", "senagat", "zawod", "zenan", "zenan zawod işçisi"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("fefine ngāue fale faʻuʻanga"),
-				keywords: &["fefine ngāue fale faʻuʻanga"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("kadın fabrika işçisi"),
-				keywords: &[
-					"bayan",
-					"fabrika",
-					"işçi",
-					"kadın",
-					"kadın fabrika işçisi",
-					"meslek",
-					"montaj",
-					"sanayi",
-				],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("ئايال زاۋۇت ئىشچىسى"),
-				keywords: &["ئايال", "ئايال زاۋۇت ئىشچىسى", "ئىشچى", "زاۋۇت", "سانائەت", "قوراشتۇرۇش"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("робітниця"),
-				keywords: &[
-					"жінка",
-					"завод",
-					"зварка",
-					"конвеєр",
-					"монтаж",
-					"промисловий",
-					"робітник",
-					"робітниця",
-					"трудівниця",
-					"фабрика",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("عورت فیکٹری کارکن"),
-				keywords: &["عورت", "فیکٹری", "لوگ", "کارکن", "کاریگر"],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("ayol zavod ishchisi"),
-				keywords: &[
-					"ayol",
-					"ayol zavod ishchisi",
-					"fabrika",
-					"ishchi",
-					"sanoat",
-					"yigʻuv",
-					"zavod",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("công nhân nhà máy nữ"),
-				keywords: &["công nghiệp", "công nhân", "công nhân nhà máy nữ", "lắp ráp", "nhà máy", "nữ"],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("jigéen juy liggéeykat ci isin"),
-				keywords: &[
-					"bu isin",
-					"isin",
-					"jigéen",
-					"jigéen juy liggéeykat ci isin",
-					"liggéeykat",
-					"ndaje",
-				],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umsebenzi wasefektri olibhinqa"),
-				keywords: &[
-					"amashishini",
-					"ibhinqa",
-					"ifektri",
-					"ukuhlanganisa",
-					"umsebenzi",
-					"umsebenzi wasefektri olibhinqa",
-				],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("obìrin òṣìṣẹ\u{301} ilé-iṣẹ\u{301}"),
-				keywords: &[
-					"ilé iṣẹ\u{301}",
-					"obìrin",
-					"obìrin òṣìṣẹ\u{301} ilé-iṣẹ\u{301}",
-					"ìpéjọpọ\u{300}",
-					"òṣìṣẹ\u{301}",
-				],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("obìrin òshìshɛ\u{301} ilé-ishɛ\u{301}"),
-				keywords: &[
-					"ilé ishɛ\u{301}",
-					"obìrin",
-					"obìrin òshìshɛ\u{301} ilé-ishɛ\u{301}",
-					"ìpéjɔpɔ\u{300}",
-					"òshìshɛ\u{301}",
-				],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("女工廠工人"),
-				keywords: &["女", "女工廠工人", "工人", "工廠", "工業", "裝配"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("女工厂工人"),
-				keywords: &["女", "女工厂工人", "工业", "工人", "工厂", "装配"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("女工人"),
-				keywords: &["女", "女工人", "工业", "工人", "工厂", "装配"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("工廠女作業員"),
-				keywords: &["作業員", "女", "工廠", "工廠女作業員"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("女工廠工人"),
-				keywords: &[
-					"人物",
-					"女",
-					"女士",
-					"女工廠工人",
-					"女性",
-					"工人",
-					"工廠",
-					"工廠工人",
-					"工業",
-					"焊工",
-					"焊接",
-					"燒焊",
-					"組裝",
-					"裝配",
-				],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umsebenzi wasefemini wesifazane"),
-				keywords: &[
-					"ifemu",
-					"owesifazane",
-					"ukuhlangana",
-					"umsebenzi",
-					"umsebenzi wasefemini wesifazane",
-				],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🏭",
-			codepoint:            &[128105u32, 127995u32, 8205u32, 127981u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman factory worker: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🏭",
-			codepoint:            &[128105u32, 127996u32, 8205u32, 127981u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman factory worker: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🏭",
-			codepoint:            &[128105u32, 127997u32, 8205u32, 127981u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman factory worker: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🏭",
-			codepoint:            &[128105u32, 127998u32, 8205u32, 127981u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman factory worker: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonRole,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🏭",
-			codepoint:            &[128105u32, 127999u32, 8205u32, 127981u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman factory worker: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonRole,
 			is_variant:           true,
@@ -63574,6 +58421,5159 @@ pub const WOMAN_SINGER: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "woman singer: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🥷"]
+pub const NINJA: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🥷",
+		codepoint:            &[129399u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+		name:                 "ninja",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("ninja"),
+				keywords: &[
+					"geveg",
+					"kryger",
+					"ninja",
+					"oorlog",
+					"persoon",
+					"sluipmoordenaar",
+					"stilletjies",
+					"vaardighede",
+					"vegter",
+					"verberg",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ኒንጃ"),
+				keywords: &[
+					"ምስጢር",
+					"ሰላይ",
+					"ሰው",
+					"ቅጥር ነብሰ ገዳይ",
+					"ችሎታዎች",
+					"ነብሰ ገዳይ",
+					"ኒንጃ",
+					"ክህሎቶች",
+					"ወታደር",
+					"ውጊያ",
+					"ጦርነት",
+					"ፀብ",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("نينجا"),
+				keywords: &["خفي", "شخص", "متخفي", "متخف\u{64d}", "محارب", "مقاتل", "مقن\u{651}ع", "نينجا"],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("নিনজ\u{9be}"),
+				keywords: &[
+					"চৌৰ\u{9cd}য\u{9cd}য",
+					"নিনজ\u{9be}",
+					"যোদ\u{9cd}ধ\u{9be}",
+					"ল\u{9c1}ক\u{9be}ই থক\u{9be}",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("nindza"),
+				keywords: &["döyüş", "döyüşçü", "gizli", "gizlilik", "insan", "nindza"],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("ніндзя"),
+				keywords: &["баец", "нябачны", "ніндзя", "схаваны"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("нинджа"),
+				keywords: &[
+					"воин",
+					"война",
+					"наемен убиец",
+					"нинджа",
+					"прокрадване",
+					"скрит",
+					"човек",
+					"шпионин",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("নিনজ\u{9be}"),
+				keywords: &[
+					"কৌশলী",
+					"গ\u{9c1}প\u{9cd}ত",
+					"ঘ\u{9be}তক",
+					"জোয\u{9bc}\u{9be}ন",
+					"নিনজ\u{9be}",
+					"য\u{9c1}দ\u{9cd}ধ",
+					"লড\u{9bc}\u{9be}ই কর\u{9be}",
+					"লড\u{9bc}\u{9be}ক\u{9c1}",
+					"ল\u{9c1}কোনো",
+					"লোক",
+					"সিপ\u{9be}হী",
+					"সৈনিক",
+					"হত\u{9cd}য\u{9be}ক\u{9be}রী",
+				],
+			},
+			#[cfg(feature = "br")]
+			crate::Annotation {
+				lang:     "br",
+				tts:      Some("ninja"),
+				keywords: &["brezelour", "kuzh", "ninja"],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("nindža"),
+				keywords: &["borac", "nindža", "prikradanje", "sakrivanje"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("ninja"),
+				keywords: &["assassí", "guerrer", "lluitador", "ninja", "ocult", "persona", "sigilós"],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᏂᏅᏣ"),
+				keywords: &["ᎤᏓᏕᎵᏍᏗ", "ᏂᏅᏣ", "ᏓᎿᏩ ᎠᎾᎵᎯ", "ᏯᎬᏍᎦᎳᏁᎳ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("nindža"),
+				keywords: &[
+					"bojovník",
+					"kradmý",
+					"kukla",
+					"nenápadný",
+					"nindža",
+					"ninja",
+					"nájemný vrah",
+					"osoba",
+					"plížit se",
+					"přikrást se",
+					"tajný",
+					"člověk",
+					"špion",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("ninja"),
+				keywords: &["cudd", "cuddio", "ninja", "ymladdwr"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("ninja"),
+				keywords: &[
+					"hemmelig",
+					"krig",
+					"kriger",
+					"liste",
+					"maske",
+					"ninja",
+					"ninjakriger",
+					"person",
+					"skjult",
+					"soldat",
+					"stealth",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Ninja"),
+				keywords: &[
+					"Ausdauer",
+					"Geheimmission",
+					"Killer",
+					"Krieger",
+					"Kunoichi",
+					"Kämpfer",
+					"Mörder",
+					"Ninja",
+					"Person",
+					"Shinobi",
+					"Soldat",
+					"vermummt",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("νίντζα"),
+				keywords: &[
+					"Ιαπωνία",
+					"άτομο",
+					"αόρατος",
+					"δολοφόνος",
+					"κρυμμένος",
+					"μαχητής",
+					"νίντζα",
+					"πολεμικές τέχνες",
+					"σπαθί",
+				],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("ninja"),
+				keywords: &[
+					"assassin", "fight", "fighter", "hidden", "ninja", "person", "secret", "skills", "sly",
+					"soldier", "stealth", "war",
+				],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("ninja"),
+				keywords: &["furtivo", "guerrero", "luchador", "ninja", "oculto", "sigilo"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"guerrero",
+					"hábil",
+					"luchador",
+					"ninja",
+					"oculto",
+					"secreto",
+					"sigilo",
+					"silencioso",
+					"soldado",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation {
+				lang:     "es_MX",
+				tts:      Some("↑↑↑"),
+				keywords: &["luchador", "ninja", "oculto", "silencioso"],
+			},
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("ninja"),
+				keywords: &[
+					"inimene",
+					"ninja",
+					"oskused",
+					"palgamõrvar",
+					"peidetud",
+					"salajane",
+					"salakuulaja",
+					"sõda",
+					"sõdalane",
+					"võitleja",
+					"võitlus",
+				],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("ninja"),
+				keywords: &["borrokalari", "ezkutu", "isil-gorde", "ninja"],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("نینجا"),
+				keywords: &[
+					"آدم",
+					"آدم\u{200c}کش",
+					"افراد",
+					"انسان",
+					"جنگ",
+					"جنگجو",
+					"دزدکی",
+					"سرباز",
+					"شخص",
+					"فرد",
+					"مبارزه",
+					"مخفی",
+					"مردم",
+					"مهارت",
+					"نینجا",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("ninja"),
+				keywords: &["piilossa", "sotilas", "soturi", "taistelija", "väijyy"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("ninja"),
+				keywords: &[
+					"assassin",
+					"madirigma",
+					"maliksi",
+					"manlalaban",
+					"nakatago",
+					"ninja",
+					"stealth",
+					"tao",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("ninja andlit"),
+				keywords: &["fjaldur", "ninja", "ninja andlit", "sníkjandi", "stríðsmaður"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("ninja"),
+				keywords: &[
+					"assassin", "combat", "furtif", "guerrier", "masqué", "ninja", "personne", "sabre",
+					"secret", "soldat",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("ninja"),
+				keywords: &["comhrac", "duine", "feallmharfóir", "ninja", "púicín", "saighdiúir"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("ninja"),
+				keywords: &["falaichte", "fàillidh", "gaisgeach", "ninja"],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("ninja"),
+				keywords: &["combatente", "guerreiro", "silandeiro", "sixiloso"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("નિન\u{acd}જા"),
+				keywords: &[
+					"કાતિલ",
+					"ગ\u{ac1}પ\u{acd}ત",
+					"ચાલાક",
+					"ચોરીચ\u{ac2}પકી",
+					"છ\u{ac1}પાય\u{ac7}લ",
+					"જલ\u{acd}લાદ",
+					"ડાક\u{ac1}",
+					"તલવાર",
+					"તલવારધારી",
+					"નિન\u{acd}જા",
+					"યોદ\u{acd}ધો",
+					"લડાઈ",
+					"લ\u{ac2}\u{a82}ટારો",
+					"સિપાઈ",
+					"સ\u{ac8}નિક",
+					"હત\u{acd}યારો",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("shigar ninja"),
+				keywords: &[
+					"faɗa",
+					"mai faɗa",
+					"mai kisa",
+					"ninja",
+					"shigar ninja",
+					"soja",
+					"yaƙi",
+					"ɓoye",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("shigar ninja"),
+				keywords: &[
+					"faɗa",
+					"mai faɗa",
+					"mai kisa",
+					"ninja",
+					"shigar ninja",
+					"soja",
+					"yaƙi",
+					"ɓoye",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("נינג׳ה"),
+				keywords: &["אומנויות לחימה", "לוחם", "נינג׳ה"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("नि\u{902}जा"),
+				keywords: &[
+					"इ\u{902}सान",
+					"चालबाज\u{93c}",
+					"चालबाज\u{93c}ी",
+					"छिपा ह\u{941}आ",
+					"डाक\u{942}",
+					"नि\u{902}जा",
+					"लड\u{93c}ाई",
+					"लड\u{93c}ाक\u{942}",
+					"ल\u{941}ट\u{947}रा",
+					"स\u{948}निक",
+					"हत\u{94d}यारा",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("nindža"),
+				keywords: &[
+					"borac",
+					"nindža",
+					"osoba",
+					"prikradanje",
+					"rat",
+					"skrivanje",
+					"tajna",
+					"ubojica",
+					"vojnik",
+				],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("nindzsa"),
+				keywords: &["ember", "harcos", "nindzsa", "ninja", "rejtett", "rejtőzködés"],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("նինջա"),
+				keywords: &["աննկատ", "մարտիկ", "նինջա", "քողարկված"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("ninja"),
+				keywords: &[
+					"kelahi",
+					"ninja",
+					"penyusup",
+					"perang",
+					"petarung",
+					"rahasia",
+					"samurai",
+					"sembunyi-sembunyi",
+					"tersembunyi",
+				],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("ninja"),
+				keywords: &[
+					"agha",
+					"aghụghọ",
+					"ninja",
+					"nka",
+					"nzuzo",
+					"ogbu mmadu",
+					"onye",
+					"zoro ezo",
+					"ọgụ",
+				],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("ninja"),
+				keywords: &["bardagamaður", "falinn", "laumulegur", "ninja"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("ninja"),
+				keywords: &[
+					"abilità",
+					"assassino",
+					"combattimento",
+					"furtivo",
+					"guerra",
+					"guerriero",
+					"invisibile",
+					"nascosto",
+					"ninja",
+					"persona",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("忍者"),
+				keywords: &["スパイ", "人", "忍び", "忍者", "忍術", "草の者", "隠密"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("ninja"),
+				keywords: &["didhelikake", "ndhelik-ndhelik", "ninja", "wira"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("ნინძა"),
+				keywords: &["მებრძოლი", "ნინძა", "უჩინარი"],
+			},
+			#[cfg(feature = "kab")]
+			crate::Annotation { lang: "kab", tts: Some("aninja"), keywords: &["aninja"] },
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("ниндзя"),
+				keywords: &[
+					"адам",
+					"бетперде",
+					"жасырын",
+					"жасырыну",
+					"күресші",
+					"көзге көрінбеу",
+					"ниндзя",
+					"сарбаз",
+					"соғыс",
+					"қылыш",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("ន\u{17b7}នចា"),
+				keywords: &[
+					"ការធ\u{17d2}វើចលនាយ\u{17c9}ាងស\u{17d2}ងាត\u{17cb}",
+					"ន\u{17b7}នចា",
+					"ប\u{17c6}បា\u{17c6}ងខ\u{17d2}ល\u{17bd}ន",
+					"អ\u{17d2}នកប\u{17d2}រយ\u{17bb}ទ\u{17d2}ធ",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ನ\u{cbf}ಂಜಾ"),
+				keywords: &[
+					"ಕ\u{ccc}ಶಲ\u{ccd}ಯ",
+					"ನ\u{cbf}ಂಜಾ",
+					"ಫ\u{cc8}ಟರ\u{ccd}",
+					"ಮರ\u{cc6}ಮಾಡಲಾಗ\u{cbf}ದ\u{cc6}",
+					"ಮ\u{ccb}ಸ",
+					"ಯುದ\u{ccd}ಧ",
+					"ರಹಸ\u{ccd}ಯ",
+					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ಸಮರ",
+					"ಸ\u{cc8}ನ\u{cbf}ಕ",
+					"ಹಂತಕ",
+					"ಹ\u{ccb}ರಾಟ",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("닌자"),
+				keywords: &[
+					"군인",
+					"기술",
+					"닌자",
+					"몰래 하기",
+					"비밀",
+					"사람",
+					"숨은",
+					"싸움",
+					"암살자",
+					"야비함",
+					"전쟁",
+					"전투원",
+				],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("निन\u{94d}जा"),
+				keywords: &["निन\u{94d}जा", "लढपी", "लिपचोरया\u{902}", "लिपिल\u{94d}लो"],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation { lang: "ky", tts: Some("ниндзя"), keywords: &["ниндзя"] },
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ນ\u{eb4}ນຈາ"),
+				keywords: &[
+					"ທະຫານ",
+					"ນ\u{eb1}ກຂ\u{ec9}າ",
+					"ນ\u{eb1}ກສ\u{eb9}\u{ec9}",
+					"ນ\u{eb4}ນຈາ",
+					"ລ\u{eb1}ກຊ\u{eb1}ບ",
+					"ສ\u{eb1}ງຫານ",
+					"ສ\u{eb9}\u{ec9}",
+					"ເຊ\u{eb7}\u{ec8}ອງໄວ\u{ec9}",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("nindzė"),
+				keywords: &["kovotojas", "nindzė", "paslaptis", "užsimaskavęs", "žmogus"],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("nindzja"),
+				keywords: &[
+					"cilvēks",
+					"cīnītājs",
+					"kareivis",
+					"nindzja",
+					"paslēpts",
+					"persona",
+					"slepens",
+					"slepkava",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("нинџа"),
+				keywords: &[
+					"атентатор",
+					"борач",
+					"вештина",
+					"војна",
+					"војник",
+					"нинџа",
+					"сокриен",
+					"таен",
+					"убиец",
+					"човек",
+				],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("നിഞ\u{d4d}ജ"),
+				keywords: &[
+					"ഒളിപ\u{d4d}പിച\u{d4d}ച",
+					"നിഞ\u{d4d}ച",
+					"നിഞ\u{d4d}ജ",
+					"പോര\u{d3e}ട\u{d4d}ടം",
+					"പോര\u{d3e}ളി",
+					"യ\u{d41}ദ\u{d4d}ധം",
+					"ശക\u{d4d}തിയ\u{d41}ള\u{d4d}ള",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("нинжа"),
+				keywords: &["нинжа", "нуугдмал", "нууцаар", "тулаанч"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("निन\u{94d}जा"),
+				keywords: &[
+					"चोरी करणारा",
+					"ध\u{942}र\u{94d}त",
+					"निन\u{94d}जा",
+					"य\u{941}द\u{94d}ध",
+					"लढणारा",
+					"लपल\u{947}ला",
+					"सिक\u{94d}र\u{947}ट",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("ninja"),
+				keywords: &[
+					"askar",
+					"kemahiran",
+					"licik",
+					"ninja",
+					"pejuang",
+					"pembunuh upahan",
+					"perang",
+					"pertempuran",
+					"rahsia",
+					"senyap-senyap",
+					"tersembunyi",
+				],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("နင\u{103a}ဂျာ"),
+				keywords: &[
+					"နင\u{103a}ဂျာ",
+					"နင\u{103a}းဂျား",
+					"ပ\u{102f}န\u{103a}းနေသည\u{103a}",
+					"ဖ\u{102d}\u{102f}က\u{103a}တာ",
+					"လျ\u{103e}\u{102d}\u{102f}\u{1037}ဝ\u{103e}က\u{103a}",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("निन\u{94d}जा"),
+				keywords: &["चालबाजी", "निन\u{94d}जा", "फाइटर", "ल\u{941}क\u{947}को"],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("ninja"),
+				keywords: &[
+					"geheim",
+					"japan",
+					"krijger",
+					"ninja",
+					"persoon",
+					"samurai",
+					"sluipmoordenaar",
+					"vechten",
+					"verborgen",
+					"zwaard",
+				],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("↑↑↑"),
+				keywords: &["gøymd", "kampkunst", "krigar", "ninja"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ନ\u{b3f}ଞ\u{b4d}ଜ\u{b3e}"),
+				keywords: &[
+					"ଗ\u{b41}ପ\u{b4d}ତ ବ\u{b4d}ୟବହ\u{b3e}ର",
+					"ନ\u{b3f}ଞ\u{b4d}ଜ\u{b3e}",
+					"ଯୋଦ\u{b4d}ଧ\u{b3e}",
+					"ଲ\u{b41}କ\u{b4d}କ\u{b3e}ୟ\u{b3f}ତ",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਨਿ\u{a70}ਜਾ"),
+				keywords: &["ਨਿ\u{a70}ਜਾ", "ਭ\u{a47}ਤ", "ਲੜਾਈ", "ਸਿਪਾਹੀ", "ਸ\u{a42}ਰਬੀਰ", "ਹਿਡਨ"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Nínja"),
+				keywords: &["Dú Sọ\u{301}mtin Fọ Síkrít Wè", "Faíta", "Haid", "Nínja"],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("ninja"),
+				keywords: &[
+					"najemnik",
+					"niewidoczny",
+					"ninja",
+					"osoba",
+					"skradać się",
+					"tajny agent",
+					"ukryty",
+					"wojna",
+					"wojownik",
+					"żołnierz",
+				],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("ننجا"),
+				keywords: &["جنګېدونکی", "ننجا", "په پټه", "پټ"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("ninja"),
+				keywords: &[
+					"assassino",
+					"furtividade",
+					"guerra",
+					"habilidades",
+					"luta",
+					"lutador",
+					"ninja",
+					"oculto",
+					"pessoa",
+					"soldado",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("↑↑↑"),
+				keywords: &["assassino", "escondido", "lutador", "ninja", "oculto", "secreto", "soldado"],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("ninja"),
+				keywords: &["maqanakuy", "ninja", "pakasqa", "siqilo"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("ninja"),
+				keywords: &[
+					"asasin",
+					"ascuns",
+					"invizibil",
+					"luptător",
+					"ninja",
+					"persoană",
+					"războinic",
+					"secret",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E13-002"), keywords: &["E13-002"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("ниндзя"),
+				keywords: &[
+					"воин",
+					"диверсант",
+					"ниндзя",
+					"синоби",
+					"скрытный",
+					"солдат",
+					"убийца",
+					"человек",
+					"шпион",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("ننجا"),
+				keywords: &["اسٽيلٿ", "لڪيل", "ننجا", "ويڙهاڪ"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("න\u{dd2}න\u{dca}ජ\u{dcf}"),
+				keywords: &[
+					"න\u{dd2}න\u{dca}ජ\u{dcf}",
+					"රහස\u{dd2}ගත",
+					"සටන\u{dca}කර\u{dd4}ව\u{dcf}",
+					"සැඟව\u{dd4}ණ\u{dd4}",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("nindža"),
+				keywords: &["bojovať", "bojovník", "nindža", "skrytý", "tajný", "utajený"],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("nindža"),
+				keywords: &[
+					"bojevnik",
+					"borba",
+					"morilec",
+					"nindža",
+					"oseba",
+					"prikrivanje",
+					"sablja",
+					"skrivanje",
+					"vojak",
+				],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("ninja"),
+				keywords: &["dagaalyahan", "ninja", "qarsoon", "sir ah"],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("ninxhë"),
+				keywords: &[
+					"aftësi",
+					"betejë",
+					"dinak",
+					"fshehtësi",
+					"luftë",
+					"luftëtar",
+					"ninxha",
+					"sekret",
+					"ushtar",
+					"vrasës",
+				],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("нинџа"),
+				keywords: &["борац", "невидљив", "нинџа", "особа", "рат", "ратник", "скривен", "убица"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("nindža"),
+				keywords: &["borac", "nevidljiv", "nindža", "osoba", "rat", "ratnik", "skriven", "ubica"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("ninja"),
+				keywords: &["gömd", "hemlig", "lönnmördare", "ninja"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("ninja"),
+				keywords: &[
+					"askari",
+					"chinichini",
+					"jeshi",
+					"kachinja",
+					"mpiganaji",
+					"muuaji",
+					"ninja",
+					"shushushu",
+					"siri",
+					"vita",
+				],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("நிஞ\u{bcd}ச\u{bbe}"),
+				keywords: &[
+					"நிஞ\u{bcd}ச\u{bbe}",
+					"போர\u{bbe}ளி",
+					"மறைமுகம\u{bbe}னவன\u{bcd}",
+					"வ\u{bc0}ரர\u{bcd}",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("న\u{c3f}ంజ\u{c3e}"),
+				keywords: &[
+					"గూఢచ\u{c3e}ర\u{c3f}",
+					"న\u{c3f}ంజ\u{c3e}",
+					"ప\u{c4b}ర\u{c3e}టయ\u{c4b}ధుడు",
+					"మ\u{c4b}సక\u{c3e}ర\u{c3f}",
+					"యుద\u{c4d}ధ వ\u{c40}రుడు",
+					"యుద\u{c4d}ధం",
+					"య\u{c4b}ధుడు",
+					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"స\u{c48}న\u{c3f}కుడు",
+					"స\u{c4b}ల\u{c4d}జర\u{c4d}",
+					"హంతకుడు",
+				],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("น\u{e34}นจา"),
+				keywords: &[
+					"คน",
+					"ความล\u{e31}บ",
+					"ซ\u{e48}อน",
+					"ต\u{e48}อส\u{e39}\u{e49}",
+					"ทหาร",
+					"ท\u{e31}กษะ",
+					"น\u{e34}นจา",
+					"พรางต\u{e31}ว",
+					"สงคราม",
+					"ส\u{e31}งหาร",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ኒንጃ"),
+				keywords: &[
+					"ሕቡእ",
+					"ምስጢር",
+					"ምቅላስ",
+					"ሰብ",
+					"ቀታሊ",
+					"ብስርቂ",
+					"ተንኮለኛ",
+					"ተጋዳላይ",
+					"ኒንጃ",
+					"ክእለት",
+					"ወተሃደር",
+					"ውግእ",
+				],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("nindzýa"),
+				keywords: &["gizlenen", "gizlin", "nindzýa", "urşujy"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("mata ninisā"),
+				keywords: &["mata ninisā"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("ninja"),
+				keywords: &[
+					"asker",
+					"dövüşçü",
+					"gizli",
+					"insan",
+					"katana",
+					"kavga",
+					"kiralık katil",
+					"ninja",
+					"saklı",
+					"savaş",
+					"suikast",
+				],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("ніндзя"),
+				keywords: &[
+					"боєць",
+					"вбивця",
+					"воїн",
+					"крадькома",
+					"людина",
+					"маска",
+					"найманець",
+					"невидимка",
+					"покрадьки",
+					"потайки",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("ننجا"),
+				keywords: &[
+					"جنگ",
+					"خفیہ",
+					"سپاہی",
+					"صلاحیت",
+					"فرد",
+					"فوجی",
+					"قاتل",
+					"لڑاکا",
+					"مہارت",
+					"ننجا",
+					"پوشیدگی",
+				],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("ninza"),
+				keywords: &[
+					"askar",
+					"jang",
+					"jangchi",
+					"koʻrinmas",
+					"maxfiy",
+					"ninza",
+					"urush",
+					"yashirin",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("ninja"),
+				keywords: &[
+					"chiến tranh",
+					"kẻ sát nhân",
+					"kỹ năng",
+					"người",
+					"ninja",
+					"tàng hình",
+					"đấu sĩ",
+					"ẩn",
+				],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("nínjà"),
+				keywords: &["ajagun", "ninja", "nínjà", "oja", "sápamọ\u{301}"],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("nínjà"),
+				keywords: &["ajagun", "ninja", "nínjà", "oja", "sápamɔ\u{301}"],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("忍者"),
+				keywords: &["忍者", "戰鬥機", "隱形", "隱身"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("忍者"),
+				keywords: &["忍者", "战斗机", "隐形"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("忍者"),
+				keywords: &[
+					"人物", "侠客", "刺客", "士兵", "忍者", "战斗", "打斗", "狡猾", "秘密", "隐藏", "隐身",
+				],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("忍者"),
+				keywords: &["刺客", "士兵", "忍者", "戰爭", "打鬥", "技巧", "武者", "隱身"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("↑↑↑"),
+				keywords: &["人物", "刺客", "士兵", "忍者", "戰爭", "戰鬥", "狡猾", "秘密"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("ininja"),
+				keywords: &["fihliwe", "i-fighter", "i-stealth", "ininja"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🥷🏻",
+			codepoint:            &[129399u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+			name:                 "ninja: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🥷🏼",
+			codepoint:            &[129399u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+			name:                 "ninja: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🥷🏽",
+			codepoint:            &[129399u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+			name:                 "ninja: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🥷🏾",
+			codepoint:            &[129399u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+			name:                 "ninja: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🥷🏿",
+			codepoint:            &[129399u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 13u8, minor: 0u8, patch: 0u8 },
+			name:                 "ninja: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🕵\u{fe0f}"]
+pub const DETECTIVE: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🕵\u{fe0f}",
+		codepoint:            &[128373u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+		name:                 "detective",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🕵🏻",
+			codepoint:            &[128373u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+			name:                 "detective: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏼",
+			codepoint:            &[128373u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+			name:                 "detective: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏽",
+			codepoint:            &[128373u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+			name:                 "detective: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏾",
+			codepoint:            &[128373u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+			name:                 "detective: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏿",
+			codepoint:            &[128373u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+			name:                 "detective: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🕵\u{fe0f}\u{200d}♂\u{fe0f}"]
+pub const MAN_DETECTIVE: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🕵\u{fe0f}\u{200d}♂\u{fe0f}",
+		codepoint:            &[128373u32, 65039u32, 8205u32, 9794u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "man detective",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🕵🏻\u{200d}♂\u{fe0f}",
+			codepoint:            &[128373u32, 127995u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man detective: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏼\u{200d}♂\u{fe0f}",
+			codepoint:            &[128373u32, 127996u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man detective: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏽\u{200d}♂\u{fe0f}",
+			codepoint:            &[128373u32, 127997u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man detective: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏾\u{200d}♂\u{fe0f}",
+			codepoint:            &[128373u32, 127998u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man detective: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏿\u{200d}♂\u{fe0f}",
+			codepoint:            &[128373u32, 127999u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man detective: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🕵\u{fe0f}\u{200d}♀\u{fe0f}"]
+pub const WOMAN_DETECTIVE: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🕵\u{fe0f}\u{200d}♀\u{fe0f}",
+		codepoint:            &[128373u32, 65039u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman detective",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🕵🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[128373u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman detective: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[128373u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman detective: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[128373u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman detective: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[128373u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman detective: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕵🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[128373u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman detective: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🏭"]
+pub const WOMAN_FACTORY_WORKER: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🏭",
+		codepoint:            &[128105u32, 8205u32, 127981u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman factory worker",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("vroulike fabriekswerker"),
+				keywords: &[
+					"fabriek",
+					"fabriekswerker",
+					"industrieel",
+					"montering",
+					"persoon",
+					"vrou",
+					"vroulike fabriekswerker",
+					"werker",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ሴት የፋብሪካ ሰራተኛ"),
+				keywords: &["መገጣጠሚያ", "ሰራተኛ", "ሴት የፋብሪካ ሰራተኛ", "ኢንዱስትሪ", "ፋብሪካ"],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("عاملة مصنع"),
+				keywords: &["امرأة", "تجميع", "سيدة", "صناعة", "عاملة", "مصنع"],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("মহিল\u{9be} ফেক\u{9cd}টৰী কৰ\u{9cd}মচ\u{9be}ৰী"),
+				keywords: &[
+					"উদ\u{9cd}যোগিক",
+					"কৰ\u{9cd}মচ\u{9be}ৰী",
+					"ফেক\u{9cd}টৰী",
+					"বৈঠক",
+					"মহিল\u{9be}",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("qadın fabrik işçisi"),
+				keywords: &["fabrik", "işçi", "qadın", "qadın fabrik işçisi", "sənaye", "yığım"],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("працаўніца завода"),
+				keywords: &["жанчына", "завод", "прамысловасць", "працаўніца", "працаўніца завода"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("работничка в завод"),
+				keywords: &["жена", "производство", "работничка в завод", "фабрика"],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("মেয\u{9bc}ে , মহিল\u{9be} , মিলের কর\u{9cd}মি"),
+				keywords: &[
+					"অ\u{9cd}য\u{9be}সেমব\u{9cd}লি",
+					"ইনড\u{9be}সট\u{9cd}রি",
+					"ইন\u{9cd}ড\u{9be}স\u{9cd}ট\u{9cd}রি",
+					"কর\u{9cd}মি",
+					"কর\u{9cd}মী",
+					"ক\u{9be}রখ\u{9be}ন\u{9be}",
+					"মহিল\u{9be}",
+					"মিলের কর\u{9cd}মি",
+					"মেয\u{9bc}ে",
+					"মেয\u{9bc}ে , মহিল\u{9be} , মিলের কর\u{9cd}মি",
+				],
+			},
+			#[cfg(feature = "br")]
+			crate::Annotation {
+				lang:     "br",
+				tts:      Some("micherourez"),
+				keywords: &["micherourez"],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("radnica u fabrici"),
+				keywords: &["fabrika", "industrija", "montaža", "radnica u fabrici", "radnik", "žena"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("operària"),
+				keywords: &["dona", "fàbrica", "industrial", "muntatge", "operària", "treballadora"],
+			},
+			#[cfg(feature = "ccp")]
+			crate::Annotation {
+				lang:     "ccp",
+				tts:      Some(
+					"𑄜\u{11133}𑄠𑄇\u{11134}𑄑\u{1112e}𑄢\u{11128}𑄖\u{11134} 𑄇𑄟\u{11134} 𑄉\u{11127}𑄢\u{11128}𑄠𑄬 𑄟\u{11128}𑄣𑄬",
+				),
+				keywords: &[
+					"𑄜\u{11133}𑄠𑄇\u{11134}𑄑\u{1112e}𑄢\u{11128}𑄖\u{11134} 𑄇𑄟\u{11134} 𑄉\u{11127}𑄢\u{11128}𑄠𑄬 𑄟\u{11128}𑄣𑄬",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᎨᏯ ᏗᎦᎸᏫᏍᏓᏁᏗ ᏧᎸᏫᏍᏓᏁᎯ"),
+				keywords: &[
+					"ᎠᎨᏯ",
+					"ᎠᎨᏯ ᏗᎦᎸᏫᏍᏓᏁᏗ ᏧᎸᏫᏍᏓᏁᎯ",
+					"ᏂᎦᏓ ᏚᏂᎸᏫᏍᏓᏁᎲᎢ",
+					"ᏗᎦᎸᏫᏍᏓᏁᏗ ᎤᏙᎴᏒᎢ",
+					"ᏗᎦᎸᏫᏍᏓᏁᏗ ᏚᏙᏢᏒᎢ",
+					"ᏧᎸᏫᏍᏓᏁᎯ",
+				],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("dělnice v továrně"),
+				keywords: &[
+					"dílna",
+					"dělnice",
+					"dělnice v továrně",
+					"fabrika",
+					"montérka",
+					"povolání",
+					"práce",
+					"průmysl",
+					"svářečka",
+					"továrna",
+					"výroba",
+					"člověk",
+					"žena",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("gweithwraig ffatri"),
+				keywords: &["benyw", "cydosod", "diwydiant", "ffatri", "gweithwraig ffatri"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("kvindelig fabriksarbejder"),
+				keywords: &["arbejder", "fabrik", "industri", "kvinde", "kvindelig fabriksarbejder"],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Fabrikarbeiterin"),
+				keywords: &["Fabrik", "Fabrikarbeiterin", "Frau", "Helm"],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation {
+				lang:     "de_CH",
+				tts:      Some("↑↑↑"),
+				keywords: &["Arbeiter", "Fabrik", "Fabrikarbeiterin", "Montage", "industriell"],
+			},
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("εργάτρια"),
+				keywords: &["γυναίκα", "εργάτρια", "εργοστάσιο", "οικοδομή", "συναρμολόγηση"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("woman factory worker"),
+				keywords: &["assembly", "factory", "industrial", "woman", "worker"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("profesional industrial mujer"),
+				keywords: &[
+					"fábrica",
+					"montaje",
+					"obrera",
+					"operaria",
+					"profesional industrial mujer",
+					"trabajadora",
+				],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("naissoost tehasetööline"),
+				keywords: &["liinitööline", "naine", "tehas", "tööline"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("fabrikako emakume langilea"),
+				keywords: &[
+					"emakume",
+					"emakumezko",
+					"fabrika",
+					"fabrikako emakume langilea",
+					"industria",
+					"langile",
+					"mihiztatu",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("کارگر کارخانه زن"),
+				keywords: &["آدم", "عمله", "کارگر", "کارگر کارخانه", "کارگر کارخانه زن"],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("naistehdastyöntekijä"),
+				keywords: &["hitsaaja", "nainen", "naistehdastyöntekijä", "tehdas", "työntekijä"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("babaeng manggagawa sa pabrika"),
+				keywords: &[
+					"babae",
+					"babaeng manggagawa sa pabrika",
+					"manggagawa",
+					"obrero",
+					"pabrika",
+					"trabahadora",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("kvinnuligur sveisari"),
+				keywords: &[
+					"arbeiðskvinna",
+					"kona",
+					"kvinna",
+					"kvinnuligur sveisari",
+					"sj´óðari",
+					"sveisari",
+				],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("ouvrière"),
+				keywords: &["assemblage", "femme", "industrie", "montage", "métier", "ouvrière", "usine"],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation {
+				lang:     "fr_CA",
+				tts:      Some("↑↑↑"),
+				keywords: &["assemblage", "femme", "industrie", "ouvrière", "usine"],
+			},
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("oibrí monarchan baineann"),
+				keywords: &[
+					"bean",
+					"cóimeáil",
+					"monarcha",
+					"oibrí",
+					"oibrí monarchan baineann",
+					"tionsclaíoch",
+				],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("obraiche-factaraidh boireann"),
+				keywords: &[
+					"boireannach",
+					"factaraidh",
+					"gnìomhachas",
+					"neach-obrach",
+					"obraiche",
+					"obraiche-factaraidh boireann",
+					"tionaladh",
+					"tè",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("operaria"),
+				keywords: &["fábrica", "muller", "obreira", "operaria", "traballadora"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("સ\u{acd}ત\u{acd}રી ફ\u{ac5}ક\u{acd}ટરી કાર\u{acd}યકર\u{acd}તા"),
+				keywords: &[
+					"ઔદ\u{acd}યોગિક",
+					"કાર\u{acd}યકર\u{acd}તા",
+					"ફ\u{ac5}ક\u{acd}ટરી",
+					"મ\u{a82}ડલી",
+					"સ\u{acd}ત\u{acd}રી",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mace ma’aikacin masana’antu"),
+				keywords: &[
+					"mace",
+					"mace ma’aikacin masana’antu",
+					"masana’anta",
+					"masana’antu",
+					"maʼaikaciya",
+					"maʼaikata",
+					"ma’aikaci",
+					"ma’aikatar harhaɗa",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mace ma’aikacin masana’antu"),
+				keywords: &[
+					"mace",
+					"mace ma’aikacin masana’antu",
+					"masana’anta",
+					"masana’antu",
+					"maʼaikaciya",
+					"maʼaikata",
+					"ma’aikaci",
+					"ma’aikatar harhaɗa",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("פועלת"),
+				keywords: &["אישה", "מפעילה", "מפעל", "מרכיבה", "עובדת", "עובדת תעשייה", "פועלת"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("महिला फ\u{948}क\u{94d}टरी मजद\u{942}र"),
+				keywords: &[
+					"औद\u{94d}योगिक",
+					"कारखाना",
+					"मज\u{93c}द\u{942}र",
+					"महिला",
+					"महिला फ\u{948}क\u{94d}टरी मजद\u{942}र",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("tvornička radnica"),
+				keywords: &["industrija", "radnica", "traka", "tvornica", "tvornička radnica", "žena"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("női munkás"),
+				keywords: &[
+					"dolgozó",
+					"foglalkozás",
+					"forraszt",
+					"gyári",
+					"munkás",
+					"nő",
+					"női munkás",
+					"szerel",
+					"összeszerel",
+				],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("բանվորուհի"),
+				keywords: &["արդյունաբերություն", "բանվոր", "բանվորուհի", "գործարան", "կին"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("pekerja pabrik wanita"),
+				keywords: &["pabrik", "pekerja", "perempuan", "wanita"],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwanyị onyeọrụ ụlọ ọrụ"),
+				keywords: &["nwanyị", "nwanyị onyeọrụ ụlọ ọrụ", "onyeọrụ", "ọgbakọ", "ụlọ ọrụ", "ụlọọrụ"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("kvenkyns verksmiðjustarfsmaður"),
+				keywords: &["iðnaður", "kona", "kvenkyns verksmiðjustarfsmaður", "verkfæri", "verksmiðja"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("operaia"),
+				keywords: &[
+					"donna",
+					"fabbrica",
+					"industria",
+					"lavoro",
+					"operaia",
+					"saldatrice",
+					"tuta blu",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("女性の溶接工"),
+				keywords: &["女", "女性", "女性の溶接工", "工員", "溶接"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("buruh pabrik wadon"),
+				keywords: &["buruh", "buruh pabrik wadon", "industri", "karoseri", "lanang", "pabrik"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("ქარხნის მუშაკი ქალი"),
+				keywords: &["ინდუსტრია", "ქალი", "ქარხანა", "ქარხნის მუშაკი", "ქარხნის მუშაკი ქალი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("жұмысшы әйел"),
+				keywords: &["жұмысшы", "зауыт", "әйел", "әйел зауытшы", "өнеркәсіп"],
+			},
+			#[cfg(feature = "kl")]
+			crate::Annotation {
+				lang:     "kl",
+				tts:      Some("kvindelig fabriksarbejder"),
+				keywords: &["arbejder", "fabrik", "industri", "kvinde", "kvindelig fabriksarbejder"],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("កម\u{17d2}មការន\u{17b8}រោងចក\u{17d2}រ"),
+				keywords: &[
+					"កម\u{17d2}មករ",
+					"កម\u{17d2}មការន\u{17b8}",
+					"កម\u{17d2}មការន\u{17b8}រោងចក\u{17d2}រ",
+					"នារ\u{17b8}",
+					"រោងចក\u{17d2}រ",
+					"ស\u{17d2}រ\u{17b8}",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಕಾರ\u{ccd}ಖಾನ\u{cc6}ಯ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}"),
+				keywords: &[
+					"ಅಸ\u{cc6}ಂಬ\u{ccd}ಲ\u{cbf}",
+					"ಕಾರ\u{ccd}ಖಾನ\u{cc6}",
+					"ಕಾರ\u{ccd}ಖಾನ\u{cc6}ಯ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಕಾರ\u{ccd}ಮ\u{cbf}ಕ ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಕ\u{cc6}ಲಸಗಾರ",
+					"ಕ\u{cc6}ಲಸಗಾರ\u{ccd}ತ\u{cbf}",
+					"ಕ\u{cc8}ಗಾರ\u{cbf}ಕ\u{cc6}",
+					"ಮಹ\u{cbf}ಳಾ ಕಾರ\u{ccd}ಮ\u{cbf}ಕ",
+					"ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ವ\u{cbf}ಧಾನಸಭ\u{cc6}",
+					"ಸ\u{ccd}ತ\u{ccd}ರ\u{cc0}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("공장 여자 직원"),
+				keywords: &["공업", "공장", "산업", "여자", "조립", "조립공", "직원"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("बायल फ\u{945}क\u{94d}ट\u{94d}री कामगार"),
+				keywords: &[
+					"अस\u{945}म\u{94d}बली",
+					"उद\u{94d}य\u{947}गध\u{902}दो",
+					"कामगार",
+					"फ\u{945}क\u{94d}ट\u{94d}री",
+					"बायल",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("аял завод жумушчусу"),
+				keywords: &["аял", "аял завод жумушчусу", "жумушчу", "завод", "фабрика", "цех"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Aarbechterin"),
+				keywords: &["Aarbechterin", "Fabrik", "Fra", "Industrie", "Montage"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ພະນ\u{eb1}ກງານໂຮງງານຍ\u{eb4}ງ"),
+				keywords: &[
+					"ຜ\u{eb9}\u{ec9}ຍ\u{eb4}ງ",
+					"ພະນ\u{eb1}ກງານໂຮງງານຍ\u{eb4}ງ",
+					"ອ\u{eb8}ດສາຫະກຳ",
+					"ແຮງງານ",
+					"ໂຮງງານ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("fabriko darbininkė"),
+				keywords: &[
+					"darbas",
+					"darbuotoja",
+					"fabrikas",
+					"fabriko darbininkė",
+					"gamyba",
+					"moteris",
+					"susirinkimas",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("fabrikas strādniece"),
+				keywords: &[
+					"darbs",
+					"fabrikas strādniece",
+					"profesija",
+					"ražošana",
+					"rūpnīca",
+					"sieviete",
+					"strādniece",
+				],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("wahine mahi wheketere"),
+				keywords: &[
+					"ahumahi",
+					"hangahanga",
+					"kaimahi",
+					"wahine",
+					"wahine mahi wheketere",
+					"wheketere",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("работничка"),
+				keywords: &[
+					"жена",
+					"индустриски",
+					"индустрија",
+					"работник",
+					"работничка",
+					"склопување",
+					"фабрика",
+				],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("ഫ\u{d3e}ക\u{d4d}ടറി ജീവനക\u{d4d}ക\u{d3e}രി"),
+				keywords: &[
+					"ജോലിക\u{d4d}ക\u{d3e}രി",
+					"ഫ\u{d3e}ക\u{d4d}ടറി",
+					"ഫ\u{d3e}ക\u{d4d}ടറി ജീവനക\u{d4d}ക\u{d3e}രി",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("эмэгтэй үйлдвэрийн ажилтан"),
+				keywords: &[
+					"аж үйлдвэрийн",
+					"ажилтан",
+					"угсрах",
+					"эмэгтэй",
+					"эмэгтэй үйлдвэрийн ажилтан",
+					"үйлдвэр",
+				],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("महिला कारखाना कामगार"),
+				keywords: &[
+					"औद\u{94d}योगिक",
+					"कामगार",
+					"कारखाना",
+					"नोकरी",
+					"परिषद",
+					"महिला",
+					"व\u{94d}यक\u{94d}ती",
+					"व\u{94d}यवसाय",
+					"स\u{94d}त\u{94d}री",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("pekerja kilang wanita"),
+				keywords: &[
+					"industri",
+					"kilang",
+					"pekerja",
+					"pekerjaan",
+					"pemasangan",
+					"perempuan",
+					"wanita",
+				],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("ħaddiema tal-fabbrika"),
+				keywords: &[
+					"assemblaġġ",
+					"fabbrika",
+					"industrijali",
+					"mara",
+					"ħaddiem",
+					"ħaddiema tal-fabbrika",
+				],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("စက\u{103a}ရ\u{102f}\u{1036}အလ\u{102f}ပ\u{103a}သမ"),
+				keywords: &[
+					"စက\u{103a}မ\u{103e}\u{102f}လ\u{102f}ပ\u{103a}ငန\u{103a}း",
+					"စက\u{103a}ရ\u{102f}\u{1036}",
+					"စက\u{103a}ရ\u{102f}\u{1036}အလ\u{102f}ပ\u{103a}သမ",
+					"တပ\u{103a}ဆင\u{103a}ခြင\u{103a}း",
+					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+					"အလ\u{102f}ပ\u{103a}သမ",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("कारखानाको महिला मजद\u{941}र"),
+				keywords: &[
+					"औद\u{94d}योगिक",
+					"कारखाना",
+					"कारखानाको महिला मजद\u{941}र",
+					"छोरीमान\u{94d}छ\u{947}",
+					"मजद\u{941}र",
+					"महिला",
+					"सभा",
+				],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("fabrieksarbeidster"),
+				keywords: &["arbeider", "fabriek", "industrieel", "lopende band", "vrouw"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("kvinneleg industriarbeidar"),
+				keywords: &[
+					"arbeidar",
+					"fabrikk",
+					"industri",
+					"industriarbeidar",
+					"kvinne",
+					"kvinneleg industriarbeidar",
+					"produksjon",
+				],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ମହ\u{b3f}ଳ\u{b3e} କ\u{b3e}ରଖ\u{b3e}ନ\u{b3e} ଶ\u{b4d}ରମ\u{b3f}କ"),
+				keywords: &[
+					"ଔଦ\u{b4d}ୟୋଗ\u{b3f}କ",
+					"କ\u{b3e}ରଖ\u{b3e}ନ\u{b3e}",
+					"ମହ\u{b3f}ଳ\u{b3e}",
+					"ଶ\u{b4d}ରମ\u{b3f}କ",
+					"ସମ\u{b3e}ବେଶ",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਇਸਤਰੀ ਫ\u{a48}ਕਟਰੀ ਵਰਕਰ"),
+				keywords: &[
+					"ਅਸ\u{a48}\u{a02}ਬਲੀ",
+					"ਇਸਤਰੀ",
+					"ਔਰਤ",
+					"ਕਰਮਚਾਰੀ",
+					"ਕਾਮਾ",
+					"ਫ\u{a48}ਕਟਰੀ",
+					"ਵਰਕਰ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("فیکٹری وچ کم کرن آلی زنانی"),
+				keywords: &[
+					"اجتماع",
+					"زنانی",
+					"صنعتی",
+					"فیکٹری",
+					"فیکٹری وچ کم کرن آلی زنانی",
+					"کم کرن آلا",
+				],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Wúmán Fáktrí Wọ\u{301}ka"),
+				keywords: &[
+					"Asẹ\u{301}mbúl Fáktri",
+					"Fáktri",
+					"Wúman",
+					"Wúmán Fáktrí Wọ\u{301}ka",
+					"Wọ\u{301}ka",
+					"Índọ\u{301}stri",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("pracownica fabryki"),
+				keywords: &[
+					"fabryka",
+					"kobieta",
+					"montażystka",
+					"osoba",
+					"praca",
+					"pracownica",
+					"pracownica fabryki",
+					"pracownik",
+					"spawacz",
+					"zawód",
+				],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("ښځه د فابريکې کارګر"),
+				keywords: &["صنعتي", "فابريکه", "يوځای کول", "ښځه", "ښځه د فابريکې کارګر", "کار کوونکی"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("operária"),
+				keywords: &["fábrica", "indústria", "mulher", "operária", "trabalhadora"],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("operária fabril"),
+				keywords: &[
+					"fábrica",
+					"industrial",
+					"indústria",
+					"montagem",
+					"mulher",
+					"operária",
+					"operária fabril",
+					"trabalhadora",
+				],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("warmi fabrica llamkaq"),
+				keywords: &["asamblea", "fabrica", "industrial", "llamkaq", "warmi"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("muncitoare în fabrică"),
+				keywords: &[
+					"asamblare",
+					"fabrică",
+					"femeie",
+					"industrial",
+					"muncitoare",
+					"muncitoare în fabrică",
+					"uzină",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-1183"), keywords: &["E10-1183"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("работница"),
+				keywords: &[
+					"женщина",
+					"завод",
+					"инженер",
+					"промышленность",
+					"работница",
+					"рабочий",
+					"строитель",
+				],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umugore ukora mu ruganda"),
+				keywords: &[
+					"cy’inganda",
+					"inteko",
+					"umugore",
+					"umugore ukora mu ruganda",
+					"umukozi",
+					"uruganda",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("عورت ڪارخانو مزدور"),
+				keywords: &["عورت ڪارخانو مزدور", "عورت، صنحت، اسيمبلي، ڪارخانو، مزدور"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("ගැහැණ\u{dd4} කම\u{dca}හල\u{dca} කම\u{dca}කර\u{dd4}ව\u{dcf}"),
+				keywords: &[
+					"එකලස",
+					"කම\u{dca}කර\u{dd4}ව\u{dcf}",
+					"කම\u{dca}හල",
+					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+					"ක\u{dcf}ර\u{dca}ම\u{dd2}ක",
+					"ගැහැණ\u{dd4} කම\u{dca}හල\u{dca} කම\u{dca}කර\u{dd4}ව\u{dcf}",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("robotníčka"),
+				keywords: &[
+					"osoba",
+					"povolanie",
+					"priemysel",
+					"prilba",
+					"práca",
+					"robotníčka",
+					"továreň",
+					"zamestnanie",
+					"zváranie",
+					"zváračka",
+					"žena",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("delavka v tovarni"),
+				keywords: &[
+					"dekle",
+					"delavka",
+					"delavka v tovarni",
+					"industrijski",
+					"proizvodnja",
+					"tekoči trak",
+					"tovarna",
+					"tovarnarka",
+					"ženska",
+				],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("naag shaqaale warshad ah"),
+				keywords: &[
+					"isugeynta",
+					"naag",
+					"naag shaqaale warshad ah",
+					"shaqaale",
+					"warshad",
+					"warshad ah",
+				],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("punëtore fabrike"),
+				keywords: &["fabrikë", "grua", "industri", "montatore", "punëtore", "punëtore fabrike"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("радница"),
+				keywords: &["жена", "индустрија", "радница", "фабрика"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("radnica"),
+				keywords: &["fabrika", "industrija", "radnica", "žena"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("kvinnlig fabriksarbetare"),
+				keywords: &["fabrik", "industri", "kvinna", "kvinnlig fabriksarbetare", "produktion"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mwanamke na gesi ya kuchoma"),
+				keywords: &["fundi", "jua kali", "kuchomelea", "mfanyakazi", "mwanamke na gesi ya kuchoma"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("பெண\u{bcd} தொழில\u{bbe}ளி"),
+				keywords: &["ஆலை", "தொழிற\u{bcd}ச\u{bbe}லை", "தொழில\u{bbe}ளி", "நபர\u{bcd}", "பெண\u{bcd}"],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("క\u{c3e}ర\u{c4d}మ\u{c3f}కుర\u{c3e}లు"),
+				keywords: &[
+					"అస\u{c46}ంబ\u{c4d}ల\u{c40}",
+					"ఇండస\u{c4d}ట\u{c4d}ర\u{c3f}యల\u{c4d}",
+					"కర\u{c4d}మ\u{c3e}గ\u{c3e}రం",
+					"క\u{c3e}ర\u{c4d}మ\u{c3f}కుర\u{c3e}లు",
+					"పర\u{c3f}శ\u{c4d}రమ",
+					"ఫ\u{c4d}య\u{c3e}క\u{c4d}టర\u{c40}",
+					"మహ\u{c3f}ళ",
+					"వుమన\u{c4d}",
+					"స\u{c4d}త\u{c4d}ర\u{c40}",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("зани коргари фабрика"),
+				keywords: &["ассамблея", "зан", "зани коргари фабрика", "коргар", "саноатӣ", "фабрика"],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("พน\u{e31}กงานโรงงานหญ\u{e34}ง"),
+				keywords: &[
+					"คน",
+					"ประกอบ",
+					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
+					"พน\u{e31}กงาน",
+					"อ\u{e38}ตสาหกรรม",
+					"โรงงาน",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ጓል ኣንስተይቲ ሰራሕተኛ ፋብሪካ"),
+				keywords: &["ምትእኽኻብ", "ሰራሕተኛ", "ሰበይቲ", "ኢንዱስትርያዊ", "ፋብሪካ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("zenan zawod işçisi"),
+				keywords: &["gurnama", "işçi", "senagat", "zawod", "zenan", "zenan zawod işçisi"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("fefine ngāue fale faʻuʻanga"),
+				keywords: &["fefine ngāue fale faʻuʻanga"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("kadın fabrika işçisi"),
+				keywords: &[
+					"bayan",
+					"fabrika",
+					"işçi",
+					"kadın",
+					"kadın fabrika işçisi",
+					"meslek",
+					"montaj",
+					"sanayi",
+				],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("ئايال زاۋۇت ئىشچىسى"),
+				keywords: &["ئايال", "ئايال زاۋۇت ئىشچىسى", "ئىشچى", "زاۋۇت", "سانائەت", "قوراشتۇرۇش"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("робітниця"),
+				keywords: &[
+					"жінка",
+					"завод",
+					"зварка",
+					"конвеєр",
+					"монтаж",
+					"промисловий",
+					"робітник",
+					"робітниця",
+					"трудівниця",
+					"фабрика",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("عورت فیکٹری کارکن"),
+				keywords: &["عورت", "فیکٹری", "لوگ", "کارکن", "کاریگر"],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("ayol zavod ishchisi"),
+				keywords: &[
+					"ayol",
+					"ayol zavod ishchisi",
+					"fabrika",
+					"ishchi",
+					"sanoat",
+					"yigʻuv",
+					"zavod",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("công nhân nhà máy nữ"),
+				keywords: &["công nghiệp", "công nhân", "công nhân nhà máy nữ", "lắp ráp", "nhà máy", "nữ"],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("jigéen juy liggéeykat ci isin"),
+				keywords: &[
+					"bu isin",
+					"isin",
+					"jigéen",
+					"jigéen juy liggéeykat ci isin",
+					"liggéeykat",
+					"ndaje",
+				],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umsebenzi wasefektri olibhinqa"),
+				keywords: &[
+					"amashishini",
+					"ibhinqa",
+					"ifektri",
+					"ukuhlanganisa",
+					"umsebenzi",
+					"umsebenzi wasefektri olibhinqa",
+				],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("obìrin òṣìṣẹ\u{301} ilé-iṣẹ\u{301}"),
+				keywords: &[
+					"ilé iṣẹ\u{301}",
+					"obìrin",
+					"obìrin òṣìṣẹ\u{301} ilé-iṣẹ\u{301}",
+					"ìpéjọpọ\u{300}",
+					"òṣìṣẹ\u{301}",
+				],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("obìrin òshìshɛ\u{301} ilé-ishɛ\u{301}"),
+				keywords: &[
+					"ilé ishɛ\u{301}",
+					"obìrin",
+					"obìrin òshìshɛ\u{301} ilé-ishɛ\u{301}",
+					"ìpéjɔpɔ\u{300}",
+					"òshìshɛ\u{301}",
+				],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("女工廠工人"),
+				keywords: &["女", "女工廠工人", "工人", "工廠", "工業", "裝配"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("女工厂工人"),
+				keywords: &["女", "女工厂工人", "工业", "工人", "工厂", "装配"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("女工人"),
+				keywords: &["女", "女工人", "工业", "工人", "工厂", "装配"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("工廠女作業員"),
+				keywords: &["作業員", "女", "工廠", "工廠女作業員"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("女工廠工人"),
+				keywords: &[
+					"人物",
+					"女",
+					"女士",
+					"女工廠工人",
+					"女性",
+					"工人",
+					"工廠",
+					"工廠工人",
+					"工業",
+					"焊工",
+					"焊接",
+					"燒焊",
+					"組裝",
+					"裝配",
+				],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umsebenzi wasefemini wesifazane"),
+				keywords: &[
+					"ifemu",
+					"owesifazane",
+					"ukuhlangana",
+					"umsebenzi",
+					"umsebenzi wasefemini wesifazane",
+				],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🏭",
+			codepoint:            &[128105u32, 127995u32, 8205u32, 127981u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman factory worker: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🏭",
+			codepoint:            &[128105u32, 127996u32, 8205u32, 127981u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman factory worker: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🏭",
+			codepoint:            &[128105u32, 127997u32, 8205u32, 127981u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman factory worker: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🏭",
+			codepoint:            &[128105u32, 127998u32, 8205u32, 127981u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman factory worker: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🏭",
+			codepoint:            &[128105u32, 127999u32, 8205u32, 127981u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman factory worker: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🎤"]
+pub const MAN_SINGER: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🎤",
+		codepoint:            &[128104u32, 8205u32, 127908u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "man singer",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("manlike sanger"),
+				keywords: &[
+					"man",
+					"manlike sanger",
+					"persoon",
+					"rock",
+					"rockster",
+					"sanger",
+					"ster",
+					"vermaak",
+					"vermaaklikheid",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ወንድ ዘፋኝ"),
+				keywords: &["ተዋናይ", "አዝናኝ", "ኮከብ", "ወንድ", "ዘፋኝ"],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("مطرب"),
+				keywords: &["رجل", "روك", "مطرب", "مغني", "ممثل", "نجم", "وان مان شو"],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("প\u{9c1}ৰ\u{9c1}ষ গ\u{9be}য\u{9bc}ক"),
+				keywords: &[
+					"অভিনেত\u{9be}",
+					"গ\u{9be}য\u{9bc}ক",
+					"ত\u{9be}ৰক\u{9be}",
+					"প\u{9c1}ৰ\u{9c1}ষ",
+					"বিনোদক",
+					"ৰ’ক",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("kişi müğənni"),
+				keywords: &[
+					"aktyor",
+					"estrada artisti",
+					"kişi",
+					"müğənni",
+					"rok",
+					"rok ulduzu",
+					"sənətçi",
+					"ulduz",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("спявак"),
+				keywords: &["зорка", "мужчына", "рок", "спеў", "спявак", "эстраднік"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("мъж певец"),
+				keywords: &[
+					"актьор",
+					"артист",
+					"музика",
+					"музикален изпълнител",
+					"мъж певец",
+					"певец",
+					"рок звезда",
+					"творец",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("ছেলে , প\u{9c1}র\u{9c1}ষ গ\u{9be}য\u{9bc}ক"),
+				keywords: &[
+					"অভিনেত\u{9be}",
+					"এন\u{9cd}ট\u{9be}টেন\u{9be}র",
+					"গ\u{9be}য\u{9bc}ক",
+					"ছেলে",
+					"ছেলে , প\u{9c1}র\u{9c1}ষ গ\u{9be}য\u{9bc}ক",
+					"প\u{9c1}র\u{9c1}ষ",
+					"রক",
+					"স\u{9cd}ট\u{9be}র",
+				],
+			},
+			#[cfg(feature = "br")]
+			crate::Annotation { lang: "br", tts: Some("kaner"), keywords: &["kaner"] },
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("pjevač muškarac"),
+				keywords: &["izvođač", "pjevač", "pjevač muškarac", "roker", "zabavljač", "zvijezda"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("cantant home"),
+				keywords: &[
+					"actor",
+					"artista",
+					"cantant",
+					"cantant home",
+					"estrella",
+					"estrella del rock",
+					"presentador",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᏍᎦᏯ ᏗᎧᏃᎩᏍᎩ"),
+				keywords: &["ᎠᏍᎦᏯ", "ᎠᏛᏁᎵᏍᎩ", "ᎠᏛᏁᎸᏍᎩ", "ᏃᏈᏏ", "ᏅᏯ", "ᏗᎧᏃᎩᏍᎩ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("zpěvák"),
+				keywords: &[
+					"bavič",
+					"herec",
+					"hvězda",
+					"muž",
+					"povolání",
+					"práce",
+					"punker",
+					"rock",
+					"rocker",
+					"zpěvák",
+					"zábava",
+					"člověk",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("cantor"),
+				keywords: &["actor", "adlonni", "cantor", "dyn"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("mandlig sanger"),
+				keywords: &[
+					"entertainer",
+					"karaoke",
+					"mand",
+					"mandlig sanger",
+					"rock",
+					"sang",
+					"sanger",
+					"skuespiller",
+					"stjerne",
+					"synge",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Sänger"),
+				keywords: &["Mann", "Mikrofon", "Popstar", "Schauspieler", "Sänger"],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("τραγουδιστής"),
+				keywords: &[
+					"άντρας",
+					"διασκέδαση",
+					"διασκεδαστής",
+					"ηθοποιός",
+					"ροκ",
+					"στάρ",
+					"τραγουδιστής",
+					"τραγούδι",
+				],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("man singer"),
+				keywords: &["actor", "entertainer", "man", "rock", "rockstar", "singer", "star"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("cantante hombre"),
+				keywords: &["artista", "cantante hombre", "estrella", "hombre", "rock"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("meeslaulja"),
+				keywords: &["laulja", "meelelahutaja", "mees", "näitleja", "rokk", "rokkstaar", "staar"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("gizon abeslaria"),
+				keywords: &[
+					"abeslaria",
+					"aisia",
+					"aktorea",
+					"gizon abeslaria",
+					"gizona",
+					"gizonezkoa",
+					"izarra",
+					"rocka",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("خواننده مرد"),
+				keywords: &["خواننده", "خواننده مرد", "ستاره", "میکروفن", "هنرمند"],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("mieslaulaja"),
+				keywords: &["karaoke", "laulaja", "mies", "mieslaulaja", "mikki"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("lalaking mang-aawit"),
+				keywords: &[
+					"aktor",
+					"artista",
+					"bokalista",
+					"lalaki",
+					"lalaking mang-aawit",
+					"mang-aawit",
+					"manganganta",
+					"rakista",
+					"rock",
+					"rockstar",
+					"singer",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("mannligur sangari"),
+				keywords: &[
+					"mannligur sangari",
+					"maður",
+					"sangari",
+					"sjónleikari",
+					"skemtari",
+					"undirhaldari",
+					"vertur",
+				],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("chanteur"),
+				keywords: &["acteur", "artiste", "chanteur", "homme", "métier", "rock", "rockeur", "star"],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation {
+				lang:     "fr_CA",
+				tts:      Some("chanteur homme"),
+				keywords: &["artiste", "chanteur", "homme", "rock", "vedette"],
+			},
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("amhránaí fireann"),
+				keywords: &[
+					"aisteoir",
+					"amhránaí",
+					"amhránaí fireann",
+					"boc mór",
+					"fear",
+					"roc",
+					"réalt",
+					"siamsóir",
+					"siamóir",
+				],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("seinneadair fireann"),
+				keywords: &[
+					"actair",
+					"cleasaiche",
+					"duine",
+					"fear",
+					"fireannach",
+					"rionnag",
+					"ròc",
+					"seinneadair",
+					"seinneadair fireann",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("cantante de sexo masculino"),
+				keywords: &["actor", "cantante", "cantante de sexo masculino", "home", "rock"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("ગાયક"),
+				keywords: &[
+					"અભિન\u{ac7}તા",
+					"ગાયક",
+					"પ\u{ac1}ર\u{ac1}ષ",
+					"મનોર\u{a82}જનકર\u{acd}તા",
+					"રૉક",
+					"સ\u{acd}ટાર",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mutum mawaƙi"),
+				keywords: &[
+					"mai sa nishaɗi",
+					"mai shaƙatawa",
+					"mawaƙi",
+					"mutum",
+					"tauraro",
+					"waƙar rock",
+					"ɗan wasa",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mutum mawaƙi"),
+				keywords: &[
+					"mai sa nishaɗi",
+					"mai shaƙatawa",
+					"mawaƙi",
+					"mutum",
+					"tauraro",
+					"waƙar rock",
+					"ɗan wasa",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("זמר"),
+				keywords: &["איש", "בדרן", "גבר", "זמר", "כוכב", "רוק", "שחקן"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("गायक"),
+				keywords: &[
+					"अभिन\u{947}ता",
+					"आदमी",
+					"गायक",
+					"तारा",
+					"प\u{941}र\u{941}ष",
+					"मनोर\u{902}जन",
+					"रॉक",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("pjevač"),
+				keywords: &["glumac", "muškarac", "pjevač", "zabavljač", "zvijezda"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("férfi énekes"),
+				keywords: &[
+					"előadó",
+					"foglalkozás",
+					"férfi",
+					"művész",
+					"rock",
+					"sztár",
+					"színész",
+					"énekes",
+				],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("տղամարդ երգիչ"),
+				keywords: &["աստղ", "երգիչ", "կատարող", "տղամարդ"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("penyanyi pria"),
+				keywords: &["aktor", "bintang", "lelaki", "penghibur", "penyanyi", "rock"],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwoke ọgụụ egwu"),
+				keywords: &[
+					"nwoke",
+					"nwoke ọgụụ egwu",
+					"onye ama ama",
+					"onye na-eme ihe nkiri",
+					"rọkụ",
+					"ọgụụ egwu",
+					"ọkpaiheọchị",
+				],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("söngvari"),
+				keywords: &["karl", "skemmtikraftur", "söngvari", "tónlist"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("cantante uomo"),
+				keywords: &["attore", "cantante", "lavoro", "musica", "rock star", "star", "uomo", "ziggy"],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("男性歌手"),
+				keywords: &[
+					"アーティスト",
+					"エンターテイナー",
+					"シンガー",
+					"スター",
+					"ロックスター",
+					"俳優",
+					"歌手",
+					"男",
+					"男性",
+					"男性歌手",
+				],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("biduan lanang"),
+				keywords: &["aktor", "biduan", "lanang", "musik rock", "panampil", "selebriti"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("მომღერალი კაცი"),
+				keywords: &["ბიჭი", "კაცი", "მომღერალი", "მსახიობი", "როკერი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("ер әнші"),
+				keywords: &["ер", "жұлдыз", "сахна", "әнші"],
+			},
+			#[cfg(feature = "kl")]
+			crate::Annotation {
+				lang:     "kl",
+				tts:      Some("sanger"),
+				keywords: &[
+					"entertainer",
+					"karaoke",
+					"mand",
+					"sang",
+					"sanger",
+					"skuespiller",
+					"stjerne",
+					"synge",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("អ\u{17d2}នកចម\u{17d2}រៀងប\u{17d2}រ\u{17bb}ស"),
+				keywords: &[
+					"តារា",
+					"ត\u{17bd}សម\u{17d2}តែង",
+					"ប\u{17d2}រ\u{17bb}ស",
+					"អ\u{17d2}នកចម\u{17d2}រៀង",
+					"អ\u{17d2}នកចម\u{17d2}រៀងប\u{17d2}រ\u{17bb}ស",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಗಾಯಕ"),
+				keywords: &[
+					"ಗಾಯಕ",
+					"ನಟ",
+					"ಪುರುಷ",
+					"ಮನರಂಜಕ",
+					"ಮನರಂಜನ\u{cc6}",
+					"ರಾಕ\u{ccd}",
+					"ರಾಕ\u{ccd} ಸ\u{cbf}ಂಗರ\u{ccd}",
+					"ರಾಕ\u{ccd}\u{200c}ಸ\u{ccd}ಟಾರ\u{ccd}",
+					"ಸ\u{ccd}ಟಾರ\u{ccd}",
+					"ಹಾಡು ಹ\u{cc7}ಳುವವನು",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("남자 가수"),
+				keywords: &[
+					"가수",
+					"남자",
+					"노래",
+					"락",
+					"락스타",
+					"마이크",
+					"배우",
+					"스타",
+					"엔터테이너",
+					"연예인",
+				],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("दादलो गायक"),
+				keywords: &["कलाकार", "गायक", "दादलो", "मनरिजवण करपी", "रॉक", "स\u{94d}टार"],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("эркек ырчы"),
+				keywords: &["актер", "алып баруучу", "рок", "ырчы", "эркек"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Sänger"),
+				keywords: &["Entertainer", "Mann", "Rock", "Schauspiller", "Star", "Sänger"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ນ\u{eb1}ກຮ\u{ec9}ອງຊາຍ"),
+				keywords: &["ຊາຍ", "ນ\u{eb1}ກຮ\u{ec9}ອງ", "ນ\u{eb1}ກຮ\u{ec9}ອງຊາຍ"],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("dainininkas"),
+				keywords: &["aktorius", "dainininkas", "rokas", "vyras", "žvaigždė"],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("dziedātājs"),
+				keywords: &[
+					"aktieris",
+					"bovijs",
+					"cilvēks",
+					"dziedātājs",
+					"izklaide",
+					"roks",
+					"rokzvaigzne",
+					"vīrietis",
+					"zvaigzne",
+				],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("kaiwaiata tāne"),
+				keywords: &["kaitapere", "kaiwaiata", "kaiwhakangahau", "raka", "tāne", "whetū"],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("маж пејач"),
+				keywords: &["актер", "забавувач", "маж", "пејач", "рок", "ѕвезда"],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("ഗ\u{d3e}യകൻ"),
+				keywords: &[
+					"ഗ\u{d3e}യകൻ",
+					"പ\u{d3e}ട\u{d4d}ട\u{d41}ക\u{d3e}രൻ",
+					"റോക\u{d4d}ക\u{d4d}\u{200c}സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d3e}ർ",
+					"സംഗീതം",
+					"സംഗീതജ\u{d4d}ഞൻ",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("эрэгтэй дуучин"),
+				keywords: &["дуучин", "жүжигчин", "од", "рок", "эрэгтэй"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("गायक"),
+				keywords: &[
+					"कलाकार",
+					"गायक",
+					"नट",
+					"प\u{941}र\u{941}ष",
+					"मनोर\u{902}जक",
+					"मनोर\u{902}जन",
+					"रॉक",
+					"व\u{94d}यक\u{94d}ती",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("penyanyi lelaki"),
+				keywords: &["bintang", "lelaki", "pelakon", "penghibur", "penyanyi", "rock"],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("kantant maskili"),
+				keywords: &["attur", "entertainer", "kantant", "kantant maskili", "raġel", "rock", "star"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("အမျ\u{102d}\u{102f}းသား အဆ\u{102d}\u{102f}တော\u{103a}"),
+				keywords: &[
+					"ဖျော\u{103a}ဖြေတင\u{103a}ဆက\u{103a}သ\u{1030}",
+					"ရော\u{1037}ခ\u{103a}တေးဂ\u{102e}တ",
+					"သရ\u{102f}ပ\u{103a}ဆောင\u{103a}",
+					"အဆ\u{102d}\u{102f}တော\u{103a}",
+					"အမျ\u{102d}\u{102f}းသား",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("प\u{941}र\u{942}ष गायक"),
+				keywords: &[
+					"कलाकार",
+					"गायक",
+					"छोरामान\u{94d}छ\u{947}",
+					"तारा",
+					"प\u{941}र\u{942}ष",
+					"मनोरञ\u{94d}जक",
+					"रक",
+				],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("mannelijke zanger"),
+				keywords: &["acteur", "entertainer", "man", "rock", "rockster", "ster", "zanger"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("mannleg artist"),
+				keywords: &["artist", "konsert", "mann", "mannleg artist", "songar"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ପ\u{b41}ର\u{b41}ଷ ଗ\u{b3e}ୟ\u{b3f}କ"),
+				keywords: &[
+					"ଅଭ\u{b3f}ନେତ\u{b3e}",
+					"ଗ\u{b3e}ୟ\u{b3f}କ",
+					"ପ\u{b41}ର\u{b41}ଷ",
+					"ମନୋରଞ\u{b4d}ଜନକ\u{b3e}ରୀ",
+					"ରକ\u{b4d}\u{200c}",
+					"ଷ\u{b4d}ଟ\u{b3e}ର\u{b4d}\u{200c}",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਗਾਇਕ"),
+				keywords: &[
+					"ਅਦਾਕਾਰ",
+					"ਕਲਾਕਾਰ",
+					"ਗਾਇਕ",
+					"ਪ\u{a41}ਰਸ\u{a3c}",
+					"ਬ\u{a70}ਦਾ",
+					"ਮਸਖਰਾ",
+					"ਰ\u{a4c}ਕਸਟਾਰ",
+					"ਸਟਾਰ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("گلوکار"),
+				keywords: &["اداکار", "بندہ", "تارہ", "تفریح مہیا کرن آلا", "چٹان", "گلوکار"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Mán Sínga"),
+				keywords: &[
+					"Man",
+					"Miúzik Sta",
+					"Mán Sínga",
+					"Pẹ\u{301}sin Wé De Dú Tins Wé De Mék Pípul Laf An Hapí",
+					"Rọ\u{301}k Miúzik",
+					"Sínga",
+					"Áktọ",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("mężczyzna piosenkarz"),
+				keywords: &[
+					"aktor",
+					"mężczyzna",
+					"osoba",
+					"piosenkarz",
+					"praca",
+					"rock",
+					"rocker",
+					"zawód",
+				],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("سړی سندرغاړی"),
+				keywords: &["اکټر", "خوشالوونکی", "راک", "ستوری", "سندرغاړی", "سړی"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("cantor homem"),
+				keywords: &["artista", "ator", "cantor", "homem", "pop", "rock"],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("cantor"),
+				keywords: &["ator", "cantor", "estrela", "estrela do rock", "homem", "rock"],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("tata takiq"),
+				keywords: &["artista", "imaymana yanakuq", "quyllur", "rock", "takiq", "tata"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("cântăreț"),
+				keywords: &[
+					"actor",
+					"bărbat",
+					"comediant",
+					"cântăreț",
+					"divertisment",
+					"rock",
+					"star",
+					"vedetă",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-1164"), keywords: &["E10-1164"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("мужчина-певец"),
+				keywords: &[
+					"жест",
+					"звезда",
+					"исполнитель",
+					"коза",
+					"мужчина",
+					"музыка",
+					"певец",
+					"рок",
+					"сцена",
+				],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umugabo w’umuririmbyi"),
+				keywords: &[
+					"icyamamare",
+					"roke",
+					"umugabo",
+					"umugabo w’umuririmbyi",
+					"umukinnyi",
+					"umuririmbyi",
+					"usetsa",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("مرد ڳائڻو"),
+				keywords: &["مرد ڳائڻو", "مرد، ڳائڻو، وندرائيندڙ، راڪ، اسٽار، اداڪار"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ග\u{dcf}යකය\u{dcf}"),
+				keywords: &[
+					"ග\u{dcf}යකය\u{dcf}",
+					"තර\u{dd4}ව",
+					"නළ\u{dd4}ව\u{dcf}",
+					"ප\u{dd2}ර\u{dd2}ම\u{dd2} ග\u{dcf}යකය\u{dcf}",
+					"ප\u{dd2}ර\u{dd2}ම\u{dd2}ය\u{dcf}",
+					"රොක\u{dca}",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("spevák muž"),
+				keywords: &[
+					"hudba",
+					"hviezda",
+					"muž",
+					"osoba",
+					"pankáč",
+					"povolanie",
+					"práca",
+					"punker",
+					"rocker",
+					"spevák",
+					"zabávač",
+					"zamestnanie",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("pevec"),
+				keywords: &["fant", "igralec", "komik", "moški", "pevec", "roker", "zabavljač", "zvezdnik"],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("nin fannaan ah"),
+				keywords: &[
+					"atoore",
+					"fannaan",
+					"maddadaaleeye",
+					"nin",
+					"nin fannaan ah",
+					"xiddig",
+					"xiddig heesaa",
+				],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("këngëtar"),
+				keywords: &["aktor", "burrë", "këngëtar", "muzikant", "rok"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("мушкарац певач"),
+				keywords: &["глумац", "звезда", "мушкарац", "певач", "рок"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation {
+				lang:     "sr_Cyrl_BA",
+				tts:      Some("мушкарац пјевач"),
+				keywords: &["глумац", "мушкарац", "пјевач", "рок"],
+			},
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("muškarac pevač"),
+				keywords: &["glumac", "muškarac", "pevač", "rok", "zvezda"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation {
+				lang:     "sr_Latn_BA",
+				tts:      Some("muškarac pjevač"),
+				keywords: &["glumac", "muškarac", "pjevač", "rok"],
+			},
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("manlig sångare"),
+				keywords: &["artist", "konsert", "kändis", "man", "manlig sångare", "stjärna"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mwimbaji wa kiume"),
+				keywords: &["maikrofoni", "msanii", "mwanamume", "mwimbaji", "mwimbaji wa kiume"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("ஆண\u{bcd} ப\u{bbe}டகர\u{bcd}"),
+				keywords: &[
+					"ஆண\u{bcd}",
+					"நடிகர\u{bcd}",
+					"நபர\u{bcd}",
+					"ப\u{bbe}டகர\u{bcd}",
+					"பொழுதுபோக\u{bcd}கு",
+					"ர\u{bbe}க\u{bcd}ஸ\u{bcd}ட\u{bbe}ர\u{bcd}",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("గ\u{c3e}యకుడు"),
+				keywords: &[
+					"ఎంటర\u{c4d}ట\u{c48}నర\u{c4d}",
+					"గ\u{c3e}యకుడు",
+					"పురుషుడు",
+					"ప\u{c4d}రముఖుడు",
+					"మగ\u{c3e}డు",
+					"య\u{c3e}క\u{c4d}టర\u{c4d}",
+					"ర\u{c3e}క\u{c4d}",
+					"ర\u{c3e}క\u{c4d}\u{200c}స\u{c4d}ట\u{c3e}ర\u{c4d}",
+					"స\u{c3f}ంగర\u{c4d}",
+					"స\u{c4d}ట\u{c3e}ర\u{c4d}",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("марди сароянда"),
+				keywords: &[
+					"корманди санъат",
+					"мард",
+					"марди сароянда",
+					"рок",
+					"сароянда",
+					"ситора",
+					"ҳунарманд",
+				],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("น\u{e31}กร\u{e49}องชาย"),
+				keywords: &[
+					"งาน",
+					"ดารา",
+					"น\u{e31}กร\u{e49}อง",
+					"น\u{e31}กแสดง",
+					"ผ\u{e39}\u{e49}ชาย",
+					"ผ\u{e39}\u{e49}ให\u{e49}ความบ\u{e31}นเท\u{e34}ง",
+					"ร\u{e47}อค",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ሰብኣይ ደራፋይ"),
+				keywords: &["ሮክስታር", "ሰብኣይ", "ተዋሳኣይ", "ኣዘናጋዒ", "ከውሒ", "ኮኾብ", "ደራፋይ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("erkek aýdymçy"),
+				keywords: &["aktýor", "aýdymçy", "erkek", "medeniýet işgäri", "rok", "ýyldyz"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("tangata hiva"),
+				keywords: &["tangata hiva"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("erkek şarkıcı"),
+				keywords: &["adam", "aktör", "erkek", "gösterici", "meslek", "rock", "star", "şarkıcı"],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("ئەر ناخشىچى"),
+				keywords: &["ئەر", "داڭلىق", "سەنئەتكار", "كۆڭۈل ئېچىش", "ناخشىچى", "چولپان"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("співак"),
+				keywords: &[
+					"артист",
+					"виконавець",
+					"зірка",
+					"людина",
+					"пісняр",
+					"рок",
+					"соліст",
+					"співак",
+					"чоловік",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("گلوکار"),
+				keywords: &["اسٹار", "راک اسٹار", "سنگر", "فنکار", "لوگ", "گلوکار", "گیت سنگیت"],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("erkak qo‘shiqchi"),
+				keywords: &[
+					"aktyor",
+					"erkak",
+					"erkak qo‘shiqchi",
+					"estrada artisti",
+					"qoʻshiqchi",
+					"rok",
+					"yulduz",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("nam ca sĩ"),
+				keywords: &[
+					"ca sĩ",
+					"nam ca sĩ",
+					"nam diễn viên",
+					"nghệ sĩ",
+					"ngôi sao",
+					"người đàn ông",
+					"nhạc rock",
+				],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("góor waykat"),
+				keywords: &["aktër", "begalkat", "biddeew", "góor", "rok", "waykat"],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umculi oyindoda"),
+				keywords: &[
+					"i-rock",
+					"indoda",
+					"ingcali",
+					"umculi",
+					"umculi oyindoda",
+					"umdlali",
+					"umonwabisi",
+				],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("ọkùnrin olórin"),
+				keywords: &[
+					"adánirárayá",
+					"akọrin",
+					"àpáta",
+					"ìràwọ\u{300}",
+					"ọkùnrin",
+					"ọkùnrin olórin",
+					"ọṣèré",
+				],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("ɔkùnrin olórin"),
+				keywords: &[
+					"adánirárayá",
+					"akɔrin",
+					"àpáta",
+					"ìràwɔ\u{300}",
+					"ɔkùnrin",
+					"ɔkùnrin olórin",
+					"ɔshèré",
+				],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("男歌手"),
+				keywords: &["搖滾", "明星", "歌手", "演員", "男", "男歌手", "藝人"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("男歌手"),
+				keywords: &["摇滚", "明星", "歌手", "演员", "男", "男歌手", "艺人"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("男歌手"),
+				keywords: &["摇滚歌手", "明星", "歌手", "男", "男歌手", "男演员", "艺人"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("男歌手"),
+				keywords: &["搖滾", "明星", "歌手", "男", "男歌手"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("↑↑↑"),
+				keywords: &["人物", "搖滾", "明星", "歌手", "演員", "男士", "男性", "藝人"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umculi wesilisa"),
+				keywords: &["isilomo", "owesilisa", "umculi", "umculi wesilisa", "umlingisi"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🎤",
+			codepoint:            &[128104u32, 127995u32, 8205u32, 127908u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man singer: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🎤",
+			codepoint:            &[128104u32, 127996u32, 8205u32, 127908u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man singer: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🎤",
+			codepoint:            &[128104u32, 127997u32, 8205u32, 127908u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man singer: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🎤",
+			codepoint:            &[128104u32, 127998u32, 8205u32, 127908u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man singer: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🎤",
+			codepoint:            &[128104u32, 127999u32, 8205u32, 127908u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man singer: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🔧"]
+pub const MAN_MECHANIC: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🔧",
+		codepoint:            &[128104u32, 8205u32, 128295u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "man mechanic",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonRole,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("manlike motorwerktuigkundige"),
+				keywords: &[
+					"elektrisiën",
+					"handwerkspersoon",
+					"loodgieter",
+					"man",
+					"manlike motorwerktuigkundige",
+					"mechanic",
+					"moersleutel",
+					"motorwerktuigkundige",
+					"werktuigkundige",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ወንድ ሜካኒክ"),
+				keywords: &["መካኒክ", "ሜካኒክ", "ሰው", "ወንድ", "የቧንቧ ሰራተኛ", "የኤሊክትሪክ ሰራተኛ"],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("ميكانيكي"),
+				keywords: &["حرفي", "سمكري", "سنغري", "سنكري", "عامل", "ميكانيسيان", "ميكانيكي"],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("প\u{9c1}ৰ\u{9c1}ষ মেক\u{9be}নিক"),
+				keywords: &[
+					"ইলেক\u{9cd}ট\u{9cd}ৰিচিয\u{9bc}\u{9be}ন",
+					"ট\u{9cd}ৰেডপ\u{9be}ৰ\u{9cd}চন",
+					"প\u{9c1}ৰ\u{9c1}ষ",
+					"প\u{9cd}ল\u{9be}ম\u{9cd}ব\u{9be}ৰ",
+					"মেক\u{9be}নিক",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("kişi mexanik"),
+				keywords: &["elektrik", "kişi", "mexanik", "peşəkar", "çilingər"],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("мужчына-механік"),
+				keywords: &["майстар", "механік", "мужчына", "мужчына-механік", "сантэхнік", "электрык"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("мъж механик"),
+				keywords: &[
+					"водопроводчик",
+					"електротехник",
+					"майстор",
+					"механик",
+					"мъж",
+					"специалист",
+					"техник",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("ছেলে , প\u{9c1}র\u{9c1}ষ , মেক\u{9be}নিক"),
+				keywords: &[
+					"ইলেকট\u{9cd}রিশিয\u{9bc}\u{9be}ন",
+					"ছেলে",
+					"ছেলে , প\u{9c1}র\u{9c1}ষ , মেক\u{9be}নিক",
+					"ট\u{9cd}রেডপ\u{9be}র\u{9cd}সন",
+					"প\u{9c1}র\u{9c1}ষ",
+					"প\u{9cd}ল\u{9be}ম\u{9cd}ব\u{9be}র",
+					"মেক\u{9be}নিক",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("mehaničar muškarac"),
+				keywords: &["električar", "mehaničar", "muškarac", "trgovac", "vodoinstalater"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("home mecànic"),
+				keywords: &[
+					"comerciant",
+					"electricista",
+					"home",
+					"lampista",
+					"masculí",
+					"mecànic",
+					"operari",
+				],
+			},
+			#[cfg(feature = "ccp")]
+			crate::Annotation {
+				lang:     "ccp",
+				tts:      Some("𑄟\u{11127}𑄢\u{11127}𑄘\u{11134} 𑄇𑄣\u{11128}𑄉\u{11127}𑄢\u{11134}"),
+				keywords: &["𑄟\u{11127}𑄢\u{11127}𑄘\u{11134} 𑄇𑄣\u{11128}𑄉\u{11127}𑄢\u{11134}"],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᏍᎦᏯ ᏙᏆᎴᎷ ᏧᎸᏫᏍᏓᏁᎯ"),
+				keywords: &[
+					"ᎠᎵᎢᏛᎲᏍᎩ",
+					"ᎠᎹ ᏧᏪᏓᏍᏗᎢ ᎣᏍᏓ ᏱᏗᎬᏁᎯ",
+					"ᎠᏍᎦᏯ",
+					"ᎠᏍᎦᏯ ᏙᏆᎴᎷ ᏧᎸᏫᏍᏓᏁᎯ",
+					"ᏗᎾᎦᎵᏍᎩ ᏧᎸᏫᏍᏓᏁᎯ",
+					"ᏙᏆᎴᎷ ᎣᏍᏓ ᏱᏗᎬᏁᎯ",
+				],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("mechanik"),
+				keywords: &[
+					"elektrikář",
+					"elektrotechnik",
+					"instalatér",
+					"mechanik",
+					"montér",
+					"muž",
+					"opravář",
+					"povolání",
+					"práce",
+					"zámečník",
+					"člověk",
+					"řemeslník",
+					"živnostník",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("peiriannydd gwrywaidd"),
+				keywords: &["dyn", "peiriannydd", "peiriannydd gwrywaidd", "plymwr", "trydanwr"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("mandlig mekaniker"),
+				keywords: &[
+					"håndværker",
+					"mand",
+					"mandlig mekaniker",
+					"mekaniker",
+					"skruenøgle",
+					"værktøj",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Mechaniker"),
+				keywords: &["Elektriker", "Handwerker", "Klempner", "Mann", "Mechaniker"],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("άντρας μηχανικός"),
+				keywords: &["άντρας", "έμπορος", "ηλεκτρολόγος", "μηχανικός", "υδραυλικός"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("man mechanic"),
+				keywords: &["electrician", "man", "mechanic", "plumber", "tradesperson"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("profesional de la mecánica hombre"),
+				keywords: &[
+					"electricista",
+					"fontanero",
+					"hombre",
+					"mecánico",
+					"operario",
+					"profesional de la mecánica hombre",
+				],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("meesmehaanik"),
+				keywords: &["elektrik", "mees", "mehaanik", "torulukksepp", "torumees"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("gizon mekanikaria"),
+				keywords: &[
+					"elektrikari",
+					"gizon",
+					"gizon mekanikaria",
+					"gizonezko",
+					"iturgin",
+					"mekarikari",
+					"saltzaile",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("تعمیرکار مرد"),
+				keywords: &["برق\u{200c}کار", "تعمیرکار مرد", "لوله\u{200c}کش", "مکانیک", "کارگر"],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("miesmekaanikko"),
+				keywords: &["jakoavain", "mekaanikko", "mies", "miesmekaanikko", "työkalu"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("lalaking mekaniko"),
+				keywords: &[
+					"electrician",
+					"elektrisyan",
+					"lalaki",
+					"lalaking mekaniko",
+					"makinista",
+					"mekaniko",
+					"tubero",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("mannligur mekanikari"),
+				keywords: &["elektrikari", "mannligur mekanikari", "maður", "mekanikari", "rørsmiður"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("mécanicien"),
+				keywords: &[
+					"homme",
+					"mécanicien",
+					"mécanique",
+					"métier",
+					"ouvrier",
+					"plombier",
+					"électricien",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation {
+				lang:     "fr_CA",
+				tts:      Some("mécanicien homme"),
+				keywords: &["↑↑↑"],
+			},
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("meicneoir fireann"),
+				keywords: &["ceardaí", "fear", "leictreoir", "meicneoir", "meicneoir fireann", "pluiméir"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("meacanaig fireann"),
+				keywords: &[
+					"dealanair",
+					"duine",
+					"fear",
+					"fireannach",
+					"meacanaig",
+					"meacanaig fireann",
+					"neach-ciùird",
+					"plumair",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("mecánico"),
+				keywords: &["electricista", "fontaneiro", "home", "mecánico"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("મ\u{ac7}ક\u{ac5}નિક"),
+				keywords: &[
+					"ઇલ\u{ac7}ક\u{acd}ટ\u{acd}રિશન",
+					"કારીગર",
+					"પ\u{ac1}ર\u{ac1}ષ",
+					"પ\u{acd}લમ\u{acd}બર",
+					"મ\u{ac7}ક\u{ac5}નિક",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mutum makanika"),
+				keywords: &[
+					"gyaran wuta",
+					"mai aikin lantarki",
+					"mai gyara",
+					"mai gyaran famfo",
+					"mai gyaran mota",
+					"maigyaran inji",
+					"makanika",
+					"makanike",
+					"mutum",
+					"sifana",
+					"ɗan kasuwa",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mutum makanika"),
+				keywords: &[
+					"gyaran wuta",
+					"mai aikin lantarki",
+					"mai gyara",
+					"mai gyaran famfo",
+					"mai gyaran mota",
+					"maigyaran inji",
+					"makanika",
+					"makanike",
+					"mutum",
+					"sifana",
+					"ɗan kasuwa",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("מכונאי"),
+				keywords: &[
+					"אינסטלטור",
+					"איש",
+					"איש מקצוע",
+					"גבר",
+					"חשמלאי",
+					"טכנאי",
+					"מכונאי",
+					"שיפוצניק",
+					"שרברב",
+				],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("मिस\u{94d}त\u{94d}री"),
+				keywords: &[
+					"आदमी",
+					"प\u{941}र\u{941}ष",
+					"बिजली मिस\u{94d}त\u{94d}री",
+					"मिस\u{94d}त\u{94d}री",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("mehaničar"),
+				keywords: &["električar", "majstor", "mehaničar", "muškarac", "vodoinstalater"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("szerelő"),
+				keywords: &["foglalkozás", "férfi", "szerelő", "villanyszerelő", "vízszerelő"],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("տղամարդ փականագործ"),
+				keywords: &["էլեկտրիկ", "մեխանիկ", "տղամարդ", "փականագործ"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("montir pria"),
+				keywords: &["laki-laki", "montir", "perbaikan", "pria", "teknisi", "tukang"],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwoke onye na-arụzi ụgbọala"),
+				keywords: &[
+					"nwoke",
+					"nwoke onye na-arụzi ụgbọala",
+					"onye na-arụzi ụgbọala",
+					"onye ọrụ ngwaọkụ",
+					"onyeazụmaahịa",
+					"plọmba",
+				],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("karl með skiptilykil"),
+				keywords: &["karl", "karl með skiptilykil", "verkfæri", "viðgerð", "viðhald"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("meccanico uomo"),
+				keywords: &[
+					"chiave inglese",
+					"idraulico",
+					"lavoro",
+					"meccanico",
+					"operaio",
+					"tecnico specializzato",
+					"tuta blu",
+					"uomo",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("男性の整備士"),
+				keywords: &[
+					"スパナ",
+					"メカニック",
+					"工作",
+					"男",
+					"男性",
+					"男性の整備士",
+					"配管工",
+					"電気工",
+				],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("montir lanang"),
+				keywords: &["lanang", "montir", "tukang", "tukang ledheng", "tukang listrik"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("მექანიკოსი კაცი"),
+				keywords: &["ელექტრიკი", "კაცი", "მექანიკოსი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("ер механик"),
+				keywords: &["ер", "механик", "сантехник", "электрик"],
+			},
+			#[cfg(feature = "kl")]
+			crate::Annotation {
+				lang:     "kl",
+				tts:      Some("mekaniker"),
+				keywords: &["håndværker", "mand", "mekaniker", "skruenøgle", "værktøj"],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("ជាងម\u{17c9}ាស\u{17ca}\u{17b8}នប\u{17d2}រ\u{17bb}ស"),
+				keywords: &[
+					"ជាង",
+					"ជាងទ\u{17bb}យោ",
+					"ជាងភ\u{17d2}លើង",
+					"ជាងម\u{17c9}ាស\u{17ca}\u{17b8}ន",
+					"ជាងម\u{17c9}ាស\u{17ca}\u{17b8}នប\u{17d2}រ\u{17bb}ស",
+					"ឈ\u{17d2}ម\u{17bd}ញ",
+					"ប\u{17bb}រស",
+					"ប\u{17d2}រ\u{17bb}ស",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಪುರುಷ ಮ\u{cc6}ಕ\u{ccd}ಯಾನ\u{cbf}ಕ\u{ccd}"),
+				keywords: &[
+					"ಎಲ\u{cc6}ಕ\u{ccd}ಟ\u{ccd}ರ\u{cbf}ಷ\u{cbf}ಯನ\u{ccd}",
+					"ಕ\u{cca}ಳಾಯ\u{cbf}ಗಾರ",
+					"ಪುರುಷ",
+					"ಪ\u{ccd}ಲಂಬರ\u{ccd}",
+					"ಮ\u{cc6}ಕ\u{ccd}ಯಾನ\u{cbf}ಕ\u{ccd}",
+					"ವ\u{ccd}ಯಾಪಾರ\u{cbf}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("남자 정비공"),
+				keywords: &["기술자", "남자", "배관공", "수리공", "전기 기사", "정비공"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("दादलो म\u{945}कानीक"),
+				keywords: &[
+					"इल\u{945}क\u{94d}ट\u{94d}रिशियन",
+					"दादलो",
+					"प\u{94d}लम\u{94d}बर",
+					"म\u{945}कानीक",
+					"व\u{947}पारी",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("эркек механик"),
+				keywords: &["механик", "сантехник", "соодагер", "электрик", "эркек"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Mecanicien"),
+				keywords: &["Elektriker", "Handwierker", "Installateur", "Mann", "Mecanicien"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ຊ\u{ec8}າງກ\u{ebb}ນຊາຍ"),
+				keywords: &[
+					"ຊ\u{ec8}າງກ\u{ebb}ນຊາຍ",
+					"ຊ\u{ec8}າງແປງ",
+					"ຊ\u{ec8}າງໄຟ",
+					"ຊ\u{ec8}າງໄຟຟ\u{ec9}າ",
+					"ຜ\u{eb9}\u{ec9}ຊາຍ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("mechanikas"),
+				keywords: &["elektrikas", "mechanikas", "prekybininkas", "santechnikas", "vyras"],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("mehāniķis"),
+				keywords: &[
+					"cilvēks",
+					"darbs",
+					"elektriķis",
+					"mehāniķis",
+					"profesija",
+					"santehniķis",
+					"vīrietis",
+				],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("kaiaka mīhini tāne"),
+				keywords: &[
+					"kaiaka mīhini",
+					"kaiaka mīhini tāne",
+					"kaimahi hiko",
+					"kaimahi paipa wai",
+					"kaimahi-ā-rehe",
+					"tāne",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("маж механичар"),
+				keywords: &["водоводџија", "електричар", "маж", "механичар", "трговец"],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("പ\u{d41}ര\u{d41}ഷ മെക\u{d4d}ക\u{d3e}നിക\u{d4d}"),
+				keywords: &[
+					"ഇലക\u{d4d}ട\u{d4d}രീഷ\u{d4d}യൻ",
+					"പ\u{d41}ര\u{d41}ഷ മെക\u{d4d}ക\u{d3e}നിക\u{d4d}",
+					"പ\u{d4d}ലംബർ",
+					"മെക\u{d4d}ക\u{d3e}നിക\u{d4d}",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("эрэгтэй механикч"),
+				keywords: &[
+					"механик",
+					"сантехникч",
+					"худалдаачин",
+					"цахилгаанчин",
+					"эрэгтэй",
+					"эрэгтэй механикч",
+				],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("य\u{902}त\u{94d}रज\u{94d}ञ"),
+				keywords: &[
+					"इल\u{947}क\u{94d}ट\u{94d}रिशियन",
+					"नळकारागीर",
+					"नोकरी",
+					"प\u{941}र\u{941}ष",
+					"प\u{941}र\u{942}ष",
+					"म\u{947}क\u{945}निक",
+					"य\u{902}त\u{94d}रज\u{94d}ञ",
+					"वीजत\u{902}त\u{94d}री",
+					"व\u{94d}यक\u{94d}ती",
+					"व\u{94d}यवसाय",
+					"व\u{94d}यापारी",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("mekanik lelaki"),
+				keywords: &["juruelektrik", "lelaki", "mekanik", "tukang", "tukang paip"],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("mekkanik maskili"),
+				keywords: &[
+					"electrician",
+					"mekkanik",
+					"mekkanik maskili",
+					"plumber",
+					"raġel",
+					"ħaddiem tas-sengħa",
+				],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("အမျ\u{102d}\u{102f}းသား စက\u{103a}ပြင\u{103a}သ\u{1030}"),
+				keywords: &[
+					"စက\u{103a}ပြင\u{103a}သ\u{1030}",
+					"ပ\u{102d}\u{102f}က\u{103a}ဆက\u{103a}သ\u{1030}",
+					"မ\u{102e}းသမား",
+					"အမျ\u{102d}\u{102f}းသား",
+					"အရောင\u{103a}းအဝယ\u{103a}သမား",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("प\u{941}र\u{942}ष मिस\u{94d}त\u{94d}री"),
+				keywords: &[
+					"छोरामान\u{94d}छ\u{947}",
+					"प\u{941}र\u{942}ष",
+					"प\u{94d}लम\u{94d}बर",
+					"बिज\u{941}लीको काम गर\u{94d}न\u{947} व\u{94d}यक\u{94d}ति",
+					"मिस\u{94d}त\u{94d}री",
+					"व\u{94d}यापारी",
+				],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("mannelijke monteur"),
+				keywords: &["elektricien", "handelsman", "loodgieter", "man", "monteur"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("mannleg mekanikar"),
+				keywords: &[
+					"bil",
+					"elektrikar",
+					"handverkar",
+					"mann",
+					"mannleg mekanikar",
+					"mekanikar",
+					"motor",
+					"røyrleggjar",
+				],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ପ\u{b41}ର\u{b41}ଷ ମେକ\u{b3e}ନ\u{b3f}କ\u{b4d}\u{200c}"),
+				keywords: &[
+					"ଇଲେକ\u{b4d}ଟ\u{b4d}ର\u{b3f}ସ\u{b3f}ଆନ\u{b4d}\u{200c}",
+					"ପ\u{b3e}ଇପ\u{b4d}\u{200c} ମ\u{b3f}ସ\u{b4d}ତ\u{b4d}ରୀ",
+					"ପ\u{b41}ର\u{b41}ଷ",
+					"ବ\u{b4d}ୟବସ\u{b3e}ୟୀ",
+					"ମେକ\u{b3e}ନ\u{b3f}କ\u{b4d}\u{200c}",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਮਕ\u{a48}ਨਿਕ"),
+				keywords: &[
+					"ਇਲ\u{a48}ਕਟ\u{a4d}ਰਿਸ\u{a3c}ਨ",
+					"ਪਲ\u{a70}ਬਰ",
+					"ਪ\u{a41}ਰਸ\u{a3c}",
+					"ਬ\u{a70}ਦਾ",
+					"ਮਕ\u{a48}ਨਿਕ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("مرد مکینک"),
+				keywords: &["الیکٹریشن", "بندہ", "تربیت یافتہ مزدور", "مرد مکینک", "مکینک", "پلمبر"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Mán Mẹkánik"),
+				keywords: &[
+					"Man",
+					"Mán Mẹkánik",
+					"Mẹkánik",
+					"Plọ\u{301}mba Hándwọ\u{301}ka",
+					"Ẹlẹ\u{301}ktríshian",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("mężczyzna elektryk"),
+				keywords: &["elektryk", "hydraulik", "mechanik", "mężczyzna", "osoba", "praca", "zawód"],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("سړی مستري"),
+				keywords: &["تجار", "سړی", "مستري", "ميخانيک", "پلمبر"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("mecânico"),
+				keywords: &["eletricista", "encanador", "homem", "mecânico", "prestador de serviços"],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("mecânico (homem)"),
+				keywords: &[
+					"canalizador",
+					"electricista",
+					"eletricista",
+					"homem",
+					"mecânico",
+					"mecânico (homem)",
+				],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("tata mecanico"),
+				keywords: &["electrico", "mecanico", "plomero", "ranqhaq", "tata"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("mecanic bărbat"),
+				keywords: &["bărbat", "electrician", "instalator", "mecanic", "meșter"],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-1170"), keywords: &["E10-1170"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("мужчина-механик"),
+				keywords: &["механик", "мужчина", "сантехник", "электрик"],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umugabo w’umukanishi"),
+				keywords: &[
+					"inzobere mu mwuga",
+					"kanyamashanyazi",
+					"kanyamigezi",
+					"umugabo",
+					"umugabo w’umukanishi",
+					"umukanishi",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("مرد مستري"),
+				keywords: &["مرد مستري", "مرد، واپاري، مستري، پلمبر، اليڪٽريشن"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}"),
+				keywords: &[
+					"ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
+					"ගන\u{dd4}දෙන\u{dd4} ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
+					"ජල නළ ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
+					"ප\u{dd2}ර\u{dd2}ම\u{dd2} ක\u{dcf}ර\u{dca}ම\u{dd2}කය\u{dcf}",
+					"ම\u{dd2}න\u{dd2}හ\u{dcf}",
+					"ව\u{dd2}ද\u{dd4}ල\u{dd2} ශ\u{dd2}ල\u{dca}ප\u{dd2}ය\u{dcf}",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("remeselník muž"),
+				keywords: &[
+					"automechanik",
+					"elektrikár",
+					"inštalatér",
+					"muž",
+					"povolanie",
+					"práca",
+					"remeselník",
+					"zamestnanie",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("mehanik"),
+				keywords: &[
+					"avtomehanik",
+					"električar",
+					"fant",
+					"mehanik",
+					"mehanična delavnica",
+					"moški",
+					"orodje",
+					"prodajalec",
+					"vodovodar",
+				],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("nin makaanik ah"),
+				keywords: &[
+					"dhuumo yaqaan",
+					"ganacsade",
+					"koronto yaqaan",
+					"makaanik",
+					"nin",
+					"nin makaanik ah",
+				],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("mekanik"),
+				keywords: &["burrë", "elektricist", "hidraulik", "mekanik", "tregtar"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("мушкарац механичар"),
+				keywords: &["водоинсталатер", "електричар", "мајстор", "механичар", "мушкарац"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("muškarac mehaničar"),
+				keywords: &["električar", "majstor", "mehaničar", "muškarac", "vodoinstalater"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("manlig mekaniker"),
+				keywords: &[
+					"bil",
+					"elektriker",
+					"man",
+					"manlig mekaniker",
+					"mekaniker",
+					"motor",
+					"rörmokare",
+				],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("fundi mitambo wa kiume"),
+				keywords: &[
+					"fundi gari",
+					"fundi mitambo wa kiume",
+					"makenika",
+					"mekanika",
+					"mwanamume",
+					"spana",
+				],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("ஆண\u{bcd} மெக\u{bcd}க\u{bbe}னிக\u{bcd}"),
+				keywords: &[
+					"ஆண\u{bcd}",
+					"நபர\u{bcd}",
+					"பழுது ப\u{bbe}ர\u{bcd}ப\u{bcd}பவர\u{bcd}",
+					"பிளம\u{bcd}பர\u{bcd}",
+					"மெக\u{bcd}க\u{bbe}னிக\u{bcd}",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("మగ మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}"),
+				keywords: &[
+					"ఎలక\u{c4d}ట\u{c4d}ర\u{c40}ష\u{c3f}యన\u{c4d}",
+					"ట\u{c4d}ర\u{c47}డ\u{c4d}స\u{c4d}\u{200c}పర\u{c4d}సన\u{c4d}",
+					"పురుషుడు",
+					"ప\u{c4d}లంబర\u{c4d}",
+					"మగ మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}",
+					"మగ\u{c3e}డు",
+					"మ\u{c46}క\u{c3e}న\u{c3f}క\u{c4d}",
+					"వ\u{c4d}య\u{c3e}ప\u{c3e}రవ\u{c47}త\u{c4d}త",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("марди механик"),
+				keywords: &["водопроводчӣ", "мард", "марди механик", "механик", "савдогар", "устои барқ"],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("ช\u{e48}างซ\u{e48}อมชาย"),
+				keywords: &[
+					"งาน",
+					"ช\u{e48}างกล",
+					"ช\u{e48}างประปา",
+					"ช\u{e48}างไฟฟ\u{e49}า",
+					"ซ\u{e48}อมแซม",
+					"ผ\u{e39}\u{e49}ชาย",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ሰብኣይ መካኒክ"),
+				keywords: &["መካኒክ", "ሰራሕ ቧንቧ", "ሰብኣይ", "ነጋዳይ", "ኤሌክትሪሻን"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("erkek mehanik"),
+				keywords: &["elektrik", "erkek", "mehanik", "santehnik", "söwdagär"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("ʻenisinia tangata"),
+				keywords: &["ʻenisinia tangata"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("erkek tamirci"),
+				keywords: &["adam", "elektrikçi", "erkek", "esnaf", "meslek", "tamirci", "tesisatçı"],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("ئەر رېمونتچى"),
+				keywords: &["ئەر", "توكچى", "تۇرۇبا ئىشچىسى", "رېمونتچى", "سودىگەر"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("механік"),
+				keywords: &[
+					"водопровідник",
+					"електрик",
+					"електротехнік",
+					"механік",
+					"робота",
+					"сантехнік",
+					"фахівець",
+					"чоловік",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("مرد مکینک"),
+				keywords: &["الیکٹریشن", "لوگ", "مرد", "مکینک", "پلمبر", "کاریگر"],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("erkak mexanik"),
+				keywords: &["elektrik", "erkak mexanik", "hunarmand", "mexanik", "santexnik"],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("thợ máy nam"),
+				keywords: &[
+					"cơ khí",
+					"nam",
+					"người đàn ông",
+					"thợ",
+					"thợ máy nam",
+					"thợ sửa ống nước",
+					"thợ điện",
+				],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("mekaniyee bu góor"),
+				keywords: &[
+					"elektrisiyee",
+					"góor",
+					"jaaykat",
+					"mekanisee",
+					"mekaniyee bu góor",
+					"plombiyee",
+				],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umkhandi oyindoda"),
+				keywords: &[
+					"incutshe yombane",
+					"indoda",
+					"umkhandi",
+					"umkhandi oyindoda",
+					"umntu ongumrhwebi",
+					"umtywini",
+				],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("ọkùnrin atún ọkọ\u{300} ṣe"),
+				keywords: &[
+					"atún ináṣe",
+					"atún ọkọ\u{300} ṣe",
+					"pílọ\u{301}bà",
+					"ẹni ṣòwò",
+					"ọkùnrin",
+					"ọkùnrin atún ọkọ\u{300} ṣe",
+				],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("ɔkùnrin atún ɔkɔ\u{300} she"),
+				keywords: &[
+					"atún ináshe",
+					"atún ɔkɔ\u{300} she",
+					"pílɔ\u{301}bà",
+					"ɔkùnrin",
+					"ɔkùnrin atún ɔkɔ\u{300} she",
+					"ɛni shòwò",
+				],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("男技工"),
+				keywords: &["商人", "技工", "水管工人", "男", "男技工", "電工"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("男技工"),
+				keywords: &["商人", "技工", "水管工人", "电工", "男", "男技工"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("男技工"),
+				keywords: &["技工", "机械工", "杂工", "水管工", "水管工人", "电工", "男", "男技工"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("男技工"),
+				keywords: &["技工", "機械技師", "男", "男技工", "電工", "黑手"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("↑↑↑"),
+				keywords: &["人物", "修理", "技工", "水管工", "男士", "男性", "維修", "電工"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umakhenikha wesilisa"),
+				keywords: &[
+					"indoda",
+					"odayisayo",
+					"umakhenikha",
+					"umakhenikha wesilisa",
+					"umkhandi kagesi",
+					"uplamba",
+				],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🔧",
+			codepoint:            &[128104u32, 127995u32, 8205u32, 128295u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man mechanic: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🔧",
+			codepoint:            &[128104u32, 127996u32, 8205u32, 128295u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man mechanic: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🔧",
+			codepoint:            &[128104u32, 127997u32, 8205u32, 128295u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man mechanic: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🔧",
+			codepoint:            &[128104u32, 127998u32, 8205u32, 128295u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man mechanic: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonRole,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🔧",
+			codepoint:            &[128104u32, 127999u32, 8205u32, 128295u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "man mechanic: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonRole,
 			is_variant:           true,

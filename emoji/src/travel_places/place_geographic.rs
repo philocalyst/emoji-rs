@@ -1,16 +1,3 @@
-#[doc = "🛘"]
-pub const LANDSLIDE: crate::Emoji = crate::Emoji {
-	glyph:                "🛘",
-	codepoint:            &[128728u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-	name:                 "landslide",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🏖\u{fe0f}"]
 pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
 	glyph:                "🏖\u{fe0f}",
@@ -874,19 +861,6 @@ pub const DESERT: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "🏔\u{fe0f}"]
-pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
-	glyph:                "🏔\u{fe0f}",
-	codepoint:            &[127956u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "snow-capped mountain",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceGeographic,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "⛰\u{fe0f}"]
 pub const MOUNTAIN: crate::Emoji = crate::Emoji {
 	glyph:                "⛰\u{fe0f}",
@@ -907,6 +881,32 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
 	name:                 "national park",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🛘"]
+pub const LANDSLIDE: crate::Emoji = crate::Emoji {
+	glyph:                "🛘",
+	codepoint:            &[128728u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+	name:                 "landslide",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceGeographic,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🏔\u{fe0f}"]
+pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
+	glyph:                "🏔\u{fe0f}",
+	codepoint:            &[127956u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "snow-capped mountain",
 	group:                crate::Group::TravelPlaces,
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,

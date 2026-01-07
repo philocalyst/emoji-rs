@@ -1578,902 +1578,6 @@ pub const MAN_IN_LOTUS_POSITION: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🛀"]
-pub const PERSON_TAKING_BATH: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🛀",
-		codepoint:            &[128704u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-		name:                 "person taking bath",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonResting,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("persoon wat bad"),
-				keywords: &["bad", "badkuip", "badskuim", "kuip", "persoon wat bad", "stort", "water"],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ገላውን የሚታጠብ ሰው"),
-				keywords: &["የገላ መታጠቢያ ገንዳ", "ገላን መታጠብ", "ገላውን የሚታጠብ ሰው"],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("شخص يستحم"),
-				keywords: &["استحمام", "بانيو", "حوض استحمام", "دوش", "شخص يستحم"],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("গ\u{9be} ধ\u{9c1}ই থক\u{9be} ব\u{9cd}যক\u{9cd}তি"),
-				keywords: &[
-					"গ\u{9be} ধ\u{9c1}ই থক\u{9be} ব\u{9cd}যক\u{9cd}তি",
-					"গ\u{9be} ধোৱ\u{9be}",
-					"ব\u{9be}থট\u{9be}ব",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("vanna qəbul edən adam"),
-				keywords: &["hamam", "vanna", "vanna qəbul edən adam"],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("чалавек прымае ванну"),
-				keywords: &["вада", "ванна", "чалавек", "чалавек прымае ванну"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("къпещ се човек"),
-				keywords: &["баня", "вана", "къпещ се човек"],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("ব\u{9cd}যক\u{9cd}তি স\u{9cd}ন\u{9be}ন করছে"),
-				keywords: &[
-					"গোছল",
-					"ব\u{9be}থটব",
-					"ব\u{9cd}যক\u{9cd}তি স\u{9cd}ন\u{9be}ন করছে",
-					"স\u{9cd}ন\u{9be}ন",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("kupanje"),
-				keywords: &["kada", "kupanje"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("persona a la banyera"),
-				keywords: &["bany", "banyera", "persona", "persona a la banyera"],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᏴᏫ ᎠᏓᏬᏍᎬᎢ"),
-				keywords: &["ᎠᏓᏬᏍᏗ", "ᎤᎾᏙᏬᏍᏗ", "ᏴᏫ ᎠᏓᏬᏍᎬᎢ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("osoba ve vaně"),
-				keywords: &[
-					"domácnost",
-					"koupat se",
-					"koupel",
-					"koupelna",
-					"osoba ve vaně",
-					"sprcha",
-					"vana",
-					"člověk ve vaně",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("person mewn bath"),
-				keywords: &["bath", "person mewn bath", "twba"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("bad"),
-				keywords: &["bad", "badekar", "karbad"],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("badende Person"),
-				keywords: &[
-					"Bad",
-					"Badewanne",
-					"Badezimmer",
-					"Dusche",
-					"baden",
-					"badende Person",
-					"entspannen",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("άνθρωπος που κάνει μπάνιο"),
-				keywords: &["άνθρωπος που κάνει μπάνιο", "μπάνιο", "μπανιέρα"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("person taking bath"),
-				keywords: &["bath", "bathtub", "person", "taking", "tub"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation {
-				lang:     "en_AU",
-				tts:      Some("↑↑↑"),
-				keywords: &["bath", "bathtub", "person taking bath", "tub"],
-			},
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("persona en la bañera"),
-				keywords: &["bañera", "baño", "persona", "persona en la bañera"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &["banarse", "bañera", "baño", "persona", "persona en la bañera", "relax"],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation {
-				lang:     "es_MX",
-				tts:      Some("persona en tina"),
-				keywords: &["persona en tina"],
-			},
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("inimene vannis"),
-				keywords: &["inimene", "inimene vannis", "vann"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("pertsona bat bainatzen"),
-				keywords: &["bainu", "bainuontzi", "pertsona bat bainatzen"],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("فرد در وان"),
-				keywords: &["حمام", "فرد در وان", "وان حمام"],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("kylpijä"),
-				keywords: &["kylpijä", "kylpy", "kylpyamme"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("taong naliligo"),
-				keywords: &["bathtub", "ligo", "naliligo", "taong naliligo", "tub", "tubig"],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("persónur í baðikari"),
-				keywords: &["bað", "baðikar", "fólk", "persónur", "persónur í baðikari"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("personne prenant un bain"),
-				keywords: &["baignoire", "bain", "personne prenant un bain", "personne qui prend un bain"],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("duine ag folcadh"),
-				keywords: &["duine ag folcadh", "folcadh", "folcadán"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("neach san amar"),
-				keywords: &["amar", "ballan", "ionnlad", "ionnlaid", "neach san amar", "tuba"],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("persoa bañándose"),
-				keywords: &["bañarse", "bañeira", "persoa bañándose"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("સ\u{acd}નાન કરતી વ\u{acd}યક\u{acd}તિ"),
-				keywords: &[
-					"ટબ",
-					"બાથટબ",
-					"સાધન",
-					"સ\u{acd}નાન",
-					"સ\u{acd}નાન કરતી વ\u{acd}યક\u{acd}તિ",
-					"સ\u{acd}નાનાગાર",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mutum mai yin wanka"),
-				keywords: &["baho", "bahon wanka", "mutum mai yin wanka", "wanka", "wanka a baho"],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mutum mai yin wanka"),
-				keywords: &["baho", "bahon wanka", "mutum mai yin wanka", "wanka", "wanka a baho"],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("אדם באמבטיה"),
-				keywords: &["אדם באמבטיה", "אמבטיה", "מקלחת"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("नहाता ह\u{941}आ व\u{94d}यक\u{94d}ति"),
-				keywords: &["टब", "नहाता ह\u{941}आ व\u{94d}यक\u{94d}ति", "बाथ", "स\u{94d}नान"],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("osoba koja se kupa u kadi"),
-				keywords: &["kada", "kupanje", "osoba koja se kupa u kadi"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("fürdő ember"),
-				keywords: &["fürdik", "fürdés", "fürdő ember", "fürdőkád"],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("լոգանք ընդունող անձ"),
-				keywords: &["լոգանք ընդունող անձ", "լոգասենյակ", "լոգարան"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("orang di bak mandi"),
-				keywords: &["bak mandi", "mandi", "orang di bak mandi", "orang sedang mandi"],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("onye na-asa ahụ"),
-				keywords: &["asamụahụ", "ngwa asamụahụ", "onye na-asa ahụ"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation { lang: "is", tts: Some("bað"), keywords: &["bað", "baðkar"] },
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("persona che fa il bagno"),
-				keywords: &[
-					"bagno",
-					"doccia",
-					"fare il bagno",
-					"lavarsi",
-					"persona che fa il bagno",
-					"relax",
-					"vasca da bagno",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("風呂に入る人"),
-				keywords: &["バスタブ", "浴槽", "風呂", "風呂に入る人"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong adus kungkum"),
-				keywords: &["bak kungkum", "kungkum", "wong adus kungkum"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("ადამიანი აბაზანაში"),
-				keywords: &["აბაზანა", "ადამიანი აბაზანაში", "ვარცლი", "სააბაზანო"],
-			},
-			#[cfg(feature = "kab")]
-			crate::Annotation {
-				lang:     "kab",
-				tts:      Some("amdan yeccucufen"),
-				keywords: &["amdan yeccucufen"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("ваннада жуыну"),
-				keywords: &["адам ваннада жуынып жатыр", "ванна", "ваннада жуыну"],
-			},
-			#[cfg(feature = "kl")]
-			crate::Annotation { lang: "kl", tts: Some("bad"), keywords: &["bad", "badekar"] },
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some(
-					"មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងដេកត\u{17d2}រា\u{17c6}ក\u{17d2}ន\u{17bb}ងអាង",
-				),
-				keywords: &[
-					"ដេកត\u{17d2}រា\u{17c6}",
-					"មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងដេកត\u{17d2}រា\u{17c6}ក\u{17d2}ន\u{17bb}ងអាង",
-					"អាង",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಸ\u{ccd}ನಾನ ಮಾಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}"),
-				keywords: &[
-					"ಟಬ\u{ccd}",
-					"ಬಾತ\u{ccd}\u{200c}ಟಬ\u{ccd}",
-					"ಸ\u{ccd}ನಾನ",
-					"ಸ\u{ccd}ನಾನ ಮಾಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ಸ\u{ccd}ನಾನದ ಟಬ\u{ccd}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("목욕하는 사람"),
-				keywords: &["목욕", "목욕하는 사람", "욕조"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("न\u{94d}हावपी व\u{94d}यक\u{94d}ती"),
-				keywords: &[
-					"न\u{94d}हावप",
-					"न\u{94d}हावपी मनीस",
-					"न\u{94d}हावपी व\u{94d}यक\u{94d}ती",
-					"बाथटब",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("жуунуп жаткан адам"),
-				keywords: &["ванна", "жуун", "жуунуп жаткан адам"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Persoun an der Bidden"),
-				keywords: &["Bidden", "Buedbidden", "Persoun an der Bidden"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ຄ\u{ebb}ນອາບນ\u{ecd}\u{ec9}າ"),
-				keywords: &[
-					"ຄ\u{ebb}ນ",
-					"ຄ\u{ebb}ນອາບນ\u{ecd}\u{ec9}າ",
-					"ອາບນ\u{ecd}\u{ec9}າ",
-					"ອ\u{ec8}າງ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("žmogus prausiasi vonioje"),
-				keywords: &["vonia", "žmogus prausiasi vonioje"],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("cilvēks vannā"),
-				keywords: &["cilvēks mazgājas", "cilvēks vannā", "mazgāties", "vanna", "ūdens"],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("tangata kaukau ana"),
-				keywords: &["kaukau", "tangata kaukau ana", "tāpu kaukau"],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("човек во када"),
-				keywords: &["бања", "када", "човек", "човек во када", "човек се бања"],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("ക\u{d41}ളിക\u{d4d}ക\u{d41}ന\u{d4d}നയ\u{d3e}ൾ"),
-				keywords: &[
-					"ക\u{d41}ളി",
-					"ക\u{d41}ളിക\u{d4d}ക\u{d41}ന\u{d4d}നയ\u{d3e}ൾ",
-					"ബ\u{d3e}ത\u{d4d}ത\u{d4d}\u{200c}ടബ\u{d4d}",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("усанд орж байгаа хүн"),
-				keywords: &["орох", "ус", "усанд орж байгаа хүн", "хүн"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("आ\u{902}घोळ करणारी व\u{94d}यक\u{94d}ती"),
-				keywords: &[
-					"आ\u{902}घोळ",
-					"आ\u{902}घोळ करणारी व\u{94d}यक\u{94d}ती",
-					"टबबाथ",
-					"बाथ",
-					"बाथटब",
-					"स\u{94d}नान",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("orang sedang mandi"),
-				keywords: &["mandi", "orang sedang mandi", "tab mandi"],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("persuna tieħu banju"),
-				keywords: &["banju", "persuna tieħu banju"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some(
-					"ရေချ\u{102d}\u{102f}းကန\u{103a}တ\u{103d}င\u{103a} ရေချ\u{102d}\u{102f}းနေသ\u{1030}",
-				),
-				keywords: &[
-					"ရေချ\u{102d}\u{102f}းကန\u{103a}",
-					"ရေချ\u{102d}\u{102f}းကန\u{103a}တ\u{103d}င\u{103a} ရေချ\u{102d}\u{102f}းနေသ\u{1030}",
-					"ရေချ\u{102d}\u{102f}းခြင\u{103a}း",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("न\u{941}हाउन\u{947} व\u{94d}यक\u{94d}ति"),
-				keywords: &["न\u{941}हाउन\u{947} व\u{94d}यक\u{94d}ति", "बाथ", "बाथटब"],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("persoon in badkuip"),
-				keywords: &["bad", "badkuip", "badkuip met douche", "persoon in bad", "persoon in badkuip"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ଗ\u{b3e}ଧୋଉଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}"),
-				keywords: &[
-					"ଗ\u{b3e}ଧୋଉଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}",
-					"ବ\u{b3e}ଥଟବ\u{b4d}\u{200c}",
-					"ସ\u{b4d}ନ\u{b3e}ନ",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਨਹਾਉ\u{a02}ਦਾ ਵਿਅਕਤੀ"),
-				keywords: &[
-					"ਇਸ\u{a3c}ਨਾਨ",
-					"ਟ\u{a71}ਬ",
-					"ਨਹਾਉ\u{a02}ਦਾ ਵਿਅਕਤੀ",
-					"ਨਹਾਉਣਾ",
-					"ਨ\u{a4d}ਹਾਉਣ-ਧ\u{a4b}ਣ",
-					"ਬਾਥਟ\u{a71}ਬ",
-					"ਬਾਥਰ\u{a42}ਮ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("بندہ غسل کر دیاں ہوئیاں"),
-				keywords: &["باتھ-ٹب", "بندہ غسل کر دیاں ہوئیاں", "نہاؤنا"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Pẹ\u{301}sin Wé De Baf"),
-				keywords: &[
-					"Baf",
-					"Bíg Lọ\u{301}ng Bézin Wé Pẹ\u{301}sin De Ẹ\u{301}ntá To Baf",
-					"Pẹ\u{301}sin Wé De Baf",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("osoba biorąca kąpiel"),
-				keywords: &["biorąca kąpiel", "kąpiel", "osoba", "w wannie", "wanna"],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("شخص غسل کوي"),
-				keywords: &["د غسل ټب", "شخص غسل کوي", "غسل"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("pessoa tomando banho"),
-				keywords: &[
-					"banheira",
-					"banho",
-					"banho de banheira",
-					"banho de espuma",
-					"pessoa tomando banho",
-					"água",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("pessoa a tomar banho"),
-				keywords: &["banheira", "banho", "pessoa a tomar banho"],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("runa armakuyniyuq"),
-				keywords: &["armakunapaq", "bañera", "runa armakuyniyuq"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("persoană care face baie"),
-				keywords: &["baie", "cadă", "om", "persoană care face baie"],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-980"), keywords: &["E10-980"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("человек в ванне"),
-				keywords: &["ванна", "ванная", "вода", "человек"],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umuntu uri kwiyuhagira"),
-				keywords: &["koga", "ubwiherero", "umuntu uri kwiyuhagira"],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("شخص وهجندي"),
-				keywords: &["شخص وهجندي", "وهنجڻ وارو ٽب، وهنجڻ"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("න\u{dcf}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}"),
-				keywords: &["න\u{dcf}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}", "න\u{dcf}න බේසම", "නෑම"],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("človek vo vani"),
-				keywords: &[
-					"domácnosť",
-					"kúpajúca sa osoba",
-					"kúpeľ",
-					"kúpeľna",
-					"osoba",
-					"sprcha",
-					"vaňa",
-					"človek vo vani",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("oseba, ki se kopa"),
-				keywords: &["kad", "ki se kopa", "kopalna kad", "kopel", "oseba", "oseba, ki se kopa"],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("qof qubeysanaya"),
-				keywords: &["qof qubeysanaya", "qubeys", "tuubo qubeys"],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("njeri që lahet"),
-				keywords: &["banjë", "larje", "njeri që lahet", "vaskë"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("особа која се купа"),
-				keywords: &["кaдa", "купaњe", "особа"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("osoba koja se kupa"),
-				keywords: &["kada", "kupanje", "osoba"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("person som badar"),
-				keywords: &["bad", "badar", "badkar", "person som badar"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mtu anayeoga"),
-				keywords: &["bafu", "hodhi", "mtu anayeoga"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("குளியல\u{bcd}"),
-				keywords: &["குளியல\u{bcd}", "தொட\u{bcd}டி", "நபர\u{bcd}"],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}"),
-				keywords: &[
-					"టబ\u{c4d}",
-					"బ\u{c3e}త\u{c4d}",
-					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"స\u{c4d}న\u{c3e}నం",
-					"స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"స\u{c4d}న\u{c3e}న\u{c3e}ల త\u{c4a}ట\u{c4d}ట\u{c3f}ల\u{c4b} స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("нафаре, ки душ карда истодааст"),
-				keywords: &["ванна", "ки душ карда истодааст", "нафаре", "нафаре, ки душ карда истодааст"],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("คนนอนแช\u{e48}น\u{e49}ำในอ\u{e48}าง"),
-				keywords: &["คน", "นอนแช\u{e48}", "อาบน\u{e49}ำ", "อ\u{e48}าง"],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ሰብ ክሕጸብ ከሎ"),
-				keywords: &["መሕጸቢ", "ምውሳድ", "ሰብ", "ባኞ", "ቱቦ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("wannada suwa düşýän adam"),
-				keywords: &["duş", "wanna", "wannada suwa düşýän adam"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("tokotaha kaukau"),
-				keywords: &["kaukau", "tokotaha kaukau"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("banyo yapan kişi"),
-				keywords: &["banyo", "banyo yapan kişi", "küvet"],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("يۇيۇنۇۋاتقان كىشى"),
-				keywords: &["يۇيۇش", "يۇيۇنداق", "يۇيۇنۇۋاتقان كىشى"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("людина, що приймає ванну"),
-				keywords: &[
-					"ванна",
-					"купатися",
-					"людина",
-					"людина, що приймає ванну",
-					"приймати ванну",
-					"що приймає ванну",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("نہاتا ہوا شخص"),
-				keywords: &["باتھ ٹب", "غسل", "غسل خانہ", "نہاتا ہوا شخص", "ٹب"],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("hammom qilayotgan kishi"),
-				keywords: &["hammom qilayotgan kishi", "odam", "suv", "tos", "vanna"],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người đang tắm bồn"),
-				keywords: &["bồn tắm", "người đang tắm bồn", "tắm"],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("nit kuy sangu"),
-				keywords: &["beñuwaar", "nit kuy sangu", "sangu"],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umntu ohlambayo"),
-				keywords: &["ibhafu", "ibhafu yokuhlambela", "umntu ohlambayo"],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("Ẹni Nwẹ"),
-				keywords: &["àgbá ìwé", "ìwẹ\u{300}", "Ẹni Nwẹ"],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("Ɛni Nwɛ"),
-				keywords: &["àgbá ìwé", "ìwɛ\u{300}", "Ɛni Nwɛ"],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("沖涼嘅人"),
-				keywords: &["沖涼", "沖涼嘅人", "浴缸"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("冲凉嘅人"),
-				keywords: &["冲凉", "冲凉嘅人", "浴缸"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("洗澡的人"),
-				keywords: &["洗澡", "洗澡的人", "浴盆", "浴缸", "澡盆", "盆浴"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("盆浴"),
-				keywords: &["洗澡", "盆浴"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("浸浴嘅人"),
-				keywords: &["人物", "沖涼", "洗澡", "浴缸", "浸浴嘅人｜浸浴", "淋浴"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umuntu ogezayo"),
-				keywords: &["ubhavu wokugezela", "ukugeza", "umuntu ogezayo"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🛀🏻",
-			codepoint:            &[128704u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person taking bath: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonResting,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🛀🏼",
-			codepoint:            &[128704u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person taking bath: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonResting,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🛀🏽",
-			codepoint:            &[128704u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person taking bath: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonResting,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🛀🏾",
-			codepoint:            &[128704u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person taking bath: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonResting,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🛀🏿",
-			codepoint:            &[128704u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person taking bath: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonResting,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "🛌"]
 pub const PERSON_IN_BED: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -3834,6 +2938,902 @@ pub const PERSON_IN_BED: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "person in bed: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonResting,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🛀"]
+pub const PERSON_TAKING_BATH: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🛀",
+		codepoint:            &[128704u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+		name:                 "person taking bath",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonResting,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("persoon wat bad"),
+				keywords: &["bad", "badkuip", "badskuim", "kuip", "persoon wat bad", "stort", "water"],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ገላውን የሚታጠብ ሰው"),
+				keywords: &["የገላ መታጠቢያ ገንዳ", "ገላን መታጠብ", "ገላውን የሚታጠብ ሰው"],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("شخص يستحم"),
+				keywords: &["استحمام", "بانيو", "حوض استحمام", "دوش", "شخص يستحم"],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("গ\u{9be} ধ\u{9c1}ই থক\u{9be} ব\u{9cd}যক\u{9cd}তি"),
+				keywords: &[
+					"গ\u{9be} ধ\u{9c1}ই থক\u{9be} ব\u{9cd}যক\u{9cd}তি",
+					"গ\u{9be} ধোৱ\u{9be}",
+					"ব\u{9be}থট\u{9be}ব",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("vanna qəbul edən adam"),
+				keywords: &["hamam", "vanna", "vanna qəbul edən adam"],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("чалавек прымае ванну"),
+				keywords: &["вада", "ванна", "чалавек", "чалавек прымае ванну"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("къпещ се човек"),
+				keywords: &["баня", "вана", "къпещ се човек"],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("ব\u{9cd}যক\u{9cd}তি স\u{9cd}ন\u{9be}ন করছে"),
+				keywords: &[
+					"গোছল",
+					"ব\u{9be}থটব",
+					"ব\u{9cd}যক\u{9cd}তি স\u{9cd}ন\u{9be}ন করছে",
+					"স\u{9cd}ন\u{9be}ন",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("kupanje"),
+				keywords: &["kada", "kupanje"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("persona a la banyera"),
+				keywords: &["bany", "banyera", "persona", "persona a la banyera"],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᏴᏫ ᎠᏓᏬᏍᎬᎢ"),
+				keywords: &["ᎠᏓᏬᏍᏗ", "ᎤᎾᏙᏬᏍᏗ", "ᏴᏫ ᎠᏓᏬᏍᎬᎢ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("osoba ve vaně"),
+				keywords: &[
+					"domácnost",
+					"koupat se",
+					"koupel",
+					"koupelna",
+					"osoba ve vaně",
+					"sprcha",
+					"vana",
+					"člověk ve vaně",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("person mewn bath"),
+				keywords: &["bath", "person mewn bath", "twba"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("bad"),
+				keywords: &["bad", "badekar", "karbad"],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("badende Person"),
+				keywords: &[
+					"Bad",
+					"Badewanne",
+					"Badezimmer",
+					"Dusche",
+					"baden",
+					"badende Person",
+					"entspannen",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("άνθρωπος που κάνει μπάνιο"),
+				keywords: &["άνθρωπος που κάνει μπάνιο", "μπάνιο", "μπανιέρα"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("person taking bath"),
+				keywords: &["bath", "bathtub", "person", "taking", "tub"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation {
+				lang:     "en_AU",
+				tts:      Some("↑↑↑"),
+				keywords: &["bath", "bathtub", "person taking bath", "tub"],
+			},
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("persona en la bañera"),
+				keywords: &["bañera", "baño", "persona", "persona en la bañera"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &["banarse", "bañera", "baño", "persona", "persona en la bañera", "relax"],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation {
+				lang:     "es_MX",
+				tts:      Some("persona en tina"),
+				keywords: &["persona en tina"],
+			},
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("inimene vannis"),
+				keywords: &["inimene", "inimene vannis", "vann"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("pertsona bat bainatzen"),
+				keywords: &["bainu", "bainuontzi", "pertsona bat bainatzen"],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("فرد در وان"),
+				keywords: &["حمام", "فرد در وان", "وان حمام"],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("kylpijä"),
+				keywords: &["kylpijä", "kylpy", "kylpyamme"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("taong naliligo"),
+				keywords: &["bathtub", "ligo", "naliligo", "taong naliligo", "tub", "tubig"],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("persónur í baðikari"),
+				keywords: &["bað", "baðikar", "fólk", "persónur", "persónur í baðikari"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("personne prenant un bain"),
+				keywords: &["baignoire", "bain", "personne prenant un bain", "personne qui prend un bain"],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("duine ag folcadh"),
+				keywords: &["duine ag folcadh", "folcadh", "folcadán"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("neach san amar"),
+				keywords: &["amar", "ballan", "ionnlad", "ionnlaid", "neach san amar", "tuba"],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("persoa bañándose"),
+				keywords: &["bañarse", "bañeira", "persoa bañándose"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("સ\u{acd}નાન કરતી વ\u{acd}યક\u{acd}તિ"),
+				keywords: &[
+					"ટબ",
+					"બાથટબ",
+					"સાધન",
+					"સ\u{acd}નાન",
+					"સ\u{acd}નાન કરતી વ\u{acd}યક\u{acd}તિ",
+					"સ\u{acd}નાનાગાર",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mutum mai yin wanka"),
+				keywords: &["baho", "bahon wanka", "mutum mai yin wanka", "wanka", "wanka a baho"],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mutum mai yin wanka"),
+				keywords: &["baho", "bahon wanka", "mutum mai yin wanka", "wanka", "wanka a baho"],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("אדם באמבטיה"),
+				keywords: &["אדם באמבטיה", "אמבטיה", "מקלחת"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("नहाता ह\u{941}आ व\u{94d}यक\u{94d}ति"),
+				keywords: &["टब", "नहाता ह\u{941}आ व\u{94d}यक\u{94d}ति", "बाथ", "स\u{94d}नान"],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("osoba koja se kupa u kadi"),
+				keywords: &["kada", "kupanje", "osoba koja se kupa u kadi"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("fürdő ember"),
+				keywords: &["fürdik", "fürdés", "fürdő ember", "fürdőkád"],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("լոգանք ընդունող անձ"),
+				keywords: &["լոգանք ընդունող անձ", "լոգասենյակ", "լոգարան"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("orang di bak mandi"),
+				keywords: &["bak mandi", "mandi", "orang di bak mandi", "orang sedang mandi"],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("onye na-asa ahụ"),
+				keywords: &["asamụahụ", "ngwa asamụahụ", "onye na-asa ahụ"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation { lang: "is", tts: Some("bað"), keywords: &["bað", "baðkar"] },
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("persona che fa il bagno"),
+				keywords: &[
+					"bagno",
+					"doccia",
+					"fare il bagno",
+					"lavarsi",
+					"persona che fa il bagno",
+					"relax",
+					"vasca da bagno",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("風呂に入る人"),
+				keywords: &["バスタブ", "浴槽", "風呂", "風呂に入る人"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong adus kungkum"),
+				keywords: &["bak kungkum", "kungkum", "wong adus kungkum"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("ადამიანი აბაზანაში"),
+				keywords: &["აბაზანა", "ადამიანი აბაზანაში", "ვარცლი", "სააბაზანო"],
+			},
+			#[cfg(feature = "kab")]
+			crate::Annotation {
+				lang:     "kab",
+				tts:      Some("amdan yeccucufen"),
+				keywords: &["amdan yeccucufen"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("ваннада жуыну"),
+				keywords: &["адам ваннада жуынып жатыр", "ванна", "ваннада жуыну"],
+			},
+			#[cfg(feature = "kl")]
+			crate::Annotation { lang: "kl", tts: Some("bad"), keywords: &["bad", "badekar"] },
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some(
+					"មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងដេកត\u{17d2}រា\u{17c6}ក\u{17d2}ន\u{17bb}ងអាង",
+				),
+				keywords: &[
+					"ដេកត\u{17d2}រា\u{17c6}",
+					"មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងដេកត\u{17d2}រា\u{17c6}ក\u{17d2}ន\u{17bb}ងអាង",
+					"អាង",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಸ\u{ccd}ನಾನ ಮಾಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}"),
+				keywords: &[
+					"ಟಬ\u{ccd}",
+					"ಬಾತ\u{ccd}\u{200c}ಟಬ\u{ccd}",
+					"ಸ\u{ccd}ನಾನ",
+					"ಸ\u{ccd}ನಾನ ಮಾಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ಸ\u{ccd}ನಾನದ ಟಬ\u{ccd}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("목욕하는 사람"),
+				keywords: &["목욕", "목욕하는 사람", "욕조"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("न\u{94d}हावपी व\u{94d}यक\u{94d}ती"),
+				keywords: &[
+					"न\u{94d}हावप",
+					"न\u{94d}हावपी मनीस",
+					"न\u{94d}हावपी व\u{94d}यक\u{94d}ती",
+					"बाथटब",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("жуунуп жаткан адам"),
+				keywords: &["ванна", "жуун", "жуунуп жаткан адам"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Persoun an der Bidden"),
+				keywords: &["Bidden", "Buedbidden", "Persoun an der Bidden"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ຄ\u{ebb}ນອາບນ\u{ecd}\u{ec9}າ"),
+				keywords: &[
+					"ຄ\u{ebb}ນ",
+					"ຄ\u{ebb}ນອາບນ\u{ecd}\u{ec9}າ",
+					"ອາບນ\u{ecd}\u{ec9}າ",
+					"ອ\u{ec8}າງ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("žmogus prausiasi vonioje"),
+				keywords: &["vonia", "žmogus prausiasi vonioje"],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("cilvēks vannā"),
+				keywords: &["cilvēks mazgājas", "cilvēks vannā", "mazgāties", "vanna", "ūdens"],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("tangata kaukau ana"),
+				keywords: &["kaukau", "tangata kaukau ana", "tāpu kaukau"],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("човек во када"),
+				keywords: &["бања", "када", "човек", "човек во када", "човек се бања"],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("ക\u{d41}ളിക\u{d4d}ക\u{d41}ന\u{d4d}നയ\u{d3e}ൾ"),
+				keywords: &[
+					"ക\u{d41}ളി",
+					"ക\u{d41}ളിക\u{d4d}ക\u{d41}ന\u{d4d}നയ\u{d3e}ൾ",
+					"ബ\u{d3e}ത\u{d4d}ത\u{d4d}\u{200c}ടബ\u{d4d}",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("усанд орж байгаа хүн"),
+				keywords: &["орох", "ус", "усанд орж байгаа хүн", "хүн"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("आ\u{902}घोळ करणारी व\u{94d}यक\u{94d}ती"),
+				keywords: &[
+					"आ\u{902}घोळ",
+					"आ\u{902}घोळ करणारी व\u{94d}यक\u{94d}ती",
+					"टबबाथ",
+					"बाथ",
+					"बाथटब",
+					"स\u{94d}नान",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("orang sedang mandi"),
+				keywords: &["mandi", "orang sedang mandi", "tab mandi"],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("persuna tieħu banju"),
+				keywords: &["banju", "persuna tieħu banju"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some(
+					"ရေချ\u{102d}\u{102f}းကန\u{103a}တ\u{103d}င\u{103a} ရေချ\u{102d}\u{102f}းနေသ\u{1030}",
+				),
+				keywords: &[
+					"ရေချ\u{102d}\u{102f}းကန\u{103a}",
+					"ရေချ\u{102d}\u{102f}းကန\u{103a}တ\u{103d}င\u{103a} ရေချ\u{102d}\u{102f}းနေသ\u{1030}",
+					"ရေချ\u{102d}\u{102f}းခြင\u{103a}း",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("न\u{941}हाउन\u{947} व\u{94d}यक\u{94d}ति"),
+				keywords: &["न\u{941}हाउन\u{947} व\u{94d}यक\u{94d}ति", "बाथ", "बाथटब"],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("persoon in badkuip"),
+				keywords: &["bad", "badkuip", "badkuip met douche", "persoon in bad", "persoon in badkuip"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ଗ\u{b3e}ଧୋଉଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}"),
+				keywords: &[
+					"ଗ\u{b3e}ଧୋଉଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}",
+					"ବ\u{b3e}ଥଟବ\u{b4d}\u{200c}",
+					"ସ\u{b4d}ନ\u{b3e}ନ",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਨਹਾਉ\u{a02}ਦਾ ਵਿਅਕਤੀ"),
+				keywords: &[
+					"ਇਸ\u{a3c}ਨਾਨ",
+					"ਟ\u{a71}ਬ",
+					"ਨਹਾਉ\u{a02}ਦਾ ਵਿਅਕਤੀ",
+					"ਨਹਾਉਣਾ",
+					"ਨ\u{a4d}ਹਾਉਣ-ਧ\u{a4b}ਣ",
+					"ਬਾਥਟ\u{a71}ਬ",
+					"ਬਾਥਰ\u{a42}ਮ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("بندہ غسل کر دیاں ہوئیاں"),
+				keywords: &["باتھ-ٹب", "بندہ غسل کر دیاں ہوئیاں", "نہاؤنا"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Pẹ\u{301}sin Wé De Baf"),
+				keywords: &[
+					"Baf",
+					"Bíg Lọ\u{301}ng Bézin Wé Pẹ\u{301}sin De Ẹ\u{301}ntá To Baf",
+					"Pẹ\u{301}sin Wé De Baf",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("osoba biorąca kąpiel"),
+				keywords: &["biorąca kąpiel", "kąpiel", "osoba", "w wannie", "wanna"],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("شخص غسل کوي"),
+				keywords: &["د غسل ټب", "شخص غسل کوي", "غسل"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("pessoa tomando banho"),
+				keywords: &[
+					"banheira",
+					"banho",
+					"banho de banheira",
+					"banho de espuma",
+					"pessoa tomando banho",
+					"água",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("pessoa a tomar banho"),
+				keywords: &["banheira", "banho", "pessoa a tomar banho"],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("runa armakuyniyuq"),
+				keywords: &["armakunapaq", "bañera", "runa armakuyniyuq"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("persoană care face baie"),
+				keywords: &["baie", "cadă", "om", "persoană care face baie"],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-980"), keywords: &["E10-980"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("человек в ванне"),
+				keywords: &["ванна", "ванная", "вода", "человек"],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umuntu uri kwiyuhagira"),
+				keywords: &["koga", "ubwiherero", "umuntu uri kwiyuhagira"],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("شخص وهجندي"),
+				keywords: &["شخص وهجندي", "وهنجڻ وارو ٽب، وهنجڻ"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("න\u{dcf}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}"),
+				keywords: &["න\u{dcf}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}", "න\u{dcf}න බේසම", "නෑම"],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("človek vo vani"),
+				keywords: &[
+					"domácnosť",
+					"kúpajúca sa osoba",
+					"kúpeľ",
+					"kúpeľna",
+					"osoba",
+					"sprcha",
+					"vaňa",
+					"človek vo vani",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("oseba, ki se kopa"),
+				keywords: &["kad", "ki se kopa", "kopalna kad", "kopel", "oseba", "oseba, ki se kopa"],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("qof qubeysanaya"),
+				keywords: &["qof qubeysanaya", "qubeys", "tuubo qubeys"],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("njeri që lahet"),
+				keywords: &["banjë", "larje", "njeri që lahet", "vaskë"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("особа која се купа"),
+				keywords: &["кaдa", "купaњe", "особа"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("osoba koja se kupa"),
+				keywords: &["kada", "kupanje", "osoba"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("person som badar"),
+				keywords: &["bad", "badar", "badkar", "person som badar"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mtu anayeoga"),
+				keywords: &["bafu", "hodhi", "mtu anayeoga"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("குளியல\u{bcd}"),
+				keywords: &["குளியல\u{bcd}", "தொட\u{bcd}டி", "நபர\u{bcd}"],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}"),
+				keywords: &[
+					"టబ\u{c4d}",
+					"బ\u{c3e}త\u{c4d}",
+					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"స\u{c4d}న\u{c3e}నం",
+					"స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"స\u{c4d}న\u{c3e}న\u{c3e}ల త\u{c4a}ట\u{c4d}ట\u{c3f}ల\u{c4b} స\u{c4d}న\u{c3e}నం చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("нафаре, ки душ карда истодааст"),
+				keywords: &["ванна", "ки душ карда истодааст", "нафаре", "нафаре, ки душ карда истодааст"],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("คนนอนแช\u{e48}น\u{e49}ำในอ\u{e48}าง"),
+				keywords: &["คน", "นอนแช\u{e48}", "อาบน\u{e49}ำ", "อ\u{e48}าง"],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ሰብ ክሕጸብ ከሎ"),
+				keywords: &["መሕጸቢ", "ምውሳድ", "ሰብ", "ባኞ", "ቱቦ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("wannada suwa düşýän adam"),
+				keywords: &["duş", "wanna", "wannada suwa düşýän adam"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("tokotaha kaukau"),
+				keywords: &["kaukau", "tokotaha kaukau"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("banyo yapan kişi"),
+				keywords: &["banyo", "banyo yapan kişi", "küvet"],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("يۇيۇنۇۋاتقان كىشى"),
+				keywords: &["يۇيۇش", "يۇيۇنداق", "يۇيۇنۇۋاتقان كىشى"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("людина, що приймає ванну"),
+				keywords: &[
+					"ванна",
+					"купатися",
+					"людина",
+					"людина, що приймає ванну",
+					"приймати ванну",
+					"що приймає ванну",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("نہاتا ہوا شخص"),
+				keywords: &["باتھ ٹب", "غسل", "غسل خانہ", "نہاتا ہوا شخص", "ٹب"],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("hammom qilayotgan kishi"),
+				keywords: &["hammom qilayotgan kishi", "odam", "suv", "tos", "vanna"],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người đang tắm bồn"),
+				keywords: &["bồn tắm", "người đang tắm bồn", "tắm"],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("nit kuy sangu"),
+				keywords: &["beñuwaar", "nit kuy sangu", "sangu"],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umntu ohlambayo"),
+				keywords: &["ibhafu", "ibhafu yokuhlambela", "umntu ohlambayo"],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("Ẹni Nwẹ"),
+				keywords: &["àgbá ìwé", "ìwẹ\u{300}", "Ẹni Nwẹ"],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("Ɛni Nwɛ"),
+				keywords: &["àgbá ìwé", "ìwɛ\u{300}", "Ɛni Nwɛ"],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("沖涼嘅人"),
+				keywords: &["沖涼", "沖涼嘅人", "浴缸"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("冲凉嘅人"),
+				keywords: &["冲凉", "冲凉嘅人", "浴缸"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("洗澡的人"),
+				keywords: &["洗澡", "洗澡的人", "浴盆", "浴缸", "澡盆", "盆浴"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("盆浴"),
+				keywords: &["洗澡", "盆浴"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("浸浴嘅人"),
+				keywords: &["人物", "沖涼", "洗澡", "浴缸", "浸浴嘅人｜浸浴", "淋浴"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umuntu ogezayo"),
+				keywords: &["ubhavu wokugezela", "ukugeza", "umuntu ogezayo"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🛀🏻",
+			codepoint:            &[128704u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person taking bath: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonResting,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🛀🏼",
+			codepoint:            &[128704u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person taking bath: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonResting,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🛀🏽",
+			codepoint:            &[128704u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person taking bath: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonResting,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🛀🏾",
+			codepoint:            &[128704u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person taking bath: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonResting,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🛀🏿",
+			codepoint:            &[128704u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person taking bath: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonResting,
 			is_variant:           true,

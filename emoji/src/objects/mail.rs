@@ -50,2144 +50,6 @@ pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "📧"]
-pub const E_MAIL: crate::Emoji = crate::Emoji {
-	glyph:                "📧",
-	codepoint:            &[128231u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "e-mail",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("e-pos"),
-			keywords: &["brief", "e-pos", "koevert", "pos", "slakkepos", "vonkpos"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ኢሜይል"),
-			keywords: &["ኢሜይል", "ደብዳቤ", "ፖስታ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("بريد إلكتروني"),
-			keywords: &["ايميل", "بريد", "بريد إلكتروني", "تواصل", "خطاب", "رسالة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ই-মেইল"),
-			keywords: &["ই-মেইল", "ইমেইল", "চিঠি", "মেইল"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("e-poçt"),
-			keywords: &["e-məktub", "e-poçt", "məktub", "poçt"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("электронны ліст"),
-			keywords: &["ліст", "пошта", "электронная пошта", "электронны ліст"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("имейл"),
-			keywords: &["имейл", "писмо", "поща"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ই-মেল"),
-			keywords: &["ই-মেল", "ইমেল", "চিঠি", "মেল"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("postel"),
-			keywords: &["golo", "golo-lizher", "lizher", "postel"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("e-pošta"),
-			keywords: &["e-mail", "e-pošta", "pošta"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("correu electrònic"),
-			keywords: &["carta", "correu", "electrònic", "mail"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄄-𑄟𑄬\u{1112d}𑄣\u{11134}"),
-			keywords: &["𑄄-𑄟𑄬\u{1112d}𑄣\u{11134}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᎾᎦᎵᏍᎩ ᎪᏪᎸ"),
-			keywords: &["ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵ", "ᎠᎾᎦᎵᏍᎩ ᎪᏪᎸ", "ᎪᏪᎵ", "ᏗᎪᏪᎵ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("e-mail"),
-			keywords: &[
-				"dopis",
-				"e-mail",
-				"elektronická pošta",
-				"email",
-				"odeslat",
-				"poslat",
-				"pošta",
-				"zpráva",
-				"zásilka",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("e-bost"),
-			keywords: &["e-bost", "llythyren", "post"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("mail"),
-			keywords: &["brev", "e-mail", "kommunikation", "mail"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("E-Mail"),
-			keywords: &["Brief", "E-Mail", "E-Mail-Symbol", "Post"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("email"),
-			keywords: &["email", "γράμμα", "επιστολή", "μέιλ"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("e-mail"),
-			keywords: &["e-mail", "email", "letter", "mail"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("correo electrónico"),
-			keywords: &["comunicación", "correo", "correo electrónico", "sobre"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["carta", "comunicación", "correo", "e-mail", "electrónico", "email", "sobre"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["comunicación", "correo", "electrónico", "email"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["carta", "correo electrónico", "e-mail", "email", "mail", "sobre"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("meilisõnum"),
-			keywords: &["kiri", "meil", "meilisõnum", "ümbrik"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("mezu elektronikoa"),
-			keywords: &["elektroniko", "mezu", "mezu elektronikoa", "posta"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ایمیل"),
-			keywords: &["ایمیل", "میل", "نامه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("sähköposti"),
-			keywords: &["e-mail", "email", "kirje", "sähköposti", "sähköpostiviesti", "viesti"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("e-mail"),
-			keywords: &["e-mail", "email", "koreo", "sulat"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("teldupostur"),
-			keywords: &["bræv", "postur", "t-postur", "teldupostur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("e-mail"),
-			keywords: &["courriel", "courrier électronique", "e-mail", "lettre", "message"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("courriel"),
-			keywords: &["courriel", "courrier", "lettre"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("ríomhphost"),
-			keywords: &[
-				"clúdach litreach",
-				"litir",
-				"post",
-				"ríomhphoist",
-				"ríomhphost",
-				"scéala",
-				"teachtaireacht",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("post-d"),
-			keywords: &["litir", "post", "post-d"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("correo electrónico"),
-			keywords: &["correo e.", "correo electrónico"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ઇમ\u{ac7}ઇલ"),
-			keywords: &["ઇમ\u{ac7}ઇલ", "ટપાલ", "પત\u{acd}ર", "મ\u{ac7}ઇલ", "સ\u{a82}ચાર"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("imel"),
-			keywords: &["imel", "saƙo", "saƙo intanet", "wasiƙa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("imel"),
-			keywords: &["imel", "saƙo", "saƙo intanet", "wasiƙa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("אימייל"),
-			keywords: &["אימייל", "דואר", "דואר אלקטרוני", "דוא״ל", "מכתב", "מעטפה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ईम\u{947}ल"),
-			keywords: &["ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल", "स\u{902}चार"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("e-pošta"),
-			keywords: &["e-pošta", "pismo", "pošta"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("e-mail"),
-			keywords: &["e-mail", "email", "levél"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("էլ․ նամակ"),
-			keywords: &["էլփոստ", "էլ․ նամակ", "նամակ", "փոստ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation { lang: "id", tts: Some("email"), keywords: &["email", "surat"] },
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ozi-e"),
-			keywords: &["leta", "ozi", "ozi-e"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("tölvupóstur"),
-			keywords: &["bréf", "póstur", "samskipti", "tölvubréf", "tölvupóstur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("e-mail"),
-			keywords: &[
-				"busta",
-				"comunicazione",
-				"e-mail",
-				"email",
-				"inviare",
-				"lettera",
-				"mail",
-				"posta",
-				"posta elettronica",
-				"ricevere",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("Eメール"),
-			keywords: &["Eメール", "メール", "封筒", "手紙", "郵便", "電子メール"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("email"),
-			keywords: &["e-mail", "email", "layang", "surat"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ელფოსტა"),
-			keywords: &["ელფოსტა", "ფოსტა", "წერილი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("imayl"), keywords: &["imayl"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("электрондық пошта"),
-			keywords: &["пошта", "хат", "электрондық пошта"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("e-mail"),
-			keywords: &["brev", "e-mail", "kommunikation"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("អ\u{17ca}\u{17b8}មែល"),
-			keywords: &["ផ\u{17d2}ញើអ\u{17ca}\u{17b8}មែល", "អ\u{17ca}\u{17b8}មែល"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಇಮ\u{cc7}ಲ\u{ccd}"),
-			keywords: &[
-				"ಇ-ಮ\u{cc7}ಲ\u{ccd}",
-				"ಇಮ\u{cc7}ಲ\u{ccd}",
-				"ಪತ\u{ccd}ರ",
-				"ಮ\u{cc7}ಲ\u{ccd}",
-				"ಲ\u{cc6}ಟರ\u{ccd}",
-				"ಸಂವಹನ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("이메일"),
-			keywords: &["우편", "이메일", "편지"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ईम\u{947}ल"),
-			keywords: &["ई-म\u{947}ल", "ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("эл-кат"),
-			keywords: &["кат", "почта", "эл-кат"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("E-Mail"),
-			keywords: &["Bréif", "E-Mail", "Post"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ອ\u{eb5}ເມວ"),
-			keywords: &["ຈ\u{ebb}ດໝາຍ", "ອ\u{eb5}ເມວ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("el. laiškas"),
-			keywords: &["el. laiškas", "laiškas", "paštas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("e-pasts"),
-			keywords: &["aploksne", "e-pasts", "pasts", "vēstule"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("īmēra"),
-			keywords: &["mēra", "reta", "īmēra"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("е-пошта"),
-			keywords: &["е-пошта", "електронска пошта", "писмо", "пошта"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഇമെയിൽ"),
-			keywords: &["ആശയവിനിമയം", "ഇമെയിൽ", "ചിഹ\u{d4d}നം", "മെയിൽ", "സിംബൽ"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang: "mn", tts: Some("имэйл"), keywords: &["захиа", "имэйл"]
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ई-म\u{947}ल"),
-			keywords: &["ई-म\u{947}ल", "ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल", "स\u{902}वाद"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("e-mel"),
-			keywords: &["e-mel", "mel", "surat"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("posta elettronika"),
-			keywords: &["indirizz elettroniku", "ittra", "posta", "posta elettronika"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အ\u{102e}းမေးလ\u{103a}"),
-			keywords: &["စာ", "အ\u{102e}းမေးလ\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("इम\u{947}ल"),
-			keywords: &["इम\u{947}ल", "चिठ\u{94d}ठी", "म\u{947}ल"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("e-mail"),
-			keywords: &["brief", "e-mail", "mail", "post"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଇମେଲ\u{b4d}\u{200c}"),
-			keywords: &["ଇମେଲ\u{b4d}\u{200c}", "ଚ\u{b3f}ଠ\u{b3e}", "ମେଲ\u{b4d}", "ଯୋଗ\u{b3e}ଯୋଗ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਈ-ਮ\u{a47}ਲ"),
-			keywords: &[
-				"ਈ-ਮ\u{a47}ਲ",
-				"ਈਮ\u{a47}ਲ",
-				"ਖ\u{a71}ਤ",
-				"ਚਿ\u{a71}ਠੀ",
-				"ਮ\u{a47}ਲ",
-				"ਸ\u{a70}ਚਾਰ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ای-میل"),
-			keywords: &["ای میل", "ای-میل", "خط", "میل"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("I-Mel"),
-			keywords: &["I-Mel", "Imel", "Lẹ\u{301}ta", "Mel"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("e-mail"),
-			keywords: &["e-mail", "email", "list", "mail", "poczta elektroniczna"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("برېښناليک"),
-			keywords: &["برېښناليک", "برېښنليک", "ليک", "ميل"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("e-mail"),
-			keywords: &["carta", "comunicação", "correspondência", "e-mail"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["carta", "correio", "correspondência", "e-mail"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("correo electronico"),
-			keywords: &["chasi", "correo electronico", "qillqa"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("e-mail"),
-			keywords: &[
-				"corespondență",
-				"e-mail",
-				"electronic",
-				"email",
-				"mail",
-				"mesaj",
-				"plic",
-				"scrisoare",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-676"), keywords: &["E10-676"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("электронная почта"),
-			keywords: &[
-				"конверт",
-				"письмо",
-				"почта",
-				"сообщение",
-				"электронная почта",
-				"электронное письмо",
-				"электронное сообщение",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("imeyiri"),
-			keywords: &["ibaruwa", "imeyiri", "ubutumwa", "ubutumwa koranabuhanga"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اي-ميل"),
-			keywords: &["اي ميل", "اي-ميل", "خط", "ميل"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ඊ-තැපෑල"),
-			keywords: &["ඊ-තැපෑල", "ඊතැපැල\u{dca}", "තැපැල\u{dca}", "ල\u{dd2}ප\u{dd2}ය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("e-mail"),
-			keywords: &["e-mail", "email", "list", "pošta", "zásielka"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("e-pošta"),
-			keywords: &["e-pošta", "elektronska pošta", "pismo", "pošta"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("iimayl"),
-			keywords: &["boosto", "fariin", "iimayl", "warqad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("email"),
-			keywords: &["email", "letër", "postë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("имејл"),
-			keywords: &["имејл", "пoштa", "писмo"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("imejl"),
-			keywords: &["imejl", "pismo", "pošta"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("e-post"),
-			keywords: &["brev", "e-post", "e-postsymbol", "kommunikation", "mail", "mejl"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("barua pepe"),
-			keywords: &["barua", "barua pepe"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஈமெயில\u{bcd}"),
-			keywords: &[
-				"இமெயில\u{bcd} சின\u{bcd}னம\u{bcd}",
-				"ஈமெயில\u{bcd}",
-				"ஈமெயில\u{bcd} சிம\u{bcd}பல\u{bcd}",
-				"கடிதம\u{bcd}",
-				"தகவல\u{bcd} தொடர\u{bcd}பு",
-				"மின\u{bcd} அஞ\u{bcd}சல\u{bcd}",
-				"மின\u{bcd}னஞ\u{bcd}சல\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఇమ\u{c46}య\u{c3f}ల\u{c4d}"),
-			keywords: &["ఇమ\u{c46}య\u{c3f}ల\u{c4d}", "మ\u{c46}య\u{c3f}ల\u{c4d}", "ల\u{c47}ఖ"],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("почтаи электронӣ"),
-			keywords: &["мактуб", "номаи электронӣ", "почта", "почтаи электронӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("อ\u{e35}เมล"),
-			keywords: &["การส\u{e37}\u{e48}อสาร", "จดหมาย", "อ\u{e35}เมล"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ኢመይል"),
-			keywords: &["ኢ-መይል", "ኢመይል", "ደብዳቤ", "ፖስታ ምልኣኽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("e-poçta"),
-			keywords: &["e-poçta", "hat", "poçta"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("tohila"), keywords: &["tohila"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("e-posta"),
-			keywords: &["e-posta", "ileti", "iletişim", "mektup", "posta"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("تورخەت"),
-			keywords: &["تورخەت", "خەت", "سالام خەت"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("електронний лист"),
-			keywords: &["електронний лист", "елист", "емейл", "епошта", "лист", "пошта", "імейл"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ای میل"),
-			keywords: &["ای میل", "برقی خط", "خط", "پیغام"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("e-pochta"),
-			keywords: &["e-pochta", "email", "xabar", "xat"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation { lang: "vi", tts: Some("email"), keywords: &["email", "thư"] },
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("bataaxalu net"),
-			keywords: &["bataaxal", "bataaxalu net", "imeel"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("i-imeyile"),
-			keywords: &["i-imeyile", "ileta", "iposi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("í-meèlì"),
-			keywords: &["lẹ\u{301}tà", "meèlì", "í-meèlì"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("í-meèlì"),
-			keywords: &["lɛ\u{301}tà", "meèlì", "í-meèlì"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("電郵"),
-			keywords: &["信", "郵件", "電郵"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("电邮"),
-			keywords: &["信", "电邮", "邮件"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("电子邮件"),
-			keywords: &["信件", "信封", "电子邮件", "电邮", "邮件"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("電子郵件"),
-			keywords: &["email", "郵件", "電子郵件"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("電郵"),
-			keywords: &["e-mail", "email", "信件", "郵件", "電子郵件", "電郵"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("i-imeyli"),
-			keywords: &["i-imeyli", "incwadi"],
-		},
-	],
-};
-#[doc = "✉\u{fe0f}"]
-pub const ENVELOPE: crate::Emoji = crate::Emoji {
-	glyph:                "✉\u{fe0f}",
-	codepoint:            &[9993u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "envelope",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📨"]
-pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
-	glyph:                "📨",
-	codepoint:            &[128232u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "incoming envelope",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("inkomende koevert"),
-			keywords: &[
-				"aflewering",
-				"brief",
-				"e-pos",
-				"gestuur",
-				"inkomend",
-				"inkomende koevert",
-				"koevert",
-				"ontvang",
-				"pos",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ገቢ ኤንቨሎፕ"),
-			keywords: &["ተቀበል", "ኢሜይል", "ኤንቬሎፕ", "ደብዳቤ", "ገቢ", "ገቢ ኤንቨሎፕ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("بريد وارد"),
-			keywords: &[
-				"ايميل",
-				"بريد",
-				"بريد إلكتروني",
-				"بريد مستلم",
-				"تواصل",
-				"توصيل",
-				"خطاب",
-				"ظرف",
-				"كمبيوتر",
-				"مرسال",
-				"مرسل",
-				"وارد",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("অন\u{9cd}তৰ\u{9cd}গ\u{9be}মী লেফ\u{9be}ফ\u{9be}"),
-			keywords: &[
-				"অন\u{9cd}তৰ\u{9cd}গ\u{9be}মী",
-				"ই-মেইল",
-				"ইমেইল",
-				"চিঠি",
-				"প\u{9cd}ৰ\u{9be}প\u{9cd}তি",
-				"মেইল",
-				"লেফ\u{9be}ফ\u{9be}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("gələn zərf"),
-			keywords: &[
-				"e-məktub",
-				"e-poçt",
-				"elektron poçt",
-				"gələn",
-				"məktub",
-				"poçt",
-				"qəbul etmək",
-				"zərf",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("уваходны ліст"),
-			keywords: &["атрыманы", "канверт", "пошта", "уваходны", "уваходны ліст", "электронная пошта"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("пристигащ плик"),
-			keywords: &["входящ", "имейл", "плик", "поща", "пристигащ"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("আগত খ\u{9be}ম"),
-			keywords: &["আগত", "ই-মেল", "ইমেল", "খ\u{9be}ম", "গ\u{9cd}রহণ", "চিঠি", "মেল"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("pristigla koverta"),
-			keywords: &["e-mail", "e-poruka", "e-pošta", "pismo", "pristigla koverta", "pristigla pošta"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("sobre que arriba"),
-			keywords: &[
-				"carta",
-				"correu electrònic",
-				"entrada",
-				"enviant",
-				"enviat",
-				"rebre",
-				"recepció",
-				"sobre",
-				"sobre que arriba",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᎷᎩ ᎪᏪᎵ ᎦᎸᏙᏗ"),
-			keywords: &["ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵ", "ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵᎢ", "ᎦᎷᎩ ᎪᏪᎵ ᎦᎸᏙᏗ", "ᎦᏅᎩᏍᏗ", "ᎪᏪᎵ ᎦᎸᏙᏗ", "ᏗᎦᎷᎩ", "ᏗᎪᏪᎵ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("příchozí obálka"),
-			keywords: &[
-				"dopis",
-				"doručená",
-				"doručený",
-				"dostat",
-				"e-mail",
-				"elektronická pošta",
-				"email",
-				"obálka",
-				"odeslaný",
-				"pošta",
-				"psaní",
-				"přijmout",
-				"příchozí",
-				"schránka",
-				"zpráva",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("amlen yn dyfod i mewn"),
-			keywords: &["amlen", "amlen yn dyfod i mewn", "derbyn", "e-bost", "llythyr"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("indgående post"),
-			keywords: &[
-				"brev",
-				"e-mail",
-				"indgående post",
-				"konvolut",
-				"modtag",
-				"modtaget post",
-				"post",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("eingehender Briefumschlag"),
-			keywords: &["E-Mail", "Umschlag", "eingehender Briefumschlag", "empfangen"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("εισερχόμενος φάκελος"),
-			keywords: &[
-				"e-mail",
-				"email",
-				"απεσταλμένο",
-				"γράμμα",
-				"εισερχόμενα",
-				"εισερχόμενος φάκελος",
-				"επιστολή",
-				"ηλεκτρονική αλληλογραφία",
-				"λήψη",
-				"λαμβάνω",
-				"μέιλ",
-				"φάκελος",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("incoming envelope"),
-			keywords: &[
-				"delivering",
-				"e-mail",
-				"email",
-				"envelope",
-				"incoming",
-				"letter",
-				"mail",
-				"receive",
-				"sent",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("sobre entrante"),
-			keywords: &[
-				"carta",
-				"comunicación",
-				"correo",
-				"correo electrónico",
-				"sobre",
-				"sobre entrante",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("mensaje entrante"),
-			keywords: &[
-				"carta",
-				"comunicación",
-				"correo",
-				"correo entrante",
-				"electrónico",
-				"mensaje",
-				"mensaje entrante",
-				"recibido",
-				"sobre",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"carta",
-				"correo electrónico",
-				"mensaje",
-				"mensaje entrante",
-				"recibido",
-				"sobre",
-			],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"carta",
-				"correo electrónico",
-				"mensaje",
-				"mensaje entrante",
-				"recibido",
-				"sobre",
-			],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("sissetulev ümbrik"),
-			keywords: &["e-post", "kiri", "meil", "sissetulev ümbrik", "ümbrik"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("sarrerako gutun-azala"),
-			keywords: &[
-				"gutun-azala",
-				"gutuna",
-				"jaso",
-				"mezu elektronikoa",
-				"posta elektronikoa",
-				"sarrerako gutun-azala",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("پاکت نامه\u{654} ورودی"),
-			keywords: &[
-				"ایمیل",
-				"دریافت",
-				"نامه",
-				"ورودی",
-				"پاکت نامه",
-				"پاکت نامه ورودی",
-				"پاکت نامه\u{654} ورودی",
-				"پست",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("saapuva kirjekuori"),
-			keywords: &[
-				"e-mail",
-				"saapuva",
-				"saapuva kirjekuori",
-				"sähköposti",
-				"sähköpostiviesti",
-				"viesti",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("papasok na sobre"),
-			keywords: &[
-				"e-mail",
-				"email",
-				"incoming",
-				"natanggap",
-				"papasok",
-				"papasok na sobre",
-				"sobre",
-				"sulat",
-				"tanggap",
-				"tumanggap",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("innkomandi brævbjálvi"),
-			keywords: &[
-				"bræv",
-				"brævbjálvi",
-				"innkomandi",
-				"komandi",
-				"postur",
-				"t-postur",
-				"teldupostur",
-			],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("message reçu"),
-			keywords: &[
-				"courriel",
-				"courrier",
-				"courrier électronique",
-				"e-mail",
-				"enveloppe",
-				"envoyer",
-				"lettre",
-				"message",
-				"message reçu",
-				"message électronique",
-				"recevoir",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("post isteach"),
-			keywords: &[
-				"clúdach litreach",
-				"isteach",
-				"litir",
-				"post faighte",
-				"post isteach",
-				"ríomhphost",
-				"seolta",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cèis a-steach"),
-			keywords: &["a-steach", "cèis", "faighinn", "litir", "post", "post-d"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("correo entrante"),
-			keywords: &["correo", "correo electrónico", "correo entrante", "recibido", "sobre"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("આવનારી મ\u{ac7}ઇલ"),
-			keywords: &[
-				"આવનારી",
-				"ઇમ\u{ac7}ઇલ",
-				"પત\u{acd}ર",
-				"પરબીડિય\u{ac1}\u{a82}",
-				"પ\u{acd}રાપ\u{acd}ત મ\u{ac7}ઇલ",
-				"મ\u{ac7}ઇલ",
-				"સ\u{a82}ચાર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("ambulo mai shigowa"),
-			keywords: &[
-				"ambulan",
-				"ambulo",
-				"ambulo mai shigowa",
-				"imel",
-				"karɓa",
-				"mai shigowa",
-				"saƙo",
-				"saƙon ambulan",
-				"wasiƙa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("ambulo mai shigowa"),
-			keywords: &[
-				"ambulan",
-				"ambulo",
-				"ambulo mai shigowa",
-				"imel",
-				"karɓa",
-				"mai shigowa",
-				"saƙo",
-				"saƙon ambulan",
-				"wasiƙa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מעטפה נכנסת"),
-			keywords: &["אימייל", "דואר", "דוא״ל נכנס", "מכתב", "מעטפה", "מעטפה נכנסת", "נכנס", "קבלה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("इनकमि\u{902}ग लिफ\u{93c}ाफ\u{93c}ा"),
-			keywords: &[
-				"आवक",
-				"इनकमि\u{902}ग",
-				"इनकमि\u{902}ग लिफ\u{93c}ाफ\u{93c}ा",
-				"ईम\u{947}ल",
-				"पत\u{94d}र",
-				"म\u{947}ल",
-				"लिफाफा",
-				"स\u{902}चार",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("omotnica dolazne pošte"),
-			keywords: &["dolazno", "e-pošta", "omotnica", "omotnica dolazne pošte", "pismo", "primanje"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("beérkező boríték"),
-			keywords: &[
-				"bejövő",
-				"beérkező",
-				"boríték",
-				"e-mail",
-				"fogadás",
-				"kézbesíteni",
-				"küldött",
-				"levél",
-				"posta",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ստացվող ծրար"),
-			keywords: &["էլփոստ", "ծրար", "նամակ", "ստանալ", "ստացվող", "փոստ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("amplop datang"),
-			keywords: &["amplop", "amplop datang", "email", "kotak surat", "masuk", "surat", "terima"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("emvelop na-abị abịa"),
-			keywords: &[
-				"emvelop",
-				"emvelop na-abị abịa",
-				"leta",
-				"meelu",
-				"na-abata abata",
-				"nata",
-				"ozi",
-				"ozi-e",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("póstur á innleið"),
-			keywords: &["bréf", "móttekið", "póstur", "póstur á innleið", "tölvupóstur", "umslag"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("posta in arrivo"),
-			keywords: &[
-				"busta",
-				"comunicazione",
-				"consegna",
-				"consegnare",
-				"e-mail",
-				"email",
-				"in arrivo",
-				"lettera",
-				"mail",
-				"posta",
-				"posta in arrivo",
-				"posta ricevuta",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("メール受信中"),
-			keywords: &["Eメール", "メール受信中", "受信中", "受信箱", "封筒", "手紙", "電子メール"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("amplop layang teka"),
-			keywords: &["amplop", "amplop layang teka", "e-mail", "email", "katampa", "layang teka"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("შემოსული კონვერტი"),
-			keywords: &["ელ. ფოსტა", "ელფოსტა", "კონვერტი", "მიღება", "ფოსტა", "შემოსული", "წერილი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("izen ukcim"), keywords: &["izen ukcim"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("келген конверт"),
-			keywords: &["келген конверт", "конверт", "кіріс", "хат", "эл. пошта", "электрондық пошта"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("indgående post"),
-			keywords: &["e-mail", "indgående post", "modtaget post"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រហោះមកដល\u{17cb}"),
-			keywords: &[
-				"ច\u{17bc}ល",
-				"ទទ\u{17bd}ល",
-				"ស\u{17c6}ប\u{17bb}ត\u{17d2}រ",
-				"ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រ",
-				"ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រហោះមកដល\u{17cb}",
-				"អ\u{17ca}\u{17b8}មែល",
-				"អ\u{17ca}\u{17b8}ម\u{17c9}ែល",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಒಳಬರುವ ಲಕ\u{ccb}ಟ\u{cc6}"),
-			keywords: &[
-				"ಅಂಚ\u{cc6}",
-				"ಇ-ಮ\u{cc7}ಲ\u{ccd}",
-				"ಇಮ\u{cc7}ಲ\u{ccd}",
-				"ಎನ\u{ccd}\u{200c}ವಲಪ\u{ccd}",
-				"ಒಳಬರುವ",
-				"ಒಳಬರುವ ಲಕ\u{ccb}ಟ\u{cc6}",
-				"ಪತ\u{ccd}ರ",
-				"ಮ\u{cc7}ಲ\u{ccd}",
-				"ಸಂವಹನ",
-				"ಸ\u{ccd}ವ\u{cc0}ಕರ\u{cbf}ಸ\u{cbf}ದ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("받은 편지"),
-			keywords: &["받은", "봉투", "수신된 이메일", "수신된 편지", "이메일", "편지"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("य\u{947}वपी एन\u{94d}वालॉप"),
-			keywords: &[
-				"ई-म\u{947}ल",
-				"ईम\u{947}ल",
-				"एन\u{94d}वालॉप य\u{947}वपी",
-				"पत\u{94d}र",
-				"म\u{947}ळप",
-				"य\u{947}वपी एन\u{94d}वालॉप",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("кирүүчү конверт"),
-			keywords: &["алуу", "кат", "кирүүчү", "конверт", "эл-кат"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("antreffende Bréif"),
-			keywords: &[
-				"Bréif",
-				"E-Mail",
-				"Enveloppe",
-				"Post",
-				"antreffend",
-				"antreffende Bréif",
-				"emailen",
-				"empfänken",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຈ\u{ebb}ດໝາຍເຂ\u{ebb}\u{ec9}າ"),
-			keywords: &[
-				"ການສ\u{eb7}\u{ec8}ສານ",
-				"ຈ\u{ebb}ດໝາຍ",
-				"ຈ\u{ebb}ດໝາຍເຂ\u{ebb}\u{ec9}າ",
-				"ສ\u{ebb}\u{ec8}ງຈ\u{ebb}ດໝາຍ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("gaunamas vokas"),
-			keywords: &[
-				"el. laiškas",
-				"gaunamas laiškas",
-				"gaunamas vokas",
-				"gavimas",
-				"laiškas",
-				"paštas",
-				"vokas",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("ienākoša aploksne"),
-			keywords: &["aploksne", "e-pasts", "ienākoša aploksne", "saņemt", "vēstule"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kōpaki taumai"),
-			keywords: &[
-				"kōpaki",
-				"kōpaki taumai",
-				"mēra",
-				"reta",
-				"tau mai",
-				"whiwhi",
-				"ī-mēra",
-				"īmēra",
-			],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("плик што пристигнува"),
-			keywords: &[
-				"доставува",
-				"дојдовна",
-				"е-пошта",
-				"електронска пошта",
-				"испорачува",
-				"испратено",
-				"писмо",
-				"плик што пристигнува",
-				"плико што пристигнува",
-				"пошта",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഇൻകമിംഗ\u{d4d} എൻവലപ\u{d4d}പ\u{d4d}"),
-			keywords: &[
-				"ആശയവിനിമയം",
-				"ഇമെയിൽ",
-				"ഇൻകമിംഗ\u{d4d}",
-				"ഇൻകമിംഗ\u{d4d} എൻവലപ\u{d4d}പ\u{d4d}",
-				"മെയിൽ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ирж буй дугтуй"),
-			keywords: &[
-				"дугтуй",
-				"захиа",
-				"имэйл",
-				"ирж буй",
-				"ирж буй дугтуй",
-				"хүлээж авах",
-				"электрон имэйл",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("य\u{947}णारा लिफाफा"),
-			keywords: &[
-				"ई-म\u{947}ल",
-				"ईम\u{947}ल",
-				"पत\u{94d}र",
-				"प\u{94d}राप\u{94d}त करा",
-				"प\u{94d}राप\u{94d}त म\u{947}ल",
-				"म\u{947}ल",
-				"य\u{947}णारा",
-				"य\u{947}णार\u{947}",
-				"लिफाफा",
-				"स\u{902}वाद",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("sampul surat masuk"),
-			keywords: &[
-				"e-mel",
-				"emel",
-				"masuk",
-				"mel",
-				"sampul surat",
-				"sampul surat masuk",
-				"surat",
-				"terima",
-			],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("envelop dieħel"),
-			keywords: &[
-				"deħlin",
-				"envelop",
-				"envelop dieħel",
-				"indirizz elettroniku",
-				"ittra",
-				"jirċievu",
-				"posta",
-				"posta elettronika",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("အဝင\u{103a} စာအ\u{102d}တ\u{103a}"),
-			keywords: &[
-				"စာလက\u{103a}ခ\u{1036}",
-				"စာအ\u{102d}တ\u{103a}",
-				"ဝင\u{103a}စာ",
-				"အဝင\u{103a} စာအ\u{102d}တ\u{103a}",
-				"အ\u{102e}းမေးလ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("आगमन खाम"),
-			keywords: &["आगमन", "इम\u{947}ल", "खाम", "चिठ\u{94d}ठी", "प\u{94d}राप\u{94d}त", "म\u{947}ल"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("inkomende post"),
-			keywords: &[
-				"binnengekomen",
-				"brief",
-				"e-mail",
-				"elektronische post",
-				"envelop",
-				"inkomend",
-				"inkomende post",
-				"mail",
-				"ontvangen",
-				"post",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("innkomande konvolutt"),
-			keywords: &["brev", "e-post", "epost", "få", "innkomande", "konvolutt"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଆଗମନ ଲଫ\u{b3e}ଫ\u{b3e}"),
-			keywords: &[
-				"ଆଗମନ ଲଫ\u{b3e}ଫ\u{b3e}",
-				"ଆସ\u{b41}ଥ\u{b3f}ବ\u{b3e}",
-				"ଇ-ମେଲ",
-				"ଇମେଲ",
-				"ଗ\u{b4d}ରହଣକର\u{b3f}ବ\u{b3e}",
-				"ଚ\u{b3f}ଠ\u{b3f}ପତ\u{b4d}ର",
-				"ଲଫ\u{b3e}ପ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਆ ਰਿਹਾ ਲਿਫਾਫ\u{a3c}ਾ"),
-			keywords: &[
-				"ਆ ਰਿਹਾ ਲਿਫਾਫ\u{a3c}ਾ",
-				"ਆਉਣਾ",
-				"ਈ-ਮ\u{a47}ਲ",
-				"ਖ\u{a3c}ਤ",
-				"ਖ\u{a71}ਤ",
-				"ਚਿ\u{a71}ਠੀ",
-				"ਡਾਕ",
-				"ਪ\u{a4d}ਰਾਪਤ ਕੀਤਾ ਮ\u{a47}ਲ",
-				"ਮ\u{a47}ਲ",
-				"ਲਿਫਾਫਾ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("آن آلا لفافہ"),
-			keywords: &["آن آلا لفافہ", "آن آلے", "ای میل", "ای-میل", "خط", "لفافہ", "میل", "وصول کرنا"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Ínkọ\u{301}mín Ẹ\u{301}nvẹ\u{301}lop"),
-			keywords: &[
-				"I-mel",
-				"Imel",
-				"Lẹ\u{301}ta",
-				"Risiv",
-				"Ínkọ\u{301}mín",
-				"Ẹ\u{301}nvẹ\u{301}lop",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("koperta przychodząca"),
-			keywords: &[
-				"e-mail",
-				"email",
-				"koperta",
-				"list",
-				"mail",
-				"poczta",
-				"przychodząca",
-				"wiadomość",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("راتلونکی لفافه"),
-			keywords: &["برېښناليک", "ترلاسه کول", "راتلونکی", "راتلونکی لفافه", "ليک"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("envelope chegando"),
-			keywords: &[
-				"carta",
-				"chegando",
-				"comunicação",
-				"correspondência",
-				"e-mail",
-				"envelope",
-				"nova",
-				"recebida",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("envelope a chegar"),
-			keywords: &[
-				"carta",
-				"chegada",
-				"correio",
-				"correspondência",
-				"e-mail",
-				"email",
-				"envelope",
-				"envelope a chegar",
-				"receber",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("yaykumuq carta"),
-			keywords: &["carta", "chakiy", "correo electronico", "yaykumuq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("sosire plic"),
-			keywords: &[
-				"e-mail",
-				"email",
-				"mail",
-				"mesaj",
-				"plic",
-				"poștă",
-				"primit",
-				"recepționat",
-				"scrisoare",
-				"sosire",
-				"trimis",
-				"trimit",
-				"vine",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-677"), keywords: &["E10-677"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("входящее письмо"),
-			keywords: &[
-				"входящее",
-				"конверт",
-				"письмо",
-				"получение",
-				"почта",
-				"сообщение",
-				"электронное",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("ibahasha ije"),
-			keywords: &[
-				"ibahasha",
-				"ibahasha ije",
-				"ibaruwa",
-				"kohereza ubutumwa koranabuhanga",
-				"kwakira",
-				"ubutumwa",
-				"ubutumwa koranabuhanga",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ايندڙ لفافو"),
-			keywords: &["اي ميل", "ايندڙ", "خط", "لفافو", "ميل", "وٺڻ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ලැබෙන ල\u{dd2}ය\u{dd4}ම"),
-			keywords: &[
-				"ඊ-තැපැල\u{dca}",
-				"ඊතැපැල\u{dca}",
-				"එන තැපැල\u{dca}",
-				"ලැබ\u{dd3}ම",
-				"ලැබෙන ල\u{dd2}ය\u{dd4}ම",
-				"ල\u{dd2}ය\u{dd4}ම\u{dca} කවරය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("obálka s prichádzajúcou poštou"),
-			keywords: &[
-				"doručená",
-				"e-mail",
-				"email",
-				"list",
-				"obálka",
-				"obálka prichádzajúcej pošty",
-				"obálka s prichádzajúcou poštou",
-				"pošta",
-				"prichádzajúca",
-				"prijať",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("dohodna ovojnica"),
-			keywords: &[
-				"dohodna ovojnica",
-				"dohodno",
-				"e-pošta",
-				"elektronska pošta",
-				"pismo",
-				"pošta",
-				"prejeti",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("baqshad timi"),
-			keywords: &["baqshad", "fariin", "helid", "iimayl", "timi", "warqad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("zarf në ardhje"),
-			keywords: &[
-				"dorëzim",
-				"email",
-				"marr",
-				"në ardhje",
-				"postë elektronike",
-				"zarf",
-				"zarf në ardhje",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("коверта која стиже"),
-			keywords: &[
-				"дoлaзнo",
-				"долазно",
-				"имејл",
-				"коверта",
-				"коверта која стиже",
-				"пoштa",
-				"писмo",
-				"писмо",
-				"примaњe",
-			],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("koverta koja stiže"),
-			keywords: &[
-				"dolazno",
-				"imejl",
-				"koverta",
-				"koverta koja stiže",
-				"pismo",
-				"pošta",
-				"primanje",
-			],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("inkommande brev"),
-			keywords: &["e-post", "inkommande brev", "kommunikation", "kuvert", "mottaget brev"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("bahasha inayoingia"),
-			keywords: &["bahasha", "barua", "barua pepe", "inayoingia", "pokea"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பெற\u{bcd}ற மெயில\u{bcd}"),
-			keywords: &[
-				"அஞ\u{bcd}சல\u{bcd}",
-				"இ-கடிதம\u{bcd}",
-				"கடித உறை",
-				"கடிதம\u{bcd}",
-				"பெறப\u{bcd}பட\u{bcd}ட அஞ\u{bcd}சல\u{bcd}",
-				"பெற\u{bcd}ற மெயில\u{bcd}",
-				"மின\u{bcd}னஞ\u{bcd}சல\u{bcd}",
-				"மின\u{bcd}னணு அஞ\u{bcd}சல\u{bcd}",
-				"வந\u{bcd}த மெயில\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఎన\u{c4d}వలప\u{c4d} ర\u{c3e}వడం"),
-			keywords: &[
-				"ఇ-మ\u{c46}య\u{c3f}ల\u{c4d}",
-				"ఇన\u{c4d}వ\u{c46}ల\u{c4b}ప\u{c4d}",
-				"ఇన\u{c4d}\u{200c}కమ\u{c3f}ంగ\u{c4d}",
-				"ఇమ\u{c46}య\u{c3f}ల\u{c4d}",
-				"ఎన\u{c4d}వలప\u{c4d}",
-				"ఎన\u{c4d}వలప\u{c4d} ర\u{c3e}వడం",
-				"డ\u{c46}ల\u{c3f}వ\u{c46}ర\u{c3f}ంగ\u{c4d}",
-				"మ\u{c46}య\u{c3f}ల\u{c4d}",
-				"ల\u{c46}టర\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("лифофаи воридотӣ"),
-			keywords: &[
-				"воридшаванда",
-				"лифофа",
-				"лифофаи воридотӣ",
-				"мактуб",
-				"номаи электронӣ",
-				"почта",
-				"почтаи электронӣ",
-				"қабул кардан",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("จดหมายเข\u{e49}า"),
-			keywords: &["การส\u{e37}\u{e48}อสาร", "จดหมาย", "จดหมายเข\u{e49}า"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዝኣቱ ፖስታ"),
-			keywords: &["ምቕባል", "ምብጻሕ", "ተላኢኹ", "ኢ-መይል", "ኢመይል", "ዝኣቱ", "ደብዳቤ", "ፖስታ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gelýän konwert"),
-			keywords: &[
-				"almak",
-				"e-poçta",
-				"elektron poçta",
-				"gelen",
-				"gelýän konwert",
-				"hat",
-				"konwert",
-			],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("sila hūmai"), keywords: &["sila hūmai"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("gelen zarf"),
-			keywords: &["alınan posta", "e-posta", "gelen", "iletişim", "mektup", "posta", "zarf"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("كەلگەن خەت"),
-			keywords: &["ئېلخەت", "تاپشۇرۇۋېلىش", "تورخەت", "خەت", "سالامخەت", "كونۋېرت", "كەلگەن"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("конверт вхідного листа"),
-			keywords: &[
-				"вхідний",
-				"емейл",
-				"конверт",
-				"конверт вхідного листа",
-				"лист",
-				"отримати",
-				"пошта",
-				"імейл",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("آتا ہوا لفافہ"),
-			keywords: &[
-				"آتا ہوا لفافہ",
-				"آلہ",
-				"ابلاغ",
-				"ای میل",
-				"برقی خط",
-				"خط",
-				"لفافہ",
-				"وصولی",
-				"پیغام",
-				"ڈاک",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("kiruvchi konvert"),
-			keywords: &["e-pochta", "email", "kiruvchi", "konvert", "pochta", "qabul qilish", "xat"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("phong bì thư đến"),
-			keywords: &["email", "nhận", "phong bì", "phong bì thư đến", "thư", "thư đến"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("mbaru-bataaxal biy ñëw"),
-			keywords: &[
-				"bataaxal",
-				"buy ñëw",
-				"imeel",
-				"jot",
-				"mbaru-bataaxal",
-				"mbaru-bataaxal biy ñëw",
-			],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("imvulophu engenayo"),
-			keywords: &["engenayo", "fumana", "i-imeyile", "ileta", "imvulophu", "iposi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("apo iwe ti o nbọ"),
-			keywords: &[
-				"apo iwe ti o nbọ",
-				"lẹ\u{301}tá",
-				"meèlì",
-				"àpò ìwé",
-				"ìgbàwọlé",
-				"ìwọlé",
-				"í-meèlì",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("apo iwe ti o nbɔ"),
-			keywords: &[
-				"apo iwe ti o nbɔ",
-				"lɛ\u{301}tá",
-				"meèlì",
-				"àpò ìwé",
-				"ìgbàwɔlé",
-				"ìwɔlé",
-				"í-meèlì",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("收到嘅信封"),
-			keywords: &["來", "信", "信封", "接收", "收到嘅信封", "郵件", "電子郵件"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("收到嘅信封"),
-			keywords: &["信", "信封", "接收", "收到嘅信封", "来", "电子邮件", "邮件"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("来信"),
-			keywords: &[
-				"信件",
-				"信封",
-				"发送",
-				"接收",
-				"收信",
-				"收到来信",
-				"收到邮件",
-				"来信",
-				"电子邮件",
-				"电邮",
-				"邮件",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("收到郵件"),
-			keywords: &["信件", "信封", "接收", "收到郵件", "送信", "郵件"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("來信"),
-			keywords: &[
-				"e-mail",
-				"email",
-				"來信",
-				"信",
-				"信封",
-				"接收",
-				"收件箱",
-				"收信",
-				"發送",
-				"郵件",
-				"電子郵件",
-				"電郵",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("imvilophu engenayo"),
-			keywords: &[
-				"i-imeyli",
-				"imvilophu",
-				"imvilophu engenayo",
-				"incwadi",
-				"okungenayo",
-				"ukwamukela",
-			],
-		},
-	],
-};
 #[doc = "📩"]
 pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
 	glyph:                "📩",
@@ -3733,45 +1595,6 @@ pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "📫\u{fe0f}"]
-pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
-	glyph:                "📫\u{fe0f}",
-	codepoint:            &[128235u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "closed mailbox with raised flag",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📪\u{fe0f}"]
-pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
-	glyph:                "📪\u{fe0f}",
-	codepoint:            &[128234u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "closed mailbox with lowered flag",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📬\u{fe0f}"]
-pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
-	glyph:                "📬\u{fe0f}",
-	codepoint:            &[128236u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "open mailbox with raised flag",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Mail,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "📭\u{fe0f}"]
 pub const OPEN_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
 	glyph:                "📭\u{fe0f}",
@@ -4526,4 +2349,2181 @@ pub const POSTBOX: crate::Emoji = crate::Emoji {
 			keywords: &["ibhokisi leposi", "iposi"],
 		},
 	],
+};
+#[doc = "📫\u{fe0f}"]
+pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
+	glyph:                "📫\u{fe0f}",
+	codepoint:            &[128235u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "closed mailbox with raised flag",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📪\u{fe0f}"]
+pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
+	glyph:                "📪\u{fe0f}",
+	codepoint:            &[128234u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "closed mailbox with lowered flag",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📬\u{fe0f}"]
+pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
+	glyph:                "📬\u{fe0f}",
+	codepoint:            &[128236u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "open mailbox with raised flag",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📧"]
+pub const E_MAIL: crate::Emoji = crate::Emoji {
+	glyph:                "📧",
+	codepoint:            &[128231u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "e-mail",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("e-pos"),
+			keywords: &["brief", "e-pos", "koevert", "pos", "slakkepos", "vonkpos"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ኢሜይል"),
+			keywords: &["ኢሜይል", "ደብዳቤ", "ፖስታ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("بريد إلكتروني"),
+			keywords: &["ايميل", "بريد", "بريد إلكتروني", "تواصل", "خطاب", "رسالة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ই-মেইল"),
+			keywords: &["ই-মেইল", "ইমেইল", "চিঠি", "মেইল"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("e-poçt"),
+			keywords: &["e-məktub", "e-poçt", "məktub", "poçt"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("электронны ліст"),
+			keywords: &["ліст", "пошта", "электронная пошта", "электронны ліст"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("имейл"),
+			keywords: &["имейл", "писмо", "поща"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ই-মেল"),
+			keywords: &["ই-মেল", "ইমেল", "চিঠি", "মেল"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("postel"),
+			keywords: &["golo", "golo-lizher", "lizher", "postel"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("e-pošta"),
+			keywords: &["e-mail", "e-pošta", "pošta"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("correu electrònic"),
+			keywords: &["carta", "correu", "electrònic", "mail"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄄-𑄟𑄬\u{1112d}𑄣\u{11134}"),
+			keywords: &["𑄄-𑄟𑄬\u{1112d}𑄣\u{11134}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᎾᎦᎵᏍᎩ ᎪᏪᎸ"),
+			keywords: &["ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵ", "ᎠᎾᎦᎵᏍᎩ ᎪᏪᎸ", "ᎪᏪᎵ", "ᏗᎪᏪᎵ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("e-mail"),
+			keywords: &[
+				"dopis",
+				"e-mail",
+				"elektronická pošta",
+				"email",
+				"odeslat",
+				"poslat",
+				"pošta",
+				"zpráva",
+				"zásilka",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("e-bost"),
+			keywords: &["e-bost", "llythyren", "post"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("mail"),
+			keywords: &["brev", "e-mail", "kommunikation", "mail"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("E-Mail"),
+			keywords: &["Brief", "E-Mail", "E-Mail-Symbol", "Post"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("email"),
+			keywords: &["email", "γράμμα", "επιστολή", "μέιλ"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("e-mail"),
+			keywords: &["e-mail", "email", "letter", "mail"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("correo electrónico"),
+			keywords: &["comunicación", "correo", "correo electrónico", "sobre"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["carta", "comunicación", "correo", "e-mail", "electrónico", "email", "sobre"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["comunicación", "correo", "electrónico", "email"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["carta", "correo electrónico", "e-mail", "email", "mail", "sobre"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("meilisõnum"),
+			keywords: &["kiri", "meil", "meilisõnum", "ümbrik"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("mezu elektronikoa"),
+			keywords: &["elektroniko", "mezu", "mezu elektronikoa", "posta"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ایمیل"),
+			keywords: &["ایمیل", "میل", "نامه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("sähköposti"),
+			keywords: &["e-mail", "email", "kirje", "sähköposti", "sähköpostiviesti", "viesti"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("e-mail"),
+			keywords: &["e-mail", "email", "koreo", "sulat"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("teldupostur"),
+			keywords: &["bræv", "postur", "t-postur", "teldupostur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("e-mail"),
+			keywords: &["courriel", "courrier électronique", "e-mail", "lettre", "message"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("courriel"),
+			keywords: &["courriel", "courrier", "lettre"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("ríomhphost"),
+			keywords: &[
+				"clúdach litreach",
+				"litir",
+				"post",
+				"ríomhphoist",
+				"ríomhphost",
+				"scéala",
+				"teachtaireacht",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("post-d"),
+			keywords: &["litir", "post", "post-d"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("correo electrónico"),
+			keywords: &["correo e.", "correo electrónico"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ઇમ\u{ac7}ઇલ"),
+			keywords: &["ઇમ\u{ac7}ઇલ", "ટપાલ", "પત\u{acd}ર", "મ\u{ac7}ઇલ", "સ\u{a82}ચાર"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("imel"),
+			keywords: &["imel", "saƙo", "saƙo intanet", "wasiƙa"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("imel"),
+			keywords: &["imel", "saƙo", "saƙo intanet", "wasiƙa"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("אימייל"),
+			keywords: &["אימייל", "דואר", "דואר אלקטרוני", "דוא״ל", "מכתב", "מעטפה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ईम\u{947}ल"),
+			keywords: &["ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल", "स\u{902}चार"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("e-pošta"),
+			keywords: &["e-pošta", "pismo", "pošta"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("e-mail"),
+			keywords: &["e-mail", "email", "levél"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("էլ․ նամակ"),
+			keywords: &["էլփոստ", "էլ․ նամակ", "նամակ", "փոստ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation { lang: "id", tts: Some("email"), keywords: &["email", "surat"] },
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ozi-e"),
+			keywords: &["leta", "ozi", "ozi-e"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("tölvupóstur"),
+			keywords: &["bréf", "póstur", "samskipti", "tölvubréf", "tölvupóstur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("e-mail"),
+			keywords: &[
+				"busta",
+				"comunicazione",
+				"e-mail",
+				"email",
+				"inviare",
+				"lettera",
+				"mail",
+				"posta",
+				"posta elettronica",
+				"ricevere",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("Eメール"),
+			keywords: &["Eメール", "メール", "封筒", "手紙", "郵便", "電子メール"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("email"),
+			keywords: &["e-mail", "email", "layang", "surat"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ელფოსტა"),
+			keywords: &["ელფოსტა", "ფოსტა", "წერილი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("imayl"), keywords: &["imayl"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("электрондық пошта"),
+			keywords: &["пошта", "хат", "электрондық пошта"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("e-mail"),
+			keywords: &["brev", "e-mail", "kommunikation"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("អ\u{17ca}\u{17b8}មែល"),
+			keywords: &["ផ\u{17d2}ញើអ\u{17ca}\u{17b8}មែល", "អ\u{17ca}\u{17b8}មែល"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಇಮ\u{cc7}ಲ\u{ccd}"),
+			keywords: &[
+				"ಇ-ಮ\u{cc7}ಲ\u{ccd}",
+				"ಇಮ\u{cc7}ಲ\u{ccd}",
+				"ಪತ\u{ccd}ರ",
+				"ಮ\u{cc7}ಲ\u{ccd}",
+				"ಲ\u{cc6}ಟರ\u{ccd}",
+				"ಸಂವಹನ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("이메일"),
+			keywords: &["우편", "이메일", "편지"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("ईम\u{947}ल"),
+			keywords: &["ई-म\u{947}ल", "ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("эл-кат"),
+			keywords: &["кат", "почта", "эл-кат"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("E-Mail"),
+			keywords: &["Bréif", "E-Mail", "Post"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ອ\u{eb5}ເມວ"),
+			keywords: &["ຈ\u{ebb}ດໝາຍ", "ອ\u{eb5}ເມວ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("el. laiškas"),
+			keywords: &["el. laiškas", "laiškas", "paštas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("e-pasts"),
+			keywords: &["aploksne", "e-pasts", "pasts", "vēstule"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("īmēra"),
+			keywords: &["mēra", "reta", "īmēra"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("е-пошта"),
+			keywords: &["е-пошта", "електронска пошта", "писмо", "пошта"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഇമെയിൽ"),
+			keywords: &["ആശയവിനിമയം", "ഇമെയിൽ", "ചിഹ\u{d4d}നം", "മെയിൽ", "സിംബൽ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang: "mn", tts: Some("имэйл"), keywords: &["захиа", "имэйл"]
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ई-म\u{947}ल"),
+			keywords: &["ई-म\u{947}ल", "ईम\u{947}ल", "पत\u{94d}र", "म\u{947}ल", "स\u{902}वाद"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("e-mel"),
+			keywords: &["e-mel", "mel", "surat"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("posta elettronika"),
+			keywords: &["indirizz elettroniku", "ittra", "posta", "posta elettronika"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အ\u{102e}းမေးလ\u{103a}"),
+			keywords: &["စာ", "အ\u{102e}းမေးလ\u{103a}"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("इम\u{947}ल"),
+			keywords: &["इम\u{947}ल", "चिठ\u{94d}ठी", "म\u{947}ल"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("e-mail"),
+			keywords: &["brief", "e-mail", "mail", "post"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଇମେଲ\u{b4d}\u{200c}"),
+			keywords: &["ଇମେଲ\u{b4d}\u{200c}", "ଚ\u{b3f}ଠ\u{b3e}", "ମେଲ\u{b4d}", "ଯୋଗ\u{b3e}ଯୋଗ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਈ-ਮ\u{a47}ਲ"),
+			keywords: &[
+				"ਈ-ਮ\u{a47}ਲ",
+				"ਈਮ\u{a47}ਲ",
+				"ਖ\u{a71}ਤ",
+				"ਚਿ\u{a71}ਠੀ",
+				"ਮ\u{a47}ਲ",
+				"ਸ\u{a70}ਚਾਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ای-میل"),
+			keywords: &["ای میل", "ای-میل", "خط", "میل"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("I-Mel"),
+			keywords: &["I-Mel", "Imel", "Lẹ\u{301}ta", "Mel"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("e-mail"),
+			keywords: &["e-mail", "email", "list", "mail", "poczta elektroniczna"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("برېښناليک"),
+			keywords: &["برېښناليک", "برېښنليک", "ليک", "ميل"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("e-mail"),
+			keywords: &["carta", "comunicação", "correspondência", "e-mail"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["carta", "correio", "correspondência", "e-mail"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("correo electronico"),
+			keywords: &["chasi", "correo electronico", "qillqa"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("e-mail"),
+			keywords: &[
+				"corespondență",
+				"e-mail",
+				"electronic",
+				"email",
+				"mail",
+				"mesaj",
+				"plic",
+				"scrisoare",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-676"), keywords: &["E10-676"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("электронная почта"),
+			keywords: &[
+				"конверт",
+				"письмо",
+				"почта",
+				"сообщение",
+				"электронная почта",
+				"электронное письмо",
+				"электронное сообщение",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("imeyiri"),
+			keywords: &["ibaruwa", "imeyiri", "ubutumwa", "ubutumwa koranabuhanga"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اي-ميل"),
+			keywords: &["اي ميل", "اي-ميل", "خط", "ميل"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ඊ-තැපෑල"),
+			keywords: &["ඊ-තැපෑල", "ඊතැපැල\u{dca}", "තැපැල\u{dca}", "ල\u{dd2}ප\u{dd2}ය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("e-mail"),
+			keywords: &["e-mail", "email", "list", "pošta", "zásielka"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("e-pošta"),
+			keywords: &["e-pošta", "elektronska pošta", "pismo", "pošta"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("iimayl"),
+			keywords: &["boosto", "fariin", "iimayl", "warqad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("email"),
+			keywords: &["email", "letër", "postë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("имејл"),
+			keywords: &["имејл", "пoштa", "писмo"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("imejl"),
+			keywords: &["imejl", "pismo", "pošta"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("e-post"),
+			keywords: &["brev", "e-post", "e-postsymbol", "kommunikation", "mail", "mejl"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("barua pepe"),
+			keywords: &["barua", "barua pepe"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஈமெயில\u{bcd}"),
+			keywords: &[
+				"இமெயில\u{bcd} சின\u{bcd}னம\u{bcd}",
+				"ஈமெயில\u{bcd}",
+				"ஈமெயில\u{bcd} சிம\u{bcd}பல\u{bcd}",
+				"கடிதம\u{bcd}",
+				"தகவல\u{bcd} தொடர\u{bcd}பு",
+				"மின\u{bcd} அஞ\u{bcd}சல\u{bcd}",
+				"மின\u{bcd}னஞ\u{bcd}சல\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఇమ\u{c46}య\u{c3f}ల\u{c4d}"),
+			keywords: &["ఇమ\u{c46}య\u{c3f}ల\u{c4d}", "మ\u{c46}య\u{c3f}ల\u{c4d}", "ల\u{c47}ఖ"],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("почтаи электронӣ"),
+			keywords: &["мактуб", "номаи электронӣ", "почта", "почтаи электронӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("อ\u{e35}เมล"),
+			keywords: &["การส\u{e37}\u{e48}อสาร", "จดหมาย", "อ\u{e35}เมล"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ኢመይል"),
+			keywords: &["ኢ-መይል", "ኢመይል", "ደብዳቤ", "ፖስታ ምልኣኽ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("e-poçta"),
+			keywords: &["e-poçta", "hat", "poçta"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("tohila"), keywords: &["tohila"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("e-posta"),
+			keywords: &["e-posta", "ileti", "iletişim", "mektup", "posta"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("تورخەت"),
+			keywords: &["تورخەت", "خەت", "سالام خەت"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("електронний лист"),
+			keywords: &["електронний лист", "елист", "емейл", "епошта", "лист", "пошта", "імейл"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ای میل"),
+			keywords: &["ای میل", "برقی خط", "خط", "پیغام"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("e-pochta"),
+			keywords: &["e-pochta", "email", "xabar", "xat"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation { lang: "vi", tts: Some("email"), keywords: &["email", "thư"] },
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("bataaxalu net"),
+			keywords: &["bataaxal", "bataaxalu net", "imeel"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("i-imeyile"),
+			keywords: &["i-imeyile", "ileta", "iposi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("í-meèlì"),
+			keywords: &["lẹ\u{301}tà", "meèlì", "í-meèlì"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("í-meèlì"),
+			keywords: &["lɛ\u{301}tà", "meèlì", "í-meèlì"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("電郵"),
+			keywords: &["信", "郵件", "電郵"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("电邮"),
+			keywords: &["信", "电邮", "邮件"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("电子邮件"),
+			keywords: &["信件", "信封", "电子邮件", "电邮", "邮件"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("電子郵件"),
+			keywords: &["email", "郵件", "電子郵件"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("電郵"),
+			keywords: &["e-mail", "email", "信件", "郵件", "電子郵件", "電郵"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("i-imeyli"),
+			keywords: &["i-imeyli", "incwadi"],
+		},
+	],
+};
+#[doc = "📨"]
+pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
+	glyph:                "📨",
+	codepoint:            &[128232u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "incoming envelope",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("inkomende koevert"),
+			keywords: &[
+				"aflewering",
+				"brief",
+				"e-pos",
+				"gestuur",
+				"inkomend",
+				"inkomende koevert",
+				"koevert",
+				"ontvang",
+				"pos",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ገቢ ኤንቨሎፕ"),
+			keywords: &["ተቀበል", "ኢሜይል", "ኤንቬሎፕ", "ደብዳቤ", "ገቢ", "ገቢ ኤንቨሎፕ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("بريد وارد"),
+			keywords: &[
+				"ايميل",
+				"بريد",
+				"بريد إلكتروني",
+				"بريد مستلم",
+				"تواصل",
+				"توصيل",
+				"خطاب",
+				"ظرف",
+				"كمبيوتر",
+				"مرسال",
+				"مرسل",
+				"وارد",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("অন\u{9cd}তৰ\u{9cd}গ\u{9be}মী লেফ\u{9be}ফ\u{9be}"),
+			keywords: &[
+				"অন\u{9cd}তৰ\u{9cd}গ\u{9be}মী",
+				"ই-মেইল",
+				"ইমেইল",
+				"চিঠি",
+				"প\u{9cd}ৰ\u{9be}প\u{9cd}তি",
+				"মেইল",
+				"লেফ\u{9be}ফ\u{9be}",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("gələn zərf"),
+			keywords: &[
+				"e-məktub",
+				"e-poçt",
+				"elektron poçt",
+				"gələn",
+				"məktub",
+				"poçt",
+				"qəbul etmək",
+				"zərf",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("уваходны ліст"),
+			keywords: &["атрыманы", "канверт", "пошта", "уваходны", "уваходны ліст", "электронная пошта"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("пристигащ плик"),
+			keywords: &["входящ", "имейл", "плик", "поща", "пристигащ"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("আগত খ\u{9be}ম"),
+			keywords: &["আগত", "ই-মেল", "ইমেল", "খ\u{9be}ম", "গ\u{9cd}রহণ", "চিঠি", "মেল"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("pristigla koverta"),
+			keywords: &["e-mail", "e-poruka", "e-pošta", "pismo", "pristigla koverta", "pristigla pošta"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("sobre que arriba"),
+			keywords: &[
+				"carta",
+				"correu electrònic",
+				"entrada",
+				"enviant",
+				"enviat",
+				"rebre",
+				"recepció",
+				"sobre",
+				"sobre que arriba",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᎷᎩ ᎪᏪᎵ ᎦᎸᏙᏗ"),
+			keywords: &["ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵ", "ᎠᎾᎦᎵᏍᎩ ᎪᏪᎵᎢ", "ᎦᎷᎩ ᎪᏪᎵ ᎦᎸᏙᏗ", "ᎦᏅᎩᏍᏗ", "ᎪᏪᎵ ᎦᎸᏙᏗ", "ᏗᎦᎷᎩ", "ᏗᎪᏪᎵ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("příchozí obálka"),
+			keywords: &[
+				"dopis",
+				"doručená",
+				"doručený",
+				"dostat",
+				"e-mail",
+				"elektronická pošta",
+				"email",
+				"obálka",
+				"odeslaný",
+				"pošta",
+				"psaní",
+				"přijmout",
+				"příchozí",
+				"schránka",
+				"zpráva",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("amlen yn dyfod i mewn"),
+			keywords: &["amlen", "amlen yn dyfod i mewn", "derbyn", "e-bost", "llythyr"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("indgående post"),
+			keywords: &[
+				"brev",
+				"e-mail",
+				"indgående post",
+				"konvolut",
+				"modtag",
+				"modtaget post",
+				"post",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("eingehender Briefumschlag"),
+			keywords: &["E-Mail", "Umschlag", "eingehender Briefumschlag", "empfangen"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("εισερχόμενος φάκελος"),
+			keywords: &[
+				"e-mail",
+				"email",
+				"απεσταλμένο",
+				"γράμμα",
+				"εισερχόμενα",
+				"εισερχόμενος φάκελος",
+				"επιστολή",
+				"ηλεκτρονική αλληλογραφία",
+				"λήψη",
+				"λαμβάνω",
+				"μέιλ",
+				"φάκελος",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("incoming envelope"),
+			keywords: &[
+				"delivering",
+				"e-mail",
+				"email",
+				"envelope",
+				"incoming",
+				"letter",
+				"mail",
+				"receive",
+				"sent",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("sobre entrante"),
+			keywords: &[
+				"carta",
+				"comunicación",
+				"correo",
+				"correo electrónico",
+				"sobre",
+				"sobre entrante",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("mensaje entrante"),
+			keywords: &[
+				"carta",
+				"comunicación",
+				"correo",
+				"correo entrante",
+				"electrónico",
+				"mensaje",
+				"mensaje entrante",
+				"recibido",
+				"sobre",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"carta",
+				"correo electrónico",
+				"mensaje",
+				"mensaje entrante",
+				"recibido",
+				"sobre",
+			],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"carta",
+				"correo electrónico",
+				"mensaje",
+				"mensaje entrante",
+				"recibido",
+				"sobre",
+			],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("sissetulev ümbrik"),
+			keywords: &["e-post", "kiri", "meil", "sissetulev ümbrik", "ümbrik"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("sarrerako gutun-azala"),
+			keywords: &[
+				"gutun-azala",
+				"gutuna",
+				"jaso",
+				"mezu elektronikoa",
+				"posta elektronikoa",
+				"sarrerako gutun-azala",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("پاکت نامه\u{654} ورودی"),
+			keywords: &[
+				"ایمیل",
+				"دریافت",
+				"نامه",
+				"ورودی",
+				"پاکت نامه",
+				"پاکت نامه ورودی",
+				"پاکت نامه\u{654} ورودی",
+				"پست",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("saapuva kirjekuori"),
+			keywords: &[
+				"e-mail",
+				"saapuva",
+				"saapuva kirjekuori",
+				"sähköposti",
+				"sähköpostiviesti",
+				"viesti",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("papasok na sobre"),
+			keywords: &[
+				"e-mail",
+				"email",
+				"incoming",
+				"natanggap",
+				"papasok",
+				"papasok na sobre",
+				"sobre",
+				"sulat",
+				"tanggap",
+				"tumanggap",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("innkomandi brævbjálvi"),
+			keywords: &[
+				"bræv",
+				"brævbjálvi",
+				"innkomandi",
+				"komandi",
+				"postur",
+				"t-postur",
+				"teldupostur",
+			],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("message reçu"),
+			keywords: &[
+				"courriel",
+				"courrier",
+				"courrier électronique",
+				"e-mail",
+				"enveloppe",
+				"envoyer",
+				"lettre",
+				"message",
+				"message reçu",
+				"message électronique",
+				"recevoir",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("post isteach"),
+			keywords: &[
+				"clúdach litreach",
+				"isteach",
+				"litir",
+				"post faighte",
+				"post isteach",
+				"ríomhphost",
+				"seolta",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cèis a-steach"),
+			keywords: &["a-steach", "cèis", "faighinn", "litir", "post", "post-d"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("correo entrante"),
+			keywords: &["correo", "correo electrónico", "correo entrante", "recibido", "sobre"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("આવનારી મ\u{ac7}ઇલ"),
+			keywords: &[
+				"આવનારી",
+				"ઇમ\u{ac7}ઇલ",
+				"પત\u{acd}ર",
+				"પરબીડિય\u{ac1}\u{a82}",
+				"પ\u{acd}રાપ\u{acd}ત મ\u{ac7}ઇલ",
+				"મ\u{ac7}ઇલ",
+				"સ\u{a82}ચાર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("ambulo mai shigowa"),
+			keywords: &[
+				"ambulan",
+				"ambulo",
+				"ambulo mai shigowa",
+				"imel",
+				"karɓa",
+				"mai shigowa",
+				"saƙo",
+				"saƙon ambulan",
+				"wasiƙa",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("ambulo mai shigowa"),
+			keywords: &[
+				"ambulan",
+				"ambulo",
+				"ambulo mai shigowa",
+				"imel",
+				"karɓa",
+				"mai shigowa",
+				"saƙo",
+				"saƙon ambulan",
+				"wasiƙa",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מעטפה נכנסת"),
+			keywords: &["אימייל", "דואר", "דוא״ל נכנס", "מכתב", "מעטפה", "מעטפה נכנסת", "נכנס", "קבלה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("इनकमि\u{902}ग लिफ\u{93c}ाफ\u{93c}ा"),
+			keywords: &[
+				"आवक",
+				"इनकमि\u{902}ग",
+				"इनकमि\u{902}ग लिफ\u{93c}ाफ\u{93c}ा",
+				"ईम\u{947}ल",
+				"पत\u{94d}र",
+				"म\u{947}ल",
+				"लिफाफा",
+				"स\u{902}चार",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("omotnica dolazne pošte"),
+			keywords: &["dolazno", "e-pošta", "omotnica", "omotnica dolazne pošte", "pismo", "primanje"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("beérkező boríték"),
+			keywords: &[
+				"bejövő",
+				"beérkező",
+				"boríték",
+				"e-mail",
+				"fogadás",
+				"kézbesíteni",
+				"küldött",
+				"levél",
+				"posta",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ստացվող ծրար"),
+			keywords: &["էլփոստ", "ծրար", "նամակ", "ստանալ", "ստացվող", "փոստ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("amplop datang"),
+			keywords: &["amplop", "amplop datang", "email", "kotak surat", "masuk", "surat", "terima"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("emvelop na-abị abịa"),
+			keywords: &[
+				"emvelop",
+				"emvelop na-abị abịa",
+				"leta",
+				"meelu",
+				"na-abata abata",
+				"nata",
+				"ozi",
+				"ozi-e",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("póstur á innleið"),
+			keywords: &["bréf", "móttekið", "póstur", "póstur á innleið", "tölvupóstur", "umslag"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("posta in arrivo"),
+			keywords: &[
+				"busta",
+				"comunicazione",
+				"consegna",
+				"consegnare",
+				"e-mail",
+				"email",
+				"in arrivo",
+				"lettera",
+				"mail",
+				"posta",
+				"posta in arrivo",
+				"posta ricevuta",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("メール受信中"),
+			keywords: &["Eメール", "メール受信中", "受信中", "受信箱", "封筒", "手紙", "電子メール"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("amplop layang teka"),
+			keywords: &["amplop", "amplop layang teka", "e-mail", "email", "katampa", "layang teka"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("შემოსული კონვერტი"),
+			keywords: &["ელ. ფოსტა", "ელფოსტა", "კონვერტი", "მიღება", "ფოსტა", "შემოსული", "წერილი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("izen ukcim"), keywords: &["izen ukcim"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("келген конверт"),
+			keywords: &["келген конверт", "конверт", "кіріс", "хат", "эл. пошта", "электрондық пошта"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("indgående post"),
+			keywords: &["e-mail", "indgående post", "modtaget post"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រហោះមកដល\u{17cb}"),
+			keywords: &[
+				"ច\u{17bc}ល",
+				"ទទ\u{17bd}ល",
+				"ស\u{17c6}ប\u{17bb}ត\u{17d2}រ",
+				"ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រ",
+				"ស\u{17d2}រោមស\u{17c6}ប\u{17bb}ត\u{17d2}រហោះមកដល\u{17cb}",
+				"អ\u{17ca}\u{17b8}មែល",
+				"អ\u{17ca}\u{17b8}ម\u{17c9}ែល",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಒಳಬರುವ ಲಕ\u{ccb}ಟ\u{cc6}"),
+			keywords: &[
+				"ಅಂಚ\u{cc6}",
+				"ಇ-ಮ\u{cc7}ಲ\u{ccd}",
+				"ಇಮ\u{cc7}ಲ\u{ccd}",
+				"ಎನ\u{ccd}\u{200c}ವಲಪ\u{ccd}",
+				"ಒಳಬರುವ",
+				"ಒಳಬರುವ ಲಕ\u{ccb}ಟ\u{cc6}",
+				"ಪತ\u{ccd}ರ",
+				"ಮ\u{cc7}ಲ\u{ccd}",
+				"ಸಂವಹನ",
+				"ಸ\u{ccd}ವ\u{cc0}ಕರ\u{cbf}ಸ\u{cbf}ದ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("받은 편지"),
+			keywords: &["받은", "봉투", "수신된 이메일", "수신된 편지", "이메일", "편지"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("य\u{947}वपी एन\u{94d}वालॉप"),
+			keywords: &[
+				"ई-म\u{947}ल",
+				"ईम\u{947}ल",
+				"एन\u{94d}वालॉप य\u{947}वपी",
+				"पत\u{94d}र",
+				"म\u{947}ळप",
+				"य\u{947}वपी एन\u{94d}वालॉप",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("кирүүчү конверт"),
+			keywords: &["алуу", "кат", "кирүүчү", "конверт", "эл-кат"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("antreffende Bréif"),
+			keywords: &[
+				"Bréif",
+				"E-Mail",
+				"Enveloppe",
+				"Post",
+				"antreffend",
+				"antreffende Bréif",
+				"emailen",
+				"empfänken",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຈ\u{ebb}ດໝາຍເຂ\u{ebb}\u{ec9}າ"),
+			keywords: &[
+				"ການສ\u{eb7}\u{ec8}ສານ",
+				"ຈ\u{ebb}ດໝາຍ",
+				"ຈ\u{ebb}ດໝາຍເຂ\u{ebb}\u{ec9}າ",
+				"ສ\u{ebb}\u{ec8}ງຈ\u{ebb}ດໝາຍ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("gaunamas vokas"),
+			keywords: &[
+				"el. laiškas",
+				"gaunamas laiškas",
+				"gaunamas vokas",
+				"gavimas",
+				"laiškas",
+				"paštas",
+				"vokas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("ienākoša aploksne"),
+			keywords: &["aploksne", "e-pasts", "ienākoša aploksne", "saņemt", "vēstule"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kōpaki taumai"),
+			keywords: &[
+				"kōpaki",
+				"kōpaki taumai",
+				"mēra",
+				"reta",
+				"tau mai",
+				"whiwhi",
+				"ī-mēra",
+				"īmēra",
+			],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("плик што пристигнува"),
+			keywords: &[
+				"доставува",
+				"дојдовна",
+				"е-пошта",
+				"електронска пошта",
+				"испорачува",
+				"испратено",
+				"писмо",
+				"плик што пристигнува",
+				"плико што пристигнува",
+				"пошта",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഇൻകമിംഗ\u{d4d} എൻവലപ\u{d4d}പ\u{d4d}"),
+			keywords: &[
+				"ആശയവിനിമയം",
+				"ഇമെയിൽ",
+				"ഇൻകമിംഗ\u{d4d}",
+				"ഇൻകമിംഗ\u{d4d} എൻവലപ\u{d4d}പ\u{d4d}",
+				"മെയിൽ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ирж буй дугтуй"),
+			keywords: &[
+				"дугтуй",
+				"захиа",
+				"имэйл",
+				"ирж буй",
+				"ирж буй дугтуй",
+				"хүлээж авах",
+				"электрон имэйл",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("य\u{947}णारा लिफाफा"),
+			keywords: &[
+				"ई-म\u{947}ल",
+				"ईम\u{947}ल",
+				"पत\u{94d}र",
+				"प\u{94d}राप\u{94d}त करा",
+				"प\u{94d}राप\u{94d}त म\u{947}ल",
+				"म\u{947}ल",
+				"य\u{947}णारा",
+				"य\u{947}णार\u{947}",
+				"लिफाफा",
+				"स\u{902}वाद",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("sampul surat masuk"),
+			keywords: &[
+				"e-mel",
+				"emel",
+				"masuk",
+				"mel",
+				"sampul surat",
+				"sampul surat masuk",
+				"surat",
+				"terima",
+			],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("envelop dieħel"),
+			keywords: &[
+				"deħlin",
+				"envelop",
+				"envelop dieħel",
+				"indirizz elettroniku",
+				"ittra",
+				"jirċievu",
+				"posta",
+				"posta elettronika",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("အဝင\u{103a} စာအ\u{102d}တ\u{103a}"),
+			keywords: &[
+				"စာလက\u{103a}ခ\u{1036}",
+				"စာအ\u{102d}တ\u{103a}",
+				"ဝင\u{103a}စာ",
+				"အဝင\u{103a} စာအ\u{102d}တ\u{103a}",
+				"အ\u{102e}းမေးလ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("आगमन खाम"),
+			keywords: &["आगमन", "इम\u{947}ल", "खाम", "चिठ\u{94d}ठी", "प\u{94d}राप\u{94d}त", "म\u{947}ल"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("inkomende post"),
+			keywords: &[
+				"binnengekomen",
+				"brief",
+				"e-mail",
+				"elektronische post",
+				"envelop",
+				"inkomend",
+				"inkomende post",
+				"mail",
+				"ontvangen",
+				"post",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("innkomande konvolutt"),
+			keywords: &["brev", "e-post", "epost", "få", "innkomande", "konvolutt"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଆଗମନ ଲଫ\u{b3e}ଫ\u{b3e}"),
+			keywords: &[
+				"ଆଗମନ ଲଫ\u{b3e}ଫ\u{b3e}",
+				"ଆସ\u{b41}ଥ\u{b3f}ବ\u{b3e}",
+				"ଇ-ମେଲ",
+				"ଇମେଲ",
+				"ଗ\u{b4d}ରହଣକର\u{b3f}ବ\u{b3e}",
+				"ଚ\u{b3f}ଠ\u{b3f}ପତ\u{b4d}ର",
+				"ଲଫ\u{b3e}ପ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਆ ਰਿਹਾ ਲਿਫਾਫ\u{a3c}ਾ"),
+			keywords: &[
+				"ਆ ਰਿਹਾ ਲਿਫਾਫ\u{a3c}ਾ",
+				"ਆਉਣਾ",
+				"ਈ-ਮ\u{a47}ਲ",
+				"ਖ\u{a3c}ਤ",
+				"ਖ\u{a71}ਤ",
+				"ਚਿ\u{a71}ਠੀ",
+				"ਡਾਕ",
+				"ਪ\u{a4d}ਰਾਪਤ ਕੀਤਾ ਮ\u{a47}ਲ",
+				"ਮ\u{a47}ਲ",
+				"ਲਿਫਾਫਾ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("آن آلا لفافہ"),
+			keywords: &["آن آلا لفافہ", "آن آلے", "ای میل", "ای-میل", "خط", "لفافہ", "میل", "وصول کرنا"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Ínkọ\u{301}mín Ẹ\u{301}nvẹ\u{301}lop"),
+			keywords: &[
+				"I-mel",
+				"Imel",
+				"Lẹ\u{301}ta",
+				"Risiv",
+				"Ínkọ\u{301}mín",
+				"Ẹ\u{301}nvẹ\u{301}lop",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("koperta przychodząca"),
+			keywords: &[
+				"e-mail",
+				"email",
+				"koperta",
+				"list",
+				"mail",
+				"poczta",
+				"przychodząca",
+				"wiadomość",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("راتلونکی لفافه"),
+			keywords: &["برېښناليک", "ترلاسه کول", "راتلونکی", "راتلونکی لفافه", "ليک"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("envelope chegando"),
+			keywords: &[
+				"carta",
+				"chegando",
+				"comunicação",
+				"correspondência",
+				"e-mail",
+				"envelope",
+				"nova",
+				"recebida",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("envelope a chegar"),
+			keywords: &[
+				"carta",
+				"chegada",
+				"correio",
+				"correspondência",
+				"e-mail",
+				"email",
+				"envelope",
+				"envelope a chegar",
+				"receber",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("yaykumuq carta"),
+			keywords: &["carta", "chakiy", "correo electronico", "yaykumuq"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("sosire plic"),
+			keywords: &[
+				"e-mail",
+				"email",
+				"mail",
+				"mesaj",
+				"plic",
+				"poștă",
+				"primit",
+				"recepționat",
+				"scrisoare",
+				"sosire",
+				"trimis",
+				"trimit",
+				"vine",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-677"), keywords: &["E10-677"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("входящее письмо"),
+			keywords: &[
+				"входящее",
+				"конверт",
+				"письмо",
+				"получение",
+				"почта",
+				"сообщение",
+				"электронное",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("ibahasha ije"),
+			keywords: &[
+				"ibahasha",
+				"ibahasha ije",
+				"ibaruwa",
+				"kohereza ubutumwa koranabuhanga",
+				"kwakira",
+				"ubutumwa",
+				"ubutumwa koranabuhanga",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ايندڙ لفافو"),
+			keywords: &["اي ميل", "ايندڙ", "خط", "لفافو", "ميل", "وٺڻ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ලැබෙන ල\u{dd2}ය\u{dd4}ම"),
+			keywords: &[
+				"ඊ-තැපැල\u{dca}",
+				"ඊතැපැල\u{dca}",
+				"එන තැපැල\u{dca}",
+				"ලැබ\u{dd3}ම",
+				"ලැබෙන ල\u{dd2}ය\u{dd4}ම",
+				"ල\u{dd2}ය\u{dd4}ම\u{dca} කවරය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("obálka s prichádzajúcou poštou"),
+			keywords: &[
+				"doručená",
+				"e-mail",
+				"email",
+				"list",
+				"obálka",
+				"obálka prichádzajúcej pošty",
+				"obálka s prichádzajúcou poštou",
+				"pošta",
+				"prichádzajúca",
+				"prijať",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("dohodna ovojnica"),
+			keywords: &[
+				"dohodna ovojnica",
+				"dohodno",
+				"e-pošta",
+				"elektronska pošta",
+				"pismo",
+				"pošta",
+				"prejeti",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("baqshad timi"),
+			keywords: &["baqshad", "fariin", "helid", "iimayl", "timi", "warqad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("zarf në ardhje"),
+			keywords: &[
+				"dorëzim",
+				"email",
+				"marr",
+				"në ardhje",
+				"postë elektronike",
+				"zarf",
+				"zarf në ardhje",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("коверта која стиже"),
+			keywords: &[
+				"дoлaзнo",
+				"долазно",
+				"имејл",
+				"коверта",
+				"коверта која стиже",
+				"пoштa",
+				"писмo",
+				"писмо",
+				"примaњe",
+			],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("koverta koja stiže"),
+			keywords: &[
+				"dolazno",
+				"imejl",
+				"koverta",
+				"koverta koja stiže",
+				"pismo",
+				"pošta",
+				"primanje",
+			],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("inkommande brev"),
+			keywords: &["e-post", "inkommande brev", "kommunikation", "kuvert", "mottaget brev"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("bahasha inayoingia"),
+			keywords: &["bahasha", "barua", "barua pepe", "inayoingia", "pokea"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பெற\u{bcd}ற மெயில\u{bcd}"),
+			keywords: &[
+				"அஞ\u{bcd}சல\u{bcd}",
+				"இ-கடிதம\u{bcd}",
+				"கடித உறை",
+				"கடிதம\u{bcd}",
+				"பெறப\u{bcd}பட\u{bcd}ட அஞ\u{bcd}சல\u{bcd}",
+				"பெற\u{bcd}ற மெயில\u{bcd}",
+				"மின\u{bcd}னஞ\u{bcd}சல\u{bcd}",
+				"மின\u{bcd}னணு அஞ\u{bcd}சல\u{bcd}",
+				"வந\u{bcd}த மெயில\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఎన\u{c4d}వలప\u{c4d} ర\u{c3e}వడం"),
+			keywords: &[
+				"ఇ-మ\u{c46}య\u{c3f}ల\u{c4d}",
+				"ఇన\u{c4d}వ\u{c46}ల\u{c4b}ప\u{c4d}",
+				"ఇన\u{c4d}\u{200c}కమ\u{c3f}ంగ\u{c4d}",
+				"ఇమ\u{c46}య\u{c3f}ల\u{c4d}",
+				"ఎన\u{c4d}వలప\u{c4d}",
+				"ఎన\u{c4d}వలప\u{c4d} ర\u{c3e}వడం",
+				"డ\u{c46}ల\u{c3f}వ\u{c46}ర\u{c3f}ంగ\u{c4d}",
+				"మ\u{c46}య\u{c3f}ల\u{c4d}",
+				"ల\u{c46}టర\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("лифофаи воридотӣ"),
+			keywords: &[
+				"воридшаванда",
+				"лифофа",
+				"лифофаи воридотӣ",
+				"мактуб",
+				"номаи электронӣ",
+				"почта",
+				"почтаи электронӣ",
+				"қабул кардан",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("จดหมายเข\u{e49}า"),
+			keywords: &["การส\u{e37}\u{e48}อสาร", "จดหมาย", "จดหมายเข\u{e49}า"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዝኣቱ ፖስታ"),
+			keywords: &["ምቕባል", "ምብጻሕ", "ተላኢኹ", "ኢ-መይል", "ኢመይል", "ዝኣቱ", "ደብዳቤ", "ፖስታ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gelýän konwert"),
+			keywords: &[
+				"almak",
+				"e-poçta",
+				"elektron poçta",
+				"gelen",
+				"gelýän konwert",
+				"hat",
+				"konwert",
+			],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("sila hūmai"), keywords: &["sila hūmai"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("gelen zarf"),
+			keywords: &["alınan posta", "e-posta", "gelen", "iletişim", "mektup", "posta", "zarf"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("كەلگەن خەت"),
+			keywords: &["ئېلخەت", "تاپشۇرۇۋېلىش", "تورخەت", "خەت", "سالامخەت", "كونۋېرت", "كەلگەن"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("конверт вхідного листа"),
+			keywords: &[
+				"вхідний",
+				"емейл",
+				"конверт",
+				"конверт вхідного листа",
+				"лист",
+				"отримати",
+				"пошта",
+				"імейл",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("آتا ہوا لفافہ"),
+			keywords: &[
+				"آتا ہوا لفافہ",
+				"آلہ",
+				"ابلاغ",
+				"ای میل",
+				"برقی خط",
+				"خط",
+				"لفافہ",
+				"وصولی",
+				"پیغام",
+				"ڈاک",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("kiruvchi konvert"),
+			keywords: &["e-pochta", "email", "kiruvchi", "konvert", "pochta", "qabul qilish", "xat"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("phong bì thư đến"),
+			keywords: &["email", "nhận", "phong bì", "phong bì thư đến", "thư", "thư đến"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("mbaru-bataaxal biy ñëw"),
+			keywords: &[
+				"bataaxal",
+				"buy ñëw",
+				"imeel",
+				"jot",
+				"mbaru-bataaxal",
+				"mbaru-bataaxal biy ñëw",
+			],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("imvulophu engenayo"),
+			keywords: &["engenayo", "fumana", "i-imeyile", "ileta", "imvulophu", "iposi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("apo iwe ti o nbọ"),
+			keywords: &[
+				"apo iwe ti o nbọ",
+				"lẹ\u{301}tá",
+				"meèlì",
+				"àpò ìwé",
+				"ìgbàwọlé",
+				"ìwọlé",
+				"í-meèlì",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("apo iwe ti o nbɔ"),
+			keywords: &[
+				"apo iwe ti o nbɔ",
+				"lɛ\u{301}tá",
+				"meèlì",
+				"àpò ìwé",
+				"ìgbàwɔlé",
+				"ìwɔlé",
+				"í-meèlì",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("收到嘅信封"),
+			keywords: &["來", "信", "信封", "接收", "收到嘅信封", "郵件", "電子郵件"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("收到嘅信封"),
+			keywords: &["信", "信封", "接收", "收到嘅信封", "来", "电子邮件", "邮件"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("来信"),
+			keywords: &[
+				"信件",
+				"信封",
+				"发送",
+				"接收",
+				"收信",
+				"收到来信",
+				"收到邮件",
+				"来信",
+				"电子邮件",
+				"电邮",
+				"邮件",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("收到郵件"),
+			keywords: &["信件", "信封", "接收", "收到郵件", "送信", "郵件"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("來信"),
+			keywords: &[
+				"e-mail",
+				"email",
+				"來信",
+				"信",
+				"信封",
+				"接收",
+				"收件箱",
+				"收信",
+				"發送",
+				"郵件",
+				"電子郵件",
+				"電郵",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("imvilophu engenayo"),
+			keywords: &[
+				"i-imeyli",
+				"imvilophu",
+				"imvilophu engenayo",
+				"incwadi",
+				"okungenayo",
+				"ukwamukela",
+			],
+		},
+	],
+};
+#[doc = "✉\u{fe0f}"]
+pub const ENVELOPE: crate::Emoji = crate::Emoji {
+	glyph:                "✉\u{fe0f}",
+	codepoint:            &[9993u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "envelope",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Mail,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

@@ -14,6 +14,30 @@ impl GlyphLookupEntry {
 	pub fn new(glyph: String, group: String, subgroup: String, name: String, is_toned: bool) -> Self {
 		Self { glyph, group, subgroup, name, is_toned }
 	}
+
+	pub fn to_array_element_tokens(&self) -> proc_macro2::TokenStream {
+		let group = Ident::new(&sanitize(&self.group).to_lowercase(), Span::call_site());
+		let subgroup = Ident::new(&sanitize(&self.subgroup).to_lowercase(), Span::call_site());
+		let name = Ident::new(&sanitize(&self.name).to_uppercase(), Span::call_site());
+
+		if self.is_toned {
+			quote! { crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name) }
+		} else {
+			quote! { crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name) }
+		}
+	}
+}
+
+pub fn to_array_tokens(entries: &[GlyphLookupEntry]) -> proc_macro2::TokenStream {
+	let count = entries.len();
+	let elements = entries.iter().map(|e| e.to_array_element_tokens());
+
+	quote! {
+			/// All emoji entries defined in the system.
+			pub const ALL_EMOJI: [crate::EmojiEntry; #count] = [
+					#(#elements),*
+			];
+	}
 }
 
 impl ToTokens for GlyphLookupEntry {
@@ -37,6 +61,7 @@ impl ToTokens for GlyphLookupEntry {
 		}
 	}
 }
+
 pub struct NameLookupEntry<'a> {
 	pub group:    &'a str,
 	pub subgroup: &'a str,

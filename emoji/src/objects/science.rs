@@ -1,896 +1,3 @@
-#[doc = "📡"]
-pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
-	glyph:                "📡",
-	codepoint:            &[128225u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "satellite antenna",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Science,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("satellietantenna"),
-			keywords: &[
-				"antenna",
-				"antenne",
-				"kontak",
-				"satelliet",
-				"satellietantenna",
-				"satellietantenne",
-				"skottel",
-				"wetenskap",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሳተላይት አንቴና"),
-			keywords: &["ሳተላይት", "አንቴና", "ዲሽ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("طبق قمر صناعي"),
-			keywords: &[
-				"تواصل",
-				"دش",
-				"ساتلايت",
-				"ستلايت",
-				"صحن",
-				"طبق قمر صناعي",
-				"علم",
-				"قمر صناعي",
-				"هوائي",
-				"هوائي قمر صناعي",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}"),
-			keywords: &[
-				"উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}",
-				"এণ\u{9cd}টেন\u{9be}",
-				"ছেটেল\u{9be}ইট",
-				"ডিশ\u{9cd}ব",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("peyk antenası"),
-			keywords: &["antena", "peyk", "peyk antenası", "çanaq antenası"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("спадарожнікавая антэна"),
-			keywords: &["антэна", "спадарожнік", "спадарожнікавая антэна", "талерка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("сателитна антена"),
-			keywords: &["антена", "сателитна", "чиния"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}"),
-			keywords: &[
-				"অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
-				"উপগ\u{9cd}রহ",
-				"ডিশ",
-				"স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("stign loarell"),
-			keywords: &["loarell", "stign"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelitska", "tanjir"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("antena de satèl·lit"),
-			keywords: &[
-				"antena",
-				"antena de satèl·lit",
-				"ciència",
-				"contacte",
-				"extraterrestres",
-				"plat",
-				"satèl·lit",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"),
-			keywords: &["ᎤᏅᏪᏓ", "ᎦᎸᎳᏗ ᎡᏙᎯ ᎾᏏᎳᏛᎾ ᎦᏂᏱᏍᎩ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("satelitní anténa"),
-			keywords: &[
-				"anténa",
-				"družice",
-				"kontakt",
-				"parabolická anténa",
-				"satelit",
-				"satelitní anténa",
-				"talíř",
-				"věda",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("antena lloeren"),
-			keywords: &["antena", "lloeren"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("parabolantenne"),
-			keywords: &[
-				"aliens",
-				"antenne",
-				"parabol",
-				"parabolantenne",
-				"radioteleskop",
-				"rumvæsner",
-				"satellit",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Satellitenschüssel"),
-			keywords: &["Antenne", "Sat-Schüssel", "Satellitenschüssel", "Satschüssel", "Schüssel"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("δορυφορική κεραία"),
-			keywords: &["δορυφορική", "δορυφόρος", "εξωγήινοι", "επαφή", "κεραία", "πιάτο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("satellite antenna"),
-			keywords: &["aliens", "antenna", "contact", "dish", "satellite", "science"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("satellite dish"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("antena de satélite"),
-			keywords: &["antena", "antena de satélite", "comunicación", "satélite"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("antena satelital"),
-			keywords: &[
-				"antena",
-				"antena de satélite",
-				"antena satelital",
-				"comunicación",
-				"emisión",
-				"satélite",
-				"señal",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("satelliitantenn"),
-			keywords: &["antenn", "satelliit", "satelliitantenn", "taldrik"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("satelite bidezko antena"),
-			keywords: &["antena", "parabolikoa", "satelite bidezko antena"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("آنتن ماهواره"),
-			keywords: &["آنتن", "بشقاب", "دیش", "ماهواره"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("lautasantenni"),
-			keywords: &["antenni", "lautanen", "lautasantenni", "satelliitti", "satelliittiantenni"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("satellite antenna"),
-			keywords: &["antenna", "dish", "satellite"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("parabolur"),
-			keywords: &["antenna", "parabolur", "skálkampur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("antenne satellite"),
-			keywords: &["antenne", "antenne parabolique", "parabole", "satellite", "science"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("aeróg satailíte"),
-			keywords: &[
-				"aeróg",
-				"aeróg satailíte",
-				"aeróg shatailíte",
-				"eolaíocht",
-				"mias",
-				"mias satailíte",
-				"satailít",
-				"teagmháil",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("iadhaire-saideil"),
-			keywords: &["iadhaire", "iadhaire-saideil", "saideal", "soitheach"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("antena de satélite"),
-			keywords: &["antena", "antena de satélite", "satélite"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{ac7}ટ\u{ac7}લાઇટ એન\u{acd}ટ\u{ac7}ના"),
-			keywords: &[
-				"એન\u{acd}ટ\u{ac7}ના",
-				"ડિશ",
-				"સ\u{a82}ચાર",
-				"સ\u{a82}ચારણ",
-				"સાધન",
-				"સ\u{ac7}ટ\u{ac7}લાઇટ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("eriya na kumbo"),
-			keywords: &[
-				"dish",
-				"eriya",
-				"eriya na kumbo",
-				"kama tasha",
-				"kimiyya",
-				"kumbo",
-				"sadarwa",
-				"sararin samaniya",
-				"satalayit",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("eriya na kumbo"),
-			keywords: &[
-				"dish",
-				"eriya",
-				"eriya na kumbo",
-				"kama tasha",
-				"kimiyya",
-				"kumbo",
-				"sadarwa",
-				"sararin samaniya",
-				"satalayit",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("צלחת לוויין"),
-			keywords: &["אנטנה", "לוויין", "צלחת", "תקשורת"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना"),
-			keywords: &[
-				"उपग\u{94d}रह",
-				"डिश",
-				"स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना",
-				"स\u{948}ट\u{947}लाइट डिश",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelit", "satelitska antena", "tanjur"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("parabolaantenna"),
-			keywords: &["antenna", "műhold", "parabola antenna", "parabolaantenna", "tányér"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("արբանյակային ալեհավաք"),
-			keywords: &["ալեհավաք", "արբանյակ", "արբանյակային ալեհավաք", "ափսե"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "piring", "satelit"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("akara satịlitị"),
-			keywords: &["akara", "dishi", "satịlitị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("gervihnattaloftnet"),
-			keywords: &["diskur", "gervihnattadiskur", "gervihnattaloftnet", "loftnet"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("antenna satellitare"),
-			keywords: &[
-				"antenna",
-				"antenna parabolica",
-				"antenne paraboliche",
-				"antenne satellitari",
-				"comunicazione",
-				"parabola",
-				"satellitare",
-				"satellite",
-				"scienza",
-				"scienze",
-				"tecnologia",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("パラボラアンテナ"),
-			keywords: &["アンテナ", "パラボラ", "パラボラアンテナ", "科学", "衛星アンテナ", "電波"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "parabola", "satelit"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("თანამგზავრული ანტენა"),
-			keywords: &["ანტენა", "თანამგზავრი", "თანამგზავრული", "თეფში", "სატელიტი", "სატელიტური"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("серіктік антенна"),
-			keywords: &["антенна", "серіктік", "тәрелке", "ғылым"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("parabolantenne"),
-			keywords: &["kommunikation", "parabolantenne"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ចានផ\u{17d2}កាយរណប"),
-			keywords: &["ចានផ\u{17d2}កាយរណប", "ផ\u{17d2}កាយរណប", "អង\u{17cb}តែន"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಉಪಗ\u{ccd}ರಹ ಆಂಟ\u{cc6}ನಾ"),
-			keywords: &[
-				"ಆಂಟ\u{cc6}ನಾ",
-				"ಉಪಗ\u{ccd}ರಹ",
-				"ಡ\u{cbf}ಶ\u{ccd}",
-				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
-				"ಸಂಪರ\u{ccd}ಕ",
-				"ಸಂವಹನ",
-				"ಸಾಟ\u{ccd}ಲ\u{cc8}ಟ\u{ccd} ಆಂಟ\u{cc6}ನಾ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("위성 안테나"),
-			keywords: &["과학", "발견", "안테나", "외계인", "위성", "위성 방송", "접시"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("उपगिरो एण\u{94d}ट\u{947}ना"),
-			keywords: &["उपगिरो", "एण\u{94d}ट\u{947}ना", "डीश"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("спутниктик антенна"),
-			keywords: &["антенна", "спутник", "спутниктик антенна", "табак"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Satellittenantenn"),
-			keywords: &["Antenn", "Satellitt", "Satellittenantenn", "Teller"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເສ\u{ebb}າອາກາດດາວທຽມ"),
-			keywords: &["ດາວທຽມ", "ເສ\u{ebb}າອາກາດ", "ເສ\u{ebb}າອາກາດດາວທຽມ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("palydovinė antena"),
-			keywords: &["antena", "indas", "mokslas", "palydovas", "palydovinė antena"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("satelīta šķīvis"),
-			keywords: &["antena", "satelīta šķīvis", "satelīts", "šķīvis"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("pūhihi amiorangi"),
-			keywords: &["amiorangi", "pūhihi", "rīhi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("сателитска антена"),
-			keywords: &["антена", "вонземјани", "контакт", "наука", "сателит", "сателитска", "чинија"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d} ആന\u{d4d}റിന"),
-			keywords: &[
-				"ആന\u{d4d}റിന",
-				"ആശയവിനിമയം",
-				"ടിവി ആന\u{d4d}റിന",
-				"ഡിഷ\u{d4d}",
-				"സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хиймэл дагуулын антен"),
-			keywords: &["антен", "таваг", "хиймэл дагуул", "хиймэл дагуулын антен"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना"),
-			keywords: &[
-				"अ\u{901}टिना",
-				"अ\u{901}ट\u{947}ना",
-				"उपग\u{94d}रह",
-				"उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना",
-				"उपग\u{94d}रह ए\u{902}टिना",
-				"डिश",
-				"स\u{902}वाद",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("antena satelit"),
-			keywords: &["antena", "hubungi", "makhluk asing", "piring", "sains", "satelit"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("antenna tas-satellita"),
-			keywords: &["antenna", "antenna tas-satellita", "dixx", "satellita"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း"),
-			keywords: &[
-				"ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း",
-				"ဆက\u{103a}သယ\u{103a}ရေး ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f}",
-				"ဧရ\u{102e}ယာတ\u{102d}\u{102f}င\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}याटलाइट एन\u{94d}ट\u{947}ना"),
-			keywords: &["एन\u{94d}ट\u{947}ना", "डिस\u{94d}", "स\u{94d}याटलाइट"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("satellietschotel"),
-			keywords: &["antenne", "communicatie", "satelliet", "satellietschotel", "schotel"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}"),
-			keywords: &[
-				"ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
-				"ଡ\u{b3f}ସ\u{b4d}",
-				"ଯୋଗ\u{b3e}ଯୋଗ",
-				"ସ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}",
-				"ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ"),
-			keywords: &[
-				"ਅ\u{a70}ਟੀਨਾ",
-				"ਏਲੀਅਨ",
-				"ਐਨਟੀਨਾ",
-				"ਡਿਸ\u{a3c}",
-				"ਸ\u{a48}ਟਲਾਈਟ",
-				"ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ",
-				"ਸ\u{a70}ਚਾਰ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("سیٹلائٹ انٹینا"),
-			keywords: &["انٹینا", "تھالی", "سیٹلائٹ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Sátálaít Antẹ\u{301}na"),
-			keywords: &["Antẹ\u{301}na", "Dish", "Sátálait", "Sátálaít Antẹ\u{301}na"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("antena satelitarna"),
-			keywords: &[
-				"antena",
-				"antena satelitarna",
-				"czasza",
-				"kosmici",
-				"nauka",
-				"obcy",
-				"satelita",
-				"talerz",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د سپوږمکۍ انټينا"),
-			keywords: &["انټينا", "د سپوږمکۍ انټينا", "سپوږمکۍ", "ډش"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("antena parabólica"),
-			keywords: &["antena", "comunicação", "parabólica", "satélite"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("antenă satelit"),
-			keywords: &["antenă", "comunicare", "contact", "extratereștri", "satelit", "știință"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-670"), keywords: &["E10-670"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("спутниковая антенна"),
-			keywords: &["антенна", "спутник", "спутниковая"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("anteni y’icyogajuru"),
-			keywords: &["anteni", "anteni y’icyogajuru", "icyogajuru", "isahani"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سيٽ لائيٽ اينٽينا"),
-			keywords: &["اينٽينا", "سيٽ لائيٽ اينٽينا", "سيٽيلائيٽ", "ڊش"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව"),
-			keywords: &[
-				"ඇන\u{dca}ටන\u{dcf}ව",
-				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව",
-				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf}ව",
-				"ඩ\u{dd2}ෂ\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("satelitná anténa"),
-			keywords: &["anténa", "kontakt", "satelit", "satelitná anténa", "tanier", "veda"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "krožnik", "satelit", "satelitska antena", "satelitsko"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("aanteenada satalaytka"),
-			keywords: &["aanteena", "aanteenada satalaytka", "satalayt", "sixni"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("antenë satelitore"),
-			keywords: &["alien", "antenë", "kontakt", "satelit", "satelitore", "shkencë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("сателитска антена"),
-			keywords: &["антена", "ванземаљци", "сaтeлит", "сателитска", "тањир"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("satelitska antena"),
-			keywords: &["antena", "satelit", "satelitska", "tanjir", "vanzemaljci"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("tv-satellit"),
-			keywords: &["antenn", "kommunikation", "satellit", "tv-satellit", "tv-satellitantenn"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("antena ya setilaiti"),
-			keywords: &["antena", "antena ya setilaiti", "dishi", "setilaiti", "ungo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}"),
-			keywords: &[
-				"ஆண\u{bcd}டென\u{bbe}",
-				"ஆன\u{bcd}டன\u{bbe}",
-				"ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}",
-				"செயற\u{bcd}கை கோள\u{bcd}",
-				"செயற\u{bcd}கைக\u{bcd}கோள\u{bcd}",
-				"டிவி",
-				"டிஷ\u{bcd}",
-				"தொடர\u{bcd}பு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}"),
-			keywords: &[
-				"ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
-				"ఎల\u{c3f}యన\u{c4d}స\u{c4d}",
-				"క\u{c3e}ంట\u{c3e}క\u{c4d}ట\u{c4d}",
-				"డ\u{c3f}ష\u{c4d}",
-				"వ\u{c3f}జ\u{c4d}ఞ\u{c4d}య\u{c3e}నం",
-				"శ\u{c3e}ట\u{c3f}ల\u{c48}ట\u{c4d} య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
-				"స\u{c3e}ట\u{c3f}ల\u{c4d}ల\u{c48}ట\u{c4d} ఆంట\u{c46}న\u{c4d}న\u{c3e}",
-				"స\u{c48}న\u{c4d}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("антеннаи моҳвораӣ"),
-			keywords: &["антенна", "антеннаи моҳвораӣ", "моҳвора", "табақ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("จานดาวเท\u{e35}ยม"),
-			keywords: &["จาน", "จานดาวเท\u{e35}ยม", "ดาวเท\u{e35}ยม", "เสาอากาศ"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሳተላይት ኣንቴና"),
-			keywords: &["ርክብ", "ሳተላይት", "ሳይንስ", "ኣንቴና", "ወጻእተኛታት", "ድስቲ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("hemra antennasy"),
-			keywords: &["anten", "hemra", "hemra antennasy", "tarelka"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tisi satelaite"),
-			keywords: &["tisi satelaite"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("uydu anteni"),
-			keywords: &["anten", "iletişim", "uydu", "uydu anteni", "çanak"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("سۈنئىي ھەمرا ئانتېنناسى"),
-			keywords: &["ئانتېننا", "تەخسە", "سۈنئىي ھەمرا ئانتېنناسى", "سۈنئىي ھەمراھ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("супутникова антена"),
-			keywords: &["антена", "супутникова", "тарілка"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سیٹلائٹ انٹینا"),
-			keywords: &["آلہ", "ابلاغ", "انٹینا", "رابطہ", "سٹلائٹ", "سیٹلائٹ انٹینا", "طشتری", "ڈش"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("sun’iy yo‘ldoshli antenna"),
-			keywords: &["aloqa", "antenna", "lagan", "sunʼiy yoʻldosh", "sun’iy yo‘ldoshli antenna"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("ăng-ten vệ tinh"),
-			keywords: &["vệ tinh", "ăng-ten", "ăng-ten vệ tinh", "đĩa"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("àntenu satelit"),
-			keywords: &["satelit", "sukup", "ànten", "àntenu satelit"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("intonga yesathelayithi"),
-			keywords: &["i-dish", "i-satellite", "intonga", "intonga yesathelayithi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("eria satalaiti"),
-			keywords: &["eria satalaiti", "àtagbà", "àwo", "ẹ\u{300}rọ alátagbà nlá"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("eria satalaiti"),
-			keywords: &["eria satalaiti", "àtagbà", "àwo", "ɛ\u{300}rɔ alátagbà nlá"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("衛星天線"),
-			keywords: &["天線", "碟", "衛星", "衛星天線"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("卫星天线"),
-			keywords: &["卫星", "卫星天线", "天线", "碟"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("卫星天线"),
-			keywords: &[
-				"信号接收",
-				"卫星",
-				"卫星天线",
-				"卫星接收天线",
-				"卫星碟形天线",
-				"外星人",
-				"天线",
-				"接触",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("衛星天線"),
-			keywords: &["外星人", "天線", "衛星天線"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["外星人", "天線", "太空", "宇宙", "碟", "科學", "衛星"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("u-eriyeli wesethelaythi"),
-			keywords: &["indishi", "isethelaythi", "u-eriyeli", "u-eriyeli wesethelaythi"],
-		},
-	],
-};
 #[doc = "🧪"]
 pub const TEST_TUBE: crate::Emoji = crate::Emoji {
 	glyph:                "🧪",
@@ -5946,6 +5053,899 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("i-telescope"),
 			keywords: &["i-telescope", "itelescope", "ithuluzi"],
+		},
+	],
+};
+#[doc = "📡"]
+pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
+	glyph:                "📡",
+	codepoint:            &[128225u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "satellite antenna",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Science,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("satellietantenna"),
+			keywords: &[
+				"antenna",
+				"antenne",
+				"kontak",
+				"satelliet",
+				"satellietantenna",
+				"satellietantenne",
+				"skottel",
+				"wetenskap",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሳተላይት አንቴና"),
+			keywords: &["ሳተላይት", "አንቴና", "ዲሽ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("طبق قمر صناعي"),
+			keywords: &[
+				"تواصل",
+				"دش",
+				"ساتلايت",
+				"ستلايت",
+				"صحن",
+				"طبق قمر صناعي",
+				"علم",
+				"قمر صناعي",
+				"هوائي",
+				"هوائي قمر صناعي",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}"),
+			keywords: &[
+				"উপগ\u{9cd}ৰহ এণ\u{9cd}টেন\u{9be}",
+				"এণ\u{9cd}টেন\u{9be}",
+				"ছেটেল\u{9be}ইট",
+				"ডিশ\u{9cd}ব",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("peyk antenası"),
+			keywords: &["antena", "peyk", "peyk antenası", "çanaq antenası"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("спадарожнікавая антэна"),
+			keywords: &["антэна", "спадарожнік", "спадарожнікавая антэна", "талерка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("сателитна антена"),
+			keywords: &["антена", "сателитна", "чиния"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}"),
+			keywords: &[
+				"অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
+				"উপগ\u{9cd}রহ",
+				"ডিশ",
+				"স\u{9cd}য\u{9be}টেল\u{9be}ইট অ\u{9cd}য\u{9be}ন\u{9cd}টেন\u{9be}",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("stign loarell"),
+			keywords: &["loarell", "stign"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelitska", "tanjir"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("antena de satèl·lit"),
+			keywords: &[
+				"antena",
+				"antena de satèl·lit",
+				"ciència",
+				"contacte",
+				"extraterrestres",
+				"plat",
+				"satèl·lit",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"),
+			keywords: &["ᎤᏅᏪᏓ", "ᎦᎸᎳᏗ ᎡᏙᎯ ᎾᏏᎳᏛᎾ ᎦᏂᏱᏍᎩ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ", "ᎦᎸᎶᎯ ᎠᎦᏖᏃᎵᏙ ᎡᏙᎯ ᎾᏏᎳᏛᎾ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("satelitní anténa"),
+			keywords: &[
+				"anténa",
+				"družice",
+				"kontakt",
+				"parabolická anténa",
+				"satelit",
+				"satelitní anténa",
+				"talíř",
+				"věda",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("antena lloeren"),
+			keywords: &["antena", "lloeren"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("parabolantenne"),
+			keywords: &[
+				"aliens",
+				"antenne",
+				"parabol",
+				"parabolantenne",
+				"radioteleskop",
+				"rumvæsner",
+				"satellit",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Satellitenschüssel"),
+			keywords: &["Antenne", "Sat-Schüssel", "Satellitenschüssel", "Satschüssel", "Schüssel"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("δορυφορική κεραία"),
+			keywords: &["δορυφορική", "δορυφόρος", "εξωγήινοι", "επαφή", "κεραία", "πιάτο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("satellite antenna"),
+			keywords: &["aliens", "antenna", "contact", "dish", "satellite", "science"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("satellite dish"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("antena de satélite"),
+			keywords: &["antena", "antena de satélite", "comunicación", "satélite"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("antena satelital"),
+			keywords: &[
+				"antena",
+				"antena de satélite",
+				"antena satelital",
+				"comunicación",
+				"emisión",
+				"satélite",
+				"señal",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("satelliitantenn"),
+			keywords: &["antenn", "satelliit", "satelliitantenn", "taldrik"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("satelite bidezko antena"),
+			keywords: &["antena", "parabolikoa", "satelite bidezko antena"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("آنتن ماهواره"),
+			keywords: &["آنتن", "بشقاب", "دیش", "ماهواره"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("lautasantenni"),
+			keywords: &["antenni", "lautanen", "lautasantenni", "satelliitti", "satelliittiantenni"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("satellite antenna"),
+			keywords: &["antenna", "dish", "satellite"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("parabolur"),
+			keywords: &["antenna", "parabolur", "skálkampur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("antenne satellite"),
+			keywords: &["antenne", "antenne parabolique", "parabole", "satellite", "science"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("aeróg satailíte"),
+			keywords: &[
+				"aeróg",
+				"aeróg satailíte",
+				"aeróg shatailíte",
+				"eolaíocht",
+				"mias",
+				"mias satailíte",
+				"satailít",
+				"teagmháil",
+			],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("iadhaire-saideil"),
+			keywords: &["iadhaire", "iadhaire-saideil", "saideal", "soitheach"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("antena de satélite"),
+			keywords: &["antena", "antena de satélite", "satélite"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{ac7}ટ\u{ac7}લાઇટ એન\u{acd}ટ\u{ac7}ના"),
+			keywords: &[
+				"એન\u{acd}ટ\u{ac7}ના",
+				"ડિશ",
+				"સ\u{a82}ચાર",
+				"સ\u{a82}ચારણ",
+				"સાધન",
+				"સ\u{ac7}ટ\u{ac7}લાઇટ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("eriya na kumbo"),
+			keywords: &[
+				"dish",
+				"eriya",
+				"eriya na kumbo",
+				"kama tasha",
+				"kimiyya",
+				"kumbo",
+				"sadarwa",
+				"sararin samaniya",
+				"satalayit",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("eriya na kumbo"),
+			keywords: &[
+				"dish",
+				"eriya",
+				"eriya na kumbo",
+				"kama tasha",
+				"kimiyya",
+				"kumbo",
+				"sadarwa",
+				"sararin samaniya",
+				"satalayit",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("צלחת לוויין"),
+			keywords: &["אנטנה", "לוויין", "צלחת", "תקשורת"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना"),
+			keywords: &[
+				"उपग\u{94d}रह",
+				"डिश",
+				"स\u{948}ट\u{947}लाइट ए\u{902}ट\u{947}ना",
+				"स\u{948}ट\u{947}लाइट डिश",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelit", "satelitska antena", "tanjur"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("parabolaantenna"),
+			keywords: &["antenna", "műhold", "parabola antenna", "parabolaantenna", "tányér"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("արբանյակային ալեհավաք"),
+			keywords: &["ալեհավաք", "արբանյակ", "արբանյակային ալեհավաք", "ափսե"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "piring", "satelit"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("akara satịlitị"),
+			keywords: &["akara", "dishi", "satịlitị"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("gervihnattaloftnet"),
+			keywords: &["diskur", "gervihnattadiskur", "gervihnattaloftnet", "loftnet"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("antenna satellitare"),
+			keywords: &[
+				"antenna",
+				"antenna parabolica",
+				"antenne paraboliche",
+				"antenne satellitari",
+				"comunicazione",
+				"parabola",
+				"satellitare",
+				"satellite",
+				"scienza",
+				"scienze",
+				"tecnologia",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("パラボラアンテナ"),
+			keywords: &["アンテナ", "パラボラ", "パラボラアンテナ", "科学", "衛星アンテナ", "電波"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "parabola", "satelit"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("თანამგზავრული ანტენა"),
+			keywords: &["ანტენა", "თანამგზავრი", "თანამგზავრული", "თეფში", "სატელიტი", "სატელიტური"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("серіктік антенна"),
+			keywords: &["антенна", "серіктік", "тәрелке", "ғылым"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("parabolantenne"),
+			keywords: &["kommunikation", "parabolantenne"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ចានផ\u{17d2}កាយរណប"),
+			keywords: &["ចានផ\u{17d2}កាយរណប", "ផ\u{17d2}កាយរណប", "អង\u{17cb}តែន"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಉಪಗ\u{ccd}ರಹ ಆಂಟ\u{cc6}ನಾ"),
+			keywords: &[
+				"ಆಂಟ\u{cc6}ನಾ",
+				"ಉಪಗ\u{ccd}ರಹ",
+				"ಡ\u{cbf}ಶ\u{ccd}",
+				"ವ\u{cbf}ಜ\u{ccd}ಞಾನ",
+				"ಸಂಪರ\u{ccd}ಕ",
+				"ಸಂವಹನ",
+				"ಸಾಟ\u{ccd}ಲ\u{cc8}ಟ\u{ccd} ಆಂಟ\u{cc6}ನಾ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("위성 안테나"),
+			keywords: &["과학", "발견", "안테나", "외계인", "위성", "위성 방송", "접시"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उपगिरो एण\u{94d}ट\u{947}ना"),
+			keywords: &["उपगिरो", "एण\u{94d}ट\u{947}ना", "डीश"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("спутниктик антенна"),
+			keywords: &["антенна", "спутник", "спутниктик антенна", "табак"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Satellittenantenn"),
+			keywords: &["Antenn", "Satellitt", "Satellittenantenn", "Teller"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເສ\u{ebb}າອາກາດດາວທຽມ"),
+			keywords: &["ດາວທຽມ", "ເສ\u{ebb}າອາກາດ", "ເສ\u{ebb}າອາກາດດາວທຽມ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("palydovinė antena"),
+			keywords: &["antena", "indas", "mokslas", "palydovas", "palydovinė antena"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("satelīta šķīvis"),
+			keywords: &["antena", "satelīta šķīvis", "satelīts", "šķīvis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("pūhihi amiorangi"),
+			keywords: &["amiorangi", "pūhihi", "rīhi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("сателитска антена"),
+			keywords: &["антена", "вонземјани", "контакт", "наука", "сателит", "сателитска", "чинија"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d} ആന\u{d4d}റിന"),
+			keywords: &[
+				"ആന\u{d4d}റിന",
+				"ആശയവിനിമയം",
+				"ടിവി ആന\u{d4d}റിന",
+				"ഡിഷ\u{d4d}",
+				"സ\u{d3e}റ\u{d4d}റലൈറ\u{d4d}റ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хиймэл дагуулын антен"),
+			keywords: &["антен", "таваг", "хиймэл дагуул", "хиймэл дагуулын антен"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना"),
+			keywords: &[
+				"अ\u{901}टिना",
+				"अ\u{901}ट\u{947}ना",
+				"उपग\u{94d}रह",
+				"उपग\u{94d}रह अ\u{945}\u{902}ट\u{947}ना",
+				"उपग\u{94d}रह ए\u{902}टिना",
+				"डिश",
+				"स\u{902}वाद",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("antena satelit"),
+			keywords: &["antena", "hubungi", "makhluk asing", "piring", "sains", "satelit"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("antenna tas-satellita"),
+			keywords: &["antenna", "antenna tas-satellita", "dixx", "satellita"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း"),
+			keywords: &[
+				"ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f} စလောင\u{103a}း",
+				"ဆက\u{103a}သယ\u{103a}ရေး ဂြ\u{102d}\u{102f}ဟ\u{103a}တ\u{102f}",
+				"ဧရ\u{102e}ယာတ\u{102d}\u{102f}င\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}याटलाइट एन\u{94d}ट\u{947}ना"),
+			keywords: &["एन\u{94d}ट\u{947}ना", "डिस\u{94d}", "स\u{94d}याटलाइट"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("satellietschotel"),
+			keywords: &["antenne", "communicatie", "satelliet", "satellietschotel", "schotel"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}"),
+			keywords: &[
+				"ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
+				"ଡ\u{b3f}ସ\u{b4d}",
+				"ଯୋଗ\u{b3e}ଯୋଗ",
+				"ସ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}",
+				"ସ\u{b4d}ୟ\u{b3e}ଟେଲ\u{b3e}ଇଟ\u{b4d}\u{200c} ଆଣ\u{b4d}ଟ\u{b3f}ନ\u{b3e}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ"),
+			keywords: &[
+				"ਅ\u{a70}ਟੀਨਾ",
+				"ਏਲੀਅਨ",
+				"ਐਨਟੀਨਾ",
+				"ਡਿਸ\u{a3c}",
+				"ਸ\u{a48}ਟਲਾਈਟ",
+				"ਸ\u{a48}ਟ\u{a47}ਲਾਈਟ ਅ\u{a70}ਟੀਨਾ",
+				"ਸ\u{a70}ਚਾਰ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("سیٹلائٹ انٹینا"),
+			keywords: &["انٹینا", "تھالی", "سیٹلائٹ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Sátálaít Antẹ\u{301}na"),
+			keywords: &["Antẹ\u{301}na", "Dish", "Sátálait", "Sátálaít Antẹ\u{301}na"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("antena satelitarna"),
+			keywords: &[
+				"antena",
+				"antena satelitarna",
+				"czasza",
+				"kosmici",
+				"nauka",
+				"obcy",
+				"satelita",
+				"talerz",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د سپوږمکۍ انټينا"),
+			keywords: &["انټينا", "د سپوږمکۍ انټينا", "سپوږمکۍ", "ډش"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("antena parabólica"),
+			keywords: &["antena", "comunicação", "parabólica", "satélite"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("antenă satelit"),
+			keywords: &["antenă", "comunicare", "contact", "extratereștri", "satelit", "știință"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-670"), keywords: &["E10-670"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("спутниковая антенна"),
+			keywords: &["антенна", "спутник", "спутниковая"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("anteni y’icyogajuru"),
+			keywords: &["anteni", "anteni y’icyogajuru", "icyogajuru", "isahani"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("سيٽ لائيٽ اينٽينا"),
+			keywords: &["اينٽينا", "سيٽ لائيٽ اينٽينا", "سيٽيلائيٽ", "ڊش"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව"),
+			keywords: &[
+				"ඇන\u{dca}ටන\u{dcf}ව",
+				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf} අැන\u{dca}ටන\u{dcf}ව",
+				"චන\u{dca}ද\u{dca}\u{200d}ර\u{dd2}ක\u{dcf}ව",
+				"ඩ\u{dd2}ෂ\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("satelitná anténa"),
+			keywords: &["anténa", "kontakt", "satelit", "satelitná anténa", "tanier", "veda"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "krožnik", "satelit", "satelitska antena", "satelitsko"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("aanteenada satalaytka"),
+			keywords: &["aanteena", "aanteenada satalaytka", "satalayt", "sixni"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("antenë satelitore"),
+			keywords: &["alien", "antenë", "kontakt", "satelit", "satelitore", "shkencë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("сателитска антена"),
+			keywords: &["антена", "ванземаљци", "сaтeлит", "сателитска", "тањир"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("satelitska antena"),
+			keywords: &["antena", "satelit", "satelitska", "tanjir", "vanzemaljci"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("tv-satellit"),
+			keywords: &["antenn", "kommunikation", "satellit", "tv-satellit", "tv-satellitantenn"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("antena ya setilaiti"),
+			keywords: &["antena", "antena ya setilaiti", "dishi", "setilaiti", "ungo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}"),
+			keywords: &[
+				"ஆண\u{bcd}டென\u{bbe}",
+				"ஆன\u{bcd}டன\u{bbe}",
+				"ச\u{bbe}ட\u{bcd}டிலைட\u{bcd} ஆன\u{bcd}டன\u{bbe}",
+				"செயற\u{bcd}கை கோள\u{bcd}",
+				"செயற\u{bcd}கைக\u{bcd}கோள\u{bcd}",
+				"டிவி",
+				"டிஷ\u{bcd}",
+				"தொடர\u{bcd}பு",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}"),
+			keywords: &[
+				"ఉపగ\u{c4d}రహ య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
+				"ఎల\u{c3f}యన\u{c4d}స\u{c4d}",
+				"క\u{c3e}ంట\u{c3e}క\u{c4d}ట\u{c4d}",
+				"డ\u{c3f}ష\u{c4d}",
+				"వ\u{c3f}జ\u{c4d}ఞ\u{c4d}య\u{c3e}నం",
+				"శ\u{c3e}ట\u{c3f}ల\u{c48}ట\u{c4d} య\u{c3e}ంట\u{c46}న\u{c4d}న\u{c3e}",
+				"స\u{c3e}ట\u{c3f}ల\u{c4d}ల\u{c48}ట\u{c4d} ఆంట\u{c46}న\u{c4d}న\u{c3e}",
+				"స\u{c48}న\u{c4d}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("антеннаи моҳвораӣ"),
+			keywords: &["антенна", "антеннаи моҳвораӣ", "моҳвора", "табақ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("จานดาวเท\u{e35}ยม"),
+			keywords: &["จาน", "จานดาวเท\u{e35}ยม", "ดาวเท\u{e35}ยม", "เสาอากาศ"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሳተላይት ኣንቴና"),
+			keywords: &["ርክብ", "ሳተላይት", "ሳይንስ", "ኣንቴና", "ወጻእተኛታት", "ድስቲ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("hemra antennasy"),
+			keywords: &["anten", "hemra", "hemra antennasy", "tarelka"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tisi satelaite"),
+			keywords: &["tisi satelaite"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("uydu anteni"),
+			keywords: &["anten", "iletişim", "uydu", "uydu anteni", "çanak"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("سۈنئىي ھەمرا ئانتېنناسى"),
+			keywords: &["ئانتېننا", "تەخسە", "سۈنئىي ھەمرا ئانتېنناسى", "سۈنئىي ھەمراھ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("супутникова антена"),
+			keywords: &["антена", "супутникова", "тарілка"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سیٹلائٹ انٹینا"),
+			keywords: &["آلہ", "ابلاغ", "انٹینا", "رابطہ", "سٹلائٹ", "سیٹلائٹ انٹینا", "طشتری", "ڈش"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("sun’iy yo‘ldoshli antenna"),
+			keywords: &["aloqa", "antenna", "lagan", "sunʼiy yoʻldosh", "sun’iy yo‘ldoshli antenna"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("ăng-ten vệ tinh"),
+			keywords: &["vệ tinh", "ăng-ten", "ăng-ten vệ tinh", "đĩa"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("àntenu satelit"),
+			keywords: &["satelit", "sukup", "ànten", "àntenu satelit"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("intonga yesathelayithi"),
+			keywords: &["i-dish", "i-satellite", "intonga", "intonga yesathelayithi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("eria satalaiti"),
+			keywords: &["eria satalaiti", "àtagbà", "àwo", "ẹ\u{300}rọ alátagbà nlá"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("eria satalaiti"),
+			keywords: &["eria satalaiti", "àtagbà", "àwo", "ɛ\u{300}rɔ alátagbà nlá"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("衛星天線"),
+			keywords: &["天線", "碟", "衛星", "衛星天線"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("卫星天线"),
+			keywords: &["卫星", "卫星天线", "天线", "碟"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("卫星天线"),
+			keywords: &[
+				"信号接收",
+				"卫星",
+				"卫星天线",
+				"卫星接收天线",
+				"卫星碟形天线",
+				"外星人",
+				"天线",
+				"接触",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("衛星天線"),
+			keywords: &["外星人", "天線", "衛星天線"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["外星人", "天線", "太空", "宇宙", "碟", "科學", "衛星"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("u-eriyeli wesethelaythi"),
+			keywords: &["indishi", "isethelaythi", "u-eriyeli", "u-eriyeli wesethelaythi"],
 		},
 	],
 };

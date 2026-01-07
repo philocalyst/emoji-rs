@@ -3,11 +3,13 @@ use std::{collections::HashSet, fs::File, io::{Read, Write}, path::PathBuf, proc
 use proc_macro2::TokenStream;
 use quote::quote;
 
-use crate::{group_subgroup::Group, lookup_types::GlyphLookupEntry};
+use crate::{group_subgroup::Group, lookup_types::{GlyphLookupEntry, to_array_tokens}};
 
 pub fn dump(groups: &Vec<Group>) {
 	let mut lookup_by_glyph: Vec<GlyphLookupEntry> = vec![];
-	let mut seen: HashSet<String> = HashSet::new(); // Prevent duplicates
+	let mut array_entries: Vec<GlyphLookupEntry> = vec![];
+	let mut seen_glyphs: HashSet<String> = HashSet::new();
+	let mut seen_definitions: HashSet<(String, String, String, bool)> = HashSet::new(); // (group, subgroup, name, is_toned)
 
 	for g in groups {
 		for s in &g.subgroups {
@@ -16,7 +18,7 @@ pub fn dump(groups: &Vec<Group>) {
 
 				// Helper to add entries without duplicates
 				let mut add_entry = |glyph: String| {
-					if seen.insert(glyph.clone()) {
+					if seen_glyphs.insert(glyph.clone()) {
 						lookup_by_glyph.push(GlyphLookupEntry::new(
 							glyph,
 							e.group.clone(),
@@ -26,6 +28,18 @@ pub fn dump(groups: &Vec<Group>) {
 						));
 					}
 				};
+
+				// Add unique definition to array (only once per unique emoji constant)
+				let def_key = (e.group.clone(), e.subgroup.clone(), e.name.clone(), is_toned);
+				if seen_definitions.insert(def_key) {
+					array_entries.push(GlyphLookupEntry::new(
+						e.glyph.clone(),
+						e.group.clone(),
+						e.subgroup.clone(),
+						e.name.clone(),
+						is_toned,
+					));
+				}
 
 				// 1. Add the fully qualified form
 				add_entry(e.glyph.clone());
@@ -62,11 +76,15 @@ pub fn dump(groups: &Vec<Group>) {
 	f.read_to_string(&mut fs).unwrap();
 	let ts: TokenStream = fs.parse().unwrap();
 
+	// Use array_entries instead of lookup_by_glyph for the array
+	let array = to_array_tokens(&array_entries);
+
 	let dump = quote! {
-			#ts
-			static GLYPH_LOOKUP_MAP: phf::Map<&'static str, crate::EmojiEntry> = phf::phf_map! {
-					#(#lookup_by_glyph),*
-			};
+		#array
+		#ts
+		static GLYPH_LOOKUP_MAP: phf::Map<&'static str, crate::EmojiEntry> = phf::phf_map! {
+			#(#lookup_by_glyph),*
+		};
 	};
 
 	let path = "emoji/src/lookup_by_glyph.rs";

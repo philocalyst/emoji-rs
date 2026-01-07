@@ -1601,852 +1601,6 @@ pub const HELICOPTER: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🛸"]
-pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
-	glyph:                "🛸",
-	codepoint:            &[128760u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-	name:                 "flying saucer",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::TransportAir,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("vlieënde piering"),
-			keywords: &["VVV", "boaards", "boaardse wesens", "ruimtetuig", "vlieënde piering"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("በራሪ ዲስክ"),
-			keywords: &["በራሪ ዲስክ", "ተጨማሪ", "ተጨማሪ ምድራዊ", "ተጨማሪ የብሳዊ", "ትርፍ", "የሌላ ዓለም ፍጡር", "ዩፎ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("صحن طائر"),
-			keywords: &["صحن طائر", "طبق طائر", "غريب", "فضاء", "مخلوق فضائي", "مركبة فضائية"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"),
-			keywords: &["ইউফ’", "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("uçan boşqab"),
-			keywords: &["UFO", "uçan boşqab"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("лятаючая талерка"),
-			keywords: &["НЛА", "лятаючая талерка"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("летяща чиния"),
-			keywords: &["НЛО", "извънземни", "летяща чиния"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি"),
-			keywords: &[
-				"ইউএফও",
-				"উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি",
-				"এলিয\u{9bc}েন",
-				"পরিবহন",
-				"ভিনগ\u{9cd}রহব\u{9be}সী",
-				"য\u{9be}ত\u{9be}য\u{9bc}\u{9be}ত",
-				"স\u{9cd}পেসশিপ",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("pladenn-nij"),
-			keywords: &["NIDI", "pladenn-nij"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("leteći tanjir"),
-			keywords: &["NLO", "leteći tanjir"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("plat volador"),
-			keywords: &[
-				"UFO",
-				"extraterrestre",
-				"extraterrestres",
-				"objecte volador no identificat",
-				"ovni",
-				"plat volador",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ"),
-			keywords: &["ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ", "ᎪᏟᏍᏗ ᏂᎨᏒᎾ ᎦᏃᎯᎵᏙᎯ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("létající talíř"),
-			keywords: &[
-				"UFO",
-				"doprava",
-				"létající talíř",
-				"mimozemský",
-				"mimozemšťani",
-				"neidentifikovatelný létající předmět",
-				"ufon",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("soser hedegog"),
-			keywords: &["peth hedegog anhysbys", "soser hedegog"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("ufo"),
-			keywords: &["flyvende tallerken", "marsmand", "rummet", "rumvæsen", "ufo"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("fliegende Untertasse"),
-			keywords: &["Alien", "Außerirdisch", "UFO", "fliegende Untertasse"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("↑↑↑"),
-			keywords: &["Alien", "Ausserirdisch", "UFO", "fliegende Untertasse"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ιπτάμενος δίσκος"),
-			keywords: &["ΑΤΙΑ", "εξωγήινοι", "εξωγήινος", "ιπτάμενος δίσκος", "ούφο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("flying saucer"),
-			keywords: &["UFO", "aliens", "extra", "flying", "saucer", "terrestrial"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["UFO", "flying saucer", "spaceship"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("platillo volante"),
-			keywords: &["ovni", "platillo volante"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("platillo volador"),
-			keywords: &[
-				"extraterrestre",
-				"objeto volador no identificado",
-				"ovni",
-				"platillo",
-				"platillo volador",
-				"platillo volante",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["platillo volador"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("lendav taldrik"),
-			keywords: &["UFO", "lendav taldrik", "maaväline", "tulnukad"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("plater hegalari"),
-			keywords: &["OHE", "plater hegalari"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("بشقاب\u{200c}پرنده"),
-			keywords: &[
-				"بشقاب پرنده",
-				"بشقاب\u{200c}پرنده",
-				"شیء پرنده\u{654} ناشناس",
-				"فضایی",
-				"موجود فضایی",
-				"یو اف او",
-				"یواف\u{200c}ا\u{64f}",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("lentävä lautanen"),
-			keywords: &["UFO", "lentävä lautanen"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("flying saucer"),
-			keywords: &["UFO", "flying saucer"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("flúgvandi diskur"),
-			keywords: &["flúgvandi diskur", "ufo"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("soucoupe volante"),
-			keywords: &["OVNI", "alien", "extraterrestre", "ovni", "soucoupe volante"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("sásar eitilte"),
-			keywords: &["UFO", "sásar eitilte", "úfónna"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("soitheach-fànais"),
-			keywords: &["UFO", "soitheach-fànais"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("ovni"),
-			keywords: &["extraterrestres", "marcianos", "ovni", "prato voador"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{acd}લાઇ\u{a82}ગ સૉસર"),
-			keywords: &[
-				"UFO",
-				"અ\u{a82}તરિક\u{acd}ષગમન",
-				"અ\u{a82}તરિક\u{acd}ષયાન",
-				"આકાશગમન",
-				"ઊડતી રકાબી",
-				"પ\u{ac3}થ\u{acd}વી ક\u{ac7} ત\u{ac7}ના વાતાવરણની બહારન\u{ac1}\u{a82}",
-				"ફ\u{acd}લાઇ\u{a82}ગ સૉસર",
-				"બીજી દ\u{ac1}નિયાન\u{ac1}\u{a82}",
-				"યાન",
-				"સવારી",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("faranti mai tasowa"),
-			keywords: &["UFO", "aljan", "aljanu", "faranti mai tasowa", "ʼyan sama jannati"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("faranti mai tasowa"),
-			keywords: &["UFO", "aljan", "aljanu", "faranti mai tasowa", "ƴan sama jannati"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("צלחת מעופפת"),
-			keywords: &["חוצן", "חוצנים", "חייזרים", "עב״מ", "צלחת מעופפת"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("उड\u{93c}न तश\u{94d}तरी"),
-			keywords: &[
-				"उड\u{93c}न तश\u{94d}तरी",
-				"उड\u{93c}ान तश\u{94d}तरी",
-				"एलिय\u{902}स",
-				"य\u{942}एफओ",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("leteći tanjur"),
-			keywords: &["NLO", "leteći tanjur", "svemirski brod", "vanzemaljci"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("repülő csészealj"),
-			keywords: &["UFO", "földönkívüli", "idegenek", "marslakó", "repülő csészealj", "ufó"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("թռչող ափսե"),
-			keywords: &["այլմոլորակային", "թռչող ափսե"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("piring terbang"),
-			keywords: &["UFO", "alien", "cawan", "ekstra", "piring", "terbang", "terestrial"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ihe na-efe efe"),
-			keywords: &["UFO", "ihe na-efe efe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("fljúgandi diskur"),
-			keywords: &["fljúgandi diskur", "fljúgandi furðuhlutur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("disco volante"),
-			keywords: &["UFO", "alieni", "disco volante", "extra terrestri", "marziani", "spazio", "ufo"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("空飛ぶ円盤"),
-			keywords: &["UFO", "乗り物", "宇宙", "宇宙人", "未確認飛行物体", "空飛ぶ円盤"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("piring mabur"),
-			keywords: &["UFO", "piring mabur"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მფრინავი თეფში"),
-			keywords: &["ამო", "ამოუცნობი მფრინავი ობიექტი", "მფრინავი თეფში"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("taɣawsa tarussint yettafgen"),
-			keywords: &["taɣawsa tarussint yettafgen"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ұшатын тарелка"),
-			keywords: &["ұшатын тарелка"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang: "km", tts: Some("ថាសហោះ"), keywords: &["ថាសហោះ"]
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}"),
-			keywords: &[
-				"ಅನ\u{ccd}ಯಗ\u{ccd}ರಹ ಜ\u{cc0}ವ\u{cbf}ಗಳು",
-				"ಭ\u{cc2}ಮಂಡಲ",
-				"ಯುಎಫ\u{ccd}ಒ",
-				"ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}",
-				"ಹ\u{cc6}ಚ\u{ccd}ಚುವರ\u{cbf} ಭ\u{cc2}ಮಂಡಲ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("비행접시"),
-			keywords: &["UFO", "비행접시", "외계인", "우주 생명체"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("उडण तश\u{94d}करी"),
-			keywords: &["उडण तश\u{94d}करी", "य\u{941}एफओ"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("учуучу объект"),
-			keywords: &["НЛО", "учуучу объект"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation { lang: "lb", tts: Some("UFO"), keywords: &["UFO"] },
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຍ\u{ebb}ນຈານບ\u{eb4}ນ"),
-			keywords: &["UFO", "ຈານບ\u{eb4}ນ", "ຍ\u{ebb}ນຈານບ\u{eb4}ນ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("skraidanti lėkštė"),
-			keywords: &["NSO", "ateiviai", "nežemiška", "skraidanti lėkštė"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("lidojošais šķīvītis"),
-			keywords: &["NLO", "lidojošais šķīvītis"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("waka ātea nō ao kē"),
-			keywords: &["waka tuarangi kāore i mōhiotia", "waka ātea nō ao kē"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("летечка чинија"),
-			keywords: &["НЛО", "вонземјани", "летечка чинија"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("പറക\u{d4d}ക\u{d41}ംതളിക"),
-			keywords: &[
-				"തെളിവില\u{d4d}ല\u{d3e}ത\u{d4d}ത പറക\u{d4d}ക\u{d41}ം വസ\u{d4d}\u{200c}ത\u{d41}ക\u{d4d}കൾ",
-				"പറക\u{d4d}ക\u{d41}ംതളിക",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("нисдэг таваг"),
-			keywords: &["нисдэг таваг", "үл танигдах нисдэг биет"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("उडती तबकडी"),
-			keywords: &["अवकाश यान", "उडणारी तबकडी", "उडती तबकडी", "तबकडी", "यान", "य\u{942}एफओ"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("piring terbang"),
-			keywords: &["UFO", "makhluk asing", "piring terbang"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("flying saucer"),
-			keywords: &["UFO", "flying saucer"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}"),
-			keywords: &[
-				"ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}",
-				"ယ\u{1030}အက\u{103a}ဖ\u{103a}အ\u{102d}\u{102f}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("उड\u{94d}न\u{947} थाली आकारको यान"),
-			keywords: &["उड\u{94d}न\u{947} थाली आकारको यान", "य\u{941}एफओ"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("vliegende schotel"),
-			keywords: &[
-				"UFO",
-				"aliens",
-				"buitenaards",
-				"buitenaardse wezens",
-				"science fiction",
-				"ufo",
-				"vervoermiddel",
-				"vliegende schotel",
-				"voertuig",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("flygande tallerken"),
-			keywords: &["UFO", "flygande tallerken"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}"),
-			keywords: &[
-				"UFO",
-				"ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}",
-				"ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସ\u{b4d}\u{200c}ର",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਉਡਣ ਤਸ\u{a3c}ਤਰੀ"),
-			keywords: &["ਉਡਣ ਤਸ\u{a3c}ਤਰੀ", "ਏਲੀਅਨ", "ਪ\u{a41}ਲਾੜ", "ਯ\u{a42}ਐਫਓ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ا\u{64f}ڑن طشتری"),
-			keywords: &["UFO", "ا\u{64f}ڑن طشتری"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fláyín Sọ\u{301}sa"),
-			keywords: &["Fláyín Sọ\u{301}sa", "UFO"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("latający talerz"),
-			keywords: &[
-				"fantastyka",
-				"kosmici",
-				"kosmita",
-				"latający",
-				"sci-fi",
-				"sf",
-				"spodek",
-				"talerz",
-				"ufo",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("الوتونکی طشتری"),
-			keywords: &["الوتونکى نا لبکى", "الوتونکى نالبکى", "يو ايف او"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("disco voador"),
-			keywords: &["OVNI", "disco voador", "disco voador, ovni, alienígena, extra terrestre, ET"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["OVNI", "disco voador", "extraterrestre"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("platillo volador"),
-			keywords: &["ovni", "platillo volador"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("farfurie zburătoare"),
-			keywords: &["OZN", "extraterestru", "extratereștrii", "farfurie zburătoare"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-1009"), keywords: &["E10-1009"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("летающая тарелка"),
-			keywords: &[
-				"НЛО",
-				"инопланетный гость",
-				"инопланетяне",
-				"летающая тарелка",
-				"марсианин",
-				"пришелец",
-				"пришельцы",
-				"тарелка",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("isahani iguruka"),
-			keywords: &["Ibiguruka bitazwi", "isahani iguruka"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("اڏامندڙ بس"),
-			keywords: &["UFO", "اڏامندڙ بس"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"),
-			keywords: &["UFO", "ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("lietajúci tanier"),
-			keywords: &["lietajúci tanier", "mimozemský", "mimozešťania", "ufo", "ufóni"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("leteči krožnik"),
-			keywords: &["NLP", "leteči krožnik", "nezemljani", "neznani leteči predmet"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("shey sidii digsi oo duulaya"),
-			keywords: &["shey sidii digsi oo duulaya"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("disk fluturues"),
-			keywords: &[
-				"UFO",
-				"alien",
-				"disk",
-				"disk fluturues",
-				"jashtëtokësor",
-				"objekt i paidentifikuar fluturues",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("летећи тањир"),
-			keywords: &["НЛО", "ванземаљци", "летећи", "тањир"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("leteći tanjir"),
-			keywords: &["NLO", "leteći", "tanjir", "vanzemaljci"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("flygande tefat"),
-			keywords: &["UFO", "flygande tefat"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kisahani kinachopaa"),
-			keywords: &["chombo kisichotambulika kinachopaa", "kisahani kinachopaa"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு"),
-			keywords: &[
-				"ஏலியன\u{bcd}",
-				"பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு",
-				"யுஎஃப\u{bcd}ஓ",
-				"யூ.எஃப\u{bcd}.ஓ.",
-				"விண\u{bcd}வெளி",
-				"வேற\u{bcd}றுகிரக மனிதர\u{bcd}கள\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం"),
-			keywords: &[
-				"అదనం",
-				"ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం",
-				"ఏల\u{c3f}యన\u{c4d}స\u{c4d}",
-				"గ\u{c4d}రహ\u{c3e}ంతరవ\u{c3e}స\u{c3f}",
-				"ఫ\u{c4d}ల\u{c48}య\u{c3f}ంగ\u{c4d} స\u{c3e}సర\u{c4d}",
-				"యుఎఫ\u{c4d}ఓ",
-				"ర\u{c4b}దస\u{c3f}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("лаълии паррон"),
-			keywords: &["лаълии паррон"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("จานบ\u{e34}น"),
-			keywords: &[
-				"จานบ\u{e34}น",
-				"มน\u{e38}ษย\u{e4c}ต\u{e48}างดาว",
-				"ยานอวกาศ",
-				"ย\u{e39}เอฟโอ",
-				"เอเล\u{e35}\u{e48}ยน",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዝነፍር ሳእኒ"),
-			keywords: &["ምድራዊ", "ሳእኒ", "ተወሳኺ", "ወጻእተኛታት", "ዝነፍር", "ዩፎ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("uçýan tabak"),
-			keywords: &["NUO", "uçýan tabak"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("peleti puna"),
-			keywords: &["peleti", "puna"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("uçan daire"),
-			keywords: &["UFO", "ufo", "uzaylı", "uçan daire"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئۇچار تەخسە"),
-			keywords: &["UFO", "ئۇچار تەخسە"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("летюча тарілка"),
-			keywords: &["НЛО", "летюча тарілка", "чужі"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("اڑن تشتری"),
-			keywords: &[
-				"اڑتی رکابی",
-				"اڑن تشتری",
-				"اڑن طشتری",
-				"باہری دنیا کا",
-				"خلائیہ",
-				"نامعلوم اڑن تشتری",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("uchar likopcha"),
-			keywords: &["nomaʼlum uchar jism", "oʻzga sayyoralik", "uchar jism", "uchar likopcha"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đĩa bay"),
-			keywords: &["UFO", "người ngoài hành tinh", "đĩa bay"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("sukup buy naaw"),
-			keywords: &["OVNI", "sukup buy naaw"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isosa ebhabhayo"),
-			keywords: &["I-UFO", "isosa ebhabhayo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("àwọ kékeré tí ń fò"),
-			keywords: &["UFO", "àwọ kékeré tí ń fò"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("àwɔ kékeré tí ń fò"),
-			keywords: &["UFO", "àwɔ kékeré tí ń fò"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("飛碟"),
-			keywords: &["不明飛行物體", "飛碟"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("飞碟"),
-			keywords: &["不明飞行物体", "飞碟"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("飞碟"),
-			keywords: &["UFO", "不明飞行物", "外星人", "外星球", "飞碟"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("飛碟"),
-			keywords: &["UFO", "外太空人", "外星人", "幽浮", "異形", "飛碟"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["UFO", "不明飛行物", "不明飛行物體", "外星人", "未確認飛行物", "飛碟"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isosa endizayo"),
-			keywords: &["i-UFO", "isosa endizayo"],
-		},
-	],
-};
 #[doc = "🛫"]
 pub const AIRPLANE_DEPARTURE: crate::Emoji = crate::Emoji {
 	glyph:                "🛫",
@@ -9172,6 +8326,852 @@ pub const PARACHUTE: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("i-parachute"),
 			keywords: &["i-hang-glide", "i-parachute", "i-parasail", "i-skydive"],
+		},
+	],
+};
+#[doc = "🛸"]
+pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
+	glyph:                "🛸",
+	codepoint:            &[128760u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+	name:                 "flying saucer",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::TransportAir,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("vlieënde piering"),
+			keywords: &["VVV", "boaards", "boaardse wesens", "ruimtetuig", "vlieënde piering"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("በራሪ ዲስክ"),
+			keywords: &["በራሪ ዲስክ", "ተጨማሪ", "ተጨማሪ ምድራዊ", "ተጨማሪ የብሳዊ", "ትርፍ", "የሌላ ዓለም ፍጡር", "ዩፎ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("صحن طائر"),
+			keywords: &["صحن طائر", "طبق طائر", "غريب", "فضاء", "مخلوق فضائي", "مركبة فضائية"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"),
+			keywords: &["ইউফ’", "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("uçan boşqab"),
+			keywords: &["UFO", "uçan boşqab"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("лятаючая талерка"),
+			keywords: &["НЛА", "лятаючая талерка"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("летяща чиния"),
+			keywords: &["НЛО", "извънземни", "летяща чиния"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি"),
+			keywords: &[
+				"ইউএফও",
+				"উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি",
+				"এলিয\u{9bc}েন",
+				"পরিবহন",
+				"ভিনগ\u{9cd}রহব\u{9be}সী",
+				"য\u{9be}ত\u{9be}য\u{9bc}\u{9be}ত",
+				"স\u{9cd}পেসশিপ",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("pladenn-nij"),
+			keywords: &["NIDI", "pladenn-nij"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("leteći tanjir"),
+			keywords: &["NLO", "leteći tanjir"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("plat volador"),
+			keywords: &[
+				"UFO",
+				"extraterrestre",
+				"extraterrestres",
+				"objecte volador no identificat",
+				"ovni",
+				"plat volador",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ"),
+			keywords: &["ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ", "ᎪᏟᏍᏗ ᏂᎨᏒᎾ ᎦᏃᎯᎵᏙᎯ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("létající talíř"),
+			keywords: &[
+				"UFO",
+				"doprava",
+				"létající talíř",
+				"mimozemský",
+				"mimozemšťani",
+				"neidentifikovatelný létající předmět",
+				"ufon",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("soser hedegog"),
+			keywords: &["peth hedegog anhysbys", "soser hedegog"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("ufo"),
+			keywords: &["flyvende tallerken", "marsmand", "rummet", "rumvæsen", "ufo"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("fliegende Untertasse"),
+			keywords: &["Alien", "Außerirdisch", "UFO", "fliegende Untertasse"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("↑↑↑"),
+			keywords: &["Alien", "Ausserirdisch", "UFO", "fliegende Untertasse"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ιπτάμενος δίσκος"),
+			keywords: &["ΑΤΙΑ", "εξωγήινοι", "εξωγήινος", "ιπτάμενος δίσκος", "ούφο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("flying saucer"),
+			keywords: &["UFO", "aliens", "extra", "flying", "saucer", "terrestrial"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["UFO", "flying saucer", "spaceship"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("platillo volante"),
+			keywords: &["ovni", "platillo volante"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("platillo volador"),
+			keywords: &[
+				"extraterrestre",
+				"objeto volador no identificado",
+				"ovni",
+				"platillo",
+				"platillo volador",
+				"platillo volante",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["platillo volador"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("lendav taldrik"),
+			keywords: &["UFO", "lendav taldrik", "maaväline", "tulnukad"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("plater hegalari"),
+			keywords: &["OHE", "plater hegalari"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("بشقاب\u{200c}پرنده"),
+			keywords: &[
+				"بشقاب پرنده",
+				"بشقاب\u{200c}پرنده",
+				"شیء پرنده\u{654} ناشناس",
+				"فضایی",
+				"موجود فضایی",
+				"یو اف او",
+				"یواف\u{200c}ا\u{64f}",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("lentävä lautanen"),
+			keywords: &["UFO", "lentävä lautanen"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("flying saucer"),
+			keywords: &["UFO", "flying saucer"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("flúgvandi diskur"),
+			keywords: &["flúgvandi diskur", "ufo"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("soucoupe volante"),
+			keywords: &["OVNI", "alien", "extraterrestre", "ovni", "soucoupe volante"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("sásar eitilte"),
+			keywords: &["UFO", "sásar eitilte", "úfónna"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("soitheach-fànais"),
+			keywords: &["UFO", "soitheach-fànais"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("ovni"),
+			keywords: &["extraterrestres", "marcianos", "ovni", "prato voador"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફ\u{acd}લાઇ\u{a82}ગ સૉસર"),
+			keywords: &[
+				"UFO",
+				"અ\u{a82}તરિક\u{acd}ષગમન",
+				"અ\u{a82}તરિક\u{acd}ષયાન",
+				"આકાશગમન",
+				"ઊડતી રકાબી",
+				"પ\u{ac3}થ\u{acd}વી ક\u{ac7} ત\u{ac7}ના વાતાવરણની બહારન\u{ac1}\u{a82}",
+				"ફ\u{acd}લાઇ\u{a82}ગ સૉસર",
+				"બીજી દ\u{ac1}નિયાન\u{ac1}\u{a82}",
+				"યાન",
+				"સવારી",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("faranti mai tasowa"),
+			keywords: &["UFO", "aljan", "aljanu", "faranti mai tasowa", "ʼyan sama jannati"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("faranti mai tasowa"),
+			keywords: &["UFO", "aljan", "aljanu", "faranti mai tasowa", "ƴan sama jannati"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("צלחת מעופפת"),
+			keywords: &["חוצן", "חוצנים", "חייזרים", "עב״מ", "צלחת מעופפת"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("उड\u{93c}न तश\u{94d}तरी"),
+			keywords: &[
+				"उड\u{93c}न तश\u{94d}तरी",
+				"उड\u{93c}ान तश\u{94d}तरी",
+				"एलिय\u{902}स",
+				"य\u{942}एफओ",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("leteći tanjur"),
+			keywords: &["NLO", "leteći tanjur", "svemirski brod", "vanzemaljci"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("repülő csészealj"),
+			keywords: &["UFO", "földönkívüli", "idegenek", "marslakó", "repülő csészealj", "ufó"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("թռչող ափսե"),
+			keywords: &["այլմոլորակային", "թռչող ափսե"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("piring terbang"),
+			keywords: &["UFO", "alien", "cawan", "ekstra", "piring", "terbang", "terestrial"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ihe na-efe efe"),
+			keywords: &["UFO", "ihe na-efe efe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("fljúgandi diskur"),
+			keywords: &["fljúgandi diskur", "fljúgandi furðuhlutur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("disco volante"),
+			keywords: &["UFO", "alieni", "disco volante", "extra terrestri", "marziani", "spazio", "ufo"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("空飛ぶ円盤"),
+			keywords: &["UFO", "乗り物", "宇宙", "宇宙人", "未確認飛行物体", "空飛ぶ円盤"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("piring mabur"),
+			keywords: &["UFO", "piring mabur"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მფრინავი თეფში"),
+			keywords: &["ამო", "ამოუცნობი მფრინავი ობიექტი", "მფრინავი თეფში"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("taɣawsa tarussint yettafgen"),
+			keywords: &["taɣawsa tarussint yettafgen"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ұшатын тарелка"),
+			keywords: &["ұшатын тарелка"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang: "km", tts: Some("ថាសហោះ"), keywords: &["ថាសហោះ"]
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}"),
+			keywords: &[
+				"ಅನ\u{ccd}ಯಗ\u{ccd}ರಹ ಜ\u{cc0}ವ\u{cbf}ಗಳು",
+				"ಭ\u{cc2}ಮಂಡಲ",
+				"ಯುಎಫ\u{ccd}ಒ",
+				"ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}",
+				"ಹ\u{cc6}ಚ\u{ccd}ಚುವರ\u{cbf} ಭ\u{cc2}ಮಂಡಲ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("비행접시"),
+			keywords: &["UFO", "비행접시", "외계인", "우주 생명체"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("उडण तश\u{94d}करी"),
+			keywords: &["उडण तश\u{94d}करी", "य\u{941}एफओ"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("учуучу объект"),
+			keywords: &["НЛО", "учуучу объект"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation { lang: "lb", tts: Some("UFO"), keywords: &["UFO"] },
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຍ\u{ebb}ນຈານບ\u{eb4}ນ"),
+			keywords: &["UFO", "ຈານບ\u{eb4}ນ", "ຍ\u{ebb}ນຈານບ\u{eb4}ນ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("skraidanti lėkštė"),
+			keywords: &["NSO", "ateiviai", "nežemiška", "skraidanti lėkštė"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("lidojošais šķīvītis"),
+			keywords: &["NLO", "lidojošais šķīvītis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("waka ātea nō ao kē"),
+			keywords: &["waka tuarangi kāore i mōhiotia", "waka ātea nō ao kē"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("летечка чинија"),
+			keywords: &["НЛО", "вонземјани", "летечка чинија"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("പറക\u{d4d}ക\u{d41}ംതളിക"),
+			keywords: &[
+				"തെളിവില\u{d4d}ല\u{d3e}ത\u{d4d}ത പറക\u{d4d}ക\u{d41}ം വസ\u{d4d}\u{200c}ത\u{d41}ക\u{d4d}കൾ",
+				"പറക\u{d4d}ക\u{d41}ംതളിക",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("нисдэг таваг"),
+			keywords: &["нисдэг таваг", "үл танигдах нисдэг биет"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("उडती तबकडी"),
+			keywords: &["अवकाश यान", "उडणारी तबकडी", "उडती तबकडी", "तबकडी", "यान", "य\u{942}एफओ"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("piring terbang"),
+			keywords: &["UFO", "makhluk asing", "piring terbang"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("flying saucer"),
+			keywords: &["UFO", "flying saucer"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}"),
+			keywords: &[
+				"ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}",
+				"ယ\u{1030}အက\u{103a}ဖ\u{103a}အ\u{102d}\u{102f}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("उड\u{94d}न\u{947} थाली आकारको यान"),
+			keywords: &["उड\u{94d}न\u{947} थाली आकारको यान", "य\u{941}एफओ"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("vliegende schotel"),
+			keywords: &[
+				"UFO",
+				"aliens",
+				"buitenaards",
+				"buitenaardse wezens",
+				"science fiction",
+				"ufo",
+				"vervoermiddel",
+				"vliegende schotel",
+				"voertuig",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("flygande tallerken"),
+			keywords: &["UFO", "flygande tallerken"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}"),
+			keywords: &[
+				"UFO",
+				"ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}",
+				"ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସ\u{b4d}\u{200c}ର",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਉਡਣ ਤਸ\u{a3c}ਤਰੀ"),
+			keywords: &["ਉਡਣ ਤਸ\u{a3c}ਤਰੀ", "ਏਲੀਅਨ", "ਪ\u{a41}ਲਾੜ", "ਯ\u{a42}ਐਫਓ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ا\u{64f}ڑن طشتری"),
+			keywords: &["UFO", "ا\u{64f}ڑن طشتری"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Fláyín Sọ\u{301}sa"),
+			keywords: &["Fláyín Sọ\u{301}sa", "UFO"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("latający talerz"),
+			keywords: &[
+				"fantastyka",
+				"kosmici",
+				"kosmita",
+				"latający",
+				"sci-fi",
+				"sf",
+				"spodek",
+				"talerz",
+				"ufo",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("الوتونکی طشتری"),
+			keywords: &["الوتونکى نا لبکى", "الوتونکى نالبکى", "يو ايف او"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("disco voador"),
+			keywords: &["OVNI", "disco voador", "disco voador, ovni, alienígena, extra terrestre, ET"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["OVNI", "disco voador", "extraterrestre"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("platillo volador"),
+			keywords: &["ovni", "platillo volador"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("farfurie zburătoare"),
+			keywords: &["OZN", "extraterestru", "extratereștrii", "farfurie zburătoare"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-1009"), keywords: &["E10-1009"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("летающая тарелка"),
+			keywords: &[
+				"НЛО",
+				"инопланетный гость",
+				"инопланетяне",
+				"летающая тарелка",
+				"марсианин",
+				"пришелец",
+				"пришельцы",
+				"тарелка",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("isahani iguruka"),
+			keywords: &["Ibiguruka bitazwi", "isahani iguruka"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("اڏامندڙ بس"),
+			keywords: &["UFO", "اڏامندڙ بس"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"),
+			keywords: &["UFO", "ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("lietajúci tanier"),
+			keywords: &["lietajúci tanier", "mimozemský", "mimozešťania", "ufo", "ufóni"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("leteči krožnik"),
+			keywords: &["NLP", "leteči krožnik", "nezemljani", "neznani leteči predmet"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("shey sidii digsi oo duulaya"),
+			keywords: &["shey sidii digsi oo duulaya"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("disk fluturues"),
+			keywords: &[
+				"UFO",
+				"alien",
+				"disk",
+				"disk fluturues",
+				"jashtëtokësor",
+				"objekt i paidentifikuar fluturues",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("летећи тањир"),
+			keywords: &["НЛО", "ванземаљци", "летећи", "тањир"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("leteći tanjir"),
+			keywords: &["NLO", "leteći", "tanjir", "vanzemaljci"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("flygande tefat"),
+			keywords: &["UFO", "flygande tefat"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kisahani kinachopaa"),
+			keywords: &["chombo kisichotambulika kinachopaa", "kisahani kinachopaa"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு"),
+			keywords: &[
+				"ஏலியன\u{bcd}",
+				"பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு",
+				"யுஎஃப\u{bcd}ஓ",
+				"யூ.எஃப\u{bcd}.ஓ.",
+				"விண\u{bcd}வெளி",
+				"வேற\u{bcd}றுகிரக மனிதர\u{bcd}கள\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం"),
+			keywords: &[
+				"అదనం",
+				"ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం",
+				"ఏల\u{c3f}యన\u{c4d}స\u{c4d}",
+				"గ\u{c4d}రహ\u{c3e}ంతరవ\u{c3e}స\u{c3f}",
+				"ఫ\u{c4d}ల\u{c48}య\u{c3f}ంగ\u{c4d} స\u{c3e}సర\u{c4d}",
+				"యుఎఫ\u{c4d}ఓ",
+				"ర\u{c4b}దస\u{c3f}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("лаълии паррон"),
+			keywords: &["лаълии паррон"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("จานบ\u{e34}น"),
+			keywords: &[
+				"จานบ\u{e34}น",
+				"มน\u{e38}ษย\u{e4c}ต\u{e48}างดาว",
+				"ยานอวกาศ",
+				"ย\u{e39}เอฟโอ",
+				"เอเล\u{e35}\u{e48}ยน",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዝነፍር ሳእኒ"),
+			keywords: &["ምድራዊ", "ሳእኒ", "ተወሳኺ", "ወጻእተኛታት", "ዝነፍር", "ዩፎ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("uçýan tabak"),
+			keywords: &["NUO", "uçýan tabak"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("peleti puna"),
+			keywords: &["peleti", "puna"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("uçan daire"),
+			keywords: &["UFO", "ufo", "uzaylı", "uçan daire"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئۇچار تەخسە"),
+			keywords: &["UFO", "ئۇچار تەخسە"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("летюча тарілка"),
+			keywords: &["НЛО", "летюча тарілка", "чужі"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("اڑن تشتری"),
+			keywords: &[
+				"اڑتی رکابی",
+				"اڑن تشتری",
+				"اڑن طشتری",
+				"باہری دنیا کا",
+				"خلائیہ",
+				"نامعلوم اڑن تشتری",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("uchar likopcha"),
+			keywords: &["nomaʼlum uchar jism", "oʻzga sayyoralik", "uchar jism", "uchar likopcha"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đĩa bay"),
+			keywords: &["UFO", "người ngoài hành tinh", "đĩa bay"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("sukup buy naaw"),
+			keywords: &["OVNI", "sukup buy naaw"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isosa ebhabhayo"),
+			keywords: &["I-UFO", "isosa ebhabhayo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("àwọ kékeré tí ń fò"),
+			keywords: &["UFO", "àwọ kékeré tí ń fò"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("àwɔ kékeré tí ń fò"),
+			keywords: &["UFO", "àwɔ kékeré tí ń fò"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("飛碟"),
+			keywords: &["不明飛行物體", "飛碟"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("飞碟"),
+			keywords: &["不明飞行物体", "飞碟"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("飞碟"),
+			keywords: &["UFO", "不明飞行物", "外星人", "外星球", "飞碟"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("飛碟"),
+			keywords: &["UFO", "外太空人", "外星人", "幽浮", "異形", "飛碟"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["UFO", "不明飛行物", "不明飛行物體", "外星人", "未確認飛行物", "飛碟"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isosa endizayo"),
+			keywords: &["i-UFO", "isosa endizayo"],
 		},
 	],
 };

@@ -2415,6 +2415,19 @@ pub const KAABA: crate::Emoji = crate::Emoji {
 		},
 	],
 };
+#[doc = "⛩\u{fe0f}"]
+pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
+	glyph:                "⛩\u{fe0f}",
+	codepoint:            &[9961u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "shinto shrine",
+	group:                crate::Group::TravelPlaces,
+	subgroup:             crate::Subgroup::PlaceReligious,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
 #[doc = "🕍"]
 pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
 	glyph:                "🕍",
@@ -3272,17 +3285,4 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
 			keywords: &["inkolo", "isinagoge", "ithempeli", "umjuda"],
 		},
 	],
-};
-#[doc = "⛩\u{fe0f}"]
-pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
-	glyph:                "⛩\u{fe0f}",
-	codepoint:            &[9961u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "shinto shrine",
-	group:                crate::Group::TravelPlaces,
-	subgroup:             crate::Subgroup::PlaceReligious,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };

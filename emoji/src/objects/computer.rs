@@ -3052,19 +3052,6 @@ pub const KEYBOARD: crate::Emoji = crate::Emoji {
 	variants:             &[],
 	annotations:          &[],
 };
-#[doc = "💿\u{fe0f}"]
-pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
-	glyph:                "💿\u{fe0f}",
-	codepoint:            &[128191u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "optical disk",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Computer,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "💻\u{fe0f}"]
 pub const LAPTOP: crate::Emoji = crate::Emoji {
 	glyph:                "💻\u{fe0f}",
@@ -3103,770 +3090,6 @@ pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "💾"]
-pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
-	glyph:                "💾",
-	codepoint:            &[128190u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "floppy disk",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Computer,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("slapskyf"),
-			keywords: &["disket", "floppie", "rekenaar", "skyf", "slap", "slapskyf"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ፍሎፒ ዲስክ"),
-			keywords: &["3.5 ኢንች", "ኮምፒውተር", "ዲስክ", "ፍሎፒ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قرص مرن"),
-			keywords: &["فلوبي", "قرص", "قرص مرن"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ফ\u{9cd}লপী ডিস\u{9cd}ক"),
-			keywords: &["কম\u{9cd}পিউট\u{9be}ৰ", "ডিস\u{9cd}ক", "ফ\u{9cd}লপী"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("çevik disk"),
-			keywords: &["disk", "disket", "kompüter", "çevik"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("дыскета"),
-			keywords: &["гібкі", "дыск", "дыскета", "камп’ютар", "носьбіт"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("дискета"),
-			keywords: &["диск", "дискета", "компютър", "флопи"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ফ\u{9cd}লপি ডিস\u{9cd}ক"),
-			keywords: &["কম\u{9cd}পিউট\u{9be}র", "ডিস\u{9cd}ক", "ফ\u{9cd}লপি"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("pladennig"),
-			keywords: &["pladennig", "urzhiater"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "floppy"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("disquet"),
-			keywords: &["PC", "desar", "disc", "disquet", "equip", "ordinador"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"),
-			keywords: &["𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏩᏂᎨ ᎠᏠᏗ"),
-			keywords: &["ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ", "ᎠᏠᏗ", "ᏩᏂᎨ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "počítač", "pružný disk", "retro"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("disg hyblyg"),
-			keywords: &["cyfrifiadur", "disg", "hyblyg"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("diskette"),
-			keywords: &["computer", "diskette"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Diskette"),
-			keywords: &["Datenträger", "Diskette"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("δισκέτα"),
-			keywords: &["δίσκος", "δισκέτα", "υπολογιστής"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("floppy disk"),
-			keywords: &["computer", "disk", "floppy"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("↑↑↑"),
-			keywords: &["computer", "disk", "diskette", "floppy"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["computer", "disk", "diskette", "floppy"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("disquete"),
-			keywords: &["disco", "disco de 3 1/2", "disquete"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"computadora",
-				"disco",
-				"disco de 3 1/2",
-				"diskette",
-				"disquete",
-				"floppy",
-				"ordenador",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("diskett"),
-			keywords: &["arvuti", "diskett", "ketas"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("disketea"),
-			keywords: &["diskete", "disketea", "disko", "ordenagailu"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("فلاپی دیسک"),
-			keywords: &["دیسک", "رایانه", "فلاپی"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("disketti"),
-			keywords: &["disketti", "korppu", "levyke", "tietokone"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("floppy disk"),
-			keywords: &["computer", "disk", "diskette", "floppy"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("diskil"),
-			keywords: &["disketta", "diskil"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("disquette"),
-			keywords: &["disque", "disquette", "informatique", "ordinateur"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("diosca bog"),
-			keywords: &["bog", "diosca", "ríomhaire"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("diosg bog"),
-			keywords: &["bog", "coimpiutair", "diosg", "floppy"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("disquete"),
-			keywords: &["disquete", "disqueteira", "ordenador"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{acd}લોપી ડિસ\u{acd}ક"),
-			keywords: &["ડિસ\u{acd}ક", "ફ\u{acd}લોપી"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("diski na floppy"),
-			keywords: &[
-				"diski",
-				"diski na floppy",
-				"kwamfuta",
-				"maʼadanar kwamfuta",
-				"maʼajiya",
-				"na floppy",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("diski na floppy"),
-			keywords: &[
-				"diski",
-				"diski na floppy",
-				"kwamfuta",
-				"maʼadanar kwamfuta",
-				"maʼajiya",
-				"na floppy",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("דיסקט"),
-			keywords: &["דיסקט", "מחשב", "פלופי"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("फ\u{93c}\u{94d}लॉपी डिस\u{94d}क"),
-			keywords: &["क\u{902}प\u{94d}य\u{942}टर", "डिस\u{94d}क", "फ\u{93c}\u{94d}लॉपी"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "računalo"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("floppylemez"),
-			keywords: &["floppy", "floppylemez", "hajlékonylemez", "lemez", "számítógép"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ճկուն սկավառակ"),
-			keywords: &["համակարգիչ", "ճկուն", "սկավառակ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("disket"),
-			keywords: &["disk", "disket", "komputer"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("flọpi diiski"),
-			keywords: &["diiski", "flọpi", "kọmpụta"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("disketta"),
-			keywords: &["disketta", "diskur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("floppy disc"),
-			keywords: &["computer", "disc", "dischetto", "floppy"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("フロッピー"),
-			keywords: &["FD", "コンピューター", "ディスク", "フロッピー", "フロッピーディスク"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("disket flopi"),
-			keywords: &["disket", "flopi", "komputer"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("დრეკადი დისკი"),
-			keywords: &["დისკი", "დრეკადი", "კომპიუტერი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("adebṣi aleqqaq"),
-			keywords: &["adebṣi aleqqaq"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("алмалы диск"),
-			keywords: &["алмалы диск", "диск", "дискета", "компьютер"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("diskette"),
-			keywords: &["computer", "diskette"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some(
-				"ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
-			),
-			keywords: &[
-				"ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
-				"ឌ\u{17b8}ស",
-				"ឌ\u{17b8}សជ\u{17d2}រ\u{17bb}ង",
-				"ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಫ\u{ccd}ಲಾಪ\u{cbf} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}"),
-			keywords: &["ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}", "ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}", "ಫ\u{ccd}ಲಾಪ\u{cbf}"],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("플로피 디스크"),
-			keywords: &["디스켓", "디스크", "컴퓨터", "플로피 디스크"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("फ\u{94d}लॉपी डिस\u{94d}क"),
-			keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी", "स\u{902}गणक"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("дискета"),
-			keywords: &["диск", "дискета", "компьютер"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Diskett"),
-			keywords: &["Computer", "Disk", "Diskett"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"),
-			keywords: &["ດ\u{eb4}ສ", "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}", "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("diskelis"),
-			keywords: &["diskas", "diskelis", "kompiuteris"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("diskete"),
-			keywords: &["dators", "diskete", "disks"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kōpae pīngore"),
-			keywords: &["kōpae", "pīngore", "rorohiko"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("дискета"),
-			keywords: &["диск", "дискета", "компјутер", "флопи", "хардвер"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഫ\u{d4d}ലോപ\u{d4d}പി ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}"),
-			keywords: &["ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}", "ഫ\u{d4d}ലോപ\u{d4d}പി"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("уян диск"),
-			keywords: &["диск", "компьютер", "уян"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("फ\u{94d}लॉपी डिस\u{94d}क"),
-			keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("cakera liut"),
-			keywords: &["cakera", "komputer", "liut"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("diskett"),
-			keywords: &["diska", "diskett", "floppy", "kompjuter"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}"),
-			keywords: &[
-				"က\u{103d}န\u{103a}ပျ\u{1030}တာ",
-				"ဒစ\u{103a}ခ\u{103a}",
-				"ဖလော\u{103a}ပ\u{102e}",
-				"ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{94d}लपी डिस\u{94d}क"),
-			keywords: &["कम\u{94d}प\u{94d}य\u{941}टर", "डिस\u{94d}क", "फ\u{94d}लपी"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("floppydisk"),
-			keywords: &["computer", "disk", "diskette", "floppy", "floppydisk", "opslaan"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}"),
-			keywords: &[
-				"ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}",
-				"ଫ\u{b4d}ଲପ\u{b3f}",
-				"ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"),
-			keywords: &["ਕ\u{a70}ਪਿਊਟਰ", "ਡਿਸਕ", "ਫਲਾਪੀ", "ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("فلاپی ڈسک"),
-			keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Flọ\u{301}pí Disk"),
-			keywords: &["Disk", "Flọ\u{301}pí", "Kọmpúta"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("dyskietka"),
-			keywords: &["dysk", "dyskietka", "komputer"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("فلاپي ډیسک"),
-			keywords: &["فلاپي", "فلاپي ډیسک", "ډسک", "کمپيوټر"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("disquete"),
-			keywords: &["computador", "disco", "disco flexível", "disquete"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["computador", "disco", "disquete", "floppy"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("disquete"),
-			keywords: &["computadora", "disquete", "muyu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("dischetă"),
-			keywords: &["calculator", "computer", "dischetă", "floppy", "floppy disk", "stocare"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-635"), keywords: &["E10-635"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("дискета"),
-			keywords: &["данные", "дискета", "компьютер", "носитель"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("disikete"),
-			keywords: &["disike", "disikete", "folopi disiki", "mudasobwa"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("فلاپي ڊسڪ"),
-			keywords: &["فلاپي", "ڊسڪ", "ڪمپيوٽر"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ස\u{dd4}නම\u{dca}\u{200d}ය තැට\u{dd2}ය"),
-			keywords: &["තැට\u{dd2}ය", "පර\u{dd2}ගණකය", "ස\u{dd4}නම\u{dca}\u{200d}ය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "počítač"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "računalnik"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("cajalada faloobida"),
-			keywords: &["cajalad", "cajalada faloobida", "faloobi", "koombuyuutar"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("disketë"),
-			keywords: &["disk", "disketë", "kompjuter"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("дискета"),
-			keywords: &["дискета", "рaчунaр"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("disketa"),
-			keywords: &["disketa", "računar"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("diskett"),
-			keywords: &["dator", "diskett"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("diski laini"),
-			keywords: &["diski", "diski laini", "kompyuta"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பிள\u{bbe}ப\u{bcd}பி டிஸ\u{bcd}க\u{bcd}"),
-			keywords: &[
-				"ஃபிள\u{bbe}ப\u{bcd}பி",
-				"ஃப\u{bcd}ள\u{bbe}ப\u{bcd}பி",
-				"கணினி",
-				"கம\u{bcd}ப\u{bcd}யூட\u{bcd}டர\u{bcd}",
-				"சேமிப\u{bcd}பு",
-				"டிஸ\u{bcd}க\u{bcd}",
-				"பிள\u{bbe}ப\u{bcd}பி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఫ\u{c4d}ల\u{c3e}ప\u{c40} డ\u{c3f}స\u{c4d}క\u{c4d}"),
-			keywords: &["కంప\u{c4d}యూటర\u{c4d}", "డ\u{c3f}స\u{c4d}క\u{c4d}", "ఫ\u{c4d}ల\u{c3e}ప\u{c40}"],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("диски нарм"),
-			keywords: &["диск", "диски нарм", "компютер", "нарм"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}"),
-			keywords: &[
-				"คอมพ\u{e34}วเตอร\u{e4c}",
-				"ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}",
-				"แผ\u{e48}นบ\u{e31}นท\u{e36}ก",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ፍሎፒ ዲስክ"),
-			keywords: &["ኮምፒተር", "ዲስክ", "ፍሎፒ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("çeýe disk"),
-			keywords: &["disk", "kompýuter", "çeýe"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("tisi molū"), keywords: &["tisi molū"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation { lang: "tr", tts: Some("disket"), keywords: &["disket", "floppy"] },
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يۇمشاق دىسكا"),
-			keywords: &["دىسكا", "كومپيۇتېر", "يۇمشاق"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("дискета"),
-			keywords: &["диск", "дискета", "комп’ютер"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("فلاپی ڈسک"),
-			keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("disketa"),
-			keywords: &["disk", "disketa", "kompyuter", "xotira", "yumshoq disk"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đĩa mềm"),
-			keywords: &["máy tính", "mềm", "đĩa"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("disket"),
-			keywords: &["disk", "disket", "ordinatër"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("idiski ye-floppy"),
-			keywords: &["i-floppy", "idiski", "idiski ye-floppy", "ikhompyutha"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("dísìkì fílọ\u{300}pì"),
-			keywords: &["dísìkì fílọ\u{300}pì", "fíló\u{329}pì", "kọ\u{300}npútà", "àwo"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("dísìkì fílɔ\u{300}pì"),
-			keywords: &["dísìkì fílɔ\u{300}pì", "fíló\u{329}pì", "kɔ\u{300}npútà", "àwo"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("磁碟"),
-			keywords: &["光碟", "磁碟", "軟", "電腦"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("磁碟"),
-			keywords: &["光碟", "电脑", "磁碟", "软"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("软盘"),
-			keywords: &["3.5英寸", "便携", "存储", "电脑", "磁盘", "软盘"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("磁碟片"), keywords: &["磁碟片"] },
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("磁碟"),
-			keywords: &["1.4", "1.44", "3.5", "儲存", "磁碟", "電腦"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("i-floppy diski"),
-			keywords: &["i-floppy", "i-floppy diski", "idiski", "ikhompyutha"],
-		},
-	],
 };
 #[doc = "🔌"]
 pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
@@ -5610,4 +4833,781 @@ pub const LOW_BATTERY: crate::Emoji = crate::Emoji {
 			keywords: &["electronic", "ibhethri isincane", "low battery", "low energy"],
 		},
 	],
+};
+#[doc = "💾"]
+pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
+	glyph:                "💾",
+	codepoint:            &[128190u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "floppy disk",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Computer,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("slapskyf"),
+			keywords: &["disket", "floppie", "rekenaar", "skyf", "slap", "slapskyf"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ፍሎፒ ዲስክ"),
+			keywords: &["3.5 ኢንች", "ኮምፒውተር", "ዲስክ", "ፍሎፒ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قرص مرن"),
+			keywords: &["فلوبي", "قرص", "قرص مرن"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ফ\u{9cd}লপী ডিস\u{9cd}ক"),
+			keywords: &["কম\u{9cd}পিউট\u{9be}ৰ", "ডিস\u{9cd}ক", "ফ\u{9cd}লপী"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("çevik disk"),
+			keywords: &["disk", "disket", "kompüter", "çevik"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("дыскета"),
+			keywords: &["гібкі", "дыск", "дыскета", "камп’ютар", "носьбіт"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("дискета"),
+			keywords: &["диск", "дискета", "компютър", "флопи"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ফ\u{9cd}লপি ডিস\u{9cd}ক"),
+			keywords: &["কম\u{9cd}পিউট\u{9be}র", "ডিস\u{9cd}ক", "ফ\u{9cd}লপি"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("pladennig"),
+			keywords: &["pladennig", "urzhiater"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "floppy"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("disquet"),
+			keywords: &["PC", "desar", "disc", "disquet", "equip", "ordinador"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"),
+			keywords: &["𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏩᏂᎨ ᎠᏠᏗ"),
+			keywords: &["ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ", "ᎠᏠᏗ", "ᏩᏂᎨ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "počítač", "pružný disk", "retro"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("disg hyblyg"),
+			keywords: &["cyfrifiadur", "disg", "hyblyg"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("diskette"),
+			keywords: &["computer", "diskette"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Diskette"),
+			keywords: &["Datenträger", "Diskette"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("δισκέτα"),
+			keywords: &["δίσκος", "δισκέτα", "υπολογιστής"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("floppy disk"),
+			keywords: &["computer", "disk", "floppy"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("↑↑↑"),
+			keywords: &["computer", "disk", "diskette", "floppy"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["computer", "disk", "diskette", "floppy"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("disquete"),
+			keywords: &["disco", "disco de 3 1/2", "disquete"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"computadora",
+				"disco",
+				"disco de 3 1/2",
+				"diskette",
+				"disquete",
+				"floppy",
+				"ordenador",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("diskett"),
+			keywords: &["arvuti", "diskett", "ketas"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("disketea"),
+			keywords: &["diskete", "disketea", "disko", "ordenagailu"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("فلاپی دیسک"),
+			keywords: &["دیسک", "رایانه", "فلاپی"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("disketti"),
+			keywords: &["disketti", "korppu", "levyke", "tietokone"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("floppy disk"),
+			keywords: &["computer", "disk", "diskette", "floppy"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("diskil"),
+			keywords: &["disketta", "diskil"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("disquette"),
+			keywords: &["disque", "disquette", "informatique", "ordinateur"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("diosca bog"),
+			keywords: &["bog", "diosca", "ríomhaire"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("diosg bog"),
+			keywords: &["bog", "coimpiutair", "diosg", "floppy"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("disquete"),
+			keywords: &["disquete", "disqueteira", "ordenador"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફ\u{acd}લોપી ડિસ\u{acd}ક"),
+			keywords: &["ડિસ\u{acd}ક", "ફ\u{acd}લોપી"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("diski na floppy"),
+			keywords: &[
+				"diski",
+				"diski na floppy",
+				"kwamfuta",
+				"maʼadanar kwamfuta",
+				"maʼajiya",
+				"na floppy",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("diski na floppy"),
+			keywords: &[
+				"diski",
+				"diski na floppy",
+				"kwamfuta",
+				"maʼadanar kwamfuta",
+				"maʼajiya",
+				"na floppy",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("דיסקט"),
+			keywords: &["דיסקט", "מחשב", "פלופי"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("फ\u{93c}\u{94d}लॉपी डिस\u{94d}क"),
+			keywords: &["क\u{902}प\u{94d}य\u{942}टर", "डिस\u{94d}क", "फ\u{93c}\u{94d}लॉपी"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "računalo"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("floppylemez"),
+			keywords: &["floppy", "floppylemez", "hajlékonylemez", "lemez", "számítógép"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ճկուն սկավառակ"),
+			keywords: &["համակարգիչ", "ճկուն", "սկավառակ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("disket"),
+			keywords: &["disk", "disket", "komputer"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("flọpi diiski"),
+			keywords: &["diiski", "flọpi", "kọmpụta"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("disketta"),
+			keywords: &["disketta", "diskur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("floppy disc"),
+			keywords: &["computer", "disc", "dischetto", "floppy"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("フロッピー"),
+			keywords: &["FD", "コンピューター", "ディスク", "フロッピー", "フロッピーディスク"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("disket flopi"),
+			keywords: &["disket", "flopi", "komputer"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("დრეკადი დისკი"),
+			keywords: &["დისკი", "დრეკადი", "კომპიუტერი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("adebṣi aleqqaq"),
+			keywords: &["adebṣi aleqqaq"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("алмалы диск"),
+			keywords: &["алмалы диск", "диск", "дискета", "компьютер"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("diskette"),
+			keywords: &["computer", "diskette"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some(
+				"ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
+			),
+			keywords: &[
+				"ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
+				"ឌ\u{17b8}ស",
+				"ឌ\u{17b8}សជ\u{17d2}រ\u{17bb}ង",
+				"ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಫ\u{ccd}ಲಾಪ\u{cbf} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}"),
+			keywords: &["ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}", "ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}", "ಫ\u{ccd}ಲಾಪ\u{cbf}"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("플로피 디스크"),
+			keywords: &["디스켓", "디스크", "컴퓨터", "플로피 디스크"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("फ\u{94d}लॉपी डिस\u{94d}क"),
+			keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी", "स\u{902}गणक"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("дискета"),
+			keywords: &["диск", "дискета", "компьютер"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Diskett"),
+			keywords: &["Computer", "Disk", "Diskett"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"),
+			keywords: &["ດ\u{eb4}ສ", "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}", "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("diskelis"),
+			keywords: &["diskas", "diskelis", "kompiuteris"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("diskete"),
+			keywords: &["dators", "diskete", "disks"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kōpae pīngore"),
+			keywords: &["kōpae", "pīngore", "rorohiko"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("дискета"),
+			keywords: &["диск", "дискета", "компјутер", "флопи", "хардвер"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഫ\u{d4d}ലോപ\u{d4d}പി ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}"),
+			keywords: &["ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}", "ഫ\u{d4d}ലോപ\u{d4d}പി"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("уян диск"),
+			keywords: &["диск", "компьютер", "уян"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("फ\u{94d}लॉपी डिस\u{94d}क"),
+			keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("cakera liut"),
+			keywords: &["cakera", "komputer", "liut"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("diskett"),
+			keywords: &["diska", "diskett", "floppy", "kompjuter"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}"),
+			keywords: &[
+				"က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+				"ဒစ\u{103a}ခ\u{103a}",
+				"ဖလော\u{103a}ပ\u{102e}",
+				"ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("फ\u{94d}लपी डिस\u{94d}क"),
+			keywords: &["कम\u{94d}प\u{94d}य\u{941}टर", "डिस\u{94d}क", "फ\u{94d}लपी"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("floppydisk"),
+			keywords: &["computer", "disk", "diskette", "floppy", "floppydisk", "opslaan"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}"),
+			keywords: &[
+				"ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}",
+				"ଫ\u{b4d}ଲପ\u{b3f}",
+				"ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"),
+			keywords: &["ਕ\u{a70}ਪਿਊਟਰ", "ਡਿਸਕ", "ਫਲਾਪੀ", "ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("فلاپی ڈسک"),
+			keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Flọ\u{301}pí Disk"),
+			keywords: &["Disk", "Flọ\u{301}pí", "Kọmpúta"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("dyskietka"),
+			keywords: &["dysk", "dyskietka", "komputer"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("فلاپي ډیسک"),
+			keywords: &["فلاپي", "فلاپي ډیسک", "ډسک", "کمپيوټر"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("disquete"),
+			keywords: &["computador", "disco", "disco flexível", "disquete"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["computador", "disco", "disquete", "floppy"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("disquete"),
+			keywords: &["computadora", "disquete", "muyu"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("dischetă"),
+			keywords: &["calculator", "computer", "dischetă", "floppy", "floppy disk", "stocare"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-635"), keywords: &["E10-635"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("дискета"),
+			keywords: &["данные", "дискета", "компьютер", "носитель"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("disikete"),
+			keywords: &["disike", "disikete", "folopi disiki", "mudasobwa"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("فلاپي ڊسڪ"),
+			keywords: &["فلاپي", "ڊسڪ", "ڪمپيوٽر"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ස\u{dd4}නම\u{dca}\u{200d}ය තැට\u{dd2}ය"),
+			keywords: &["තැට\u{dd2}ය", "පර\u{dd2}ගණකය", "ස\u{dd4}නම\u{dca}\u{200d}ය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "počítač"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "računalnik"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("cajalada faloobida"),
+			keywords: &["cajalad", "cajalada faloobida", "faloobi", "koombuyuutar"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("disketë"),
+			keywords: &["disk", "disketë", "kompjuter"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("дискета"),
+			keywords: &["дискета", "рaчунaр"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("disketa"),
+			keywords: &["disketa", "računar"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("diskett"),
+			keywords: &["dator", "diskett"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("diski laini"),
+			keywords: &["diski", "diski laini", "kompyuta"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பிள\u{bbe}ப\u{bcd}பி டிஸ\u{bcd}க\u{bcd}"),
+			keywords: &[
+				"ஃபிள\u{bbe}ப\u{bcd}பி",
+				"ஃப\u{bcd}ள\u{bbe}ப\u{bcd}பி",
+				"கணினி",
+				"கம\u{bcd}ப\u{bcd}யூட\u{bcd}டர\u{bcd}",
+				"சேமிப\u{bcd}பு",
+				"டிஸ\u{bcd}க\u{bcd}",
+				"பிள\u{bbe}ப\u{bcd}பி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఫ\u{c4d}ల\u{c3e}ప\u{c40} డ\u{c3f}స\u{c4d}క\u{c4d}"),
+			keywords: &["కంప\u{c4d}యూటర\u{c4d}", "డ\u{c3f}స\u{c4d}క\u{c4d}", "ఫ\u{c4d}ల\u{c3e}ప\u{c40}"],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("диски нарм"),
+			keywords: &["диск", "диски нарм", "компютер", "нарм"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}"),
+			keywords: &[
+				"คอมพ\u{e34}วเตอร\u{e4c}",
+				"ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}",
+				"แผ\u{e48}นบ\u{e31}นท\u{e36}ก",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ፍሎፒ ዲስክ"),
+			keywords: &["ኮምፒተር", "ዲስክ", "ፍሎፒ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("çeýe disk"),
+			keywords: &["disk", "kompýuter", "çeýe"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("tisi molū"), keywords: &["tisi molū"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation { lang: "tr", tts: Some("disket"), keywords: &["disket", "floppy"] },
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("يۇمشاق دىسكا"),
+			keywords: &["دىسكا", "كومپيۇتېر", "يۇمشاق"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("дискета"),
+			keywords: &["диск", "дискета", "комп’ютер"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("فلاپی ڈسک"),
+			keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("disketa"),
+			keywords: &["disk", "disketa", "kompyuter", "xotira", "yumshoq disk"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đĩa mềm"),
+			keywords: &["máy tính", "mềm", "đĩa"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("disket"),
+			keywords: &["disk", "disket", "ordinatër"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("idiski ye-floppy"),
+			keywords: &["i-floppy", "idiski", "idiski ye-floppy", "ikhompyutha"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("dísìkì fílọ\u{300}pì"),
+			keywords: &["dísìkì fílọ\u{300}pì", "fíló\u{329}pì", "kọ\u{300}npútà", "àwo"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("dísìkì fílɔ\u{300}pì"),
+			keywords: &["dísìkì fílɔ\u{300}pì", "fíló\u{329}pì", "kɔ\u{300}npútà", "àwo"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("磁碟"),
+			keywords: &["光碟", "磁碟", "軟", "電腦"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("磁碟"),
+			keywords: &["光碟", "电脑", "磁碟", "软"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("软盘"),
+			keywords: &["3.5英寸", "便携", "存储", "电脑", "磁盘", "软盘"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("磁碟片"), keywords: &["磁碟片"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("磁碟"),
+			keywords: &["1.4", "1.44", "3.5", "儲存", "磁碟", "電腦"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("i-floppy diski"),
+			keywords: &["i-floppy", "i-floppy diski", "idiski", "ikhompyutha"],
+		},
+	],
+};
+#[doc = "💿\u{fe0f}"]
+pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
+	glyph:                "💿\u{fe0f}",
+	codepoint:            &[128191u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "optical disk",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Computer,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

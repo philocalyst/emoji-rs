@@ -1,16 +1,3 @@
-#[doc = "📋\u{fe0f}"]
-pub const CLIPBOARD: crate::Emoji = crate::Emoji {
-	glyph:                "📋\u{fe0f}",
-	codepoint:            &[128203u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "clipboard",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Office,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "💼"]
 pub const BRIEFCASE: crate::Emoji = crate::Emoji {
 	glyph:                "💼",
@@ -2353,755 +2340,6 @@ pub const STRAIGHT_RULER: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "📊"]
-pub const BAR_CHART: crate::Emoji = crate::Emoji {
-	glyph:                "📊",
-	codepoint:            &[128202u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "bar chart",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Office,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("staafgrafiek"),
-			keywords: &["data", "grafiek", "grafiese voorstelling", "staaf", "staafgrafiek", "tabel"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ባለ አሞሌ ገበታ"),
-			keywords: &["ሰንጠረዥ", "ባለ አሞሌ ገበታ", "አሞሌ", "ውሂብ", "ገበታ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("مخطط بياني شريطي"),
-			keywords: &["احصائيات", "بيانات", "تخطيط", "مخطط", "مخطط بياني شريطي", "مخطط شريطي"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("দণ\u{9cd}ডচিত\u{9cd}ৰ"),
-			keywords: &["গ\u{9cd}ৰ\u{9be}ফ", "চ\u{9be}ৰ\u{9cd}ট", "দণ\u{9cd}ড", "দণ\u{9cd}ডচিত\u{9cd}ৰ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("diaqram"),
-			keywords: &["bar", "cədvəl", "diaqram", "qrafik"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("лінейчастая дыяграма"),
-			keywords: &["графік", "дыяграма", "лінейчастая", "слупок"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("Стълбовидна диаграма"),
-			keywords: &["Стълбовидна диаграма", "данни", "диаграма", "стълб", "стълбовидна диаграма"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ব\u{9be}র চ\u{9be}র\u{9cd}ট"),
-			keywords: &["গ\u{9cd}র\u{9be}ফ", "চ\u{9be}র\u{9cd}ট", "ব\u{9be}র"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("diagramm barrennoù"),
-			keywords: &["barrennoù", "diagramm", "grafik"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("stupčasti grafikon"),
-			keywords: &["dijagram", "grafikon", "stupčasti grafikon"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("gràfic de barres"),
-			keywords: &["barres", "dades", "gràfic", "gràfic de barres"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᎾᎸᎢ ᎧᏃᎮᏍᎩ ᏗᏟᎶᏍᏔᏅ"),
-			keywords: &["ᎦᎾᎸᎢ", "ᎦᎾᎸᎢ ᎧᏃᎮᏍᎩ ᏗᏟᎶᏍᏔᏅ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ", "ᏓᏟᎶᏍᏛ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("sloupcový graf"),
-			keywords: &["data", "diagram", "graf", "sloupcový graf", "sloupec", "údaje"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("siart bar"),
-			keywords: &["bar", "graff", "siart"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("søjlediagram"),
-			keywords: &["diagram", "graf", "søjlediagram"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Balkendiagramm"),
-			keywords: &["Balken", "Balkendiagramm", "Diagramm"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("γράφημα ράβδων"),
-			keywords: &["γράφημα", "γράφημα ράβδων", "γραμμή", "δεδομένα", "διάγραμμα", "στήλη"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("bar chart"),
-			keywords: &["bar", "chart", "data", "graph"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("bar graph"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("gráfico de barras"),
-			keywords: &["barras", "gráfico", "gráfico de barras"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["gráfico", "gráfico de barras"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("tulpdiagramm"),
-			keywords: &["diagramm", "graafik", "tulp", "tulpdiagramm"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("barra-diagrama"),
-			keywords: &["barra", "barra-diagrama", "diagrama", "grafiko"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("نمودار ستونی"),
-			keywords: &["ستون", "نمودار", "نمودار ستونی", "گراف"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("pylväskaavio"),
-			keywords: &["kaavio", "pylväs", "pylväskaavio", "tilasto"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bar chart"),
-			keywords: &["bar", "bar chart", "graph", "tsart"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("stabbamynd"),
-			keywords: &["diagramm", "rásmynd", "stabbamynd", "strikumynd"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("graphiques à barres"),
-			keywords: &["données", "graphique", "graphiques à barres"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["barres", "graphique"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("barrachairt"),
-			keywords: &["barrachairt", "barraghraf", "cairt", "graf", "sonraí"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cairt-bhàraichean"),
-			keywords: &["bàr", "cairt", "cairt-bhàraichean", "graf"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("gráfico de barras"),
-			keywords: &["barras", "gráfica", "gráfico", "gráfico de barras"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("બાર ચાર\u{acd}ટ"),
-			keywords: &[
-				"ચાર\u{acd}ટ",
-				"જાણકારી",
-				"ડાટા",
-				"બાર ચાર\u{acd}ટ",
-				"સ\u{acd}ત\u{a82}ભ",
-				"સ\u{acd}ત\u{a82}ભ આલ\u{ac7}ખ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("allon jadawali"),
-			keywords: &["allon jadawali", "alƙaluma", "sanda", "zane", "zanen lissafi", "zayyana"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("allon jadawali"),
-			keywords: &["allon jadawali", "alƙaluma", "sanda", "zane", "zanen lissafi", "zayyana"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("תרשים עמודות"),
-			keywords: &["גרף", "נתונים", "עמודות", "תרשים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("बार चार\u{94d}ट"),
-			keywords: &[
-				"ग\u{94d}राफ\u{93c}",
-				"चार\u{94d}ट",
-				"बार ग\u{94d}राफ\u{93c}",
-				"बार चार\u{94d}ट",
-				"ल\u{947}खाचित\u{94d}र",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("trakasti grafikon"),
-			keywords: &["grafikon", "podaci", "traka", "trakasti grafikon"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("oszlopdiagram"),
-			keywords: &["adat", "diagram", "grafikon", "oszlop", "oszlopdiagram", "sáv", "ábra"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("գոտեձև գծապատկեր"),
-			keywords: &["գոտեձև գծապատկեր", "գոտի", "գրաֆիկ", "դիագրամ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("diagram batang"),
-			keywords: &["bagan", "batang", "diagram", "grafik"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("chaàtị ogwe"),
-			keywords: &["chaatị", "data", "grafụ", "ogwe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("súlurit"),
-			keywords: &["myndrit", "súlur", "súlurit"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("grafico a barre"),
-			keywords: &["barre", "dati", "grafico", "grafico a barre", "statistica"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("棒グラフ"),
-			keywords: &["グラフ", "チャート", "データ", "棒グラフ"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("grafik balok"),
-			keywords: &["balok", "grafik"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("სვეტებიანი დიაგრამა"),
-			keywords: &["გრაფიკი", "დიაგრამა", "სვეტებიანი დიაგრამა", "სვეტი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("гистограмма"),
-			keywords: &["гистограмма", "график", "диаграмма"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("søjlediagram"),
-			keywords: &["diagram", "søjlediagram"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("តារាងជារបា"),
-			keywords: &["ក\u{17d2}រាហ\u{17d2}វ", "គ\u{17c6}ន\u{17bc}សតាង", "តារាងជារបា", "របារ"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬಾರ\u{ccd} ಚಾರ\u{ccd}ಟ\u{ccd}"),
-			keywords: &[
-				"ಗ\u{ccd}ರಾಫ\u{ccd}",
-				"ಚಾರ\u{ccd}ಟ\u{ccd}",
-				"ಡ\u{cc7}ಟಾ",
-				"ದತ\u{ccd}ತಾಂಶ",
-				"ಬಾರ\u{ccd} ಚಾರ\u{ccd}ಟ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("막대 그래프"),
-			keywords: &["그래프", "데이터", "막대", "막대그래프", "차트"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("बार तकटो"),
-			keywords: &["ग\u{94d}राफ", "तकटो", "बार"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("гистограмма"),
-			keywords: &["гистограмма", "диаграмма", "схема", "таблица"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Balkendiagramm"),
-			keywords: &["Balken", "Balkendiagramm", "Diagramm", "Grafik"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຜ\u{eb1}ງສະແດງແບບເປ\u{eb1}ນທ\u{ec8}ອນ"),
-			keywords: &[
-				"ກ\u{ebc}າບ",
-				"ກ\u{ebc}າບສະແດງ",
-				"ທ\u{ec8}ອນ",
-				"ຜ\u{eb1}ງສະແດງ",
-				"ຜ\u{eb1}ງສະແດງແບບເປ\u{eb1}ນທ\u{ec8}ອນ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("juostinė diagrama"),
-			keywords: &["diagrama", "juosta", "juostinė diagrama"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("joslu diagramma"),
-			keywords: &["dati", "diagramma", "grafiks", "josla", "joslu diagramma"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tūtohi pae"),
-			keywords: &["kauwhata", "pae", "tūtohi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("столбест дијаграм"),
-			keywords: &["графикон", "лента", "податоци", "столб", "столбест дијаграм", "табела"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ബ\u{d3e}ർ ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
-			keywords: &[
-				"ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
-				"ബ\u{d3e}ർ ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
-				"ബ\u{d3e}ർ ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("график хүснэгт"),
-			keywords: &["график", "хүснэгт", "үзүүлэлт"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("बार चार\u{94d}ट"),
-			keywords: &["आल\u{947}ख", "ग\u{94d}राफ", "चार\u{94d}ट", "बार आल\u{947}ख", "बार चार\u{94d}ट"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("carta bar"),
-			keywords: &["bar", "carta", "data", "graf"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("barċart"),
-			keywords: &["bar", "barċart", "graff", "ċart"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဘားက\u{103d}က\u{103a}ပြ ဇယား"),
-			keywords: &["ဂရပ\u{103a}ဖ\u{103a}", "ဇယား", "ဘားက\u{103d}က\u{103a}ပြ ဇယား"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("बार चार\u{94d}ट"),
-			keywords: &["ग\u{94d}राफ", "चार\u{94d}ट", "बार"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("staafdiagram"),
-			keywords: &["diagram", "grafiek", "staaf", "staafdiagram", "staafgrafiek"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ବ\u{b3e}ର\u{b4d} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}"),
-			keywords: &[
-				"ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}\u{200c}",
-				"ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
-				"ବ\u{b3e}ର\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਬਾਰ ਚਾਰਟ"),
-			keywords: &["ਗਰਾਫ", "ਚਾਰਟ", "ਬਾਰ ਗਰਾਫ", "ਬਾਰ ਚਾਰਟ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("بار چارٹ"),
-			keywords: &["بار چارٹ", "سیخ", "چارٹ", "گراف"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Graf Wé Gẹ\u{301}t Waíd Lain-dẹm"),
-			keywords: &["Baa", "Chat", "Graf", "Graf Wé Gẹ\u{301}t Waíd Lain-dẹm"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("wykres słupkowy"),
-			keywords: &["diagram", "słupek", "słupkowy", "wykres"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("بار چارټ"),
-			keywords: &["بار", "چارټ", "ګراف"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("gráfico de barras"),
-			keywords: &["barra", "diagrama", "gráfico"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["barra", "barras", "gráfico", "gráfico de barras"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("diagramă cu bare"),
-			keywords: &["bare", "coloane", "diagramă", "diagramă cu bare", "grafic"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-647"), keywords: &["E10-647"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("гистограмма"),
-			keywords: &["гистограмма", "граф", "диаграмма", "столбчатая"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("imbonerahamwe y’umurongo"),
-			keywords: &["agakoni", "igishushanyo", "imbonerahamwe", "imbonerahamwe y’umurongo"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("بار چارٽ"),
-			keywords: &["بار", "چارٽ", "گراف"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ත\u{dd3}ර\u{dd4} ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය"),
-			keywords: &[
-				"ත\u{dd3}ර\u{dd4}",
-				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන",
-				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("pruhový graf"),
-			keywords: &["dáta", "graf", "pruh", "pruhový graf", "stĺpcový graf", "stĺpec", "údaje"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("črtni grafikon"),
-			keywords: &["graf", "grafikon", "podatki", "črtni grafikon", "črtno"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("shaxanka baar"),
-			keywords: &["baar", "shax", "shaxan", "shaxanka baar"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("grafik me shirita"),
-			keywords: &["grafik", "grafik me shirita", "shirit", "të dhëna"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("тракасти графикон"),
-			keywords: &["графикон", "подаци", "трaкa"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("trakasti grafikon"),
-			keywords: &["grafikon", "podaci", "traka"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("stapeldiagram"),
-			keywords: &["diagram", "stapeldiagram", "staplar"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("chati ya miraba"),
-			keywords: &["chati", "chati ya miraba", "grafu", "mraba"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பட\u{bcd}டை வரைபடம\u{bcd}"),
-			keywords: &[
-				"கிர\u{bbe}ஃப\u{bcd}",
-				"பட\u{bcd}டை வரைபடம\u{bcd}",
-				"ப\u{bbe}ர\u{bcd} கிர\u{bbe}ப\u{bcd}",
-				"ப\u{bbe}ர\u{bcd} ச\u{bbe}ர\u{bcd}ட\u{bcd}",
-				"ப\u{bbe}ர\u{bcd} வரைபடம\u{bcd}",
-				"வரைபடம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("బ\u{c3e}ర\u{c4d} చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
-			keywords: &[
-				"బ\u{c3e}ర\u{c4d} గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
-				"బ\u{c3e}ర\u{c4d} చ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"బ\u{c3e}ర\u{c4d} పట\u{c4d}ట\u{c40}",
-				"సమ\u{c3e}చ\u{c3e}రం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("диаграммаи хаттӣ"),
-			keywords: &["бар", "график", "диаграмма", "диаграммаи хаттӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("กราฟแท\u{e48}ง"),
-			keywords: &["กราฟแท\u{e48}ง", "ชาร\u{e4c}ต"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ባር ቻርት"),
-			keywords: &["ሰንጠረዥ", "ባር", "ዳታ", "ግራፍ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("setir diagramma"),
-			keywords: &["grafika", "setir diagramma", "zolak", "çyzyk"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("siate pā"), keywords: &["siate pā"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("çubuk grafiği"),
-			keywords: &["grafik", "çubuk grafiği"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("تۈۋرۈكلۈك گىرافىك"),
-			keywords: &["تۈۋرۈك", "تۈۋرۈكلۈك گىرافىك", "جەدۋەل", "گىرافىك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("гістограма"),
-			keywords: &["графік", "гістограма"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بار چارٹ"),
-			keywords: &["اسٹیشنری", "بار", "چارٹ", "گراف"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("ustunli diagramma"),
-			keywords: &["diagramma", "grafa", "maʼlumot", "ustunli"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("biểu đồ thanh"),
-			keywords: &["biểu đồ", "biểu đồ thanh", "thanh", "đồ thị"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("jagraamu bànd"),
-			keywords: &["grafik", "jagraamu bànd", "kurb", "laat"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("itshati yebha"),
-			keywords: &["ibha", "igrafu", "itshathi", "itshati yebha"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("pẹpẹ ìwe àwòrán àfihàn"),
-			keywords: &["pẹpẹ ìwe àwòrán àfihàn", "àtẹ", "àtẹ alátọ\u{301}ka", "àtẹ onígun"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("pɛpɛ ìwe àwòrán àfihàn"),
-			keywords: &["pɛpɛ ìwe àwòrán àfihàn", "àtɛ", "àtɛ alátɔ\u{301}ka", "àtɛ onígun"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("棒型圖"),
-			keywords: &["圖", "圖表", "棒", "棒型圖"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("棒型图"),
-			keywords: &["图", "图表", "棒", "棒型图"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("条形图"),
-			keywords: &["图形", "图表", "条形图", "柱形图", "直方图", "资料", "长条图"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("圖表"),
-			keywords: &["圖表", "橫條圖", "直方圖"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("棒形圖"),
-			keywords: &["圖形", "圖表", "數據", "條形圖", "棒形圖", "資料"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ishadi eliyibha"),
-			keywords: &["ibha", "igrafu", "ishadi", "ishadi eliyibha"],
-		},
-	],
-};
 #[doc = "📎"]
 pub const PAPERCLIP: crate::Emoji = crate::Emoji {
 	glyph:                "📎",
@@ -3737,19 +2975,6 @@ pub const FILE_CABINET: crate::Emoji = crate::Emoji {
 	status:               crate::Status::FullyQualified,
 	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
 	name:                 "file cabinet",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Office,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🗒\u{fe0f}"]
-pub const SPIRAL_NOTEPAD: crate::Emoji = crate::Emoji {
-	glyph:                "🗒\u{fe0f}",
-	codepoint:            &[128466u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "spiral notepad",
 	group:                crate::Group::Objects,
 	subgroup:             crate::Subgroup::Office,
 	is_variant:           false,
@@ -7229,1153 +6454,6 @@ pub const FILE_FOLDER: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🗃\u{fe0f}"]
-pub const CARD_FILE_BOX: crate::Emoji = crate::Emoji {
-	glyph:                "🗃\u{fe0f}",
-	codepoint:            &[128451u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "card file box",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Office,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "📈"]
-pub const CHART_INCREASING: crate::Emoji = crate::Emoji {
-	glyph:                "📈",
-	codepoint:            &[128200u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "chart increasing",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::Office,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("grafiek wat styg"),
-			keywords: &[
-				"boontoe",
-				"data",
-				"grafiek",
-				"grafiek wat styg",
-				"groei",
-				"opwaartse kurwe",
-				"statistiek",
-				"stygende grafiek",
-				"styging",
-				"tendens",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የሚጨምር ገበታ"),
-			keywords: &["ሰንጠረዥ", "ሽቅብ", "አዝማሚያ", "ዕድገት", "የሚጨምር ገበታ", "ገበታ", "ግራፍ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("اتجاه لأعلى"),
-			keywords: &["اتجاه لأعلى", "احصائيات", "ارتفاع", "بيانات", "زيادة", "مخطط", "نمو"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ"),
-			keywords: &[
-				"ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ",
-				"ঊৰ\u{9cd}ধম\u{9c1}খী",
-				"গতিধ\u{9be}ৰ\u{9be}",
-				"গ\u{9cd}ৰ\u{9be}ফ\u{9cd}",
-				"বৰ\u{9cd}ধন",
-				"লেখচিত\u{9cd}ৰ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qalxan qrafik"),
-			keywords: &["artım", "cədvəl", "qalxan qrafik", "qrafik", "trend", "yuxarı"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("дыяграма росту"),
-			keywords: &["графік", "дыяграма", "дыяграма росту", "рост", "тэндэнцыя"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("възходяща диаграма"),
-			keywords: &[
-				"възходяща диаграма",
-				"графика",
-				"данни",
-				"диаграма",
-				"диаграма с възходяща тенденция",
-				"нагоре",
-				"ръст",
-				"тенденция",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট"),
-			keywords: &[
-				"উর\u{9cd}ধ\u{9cd}বম\u{9c1}খী",
-				"ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট",
-				"গ\u{9cd}র\u{9be}ফ",
-				"চ\u{9be}র\u{9cd}ট",
-				"প\u{9cd}রবণত\u{9be}",
-				"ব\u{9c3}দ\u{9cd}ধি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("krommenn kreskiñ"),
-			keywords: &["diagramm", "grafik", "kreskiñ", "krommenn"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("dijagram rasta"),
-			keywords: &["dijagram", "dijagram rasta", "grafikon", "rast"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("gràfic d’augment"),
-			keywords: &[
-				"a l’alça",
-				"amunt i cap a la dreta",
-				"augment",
-				"cap amunt",
-				"creixement",
-				"dades",
-				"gràfic",
-				"gràfic d’augment",
-				"tendència",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ"),
-			keywords: &["ᎤᏪᏋᏒᎢ", "ᎦᎵᎦᎳ", "ᎦᎸᎳᏓᎦᏘ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ", "ᏓᏟᎶᏍᏛ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("rostoucí graf"),
-			keywords: &["data", "graf", "nahoru", "rostoucí graf", "růst", "trend", "vzestupný", "vývoj"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("siart yn cynyddu"),
-			keywords: &["graff", "i fyny", "siart", "siart yn cynyddu", "twf"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("opadgående graf"),
-			keywords: &["diagram", "graf", "opadgående graf", "tendens"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Aufwärtstrend"),
-			keywords: &["Aufwärtstrend", "Diagramm", "Kurve", "steigend"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ανοδικό γράφημα"),
-			keywords: &["ανοδικό γράφημα", "αύξηση", "γράφημα", "δεδομένα", "διάγραμμα", "τάση"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("chart increasing"),
-			keywords: &[
-				"chart",
-				"data",
-				"graph",
-				"growth",
-				"increasing",
-				"right",
-				"trend",
-				"up",
-				"upward",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("graph increasing"),
-			keywords: &[
-				"chart",
-				"chart increasing",
-				"graph",
-				"graph increasing",
-				"growth",
-				"trend",
-				"upward",
-			],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("gráfica de evolución ascendente"),
-			keywords: &[
-				"ascendente",
-				"gráfica",
-				"gráfica de evolución ascendente",
-				"gráfico",
-				"tendencia ascendente",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("tendencia ascendente"),
-			keywords: &[
-				"alza",
-				"ascendente",
-				"aumentar",
-				"gráfico",
-				"gráfico tendencia ascendente",
-				"mejor",
-				"mejorar",
-				"positivo",
-				"tabla",
-				"tendencia ascendente",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["alza", "ascendente", "gráfico", "tabla", "tendencia ascendente"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["alza", "ascendente", "gráfico", "tabla", "tendencia ascendente"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("tõusev graafik"),
-			keywords: &["graafik", "kasv", "tendents", "tõusev graafik", "üles"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("diagrama gorakorra"),
-			keywords: &["diagrama", "diagrama gorakorra", "gora", "grafiko", "hazkuntza", "joera"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("نمودار صعودی"),
-			keywords: &["رشد", "صعودی", "نمودار", "گراف", "گرایش"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("nouseva käyrä"),
-			keywords: &["kaavio", "kasvu", "käyrä", "nouseva käyrä", "nousu", "suuntaus", "trendi"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("tumataas na chart"),
-			keywords: &["graph", "paglago", "pataas", "tsart", "tumataas na chart", "uso"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("strikumynd við vøkstri"),
-			keywords: &[
-				"diagramm",
-				"rásmynd",
-				"strikumynd",
-				"strikumynd við vøkstri",
-				"upp",
-				"veksur",
-				"vøkstur",
-			],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("graphique en hausse"),
-			keywords: &[
-				"croissance",
-				"données",
-				"graphique",
-				"graphique en hausse",
-				"hausse",
-				"haut",
-				"tendance",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["croissance", "graphique", "hausse", "tendance"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cairt mhéadaitheach"),
-			keywords: &["cairt mhéadaitheach", "fás", "graf", "sonraí", "treocht mhéadaitheach"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("cairt a’ dol suas"),
-			keywords: &["cairt", "cairt a’ dol suas", "fàs", "graf", "suas", "treand"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("gráfico con tendencia ascendente"),
-			keywords: &["alza", "gráfica", "gráfico", "gráfico con tendencia ascendente", "tendencia"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ"),
-			keywords: &[
-				"આલ\u{ac7}ખ",
-				"ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ",
-				"ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ",
-				"ઉ\u{a82}ચ\u{ac7}ન\u{ac1}\u{a82} વલણ",
-				"ઉપરની તરફ",
-				"ચાર\u{acd}ટ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("zanen-lissafi mai ƙarawa"),
-			keywords: &[
-				"bayanin hauhawar kasuwa",
-				"hauhawa",
-				"salo",
-				"tashi",
-				"tashi sama",
-				"tashin gwauron zabi",
-				"zane",
-				"zanen lissafi",
-				"zanen-lissafi mai ƙarawa",
-				"zanen-lissafi mai ƙaruwa",
-				"zuwa sama",
-				"ƙarawa",
-				"ƙaruwa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("zanen-lissafi mai ƙarawa"),
-			keywords: &[
-				"bayanin hauhawar kasuwa",
-				"hauhawa",
-				"salo",
-				"tashi",
-				"tashi sama",
-				"tashin gwauron zabi",
-				"zane",
-				"zanen lissafi",
-				"zanen-lissafi mai ƙarawa",
-				"zanen-lissafi mai ƙaruwa",
-				"zuwa sama",
-				"ƙarawa",
-				"ƙaruwa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("גרף עולה"),
-			keywords: &["גידול", "גרף", "למעלה", "מגמה", "נתונים", "עולה", "תרשים"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट"),
-			keywords: &[
-				"ग\u{94d}राफ\u{93c}",
-				"चार\u{94d}ट",
-				"बढ\u{93c}ता र\u{941}झान",
-				"बढ\u{93c}ता ह\u{941}आ",
-				"बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("grafikon uzlaznog trenda"),
-			keywords: &["grafikon", "grafikon uzlaznog trenda", "rast", "uzlazni trend"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("növekvő diagram"),
-			keywords: &[
-				"adat",
-				"diagram",
-				"emelkedés",
-				"emelkedő",
-				"felfelé",
-				"gráf",
-				"növekedés",
-				"növekvő diagram",
-				"trend",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("աճող գծապատկեր"),
-			keywords: &["աճ", "աճող գծապատկեր", "գծապատկեր", "միտում", "վեր", "տրամագի"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("bagan meningkat"),
-			keywords: &["bagan", "data", "grafik", "meningkat", "naik", "pertumbuhan", "tren"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("mmụba chaati"),
-			keywords: &[
-				"chaati",
-				"data",
-				"elu",
-				"grafụ",
-				"mmụba chaati",
-				"na-ewu ewu",
-				"nla n’elu",
-				"otuto",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("á uppleið"),
-			keywords: &["graf á uppleið", "á uppleið"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("grafico con andamento positivo"),
-			keywords: &[
-				"andamento ascendente",
-				"ascendente",
-				"aumentare",
-				"aumento",
-				"crescere",
-				"crescita",
-				"finanza",
-				"grafico",
-				"grafico con andamento positivo",
-				"linea",
-				"trend",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("グラフ上向き"),
-			keywords: &[
-				"グラフ",
-				"グラフ上向き",
-				"チャート",
-				"データ",
-				"上向き",
-				"上昇",
-				"右肩上がり",
-				"成長",
-				"折れ線グラフ",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("grafik mundhak"),
-			keywords: &["grafik", "grafik mundhak", "mendhuwur", "munggah", "tren"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ზრდადი გრაფიკი"),
-			keywords: &["გრაფიკი", "დიაგრამა", "ზრდა", "ზრდადი", "ტენდენცია"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("өсім туралы диаграмма"),
-			keywords: &["график", "диаграмма", "жоғарыға", "тренд", "өсім", "өсім туралы диаграмма"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("opadgående graf"),
-			keywords: &["graf", "opadgående graf", "tendens"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("តារាងក\u{17c6}ណើន\u{200b}"),
-			keywords: &["ក\u{17c6}ណើន\u{200b}", "តារាង", "តារាងក\u{17c6}ណើន\u{200b}"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}"),
-			keywords: &[
-				"ಅಭ\u{cbf}ವೃದ\u{ccd}ದ\u{cbf}",
-				"ಏರ\u{cbf}ಕ\u{cc6}",
-				"ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
-				"ಏರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
-				"ಗ\u{ccd}ರಾಫ\u{ccd}",
-				"ಚಾರ\u{ccd}ಟ\u{ccd}",
-				"ಟ\u{ccd}ರ\u{cc6}ಂಡ\u{ccd}",
-				"ಡ\u{cc7}ಟಾ",
-				"ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf} ಏರ\u{cbf}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}",
-				"ಬಲಭಾಗದ\u{cbf}ಂದ ಮ\u{cc7}ಲಕ\u{ccd}ಕ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಗ\u{ccd}ರಾಫ\u{ccd}",
-				"ಮ\u{cc7}ಲ\u{ccd}ಮುಖವಾಗ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("상승하는 그래프"),
-			keywords: &[
-				"그래프",
-				"데이터",
-				"상승 그래프",
-				"상승하는 그래프",
-				"상향",
-				"성장",
-				"오른쪽으로 상승",
-				"추세",
-				"트렌드",
-				"호황",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("चार\u{94d}ट वाडटा"),
-			keywords: &[
-				"ग\u{94d}राफ",
-				"चार\u{94d}ट",
-				"चार\u{94d}ट वाडटा",
-				"ट\u{94d}र\u{947}\u{902}ड",
-				"वयल\u{947}वट\u{947}न",
-				"वाड",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("көтөрүлүп жаткан диаграмма"),
-			keywords: &["диаграмма", "жогору", "көтөрүлүп жаткан диаграмма", "көтөрүлүү"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("steigenden Diagramm"),
-			keywords: &["Diagramm", "Grafik", "Steigerung", "Tendenz", "steigend", "steigenden Diagramm"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ"),
-			keywords: &[
-				"ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
-				"ເສ\u{eb1}\u{ec9}ນສະແດງ",
-				"ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
-				"ແນວໂນ\u{ec9}ມ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("didėjimo tendencijos diagrama"),
-			keywords: &["augimas", "diagrama", "didėjimo tendencijos diagrama", "schema", "tendencija"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("augšupejoša diagrammas līkne"),
-			keywords: &["augšup", "augšupejoša diagrammas līkne", "diagramma", "izaugsme", "līkne"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tūtohi aupiki"),
-			keywords: &["au", "kauwhata", "tipunga", "tūtohi", "tūtohi aupiki", "whakarunga"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("растечки графикон"),
-			keywords: &[
-				"графикон",
-				"нагорен",
-				"податоци",
-				"пораст",
-				"раст",
-				"растечки графикон",
-				"табела",
-				"тренд",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
-			keywords: &[
-				"ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
-				"ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
-				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
-				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}",
-				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
-				"മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("өсч буй диаграмм"),
-			keywords: &["график", "диаграмм", "дээшээ", "чиг хандлага", "өсч буй диаграмм", "өсөлт"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("वाढता चार\u{94d}ट"),
-			keywords: &[
-				"आल\u{947}ख",
-				"कल",
-				"चार\u{94d}ट",
-				"प\u{94d}रगती",
-				"वाढ",
-				"वाढता",
-				"वाढता बाजाराचा कल",
-				"वाढता बाजाराचा कल असल\u{947}ला चार\u{94d}ट",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("carta menaik"),
-			keywords: &["arah aliran", "carta", "data", "graf", "menaik", "pertumbuhan"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ċart tiżdied"),
-			keywords: &["graff", "tendenza", "tkabbir", "ċart", "ċart tiżdied", "’il fuq"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား"),
-			keywords: &[
-				"ဂရပ\u{103a}ဖ\u{103a}",
-				"ဇယား",
-				"တ\u{102d}\u{102f}းပ\u{103d}ားခြင\u{103a}း",
-				"မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား",
-				"ဦးတည\u{103a}ချက\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("बढ\u{94d}दो चार\u{94d}ट"),
-			keywords: &[
-				"ग\u{94d}राफ",
-				"चार\u{94d}ट",
-				"ट\u{94d}र\u{947}न\u{94d}ट",
-				"बढ\u{94d}दो चार\u{94d}ट",
-				"माथि",
-				"विकास",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("stijgende trend"),
-			keywords: &[
-				"diagram",
-				"grafiek",
-				"grafiek met stijgende trend",
-				"groei",
-				"positief",
-				"stijgend",
-				"stijgende trend",
-			],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("diagram som peikar oppover"),
-			keywords: &["chart", "diagram som peikar oppover", "graf", "opp", "positiv", "stigande"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some(
-				"ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
-			),
-			keywords: &[
-				"ଉପରକ\u{b41}",
-				"ଉପରକ\u{b41} ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
-				"ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}",
-				"ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
-				"ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}",
-				"ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ"),
-			keywords: &[
-				"ਗਰਾਫ",
-				"ਚਾਰਟ",
-				"ਰ\u{a47}ਖਾ-ਚਿ\u{a71}ਤਰ",
-				"ਵਧਦਾ",
-				"ਵਧਦਾ ਰ\u{a41}ਝਾਨ",
-				"ਵਧਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ",
-				"ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("چارٹ ودھ رہیا اے"),
-			keywords: &[
-				"ا\u{64f}وتلے پاس\u{651}ے",
-				"رجحان",
-				"پرورش پانا",
-				"چارٹ",
-				"چارٹ ودھ رہیا اے",
-				"گراف",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Chat Wit Graf Wé De Gó Ọp"),
-			keywords: &[
-				"Chat",
-				"Chat Wit Graf Wé De Gó Ọp",
-				"Dairẹ\u{301}kshọn",
-				"De Gó Ọp",
-				"Graf",
-				"Gro",
-				"Lain",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("wykres wzrostu"),
-			keywords: &[
-				"akcje",
-				"hossa",
-				"rosnący",
-				"rynek byka",
-				"tendencja",
-				"trend",
-				"wykres",
-				"wzrost",
-				"wzrostowa",
-				"wzrostu",
-				"zwyżkowa",
-				"zwyżkowy",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("چارټ زیاتوالی"),
-			keywords: &["وده", "پورته", "چارټ", "چارټ زیاتوالی", "ګراف"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("gráfico subindo"),
-			keywords: &[
-				"crescimento",
-				"diagrama",
-				"gráfico",
-				"gráfico de tendência de crescimento",
-				"gráfico subindo",
-				"tendência de crescimento",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("gráfico a subir"),
-			keywords: &[
-				"crescimento",
-				"gráfico",
-				"gráfico a subir",
-				"subida",
-				"tendência",
-				"tendência de crescimento",
-			],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("grafic ascendent"),
-			keywords: &["creștere", "date", "diagramă", "grafic ascendent", "tendință"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-645"), keywords: &["E10-645"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("диаграмма роста"),
-			keywords: &[
-				"вверх",
-				"диаграмма",
-				"диаграмма роста",
-				"рост",
-				"скачок",
-				"схема",
-				"тенденция",
-				"улучшение",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("imbonerahamwe y’ibizamuka"),
-			keywords: &[
-				"igishushanyo",
-				"imbonerahamwe",
-				"imbonerahamwe y’ibizamuka",
-				"iterambere",
-				"izamuka",
-				"ujya hejuru",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("وڌندڙ چارٽ"),
-			keywords: &["رخ", "مٿي پاسي", "واڌ", "وڌندڙ چارٽ", "چارٽ", "گراف"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම"),
-			keywords: &[
-				"ඉහළට",
-				"නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව",
-				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
-				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම",
-				"වර\u{dca}ධනය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("stúpajúci graf"),
-			keywords: &["dáta", "graf", "krivka", "nárast", "stúpajúci", "trend", "vývoj", "údaje"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("grafikon rasti"),
-			keywords: &["graf", "grafikon", "grafikon rasti", "navzgor", "rast", "trend"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("shaxan kordhaya"),
-			keywords: &["isbedel", "kor", "korid", "shax", "shaxan", "shaxan kordhaya"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("grafik rritës"),
-			keywords: &["grafik", "grafik rritës", "lart", "rritje", "tendencë", "të dhëna"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("графикон са узлазним трендом"),
-			keywords: &["графикон", "нагоре", "раст", "тренд"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("grafikon sa uzlaznim trendom"),
-			keywords: &["grafikon", "nagore", "rast", "trend"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("uppåtgående trend"),
-			keywords: &["diagram", "graf", "uppåtgående trend"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("chati inayopanda"),
-			keywords: &["chati", "chati inayopanda", "grafu", "juu", "kukua", "uelekeo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("வளர\u{bcd}ச\u{bcd}சி"),
-			keywords: &[
-				"ஊக\u{bcd}கம\u{bcd}",
-				"ஏற\u{bcd}றம\u{bcd}",
-				"ச\u{bbe}ர\u{bcd}ட\u{bcd}",
-				"டிரெண\u{bcd}ட\u{bcd}",
-				"தரவு",
-				"பங\u{bcd}கு",
-				"மேல\u{bcd} நோக\u{bcd}கி செல\u{bcd}லுதல\u{bcd}",
-				"வரைபடம\u{bcd}",
-				"வளர\u{bcd}ச\u{bcd}சி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ప\u{c46}రుగుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
-			keywords: &[
-				"అప\u{c4d} అండ\u{c4d} టూ ద\u{c3f} ర\u{c48}ట\u{c4d}",
-				"అప\u{c4d}వ\u{c3e}ర\u{c4d}డ\u{c4d}",
-				"గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
-				"గ\u{c4d}ర\u{c4b}త\u{c4d}",
-				"చ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"ట\u{c4d}ర\u{c46}ండ\u{c4d}",
-				"డ\u{c47}ట\u{c3e}",
-				"ప\u{c46}రుగుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}",
-				"ప\u{c46}రుగుదల",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("диаграммаи афзоишёбанда"),
-			keywords: &["афзоиш", "боло", "график", "диаграмма", "диаграммаи афзоишёбанда", "тамоюл"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("แนวโน\u{e49}มข\u{e36}\u{e49}น"),
-			keywords: &[
-				"กราฟ",
-				"ขาข\u{e36}\u{e49}น",
-				"ข\u{e49}อม\u{e39}ล",
-				"ห\u{e38}\u{e49}น",
-				"เต\u{e34}บโต",
-				"เพ\u{e34}\u{e48}ม",
-				"แนวโน\u{e49}ม",
-				"แผนภ\u{e39}ม\u{e34}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቻርት እናወሰኸ ይኸይድ"),
-			keywords: &["ልክዕ እዩ", "ሰንጠረዥ", "ትረንድ", "ንላዕሊ", "እናወሰኸ ዝኸይድ ዘሎ", "ዕብየት", "ዳታ", "ግራፍ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("köpelýän grafik"),
-			keywords: &["grafika", "köpelýän grafik", "trend", "çyzgy", "ösüş", "ýokary"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("siate tupulaki"),
-			keywords: &["siate tupulaki"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("artış grafiği"),
-			keywords: &["artış grafiği", "grafik", "yukarı yönlü", "yükselen grafik"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئاشما گىرافىك"),
-			keywords: &["ئاشما گىرافىك", "ئېشىش", "جەدۋەل", "يۇقىرىغا", "يۈزلىنىش", "گىرافىك"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("висхідний графік"),
-			keywords: &[
-				"вгору",
-				"висхідна діаграма",
-				"висхідний графік",
-				"графік",
-				"графік підвищення",
-				"діаграма",
-				"ріст",
-				"тенденція",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("صعودی چارٹ"),
-			keywords: &["اسٹیشنری", "بڑھوتری", "صعودی چارٹ", "چارٹ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("o‘sish trendi diagrammasi"),
-			keywords: &["diagramma", "grafa", "o‘sish", "o‘sish trendi diagrammasi", "trend", "yuqoriga"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("biểu đồ tăng"),
-			keywords: &["biểu đồ", "biểu đồ tăng", "tăng lên", "tăng trưởng", "xu hướng", "đồ thị"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("grafik buy yéeg"),
-			keywords: &["grafik", "grafik buy yéeg", "kurb", "màgg", "xew", "yéeg"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("itshati iyanda"),
-			keywords: &["ezithandwayo", "igrafu", "itshathi", "itshati iyanda", "ukunyuka", "ulwando"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("àtẹ n pọsi"),
-			keywords: &[
-				"ilà ató\u{329}ka àwòrán",
-				"àtẹ",
-				"àtẹ n pọsi",
-				"ìdàgbàsókè",
-				"ìlọsókè",
-				"ìlọṣíwájú",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("àtɛ n pɔsi"),
-			keywords: &[
-				"ilà ató\u{329}ka àwòrán",
-				"àtɛ",
-				"àtɛ n pɔsi",
-				"ìdàgbàsókè",
-				"ìlɔshíwájú",
-				"ìlɔsókè",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("圖表上升"),
-			keywords: &["向上", "圖", "圖表", "圖表上升", "增長", "趨勢"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("图表上升"),
-			keywords: &["向上", "图", "图表", "图表上升", "增长", "趋势"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("趋势向上的图表"),
-			keywords: &[
-				"上升",
-				"上涨",
-				"上涨图表",
-				"上涨趋势线",
-				"向上",
-				"图表",
-				"成长",
-				"趋势向上的图表",
-				"趋势线",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("漲"),
-			keywords: &["上升", "上漲", "圖表", "漲"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("向上折線圖"),
-			keywords: &[
-				"向上",
-				"向上折線圖",
-				"圖形",
-				"圖表",
-				"增加",
-				"增長",
-				"數據",
-				"業績",
-				"正向",
-				"線條",
-				"表現",
-				"趨勢",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ishadi elikhuphukayo"),
-			keywords: &["igrafu", "ishadi", "ishadi elikhuphukayo", "okuya phezulu", "ukukhula"],
-		},
-	],
-};
 #[doc = "📆"]
 pub const TEAR_OFF_CALENDAR: crate::Emoji = crate::Emoji {
 	glyph:                "📆",
@@ -11455,6 +9533,1928 @@ pub const PUSHPIN: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("uphini wokuphusha"),
 			keywords: &["uphini", "uphini wokuphusha"],
+		},
+	],
+};
+#[doc = "🗃\u{fe0f}"]
+pub const CARD_FILE_BOX: crate::Emoji = crate::Emoji {
+	glyph:                "🗃\u{fe0f}",
+	codepoint:            &[128451u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "card file box",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Office,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📊"]
+pub const BAR_CHART: crate::Emoji = crate::Emoji {
+	glyph:                "📊",
+	codepoint:            &[128202u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "bar chart",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Office,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("staafgrafiek"),
+			keywords: &["data", "grafiek", "grafiese voorstelling", "staaf", "staafgrafiek", "tabel"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ባለ አሞሌ ገበታ"),
+			keywords: &["ሰንጠረዥ", "ባለ አሞሌ ገበታ", "አሞሌ", "ውሂብ", "ገበታ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("مخطط بياني شريطي"),
+			keywords: &["احصائيات", "بيانات", "تخطيط", "مخطط", "مخطط بياني شريطي", "مخطط شريطي"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("দণ\u{9cd}ডচিত\u{9cd}ৰ"),
+			keywords: &["গ\u{9cd}ৰ\u{9be}ফ", "চ\u{9be}ৰ\u{9cd}ট", "দণ\u{9cd}ড", "দণ\u{9cd}ডচিত\u{9cd}ৰ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("diaqram"),
+			keywords: &["bar", "cədvəl", "diaqram", "qrafik"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("лінейчастая дыяграма"),
+			keywords: &["графік", "дыяграма", "лінейчастая", "слупок"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("Стълбовидна диаграма"),
+			keywords: &["Стълбовидна диаграма", "данни", "диаграма", "стълб", "стълбовидна диаграма"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ব\u{9be}র চ\u{9be}র\u{9cd}ট"),
+			keywords: &["গ\u{9cd}র\u{9be}ফ", "চ\u{9be}র\u{9cd}ট", "ব\u{9be}র"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("diagramm barrennoù"),
+			keywords: &["barrennoù", "diagramm", "grafik"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("stupčasti grafikon"),
+			keywords: &["dijagram", "grafikon", "stupčasti grafikon"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("gràfic de barres"),
+			keywords: &["barres", "dades", "gràfic", "gràfic de barres"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᎾᎸᎢ ᎧᏃᎮᏍᎩ ᏗᏟᎶᏍᏔᏅ"),
+			keywords: &["ᎦᎾᎸᎢ", "ᎦᎾᎸᎢ ᎧᏃᎮᏍᎩ ᏗᏟᎶᏍᏔᏅ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ", "ᏓᏟᎶᏍᏛ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("sloupcový graf"),
+			keywords: &["data", "diagram", "graf", "sloupcový graf", "sloupec", "údaje"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("siart bar"),
+			keywords: &["bar", "graff", "siart"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("søjlediagram"),
+			keywords: &["diagram", "graf", "søjlediagram"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Balkendiagramm"),
+			keywords: &["Balken", "Balkendiagramm", "Diagramm"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("γράφημα ράβδων"),
+			keywords: &["γράφημα", "γράφημα ράβδων", "γραμμή", "δεδομένα", "διάγραμμα", "στήλη"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("bar chart"),
+			keywords: &["bar", "chart", "data", "graph"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("bar graph"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("gráfico de barras"),
+			keywords: &["barras", "gráfico", "gráfico de barras"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["gráfico", "gráfico de barras"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("tulpdiagramm"),
+			keywords: &["diagramm", "graafik", "tulp", "tulpdiagramm"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("barra-diagrama"),
+			keywords: &["barra", "barra-diagrama", "diagrama", "grafiko"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("نمودار ستونی"),
+			keywords: &["ستون", "نمودار", "نمودار ستونی", "گراف"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("pylväskaavio"),
+			keywords: &["kaavio", "pylväs", "pylväskaavio", "tilasto"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("bar chart"),
+			keywords: &["bar", "bar chart", "graph", "tsart"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("stabbamynd"),
+			keywords: &["diagramm", "rásmynd", "stabbamynd", "strikumynd"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("graphiques à barres"),
+			keywords: &["données", "graphique", "graphiques à barres"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["barres", "graphique"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("barrachairt"),
+			keywords: &["barrachairt", "barraghraf", "cairt", "graf", "sonraí"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cairt-bhàraichean"),
+			keywords: &["bàr", "cairt", "cairt-bhàraichean", "graf"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("gráfico de barras"),
+			keywords: &["barras", "gráfica", "gráfico", "gráfico de barras"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("બાર ચાર\u{acd}ટ"),
+			keywords: &[
+				"ચાર\u{acd}ટ",
+				"જાણકારી",
+				"ડાટા",
+				"બાર ચાર\u{acd}ટ",
+				"સ\u{acd}ત\u{a82}ભ",
+				"સ\u{acd}ત\u{a82}ભ આલ\u{ac7}ખ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("allon jadawali"),
+			keywords: &["allon jadawali", "alƙaluma", "sanda", "zane", "zanen lissafi", "zayyana"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("allon jadawali"),
+			keywords: &["allon jadawali", "alƙaluma", "sanda", "zane", "zanen lissafi", "zayyana"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("תרשים עמודות"),
+			keywords: &["גרף", "נתונים", "עמודות", "תרשים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बार चार\u{94d}ट"),
+			keywords: &[
+				"ग\u{94d}राफ\u{93c}",
+				"चार\u{94d}ट",
+				"बार ग\u{94d}राफ\u{93c}",
+				"बार चार\u{94d}ट",
+				"ल\u{947}खाचित\u{94d}र",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("trakasti grafikon"),
+			keywords: &["grafikon", "podaci", "traka", "trakasti grafikon"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("oszlopdiagram"),
+			keywords: &["adat", "diagram", "grafikon", "oszlop", "oszlopdiagram", "sáv", "ábra"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("գոտեձև գծապատկեր"),
+			keywords: &["գոտեձև գծապատկեր", "գոտի", "գրաֆիկ", "դիագրամ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("diagram batang"),
+			keywords: &["bagan", "batang", "diagram", "grafik"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("chaàtị ogwe"),
+			keywords: &["chaatị", "data", "grafụ", "ogwe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("súlurit"),
+			keywords: &["myndrit", "súlur", "súlurit"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("grafico a barre"),
+			keywords: &["barre", "dati", "grafico", "grafico a barre", "statistica"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("棒グラフ"),
+			keywords: &["グラフ", "チャート", "データ", "棒グラフ"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("grafik balok"),
+			keywords: &["balok", "grafik"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სვეტებიანი დიაგრამა"),
+			keywords: &["გრაფიკი", "დიაგრამა", "სვეტებიანი დიაგრამა", "სვეტი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("гистограмма"),
+			keywords: &["гистограмма", "график", "диаграмма"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("søjlediagram"),
+			keywords: &["diagram", "søjlediagram"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("តារាងជារបា"),
+			keywords: &["ក\u{17d2}រាហ\u{17d2}វ", "គ\u{17c6}ន\u{17bc}សតាង", "តារាងជារបា", "របារ"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬಾರ\u{ccd} ಚಾರ\u{ccd}ಟ\u{ccd}"),
+			keywords: &[
+				"ಗ\u{ccd}ರಾಫ\u{ccd}",
+				"ಚಾರ\u{ccd}ಟ\u{ccd}",
+				"ಡ\u{cc7}ಟಾ",
+				"ದತ\u{ccd}ತಾಂಶ",
+				"ಬಾರ\u{ccd} ಚಾರ\u{ccd}ಟ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("막대 그래프"),
+			keywords: &["그래프", "데이터", "막대", "막대그래프", "차트"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("बार तकटो"),
+			keywords: &["ग\u{94d}राफ", "तकटो", "बार"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("гистограмма"),
+			keywords: &["гистограмма", "диаграмма", "схема", "таблица"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Balkendiagramm"),
+			keywords: &["Balken", "Balkendiagramm", "Diagramm", "Grafik"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຜ\u{eb1}ງສະແດງແບບເປ\u{eb1}ນທ\u{ec8}ອນ"),
+			keywords: &[
+				"ກ\u{ebc}າບ",
+				"ກ\u{ebc}າບສະແດງ",
+				"ທ\u{ec8}ອນ",
+				"ຜ\u{eb1}ງສະແດງ",
+				"ຜ\u{eb1}ງສະແດງແບບເປ\u{eb1}ນທ\u{ec8}ອນ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("juostinė diagrama"),
+			keywords: &["diagrama", "juosta", "juostinė diagrama"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("joslu diagramma"),
+			keywords: &["dati", "diagramma", "grafiks", "josla", "joslu diagramma"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tūtohi pae"),
+			keywords: &["kauwhata", "pae", "tūtohi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("столбест дијаграм"),
+			keywords: &["графикон", "лента", "податоци", "столб", "столбест дијаграм", "табела"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ബ\u{d3e}ർ ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
+			keywords: &[
+				"ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+				"ബ\u{d3e}ർ ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
+				"ബ\u{d3e}ർ ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("график хүснэгт"),
+			keywords: &["график", "хүснэгт", "үзүүлэлт"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("बार चार\u{94d}ट"),
+			keywords: &["आल\u{947}ख", "ग\u{94d}राफ", "चार\u{94d}ट", "बार आल\u{947}ख", "बार चार\u{94d}ट"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("carta bar"),
+			keywords: &["bar", "carta", "data", "graf"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("barċart"),
+			keywords: &["bar", "barċart", "graff", "ċart"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဘားက\u{103d}က\u{103a}ပြ ဇယား"),
+			keywords: &["ဂရပ\u{103a}ဖ\u{103a}", "ဇယား", "ဘားက\u{103d}က\u{103a}ပြ ဇယား"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("बार चार\u{94d}ट"),
+			keywords: &["ग\u{94d}राफ", "चार\u{94d}ट", "बार"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("staafdiagram"),
+			keywords: &["diagram", "grafiek", "staaf", "staafdiagram", "staafgrafiek"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ବ\u{b3e}ର\u{b4d} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}"),
+			keywords: &[
+				"ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}\u{200c}",
+				"ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
+				"ବ\u{b3e}ର\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਬਾਰ ਚਾਰਟ"),
+			keywords: &["ਗਰਾਫ", "ਚਾਰਟ", "ਬਾਰ ਗਰਾਫ", "ਬਾਰ ਚਾਰਟ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("بار چارٹ"),
+			keywords: &["بار چارٹ", "سیخ", "چارٹ", "گراف"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Graf Wé Gẹ\u{301}t Waíd Lain-dẹm"),
+			keywords: &["Baa", "Chat", "Graf", "Graf Wé Gẹ\u{301}t Waíd Lain-dẹm"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("wykres słupkowy"),
+			keywords: &["diagram", "słupek", "słupkowy", "wykres"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("بار چارټ"),
+			keywords: &["بار", "چارټ", "ګراف"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("gráfico de barras"),
+			keywords: &["barra", "diagrama", "gráfico"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["barra", "barras", "gráfico", "gráfico de barras"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("diagramă cu bare"),
+			keywords: &["bare", "coloane", "diagramă", "diagramă cu bare", "grafic"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-647"), keywords: &["E10-647"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("гистограмма"),
+			keywords: &["гистограмма", "граф", "диаграмма", "столбчатая"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("imbonerahamwe y’umurongo"),
+			keywords: &["agakoni", "igishushanyo", "imbonerahamwe", "imbonerahamwe y’umurongo"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("بار چارٽ"),
+			keywords: &["بار", "چارٽ", "گراف"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ත\u{dd3}ර\u{dd4} ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය"),
+			keywords: &[
+				"ත\u{dd3}ර\u{dd4}",
+				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන",
+				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("pruhový graf"),
+			keywords: &["dáta", "graf", "pruh", "pruhový graf", "stĺpcový graf", "stĺpec", "údaje"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("črtni grafikon"),
+			keywords: &["graf", "grafikon", "podatki", "črtni grafikon", "črtno"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("shaxanka baar"),
+			keywords: &["baar", "shax", "shaxan", "shaxanka baar"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("grafik me shirita"),
+			keywords: &["grafik", "grafik me shirita", "shirit", "të dhëna"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("тракасти графикон"),
+			keywords: &["графикон", "подаци", "трaкa"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("trakasti grafikon"),
+			keywords: &["grafikon", "podaci", "traka"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("stapeldiagram"),
+			keywords: &["diagram", "stapeldiagram", "staplar"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("chati ya miraba"),
+			keywords: &["chati", "chati ya miraba", "grafu", "mraba"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பட\u{bcd}டை வரைபடம\u{bcd}"),
+			keywords: &[
+				"கிர\u{bbe}ஃப\u{bcd}",
+				"பட\u{bcd}டை வரைபடம\u{bcd}",
+				"ப\u{bbe}ர\u{bcd} கிர\u{bbe}ப\u{bcd}",
+				"ப\u{bbe}ர\u{bcd} ச\u{bbe}ர\u{bcd}ட\u{bcd}",
+				"ப\u{bbe}ர\u{bcd} வரைபடம\u{bcd}",
+				"வரைபடம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("బ\u{c3e}ర\u{c4d} చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
+			keywords: &[
+				"బ\u{c3e}ర\u{c4d} గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
+				"బ\u{c3e}ర\u{c4d} చ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"బ\u{c3e}ర\u{c4d} పట\u{c4d}ట\u{c40}",
+				"సమ\u{c3e}చ\u{c3e}రం",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("диаграммаи хаттӣ"),
+			keywords: &["бар", "график", "диаграмма", "диаграммаи хаттӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("กราฟแท\u{e48}ง"),
+			keywords: &["กราฟแท\u{e48}ง", "ชาร\u{e4c}ต"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ባር ቻርት"),
+			keywords: &["ሰንጠረዥ", "ባር", "ዳታ", "ግራፍ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("setir diagramma"),
+			keywords: &["grafika", "setir diagramma", "zolak", "çyzyk"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("siate pā"), keywords: &["siate pā"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("çubuk grafiği"),
+			keywords: &["grafik", "çubuk grafiği"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("تۈۋرۈكلۈك گىرافىك"),
+			keywords: &["تۈۋرۈك", "تۈۋرۈكلۈك گىرافىك", "جەدۋەل", "گىرافىك"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("гістограма"),
+			keywords: &["графік", "гістограма"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بار چارٹ"),
+			keywords: &["اسٹیشنری", "بار", "چارٹ", "گراف"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("ustunli diagramma"),
+			keywords: &["diagramma", "grafa", "maʼlumot", "ustunli"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("biểu đồ thanh"),
+			keywords: &["biểu đồ", "biểu đồ thanh", "thanh", "đồ thị"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("jagraamu bànd"),
+			keywords: &["grafik", "jagraamu bànd", "kurb", "laat"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("itshati yebha"),
+			keywords: &["ibha", "igrafu", "itshathi", "itshati yebha"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("pẹpẹ ìwe àwòrán àfihàn"),
+			keywords: &["pẹpẹ ìwe àwòrán àfihàn", "àtẹ", "àtẹ alátọ\u{301}ka", "àtẹ onígun"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("pɛpɛ ìwe àwòrán àfihàn"),
+			keywords: &["pɛpɛ ìwe àwòrán àfihàn", "àtɛ", "àtɛ alátɔ\u{301}ka", "àtɛ onígun"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("棒型圖"),
+			keywords: &["圖", "圖表", "棒", "棒型圖"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("棒型图"),
+			keywords: &["图", "图表", "棒", "棒型图"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("条形图"),
+			keywords: &["图形", "图表", "条形图", "柱形图", "直方图", "资料", "长条图"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("圖表"),
+			keywords: &["圖表", "橫條圖", "直方圖"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("棒形圖"),
+			keywords: &["圖形", "圖表", "數據", "條形圖", "棒形圖", "資料"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ishadi eliyibha"),
+			keywords: &["ibha", "igrafu", "ishadi", "ishadi eliyibha"],
+		},
+	],
+};
+#[doc = "🗒\u{fe0f}"]
+pub const SPIRAL_NOTEPAD: crate::Emoji = crate::Emoji {
+	glyph:                "🗒\u{fe0f}",
+	codepoint:            &[128466u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "spiral notepad",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Office,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📋\u{fe0f}"]
+pub const CLIPBOARD: crate::Emoji = crate::Emoji {
+	glyph:                "📋\u{fe0f}",
+	codepoint:            &[128203u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "clipboard",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Office,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "📈"]
+pub const CHART_INCREASING: crate::Emoji = crate::Emoji {
+	glyph:                "📈",
+	codepoint:            &[128200u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "chart increasing",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::Office,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("grafiek wat styg"),
+			keywords: &[
+				"boontoe",
+				"data",
+				"grafiek",
+				"grafiek wat styg",
+				"groei",
+				"opwaartse kurwe",
+				"statistiek",
+				"stygende grafiek",
+				"styging",
+				"tendens",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የሚጨምር ገበታ"),
+			keywords: &["ሰንጠረዥ", "ሽቅብ", "አዝማሚያ", "ዕድገት", "የሚጨምር ገበታ", "ገበታ", "ግራፍ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("اتجاه لأعلى"),
+			keywords: &["اتجاه لأعلى", "احصائيات", "ارتفاع", "بيانات", "زيادة", "مخطط", "نمو"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ"),
+			keywords: &[
+				"ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ",
+				"ঊৰ\u{9cd}ধম\u{9c1}খী",
+				"গতিধ\u{9be}ৰ\u{9be}",
+				"গ\u{9cd}ৰ\u{9be}ফ\u{9cd}",
+				"বৰ\u{9cd}ধন",
+				"লেখচিত\u{9cd}ৰ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qalxan qrafik"),
+			keywords: &["artım", "cədvəl", "qalxan qrafik", "qrafik", "trend", "yuxarı"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("дыяграма росту"),
+			keywords: &["графік", "дыяграма", "дыяграма росту", "рост", "тэндэнцыя"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("възходяща диаграма"),
+			keywords: &[
+				"възходяща диаграма",
+				"графика",
+				"данни",
+				"диаграма",
+				"диаграма с възходяща тенденция",
+				"нагоре",
+				"ръст",
+				"тенденция",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট"),
+			keywords: &[
+				"উর\u{9cd}ধ\u{9cd}বম\u{9c1}খী",
+				"ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট",
+				"গ\u{9cd}র\u{9be}ফ",
+				"চ\u{9be}র\u{9cd}ট",
+				"প\u{9cd}রবণত\u{9be}",
+				"ব\u{9c3}দ\u{9cd}ধি",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("krommenn kreskiñ"),
+			keywords: &["diagramm", "grafik", "kreskiñ", "krommenn"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("dijagram rasta"),
+			keywords: &["dijagram", "dijagram rasta", "grafikon", "rast"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("gràfic d’augment"),
+			keywords: &[
+				"a l’alça",
+				"amunt i cap a la dreta",
+				"augment",
+				"cap amunt",
+				"creixement",
+				"dades",
+				"gràfic",
+				"gràfic d’augment",
+				"tendència",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ"),
+			keywords: &["ᎤᏪᏋᏒᎢ", "ᎦᎵᎦᎳ", "ᎦᎸᎳᏓᎦᏘ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ", "ᏓᏟᎶᏍᏛ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("rostoucí graf"),
+			keywords: &["data", "graf", "nahoru", "rostoucí graf", "růst", "trend", "vzestupný", "vývoj"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("siart yn cynyddu"),
+			keywords: &["graff", "i fyny", "siart", "siart yn cynyddu", "twf"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("opadgående graf"),
+			keywords: &["diagram", "graf", "opadgående graf", "tendens"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Aufwärtstrend"),
+			keywords: &["Aufwärtstrend", "Diagramm", "Kurve", "steigend"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ανοδικό γράφημα"),
+			keywords: &["ανοδικό γράφημα", "αύξηση", "γράφημα", "δεδομένα", "διάγραμμα", "τάση"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("chart increasing"),
+			keywords: &[
+				"chart",
+				"data",
+				"graph",
+				"growth",
+				"increasing",
+				"right",
+				"trend",
+				"up",
+				"upward",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("graph increasing"),
+			keywords: &[
+				"chart",
+				"chart increasing",
+				"graph",
+				"graph increasing",
+				"growth",
+				"trend",
+				"upward",
+			],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("gráfica de evolución ascendente"),
+			keywords: &[
+				"ascendente",
+				"gráfica",
+				"gráfica de evolución ascendente",
+				"gráfico",
+				"tendencia ascendente",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("tendencia ascendente"),
+			keywords: &[
+				"alza",
+				"ascendente",
+				"aumentar",
+				"gráfico",
+				"gráfico tendencia ascendente",
+				"mejor",
+				"mejorar",
+				"positivo",
+				"tabla",
+				"tendencia ascendente",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["alza", "ascendente", "gráfico", "tabla", "tendencia ascendente"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["alza", "ascendente", "gráfico", "tabla", "tendencia ascendente"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("tõusev graafik"),
+			keywords: &["graafik", "kasv", "tendents", "tõusev graafik", "üles"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("diagrama gorakorra"),
+			keywords: &["diagrama", "diagrama gorakorra", "gora", "grafiko", "hazkuntza", "joera"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("نمودار صعودی"),
+			keywords: &["رشد", "صعودی", "نمودار", "گراف", "گرایش"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("nouseva käyrä"),
+			keywords: &["kaavio", "kasvu", "käyrä", "nouseva käyrä", "nousu", "suuntaus", "trendi"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("tumataas na chart"),
+			keywords: &["graph", "paglago", "pataas", "tsart", "tumataas na chart", "uso"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("strikumynd við vøkstri"),
+			keywords: &[
+				"diagramm",
+				"rásmynd",
+				"strikumynd",
+				"strikumynd við vøkstri",
+				"upp",
+				"veksur",
+				"vøkstur",
+			],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("graphique en hausse"),
+			keywords: &[
+				"croissance",
+				"données",
+				"graphique",
+				"graphique en hausse",
+				"hausse",
+				"haut",
+				"tendance",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["croissance", "graphique", "hausse", "tendance"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cairt mhéadaitheach"),
+			keywords: &["cairt mhéadaitheach", "fás", "graf", "sonraí", "treocht mhéadaitheach"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("cairt a’ dol suas"),
+			keywords: &["cairt", "cairt a’ dol suas", "fàs", "graf", "suas", "treand"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("gráfico con tendencia ascendente"),
+			keywords: &["alza", "gráfica", "gráfico", "gráfico con tendencia ascendente", "tendencia"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ"),
+			keywords: &[
+				"આલ\u{ac7}ખ",
+				"ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ",
+				"ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ",
+				"ઉ\u{a82}ચ\u{ac7}ન\u{ac1}\u{a82} વલણ",
+				"ઉપરની તરફ",
+				"ચાર\u{acd}ટ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("zanen-lissafi mai ƙarawa"),
+			keywords: &[
+				"bayanin hauhawar kasuwa",
+				"hauhawa",
+				"salo",
+				"tashi",
+				"tashi sama",
+				"tashin gwauron zabi",
+				"zane",
+				"zanen lissafi",
+				"zanen-lissafi mai ƙarawa",
+				"zanen-lissafi mai ƙaruwa",
+				"zuwa sama",
+				"ƙarawa",
+				"ƙaruwa",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("zanen-lissafi mai ƙarawa"),
+			keywords: &[
+				"bayanin hauhawar kasuwa",
+				"hauhawa",
+				"salo",
+				"tashi",
+				"tashi sama",
+				"tashin gwauron zabi",
+				"zane",
+				"zanen lissafi",
+				"zanen-lissafi mai ƙarawa",
+				"zanen-lissafi mai ƙaruwa",
+				"zuwa sama",
+				"ƙarawa",
+				"ƙaruwa",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("גרף עולה"),
+			keywords: &["גידול", "גרף", "למעלה", "מגמה", "נתונים", "עולה", "תרשים"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट"),
+			keywords: &[
+				"ग\u{94d}राफ\u{93c}",
+				"चार\u{94d}ट",
+				"बढ\u{93c}ता र\u{941}झान",
+				"बढ\u{93c}ता ह\u{941}आ",
+				"बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("grafikon uzlaznog trenda"),
+			keywords: &["grafikon", "grafikon uzlaznog trenda", "rast", "uzlazni trend"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("növekvő diagram"),
+			keywords: &[
+				"adat",
+				"diagram",
+				"emelkedés",
+				"emelkedő",
+				"felfelé",
+				"gráf",
+				"növekedés",
+				"növekvő diagram",
+				"trend",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("աճող գծապատկեր"),
+			keywords: &["աճ", "աճող գծապատկեր", "գծապատկեր", "միտում", "վեր", "տրամագի"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("bagan meningkat"),
+			keywords: &["bagan", "data", "grafik", "meningkat", "naik", "pertumbuhan", "tren"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("mmụba chaati"),
+			keywords: &[
+				"chaati",
+				"data",
+				"elu",
+				"grafụ",
+				"mmụba chaati",
+				"na-ewu ewu",
+				"nla n’elu",
+				"otuto",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("á uppleið"),
+			keywords: &["graf á uppleið", "á uppleið"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("grafico con andamento positivo"),
+			keywords: &[
+				"andamento ascendente",
+				"ascendente",
+				"aumentare",
+				"aumento",
+				"crescere",
+				"crescita",
+				"finanza",
+				"grafico",
+				"grafico con andamento positivo",
+				"linea",
+				"trend",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("グラフ上向き"),
+			keywords: &[
+				"グラフ",
+				"グラフ上向き",
+				"チャート",
+				"データ",
+				"上向き",
+				"上昇",
+				"右肩上がり",
+				"成長",
+				"折れ線グラフ",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("grafik mundhak"),
+			keywords: &["grafik", "grafik mundhak", "mendhuwur", "munggah", "tren"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ზრდადი გრაფიკი"),
+			keywords: &["გრაფიკი", "დიაგრამა", "ზრდა", "ზრდადი", "ტენდენცია"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("өсім туралы диаграмма"),
+			keywords: &["график", "диаграмма", "жоғарыға", "тренд", "өсім", "өсім туралы диаграмма"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("opadgående graf"),
+			keywords: &["graf", "opadgående graf", "tendens"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("តារាងក\u{17c6}ណើន\u{200b}"),
+			keywords: &["ក\u{17c6}ណើន\u{200b}", "តារាង", "តារាងក\u{17c6}ណើន\u{200b}"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}"),
+			keywords: &[
+				"ಅಭ\u{cbf}ವೃದ\u{ccd}ದ\u{cbf}",
+				"ಏರ\u{cbf}ಕ\u{cc6}",
+				"ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
+				"ಏರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
+				"ಗ\u{ccd}ರಾಫ\u{ccd}",
+				"ಚಾರ\u{ccd}ಟ\u{ccd}",
+				"ಟ\u{ccd}ರ\u{cc6}ಂಡ\u{ccd}",
+				"ಡ\u{cc7}ಟಾ",
+				"ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf} ಏರ\u{cbf}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}",
+				"ಬಲಭಾಗದ\u{cbf}ಂದ ಮ\u{cc7}ಲಕ\u{ccd}ಕ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಗ\u{ccd}ರಾಫ\u{ccd}",
+				"ಮ\u{cc7}ಲ\u{ccd}ಮುಖವಾಗ\u{cbf}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("상승하는 그래프"),
+			keywords: &[
+				"그래프",
+				"데이터",
+				"상승 그래프",
+				"상승하는 그래프",
+				"상향",
+				"성장",
+				"오른쪽으로 상승",
+				"추세",
+				"트렌드",
+				"호황",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("चार\u{94d}ट वाडटा"),
+			keywords: &[
+				"ग\u{94d}राफ",
+				"चार\u{94d}ट",
+				"चार\u{94d}ट वाडटा",
+				"ट\u{94d}र\u{947}\u{902}ड",
+				"वयल\u{947}वट\u{947}न",
+				"वाड",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("көтөрүлүп жаткан диаграмма"),
+			keywords: &["диаграмма", "жогору", "көтөрүлүп жаткан диаграмма", "көтөрүлүү"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("steigenden Diagramm"),
+			keywords: &["Diagramm", "Grafik", "Steigerung", "Tendenz", "steigend", "steigenden Diagramm"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ"),
+			keywords: &[
+				"ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
+				"ເສ\u{eb1}\u{ec9}ນສະແດງ",
+				"ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
+				"ແນວໂນ\u{ec9}ມ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("didėjimo tendencijos diagrama"),
+			keywords: &["augimas", "diagrama", "didėjimo tendencijos diagrama", "schema", "tendencija"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("augšupejoša diagrammas līkne"),
+			keywords: &["augšup", "augšupejoša diagrammas līkne", "diagramma", "izaugsme", "līkne"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tūtohi aupiki"),
+			keywords: &["au", "kauwhata", "tipunga", "tūtohi", "tūtohi aupiki", "whakarunga"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("растечки графикон"),
+			keywords: &[
+				"графикон",
+				"нагорен",
+				"податоци",
+				"пораст",
+				"раст",
+				"растечки графикон",
+				"табела",
+				"тренд",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
+			keywords: &[
+				"ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
+				"ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}",
+				"മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+				"മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("өсч буй диаграмм"),
+			keywords: &["график", "диаграмм", "дээшээ", "чиг хандлага", "өсч буй диаграмм", "өсөлт"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("वाढता चार\u{94d}ट"),
+			keywords: &[
+				"आल\u{947}ख",
+				"कल",
+				"चार\u{94d}ट",
+				"प\u{94d}रगती",
+				"वाढ",
+				"वाढता",
+				"वाढता बाजाराचा कल",
+				"वाढता बाजाराचा कल असल\u{947}ला चार\u{94d}ट",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("carta menaik"),
+			keywords: &["arah aliran", "carta", "data", "graf", "menaik", "pertumbuhan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ċart tiżdied"),
+			keywords: &["graff", "tendenza", "tkabbir", "ċart", "ċart tiżdied", "’il fuq"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား"),
+			keywords: &[
+				"ဂရပ\u{103a}ဖ\u{103a}",
+				"ဇယား",
+				"တ\u{102d}\u{102f}းပ\u{103d}ားခြင\u{103a}း",
+				"မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား",
+				"ဦးတည\u{103a}ချက\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("बढ\u{94d}दो चार\u{94d}ट"),
+			keywords: &[
+				"ग\u{94d}राफ",
+				"चार\u{94d}ट",
+				"ट\u{94d}र\u{947}न\u{94d}ट",
+				"बढ\u{94d}दो चार\u{94d}ट",
+				"माथि",
+				"विकास",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("stijgende trend"),
+			keywords: &[
+				"diagram",
+				"grafiek",
+				"grafiek met stijgende trend",
+				"groei",
+				"positief",
+				"stijgend",
+				"stijgende trend",
+			],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("diagram som peikar oppover"),
+			keywords: &["chart", "diagram som peikar oppover", "graf", "opp", "positiv", "stigande"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some(
+				"ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
+			),
+			keywords: &[
+				"ଉପରକ\u{b41}",
+				"ଉପରକ\u{b41} ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+				"ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}",
+				"ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+				"ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}",
+				"ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ"),
+			keywords: &[
+				"ਗਰਾਫ",
+				"ਚਾਰਟ",
+				"ਰ\u{a47}ਖਾ-ਚਿ\u{a71}ਤਰ",
+				"ਵਧਦਾ",
+				"ਵਧਦਾ ਰ\u{a41}ਝਾਨ",
+				"ਵਧਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ",
+				"ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("چارٹ ودھ رہیا اے"),
+			keywords: &[
+				"ا\u{64f}وتلے پاس\u{651}ے",
+				"رجحان",
+				"پرورش پانا",
+				"چارٹ",
+				"چارٹ ودھ رہیا اے",
+				"گراف",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Chat Wit Graf Wé De Gó Ọp"),
+			keywords: &[
+				"Chat",
+				"Chat Wit Graf Wé De Gó Ọp",
+				"Dairẹ\u{301}kshọn",
+				"De Gó Ọp",
+				"Graf",
+				"Gro",
+				"Lain",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("wykres wzrostu"),
+			keywords: &[
+				"akcje",
+				"hossa",
+				"rosnący",
+				"rynek byka",
+				"tendencja",
+				"trend",
+				"wykres",
+				"wzrost",
+				"wzrostowa",
+				"wzrostu",
+				"zwyżkowa",
+				"zwyżkowy",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("چارټ زیاتوالی"),
+			keywords: &["وده", "پورته", "چارټ", "چارټ زیاتوالی", "ګراف"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("gráfico subindo"),
+			keywords: &[
+				"crescimento",
+				"diagrama",
+				"gráfico",
+				"gráfico de tendência de crescimento",
+				"gráfico subindo",
+				"tendência de crescimento",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("gráfico a subir"),
+			keywords: &[
+				"crescimento",
+				"gráfico",
+				"gráfico a subir",
+				"subida",
+				"tendência",
+				"tendência de crescimento",
+			],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("grafic ascendent"),
+			keywords: &["creștere", "date", "diagramă", "grafic ascendent", "tendință"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-645"), keywords: &["E10-645"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("диаграмма роста"),
+			keywords: &[
+				"вверх",
+				"диаграмма",
+				"диаграмма роста",
+				"рост",
+				"скачок",
+				"схема",
+				"тенденция",
+				"улучшение",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("imbonerahamwe y’ibizamuka"),
+			keywords: &[
+				"igishushanyo",
+				"imbonerahamwe",
+				"imbonerahamwe y’ibizamuka",
+				"iterambere",
+				"izamuka",
+				"ujya hejuru",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("وڌندڙ چارٽ"),
+			keywords: &["رخ", "مٿي پاسي", "واڌ", "وڌندڙ چارٽ", "چارٽ", "گراف"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම"),
+			keywords: &[
+				"ඉහළට",
+				"නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව",
+				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
+				"ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම",
+				"වර\u{dca}ධනය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("stúpajúci graf"),
+			keywords: &["dáta", "graf", "krivka", "nárast", "stúpajúci", "trend", "vývoj", "údaje"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("grafikon rasti"),
+			keywords: &["graf", "grafikon", "grafikon rasti", "navzgor", "rast", "trend"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("shaxan kordhaya"),
+			keywords: &["isbedel", "kor", "korid", "shax", "shaxan", "shaxan kordhaya"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("grafik rritës"),
+			keywords: &["grafik", "grafik rritës", "lart", "rritje", "tendencë", "të dhëna"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("графикон са узлазним трендом"),
+			keywords: &["графикон", "нагоре", "раст", "тренд"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("grafikon sa uzlaznim trendom"),
+			keywords: &["grafikon", "nagore", "rast", "trend"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("uppåtgående trend"),
+			keywords: &["diagram", "graf", "uppåtgående trend"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("chati inayopanda"),
+			keywords: &["chati", "chati inayopanda", "grafu", "juu", "kukua", "uelekeo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("வளர\u{bcd}ச\u{bcd}சி"),
+			keywords: &[
+				"ஊக\u{bcd}கம\u{bcd}",
+				"ஏற\u{bcd}றம\u{bcd}",
+				"ச\u{bbe}ர\u{bcd}ட\u{bcd}",
+				"டிரெண\u{bcd}ட\u{bcd}",
+				"தரவு",
+				"பங\u{bcd}கு",
+				"மேல\u{bcd} நோக\u{bcd}கி செல\u{bcd}லுதல\u{bcd}",
+				"வரைபடம\u{bcd}",
+				"வளர\u{bcd}ச\u{bcd}சி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ప\u{c46}రుగుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
+			keywords: &[
+				"అప\u{c4d} అండ\u{c4d} టూ ద\u{c3f} ర\u{c48}ట\u{c4d}",
+				"అప\u{c4d}వ\u{c3e}ర\u{c4d}డ\u{c4d}",
+				"గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
+				"గ\u{c4d}ర\u{c4b}త\u{c4d}",
+				"చ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"ట\u{c4d}ర\u{c46}ండ\u{c4d}",
+				"డ\u{c47}ట\u{c3e}",
+				"ప\u{c46}రుగుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}",
+				"ప\u{c46}రుగుదల",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("диаграммаи афзоишёбанда"),
+			keywords: &["афзоиш", "боло", "график", "диаграмма", "диаграммаи афзоишёбанда", "тамоюл"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("แนวโน\u{e49}มข\u{e36}\u{e49}น"),
+			keywords: &[
+				"กราฟ",
+				"ขาข\u{e36}\u{e49}น",
+				"ข\u{e49}อม\u{e39}ล",
+				"ห\u{e38}\u{e49}น",
+				"เต\u{e34}บโต",
+				"เพ\u{e34}\u{e48}ม",
+				"แนวโน\u{e49}ม",
+				"แผนภ\u{e39}ม\u{e34}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ቻርት እናወሰኸ ይኸይድ"),
+			keywords: &["ልክዕ እዩ", "ሰንጠረዥ", "ትረንድ", "ንላዕሊ", "እናወሰኸ ዝኸይድ ዘሎ", "ዕብየት", "ዳታ", "ግራፍ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("köpelýän grafik"),
+			keywords: &["grafika", "köpelýän grafik", "trend", "çyzgy", "ösüş", "ýokary"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("siate tupulaki"),
+			keywords: &["siate tupulaki"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("artış grafiği"),
+			keywords: &["artış grafiği", "grafik", "yukarı yönlü", "yükselen grafik"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("ئاشما گىرافىك"),
+			keywords: &["ئاشما گىرافىك", "ئېشىش", "جەدۋەل", "يۇقىرىغا", "يۈزلىنىش", "گىرافىك"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("висхідний графік"),
+			keywords: &[
+				"вгору",
+				"висхідна діаграма",
+				"висхідний графік",
+				"графік",
+				"графік підвищення",
+				"діаграма",
+				"ріст",
+				"тенденція",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("صعودی چارٹ"),
+			keywords: &["اسٹیشنری", "بڑھوتری", "صعودی چارٹ", "چارٹ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("o‘sish trendi diagrammasi"),
+			keywords: &["diagramma", "grafa", "o‘sish", "o‘sish trendi diagrammasi", "trend", "yuqoriga"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("biểu đồ tăng"),
+			keywords: &["biểu đồ", "biểu đồ tăng", "tăng lên", "tăng trưởng", "xu hướng", "đồ thị"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("grafik buy yéeg"),
+			keywords: &["grafik", "grafik buy yéeg", "kurb", "màgg", "xew", "yéeg"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("itshati iyanda"),
+			keywords: &["ezithandwayo", "igrafu", "itshathi", "itshati iyanda", "ukunyuka", "ulwando"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("àtẹ n pọsi"),
+			keywords: &[
+				"ilà ató\u{329}ka àwòrán",
+				"àtẹ",
+				"àtẹ n pọsi",
+				"ìdàgbàsókè",
+				"ìlọsókè",
+				"ìlọṣíwájú",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("àtɛ n pɔsi"),
+			keywords: &[
+				"ilà ató\u{329}ka àwòrán",
+				"àtɛ",
+				"àtɛ n pɔsi",
+				"ìdàgbàsókè",
+				"ìlɔshíwájú",
+				"ìlɔsókè",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("圖表上升"),
+			keywords: &["向上", "圖", "圖表", "圖表上升", "增長", "趨勢"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("图表上升"),
+			keywords: &["向上", "图", "图表", "图表上升", "增长", "趋势"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("趋势向上的图表"),
+			keywords: &[
+				"上升",
+				"上涨",
+				"上涨图表",
+				"上涨趋势线",
+				"向上",
+				"图表",
+				"成长",
+				"趋势向上的图表",
+				"趋势线",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("漲"),
+			keywords: &["上升", "上漲", "圖表", "漲"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("向上折線圖"),
+			keywords: &[
+				"向上",
+				"向上折線圖",
+				"圖形",
+				"圖表",
+				"增加",
+				"增長",
+				"數據",
+				"業績",
+				"正向",
+				"線條",
+				"表現",
+				"趨勢",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ishadi elikhuphukayo"),
+			keywords: &["igrafu", "ishadi", "ishadi elikhuphukayo", "okuya phezulu", "ukukhula"],
 		},
 	],
 };

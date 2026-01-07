@@ -5038,19 +5038,6 @@ pub const SPOON: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🍽\u{fe0f}"]
-pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
-	glyph:                "🍽\u{fe0f}",
-	codepoint:            &[127869u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "fork and knife with plate",
-	group:                crate::Group::FoodDrink,
-	subgroup:             crate::Subgroup::Dishware,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🔪"]
 pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
 	glyph:                "🔪",
@@ -5944,4 +5931,17 @@ pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
 			keywords: &["ihocho", "isikhali", "ithuluzi", "ukupheka", "ummese", "ummese wasekhishini"],
 		},
 	],
+};
+#[doc = "🍽\u{fe0f}"]
+pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
+	glyph:                "🍽\u{fe0f}",
+	codepoint:            &[127869u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "fork and knife with plate",
+	group:                crate::Group::FoodDrink,
+	subgroup:             crate::Subgroup::Dishware,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

@@ -1,1020 +1,3 @@
-#[doc = "🪾"]
-pub const LEAFLESS_TREE: crate::Emoji = crate::Emoji {
-	glyph:                "🪾",
-	codepoint:            &[129726u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
-	name:                 "leafless tree",
-	group:                crate::Group::AnimalsNature,
-	subgroup:             crate::Subgroup::PlantOther,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("blaarlose boom"),
-			keywords: &["blaarlose boom", "dor", "droogte", "onvrugbaar", "winter"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ቅጠል የሌለው ዛፍ"),
-			keywords: &["መካን", "ቅርንጫፎች", "ቅጠል የሌለው", "ባዶ", "እንጨት", "ክረምት", "ዛፍ", "የሞተ", "ድርቅ", "ግንድ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("شجرة بلا أوراق"),
-			keywords: &["الشتاء", "جرداء", "جفاف", "شجرة بلا أوراق"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9be}তবিহীন গছ"),
-			keywords: &[
-				"অন\u{9be}ব\u{9c3}ত",
-				"ক\u{9be}ঠ",
-				"খৰ\u{9be}ং",
-				"গছ",
-				"প\u{9be}তবিহীন",
-				"বন\u{9cd}ধ\u{9cd}য\u{9be}",
-				"ম\u{9c2}ঢ\u{9bc}\u{9be}",
-				"ম\u{9c3}ত",
-				"শ\u{9be}খ\u{9be}-প\u{9cd}ৰশ\u{9be}খ\u{9be}",
-				"শীত",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("yarpaqsız ağac"),
-			keywords: &[
-				"ağac",
-				"barsız",
-				"budaqlar",
-				"gövdə",
-				"oduncaq",
-				"quraqlıq",
-				"qış",
-				"yarpaqsız",
-				"çılpaq",
-				"ğlü",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("бязлістае дрэва"),
-			keywords: &[
-				"бязлісты",
-				"бясплодны",
-				"веткі",
-				"голы",
-				"дрэва",
-				"засуха",
-				"зіма",
-				"лес",
-				"мёртвы",
-				"ствол",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("дърво без листа"),
-			keywords: &["дърво без листа", "зима", "сухо дърво", "суша"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("প\u{9be}ত\u{9be}হীন গ\u{9be}ছ"),
-			keywords: &[
-				"খর\u{9be}",
-				"প\u{9be}ত\u{9be}হীন গ\u{9be}ছ",
-				"বন\u{9cd}ধ\u{9cd}য\u{9be}",
-				"শীতক\u{9be}ল",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("drvo bez lišća"),
-			keywords: &[
-				"bez lišća",
-				"drvo",
-				"golo",
-				"grane",
-				"mrtvo",
-				"neplodno",
-				"stablo",
-				"suša",
-				"zima",
-			],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("arbre sense fulles"),
-			keywords: &["caiguda de la fulla", "fulla caduca", "hivern", "sequera"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏲᎱᏒ ᎢᏡᎬᎢ"),
-			keywords: &["ᎣᏍᏛᎯ", "ᎤᏲᎱᏒ ᎢᏡᎬᎢ", "ᎪᎳ", "ᏂᏓᎦᏍᎬᎾ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("strom bez listí"),
-			keywords: &[
-				"bez listí",
-				"dřevo",
-				"holé",
-				"kmen",
-				"mrtvé",
-				"neplodný",
-				"strom",
-				"sucho",
-				"větve",
-				"zima",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("coeden heb ddail"),
-			keywords: &["anffrwythlon", "coeden heb ddail", "gaeaf", "sychder"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("træ uden blade"),
-			keywords: &["gold", "træ uden blade", "tørke", "vinter"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("kahler Baum"),
-			keywords: &["Winter", "dürr", "kahl", "kahler Baum", "karg", "trocken"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Baum ohne Blätter"),
-			keywords: &["Baum ohne Blätter", "Dürre", "Herbst", "Winter", "blätterlos", "kahl"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("γυμνό δέντρο"),
-			keywords: &["άκαρπο", "γυμνό δέντρο", "ξηρασία", "χειμώνας"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("leafless tree"),
-			keywords: &[
-				"bare", "barren", "branches", "dead", "drought", "leafless", "tree", "trunk", "winter",
-				"wood",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("árbol sin hojas"),
-			keywords: &[
-				"deshojado",
-				"estéril",
-				"invierno",
-				"madera",
-				"muerto",
-				"ramas",
-				"sequía",
-				"sin hojas",
-				"tronco",
-				"árbol",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("árbol sin hojas"),
-			keywords: &[
-				"invierno",
-				"madera",
-				"muerto",
-				"ramas secas",
-				"sequía",
-				"sin hojas",
-				"tronco",
-				"yermo",
-				"árbol",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("árbol sin hojas"),
-			keywords: &["invierno", "sequía", "árbol sin hojas", "árido"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("árbol sin hojas"),
-			keywords: &["invierno", "sequía", "árido"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("raagus puu"),
-			keywords: &["põud", "raagus puu", "talv", "viljatu"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("hosto gabeko zuhaitza"),
-			keywords: &[
-				"agorra",
-				"agorraldia",
-				"agortea",
-				"antzua",
-				"elkorra",
-				"hosto gabeko zuhaitza",
-				"idorra",
-				"idortea",
-				"lehorra",
-				"lehortea",
-				"negua",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("درخت بدون برگ"),
-			keywords: &["بی\u{200c}ثمر", "خشکسالی", "درخت بی\u{200c}برگ", "زمستان"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("lehdetön puu"),
-			keywords: &["kelo", "kuivuus", "lehdetön", "oksat", "paljas", "talvi"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("puno na walang dahon"),
-			keywords: &["puno na walang dahon", "taglamig", "tigang", "tuyot"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("blaðleyst træ"),
-			keywords: &["blaðleyst", "træ", "vetur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("arbre sans feuille"),
-			keywords: &["arbre sans feuille", "aride", "hiver", "sécheresse"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"arbre",
-				"aride",
-				"bois",
-				"branches",
-				"dénudé",
-				"dépouillé",
-				"hiver",
-				"mort",
-				"sans feuille",
-				"sécheresse",
-				"tronc",
-			],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("crann lom"),
-			keywords: &["geimhreadh", "seasc", "triomach"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("craobh lom"),
-			keywords: &[
-				"craobh",
-				"deasg",
-				"fiodh",
-				"geamhradh",
-				"geugan",
-				"lom",
-				"maide",
-				"marbh",
-				"meuran",
-				"seasg",
-				"stoc",
-				"tart",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("árbore sen follas"),
-			keywords: &["inverno", "madeira", "pólas", "seca", "sen follas", "tronco"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("પા\u{a82}દડા વગરન\u{ac1}\u{a82} વ\u{ac3}ક\u{acd}ષ"),
-			keywords: &[
-				"પા\u{a82}દડા વગરન\u{ac1}\u{a82} વ\u{ac3}ક\u{acd}ષ",
-				"વ\u{ac3}ક\u{acd}ષ",
-				"સ\u{ac1}કાય\u{ac7}લ\u{ac1}\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("bishiya maras ganye"),
-			keywords: &[
-				"bishiya",
-				"fari",
-				"faƙo",
-				"gangar jiki",
-				"hunturu",
-				"itace",
-				"maras ganye",
-				"matacce",
-				"resuna",
-				"tsirara",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("bishiya maras ganye"),
-			keywords: &[
-				"bishiya",
-				"fari",
-				"faƙo",
-				"gangar jiki",
-				"hunturu",
-				"itace",
-				"maras ganye",
-				"matacce",
-				"resuna",
-				"tsirara",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("עץ בלי עלים"),
-			keywords: &["בלי עלים", "בצורת", "חורף", "עץ"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("बिना पत\u{94d}तो\u{902} का प\u{947}ड\u{93c}"),
-			keywords: &[
-				"तना",
-				"नग\u{94d}न",
-				"पत\u{94d}ती रहित",
-				"प\u{947}ड\u{93c}",
-				"ब\u{902}जर",
-				"म\u{943}त",
-				"लकड\u{93c}ी",
-				"शाखाए\u{901}",
-				"सर\u{94d}दी",
-				"स\u{942}खा",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("stablo bez lišća"),
-			keywords: &["ogoljeno", "stablo bez lišća", "suša", "zima"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("levél nélküli fa"),
-			keywords: &[
-				"csupasz",
-				"fa",
-				"faanyag",
-				"halott",
-				"kiszáradt",
-				"levél nélküli",
-				"terméketlen",
-				"tél",
-				"törzs",
-				"ágak",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("անտերեւ ծառ"),
-			keywords: &["անպտուղ", "անտերեւ ծառ", "երաշտ", "ձմեռ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("pohon tanpa daun"),
-			keywords: &["gersang", "kekeringan", "musim dingin", "tandus"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("osisi na-enweghị akwụkwọ"),
-			keywords: &["amịghị mkpụrụ", "oge oyi", "oké ọkọchị"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("blaðlaust tré"),
-			keywords: &["blaðlaust tré", "nakið", "vetur", "ólaufgað", "þurrkur"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("albero spoglio"),
-			keywords: &["inverno", "senza foglie", "siccità"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("枯れ木"),
-			keywords: &["不毛｜干ばつ｜葉のない木｜冬"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("wit tanpa godhong"),
-			keywords: &["gabug", "garing", "mangsa adhem", "wit tanpa godhong"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("უფოთლო ხე"),
-			keywords: &[
-				"გვალვა",
-				"ვარჯი",
-				"ზამთარი",
-				"მკვდარი",
-				"ტოტები",
-				"უნაყოფო",
-				"უფოთლო",
-				"შეშა",
-				"შიშველი",
-				"ხე",
-			],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жапырақсыз ағаш"),
-			keywords: &["бедеу", "жалаңаш ағаш", "қыс", "құрғақшылық"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ដើមឈើគ\u{17d2}មានស\u{17d2}ល\u{17b9}ក"),
-			keywords: &[
-				"ខ\u{17d2}សោះ",
-				"គ\u{17d2}មានជ\u{17b8}វជាត\u{17b7}",
-				"គ\u{17d2}មានស\u{17d2}ល\u{17b9}ក",
-				"ងាប\u{17cb}",
-				"ឈើ",
-				"ដើម",
-				"ដើមឈើ",
-				"មែកធាង",
-				"រដ\u{17bc}វរងា",
-				"ហ\u{17bd}តហែង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಎಲ\u{cc6}ಯ\u{cbf}ರದ ಮರ"),
-			keywords: &[
-				"ಎಲ\u{cc6}ಯ\u{cbf}ಲ\u{ccd}ಲದ",
-				"ಕಾಂಡ",
-				"ಕ\u{cca}ಂಬ\u{cc6}ಗಳು",
-				"ಚಳ\u{cbf}ಗಾಲ",
-				"ಬಂಜರು",
-				"ಬರ",
-				"ಬರ\u{cbf}ಯ",
-				"ಮರ",
-				"ಸತ\u{ccd}ತ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("잎이 없는 나무"),
-			keywords: &[
-				"겨울",
-				"나무",
-				"나무 몸통",
-				"나뭇가지",
-				"메마른",
-				"목재",
-				"열매가 안 열리는",
-				"잎이 없는",
-				"죽은",
-				"헐벗은",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("पानाविण\u{947}\u{902} झाड"),
-			keywords: &[
-				"उक\u{94d}त\u{947}",
-				"खोड",
-				"झाडाच\u{947}\u{902} झाड",
-				"द\u{941}कळ पडप",
-				"पान नाशिल\u{94d}ल\u{947}\u{902}",
-				"फा\u{902}ट\u{947}",
-				"मरड",
-				"म\u{947}ल\u{94d}ल\u{947}\u{902}",
-				"ला\u{902}कडी",
-				"शि\u{902}याळ\u{94d}या\u{902}त",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жалбырагы жок дарак"),
-			keywords: &["бак", "бош", "далдар", "дарак", "жалбырагы жок", "жыгач", "кыш", "өлүк"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຕ\u{ebb}\u{ec9}ນໄມ\u{ec9}"),
-			keywords: &[
-				"ຍາມໜາວ",
-				"ບ\u{ecd}\u{ec8}ມ\u{eb5}ໃບໄມ\u{ec9}",
-				"ລະດ\u{eb9}ໜາວ",
-				"ແຫ\u{ec9}ງແລ\u{ec9}ງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("medis be lapų"),
-			keywords: &["be vaisių", "medis be lapų", "sausra", "žiema"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("koks bez lapām"),
-			keywords: &["bezlapu koks", "neauglīgs", "sausums", "ziema"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("безлисно дрво"),
-			keywords: &["безлисно дрво", "зима", "неплодно", "суша"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഇലയില\u{d4d}ല\u{d3e}ത\u{d4d}ത മരം"),
-			keywords: &["ഇലപൊഴിയ\u{d41}ം മരങ\u{d4d}ങൾ", "വിന\u{d4d}റർ", "ശിശിരം", "ശൈത\u{d4d}യം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("навчгүй мод"),
-			keywords: &["ган", "мод", "мөчир", "навчгүй", "нүцгэн", "үхсэн", "өвөл"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("निष\u{94d}पर\u{94d}ण झाड"),
-			keywords: &["द\u{941}ष\u{94d}काळ", "नापीक", "निष\u{94d}पर\u{94d}ण झाड", "पानगळ", "हिवाळा"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pokok tidak berdaun"),
-			keywords: &[
-				"batang",
-				"dahan",
-				"kayu",
-				"kemarau",
-				"mati",
-				"musim sejuk",
-				"pokok",
-				"tanpa daun",
-				"tidak berdaun",
-				"tumbuhan",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ရ\u{103d}က\u{103a}မ\u{1032}\u{1037}သစ\u{103a}ပင\u{103a}"),
-			keywords: &[
-				"ဆောင\u{103a}းရာသ\u{102e}",
-				"ပြောင\u{103a}ရ\u{103e}င\u{103a}းနေသော",
-				"မ\u{102d}\u{102f}းခေါင\u{103a}ခြင\u{103a}း",
-				"ရ\u{103d}က\u{103a}မ\u{1032}\u{1037}သစ\u{103a}ပင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("पात पभएको र\u{941}ख"),
-			keywords: &[
-				"काठ",
-				"काण\u{94d}ड",
-				"खड\u{947}री",
-				"जाडो याम",
-				"नाङ\u{94d}गो",
-				"पात नभएको",
-				"बन\u{94d}जर",
-				"म\u{943}त",
-				"र\u{941}ख",
-				"हा\u{901}गाहर\u{942}",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("boom zonder bladeren"),
-			keywords: &["boom zonder bladeren", "droogte", "kaal", "winter"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("bladlaust tre"),
-			keywords: &["daudt", "dødt", "stamme", "tre", "tørke", "tørt", "ufruktbart", "vinter"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ପତ\u{b4d}ରବ\u{b3f}ହୀନ ଗଛ"),
-			keywords: &[
-				"ନ\u{b3f}ଷ\u{b4d}ଫଳ\u{b3e}",
-				"ପତ\u{b4d}ରବ\u{b3f}ହୀନ ଗଛ",
-				"ମର\u{b41}ଡ\u{b3c}\u{b3f}",
-				"ଶୀତଋତ\u{b41}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪ\u{a71}ਤ\u{a47} ਰਹਿਤ ਰ\u{a41}\u{a71}ਖ"),
-			keywords: &["ਪਤਝੜ", "ਪ\u{a71}ਤ\u{a47} ਰਹਿਤ ਰ\u{a41}\u{a71}ਖ", "ਬ\u{a70}ਜਰ", "ਸ\u{a4b}ਕਾ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("trii wey no get lif"),
-			keywords: &[
-				"bare",
-				"barren",
-				"branchis",
-				"dai",
-				"drot",
-				"trii",
-				"tronk",
-				"wey no get lif",
-				"winta",
-				"wud",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("drzewo bez liści"),
-			keywords: &["bez liści", "drzewo", "susza", "zima"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("بې پاڼې ونه"),
-			keywords: &["بنجر", "بې پاڼې", "لرګي", "مړ", "ننگی", "ونه", "وچکالي", "ټرک", "څانګې", "ژمی"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("árvore seca"),
-			keywords: &["inverno", "seca", "árvore seca", "árvore sem folhas"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["inverno", "madeira", "morta", "ramos", "seca", "sem folhas", "tronco", "árvore"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("sacha manam rapiwan"),
-			keywords: &["chaki", "inti raymi", "kala", "kurku", "manam rapiwan", "qisa", "wañuy"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("copac desfrunzit"),
-			keywords: &["arid", "copac fără frunze", "iarnă", "nefertil", "neroditor", "secetă", "sterp"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E16-003"), keywords: &["E16-003"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("дерево без листвы"),
-			keywords: &["дерево без листвы", "дерево без листьев", "засуха", "зима"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ٺوڙهو وڻ"),
-			keywords: &[
-				"بنا پنن وارو",
-				"بنجر",
-				"سيارو",
-				"شاخون",
-				"مئل",
-				"ننگو",
-				"وڻ",
-				"ٿڙ",
-				"ڏڪار",
-				"ڪاٺ",
-			],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("කොළ නැත\u{dd2} ගස"),
-			keywords: &[
-				"අත\u{dd4}",
-				"කඳ",
-				"කොළ නැත\u{dd2}",
-				"ගස",
-				"න\u{dd2}යඟය",
-				"ම\u{dd2}ය ග\u{dd2}ය",
-				"ල\u{dd3}",
-				"ශ\u{dd3}ත",
-				"හ\u{dd2}ස\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("strom bez listov"),
-			keywords: &["neúroda", "strom bez listov", "sucho", "zima"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("drevo brez listja"),
-			keywords: &["drevo brez listja", "nerodovitnost", "suša", "zima"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("geed caleen la’aan ah"),
-			keywords: &[
-				"abaar",
-				"caleen la’aan",
-				"dhintay",
-				"geed",
-				"jiilaalka",
-				"jirridda",
-				"laamo",
-				"madhasho",
-				"qaawan",
-				"qoryo",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("pemë e zhveshur"),
-			keywords: &["dimër", "e zhveshur", "pa gjethe", "pemë", "shterp", "thatësi", "trung"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("дрво без лишћа"),
-			keywords: &["дрво без лишћа", "зима", "неплодно", "суша"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("drvo bez lišća"),
-			keywords: &["drvo bez lišća", "neplodno", "suša", "zima"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("träd utan löv"),
-			keywords: &["kargt", "torka", "träd utan löv", "vinter"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mti bila majani"),
-			keywords: &["baridi", "kavu", "kiangazi", "mti bila majani"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("இலை உதிர\u{bcd}ந\u{bcd}த மரம\u{bcd}"),
-			keywords: &[
-				"இலை உதிர\u{bcd}ந\u{bcd}த மரம\u{bcd}",
-				"க\u{bbe}ய\u{bcd}ந\u{bcd}த மரம\u{bcd}",
-				"தரிசு மரம\u{bcd}",
-				"பனி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఎండ\u{c3f}ప\u{c4b}య\u{c3f}న చ\u{c46}ట\u{c4d}టు"),
-			keywords: &[
-				"ఎండ\u{c3f}ప\u{c4b}య\u{c3f}న చ\u{c46}ట\u{c4d}టు",
-				"కరువు",
-				"క\u{c4d}ష\u{c3e}మము",
-				"చల\u{c3f}క\u{c3e}లం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ต\u{e49}นไม\u{e49}ไร\u{e49}ใบ"),
-			keywords: &[
-				"ต\u{e49}นไม\u{e49}ไร\u{e49}ใบ",
-				"หน\u{e49}าแล\u{e49}ง",
-				"แล\u{e49}ง",
-				"แห\u{e49}งแล\u{e49}ง",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ቆጽሊ ዘይብሉ ገረብ"),
-			keywords: &[
-				"መኻን",
-				"ሞይቱ",
-				"ቆጽሊ ዘይብሉ",
-				"ክረምቲ",
-				"ዕርቃኑ ዝወጸ",
-				"ዕንጨይቲ",
-				"ድርቂ",
-				"ገረብ",
-				"ጉንዲ",
-				"ጨናፍር",
-			],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýapraksyz agaç"),
-			keywords: &["guraklyk", "guran", "gury", "gyş", "hasylsyz", "ýapraksyz agaç"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("ʻakau taʻelau"),
-			keywords: &["laʻalaʻā", "taʻelau", "telie", "ʻakau"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yapraksız ağaç"),
-			keywords: &["kurak", "kış", "yapraksız ağaç", "çorak"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сухе дерево"),
-			keywords: &[
-				"безлистий",
-				"безплідний",
-				"голий",
-				"гілки",
-				"дерево",
-				"зима",
-				"мертвий",
-				"посуха",
-				"стовбур",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بے برگ درخت"),
-			keywords: &["بنجر", "بے برگ درخت", "خشک سالی", "موسم سرما"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("bargsiz daraxt"),
-			keywords: &[
-				"bargsiz",
-				"daraxt",
-				"mevasiz",
-				"o‘lik",
-				"qish",
-				"qurg‘oqchilik",
-				"shoxlar",
-				"tana",
-				"yalang‘och",
-				"yog‘och",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cây trụi lá"),
-			keywords: &[
-				"cây",
-				"cây chết",
-				"cằn cỗi",
-				"gỗ",
-				"hạn hán",
-				"mùa đông",
-				"nhánh cây",
-				"thân cây",
-				"trần",
-				"trụi lá",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("igi tí kò léwẹ\u{301}"),
-			keywords: &["igi tí kò léwé", "yàgàn", "ìgbà òtútù", "ọ\u{300}gbẹlẹ\u{300}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("igi tí kò léwɛ\u{301}"),
-			keywords: &["igi tí kò léwé", "yàgàn", "ìgbà òtútù", "ɔ\u{300}gbɛlɛ\u{300}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("禿樹"),
-			keywords: &["乾旱", "冇樹葉", "冬天", "樹", "樹幹", "樹枝", "禿樹", "貧瘠"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("秃树"),
-			keywords: &["冇树叶", "冬天", "干旱", "树", "树干", "树枝", "秃树", "贫瘠"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("无叶树"),
-			keywords: &["冬天", "冬季", "干旱", "无叶", "木", "树", "树干", "树枝", "死", "秃", "荒芜"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("沒有葉子的樹"),
-			keywords: &["乾旱", "光禿禿的樹", "冬天", "貧瘠"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("leafless tree"),
-			keywords: &[
-				"bare", "barren", "branches", "dead", "drought", "leafless", "tree", "trunk", "winter",
-				"wood",
-			],
-		},
-	],
-};
 #[doc = "🍂"]
 pub const FALLEN_LEAF: crate::Emoji = crate::Emoji {
 	glyph:                "🍂",
@@ -9483,802 +8466,6 @@ pub const CACTUS: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🌱"]
-pub const SEEDLING: crate::Emoji = crate::Emoji {
-	glyph:                "🌱",
-	codepoint:            &[127793u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "seedling",
-	group:                crate::Group::AnimalsNature,
-	subgroup:             crate::Subgroup::PlantOther,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("saailing"),
-			keywords: &["boompie", "jonk", "loot", "plant", "plantjie", "saailing"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ችግኝ"),
-			keywords: &["ለጋ", "ተክል", "ችግኝ", "ችግኝ ማፍላት", "አፍላ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("شتلة"),
-			keywords: &["بستان", "تنبت", "حديقة", "زريعة", "شتلة", "صغير", "طبيعة", "نبتة", "يافع"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("অংক\u{9c1}ৰ"),
-			keywords: &["অংক\u{9c1}ৰ", "প\u{9c1}লি"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("şitil"),
-			keywords: &["bitki", "cavan", "toxum", "şitil"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("расада"),
-			keywords: &["малады", "расада", "расліна", "саджанец", "флянс"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("кълн"),
-			keywords: &["кълн", "младо", "растение"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("চ\u{9be}র\u{9be} গ\u{9be}ছ"),
-			keywords: &["গ\u{9be}ছ", "চ\u{9be}র\u{9be} গ\u{9be}ছ", "নবীন", "লত\u{9be}"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("strujenn yaouank"),
-			keywords: &["strujenn", "yaouank"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("rasad"),
-			keywords: &["biljka", "rasad", "sjeme"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("brot"),
-			keywords: &["brot", "jove", "nou", "planta", "plançó"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄉𑄎\u{11127} 𑄍𑄢"),
-			keywords: &["𑄉𑄎\u{11127} 𑄍𑄢"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᎤᎦᏔᏛᏅ"), keywords: &["ᎠᏓ", "ᎤᎦᏔᏛᏅ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("výhonek"),
-			keywords: &[
-				"klíček",
-				"klíčit",
-				"klíčící",
-				"mladý",
-				"pučet",
-				"ratolest",
-				"rašit",
-				"rostlina",
-				"sazenice",
-				"semenáček",
-				"výhonek",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("eginblanhigyn"),
-			keywords: &["blodyn", "eginblanhigyn", "ifanc"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("spire"),
-			keywords: &["plantespire", "spire"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Spross"),
-			keywords: &["Spross", "junge Pflanze"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("φιντάνι"),
-			keywords: &["νέο", "φιντάνι", "φυτό"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("seedling"),
-			keywords: &["plant", "sapling", "seedling", "sprout", "young"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("planta joven"),
-			keywords: &["planta joven", "plantón"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("plántula"),
-			keywords: &[
-				"germinar",
-				"hojas",
-				"planta",
-				"planta joven",
-				"plantita",
-				"plantón",
-				"plántula",
-				"semilla",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("planta de semillero"),
-			keywords: &["planta de semillero", "plantita"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("võrse"),
-			keywords: &["idu", "loom", "noor", "taim", "võrse"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("kimua"),
-			keywords: &["gazte", "kimua", "landare"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("جوانه"),
-			keywords: &["جوان", "جوانه", "گیاه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("taimi"),
-			keywords: &["kasvi", "taimi", "verso"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("binhi"),
-			keywords: &["binhi", "halaman", "punla", "seedling", "tibtib"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("fræplanta"),
-			keywords: &["fræ", "fræplanta", "planta"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("jeune pousse"),
-			keywords: &[
-				"germe",
-				"jeune plant",
-				"jeune pousse",
-				"plante",
-				"plantule",
-				"pousser",
-				"printemps",
-				"semis",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("síolphlanda"),
-			keywords: &["planda", "síolphlanda", "óg"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation { lang: "gd", tts: Some("sìolag"), keywords: &["sìolag", "òg"] },
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("plántula"),
-			keywords: &["planta", "plántula", "xerminar"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("નાનો છોડ"),
-			keywords: &[
-				"અ\u{a82}ક\u{ac1}ર",
-				"ક\u{ac1}દરત",
-				"કો\u{a82}ટો",
-				"છોડ",
-				"નવો કો\u{a82}ટો",
-				"નાનો",
-				"પાન",
-				"ફણગો",
-				"બીજ",
-				"રોપો",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("dashe"),
-			keywords: &["dashe", "ganye", "shuka", "tsiro", "ƙarami"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("dashe"),
-			keywords: &["dashe", "ganye", "shuka", "tsiro", "ƙarami"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang: "he", tts: Some("נבט"), keywords: &["נבט", "צמח", "שתיל"]
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("अ\u{902}क\u{941}र"),
-			keywords: &["अ\u{902}क\u{941}र", "य\u{941}वा", "य\u{941}वा पौधा"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("sadnica"),
-			keywords: &["biljka", "mlada biljka", "mlado", "sadnica"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("palánta"),
-			keywords: &["hajtás", "kihajt", "növény", "palánta"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ծիլ"),
-			keywords: &["բույս", "ծիլ", "մատղաշ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("semai"),
-			keywords: &["daun", "muda", "semai", "tanaman", "tumbuhan", "tunas"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("mkpụrụ"),
-			keywords: &["mkpụrụ", "nwa", "obere osisi", "osisi", "puo"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("græðlingur"),
-			keywords: &["græðlingur", "planta"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("germoglio"),
-			keywords: &["germoglio", "natura", "pianta", "piantina", "primavera"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation { lang: "ja", tts: Some("新芽"), keywords: &["双葉", "新芽", "芽"] },
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("pembibitan"),
-			keywords: &["bakal", "bibit", "cilik", "pembibitan", "tanduran"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ნათესარი"),
-			keywords: &["ახალგაზრდა", "მცენარე", "ნათესარი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("imɣi aleqqaq"),
-			keywords: &["imɣi aleqqaq"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("көшет"),
-			keywords: &["жаңа", "көшет", "экология", "өсімдік"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("spire"),
-			keywords: &["plantespire", "spire"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ក\u{17bc}នឈើ"),
-			keywords: &["ក\u{17bc}នឈើ", "ក\u{17bc}នរ\u{17bb}ក\u{17d2}ខជាត\u{17b7}"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{cca}ಳಕ\u{cc6} ಒಡ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಸಸ\u{ccd}ಯ"),
-			keywords: &[
-				"ಎಳ\u{cc6}ಯ",
-				"ಚ\u{cbf}ಕ\u{ccd}ಕ ಸಸ\u{ccd}ಯ",
-				"ಮ\u{cca}ಳಕ\u{cc6}",
-				"ಮ\u{cca}ಳಕ\u{cc6} ಒಡ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಸಸ\u{ccd}ಯ",
-				"ಸಸ\u{cbf}",
-				"ಸಸ\u{ccd}ಯ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("새싹"),
-			keywords: &["새싹", "식물", "싹이 돋다", "어린 나무", "어린잎"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang: "kok", tts: Some("बियो"), keywords: &["बियो", "सान"]
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("көчөт"),
-			keywords: &["жаш", "көчөт", "өсүмдүк"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Keimling"),
-			keywords: &["Keimling", "jonk"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເບ\u{ec9}ຍໄມ\u{ec9}"),
-			keywords: &["ພ\u{eb7}ດ", "ເບ\u{ec9}ຍໄມ\u{ec9}"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("daigas"),
-			keywords: &["augalas", "daigas", "jaunas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("asns"),
-			keywords: &["asns", "augs", "dēsts", "jauns", "stāds"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation { lang: "mi", tts: Some("tipu"), keywords: &["hōu", "tipu"] },
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("садница"),
-			keywords: &[
-				"младо",
-				"никне",
-				"никулец",
-				"расад",
-				"растение",
-				"садница",
-				"стебленце",
-				"фиданка",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("തൈ"),
-			keywords: &["ചെടി", "തളിര\u{d4d}", "തൈ", "മരം വളർത\u{d4d}തൽ"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("үрсэлгээ"),
-			keywords: &["ургамал", "үрсэлгээ"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("न\u{941}कत\u{947}च तयार झाल\u{947}ल\u{947} रोप"),
-			keywords: &[
-				"अ\u{902}क\u{941}र",
-				"अ\u{902}क\u{941}रण\u{947}",
-				"को\u{902}ब",
-				"तर\u{941}ण",
-				"तर\u{941}ण रोपट\u{947}",
-				"निसर\u{94d}ग",
-				"न\u{941}कत\u{947}च तयार झाल\u{947}ल\u{947} रोप",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("anak benih"),
-			keywords: &["anak benih", "muda", "tumbuh", "tumbuhan", "tunas"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("żerriegħa"),
-			keywords: &["żerriegħa", "żgħażagħ"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပျ\u{102d}\u{102f}းပင\u{103a}"),
-			keywords: &["ပျ\u{102d}\u{102f}းပင\u{103a}", "အပင\u{103a}ငယ\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("अ\u{902}क\u{941}र"),
-			keywords: &["अ\u{902}क\u{941}र", "बिर\u{942}वा", "भर\u{94d}खरको"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("zaailing"),
-			keywords: &["jong", "plant", "spruit", "stekje", "zaailing"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଚ\u{b3e}ର\u{b3e}"),
-			keywords: &["ଚ\u{b3e}ର\u{b3e}", "ଛୋଟ ଗଛ"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਪ\u{a41}\u{a70}ਗਰਿਆ ਬੀਜ"),
-			keywords: &["ਜਵਾਨ", "ਪਨੀਰੀ", "ਪ\u{a41}\u{a70}ਗਰਿਆ ਬੀਜ", "ਪ\u{a4c}ਦਾ", "ਬ\u{a42}ਟਾ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("پنیری"),
-			keywords: &["جوان", "پنیری"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Yọ\u{301}ng Plant"),
-			keywords: &["Yọng", "Yọ\u{301}ng Plant"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("sadzonka"),
-			keywords: &["kiełek", "młoda", "pęd", "roślina", "roślinka", "sadzonka"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang: "ps", tts: Some("تخم"), keywords: &["تخم", "تخم، ځوان"]
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("muda de planta"),
-			keywords: &[
-				"brotar",
-				"broto",
-				"jovem",
-				"muda",
-				"muda de planta",
-				"planta jovem",
-				"plantinha",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("rebento"),
-			keywords: &["nova", "planta", "rebento", "viveiro", "árvore jovem"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("wayna mallki"),
-			keywords: &["wayna", "wayna mallki"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("răsad"),
-			keywords: &["lăstar", "mugur", "muguri", "plantă", "răsad", "înmuguri"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-246"), keywords: &["E10-246"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("росток"),
-			keywords: &["молодое растение", "молодой", "новое растение", "новый", "растение", "росток"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("urugemwe"),
-			keywords: &["gito", "urugemwe"],
-		},
-		#[cfg(feature = "sat")]
-		crate::Annotation { lang: "sat", tts: Some("ᱜᱚᱡᱟ"), keywords: &["ᱜᱚᱡᱟ"] },
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ٻج وارو گل"),
-			keywords: &["جوان", "ٻج وارو گل"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("බ\u{dd3}ජ පැළය"),
-			keywords: &["නොමේර\u{dd4}", "පැළය", "බ\u{dd3}ජ පැළය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("sadenica"),
-			keywords: &["klíčiť", "listy", "mladá", "príroda", "rastlina", "sadenica", "výhonok"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("sadika"),
-			keywords: &["mlado", "poganjek", "rastlina", "sadika"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("geed naqan"),
-			keywords: &["geed naqan", "soo baxaya"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("filiz"),
-			keywords: &["bimë", "e re", "filiz"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("младица"),
-			keywords: &["биљкa", "млaдo", "младица"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mladica"),
-			keywords: &["biljka", "mladica", "mlado"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("skott"),
-			keywords: &["grodd", "skott", "växtskott"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mche"),
-			keywords: &["mche", "mmea", "mmea mchanga"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("முளைக\u{bcd}கும\u{bcd} செடி"),
-			keywords: &[
-				"புதிய தொடக\u{bcd}கம\u{bcd}",
-				"முளை",
-				"முளைக\u{bcd}கும\u{bcd} செடி",
-				"வளர\u{bcd}ச\u{bcd}சி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("న\u{c3e}రుమ\u{c4a}క\u{c4d}క"),
-			keywords: &[
-				"అంకురం",
-				"గ\u{c3f}ంజలు",
-				"చ\u{c46}ట\u{c4d}టు",
-				"న\u{c3e}రు మ\u{c4a}క\u{c4d}క",
-				"ప\u{c4d}ల\u{c3e}ంట\u{c4d}",
-				"మ\u{c4a}లక",
-				"యంగ\u{c4d}",
-				"ల\u{c47}త",
-				"స\u{c40}డ\u{c4d}ల\u{c3f}ంగ\u{c4d}",
-				"స\u{c4d}ప\u{c4d}ర\u{c4c}ట\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("навниҳол"),
-			keywords: &["навниҳол", "ҷавон"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ต\u{e49}นอ\u{e48}อน"),
-			keywords: &["ต\u{e49}นอ\u{e48}อน", "พ\u{e37}ช"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ፈልሲ"),
-			keywords: &["ብቋል", "ተኽሊ", "ንእሽቶ", "ፈልሲ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation { lang: "tk", tts: Some("şine"), keywords: &["ýaş", "şine"] },
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("pulopula"), keywords: &["pulopula"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("filizlenme"),
-			keywords: &["fide", "filiz", "filizlenme", "genç", "genç bitki", "yeşil"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation { lang: "ug", tts: Some("مايسا"), keywords: &["مايسا", "ياش"] },
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("сіянець"),
-			keywords: &["листя", "паросток", "рослина", "саджанець", "сіянець"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ننھا پودا"),
-			keywords: &[
-				"ابتدا",
-				"ابتدائی شجر",
-				"باقر",
-				"بنیاد",
-				"بیج کا پھوٹنا",
-				"شاخچہ",
-				"قدرت",
-				"نمو پانا",
-				"ننھا",
-				"پنپنا",
-				"پودا",
-				"ڈنٹھل",
-				"کونپل",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("ko‘chat"),
-			keywords: &["ko‘chat", "kurtak", "o‘simlik", "yosh"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("cây non"),
-			keywords: &["cây giống", "cây non", "non", "nảy mầm", "thực vật"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation { lang: "wo", tts: Some("semis"), keywords: &["ndaw", "semis"] },
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("imbewana"),
-			keywords: &["imbewana", "omtsha"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ihoro eso"),
-			keywords: &["Ihoro eso", "wẹ\u{301}wẹ\u{301}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ihoro eso"),
-			keywords: &["Ihoro eso", "wɛ\u{301}wɛ\u{301}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation { lang: "yue", tts: Some("幼苗"), keywords: &["幼小", "幼苗"] },
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation { lang: "yue_Hans", tts: Some("幼苗"), keywords: &["幼小", "幼苗"] },
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("幼苗"),
-			keywords: &["发芽", "幼苗", "芽", "苗"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("苗"),
-			keywords: &["幼苗", "發芽", "苗"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("幼苗"),
-			keywords: &["嫩草", "小草", "小葉", "幼苗", "植物", "樹苗", "發芽", "葉子", "青草"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("imbewu"),
-			keywords: &["imbewu", "isitshalo", "okuncane"],
-		},
-	],
-};
-#[doc = "☘\u{fe0f}"]
-pub const SHAMROCK: crate::Emoji = crate::Emoji {
-	glyph:                "☘\u{fe0f}",
-	codepoint:            &[9752u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "shamrock",
-	group:                crate::Group::AnimalsNature,
-	subgroup:             crate::Subgroup::PlantOther,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🍀"]
 pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
 	glyph:                "🍀",
@@ -11334,6 +9521,802 @@ pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
 			keywords: &["i-four leaf clover", "iqabunga", "isitshalo", "okune"],
 		},
 	],
+};
+#[doc = "🌱"]
+pub const SEEDLING: crate::Emoji = crate::Emoji {
+	glyph:                "🌱",
+	codepoint:            &[127793u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "seedling",
+	group:                crate::Group::AnimalsNature,
+	subgroup:             crate::Subgroup::PlantOther,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("saailing"),
+			keywords: &["boompie", "jonk", "loot", "plant", "plantjie", "saailing"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ችግኝ"),
+			keywords: &["ለጋ", "ተክል", "ችግኝ", "ችግኝ ማፍላት", "አፍላ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("شتلة"),
+			keywords: &["بستان", "تنبت", "حديقة", "زريعة", "شتلة", "صغير", "طبيعة", "نبتة", "يافع"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("অংক\u{9c1}ৰ"),
+			keywords: &["অংক\u{9c1}ৰ", "প\u{9c1}লি"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("şitil"),
+			keywords: &["bitki", "cavan", "toxum", "şitil"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("расада"),
+			keywords: &["малады", "расада", "расліна", "саджанец", "флянс"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("кълн"),
+			keywords: &["кълн", "младо", "растение"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("চ\u{9be}র\u{9be} গ\u{9be}ছ"),
+			keywords: &["গ\u{9be}ছ", "চ\u{9be}র\u{9be} গ\u{9be}ছ", "নবীন", "লত\u{9be}"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("strujenn yaouank"),
+			keywords: &["strujenn", "yaouank"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("rasad"),
+			keywords: &["biljka", "rasad", "sjeme"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("brot"),
+			keywords: &["brot", "jove", "nou", "planta", "plançó"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄉𑄎\u{11127} 𑄍𑄢"),
+			keywords: &["𑄉𑄎\u{11127} 𑄍𑄢"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang: "chr", tts: Some("ᎤᎦᏔᏛᏅ"), keywords: &["ᎠᏓ", "ᎤᎦᏔᏛᏅ"]
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("výhonek"),
+			keywords: &[
+				"klíček",
+				"klíčit",
+				"klíčící",
+				"mladý",
+				"pučet",
+				"ratolest",
+				"rašit",
+				"rostlina",
+				"sazenice",
+				"semenáček",
+				"výhonek",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("eginblanhigyn"),
+			keywords: &["blodyn", "eginblanhigyn", "ifanc"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("spire"),
+			keywords: &["plantespire", "spire"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Spross"),
+			keywords: &["Spross", "junge Pflanze"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("φιντάνι"),
+			keywords: &["νέο", "φιντάνι", "φυτό"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("seedling"),
+			keywords: &["plant", "sapling", "seedling", "sprout", "young"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("planta joven"),
+			keywords: &["planta joven", "plantón"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("plántula"),
+			keywords: &[
+				"germinar",
+				"hojas",
+				"planta",
+				"planta joven",
+				"plantita",
+				"plantón",
+				"plántula",
+				"semilla",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("planta de semillero"),
+			keywords: &["planta de semillero", "plantita"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("võrse"),
+			keywords: &["idu", "loom", "noor", "taim", "võrse"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("kimua"),
+			keywords: &["gazte", "kimua", "landare"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("جوانه"),
+			keywords: &["جوان", "جوانه", "گیاه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("taimi"),
+			keywords: &["kasvi", "taimi", "verso"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("binhi"),
+			keywords: &["binhi", "halaman", "punla", "seedling", "tibtib"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("fræplanta"),
+			keywords: &["fræ", "fræplanta", "planta"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("jeune pousse"),
+			keywords: &[
+				"germe",
+				"jeune plant",
+				"jeune pousse",
+				"plante",
+				"plantule",
+				"pousser",
+				"printemps",
+				"semis",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("síolphlanda"),
+			keywords: &["planda", "síolphlanda", "óg"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation { lang: "gd", tts: Some("sìolag"), keywords: &["sìolag", "òg"] },
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("plántula"),
+			keywords: &["planta", "plántula", "xerminar"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("નાનો છોડ"),
+			keywords: &[
+				"અ\u{a82}ક\u{ac1}ર",
+				"ક\u{ac1}દરત",
+				"કો\u{a82}ટો",
+				"છોડ",
+				"નવો કો\u{a82}ટો",
+				"નાનો",
+				"પાન",
+				"ફણગો",
+				"બીજ",
+				"રોપો",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("dashe"),
+			keywords: &["dashe", "ganye", "shuka", "tsiro", "ƙarami"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("dashe"),
+			keywords: &["dashe", "ganye", "shuka", "tsiro", "ƙarami"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang: "he", tts: Some("נבט"), keywords: &["נבט", "צמח", "שתיל"]
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("अ\u{902}क\u{941}र"),
+			keywords: &["अ\u{902}क\u{941}र", "य\u{941}वा", "य\u{941}वा पौधा"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("sadnica"),
+			keywords: &["biljka", "mlada biljka", "mlado", "sadnica"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("palánta"),
+			keywords: &["hajtás", "kihajt", "növény", "palánta"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ծիլ"),
+			keywords: &["բույս", "ծիլ", "մատղաշ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("semai"),
+			keywords: &["daun", "muda", "semai", "tanaman", "tumbuhan", "tunas"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("mkpụrụ"),
+			keywords: &["mkpụrụ", "nwa", "obere osisi", "osisi", "puo"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("græðlingur"),
+			keywords: &["græðlingur", "planta"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("germoglio"),
+			keywords: &["germoglio", "natura", "pianta", "piantina", "primavera"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation { lang: "ja", tts: Some("新芽"), keywords: &["双葉", "新芽", "芽"] },
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("pembibitan"),
+			keywords: &["bakal", "bibit", "cilik", "pembibitan", "tanduran"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ნათესარი"),
+			keywords: &["ახალგაზრდა", "მცენარე", "ნათესარი"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation {
+			lang:     "kab",
+			tts:      Some("imɣi aleqqaq"),
+			keywords: &["imɣi aleqqaq"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("көшет"),
+			keywords: &["жаңа", "көшет", "экология", "өсімдік"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("spire"),
+			keywords: &["plantespire", "spire"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ក\u{17bc}នឈើ"),
+			keywords: &["ក\u{17bc}នឈើ", "ក\u{17bc}នរ\u{17bb}ក\u{17d2}ខជាត\u{17b7}"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮ\u{cca}ಳಕ\u{cc6} ಒಡ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಸಸ\u{ccd}ಯ"),
+			keywords: &[
+				"ಎಳ\u{cc6}ಯ",
+				"ಚ\u{cbf}ಕ\u{ccd}ಕ ಸಸ\u{ccd}ಯ",
+				"ಮ\u{cca}ಳಕ\u{cc6}",
+				"ಮ\u{cca}ಳಕ\u{cc6} ಒಡ\u{cc6}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಸಸ\u{ccd}ಯ",
+				"ಸಸ\u{cbf}",
+				"ಸಸ\u{ccd}ಯ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("새싹"),
+			keywords: &["새싹", "식물", "싹이 돋다", "어린 나무", "어린잎"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang: "kok", tts: Some("बियो"), keywords: &["बियो", "सान"]
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("көчөт"),
+			keywords: &["жаш", "көчөт", "өсүмдүк"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Keimling"),
+			keywords: &["Keimling", "jonk"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເບ\u{ec9}ຍໄມ\u{ec9}"),
+			keywords: &["ພ\u{eb7}ດ", "ເບ\u{ec9}ຍໄມ\u{ec9}"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("daigas"),
+			keywords: &["augalas", "daigas", "jaunas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("asns"),
+			keywords: &["asns", "augs", "dēsts", "jauns", "stāds"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation { lang: "mi", tts: Some("tipu"), keywords: &["hōu", "tipu"] },
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("садница"),
+			keywords: &[
+				"младо",
+				"никне",
+				"никулец",
+				"расад",
+				"растение",
+				"садница",
+				"стебленце",
+				"фиданка",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("തൈ"),
+			keywords: &["ചെടി", "തളിര\u{d4d}", "തൈ", "മരം വളർത\u{d4d}തൽ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("үрсэлгээ"),
+			keywords: &["ургамал", "үрсэлгээ"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("न\u{941}कत\u{947}च तयार झाल\u{947}ल\u{947} रोप"),
+			keywords: &[
+				"अ\u{902}क\u{941}र",
+				"अ\u{902}क\u{941}रण\u{947}",
+				"को\u{902}ब",
+				"तर\u{941}ण",
+				"तर\u{941}ण रोपट\u{947}",
+				"निसर\u{94d}ग",
+				"न\u{941}कत\u{947}च तयार झाल\u{947}ल\u{947} रोप",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("anak benih"),
+			keywords: &["anak benih", "muda", "tumbuh", "tumbuhan", "tunas"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("żerriegħa"),
+			keywords: &["żerriegħa", "żgħażagħ"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပျ\u{102d}\u{102f}းပင\u{103a}"),
+			keywords: &["ပျ\u{102d}\u{102f}းပင\u{103a}", "အပင\u{103a}ငယ\u{103a}"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("अ\u{902}क\u{941}र"),
+			keywords: &["अ\u{902}क\u{941}र", "बिर\u{942}वा", "भर\u{94d}खरको"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("zaailing"),
+			keywords: &["jong", "plant", "spruit", "stekje", "zaailing"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଚ\u{b3e}ର\u{b3e}"),
+			keywords: &["ଚ\u{b3e}ର\u{b3e}", "ଛୋଟ ଗଛ"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪ\u{a41}\u{a70}ਗਰਿਆ ਬੀਜ"),
+			keywords: &["ਜਵਾਨ", "ਪਨੀਰੀ", "ਪ\u{a41}\u{a70}ਗਰਿਆ ਬੀਜ", "ਪ\u{a4c}ਦਾ", "ਬ\u{a42}ਟਾ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پنیری"),
+			keywords: &["جوان", "پنیری"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Yọ\u{301}ng Plant"),
+			keywords: &["Yọng", "Yọ\u{301}ng Plant"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("sadzonka"),
+			keywords: &["kiełek", "młoda", "pęd", "roślina", "roślinka", "sadzonka"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang: "ps", tts: Some("تخم"), keywords: &["تخم", "تخم، ځوان"]
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("muda de planta"),
+			keywords: &[
+				"brotar",
+				"broto",
+				"jovem",
+				"muda",
+				"muda de planta",
+				"planta jovem",
+				"plantinha",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("rebento"),
+			keywords: &["nova", "planta", "rebento", "viveiro", "árvore jovem"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("wayna mallki"),
+			keywords: &["wayna", "wayna mallki"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("răsad"),
+			keywords: &["lăstar", "mugur", "muguri", "plantă", "răsad", "înmuguri"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-246"), keywords: &["E10-246"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("росток"),
+			keywords: &["молодое растение", "молодой", "новое растение", "новый", "растение", "росток"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("urugemwe"),
+			keywords: &["gito", "urugemwe"],
+		},
+		#[cfg(feature = "sat")]
+		crate::Annotation { lang: "sat", tts: Some("ᱜᱚᱡᱟ"), keywords: &["ᱜᱚᱡᱟ"] },
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ٻج وارو گل"),
+			keywords: &["جوان", "ٻج وارو گل"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("බ\u{dd3}ජ පැළය"),
+			keywords: &["නොමේර\u{dd4}", "පැළය", "බ\u{dd3}ජ පැළය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("sadenica"),
+			keywords: &["klíčiť", "listy", "mladá", "príroda", "rastlina", "sadenica", "výhonok"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("sadika"),
+			keywords: &["mlado", "poganjek", "rastlina", "sadika"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("geed naqan"),
+			keywords: &["geed naqan", "soo baxaya"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("filiz"),
+			keywords: &["bimë", "e re", "filiz"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("младица"),
+			keywords: &["биљкa", "млaдo", "младица"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mladica"),
+			keywords: &["biljka", "mladica", "mlado"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("skott"),
+			keywords: &["grodd", "skott", "växtskott"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mche"),
+			keywords: &["mche", "mmea", "mmea mchanga"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("முளைக\u{bcd}கும\u{bcd} செடி"),
+			keywords: &[
+				"புதிய தொடக\u{bcd}கம\u{bcd}",
+				"முளை",
+				"முளைக\u{bcd}கும\u{bcd} செடி",
+				"வளர\u{bcd}ச\u{bcd}சி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("న\u{c3e}రుమ\u{c4a}క\u{c4d}క"),
+			keywords: &[
+				"అంకురం",
+				"గ\u{c3f}ంజలు",
+				"చ\u{c46}ట\u{c4d}టు",
+				"న\u{c3e}రు మ\u{c4a}క\u{c4d}క",
+				"ప\u{c4d}ల\u{c3e}ంట\u{c4d}",
+				"మ\u{c4a}లక",
+				"యంగ\u{c4d}",
+				"ల\u{c47}త",
+				"స\u{c40}డ\u{c4d}ల\u{c3f}ంగ\u{c4d}",
+				"స\u{c4d}ప\u{c4d}ర\u{c4c}ట\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("навниҳол"),
+			keywords: &["навниҳол", "ҷавон"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ต\u{e49}นอ\u{e48}อน"),
+			keywords: &["ต\u{e49}นอ\u{e48}อน", "พ\u{e37}ช"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ፈልሲ"),
+			keywords: &["ብቋል", "ተኽሊ", "ንእሽቶ", "ፈልሲ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation { lang: "tk", tts: Some("şine"), keywords: &["ýaş", "şine"] },
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("pulopula"), keywords: &["pulopula"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("filizlenme"),
+			keywords: &["fide", "filiz", "filizlenme", "genç", "genç bitki", "yeşil"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation { lang: "ug", tts: Some("مايسا"), keywords: &["مايسا", "ياش"] },
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сіянець"),
+			keywords: &["листя", "паросток", "рослина", "саджанець", "сіянець"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("ننھا پودا"),
+			keywords: &[
+				"ابتدا",
+				"ابتدائی شجر",
+				"باقر",
+				"بنیاد",
+				"بیج کا پھوٹنا",
+				"شاخچہ",
+				"قدرت",
+				"نمو پانا",
+				"ننھا",
+				"پنپنا",
+				"پودا",
+				"ڈنٹھل",
+				"کونپل",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("ko‘chat"),
+			keywords: &["ko‘chat", "kurtak", "o‘simlik", "yosh"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cây non"),
+			keywords: &["cây giống", "cây non", "non", "nảy mầm", "thực vật"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation { lang: "wo", tts: Some("semis"), keywords: &["ndaw", "semis"] },
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("imbewana"),
+			keywords: &["imbewana", "omtsha"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ihoro eso"),
+			keywords: &["Ihoro eso", "wẹ\u{301}wẹ\u{301}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ihoro eso"),
+			keywords: &["Ihoro eso", "wɛ\u{301}wɛ\u{301}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation { lang: "yue", tts: Some("幼苗"), keywords: &["幼小", "幼苗"] },
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation { lang: "yue_Hans", tts: Some("幼苗"), keywords: &["幼小", "幼苗"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("幼苗"),
+			keywords: &["发芽", "幼苗", "芽", "苗"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("苗"),
+			keywords: &["幼苗", "發芽", "苗"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("幼苗"),
+			keywords: &["嫩草", "小草", "小葉", "幼苗", "植物", "樹苗", "發芽", "葉子", "青草"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("imbewu"),
+			keywords: &["imbewu", "isitshalo", "okuncane"],
+		},
+	],
+};
+#[doc = "☘\u{fe0f}"]
+pub const SHAMROCK: crate::Emoji = crate::Emoji {
+	glyph:                "☘\u{fe0f}",
+	codepoint:            &[9752u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "shamrock",
+	group:                crate::Group::AnimalsNature,
+	subgroup:             crate::Subgroup::PlantOther,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };
 #[doc = "🍃"]
 pub const LEAF_FLUTTERING_IN_WIND: crate::Emoji = crate::Emoji {
@@ -13842,6 +12825,1023 @@ pub const MAPLE_LEAF: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("i-maple leaf"),
 			keywords: &["i-maple leaf", "iqabunga", "isitshalo", "ukuwa"],
+		},
+	],
+};
+#[doc = "🪾"]
+pub const LEAFLESS_TREE: crate::Emoji = crate::Emoji {
+	glyph:                "🪾",
+	codepoint:            &[129726u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
+	name:                 "leafless tree",
+	group:                crate::Group::AnimalsNature,
+	subgroup:             crate::Subgroup::PlantOther,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("blaarlose boom"),
+			keywords: &["blaarlose boom", "dor", "droogte", "onvrugbaar", "winter"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ቅጠል የሌለው ዛፍ"),
+			keywords: &["መካን", "ቅርንጫፎች", "ቅጠል የሌለው", "ባዶ", "እንጨት", "ክረምት", "ዛፍ", "የሞተ", "ድርቅ", "ግንድ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("شجرة بلا أوراق"),
+			keywords: &["الشتاء", "جرداء", "جفاف", "شجرة بلا أوراق"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9be}তবিহীন গছ"),
+			keywords: &[
+				"অন\u{9be}ব\u{9c3}ত",
+				"ক\u{9be}ঠ",
+				"খৰ\u{9be}ং",
+				"গছ",
+				"প\u{9be}তবিহীন",
+				"বন\u{9cd}ধ\u{9cd}য\u{9be}",
+				"ম\u{9c2}ঢ\u{9bc}\u{9be}",
+				"ম\u{9c3}ত",
+				"শ\u{9be}খ\u{9be}-প\u{9cd}ৰশ\u{9be}খ\u{9be}",
+				"শীত",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("yarpaqsız ağac"),
+			keywords: &[
+				"ağac",
+				"barsız",
+				"budaqlar",
+				"gövdə",
+				"oduncaq",
+				"quraqlıq",
+				"qış",
+				"yarpaqsız",
+				"çılpaq",
+				"ğlü",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("бязлістае дрэва"),
+			keywords: &[
+				"бязлісты",
+				"бясплодны",
+				"веткі",
+				"голы",
+				"дрэва",
+				"засуха",
+				"зіма",
+				"лес",
+				"мёртвы",
+				"ствол",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("дърво без листа"),
+			keywords: &["дърво без листа", "зима", "сухо дърво", "суша"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("প\u{9be}ত\u{9be}হীন গ\u{9be}ছ"),
+			keywords: &[
+				"খর\u{9be}",
+				"প\u{9be}ত\u{9be}হীন গ\u{9be}ছ",
+				"বন\u{9cd}ধ\u{9cd}য\u{9be}",
+				"শীতক\u{9be}ল",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("drvo bez lišća"),
+			keywords: &[
+				"bez lišća",
+				"drvo",
+				"golo",
+				"grane",
+				"mrtvo",
+				"neplodno",
+				"stablo",
+				"suša",
+				"zima",
+			],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("arbre sense fulles"),
+			keywords: &["caiguda de la fulla", "fulla caduca", "hivern", "sequera"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏲᎱᏒ ᎢᏡᎬᎢ"),
+			keywords: &["ᎣᏍᏛᎯ", "ᎤᏲᎱᏒ ᎢᏡᎬᎢ", "ᎪᎳ", "ᏂᏓᎦᏍᎬᎾ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("strom bez listí"),
+			keywords: &[
+				"bez listí",
+				"dřevo",
+				"holé",
+				"kmen",
+				"mrtvé",
+				"neplodný",
+				"strom",
+				"sucho",
+				"větve",
+				"zima",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("coeden heb ddail"),
+			keywords: &["anffrwythlon", "coeden heb ddail", "gaeaf", "sychder"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("træ uden blade"),
+			keywords: &["gold", "træ uden blade", "tørke", "vinter"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("kahler Baum"),
+			keywords: &["Winter", "dürr", "kahl", "kahler Baum", "karg", "trocken"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Baum ohne Blätter"),
+			keywords: &["Baum ohne Blätter", "Dürre", "Herbst", "Winter", "blätterlos", "kahl"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("γυμνό δέντρο"),
+			keywords: &["άκαρπο", "γυμνό δέντρο", "ξηρασία", "χειμώνας"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("leafless tree"),
+			keywords: &[
+				"bare", "barren", "branches", "dead", "drought", "leafless", "tree", "trunk", "winter",
+				"wood",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("árbol sin hojas"),
+			keywords: &[
+				"deshojado",
+				"estéril",
+				"invierno",
+				"madera",
+				"muerto",
+				"ramas",
+				"sequía",
+				"sin hojas",
+				"tronco",
+				"árbol",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("árbol sin hojas"),
+			keywords: &[
+				"invierno",
+				"madera",
+				"muerto",
+				"ramas secas",
+				"sequía",
+				"sin hojas",
+				"tronco",
+				"yermo",
+				"árbol",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("árbol sin hojas"),
+			keywords: &["invierno", "sequía", "árbol sin hojas", "árido"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("árbol sin hojas"),
+			keywords: &["invierno", "sequía", "árido"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("raagus puu"),
+			keywords: &["põud", "raagus puu", "talv", "viljatu"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("hosto gabeko zuhaitza"),
+			keywords: &[
+				"agorra",
+				"agorraldia",
+				"agortea",
+				"antzua",
+				"elkorra",
+				"hosto gabeko zuhaitza",
+				"idorra",
+				"idortea",
+				"lehorra",
+				"lehortea",
+				"negua",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("درخت بدون برگ"),
+			keywords: &["بی\u{200c}ثمر", "خشکسالی", "درخت بی\u{200c}برگ", "زمستان"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("lehdetön puu"),
+			keywords: &["kelo", "kuivuus", "lehdetön", "oksat", "paljas", "talvi"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("puno na walang dahon"),
+			keywords: &["puno na walang dahon", "taglamig", "tigang", "tuyot"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("blaðleyst træ"),
+			keywords: &["blaðleyst", "træ", "vetur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("arbre sans feuille"),
+			keywords: &["arbre sans feuille", "aride", "hiver", "sécheresse"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"arbre",
+				"aride",
+				"bois",
+				"branches",
+				"dénudé",
+				"dépouillé",
+				"hiver",
+				"mort",
+				"sans feuille",
+				"sécheresse",
+				"tronc",
+			],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("crann lom"),
+			keywords: &["geimhreadh", "seasc", "triomach"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("craobh lom"),
+			keywords: &[
+				"craobh",
+				"deasg",
+				"fiodh",
+				"geamhradh",
+				"geugan",
+				"lom",
+				"maide",
+				"marbh",
+				"meuran",
+				"seasg",
+				"stoc",
+				"tart",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("árbore sen follas"),
+			keywords: &["inverno", "madeira", "pólas", "seca", "sen follas", "tronco"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("પા\u{a82}દડા વગરન\u{ac1}\u{a82} વ\u{ac3}ક\u{acd}ષ"),
+			keywords: &[
+				"પા\u{a82}દડા વગરન\u{ac1}\u{a82} વ\u{ac3}ક\u{acd}ષ",
+				"વ\u{ac3}ક\u{acd}ષ",
+				"સ\u{ac1}કાય\u{ac7}લ\u{ac1}\u{a82}",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("bishiya maras ganye"),
+			keywords: &[
+				"bishiya",
+				"fari",
+				"faƙo",
+				"gangar jiki",
+				"hunturu",
+				"itace",
+				"maras ganye",
+				"matacce",
+				"resuna",
+				"tsirara",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("bishiya maras ganye"),
+			keywords: &[
+				"bishiya",
+				"fari",
+				"faƙo",
+				"gangar jiki",
+				"hunturu",
+				"itace",
+				"maras ganye",
+				"matacce",
+				"resuna",
+				"tsirara",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("עץ בלי עלים"),
+			keywords: &["בלי עלים", "בצורת", "חורף", "עץ"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बिना पत\u{94d}तो\u{902} का प\u{947}ड\u{93c}"),
+			keywords: &[
+				"तना",
+				"नग\u{94d}न",
+				"पत\u{94d}ती रहित",
+				"प\u{947}ड\u{93c}",
+				"ब\u{902}जर",
+				"म\u{943}त",
+				"लकड\u{93c}ी",
+				"शाखाए\u{901}",
+				"सर\u{94d}दी",
+				"स\u{942}खा",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("stablo bez lišća"),
+			keywords: &["ogoljeno", "stablo bez lišća", "suša", "zima"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("levél nélküli fa"),
+			keywords: &[
+				"csupasz",
+				"fa",
+				"faanyag",
+				"halott",
+				"kiszáradt",
+				"levél nélküli",
+				"terméketlen",
+				"tél",
+				"törzs",
+				"ágak",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("անտերեւ ծառ"),
+			keywords: &["անպտուղ", "անտերեւ ծառ", "երաշտ", "ձմեռ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("pohon tanpa daun"),
+			keywords: &["gersang", "kekeringan", "musim dingin", "tandus"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("osisi na-enweghị akwụkwọ"),
+			keywords: &["amịghị mkpụrụ", "oge oyi", "oké ọkọchị"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("blaðlaust tré"),
+			keywords: &["blaðlaust tré", "nakið", "vetur", "ólaufgað", "þurrkur"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("albero spoglio"),
+			keywords: &["inverno", "senza foglie", "siccità"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("枯れ木"),
+			keywords: &["不毛｜干ばつ｜葉のない木｜冬"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("wit tanpa godhong"),
+			keywords: &["gabug", "garing", "mangsa adhem", "wit tanpa godhong"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("უფოთლო ხე"),
+			keywords: &[
+				"გვალვა",
+				"ვარჯი",
+				"ზამთარი",
+				"მკვდარი",
+				"ტოტები",
+				"უნაყოფო",
+				"უფოთლო",
+				"შეშა",
+				"შიშველი",
+				"ხე",
+			],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("жапырақсыз ағаш"),
+			keywords: &["бедеу", "жалаңаш ағаш", "қыс", "құрғақшылық"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ដើមឈើគ\u{17d2}មានស\u{17d2}ល\u{17b9}ក"),
+			keywords: &[
+				"ខ\u{17d2}សោះ",
+				"គ\u{17d2}មានជ\u{17b8}វជាត\u{17b7}",
+				"គ\u{17d2}មានស\u{17d2}ល\u{17b9}ក",
+				"ងាប\u{17cb}",
+				"ឈើ",
+				"ដើម",
+				"ដើមឈើ",
+				"មែកធាង",
+				"រដ\u{17bc}វរងា",
+				"ហ\u{17bd}តហែង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಎಲ\u{cc6}ಯ\u{cbf}ರದ ಮರ"),
+			keywords: &[
+				"ಎಲ\u{cc6}ಯ\u{cbf}ಲ\u{ccd}ಲದ",
+				"ಕಾಂಡ",
+				"ಕ\u{cca}ಂಬ\u{cc6}ಗಳು",
+				"ಚಳ\u{cbf}ಗಾಲ",
+				"ಬಂಜರು",
+				"ಬರ",
+				"ಬರ\u{cbf}ಯ",
+				"ಮರ",
+				"ಸತ\u{ccd}ತ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("잎이 없는 나무"),
+			keywords: &[
+				"겨울",
+				"나무",
+				"나무 몸통",
+				"나뭇가지",
+				"메마른",
+				"목재",
+				"열매가 안 열리는",
+				"잎이 없는",
+				"죽은",
+				"헐벗은",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("पानाविण\u{947}\u{902} झाड"),
+			keywords: &[
+				"उक\u{94d}त\u{947}",
+				"खोड",
+				"झाडाच\u{947}\u{902} झाड",
+				"द\u{941}कळ पडप",
+				"पान नाशिल\u{94d}ल\u{947}\u{902}",
+				"फा\u{902}ट\u{947}",
+				"मरड",
+				"म\u{947}ल\u{94d}ल\u{947}\u{902}",
+				"ला\u{902}कडी",
+				"शि\u{902}याळ\u{94d}या\u{902}त",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жалбырагы жок дарак"),
+			keywords: &["бак", "бош", "далдар", "дарак", "жалбырагы жок", "жыгач", "кыш", "өлүк"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຕ\u{ebb}\u{ec9}ນໄມ\u{ec9}"),
+			keywords: &[
+				"ຍາມໜາວ",
+				"ບ\u{ecd}\u{ec8}ມ\u{eb5}ໃບໄມ\u{ec9}",
+				"ລະດ\u{eb9}ໜາວ",
+				"ແຫ\u{ec9}ງແລ\u{ec9}ງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("medis be lapų"),
+			keywords: &["be vaisių", "medis be lapų", "sausra", "žiema"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("koks bez lapām"),
+			keywords: &["bezlapu koks", "neauglīgs", "sausums", "ziema"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("безлисно дрво"),
+			keywords: &["безлисно дрво", "зима", "неплодно", "суша"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഇലയില\u{d4d}ല\u{d3e}ത\u{d4d}ത മരം"),
+			keywords: &["ഇലപൊഴിയ\u{d41}ം മരങ\u{d4d}ങൾ", "വിന\u{d4d}റർ", "ശിശിരം", "ശൈത\u{d4d}യം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("навчгүй мод"),
+			keywords: &["ган", "мод", "мөчир", "навчгүй", "нүцгэн", "үхсэн", "өвөл"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("निष\u{94d}पर\u{94d}ण झाड"),
+			keywords: &["द\u{941}ष\u{94d}काळ", "नापीक", "निष\u{94d}पर\u{94d}ण झाड", "पानगळ", "हिवाळा"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pokok tidak berdaun"),
+			keywords: &[
+				"batang",
+				"dahan",
+				"kayu",
+				"kemarau",
+				"mati",
+				"musim sejuk",
+				"pokok",
+				"tanpa daun",
+				"tidak berdaun",
+				"tumbuhan",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ရ\u{103d}က\u{103a}မ\u{1032}\u{1037}သစ\u{103a}ပင\u{103a}"),
+			keywords: &[
+				"ဆောင\u{103a}းရာသ\u{102e}",
+				"ပြောင\u{103a}ရ\u{103e}င\u{103a}းနေသော",
+				"မ\u{102d}\u{102f}းခေါင\u{103a}ခြင\u{103a}း",
+				"ရ\u{103d}က\u{103a}မ\u{1032}\u{1037}သစ\u{103a}ပင\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("पात पभएको र\u{941}ख"),
+			keywords: &[
+				"काठ",
+				"काण\u{94d}ड",
+				"खड\u{947}री",
+				"जाडो याम",
+				"नाङ\u{94d}गो",
+				"पात नभएको",
+				"बन\u{94d}जर",
+				"म\u{943}त",
+				"र\u{941}ख",
+				"हा\u{901}गाहर\u{942}",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("boom zonder bladeren"),
+			keywords: &["boom zonder bladeren", "droogte", "kaal", "winter"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("bladlaust tre"),
+			keywords: &["daudt", "dødt", "stamme", "tre", "tørke", "tørt", "ufruktbart", "vinter"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ପତ\u{b4d}ରବ\u{b3f}ହୀନ ଗଛ"),
+			keywords: &[
+				"ନ\u{b3f}ଷ\u{b4d}ଫଳ\u{b3e}",
+				"ପତ\u{b4d}ରବ\u{b3f}ହୀନ ଗଛ",
+				"ମର\u{b41}ଡ\u{b3c}\u{b3f}",
+				"ଶୀତଋତ\u{b41}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਪ\u{a71}ਤ\u{a47} ਰਹਿਤ ਰ\u{a41}\u{a71}ਖ"),
+			keywords: &["ਪਤਝੜ", "ਪ\u{a71}ਤ\u{a47} ਰਹਿਤ ਰ\u{a41}\u{a71}ਖ", "ਬ\u{a70}ਜਰ", "ਸ\u{a4b}ਕਾ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("trii wey no get lif"),
+			keywords: &[
+				"bare",
+				"barren",
+				"branchis",
+				"dai",
+				"drot",
+				"trii",
+				"tronk",
+				"wey no get lif",
+				"winta",
+				"wud",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("drzewo bez liści"),
+			keywords: &["bez liści", "drzewo", "susza", "zima"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("بې پاڼې ونه"),
+			keywords: &["بنجر", "بې پاڼې", "لرګي", "مړ", "ننگی", "ونه", "وچکالي", "ټرک", "څانګې", "ژمی"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("árvore seca"),
+			keywords: &["inverno", "seca", "árvore seca", "árvore sem folhas"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["inverno", "madeira", "morta", "ramos", "seca", "sem folhas", "tronco", "árvore"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("sacha manam rapiwan"),
+			keywords: &["chaki", "inti raymi", "kala", "kurku", "manam rapiwan", "qisa", "wañuy"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("copac desfrunzit"),
+			keywords: &["arid", "copac fără frunze", "iarnă", "nefertil", "neroditor", "secetă", "sterp"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E16-003"), keywords: &["E16-003"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("дерево без листвы"),
+			keywords: &["дерево без листвы", "дерево без листьев", "засуха", "зима"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ٺوڙهو وڻ"),
+			keywords: &[
+				"بنا پنن وارو",
+				"بنجر",
+				"سيارو",
+				"شاخون",
+				"مئل",
+				"ننگو",
+				"وڻ",
+				"ٿڙ",
+				"ڏڪار",
+				"ڪاٺ",
+			],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("කොළ නැත\u{dd2} ගස"),
+			keywords: &[
+				"අත\u{dd4}",
+				"කඳ",
+				"කොළ නැත\u{dd2}",
+				"ගස",
+				"න\u{dd2}යඟය",
+				"ම\u{dd2}ය ග\u{dd2}ය",
+				"ල\u{dd3}",
+				"ශ\u{dd3}ත",
+				"හ\u{dd2}ස\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("strom bez listov"),
+			keywords: &["neúroda", "strom bez listov", "sucho", "zima"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("drevo brez listja"),
+			keywords: &["drevo brez listja", "nerodovitnost", "suša", "zima"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("geed caleen la’aan ah"),
+			keywords: &[
+				"abaar",
+				"caleen la’aan",
+				"dhintay",
+				"geed",
+				"jiilaalka",
+				"jirridda",
+				"laamo",
+				"madhasho",
+				"qaawan",
+				"qoryo",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("pemë e zhveshur"),
+			keywords: &["dimër", "e zhveshur", "pa gjethe", "pemë", "shterp", "thatësi", "trung"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("дрво без лишћа"),
+			keywords: &["дрво без лишћа", "зима", "неплодно", "суша"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("drvo bez lišća"),
+			keywords: &["drvo bez lišća", "neplodno", "suša", "zima"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("träd utan löv"),
+			keywords: &["kargt", "torka", "träd utan löv", "vinter"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mti bila majani"),
+			keywords: &["baridi", "kavu", "kiangazi", "mti bila majani"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("இலை உதிர\u{bcd}ந\u{bcd}த மரம\u{bcd}"),
+			keywords: &[
+				"இலை உதிர\u{bcd}ந\u{bcd}த மரம\u{bcd}",
+				"க\u{bbe}ய\u{bcd}ந\u{bcd}த மரம\u{bcd}",
+				"தரிசு மரம\u{bcd}",
+				"பனி",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఎండ\u{c3f}ప\u{c4b}య\u{c3f}న చ\u{c46}ట\u{c4d}టు"),
+			keywords: &[
+				"ఎండ\u{c3f}ప\u{c4b}య\u{c3f}న చ\u{c46}ట\u{c4d}టు",
+				"కరువు",
+				"క\u{c4d}ష\u{c3e}మము",
+				"చల\u{c3f}క\u{c3e}లం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ต\u{e49}นไม\u{e49}ไร\u{e49}ใบ"),
+			keywords: &[
+				"ต\u{e49}นไม\u{e49}ไร\u{e49}ใบ",
+				"หน\u{e49}าแล\u{e49}ง",
+				"แล\u{e49}ง",
+				"แห\u{e49}งแล\u{e49}ง",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ቆጽሊ ዘይብሉ ገረብ"),
+			keywords: &[
+				"መኻን",
+				"ሞይቱ",
+				"ቆጽሊ ዘይብሉ",
+				"ክረምቲ",
+				"ዕርቃኑ ዝወጸ",
+				"ዕንጨይቲ",
+				"ድርቂ",
+				"ገረብ",
+				"ጉንዲ",
+				"ጨናፍር",
+			],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("ýapraksyz agaç"),
+			keywords: &["guraklyk", "guran", "gury", "gyş", "hasylsyz", "ýapraksyz agaç"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("ʻakau taʻelau"),
+			keywords: &["laʻalaʻā", "taʻelau", "telie", "ʻakau"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("yapraksız ağaç"),
+			keywords: &["kurak", "kış", "yapraksız ağaç", "çorak"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("сухе дерево"),
+			keywords: &[
+				"безлистий",
+				"безплідний",
+				"голий",
+				"гілки",
+				"дерево",
+				"зима",
+				"мертвий",
+				"посуха",
+				"стовбур",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بے برگ درخت"),
+			keywords: &["بنجر", "بے برگ درخت", "خشک سالی", "موسم سرما"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("bargsiz daraxt"),
+			keywords: &[
+				"bargsiz",
+				"daraxt",
+				"mevasiz",
+				"o‘lik",
+				"qish",
+				"qurg‘oqchilik",
+				"shoxlar",
+				"tana",
+				"yalang‘och",
+				"yog‘och",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("cây trụi lá"),
+			keywords: &[
+				"cây",
+				"cây chết",
+				"cằn cỗi",
+				"gỗ",
+				"hạn hán",
+				"mùa đông",
+				"nhánh cây",
+				"thân cây",
+				"trần",
+				"trụi lá",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("igi tí kò léwẹ\u{301}"),
+			keywords: &["igi tí kò léwé", "yàgàn", "ìgbà òtútù", "ọ\u{300}gbẹlẹ\u{300}"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("igi tí kò léwɛ\u{301}"),
+			keywords: &["igi tí kò léwé", "yàgàn", "ìgbà òtútù", "ɔ\u{300}gbɛlɛ\u{300}"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("禿樹"),
+			keywords: &["乾旱", "冇樹葉", "冬天", "樹", "樹幹", "樹枝", "禿樹", "貧瘠"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("秃树"),
+			keywords: &["冇树叶", "冬天", "干旱", "树", "树干", "树枝", "秃树", "贫瘠"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("无叶树"),
+			keywords: &["冬天", "冬季", "干旱", "无叶", "木", "树", "树干", "树枝", "死", "秃", "荒芜"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("沒有葉子的樹"),
+			keywords: &["乾旱", "光禿禿的樹", "冬天", "貧瘠"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("leafless tree"),
+			keywords: &[
+				"bare", "barren", "branches", "dead", "drought", "leafless", "tree", "trunk", "winter",
+				"wood",
+			],
 		},
 	],
 };

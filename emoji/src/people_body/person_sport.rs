@@ -11890,83 +11890,6 @@ pub const MAN_MOUNTAIN_BIKING: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🏊\u{fe0f}"]
-pub const PERSON_SWIMMING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🏊\u{fe0f}",
-		codepoint:            &[127946u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-		name:                 "person swimming",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonSport,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🏊🏻",
-			codepoint:            &[127946u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person swimming: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏼",
-			codepoint:            &[127946u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person swimming: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏽",
-			codepoint:            &[127946u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person swimming: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏾",
-			codepoint:            &[127946u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person swimming: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏿",
-			codepoint:            &[127946u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-			name:                 "person swimming: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "🏊\u{200d}♂\u{fe0f}"]
 pub const MAN_SWIMMING: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -12036,83 +11959,6 @@ pub const MAN_SWIMMING: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "man swimming: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🏊\u{200d}♀\u{fe0f}"]
-pub const WOMAN_SWIMMING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🏊\u{200d}♀\u{fe0f}",
-		codepoint:            &[127946u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman swimming",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonSport,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🏊🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[127946u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman swimming: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[127946u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman swimming: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[127946u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman swimming: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[127946u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman swimming: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏊🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[127946u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman swimming: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonSport,
 			is_variant:           true,
@@ -12344,1197 +12190,6 @@ pub const WOMAN_SURFING: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "woman surfing: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🤽"]
-pub const PERSON_PLAYING_WATER_POLO: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🤽",
-		codepoint:            &[129341u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-		name:                 "person playing water polo",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonSport,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("waterpolo"),
-				keywords: &[
-					"persoon",
-					"polo",
-					"sport",
-					"swem",
-					"toernooi",
-					"waterpolo",
-					"watersport",
-					"wedstryd",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("የውሃ ላይ ገና ጨዋታ"),
-				keywords: &[
-					"ማርኮ",
-					"ሰው",
-					"ስፖርት",
-					"ውሃ",
-					"ውሃ ዋና",
-					"የውሃ ላይ ገና ጨዋታ",
-					"የውሃ ስፖርት",
-					"የውሃ ፖሎ",
-					"የገና ጨዋታ",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("شخص يلعب كرة ماء"),
-				keywords: &[
-					"أشخاص",
-					"ألعاب مائية",
-					"أنشطة",
-					"الأشخاص والجسد",
-					"رياضة",
-					"سباحة",
-					"شخص",
-					"شخص يلعب كرة ماء",
-					"كرة ماء",
-					"ماء",
-				],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("ৱ\u{9be}ট\u{9be}ৰ প’ল’ খেলি থক\u{9be} ব\u{9cd}যক\u{9cd}তি"),
-				keywords: &[
-					"প\u{9be}নী",
-					"প’ল’",
-					"ৱ\u{9be}ট\u{9be}ৰ প’ল’ খেলি থক\u{9be} ব\u{9cd}যক\u{9cd}তি",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("su polosu"),
-				keywords: &[
-					"Marco oyunu",
-					"idman",
-					"polo",
-					"su",
-					"su idman növü",
-					"su polosu",
-					"su poloçusu kişi",
-					"top",
-					"yarışma",
-					"üzgüçülük",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("воднае пола"),
-				keywords: &["воднае", "пола", "спорт", "чалавек"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("водна топка"),
-				keywords: &["вода", "водна топка", "плуване", "спорт", "топка", "човек"],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("ওয\u{9bc}\u{9be}ট\u{9be}র পোলো"),
-				keywords: &[
-					"ওয\u{9bc}\u{9be}ট\u{9be}র",
-					"খেল\u{9be}",
-					"খেল\u{9be}ধ\u{9c1}ল\u{9be}",
-					"জল",
-					"জল ক\u{9cd}রীড\u{9bc}\u{9be}",
-					"প\u{9be}নির খেল\u{9be}ধ\u{9c1}ল\u{9be}",
-					"পোলো",
-					"ব\u{9cd}যক\u{9cd}তি",
-					"স\u{9be}\u{981}ত\u{9be}র ক\u{9be}ট\u{9be}",
-					"স\u{9cd}পোর\u{9cd}টস",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("vaterpolo"),
-				keywords: &["osoba", "polo", "sport", "vaterpolo", "voda"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("persona que juga a waterpolo"),
-				keywords: &[
-					"aigua",
-					"esport",
-					"esport aquàtic",
-					"esportista",
-					"persona",
-					"persona jugant a waterpolo",
-					"persona que juga a waterpolo",
-					"waterpolista",
-					"waterpolo",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ"),
-				keywords: &["ᎠᎳᏍᎦᎵᏙᏗ", "ᎠᎹ", "ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("osoba hrající vodní pólo"),
-				keywords: &[
-					"osoba hrající vodní pólo",
-					"plavat",
-					"plavání",
-					"pólo",
-					"sport",
-					"voda",
-					"vodní pólo",
-					"vodní sport",
-					"člověk",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("polo dŵr"),
-				keywords: &["chwaraeon", "dŵr", "person", "polo"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("vandpolospiller"),
-				keywords: &[
-					"person",
-					"polo",
-					"sport",
-					"svømmer",
-					"svømning",
-					"vand",
-					"vandpolo",
-					"vandpolospiller",
-					"vandsport",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Wasserballspieler(in)"),
-				keywords: &[
-					"Person",
-					"Schwimmsport",
-					"Sport",
-					"Sportler",
-					"Sportlerin",
-					"Wasser",
-					"Wasserball",
-					"Wasserballspieler",
-					"Wasserballspieler(in)",
-					"Wasserballspielerin",
-					"Wassersport",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("πόλο"),
-				keywords: &["άτομο", "κολύμπι", "νερό", "πόλο", "σπορ", "υδατοσφαίριση"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("person playing water polo"),
-				keywords: &["person", "playing", "polo", "sport", "swimming", "water", "waterpolo"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("persona jugando al waterpolo"),
-				keywords: &["persona jugando al waterpolo", "waterpolista", "waterpolo"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"agua",
-					"deporte",
-					"deporte acuático",
-					"deportista",
-					"persona",
-					"persona jugando al waterpolo",
-					"persona jugando waterpolo",
-					"waterpolista",
-					"waterpolo",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation {
-				lang:     "es_MX",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"deporte acuático",
-					"deportista",
-					"persona",
-					"persona jugando al waterpolo",
-					"waterpolo",
-				],
-			},
-			#[cfg(feature = "es_US")]
-			crate::Annotation {
-				lang:     "es_US",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"agua",
-					"persona jugando al waterpolo",
-					"persona jugando waterpolo",
-					"polo acuático",
-				],
-			},
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("veepalli mängiv inimene"),
-				keywords: &["inimene", "mängiv", "polo", "sport", "ujumine", "veepall", "vesi"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("waterpoloa"),
-				keywords: &["kirol", "pertsona", "waterpolo", "waterpoloa"],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("واترپلو"),
-				keywords: &[
-					"آدم",
-					"استخر",
-					"بازی",
-					"شنا",
-					"شوت",
-					"مرد",
-					"مسابقه",
-					"واترپلو",
-					"ورزش",
-					"ورزش آبی",
-					"پرتاب",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("vesipalloilija"),
-				keywords: &[
-					"ihminen",
-					"liikunta",
-					"pallo",
-					"uinti",
-					"urheilu",
-					"vesi",
-					"vesipallo",
-					"vesiurheilu",
-				],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("taong naglalaro ng water polo"),
-				keywords: &["Marco", "polo", "sport", "tao", "taong naglalaro ng water polo", "water"],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("persónur sum spælir vatnpolo"),
-				keywords: &["fólk", "persónur", "persónur sum spælir vatnpolo", "vatnpolo"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("personne jouant au water-polo"),
-				keywords: &[
-					"ballon",
-					"homme qui joue au water-polo",
-					"personne",
-					"personne jouant au water-polo",
-					"piscine",
-					"sport",
-					"water-polo",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation {
-				lang:     "fr_CA",
-				tts:      Some("personne qui joue au water-polo"),
-				keywords: &["personne", "personne qui joue au water-polo", "water-polo"],
-			},
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("póló uisce"),
-				keywords: &["Marco", "caith", "duine", "liathróid", "póló", "snámh", "spórt", "uisce"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("neach a’ cluich polo-uisge"),
-				keywords: &["neach a’ cluich polo-uisge", "polo", "uisge"],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("wáter-polo"),
-				keywords: &["auga", "deporte", "wáter-polo"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("વૉટર પોલો"),
-				keywords: &[
-					"પાણીમા\u{a82} રમાતી રમત",
-					"પોલો",
-					"માણસ",
-					"વૉટર",
-					"વોટર સ\u{acd}પોર\u{acd}ટ",
-					"વોટરપોલો",
-					"વ\u{acd}યક\u{acd}તિ",
-					"સ\u{acd}પૉર\u{acd}ટ",
-					"સ\u{acd}વિમિ\u{a82}ગ",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mutum mai bugan wasan holo na ruwa"),
-				keywords: &[
-					"mutum",
-					"mutum mai bugan wasan holo na ruwa",
-					"ninƙaya",
-					"wasan holo",
-					"wasannin da ake yi a ruwa",
-					"wasannin ruwa",
-					"ƙwallon ruwa",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mutum mai bugan wasan holo na ruwa"),
-				keywords: &[
-					"mutum",
-					"mutum mai bugan wasan holo na ruwa",
-					"ninƙaya",
-					"wasan holo",
-					"wasannin da ake yi a ruwa",
-					"wasannin ruwa",
-					"ƙwallon ruwa",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("כדורמים"),
-				keywords: &[
-					"אדם משחק כדור-מים",
-					"בריכה",
-					"כדור מים",
-					"כדור-מים",
-					"ספורט",
-					"ספורט במים",
-					"ספורט מים",
-					"פולו מים",
-					"שחייה",
-				],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("वाटर पोलो ख\u{947}लता व\u{94d}यक\u{94d}ति"),
-				keywords: &[
-					"ख\u{947}ल",
-					"त\u{948}राक",
-					"त\u{948}राकी",
-					"पानी",
-					"पानी का ख\u{947}ल",
-					"पोलो",
-					"मार\u{94d}को",
-					"वाटर पोलो ख\u{947}लता व\u{94d}यक\u{94d}ति",
-					"वॉटर पोलो",
-					"व\u{94d}यक\u{94d}ति",
-					"स\u{94d}विमि\u{902}ग",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("osobe igraju vaterpolo"),
-				keywords: &[
-					"osoba",
-					"osobe igraju vaterpolo",
-					"plivanje",
-					"polo",
-					"sport",
-					"vaterpolo",
-					"voda",
-					"vodeni sport",
-				],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("vízilabda"),
-				keywords: &["póló", "sport", "víz", "vízilabda"],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("ջրագնդակ խաղացող անձ"),
-				keywords: &["մարդ", "մարմնամարզություն", "պոլո", "ջուր", "ջրագնդակ խաղացող անձ"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("orang bermain polo air"),
-				keywords: &[
-					"air",
-					"atlet polo air",
-					"berenang",
-					"laki-laki",
-					"olahraga",
-					"orang",
-					"orang bermain polo air",
-					"polo",
-					"pria",
-				],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("onye na-egwu egwuregwu bọọlụ mmiri"),
-				keywords: &[
-					"bọọlụ mmiri",
-					"egwuregwu",
-					"egwuregwu bọọlụ mmiri",
-					"igwu mmiri",
-					"mmiri",
-					"na-egwu egwu",
-					"onye",
-				],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("manneskja í vatnapóló"),
-				keywords: &["manneskja í vatnapóló", "póló", "vatn"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("persona che gioca a pallanuoto"),
-				keywords: &[
-					"acqua",
-					"giocatrice di pallanuoto",
-					"pallanuoto",
-					"persona",
-					"persona che gioca a pallanuoto",
-					"piscina",
-					"sport",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("水球をする人"),
-				keywords: &["スポーツ", "水上競技", "水泳", "水球", "水球をする人", "球技"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong main polo banyu"),
-				keywords: &["banyu", "polo", "wong main polo banyu"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("წყალბურთი"),
-				keywords: &["ადამიანი", "სპორტი", "წყალბურთი", "წყალი"],
-			},
-			#[cfg(feature = "kab")]
-			crate::Annotation {
-				lang:     "kab",
-				tts:      Some("amdan yetturare water polo"),
-				keywords: &["amdan yetturare water polo"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("су полосы"),
-				keywords: &["адам", "бассейн", "жүзу", "поло", "спорт", "су", "су полосы"],
-			},
-			#[cfg(feature = "kl")]
-			crate::Annotation {
-				lang:     "kl",
-				tts:      Some("vandpolo"),
-				keywords: &["sport", "vand", "vandpolo", "vandsport"],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some(
-					"មន\u{17bb}ស\u{17d2}សលេងក\u{17b8}ឡាគប\u{17cb}បាល\u{17cb}ក\u{17d2}ន\u{17bb}ងទ\u{17b9}ក",
-				),
-				keywords: &[
-					"ក\u{17b8}ឡា",
-					"ក\u{17b8}ឡាបោះបាល\u{17cb}",
-					"ទ\u{17b9}ក",
-					"មន\u{17bb}ស\u{17d2}សលេងក\u{17b8}ឡាគប\u{17cb}បាល\u{17cb}ក\u{17d2}ន\u{17bb}ងទ\u{17b9}ក",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some(
-					"ವಾಟರ\u{ccd} ಪ\u{ccb}ಲ\u{cca} ಆಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-				),
-				keywords: &[
-					"ಕ\u{ccd}ರ\u{cc0}ಡ\u{cc6}",
-					"ನ\u{cc0}ರು",
-					"ಪ\u{ccb}ಲ\u{ccb}",
-					"ಮಾರ\u{ccd}ಕ\u{ccb}",
-					"ವಾಟರ\u{ccd} ಪ\u{ccb}ಲ\u{cca} ಆಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("수구하는 사람"),
-				keywords: &["수구", "수구하는 사람", "수상 스포츠", "스포츠", "워터폴로"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("व\u{94d}यक\u{94d}ती उदका\u{902}त पोलो ख\u{947}ळटा"),
-				keywords: &[
-					"उदक",
-					"पोलो",
-					"व\u{94d}यक\u{94d}ती उदका\u{902}त पोलो ख\u{947}ळटा",
-					"व\u{94d}यक\u{94d}ती उदकात पोलो ख\u{947}ळटा",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("суудагы поло оюну"),
-				keywords: &["адам", "поло", "спорт", "суу", "суудагы поло оюну"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Waasserballspiller(in)"),
-				keywords: &["Polo", "Waasser", "Waasserballspiller(in)"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ໂປໂລນ\u{ecd}\u{ec9}າ"),
-				keywords: &[
-					"ກ\u{eb4}ລາ",
-					"ຄ\u{ebb}ນ",
-					"ນ\u{ecd}\u{ec9}າ",
-					"ລອຍນ\u{ec9}ຳ",
-					"ໂປໂລ",
-					"ໂປໂລນ\u{ecd}\u{ec9}າ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("vandensvydis"),
-				keywords: &[
-					"Marco",
-					"plaukimas",
-					"vandens sportas",
-					"vandensvydis",
-					"vandensvydžio žaidėjas",
-					"vanduo",
-					"žmogus",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("ūdenspolo sportists"),
-				keywords: &["cilvēks", "polo", "sports", "ūdens", "ūdenspolo", "ūdenspolo sportists"],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("tangata tākaro poro wai"),
-				keywords: &["poro", "tangata tākaro poro wai", "wai"],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("ватерполо"),
-				keywords: &["ватерполист", "ватерполо", "лице", "пливање", "спорт", "спорт во вода"],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("വ\u{d3e}ട\u{d4d}ടർ പോളോ"),
-				keywords: &[
-					"ക\u{d3e}യികം",
-					"പോളോ",
-					"വ\u{d3e}ട\u{d4d}ടർ",
-					"വ\u{d3e}ട\u{d4d}ടർപോളോ",
-					"സ\u{d4d}പോർട\u{d4d}സ\u{d4d}",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("усны поло"),
-				keywords: &["поло", "спорт", "ус", "усны поло", "хүн"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("वॉटर पोलो"),
-				keywords: &[
-					"पाण\u{94d}यातील क\u{94d}रीडाप\u{94d}रकार",
-					"पाण\u{94d}यातील ख\u{947}ळ",
-					"प\u{942}ल",
-					"पोलो",
-					"बॉल",
-					"वॉटर",
-					"वॉटर पोलो ख\u{947}ळणारा प\u{941}र\u{941}ष",
-					"वॉटर पोलो ख\u{947}ळणारी व\u{94d}यक\u{94d}ती",
-					"वॉटर स\u{94d}पोर\u{94d}ट\u{94d}स",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("polo air"),
-				keywords: &["air", "orang", "polo", "sukan"],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("persuna tilgħab il-waterpolo"),
-				keywords: &["ilma", "persuna tilgħab il-waterpolo", "polo"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("ဝါတာပ\u{102d}\u{102f}လ\u{102d}\u{102f}"),
-				keywords: &[
-					"ပ\u{102d}\u{102f}လ\u{102d}\u{102f}",
-					"ရေ",
-					"လ\u{1030}ပ\u{102f}ဂ\u{1039}ဂ\u{102d}\u{102f}လ\u{103a}",
-					"ဝါတာပ\u{102d}\u{102f}လ\u{102d}\u{102f}",
-					"အားကစား",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("वाटर पोलो"),
-				keywords: &["ख\u{947}ल", "पानी", "पोलो", "वाटर पोलो", "व\u{94d}यक\u{94d}ति"],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("persoon die waterpolo speelt"),
-				keywords: &["persoon", "polo", "spelen", "sport", "water", "waterpolo", "zwemmen"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("vasspolo"),
-				keywords: &["person", "polo", "sport", "vasspolo", "vatn"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ୱ\u{b3e}ଟର ପୋଲୋ ଖେଳ\u{b41}ଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}"),
-				keywords: &[
-					"ଜଳ",
-					"ପୋଲୋ",
-					"ୱ\u{b3e}ଟର ପୋଲୋ ଖେଳ\u{b41}ଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b} ਖ\u{a47}ਡਦਾ ਵਿਅਕਤੀ"),
-				keywords: &[
-					"ਖ\u{a47}ਡ",
-					"ਪਾਣੀ",
-					"ਪਾਣੀ ਵਾਲੀਆ\u{a02} ਖ\u{a47}ਡਾ\u{a02}",
-					"ਪ\u{a4b}ਲ\u{a4b}",
-					"ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b}",
-					"ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b} ਖ\u{a47}ਡਦਾ ਵਿਅਕਤੀ",
-					"ਵਿਅਕਤੀ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("واٹر پولو کھیڈدا بندہ"),
-				keywords: &["واٹر پولو کھیڈدا بندہ", "پانی", "پولو"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Pẹ\u{301}sin Wé De Plé Wọ\u{301}tá Poló"),
-				keywords: &["Poló", "Pẹ\u{301}sin Wé De Plé Wọ\u{301}tá Poló", "Wọtá"],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("osoba grająca w piłkę wodną"),
-				keywords: &[
-					"grająca",
-					"osoba",
-					"piłka",
-					"piłkarka",
-					"piłkarz",
-					"sport",
-					"w piłkę wodną",
-					"woda",
-					"wodna",
-					"wodny",
-				],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("شخص د اوبو پولو لوبه کوي"),
-				keywords: &["اوبه", "شخص د اوبو پولو لوبه کوي", "پولو"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("pessoa jogando polo aquático"),
-				keywords: &[
-					"esporte",
-					"esporte aquático",
-					"pessoa",
-					"pessoa jogando polo aquático",
-					"piscina",
-					"polo aquático",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("pessoa a jogar polo aquático"),
-				keywords: &[
-					"desporto",
-					"desporto aquático",
-					"nadar",
-					"natação",
-					"pessoa",
-					"pessoa a jogar polo aquático",
-					"piscina",
-					"polo",
-					"polo aquático",
-					"água",
-				],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("runa water polo pukllachkan"),
-				keywords: &["polo", "runa water polo pukllachkan", "water"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("persoană care joacă polo pe apă"),
-				keywords: &[
-					"apă",
-					"om",
-					"persoană",
-					"persoană care joacă polo pe apă",
-					"polo",
-					"polo pe apă",
-					"sport",
-					"sport acvatic",
-					"sport nautic",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-1054"), keywords: &["E10-1054"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("водное поло"),
-				keywords: &["вода", "водное", "поло", "спорт", "человек"],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umuntu uri gukina umukino wa water polo"),
-				keywords: &["amazi", "umukino wa polo", "umuntu uri gukina umukino wa water polo"],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("ماڻهو پاڻي وارو پولو کيڏيندي"),
-				keywords: &["ماڻهو پاڻي وارو پولو کيڏيندي", "پاڻي", "پولو"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("ජල පන\u{dca}ද\u{dd4}"),
-				keywords: &[
-					"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}",
-					"ජල පන\u{dca}ද\u{dd4}",
-					"ජලය",
-					"ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
-					"පොලෝ",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("vodné pólo"),
-				keywords: &["osoba", "plávanie", "pólo", "voda", "vodné pólo", "vodný šport"],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("vaterpolo"),
-				keywords: &[
-					"Marco",
-					"bazen",
-					"oseba",
-					"plavanje",
-					"vaterpolo",
-					"vodni šport",
-					"waterpolo",
-					"šport",
-					"žoga",
-				],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("qof cayaaraya kubadda biyaha"),
-				keywords: &["biyo", "kubad", "qof cayaaraya kubadda biyaha"],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("vaterpolo"),
-				keywords: &["Marko", "not", "person", "sport", "sport ujor", "vaterpolo"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("ватерполо"),
-				keywords: &["ватерполиста", "ватерполо", "вода", "особа", "пливање", "поло", "спорт"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("vaterpolo"),
-				keywords: &["osoba", "plivanje", "polo", "sport", "vaterpolista", "vaterpolo", "voda"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("person som spelar vattenpolo"),
-				keywords: &["person", "person som spelar vattenpolo", "polo", "sport", "vattenpolo"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("michezo kwenye bwawa la kuogelea"),
-				keywords: &["bwawa la kuogelea", "maji", "michezo kwenye bwawa la kuogelea", "spoti"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("வ\u{bbe}ட\u{bcd}டர\u{bcd} போலோ"),
-				keywords: &[
-					"தண\u{bcd}ண\u{bc0}ர\u{bcd}",
-					"நபர\u{bcd}",
-					"ந\u{bc0}ச\u{bcd}சல\u{bcd}",
-					"ந\u{bc0}ர\u{bcd} விளைய\u{bbe}ட\u{bcd}டு",
-					"போலோ",
-					"வ\u{bbe}ட\u{bcd}டர\u{bcd} போலோ",
-					"விளைய\u{bbe}ட\u{bcd}டு",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some(
-					"వ\u{c3e}టర\u{c4d} ప\u{c4b}ల\u{c4b} ఆడుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-				),
-				keywords: &[
-					"క\u{c4d}ర\u{c40}డ",
-					"జలక\u{c4d}ర\u{c40}డ",
-					"ప\u{c4b}ల\u{c4b}",
-					"మన\u{c3f}ష\u{c3f}",
-					"మ\u{c3e}ర\u{c4d}క\u{c4b}",
-					"వ\u{c3e}టర\u{c4d}",
-					"వ\u{c3e}టర\u{c4d} ప\u{c4b}ల\u{c4b} ఆడుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"స\u{c4d}వ\u{c3f}మ\u{c4d}మ\u{c3f}ంగ\u{c4d}",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("шахси ватерполо бозӣ карда истода"),
-				keywords: &["об", "поло", "шахси ватерполо бозӣ карда истода"],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("น\u{e31}กโปโลน\u{e49}ำ"),
-				keywords: &["ก\u{e35}ฬา", "คน", "น\u{e49}ำ", "โปโล"],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ዋተር ፖሎ ዝጻወት ሰብ"),
-				keywords: &["ማይ", "ምሕንባስ", "ምጽዋት", "ሰብ", "ስፖርት", "ዋተርፖሎ", "ፖሎ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("suw polo oýnaýan adam"),
-				keywords: &["suw", "suw polo oýnaýan adam", "waterpolo"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("tokotaha polovai"),
-				keywords: &["polo", "tokotaha polovai", "vai"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("su topu"),
-				keywords: &[
-					"antrenman",
-					"birey",
-					"havuz",
-					"kişi",
-					"spor",
-					"su",
-					"su sporları",
-					"su topu",
-					"top",
-					"vücut",
-					"yüzme",
-				],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("سۇ توپى ئويناۋاتقانلار"),
-				keywords: &["توپ", "سۇ", "سۇ توپى ئويناۋاتقانلار"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("людина, що грає у ватерполо"),
-				keywords: &[
-					"вода",
-					"водне поло",
-					"водний спорт",
-					"людина",
-					"людина, що грає у ватерполо",
-					"плавання",
-					"поло",
-					"спорт",
-					"що грає у ватерполо",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("واٹر پولو"),
-				keywords: &["بندہ", "تیراکی", "واٹر اسپورٹس", "واٹر پولو", "پانی", "پولو", "کھیل"],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("suv polosi"),
-				keywords: &["koptok", "odam", "polo", "sport", "suv", "suv polosi", "suv sporti", "suzish"],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người chơi bóng nước"),
-				keywords: &[
-					"bóng",
-					"bơi lội",
-					"người chơi bóng dưới nước",
-					"người chơi bóng nước",
-					"nước",
-					"thể thao dưới nước",
-				],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("nit kuy polo ci ndox"),
-				keywords: &["ndox", "nit kuy polo ci ndox", "polo"],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umntu odlala i-polo yasemanzini"),
-				keywords: &["amanzi", "i-polo", "umntu odlala i-polo yasemanzini"],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("Ẹni N ṣere Olomi"),
-				keywords: &["omi", "pólò", "Ẹni N ṣere Olomi"],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("Ɛni N shere Olomi"),
-				keywords: &["omi", "pólò", "Ɛni N shere Olomi"],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("玩水球嘅人"),
-				keywords: &["水", "水球", "玩水球嘅人"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("玩水球嘅人"),
-				keywords: &["水", "水球", "玩水球嘅人"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("水球"),
-				keywords: &["人", "体育", "水上足球", "水上运动", "水球", "游泳", "马可波罗游戏"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("水球運動"),
-				keywords: &["人物", "水上", "水球", "水球運動", "游泳", "運動"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("水球"),
-				keywords: &["水上運動", "水球", "游水", "游泳", "運動員"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("ukubhukuda"),
-				keywords: &["amanzi", "ipholo", "ukubhukuda", "umdlalo", "umuntu"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🤽🏻",
-			codepoint:            &[129341u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-			name:                 "person playing water polo: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏼",
-			codepoint:            &[129341u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-			name:                 "person playing water polo: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏽",
-			codepoint:            &[129341u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-			name:                 "person playing water polo: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏾",
-			codepoint:            &[129341u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-			name:                 "person playing water polo: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏿",
-			codepoint:            &[129341u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-			name:                 "person playing water polo: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonSport,
 			is_variant:           true,
@@ -13848,973 +12503,6 @@ pub const MAN_ROWING_BOAT: crate::Toned = crate::Toned {
 			is_variant:           true,
 			variants:             &[],
 			annotations:          &[],
-		},
-	],
-};
-#[doc = "🤽\u{200d}♀\u{fe0f}"]
-pub const WOMAN_PLAYING_WATER_POLO: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🤽\u{200d}♀\u{fe0f}",
-		codepoint:            &[129341u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman playing water polo",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonSport,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🤽🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[129341u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman playing water polo: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[129341u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman playing water polo: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[129341u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman playing water polo: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[129341u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman playing water polo: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🤽🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[129341u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman playing water polo: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonSport,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🤺"]
-pub const PERSON_FENCING: crate::Emoji = crate::Emoji {
-	glyph:                "🤺",
-	codepoint:            &[129338u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
-	name:                 "person fencing",
-	group:                crate::Group::PeopleBody,
-	subgroup:             crate::Subgroup::PersonSport,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("skermvegter"),
-			keywords: &[
-				"skerm",
-				"skermer",
-				"skermkuns",
-				"skermvegter",
-				"sport",
-				"swaard",
-				"swaarde kruis",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ሻቦላ ተጫዋች"),
-			keywords: &["ሰው", "ስፖርት", "ሻሞላ", "ሻሞላ ተጫዋች", "ሻቦላ", "ሻቦላ መጫወት", "ሻቦላ ተጫዋች", "ፍልሚያ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("مبارز"),
-			keywords: &["رياضة", "سيف", "شخص", "مبارز", "مبارزة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("তৰোৱ\u{9be}ল খেল খেল\u{9be} ব\u{9cd}যক\u{9cd}তি"),
-			keywords: &[
-				"তৰোৱ\u{9be}ল",
-				"তৰোৱ\u{9be}ল খেল",
-				"তৰোৱ\u{9be}ল খেল খেল\u{9be} ব\u{9cd}যক\u{9cd}তি",
-				"তৰোৱ\u{9be}ল খেল\u{9c1}ৱৈ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qılınc oynatma"),
-			keywords: &["idman", "qılınc", "qılınc oynatma", "qılıncoynatma", "yarışma"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("фехтавальшчык"),
-			keywords: &["рапіра", "спорт", "фехтавальшчык", "фехтаванне", "чалавек"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("фехтовач"),
-			keywords: &["спорт", "фехтовач", "фехтовка", "човек", "шпага"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("তলোয\u{9bc}\u{9be}র খেলোয\u{9bc}\u{9be}ড\u{9bc}"),
-			keywords: &[
-				"খেল\u{9be}",
-				"তরওয\u{9bc}\u{9be}ল",
-				"তলোয\u{9bc}\u{9be}র",
-				"তলোয\u{9bc}\u{9be}র খেলোয\u{9bc}\u{9be}ড\u{9bc}",
-				"ব\u{9cd}যক\u{9cd}তি",
-				"লড\u{9bc}\u{9be}ইব\u{9be}জ",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("mačevanje"),
-			keywords: &["mač", "mačevalac", "mačevanje", "osoba", "sport"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("persona que fa esgrima"),
-			keywords: &[
-				"esgrima",
-				"esgrimidor",
-				"esgrimidora",
-				"espasa",
-				"floret",
-				"persona que fa esgrima",
-				"sabre",
-				"tirador",
-				"tiradora",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏴᏫ ᎭᏰᎵᏍᏗ ᎬᏗ ᎦᏁᏦᏍᏗᎲ"),
-			keywords: &["ᎠᏏᎳᏛᏍᎩ", "ᎠᏰᎳᏍᏗ ᎦᏅᎯᏓ", "ᏗᏏᎳᏛᏍᎩ", "ᏴᏫ ᎭᏰᎵᏍᏗ ᎬᏗ ᎦᏁᏦᏍᏗᎲ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("šermíř"),
-			keywords: &[
-				"kord",
-				"meč",
-				"rapír",
-				"sport",
-				"sportovní",
-				"člověk",
-				"šerm",
-				"šermovat",
-				"šermíř",
-				"šermířka",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("ffensiwr"),
-			keywords: &["chwaraeon", "cleddyf", "ffensio", "ffensiwr", "person"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("fægter"),
-			keywords: &["fægter", "fægtning", "person", "sport", "sværd"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Fechter(in)"),
-			keywords: &["Fechter", "Fechter(in)", "Schwert", "Sport", "fechten"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ξιφομάχος"),
-			keywords: &["άτομο", "ξίφος", "ξιφασκία", "ξιφομάχος", "ξιφομαχία", "σπορ"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("person fencing"),
-			keywords: &["fencer", "fencing", "person", "sword"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("persona haciendo esgrima"),
-			keywords: &["esgrima", "esgrimista", "espada", "persona haciendo esgrima"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("esgrimista"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("vehkleja"),
-			keywords: &["inimene", "mõõk", "sport", "vehkleja", "vehklemine"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("eskrimalaria"),
-			keywords: &["eskrima", "eskrimalaria", "ezpata", "kirola", "pertsona"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("شمشیربازی"),
-			keywords: &["رزمی", "شمشیربازی", "ورزش"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("miekkailija"),
-			keywords: &["liikunta", "miekka", "miekkailija", "miekkailu", "urheilu"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("fencer"),
-			keywords: &["espada", "fencer", "fencing", "sport", "tao"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("fektari"),
-			keywords: &["fektari", "fiktar", "fólk", "persónur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("escrimeur"),
-			keywords: &["escrime", "escrimeur", "escrimeuse", "personne", "sport", "épée"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["duel", "escrime", "escrimeur", "personne", "épée"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("duine ag pionsóireacht"),
-			keywords: &["claíomh", "duine ag pionsóireacht", "pionsóir", "pionsóireacht", "spórt"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("neach ri feannsaireachd"),
-			keywords: &["claidheamh", "feannsair", "feannsaireachd", "neach ri feannsaireachd"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("esgrima"),
-			keywords: &["deporte", "esgrima", "espada", "espadachín", "sable"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{ac7}ન\u{acd}સર"),
-			keywords: &[
-				"તલવરીયો",
-				"તલવાર",
-				"ફ\u{ac7}ન\u{acd}સર",
-				"ફ\u{ac7}ન\u{acd}સિ\u{a82}ગ",
-				"માણસ",
-				"સ\u{acd}પૉર\u{acd}ટ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("mutum wasan zorro"),
-			keywords: &[
-				"karaskiya",
-				"mai wasan zorro",
-				"mutum wasan zorro",
-				"sara-suka",
-				"suka",
-				"takobi",
-				"wasan kibau",
-				"wasan takobi",
-				"wasan zorro",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("mutum wasan zorro"),
-			keywords: &[
-				"karaskiya",
-				"mai wasan zorro",
-				"mutum wasan zorro",
-				"sara-suka",
-				"suka",
-				"takobi",
-				"wasan kibau",
-				"wasan takobi",
-				"wasan zorro",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("סייף"),
-			keywords: &["דקירה", "סייף", "סיף", "ספורט"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("तलवारबाज\u{93c}"),
-			keywords: &["खिलाड\u{93c}ी", "घ\u{947}रन\u{947} वाला", "तलवार", "तलवारबाज\u{93c}"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("osoba se mačuje"),
-			keywords: &["mač", "mačevalac", "mačevanje", "osoba", "osoba se mačuje"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("vívó"),
-			keywords: &["kard", "sport", "sportoló", "vív", "vívás", "vívó"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("սուսերամարտիկ"),
-			keywords: &["մարդ", "սուսերամարտ", "սուսերամարտիկ", "սուր", "սպորտ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("orang berolahraga anggar"),
-			keywords: &[
-				"anggar",
-				"atlet anggar",
-				"olahraga",
-				"orang",
-				"orang berolahraga anggar",
-				"pedang",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("onye na-eme egwuregwu akparakpa mma"),
-			keywords: &[
-				"egwuregwu akparakpa mma",
-				"mma",
-				"na-eme egwuregwu akparakpa mma",
-				"onye na-eme egwuregwu akparakpa mma",
-			],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("skylmingar"),
-			keywords: &["bardagaíþrótt", "skylmast", "skylmingar", "íþrótt"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("schermidore"),
-			keywords: &["fioretto", "persona", "scherma", "schermidore", "spada", "sport"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("フェンシングをする人"),
-			keywords: &["スポーツ", "フェンシング", "フェンシングをする人"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("wong main anggar"),
-			keywords: &["anggar", "atlit anggar", "pedhang", "wong main anggar"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მოფარიკავე"),
-			keywords: &["ადამიანი", "მოფარიკავე", "სპორტი", "ფარიკაობა", "ხმალი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("семсерлесіп жатқан адам"),
-			keywords: &["адам", "семсер", "семсерлесіп жатқан адам", "семсерші", "спорт", "спортшы"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("fægter"),
-			keywords: &["fægter", "fægtning", "person", "sport", "sværd"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("អ\u{17d2}នកក\u{17b8}ឡាចាក\u{17cb}សាប"),
-			keywords: &[
-				"ក\u{17b8}ឡា",
-				"ចាក\u{17cb}សាប",
-				"ដាវ",
-				"មន\u{17bb}ស\u{17d2}ស",
-				"អ\u{17d2}នកក\u{17b8}ឡាចាក\u{17cb}សាប",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯಾಪಟು"),
-			keywords: &[
-				"ಕತ\u{ccd}ತ\u{cbf}",
-				"ಕತ\u{ccd}ತ\u{cbf}ವರಸ\u{cc6}",
-				"ಕರವಾಳ",
-				"ಖಡ\u{ccd}ಗ",
-				"ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯಾಪಟು",
-				"ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯ\u{cc6}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("펜싱하는 사람"),
-			keywords: &["검", "선수", "스포츠", "칼", "펜싱", "펜싱하는 사람"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("व\u{94d}यक\u{94d}ती तलवार चलयता"),
-			keywords: &["तलवार", "तलवार चलयता", "तलवार चलोवपी", "व\u{94d}यक\u{94d}ती तलवार चलयता"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("сайышуу"),
-			keywords: &["адам", "рапира", "сайышуу", "сайышуу боюнча спортчу", "спорт"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("fechtend Persoun"),
-			keywords: &["Fechter", "Schwäert", "fechten", "fechtend Persoun"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ນ\u{eb1}ກດາບ"),
-			keywords: &["ກ\u{eb4}ລາ", "ຄ\u{ebb}ນ", "ດາບ", "ນ\u{eb1}ກດາບ", "ຟ\u{eb1}ນດາບ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("fechtuotojas"),
-			keywords: &["fechtavimas", "fechtuotojas", "kardas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("paukotājs"),
-			keywords: &["paukotājs", "paukošana", "rapieris"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tangata matātuhi"),
-			keywords: &["hoari", "kaimatātuhi", "matātuhi hoari", "tangata matātuhi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("мечувач"),
-			keywords: &["меч", "мечувач", "мечување", "спорт"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വ\u{d3e}ൾപയറ\u{d4d}റ\u{d41}ക\u{d3e}രൻ"),
-			keywords: &[
-				"വ\u{d3e}ൾ",
-				"വ\u{d3e}ൾപയറ\u{d4d}റ\u{d41}ക\u{d3e}രൻ",
-				"വ\u{d3e}ൾപയറ\u{d4d}റ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("туялзуур жадаар тоглогч"),
-			keywords: &[
-				"сэлэм",
-				"туялзуур жадаар тоглогч",
-				"туялзуур сэлэм",
-				"туялзуур сэлэмчин",
-				"туялзуур сэлэмээр тоглогч",
-			],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("फ\u{947}न\u{94d}सर"),
-			keywords: &[
-				"ख\u{947}ळ",
-				"तलवार",
-				"फ\u{947}न\u{94d}सर",
-				"फ\u{947}न\u{94d}सि\u{902}ग",
-				"फ\u{947}न\u{94d}सि\u{902}ग चालविणारी व\u{94d}यक\u{94d}ती",
-				"व\u{94d}यक\u{94d}ती",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("pemain pedang"),
-			keywords: &["bermain pedang", "orang", "pemain pedang", "sukan"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("persuna fencing"),
-			keywords: &["fencer", "fencing", "persuna fencing", "xabla"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဓားရေးပြ\u{102d}\u{102f}င\u{103a}သ\u{1030}"),
-			keywords: &[
-				"ဓား",
-				"ဓားရေးပြ\u{102d}\u{102f}င\u{103a}ပ\u{103d}\u{1032}",
-				"ဓားရေးပြ\u{102d}\u{102f}င\u{103a}သ\u{1030}",
-				"လ\u{1030}ပ\u{102f}ဂ\u{1039}ဂ\u{102d}\u{102f}လ\u{103a}",
-				"အားကစား",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{947}न\u{94d}सर"),
-			keywords: &[
-				"ख\u{947}ल",
-				"तरवार",
-				"फ\u{947}न\u{94d}सर",
-				"फ\u{947}न\u{94d}सिङ",
-				"व\u{94d}यक\u{94d}ति",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("schermer"),
-			keywords: &["degen", "persoon", "schermen", "schermer"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("fektar"),
-			keywords: &["fektar", "fekte", "fekting", "person", "sport", "sverd"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some(
-				"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
-			),
-			keywords: &[
-				"ଖଣ\u{b4d}ଡ\u{b3e}",
-				"ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b3f}ବ\u{b3e}",
-				"ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ\u{b3e} ଅଭ\u{b4d}ୟ\u{b3e}ସ କର\u{b3f}ବ\u{b3e}",
-				"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਤਲਵਾਰਬਾਜ\u{a3c}"),
-			keywords: &["ਖਿਡਾਰੀ", "ਤਲਵਾਰ", "ਤਲਵਾਰਬਾਜ\u{a3c}", "ਤਲਵਾਰਬਾਜ\u{a3c}ੀ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("باڑ لاندا بندہ"),
-			keywords: &["باڑ لاندا بندہ", "تلوار", "پٹا باز", "پٹے بازی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Pẹ\u{301}sin Wé Hól Sọd De Ple"),
-			keywords: &["Ple", "Ple Wé Pípul De Faít Wit Sọd", "Pẹ\u{301}sin Wé Hól Sọd De Ple", "Sọd"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("osoba uprawiająca szermierkę"),
-			keywords: &[
-				"osoba uprawiająca szermierkę",
-				"sport",
-				"szermierka",
-				"szermierz",
-				"szpada",
-				"zawody",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("شخص جنګېدل"),
-			keywords: &["توره", "جنګېدل", "جنګېدونکی", "شخص جنګېدل"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("esgrimista"),
-			keywords: &["esgrima", "esgrimista", "espada", "esporte", "pessoa"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("pessoa a esgrimir"),
-			keywords: &["desporto", "esgrima", "esgrimista", "espada", "pessoa", "pessoa a esgrimir"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("runa esgrimapi"),
-			keywords: &["esgrima", "esgrimista", "espada", "runa esgrimapi"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("persoană care practică scrima"),
-			keywords: &[
-				"persoană care practică scrima",
-				"sabie",
-				"scrimer",
-				"scrimeră",
-				"scrimă",
-				"spadasin",
-				"spadă",
-				"sport",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-1052"), keywords: &["E10-1052"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("фехтовальщик"),
-			keywords: &["рапира", "спорт", "фехтовальщик", "фехтование", "человек", "шпага"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umuntu uri gukina umukino w’inkota"),
-			keywords: &[
-				"gukinisha inkota",
-				"inkota",
-				"ukinisha inkota",
-				"umuntu uri gukina umukino w’inkota",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("شخص بچاء\u{64f} ڪندي"),
-			keywords: &["بچاڪندي", "بچاڪندڙ", "تلوار", "شخص بچاء\u{64f} ڪندي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("කඩ\u{dd4} හරඹ කර\u{dd4}"),
-			keywords: &[
-				"කඩ\u{dd4} හරඹ කර\u{dd4}",
-				"කඩ\u{dd4} හරඹ ක\u{dd2}ර\u{dd3}ම",
-				"කඩ\u{dd4}ව",
-				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}",
-				"ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("šermiar"),
-			keywords: &["kord", "meč", "človek", "šerm", "šermiar", "šport"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("sabljanje"),
-			keywords: &["meč", "sabljanje", "sabljač", "šport"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("qof ku loolamaya seef"),
-			keywords: &[
-				"qof ku loolamaya seef",
-				"qof ku loollamaya seef",
-				"seef ku loollame",
-				"seef ku loollamid",
-				"seefta",
-			],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("skermist"),
-			keywords: &["mbrojtës", "person", "shpatë", "skermist", "skermë", "sport"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("мачевалац"),
-			keywords: &["мач", "мачевалац", "мачевање", "особа"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("mačevalac"),
-			keywords: &["mač", "mačevalac", "mačevanje", "osoba"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("person som fäktas"),
-			keywords: &["fäktare", "fäktning", "person", "person som fäktas", "sport", "svärd"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mtu aliyeshika upanga"),
-			keywords: &["mtu aliyeshika upanga", "spoti", "upanga"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("கூர\u{bcd}வ\u{bbe}ள\u{bcd} விளைய\u{bbe}ட\u{bcd}டு"),
-			keywords: &[
-				"கூர\u{bcd}வ\u{bbe}ள\u{bcd}",
-				"நபர\u{bcd}",
-				"வ\u{bbe}ள\u{bcd} சண\u{bcd}டை",
-				"விளைய\u{bbe}ட\u{bcd}டு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some(
-				"కత\u{c4d}త\u{c3f}స\u{c3e}ము చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-			),
-			keywords: &[
-				"కత\u{c4d}త\u{c3f}",
-				"కత\u{c4d}త\u{c3f}స\u{c3e}ము చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-				"కత\u{c4d}త\u{c3f}స\u{c3e}ముత\u{c4b} ఉన\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-				"క\u{c4d}ర\u{c40}డ",
-				"ఫ\u{c46}న\u{c4d}సర\u{c4d}",
-				"ఫ\u{c46}న\u{c4d}స\u{c3f}ంగ\u{c4d}",
-				"ఫ\u{c46}న\u{c4d}స\u{c3f}ంగ\u{c4d} చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-				"వ\u{c4d}యక\u{c4d}త\u{c3f}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("шахси шамшербозӣ карда истода"),
-			keywords: &["шамшер", "шамшербоз", "шамшербозӣ", "шахси шамшербозӣ карда истода"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("น\u{e31}กฟ\u{e31}นดาบ"),
-			keywords: &["ก\u{e35}ฬา", "คน", "ดวล", "ดาบ", "น\u{e31}กฟ\u{e31}นดาบ", "ฟ\u{e31}น"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ሰብ ሓጹር ምግባር"),
-			keywords: &["ሓጹር ምግባር", "ሰብ", "ሴፍ", "ፌንሰር"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gylyçlaşýan adam"),
-			keywords: &["gylyç", "gylyçlaşmak", "gylyçlaşýan", "gylyçlaşýan adam"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("tokotaha tau heletā"),
-			keywords: &["heletā", "tokotaha tau heletā"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("eskrimci"),
-			keywords: &["birey", "eskrim", "eskrimci", "kılıç", "spor"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("قىلىچلىق كىشى"),
-			keywords: &["شەمشەر", "قىلىچ ئوينىتىش", "قىلىچلىق كىشى", "قىلىچۋاز"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("фехтувальник"),
-			keywords: &[
-				"змагання",
-				"спорт",
-				"фехтувальник",
-				"фехтувальниця",
-				"фехтування",
-				"шабля",
-				"шпага",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("تلوار بازی"),
-			keywords: &["بندہ", "تلوار", "تلوار بازی", "کھیل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("qilichboz"),
-			keywords: &["odam", "qilichboz", "qilichbozlik", "rapira", "sport"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("người đấu kiếm"),
-			keywords: &["kiếm", "người đánh kiếm", "người đấu kiếm", "đấu kiếm"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("nit kuy fente"),
-			keywords: &["eppee", "fente", "fentekat", "nit kuy fente"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umntu olwa ngesabile"),
-			keywords: &["ikrele", "ukulwa ngesabile", "umntu olwa ngesabile"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ẹni N Ja Pẹlu Ida"),
-			keywords: &["eré jíjà", "eré ìjà", "idà", "Ẹni N Ja Pẹlu Ida"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ɛni N Ja Pɛlu Ida"),
-			keywords: &["eré jíjà", "eré ìjà", "idà", "Ɛni N Ja Pɛlu Ida"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("玩劍擊嘅人"),
-			keywords: &["劍", "劍擊", "劍擊運動員", "玩劍擊嘅人"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("玩剑击嘅人"),
-			keywords: &["剑", "剑击", "剑击运动员", "玩剑击嘅人"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("击剑选手"),
-			keywords: &["人", "体育", "击剑", "击剑选手", "剑"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("西洋劍"),
-			keywords: &["擊劍", "西洋劍", "運動"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("劍擊運動員"),
-			keywords: &["劍", "劍擊", "劍擊運動員", "擊劍", "運動"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ifensa"),
-			keywords: &["ifensa", "inkemba", "perso", "ukufensa", "umdlalo"],
 		},
 	],
 };
@@ -16328,6 +14016,2318 @@ pub const SKIER: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
+};
+#[doc = "🤽"]
+pub const PERSON_PLAYING_WATER_POLO: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🤽",
+		codepoint:            &[129341u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+		name:                 "person playing water polo",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonSport,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("waterpolo"),
+				keywords: &[
+					"persoon",
+					"polo",
+					"sport",
+					"swem",
+					"toernooi",
+					"waterpolo",
+					"watersport",
+					"wedstryd",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("የውሃ ላይ ገና ጨዋታ"),
+				keywords: &[
+					"ማርኮ",
+					"ሰው",
+					"ስፖርት",
+					"ውሃ",
+					"ውሃ ዋና",
+					"የውሃ ላይ ገና ጨዋታ",
+					"የውሃ ስፖርት",
+					"የውሃ ፖሎ",
+					"የገና ጨዋታ",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("شخص يلعب كرة ماء"),
+				keywords: &[
+					"أشخاص",
+					"ألعاب مائية",
+					"أنشطة",
+					"الأشخاص والجسد",
+					"رياضة",
+					"سباحة",
+					"شخص",
+					"شخص يلعب كرة ماء",
+					"كرة ماء",
+					"ماء",
+				],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("ৱ\u{9be}ট\u{9be}ৰ প’ল’ খেলি থক\u{9be} ব\u{9cd}যক\u{9cd}তি"),
+				keywords: &[
+					"প\u{9be}নী",
+					"প’ল’",
+					"ৱ\u{9be}ট\u{9be}ৰ প’ল’ খেলি থক\u{9be} ব\u{9cd}যক\u{9cd}তি",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("su polosu"),
+				keywords: &[
+					"Marco oyunu",
+					"idman",
+					"polo",
+					"su",
+					"su idman növü",
+					"su polosu",
+					"su poloçusu kişi",
+					"top",
+					"yarışma",
+					"üzgüçülük",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("воднае пола"),
+				keywords: &["воднае", "пола", "спорт", "чалавек"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("водна топка"),
+				keywords: &["вода", "водна топка", "плуване", "спорт", "топка", "човек"],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("ওয\u{9bc}\u{9be}ট\u{9be}র পোলো"),
+				keywords: &[
+					"ওয\u{9bc}\u{9be}ট\u{9be}র",
+					"খেল\u{9be}",
+					"খেল\u{9be}ধ\u{9c1}ল\u{9be}",
+					"জল",
+					"জল ক\u{9cd}রীড\u{9bc}\u{9be}",
+					"প\u{9be}নির খেল\u{9be}ধ\u{9c1}ল\u{9be}",
+					"পোলো",
+					"ব\u{9cd}যক\u{9cd}তি",
+					"স\u{9be}\u{981}ত\u{9be}র ক\u{9be}ট\u{9be}",
+					"স\u{9cd}পোর\u{9cd}টস",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("vaterpolo"),
+				keywords: &["osoba", "polo", "sport", "vaterpolo", "voda"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("persona que juga a waterpolo"),
+				keywords: &[
+					"aigua",
+					"esport",
+					"esport aquàtic",
+					"esportista",
+					"persona",
+					"persona jugant a waterpolo",
+					"persona que juga a waterpolo",
+					"waterpolista",
+					"waterpolo",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ"),
+				keywords: &["ᎠᎳᏍᎦᎵᏙᏗ", "ᎠᎹ", "ᏴᏫ ᏓᏁᎶᎲᏍᎬ ᎠᎹ ᎠᎳᏍᎦᎵᏙᏗ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("osoba hrající vodní pólo"),
+				keywords: &[
+					"osoba hrající vodní pólo",
+					"plavat",
+					"plavání",
+					"pólo",
+					"sport",
+					"voda",
+					"vodní pólo",
+					"vodní sport",
+					"člověk",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("polo dŵr"),
+				keywords: &["chwaraeon", "dŵr", "person", "polo"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("vandpolospiller"),
+				keywords: &[
+					"person",
+					"polo",
+					"sport",
+					"svømmer",
+					"svømning",
+					"vand",
+					"vandpolo",
+					"vandpolospiller",
+					"vandsport",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Wasserballspieler(in)"),
+				keywords: &[
+					"Person",
+					"Schwimmsport",
+					"Sport",
+					"Sportler",
+					"Sportlerin",
+					"Wasser",
+					"Wasserball",
+					"Wasserballspieler",
+					"Wasserballspieler(in)",
+					"Wasserballspielerin",
+					"Wassersport",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("πόλο"),
+				keywords: &["άτομο", "κολύμπι", "νερό", "πόλο", "σπορ", "υδατοσφαίριση"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("person playing water polo"),
+				keywords: &["person", "playing", "polo", "sport", "swimming", "water", "waterpolo"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("persona jugando al waterpolo"),
+				keywords: &["persona jugando al waterpolo", "waterpolista", "waterpolo"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"agua",
+					"deporte",
+					"deporte acuático",
+					"deportista",
+					"persona",
+					"persona jugando al waterpolo",
+					"persona jugando waterpolo",
+					"waterpolista",
+					"waterpolo",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation {
+				lang:     "es_MX",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"deporte acuático",
+					"deportista",
+					"persona",
+					"persona jugando al waterpolo",
+					"waterpolo",
+				],
+			},
+			#[cfg(feature = "es_US")]
+			crate::Annotation {
+				lang:     "es_US",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"agua",
+					"persona jugando al waterpolo",
+					"persona jugando waterpolo",
+					"polo acuático",
+				],
+			},
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("veepalli mängiv inimene"),
+				keywords: &["inimene", "mängiv", "polo", "sport", "ujumine", "veepall", "vesi"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("waterpoloa"),
+				keywords: &["kirol", "pertsona", "waterpolo", "waterpoloa"],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("واترپلو"),
+				keywords: &[
+					"آدم",
+					"استخر",
+					"بازی",
+					"شنا",
+					"شوت",
+					"مرد",
+					"مسابقه",
+					"واترپلو",
+					"ورزش",
+					"ورزش آبی",
+					"پرتاب",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("vesipalloilija"),
+				keywords: &[
+					"ihminen",
+					"liikunta",
+					"pallo",
+					"uinti",
+					"urheilu",
+					"vesi",
+					"vesipallo",
+					"vesiurheilu",
+				],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("taong naglalaro ng water polo"),
+				keywords: &["Marco", "polo", "sport", "tao", "taong naglalaro ng water polo", "water"],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("persónur sum spælir vatnpolo"),
+				keywords: &["fólk", "persónur", "persónur sum spælir vatnpolo", "vatnpolo"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("personne jouant au water-polo"),
+				keywords: &[
+					"ballon",
+					"homme qui joue au water-polo",
+					"personne",
+					"personne jouant au water-polo",
+					"piscine",
+					"sport",
+					"water-polo",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation {
+				lang:     "fr_CA",
+				tts:      Some("personne qui joue au water-polo"),
+				keywords: &["personne", "personne qui joue au water-polo", "water-polo"],
+			},
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("póló uisce"),
+				keywords: &["Marco", "caith", "duine", "liathróid", "póló", "snámh", "spórt", "uisce"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("neach a’ cluich polo-uisge"),
+				keywords: &["neach a’ cluich polo-uisge", "polo", "uisge"],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("wáter-polo"),
+				keywords: &["auga", "deporte", "wáter-polo"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("વૉટર પોલો"),
+				keywords: &[
+					"પાણીમા\u{a82} રમાતી રમત",
+					"પોલો",
+					"માણસ",
+					"વૉટર",
+					"વોટર સ\u{acd}પોર\u{acd}ટ",
+					"વોટરપોલો",
+					"વ\u{acd}યક\u{acd}તિ",
+					"સ\u{acd}પૉર\u{acd}ટ",
+					"સ\u{acd}વિમિ\u{a82}ગ",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mutum mai bugan wasan holo na ruwa"),
+				keywords: &[
+					"mutum",
+					"mutum mai bugan wasan holo na ruwa",
+					"ninƙaya",
+					"wasan holo",
+					"wasannin da ake yi a ruwa",
+					"wasannin ruwa",
+					"ƙwallon ruwa",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mutum mai bugan wasan holo na ruwa"),
+				keywords: &[
+					"mutum",
+					"mutum mai bugan wasan holo na ruwa",
+					"ninƙaya",
+					"wasan holo",
+					"wasannin da ake yi a ruwa",
+					"wasannin ruwa",
+					"ƙwallon ruwa",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("כדורמים"),
+				keywords: &[
+					"אדם משחק כדור-מים",
+					"בריכה",
+					"כדור מים",
+					"כדור-מים",
+					"ספורט",
+					"ספורט במים",
+					"ספורט מים",
+					"פולו מים",
+					"שחייה",
+				],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("वाटर पोलो ख\u{947}लता व\u{94d}यक\u{94d}ति"),
+				keywords: &[
+					"ख\u{947}ल",
+					"त\u{948}राक",
+					"त\u{948}राकी",
+					"पानी",
+					"पानी का ख\u{947}ल",
+					"पोलो",
+					"मार\u{94d}को",
+					"वाटर पोलो ख\u{947}लता व\u{94d}यक\u{94d}ति",
+					"वॉटर पोलो",
+					"व\u{94d}यक\u{94d}ति",
+					"स\u{94d}विमि\u{902}ग",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("osobe igraju vaterpolo"),
+				keywords: &[
+					"osoba",
+					"osobe igraju vaterpolo",
+					"plivanje",
+					"polo",
+					"sport",
+					"vaterpolo",
+					"voda",
+					"vodeni sport",
+				],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("vízilabda"),
+				keywords: &["póló", "sport", "víz", "vízilabda"],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("ջրագնդակ խաղացող անձ"),
+				keywords: &["մարդ", "մարմնամարզություն", "պոլո", "ջուր", "ջրագնդակ խաղացող անձ"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("orang bermain polo air"),
+				keywords: &[
+					"air",
+					"atlet polo air",
+					"berenang",
+					"laki-laki",
+					"olahraga",
+					"orang",
+					"orang bermain polo air",
+					"polo",
+					"pria",
+				],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("onye na-egwu egwuregwu bọọlụ mmiri"),
+				keywords: &[
+					"bọọlụ mmiri",
+					"egwuregwu",
+					"egwuregwu bọọlụ mmiri",
+					"igwu mmiri",
+					"mmiri",
+					"na-egwu egwu",
+					"onye",
+				],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("manneskja í vatnapóló"),
+				keywords: &["manneskja í vatnapóló", "póló", "vatn"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("persona che gioca a pallanuoto"),
+				keywords: &[
+					"acqua",
+					"giocatrice di pallanuoto",
+					"pallanuoto",
+					"persona",
+					"persona che gioca a pallanuoto",
+					"piscina",
+					"sport",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("水球をする人"),
+				keywords: &["スポーツ", "水上競技", "水泳", "水球", "水球をする人", "球技"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong main polo banyu"),
+				keywords: &["banyu", "polo", "wong main polo banyu"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("წყალბურთი"),
+				keywords: &["ადამიანი", "სპორტი", "წყალბურთი", "წყალი"],
+			},
+			#[cfg(feature = "kab")]
+			crate::Annotation {
+				lang:     "kab",
+				tts:      Some("amdan yetturare water polo"),
+				keywords: &["amdan yetturare water polo"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("су полосы"),
+				keywords: &["адам", "бассейн", "жүзу", "поло", "спорт", "су", "су полосы"],
+			},
+			#[cfg(feature = "kl")]
+			crate::Annotation {
+				lang:     "kl",
+				tts:      Some("vandpolo"),
+				keywords: &["sport", "vand", "vandpolo", "vandsport"],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some(
+					"មន\u{17bb}ស\u{17d2}សលេងក\u{17b8}ឡាគប\u{17cb}បាល\u{17cb}ក\u{17d2}ន\u{17bb}ងទ\u{17b9}ក",
+				),
+				keywords: &[
+					"ក\u{17b8}ឡា",
+					"ក\u{17b8}ឡាបោះបាល\u{17cb}",
+					"ទ\u{17b9}ក",
+					"មន\u{17bb}ស\u{17d2}សលេងក\u{17b8}ឡាគប\u{17cb}បាល\u{17cb}ក\u{17d2}ន\u{17bb}ងទ\u{17b9}ក",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some(
+					"ವಾಟರ\u{ccd} ಪ\u{ccb}ಲ\u{cca} ಆಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+				),
+				keywords: &[
+					"ಕ\u{ccd}ರ\u{cc0}ಡ\u{cc6}",
+					"ನ\u{cc0}ರು",
+					"ಪ\u{ccb}ಲ\u{ccb}",
+					"ಮಾರ\u{ccd}ಕ\u{ccb}",
+					"ವಾಟರ\u{ccd} ಪ\u{ccb}ಲ\u{cca} ಆಡುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("수구하는 사람"),
+				keywords: &["수구", "수구하는 사람", "수상 스포츠", "스포츠", "워터폴로"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("व\u{94d}यक\u{94d}ती उदका\u{902}त पोलो ख\u{947}ळटा"),
+				keywords: &[
+					"उदक",
+					"पोलो",
+					"व\u{94d}यक\u{94d}ती उदका\u{902}त पोलो ख\u{947}ळटा",
+					"व\u{94d}यक\u{94d}ती उदकात पोलो ख\u{947}ळटा",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("суудагы поло оюну"),
+				keywords: &["адам", "поло", "спорт", "суу", "суудагы поло оюну"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Waasserballspiller(in)"),
+				keywords: &["Polo", "Waasser", "Waasserballspiller(in)"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ໂປໂລນ\u{ecd}\u{ec9}າ"),
+				keywords: &[
+					"ກ\u{eb4}ລາ",
+					"ຄ\u{ebb}ນ",
+					"ນ\u{ecd}\u{ec9}າ",
+					"ລອຍນ\u{ec9}ຳ",
+					"ໂປໂລ",
+					"ໂປໂລນ\u{ecd}\u{ec9}າ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("vandensvydis"),
+				keywords: &[
+					"Marco",
+					"plaukimas",
+					"vandens sportas",
+					"vandensvydis",
+					"vandensvydžio žaidėjas",
+					"vanduo",
+					"žmogus",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("ūdenspolo sportists"),
+				keywords: &["cilvēks", "polo", "sports", "ūdens", "ūdenspolo", "ūdenspolo sportists"],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("tangata tākaro poro wai"),
+				keywords: &["poro", "tangata tākaro poro wai", "wai"],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("ватерполо"),
+				keywords: &["ватерполист", "ватерполо", "лице", "пливање", "спорт", "спорт во вода"],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("വ\u{d3e}ട\u{d4d}ടർ പോളോ"),
+				keywords: &[
+					"ക\u{d3e}യികം",
+					"പോളോ",
+					"വ\u{d3e}ട\u{d4d}ടർ",
+					"വ\u{d3e}ട\u{d4d}ടർപോളോ",
+					"സ\u{d4d}പോർട\u{d4d}സ\u{d4d}",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("усны поло"),
+				keywords: &["поло", "спорт", "ус", "усны поло", "хүн"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("वॉटर पोलो"),
+				keywords: &[
+					"पाण\u{94d}यातील क\u{94d}रीडाप\u{94d}रकार",
+					"पाण\u{94d}यातील ख\u{947}ळ",
+					"प\u{942}ल",
+					"पोलो",
+					"बॉल",
+					"वॉटर",
+					"वॉटर पोलो ख\u{947}ळणारा प\u{941}र\u{941}ष",
+					"वॉटर पोलो ख\u{947}ळणारी व\u{94d}यक\u{94d}ती",
+					"वॉटर स\u{94d}पोर\u{94d}ट\u{94d}स",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("polo air"),
+				keywords: &["air", "orang", "polo", "sukan"],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("persuna tilgħab il-waterpolo"),
+				keywords: &["ilma", "persuna tilgħab il-waterpolo", "polo"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("ဝါတာပ\u{102d}\u{102f}လ\u{102d}\u{102f}"),
+				keywords: &[
+					"ပ\u{102d}\u{102f}လ\u{102d}\u{102f}",
+					"ရေ",
+					"လ\u{1030}ပ\u{102f}ဂ\u{1039}ဂ\u{102d}\u{102f}လ\u{103a}",
+					"ဝါတာပ\u{102d}\u{102f}လ\u{102d}\u{102f}",
+					"အားကစား",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("वाटर पोलो"),
+				keywords: &["ख\u{947}ल", "पानी", "पोलो", "वाटर पोलो", "व\u{94d}यक\u{94d}ति"],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("persoon die waterpolo speelt"),
+				keywords: &["persoon", "polo", "spelen", "sport", "water", "waterpolo", "zwemmen"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("vasspolo"),
+				keywords: &["person", "polo", "sport", "vasspolo", "vatn"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ୱ\u{b3e}ଟର ପୋଲୋ ଖେଳ\u{b41}ଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}"),
+				keywords: &[
+					"ଜଳ",
+					"ପୋଲୋ",
+					"ୱ\u{b3e}ଟର ପୋଲୋ ଖେଳ\u{b41}ଥ\u{b3f}ବ\u{b3e} ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f}",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b} ਖ\u{a47}ਡਦਾ ਵਿਅਕਤੀ"),
+				keywords: &[
+					"ਖ\u{a47}ਡ",
+					"ਪਾਣੀ",
+					"ਪਾਣੀ ਵਾਲੀਆ\u{a02} ਖ\u{a47}ਡਾ\u{a02}",
+					"ਪ\u{a4b}ਲ\u{a4b}",
+					"ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b}",
+					"ਵਾਟਰ ਪ\u{a4b}ਲ\u{a4b} ਖ\u{a47}ਡਦਾ ਵਿਅਕਤੀ",
+					"ਵਿਅਕਤੀ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("واٹر پولو کھیڈدا بندہ"),
+				keywords: &["واٹر پولو کھیڈدا بندہ", "پانی", "پولو"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Pẹ\u{301}sin Wé De Plé Wọ\u{301}tá Poló"),
+				keywords: &["Poló", "Pẹ\u{301}sin Wé De Plé Wọ\u{301}tá Poló", "Wọtá"],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("osoba grająca w piłkę wodną"),
+				keywords: &[
+					"grająca",
+					"osoba",
+					"piłka",
+					"piłkarka",
+					"piłkarz",
+					"sport",
+					"w piłkę wodną",
+					"woda",
+					"wodna",
+					"wodny",
+				],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("شخص د اوبو پولو لوبه کوي"),
+				keywords: &["اوبه", "شخص د اوبو پولو لوبه کوي", "پولو"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("pessoa jogando polo aquático"),
+				keywords: &[
+					"esporte",
+					"esporte aquático",
+					"pessoa",
+					"pessoa jogando polo aquático",
+					"piscina",
+					"polo aquático",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("pessoa a jogar polo aquático"),
+				keywords: &[
+					"desporto",
+					"desporto aquático",
+					"nadar",
+					"natação",
+					"pessoa",
+					"pessoa a jogar polo aquático",
+					"piscina",
+					"polo",
+					"polo aquático",
+					"água",
+				],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("runa water polo pukllachkan"),
+				keywords: &["polo", "runa water polo pukllachkan", "water"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("persoană care joacă polo pe apă"),
+				keywords: &[
+					"apă",
+					"om",
+					"persoană",
+					"persoană care joacă polo pe apă",
+					"polo",
+					"polo pe apă",
+					"sport",
+					"sport acvatic",
+					"sport nautic",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-1054"), keywords: &["E10-1054"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("водное поло"),
+				keywords: &["вода", "водное", "поло", "спорт", "человек"],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umuntu uri gukina umukino wa water polo"),
+				keywords: &["amazi", "umukino wa polo", "umuntu uri gukina umukino wa water polo"],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("ماڻهو پاڻي وارو پولو کيڏيندي"),
+				keywords: &["ماڻهو پاڻي وارو پولو کيڏيندي", "پاڻي", "پولو"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("ජල පන\u{dca}ද\u{dd4}"),
+				keywords: &[
+					"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}",
+					"ජල පන\u{dca}ද\u{dd4}",
+					"ජලය",
+					"ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
+					"පොලෝ",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("vodné pólo"),
+				keywords: &["osoba", "plávanie", "pólo", "voda", "vodné pólo", "vodný šport"],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("vaterpolo"),
+				keywords: &[
+					"Marco",
+					"bazen",
+					"oseba",
+					"plavanje",
+					"vaterpolo",
+					"vodni šport",
+					"waterpolo",
+					"šport",
+					"žoga",
+				],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("qof cayaaraya kubadda biyaha"),
+				keywords: &["biyo", "kubad", "qof cayaaraya kubadda biyaha"],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("vaterpolo"),
+				keywords: &["Marko", "not", "person", "sport", "sport ujor", "vaterpolo"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("ватерполо"),
+				keywords: &["ватерполиста", "ватерполо", "вода", "особа", "пливање", "поло", "спорт"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("vaterpolo"),
+				keywords: &["osoba", "plivanje", "polo", "sport", "vaterpolista", "vaterpolo", "voda"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("person som spelar vattenpolo"),
+				keywords: &["person", "person som spelar vattenpolo", "polo", "sport", "vattenpolo"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("michezo kwenye bwawa la kuogelea"),
+				keywords: &["bwawa la kuogelea", "maji", "michezo kwenye bwawa la kuogelea", "spoti"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("வ\u{bbe}ட\u{bcd}டர\u{bcd} போலோ"),
+				keywords: &[
+					"தண\u{bcd}ண\u{bc0}ர\u{bcd}",
+					"நபர\u{bcd}",
+					"ந\u{bc0}ச\u{bcd}சல\u{bcd}",
+					"ந\u{bc0}ர\u{bcd} விளைய\u{bbe}ட\u{bcd}டு",
+					"போலோ",
+					"வ\u{bbe}ட\u{bcd}டர\u{bcd} போலோ",
+					"விளைய\u{bbe}ட\u{bcd}டு",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some(
+					"వ\u{c3e}టర\u{c4d} ప\u{c4b}ల\u{c4b} ఆడుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+				),
+				keywords: &[
+					"క\u{c4d}ర\u{c40}డ",
+					"జలక\u{c4d}ర\u{c40}డ",
+					"ప\u{c4b}ల\u{c4b}",
+					"మన\u{c3f}ష\u{c3f}",
+					"మ\u{c3e}ర\u{c4d}క\u{c4b}",
+					"వ\u{c3e}టర\u{c4d}",
+					"వ\u{c3e}టర\u{c4d} ప\u{c4b}ల\u{c4b} ఆడుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"స\u{c4d}వ\u{c3f}మ\u{c4d}మ\u{c3f}ంగ\u{c4d}",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("шахси ватерполо бозӣ карда истода"),
+				keywords: &["об", "поло", "шахси ватерполо бозӣ карда истода"],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("น\u{e31}กโปโลน\u{e49}ำ"),
+				keywords: &["ก\u{e35}ฬา", "คน", "น\u{e49}ำ", "โปโล"],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ዋተር ፖሎ ዝጻወት ሰብ"),
+				keywords: &["ማይ", "ምሕንባስ", "ምጽዋት", "ሰብ", "ስፖርት", "ዋተርፖሎ", "ፖሎ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("suw polo oýnaýan adam"),
+				keywords: &["suw", "suw polo oýnaýan adam", "waterpolo"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("tokotaha polovai"),
+				keywords: &["polo", "tokotaha polovai", "vai"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("su topu"),
+				keywords: &[
+					"antrenman",
+					"birey",
+					"havuz",
+					"kişi",
+					"spor",
+					"su",
+					"su sporları",
+					"su topu",
+					"top",
+					"vücut",
+					"yüzme",
+				],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("سۇ توپى ئويناۋاتقانلار"),
+				keywords: &["توپ", "سۇ", "سۇ توپى ئويناۋاتقانلار"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("людина, що грає у ватерполо"),
+				keywords: &[
+					"вода",
+					"водне поло",
+					"водний спорт",
+					"людина",
+					"людина, що грає у ватерполо",
+					"плавання",
+					"поло",
+					"спорт",
+					"що грає у ватерполо",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("واٹر پولو"),
+				keywords: &["بندہ", "تیراکی", "واٹر اسپورٹس", "واٹر پولو", "پانی", "پولو", "کھیل"],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("suv polosi"),
+				keywords: &["koptok", "odam", "polo", "sport", "suv", "suv polosi", "suv sporti", "suzish"],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người chơi bóng nước"),
+				keywords: &[
+					"bóng",
+					"bơi lội",
+					"người chơi bóng dưới nước",
+					"người chơi bóng nước",
+					"nước",
+					"thể thao dưới nước",
+				],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("nit kuy polo ci ndox"),
+				keywords: &["ndox", "nit kuy polo ci ndox", "polo"],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umntu odlala i-polo yasemanzini"),
+				keywords: &["amanzi", "i-polo", "umntu odlala i-polo yasemanzini"],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("Ẹni N ṣere Olomi"),
+				keywords: &["omi", "pólò", "Ẹni N ṣere Olomi"],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("Ɛni N shere Olomi"),
+				keywords: &["omi", "pólò", "Ɛni N shere Olomi"],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("玩水球嘅人"),
+				keywords: &["水", "水球", "玩水球嘅人"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("玩水球嘅人"),
+				keywords: &["水", "水球", "玩水球嘅人"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("水球"),
+				keywords: &["人", "体育", "水上足球", "水上运动", "水球", "游泳", "马可波罗游戏"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("水球運動"),
+				keywords: &["人物", "水上", "水球", "水球運動", "游泳", "運動"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("水球"),
+				keywords: &["水上運動", "水球", "游水", "游泳", "運動員"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("ukubhukuda"),
+				keywords: &["amanzi", "ipholo", "ukubhukuda", "umdlalo", "umuntu"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🤽🏻",
+			codepoint:            &[129341u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+			name:                 "person playing water polo: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏼",
+			codepoint:            &[129341u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+			name:                 "person playing water polo: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏽",
+			codepoint:            &[129341u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+			name:                 "person playing water polo: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏾",
+			codepoint:            &[129341u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+			name:                 "person playing water polo: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏿",
+			codepoint:            &[129341u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+			name:                 "person playing water polo: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🏊\u{200d}♀\u{fe0f}"]
+pub const WOMAN_SWIMMING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🏊\u{200d}♀\u{fe0f}",
+		codepoint:            &[127946u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman swimming",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonSport,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🏊🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[127946u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman swimming: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[127946u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman swimming: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[127946u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman swimming: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[127946u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman swimming: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[127946u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman swimming: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🤽\u{200d}♀\u{fe0f}"]
+pub const WOMAN_PLAYING_WATER_POLO: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🤽\u{200d}♀\u{fe0f}",
+		codepoint:            &[129341u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman playing water polo",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonSport,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🤽🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[129341u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman playing water polo: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[129341u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman playing water polo: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[129341u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman playing water polo: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[129341u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman playing water polo: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🤽🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[129341u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman playing water polo: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🏊\u{fe0f}"]
+pub const PERSON_SWIMMING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🏊\u{fe0f}",
+		codepoint:            &[127946u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+		name:                 "person swimming",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonSport,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🏊🏻",
+			codepoint:            &[127946u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person swimming: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏼",
+			codepoint:            &[127946u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person swimming: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏽",
+			codepoint:            &[127946u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person swimming: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏾",
+			codepoint:            &[127946u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person swimming: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏊🏿",
+			codepoint:            &[127946u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+			name:                 "person swimming: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonSport,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🤺"]
+pub const PERSON_FENCING: crate::Emoji = crate::Emoji {
+	glyph:                "🤺",
+	codepoint:            &[129338u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 3u8, minor: 0u8, patch: 0u8 },
+	name:                 "person fencing",
+	group:                crate::Group::PeopleBody,
+	subgroup:             crate::Subgroup::PersonSport,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("skermvegter"),
+			keywords: &[
+				"skerm",
+				"skermer",
+				"skermkuns",
+				"skermvegter",
+				"sport",
+				"swaard",
+				"swaarde kruis",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ሻቦላ ተጫዋች"),
+			keywords: &["ሰው", "ስፖርት", "ሻሞላ", "ሻሞላ ተጫዋች", "ሻቦላ", "ሻቦላ መጫወት", "ሻቦላ ተጫዋች", "ፍልሚያ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("مبارز"),
+			keywords: &["رياضة", "سيف", "شخص", "مبارز", "مبارزة"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("তৰোৱ\u{9be}ল খেল খেল\u{9be} ব\u{9cd}যক\u{9cd}তি"),
+			keywords: &[
+				"তৰোৱ\u{9be}ল",
+				"তৰোৱ\u{9be}ল খেল",
+				"তৰোৱ\u{9be}ল খেল খেল\u{9be} ব\u{9cd}যক\u{9cd}তি",
+				"তৰোৱ\u{9be}ল খেল\u{9c1}ৱৈ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("qılınc oynatma"),
+			keywords: &["idman", "qılınc", "qılınc oynatma", "qılıncoynatma", "yarışma"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("фехтавальшчык"),
+			keywords: &["рапіра", "спорт", "фехтавальшчык", "фехтаванне", "чалавек"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("фехтовач"),
+			keywords: &["спорт", "фехтовач", "фехтовка", "човек", "шпага"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("তলোয\u{9bc}\u{9be}র খেলোয\u{9bc}\u{9be}ড\u{9bc}"),
+			keywords: &[
+				"খেল\u{9be}",
+				"তরওয\u{9bc}\u{9be}ল",
+				"তলোয\u{9bc}\u{9be}র",
+				"তলোয\u{9bc}\u{9be}র খেলোয\u{9bc}\u{9be}ড\u{9bc}",
+				"ব\u{9cd}যক\u{9cd}তি",
+				"লড\u{9bc}\u{9be}ইব\u{9be}জ",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("mačevanje"),
+			keywords: &["mač", "mačevalac", "mačevanje", "osoba", "sport"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("persona que fa esgrima"),
+			keywords: &[
+				"esgrima",
+				"esgrimidor",
+				"esgrimidora",
+				"espasa",
+				"floret",
+				"persona que fa esgrima",
+				"sabre",
+				"tirador",
+				"tiradora",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏴᏫ ᎭᏰᎵᏍᏗ ᎬᏗ ᎦᏁᏦᏍᏗᎲ"),
+			keywords: &["ᎠᏏᎳᏛᏍᎩ", "ᎠᏰᎳᏍᏗ ᎦᏅᎯᏓ", "ᏗᏏᎳᏛᏍᎩ", "ᏴᏫ ᎭᏰᎵᏍᏗ ᎬᏗ ᎦᏁᏦᏍᏗᎲ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("šermíř"),
+			keywords: &[
+				"kord",
+				"meč",
+				"rapír",
+				"sport",
+				"sportovní",
+				"člověk",
+				"šerm",
+				"šermovat",
+				"šermíř",
+				"šermířka",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("ffensiwr"),
+			keywords: &["chwaraeon", "cleddyf", "ffensio", "ffensiwr", "person"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("fægter"),
+			keywords: &["fægter", "fægtning", "person", "sport", "sværd"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Fechter(in)"),
+			keywords: &["Fechter", "Fechter(in)", "Schwert", "Sport", "fechten"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("ξιφομάχος"),
+			keywords: &["άτομο", "ξίφος", "ξιφασκία", "ξιφομάχος", "ξιφομαχία", "σπορ"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("person fencing"),
+			keywords: &["fencer", "fencing", "person", "sword"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("persona haciendo esgrima"),
+			keywords: &["esgrima", "esgrimista", "espada", "persona haciendo esgrima"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("esgrimista"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("vehkleja"),
+			keywords: &["inimene", "mõõk", "sport", "vehkleja", "vehklemine"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("eskrimalaria"),
+			keywords: &["eskrima", "eskrimalaria", "ezpata", "kirola", "pertsona"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("شمشیربازی"),
+			keywords: &["رزمی", "شمشیربازی", "ورزش"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("miekkailija"),
+			keywords: &["liikunta", "miekka", "miekkailija", "miekkailu", "urheilu"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("fencer"),
+			keywords: &["espada", "fencer", "fencing", "sport", "tao"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("fektari"),
+			keywords: &["fektari", "fiktar", "fólk", "persónur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("escrimeur"),
+			keywords: &["escrime", "escrimeur", "escrimeuse", "personne", "sport", "épée"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["duel", "escrime", "escrimeur", "personne", "épée"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("duine ag pionsóireacht"),
+			keywords: &["claíomh", "duine ag pionsóireacht", "pionsóir", "pionsóireacht", "spórt"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("neach ri feannsaireachd"),
+			keywords: &["claidheamh", "feannsair", "feannsaireachd", "neach ri feannsaireachd"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("esgrima"),
+			keywords: &["deporte", "esgrima", "espada", "espadachín", "sable"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફ\u{ac7}ન\u{acd}સર"),
+			keywords: &[
+				"તલવરીયો",
+				"તલવાર",
+				"ફ\u{ac7}ન\u{acd}સર",
+				"ફ\u{ac7}ન\u{acd}સિ\u{a82}ગ",
+				"માણસ",
+				"સ\u{acd}પૉર\u{acd}ટ",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("mutum wasan zorro"),
+			keywords: &[
+				"karaskiya",
+				"mai wasan zorro",
+				"mutum wasan zorro",
+				"sara-suka",
+				"suka",
+				"takobi",
+				"wasan kibau",
+				"wasan takobi",
+				"wasan zorro",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("mutum wasan zorro"),
+			keywords: &[
+				"karaskiya",
+				"mai wasan zorro",
+				"mutum wasan zorro",
+				"sara-suka",
+				"suka",
+				"takobi",
+				"wasan kibau",
+				"wasan takobi",
+				"wasan zorro",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("סייף"),
+			keywords: &["דקירה", "סייף", "סיף", "ספורט"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("तलवारबाज\u{93c}"),
+			keywords: &["खिलाड\u{93c}ी", "घ\u{947}रन\u{947} वाला", "तलवार", "तलवारबाज\u{93c}"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("osoba se mačuje"),
+			keywords: &["mač", "mačevalac", "mačevanje", "osoba", "osoba se mačuje"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("vívó"),
+			keywords: &["kard", "sport", "sportoló", "vív", "vívás", "vívó"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("սուսերամարտիկ"),
+			keywords: &["մարդ", "սուսերամարտ", "սուսերամարտիկ", "սուր", "սպորտ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("orang berolahraga anggar"),
+			keywords: &[
+				"anggar",
+				"atlet anggar",
+				"olahraga",
+				"orang",
+				"orang berolahraga anggar",
+				"pedang",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("onye na-eme egwuregwu akparakpa mma"),
+			keywords: &[
+				"egwuregwu akparakpa mma",
+				"mma",
+				"na-eme egwuregwu akparakpa mma",
+				"onye na-eme egwuregwu akparakpa mma",
+			],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("skylmingar"),
+			keywords: &["bardagaíþrótt", "skylmast", "skylmingar", "íþrótt"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("schermidore"),
+			keywords: &["fioretto", "persona", "scherma", "schermidore", "spada", "sport"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("フェンシングをする人"),
+			keywords: &["スポーツ", "フェンシング", "フェンシングをする人"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("wong main anggar"),
+			keywords: &["anggar", "atlit anggar", "pedhang", "wong main anggar"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მოფარიკავე"),
+			keywords: &["ადამიანი", "მოფარიკავე", "სპორტი", "ფარიკაობა", "ხმალი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("семсерлесіп жатқан адам"),
+			keywords: &["адам", "семсер", "семсерлесіп жатқан адам", "семсерші", "спорт", "спортшы"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("fægter"),
+			keywords: &["fægter", "fægtning", "person", "sport", "sværd"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("អ\u{17d2}នកក\u{17b8}ឡាចាក\u{17cb}សាប"),
+			keywords: &[
+				"ក\u{17b8}ឡា",
+				"ចាក\u{17cb}សាប",
+				"ដាវ",
+				"មន\u{17bb}ស\u{17d2}ស",
+				"អ\u{17d2}នកក\u{17b8}ឡាចាក\u{17cb}សាប",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯಾಪಟು"),
+			keywords: &[
+				"ಕತ\u{ccd}ತ\u{cbf}",
+				"ಕತ\u{ccd}ತ\u{cbf}ವರಸ\u{cc6}",
+				"ಕರವಾಳ",
+				"ಖಡ\u{ccd}ಗ",
+				"ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯಾಪಟು",
+				"ಖಡ\u{ccd}ಗವ\u{cbf}ದ\u{ccd}ಯ\u{cc6}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("펜싱하는 사람"),
+			keywords: &["검", "선수", "스포츠", "칼", "펜싱", "펜싱하는 사람"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("व\u{94d}यक\u{94d}ती तलवार चलयता"),
+			keywords: &["तलवार", "तलवार चलयता", "तलवार चलोवपी", "व\u{94d}यक\u{94d}ती तलवार चलयता"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("сайышуу"),
+			keywords: &["адам", "рапира", "сайышуу", "сайышуу боюнча спортчу", "спорт"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("fechtend Persoun"),
+			keywords: &["Fechter", "Schwäert", "fechten", "fechtend Persoun"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ນ\u{eb1}ກດາບ"),
+			keywords: &["ກ\u{eb4}ລາ", "ຄ\u{ebb}ນ", "ດາບ", "ນ\u{eb1}ກດາບ", "ຟ\u{eb1}ນດາບ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("fechtuotojas"),
+			keywords: &["fechtavimas", "fechtuotojas", "kardas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("paukotājs"),
+			keywords: &["paukotājs", "paukošana", "rapieris"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tangata matātuhi"),
+			keywords: &["hoari", "kaimatātuhi", "matātuhi hoari", "tangata matātuhi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("мечувач"),
+			keywords: &["меч", "мечувач", "мечување", "спорт"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("വ\u{d3e}ൾപയറ\u{d4d}റ\u{d41}ക\u{d3e}രൻ"),
+			keywords: &[
+				"വ\u{d3e}ൾ",
+				"വ\u{d3e}ൾപയറ\u{d4d}റ\u{d41}ക\u{d3e}രൻ",
+				"വ\u{d3e}ൾപയറ\u{d4d}റ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("туялзуур жадаар тоглогч"),
+			keywords: &[
+				"сэлэм",
+				"туялзуур жадаар тоглогч",
+				"туялзуур сэлэм",
+				"туялзуур сэлэмчин",
+				"туялзуур сэлэмээр тоглогч",
+			],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("फ\u{947}न\u{94d}सर"),
+			keywords: &[
+				"ख\u{947}ळ",
+				"तलवार",
+				"फ\u{947}न\u{94d}सर",
+				"फ\u{947}न\u{94d}सि\u{902}ग",
+				"फ\u{947}न\u{94d}सि\u{902}ग चालविणारी व\u{94d}यक\u{94d}ती",
+				"व\u{94d}यक\u{94d}ती",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pemain pedang"),
+			keywords: &["bermain pedang", "orang", "pemain pedang", "sukan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("persuna fencing"),
+			keywords: &["fencer", "fencing", "persuna fencing", "xabla"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဓားရေးပြ\u{102d}\u{102f}င\u{103a}သ\u{1030}"),
+			keywords: &[
+				"ဓား",
+				"ဓားရေးပြ\u{102d}\u{102f}င\u{103a}ပ\u{103d}\u{1032}",
+				"ဓားရေးပြ\u{102d}\u{102f}င\u{103a}သ\u{1030}",
+				"လ\u{1030}ပ\u{102f}ဂ\u{1039}ဂ\u{102d}\u{102f}လ\u{103a}",
+				"အားကစား",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("फ\u{947}न\u{94d}सर"),
+			keywords: &[
+				"ख\u{947}ल",
+				"तरवार",
+				"फ\u{947}न\u{94d}सर",
+				"फ\u{947}न\u{94d}सिङ",
+				"व\u{94d}यक\u{94d}ति",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("schermer"),
+			keywords: &["degen", "persoon", "schermen", "schermer"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("fektar"),
+			keywords: &["fektar", "fekte", "fekting", "person", "sport", "sverd"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some(
+				"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
+			),
+			keywords: &[
+				"ଖଣ\u{b4d}ଡ\u{b3e}",
+				"ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b3f}ବ\u{b3e}",
+				"ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ\u{b3e} ଅଭ\u{b4d}ୟ\u{b3e}ସ କର\u{b3f}ବ\u{b3e}",
+				"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଖଣ\u{b4d}ଡ\u{b3e} ଚ\u{b3e}ଳନ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਤਲਵਾਰਬਾਜ\u{a3c}"),
+			keywords: &["ਖਿਡਾਰੀ", "ਤਲਵਾਰ", "ਤਲਵਾਰਬਾਜ\u{a3c}", "ਤਲਵਾਰਬਾਜ\u{a3c}ੀ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("باڑ لاندا بندہ"),
+			keywords: &["باڑ لاندا بندہ", "تلوار", "پٹا باز", "پٹے بازی"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Pẹ\u{301}sin Wé Hól Sọd De Ple"),
+			keywords: &["Ple", "Ple Wé Pípul De Faít Wit Sọd", "Pẹ\u{301}sin Wé Hól Sọd De Ple", "Sọd"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("osoba uprawiająca szermierkę"),
+			keywords: &[
+				"osoba uprawiająca szermierkę",
+				"sport",
+				"szermierka",
+				"szermierz",
+				"szpada",
+				"zawody",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("شخص جنګېدل"),
+			keywords: &["توره", "جنګېدل", "جنګېدونکی", "شخص جنګېدل"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("esgrimista"),
+			keywords: &["esgrima", "esgrimista", "espada", "esporte", "pessoa"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("pessoa a esgrimir"),
+			keywords: &["desporto", "esgrima", "esgrimista", "espada", "pessoa", "pessoa a esgrimir"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("runa esgrimapi"),
+			keywords: &["esgrima", "esgrimista", "espada", "runa esgrimapi"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("persoană care practică scrima"),
+			keywords: &[
+				"persoană care practică scrima",
+				"sabie",
+				"scrimer",
+				"scrimeră",
+				"scrimă",
+				"spadasin",
+				"spadă",
+				"sport",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-1052"), keywords: &["E10-1052"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("фехтовальщик"),
+			keywords: &["рапира", "спорт", "фехтовальщик", "фехтование", "человек", "шпага"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umuntu uri gukina umukino w’inkota"),
+			keywords: &[
+				"gukinisha inkota",
+				"inkota",
+				"ukinisha inkota",
+				"umuntu uri gukina umukino w’inkota",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("شخص بچاء\u{64f} ڪندي"),
+			keywords: &["بچاڪندي", "بچاڪندڙ", "تلوار", "شخص بچاء\u{64f} ڪندي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("කඩ\u{dd4} හරඹ කර\u{dd4}"),
+			keywords: &[
+				"කඩ\u{dd4} හරඹ කර\u{dd4}",
+				"කඩ\u{dd4} හරඹ ක\u{dd2}ර\u{dd3}ම",
+				"කඩ\u{dd4}ව",
+				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}",
+				"ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("šermiar"),
+			keywords: &["kord", "meč", "človek", "šerm", "šermiar", "šport"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("sabljanje"),
+			keywords: &["meč", "sabljanje", "sabljač", "šport"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("qof ku loolamaya seef"),
+			keywords: &[
+				"qof ku loolamaya seef",
+				"qof ku loollamaya seef",
+				"seef ku loollame",
+				"seef ku loollamid",
+				"seefta",
+			],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("skermist"),
+			keywords: &["mbrojtës", "person", "shpatë", "skermist", "skermë", "sport"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("мачевалац"),
+			keywords: &["мач", "мачевалац", "мачевање", "особа"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("mačevalac"),
+			keywords: &["mač", "mačevalac", "mačevanje", "osoba"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("person som fäktas"),
+			keywords: &["fäktare", "fäktning", "person", "person som fäktas", "sport", "svärd"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mtu aliyeshika upanga"),
+			keywords: &["mtu aliyeshika upanga", "spoti", "upanga"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("கூர\u{bcd}வ\u{bbe}ள\u{bcd} விளைய\u{bbe}ட\u{bcd}டு"),
+			keywords: &[
+				"கூர\u{bcd}வ\u{bbe}ள\u{bcd}",
+				"நபர\u{bcd}",
+				"வ\u{bbe}ள\u{bcd} சண\u{bcd}டை",
+				"விளைய\u{bbe}ட\u{bcd}டு",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some(
+				"కత\u{c4d}త\u{c3f}స\u{c3e}ము చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+			),
+			keywords: &[
+				"కత\u{c4d}త\u{c3f}",
+				"కత\u{c4d}త\u{c3f}స\u{c3e}ము చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+				"కత\u{c4d}త\u{c3f}స\u{c3e}ముత\u{c4b} ఉన\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+				"క\u{c4d}ర\u{c40}డ",
+				"ఫ\u{c46}న\u{c4d}సర\u{c4d}",
+				"ఫ\u{c46}న\u{c4d}స\u{c3f}ంగ\u{c4d}",
+				"ఫ\u{c46}న\u{c4d}స\u{c3f}ంగ\u{c4d} చ\u{c47}స\u{c4d}తున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+				"వ\u{c4d}యక\u{c4d}త\u{c3f}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("шахси шамшербозӣ карда истода"),
+			keywords: &["шамшер", "шамшербоз", "шамшербозӣ", "шахси шамшербозӣ карда истода"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("น\u{e31}กฟ\u{e31}นดาบ"),
+			keywords: &["ก\u{e35}ฬา", "คน", "ดวล", "ดาบ", "น\u{e31}กฟ\u{e31}นดาบ", "ฟ\u{e31}น"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ሰብ ሓጹር ምግባር"),
+			keywords: &["ሓጹር ምግባር", "ሰብ", "ሴፍ", "ፌንሰር"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gylyçlaşýan adam"),
+			keywords: &["gylyç", "gylyçlaşmak", "gylyçlaşýan", "gylyçlaşýan adam"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("tokotaha tau heletā"),
+			keywords: &["heletā", "tokotaha tau heletā"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("eskrimci"),
+			keywords: &["birey", "eskrim", "eskrimci", "kılıç", "spor"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("قىلىچلىق كىشى"),
+			keywords: &["شەمشەر", "قىلىچ ئوينىتىش", "قىلىچلىق كىشى", "قىلىچۋاز"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("фехтувальник"),
+			keywords: &[
+				"змагання",
+				"спорт",
+				"фехтувальник",
+				"фехтувальниця",
+				"фехтування",
+				"шабля",
+				"шпага",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("تلوار بازی"),
+			keywords: &["بندہ", "تلوار", "تلوار بازی", "کھیل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("qilichboz"),
+			keywords: &["odam", "qilichboz", "qilichbozlik", "rapira", "sport"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("người đấu kiếm"),
+			keywords: &["kiếm", "người đánh kiếm", "người đấu kiếm", "đấu kiếm"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("nit kuy fente"),
+			keywords: &["eppee", "fente", "fentekat", "nit kuy fente"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("umntu olwa ngesabile"),
+			keywords: &["ikrele", "ukulwa ngesabile", "umntu olwa ngesabile"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ẹni N Ja Pẹlu Ida"),
+			keywords: &["eré jíjà", "eré ìjà", "idà", "Ẹni N Ja Pẹlu Ida"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɛni N Ja Pɛlu Ida"),
+			keywords: &["eré jíjà", "eré ìjà", "idà", "Ɛni N Ja Pɛlu Ida"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("玩劍擊嘅人"),
+			keywords: &["劍", "劍擊", "劍擊運動員", "玩劍擊嘅人"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("玩剑击嘅人"),
+			keywords: &["剑", "剑击", "剑击运动员", "玩剑击嘅人"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("击剑选手"),
+			keywords: &["人", "体育", "击剑", "击剑选手", "剑"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("西洋劍"),
+			keywords: &["擊劍", "西洋劍", "運動"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("劍擊運動員"),
+			keywords: &["劍", "劍擊", "劍擊運動員", "擊劍", "運動"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ifensa"),
+			keywords: &["ifensa", "inkemba", "perso", "ukufensa", "umdlalo"],
+		},
+	],
 };
 #[doc = "🏂\u{fe0f}"]
 pub const SNOWBOARDER: crate::Toned = crate::Toned {

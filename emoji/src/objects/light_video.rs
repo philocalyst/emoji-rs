@@ -1725,892 +1725,6 @@ pub const LIGHT_BULB: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "📸"]
-pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
-	glyph:                "📸",
-	codepoint:            &[128248u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
-	name:                 "camera with flash",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::LightVideo,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("kamera met flits"),
-			keywords: &["flits", "foto", "kamera", "kamera met flits", "video", "videokamera"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ባለፍላሽ ካሜራ"),
-			keywords: &["ባለፍላሽ ካሜራ", "ቪዲዮ", "ካሜራ", "ፍላሽ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("كاميرا بفلاش"),
-			keywords: &["تصوير", "فلاش", "فيديو", "كاميرا", "كاميرا بفلاش"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ফ\u{9cd}ল\u{9be}শ\u{9cd}ব সহ কেমেৰ\u{9be}"),
-			keywords: &[
-				"কেমেৰ\u{9be}",
-				"ফ\u{9cd}ল\u{9be}শ\u{9cd}ব",
-				"ফ\u{9cd}ল\u{9be}শ\u{9cd}ব সহ কেমেৰ\u{9be}",
-				"ভিডিঅ’",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("işıqlı kamera"),
-			keywords: &["fleş işığı olan kamera", "işıq", "işıqlı kamera", "kamera", "video"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("камера з успышкай"),
-			keywords: &["здымка", "камера", "камера з успышкай", "успышка", "фота"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("фотоапарат със светкавица"),
-			keywords: &[
-				"Фотоапарат със светкавица",
-				"видео",
-				"светкавица",
-				"фотоапарат",
-				"фотоапарат със светкавица",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ফ\u{9cd}ল\u{9cd}য\u{9be}শয\u{9c1}ক\u{9cd}ত ক\u{9cd}য\u{9be}মের\u{9be}"),
-			keywords: &[
-				"ক\u{9cd}য\u{9be}মের\u{9be}",
-				"ফ\u{9cd}ল\u{9cd}য\u{9be}শ",
-				"ফ\u{9cd}ল\u{9cd}য\u{9be}শয\u{9c1}ক\u{9cd}ত ক\u{9cd}য\u{9be}মের\u{9be}",
-				"ভিডিও",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("lucʼhskeudennerez gant lucʼheder"),
-			keywords: &["lucʼheder", "lucʼhskeudennerez", "lucʼhskeudennerez gant lucʼheder", "video"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("fotoaparat sa blicom"),
-			keywords: &["blic", "fotoaparat sa blicom", "kamera", "video"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("càmera amb flaix"),
-			keywords: &["càmera", "càmera amb flaix", "flaix", "vídeo"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄇𑄬𑄟𑄬𑄢 𑄣\u{11127}𑄉𑄬 𑄜\u{11133}𑄣𑄌\u{11134}"),
-			keywords: &["𑄇𑄬𑄟𑄬𑄢 𑄣\u{11127}𑄉𑄬 𑄜\u{11133}𑄣𑄌\u{11134}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏗᏓᏟᎶᏍᏙᏗ ᎤᏥᏍᏓᎷᎩ ᎠᏩᏠᏯᏍᏓ"),
-			keywords: &["ᎠᏗᏴᎳᏛᏍᎩ", "ᎤᏥᏍᏓᎷᎩ", "ᏗᏓᏟᎶᏍᏙᏗ", "ᏗᏓᏟᎶᏍᏙᏗ ᎤᏥᏍᏓᎷᎩ ᎠᏩᏠᏯᏍᏓ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("fotoaparát s bleskem"),
-			keywords: &["aparát", "blesk", "fotoaparát s bleskem", "fotografický", "foťák", "video"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("camera â fflach"),
-			keywords: &["camera", "camera â fflach", "fflach", "fideo"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("kamera med blitz"),
-			keywords: &["blitz", "kamera", "kamera med blitz", "video"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Fotoapparat mit Blitz"),
-			keywords: &["Blitz", "Fotoapparat", "Fotoapparat mit Blitz"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("φωτογραφική μηχανή με φλας"),
-			keywords: &["βίντεο", "βιντεοκάμερα", "φλας", "φωτογραφική μηχανή με φλας"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("camera with flash"),
-			keywords: &["camera", "flash", "video"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("cámara con flash"),
-			keywords: &["cámara", "cámara con flash", "flash"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["cámara", "cámara con flash", "flash", "foto"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["cámara", "cámara con flash", "flash", "video"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("välguga kaamera"),
-			keywords: &["foto", "kaamera", "pildistamine", "välguga kaamera", "välk"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("kamera flasharekin"),
-			keywords: &["bideo", "flash", "kamera", "kamera flasharekin"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("دوربین با فلاش"),
-			keywords: &["دوربین", "دوربین با فلاش", "فلاش", "ویدیو"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kamera ja salama"),
-			keywords: &["kamera", "kamera ja salama", "salama", "video"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("camera na may flash"),
-			keywords: &["camera", "camera na may flash", "flash", "kamera", "video"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("myndatól við blits"),
-			keywords: &["blits", "fotografi", "myndatól", "myndatól við blits"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("appareil photo avec flash"),
-			keywords: &["appareil photo", "appareil photo avec flash", "flash"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["appareil photo", "flash"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("ceamara le splanc"),
-			keywords: &["ceamara", "ceamara le splanc", "físeán", "grianghrafadán", "splanc"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("camara le solas-boillsgidh"),
-			keywords: &[
-				"boillsgeadh",
-				"camara",
-				"camara le solas-boillsgidh",
-				"solas-boillsgidh",
-				"video",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("cámara de fotos con flash"),
-			keywords: &["cámara", "cámara de fotos con flash", "flash", "fotografía"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{acd}લ\u{ac7}શ સાથ\u{ac7}નો ક\u{ac5}મ\u{ac7}રો"),
-			keywords: &[
-				"કમ\u{ac7}રો",
-				"ફ\u{acd}લ\u{ac7}શ",
-				"ફ\u{acd}લ\u{ac7}શ સાથ\u{ac7}નો ક\u{ac5}મ\u{ac7}રો",
-				"વિડિઓ",
-				"વિડિયો",
-				"સાધન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("kyamara mai ƙyalla"),
-			keywords: &[
-				"bidiyo",
-				"filash",
-				"filasha",
-				"hoto",
-				"kyamara",
-				"kyamara mai ƙyalla",
-				"ƙyalla",
-				"ɗaukar hoto",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("kyamara mai ƙyalla"),
-			keywords: &[
-				"bidiyo",
-				"filash",
-				"filasha",
-				"hoto",
-				"kyamara",
-				"kyamara mai ƙyalla",
-				"ƙyalla",
-				"ɗaukar hoto",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מצלמה עם פלאש"),
-			keywords: &["הבזק", "לצלם", "מבזק", "מצלמה", "מצלמה עם פלאש", "פלאש", "צילום"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("फ\u{93c}\u{94d}ल\u{948}श वाला क\u{948}मरा"),
-			keywords: &[
-				"क\u{948}मरा",
-				"फ\u{93c}\u{94d}ल\u{948}श वाला क\u{948}मरा",
-				"फ\u{94d}ल\u{948}श क\u{947} साथ क\u{948}मरा",
-				"वीडियो",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("fotoaparat s bljeskalicom"),
-			keywords: &["bljeskalica", "fotoaparat", "fotoaparat s bljeskalicom", "kamera", "video"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("fényképező vakuval"),
-			keywords: &["fényképező vakuval", "fényképezőgép", "kamera", "vaku", "videó"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ֆոտոապարատ լուսաթարթիչով"),
-			keywords: &["լուսաթարթիչ", "վիդեո", "ֆոտոապարատ", "ֆոտոապարատ լուսաթարթիչով"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("kamera dengan flash"),
-			keywords: &["flash", "kamera", "video"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("igwefòto nwere ọkụ"),
-			keywords: &["igwefòto", "igwefòto nwere ọkụ", "vidio", "ọkụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("myndavél með flassi"),
-			keywords: &["flass", "myndavél", "myndavél með flassi", "myndband"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("fotocamera con flash"),
-			keywords: &[
-				"flash",
-				"foto con flash",
-				"fotocamera",
-				"fotocamera con flash",
-				"fotografare",
-				"macchina fotografica",
-				"macchina fotografica con flash",
-				"ricordi",
-				"scattare foto",
-				"selfie",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("フラッシュを焚いているカメラ"),
-			keywords: &[
-				"カメラ",
-				"カメラフラッシュ",
-				"フラッシュ",
-				"フラッシュを焚いているカメラ",
-				"写真",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("kamera mawa lampu jepret"),
-			keywords: &["kamera", "kamera mawa lampu jepret", "lampu jepret", "vidio"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ფოტოაპარატი ბლიცით"),
-			keywords: &["ბლიცი", "ვიდეო", "კამერა", "მაშუქი", "ფოტოაპარატი ბლიცით"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жарқылы бар камера"),
-			keywords: &["бейне", "видео", "жарқыл", "жарқылы бар камера", "камера"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("kamera med blitz"),
-			keywords: &["blitz", "kamera", "kamera med blitz", "video"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("កាមេរ\u{17c9}ាបាញ\u{17cb}ភ\u{17d2}លើងហ\u{17d2}វ\u{17d2}លាស\u{17cb}"),
-			keywords: &[
-				"កាមេរ\u{17c9}ា",
-				"កាមេរ\u{17c9}ាបាញ\u{17cb}ភ\u{17d2}លើងហ\u{17d2}វ\u{17d2}លាស\u{17cb}",
-				"បាញ\u{17cb}ភ\u{17d2}លើង",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕ\u{ccd}ಯಾಮರಾ"),
-			keywords: &[
-				"ಕ\u{ccd}ಯಾಮರಾ",
-				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}",
-				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕ\u{ccd}ಯಾಮರಾ",
-				"ವ\u{cc0}ಡ\u{cbf}ಯ\u{cca}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("플래시를 터트리고 있는 카메라"),
-			keywords: &[
-				"비디오",
-				"카메라",
-				"플래시",
-				"플래시 터트린 카메라",
-				"플래시를 터트리고 있는 카메라",
-			],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("फ\u{94d}ल\u{945}श आसपी क\u{945}म\u{947}रा"),
-			keywords: &[
-				"क\u{945}म\u{947}रा",
-				"फ\u{94d}ल\u{945}श",
-				"फ\u{94d}ल\u{945}श आसपी क\u{945}म\u{947}रा",
-				"व\u{94d}हिडियो",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жаркылдагы менен камера"),
-			keywords: &["видео", "жаркылдагы менен камера", "жаркылдак", "камера"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Fotoapparat mat Blëtz"),
-			keywords: &["Blëtz", "Flash", "Fotoapparat", "Fotoapparat mat Blëtz", "Kamera", "Video"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ກ\u{ec9}ອງຖ\u{ec8}າຍຮ\u{eb9}ບເປ\u{eb5}ດແຟຣ\u{eb1}ຊ"),
-			keywords: &[
-				"ກ\u{ec9}ອງ",
-				"ກ\u{ec9}ອງຖ\u{ec8}າຍຮ\u{eb9}ບເປ\u{eb5}ດແຟຣ\u{eb1}ຊ",
-				"ຖ\u{ec8}າຍຮ\u{eb9}ບ",
-				"ແຟຣ\u{eb1}ຊ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("fotoaparatas su blykste"),
-			keywords: &["blykstė", "fotoaparatas", "fotoaparatas su blykste", "vaizdo įrašas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("fotokamera ar zibspuldzi"),
-			keywords: &["fotoaparāts", "fotokamera", "fotokamera ar zibspuldzi", "kamera", "zibspuldze"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("pūwhakaahua whai hikohiko"),
-			keywords: &["ataata", "hikohiko", "pūwhakaahua", "pūwhakaahua whai hikohiko"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("фотоапарат со блиц"),
-			keywords: &["блиц", "видео", "камера", "камера со блиц", "фотоапарат", "фотоапарат со блиц"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഫ\u{d4d}ല\u{d3e}ഷ\u{d41}ള\u{d4d}ള ക\u{d4d}യ\u{d3e}മറ"),
-			keywords: &[
-				"ക\u{d4d}യ\u{d3e}മറ",
-				"ഫ\u{d4d}ല\u{d3e}ഷ\u{d41}ള\u{d4d}ള ക\u{d4d}യ\u{d3e}മറ",
-				"ഫ\u{d4d}ല\u{d3e}ഷ\u{d4d}",
-				"വീഡിയോ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("гэрэл асдаг камер"),
-			keywords: &["видео", "гэрэл", "гэрэл асдаг камер", "камер"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("फ\u{94d}ल\u{945}शसह क\u{945}म\u{947}रा"),
-			keywords: &[
-				"क\u{945}म\u{947}रा",
-				"फ\u{94d}ल\u{945}श",
-				"फ\u{94d}ल\u{945}शसह क\u{945}म\u{947}रा",
-				"व\u{94d}हिडिओ",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("kamera dengan denyar"),
-			keywords: &["denyar", "kamera", "kamera dengan denyar", "video"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("kamera bi flash"),
-			keywords: &["flash", "kamera", "kamera bi flash", "vidjo"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ"),
-			keywords: &[
-				"ကင\u{103a}မရာ",
-				"ဖလက\u{103a}ရ\u{103e}\u{103a}",
-				"ဖလက\u{103a}ရ\u{103e}\u{103a}မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ",
-				"ဗ\u{102e}ဒ\u{102e}ယ\u{102d}\u{102f}",
-				"မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{94d}ल\u{94d}याशसहितको क\u{94d}याम\u{947}रा"),
-			keywords: &[
-				"क\u{94d}याम\u{947}रा",
-				"फ\u{94d}ल\u{94d}याश",
-				"फ\u{94d}ल\u{94d}याशसहितको क\u{94d}याम\u{947}रा",
-				"भिडियो",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("camera met flitser"),
-			keywords: &["camera", "camera met flitser", "flitser", "fotograferen", "video"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c} ସହ\u{b3f}ତ କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}"),
-			keywords: &[
-				"କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}",
-				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}",
-				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c} ସହ\u{b3f}ତ କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}",
-				"ଭ\u{b3f}ଡ\u{b3f}ଓ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਫਲ\u{a48}ਸ\u{a3c} ਵਾਲਾ ਕ\u{a48}ਮਰਾ"),
-			keywords: &[
-				"ਕ\u{a48}ਮਰਾ",
-				"ਤਸਵੀਰ",
-				"ਫਲ\u{a48}ਸ",
-				"ਫਲ\u{a48}ਸ\u{a3c} ਵਾਲਾ ਕ\u{a48}ਮਰਾ",
-				"ਫ\u{a3c}\u{a4b}ਟ\u{a4b}",
-				"ਵੀਡੀਓ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("فلیشن نال کیمرہ"),
-			keywords: &["فلیشن نال کیمرہ", "ویڈیو", "چمچمونا", "کیمرہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Kámẹ\u{301}ra Wé Gẹ\u{301}t Flash"),
-			keywords: &["Flash", "Kámẹ\u{301}ra", "Kámẹ\u{301}ra Wé Gẹ\u{301}t Flash", "Vídio"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("aparat fotograficzny z lampą błyskową"),
-			keywords: &[
-				"aparat",
-				"błyskowa",
-				"błyskową",
-				"flesz",
-				"fotograficzny",
-				"lampa",
-				"z lampą",
-				"zdjęcie",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("فلش لرونکې کامره"),
-			keywords: &["فلش", "فلش لرونکې کامره", "ويډيو", "کامره"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("câmera com flash"),
-			keywords: &["câmera", "flash", "foto", "fotografia", "vídeo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("máquina fotográfica com flash"),
-			keywords: &["câmara", "flash", "máquina fotográfica com flash", "vídeo"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("camara flash kaqwan"),
-			keywords: &["camara", "camara flash kaqwan", "flash", "video"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("cameră foto cu bliț"),
-			keywords: &[
-				"aparat de fotografiat",
-				"bliț",
-				"cameră",
-				"cameră foto cu bliț",
-				"fotografie",
-				"video",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-693"), keywords: &["E10-693"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("фотоаппарат со вспышкой"),
-			keywords: &[
-				"вспышка",
-				"съемка",
-				"фото",
-				"фотоаппарат",
-				"фотоаппарат со вспышкой",
-				"фотокамера",
-			],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("kamera ifite umurabyo"),
-			keywords: &["kamera", "kamera ifite umurabyo", "umurabyo", "videwo"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("فليش واري ڪئميرا"),
-			keywords: &["فليش", "فليش واري ڪئميرا", "ويڊيو", "ڪئميرا"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ෆ\u{dca}ලෑෂරය සහ\u{dd2}ත කැමර\u{dcf}ව"),
-			keywords: &[
-				"කමර\u{dcf}ව",
-				"ව\u{dd3}ඩ\u{dd2}යෝව",
-				"ෆ\u{dca}ලෑෂරය සහ\u{dd2}ත කැමර\u{dcf}ව",
-				"ෆ\u{dca}ලෑෂ\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("fotoaparát s bleskom"),
-			keywords: &["blesk", "fotoaparát", "fotoaparát s bleskom", "video"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("fotoaparat z bliskavico"),
-			keywords: &["bliskavica", "fotoaparat", "fotoaparat z bliskavico", "slika", "video"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("kamarad khashaafad leh"),
-			keywords: &["fiidiyow", "kamarad", "kamarad khashaafad leh", "khashaafad"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("kamerë me blic"),
-			keywords: &["blic", "kamerë", "kamerë me blic", "video"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("фотоапарат са блицем"),
-			keywords: &["блиц", "видeo", "фoтoaпaрaт"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("fotoaparat sa blicem"),
-			keywords: &["blic", "fotoaparat", "video"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("kamera med blixt"),
-			keywords: &["blixt", "kamera", "kamera med blixt"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kamera yenye mmweko"),
-			keywords: &["kamera", "kamera yenye mmweko", "mmweko", "video"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பிள\u{bbe}ஷ\u{bcd} அடிக\u{bcd}கும\u{bcd} கேமர\u{bbe}"),
-			keywords: &[
-				"ஃபிள\u{bbe}ஷ\u{bcd}",
-				"ஃப\u{bcd}ள\u{bbe}ஷ\u{bcd}",
-				"பிள\u{bbe}ஷ\u{bcd} அடிக\u{bcd}கும\u{bcd} கேமர\u{bbe}",
-				"பிள\u{bbe}ஷ\u{bcd} கேமர\u{bbe}",
-				"வ\u{bc0}டியோ",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఫ\u{c4d}ల\u{c3e}ష\u{c4d} క\u{c46}మ\u{c46}ర\u{c3e}"),
-			keywords: &[
-				"క\u{c46}మ\u{c46}ర\u{c3e}",
-				"ఫ\u{c4b}ట\u{c4b} త\u{c40}యడం",
-				"ఫ\u{c4d}ల\u{c3e}ష\u{c4d}",
-				"వ\u{c40}డ\u{c3f}య\u{c4b}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("камера бо дурахш"),
-			keywords: &["видео", "дурахш", "камера", "камера бо дурахш"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("กล\u{e49}องเป\u{e34}ดแฟลช"),
-			keywords: &["กล\u{e49}อง", "กล\u{e49}องเป\u{e34}ดแฟลช", "ว\u{e34}ด\u{e35}โอ", "แฟลช"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ካሜራ ምስ ፍላሽ"),
-			keywords: &["ቪዲዮ", "ካሜራ", "ፍላሽ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("wspyşkaly kamera"),
-			keywords: &["kamera", "wideo", "wspyşka", "wspyşkaly kamera"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("faitā moe kasa"),
-			keywords: &["faitā moe kasa"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("flaşlı fotoğraf makinesi"),
-			keywords: &["flaş", "flaşlı fotoğraf makinesi", "kamera", "video"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("چىراقلىق كامېرا"),
-			keywords: &["سىن", "كامېرا", "چاقماق چىراق", "چىراقلىق كامېرا"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("фотоапарат зі спалахом"),
-			keywords: &["відео", "камера", "спалах", "фото", "фотоапарат зі спалахом"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("فلیش والا کیمرا"),
-			keywords: &["تصویر", "فلیش", "فلیش والا کیمرا", "فوٹو", "ویڈیو", "کیمرا"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("chaqmoqli kamera"),
-			keywords: &["chaqmoqli kamera", "kamera", "video"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("máy ảnh có đèn flash"),
-			keywords: &["máy ảnh", "máy ảnh có đèn flash", "video", "đèn flash"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("nataalukaay bu ànd ak flaas"),
-			keywords: &["flash", "nataalukaay", "nataalukaay bu ànd ak flaas", "wideo"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ikhamera enefleshi"),
-			keywords: &["ifleshi", "ikhamera", "ikhamera enefleshi", "ividiyo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kámẹ\u{301}rà pẹlu filaṣi"),
-			keywords: &["fídíò", "fílásì", "kámẹ\u{301}rà", "kámẹ\u{301}rà pẹlu filaṣi"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kámɛ\u{301}rà pɛlu filashi"),
-			keywords: &["fídíò", "fílásì", "kámɛ\u{301}rà", "kámɛ\u{301}rà pɛlu filashi"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("閃光燈相機"),
-			keywords: &["影片", "相機", "閃光", "閃光燈相機"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("闪光灯相机"),
-			keywords: &["影片", "相机", "闪光", "闪光灯相机"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("开闪光灯的相机"),
-			keywords: &["带闪光灯的相机", "开闪光灯的相机", "拍照", "相机", "闪光灯", "闪光灯打开"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("開閃光燈"),
-			keywords: &["帶閃光燈的相機", "拍照", "開閃光燈"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("開咗閃光燈嘅相機"),
-			keywords: &["影片", "影相", "照", "相機", "相片", "閃光燈", "開咗閃光燈嘅相機", "開閃光燈"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ikhamera enefleshi"),
-			keywords: &["ifleshi", "ikhamera", "ikhamera enefleshi", "ividiyo"],
-		},
-	],
-};
 #[doc = "🎬\u{fe0f}"]
 pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
 	glyph:                "🎬\u{fe0f}",
@@ -2623,816 +1737,6 @@ pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🔦"]
-pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
-	glyph:                "🔦",
-	codepoint:            &[128294u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "flashlight",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::LightVideo,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("flits"),
-			keywords: &["elektries", "flits", "flitslig", "hulpmiddel", "lig"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የእጅ ባትሪ"),
-			keywords: &["መሣሪያ", "ብርሃን", "ኤሌክትሪክ", "የእጅ ባትሪ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("ضوء فلاش"),
-			keywords: &["اداة", "الكتريك", "ضوء", "ضوء فلاش", "كشاف", "كهربائي"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ফ\u{9cd}ল\u{9be}শ\u{9cd}বল\u{9be}ইট"),
-			keywords: &[
-				"টৰ\u{9cd}চ",
-				"পোহৰ",
-				"ফ\u{9cd}ল\u{9be}শ\u{9cd}বল\u{9be}ইট",
-				"বৈদ\u{9cd}য\u{9c1}তিক",
-				"স\u{981}জ\u{9c1}লি",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("fənər"),
-			keywords: &["alət", "elektrik", "fənər", "işıq"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("ліхтарык"),
-			keywords: &["ліхтарык", "святло", "электрычнасць", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("фенерче"),
-			keywords: &["електрическа", "електрическо", "инструмент", "светлина", "фенерче"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ফ\u{9cd}ল\u{9cd}য\u{9be}শ ল\u{9be}ইট"),
-			keywords: &[
-				"আলো",
-				"ফ\u{9cd}ল\u{9cd}য\u{9be}শ ল\u{9be}ইট",
-				"বৈদ\u{9cd}য\u{9c1}তিক",
-				"মশ\u{9be}ল",
-				"সরঞ\u{9cd}জ\u{9be}ম",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("etev-goulaouiñ"),
-			keywords: &["etev-goulaouiñ", "tredan"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("baterijska lampa"),
-			keywords: &["alat", "baterijska lampa", "elektrika", "lampa", "svjetlo"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("llanterna"),
-			keywords: &["eina", "electricitat", "elèctric", "elèctrica", "llanterna", "llum"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄑\u{11128}𑄛\u{11134}𑄝\u{11128}𑄖\u{11134}\u{11128}"),
-			keywords: &["𑄑\u{11128}𑄛\u{11134}𑄝\u{11128}𑄖\u{11134}\u{11128}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏍᏗ ᎠᏨᏍᏗ"),
-			keywords: &["ᎠᎾᎦᎵᏍᎩ", "ᎠᏨᏍᏗ", "ᎤᏍᏗ ᎠᏨᏍᏗ", "ᎬᏔᏂᏓᏍᏗ", "ᏳᎳᏉ ᎠᏨᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("baterka"),
-			keywords: &["baterka", "elektrický", "nástroj", "nářadí", "svítilna", "světlo"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("tortsh"),
-			keywords: &["golau", "offeryn", "tortsh", "trydanol"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("lommelygte"),
-			keywords: &["lommelygte", "lygte"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Taschenlampe"),
-			keywords: &["Lampe", "Licht", "Taschenlampe"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("φακός"),
-			keywords: &["εργαλείο", "ηλεκτρικό", "φακός", "φως"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("flashlight"),
-			keywords: &["electric", "flashlight", "light", "tool", "torch"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("linterna"),
-			keywords: &["linterna", "luz"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["herramienta", "linterna", "luz"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("taskulamp"),
-			keywords: &["elekter", "taskulamp", "tööriist", "valgus"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("linterna"),
-			keywords: &["argi", "elektriko", "linterna", "tresna"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("چراغ\u{200c}قوه"),
-			keywords: &["ابزار", "الکتریسیته", "نور", "چراغ\u{200c}قوه"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("taskulamppu"),
-			keywords: &["lamppu", "sähkö", "taskulamppu", "työkalu", "valo"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("flashlight"),
-			keywords: &["de-kuryente", "flashlight", "ilaw", "tool", "torch"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("lummalykt"),
-			keywords: &["ljós", "lummalykt", "lykt", "stavlykt"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("torche"),
-			keywords: &["lampe torche", "lampe électrique", "lumière", "outil", "torche"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("lampe de poche"),
-			keywords: &["lampe de poche", "lumière"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("tóirse"),
-			keywords: &["lampa leictreach", "tóirse", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("toirds dealain"),
-			keywords: &["dealanach", "inneal", "lòchran", "solas", "toirds", "toirds dealain"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("lanterna"),
-			keywords: &["lanterna", "luz"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ફ\u{acd}લ\u{ac7}શલાઇટ"),
-			keywords: &[
-				"ઇલ\u{ac7}ક\u{acd}ટ\u{acd}રિક",
-				"ટોર\u{acd}ચ",
-				"પ\u{acd}રકાશ",
-				"ફ\u{acd}લ\u{ac7}શલાઇટ",
-				"સાધન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("tocila"),
-			keywords: &["fitila", "haske", "kayan aiki", "na lantarki", "tocila", "wuta"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("tocila"),
-			keywords: &["fitila", "haske", "kayan aiki", "na lantarki", "tocila", "wuta"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang: "he", tts: Some("פנס"), keywords: &["אור", "פנס", "תאורה"]
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("टॉर\u{94d}च"),
-			keywords: &["टॉर\u{94d}च", "प\u{94d}रकाश", "फ\u{93c}\u{94d}ल\u{948}शलाइट", "बिजली"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("ručna svjetiljka"),
-			keywords: &["alat", "lampa", "ručna svjetiljka", "struja", "svjetlo"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("zseblámpa"),
-			keywords: &["elektronikus", "elemlámpa", "fény", "világítás", "zseblámpa"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("գրպանի լապտեր"),
-			keywords: &["գործիք", "գրպանի լապտեր", "էլեկտրական", "լապտեր", "լույս"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("lampu senter"),
-			keywords: &["alat", "cahaya", "lampu senter", "listrik", "senter"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("nchaọkụ"),
-			keywords: &["latrikị", "nchaọkụ", "ngwaọrụ", "ọkụ", "ọkụ mpanaka"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("vasaljós"),
-			keywords: &["ljós", "vasaljós"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("torcia"),
-			keywords: &["elettrica", "luce", "pila", "torcia"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("懐中電灯"),
-			keywords: &["ライト", "懐中電灯", "明かり"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("senter"),
-			keywords: &["cahya", "elektrik", "lampu sorot", "pranti", "senter"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ფანარი"),
-			keywords: &["ელექტრო", "ინსტრუმენტი", "სინათლე", "ფანარი", "შუქი", "ხელსაწყო"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жарқыл жарығы"),
-			keywords: &["алау", "жарық", "жарқыл жарығы", "шам", "электрлік", "құрал"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("lommelygte"),
-			keywords: &["lommelygte", "lygte"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ព\u{17b7}ល"),
-			keywords: &[
-				"ពន\u{17d2}ល\u{17ba}",
-				"ព\u{17b7}ល",
-				"ភ\u{17d2}លើង",
-				"ភ\u{17d2}លើងព\u{17b7}ល",
-				"អគ\u{17d2}គ\u{17b7}សន\u{17b8}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c} ಲ\u{cc8}ಟ\u{ccd}"),
-			keywords: &[
-				"ಉಪಕರಣ",
-				"ಎಲ\u{cc6}ಕ\u{ccd}ಟ\u{ccd}ರ\u{cbf}ಕ\u{ccd}",
-				"ಟಾರ\u{ccd}ಚ\u{ccd}",
-				"ಪಂಜು",
-				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c} ಲ\u{cc8}ಟ\u{ccd}",
-				"ಬ\u{cc6}ಳಕು",
-				"ಬ\u{ccd}ಯಾಟರ\u{cbf}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("손전등"),
-			keywords: &["도구", "빛", "손전등", "전기", "전등", "플래시라이트"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("फ\u{94d}ल\u{945}शलायट"),
-			keywords: &["टॉर\u{94d}च", "फ\u{94d}ल\u{945}शलायट", "लायट", "विद\u{94d}य\u{941}त", "साधन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("колчырак"),
-			keywords: &["жарык", "колчырак", "курал", "электр"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Täscheluucht"),
-			keywords: &["Apparat", "Luucht", "Täsch", "Täscheluucht", "elektresch"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໄຟສາຍ"),
-			keywords: &["ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}", "ແສງ", "ໄຟຟ\u{ec9}າ", "ໄຟສາຍ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("žibintuvėlis"),
-			keywords: &["deglas", "elektra", "įrankis", "šviesa", "žibintuvėlis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("kabatas lukturītis"),
-			keywords: &["elektrība", "gaisma", "kabatas lukturītis"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kōrama"),
-			keywords: &["hiko", "kōrama", "mārama", "utauta"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("батериска ламба"),
-			keywords: &["алатка", "батериска ламба", "батерија", "електричен", "светилка", "светло"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ടോർച\u{d4d}ച\u{d4d}"),
-			keywords: &[
-				"ഇലക\u{d4d}\u{200c}ട\u{d4d}രിക\u{d4d} ടോർച\u{d4d}ച\u{d4d}",
-				"ടോർച\u{d4d}ച\u{d4d}",
-				"പ\u{d4d}രക\u{d3e}ശം",
-				"വെളിച\u{d4d}ചം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("гар чийдэн"),
-			keywords: &["багаж", "гар чийдэн", "гэрэл", "цахилгаан"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("विज\u{947}री"),
-			keywords: &["प\u{94d}रकाश", "ब\u{945}टरी", "मशाल", "विज\u{947}री", "विद\u{94d}य\u{941}त"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("lampu suluh"),
-			keywords: &["alat", "cahaya", "elektrik", "lampu suluh"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("torċ"),
-			keywords: &["dawl", "elettriku", "għodda", "torċ"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဓာတ\u{103a}မ\u{102e}း"),
-			keywords: &[
-				"ဓာတ\u{103a}မ\u{102e}း",
-				"လျ\u{103e}ပ\u{103a}စစ\u{103a}",
-				"အလင\u{103a}းရောင\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{94d}ल\u{94d}याश लाइट"),
-			keywords: &[
-				"उपकरण",
-				"टर\u{94d}च",
-				"फ\u{94d}ल\u{94d}याश लाइट",
-				"बत\u{94d}ती",
-				"विद\u{94d}य\u{941}तीय",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("zaklamp"),
-			keywords: &["elektrisch", "lamp", "licht", "zaklamp", "zaklantaarn"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}\u{200c}"),
-			keywords: &[
-				"ଆଲୋକ",
-				"ଇଲେକ\u{b4d}ଟ\u{b4d}ର\u{b3f}କ\u{b4d}",
-				"ଟର\u{b4d}ଚ\u{b4d}ଚ",
-				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}\u{200c}",
-				"ଫ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਫਲ\u{a48}ਸ\u{a3c}ਲਾਈਟ"),
-			keywords: &[
-				"ਔਜ\u{a3c}ਾਰ",
-				"ਚਾਨਣ",
-				"ਟਾਰਚ",
-				"ਟ\u{a42}ਲ",
-				"ਫਲ\u{a48}ਸਲਾਈਟ",
-				"ਫਲ\u{a48}ਸ\u{a3c} ਲਾਈਟ",
-				"ਫਲ\u{a48}ਸ\u{a3c}ਲਾਈਟ",
-				"ਬਿਜਲੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ٹارچ"),
-			keywords: &["اوزار", "بتی", "برقی", "ٹارچ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Tọ\u{301}chlait"),
-			keywords: &["Tul", "Tọch", "Tọ\u{301}chlait", "Ẹlẹ\u{301}ktrik"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("latarka"),
-			keywords: &["elektryczna", "lampka", "latarka", "światło"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("لاسي څراغ"),
-			keywords: &["اله", "برېښنايي", "بيټري", "رڼا", "لاسي څراغ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("lanterna"),
-			keywords: &["elétrica", "ferramenta", "lanterna", "luz"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["eletricidade", "elétrica", "ferramenta", "lanterna", "luz", "utensílio"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("flash"),
-			keywords: &["antorcha", "chuya", "electrico", "flash", "llamkana"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("lanternă"),
-			keywords: &["baterie", "electric", "instrument", "lanternă", "lumină"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-738"), keywords: &["E10-738"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("фонарик"),
-			keywords: &["свет", "фонарик", "фонарь", "электричество"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("itoroshi"),
-			keywords: &["cy’amashanyarazi", "itara", "itoroshi", "urumuri"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("فليش لائيٽ"),
-			keywords: &["اوزار", "برقي", "روشني", "فليش لائيٽ", "ٽارچ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ෆ\u{dca}ලෑෂ\u{dca}ලය\u{dd2}ට\u{dca}"),
-			keywords: &[
-				"ආලෝකය",
-				"මෙවලම",
-				"ව\u{dd2}ද\u{dd4}ල\u{dd2} පන\u{dca}දම",
-				"ව\u{dd2}ද\u{dd4}ල\u{dd2}ය",
-				"ෆ\u{dca}ලෑෂ\u{dca}ලය\u{dd2}ට\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("baterka"),
-			keywords: &["baterka", "elektrické", "nástroj", "svetlo", "svietidlo"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("svetilka"),
-			keywords: &["električno", "luč", "orodje", "svetilka"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("toosh"),
-			keywords: &["dab", "iftiin", "qalab", "toosh"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("elektrik dore"),
-			keywords: &["dritë", "elektrik", "elektrik dore", "fener", "vegël"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("батеријска лампа"),
-			keywords: &["батеријска", "лaмпa", "свeтлo", "струja"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["aлaт", "батеријска лампа", "лaмпa", "свјeтлo", "струja"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("baterijska lampa"),
-			keywords: &["baterijska", "lampa", "struja", "svetlo"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["alat", "baterijska lampa", "lampa", "struja", "svjetlo"],
-		},
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("ficklampa"),
-			keywords: &["ficklampa", "lampa"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kurunzi"),
-			keywords: &["kurunzi", "mwanga", "tochi", "umeme", "zana"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ட\u{bbe}ர\u{bcd}ச\u{bcd} லைட\u{bcd}"),
-			keywords: &[
-				"இரவு",
-				"ட\u{bbe}ர\u{bcd}ச\u{bcd}",
-				"பிள\u{bbe}ஷ\u{bcd}",
-				"பேட\u{bcd}டரி",
-				"பொருள\u{bcd}",
-				"லைட\u{bcd}",
-				"விளக\u{bcd}கு",
-				"வெளிச\u{bcd}சம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ట\u{c3e}ర\u{c4d}చ\u{c4d} ల\u{c48}ట\u{c4d}"),
-			keywords: &[
-				"ఎలక\u{c4d}ట\u{c4d}ర\u{c3f}క\u{c4d}",
-				"ట\u{c3e}ర\u{c4d}చ\u{c4d}",
-				"టూల\u{c4d}",
-				"ఫ\u{c4d}లష\u{c4d}\u{200c}ల\u{c48}ట\u{c4d}",
-				"ఫ\u{c4d}ల\u{c3e}ష\u{c4d} ల\u{c48}ట\u{c4d}",
-				"ల\u{c48}ట\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("фонус"),
-			keywords: &["асбоб", "барқӣ", "машъал", "рӯшноӣ", "фонус"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ไฟฉาย"),
-			keywords: &["เคร\u{e37}\u{e48}องม\u{e37}อ", "แสง", "ไฟฉาย", "ไฟฟ\u{e49}า"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ፍላሽ ላምባ"),
-			keywords: &["መሳርሒ", "ሽግ", "ብርሃን", "ኤሌክትሪክ", "ፍላሽ ላምባ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("fonar"),
-			keywords: &["fakel", "fonar", "gural", "tok", "yşyk"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("kasa"), keywords: &["kasa"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("el feneri"),
-			keywords: &["el feneri", "elektrik", "ışık"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("قولچىراق"),
-			keywords: &["توك", "قورال", "قولچىراق", "يورۇتۇش", "چىراق"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("ліхтарик"),
-			keywords: &["електричний", "ліхтарик", "світло", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("فلیش لائٹ"),
-			keywords: &["آلہ", "برقی", "روشنی", "فلیش", "فلیش لائٹ", "نور", "ٹارچ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("fonar"),
-			keywords: &["asbob", "chiroq", "elektr", "fonar", "mash’al"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đèn pin"),
-			keywords: &["dụng cụ", "ánh sáng", "điện", "đèn pin"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("làmp-tors"),
-			keywords: &["bu-kuuraŋ", "jumtukaay", "light", "làmp-tors"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("isibane"),
-			keywords: &["isibane", "isixhobo", "itotshi", "umbane"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("iná fílásì"),
-			keywords: &[
-				"iná",
-				"iná fílásì",
-				"iná mọ\u{300}nà-mó\u{329}ná",
-				"irjṣé\u{329}",
-				"tọ\u{301}ọ\u{301}ṣì",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("iná fílásì"),
-			keywords: &[
-				"iná",
-				"iná fílásì",
-				"iná mɔ\u{300}nà-mó\u{329}ná",
-				"irjshé\u{329}",
-				"tɔ\u{301}ɔ\u{301}shì",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("電筒"),
-			keywords: &["工具", "燈", "電", "電筒"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("电筒"),
-			keywords: &["工具", "灯", "电", "电筒"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("手电筒"),
-			keywords: &["光", "工具", "手电", "手电筒", "照明", "电筒"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation { lang: "zh_Hant", tts: Some("手電筒"), keywords: &["手電筒"] },
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("電筒"),
-			keywords: &["光", "工具", "手提電筒", "手電筒", "燈", "電筒"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ithoshi"),
-			keywords: &["ithoshi", "ithuluzi", "ugesi", "ukukhanya"],
-		},
-	],
 };
 #[doc = "🔎"]
 pub const MAGNIFYING_GLASS_TILTED_RIGHT: crate::Emoji = crate::Emoji {
@@ -7505,6 +5809,1702 @@ pub const RED_PAPER_LANTERN: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("ilambu elibomvu"),
 			keywords: &["ibha", "ilambu", "ilambu elibomvu", "japanese", "okubomvu", "ukukhanya"],
+		},
+	],
+};
+#[doc = "📸"]
+pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
+	glyph:                "📸",
+	codepoint:            &[128248u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 1u8, minor: 0u8, patch: 0u8 },
+	name:                 "camera with flash",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::LightVideo,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("kamera met flits"),
+			keywords: &["flits", "foto", "kamera", "kamera met flits", "video", "videokamera"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ባለፍላሽ ካሜራ"),
+			keywords: &["ባለፍላሽ ካሜራ", "ቪዲዮ", "ካሜራ", "ፍላሽ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("كاميرا بفلاش"),
+			keywords: &["تصوير", "فلاش", "فيديو", "كاميرا", "كاميرا بفلاش"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ফ\u{9cd}ল\u{9be}শ\u{9cd}ব সহ কেমেৰ\u{9be}"),
+			keywords: &[
+				"কেমেৰ\u{9be}",
+				"ফ\u{9cd}ল\u{9be}শ\u{9cd}ব",
+				"ফ\u{9cd}ল\u{9be}শ\u{9cd}ব সহ কেমেৰ\u{9be}",
+				"ভিডিঅ’",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("işıqlı kamera"),
+			keywords: &["fleş işığı olan kamera", "işıq", "işıqlı kamera", "kamera", "video"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("камера з успышкай"),
+			keywords: &["здымка", "камера", "камера з успышкай", "успышка", "фота"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("фотоапарат със светкавица"),
+			keywords: &[
+				"Фотоапарат със светкавица",
+				"видео",
+				"светкавица",
+				"фотоапарат",
+				"фотоапарат със светкавица",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ফ\u{9cd}ল\u{9cd}য\u{9be}শয\u{9c1}ক\u{9cd}ত ক\u{9cd}য\u{9be}মের\u{9be}"),
+			keywords: &[
+				"ক\u{9cd}য\u{9be}মের\u{9be}",
+				"ফ\u{9cd}ল\u{9cd}য\u{9be}শ",
+				"ফ\u{9cd}ল\u{9cd}য\u{9be}শয\u{9c1}ক\u{9cd}ত ক\u{9cd}য\u{9be}মের\u{9be}",
+				"ভিডিও",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("lucʼhskeudennerez gant lucʼheder"),
+			keywords: &["lucʼheder", "lucʼhskeudennerez", "lucʼhskeudennerez gant lucʼheder", "video"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("fotoaparat sa blicom"),
+			keywords: &["blic", "fotoaparat sa blicom", "kamera", "video"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("càmera amb flaix"),
+			keywords: &["càmera", "càmera amb flaix", "flaix", "vídeo"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄇𑄬𑄟𑄬𑄢 𑄣\u{11127}𑄉𑄬 𑄜\u{11133}𑄣𑄌\u{11134}"),
+			keywords: &["𑄇𑄬𑄟𑄬𑄢 𑄣\u{11127}𑄉𑄬 𑄜\u{11133}𑄣𑄌\u{11134}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏗᏓᏟᎶᏍᏙᏗ ᎤᏥᏍᏓᎷᎩ ᎠᏩᏠᏯᏍᏓ"),
+			keywords: &["ᎠᏗᏴᎳᏛᏍᎩ", "ᎤᏥᏍᏓᎷᎩ", "ᏗᏓᏟᎶᏍᏙᏗ", "ᏗᏓᏟᎶᏍᏙᏗ ᎤᏥᏍᏓᎷᎩ ᎠᏩᏠᏯᏍᏓ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("fotoaparát s bleskem"),
+			keywords: &["aparát", "blesk", "fotoaparát s bleskem", "fotografický", "foťák", "video"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("camera â fflach"),
+			keywords: &["camera", "camera â fflach", "fflach", "fideo"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("kamera med blitz"),
+			keywords: &["blitz", "kamera", "kamera med blitz", "video"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Fotoapparat mit Blitz"),
+			keywords: &["Blitz", "Fotoapparat", "Fotoapparat mit Blitz"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("φωτογραφική μηχανή με φλας"),
+			keywords: &["βίντεο", "βιντεοκάμερα", "φλας", "φωτογραφική μηχανή με φλας"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("camera with flash"),
+			keywords: &["camera", "flash", "video"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("cámara con flash"),
+			keywords: &["cámara", "cámara con flash", "flash"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["cámara", "cámara con flash", "flash", "foto"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["cámara", "cámara con flash", "flash", "video"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("välguga kaamera"),
+			keywords: &["foto", "kaamera", "pildistamine", "välguga kaamera", "välk"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("kamera flasharekin"),
+			keywords: &["bideo", "flash", "kamera", "kamera flasharekin"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("دوربین با فلاش"),
+			keywords: &["دوربین", "دوربین با فلاش", "فلاش", "ویدیو"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kamera ja salama"),
+			keywords: &["kamera", "kamera ja salama", "salama", "video"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("camera na may flash"),
+			keywords: &["camera", "camera na may flash", "flash", "kamera", "video"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("myndatól við blits"),
+			keywords: &["blits", "fotografi", "myndatól", "myndatól við blits"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("appareil photo avec flash"),
+			keywords: &["appareil photo", "appareil photo avec flash", "flash"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["appareil photo", "flash"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("ceamara le splanc"),
+			keywords: &["ceamara", "ceamara le splanc", "físeán", "grianghrafadán", "splanc"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("camara le solas-boillsgidh"),
+			keywords: &[
+				"boillsgeadh",
+				"camara",
+				"camara le solas-boillsgidh",
+				"solas-boillsgidh",
+				"video",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("cámara de fotos con flash"),
+			keywords: &["cámara", "cámara de fotos con flash", "flash", "fotografía"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફ\u{acd}લ\u{ac7}શ સાથ\u{ac7}નો ક\u{ac5}મ\u{ac7}રો"),
+			keywords: &[
+				"કમ\u{ac7}રો",
+				"ફ\u{acd}લ\u{ac7}શ",
+				"ફ\u{acd}લ\u{ac7}શ સાથ\u{ac7}નો ક\u{ac5}મ\u{ac7}રો",
+				"વિડિઓ",
+				"વિડિયો",
+				"સાધન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("kyamara mai ƙyalla"),
+			keywords: &[
+				"bidiyo",
+				"filash",
+				"filasha",
+				"hoto",
+				"kyamara",
+				"kyamara mai ƙyalla",
+				"ƙyalla",
+				"ɗaukar hoto",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("kyamara mai ƙyalla"),
+			keywords: &[
+				"bidiyo",
+				"filash",
+				"filasha",
+				"hoto",
+				"kyamara",
+				"kyamara mai ƙyalla",
+				"ƙyalla",
+				"ɗaukar hoto",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מצלמה עם פלאש"),
+			keywords: &["הבזק", "לצלם", "מבזק", "מצלמה", "מצלמה עם פלאש", "פלאש", "צילום"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("फ\u{93c}\u{94d}ल\u{948}श वाला क\u{948}मरा"),
+			keywords: &[
+				"क\u{948}मरा",
+				"फ\u{93c}\u{94d}ल\u{948}श वाला क\u{948}मरा",
+				"फ\u{94d}ल\u{948}श क\u{947} साथ क\u{948}मरा",
+				"वीडियो",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("fotoaparat s bljeskalicom"),
+			keywords: &["bljeskalica", "fotoaparat", "fotoaparat s bljeskalicom", "kamera", "video"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("fényképező vakuval"),
+			keywords: &["fényképező vakuval", "fényképezőgép", "kamera", "vaku", "videó"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ֆոտոապարատ լուսաթարթիչով"),
+			keywords: &["լուսաթարթիչ", "վիդեո", "ֆոտոապարատ", "ֆոտոապարատ լուսաթարթիչով"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("kamera dengan flash"),
+			keywords: &["flash", "kamera", "video"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("igwefòto nwere ọkụ"),
+			keywords: &["igwefòto", "igwefòto nwere ọkụ", "vidio", "ọkụ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("myndavél með flassi"),
+			keywords: &["flass", "myndavél", "myndavél með flassi", "myndband"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("fotocamera con flash"),
+			keywords: &[
+				"flash",
+				"foto con flash",
+				"fotocamera",
+				"fotocamera con flash",
+				"fotografare",
+				"macchina fotografica",
+				"macchina fotografica con flash",
+				"ricordi",
+				"scattare foto",
+				"selfie",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("フラッシュを焚いているカメラ"),
+			keywords: &[
+				"カメラ",
+				"カメラフラッシュ",
+				"フラッシュ",
+				"フラッシュを焚いているカメラ",
+				"写真",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("kamera mawa lampu jepret"),
+			keywords: &["kamera", "kamera mawa lampu jepret", "lampu jepret", "vidio"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ფოტოაპარატი ბლიცით"),
+			keywords: &["ბლიცი", "ვიდეო", "კამერა", "მაშუქი", "ფოტოაპარატი ბლიცით"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("жарқылы бар камера"),
+			keywords: &["бейне", "видео", "жарқыл", "жарқылы бар камера", "камера"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("kamera med blitz"),
+			keywords: &["blitz", "kamera", "kamera med blitz", "video"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("កាមេរ\u{17c9}ាបាញ\u{17cb}ភ\u{17d2}លើងហ\u{17d2}វ\u{17d2}លាស\u{17cb}"),
+			keywords: &[
+				"កាមេរ\u{17c9}ា",
+				"កាមេរ\u{17c9}ាបាញ\u{17cb}ភ\u{17d2}លើងហ\u{17d2}វ\u{17d2}លាស\u{17cb}",
+				"បាញ\u{17cb}ភ\u{17d2}លើង",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕ\u{ccd}ಯಾಮರಾ"),
+			keywords: &[
+				"ಕ\u{ccd}ಯಾಮರಾ",
+				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}",
+				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c}ನ\u{cca}ಂದ\u{cbf}ಗ\u{cc6} ಕ\u{ccd}ಯಾಮರಾ",
+				"ವ\u{cc0}ಡ\u{cbf}ಯ\u{cca}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("플래시를 터트리고 있는 카메라"),
+			keywords: &[
+				"비디오",
+				"카메라",
+				"플래시",
+				"플래시 터트린 카메라",
+				"플래시를 터트리고 있는 카메라",
+			],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("फ\u{94d}ल\u{945}श आसपी क\u{945}म\u{947}रा"),
+			keywords: &[
+				"क\u{945}म\u{947}रा",
+				"फ\u{94d}ल\u{945}श",
+				"फ\u{94d}ल\u{945}श आसपी क\u{945}म\u{947}रा",
+				"व\u{94d}हिडियो",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жаркылдагы менен камера"),
+			keywords: &["видео", "жаркылдагы менен камера", "жаркылдак", "камера"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Fotoapparat mat Blëtz"),
+			keywords: &["Blëtz", "Flash", "Fotoapparat", "Fotoapparat mat Blëtz", "Kamera", "Video"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ກ\u{ec9}ອງຖ\u{ec8}າຍຮ\u{eb9}ບເປ\u{eb5}ດແຟຣ\u{eb1}ຊ"),
+			keywords: &[
+				"ກ\u{ec9}ອງ",
+				"ກ\u{ec9}ອງຖ\u{ec8}າຍຮ\u{eb9}ບເປ\u{eb5}ດແຟຣ\u{eb1}ຊ",
+				"ຖ\u{ec8}າຍຮ\u{eb9}ບ",
+				"ແຟຣ\u{eb1}ຊ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("fotoaparatas su blykste"),
+			keywords: &["blykstė", "fotoaparatas", "fotoaparatas su blykste", "vaizdo įrašas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("fotokamera ar zibspuldzi"),
+			keywords: &["fotoaparāts", "fotokamera", "fotokamera ar zibspuldzi", "kamera", "zibspuldze"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("pūwhakaahua whai hikohiko"),
+			keywords: &["ataata", "hikohiko", "pūwhakaahua", "pūwhakaahua whai hikohiko"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("фотоапарат со блиц"),
+			keywords: &["блиц", "видео", "камера", "камера со блиц", "фотоапарат", "фотоапарат со блиц"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഫ\u{d4d}ല\u{d3e}ഷ\u{d41}ള\u{d4d}ള ക\u{d4d}യ\u{d3e}മറ"),
+			keywords: &[
+				"ക\u{d4d}യ\u{d3e}മറ",
+				"ഫ\u{d4d}ല\u{d3e}ഷ\u{d41}ള\u{d4d}ള ക\u{d4d}യ\u{d3e}മറ",
+				"ഫ\u{d4d}ല\u{d3e}ഷ\u{d4d}",
+				"വീഡിയോ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("гэрэл асдаг камер"),
+			keywords: &["видео", "гэрэл", "гэрэл асдаг камер", "камер"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("फ\u{94d}ल\u{945}शसह क\u{945}म\u{947}रा"),
+			keywords: &[
+				"क\u{945}म\u{947}रा",
+				"फ\u{94d}ल\u{945}श",
+				"फ\u{94d}ल\u{945}शसह क\u{945}म\u{947}रा",
+				"व\u{94d}हिडिओ",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("kamera dengan denyar"),
+			keywords: &["denyar", "kamera", "kamera dengan denyar", "video"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("kamera bi flash"),
+			keywords: &["flash", "kamera", "kamera bi flash", "vidjo"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ"),
+			keywords: &[
+				"ကင\u{103a}မရာ",
+				"ဖလက\u{103a}ရ\u{103e}\u{103a}",
+				"ဖလက\u{103a}ရ\u{103e}\u{103a}မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ",
+				"ဗ\u{102e}ဒ\u{102e}ယ\u{102d}\u{102f}",
+				"မ\u{102e}းပါသည\u{1037}\u{103a} ကင\u{103a}မရာ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("फ\u{94d}ल\u{94d}याशसहितको क\u{94d}याम\u{947}रा"),
+			keywords: &[
+				"क\u{94d}याम\u{947}रा",
+				"फ\u{94d}ल\u{94d}याश",
+				"फ\u{94d}ल\u{94d}याशसहितको क\u{94d}याम\u{947}रा",
+				"भिडियो",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("camera met flitser"),
+			keywords: &["camera", "camera met flitser", "flitser", "fotograferen", "video"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c} ସହ\u{b3f}ତ କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}"),
+			keywords: &[
+				"କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}",
+				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}",
+				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c} ସହ\u{b3f}ତ କ\u{b4d}ୟ\u{b3e}ମେର\u{b3e}",
+				"ଭ\u{b3f}ଡ\u{b3f}ଓ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਫਲ\u{a48}ਸ\u{a3c} ਵਾਲਾ ਕ\u{a48}ਮਰਾ"),
+			keywords: &[
+				"ਕ\u{a48}ਮਰਾ",
+				"ਤਸਵੀਰ",
+				"ਫਲ\u{a48}ਸ",
+				"ਫਲ\u{a48}ਸ\u{a3c} ਵਾਲਾ ਕ\u{a48}ਮਰਾ",
+				"ਫ\u{a3c}\u{a4b}ਟ\u{a4b}",
+				"ਵੀਡੀਓ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("فلیشن نال کیمرہ"),
+			keywords: &["فلیشن نال کیمرہ", "ویڈیو", "چمچمونا", "کیمرہ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Kámẹ\u{301}ra Wé Gẹ\u{301}t Flash"),
+			keywords: &["Flash", "Kámẹ\u{301}ra", "Kámẹ\u{301}ra Wé Gẹ\u{301}t Flash", "Vídio"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("aparat fotograficzny z lampą błyskową"),
+			keywords: &[
+				"aparat",
+				"błyskowa",
+				"błyskową",
+				"flesz",
+				"fotograficzny",
+				"lampa",
+				"z lampą",
+				"zdjęcie",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("فلش لرونکې کامره"),
+			keywords: &["فلش", "فلش لرونکې کامره", "ويډيو", "کامره"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("câmera com flash"),
+			keywords: &["câmera", "flash", "foto", "fotografia", "vídeo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("máquina fotográfica com flash"),
+			keywords: &["câmara", "flash", "máquina fotográfica com flash", "vídeo"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("camara flash kaqwan"),
+			keywords: &["camara", "camara flash kaqwan", "flash", "video"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("cameră foto cu bliț"),
+			keywords: &[
+				"aparat de fotografiat",
+				"bliț",
+				"cameră",
+				"cameră foto cu bliț",
+				"fotografie",
+				"video",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-693"), keywords: &["E10-693"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("фотоаппарат со вспышкой"),
+			keywords: &[
+				"вспышка",
+				"съемка",
+				"фото",
+				"фотоаппарат",
+				"фотоаппарат со вспышкой",
+				"фотокамера",
+			],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("kamera ifite umurabyo"),
+			keywords: &["kamera", "kamera ifite umurabyo", "umurabyo", "videwo"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("فليش واري ڪئميرا"),
+			keywords: &["فليش", "فليش واري ڪئميرا", "ويڊيو", "ڪئميرا"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ෆ\u{dca}ලෑෂරය සහ\u{dd2}ත කැමර\u{dcf}ව"),
+			keywords: &[
+				"කමර\u{dcf}ව",
+				"ව\u{dd3}ඩ\u{dd2}යෝව",
+				"ෆ\u{dca}ලෑෂරය සහ\u{dd2}ත කැමර\u{dcf}ව",
+				"ෆ\u{dca}ලෑෂ\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("fotoaparát s bleskom"),
+			keywords: &["blesk", "fotoaparát", "fotoaparát s bleskom", "video"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("fotoaparat z bliskavico"),
+			keywords: &["bliskavica", "fotoaparat", "fotoaparat z bliskavico", "slika", "video"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("kamarad khashaafad leh"),
+			keywords: &["fiidiyow", "kamarad", "kamarad khashaafad leh", "khashaafad"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("kamerë me blic"),
+			keywords: &["blic", "kamerë", "kamerë me blic", "video"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("фотоапарат са блицем"),
+			keywords: &["блиц", "видeo", "фoтoaпaрaт"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("fotoaparat sa blicem"),
+			keywords: &["blic", "fotoaparat", "video"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("kamera med blixt"),
+			keywords: &["blixt", "kamera", "kamera med blixt"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kamera yenye mmweko"),
+			keywords: &["kamera", "kamera yenye mmweko", "mmweko", "video"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பிள\u{bbe}ஷ\u{bcd} அடிக\u{bcd}கும\u{bcd} கேமர\u{bbe}"),
+			keywords: &[
+				"ஃபிள\u{bbe}ஷ\u{bcd}",
+				"ஃப\u{bcd}ள\u{bbe}ஷ\u{bcd}",
+				"பிள\u{bbe}ஷ\u{bcd} அடிக\u{bcd}கும\u{bcd} கேமர\u{bbe}",
+				"பிள\u{bbe}ஷ\u{bcd} கேமர\u{bbe}",
+				"வ\u{bc0}டியோ",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఫ\u{c4d}ల\u{c3e}ష\u{c4d} క\u{c46}మ\u{c46}ర\u{c3e}"),
+			keywords: &[
+				"క\u{c46}మ\u{c46}ర\u{c3e}",
+				"ఫ\u{c4b}ట\u{c4b} త\u{c40}యడం",
+				"ఫ\u{c4d}ల\u{c3e}ష\u{c4d}",
+				"వ\u{c40}డ\u{c3f}య\u{c4b}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("камера бо дурахш"),
+			keywords: &["видео", "дурахш", "камера", "камера бо дурахш"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("กล\u{e49}องเป\u{e34}ดแฟลช"),
+			keywords: &["กล\u{e49}อง", "กล\u{e49}องเป\u{e34}ดแฟลช", "ว\u{e34}ด\u{e35}โอ", "แฟลช"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ካሜራ ምስ ፍላሽ"),
+			keywords: &["ቪዲዮ", "ካሜራ", "ፍላሽ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("wspyşkaly kamera"),
+			keywords: &["kamera", "wideo", "wspyşka", "wspyşkaly kamera"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("faitā moe kasa"),
+			keywords: &["faitā moe kasa"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("flaşlı fotoğraf makinesi"),
+			keywords: &["flaş", "flaşlı fotoğraf makinesi", "kamera", "video"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("چىراقلىق كامېرا"),
+			keywords: &["سىن", "كامېرا", "چاقماق چىراق", "چىراقلىق كامېرا"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("фотоапарат зі спалахом"),
+			keywords: &["відео", "камера", "спалах", "фото", "фотоапарат зі спалахом"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("فلیش والا کیمرا"),
+			keywords: &["تصویر", "فلیش", "فلیش والا کیمرا", "فوٹو", "ویڈیو", "کیمرا"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("chaqmoqli kamera"),
+			keywords: &["chaqmoqli kamera", "kamera", "video"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("máy ảnh có đèn flash"),
+			keywords: &["máy ảnh", "máy ảnh có đèn flash", "video", "đèn flash"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("nataalukaay bu ànd ak flaas"),
+			keywords: &["flash", "nataalukaay", "nataalukaay bu ànd ak flaas", "wideo"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ikhamera enefleshi"),
+			keywords: &["ifleshi", "ikhamera", "ikhamera enefleshi", "ividiyo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kámẹ\u{301}rà pẹlu filaṣi"),
+			keywords: &["fídíò", "fílásì", "kámẹ\u{301}rà", "kámẹ\u{301}rà pẹlu filaṣi"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kámɛ\u{301}rà pɛlu filashi"),
+			keywords: &["fídíò", "fílásì", "kámɛ\u{301}rà", "kámɛ\u{301}rà pɛlu filashi"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("閃光燈相機"),
+			keywords: &["影片", "相機", "閃光", "閃光燈相機"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("闪光灯相机"),
+			keywords: &["影片", "相机", "闪光", "闪光灯相机"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("开闪光灯的相机"),
+			keywords: &["带闪光灯的相机", "开闪光灯的相机", "拍照", "相机", "闪光灯", "闪光灯打开"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("開閃光燈"),
+			keywords: &["帶閃光燈的相機", "拍照", "開閃光燈"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("開咗閃光燈嘅相機"),
+			keywords: &["影片", "影相", "照", "相機", "相片", "閃光燈", "開咗閃光燈嘅相機", "開閃光燈"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ikhamera enefleshi"),
+			keywords: &["ifleshi", "ikhamera", "ikhamera enefleshi", "ividiyo"],
+		},
+	],
+};
+#[doc = "🔦"]
+pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
+	glyph:                "🔦",
+	codepoint:            &[128294u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "flashlight",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::LightVideo,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("flits"),
+			keywords: &["elektries", "flits", "flitslig", "hulpmiddel", "lig"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የእጅ ባትሪ"),
+			keywords: &["መሣሪያ", "ብርሃን", "ኤሌክትሪክ", "የእጅ ባትሪ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("ضوء فلاش"),
+			keywords: &["اداة", "الكتريك", "ضوء", "ضوء فلاش", "كشاف", "كهربائي"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ফ\u{9cd}ল\u{9be}শ\u{9cd}বল\u{9be}ইট"),
+			keywords: &[
+				"টৰ\u{9cd}চ",
+				"পোহৰ",
+				"ফ\u{9cd}ল\u{9be}শ\u{9cd}বল\u{9be}ইট",
+				"বৈদ\u{9cd}য\u{9c1}তিক",
+				"স\u{981}জ\u{9c1}লি",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("fənər"),
+			keywords: &["alət", "elektrik", "fənər", "işıq"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("ліхтарык"),
+			keywords: &["ліхтарык", "святло", "электрычнасць", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("фенерче"),
+			keywords: &["електрическа", "електрическо", "инструмент", "светлина", "фенерче"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ফ\u{9cd}ল\u{9cd}য\u{9be}শ ল\u{9be}ইট"),
+			keywords: &[
+				"আলো",
+				"ফ\u{9cd}ল\u{9cd}য\u{9be}শ ল\u{9be}ইট",
+				"বৈদ\u{9cd}য\u{9c1}তিক",
+				"মশ\u{9be}ল",
+				"সরঞ\u{9cd}জ\u{9be}ম",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("etev-goulaouiñ"),
+			keywords: &["etev-goulaouiñ", "tredan"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("baterijska lampa"),
+			keywords: &["alat", "baterijska lampa", "elektrika", "lampa", "svjetlo"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("llanterna"),
+			keywords: &["eina", "electricitat", "elèctric", "elèctrica", "llanterna", "llum"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄑\u{11128}𑄛\u{11134}𑄝\u{11128}𑄖\u{11134}\u{11128}"),
+			keywords: &["𑄑\u{11128}𑄛\u{11134}𑄝\u{11128}𑄖\u{11134}\u{11128}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎤᏍᏗ ᎠᏨᏍᏗ"),
+			keywords: &["ᎠᎾᎦᎵᏍᎩ", "ᎠᏨᏍᏗ", "ᎤᏍᏗ ᎠᏨᏍᏗ", "ᎬᏔᏂᏓᏍᏗ", "ᏳᎳᏉ ᎠᏨᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("baterka"),
+			keywords: &["baterka", "elektrický", "nástroj", "nářadí", "svítilna", "světlo"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("tortsh"),
+			keywords: &["golau", "offeryn", "tortsh", "trydanol"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("lommelygte"),
+			keywords: &["lommelygte", "lygte"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Taschenlampe"),
+			keywords: &["Lampe", "Licht", "Taschenlampe"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("φακός"),
+			keywords: &["εργαλείο", "ηλεκτρικό", "φακός", "φως"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("flashlight"),
+			keywords: &["electric", "flashlight", "light", "tool", "torch"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("linterna"),
+			keywords: &["linterna", "luz"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation { lang: "es_419", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("↑↑↑"),
+			keywords: &["herramienta", "linterna", "luz"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("taskulamp"),
+			keywords: &["elekter", "taskulamp", "tööriist", "valgus"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("linterna"),
+			keywords: &["argi", "elektriko", "linterna", "tresna"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("چراغ\u{200c}قوه"),
+			keywords: &["ابزار", "الکتریسیته", "نور", "چراغ\u{200c}قوه"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("taskulamppu"),
+			keywords: &["lamppu", "sähkö", "taskulamppu", "työkalu", "valo"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("flashlight"),
+			keywords: &["de-kuryente", "flashlight", "ilaw", "tool", "torch"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("lummalykt"),
+			keywords: &["ljós", "lummalykt", "lykt", "stavlykt"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("torche"),
+			keywords: &["lampe torche", "lampe électrique", "lumière", "outil", "torche"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("lampe de poche"),
+			keywords: &["lampe de poche", "lumière"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("tóirse"),
+			keywords: &["lampa leictreach", "tóirse", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("toirds dealain"),
+			keywords: &["dealanach", "inneal", "lòchran", "solas", "toirds", "toirds dealain"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("lanterna"),
+			keywords: &["lanterna", "luz"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ફ\u{acd}લ\u{ac7}શલાઇટ"),
+			keywords: &[
+				"ઇલ\u{ac7}ક\u{acd}ટ\u{acd}રિક",
+				"ટોર\u{acd}ચ",
+				"પ\u{acd}રકાશ",
+				"ફ\u{acd}લ\u{ac7}શલાઇટ",
+				"સાધન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("tocila"),
+			keywords: &["fitila", "haske", "kayan aiki", "na lantarki", "tocila", "wuta"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("tocila"),
+			keywords: &["fitila", "haske", "kayan aiki", "na lantarki", "tocila", "wuta"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang: "he", tts: Some("פנס"), keywords: &["אור", "פנס", "תאורה"]
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("टॉर\u{94d}च"),
+			keywords: &["टॉर\u{94d}च", "प\u{94d}रकाश", "फ\u{93c}\u{94d}ल\u{948}शलाइट", "बिजली"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("ručna svjetiljka"),
+			keywords: &["alat", "lampa", "ručna svjetiljka", "struja", "svjetlo"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("zseblámpa"),
+			keywords: &["elektronikus", "elemlámpa", "fény", "világítás", "zseblámpa"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("գրպանի լապտեր"),
+			keywords: &["գործիք", "գրպանի լապտեր", "էլեկտրական", "լապտեր", "լույս"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("lampu senter"),
+			keywords: &["alat", "cahaya", "lampu senter", "listrik", "senter"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("nchaọkụ"),
+			keywords: &["latrikị", "nchaọkụ", "ngwaọrụ", "ọkụ", "ọkụ mpanaka"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("vasaljós"),
+			keywords: &["ljós", "vasaljós"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("torcia"),
+			keywords: &["elettrica", "luce", "pila", "torcia"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("懐中電灯"),
+			keywords: &["ライト", "懐中電灯", "明かり"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("senter"),
+			keywords: &["cahya", "elektrik", "lampu sorot", "pranti", "senter"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ფანარი"),
+			keywords: &["ელექტრო", "ინსტრუმენტი", "სინათლე", "ფანარი", "შუქი", "ხელსაწყო"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("жарқыл жарығы"),
+			keywords: &["алау", "жарық", "жарқыл жарығы", "шам", "электрлік", "құрал"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("lommelygte"),
+			keywords: &["lommelygte", "lygte"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ព\u{17b7}ល"),
+			keywords: &[
+				"ពន\u{17d2}ល\u{17ba}",
+				"ព\u{17b7}ល",
+				"ភ\u{17d2}លើង",
+				"ភ\u{17d2}លើងព\u{17b7}ល",
+				"អគ\u{17d2}គ\u{17b7}សន\u{17b8}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c} ಲ\u{cc8}ಟ\u{ccd}"),
+			keywords: &[
+				"ಉಪಕರಣ",
+				"ಎಲ\u{cc6}ಕ\u{ccd}ಟ\u{ccd}ರ\u{cbf}ಕ\u{ccd}",
+				"ಟಾರ\u{ccd}ಚ\u{ccd}",
+				"ಪಂಜು",
+				"ಫ\u{ccd}ಲ\u{ccd}ಯಾಶ\u{ccd}\u{200c} ಲ\u{cc8}ಟ\u{ccd}",
+				"ಬ\u{cc6}ಳಕು",
+				"ಬ\u{ccd}ಯಾಟರ\u{cbf}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("손전등"),
+			keywords: &["도구", "빛", "손전등", "전기", "전등", "플래시라이트"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("फ\u{94d}ल\u{945}शलायट"),
+			keywords: &["टॉर\u{94d}च", "फ\u{94d}ल\u{945}शलायट", "लायट", "विद\u{94d}य\u{941}त", "साधन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("колчырак"),
+			keywords: &["жарык", "колчырак", "курал", "электр"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Täscheluucht"),
+			keywords: &["Apparat", "Luucht", "Täsch", "Täscheluucht", "elektresch"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໄຟສາຍ"),
+			keywords: &["ເຄ\u{eb7}\u{ec8}ອງມ\u{eb7}", "ແສງ", "ໄຟຟ\u{ec9}າ", "ໄຟສາຍ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("žibintuvėlis"),
+			keywords: &["deglas", "elektra", "įrankis", "šviesa", "žibintuvėlis"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("kabatas lukturītis"),
+			keywords: &["elektrība", "gaisma", "kabatas lukturītis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kōrama"),
+			keywords: &["hiko", "kōrama", "mārama", "utauta"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("батериска ламба"),
+			keywords: &["алатка", "батериска ламба", "батерија", "електричен", "светилка", "светло"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ടോർച\u{d4d}ച\u{d4d}"),
+			keywords: &[
+				"ഇലക\u{d4d}\u{200c}ട\u{d4d}രിക\u{d4d} ടോർച\u{d4d}ച\u{d4d}",
+				"ടോർച\u{d4d}ച\u{d4d}",
+				"പ\u{d4d}രക\u{d3e}ശം",
+				"വെളിച\u{d4d}ചം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("гар чийдэн"),
+			keywords: &["багаж", "гар чийдэн", "гэрэл", "цахилгаан"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("विज\u{947}री"),
+			keywords: &["प\u{94d}रकाश", "ब\u{945}टरी", "मशाल", "विज\u{947}री", "विद\u{94d}य\u{941}त"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("lampu suluh"),
+			keywords: &["alat", "cahaya", "elektrik", "lampu suluh"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("torċ"),
+			keywords: &["dawl", "elettriku", "għodda", "torċ"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဓာတ\u{103a}မ\u{102e}း"),
+			keywords: &[
+				"ဓာတ\u{103a}မ\u{102e}း",
+				"လျ\u{103e}ပ\u{103a}စစ\u{103a}",
+				"အလင\u{103a}းရောင\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("फ\u{94d}ल\u{94d}याश लाइट"),
+			keywords: &[
+				"उपकरण",
+				"टर\u{94d}च",
+				"फ\u{94d}ल\u{94d}याश लाइट",
+				"बत\u{94d}ती",
+				"विद\u{94d}य\u{941}तीय",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("zaklamp"),
+			keywords: &["elektrisch", "lamp", "licht", "zaklamp", "zaklantaarn"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}\u{200c}"),
+			keywords: &[
+				"ଆଲୋକ",
+				"ଇଲେକ\u{b4d}ଟ\u{b4d}ର\u{b3f}କ\u{b4d}",
+				"ଟର\u{b4d}ଚ\u{b4d}ଚ",
+				"ଫ\u{b4d}ଲ\u{b3e}ଶ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}\u{200c}",
+				"ଫ\u{b4d}ଲ\u{b3e}ସ\u{b4d}\u{200c}ଲ\u{b3e}ଇଟ\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਫਲ\u{a48}ਸ\u{a3c}ਲਾਈਟ"),
+			keywords: &[
+				"ਔਜ\u{a3c}ਾਰ",
+				"ਚਾਨਣ",
+				"ਟਾਰਚ",
+				"ਟ\u{a42}ਲ",
+				"ਫਲ\u{a48}ਸਲਾਈਟ",
+				"ਫਲ\u{a48}ਸ\u{a3c} ਲਾਈਟ",
+				"ਫਲ\u{a48}ਸ\u{a3c}ਲਾਈਟ",
+				"ਬਿਜਲੀ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("ٹارچ"),
+			keywords: &["اوزار", "بتی", "برقی", "ٹارچ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Tọ\u{301}chlait"),
+			keywords: &["Tul", "Tọch", "Tọ\u{301}chlait", "Ẹlẹ\u{301}ktrik"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("latarka"),
+			keywords: &["elektryczna", "lampka", "latarka", "światło"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("لاسي څراغ"),
+			keywords: &["اله", "برېښنايي", "بيټري", "رڼا", "لاسي څراغ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("lanterna"),
+			keywords: &["elétrica", "ferramenta", "lanterna", "luz"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["eletricidade", "elétrica", "ferramenta", "lanterna", "luz", "utensílio"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("flash"),
+			keywords: &["antorcha", "chuya", "electrico", "flash", "llamkana"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("lanternă"),
+			keywords: &["baterie", "electric", "instrument", "lanternă", "lumină"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-738"), keywords: &["E10-738"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("фонарик"),
+			keywords: &["свет", "фонарик", "фонарь", "электричество"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("itoroshi"),
+			keywords: &["cy’amashanyarazi", "itara", "itoroshi", "urumuri"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("فليش لائيٽ"),
+			keywords: &["اوزار", "برقي", "روشني", "فليش لائيٽ", "ٽارچ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ෆ\u{dca}ලෑෂ\u{dca}ලය\u{dd2}ට\u{dca}"),
+			keywords: &[
+				"ආලෝකය",
+				"මෙවලම",
+				"ව\u{dd2}ද\u{dd4}ල\u{dd2} පන\u{dca}දම",
+				"ව\u{dd2}ද\u{dd4}ල\u{dd2}ය",
+				"ෆ\u{dca}ලෑෂ\u{dca}ලය\u{dd2}ට\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("baterka"),
+			keywords: &["baterka", "elektrické", "nástroj", "svetlo", "svietidlo"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("svetilka"),
+			keywords: &["električno", "luč", "orodje", "svetilka"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("toosh"),
+			keywords: &["dab", "iftiin", "qalab", "toosh"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("elektrik dore"),
+			keywords: &["dritë", "elektrik", "elektrik dore", "fener", "vegël"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("батеријска лампа"),
+			keywords: &["батеријска", "лaмпa", "свeтлo", "струja"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation {
+			lang:     "sr_Cyrl_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["aлaт", "батеријска лампа", "лaмпa", "свјeтлo", "струja"],
+		},
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("baterijska lampa"),
+			keywords: &["baterijska", "lampa", "struja", "svetlo"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation {
+			lang:     "sr_Latn_BA",
+			tts:      Some("↑↑↑"),
+			keywords: &["alat", "baterijska lampa", "lampa", "struja", "svjetlo"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("ficklampa"),
+			keywords: &["ficklampa", "lampa"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kurunzi"),
+			keywords: &["kurunzi", "mwanga", "tochi", "umeme", "zana"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ட\u{bbe}ர\u{bcd}ச\u{bcd} லைட\u{bcd}"),
+			keywords: &[
+				"இரவு",
+				"ட\u{bbe}ர\u{bcd}ச\u{bcd}",
+				"பிள\u{bbe}ஷ\u{bcd}",
+				"பேட\u{bcd}டரி",
+				"பொருள\u{bcd}",
+				"லைட\u{bcd}",
+				"விளக\u{bcd}கு",
+				"வெளிச\u{bcd}சம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ట\u{c3e}ర\u{c4d}చ\u{c4d} ల\u{c48}ట\u{c4d}"),
+			keywords: &[
+				"ఎలక\u{c4d}ట\u{c4d}ర\u{c3f}క\u{c4d}",
+				"ట\u{c3e}ర\u{c4d}చ\u{c4d}",
+				"టూల\u{c4d}",
+				"ఫ\u{c4d}లష\u{c4d}\u{200c}ల\u{c48}ట\u{c4d}",
+				"ఫ\u{c4d}ల\u{c3e}ష\u{c4d} ల\u{c48}ట\u{c4d}",
+				"ల\u{c48}ట\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("фонус"),
+			keywords: &["асбоб", "барқӣ", "машъал", "рӯшноӣ", "фонус"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ไฟฉาย"),
+			keywords: &["เคร\u{e37}\u{e48}องม\u{e37}อ", "แสง", "ไฟฉาย", "ไฟฟ\u{e49}า"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ፍላሽ ላምባ"),
+			keywords: &["መሳርሒ", "ሽግ", "ብርሃን", "ኤሌክትሪክ", "ፍላሽ ላምባ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("fonar"),
+			keywords: &["fakel", "fonar", "gural", "tok", "yşyk"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("kasa"), keywords: &["kasa"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("el feneri"),
+			keywords: &["el feneri", "elektrik", "ışık"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("قولچىراق"),
+			keywords: &["توك", "قورال", "قولچىراق", "يورۇتۇش", "چىراق"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("ліхтарик"),
+			keywords: &["електричний", "ліхтарик", "світло", "інструмент"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("فلیش لائٹ"),
+			keywords: &["آلہ", "برقی", "روشنی", "فلیش", "فلیش لائٹ", "نور", "ٹارچ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("fonar"),
+			keywords: &["asbob", "chiroq", "elektr", "fonar", "mash’al"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đèn pin"),
+			keywords: &["dụng cụ", "ánh sáng", "điện", "đèn pin"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("làmp-tors"),
+			keywords: &["bu-kuuraŋ", "jumtukaay", "light", "làmp-tors"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("isibane"),
+			keywords: &["isibane", "isixhobo", "itotshi", "umbane"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("iná fílásì"),
+			keywords: &[
+				"iná",
+				"iná fílásì",
+				"iná mọ\u{300}nà-mó\u{329}ná",
+				"irjṣé\u{329}",
+				"tọ\u{301}ọ\u{301}ṣì",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("iná fílásì"),
+			keywords: &[
+				"iná",
+				"iná fílásì",
+				"iná mɔ\u{300}nà-mó\u{329}ná",
+				"irjshé\u{329}",
+				"tɔ\u{301}ɔ\u{301}shì",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("電筒"),
+			keywords: &["工具", "燈", "電", "電筒"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("电筒"),
+			keywords: &["工具", "灯", "电", "电筒"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("手电筒"),
+			keywords: &["光", "工具", "手电", "手电筒", "照明", "电筒"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation { lang: "zh_Hant", tts: Some("手電筒"), keywords: &["手電筒"] },
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("電筒"),
+			keywords: &["光", "工具", "手提電筒", "手電筒", "燈", "電筒"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ithoshi"),
+			keywords: &["ithoshi", "ithuluzi", "ugesi", "ukukhanya"],
 		},
 	],
 };

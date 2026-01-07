@@ -1,820 +1,3 @@
-#[doc = "🪯"]
-pub const KHANDA: crate::Emoji = crate::Emoji {
-	glyph:                "🪯",
-	codepoint:            &[129711u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "khanda",
-	group:                crate::Group::Symbols,
-	subgroup:             crate::Subgroup::Religion,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("khanda"),
-			keywords: &[
-				"Indië",
-				"Oosters",
-				"Pakistan",
-				"Sikh",
-				"geloof",
-				"godsdiens",
-				"khanda",
-				"religie",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ቻንዳ"),
-			keywords: &["ሃይማኖት", "ሲች", "ሲክ", "ሲክሂዝም", "ቻንዳ", "እምነት", "ካልሳ", "ካንዳ", "ደግ ተግ ፋቴህ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("خندا"),
-			keywords: &["إيمان سيخي", "السيخ", "خندا", "ديانة", "ديغ تيغ فاتح", "عقيدة سيخية"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("খ\u{9be}ন\u{9cd}দ\u{9be}"),
-			keywords: &["খ\u{9be}ন\u{9cd}দ\u{9be}", "ধৰ\u{9cd}ম", "শিখ"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("xanda"),
-			keywords: &["Deq Teq Fateh", "Khalsa", "Siqh", "Siqhizm", "Xanda", "din", "inanc", "xanda"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("кханда"),
-			keywords: &["кханда", "рэлігія", "сікх"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("кханда"),
-			keywords: &["вяра", "кханда", "религия", "сикх", "сикхизъм"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("খ\u{9be}ন\u{9cd}দ\u{9be}"),
-			keywords: &[
-				"খ\u{9be}ন\u{9cd}দ\u{9be}",
-				"খ\u{9be}লস\u{9be}",
-				"ধর\u{9cd}ম",
-				"শিখ",
-				"শিখ ধর\u{9cd}মীয\u{9bc} প\u{9cd}রতীক",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "religija", "sikhizam"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("khanda"),
-			keywords: &["fe", "khanda", "religió", "sikh", "sikhisme"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᎧᏅᏓ"), keywords: &["ᎧᏅᏓ", "ᏏᎩ", "ᏗᏁᎸᏙᏗ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "náboženství", "sikh", "sikhismus"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("khanda"),
-			keywords: &["Deg Tegh Fateh", "Khalsa", "Khanda", "Sikh", "Sikhaeth", "crefydd"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("khanda"),
-			keywords: &["Deg Tegh Fateh", "khalsa", "khanda", "religion", "sikh", "sikhisme", "tro"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Khanda"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"Glaube",
-				"Khalsa",
-				"Khanda",
-				"Khanda-Emblem",
-				"Religion",
-				"Schwert",
-				"Sikh",
-				"Sikhismus",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("Khanda-Emblem"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("Χάντα"),
-			keywords: &["Σιχ", "Χάντα", "θρησκεία"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("khanda"),
-			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "religion"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "religión", "sij", "sijismo", "sikh"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Tegh", "fe", "religión", "sijismo"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("khanda"),
-			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "religioon"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("khanda"),
-			keywords: &["erlijioa", "khanda", "sikh", "sikismoa"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("خندا"),
-			keywords: &[
-				"آیین",
-				"اعتقاد",
-				"باور",
-				"خالسا",
-				"خاندا",
-				"خندا",
-				"دیگ و تیغ و فتح",
-				"سیک",
-				"مذهب",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("khanda"),
-			keywords: &[
-				"khalsa",
-				"khanda",
-				"sikhi",
-				"sikhiläinen",
-				"sikhismi",
-				"symboli",
-				"uskonto",
-				"veljeys",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "khanda", "relihiyon"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "sikki", "sikkur", "svørð"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("khanda"),
-			keywords: &["deg tegh fateh", "foi", "khalsa", "khanda", "religion", "sikh", "sikhisme"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("khanda"),
-			keywords: &["Suíceach", "khanda", "reiligiún"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "creideamh", "khanda"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation { lang: "gl", tts: Some("khanda"), keywords: &["relixión", "sikh"] },
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ખ\u{a82}ડા"),
-			keywords: &[
-				"આસ\u{acd}થા",
-				"ખ\u{a82}ડા",
-				"ખાલસા",
-				"દ\u{ac7}ગ ત\u{ac7}ગ ફત\u{ac7}હ",
-				"ધર\u{acd}મ",
-				"નિષ\u{acd}ઠા",
-				"વિશ\u{acd}વાસ",
-				"શીખ",
-				"શીખ ઘર\u{acd}મ",
-				"શ\u{acd}રધ\u{acd}ધા",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("khanda"),
-			keywords: &[
-				"Indiya",
-				"Khanda",
-				"Sikh",
-				"addini",
-				"addinin Indiya",
-				"addinin Sikh",
-				"imani",
-				"khanda",
-				"tambarin addini",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("khanda"),
-			keywords: &[
-				"Indiya",
-				"Khanda",
-				"Sikh",
-				"addini",
-				"addinin Indiya",
-				"addinin Sikh",
-				"imani",
-				"khanda",
-				"tambarin addini",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("סמל סיקי"),
-			keywords: &["אמונה", "דת", "סיקים", "סמל", "קהלסה", "קהנדה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("ख\u{902}डा"),
-			keywords: &["ख\u{902}डा", "खालसा", "धर\u{94d}म", "सिख"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("khanda"),
-			keywords: &["Sikhi", "khanda", "religija", "sikh", "sikizam", "vjera"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "szikh", "vallás"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation { lang: "hy", tts: Some("քանդա"), keywords: &["քանդա"] },
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("khanda"),
-			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhisme", "Tegh", "agama"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("khanda"),
-			keywords: &["Deg", "Fate", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "okpukperechi"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "sikh", "trúarbrögð"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "khanda", "religione", "sikhismo"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("カンダ"),
-			keywords: &["カルサ", "カンダ", "シク教", "シーク教", "シーク教徒", "信仰", "剣", "宗教"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("tandha kanda"),
-			keywords: &["Sikh", "agama", "tandha kanda"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ხანდა"),
-			keywords: &["რელიგია", "სიხიზმი", "ხანდა"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("кханда"),
-			keywords: &["Дег тег фатех", "Сикх", "дін", "кхальса", "кханда", "сенім", "сикхизм"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ខាន\u{17cb}ដា"),
-			keywords: &["ខាន\u{17cb}ដា", "សាសនា", "ស\u{17ca}\u{17b8}ក"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಖಾಂಡ"),
-			keywords: &[
-				"ಖಾಂಡ",
-				"ದ\u{cc7}ಗ\u{ccd} ತ\u{cc7}ಗ\u{ccd} ಫತ\u{cc7}",
-				"ಧರ\u{ccd}ಮ",
-				"ನಂಬ\u{cbf}ಕ\u{cc6}",
-				"ಲಾಂಛನ",
-				"ಸ\u{cbf}ಖ\u{ccd}",
-				"ಸ\u{cbf}ಖ\u{ccd} ಧರ\u{ccd}ಮದ ಲಾಂಛನ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("칸다"),
-			keywords: &["시크교", "종교", "칸다"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ख\u{902}डा"),
-			keywords: &[
-				"खा\u{902}डा",
-				"खालसा",
-				"ड\u{947}ग",
-				"त\u{947}ग",
-				"धर\u{94d}म",
-				"फत\u{947}ह",
-				"शिख",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("кханда (Сикх белгиси)"),
-			keywords: &["Сикх", "дин", "кханда (Сикх белгиси)"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຄານດາ"),
-			keywords: &["ຄວາມເຊ\u{ec8}\u{eb7}ອ", "ຄານດາ", "ຄາລຊາ", "ຊ\u{eb4}ກ", "ສາສະໜາ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("khanda"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"khalsa",
-				"khanda",
-				"religija",
-				"sikhas",
-				"sikhizmas",
-				"tikėjimas",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "reliģija", "sikhi", "ticība"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("канда"),
-			keywords: &["Дег тег фатех", "калса", "канда", "панџаби", "религија", "сики", "сикизам"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഖണ\u{d4d}ഡ"),
-			keywords: &["ഖണ\u{d4d}ഡ", "മതം", "വിശ\u{d4d}വ\u{d3e}സം", "സിഖിസം", "സിഖ\u{d4d}"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ханда тэмдэг"),
-			keywords: &["сик", "ханда тэмдэг", "шашин"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ख\u{902}डा"),
-			keywords: &["ख\u{902}डा", "धर\u{94d}म", "शीख"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "agama", "khanda"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ကန\u{103a}းဒါ"),
-			keywords: &["ကန\u{103a}းဒါ", "ဆစ\u{103a}ခ\u{103a}", "ဘာသာရေး"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("खण\u{94d}डा"),
-			keywords: &["खण\u{94d}डा", "धर\u{94d}म", "शिख"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "religie", "sikh"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଖ\u{b3e}ଣ\u{b4d}ଡ\u{b3e}"),
-			keywords: &["ଖ\u{b3e}ଣ\u{b4d}ଡ\u{b3e}", "ଧର\u{b4d}ମ", "ଶ\u{b3f}ଖ\u{b4d}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਖ\u{a70}ਡਾ"),
-			keywords: &[
-				"ਖ\u{a70}ਡਾ",
-				"ਦ\u{a47}ਗ ਤ\u{a47}ਗ ਫਤਿਹ",
-				"ਧਰਮ",
-				"ਵਾਹਿਗ\u{a41}ਰ\u{a42}",
-				"ਸਿ\u{a71}ਖ",
-				"ਸਿ\u{a71}ਖ ਧਰਮ ਦਾ ਧਾਰਮਿਕ ਚਿ\u{a70}ਨ\u{a4d}ਹ",
-				"ਸਿ\u{a71}ਖੀ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Khánda"),
-			keywords: &["Khánda", "Rilíjọn", "Síkh"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("khanda"),
-			keywords: &[
-				"deg", "fateh", "khalsa", "khanda", "religia", "sikh", "sikhizm", "tegh", "wiara",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("خندا"),
-			keywords: &["تيغ", "خالصه", "خندا", "درجې", "سکه", "فتح", "مذهب"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("khanda"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"Khalsa",
-				"Sikh",
-				"Sikhismo",
-				"fé",
-				"khanda",
-				"religião",
-				"siquismo",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"Punjabe",
-				"bandeira",
-				"khanda",
-				"religião",
-				"sagrado",
-				"sique",
-				"siquismo",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "khanda", "religion"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "religie", "sikh"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-020"), keywords: &["E15-020"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("кханда"),
-			keywords: &[
-				"дег",
-				"кханда",
-				"религия",
-				"сикх",
-				"сикхизм",
-				"символ",
-				"тех",
-				"фатех",
-				"хальса",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("کانڊا"),
-			keywords: &["سک", "مذھب", "کانڊا"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ඛණ\u{dca}ඩ"),
-			keywords: &["ආගම", "ඛණ\u{dca}ඩ", "ස\u{dd2}ක\u{dca}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("khanda"),
-			keywords: &["khalsa", "khanda", "náboženstvo", "sikhizmus", "viera"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("khanda"),
-			keywords: &["khanda", "sikh", "vera", "veroizpoved"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("khanda"),
-			keywords: &["Sikh", "diin", "khanda"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("kandë"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"Indi",
-				"Khalsa",
-				"Khanda",
-				"besim fetar",
-				"fe",
-				"kandë",
-				"shpatë",
-				"sik",
-				"sikizëm",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("канда"),
-			keywords: &["канда", "религија", "сик"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("kanda"),
-			keywords: &["kanda", "religija", "sik"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("khanda"),
-			keywords: &["Khalsa", "Sikh", "khanda", "religion", "sikhism", "tro"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("khanda"),
-			keywords: &["dini", "ibada", "imani", "kalasinga", "khanda"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("க\u{bbe}ண\u{bcd}ட\u{bbe}"),
-			keywords: &[
-				"க\u{bbe}ண\u{bcd}ட\u{bbe}",
-				"சின\u{bcd}னம\u{bcd}",
-				"ச\u{bc0}க\u{bcd}கியம\u{bcd}",
-				"தேக\u{bcd} தேக\u{bcd} ஃபதே",
-				"நம\u{bcd}பிக\u{bcd}கை",
-				"மதம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఖ\u{c3e}ంద\u{c3e} కత\u{c4d}త\u{c3f}"),
-			keywords: &[
-				"ఖల\u{c4d}స\u{c3e}",
-				"ఖ\u{c3e}ంద\u{c3e} కత\u{c4d}త\u{c3f}",
-				"డ\u{c47}గ\u{c4d} త\u{c47}గ\u{c4d} ఫత\u{c47}",
-				"మతం",
-				"స\u{c3f}క\u{c4d}కు",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ข\u{e31}ณฑา"),
-			keywords: &[
-				"ข\u{e31}ณฑา",
-				"ขาลสา",
-				"ซ\u{e34}กข\u{e4c}",
-				"ฟาเตห",
-				"ศาสนา",
-				"อ\u{e34}นเด\u{e35}ย",
-				"เกศ",
-				"เตฆห",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ካንዳ"),
-			keywords: &["ሃይማኖት", "ሲኪዝም", "ሲክ", "ቴግ", "ካስላ", "ካንዳ", "ደግ", "ፍትህ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("khanda"),
-			keywords: &["Deg Teg Fateh", "Halsa", "Khanda", "Sikh", "Sikhizm", "din"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("ʻilonga fakasiki"),
-			keywords: &["fakasiki", "ʻilonga"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("khanda"),
-			keywords: &["Sih", "deg tegh fateh", "din", "inanç", "khalsa", "khanda", "sih", "sihizm"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("кханда"),
-			keywords: &["віра", "кханда", "релігія", "сикх", "сикхізм"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("کھنڈا"),
-			keywords: &["خالصہ", "سکھ", "فتح", "مذہب", "کھنڈا"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("kxanda"),
-			keywords: &["deg teg fateh", "din", "eʼtiqod", "kxanda", "sikhizm", "sikx"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("biểu tượng khanda"),
-			keywords: &[
-				"Deg Tegh Fateh",
-				"Khalsa",
-				"Sikh",
-				"Sikh giáo",
-				"biểu tượng khanda",
-				"tôn giáo",
-				"đức tin",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("kandá"),
-			keywords: &["kandá", "síkì", "ẹ\u{300}sìn"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("kandá"),
-			keywords: &["kandá", "síkì", "ɛ\u{300}sìn"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("錫克教標誌"),
-			keywords: &["宗教", "錫克教", "錫克教標誌"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("锡克教标志"),
-			keywords: &["宗教", "锡克教", "锡克教标志"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("坎达"),
-			keywords: &[
-				"信仰",
-				"卡尔萨",
-				"善业与佩剑得胜",
-				"坎达",
-				"坎达长剑",
-				"宗教",
-				"锡克",
-				"锡克教",
-				"锡克教徒",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("堪達"),
-			keywords: &[
-				"印度直劍，印度劍，法器，錫克教，錫克，善業與佩劍得勝，信仰，宗教",
-				"堪達",
-				"宗教",
-				"錫克教",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["信仰", "宗教", "錫克", "錫克教", "錫克教徒", "錫克教符號"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation { lang: "zu", tts: Some("khanda"), keywords: &["khanda"] },
-	],
-};
 #[doc = "🔯"]
 pub const DOTTED_SIX_POINTED_STAR: crate::Emoji = crate::Emoji {
 	glyph:                "🔯",
@@ -3682,4 +2865,821 @@ pub const YIN_YANG: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
+};
+#[doc = "🪯"]
+pub const KHANDA: crate::Emoji = crate::Emoji {
+	glyph:                "🪯",
+	codepoint:            &[129711u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "khanda",
+	group:                crate::Group::Symbols,
+	subgroup:             crate::Subgroup::Religion,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("khanda"),
+			keywords: &[
+				"Indië",
+				"Oosters",
+				"Pakistan",
+				"Sikh",
+				"geloof",
+				"godsdiens",
+				"khanda",
+				"religie",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ቻንዳ"),
+			keywords: &["ሃይማኖት", "ሲች", "ሲክ", "ሲክሂዝም", "ቻንዳ", "እምነት", "ካልሳ", "ካንዳ", "ደግ ተግ ፋቴህ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("خندا"),
+			keywords: &["إيمان سيخي", "السيخ", "خندا", "ديانة", "ديغ تيغ فاتح", "عقيدة سيخية"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("খ\u{9be}ন\u{9cd}দ\u{9be}"),
+			keywords: &["খ\u{9be}ন\u{9cd}দ\u{9be}", "ধৰ\u{9cd}ম", "শিখ"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("xanda"),
+			keywords: &["Deq Teq Fateh", "Khalsa", "Siqh", "Siqhizm", "Xanda", "din", "inanc", "xanda"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("кханда"),
+			keywords: &["кханда", "рэлігія", "сікх"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("кханда"),
+			keywords: &["вяра", "кханда", "религия", "сикх", "сикхизъм"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("খ\u{9be}ন\u{9cd}দ\u{9be}"),
+			keywords: &[
+				"খ\u{9be}ন\u{9cd}দ\u{9be}",
+				"খ\u{9be}লস\u{9be}",
+				"ধর\u{9cd}ম",
+				"শিখ",
+				"শিখ ধর\u{9cd}মীয\u{9bc} প\u{9cd}রতীক",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "religija", "sikhizam"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("khanda"),
+			keywords: &["fe", "khanda", "religió", "sikh", "sikhisme"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang: "chr", tts: Some("ᎧᏅᏓ"), keywords: &["ᎧᏅᏓ", "ᏏᎩ", "ᏗᏁᎸᏙᏗ"]
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "náboženství", "sikh", "sikhismus"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("khanda"),
+			keywords: &["Deg Tegh Fateh", "Khalsa", "Khanda", "Sikh", "Sikhaeth", "crefydd"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("khanda"),
+			keywords: &["Deg Tegh Fateh", "khalsa", "khanda", "religion", "sikh", "sikhisme", "tro"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Khanda"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"Glaube",
+				"Khalsa",
+				"Khanda",
+				"Khanda-Emblem",
+				"Religion",
+				"Schwert",
+				"Sikh",
+				"Sikhismus",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("Khanda-Emblem"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("Χάντα"),
+			keywords: &["Σιχ", "Χάντα", "θρησκεία"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("khanda"),
+			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "religion"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "religión", "sij", "sijismo", "sikh"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Tegh", "fe", "religión", "sijismo"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("khanda"),
+			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "religioon"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("khanda"),
+			keywords: &["erlijioa", "khanda", "sikh", "sikismoa"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("خندا"),
+			keywords: &[
+				"آیین",
+				"اعتقاد",
+				"باور",
+				"خالسا",
+				"خاندا",
+				"خندا",
+				"دیگ و تیغ و فتح",
+				"سیک",
+				"مذهب",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("khanda"),
+			keywords: &[
+				"khalsa",
+				"khanda",
+				"sikhi",
+				"sikhiläinen",
+				"sikhismi",
+				"symboli",
+				"uskonto",
+				"veljeys",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "khanda", "relihiyon"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "sikki", "sikkur", "svørð"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("khanda"),
+			keywords: &["deg tegh fateh", "foi", "khalsa", "khanda", "religion", "sikh", "sikhisme"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("khanda"),
+			keywords: &["Suíceach", "khanda", "reiligiún"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "creideamh", "khanda"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation { lang: "gl", tts: Some("khanda"), keywords: &["relixión", "sikh"] },
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ખ\u{a82}ડા"),
+			keywords: &[
+				"આસ\u{acd}થા",
+				"ખ\u{a82}ડા",
+				"ખાલસા",
+				"દ\u{ac7}ગ ત\u{ac7}ગ ફત\u{ac7}હ",
+				"ધર\u{acd}મ",
+				"નિષ\u{acd}ઠા",
+				"વિશ\u{acd}વાસ",
+				"શીખ",
+				"શીખ ઘર\u{acd}મ",
+				"શ\u{acd}રધ\u{acd}ધા",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("khanda"),
+			keywords: &[
+				"Indiya",
+				"Khanda",
+				"Sikh",
+				"addini",
+				"addinin Indiya",
+				"addinin Sikh",
+				"imani",
+				"khanda",
+				"tambarin addini",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("khanda"),
+			keywords: &[
+				"Indiya",
+				"Khanda",
+				"Sikh",
+				"addini",
+				"addinin Indiya",
+				"addinin Sikh",
+				"imani",
+				"khanda",
+				"tambarin addini",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("סמל סיקי"),
+			keywords: &["אמונה", "דת", "סיקים", "סמל", "קהלסה", "קהנדה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("ख\u{902}डा"),
+			keywords: &["ख\u{902}डा", "खालसा", "धर\u{94d}म", "सिख"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("khanda"),
+			keywords: &["Sikhi", "khanda", "religija", "sikh", "sikizam", "vjera"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "szikh", "vallás"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation { lang: "hy", tts: Some("քանդա"), keywords: &["քանդա"] },
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("khanda"),
+			keywords: &["Deg", "Fateh", "Khalsa", "Khanda", "Sikh", "Sikhisme", "Tegh", "agama"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("khanda"),
+			keywords: &["Deg", "Fate", "Khalsa", "Khanda", "Sikh", "Sikhism", "Tegh", "okpukperechi"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "sikh", "trúarbrögð"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "khanda", "religione", "sikhismo"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("カンダ"),
+			keywords: &["カルサ", "カンダ", "シク教", "シーク教", "シーク教徒", "信仰", "剣", "宗教"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("tandha kanda"),
+			keywords: &["Sikh", "agama", "tandha kanda"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ხანდა"),
+			keywords: &["რელიგია", "სიხიზმი", "ხანდა"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("кханда"),
+			keywords: &["Дег тег фатех", "Сикх", "дін", "кхальса", "кханда", "сенім", "сикхизм"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ខាន\u{17cb}ដា"),
+			keywords: &["ខាន\u{17cb}ដា", "សាសនា", "ស\u{17ca}\u{17b8}ក"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಖಾಂಡ"),
+			keywords: &[
+				"ಖಾಂಡ",
+				"ದ\u{cc7}ಗ\u{ccd} ತ\u{cc7}ಗ\u{ccd} ಫತ\u{cc7}",
+				"ಧರ\u{ccd}ಮ",
+				"ನಂಬ\u{cbf}ಕ\u{cc6}",
+				"ಲಾಂಛನ",
+				"ಸ\u{cbf}ಖ\u{ccd}",
+				"ಸ\u{cbf}ಖ\u{ccd} ಧರ\u{ccd}ಮದ ಲಾಂಛನ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("칸다"),
+			keywords: &["시크교", "종교", "칸다"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("ख\u{902}डा"),
+			keywords: &[
+				"खा\u{902}डा",
+				"खालसा",
+				"ड\u{947}ग",
+				"त\u{947}ग",
+				"धर\u{94d}म",
+				"फत\u{947}ह",
+				"शिख",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("кханда (Сикх белгиси)"),
+			keywords: &["Сикх", "дин", "кханда (Сикх белгиси)"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຄານດາ"),
+			keywords: &["ຄວາມເຊ\u{ec8}\u{eb7}ອ", "ຄານດາ", "ຄາລຊາ", "ຊ\u{eb4}ກ", "ສາສະໜາ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("khanda"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"khalsa",
+				"khanda",
+				"religija",
+				"sikhas",
+				"sikhizmas",
+				"tikėjimas",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "reliģija", "sikhi", "ticība"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("канда"),
+			keywords: &["Дег тег фатех", "калса", "канда", "панџаби", "религија", "сики", "сикизам"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഖണ\u{d4d}ഡ"),
+			keywords: &["ഖണ\u{d4d}ഡ", "മതം", "വിശ\u{d4d}വ\u{d3e}സം", "സിഖിസം", "സിഖ\u{d4d}"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ханда тэмдэг"),
+			keywords: &["сик", "ханда тэмдэг", "шашин"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ख\u{902}डा"),
+			keywords: &["ख\u{902}डा", "धर\u{94d}म", "शीख"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "agama", "khanda"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ကန\u{103a}းဒါ"),
+			keywords: &["ကန\u{103a}းဒါ", "ဆစ\u{103a}ခ\u{103a}", "ဘာသာရေး"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("खण\u{94d}डा"),
+			keywords: &["खण\u{94d}डा", "धर\u{94d}म", "शिख"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "religie", "sikh"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଖ\u{b3e}ଣ\u{b4d}ଡ\u{b3e}"),
+			keywords: &["ଖ\u{b3e}ଣ\u{b4d}ଡ\u{b3e}", "ଧର\u{b4d}ମ", "ଶ\u{b3f}ଖ\u{b4d}"],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਖ\u{a70}ਡਾ"),
+			keywords: &[
+				"ਖ\u{a70}ਡਾ",
+				"ਦ\u{a47}ਗ ਤ\u{a47}ਗ ਫਤਿਹ",
+				"ਧਰਮ",
+				"ਵਾਹਿਗ\u{a41}ਰ\u{a42}",
+				"ਸਿ\u{a71}ਖ",
+				"ਸਿ\u{a71}ਖ ਧਰਮ ਦਾ ਧਾਰਮਿਕ ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+				"ਸਿ\u{a71}ਖੀ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Khánda"),
+			keywords: &["Khánda", "Rilíjọn", "Síkh"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("khanda"),
+			keywords: &[
+				"deg", "fateh", "khalsa", "khanda", "religia", "sikh", "sikhizm", "tegh", "wiara",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("خندا"),
+			keywords: &["تيغ", "خالصه", "خندا", "درجې", "سکه", "فتح", "مذهب"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("khanda"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"Khalsa",
+				"Sikh",
+				"Sikhismo",
+				"fé",
+				"khanda",
+				"religião",
+				"siquismo",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"Punjabe",
+				"bandeira",
+				"khanda",
+				"religião",
+				"sagrado",
+				"sique",
+				"siquismo",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "khanda", "religion"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "religie", "sikh"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-020"), keywords: &["E15-020"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("кханда"),
+			keywords: &[
+				"дег",
+				"кханда",
+				"религия",
+				"сикх",
+				"сикхизм",
+				"символ",
+				"тех",
+				"фатех",
+				"хальса",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("کانڊا"),
+			keywords: &["سک", "مذھب", "کانڊا"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ඛණ\u{dca}ඩ"),
+			keywords: &["ආගම", "ඛණ\u{dca}ඩ", "ස\u{dd2}ක\u{dca}"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("khanda"),
+			keywords: &["khalsa", "khanda", "náboženstvo", "sikhizmus", "viera"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("khanda"),
+			keywords: &["khanda", "sikh", "vera", "veroizpoved"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("khanda"),
+			keywords: &["Sikh", "diin", "khanda"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("kandë"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"Indi",
+				"Khalsa",
+				"Khanda",
+				"besim fetar",
+				"fe",
+				"kandë",
+				"shpatë",
+				"sik",
+				"sikizëm",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("канда"),
+			keywords: &["канда", "религија", "сик"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("kanda"),
+			keywords: &["kanda", "religija", "sik"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("khanda"),
+			keywords: &["Khalsa", "Sikh", "khanda", "religion", "sikhism", "tro"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("khanda"),
+			keywords: &["dini", "ibada", "imani", "kalasinga", "khanda"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("க\u{bbe}ண\u{bcd}ட\u{bbe}"),
+			keywords: &[
+				"க\u{bbe}ண\u{bcd}ட\u{bbe}",
+				"சின\u{bcd}னம\u{bcd}",
+				"ச\u{bc0}க\u{bcd}கியம\u{bcd}",
+				"தேக\u{bcd} தேக\u{bcd} ஃபதே",
+				"நம\u{bcd}பிக\u{bcd}கை",
+				"மதம\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ఖ\u{c3e}ంద\u{c3e} కత\u{c4d}త\u{c3f}"),
+			keywords: &[
+				"ఖల\u{c4d}స\u{c3e}",
+				"ఖ\u{c3e}ంద\u{c3e} కత\u{c4d}త\u{c3f}",
+				"డ\u{c47}గ\u{c4d} త\u{c47}గ\u{c4d} ఫత\u{c47}",
+				"మతం",
+				"స\u{c3f}క\u{c4d}కు",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ข\u{e31}ณฑา"),
+			keywords: &[
+				"ข\u{e31}ณฑา",
+				"ขาลสา",
+				"ซ\u{e34}กข\u{e4c}",
+				"ฟาเตห",
+				"ศาสนา",
+				"อ\u{e34}นเด\u{e35}ย",
+				"เกศ",
+				"เตฆห",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ካንዳ"),
+			keywords: &["ሃይማኖት", "ሲኪዝም", "ሲክ", "ቴግ", "ካስላ", "ካንዳ", "ደግ", "ፍትህ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("khanda"),
+			keywords: &["Deg Teg Fateh", "Halsa", "Khanda", "Sikh", "Sikhizm", "din"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("ʻilonga fakasiki"),
+			keywords: &["fakasiki", "ʻilonga"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("khanda"),
+			keywords: &["Sih", "deg tegh fateh", "din", "inanç", "khalsa", "khanda", "sih", "sihizm"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("кханда"),
+			keywords: &["віра", "кханда", "релігія", "сикх", "сикхізм"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("کھنڈا"),
+			keywords: &["خالصہ", "سکھ", "فتح", "مذہب", "کھنڈا"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("kxanda"),
+			keywords: &["deg teg fateh", "din", "eʼtiqod", "kxanda", "sikhizm", "sikx"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("biểu tượng khanda"),
+			keywords: &[
+				"Deg Tegh Fateh",
+				"Khalsa",
+				"Sikh",
+				"Sikh giáo",
+				"biểu tượng khanda",
+				"tôn giáo",
+				"đức tin",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("kandá"),
+			keywords: &["kandá", "síkì", "ẹ\u{300}sìn"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("kandá"),
+			keywords: &["kandá", "síkì", "ɛ\u{300}sìn"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("錫克教標誌"),
+			keywords: &["宗教", "錫克教", "錫克教標誌"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("锡克教标志"),
+			keywords: &["宗教", "锡克教", "锡克教标志"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("坎达"),
+			keywords: &[
+				"信仰",
+				"卡尔萨",
+				"善业与佩剑得胜",
+				"坎达",
+				"坎达长剑",
+				"宗教",
+				"锡克",
+				"锡克教",
+				"锡克教徒",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("堪達"),
+			keywords: &[
+				"印度直劍，印度劍，法器，錫克教，錫克，善業與佩劍得勝，信仰，宗教",
+				"堪達",
+				"宗教",
+				"錫克教",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["信仰", "宗教", "錫克", "錫克教", "錫克教徒", "錫克教符號"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation { lang: "zu", tts: Some("khanda"), keywords: &["khanda"] },
+	],
 };

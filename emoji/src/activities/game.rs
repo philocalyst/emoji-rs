@@ -5004,19 +5004,6 @@ pub const PUZZLE_PIECE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🎮\u{fe0f}"]
-pub const VIDEO_GAME: crate::Emoji = crate::Emoji {
-	glyph:                "🎮\u{fe0f}",
-	codepoint:            &[127918u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "video game",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::Game,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "🪩"]
 pub const MIRROR_BALL: crate::Emoji = crate::Emoji {
 	glyph:                "🪩",
@@ -5963,938 +5950,6 @@ pub const CHESS_PAWN: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🎱"]
-pub const POOL_8_BALL: crate::Emoji = crate::Emoji {
-	glyph:                "🎱",
-	codepoint:            &[127921u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "pool 8 ball",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::Game,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("biljart"),
-			keywords: &[
-				"8",
-				"8-bal",
-				"agt",
-				"bal",
-				"biljart",
-				"potspel",
-				"potspel-8-bal",
-				"snoeker",
-				"speel",
-				"speletjie",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የከረንቦላ ድንጋይ"),
-			keywords: &["8", "ስምንት", "ከረንቦላ", "ኳስ", "የከረንቦላ ድንጋይ", "ጨዋታ", "ፑል"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("بلياردو"),
-			keywords: &[
-				"بلياردو",
-				"بيليار",
-				"بيلياردو",
-				"ثمانية",
-				"طابة",
-				"كرة",
-				"كرة رقم ثمانية",
-				"لعبة",
-				"مباراة",
-				"٨",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("প\u{9c1}ল খেলৰ ৮ নম\u{9cd}বৰ বল"),
-			keywords: &[
-				"আঠ",
-				"প\u{9c1}ল খেলৰ ৮ নম\u{9cd}বৰ বল",
-				"বল",
-				"বিলিয\u{9bc}\u{9be}ৰ\u{9cd}ড",
-				"৮",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("bilyard"),
-			keywords: &["8", "bilyard", "oyun", "səkkiz", "top"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("більярд"),
-			keywords: &["8", "більярд", "восем", "гульня", "кій", "шар"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("билярд"),
-			keywords: &["8", "билярд", "игра", "осмица", "топка"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("8 বলের প\u{9c1}ল"),
-			keywords: &[
-				"8 প\u{9c1}ল বল",
-				"8 বলের প\u{9c1}ল",
-				"আট",
-				"খেল\u{9be}",
-				"প\u{9c1}ল",
-				"বল",
-				"বিলিয\u{9bc}\u{9be}র\u{9cd}ড",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("bilhard saoz"),
-			keywords: &["8", "bilhard", "bilhard saoz", "boul"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("bilijar"),
-			keywords: &["bilijar", "igra", "osmica"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("bola de billar"),
-			keywords: &[
-				"8",
-				"billar",
-				"bola",
-				"bola 8 de billar",
-				"bola de billar",
-				"bola negra de billar",
-				"joc",
-				"vuit",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("8 ᎪᏪᎳ ᎦᏓᏲᏍᏗ"),
-			keywords: &["8", "8 ᎪᏪᎳ ᎦᏓᏲᏍᏗ", "ᎦᏓᏲᏍᏗ", "ᏗᏁᏟᏙᏗ", "ᏣᏁᎳ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("kulečníková koule 8"),
-			keywords: &[
-				"8",
-				"biliár",
-				"billiard",
-				"hra",
-				"koule",
-				"koule na kulečník",
-				"kulečník",
-				"kulečníková koule 8",
-				"osm",
-				"pool",
-				"sport",
-				"černá",
-				"černý",
-				"číslo",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("biliards"),
-			keywords: &["biliards", "gêm", "wyth"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("billard"),
-			keywords: &["billard", "billardkugle", "pool"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Billardkugel"),
-			keywords: &["8-Ball", "Billard", "Billardkugel", "Kugel", "Spiel", "schwarz"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μπάλα 8 μπιλιάρδου"),
-			keywords: &[
-				"8",
-				"μπάλα",
-				"μπάλα 8 μπιλιάρδου",
-				"μπάλα με το 8",
-				"μπιλιάρδο",
-				"οκτώ",
-				"παιχνίδι",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("pool 8 ball"),
-			keywords: &["8", "8ball", "ball", "billiard", "eight", "game", "pool"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["8", "ball", "billiard", "eight", "game", "magic 8 ball", "pool 8 ball"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("bola negra de billar"),
-			keywords: &["8", "billar", "bola negra de billar", "bola ocho", "juego"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("bola ocho"),
-			keywords: &["8", "billar", "bola", "bola negra billar", "juego", "ocho", "pool"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("piljardikuul"),
-			keywords: &["8", "kuul", "mäng", "piljard", "piljardikuul"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("billarra"),
-			keywords: &["8", "billar", "billarra", "bola", "joko", "zortzi"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("بیلیارد"),
-			keywords: &["بازی", "بال", "بیلیارد", "هشت", "۸", "۸ توپ"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("biljardi"),
-			keywords: &["8", "biljardi", "biljardipallo", "kahdeksan", "kasipallo", "pallo", "peli"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("billiards"),
-			keywords: &["8", "billiard", "billiards", "bilyar", "bola", "eight", "pool"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("pul"),
-			keywords: &["billard", "kúla", "pool", "pul"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("boule de billard"),
-			keywords: &["8", "billard", "boule de billard", "boule magique", "huit", "jeu", "pool"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("liathróid 8 púil"),
-			keywords: &["8", "cluiche", "liathróid 8 púil", "snúcar"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("bàla a h-ochd"),
-			keywords: &["8", "ball", "billiard", "bàla", "bàla a h-ochd", "gèam", "ochd", "pool"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation { lang: "gl", tts: Some("billar"), keywords: &["billar", "bola"] },
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("બિલિયર\u{acd}ડ"),
-			keywords: &["આઠ બોલ", "પ\u{ac2}લનો દડો", "બિલિયર\u{acd}ડ", "રમત", "૮"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("ƙwallon pool 8"),
-			keywords: &[
-				"8",
-				"baƙin ƙwallon wasan sunuka",
-				"suluka",
-				"sunuka",
-				"takwas",
-				"wasa",
-				"wasan billard",
-				"ƙwallo",
-				"ƙwallon pool 8",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("ƙwallon pool 8"),
-			keywords: &[
-				"8",
-				"baƙin ƙwallon wasan sunuka",
-				"suluka",
-				"sunuka",
-				"takwas",
-				"wasa",
-				"wasan billard",
-				"ƙwallo",
-				"ƙwallon pool 8",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("כדור ביליארד"),
-			keywords: &["ביליארד", "כדור", "משחק", "סנוקר"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("बिलियर\u{94d}ड"),
-			keywords: &["आठ ग\u{947}\u{902}द", "ग\u{947}\u{902}द", "ग\u{947}म", "बिलियर\u{94d}ड"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("biljarske kugle"),
-			keywords: &["8", "biljarske kugle", "crna osmica", "igra", "kugla", "osam"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("biliárd"),
-			keywords: &["8-as", "biliárd", "biliárdgolyó", "golyó", "játék"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("8 գնդանոց բիլիարդ"),
-			keywords: &["8", "8 գնդանոց բիլիարդ", "բիլիարդ", "գնդակ", "խաղ", "ութ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("biliar 8 bola"),
-			keywords: &["8", "biliar", "bola", "delapan", "game"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("Poolu 8 bọọlụ"),
-			keywords: &["8", "Poolu 8 bọọlụ", "asatọ", "billiardị", "bọọlụ", "egwuregwu"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("billjard"),
-			keywords: &["biljarður", "billjard", "leikur", "pool"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("palla da biliardo"),
-			keywords: &[
-				"8",
-				"biliardo",
-				"giocare",
-				"gioco",
-				"otto",
-				"palla da biliardo",
-				"palla otto",
-				"sport",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ビリヤード"),
-			keywords: &["エイトボール", "スポーツ", "ビリヤード", "ボール", "玉突き"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("pool bal 8"),
-			keywords: &["8", "bal", "bilyar", "game", "pool bal 8", "wolu"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ბილიარდი"),
-			keywords: &["8", "ბილიარდი", "ბურთი", "თამაში", "რვა"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("пул-8"),
-			keywords: &["8", "8 шарлы пул", "биллиярд", "бильярд", "ойын", "пул-8", "сегіз", "шар"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("billard"),
-			keywords: &["billard", "billardkugle"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ៨"),
-			keywords: &[
-				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ា",
-				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ ៨",
-				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ៨",
-				"ប\u{17ca}\u{17b8}យ\u{17c9}ា",
-				"ប\u{17d2}រា\u{17c6}ប\u{17b8}",
-				"ល\u{17d2}បែង",
-				"ហ\u{17d2}គេម",
-				"៨",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}ಸ\u{ccd}"),
-			keywords: &[
-				"8",
-				"ಆಟ",
-				"ಎಂಟು",
-				"ಚ\u{cc6}ಂಡು",
-				"ಬಾಲ\u{ccd}",
-				"ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}",
-				"ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}ಸ\u{ccd}",
-				"ಸ\u{ccd}ನ\u{cc2}ಕರ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("당구"),
-			keywords: &["8", "8번 공", "게임", "공", "당구", "당구공", "팔", "포켓볼 8번 공"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("प\u{942}ल 8 बॉल"),
-			keywords: &["8", "आठ", "ग\u{947}म", "प\u{942}ल 8 बॉल", "बिलियार\u{94d}ड", "बॉल"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("бильярд"),
-			keywords: &["8", "8 шар", "бильярд", "оюн", "сегиз"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Billardkugel"),
-			keywords: &["8", "8-Ball", "Billardkugel", "Billiard", "Kugel", "Spill", "aacht"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ສະນ\u{eb8}ກເກ\u{eb5}"),
-			keywords: &["8", "ສະນ\u{eb8}ກເກ\u{eb5}", "ເກມ 8", "ແປດ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("biliardo kamuoliukas"),
-			keywords: &["8", "8 kamuoliukas", "biliardas", "biliardo kamuoliukas", "žaidimas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("biljarda bumbiņa"),
-			keywords: &["8", "astoņi", "biljarda bumbiņa", "biljards", "bumbiņa", "spēle"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("piriota 8 pōro"),
-			keywords: &["8", "kēmu", "piriota", "pōro", "waru"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("црна топка за билјард"),
-			keywords: &[
-				"8",
-				"билјард",
-				"игра",
-				"осумка",
-				"топка",
-				"црна топка за билјард",
-				"црната топка",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}\u{200c}സ\u{d4d}"),
-			keywords: &[
-				"ഗെയിം",
-				"ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}",
-				"ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}\u{200c}സ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("биллиард"),
-			keywords: &["8", "биллиард", "бөмбөг", "найм", "пүүл бөмбөг 8", "тоглоом"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("बिलियर\u{94d}ड\u{94d}\u{200d}स"),
-			keywords: &[
-				"8",
-				"आठ",
-				"आठ च\u{947}\u{902}ड\u{942}",
-				"ख\u{947}ळ",
-				"ग\u{947}म",
-				"प\u{941}ल 8 बॉल",
-				"प\u{942}ल",
-				"बिलियर\u{94d}ड",
-				"बिलियर\u{94d}ड\u{94d}\u{200d}स",
-				"बॉल",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("biliard"),
-			keywords: &["8", "biliard", "bola", "lapan", "permainan"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("ballun ta’ pool 8"),
-			keywords: &["8", "ballun", "ballun ta’ pool 8", "billiard", "logħba", "tmien"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဘ\u{102d}လ\u{102d}ယက\u{103a} ဘောလ\u{102f}\u{1036}းန\u{1036}ပါတ\u{103a} ၈"),
-			keywords: &[
-				"ဂ\u{102d}မ\u{103a}း",
-				"ဘ\u{102d}လ\u{102d}ယက\u{103a}",
-				"ဘ\u{102d}လ\u{102d}ယက\u{103a} ဘောလ\u{102f}\u{1036}းန\u{1036}ပါတ\u{103a} ၈",
-				"ဘောလ\u{102f}\u{1036}း",
-				"၈",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("बिलियर\u{94d}ड\u{94d}स"),
-			keywords: &["आठ", "ख\u{947}ल", "बल", "बिलियर\u{94d}ड\u{94d}स", "८"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("biljart"),
-			keywords: &["8", "8 ball", "8-ball", "acht", "bal", "biljart", "pool", "spel"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("biljardkule"),
-			keywords: &["8", "biljard", "biljardkule", "spel", "åttarkule", "åtte"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଫ\u{b41}ଲ\u{b4d}\u{200d} 8 ବଲ\u{b4d}\u{200d}"),
-			keywords: &[
-				"8",
-				"ଆଠ",
-				"ଖେଳ",
-				"ପ\u{b41}ଲ\u{b4d} 8 ବଲ\u{b4d}",
-				"ଫ\u{b41}ଲ\u{b4d}\u{200d} 8 ବଲ\u{b4d}\u{200d}",
-				"ବଲ\u{b4d}",
-				"ବ\u{b3f}ଲ\u{b3f}ଆର\u{b4d}ଡ\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਬਿਲਿਅਰਡ"),
-			keywords: &[
-				"ਅ\u{a71}ਠ ਗ\u{a47}\u{a02}ਦਾ\u{a02}",
-				"ਅ\u{a71}ਥ ਨ\u{a70}ਬਰ ਗ\u{a47}\u{a02}ਦ",
-				"ਖ\u{a47}ਡ",
-				"ਪ\u{a42}ਲ ਟ\u{a47}ਬਲ",
-				"ਬਿਲਿਅਰਡ",
-				"੮",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("پول 8 بال"),
-			keywords: &["8", "8 بال", "آٹھ", "بیلیرڈ", "پول 8 بال", "کھیڈ", "گیند"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Pul 8 Bọl"),
-			keywords: &["8", "Bíliad", "Bọl", "Gem", "Pul 8 Bọl", "Ẹt"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("bila 8"),
-			keywords: &["8", "bila", "bilard", "gra", "kula", "kula bilardowa"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د پول ۸ توپ"),
-			keywords: &["اته", "بليارډ", "توپ", "د پول ۸ توپ", "لوبه", "۸"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("bilhar"),
-			keywords: &["bilhar", "bola oito", "jogo"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["bilhar", "bola", "bola 8", "jogo", "oito", "snooker"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("billar"),
-			keywords: &["8", "billar", "pukllay", "pusaq"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("biliard"),
-			keywords: &["8", "biliard", "bilă", "gaură", "joc", "opt"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-369"), keywords: &["E10-369"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("бильярд"),
-			keywords: &["8", "бильярд", "восьмерка", "игра", "пул", "черный шар", "шар"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umupira wa biyari wa nomero 8"),
-			keywords: &["8", "biyari", "umukino", "umunani", "umupira", "umupira wa biyari wa nomero 8"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("پول 8 بال"),
-			keywords: &["8، 8 بال، بال، بليارڊ، اٺ، راند", "پول 8 بال"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("බ\u{dd2}ල\u{dd2}යඩ\u{dca}"),
-			keywords: &[
-				"8",
-				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
-				"බ\u{dd2}ල\u{dd2}යඩ\u{dca}",
-				"බ\u{dd2}ල\u{dd2}යර\u{dca}ඩ\u{dca}",
-				"බෝල",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("biliardová guľa č. 8"),
-			keywords: &[
-				"8",
-				"biliard",
-				"biliardová guľa č. 8",
-				"biliárd",
-				"guľa č. 8",
-				"hra",
-				"osem",
-				"čierna",
-				"šport",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("biljard"),
-			keywords: &["8", "biljard", "igra", "krogla", "osmica"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("kubada barkada 8"),
-			keywords: &["8", "biliyaardi", "ciyaar", "kubad", "kubada barkada 8", "siddeed"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("bilardo"),
-			keywords: &["8", "bilardo", "gurë", "lojë", "tetë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("билијар"),
-			keywords: &["8", "oсaм", "билијaр", "игрa", "куглa", "осмица"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("bilijar"),
-			keywords: &["8", "bilijar", "igra", "kugla", "osam", "osmica"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("biljardboll"),
-			keywords: &["biljard", "biljardboll", "biljardboll med nummer 8", "åttan"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("biliadi"),
-			keywords: &["8", "biliadi", "mchezo", "mpira", "nane"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("பில\u{bcd}லியர\u{bcd}ட\u{bcd}ஸ\u{bcd}"),
-			keywords: &[
-				"உள\u{bcd}ளரங\u{bcd}க விளைய\u{bbe}ட\u{bcd}டு",
-				"எட\u{bcd}டு பந\u{bcd}து",
-				"பில\u{bcd}லியர\u{bcd}ட\u{bcd}",
-				"பில\u{bcd}லியர\u{bcd}ட\u{bcd}ஸ\u{bcd}",
-				"விளைய\u{bbe}ட\u{bcd}டு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}స\u{c4d}"),
-			keywords: &[
-				"8",
-				"8 బ\u{c3e}ల\u{c4d}",
-				"ఆట",
-				"ఎన\u{c3f}మ\u{c3f}ద\u{c3f}",
-				"ఎన\u{c3f}మ\u{c3f}ద\u{c3f} బంతులు",
-				"గ\u{c47}మ\u{c4d}",
-				"దంతపు గుండ\u{c4d}ల\u{c3e}ట",
-				"పూల\u{c4d} 8 బ\u{c3e}ల\u{c4d}",
-				"బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}",
-				"బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("билярди 8 саққадор"),
-			keywords: &["8", "билярд", "билярди 8 саққадор", "бозӣ", "саққа", "ҳашт"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("บ\u{e34}ลเล\u{e35}ยด"),
-			keywords: &["บ\u{e34}ลเล\u{e35}ยด", "แปด"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ፑል 8 ኩዕሶ"),
-			keywords: &["8", "8ኩዕሶ", "መሐመሲ", "ሸሞንተ", "ቢልያርዶ", "ኩዕሶ", "ጸወታ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("8 bilýard topy"),
-			keywords: &["8", "8 bilýard topy", "bilýard", "oýun", "sekiz", "top"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("pulu fika 8"),
-			keywords: &["8", "pulu", "pulu fika 8"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("bilardo"),
-			keywords: &["bilardo", "oyun", "sekiz top"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("8 لىك بىليارت"),
-			keywords: &["8", "8 لىك بىليارت", "ئويۇن", "بىليارت", "توپ", "سەككىز"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("більярдна куля 8"),
-			keywords: &["8", "більярд", "більярдна куля", "більярдна куля 8", "вісім", "куля", "спорт"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بلیئرڈز"),
-			keywords: &["آٹھ", "بال", "بلیئرڈز", "کھیل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("billiard"),
-			keywords: &[
-				"8",
-				"8 ta shar",
-				"billiard",
-				"o‘yin",
-				"sakkiz",
-				"sakkizinchi raqamli shar",
-				"shar",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("bi-a 8 bóng"),
-			keywords: &["8", "bi-a 8 bóng", "bida", "quả bóng", "trò chơi", "tám"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("biyaar 8 bal"),
-			keywords: &["8", "bal", "biyaar", "juróom ñatt", "po"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("i-pool 8 ball"),
-			keywords: &[
-				"8",
-				"i-billiard",
-				"i-pool 8 ball",
-				"ibhola",
-				"iibhola ezisi-8",
-				"isibhozo",
-				"umdlalo",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Bọọlu Odo 8"),
-			keywords: &[
-				"8",
-				"Bọọlu Odo 8",
-				"bílíádì",
-				"bọ\u{301}ọ\u{300}lù",
-				"eré",
-				"ẹ\u{301}ẹ\u{301}jọ",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Bɔɔlu Odo 8"),
-			keywords: &[
-				"8",
-				"Bɔɔlu Odo 8",
-				"bílíádì",
-				"bɔ\u{301}ɔ\u{300}lù",
-				"eré",
-				"ɛ\u{301}ɛ\u{301}jɔ",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("8 號桌球"),
-			keywords: &["8", "8 號桌球", "八", "桌球", "球", "遊戲"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("8 号桌球"),
-			keywords: &["8", "8 号桌球", "八", "桌球", "游戏", "球"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("台球"),
-			keywords: &["8 球制桌球", "8号球", "台球", "台球台", "游戏", "霹雳八球"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("撞球"),
-			keywords: &["8", "八", "八號球", "撞球", "球"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("桌球"),
-			keywords: &["8", "8號波", "8號球", "枱波", "桌球", "比賽", "球", "篤波", "遊戲"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("amabhiliyade"),
-			keywords: &["8", "amabhiliyade", "billiard", "billiards", "ibhola", "umdlalo"],
-		},
-	],
 };
 #[doc = "♠\u{fe0f}"]
 pub const SPADE_SUIT: crate::Emoji = crate::Emoji {
@@ -8884,873 +7939,6 @@ pub const CRYSTAL_BALL: crate::Emoji = crate::Emoji {
 		},
 	],
 };
-#[doc = "🎰"]
-pub const SLOT_MACHINE: crate::Emoji = crate::Emoji {
-	glyph:                "🎰",
-	codepoint:            &[127920u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "slot machine",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::Game,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("muntoutomaat"),
-			keywords: &["casino", "dobbel", "dobbelary", "munt", "muntoutomaat", "speletjie"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("በሳንቲም የሚሠራ ማሽን"),
-			keywords: &["ማስገቢያ ማሽን", "ማስገቢያዎች", "ቀዳዳ", "ቁማር", "ቁማር ቤት", "በሳንቲም የሚሠራ ማሽን", "ጨዋታ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("جهاز قمار"),
-			keywords: &["جهاز قمار", "قمار", "كازينو", "لعبة", "ميسر"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("শ\u{9cd}লট মেচিন"),
-			keywords: &["খেল", "শ\u{9cd}লট", "শ\u{9cd}লট মেচিন"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("avtomat maşın"),
-			keywords: &["avtomat", "avtomat maşın", "kazino", "oyun", "qumar"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("гульнявы аўтамат"),
-			keywords: &["аўтамат", "гульня", "гульнявы аўтамат", "жэтон"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("ротативка"),
-			keywords: &["игра", "казино", "ротативка", "хазарт"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("স\u{9cd}লট মেশিন"),
-			keywords: &["খেল\u{9be}", "স\u{9cd}লট", "স\u{9cd}লট মেশিন"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("automat za kockanje"),
-			keywords: &["aparat", "automat za kockanje", "igra", "kocka"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("màquina escurabutxaques"),
-			keywords: &[
-				"apostar",
-				"apostes",
-				"atzar",
-				"casino",
-				"escurabutxaques",
-				"joc",
-				"màquina escurabutxaques",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏕᎳ ᎦᏠᏗ ᎪᏢᏍᎩ"),
-			keywords: &["ᎠᏕᎳ ᎦᏠᏗ ᎪᏢᏍᎩ", "ᎤᏟᏅᏛᎢ", "ᏗᏁᏟᏙᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("výherní automat"),
-			keywords: &[
-				"automat",
-				"gambling",
-				"hazardní hra",
-				"hra",
-				"hrací automat",
-				"kasino",
-				"výherní automat",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("peiriant slot"),
-			keywords: &["gêm", "peiriant slot", "slot"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("spillemaskine"),
-			keywords: &["enarmet tyveknægt", "kasino", "spil", "spillemaskine"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Spielautomat"),
-			keywords: &["Glücksspiel", "Spiel", "Spielautomat"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("κουλοχέρης"),
-			keywords: &[
-				"καζίνο",
-				"κουλοχέρης",
-				"παιχνίδι",
-				"σχισμή",
-				"τζόγος",
-				"τυχερό παιχνίδι",
-				"χαρτοπαίζω",
-			],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("slot machine"),
-			keywords: &["casino", "gamble", "gambling", "game", "machine", "slot", "slots"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("pokie"),
-			keywords: &["game", "pokie", "pokies"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("máquina tragaperras"),
-			keywords: &["juego", "máquina", "máquina tragaperras"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("tragamonedas"),
-			keywords: &[
-				"apostar",
-				"apuesta",
-				"apuestas",
-				"casino",
-				"juego",
-				"las vegas",
-				"máquina",
-				"máquina tragaperras",
-				"tragamonedas",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["apuestas", "casino", "juego", "máquina", "tragamonedas"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("máquina tragamonedas"),
-			keywords: &["↑↑↑"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("mänguautomaat"),
-			keywords: &["automaat", "mäng", "mänguautomaat"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("txanpon-makina"),
-			keywords: &["joko", "txanpon", "txanpon-makina"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ماشین پولی"),
-			keywords: &["اسلات", "بازی", "قمار", "ماشین", "ماشین پولی", "کازینو"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("pelikone"),
-			keywords: &["kasino", "kolikko", "pelikone", "rahapeli"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("slot machine"),
-			keywords: &["casino", "japanese", "laro", "pachinko", "slot machine", "sugal"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("spæliautomat"),
-			keywords: &["kasino", "spæliautomat"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("machine à sous"),
-			keywords: &["casino", "jeu", "machine à sous"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("meaisín sliotáin"),
-			keywords: &["casino", "cluiche", "meaisín sliotáin"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("inneal shlotaichean"),
-			keywords: &["geama", "inneal shlotaichean", "slot"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("máquina comecartos"),
-			keywords: &["bar", "casino", "máquina comecartos", "xogo"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("સ\u{acd}લોટ મશીન"),
-			keywords: &[
-				"જ\u{ac1}ગાર",
-				"જ\u{ac1}ગાર ખાન\u{ac1}\u{a82}",
-				"રમત",
-				"સ\u{acd}લોટ",
-				"સ\u{acd}લોટ મશીન",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("na’urar kaya mai karɓin kuɗi"),
-			keywords: &["caca", "gem", "injin caca", "na’urar kaya mai karɓin kuɗi", "rami", "wasa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("na’urar kaya mai karɓin kuɗi"),
-			keywords: &["caca", "gem", "injin caca", "na’urar kaya mai karɓin kuɗi", "rami", "wasa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מכונת מזל"),
-			keywords: &["הימורים", "מהמר", "מזל", "מכונת מזל", "משחק", "קזינו"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("स\u{94d}लॉट मशीन"),
-			keywords: &["क\u{948}सीनो", "ग\u{947}म", "ज\u{941}आ", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("jednoruki jack"),
-			keywords: &["automat", "igra", "igra na sreću", "jednoruki jack", "kasino"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("nyerőgép"),
-			keywords: &[
-				"félkarú rabló",
-				"játékgép",
-				"nyerőgép",
-				"pénzbedobós",
-				"szerencsejáték",
-				"szerencsejátékot űz",
-			],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("խաղային սարք"),
-			keywords: &["ավտոմատ", "խաղ", "խաղային սարք"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("mesin slot"),
-			keywords: &["game", "judi", "kasino", "mesin slot", "slot"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("igwe ntinye ihe"),
-			keywords: &["egwuregwu", "igwe ntinye ihe", "ntinye ihe"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("spilakassi"),
-			keywords: &["leikur", "spilakassi"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("slot machine"),
-			keywords: &[
-				"azzardo",
-				"casinò",
-				"gioco",
-				"gioco d’azzardo",
-				"scommesse",
-				"scommettere",
-				"slot",
-				"slot machine",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("スロットマシン"),
-			keywords: &["カジノ", "ギャンブル", "ゲーム", "スリーセブン", "スロット", "スロットマシン"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("mesin slot"),
-			keywords: &["game", "mesin slot", "slot"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("სლოტ-ავტომატი"),
-			keywords: &["თამაში", "სლოტ-ავტომატი", "სლოტები"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("ойын автоматы"),
-			keywords: &["7", "777", "автомат", "жеті", "казино", "лотерея", "ойын", "ойын автоматы"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("spillemaskine"),
-			keywords: &["spil", "spillemaskine"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល"),
-			keywords: &[
-				"ទ\u{17bc}ហ\u{17d2}គេម",
-				"ម\u{17c9}ាស\u{17ca}\u{17b8}នលេងហ\u{17d2}គេម",
-				"ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល",
-				"ម\u{17c9}ាស\u{17ca}\u{17b8}ហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಸ\u{ccd}ಲಾಟ\u{ccd} ಯಂತ\u{ccd}ರ"),
-			keywords: &[
-				"ಆಟ",
-				"ಕ\u{ccd}ಯಾಸ\u{cbf}ನ\u{cca}",
-				"ಗ\u{cc7}ಮ\u{ccd}",
-				"ಜ\u{cc2}ಜಾಟ",
-				"ಜ\u{cc2}ಜು",
-				"ಶ\u{ccd}ರ\u{cc7}ಣ\u{cbf}",
-				"ಸ\u{ccd}ಲಾಟ\u{ccd}",
-				"ಸ\u{ccd}ಲಾಟ\u{ccd} ಯಂತ\u{ccd}ರ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("슬롯 머신"),
-			keywords: &["갬블", "게임", "도박", "슬롯", "슬롯 머신", "카지노", "파칭코"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("स\u{94d}लॉट मशीन"),
-			keywords: &["ग\u{947}म", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("оюн автоматы"),
-			keywords: &["автомат", "оюн", "оюн автоматы"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Spillautomat"),
-			keywords: &["Automat", "Spill", "Spillautomat"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ເຄ\u{eb7}\u{ec8}ອງຫ\u{ebc}\u{eb4}\u{ec9}ນເກມສະລອດ"),
-			keywords: &["ເກມ", "ເກມສະລອດ", "ເຄ\u{eb7}\u{ec8}ອງຫ\u{ebc}\u{eb4}\u{ec9}ນເກມສະລອດ"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("žaidimų automatas"),
-			keywords: &["automatas", "lošimas", "lošimų automatas", "žaidimas", "žaidimų automatas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("spēļu automāts"),
-			keywords: &["automāts", "azartspēles", "kazino", "spēle", "spēļu automāts"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("mīhini kaimoni"),
-			keywords: &["kāniwha", "kēmu", "mīhini kaimoni"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("автомат за игри"),
-			keywords: &[
-				"автомат",
-				"автомат за игри",
-				"игра",
-				"игра на среќа",
-				"казино",
-				"коцка",
-				"коцкање",
-				"слот",
-				"слот машина",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("സ\u{d4d}ലോട\u{d4d}ട\u{d4d} മെഷീൻ"),
-			keywords: &["ഗെയിം", "സ\u{d4d}ലോട\u{d4d}ട\u{d4d} മെഷീൻ"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хонжворт тоглоомын машин"),
-			keywords: &["машин", "тоглоом", "хонжвор", "хонжворт тоглоомын машин"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("स\u{94d}लॉट मशीन"),
-			keywords: &["ग\u{947}म", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("mesin judi"),
-			keywords: &["judi", "kasino", "mesin judi", "permainan", "slot"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("slot machine"),
-			keywords: &["logħba", "slot", "slot machine"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("လောင\u{103a}းကစားစက\u{103a}"),
-			keywords: &[
-				"ဂ\u{102d}မ\u{103a}း",
-				"ဈေးရောင\u{103a}းစက\u{103a}",
-				"လောင\u{103a}းကစားစက\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("स\u{94d}ल\u{94d}ट यन\u{94d}त\u{94d}र"),
-			keywords: &["ख\u{947}ल", "स\u{94d}लट", "स\u{94d}ल\u{94d}ट यन\u{94d}त\u{94d}र"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("fruitautomaat"),
-			keywords: &["casino", "eenarmige bandiet", "fruitautomaat", "gokkast", "gokken", "spel"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("speleautomat"),
-			keywords: &["spel", "speleautomat"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ସ\u{b4d}ଲଟ\u{b4d}\u{200c} ମେସ\u{b3f}ନ\u{b4d}\u{200c}"),
-			keywords: &[
-				"ଖେଳ",
-				"ସ\u{b4d}ଲଟ\u{b4d}\u{200c}",
-				"ସ\u{b4d}ଲଟ\u{b4d}\u{200c} ମେସ\u{b3f}ନ\u{b4d}\u{200c}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਸਲ\u{a4b}ਟ ਮਸ\u{a3c}ੀਨ"),
-			keywords: &[
-				"ਕਸੀਨ\u{a4b}",
-				"ਖ\u{a47}ਡ",
-				"ਜ\u{a42}ਆ",
-				"ਨ\u{a70}ਬਰ",
-				"ਨ\u{a70}ਬਰ ਮਸ\u{a3c}ੀਨ",
-				"ਸਲ\u{a4b}ਟ",
-				"ਸਲ\u{a4b}ਟ ਮਸ\u{a3c}ੀਨ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("مغوری کرن آلی مشین"),
-			keywords: &["سلاٹ", "مغوری کرن آلی مشین", "کھیڈ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Gámblín Máshin"),
-			keywords: &["Gem", "Gámblín Máshin", "Kalukalu", "Kalukalu Mashin"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("automat do gier"),
-			keywords: &[
-				"automat do gier",
-				"automat do gry",
-				"gra",
-				"hazard",
-				"jednoręki bandyta",
-				"kasyno",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("سلاټ ماشين"),
-			keywords: &["سلاټ", "سلاټ ماشين", "لوبه"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("caça-níquel"),
-			keywords: &["aposta", "cassino", "caça-níquel", "jogo de azar", "máquina caça-níqueis"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("slot machine"),
-			keywords: &["jogo", "jogo de azar", "slot", "slot machine"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("casinopaq maquina"),
-			keywords: &["casinopaq maquina", "kampu", "pukllay"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("jocuri mecanice"),
-			keywords: &[
-				"cazinou",
-				"joc",
-				"joc de noroc",
-				"jocuri mecanice",
-				"manetă",
-				"noroc",
-				"păcănele",
-				"slots",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-368"), keywords: &["E10-368"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("игровой автомат"),
-			keywords: &["автомат", "азарт", "деньги", "игровой", "игры", "казино"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("akamashini gatanga amatike"),
-			keywords: &["akamashini gatanga amatike", "igice", "umukino"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("خانن واري مشيني راند"),
-			keywords: &["خانن واري مشيني راند", "خانو", "راند"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ව\u{dd2}ද\u{dd4}ම\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"),
-			keywords: &[
-				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
-				"ව\u{dd2}ද\u{dd4}ම",
-				"ව\u{dd2}ද\u{dd4}ම\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("výherný automat"),
-			keywords: &[
-				"automat",
-				"gambling",
-				"hazard",
-				"hra",
-				"kasíno",
-				"výherná",
-				"výherný automat",
-				"výhra",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("igralni avtomat"),
-			keywords: &["avtomat", "casino", "igra", "igralni avtomat", "igre na srečo"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("mashiinka kabaha"),
-			keywords: &["ciyaar", "kabaha", "mashiinka kabaha"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("lojë me monedha"),
-			keywords: &["lojë", "lojë me monedha", "monedhë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("слот-машина"),
-			keywords: &["игра", "казино", "коцкање", "слот"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("slot-mašina"),
-			keywords: &["igra", "kazino", "kockanje", "slot"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("enarmad bandit"),
-			keywords: &["enarmad bandit", "spel", "spelautomat", "spelmaskin"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mashine ya kamari"),
-			keywords: &["mashine ya kamari", "mchezo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஸ\u{bcd}ல\u{bbe}ட\u{bcd} மிஷின\u{bcd}"),
-			keywords: &[
-				"கேம\u{bcd}ப\u{bcd}ளிங\u{bcd}",
-				"சூத\u{bbe}ட\u{bcd}டம\u{bcd}",
-				"விளைய\u{bbe}ட\u{bcd}டு",
-				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd}",
-				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd} இயந\u{bcd}திரம\u{bcd}",
-				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd} மிஷின\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("స\u{c4d}ల\u{c3e}ట\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}"),
-			keywords: &[
-				"ఆట",
-				"గ\u{c4d}య\u{c3e}ంబుల\u{c4d}",
-				"జూదం ఆడ\u{c47} యంత\u{c4d}రము",
-				"జూదగృహం",
-				"మ\u{c46}ష\u{c40}న\u{c4d}",
-				"స\u{c4d}ల\u{c3e}ట\u{c4d}",
-				"స\u{c4d}ల\u{c3e}ట\u{c4d}స\u{c4d}",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("мошинаи қиморбозӣ"),
-			keywords: &["бозӣ", "ковокӣ", "мошинаи қиморбозӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("สล\u{e47}อตแมชช\u{e35}น"),
-			keywords: &["พน\u{e31}น", "สล\u{e47}อต", "สล\u{e47}อตแมชช\u{e35}น", "เกม"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ስሎት ማሽን"),
-			keywords: &["ማሽን", "ስሎት", "ቁማር ምጽዋት", "ካዚኖ", "ጸወታ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("oýun awtomaty"),
-			keywords: &["awtomat", "oýun", "oýun awtomaty"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("mīsini tā paʻanga"),
-			keywords: &["7", "mīsini", "mīsini tā paʻanga", "paʻanga"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("kumar makinesi"),
-			keywords: &["kollu makina", "kumar", "kumar makinesi", "oyun", "şans oyunu"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("مال ساتقۇچ"),
-			keywords: &["ئويۇن", "سېتىش", "مال ساتقۇچ"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("гральний автомат"),
-			keywords: &[
-				"Вегас",
-				"азарт",
-				"везіння",
-				"виграш",
-				"гра",
-				"гральний автомат",
-				"джекпот",
-				"залежність",
-				"фарт",
-				"ігровий",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("سلاٹ مشین"),
-			keywords: &["سلاٹ مشین", "گیم"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("o‘yin avtomati"),
-			keywords: &["avtomat", "kazino", "o‘yin", "o‘yin avtomati", "qimor", "qimor oʻyini"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("máy giật xèng"),
-			keywords: &["cờ bạc", "khe", "máy giật xèng", "trò chơi"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("masinu xaalis"),
-			keywords: &["masin", "masinu xaalis", "xaalis"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umatshini wokuthengisa"),
-			keywords: &["i-slot", "umatshini wokuthengisa", "umdlalo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ẹrọ Ifisi"),
-			keywords: &["eré", "ìfisí", "Ẹrọ Ifisi"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ɛrɔ Ifisi"),
-			keywords: &["eré", "ìfisí", "Ɛrɔ Ifisi"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("老虎機"),
-			keywords: &["投幣口", "老虎機", "遊戲"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("老虎机"),
-			keywords: &["投币口", "游戏", "老虎机"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("老虎机"),
-			keywords: &["吃角子老虎", "游戏", "老虎机", "角子机", "赌博", "赌场"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("吃角子老虎"),
-			keywords: &["吃角子老虎", "拉霸機", "賭博", "賭場"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("老虎機"),
-			keywords: &["777", "中獎", "老虎機", "賭博", "賭場", "賭錢", "遊戲"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("umshini onembotshana yokufaka imali"),
-			keywords: &["imbotshana yokufaka imali", "umdlalo", "umshini onembotshana yokufaka imali"],
-		},
-	],
-};
 #[doc = "🕹\u{fe0f}"]
 pub const JOYSTICK: crate::Emoji = crate::Emoji {
 	glyph:                "🕹\u{fe0f}",
@@ -9763,785 +7951,6 @@ pub const JOYSTICK: crate::Emoji = crate::Emoji {
 	is_variant:           false,
 	variants:             &[],
 	annotations:          &[],
-};
-#[doc = "🃏"]
-pub const JOKER: crate::Emoji = crate::Emoji {
-	glyph:                "🃏",
-	codepoint:            &[127183u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "joker",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::Game,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("joker"),
-			keywords: &[
-				"joker",
-				"kaart",
-				"onbekende faktor",
-				"speel",
-				"speletjie",
-				"swart Piet",
-				"wildekaart",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የካርታ ጆከር"),
-			keywords: &["በመጫወት ላይ", "ካርታ", "የካርታ ጆከር", "ጨዋታ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("جوكر"),
-			keywords: &["أوراق", "جوكر", "لعبة", "ورق شدة", "ورقة", "يلعب"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("জ’ক\u{9be}ৰ"),
-			keywords: &[
-				"ক\u{9cd}ৰীড\u{9bc}\u{9be}",
-				"জ’ক\u{9be}ৰ",
-				"ত\u{9be}\u{981}চখেল",
-				"ৱ\u{9be}ইল\u{9cd}ড ক\u{9be}ৰ\u{9cd}ড",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("joker"),
-			keywords: &["joker", "kart", "oynamaq", "oyun", "uno"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("джокер"),
-			keywords: &["азарт", "гульня", "джокер", "карта"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("жокер"),
-			keywords: &["жокер", "игра", "карта"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("জোক\u{9be}র"),
-			keywords: &["ক\u{9be}র\u{9cd}ড", "খেল\u{9be}", "জোক\u{9be}র", "ত\u{9be}স"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("joker"),
-			keywords: &["joker", "kartenn joker"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("džoker"),
-			keywords: &["džoker", "igra", "karte"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("comodí"),
-			keywords: &["carta", "cartes", "comodí", "joc", "partida"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏪᏟᏍᎩ"),
-			keywords: &["ᎠᏆᏂᏲᏍᏗ", "ᎦᏪᏟᏍᎩ", "ᎨᏯᏔᎯ ᏆᏂᏲᏍᏗ", "ᏗᏁᏟᏙᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("žolík"),
-			keywords: &["divoká", "hra", "hraní", "joker", "karta", "karty", "žolík"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("cellweiriwr"),
-			keywords: &["cardiau", "cellweiriwr", "chwarae", "gêm"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("joker"),
-			keywords: &["joker", "kort", "kortspil", "spil", "spillekort"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Jokerkarte"),
-			keywords: &["Joker", "Jokerkarte", "Spielkarte"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("τζόκερ"),
-			keywords: &["κάρτα", "παίζω", "παιχνίδι", "τζόκερ", "χαρτιά"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("joker"),
-			keywords: &["card", "game", "joker", "wildcard"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("comodín"),
-			keywords: &["comodín", "joker"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("carta comodín"),
-			keywords: &["carta", "carta de joker", "casino", "comodín", "joker", "naipes", "poker"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("jokker"),
-			keywords: &["jokker", "kaart", "mäng"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("komodina"),
-			keywords: &["joko", "jolastu", "karta", "komodina"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("جوکر"),
-			keywords: &["بازی", "جوکر", "شیطان", "ورق بازی", "کارت"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("jokeri"),
-			keywords: &["jokeri", "kortti", "korttipeli", "peli"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("joker"),
-			keywords: &["baraha", "joker", "sugal", "wildcard"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("jokari"), keywords: &["jokari", "kort"] },
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("carte Joker"),
-			keywords: &["Joker", "carte Joker", "cartes à jouer", "jeu"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("joker"),
-			keywords: &["carte", "jeu", "joker"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("fear na gcrúb"),
-			keywords: &["Fear na gcrúb", "an buachaill mór", "cluiche", "cárta", "cárta imeartha"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("amadan"),
-			keywords: &["amadan", "cairt", "geama", "saorag"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("comodín"),
-			keywords: &["baralla francesa", "cartas", "comodín", "xogos"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("જોકર"),
-			keywords: &[
-				"ગ\u{a82}જીફાન\u{ac1}\u{a82} પત\u{acd}ત\u{ac1}\u{a82}",
-				"ગ\u{a82}જીફો",
-				"જોકર",
-				"જોકરન\u{ac1}\u{a82} પત\u{acd}ત\u{ac1}\u{a82}",
-				"પત\u{acd}તા\u{a82}",
-				"રમત",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("joka"),
-			keywords: &["gem", "joka", "karta", "kati", "katin wasa", "wasa", "wildcard"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("joka"),
-			keywords: &["gem", "joka", "karta", "kati", "katin wasa", "wasa", "wildcard"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("ג׳וקר"),
-			keywords: &["ג׳וקר", "משחק", "קלף"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("जोकर कार\u{94d}ड"),
-			keywords: &["कार\u{94d}ड", "ख\u{947}ल", "जोकर", "ताश का पत\u{94d}ता"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("džoker"),
-			keywords: &["džoker", "igra", "kartanje", "karte"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("dzsóker"),
-			keywords: &["dzsóker", "francia kártya", "joker", "játék", "kártya"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("ջոկեր"),
-			keywords: &["թղթախաղ", "թուղթ", "խաղ", "խաղալ", "ծաղրածու", "ջոկեր"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("joker"),
-			keywords: &["joker", "kartu", "permainan"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("kaadi joka"),
-			keywords: &["egwuregwu", "kaadi joka", "kaadị", "kaadịmmeri"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("jókerspil"),
-			keywords: &["jóker", "jókerspil", "spil"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("jolly"),
-			keywords: &["Joker", "carta", "carta da gioco", "gioco", "jolly"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ジョーカー"),
-			keywords: &["カード", "ジジ", "ジョーカー", "トランプ", "ババ"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("kertu joker"),
-			keywords: &["game", "joker", "kertu", "kertu liar"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ჯოკერი"),
-			keywords: &["ბანქო", "თამაში", "კარტი", "ჯოკერი"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("джокер"),
-			keywords: &["джокер", "карта", "ойнау", "ойын"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("joker"),
-			keywords: &["joker", "kort", "spillekort"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("បៀរខ\u{17d2}មោច"),
-			keywords: &["បៀរ", "បៀរខ\u{17d2}មោច", "ល\u{17d2}បែង"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಜ\u{ccb}ಕರ\u{ccd}"),
-			keywords: &[
-				"ಕಾರ\u{ccd}ಡ\u{ccd}",
-				"ಗ\u{cc7}ಮ\u{ccd}",
-				"ಜ\u{ccb}ಕರ\u{ccd}",
-				"ಪ\u{ccd}ಲ\u{cc7}ಯ\u{cbf}ಂಗ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}",
-				"ವ\u{cc8}ಲ\u{ccd}ಡ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("조커"),
-			keywords: &["게임", "와일드카드", "조커", "카드"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("जोकर"),
-			keywords: &["ग\u{947}म", "जोकर", "पत\u{94d}तो", "वायल\u{94d}डकार\u{94d}ड"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жокер"),
-			keywords: &["жокер", "карта", "ойноо", "оюн"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Joker"),
-			keywords: &["Jocker", "Joker", "Kaart", "Spill"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ໂຈກເກ\u{eb5}"),
-			keywords: &[
-				"ສ\u{eb1}ນຍາລ\u{eb1}ກແທນ",
-				"ຫ\u{ebc}\u{eb5}\u{ec9}ນ",
-				"ໂຈກເກ\u{eb5}",
-				"ໄພ\u{ec9}",
-				"ໄພ\u{ec9}ໂຈກເກ\u{eb5}",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("juokdarys"),
-			keywords: &["juokdarys", "kortos", "žaidimas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("džokers"),
-			keywords: &["džokers", "kārtis"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tioka"),
-			keywords: &["kāri", "kārimohowao", "kēmu", "tioka"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("џокер"),
-			keywords: &["игра", "карти", "џокер"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ജോക\u{d4d}കർ"),
-			keywords: &[
-				"ചിഹ\u{d4d}നം",
-				"ചീട\u{d4d}ട\u{d41}കെട\u{d4d}ട\u{d4d}",
-				"ചീട\u{d4d}ട\u{d4d}",
-				"ജോക\u{d4d}കർ",
-				"ജോക\u{d4d}കർ ക\u{d3e}ർഡ\u{d4d}",
-				"സിംബൽ",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("хөзрийн хүн"),
-			keywords: &["тоглоом", "хүн", "хөзрийн хүн", "хөзөр"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("विद\u{942}षक"),
-			keywords: &[
-				"कार\u{94d}ड",
-				"ख\u{947}ळण\u{947}",
-				"ख\u{947}ळण\u{94d}याचा पत\u{94d}ता",
-				"ग\u{947}म",
-				"जोकर",
-				"वाइल\u{94d}ड कार\u{94d}ड",
-				"विद\u{942}षक",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("joker"),
-			keywords: &["bermain", "joker", "kad", "permainan"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("joker"),
-			keywords: &["joker", "karta", "tal-logħob", "wildcards"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဂျ\u{102d}\u{102f}ကာဖ\u{1032}ချပ\u{103a}"),
-			keywords: &[
-				"ဂ\u{102d}မ\u{103a}း",
-				"ဂျ\u{102d}\u{102f}ကာဖ\u{1032}ချပ\u{103a}",
-				"ဖ\u{1032}ချပ\u{103a}",
-				"လ\u{102d}\u{102f}ရာသ\u{102f}\u{1036}းဖ\u{1032}ချပ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("जोकर"),
-			keywords: &["कार\u{94d}ड", "ख\u{947}ल", "जोकर", "वाइल\u{94d}ड कार\u{94d}ड"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("Jokerkaart"),
-			keywords: &["Jokerkaart", "joker", "kaart", "kaarten", "spel", "spelen"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["joker", "jokerkort", "kort", "spelkort"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଜୋକର\u{b4d}\u{200d}"),
-			keywords: &[
-				"କ\u{b3e}ର\u{b4d}ଡ\u{b4d}",
-				"ଖେଳ",
-				"ଜୋକର\u{b4d}\u{200d}",
-				"ୱ\u{b3e}ଇଲଡକ\u{b3e}ର\u{b4d}ଡ\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਜ\u{a4b}ਕਰ"),
-			keywords: &["ਕਾਰਡ", "ਜ\u{a4b}ਕਰ", "ਤਾਸ\u{a3c}", "ਤਾਸ\u{a3c} ਖ\u{a47}ਡਣਾ", "ਪ\u{a71}ਤਾ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("مسخرہ"),
-			keywords: &["مسخرہ", "ناقابل\u{650} پیشگوئی", "کارڈ", "کھیڈ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Jóka"),
-			keywords: &["Gem", "Jóka", "Kad", "Waíldkad"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("dżoker"),
-			keywords: &["dżoker", "gra", "joker", "karta"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("جوکر"),
-			keywords: &["تاش", "جوکر", "لوبه", "ويل کارډ"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("curinga"),
-			keywords: &["baralho", "carta", "coringa", "curinga", "jogo", "joker"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("jóquer"),
-			keywords: &["baralho", "carta", "jogar", "jogo", "jóquer"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("joker"),
-			keywords: &["joker", "pukllay", "tarhita"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("joker"),
-			keywords: &["carte", "cărți", "joc", "joker", "păcălici"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-168"), keywords: &["E10-168"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("джокер"),
-			keywords: &["джокер", "игра", "карты"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("jokeri"),
-			keywords: &["ibimenyetso bitandukanye", "ikarita", "jokeri", "umukino"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("جوڪر"),
-			keywords: &["جوڪر", "ڪارڊ، راند، وائلڊ ڪارڊ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ජෝකර\u{dca}"),
-			keywords: &[
-				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf} ක\u{dd2}ර\u{dd3}ම",
-				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
-				"ක\u{dcf}ඩ\u{dca}",
-				"ජෝකර\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("žolík"),
-			keywords: &["divoká karta", "hra", "hracie", "karta", "zábava", "žolík"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("joker"),
-			keywords: &["igra", "igranje", "joker", "karta"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("jookar"),
-			keywords: &["ciyaar", "jookar", "kaadh", "kaadhka xayawaanaha"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("xholi"),
-			keywords: &["letër", "lojë", "luaj", "xholi"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("џокер"),
-			keywords: &["игрa", "кaртaњe", "кaртe", "карта", "џокер"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("džoker"),
-			keywords: &["džoker", "igra", "karta", "kartanje", "karte"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("joker"),
-			keywords: &["Joker", "Joker-kort", "spelkort", "spelkort med joker"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("jokari"),
-			keywords: &["jokari", "kadi", "kucheza", "mchezo"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ஜோக\u{bcd}கர\u{bcd}"),
-			keywords: &[
-				"கருப\u{bcd}பு ஜோக\u{bcd}கர\u{bcd}",
-				"ச\u{bc0}ட\u{bcd}டு அட\u{bcd}டையில\u{bcd} கருப\u{bcd}பு ஜோக\u{bcd}கர\u{bcd}",
-				"ச\u{bc0}ட\u{bcd}டுக\u{bcd}கட\u{bcd}டு",
-				"ஜோக\u{bcd}கர\u{bcd}",
-				"வைல\u{bcd}டுக\u{bbe}ர\u{bcd}டு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("జ\u{c4b}కర\u{c4d}"),
-			keywords: &[
-				"క\u{c3e}ర\u{c4d}డ\u{c4d}",
-				"జ\u{c4b}కర\u{c4d}",
-				"ప\u{c47}కముక\u{c4d}క",
-				"ప\u{c47}కముక\u{c4d}కప\u{c48} నలుపురంగు జ\u{c4b}కర\u{c4d} బ\u{c4a}మ\u{c4d}మ",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("ҳазлбоз"),
-			keywords: &["аломатҳои ивазкунӣ", "бозӣ", "корт", "ҳазлбоз"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ไพ\u{e48}โจ\u{e4a}กเกอร\u{e4c}"),
-			keywords: &["เล\u{e48}นไพ\u{e48}", "โจ\u{e4a}กเกอร\u{e4c}", "ไพ\u{e48}โจ\u{e4a}กเกอร\u{e4c}"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጆኬር"),
-			keywords: &["ካርድ", "ዋዛ", "ዋይልድካርድ", "ጸወታ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("joker"),
-			keywords: &["joker", "kart", "oýun", "žoker"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("sioka"), keywords: &["pele", "sioka"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("joker"),
-			keywords: &["iskambil kartı", "joker", "kart"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("جوكېر"),
-			keywords: &["ئويۇن", "جوكېر", "سىرتقى قارتا", "قارتا"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("джокер"),
-			keywords: &["гра", "грати", "джокер", "карта"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("جوکر"),
-			keywords: &["تاش", "جوکر", "جوکر والا تاش کا پتہ", "پتہ", "کھیل"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("o‘yin kartasidagi joker"),
-			keywords: &["karta", "o‘yin", "o‘yin kartasidagi joker", "o‘ynash"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("quân phăng teo"),
-			keywords: &["lá bài", "quân phăng teo", "trò chơi"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("jokeer"),
-			keywords: &["jokeer", "kàrt", "po"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("umhlekisi"),
-			keywords: &["i-wildcard", "ikhadi", "umdlalo", "umhlekisi"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Joka"),
-			keywords: &["Joka", "eré", "káàdì", "káàdí ọlọ\u{301}pọ\u{300} ìlò"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Joka"),
-			keywords: &["Joka", "eré", "káàdì", "káàdí ɔlɔ\u{301}pɔ\u{300} ìlò"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("小丑"),
-			keywords: &["小丑", "百撘卡", "紙牌", "遊戲"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("小丑"),
-			keywords: &["小丑", "游戏", "百撘卡", "纸牌"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("大小王"),
-			keywords: &["大小王", "大王", "小丑", "小王", "扑克", "扑克小丑", "牌", "百搭牌", "鬼牌"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("鬼牌"),
-			keywords: &["外卡", "小丑", "皇牌", "鬼牌"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["啤牌", "小丑", "比賽", "遊戲", "鬼牌"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("ujokha"),
-			keywords: &["ikhadi", "ujokha", "ukudlala", "umdlalo"],
-		},
-	],
 };
 #[doc = "🎯"]
 pub const BULLSEYE: crate::Emoji = crate::Emoji {
@@ -11720,19 +9129,6 @@ pub const BULLSEYE: crate::Emoji = crate::Emoji {
 			keywords: &["idathi", "ihlo", "impokophelo", "ukunemba", "umdlalo"],
 		},
 	],
-};
-#[doc = "🀄\u{fe0f}"]
-pub const MAHJONG_RED_DRAGON: crate::Emoji = crate::Emoji {
-	glyph:                "🀄\u{fe0f}",
-	codepoint:            &[126980u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "mahjong red dragon",
-	group:                crate::Group::Activities,
-	subgroup:             crate::Subgroup::Game,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };
 #[doc = "🪀"]
 pub const YO_YO: crate::Emoji = crate::Emoji {
@@ -15176,4 +12572,2608 @@ pub const PINATA: crate::Emoji = crate::Emoji {
 		#[cfg(feature = "zu")]
 		crate::Annotation { lang: "zu", tts: Some("i-piñata"), keywords: &["i-piñata"] },
 	],
+};
+#[doc = "🎮\u{fe0f}"]
+pub const VIDEO_GAME: crate::Emoji = crate::Emoji {
+	glyph:                "🎮\u{fe0f}",
+	codepoint:            &[127918u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "video game",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::Game,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🎱"]
+pub const POOL_8_BALL: crate::Emoji = crate::Emoji {
+	glyph:                "🎱",
+	codepoint:            &[127921u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "pool 8 ball",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::Game,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("biljart"),
+			keywords: &[
+				"8",
+				"8-bal",
+				"agt",
+				"bal",
+				"biljart",
+				"potspel",
+				"potspel-8-bal",
+				"snoeker",
+				"speel",
+				"speletjie",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የከረንቦላ ድንጋይ"),
+			keywords: &["8", "ስምንት", "ከረንቦላ", "ኳስ", "የከረንቦላ ድንጋይ", "ጨዋታ", "ፑል"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("بلياردو"),
+			keywords: &[
+				"بلياردو",
+				"بيليار",
+				"بيلياردو",
+				"ثمانية",
+				"طابة",
+				"كرة",
+				"كرة رقم ثمانية",
+				"لعبة",
+				"مباراة",
+				"٨",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("প\u{9c1}ল খেলৰ ৮ নম\u{9cd}বৰ বল"),
+			keywords: &[
+				"আঠ",
+				"প\u{9c1}ল খেলৰ ৮ নম\u{9cd}বৰ বল",
+				"বল",
+				"বিলিয\u{9bc}\u{9be}ৰ\u{9cd}ড",
+				"৮",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("bilyard"),
+			keywords: &["8", "bilyard", "oyun", "səkkiz", "top"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("більярд"),
+			keywords: &["8", "більярд", "восем", "гульня", "кій", "шар"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("билярд"),
+			keywords: &["8", "билярд", "игра", "осмица", "топка"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("8 বলের প\u{9c1}ল"),
+			keywords: &[
+				"8 প\u{9c1}ল বল",
+				"8 বলের প\u{9c1}ল",
+				"আট",
+				"খেল\u{9be}",
+				"প\u{9c1}ল",
+				"বল",
+				"বিলিয\u{9bc}\u{9be}র\u{9cd}ড",
+			],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("bilhard saoz"),
+			keywords: &["8", "bilhard", "bilhard saoz", "boul"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("bilijar"),
+			keywords: &["bilijar", "igra", "osmica"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("bola de billar"),
+			keywords: &[
+				"8",
+				"billar",
+				"bola",
+				"bola 8 de billar",
+				"bola de billar",
+				"bola negra de billar",
+				"joc",
+				"vuit",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("8 ᎪᏪᎳ ᎦᏓᏲᏍᏗ"),
+			keywords: &["8", "8 ᎪᏪᎳ ᎦᏓᏲᏍᏗ", "ᎦᏓᏲᏍᏗ", "ᏗᏁᏟᏙᏗ", "ᏣᏁᎳ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("kulečníková koule 8"),
+			keywords: &[
+				"8",
+				"biliár",
+				"billiard",
+				"hra",
+				"koule",
+				"koule na kulečník",
+				"kulečník",
+				"kulečníková koule 8",
+				"osm",
+				"pool",
+				"sport",
+				"černá",
+				"černý",
+				"číslo",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("biliards"),
+			keywords: &["biliards", "gêm", "wyth"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("billard"),
+			keywords: &["billard", "billardkugle", "pool"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Billardkugel"),
+			keywords: &["8-Ball", "Billard", "Billardkugel", "Kugel", "Spiel", "schwarz"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μπάλα 8 μπιλιάρδου"),
+			keywords: &[
+				"8",
+				"μπάλα",
+				"μπάλα 8 μπιλιάρδου",
+				"μπάλα με το 8",
+				"μπιλιάρδο",
+				"οκτώ",
+				"παιχνίδι",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("pool 8 ball"),
+			keywords: &["8", "8ball", "ball", "billiard", "eight", "game", "pool"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation {
+			lang:     "en_CA",
+			tts:      Some("↑↑↑"),
+			keywords: &["8", "ball", "billiard", "eight", "game", "magic 8 ball", "pool 8 ball"],
+		},
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("bola negra de billar"),
+			keywords: &["8", "billar", "bola negra de billar", "bola ocho", "juego"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("bola ocho"),
+			keywords: &["8", "billar", "bola", "bola negra billar", "juego", "ocho", "pool"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("piljardikuul"),
+			keywords: &["8", "kuul", "mäng", "piljard", "piljardikuul"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("billarra"),
+			keywords: &["8", "billar", "billarra", "bola", "joko", "zortzi"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("بیلیارد"),
+			keywords: &["بازی", "بال", "بیلیارد", "هشت", "۸", "۸ توپ"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("biljardi"),
+			keywords: &["8", "biljardi", "biljardipallo", "kahdeksan", "kasipallo", "pallo", "peli"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("billiards"),
+			keywords: &["8", "billiard", "billiards", "bilyar", "bola", "eight", "pool"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("pul"),
+			keywords: &["billard", "kúla", "pool", "pul"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("boule de billard"),
+			keywords: &["8", "billard", "boule de billard", "boule magique", "huit", "jeu", "pool"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("liathróid 8 púil"),
+			keywords: &["8", "cluiche", "liathróid 8 púil", "snúcar"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("bàla a h-ochd"),
+			keywords: &["8", "ball", "billiard", "bàla", "bàla a h-ochd", "gèam", "ochd", "pool"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation { lang: "gl", tts: Some("billar"), keywords: &["billar", "bola"] },
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("બિલિયર\u{acd}ડ"),
+			keywords: &["આઠ બોલ", "પ\u{ac2}લનો દડો", "બિલિયર\u{acd}ડ", "રમત", "૮"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("ƙwallon pool 8"),
+			keywords: &[
+				"8",
+				"baƙin ƙwallon wasan sunuka",
+				"suluka",
+				"sunuka",
+				"takwas",
+				"wasa",
+				"wasan billard",
+				"ƙwallo",
+				"ƙwallon pool 8",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("ƙwallon pool 8"),
+			keywords: &[
+				"8",
+				"baƙin ƙwallon wasan sunuka",
+				"suluka",
+				"sunuka",
+				"takwas",
+				"wasa",
+				"wasan billard",
+				"ƙwallo",
+				"ƙwallon pool 8",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("כדור ביליארד"),
+			keywords: &["ביליארד", "כדור", "משחק", "סנוקר"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बिलियर\u{94d}ड"),
+			keywords: &["आठ ग\u{947}\u{902}द", "ग\u{947}\u{902}द", "ग\u{947}म", "बिलियर\u{94d}ड"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("biljarske kugle"),
+			keywords: &["8", "biljarske kugle", "crna osmica", "igra", "kugla", "osam"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("biliárd"),
+			keywords: &["8-as", "biliárd", "biliárdgolyó", "golyó", "játék"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("8 գնդանոց բիլիարդ"),
+			keywords: &["8", "8 գնդանոց բիլիարդ", "բիլիարդ", "գնդակ", "խաղ", "ութ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("biliar 8 bola"),
+			keywords: &["8", "biliar", "bola", "delapan", "game"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("Poolu 8 bọọlụ"),
+			keywords: &["8", "Poolu 8 bọọlụ", "asatọ", "billiardị", "bọọlụ", "egwuregwu"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("billjard"),
+			keywords: &["biljarður", "billjard", "leikur", "pool"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("palla da biliardo"),
+			keywords: &[
+				"8",
+				"biliardo",
+				"giocare",
+				"gioco",
+				"otto",
+				"palla da biliardo",
+				"palla otto",
+				"sport",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ビリヤード"),
+			keywords: &["エイトボール", "スポーツ", "ビリヤード", "ボール", "玉突き"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("pool bal 8"),
+			keywords: &["8", "bal", "bilyar", "game", "pool bal 8", "wolu"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ბილიარდი"),
+			keywords: &["8", "ბილიარდი", "ბურთი", "თამაში", "რვა"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("пул-8"),
+			keywords: &["8", "8 шарлы пул", "биллиярд", "бильярд", "ойын", "пул-8", "сегіз", "шар"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("billard"),
+			keywords: &["billard", "billardkugle"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ៨"),
+			keywords: &[
+				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ា",
+				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ ៨",
+				"គ\u{17d2}រាប\u{17cb}ប\u{17ca}\u{17b8}យ\u{17c9}ាលេខ៨",
+				"ប\u{17ca}\u{17b8}យ\u{17c9}ា",
+				"ប\u{17d2}រា\u{17c6}ប\u{17b8}",
+				"ល\u{17d2}បែង",
+				"ហ\u{17d2}គេម",
+				"៨",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}ಸ\u{ccd}"),
+			keywords: &[
+				"8",
+				"ಆಟ",
+				"ಎಂಟು",
+				"ಚ\u{cc6}ಂಡು",
+				"ಬಾಲ\u{ccd}",
+				"ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}",
+				"ಬ\u{cbf}ಲ\u{cbf}ಯರ\u{ccd}ಡ\u{ccd}ಸ\u{ccd}",
+				"ಸ\u{ccd}ನ\u{cc2}ಕರ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("당구"),
+			keywords: &["8", "8번 공", "게임", "공", "당구", "당구공", "팔", "포켓볼 8번 공"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("प\u{942}ल 8 बॉल"),
+			keywords: &["8", "आठ", "ग\u{947}म", "प\u{942}ल 8 बॉल", "बिलियार\u{94d}ड", "बॉल"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("бильярд"),
+			keywords: &["8", "8 шар", "бильярд", "оюн", "сегиз"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Billardkugel"),
+			keywords: &["8", "8-Ball", "Billardkugel", "Billiard", "Kugel", "Spill", "aacht"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ສະນ\u{eb8}ກເກ\u{eb5}"),
+			keywords: &["8", "ສະນ\u{eb8}ກເກ\u{eb5}", "ເກມ 8", "ແປດ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("biliardo kamuoliukas"),
+			keywords: &["8", "8 kamuoliukas", "biliardas", "biliardo kamuoliukas", "žaidimas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("biljarda bumbiņa"),
+			keywords: &["8", "astoņi", "biljarda bumbiņa", "biljards", "bumbiņa", "spēle"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("piriota 8 pōro"),
+			keywords: &["8", "kēmu", "piriota", "pōro", "waru"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("црна топка за билјард"),
+			keywords: &[
+				"8",
+				"билјард",
+				"игра",
+				"осумка",
+				"топка",
+				"црна топка за билјард",
+				"црната топка",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}\u{200c}സ\u{d4d}"),
+			keywords: &[
+				"ഗെയിം",
+				"ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}",
+				"ബില\u{d4d}യ\u{d3e}ർഡ\u{d4d}\u{200c}സ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("биллиард"),
+			keywords: &["8", "биллиард", "бөмбөг", "найм", "пүүл бөмбөг 8", "тоглоом"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("बिलियर\u{94d}ड\u{94d}\u{200d}स"),
+			keywords: &[
+				"8",
+				"आठ",
+				"आठ च\u{947}\u{902}ड\u{942}",
+				"ख\u{947}ळ",
+				"ग\u{947}म",
+				"प\u{941}ल 8 बॉल",
+				"प\u{942}ल",
+				"बिलियर\u{94d}ड",
+				"बिलियर\u{94d}ड\u{94d}\u{200d}स",
+				"बॉल",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("biliard"),
+			keywords: &["8", "biliard", "bola", "lapan", "permainan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("ballun ta’ pool 8"),
+			keywords: &["8", "ballun", "ballun ta’ pool 8", "billiard", "logħba", "tmien"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဘ\u{102d}လ\u{102d}ယက\u{103a} ဘောလ\u{102f}\u{1036}းန\u{1036}ပါတ\u{103a} ၈"),
+			keywords: &[
+				"ဂ\u{102d}မ\u{103a}း",
+				"ဘ\u{102d}လ\u{102d}ယက\u{103a}",
+				"ဘ\u{102d}လ\u{102d}ယက\u{103a} ဘောလ\u{102f}\u{1036}းန\u{1036}ပါတ\u{103a} ၈",
+				"ဘောလ\u{102f}\u{1036}း",
+				"၈",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("बिलियर\u{94d}ड\u{94d}स"),
+			keywords: &["आठ", "ख\u{947}ल", "बल", "बिलियर\u{94d}ड\u{94d}स", "८"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("biljart"),
+			keywords: &["8", "8 ball", "8-ball", "acht", "bal", "biljart", "pool", "spel"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("biljardkule"),
+			keywords: &["8", "biljard", "biljardkule", "spel", "åttarkule", "åtte"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଫ\u{b41}ଲ\u{b4d}\u{200d} 8 ବଲ\u{b4d}\u{200d}"),
+			keywords: &[
+				"8",
+				"ଆଠ",
+				"ଖେଳ",
+				"ପ\u{b41}ଲ\u{b4d} 8 ବଲ\u{b4d}",
+				"ଫ\u{b41}ଲ\u{b4d}\u{200d} 8 ବଲ\u{b4d}\u{200d}",
+				"ବଲ\u{b4d}",
+				"ବ\u{b3f}ଲ\u{b3f}ଆର\u{b4d}ଡ\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਬਿਲਿਅਰਡ"),
+			keywords: &[
+				"ਅ\u{a71}ਠ ਗ\u{a47}\u{a02}ਦਾ\u{a02}",
+				"ਅ\u{a71}ਥ ਨ\u{a70}ਬਰ ਗ\u{a47}\u{a02}ਦ",
+				"ਖ\u{a47}ਡ",
+				"ਪ\u{a42}ਲ ਟ\u{a47}ਬਲ",
+				"ਬਿਲਿਅਰਡ",
+				"੮",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("پول 8 بال"),
+			keywords: &["8", "8 بال", "آٹھ", "بیلیرڈ", "پول 8 بال", "کھیڈ", "گیند"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Pul 8 Bọl"),
+			keywords: &["8", "Bíliad", "Bọl", "Gem", "Pul 8 Bọl", "Ẹt"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("bila 8"),
+			keywords: &["8", "bila", "bilard", "gra", "kula", "kula bilardowa"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("د پول ۸ توپ"),
+			keywords: &["اته", "بليارډ", "توپ", "د پول ۸ توپ", "لوبه", "۸"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("bilhar"),
+			keywords: &["bilhar", "bola oito", "jogo"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &["bilhar", "bola", "bola 8", "jogo", "oito", "snooker"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("billar"),
+			keywords: &["8", "billar", "pukllay", "pusaq"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("biliard"),
+			keywords: &["8", "biliard", "bilă", "gaură", "joc", "opt"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-369"), keywords: &["E10-369"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("бильярд"),
+			keywords: &["8", "бильярд", "восьмерка", "игра", "пул", "черный шар", "шар"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("umupira wa biyari wa nomero 8"),
+			keywords: &["8", "biyari", "umukino", "umunani", "umupira", "umupira wa biyari wa nomero 8"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("پول 8 بال"),
+			keywords: &["8، 8 بال، بال، بليارڊ، اٺ، راند", "پول 8 بال"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("බ\u{dd2}ල\u{dd2}යඩ\u{dca}"),
+			keywords: &[
+				"8",
+				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
+				"බ\u{dd2}ල\u{dd2}යඩ\u{dca}",
+				"බ\u{dd2}ල\u{dd2}යර\u{dca}ඩ\u{dca}",
+				"බෝල",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("biliardová guľa č. 8"),
+			keywords: &[
+				"8",
+				"biliard",
+				"biliardová guľa č. 8",
+				"biliárd",
+				"guľa č. 8",
+				"hra",
+				"osem",
+				"čierna",
+				"šport",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("biljard"),
+			keywords: &["8", "biljard", "igra", "krogla", "osmica"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("kubada barkada 8"),
+			keywords: &["8", "biliyaardi", "ciyaar", "kubad", "kubada barkada 8", "siddeed"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("bilardo"),
+			keywords: &["8", "bilardo", "gurë", "lojë", "tetë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("билијар"),
+			keywords: &["8", "oсaм", "билијaр", "игрa", "куглa", "осмица"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("bilijar"),
+			keywords: &["8", "bilijar", "igra", "kugla", "osam", "osmica"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("biljardboll"),
+			keywords: &["biljard", "biljardboll", "biljardboll med nummer 8", "åttan"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("biliadi"),
+			keywords: &["8", "biliadi", "mchezo", "mpira", "nane"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("பில\u{bcd}லியர\u{bcd}ட\u{bcd}ஸ\u{bcd}"),
+			keywords: &[
+				"உள\u{bcd}ளரங\u{bcd}க விளைய\u{bbe}ட\u{bcd}டு",
+				"எட\u{bcd}டு பந\u{bcd}து",
+				"பில\u{bcd}லியர\u{bcd}ட\u{bcd}",
+				"பில\u{bcd}லியர\u{bcd}ட\u{bcd}ஸ\u{bcd}",
+				"விளைய\u{bbe}ட\u{bcd}டு",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}స\u{c4d}"),
+			keywords: &[
+				"8",
+				"8 బ\u{c3e}ల\u{c4d}",
+				"ఆట",
+				"ఎన\u{c3f}మ\u{c3f}ద\u{c3f}",
+				"ఎన\u{c3f}మ\u{c3f}ద\u{c3f} బంతులు",
+				"గ\u{c47}మ\u{c4d}",
+				"దంతపు గుండ\u{c4d}ల\u{c3e}ట",
+				"పూల\u{c4d} 8 బ\u{c3e}ల\u{c4d}",
+				"బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}",
+				"బ\u{c3f}ల\u{c3f}యర\u{c4d}డ\u{c4d}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("билярди 8 саққадор"),
+			keywords: &["8", "билярд", "билярди 8 саққадор", "бозӣ", "саққа", "ҳашт"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("บ\u{e34}ลเล\u{e35}ยด"),
+			keywords: &["บ\u{e34}ลเล\u{e35}ยด", "แปด"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ፑል 8 ኩዕሶ"),
+			keywords: &["8", "8ኩዕሶ", "መሐመሲ", "ሸሞንተ", "ቢልያርዶ", "ኩዕሶ", "ጸወታ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("8 bilýard topy"),
+			keywords: &["8", "8 bilýard topy", "bilýard", "oýun", "sekiz", "top"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("pulu fika 8"),
+			keywords: &["8", "pulu", "pulu fika 8"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("bilardo"),
+			keywords: &["bilardo", "oyun", "sekiz top"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("8 لىك بىليارت"),
+			keywords: &["8", "8 لىك بىليارت", "ئويۇن", "بىليارت", "توپ", "سەككىز"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("більярдна куля 8"),
+			keywords: &["8", "більярд", "більярдна куля", "більярдна куля 8", "вісім", "куля", "спорт"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بلیئرڈز"),
+			keywords: &["آٹھ", "بال", "بلیئرڈز", "کھیل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("billiard"),
+			keywords: &[
+				"8",
+				"8 ta shar",
+				"billiard",
+				"o‘yin",
+				"sakkiz",
+				"sakkizinchi raqamli shar",
+				"shar",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("bi-a 8 bóng"),
+			keywords: &["8", "bi-a 8 bóng", "bida", "quả bóng", "trò chơi", "tám"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("biyaar 8 bal"),
+			keywords: &["8", "bal", "biyaar", "juróom ñatt", "po"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("i-pool 8 ball"),
+			keywords: &[
+				"8",
+				"i-billiard",
+				"i-pool 8 ball",
+				"ibhola",
+				"iibhola ezisi-8",
+				"isibhozo",
+				"umdlalo",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Bọọlu Odo 8"),
+			keywords: &[
+				"8",
+				"Bọọlu Odo 8",
+				"bílíádì",
+				"bọ\u{301}ọ\u{300}lù",
+				"eré",
+				"ẹ\u{301}ẹ\u{301}jọ",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Bɔɔlu Odo 8"),
+			keywords: &[
+				"8",
+				"Bɔɔlu Odo 8",
+				"bílíádì",
+				"bɔ\u{301}ɔ\u{300}lù",
+				"eré",
+				"ɛ\u{301}ɛ\u{301}jɔ",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("8 號桌球"),
+			keywords: &["8", "8 號桌球", "八", "桌球", "球", "遊戲"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("8 号桌球"),
+			keywords: &["8", "8 号桌球", "八", "桌球", "游戏", "球"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("台球"),
+			keywords: &["8 球制桌球", "8号球", "台球", "台球台", "游戏", "霹雳八球"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("撞球"),
+			keywords: &["8", "八", "八號球", "撞球", "球"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("桌球"),
+			keywords: &["8", "8號波", "8號球", "枱波", "桌球", "比賽", "球", "篤波", "遊戲"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("amabhiliyade"),
+			keywords: &["8", "amabhiliyade", "billiard", "billiards", "ibhola", "umdlalo"],
+		},
+	],
+};
+#[doc = "🎰"]
+pub const SLOT_MACHINE: crate::Emoji = crate::Emoji {
+	glyph:                "🎰",
+	codepoint:            &[127920u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "slot machine",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::Game,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("muntoutomaat"),
+			keywords: &["casino", "dobbel", "dobbelary", "munt", "muntoutomaat", "speletjie"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("በሳንቲም የሚሠራ ማሽን"),
+			keywords: &["ማስገቢያ ማሽን", "ማስገቢያዎች", "ቀዳዳ", "ቁማር", "ቁማር ቤት", "በሳንቲም የሚሠራ ማሽን", "ጨዋታ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("جهاز قمار"),
+			keywords: &["جهاز قمار", "قمار", "كازينو", "لعبة", "ميسر"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("শ\u{9cd}লট মেচিন"),
+			keywords: &["খেল", "শ\u{9cd}লট", "শ\u{9cd}লট মেচিন"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("avtomat maşın"),
+			keywords: &["avtomat", "avtomat maşın", "kazino", "oyun", "qumar"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("гульнявы аўтамат"),
+			keywords: &["аўтамат", "гульня", "гульнявы аўтамат", "жэтон"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("ротативка"),
+			keywords: &["игра", "казино", "ротативка", "хазарт"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("স\u{9cd}লট মেশিন"),
+			keywords: &["খেল\u{9be}", "স\u{9cd}লট", "স\u{9cd}লট মেশিন"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("automat za kockanje"),
+			keywords: &["aparat", "automat za kockanje", "igra", "kocka"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("màquina escurabutxaques"),
+			keywords: &[
+				"apostar",
+				"apostes",
+				"atzar",
+				"casino",
+				"escurabutxaques",
+				"joc",
+				"màquina escurabutxaques",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏕᎳ ᎦᏠᏗ ᎪᏢᏍᎩ"),
+			keywords: &["ᎠᏕᎳ ᎦᏠᏗ ᎪᏢᏍᎩ", "ᎤᏟᏅᏛᎢ", "ᏗᏁᏟᏙᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("výherní automat"),
+			keywords: &[
+				"automat",
+				"gambling",
+				"hazardní hra",
+				"hra",
+				"hrací automat",
+				"kasino",
+				"výherní automat",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("peiriant slot"),
+			keywords: &["gêm", "peiriant slot", "slot"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("spillemaskine"),
+			keywords: &["enarmet tyveknægt", "kasino", "spil", "spillemaskine"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Spielautomat"),
+			keywords: &["Glücksspiel", "Spiel", "Spielautomat"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("κουλοχέρης"),
+			keywords: &[
+				"καζίνο",
+				"κουλοχέρης",
+				"παιχνίδι",
+				"σχισμή",
+				"τζόγος",
+				"τυχερό παιχνίδι",
+				"χαρτοπαίζω",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("slot machine"),
+			keywords: &["casino", "gamble", "gambling", "game", "machine", "slot", "slots"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation {
+			lang:     "en_AU",
+			tts:      Some("pokie"),
+			keywords: &["game", "pokie", "pokies"],
+		},
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("máquina tragaperras"),
+			keywords: &["juego", "máquina", "máquina tragaperras"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("tragamonedas"),
+			keywords: &[
+				"apostar",
+				"apuesta",
+				"apuestas",
+				"casino",
+				"juego",
+				"las vegas",
+				"máquina",
+				"máquina tragaperras",
+				"tragamonedas",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["apuestas", "casino", "juego", "máquina", "tragamonedas"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("máquina tragamonedas"),
+			keywords: &["↑↑↑"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("mänguautomaat"),
+			keywords: &["automaat", "mäng", "mänguautomaat"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("txanpon-makina"),
+			keywords: &["joko", "txanpon", "txanpon-makina"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ماشین پولی"),
+			keywords: &["اسلات", "بازی", "قمار", "ماشین", "ماشین پولی", "کازینو"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("pelikone"),
+			keywords: &["kasino", "kolikko", "pelikone", "rahapeli"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("slot machine"),
+			keywords: &["casino", "japanese", "laro", "pachinko", "slot machine", "sugal"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("spæliautomat"),
+			keywords: &["kasino", "spæliautomat"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("machine à sous"),
+			keywords: &["casino", "jeu", "machine à sous"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("meaisín sliotáin"),
+			keywords: &["casino", "cluiche", "meaisín sliotáin"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("inneal shlotaichean"),
+			keywords: &["geama", "inneal shlotaichean", "slot"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("máquina comecartos"),
+			keywords: &["bar", "casino", "máquina comecartos", "xogo"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("સ\u{acd}લોટ મશીન"),
+			keywords: &[
+				"જ\u{ac1}ગાર",
+				"જ\u{ac1}ગાર ખાન\u{ac1}\u{a82}",
+				"રમત",
+				"સ\u{acd}લોટ",
+				"સ\u{acd}લોટ મશીન",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("na’urar kaya mai karɓin kuɗi"),
+			keywords: &["caca", "gem", "injin caca", "na’urar kaya mai karɓin kuɗi", "rami", "wasa"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("na’urar kaya mai karɓin kuɗi"),
+			keywords: &["caca", "gem", "injin caca", "na’urar kaya mai karɓin kuɗi", "rami", "wasa"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מכונת מזל"),
+			keywords: &["הימורים", "מהמר", "מזל", "מכונת מזל", "משחק", "קזינו"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("स\u{94d}लॉट मशीन"),
+			keywords: &["क\u{948}सीनो", "ग\u{947}म", "ज\u{941}आ", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("jednoruki jack"),
+			keywords: &["automat", "igra", "igra na sreću", "jednoruki jack", "kasino"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nyerőgép"),
+			keywords: &[
+				"félkarú rabló",
+				"játékgép",
+				"nyerőgép",
+				"pénzbedobós",
+				"szerencsejáték",
+				"szerencsejátékot űz",
+			],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("խաղային սարք"),
+			keywords: &["ավտոմատ", "խաղ", "խաղային սարք"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("mesin slot"),
+			keywords: &["game", "judi", "kasino", "mesin slot", "slot"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("igwe ntinye ihe"),
+			keywords: &["egwuregwu", "igwe ntinye ihe", "ntinye ihe"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("spilakassi"),
+			keywords: &["leikur", "spilakassi"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("slot machine"),
+			keywords: &[
+				"azzardo",
+				"casinò",
+				"gioco",
+				"gioco d’azzardo",
+				"scommesse",
+				"scommettere",
+				"slot",
+				"slot machine",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("スロットマシン"),
+			keywords: &["カジノ", "ギャンブル", "ゲーム", "スリーセブン", "スロット", "スロットマシン"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("mesin slot"),
+			keywords: &["game", "mesin slot", "slot"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("სლოტ-ავტომატი"),
+			keywords: &["თამაში", "სლოტ-ავტომატი", "სლოტები"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("ойын автоматы"),
+			keywords: &["7", "777", "автомат", "жеті", "казино", "лотерея", "ойын", "ойын автоматы"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("spillemaskine"),
+			keywords: &["spil", "spillemaskine"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល"),
+			keywords: &[
+				"ទ\u{17bc}ហ\u{17d2}គេម",
+				"ម\u{17c9}ាស\u{17ca}\u{17b8}នលេងហ\u{17d2}គេម",
+				"ម\u{17c9}ាស\u{17ca}\u{17b8}នហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល",
+				"ម\u{17c9}ាស\u{17ca}\u{17b8}ហ\u{17d2}គេមបង\u{17d2}វ\u{17b7}ល",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಸ\u{ccd}ಲಾಟ\u{ccd} ಯಂತ\u{ccd}ರ"),
+			keywords: &[
+				"ಆಟ",
+				"ಕ\u{ccd}ಯಾಸ\u{cbf}ನ\u{cca}",
+				"ಗ\u{cc7}ಮ\u{ccd}",
+				"ಜ\u{cc2}ಜಾಟ",
+				"ಜ\u{cc2}ಜು",
+				"ಶ\u{ccd}ರ\u{cc7}ಣ\u{cbf}",
+				"ಸ\u{ccd}ಲಾಟ\u{ccd}",
+				"ಸ\u{ccd}ಲಾಟ\u{ccd} ಯಂತ\u{ccd}ರ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("슬롯 머신"),
+			keywords: &["갬블", "게임", "도박", "슬롯", "슬롯 머신", "카지노", "파칭코"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("स\u{94d}लॉट मशीन"),
+			keywords: &["ग\u{947}म", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("оюн автоматы"),
+			keywords: &["автомат", "оюн", "оюн автоматы"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Spillautomat"),
+			keywords: &["Automat", "Spill", "Spillautomat"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ເຄ\u{eb7}\u{ec8}ອງຫ\u{ebc}\u{eb4}\u{ec9}ນເກມສະລອດ"),
+			keywords: &["ເກມ", "ເກມສະລອດ", "ເຄ\u{eb7}\u{ec8}ອງຫ\u{ebc}\u{eb4}\u{ec9}ນເກມສະລອດ"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("žaidimų automatas"),
+			keywords: &["automatas", "lošimas", "lošimų automatas", "žaidimas", "žaidimų automatas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("spēļu automāts"),
+			keywords: &["automāts", "azartspēles", "kazino", "spēle", "spēļu automāts"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("mīhini kaimoni"),
+			keywords: &["kāniwha", "kēmu", "mīhini kaimoni"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("автомат за игри"),
+			keywords: &[
+				"автомат",
+				"автомат за игри",
+				"игра",
+				"игра на среќа",
+				"казино",
+				"коцка",
+				"коцкање",
+				"слот",
+				"слот машина",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("സ\u{d4d}ലോട\u{d4d}ട\u{d4d} മെഷീൻ"),
+			keywords: &["ഗെയിം", "സ\u{d4d}ലോട\u{d4d}ട\u{d4d} മെഷീൻ"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хонжворт тоглоомын машин"),
+			keywords: &["машин", "тоглоом", "хонжвор", "хонжворт тоглоомын машин"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("स\u{94d}लॉट मशीन"),
+			keywords: &["ग\u{947}म", "स\u{94d}लॉट", "स\u{94d}लॉट मशीन"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("mesin judi"),
+			keywords: &["judi", "kasino", "mesin judi", "permainan", "slot"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("slot machine"),
+			keywords: &["logħba", "slot", "slot machine"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("လောင\u{103a}းကစားစက\u{103a}"),
+			keywords: &[
+				"ဂ\u{102d}မ\u{103a}း",
+				"ဈေးရောင\u{103a}းစက\u{103a}",
+				"လောင\u{103a}းကစားစက\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("स\u{94d}ल\u{94d}ट यन\u{94d}त\u{94d}र"),
+			keywords: &["ख\u{947}ल", "स\u{94d}लट", "स\u{94d}ल\u{94d}ट यन\u{94d}त\u{94d}र"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("fruitautomaat"),
+			keywords: &["casino", "eenarmige bandiet", "fruitautomaat", "gokkast", "gokken", "spel"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("speleautomat"),
+			keywords: &["spel", "speleautomat"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ସ\u{b4d}ଲଟ\u{b4d}\u{200c} ମେସ\u{b3f}ନ\u{b4d}\u{200c}"),
+			keywords: &[
+				"ଖେଳ",
+				"ସ\u{b4d}ଲଟ\u{b4d}\u{200c}",
+				"ସ\u{b4d}ଲଟ\u{b4d}\u{200c} ମେସ\u{b3f}ନ\u{b4d}\u{200c}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਸਲ\u{a4b}ਟ ਮਸ\u{a3c}ੀਨ"),
+			keywords: &[
+				"ਕਸੀਨ\u{a4b}",
+				"ਖ\u{a47}ਡ",
+				"ਜ\u{a42}ਆ",
+				"ਨ\u{a70}ਬਰ",
+				"ਨ\u{a70}ਬਰ ਮਸ\u{a3c}ੀਨ",
+				"ਸਲ\u{a4b}ਟ",
+				"ਸਲ\u{a4b}ਟ ਮਸ\u{a3c}ੀਨ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("مغوری کرن آلی مشین"),
+			keywords: &["سلاٹ", "مغوری کرن آلی مشین", "کھیڈ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Gámblín Máshin"),
+			keywords: &["Gem", "Gámblín Máshin", "Kalukalu", "Kalukalu Mashin"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("automat do gier"),
+			keywords: &[
+				"automat do gier",
+				"automat do gry",
+				"gra",
+				"hazard",
+				"jednoręki bandyta",
+				"kasyno",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("سلاټ ماشين"),
+			keywords: &["سلاټ", "سلاټ ماشين", "لوبه"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("caça-níquel"),
+			keywords: &["aposta", "cassino", "caça-níquel", "jogo de azar", "máquina caça-níqueis"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("slot machine"),
+			keywords: &["jogo", "jogo de azar", "slot", "slot machine"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("casinopaq maquina"),
+			keywords: &["casinopaq maquina", "kampu", "pukllay"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("jocuri mecanice"),
+			keywords: &[
+				"cazinou",
+				"joc",
+				"joc de noroc",
+				"jocuri mecanice",
+				"manetă",
+				"noroc",
+				"păcănele",
+				"slots",
+			],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-368"), keywords: &["E10-368"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("игровой автомат"),
+			keywords: &["автомат", "азарт", "деньги", "игровой", "игры", "казино"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("akamashini gatanga amatike"),
+			keywords: &["akamashini gatanga amatike", "igice", "umukino"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("خانن واري مشيني راند"),
+			keywords: &["خانن واري مشيني راند", "خانو", "راند"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ව\u{dd2}ද\u{dd4}ම\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය"),
+			keywords: &[
+				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
+				"ව\u{dd2}ද\u{dd4}ම",
+				"ව\u{dd2}ද\u{dd4}ම\u{dca} යන\u{dca}ත\u{dca}\u{200d}රය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("výherný automat"),
+			keywords: &[
+				"automat",
+				"gambling",
+				"hazard",
+				"hra",
+				"kasíno",
+				"výherná",
+				"výherný automat",
+				"výhra",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("igralni avtomat"),
+			keywords: &["avtomat", "casino", "igra", "igralni avtomat", "igre na srečo"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("mashiinka kabaha"),
+			keywords: &["ciyaar", "kabaha", "mashiinka kabaha"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("lojë me monedha"),
+			keywords: &["lojë", "lojë me monedha", "monedhë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("слот-машина"),
+			keywords: &["игра", "казино", "коцкање", "слот"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("slot-mašina"),
+			keywords: &["igra", "kazino", "kockanje", "slot"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("enarmad bandit"),
+			keywords: &["enarmad bandit", "spel", "spelautomat", "spelmaskin"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("mashine ya kamari"),
+			keywords: &["mashine ya kamari", "mchezo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஸ\u{bcd}ல\u{bbe}ட\u{bcd} மிஷின\u{bcd}"),
+			keywords: &[
+				"கேம\u{bcd}ப\u{bcd}ளிங\u{bcd}",
+				"சூத\u{bbe}ட\u{bcd}டம\u{bcd}",
+				"விளைய\u{bbe}ட\u{bcd}டு",
+				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd}",
+				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd} இயந\u{bcd}திரம\u{bcd}",
+				"ஸ\u{bcd}ல\u{bbe}ட\u{bcd} மிஷின\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("స\u{c4d}ల\u{c3e}ట\u{c4d} మ\u{c46}ష\u{c40}న\u{c4d}"),
+			keywords: &[
+				"ఆట",
+				"గ\u{c4d}య\u{c3e}ంబుల\u{c4d}",
+				"జూదం ఆడ\u{c47} యంత\u{c4d}రము",
+				"జూదగృహం",
+				"మ\u{c46}ష\u{c40}న\u{c4d}",
+				"స\u{c4d}ల\u{c3e}ట\u{c4d}",
+				"స\u{c4d}ల\u{c3e}ట\u{c4d}స\u{c4d}",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("мошинаи қиморбозӣ"),
+			keywords: &["бозӣ", "ковокӣ", "мошинаи қиморбозӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("สล\u{e47}อตแมชช\u{e35}น"),
+			keywords: &["พน\u{e31}น", "สล\u{e47}อต", "สล\u{e47}อตแมชช\u{e35}น", "เกม"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ስሎት ማሽን"),
+			keywords: &["ማሽን", "ስሎት", "ቁማር ምጽዋት", "ካዚኖ", "ጸወታ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("oýun awtomaty"),
+			keywords: &["awtomat", "oýun", "oýun awtomaty"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("mīsini tā paʻanga"),
+			keywords: &["7", "mīsini", "mīsini tā paʻanga", "paʻanga"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("kumar makinesi"),
+			keywords: &["kollu makina", "kumar", "kumar makinesi", "oyun", "şans oyunu"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("مال ساتقۇچ"),
+			keywords: &["ئويۇن", "سېتىش", "مال ساتقۇچ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("гральний автомат"),
+			keywords: &[
+				"Вегас",
+				"азарт",
+				"везіння",
+				"виграш",
+				"гра",
+				"гральний автомат",
+				"джекпот",
+				"залежність",
+				"фарт",
+				"ігровий",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("سلاٹ مشین"),
+			keywords: &["سلاٹ مشین", "گیم"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("o‘yin avtomati"),
+			keywords: &["avtomat", "kazino", "o‘yin", "o‘yin avtomati", "qimor", "qimor oʻyini"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("máy giật xèng"),
+			keywords: &["cờ bạc", "khe", "máy giật xèng", "trò chơi"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("masinu xaalis"),
+			keywords: &["masin", "masinu xaalis", "xaalis"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("umatshini wokuthengisa"),
+			keywords: &["i-slot", "umatshini wokuthengisa", "umdlalo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Ẹrọ Ifisi"),
+			keywords: &["eré", "ìfisí", "Ẹrọ Ifisi"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Ɛrɔ Ifisi"),
+			keywords: &["eré", "ìfisí", "Ɛrɔ Ifisi"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("老虎機"),
+			keywords: &["投幣口", "老虎機", "遊戲"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("老虎机"),
+			keywords: &["投币口", "游戏", "老虎机"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("老虎机"),
+			keywords: &["吃角子老虎", "游戏", "老虎机", "角子机", "赌博", "赌场"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("吃角子老虎"),
+			keywords: &["吃角子老虎", "拉霸機", "賭博", "賭場"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("老虎機"),
+			keywords: &["777", "中獎", "老虎機", "賭博", "賭場", "賭錢", "遊戲"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("umshini onembotshana yokufaka imali"),
+			keywords: &["imbotshana yokufaka imali", "umdlalo", "umshini onembotshana yokufaka imali"],
+		},
+	],
+};
+#[doc = "🃏"]
+pub const JOKER: crate::Emoji = crate::Emoji {
+	glyph:                "🃏",
+	codepoint:            &[127183u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "joker",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::Game,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("joker"),
+			keywords: &[
+				"joker",
+				"kaart",
+				"onbekende faktor",
+				"speel",
+				"speletjie",
+				"swart Piet",
+				"wildekaart",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("የካርታ ጆከር"),
+			keywords: &["በመጫወት ላይ", "ካርታ", "የካርታ ጆከር", "ጨዋታ"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("جوكر"),
+			keywords: &["أوراق", "جوكر", "لعبة", "ورق شدة", "ورقة", "يلعب"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("জ’ক\u{9be}ৰ"),
+			keywords: &[
+				"ক\u{9cd}ৰীড\u{9bc}\u{9be}",
+				"জ’ক\u{9be}ৰ",
+				"ত\u{9be}\u{981}চখেল",
+				"ৱ\u{9be}ইল\u{9cd}ড ক\u{9be}ৰ\u{9cd}ড",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("joker"),
+			keywords: &["joker", "kart", "oynamaq", "oyun", "uno"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("джокер"),
+			keywords: &["азарт", "гульня", "джокер", "карта"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("жокер"),
+			keywords: &["жокер", "игра", "карта"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("জোক\u{9be}র"),
+			keywords: &["ক\u{9be}র\u{9cd}ড", "খেল\u{9be}", "জোক\u{9be}র", "ত\u{9be}স"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("joker"),
+			keywords: &["joker", "kartenn joker"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("džoker"),
+			keywords: &["džoker", "igra", "karte"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("comodí"),
+			keywords: &["carta", "cartes", "comodí", "joc", "partida"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎦᏪᏟᏍᎩ"),
+			keywords: &["ᎠᏆᏂᏲᏍᏗ", "ᎦᏪᏟᏍᎩ", "ᎨᏯᏔᎯ ᏆᏂᏲᏍᏗ", "ᏗᏁᏟᏙᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("žolík"),
+			keywords: &["divoká", "hra", "hraní", "joker", "karta", "karty", "žolík"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("cellweiriwr"),
+			keywords: &["cardiau", "cellweiriwr", "chwarae", "gêm"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("joker"),
+			keywords: &["joker", "kort", "kortspil", "spil", "spillekort"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Jokerkarte"),
+			keywords: &["Joker", "Jokerkarte", "Spielkarte"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("τζόκερ"),
+			keywords: &["κάρτα", "παίζω", "παιχνίδι", "τζόκερ", "χαρτιά"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("joker"),
+			keywords: &["card", "game", "joker", "wildcard"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("comodín"),
+			keywords: &["comodín", "joker"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("carta comodín"),
+			keywords: &["carta", "carta de joker", "casino", "comodín", "joker", "naipes", "poker"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("jokker"),
+			keywords: &["jokker", "kaart", "mäng"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("komodina"),
+			keywords: &["joko", "jolastu", "karta", "komodina"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("جوکر"),
+			keywords: &["بازی", "جوکر", "شیطان", "ورق بازی", "کارت"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("jokeri"),
+			keywords: &["jokeri", "kortti", "korttipeli", "peli"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("joker"),
+			keywords: &["baraha", "joker", "sugal", "wildcard"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation { lang: "fo", tts: Some("jokari"), keywords: &["jokari", "kort"] },
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("carte Joker"),
+			keywords: &["Joker", "carte Joker", "cartes à jouer", "jeu"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation {
+			lang:     "fr_CA",
+			tts:      Some("joker"),
+			keywords: &["carte", "jeu", "joker"],
+		},
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("fear na gcrúb"),
+			keywords: &["Fear na gcrúb", "an buachaill mór", "cluiche", "cárta", "cárta imeartha"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("amadan"),
+			keywords: &["amadan", "cairt", "geama", "saorag"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("comodín"),
+			keywords: &["baralla francesa", "cartas", "comodín", "xogos"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("જોકર"),
+			keywords: &[
+				"ગ\u{a82}જીફાન\u{ac1}\u{a82} પત\u{acd}ત\u{ac1}\u{a82}",
+				"ગ\u{a82}જીફો",
+				"જોકર",
+				"જોકરન\u{ac1}\u{a82} પત\u{acd}ત\u{ac1}\u{a82}",
+				"પત\u{acd}તા\u{a82}",
+				"રમત",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("joka"),
+			keywords: &["gem", "joka", "karta", "kati", "katin wasa", "wasa", "wildcard"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("joka"),
+			keywords: &["gem", "joka", "karta", "kati", "katin wasa", "wasa", "wildcard"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("ג׳וקר"),
+			keywords: &["ג׳וקר", "משחק", "קלף"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("जोकर कार\u{94d}ड"),
+			keywords: &["कार\u{94d}ड", "ख\u{947}ल", "जोकर", "ताश का पत\u{94d}ता"],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("džoker"),
+			keywords: &["džoker", "igra", "kartanje", "karte"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("dzsóker"),
+			keywords: &["dzsóker", "francia kártya", "joker", "játék", "kártya"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("ջոկեր"),
+			keywords: &["թղթախաղ", "թուղթ", "խաղ", "խաղալ", "ծաղրածու", "ջոկեր"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("joker"),
+			keywords: &["joker", "kartu", "permainan"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("kaadi joka"),
+			keywords: &["egwuregwu", "kaadi joka", "kaadị", "kaadịmmeri"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("jókerspil"),
+			keywords: &["jóker", "jókerspil", "spil"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("jolly"),
+			keywords: &["Joker", "carta", "carta da gioco", "gioco", "jolly"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ジョーカー"),
+			keywords: &["カード", "ジジ", "ジョーカー", "トランプ", "ババ"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("kertu joker"),
+			keywords: &["game", "joker", "kertu", "kertu liar"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ჯოკერი"),
+			keywords: &["ბანქო", "თამაში", "კარტი", "ჯოკერი"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("джокер"),
+			keywords: &["джокер", "карта", "ойнау", "ойын"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("joker"),
+			keywords: &["joker", "kort", "spillekort"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("បៀរខ\u{17d2}មោច"),
+			keywords: &["បៀរ", "បៀរខ\u{17d2}មោច", "ល\u{17d2}បែង"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಜ\u{ccb}ಕರ\u{ccd}"),
+			keywords: &[
+				"ಕಾರ\u{ccd}ಡ\u{ccd}",
+				"ಗ\u{cc7}ಮ\u{ccd}",
+				"ಜ\u{ccb}ಕರ\u{ccd}",
+				"ಪ\u{ccd}ಲ\u{cc7}ಯ\u{cbf}ಂಗ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}",
+				"ವ\u{cc8}ಲ\u{ccd}ಡ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("조커"),
+			keywords: &["게임", "와일드카드", "조커", "카드"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("जोकर"),
+			keywords: &["ग\u{947}म", "जोकर", "पत\u{94d}तो", "वायल\u{94d}डकार\u{94d}ड"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("жокер"),
+			keywords: &["жокер", "карта", "ойноо", "оюн"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Joker"),
+			keywords: &["Jocker", "Joker", "Kaart", "Spill"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ໂຈກເກ\u{eb5}"),
+			keywords: &[
+				"ສ\u{eb1}ນຍາລ\u{eb1}ກແທນ",
+				"ຫ\u{ebc}\u{eb5}\u{ec9}ນ",
+				"ໂຈກເກ\u{eb5}",
+				"ໄພ\u{ec9}",
+				"ໄພ\u{ec9}ໂຈກເກ\u{eb5}",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("juokdarys"),
+			keywords: &["juokdarys", "kortos", "žaidimas"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("džokers"),
+			keywords: &["džokers", "kārtis"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("tioka"),
+			keywords: &["kāri", "kārimohowao", "kēmu", "tioka"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("џокер"),
+			keywords: &["игра", "карти", "џокер"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ജോക\u{d4d}കർ"),
+			keywords: &[
+				"ചിഹ\u{d4d}നം",
+				"ചീട\u{d4d}ട\u{d41}കെട\u{d4d}ട\u{d4d}",
+				"ചീട\u{d4d}ട\u{d4d}",
+				"ജോക\u{d4d}കർ",
+				"ജോക\u{d4d}കർ ക\u{d3e}ർഡ\u{d4d}",
+				"സിംബൽ",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("хөзрийн хүн"),
+			keywords: &["тоглоом", "хүн", "хөзрийн хүн", "хөзөр"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("विद\u{942}षक"),
+			keywords: &[
+				"कार\u{94d}ड",
+				"ख\u{947}ळण\u{947}",
+				"ख\u{947}ळण\u{94d}याचा पत\u{94d}ता",
+				"ग\u{947}म",
+				"जोकर",
+				"वाइल\u{94d}ड कार\u{94d}ड",
+				"विद\u{942}षक",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("joker"),
+			keywords: &["bermain", "joker", "kad", "permainan"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("joker"),
+			keywords: &["joker", "karta", "tal-logħob", "wildcards"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဂျ\u{102d}\u{102f}ကာဖ\u{1032}ချပ\u{103a}"),
+			keywords: &[
+				"ဂ\u{102d}မ\u{103a}း",
+				"ဂျ\u{102d}\u{102f}ကာဖ\u{1032}ချပ\u{103a}",
+				"ဖ\u{1032}ချပ\u{103a}",
+				"လ\u{102d}\u{102f}ရာသ\u{102f}\u{1036}းဖ\u{1032}ချပ\u{103a}",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("जोकर"),
+			keywords: &["कार\u{94d}ड", "ख\u{947}ल", "जोकर", "वाइल\u{94d}ड कार\u{94d}ड"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("Jokerkaart"),
+			keywords: &["Jokerkaart", "joker", "kaart", "kaarten", "spel", "spelen"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["joker", "jokerkort", "kort", "spelkort"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଜୋକର\u{b4d}\u{200d}"),
+			keywords: &[
+				"କ\u{b3e}ର\u{b4d}ଡ\u{b4d}",
+				"ଖେଳ",
+				"ଜୋକର\u{b4d}\u{200d}",
+				"ୱ\u{b3e}ଇଲଡକ\u{b3e}ର\u{b4d}ଡ\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਜ\u{a4b}ਕਰ"),
+			keywords: &["ਕਾਰਡ", "ਜ\u{a4b}ਕਰ", "ਤਾਸ\u{a3c}", "ਤਾਸ\u{a3c} ਖ\u{a47}ਡਣਾ", "ਪ\u{a71}ਤਾ"],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("مسخرہ"),
+			keywords: &["مسخرہ", "ناقابل\u{650} پیشگوئی", "کارڈ", "کھیڈ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Jóka"),
+			keywords: &["Gem", "Jóka", "Kad", "Waíldkad"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("dżoker"),
+			keywords: &["dżoker", "gra", "joker", "karta"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("جوکر"),
+			keywords: &["تاش", "جوکر", "لوبه", "ويل کارډ"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("curinga"),
+			keywords: &["baralho", "carta", "coringa", "curinga", "jogo", "joker"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("jóquer"),
+			keywords: &["baralho", "carta", "jogar", "jogo", "jóquer"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("joker"),
+			keywords: &["joker", "pukllay", "tarhita"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("joker"),
+			keywords: &["carte", "cărți", "joc", "joker", "păcălici"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-168"), keywords: &["E10-168"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("джокер"),
+			keywords: &["джокер", "игра", "карты"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("jokeri"),
+			keywords: &["ibimenyetso bitandukanye", "ikarita", "jokeri", "umukino"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("جوڪر"),
+			keywords: &["جوڪر", "ڪارڊ، راند، وائلڊ ڪارڊ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ජෝකර\u{dca}"),
+			keywords: &[
+				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf} ක\u{dd2}ර\u{dd3}ම",
+				"ක\u{dca}\u{200d}ර\u{dd3}ඩ\u{dcf}ව",
+				"ක\u{dcf}ඩ\u{dca}",
+				"ජෝකර\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("žolík"),
+			keywords: &["divoká karta", "hra", "hracie", "karta", "zábava", "žolík"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("joker"),
+			keywords: &["igra", "igranje", "joker", "karta"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("jookar"),
+			keywords: &["ciyaar", "jookar", "kaadh", "kaadhka xayawaanaha"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("xholi"),
+			keywords: &["letër", "lojë", "luaj", "xholi"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("џокер"),
+			keywords: &["игрa", "кaртaњe", "кaртe", "карта", "џокер"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("džoker"),
+			keywords: &["džoker", "igra", "karta", "kartanje", "karte"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("joker"),
+			keywords: &["Joker", "Joker-kort", "spelkort", "spelkort med joker"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("jokari"),
+			keywords: &["jokari", "kadi", "kucheza", "mchezo"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ஜோக\u{bcd}கர\u{bcd}"),
+			keywords: &[
+				"கருப\u{bcd}பு ஜோக\u{bcd}கர\u{bcd}",
+				"ச\u{bc0}ட\u{bcd}டு அட\u{bcd}டையில\u{bcd} கருப\u{bcd}பு ஜோக\u{bcd}கர\u{bcd}",
+				"ச\u{bc0}ட\u{bcd}டுக\u{bcd}கட\u{bcd}டு",
+				"ஜோக\u{bcd}கர\u{bcd}",
+				"வைல\u{bcd}டுக\u{bbe}ர\u{bcd}டு",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("జ\u{c4b}కర\u{c4d}"),
+			keywords: &[
+				"క\u{c3e}ర\u{c4d}డ\u{c4d}",
+				"జ\u{c4b}కర\u{c4d}",
+				"ప\u{c47}కముక\u{c4d}క",
+				"ప\u{c47}కముక\u{c4d}కప\u{c48} నలుపురంగు జ\u{c4b}కర\u{c4d} బ\u{c4a}మ\u{c4d}మ",
+			],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("ҳазлбоз"),
+			keywords: &["аломатҳои ивазкунӣ", "бозӣ", "корт", "ҳазлбоз"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ไพ\u{e48}โจ\u{e4a}กเกอร\u{e4c}"),
+			keywords: &["เล\u{e48}นไพ\u{e48}", "โจ\u{e4a}กเกอร\u{e4c}", "ไพ\u{e48}โจ\u{e4a}กเกอร\u{e4c}"],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጆኬር"),
+			keywords: &["ካርድ", "ዋዛ", "ዋይልድካርድ", "ጸወታ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("joker"),
+			keywords: &["joker", "kart", "oýun", "žoker"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("sioka"), keywords: &["pele", "sioka"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("joker"),
+			keywords: &["iskambil kartı", "joker", "kart"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("جوكېر"),
+			keywords: &["ئويۇن", "جوكېر", "سىرتقى قارتا", "قارتا"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("джокер"),
+			keywords: &["гра", "грати", "джокер", "карта"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("جوکر"),
+			keywords: &["تاش", "جوکر", "جوکر والا تاش کا پتہ", "پتہ", "کھیل"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("o‘yin kartasidagi joker"),
+			keywords: &["karta", "o‘yin", "o‘yin kartasidagi joker", "o‘ynash"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("quân phăng teo"),
+			keywords: &["lá bài", "quân phăng teo", "trò chơi"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("jokeer"),
+			keywords: &["jokeer", "kàrt", "po"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("umhlekisi"),
+			keywords: &["i-wildcard", "ikhadi", "umdlalo", "umhlekisi"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("Joka"),
+			keywords: &["Joka", "eré", "káàdì", "káàdí ọlọ\u{301}pọ\u{300} ìlò"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("Joka"),
+			keywords: &["Joka", "eré", "káàdì", "káàdí ɔlɔ\u{301}pɔ\u{300} ìlò"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("小丑"),
+			keywords: &["小丑", "百撘卡", "紙牌", "遊戲"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("小丑"),
+			keywords: &["小丑", "游戏", "百撘卡", "纸牌"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("大小王"),
+			keywords: &["大小王", "大王", "小丑", "小王", "扑克", "扑克小丑", "牌", "百搭牌", "鬼牌"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("鬼牌"),
+			keywords: &["外卡", "小丑", "皇牌", "鬼牌"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &["啤牌", "小丑", "比賽", "遊戲", "鬼牌"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("ujokha"),
+			keywords: &["ikhadi", "ujokha", "ukudlala", "umdlalo"],
+		},
+	],
+};
+#[doc = "🀄\u{fe0f}"]
+pub const MAHJONG_RED_DRAGON: crate::Emoji = crate::Emoji {
+	glyph:                "🀄\u{fe0f}",
+	codepoint:            &[126980u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "mahjong red dragon",
+	group:                crate::Group::Activities,
+	subgroup:             crate::Subgroup::Game,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

@@ -1,29 +1,3 @@
-#[doc = "🫯"]
-pub const FIGHT_CLOUD: crate::Emoji = crate::Emoji {
-	glyph:                "🫯",
-	codepoint:            &[129775u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-	name:                 "fight cloud",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Emotion,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "👁\u{fe0f}\u{200d}🗨\u{fe0f}"]
-pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
-	glyph:                "👁\u{fe0f}\u{200d}🗨\u{fe0f}",
-	codepoint:            &[128065u32, 65039u32, 8205u32, 128488u32, 65039u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
-	name:                 "eye in speech bubble",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Emotion,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "💥"]
 pub const COLLISION: crate::Emoji = crate::Emoji {
 	glyph:                "💥",
@@ -1868,19 +1842,6 @@ pub const DIZZY: crate::Emoji = crate::Emoji {
 			keywords: &["inkanyezi", "inzululwane", "opopayi"],
 		},
 	],
-};
-#[doc = "🗯\u{fe0f}"]
-pub const RIGHT_ANGER_BUBBLE: crate::Emoji = crate::Emoji {
-	glyph:                "🗯\u{fe0f}",
-	codepoint:            &[128495u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "right anger bubble",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Emotion,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
 };
 #[doc = "💨"]
 pub const DASHING_AWAY: crate::Emoji = crate::Emoji {
@@ -7759,19 +7720,6 @@ pub const ZZZ: crate::Emoji = crate::Emoji {
 		crate::Annotation { lang: "zu", tts: Some("zzz"), keywords: &["ulele", "zzz"] },
 	],
 };
-#[doc = "🕳\u{fe0f}"]
-pub const HOLE: crate::Emoji = crate::Emoji {
-	glyph:                "🕳\u{fe0f}",
-	codepoint:            &[128371u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-	name:                 "hole",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::Emotion,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "💯"]
 pub const HUNDRED_POINTS: crate::Emoji = crate::Emoji {
 	glyph:                "💯",
@@ -10840,4 +10788,56 @@ pub const KISS_MARK: crate::Emoji = crate::Emoji {
 			keywords: &["izindebe", "ukuqabula", "uphawu lokuqabula"],
 		},
 	],
+};
+#[doc = "👁\u{fe0f}\u{200d}🗨\u{fe0f}"]
+pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
+	glyph:                "👁\u{fe0f}\u{200d}🗨\u{fe0f}",
+	codepoint:            &[128065u32, 65039u32, 8205u32, 128488u32, 65039u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 2u8, minor: 0u8, patch: 0u8 },
+	name:                 "eye in speech bubble",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Emotion,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🫯"]
+pub const FIGHT_CLOUD: crate::Emoji = crate::Emoji {
+	glyph:                "🫯",
+	codepoint:            &[129775u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+	name:                 "fight cloud",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Emotion,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🕳\u{fe0f}"]
+pub const HOLE: crate::Emoji = crate::Emoji {
+	glyph:                "🕳\u{fe0f}",
+	codepoint:            &[128371u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "hole",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Emotion,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🗯\u{fe0f}"]
+pub const RIGHT_ANGER_BUBBLE: crate::Emoji = crate::Emoji {
+	glyph:                "🗯\u{fe0f}",
+	codepoint:            &[128495u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+	name:                 "right anger bubble",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::Emotion,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };

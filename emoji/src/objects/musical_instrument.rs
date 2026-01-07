@@ -1,3430 +1,3 @@
-#[doc = "🪊"]
-pub const TROMBONE: crate::Emoji = crate::Emoji {
-	glyph:                "🪊",
-	codepoint:            &[129674u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-	name:                 "trombone",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::MusicalInstrument,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
-#[doc = "🪇"]
-pub const MARACAS: crate::Emoji = crate::Emoji {
-	glyph:                "🪇",
-	codepoint:            &[129671u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "maracas",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::MusicalInstrument,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("marakkas"),
-			keywords: &[
-				"dans",
-				"instrument",
-				"marakkas",
-				"musiek",
-				"perkussie",
-				"ratel",
-				"skud",
-				"slaginstrument",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ማራካ"),
-			keywords: &[
-				"መሳሪያ",
-				"መንቀጥቀጥ",
-				"ሙዚቃ",
-				"ማራከስ",
-				"ማራካ",
-				"ማንቀጥቀጫ",
-				"ማንገጫገጭ",
-				"ቻቻ",
-				"አቀናብሮ መምታት",
-				"የሙዚቃ መሣሪያ",
-				"የሙዚቃ ድግስ",
-				"ግርፋት",
-				"ፓርቲ",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("مركاس"),
-			keywords: &[
-				"آلة موسيقية",
-				"تشا تشا",
-				"حفلة",
-				"خشخيشة",
-				"دق",
-				"رج\u{651}اجة",
-				"رقص",
-				"شخشيخة",
-				"شخلل",
-				"مركاس",
-				"موسيقى",
-				"نقر",
-				"هز",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ম\u{9be}ৰ\u{9be}ক\u{9be}ছ"),
-			keywords: &[
-				"প\u{9be}ৰক\u{9be}ছন",
-				"ম\u{9be}ৰ\u{9be}ক\u{9be}ছ",
-				"যন\u{9cd}ত\u{9cd}ৰ",
-				"শ\u{9cd}বেক",
-				"সংগীত",
-				"ৰেটল",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("marakas"),
-			keywords: &["alət", "cingilti", "marakas", "musiqi", "rəqs", "silkələmək", "zərb", "şənlik"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("маракасы"),
-			keywords: &["маракасы", "музыка", "трэсці", "ударны", "шумавы", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("маракаси"),
-			keywords: &[
-				"инструмент",
-				"маракаси",
-				"музика",
-				"перкусии",
-				"раздрусване",
-				"танци",
-				"тракане",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ম\u{9be}র\u{9be}ক\u{9be}স"),
-			keywords: &[
-				"ঝ\u{9be}\u{981}ক\u{9be}ন",
-				"ঝ\u{9c1}মঝ\u{9c1}মি",
-				"প\u{9be}রক\u{9be}শন",
-				"ম\u{9be}র\u{9be}ক\u{9be}স",
-				"ম\u{9cd}য\u{9be}র\u{9be}ক\u{9be}স",
-				"যন\u{9cd}ত\u{9cd}র",
-				"সঙ\u{9cd}গীত",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("marake"),
-			keywords: &["instrument", "marake", "muzika", "udaraljke", "zvečka"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("maraques"),
-			keywords: &[
-				"ball",
-				"diversió",
-				"festa",
-				"instrument",
-				"maraques",
-				"música",
-				"percussió",
-				"ritme",
-				"sacsejar",
-				"sonall",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏂᏍᏆᏂ ᎦᎾᏤᏘ"),
-			keywords: &["ᎠᏂᏍᏆᏂ", "ᎦᎾᏤᏘ", "ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏛ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("rumbakoule"),
-			keywords: &["chrastítko", "hudba", "maracas", "nástroj", "perkuse", "rumbakoule"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("maracas"),
-			keywords: &[
-				"cerddoriaeth",
-				"dawns",
-				"maracas",
-				"offeryn",
-				"parti",
-				"ratl",
-				"taro",
-				"ysgwyd",
-				"ysgwydr",
-			],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("maracas"),
-			keywords: &["danse", "fest", "instrument", "maracas", "musik", "rangle", "ryste", "slagtøj"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Maracas"),
-			keywords: &[
-				"Cha-Cha-Cha",
-				"Instrument",
-				"Maracas",
-				"Musik",
-				"Musikinstrument",
-				"Party",
-				"Percussion",
-				"Rassel",
-				"Tanz",
-				"musizieren",
-				"rasseln",
-				"tanzen",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Maraca"),
-			keywords: &["Instrument", "Maraca", "Musik", "Trommel", "schütteln"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("μαράκες"),
-			keywords: &["κουνάω", "κροτάλισμα", "κρουστά", "μαράκες", "μουσική", "όργανο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("maracas"),
-			keywords: &[
-				"cha",
-				"dance",
-				"instrument",
-				"maracas",
-				"music",
-				"party",
-				"percussion",
-				"rattle",
-				"shake",
-				"shaker",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("maracas"),
-			keywords: &[
-				"agitar",
-				"brasil",
-				"instrumento",
-				"maracas",
-				"movimiento",
-				"música",
-				"percusión",
-			],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"baile",
-				"cha cha",
-				"coctelera",
-				"fiesta",
-				"instrumento",
-				"maracas",
-				"matraca",
-				"música",
-				"percusión",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("marakas"),
-			keywords: &[
-				"instrument",
-				"kõristi",
-				"löökpill",
-				"marakad",
-				"marakas",
-				"muusika",
-				"pidu",
-				"pill",
-				"raputus",
-			],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("marakak"),
-			keywords: &[
-				"astindu",
-				"festa",
-				"instrumentua",
-				"jaia",
-				"marakak",
-				"musika",
-				"musika-tresna",
-				"perkusioa",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("ساز جغجغه\u{200c}ای"),
-			keywords: &[
-				"تکان دادن",
-				"جعجغه",
-				"جغجغه",
-				"رقص",
-				"ساز",
-				"ساز جغجغه\u{200c}ای",
-				"سازهای کوبه\u{200c}ای",
-				"لرزش",
-				"ماراکا",
-				"مهمانی",
-				"موسیقی",
-				"پرکاشن",
-				"چاچا",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("marakassit"),
-			keywords: &[
-				"esine",
-				"instrumentti",
-				"kalina",
-				"lyömäsoittimet",
-				"marakassit",
-				"musiikki",
-				"ravista",
-				"ravistaa",
-				"rämistä",
-				"soitin",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("maracas"),
-			keywords: &[
-				"alogn",
-				"instrumento",
-				"kalansing",
-				"maracas",
-				"musika",
-				"percussion",
-				"rattle",
-				"tambol",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("marakas"),
-			keywords: &["djass", "ljóðføri", "marakas", "ringla", "ringliljóðfør", "tónleikur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("maracas"),
-			keywords: &[
-				"cha cha cha",
-				"danse",
-				"danser",
-				"fête",
-				"hochet",
-				"instrument",
-				"maracas",
-				"musique",
-				"percussion",
-				"secouer",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("maracas"),
-			keywords: &["ceol", "crith", "gliogar", "maracas", "maracaí", "tuargaint", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("maracas"),
-			keywords: &[
-				"beum",
-				"ceòl",
-				"crathadh",
-				"farm",
-				"gleadhran",
-				"inneal-ciùil",
-				"ionnsramaid",
-				"maracas",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("maracas"),
-			keywords: &["axóuxere", "instrumento", "música", "percusión", "ritmo"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("મરાકા"),
-			keywords: &[
-				"અથડામણ",
-				"ખડખડવ\u{ac1}\u{a82}",
-				"ખડખડાવવ\u{ac1}\u{a82}",
-				"ઘ\u{ac2}ઘરો",
-				"ન\u{ac3}ત\u{acd}ય",
-				"પર\u{acd}કશન",
-				"પાર\u{acd}ટી",
-				"મરાકા",
-				"વાદ\u{acd}ય",
-				"સ\u{a82}ગીત",
-				"હલાવવ\u{ac1}\u{a82}",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("kacau-kacau"),
-			keywords: &[
-				"biki",
-				"buga",
-				"girgiza",
-				"kacau-kacau",
-				"karkaɗa",
-				"kayan aiki",
-				"kayan kiɗa",
-				"kaɗe-kaɗe",
-				"kiɗa",
-				"rawa",
-				"walima",
-				"waƙa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("kacau-kacau"),
-			keywords: &[
-				"biki",
-				"buga",
-				"girgiza",
-				"kacau-kacau",
-				"karkaɗa",
-				"kayan aiki",
-				"kayan kiɗa",
-				"kaɗe-kaɗe",
-				"kiɗa",
-				"rawa",
-				"walima",
-				"waƙa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("מאראקס"),
-			keywords: &[
-				"חגיגה",
-				"כלי הקשה",
-				"לטינית",
-				"מאראקס",
-				"מוזיקה",
-				"מסיבה",
-				"מרקה",
-				"נגינה",
-				"צ׳ה צ׳ה",
-				"ריקוד",
-				"תיפוף",
-			],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("मराकस"),
-			keywords: &[
-				"आघात द\u{947}कर बजाया जान\u{947} वाला वाद\u{94d}य य\u{902}त\u{94d}र",
-				"उपकरण",
-				"खनखनाना",
-				"डा\u{902}स",
-				"मराकस",
-				"स\u{902}गीत",
-				"हिलाना",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("marakasi"),
-			keywords: &[
-				"cha cha",
-				"glazba",
-				"glazbalo",
-				"instrument",
-				"marakasi",
-				"tresti",
-				"udaraljke",
-				"zvečka",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("rumbatök"),
-			keywords: &["csörgő", "hangszer", "rumbatök", "ráz", "zene", "ütőhangszer"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("մարակաս"),
-			keywords: &["գործիք", "երաժշտություն", "հարվածային", "մարակաս", "չխկչխկան", "պերկուսիա"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("marakas"),
-			keywords: &[
-				"alat musik",
-				"cha cha",
-				"gemerisik",
-				"goyang",
-				"instrumen",
-				"joget",
-				"kerincingan",
-				"marakas",
-				"menari",
-				"musik",
-				"perkusi",
-				"tarian",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("marakas"),
-			keywords: &["egwu", "ercussion", "maracas", "nkwa egwu", "rattle", "shake"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("hristur"),
-			keywords: &["hljóðfæri", "hrista", "hristur", "skrölt", "slagverk", "tónlist"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("maracas"),
-			keywords: &[
-				"agitare",
-				"ballare",
-				"maracas",
-				"musica",
-				"percussioni",
-				"ritmo",
-				"scuotere",
-				"strumento",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("マラカス"),
-			keywords: &[
-				"シェイカー",
-				"ダンス",
-				"パーティー",
-				"マラカス",
-				"ラトル",
-				"リズム",
-				"打楽器",
-				"振る",
-				"楽器",
-				"音楽",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("marakas"),
-			keywords: &["goyangake", "marakas", "musik", "perkusi", "piranti", "ratel"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მარაკა"),
-			keywords: &["ინსტრუმენტი", "მარაკა", "მუსიკა", "ქნევა"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("маракас"),
-			keywords: &[
-				"аспап",
-				"би",
-				"кеш",
-				"маракас",
-				"музыка",
-				"сауық кеші",
-				"сылдырмақ",
-				"сілку",
-				"ча ча ча",
-				"шайқау",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ម\u{17c9}ារ\u{17c9}ាកាស"),
-			keywords: &[
-				"គោះ",
-				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
-				"ម\u{17c9}ារ\u{17c9}ាកាស",
-				"រលាក\u{17cb}",
-				"វាយ",
-				"ឧបករណ\u{17cd}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮರಾಕಸ\u{ccd}"),
-			keywords: &[
-				"ಇನ\u{ccd}\u{200c}ಸ\u{ccd}ಟ\u{ccd}ರುಮ\u{cc6}ಂಟ\u{ccd}",
-				"ಕುಣ\u{cbf}ಯ\u{cbf}ರ\u{cbf}",
-				"ಕುಲುಕುವ ವಾದ\u{ccd}ಯ",
-				"ಗಲಾಟ\u{cc6}",
-				"ಗ\u{cbf}ಲಕ\u{cbf}",
-				"ಗ\u{cbf}ಲ\u{cbf}ಗ\u{cbf}ಲ\u{cbf} ವಾದ\u{ccd}ಯ",
-				"ಡ\u{ccd}ಯಾನ\u{ccd}ಸ\u{ccd}",
-				"ತಾಳವಾದ\u{ccd}ಯ",
-				"ನೃತ\u{ccd}ಯ",
-				"ಬಜಂತ\u{ccd}ರ\u{cbf}",
-				"ಮರಾಕಸ\u{ccd}",
-				"ಸಂಗ\u{cc0}ತ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("마라카스"),
-			keywords: &["달가닥 소리", "떨림", "마라카스", "악기", "음악", "타악기"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("माराकास"),
-			keywords: &[
-				"आपट\u{942}न वाजोवप",
-				"ख\u{941}ळख\u{941}ळावप",
-				"माराकास",
-				"वाद\u{94d}य",
-				"स\u{902}गीत",
-				"हालोवप",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("маракас"),
-			keywords: &["аспап", "калдыратуу", "маракас", "музыка", "титиретүү", "урма аспаптар"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ມາຣາຄ\u{eb1}ສ"),
-			keywords: &[
-				"ງານລ\u{ec9}ຽງ",
-				"ດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ດ\u{ebb}ນຕ\u{eb5}",
-				"ຕ\u{eb5}",
-				"ປາຕ\u{eb5}\u{ec9}",
-				"ມາຣາຄ\u{eb1}ສ",
-				"ວ\u{ebb}ງດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ສ\u{eb1}\u{ec8}ນ",
-				"ເຄ\u{eb6}\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}ດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}",
-				"ເຍ\u{ebb}\u{ec8}າ",
-				"ເຕ\u{eb1}\u{ec9}ນ",
-				"ເພງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("marakasai"),
-			keywords: &[
-				"barškalai",
-				"barškutis",
-				"barškynė",
-				"instrumentas",
-				"kratyti",
-				"marakasai",
-				"muzika",
-				"mušamieji",
-				"purtyti",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("marakass"),
-			keywords: &["grabulis", "instruments", "kratīt", "marakass", "mūzika", "perkusijas", "čača"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("маракас"),
-			keywords: &[
-				"инструмент",
-				"маракас",
-				"музика",
-				"перкусија",
-				"танц",
-				"тресење",
-				"тропалка",
-				"чак-чак",
-				"ѕвечкање",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("മ\u{d3e}രക\u{d4d}ക\u{d3e}സ\u{d4d}"),
-			keywords: &[
-				"ഉപകരണം",
-				"കില\u{d41}ക\u{d4d}കം",
-				"കില\u{d41}ക\u{d4d}കി",
-				"ക\u{d41}ല\u{d41}ക\u{d4d}ക\u{d41}ക",
-				"കൊട\u{d4d}ട\u{d41}വ\u{d3e}ദ\u{d4d}യം",
-				"ന\u{d43}ത\u{d4d}തം",
-				"മ\u{d3e}രക\u{d4d}ക\u{d3e}സ\u{d4d}",
-				"സംഗീതം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("маракус"),
-			keywords: &["дамар", "зэмсэг", "маракус", "сэгсрэх", "хөгжим", "цохиур хөгжим"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ख\u{941}ळख\u{941}ळा"),
-			keywords: &["ख\u{941}ळख\u{941}ळा", "तालवाद\u{94d}य", "स\u{902}गीत", "साधन", "हलविण\u{947}"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("marakas"),
-			keywords: &[
-				"gahu",
-				"goncang",
-				"goyang",
-				"instrumen",
-				"marakas",
-				"muzik",
-				"perkusi",
-				"rattle",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မာရကာစ\u{103a}"),
-			keywords: &[
-				"ဂ\u{102e}တ",
-				"ဂျောက\u{103a}ဂျက\u{103a}",
-				"စည\u{103a}းချက\u{103a} တ\u{1030}ရ\u{102d}ယာ",
-				"တ\u{1030}ရ\u{102d}ယာ",
-				"ပါတ\u{102e}",
-				"မာရကာစ\u{103a}",
-				"လ\u{103e}\u{102f}ပ\u{103a}ခါ",
-				"အက",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("माराकास"),
-			keywords: &[
-				"छनछन",
-				"पर\u{94d}कसन",
-				"बाद\u{94d}य",
-				"माराकास",
-				"स\u{902}गीत",
-				"हल\u{94d}लिन\u{941}",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("sambaballen"),
-			keywords: &["instrument", "muziek", "percussie", "ratelen", "sambaballen", "schudden"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"instrument",
-				"marakas",
-				"musikk",
-				"perkusjon",
-				"rista",
-				"riste",
-				"rytmeinstrument",
-			],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମ\u{b3e}ର\u{b3e}କ\u{b3e}ସ\u{b4d}"),
-			keywords: &[
-				"କମ\u{b4d}ପନ",
-				"ଖଡ\u{b3c} ଖଡ\u{b3c} ଶବ\u{b4d}ଦ କର\u{b3f}ବ\u{b3e}",
-				"ବ\u{b3e}ଦ\u{b4d}ୟ ଯନ\u{b4d}ତ\u{b4d}ର",
-				"ମ\u{b3e}ର\u{b3e}କ\u{b3e}ସ\u{b4d}",
-				"ମ\u{b43}ଦଙ\u{b4d}ଗ",
-				"ସଙ\u{b4d}ଗୀତ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਮਰ\u{a48}ਕਜ\u{a3c}"),
-			keywords: &[
-				"ਆਘਾਤੀ ਸਾਜ\u{a3c}",
-				"ਛ\u{a41}ਣਛ\u{a41}ਣਾ",
-				"ਡਾ\u{a02}ਸ",
-				"ਪਾਰਟੀ",
-				"ਮਰ\u{a48}ਕਜ\u{a3c}",
-				"ਸਾਜ\u{a3c}",
-				"ਸ\u{a70}ਗੀਤ",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Márákas"),
-			keywords: &[
-				"Miúzík",
-				"Miúzík Ínstrúmẹnt Wé Im Nem Na \"Pakọ\u{301}shọn\"",
-				"Márákas",
-				"Rátul: To Mék Shọ\u{301}t Shọ\u{301}t Laúd Nọiz Wẹ\u{301}n Yu Ték Sọ\u{301}mtin De Hít Had Ọn Tọ\u{301}p Anọ\u{301}dá Tin",
-				"Shek",
-				"Ínstrúmẹnt",
-			],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("marakasy"),
-			keywords: &[
-				"cza cza",
-				"grzechotać",
-				"grzechotki",
-				"impreza",
-				"instrument",
-				"marakasy",
-				"muzyka",
-				"perkusja",
-				"perkusyjny",
-				"potrząsać",
-				"taniec",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ماراکاس"),
-			keywords: &[
-				"تکبیر",
-				"خندا",
-				"شاکر",
-				"ماراکاس",
-				"موسيقي",
-				"نڅا",
-				"وسیله",
-				"ولړزول",
-				"چا",
-				"ګوند",
-			],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("maracás"),
-			keywords: &[
-				"chacoalhar",
-				"chocalho",
-				"dança",
-				"festa",
-				"instrumento",
-				"maraca",
-				"maracas",
-				"maracás",
-				"mexer",
-				"música",
-				"percussão",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("maracas"),
-			keywords: &[
-				"abanar",
-				"chocalho",
-				"festa",
-				"instrumento",
-				"instrumento musical",
-				"maracas",
-				"música",
-				"percussão",
-				"ritmo",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("maracas"),
-			keywords: &["cascabel", "instrumento", "kuyuy", "maracas", "percusion", "takiy"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("maracas"),
-			keywords: &["instrument", "maracas", "muzică", "percuție", "scuturat", "zornăit"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-018"), keywords: &["E15-018"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("маракасы"),
-			keywords: &[
-				"вечеринка",
-				"инструмент",
-				"маракасы",
-				"музыка",
-				"музыкальные инструменты",
-				"перкуссия",
-				"погремушки",
-				"ритм",
-				"танец",
-				"танцы",
-				"трясти",
-				"ча-ча-ча",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ڇمڪڻا"),
-			keywords: &["اوزار", "باجا", "لوڏڻ", "موسيقي", "ڇمڪڻا"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dcf}රක\u{dcf}ස\u{dca}"),
-			keywords: &[
-				"උපකරණය",
-				"බෙර ව\u{dcf}දනය",
-				"ම\u{dcf}රක\u{dcf}ස\u{dca}",
-				"රැට\u{dca}ල\u{dca}",
-				"සංග\u{dd3}තය",
-				"සොලවන\u{dca}න",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("rumbagule"),
-			keywords: &[
-				"hrkať",
-				"hudba",
-				"nástroj",
-				"perkusie",
-				"párty",
-				"rumbagule",
-				"tancovať",
-				"triasť",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("marake"),
-			keywords: &["glasba", "glasbilo", "instrument", "marake", "ropotulja", "stresaj", "tolkala"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("maracas"),
-			keywords: &["instrument", "maracas", "music", "percussion", "rattle", "shake"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("maraka"),
-			keywords: &[
-				"festë",
-				"instrument",
-				"maraka",
-				"muzikë",
-				"perkusion",
-				"trokitje",
-				"tundje",
-				"vallëzim",
-				"ça-ça",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("марака"),
-			keywords: &["звечке", "инструмент", "марака", "музика", "перкусије"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("maraka"),
-			keywords: &["instrument", "maraka", "muzika", "perkusije", "zvečke"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("maracas"),
-			keywords: &["instrument", "maracas", "musik", "skaka", "slaginstrument", "slagverk"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("maraka"),
-			keywords: &[
-				"chacharisha",
-				"cheza",
-				"dansi",
-				"gonganisha",
-				"maraka",
-				"muziki",
-				"tikisa",
-				"tingisha",
-				"zana",
-			],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("மரக\u{bcd}க\u{bbe}ஸ\u{bcd}"),
-			keywords: &[
-				"இசை",
-				"கருவி",
-				"கிலுகிலுப\u{bcd}பை",
-				"குலுக\u{bcd}கல\u{bcd}",
-				"சக\u{bcd}-சக\u{bcd}",
-				"த\u{bbe}ள வ\u{bbe}த\u{bcd}தியம\u{bcd}",
-				"பொருள\u{bcd}",
-				"மரக\u{bcd}க\u{bbe}ஸ\u{bcd}",
-				"ஷேக\u{bcd}கர\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("మర\u{c3e}కస\u{c4d}"),
-			keywords: &[
-				"గ\u{c3f}లక",
-				"నృత\u{c4d}యం",
-				"ప\u{c3e}ర\u{c4d}ట\u{c40}",
-				"ప\u{c46}ర\u{c4d}కషన\u{c4d}",
-				"మర\u{c3e}కస\u{c4d}",
-				"మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
-				"వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
-				"ష\u{c47}కర\u{c4d}",
-				"సంగ\u{c40}త వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
-				"సంగ\u{c40}తం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("มาราค\u{e31}ส"),
-			keywords: &[
-				"ปาร\u{e4c}ต\u{e35}\u{e49}",
-				"มาราค\u{e31}ส",
-				"ล\u{e39}กแซค",
-				"เขย\u{e48}า",
-				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
-				"เคาะ",
-				"เพลง",
-				"แซก",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ማራካስ"),
-			keywords: &[
-				"መሳርሒ ሙዚቃ",
-				"ሙዚቃ",
-				"ማራካስ",
-				"ምውጥዋጥ",
-				"ራታል",
-				"ሳዕስዒት",
-				"ሸከር",
-				"ቻ",
-				"ውድብ",
-				"ድምጺ ምውቃዕ",
-			],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("marakas"),
-			keywords: &[
-				"gural",
-				"marakas",
-				"saz",
-				"silkmek",
-				"tans",
-				"zarba",
-				"ça ça",
-				"şakyrdy",
-				"şeýker",
-				"şüweleň",
-			],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("malaka"),
-			keywords: &["Mekesikō", "lali", "lulululu", "malaka", "meʻalea"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("marakas"),
-			keywords: &[
-				"alet",
-				"dans",
-				"enstrüman",
-				"marakas",
-				"müzik",
-				"müzik aleti",
-				"nesne",
-				"parti",
-				"perküsyon",
-				"sallama",
-				"sallamalı",
-				"vurmalı",
-				"çaça",
-				"çıngırak",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("маракас"),
-			keywords: &[
-				"вечірка",
-				"маракас",
-				"музика",
-				"танець",
-				"ударні інструменти",
-				"ча-ча-ча",
-				"інструмент",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("مراکس"),
-			keywords: &[
-				"آلہ",
-				"ارتعاش",
-				"جھنجھنا",
-				"رقص",
-				"زور زور سے ہلانا",
-				"شیکر",
-				"ضرب پذیر آلہ",
-				"ماراکاس",
-				"مراکا",
-				"مراکس",
-				"موسیقی",
-				"پارٹی",
-			],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("marakas"),
-			keywords: &[
-				"asbob",
-				"bazm",
-				"marakas",
-				"musiqa",
-				"musiqa asbobi",
-				"raqs",
-				"shovqin",
-				"silkitish",
-			],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("maraca"),
-			keywords: &["lắc", "lục lạc", "maraca", "nhạc cụ", "nhảy", "tiệc tùng", "trống", "âm nhạc"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("marakasi"),
-			keywords: &["gbọ\u{300}n", "jin", "marakasi", "orin", "èlò"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("marakasi"),
-			keywords: &["gbɔ\u{300}n", "jin", "marakasi", "orin", "èlò"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("沙槌"),
-			keywords: &["搖", "撥浪鼓", "敲擊樂", "樂器", "沙槌", "音樂"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("沙槌"),
-			keywords: &["乐器", "拨浪鼓", "摇", "敲击乐", "沙槌", "音乐"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("沙球"),
-			keywords: &[
-				"乐器",
-				"恰恰",
-				"打击乐器",
-				"拨浪鼓",
-				"摇",
-				"摇动",
-				"沙槌",
-				"沙球",
-				"沙铃",
-				"派对",
-				"舞蹈",
-				"音乐",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("沙鈴"),
-			keywords: &[
-				"搖動",
-				"敲擊",
-				"樂器",
-				"沙球，跳舞，趴踢，宴會，搖，恰恰，音樂，樂器，敲擊樂器，打擊樂",
-				"沙鈴",
-				"音樂",
-				"響聲",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"恰恰舞",
-				"搖奏",
-				"搖擺",
-				"敲擊樂",
-				"敲擊聲",
-				"樂器",
-				"沙槌",
-				"沙錘",
-				"派對",
-				"砂槌",
-				"舞蹈",
-				"音樂",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("maracas"),
-			keywords: &["instrument", "maracas", "music", "percussion", "rattle", "shake"],
-		},
-	],
-};
-#[doc = "🪈"]
-pub const FLUTE: crate::Emoji = crate::Emoji {
-	glyph:                "🪈",
-	codepoint:            &[129672u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
-	name:                 "flute",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::MusicalInstrument,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("fluit"),
-			keywords: &["blokfluit", "dwarsfluit", "fluit", "houtblasers", "marsorkes", "musiek"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ዋሽንት"),
-			keywords: &[
-				"መቅጃ",
-				"ሙዚቃ",
-				"ማርች ባንድ",
-				"ቱቦ",
-				"ኦርኬስትራ",
-				"ዋሽንት",
-				"ዋሽንት ነፊ",
-				"የሙዚቃ መሳሪያ",
-				"የሙዚቃ ቡድን",
-				"የትንፋሽ የሙዚቃ መሳሪያ",
-				"የእንጨት ዋሽንት",
-				"ፊፍ",
-				"ፒኮሎ",
-			],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("فلوت"),
-			keywords: &[
-				"آلة موسيقية",
-				"أداة موسيقية",
-				"أوركسترا",
-				"عزف",
-				"فلوت",
-				"قصبة",
-				"مزمار",
-				"موسيقى",
-				"نفخ",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ব\u{9be}\u{981}হী"),
-			keywords: &[
-				"উডউইণ\u{9cd}ড",
-				"প\u{9be}ইপ",
-				"ফ\u{9be}ইফ",
-				"ব\u{9be}\u{981}হী",
-				"সংগীত",
-				"ৰেকৰ\u{9cd}ড\u{9be}ৰ",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("fleyta"),
-			keywords: &[
-				"ağac nəfəsi",
-				"boru",
-				"fifa",
-				"fleyta",
-				"musiqi",
-				"musiqi aləti",
-				"nəfəs aləti",
-				"orkestr",
-				"yazıcı",
-			],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("флейта"),
-			keywords: &[
-				"блокфлётэ",
-				"драўляны",
-				"дудачка",
-				"дудка",
-				"духавы інструмент",
-				"музыка",
-				"флейта",
-			],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("флейта"),
-			keywords: &[
-				"бенд",
-				"духов инструмент",
-				"инструмент",
-				"кавал",
-				"музика",
-				"оркестър",
-				"рекордер",
-				"флейта",
-			],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("ব\u{9be}\u{981}শি"),
-			keywords: &[
-				"উডউইন\u{9cd}ড",
-				"প\u{9be}ইপ",
-				"ব\u{9be}\u{981}শি",
-				"রেকর\u{9cd}ড\u{9be}র",
-				"সঙ\u{9cd}গীত",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("flauta"),
-			keywords: &["drveni puhački instrument", "flauta", "frula", "muzika", "snimač"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("flauta"),
-			keywords: &[
-				"flauta",
-				"flauta dolça",
-				"flautista",
-				"instrument",
-				"instrument de vent de fusta",
-				"música",
-				"orquestra",
-				"vent",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang: "chr", tts: Some("ᎠᏤᎷᎯᏍᏗ"), keywords: &["ᎠᏤᎷᎯᏍᏗ", "ᏗᎧᏃᎩᏛ"]
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("flétna"),
-			keywords: &["dechový nástroj", "flétna", "hudba", "pikola", "píšťala", "zobcová flétna"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("ffliwt"),
-			keywords: &[
-				"band",
-				"band gorymdeithio",
-				"cerddorfa",
-				"cerddoriaeth",
-				"chwythbrennau",
-				"ffeiff",
-				"ffliwt",
-				"ffliwtydd",
-				"offeryn",
-				"pib",
-				"picolo",
-				"recorder",
-			],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("fløjte"),
-			keywords: &[
-				"band",
-				"blokfløjte",
-				"fløjte",
-				"fløjtenist",
-				"instrument",
-				"marchorkester",
-				"musik",
-				"orgelpibe",
-				"orkester",
-				"træblæseinstrument",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Flöte"),
-			keywords: &[
-				"Band",
-				"Blaskapelle",
-				"Flöte",
-				"Holzblasinstrument",
-				"Instrument",
-				"Musik",
-				"Musikinstrument",
-				"Orchester",
-				"Spielmannszug",
-				"musizieren",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("↑↑↑"),
-			keywords: &["Blockflöte", "Flöte", "Holzblasinstrument", "Musik", "Pfeife"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("φλάουτο"),
-			keywords: &["αυλός", "καταγραφή", "μουσική", "πίφερο", "πνευστό", "φλάουτο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("flute"),
-			keywords: &[
-				"band",
-				"fife",
-				"flautist",
-				"flute",
-				"instrument",
-				"marching",
-				"music",
-				"orchestra",
-				"piccolo",
-				"pipe",
-				"recorder",
-				"woodwind",
-			],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation {
-			lang:     "en_IN",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"band",
-				"fife",
-				"flute",
-				"instrument",
-				"music",
-				"orchestra",
-				"piccolo",
-				"pipe",
-				"woodwind",
-			],
-		},
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("flauta"),
-			keywords: &["flauta", "flautín", "instrumento", "instrumento de viento madera", "música"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"banda",
-				"flauta",
-				"flautín",
-				"grabador",
-				"instrumento de viento",
-				"música",
-				"orquesta",
-				"pífano",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("flööt"),
-			keywords: &[
-				"flöödimängija",
-				"flööt",
-				"instrument",
-				"muusika",
-				"orkester",
-				"pikolo",
-				"puhkpill",
-				"puupuhkpill",
-				"vile",
-				"vilepill",
-			],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("txirula"),
-			keywords: &[
-				"grabagailua",
-				"musika",
-				"piccoloa",
-				"tutua",
-				"txirula",
-				"zurezko haize-instrumentua",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("فلوت"),
-			keywords: &[
-				"ارکستر",
-				"بادی چوبی",
-				"ساز",
-				"ضبط",
-				"ضبط\u{200c}صوت",
-				"فلوت",
-				"فلوت\u{200c}زن",
-				"موسیقی",
-				"نی",
-				"نی\u{200c}زن",
-				"نی\u{200c}لبک",
-				"پیکولو",
-				"گروه مارش",
-				"گروه موسیقی",
-			],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("huilu"),
-			keywords: &[
-				"esine",
-				"huilu",
-				"instrumentti",
-				"musiikki",
-				"nokkahuilu",
-				"orkesteri",
-				"pilli",
-				"puupuhallin",
-				"soitin",
-				"säkkipilli",
-				"urkupilli",
-			],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("plawta"),
-			keywords: &["fife", "musika", "plawta", "rekorder", "woodwind"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("floyta"),
-			keywords: &["floyta", "ljóðføri", "tónleikur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("flûte"),
-			keywords: &[
-				"bois",
-				"fanfare",
-				"fifre",
-				"flûte",
-				"flûte à bec",
-				"flûtiste",
-				"instrument",
-				"musique",
-				"orchestre",
-				"piccolo",
-			],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("fliúit"),
-			keywords: &["ceol", "fliúit", "fliúit Shasanach", "fíf", "gaothuirlisí adhmaid", "píb"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("duiseal"),
-			keywords: &["ceòl", "cuisle-bhinn", "duiseal", "feadan", "gaoth-ionnsramaid", "pìob"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("frauta"),
-			keywords: &["instrumento", "madeira", "música"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("વા\u{a82}સળી"),
-			keywords: &[
-				"ઓર\u{acd}ક\u{ac7}સ\u{acd}ટ\u{acd}રા",
-				"તીણા અવાજવાળી વા\u{a82}સળી",
-				"પાવો",
-				"બ\u{ac7}ન\u{acd}ડ",
-				"મોરલી",
-				"ર\u{ac7}કૉર\u{acd}ડર",
-				"લાકડાના\u{a82} સ\u{ac1}ષિર વાદ\u{acd}યો",
-				"વા\u{a82}સળી",
-				"વા\u{a82}સળીવાદક",
-				"વાદ\u{acd}ય",
-				"સ\u{a82}ગીત",
-				"સ\u{a82}ગીતકાર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("sarewa"),
-			keywords: &[
-				"abin busawa",
-				"busawa",
-				"bututu",
-				"fayin",
-				"kayan kiɗa",
-				"mabushi",
-				"makaɗi",
-				"rikoda",
-				"sarewa",
-				"waƙa",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("sarewa"),
-			keywords: &[
-				"abin busawa",
-				"busawa",
-				"bututu",
-				"fayin",
-				"kayan kiɗa",
-				"mabushi",
-				"makaɗi",
-				"rikoda",
-				"sarewa",
-				"waƙa",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("חליל"),
-			keywords: &["חליל", "חליל עץ", "חלילית", "כלי נשיפה", "מוזיקה", "נגינה"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("बा\u{902}स\u{941}री"),
-			keywords: &[
-				"काठ का बना वाद\u{94d}य य\u{902}त\u{94d}र",
-				"पाइप",
-				"ब\u{902}सी",
-				"बा\u{902}स\u{941}री",
-				"ब\u{948}\u{902}ड",
-				"रिकॉर\u{94d}डर",
-				"वाद\u{94d}य य\u{902}त\u{94d}र",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("flauta"),
-			keywords: &[
-				"blok flauta",
-				"flauta",
-				"flautist",
-				"frula",
-				"glazba",
-				"glazbalo",
-				"puhački instrument",
-			],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("fuvola"),
-			keywords: &["blockflöte", "fafúvós", "fife", "furulya", "fuvola", "zene"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("սրինգ"),
-			keywords: &["գործիք", "երաժշտություն", "սրինգ", "փայտափողային", "փողային", "ֆլեյտա"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("seruling"),
-			keywords: &[
-				"alat musik tiup",
-				"band",
-				"instrumen",
-				"musik",
-				"orkestra",
-				"piccolo",
-				"pipa",
-				"rekorder",
-				"seruling",
-				"suling",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ọjà"),
-			keywords: &["egwu", "ọjà", "ọkpọkọ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("flauta"),
-			keywords: &["blokkflauta", "flauta", "hljóðpípa", "tréblásturshljóðfæri", "tónlist"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("flauto"),
-			keywords: &[
-				"fiati",
-				"fiato",
-				"flautista",
-				"flauto",
-				"legno",
-				"musica",
-				"pifferaio",
-				"piffero",
-				"strumento",
-				"zufolo",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("笛"),
-			keywords: &[
-				"オーケストラ",
-				"バンド",
-				"ピッコロ",
-				"フルート",
-				"フルート奏者",
-				"リコーダー",
-				"楽器",
-				"横笛",
-				"管楽器",
-				"音楽",
-			],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("suling"),
-			keywords: &["fife", "musik", "perkakas musik sebul", "pipa", "rekam", "suling"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ფლეიტა"),
-			keywords: &["მილი", "მუსიკა", "სალამური", "ფლეიტა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("tajewwaqt"), keywords: &["tajewwaqt"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("сыбызғы"),
-			keywords: &[
-				"аспап",
-				"музыка",
-				"оркестр",
-				"пикколо",
-				"сыбызғы",
-				"түтік",
-				"флейта",
-				"үрмелі аспап",
-				"өмір",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ខ\u{17d2}ល\u{17bb}យ"),
-			keywords: &[
-				"ខ\u{17d2}ល\u{17bb}យ",
-				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
-				"ប\u{17c6}ពង\u{17cb}",
-				"ឧបករណ\u{17cd}ថត",
-				"ឧបករណ\u{17cd}ផ\u{17d2}ល\u{17bb}\u{17c6}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಕ\u{cca}ಳಲು"),
-			keywords: &[
-				"ಆರ\u{ccd}ಕ\u{cc6}ಸ\u{ccd}ಟ\u{ccd}ರಾ",
-				"ಊದುವಾದ\u{ccd}ಯ",
-				"ಕ\u{cca}ಳಲು",
-				"ಪ\u{cbf}ಳ\u{ccd}ಳಂಗ\u{ccb}ವ\u{cbf}",
-				"ಪ\u{cc8}ಪ\u{ccd}",
-				"ಫ\u{cc8}ಫ\u{ccd}",
-				"ಬ\u{ccd}ಯಾಂಡ\u{ccd}",
-				"ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
-				"ರ\u{cc6}ಕಾರ\u{ccd}ಡರ\u{ccd}",
-				"ವಾದ\u{ccd}ಯ",
-				"ವುಡ\u{ccd} ವ\u{cbf}ಂಡ\u{ccd}",
-				"ವ\u{cc7}ಣುವಾದಕ",
-				"ಸಂಗ\u{cc0}ತ",
-				"ಸಣ\u{ccd}ಣ ಕ\u{cca}ಳಲು",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("플루트"),
-			keywords: &["리코더", "목관악기", "음악", "파이프", "플루트", "피리"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("बा\u{902}सरी"),
-			keywords: &[
-				"पायप",
-				"फ\u{94d}ल\u{94d}य\u{941}ट",
-				"बा\u{902}सरी",
-				"म\u{941}रली",
-				"र\u{947}कॉर\u{947}डर",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("флейта"),
-			keywords: &[
-				"музыка",
-				"түтүк",
-				"флейта",
-				"чоор",
-				"үйлөмө жыгач аспаптар",
-				"үн жазуучу аппарат",
-			],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ຂ\u{eb8}\u{ec8}ຍ"),
-			keywords: &[
-				"ຂ\u{eb8}\u{ec8}ຍ",
-				"ຂ\u{eb8}\u{ec8}ຍຜ\u{eb4}ວ",
-				"ດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ດ\u{ebb}ນຕ\u{eb5}",
-				"ທ\u{ecd}\u{ec8}",
-				"ວ\u{ebb}ງດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ວ\u{ebb}ງດ\u{ebb}ນຕ\u{eb5}",
-				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}",
-				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}ດ\u{eb8}ລ\u{eb4}ຍາງ",
-				"ເຄ\u{eb7}\u{ec8}ອງບ\u{eb1}ນທ\u{eb6}ກ",
-				"ເຄ\u{eb7}\u{ec8}ອງເປ\u{ebb}\u{ec8}າທ\u{eb5}\u{ec8}ເຮ\u{eb1}ດດ\u{ec9}ວຍໄມ\u{ec9}",
-				"ເພງ",
-			],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("fleita"),
-			keywords: &[
-				"fleita",
-				"grupė",
-				"instrumentas",
-				"mažoji fleita",
-				"mediniai pučiamieji",
-				"muzika",
-				"orkestras",
-				"skudutis",
-				"vamzdis",
-				"vargonai",
-			],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("flauta"),
-			keywords: &[
-				"flauta",
-				"ierakstītājs",
-				"instruments",
-				"koka pūšaminstrumenti",
-				"mūzika",
-				"orķestris",
-				"stabule",
-			],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("флејта"),
-			keywords: &[
-				"дрвен",
-				"дувачки",
-				"инструмент",
-				"кавал",
-				"музика",
-				"оркестар",
-				"флејта",
-				"флејтист",
-				"фрула",
-				"шупелка",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഓടക\u{d4d}ക\u{d41}ഴൽ"),
-			keywords: &[
-				"ഓടക\u{d4d}ക\u{d41}ഴൽ",
-				"ക\u{d41}ഴൽവ\u{d3e}ദ\u{d4d}യം",
-				"പ\u{d41}ല\u{d4d}ല\u{d3e}ങ\u{d4d}ക\u{d41}ഴൽ",
-				"ഫ\u{d4d}ല\u{d42}ട\u{d4d}ട\u{d4d}",
-				"റെക\u{d4d}കോർഡർ",
-				"സംഗീതം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("лимбэ"),
-			keywords: &["бичигч", "бишгүүр", "лимбэ", "хоолой", "хөгжим"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("बासरी"),
-			keywords: &[
-				"पाईप",
-				"बासरी",
-				"म\u{941}रली",
-				"र\u{947}कॉर\u{94d}डर",
-				"व\u{941}डवाई\u{902}ड",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("seruling"),
-			keywords: &[
-				"alat muzik",
-				"alat tiup kayu",
-				"faif",
-				"muzik",
-				"orkestra",
-				"paip",
-				"pikolo",
-				"rekorder",
-				"seruling",
-			],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ပလ\u{103d}ေ"),
-			keywords: &[
-				"ကျော\u{103a}ပလ\u{103d}ေ",
-				"ဂ\u{102e}တ",
-				"တ\u{1030}ရ\u{102d}ယာ",
-				"တ\u{1036}ပ\u{102d}\u{102f}း",
-				"ပလ\u{103d}ေ",
-				"ပလ\u{103d}ေဆရာ",
-				"သစ\u{103a}သားလေမ\u{103e}\u{102f}တ\u{103a} တ\u{1030}ရ\u{102d}ယာ",
-				"သ\u{1036}စ\u{102f}\u{1036}တ\u{102e}းဝ\u{102d}\u{102f}င\u{103a}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("बास\u{941}री"),
-			keywords: &[
-				"उडविन\u{94d}ड",
-				"पाइप",
-				"बास\u{941}री",
-				"म\u{941}रली",
-				"र\u{947}कर\u{94d}डर",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("fluit"),
-			keywords: &["blokfluit", "dwarsfluit", "fluit", "houtblazer", "muziek", "pijperfluit"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["blokkfløyte", "fløyte", "musikk", "treblåsar"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ବଇ\u{b01}ଶ\u{b3f}"),
-			keywords: &[
-				"କ\u{b3e}ଠରେ ତ\u{b3f}ଆର\u{b3f} ବଂଶୀ",
-				"ଛୋଟ ବଂଶୀ",
-				"ପ\u{b3e}ଇପ\u{b4d}",
-				"ବଇ\u{b01}ଶ\u{b3f}",
-				"ରେକର\u{b4d}ଡର\u{b4d}",
-				"ସଙ\u{b4d}ଗୀତ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਬ\u{a70}ਸਰੀ"),
-			keywords: &[
-				"ਬਾ\u{a02}ਸ\u{a42}ਰੀ",
-				"ਬ\u{a70}ਸਰੀ",
-				"ਬ\u{a70}ਸਰੀ ਵਜਾਉਣਾ",
-				"ਵਾਜਾ",
-				"ਵ\u{a70}ਝਲੀ",
-				"ਸਾਜ\u{a3c}",
-				"ਸ\u{a70}ਗੀਤ",
-				"ਹਵਾਈ ਸਾਜ\u{a3c}",
-			],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("fluut"),
-			keywords: &["faif", "fluut", "musik", "paip", "rikoda", "wuudwind"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("flet"),
-			keywords: &[
-				"drewniany",
-				"dęty",
-				"flet",
-				"fujarka",
-				"grać",
-				"gwizdać",
-				"instrument",
-				"muzyka",
-				"na flecie",
-				"orkiestra",
-				"piccolo",
-				"pikolo",
-				"piszczałka",
-				"prosty",
-			],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("بانسري"),
-			keywords: &[
-				"آرکسټرا",
-				"بانسري",
-				"بانډ",
-				"ریکارډر",
-				"فلوټیست",
-				"فیف",
-				"لرګي باد",
-				"مارچ کول",
-				"موسيقي",
-				"وسیله",
-				"پایپ",
-				"پکولو",
-			],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("flauta"),
-			keywords: &[
-				"banda",
-				"banda marcial",
-				"flauta",
-				"flautim",
-				"flautista",
-				"gravador",
-				"instrumento",
-				"música",
-				"orquestra",
-				"pife",
-				"pífano",
-				"sopro",
-				"tubo",
-			],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"flauta",
-				"flauta de cana",
-				"flautista",
-				"gravador",
-				"instrumento musical",
-				"música",
-				"pífaro",
-				"sopro",
-			],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("flauta"),
-			keywords: &["flauta", "graway", "kullu", "pipa", "takiy"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("flaut"),
-			keywords: &["flaut", "fluier", "instrument de suflat din lemn", "muzică", "tub"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E15-019"), keywords: &["E15-019"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("флейта"),
-			keywords: &[
-				"группа",
-				"деревянный духовой инструмент",
-				"дудочка",
-				"духовой инструмент",
-				"инструмент",
-				"музыка",
-				"оркестр",
-				"продольная флейта",
-				"сопилка",
-				"труба",
-				"флейта",
-				"флейта пикколо",
-				"флейтист",
-			],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("بانسري"),
-			keywords: &["بانسري", "توتڙي", "مرلي", "موسيقي", "پائيپ"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("නළ\u{dcf}ව"),
-			keywords: &[
-				"නල",
-				"නළ\u{dcf}ව",
-				"පට\u{dd2}ගත කරන\u{dca}න\u{dcf}",
-				"ල\u{dd3} නළ\u{dcf}ව",
-				"සංග\u{dd3}තය",
-				"ෆය\u{dd2}ෆ\u{dca}",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("píšťalka"),
-			keywords: &[
-				"drevený dychový hudobný nástroj",
-				"drevený dychový nástroj",
-				"flauta",
-				"hudba",
-				"nástroj",
-				"orchester",
-				"pikola",
-				"píšťalka",
-				"záznamník",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("flavta"),
-			keywords: &[
-				"flavta",
-				"flavtist",
-				"glasba",
-				"glasbilo",
-				"instrument",
-				"orkester",
-				"pihala",
-				"piščal",
-				"snemalnik",
-			],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("biibiile"),
-			keywords: &["biibiile", "dabayl alwaax ah", "dhuunta", "duube", "fife", "muusiga"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("flaut"),
-			keywords: &[
-				"bandë marshimi",
-				"flaut",
-				"flautist",
-				"fyell",
-				"instrument",
-				"instrument frymor",
-				"muzikë",
-				"orkestër",
-				"orkestër frymore",
-				"xhura",
-			],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("флаута"),
-			keywords: &["дувач", "инструмент", "музика", "флаута", "фрула"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("flauta"),
-			keywords: &["duvač", "flauta", "frula", "instrument", "muzika"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("flöjt"),
-			keywords: &[
-				"band",
-				"blockflöjt",
-				"flöjt",
-				"flöjtist",
-				"instrument",
-				"musik",
-				"orkester",
-				"panflöjt",
-				"pickolaflöjt",
-				"träblås",
-			],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("zumari"),
-			keywords: &[
-				"bendi",
-				"bendi ya kumachi",
-				"bomba",
-				"filimbi",
-				"filimbi ya mti",
-				"kifaa cha muziki",
-				"muziki",
-				"zeze",
-				"zumari",
-			],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("புல\u{bcd}ல\u{bbe}ங\u{bcd}குழல\u{bcd}"),
-			keywords: &[
-				"ஃபைஃப\u{bcd}",
-				"இசை",
-				"இசைக\u{bcd} கருவி",
-				"க\u{bbe}னம\u{bcd}",
-				"கிருஷ\u{bcd}ணர\u{bcd}",
-				"குழ\u{bbe}ய\u{bcd}",
-				"புல\u{bcd}ல\u{bbe}ங\u{bcd}குழல\u{bcd}",
-				"மரக\u{bcd}க\u{bbe}ற\u{bcd}று",
-				"ரெக\u{bcd}க\u{bbe}ர\u{bcd}டர\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ప\u{c3f}ల\u{c4d}లనగ\u{c4d}ర\u{c4b}వ\u{c3f}"),
-			keywords: &[
-				"కచ\u{c47}ర\u{c40}",
-				"ప\u{c3f}ల\u{c4d}లనగ\u{c4d}ర\u{c4b}వ\u{c3f}",
-				"ప\u{c48}ప\u{c4d}",
-				"ఫ\u{c4d}లూట\u{c4d}",
-				"మ\u{c3e}ర\u{c4d}చ\u{c3f}ంగ\u{c4d} బ\u{c4d}య\u{c3e}ండ\u{c4d}",
-				"మురళ\u{c3f}",
-				"ర\u{c3f}క\u{c3e}ర\u{c4d}డర\u{c4d}",
-				"వ\u{c47}ణువు",
-				"సంగ\u{c40}తం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ขล\u{e38}\u{e48}ย"),
-			keywords: &[
-				"ขล\u{e38}\u{e48}ยไม\u{e49}",
-				"ป\u{e35}\u{e48}",
-				"พ\u{e34}คโคโล",
-				"ร\u{e35}คอร\u{e4c}เดอร\u{e4c}",
-				"ออเคสตร\u{e49}า",
-				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
-				"เป\u{e48}า",
-				"เพลง",
-				"ไพพ\u{e4c}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ዋጣ"),
-			keywords: &[
-				"fife",
-				"መሳርሒ ሙዚቃ",
-				"መቕረጺ",
-				"ሙዚቃ",
-				"ሰልፊ",
-				"ሻምብቆ",
-				"ባንድ",
-				"ንፋስ ዕንጨይቲ",
-				"ኦርኬስትራ",
-				"ዋጣ",
-				"ፍላውቲስት",
-				"ፒኮሎ",
-			],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("tüýdük"),
-			keywords: &[
-				"fleýta",
-				"fleýtajyk",
-				"fleýtaçy",
-				"gural",
-				"magnitofon",
-				"orkestr",
-				"pikkolo",
-				"saz",
-				"surnaý",
-				"üflenýän agaç saz guraly",
-				"ýöriş orkestri",
-			],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("fuluta"),
-			keywords: &["fangufangu", "fuluta"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("flüt"),
-			keywords: &[
-				"ahşap üflemeli",
-				"bando",
-				"blokflüt",
-				"boru",
-				"enstrüman",
-				"fife",
-				"fifre",
-				"flüt",
-				"kaval",
-				"müzik",
-				"nefesli",
-				"orkestra",
-				"recorder",
-				"üflemeli",
-			],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("флейта"),
-			keywords: &[
-				"блокфлейта",
-				"деревʼяні духові інструменти",
-				"дудка",
-				"музика",
-				"сопілка",
-				"флейта",
-				"інструмент",
-			],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بانسری"),
-			keywords: &["بانسری", "ریکارڈر", "ساز", "فائف", "موسیقی", "ووڈو\u{650}نڈ", "پائپ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("nay"),
-			keywords: &["ansambl", "fleyta", "guruh", "musiqa", "nay", "orkestr", "qamish", "quvur"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("sáo"),
-			keywords: &[
-				"ban nhạc",
-				"ban nhạc diễu hành",
-				"dàn nhạc giao hưởng",
-				"máy ghi âm",
-				"nhạc",
-				"nhạc cụ",
-				"nhạc cụ hơi bằng gỗ",
-				"sáo",
-				"âm nhạc",
-				"ống sáo",
-				"ống tiêu",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("fèrè"),
-			keywords: &["agbohunsile", "fere", "fèrè", "orin"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("fèrè"),
-			keywords: &["agbohunsile", "fere", "fèrè", "orin"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("長笛"),
-			keywords: &["木管樂器", "笛子", "管樂", "錄音機", "長笛", "音樂"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("长笛"),
-			keywords: &["录音机", "木管乐器", "笛子", "管乐", "长笛", "音乐"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("长笛"),
-			keywords: &[
-				"乐器",
-				"乐队",
-				"木管乐器",
-				"横笛",
-				"短笛",
-				"竖笛",
-				"管乐器",
-				"菲菲笛",
-				"长笛",
-				"长笛手",
-				"音乐",
-			],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("長笛"),
-			keywords: &[
-				"木管樂器",
-				"橫笛",
-				"直笛",
-				"管樂器",
-				"豎笛",
-				"長笛",
-				"長笛，木管樂，長笛手，樂隊，樂儀隊，短笛，管弦樂團，管樂器，豎笛，音樂，橫笛，樂器",
-				"音樂",
-			],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"木管樂",
-				"樂器",
-				"樂團",
-				"樂隊",
-				"橫笛",
-				"步操樂隊",
-				"牧童笛",
-				"短笛",
-				"笛",
-				"笛子",
-				"管弦樂",
-				"管樂",
-				"長笛",
-				"長笛手",
-			],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("flute"),
-			keywords: &["fife", "flute", "music", "pipe", "recorder", "woodwind"],
-		},
-	],
-};
-#[doc = "🪉"]
-pub const HARP: crate::Emoji = crate::Emoji {
-	glyph:                "🪉",
-	codepoint:            &[129673u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
-	name:                 "harp",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::MusicalInstrument,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("harp"),
-			keywords: &["Cupid", "Kupid", "harp", "instrument", "liefde musiek", "orkes"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("በገና"),
-			keywords: &["መሳሪያ", "ሙዚቃ", "በገና", "ኦርኬስትራ", "ኩፒድ", "ፍቅር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("قيثارة"),
-			keywords: &["آلة", "أوركسترا", "قيثارة", "كيوبيد", "موسيقى"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("বীণ\u{9be}"),
-			keywords: &[
-				"অৰ\u{9cd}কেষ\u{9cd}ট\u{9cd}ৰ\u{9be}",
-				"কিউপিড",
-				"প\u{9cd}ৰেম",
-				"ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}ৰ",
-				"বীণ\u{9be}",
-				"সংগীত",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("arfa"),
-			keywords: &["arfa", "instrument", "kupidon", "musiqi", "məhəbbət", "orkestr"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("арфа"),
-			keywords: &["аркестр", "арфа", "каханне", "купідон", "музыка", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("арфа"),
-			keywords: &["арфа", "инструмент", "купидон", "любов", "музика", "оркестър"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("হ\u{9be}র\u{9cd}প (বীণ\u{9be})"),
-			keywords: &[
-				"অর\u{9cd}কেস\u{9cd}ট\u{9cd}র\u{9be}",
-				"কিউপিড",
-				"ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}র",
-				"বীণ\u{9be}",
-				"ভ\u{9be}লোব\u{9be}স\u{9be}",
-				"সঙ\u{9cd}গীত",
-			],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("harfa"),
-			keywords: &["cupid", "harfa", "instrument", "ljubav", "muzika", "orkestar"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("arpa"),
-			keywords: &["amor", "arpa", "cupido", "instrument", "música", "orquestra"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏗᎧᏃᎩᏍᏙᏗ"),
-			keywords: &["ᎠᎨᏳᎢ", "ᎠᏂᏓᏪᎯ", "ᎪᎱᏍᏗ ᎬᏔᏂ", "ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏍᏙᏗ", "ᏗᏂᏃᎩᏍᏗᏍᎩ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("harfa"),
-			keywords: &["amor", "harfa", "hudba", "láska", "nástroj", "orchestr"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("telyn"),
-			keywords: &["cariad", "cerddorfa", "cerddoriaeth", "ciwpid", "offeryn", "telyn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("harpe"),
-			keywords: &["amor", "harpe", "instrument", "kærlighed", "musik", "orkester"],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Harfe"),
-			keywords: &["Amor", "Cupido", "Harfe", "Instrument", "Liebe", "Musik", "Orchester"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation {
-			lang:     "de_CH",
-			tts:      Some("Harfe"),
-			keywords: &["Amor", "Harfe", "Instrument", "Liebe", "Musik", "Orchester"],
-		},
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("άρπα"),
-			keywords: &["άρπα", "έρωτας", "αγάπη", "μουσική", "ορχήστρα", "όργανο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("harp"),
-			keywords: &["cupid", "harp", "instrument", "love", "music", "orchestra"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("arpa"),
-			keywords: &["amor", "arpa", "cupido", "harpa", "instrumento", "música", "orquesta"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["amor", "angelical", "cuerdas", "cupido", "instrumento", "música", "orquesta"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("arpa"),
-			keywords: &["amor", "arpa", "cupido", "instrumento", "música", "orquesta"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("harpa"),
-			keywords: &["amor", "cupido", "instrumento", "música", "orquesta"],
-		},
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("harf"),
-			keywords: &["Cupido", "armastus", "harf", "instrument", "muusika", "orkester"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("harpa"),
-			keywords: &[
-				"harpa",
-				"instrumentua",
-				"kupido",
-				"maitasuna",
-				"musika",
-				"musika-instrumentua",
-				"musika-tresna",
-				"orkestra",
-			],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("چنگ"),
-			keywords: &["ارکستر", "خدای عشق", "ساز", "عشق", "موسیقی", "چنگ"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("harppu"),
-			keywords: &["harppu", "musiikki", "orkesteri", "rakkaus", "soitin"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("alpa"),
-			keywords: &["alpa", "instrumento", "kupido", "musika", "orkestra", "pag-ibig"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("harpa"),
-			keywords: &["Amor", "harpa", "ljóðføri", "tónleikur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("harpe"),
-			keywords: &["amour", "cupidon", "harpe", "instrument", "musique", "orchestre"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("cláirseach"),
-			keywords: &["ceol", "ceolfhoireann", "cúipid", "grá", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("clàrsach"),
-			keywords: &[
-				"ceòl",
-				"clàrsach",
-				"cruit",
-				"cupaid",
-				"foireann-ciùil",
-				"gaol",
-				"inneal-ciùil",
-				"ionnsramaid",
-				"orcastra",
-			],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("arpa"),
-			keywords: &["amor", "cupido", "instrumento", "música", "orquestra"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("હાર\u{acd}પ"),
-			keywords: &["ક\u{acd}ય\u{ac2}પિડ", "ત\u{a82}ત\u{ac1}વાદ\u{acd}ય", "સ\u{a82}ગીત"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("abin kiɗa na harp"),
-			keywords: &["abin kiɗa na harp", "cupid", "kaya", "kayayyaki kiɗa", "kiɗa", "soyayya"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("abin kiɗa na harp"),
-			keywords: &["abin kiɗa na harp", "cupid", "kaya", "kayayyaki kiɗa", "kiɗa", "soyayya"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("נבל"),
-			keywords: &["אהבה", "מוזיקה", "נבל", "פריטה", "קופידון"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("वीणा"),
-			keywords: &[
-				"ऑर\u{94d}क\u{947}स\u{94d}ट\u{94d}रा",
-				"कामद\u{947}व",
-				"प\u{94d}यार",
-				"य\u{902}त\u{94d}र",
-				"वीणा",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("harfa"),
-			keywords: &["glazba", "harfa", "instrument", "kupidon", "ljubav", "orkestar"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("hárfa"),
-			keywords: &["hangszer", "hárfa", "szerelem", "zene", "zenekar", "Ámor"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("տավիղ"),
-			keywords: &["Կուպիդոն", "գործիք", "երաժշտություն", "նվագախումբ", "սեր", "տավիղ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("harpa"),
-			keywords: &["cupid", "harpa", "instrumen", "musik", "orkestra", "romantis"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ụbọ akwara"),
-			keywords: &["chi nke ịhụnanya", "egwu", "ngwa", "ìgwè egwu", "ịhụnanya"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("harpa"),
-			keywords: &["amor", "harpa", "hljómsveit", "hljóðfæri", "tónlist", "ást"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("arpa"),
-			keywords: &["amore", "arpa", "cupido", "musica", "orchestra", "strumento"],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ハープ"),
-			keywords: &["オーケストラ", "キューピッド", "ハープ", "弦楽器", "愛", "楽器", "音楽"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("harpa"),
-			keywords: &["dewa asmara", "harpa", "instrumen", "katresnan", "musik", "orkestra"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("არფა"),
-			keywords: &["არფა", "ინსტრუმენტი", "კუპიდონი", "მუსიკა", "ორკესტრი", "სიყვარული"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("арфа"),
-			keywords: &[
-				"амур",
-				"арфа",
-				"аспап",
-				"купидон",
-				"махаббат",
-				"музыка",
-				"оркестр",
-				"саз",
-				"сезім",
-			],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ព\u{17b7}ណ"),
-			keywords: &[
-				"កាមទេព",
-				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
-				"ព\u{17b7}ណ",
-				"វង\u{17cb}តន\u{17d2}ត\u{17d2}រ\u{17b8}",
-				"វង\u{17cb}ភ\u{17d2}លេង",
-				"ស\u{17d2}នេហា",
-				"ស\u{17d2}នេហ\u{17cd}",
-				"ស\u{17d2}រឡាញ\u{17cb}",
-				"ឧបករណ\u{17cd}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಹಾರ\u{ccd}ಪ\u{ccd}"),
-			keywords: &[
-				"ಆರ\u{ccd}ಕ\u{cc6}ಸ\u{ccd}ಟ\u{ccd}ರಾ",
-				"ಕ\u{ccd}ಯುಪ\u{cbf}ಡ\u{ccd}",
-				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
-				"ವಾದ\u{ccd}ಯ",
-				"ಸಂಗ\u{cc0}ತ",
-				"ಹಾರ\u{ccd}ಪ\u{ccd}",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("하프"),
-			keywords: &["관현악", "사랑", "악기", "연주", "음악", "큐피드", "하프"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("वीणा"),
-			keywords: &[
-				"कामद\u{947}व",
-				"मोग",
-				"वाद\u{94d}य",
-				"वाद\u{94d}यव\u{943}\u{902}द",
-				"वीणा",
-				"स\u{902}गीत",
-			],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("арфа"),
-			keywords: &["арфа", "аспап", "купидон", "музыка", "оркестр", "сүйүү"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ພ\u{eb4}ນ"),
-			keywords: &["ຄວາມຮ\u{eb1}ກ", "ດ\u{ebb}ນຕ\u{eb5}", "ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("arfa"),
-			keywords: &["arfa", "instrumentas", "kupidonas", "meilė", "muzika", "orkestras"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("arfa"),
-			keywords: &["arfa", "instruments", "kupidons", "mīlestība", "mūzika", "orķestris"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("харфа"),
-			keywords: &["инструмент", "купидон", "музика", "оркестар", "харфа", "љубов"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("കിന\u{d4d}നരം"),
-			keywords: &[
-				"ഓർക\u{d4d}കസ\u{d4d}ട\u{d4d}ര",
-				"സംഗീതം",
-				"സംഗീതോപകരണം",
-				"ഹ\u{d3e}ർപ\u{d4d}പ\u{d4d}",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("ятга"),
-			keywords: &["дурлалын бурхан", "найрал хөгжим", "хайр", "хөгжим", "хөгжмийн зэмсэг", "ятга"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("हार\u{94d}प"),
-			keywords: &[
-				"कामद\u{947}व",
-				"प\u{94d}र\u{947}म",
-				"वाद\u{94d}य",
-				"वाद\u{94d}यव\u{943}\u{902}द",
-				"स\u{902}गीत",
-				"हार\u{94d}प",
-			],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("hap"),
-			keywords: &["alat muzik", "cinta", "dewa asmara", "kupid", "muzik", "orkestra"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("စောင\u{103a}း"),
-			keywords: &[
-				"စောင\u{103a}း",
-				"တ\u{102e}းဝ\u{102d}\u{102f}င\u{103a}း",
-				"တ\u{1030}ရ\u{102d}ယာ",
-				"တေးဂ\u{102e}တ",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("हार\u{94d}प"),
-			keywords: &[
-				"आर\u{94d}क\u{947}स\u{94d}ट\u{94d}रा",
-				"कामद\u{947}व",
-				"प\u{94d}र\u{947}म",
-				"वाद\u{94d}य उपकरण",
-				"सङ\u{94d}गीत",
-				"हार\u{94d}प",
-			],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("harp"),
-			keywords: &["cupido", "harp", "instrument", "liefde", "muziek", "orkestra"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["amor", "harpe", "instrument", "kjærleik", "musikk", "orkester"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ହ\u{b3e}ର\u{b4d}ପ\u{b4d}\u{200c}"),
-			keywords: &[
-				"ଅର\u{b4d}କେଷ\u{b4d}ଟ\u{b4d}ର\u{b3e}",
-				"କ\u{200d}\u{b4d}ୟ\u{b41}ପ\u{b3f}ଡ\u{b4d}",
-				"ପସନ\u{b4d}ଦ",
-				"ବ\u{b3e}ଦ\u{200d}\u{b4d}ୟଯନ\u{b4d}ତ\u{b4d}ର",
-				"ସଙ\u{b4d}ଗୀତ",
-				"ହ\u{b3e}ର\u{b4d}ପ\u{b4d}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਹਾਰਪ"),
-			keywords: &["ਆਰਕ\u{a48}ਸਟਰਾ", "ਪਿਆਰ", "ਸਾਜ\u{a3c}", "ਸ\u{a70}ਗੀਤ", "ਹਾਰਪ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("háp"),
-			keywords: &["háp", "kíupíd", "lọv", "miúzík", "okestrá", "ínstrument"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("harfa"),
-			keywords: &["amorek", "harfa", "instrument", "miłość", "muzyka", "orkiestra"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("هارپ"),
-			keywords: &["آرکسټرا", "موسيقي", "مینه", "هارپ", "وسیله", "کامدیو"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("harpa"),
-			keywords: &["amor", "cupido", "harpa", "instrumento", "música", "orquestra"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("harpă"),
-			keywords: &["cupidon", "dragoste", "harpă", "instrument", "muzică", "orchestră"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E16-001"), keywords: &["E16-001"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("арфа"),
-			keywords: &["ангелочек", "арфа", "инструмент", "купидон", "любовь", "музыка", "оркестр"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سرندو"),
-			keywords: &["ساز", "سرندو", "موسيقي", "پيار", "ڪيوپڊ", "ڳائڻن جي ٽولي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ව\u{dd3}ණ\u{dcf}ව"),
-			keywords: &[
-				"ආදරය",
-				"උපකරණය",
-				"ව\u{dcf}ද\u{dca}\u{200d}ය වෘන\u{dca}දය",
-				"ව\u{dd3}ණ\u{dcf}",
-				"සංග\u{dd3}තය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("harfa"),
-			keywords: &["harfa", "hudba", "hudobný", "láska", "nástroj"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("harfa"),
-			keywords: &["glasba", "glasbilo", "harfa", "kupido", "ljubezen", "orkester"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("gitaar"),
-			keywords: &["cupid", "gitaar", "jacayl", "muusig", "qalab", "qalab muusig wada-garaacista"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("harpë"),
-			keywords: &["dashuri", "harpë", "instrument", "kupid", "muzikë", "orkestër"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("харфа"),
-			keywords: &["инструмент", "купидон", "музика", "оркестар", "харфа", "љубав"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("harfa"),
-			keywords: &["harfa", "instrument", "kupidon", "ljubav", "muzika", "orkestar"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("harpa"),
-			keywords: &["amor", "harpa", "instrument", "musik", "orkester", "romantik"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("kinubi"),
-			keywords: &["ala", "alama ya mapenzi", "kinubi", "mapenzi", "muziki", "okestra"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ய\u{bbe}ழ\u{bcd}"),
-			keywords: &[
-				"இசை",
-				"இசைக\u{bcd}குழு",
-				"கருவி",
-				"க\u{bbe}தல\u{bcd}",
-				"மன\u{bcd}மதன\u{bcd}",
-				"ய\u{bbe}ழ\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("వ\u{c40}ణ"),
-			keywords: &[
-				"ఆర\u{c4d}క\u{c46}స\u{c4d}ట\u{c4d}ర\u{c3e}",
-				"ప\u{c4d}ర\u{c47}మ",
-				"మన\u{c4d}మథుడు",
-				"వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
-				"వ\u{c40}ణ",
-				"సంగ\u{c40}తం",
-			],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ฮาร\u{e4c}ป"),
-			keywords: &[
-				"ดนตร\u{e35}",
-				"พ\u{e34}ณฝร\u{e31}\u{e48}ง",
-				"ออร\u{e4c}เคสตรา",
-				"ฮาร\u{e4c}ป",
-				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
-				"เคร\u{e37}\u{e48}องสาย",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("በገና"),
-			keywords: &["መሳርሒ ሙዚቃ", "ሙዚቃ", "በገና", "ኦርኬስትራ", "ኩፒድ", "ፍቕሪ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("arfa"),
-			keywords: &["arfa", "aýdym", "orkestr", "saz", "saz guraly", "sazanda", "söýgi"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("haʻape"),
-			keywords: &["fasi", "haʻape", "kau ifi", "meʻalea", "ʻofa"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("arp"),
-			keywords: &["arp", "aşk", "enstrüman", "eros", "müzik", "orkestra"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("арфа"),
-			keywords: &["амур", "купідон", "любов", "музика", "оркестр", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بربط"),
-			keywords: &["آرکسٹرا", "آلہ", "بربط", "مسیقی", "پیار", "کیوپڈ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("arfa"),
-			keywords: &["arfa", "cholg‘u asbobi", "kupidon", "musiqa", "orkestr", "sevgi"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đàn hạc"),
-			keywords: &["dàn nhạc", "nhạc cụ", "thần tình yêu", "tình yêu", "âm nhạc"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("háàpù"),
-			keywords: &[
-				"háàpù",
-				"ohun èlò",
-				"orin",
-				"ìfẹ\u{301}",
-				"òrìṣà ìfẹ\u{301}",
-				"ẹgbẹ\u{301} akọrin",
-			],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("háàpù"),
-			keywords: &[
-				"háàpù",
-				"ohun èlò",
-				"orin",
-				"ìfɛ\u{301}",
-				"òrìshà ìfɛ\u{301}",
-				"ɛgbɛ\u{301} akɔrin",
-			],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("豎琴"),
-			keywords: &["愛", "愛神", "樂器", "管弦樂隊", "豎琴", "邱比特", "音樂"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("竖琴"),
-			keywords: &["乐器", "爱", "爱神", "竖琴", "管弦乐队", "邱比特", "音乐"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("竖琴"),
-			keywords: &["丘比特", "乐器", "爱", "竖琴", "管弦乐队", "音乐"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("豎琴"),
-			keywords: &["丘比特", "愛", "樂器", "樂團", "豎琴", "音樂"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("harp"),
-			keywords: &["cupid", "harp", "instrument", "love", "music", "orchestra"],
-		},
-	],
-};
 #[doc = "🪗"]
 pub const ACCORDION: crate::Emoji = crate::Emoji {
 	glyph:                "🪗",
@@ -9005,6 +5578,4225 @@ pub const SAXOPHONE: crate::Emoji = crate::Emoji {
 		},
 	],
 };
+#[doc = "🎸"]
+pub const GUITAR: crate::Emoji = crate::Emoji {
+	glyph:                "🎸",
+	codepoint:            &[127928u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
+	name:                 "guitar",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::MusicalInstrument,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("kitaar"),
+			keywords: &[
+				"elektriese kitaar",
+				"ghitaar",
+				"instrument",
+				"kitaar",
+				"musiek",
+				"snaarinstrument",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ጊታር"),
+			keywords: &["መሣሪያ", "ሙዚቃ", "ኤሌክትሪክ ጊታር", "የሙዚቃ ጊታር", "ጊታር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("غيتار"),
+			keywords: &["آلة", "آلة موسيقية", "روك", "غيتار", "موسيقى", "نغم"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("গীট\u{9be}ৰ"),
+			keywords: &["গীট\u{9be}ৰ", "ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}ৰ", "সংগীত"],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("gitara"),
+			keywords: &["alət", "gitara", "musiqi", "musiqi aləti"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("гітара"),
+			keywords: &["гітара", "музыка", "музычны", "шчыпковы", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("китара"),
+			keywords: &["инструмент", "китара", "музика"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("গিট\u{9be}র"),
+			keywords: &["গিট\u{9be}র", "সঙ\u{9cd}গীত", "সঙ\u{9cd}গীত যন\u{9cd}ত\u{9cd}র"],
+		},
+		#[cfg(feature = "br")]
+		crate::Annotation {
+			lang:     "br",
+			tts:      Some("gitar"),
+			keywords: &["benveg", "gitar", "sonerezh"],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "instrument", "muzika"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("guitarra"),
+			keywords: &["Stratocaster", "corda", "guitarra", "instrument", "música", "rock"],
+		},
+		#[cfg(feature = "ccp")]
+		crate::Annotation {
+			lang:     "ccp",
+			tts:      Some("𑄉\u{11128}𑄑𑄢\u{11134}"),
+			keywords: &["𑄉\u{11128}𑄑𑄢\u{11134}"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏗᏇᏄᎩᏍᏗ"),
+			keywords: &["ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏍᏙᏗ", "ᏗᏇᏄᎩᏍᏗ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("kytara"),
+			keywords: &[
+				"Fender",
+				"Stratocaster",
+				"elektrická kytara",
+				"hudba",
+				"hudební nástroj",
+				"kytara",
+				"nástroj",
+			],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("gitâr"),
+			keywords: &["cerddoriaeth", "gitâr", "offeyrn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("guitar"),
+			keywords: &[
+				"elektrisk guitar",
+				"elguitar",
+				"guitar",
+				"instrument",
+				"musik",
+				"musikinstrument",
+				"strengeinstrument",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Gitarre"),
+			keywords: &["Gitarre", "Instrument", "Musik", "Musikinstrument"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("κιθάρα"),
+			keywords: &["κιθάρα", "μουσική", "όργανο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("guitar"),
+			keywords: &["guitar", "instrument", "music", "strat"],
+		},
+		#[cfg(feature = "en_001")]
+		crate::Annotation {
+			lang:     "en_001",
+			tts:      None,
+			keywords: &["guitar", "instrument", "music"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation {
+			lang:     "en_GB",
+			tts:      Some("↑↑↑"),
+			keywords: &["guitar", "instrument", "music"],
+		},
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("guitarra"),
+			keywords: &["guitarra", "instrumento", "instrumento musical", "música"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["guitarra", "instrumento", "instrumento musical", "música", "rock"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("↑↑↑"),
+			keywords: &["guitarra", "instrumento", "música"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("kitarr"),
+			keywords: &["kitarr", "muusika", "pill"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("gitarra"),
+			keywords: &["gitarra", "musika", "tresna"],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("گیتار"),
+			keywords: &["الکتریک", "راک", "ساز", "موسیقی", "گیتار"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kitara"),
+			keywords: &["instrumentti", "kitara", "musiikki"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "instrumento", "musika", "pangtugtog", "stratocaster"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("gittari"),
+			keywords: &["gittari", "ljóðføri", "tónleikur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("guitare"),
+			keywords: &["guitare", "guitare électrique", "instrument", "musique"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("giotár"),
+			keywords: &["ceol", "giotár", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("giotàr"),
+			keywords: &["ceòl", "giotàr", "inneal-ciùil", "ionnsramaid"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("guitarra"),
+			keywords: &["guitarra", "instrumento"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("ગિટાર"),
+			keywords: &["ગિટાર", "વાદ\u{acd}ય", "સ\u{a82}ગીત"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("jita"),
+			keywords: &["gurmi", "gurmin bature", "jita", "kayan kiɗa", "kiɗa"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("jita"),
+			keywords: &["gurmi", "gurmin bature", "jita", "kayan kiɗa", "kiɗa"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("גיטרה"),
+			keywords: &["גיטרה", "חשמלית", "כלי נגינה", "מוזיקה", "מוסיקה", "רוק"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("गिटार"),
+			keywords: &[
+				"गिटार",
+				"वाद\u{94d}यय\u{902}त\u{94d}र",
+				"स\u{902}गीत",
+				"स\u{902}गीत वाद\u{94d}य",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "glazba", "instrument"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("gitár"),
+			keywords: &["elektromos gitár", "gitár", "hangszer", "zene"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("կիթառ"),
+			keywords: &["գործիք", "երաժշտություն", "կիթառ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("gitar"),
+			keywords: &["gitar", "instrumen", "musik"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ụbọ"),
+			keywords: &["egwu", "ngwaegwu", "ụbọ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("gítar"),
+			keywords: &["gítar", "hljóðfæri", "tónlist"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("chitarra"),
+			keywords: &[
+				"band",
+				"basso",
+				"chitarra",
+				"corde",
+				"elettrica",
+				"musica",
+				"rock",
+				"strumento",
+				"strumento musicale",
+				"suonare",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ギター"),
+			keywords: &["エレキギター", "ギター", "楽器", "音楽"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("gitar"),
+			keywords: &["gitar", "instrumen", "musik"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("გიტარა"),
+			keywords: &["გიტარა", "ინსტრუმენტი", "მუსიკა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("snitra"), keywords: &["snitra"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("гитара"),
+			keywords: &["гитара", "музыка", "ішекті", "құрал"],
+		},
+		#[cfg(feature = "kl")]
+		crate::Annotation {
+			lang:     "kl",
+			tts:      Some("guitar"),
+			keywords: &["guitar", "instrument", "musik", "musikinstrument", "strengeinstrument"],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ហ\u{17d2}គ\u{17b8}តា"),
+			keywords: &["សម\u{17d2}លេង", "ហ\u{17d2}គ\u{17b8}តា"],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಗ\u{cbf}ಟಾರ\u{ccd}"),
+			keywords: &[
+				"ಗ\u{cbf}ಟಾರ\u{ccd}",
+				"ವಾದ\u{ccd}ಯ",
+				"ಸಂಗ\u{cc0}ತ",
+				"ಸ\u{ccd}ಟ\u{ccd}ರಾಟ\u{ccb}ಕಾಸ\u{ccd}ಟರ\u{ccd}",
+				"ಸ\u{ccd}ಥರ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("기타"),
+			keywords: &["기타", "스트라토", "스트라토캐스터", "악기", "연주", "음악", "통기타"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("गिटार"),
+			keywords: &["गिटार", "वाद\u{94d}य", "स\u{902}गीत"],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("гитара"),
+			keywords: &["аспап", "гитара", "музыка"],
+		},
+		#[cfg(feature = "lb")]
+		crate::Annotation {
+			lang:     "lb",
+			tts:      Some("Gittar"),
+			keywords: &["Gittar", "Instrument", "Musek"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ກ\u{eb5}ຕາ"),
+			keywords: &["ກ\u{eb5}ຕາ", "ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "instrumentas", "muzika"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("ģitāra"),
+			keywords: &["instruments", "mūzika", "ģitāra"],
+		},
+		#[cfg(feature = "mi")]
+		crate::Annotation {
+			lang:     "mi",
+			tts:      Some("kitā"),
+			keywords: &["kitā", "puoro", "whakatangi"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("гитара"),
+			keywords: &["гитара", "електрична", "инструмент", "музика"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഗിറ\u{d4d}റ\u{d3e}ർ"),
+			keywords: &["ഗിറ\u{d4d}റ\u{d3e}ർ", "സംഗീതം", "സംഗീതോപകരണം"],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang: "mn", tts: Some("гитар"), keywords: &["гитар", "хөгжим"]
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("गिटार"),
+			keywords: &["गिटार", "वाद\u{94d}यव\u{943}\u{902}द", "स\u{902}गीत"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("gitar"),
+			keywords: &["alat", "gitar", "muzik"],
+		},
+		#[cfg(feature = "mt")]
+		crate::Annotation {
+			lang:     "mt",
+			tts:      Some("kitarra"),
+			keywords: &["kitarra", "mużika", "strument"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ဂစ\u{103a}တာ"),
+			keywords: &["ဂစ\u{103a}တာ", "တ\u{1030}ရ\u{102d}ယာ", "တေးဂ\u{102e}တ"],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("गितार"),
+			keywords: &["उपकरण", "गितार", "स\u{902}गीत"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("gitaar"),
+			keywords: &["gitaar", "instrument", "muziek", "muziekinstrument", "strat", "stratocaster"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ଗ\u{b3f}ଟ\u{b3e}ର\u{b4d}"),
+			keywords: &[
+				"ଉପକରଣ",
+				"ଗ\u{b3f}ଟ\u{b3e}ର\u{b4d}",
+				"ସଙ\u{b4d}ଗୀତ ଭ\u{b3f}ତ\u{b4d}ତ\u{b3f}କ ଉପକରଣ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਗਿਟਾਰ"),
+			keywords: &[
+				"ਇਲ\u{a48}ਕਟ\u{a4d}ਰਿਕ ਗਿਟਾਰ",
+				"ਗਾਣਾ",
+				"ਗਿਟਾਰ",
+				"ਮਿਊਜਿਕ",
+				"ਸਾਜ\u{a3c}",
+				"ਸ\u{a70}ਗੀਤ",
+			],
+		},
+		#[cfg(feature = "pa_Arab")]
+		crate::Annotation {
+			lang:     "pa_Arab",
+			tts:      Some("گٹار"),
+			keywords: &["آلات", "موسیقی", "گٹار"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Gita"),
+			keywords: &["Gita", "Miúzik", "Ínstrúmẹnt"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "instrument", "muzyka"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ګیتار"),
+			keywords: &["اله", "موسيقي", "ګيتار", "ګیتار"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("guitarra"),
+			keywords: &["guitarra", "instrumento", "instrumento musical", "música"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("guitarra elétrica"),
+			keywords: &["guitarra", "guitarra elétrica", "instrumento", "instrumento musical", "música"],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("guitarra"),
+			keywords: &["guitarra", "instrumento", "takiy"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("chitară"),
+			keywords: &["chitară", "instrument", "instrument muzical", "muzică", "strat"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E10-376"), keywords: &["E10-376"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("гитара"),
+			keywords: &["гитара", "гитарист", "инструмент", "концерт", "музыка", "музыкальный", "рок"],
+		},
+		#[cfg(feature = "rw")]
+		crate::Annotation {
+			lang:     "rw",
+			tts:      Some("gitari"),
+			keywords: &["gitari", "igikoresho", "umuziki"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("گٽار"),
+			keywords: &["آلو", "موسيقي", "گٽار"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ග\u{dd2}ට\u{dcf}රය"),
+			keywords: &["උපකරණය", "ග\u{dd2}ට\u{dcf}රය", "සංග\u{dd3}තය"],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("gitara"),
+			keywords: &["elektrická gitara", "gitara", "hudba", "nástroj", "zvuk", "zábava"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("kitara"),
+			keywords: &["glasba", "glasbilo", "instrument", "kitara"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("giitaar"),
+			keywords: &["giitaar", "muusik", "qalab"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("kitarë"),
+			keywords: &["instrument", "kitarë", "muzikë"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("гитара"),
+			keywords: &["гитара", "инструмeнт", "музика"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("gitara"),
+			keywords: &["gitara", "instrument", "muzika"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("gitarr"),
+			keywords: &["elgitarr", "gitarr", "musik", "musikinstrument"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("gita"),
+			keywords: &["ala", "gita", "muziki"],
+		},
+		#[cfg(feature = "sw_KE")]
+		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("கிட\u{bcd}ட\u{bbe}ர\u{bcd}"),
+			keywords: &[
+				"இசை",
+				"இசைக\u{bcd}கருவி",
+				"எலக\u{bcd}ட\u{bcd}ரிக\u{bcd} கிட\u{bcd}ட\u{bbe}ர\u{bcd}",
+				"எலக\u{bcd}ட\u{bcd}ரிக\u{bcd} கித\u{bbe}ர\u{bcd}",
+				"கிட\u{bcd}ட\u{bbe}ர\u{bcd}",
+				"கித\u{bbe}ர\u{bcd}",
+				"மேற\u{bcd}கத\u{bcd}திய",
+				"வெஸ\u{bcd}டர\u{bcd}ன\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("గ\u{c3f}ట\u{c3e}ర\u{c4d}"),
+			keywords: &["గ\u{c3f}ట\u{c3e}ర\u{c4d}", "సంగ\u{c40}త పర\u{c3f}కరం", "సంగ\u{c40}తం"],
+		},
+		#[cfg(feature = "tg")]
+		crate::Annotation {
+			lang:     "tg",
+			tts:      Some("гитар"),
+			keywords: &["асбоб", "гитар", "мусиқӣ"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ก\u{e35}ต\u{e49}าร\u{e4c}"),
+			keywords: &[
+				"ก\u{e35}ตาร\u{e4c}",
+				"ก\u{e35}ตาร\u{e4c}ไฟฟ\u{e49}า",
+				"ก\u{e35}ต\u{e49}าร\u{e4c}",
+				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ጊታር"),
+			keywords: &["መሳርሒ ሙዚቃ", "ሙዚቃ", "ስትራት", "ጊታር"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("gitara"),
+			keywords: &["aýdym-saz", "gitara", "instrument"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation { lang: "to", tts: Some("kitā"), keywords: &["kitā"] },
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("gitar"),
+			keywords: &["alet", "elektrik gitar", "gitar", "müzik", "müzik aleti"],
+		},
+		#[cfg(feature = "ug")]
+		crate::Annotation {
+			lang:     "ug",
+			tts:      Some("گىتار"),
+			keywords: &["ساز", "ساكس", "گىتار"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("гітара"),
+			keywords: &["гітара", "музичний", "інструмент"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("گٹار"),
+			keywords: &["آلہ", "موسیقی", "گٹار"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("gitara"),
+			keywords: &["asbob", "gitara", "musiqa", "musiqa asbobi"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đàn ghi-ta"),
+			keywords: &["nhạc", "nhạc cụ", "đàn ghi-ta"],
+		},
+		#[cfg(feature = "wo")]
+		crate::Annotation {
+			lang:     "wo",
+			tts:      Some("gitaar"),
+			keywords: &["gitaar", "jumtukaay", "misik"],
+		},
+		#[cfg(feature = "xh")]
+		crate::Annotation {
+			lang:     "xh",
+			tts:      Some("ikatala"),
+			keywords: &["ikatala", "isixhobo", "umculo"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("jìtá"),
+			keywords: &["irinṣẹ\u{301}", "jìtá", "orin"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("jìtá"),
+			keywords: &["irinshɛ\u{301}", "jìtá", "orin"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("結他"),
+			keywords: &["儀器", "結他", "音樂"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("结他"),
+			keywords: &["仪器", "结他", "音乐"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("吉他"),
+			keywords: &["乐器", "吉他", "弹奏", "演奏", "电吉他", "音乐"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("吉他"),
+			keywords: &["吉他", "樂器", "電吉他"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("結他"),
+			keywords: &["樂器", "結他", "電子結他", "電結他", "音樂"],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("isigingci"),
+			keywords: &["insimbi", "isigingci", "umculo"],
+		},
+	],
+};
+#[doc = "🪊"]
+pub const TROMBONE: crate::Emoji = crate::Emoji {
+	glyph:                "🪊",
+	codepoint:            &[129674u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+	name:                 "trombone",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::MusicalInstrument,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
+};
+#[doc = "🪇"]
+pub const MARACAS: crate::Emoji = crate::Emoji {
+	glyph:                "🪇",
+	codepoint:            &[129671u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "maracas",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::MusicalInstrument,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("marakkas"),
+			keywords: &[
+				"dans",
+				"instrument",
+				"marakkas",
+				"musiek",
+				"perkussie",
+				"ratel",
+				"skud",
+				"slaginstrument",
+			],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ማራካ"),
+			keywords: &[
+				"መሳሪያ",
+				"መንቀጥቀጥ",
+				"ሙዚቃ",
+				"ማራከስ",
+				"ማራካ",
+				"ማንቀጥቀጫ",
+				"ማንገጫገጭ",
+				"ቻቻ",
+				"አቀናብሮ መምታት",
+				"የሙዚቃ መሣሪያ",
+				"የሙዚቃ ድግስ",
+				"ግርፋት",
+				"ፓርቲ",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("مركاس"),
+			keywords: &[
+				"آلة موسيقية",
+				"تشا تشا",
+				"حفلة",
+				"خشخيشة",
+				"دق",
+				"رج\u{651}اجة",
+				"رقص",
+				"شخشيخة",
+				"شخلل",
+				"مركاس",
+				"موسيقى",
+				"نقر",
+				"هز",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ম\u{9be}ৰ\u{9be}ক\u{9be}ছ"),
+			keywords: &[
+				"প\u{9be}ৰক\u{9be}ছন",
+				"ম\u{9be}ৰ\u{9be}ক\u{9be}ছ",
+				"যন\u{9cd}ত\u{9cd}ৰ",
+				"শ\u{9cd}বেক",
+				"সংগীত",
+				"ৰেটল",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("marakas"),
+			keywords: &["alət", "cingilti", "marakas", "musiqi", "rəqs", "silkələmək", "zərb", "şənlik"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("маракасы"),
+			keywords: &["маракасы", "музыка", "трэсці", "ударны", "шумавы", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("маракаси"),
+			keywords: &[
+				"инструмент",
+				"маракаси",
+				"музика",
+				"перкусии",
+				"раздрусване",
+				"танци",
+				"тракане",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ম\u{9be}র\u{9be}ক\u{9be}স"),
+			keywords: &[
+				"ঝ\u{9be}\u{981}ক\u{9be}ন",
+				"ঝ\u{9c1}মঝ\u{9c1}মি",
+				"প\u{9be}রক\u{9be}শন",
+				"ম\u{9be}র\u{9be}ক\u{9be}স",
+				"ম\u{9cd}য\u{9be}র\u{9be}ক\u{9be}স",
+				"যন\u{9cd}ত\u{9cd}র",
+				"সঙ\u{9cd}গীত",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("marake"),
+			keywords: &["instrument", "marake", "muzika", "udaraljke", "zvečka"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("maraques"),
+			keywords: &[
+				"ball",
+				"diversió",
+				"festa",
+				"instrument",
+				"maraques",
+				"música",
+				"percussió",
+				"ritme",
+				"sacsejar",
+				"sonall",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᎠᏂᏍᏆᏂ ᎦᎾᏤᏘ"),
+			keywords: &["ᎠᏂᏍᏆᏂ", "ᎦᎾᏤᏘ", "ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏛ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("rumbakoule"),
+			keywords: &["chrastítko", "hudba", "maracas", "nástroj", "perkuse", "rumbakoule"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("maracas"),
+			keywords: &[
+				"cerddoriaeth",
+				"dawns",
+				"maracas",
+				"offeryn",
+				"parti",
+				"ratl",
+				"taro",
+				"ysgwyd",
+				"ysgwydr",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("maracas"),
+			keywords: &["danse", "fest", "instrument", "maracas", "musik", "rangle", "ryste", "slagtøj"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Maracas"),
+			keywords: &[
+				"Cha-Cha-Cha",
+				"Instrument",
+				"Maracas",
+				"Musik",
+				"Musikinstrument",
+				"Party",
+				"Percussion",
+				"Rassel",
+				"Tanz",
+				"musizieren",
+				"rasseln",
+				"tanzen",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Maraca"),
+			keywords: &["Instrument", "Maraca", "Musik", "Trommel", "schütteln"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("μαράκες"),
+			keywords: &["κουνάω", "κροτάλισμα", "κρουστά", "μαράκες", "μουσική", "όργανο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("maracas"),
+			keywords: &[
+				"cha",
+				"dance",
+				"instrument",
+				"maracas",
+				"music",
+				"party",
+				"percussion",
+				"rattle",
+				"shake",
+				"shaker",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("maracas"),
+			keywords: &[
+				"agitar",
+				"brasil",
+				"instrumento",
+				"maracas",
+				"movimiento",
+				"música",
+				"percusión",
+			],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"baile",
+				"cha cha",
+				"coctelera",
+				"fiesta",
+				"instrumento",
+				"maracas",
+				"matraca",
+				"música",
+				"percusión",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("marakas"),
+			keywords: &[
+				"instrument",
+				"kõristi",
+				"löökpill",
+				"marakad",
+				"marakas",
+				"muusika",
+				"pidu",
+				"pill",
+				"raputus",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("marakak"),
+			keywords: &[
+				"astindu",
+				"festa",
+				"instrumentua",
+				"jaia",
+				"marakak",
+				"musika",
+				"musika-tresna",
+				"perkusioa",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("ساز جغجغه\u{200c}ای"),
+			keywords: &[
+				"تکان دادن",
+				"جعجغه",
+				"جغجغه",
+				"رقص",
+				"ساز",
+				"ساز جغجغه\u{200c}ای",
+				"سازهای کوبه\u{200c}ای",
+				"لرزش",
+				"ماراکا",
+				"مهمانی",
+				"موسیقی",
+				"پرکاشن",
+				"چاچا",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("marakassit"),
+			keywords: &[
+				"esine",
+				"instrumentti",
+				"kalina",
+				"lyömäsoittimet",
+				"marakassit",
+				"musiikki",
+				"ravista",
+				"ravistaa",
+				"rämistä",
+				"soitin",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("maracas"),
+			keywords: &[
+				"alogn",
+				"instrumento",
+				"kalansing",
+				"maracas",
+				"musika",
+				"percussion",
+				"rattle",
+				"tambol",
+			],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("marakas"),
+			keywords: &["djass", "ljóðføri", "marakas", "ringla", "ringliljóðfør", "tónleikur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("maracas"),
+			keywords: &[
+				"cha cha cha",
+				"danse",
+				"danser",
+				"fête",
+				"hochet",
+				"instrument",
+				"maracas",
+				"musique",
+				"percussion",
+				"secouer",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("maracas"),
+			keywords: &["ceol", "crith", "gliogar", "maracas", "maracaí", "tuargaint", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("maracas"),
+			keywords: &[
+				"beum",
+				"ceòl",
+				"crathadh",
+				"farm",
+				"gleadhran",
+				"inneal-ciùil",
+				"ionnsramaid",
+				"maracas",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("maracas"),
+			keywords: &["axóuxere", "instrumento", "música", "percusión", "ritmo"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("મરાકા"),
+			keywords: &[
+				"અથડામણ",
+				"ખડખડવ\u{ac1}\u{a82}",
+				"ખડખડાવવ\u{ac1}\u{a82}",
+				"ઘ\u{ac2}ઘરો",
+				"ન\u{ac3}ત\u{acd}ય",
+				"પર\u{acd}કશન",
+				"પાર\u{acd}ટી",
+				"મરાકા",
+				"વાદ\u{acd}ય",
+				"સ\u{a82}ગીત",
+				"હલાવવ\u{ac1}\u{a82}",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("kacau-kacau"),
+			keywords: &[
+				"biki",
+				"buga",
+				"girgiza",
+				"kacau-kacau",
+				"karkaɗa",
+				"kayan aiki",
+				"kayan kiɗa",
+				"kaɗe-kaɗe",
+				"kiɗa",
+				"rawa",
+				"walima",
+				"waƙa",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("kacau-kacau"),
+			keywords: &[
+				"biki",
+				"buga",
+				"girgiza",
+				"kacau-kacau",
+				"karkaɗa",
+				"kayan aiki",
+				"kayan kiɗa",
+				"kaɗe-kaɗe",
+				"kiɗa",
+				"rawa",
+				"walima",
+				"waƙa",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("מאראקס"),
+			keywords: &[
+				"חגיגה",
+				"כלי הקשה",
+				"לטינית",
+				"מאראקס",
+				"מוזיקה",
+				"מסיבה",
+				"מרקה",
+				"נגינה",
+				"צ׳ה צ׳ה",
+				"ריקוד",
+				"תיפוף",
+			],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("मराकस"),
+			keywords: &[
+				"आघात द\u{947}कर बजाया जान\u{947} वाला वाद\u{94d}य य\u{902}त\u{94d}र",
+				"उपकरण",
+				"खनखनाना",
+				"डा\u{902}स",
+				"मराकस",
+				"स\u{902}गीत",
+				"हिलाना",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("marakasi"),
+			keywords: &[
+				"cha cha",
+				"glazba",
+				"glazbalo",
+				"instrument",
+				"marakasi",
+				"tresti",
+				"udaraljke",
+				"zvečka",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("rumbatök"),
+			keywords: &["csörgő", "hangszer", "rumbatök", "ráz", "zene", "ütőhangszer"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("մարակաս"),
+			keywords: &["գործիք", "երաժշտություն", "հարվածային", "մարակաս", "չխկչխկան", "պերկուսիա"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("marakas"),
+			keywords: &[
+				"alat musik",
+				"cha cha",
+				"gemerisik",
+				"goyang",
+				"instrumen",
+				"joget",
+				"kerincingan",
+				"marakas",
+				"menari",
+				"musik",
+				"perkusi",
+				"tarian",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("marakas"),
+			keywords: &["egwu", "ercussion", "maracas", "nkwa egwu", "rattle", "shake"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("hristur"),
+			keywords: &["hljóðfæri", "hrista", "hristur", "skrölt", "slagverk", "tónlist"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("maracas"),
+			keywords: &[
+				"agitare",
+				"ballare",
+				"maracas",
+				"musica",
+				"percussioni",
+				"ritmo",
+				"scuotere",
+				"strumento",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("マラカス"),
+			keywords: &[
+				"シェイカー",
+				"ダンス",
+				"パーティー",
+				"マラカス",
+				"ラトル",
+				"リズム",
+				"打楽器",
+				"振る",
+				"楽器",
+				"音楽",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("marakas"),
+			keywords: &["goyangake", "marakas", "musik", "perkusi", "piranti", "ratel"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("მარაკა"),
+			keywords: &["ინსტრუმენტი", "მარაკა", "მუსიკა", "ქნევა"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("маракас"),
+			keywords: &[
+				"аспап",
+				"би",
+				"кеш",
+				"маракас",
+				"музыка",
+				"сауық кеші",
+				"сылдырмақ",
+				"сілку",
+				"ча ча ча",
+				"шайқау",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ម\u{17c9}ារ\u{17c9}ាកាស"),
+			keywords: &[
+				"គោះ",
+				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+				"ម\u{17c9}ារ\u{17c9}ាកាស",
+				"រលាក\u{17cb}",
+				"វាយ",
+				"ឧបករណ\u{17cd}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಮರಾಕಸ\u{ccd}"),
+			keywords: &[
+				"ಇನ\u{ccd}\u{200c}ಸ\u{ccd}ಟ\u{ccd}ರುಮ\u{cc6}ಂಟ\u{ccd}",
+				"ಕುಣ\u{cbf}ಯ\u{cbf}ರ\u{cbf}",
+				"ಕುಲುಕುವ ವಾದ\u{ccd}ಯ",
+				"ಗಲಾಟ\u{cc6}",
+				"ಗ\u{cbf}ಲಕ\u{cbf}",
+				"ಗ\u{cbf}ಲ\u{cbf}ಗ\u{cbf}ಲ\u{cbf} ವಾದ\u{ccd}ಯ",
+				"ಡ\u{ccd}ಯಾನ\u{ccd}ಸ\u{ccd}",
+				"ತಾಳವಾದ\u{ccd}ಯ",
+				"ನೃತ\u{ccd}ಯ",
+				"ಬಜಂತ\u{ccd}ರ\u{cbf}",
+				"ಮರಾಕಸ\u{ccd}",
+				"ಸಂಗ\u{cc0}ತ",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("마라카스"),
+			keywords: &["달가닥 소리", "떨림", "마라카스", "악기", "음악", "타악기"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("माराकास"),
+			keywords: &[
+				"आपट\u{942}न वाजोवप",
+				"ख\u{941}ळख\u{941}ळावप",
+				"माराकास",
+				"वाद\u{94d}य",
+				"स\u{902}गीत",
+				"हालोवप",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("маракас"),
+			keywords: &["аспап", "калдыратуу", "маракас", "музыка", "титиретүү", "урма аспаптар"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ມາຣາຄ\u{eb1}ສ"),
+			keywords: &[
+				"ງານລ\u{ec9}ຽງ",
+				"ດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ດ\u{ebb}ນຕ\u{eb5}",
+				"ຕ\u{eb5}",
+				"ປາຕ\u{eb5}\u{ec9}",
+				"ມາຣາຄ\u{eb1}ສ",
+				"ວ\u{ebb}ງດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ສ\u{eb1}\u{ec8}ນ",
+				"ເຄ\u{eb6}\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}ດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}",
+				"ເຍ\u{ebb}\u{ec8}າ",
+				"ເຕ\u{eb1}\u{ec9}ນ",
+				"ເພງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("marakasai"),
+			keywords: &[
+				"barškalai",
+				"barškutis",
+				"barškynė",
+				"instrumentas",
+				"kratyti",
+				"marakasai",
+				"muzika",
+				"mušamieji",
+				"purtyti",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("marakass"),
+			keywords: &["grabulis", "instruments", "kratīt", "marakass", "mūzika", "perkusijas", "čača"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("маракас"),
+			keywords: &[
+				"инструмент",
+				"маракас",
+				"музика",
+				"перкусија",
+				"танц",
+				"тресење",
+				"тропалка",
+				"чак-чак",
+				"ѕвечкање",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("മ\u{d3e}രക\u{d4d}ക\u{d3e}സ\u{d4d}"),
+			keywords: &[
+				"ഉപകരണം",
+				"കില\u{d41}ക\u{d4d}കം",
+				"കില\u{d41}ക\u{d4d}കി",
+				"ക\u{d41}ല\u{d41}ക\u{d4d}ക\u{d41}ക",
+				"കൊട\u{d4d}ട\u{d41}വ\u{d3e}ദ\u{d4d}യം",
+				"ന\u{d43}ത\u{d4d}തം",
+				"മ\u{d3e}രക\u{d4d}ക\u{d3e}സ\u{d4d}",
+				"സംഗീതം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("маракус"),
+			keywords: &["дамар", "зэмсэг", "маракус", "сэгсрэх", "хөгжим", "цохиур хөгжим"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("ख\u{941}ळख\u{941}ळा"),
+			keywords: &["ख\u{941}ळख\u{941}ळा", "तालवाद\u{94d}य", "स\u{902}गीत", "साधन", "हलविण\u{947}"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("marakas"),
+			keywords: &[
+				"gahu",
+				"goncang",
+				"goyang",
+				"instrumen",
+				"marakas",
+				"muzik",
+				"perkusi",
+				"rattle",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("မာရကာစ\u{103a}"),
+			keywords: &[
+				"ဂ\u{102e}တ",
+				"ဂျောက\u{103a}ဂျက\u{103a}",
+				"စည\u{103a}းချက\u{103a} တ\u{1030}ရ\u{102d}ယာ",
+				"တ\u{1030}ရ\u{102d}ယာ",
+				"ပါတ\u{102e}",
+				"မာရကာစ\u{103a}",
+				"လ\u{103e}\u{102f}ပ\u{103a}ခါ",
+				"အက",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("माराकास"),
+			keywords: &[
+				"छनछन",
+				"पर\u{94d}कसन",
+				"बाद\u{94d}य",
+				"माराकास",
+				"स\u{902}गीत",
+				"हल\u{94d}लिन\u{941}",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("sambaballen"),
+			keywords: &["instrument", "muziek", "percussie", "ratelen", "sambaballen", "schudden"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"instrument",
+				"marakas",
+				"musikk",
+				"perkusjon",
+				"rista",
+				"riste",
+				"rytmeinstrument",
+			],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ମ\u{b3e}ର\u{b3e}କ\u{b3e}ସ\u{b4d}"),
+			keywords: &[
+				"କମ\u{b4d}ପନ",
+				"ଖଡ\u{b3c} ଖଡ\u{b3c} ଶବ\u{b4d}ଦ କର\u{b3f}ବ\u{b3e}",
+				"ବ\u{b3e}ଦ\u{b4d}ୟ ଯନ\u{b4d}ତ\u{b4d}ର",
+				"ମ\u{b3e}ର\u{b3e}କ\u{b3e}ସ\u{b4d}",
+				"ମ\u{b43}ଦଙ\u{b4d}ଗ",
+				"ସଙ\u{b4d}ଗୀତ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਮਰ\u{a48}ਕਜ\u{a3c}"),
+			keywords: &[
+				"ਆਘਾਤੀ ਸਾਜ\u{a3c}",
+				"ਛ\u{a41}ਣਛ\u{a41}ਣਾ",
+				"ਡਾ\u{a02}ਸ",
+				"ਪਾਰਟੀ",
+				"ਮਰ\u{a48}ਕਜ\u{a3c}",
+				"ਸਾਜ\u{a3c}",
+				"ਸ\u{a70}ਗੀਤ",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("Márákas"),
+			keywords: &[
+				"Miúzík",
+				"Miúzík Ínstrúmẹnt Wé Im Nem Na \"Pakọ\u{301}shọn\"",
+				"Márákas",
+				"Rátul: To Mék Shọ\u{301}t Shọ\u{301}t Laúd Nọiz Wẹ\u{301}n Yu Ték Sọ\u{301}mtin De Hít Had Ọn Tọ\u{301}p Anọ\u{301}dá Tin",
+				"Shek",
+				"Ínstrúmẹnt",
+			],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("marakasy"),
+			keywords: &[
+				"cza cza",
+				"grzechotać",
+				"grzechotki",
+				"impreza",
+				"instrument",
+				"marakasy",
+				"muzyka",
+				"perkusja",
+				"perkusyjny",
+				"potrząsać",
+				"taniec",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("ماراکاس"),
+			keywords: &[
+				"تکبیر",
+				"خندا",
+				"شاکر",
+				"ماراکاس",
+				"موسيقي",
+				"نڅا",
+				"وسیله",
+				"ولړزول",
+				"چا",
+				"ګوند",
+			],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("maracás"),
+			keywords: &[
+				"chacoalhar",
+				"chocalho",
+				"dança",
+				"festa",
+				"instrumento",
+				"maraca",
+				"maracas",
+				"maracás",
+				"mexer",
+				"música",
+				"percussão",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("maracas"),
+			keywords: &[
+				"abanar",
+				"chocalho",
+				"festa",
+				"instrumento",
+				"instrumento musical",
+				"maracas",
+				"música",
+				"percussão",
+				"ritmo",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("maracas"),
+			keywords: &["cascabel", "instrumento", "kuyuy", "maracas", "percusion", "takiy"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("maracas"),
+			keywords: &["instrument", "maracas", "muzică", "percuție", "scuturat", "zornăit"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-018"), keywords: &["E15-018"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("маракасы"),
+			keywords: &[
+				"вечеринка",
+				"инструмент",
+				"маракасы",
+				"музыка",
+				"музыкальные инструменты",
+				"перкуссия",
+				"погремушки",
+				"ритм",
+				"танец",
+				"танцы",
+				"трясти",
+				"ча-ча-ча",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("ڇمڪڻا"),
+			keywords: &["اوزار", "باجا", "لوڏڻ", "موسيقي", "ڇمڪڻا"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ම\u{dcf}රක\u{dcf}ස\u{dca}"),
+			keywords: &[
+				"උපකරණය",
+				"බෙර ව\u{dcf}දනය",
+				"ම\u{dcf}රක\u{dcf}ස\u{dca}",
+				"රැට\u{dca}ල\u{dca}",
+				"සංග\u{dd3}තය",
+				"සොලවන\u{dca}න",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("rumbagule"),
+			keywords: &[
+				"hrkať",
+				"hudba",
+				"nástroj",
+				"perkusie",
+				"párty",
+				"rumbagule",
+				"tancovať",
+				"triasť",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("marake"),
+			keywords: &["glasba", "glasbilo", "instrument", "marake", "ropotulja", "stresaj", "tolkala"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("maracas"),
+			keywords: &["instrument", "maracas", "music", "percussion", "rattle", "shake"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("maraka"),
+			keywords: &[
+				"festë",
+				"instrument",
+				"maraka",
+				"muzikë",
+				"perkusion",
+				"trokitje",
+				"tundje",
+				"vallëzim",
+				"ça-ça",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("марака"),
+			keywords: &["звечке", "инструмент", "марака", "музика", "перкусије"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("maraka"),
+			keywords: &["instrument", "maraka", "muzika", "perkusije", "zvečke"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("maracas"),
+			keywords: &["instrument", "maracas", "musik", "skaka", "slaginstrument", "slagverk"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("maraka"),
+			keywords: &[
+				"chacharisha",
+				"cheza",
+				"dansi",
+				"gonganisha",
+				"maraka",
+				"muziki",
+				"tikisa",
+				"tingisha",
+				"zana",
+			],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("மரக\u{bcd}க\u{bbe}ஸ\u{bcd}"),
+			keywords: &[
+				"இசை",
+				"கருவி",
+				"கிலுகிலுப\u{bcd}பை",
+				"குலுக\u{bcd}கல\u{bcd}",
+				"சக\u{bcd}-சக\u{bcd}",
+				"த\u{bbe}ள வ\u{bbe}த\u{bcd}தியம\u{bcd}",
+				"பொருள\u{bcd}",
+				"மரக\u{bcd}க\u{bbe}ஸ\u{bcd}",
+				"ஷேக\u{bcd}கர\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("మర\u{c3e}కస\u{c4d}"),
+			keywords: &[
+				"గ\u{c3f}లక",
+				"నృత\u{c4d}యం",
+				"ప\u{c3e}ర\u{c4d}ట\u{c40}",
+				"ప\u{c46}ర\u{c4d}కషన\u{c4d}",
+				"మర\u{c3e}కస\u{c4d}",
+				"మ\u{c4d}యూజ\u{c3f}క\u{c4d}",
+				"వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
+				"ష\u{c47}కర\u{c4d}",
+				"సంగ\u{c40}త వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
+				"సంగ\u{c40}తం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("มาราค\u{e31}ส"),
+			keywords: &[
+				"ปาร\u{e4c}ต\u{e35}\u{e49}",
+				"มาราค\u{e31}ส",
+				"ล\u{e39}กแซค",
+				"เขย\u{e48}า",
+				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
+				"เคาะ",
+				"เพลง",
+				"แซก",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ማራካስ"),
+			keywords: &[
+				"መሳርሒ ሙዚቃ",
+				"ሙዚቃ",
+				"ማራካስ",
+				"ምውጥዋጥ",
+				"ራታል",
+				"ሳዕስዒት",
+				"ሸከር",
+				"ቻ",
+				"ውድብ",
+				"ድምጺ ምውቃዕ",
+			],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("marakas"),
+			keywords: &[
+				"gural",
+				"marakas",
+				"saz",
+				"silkmek",
+				"tans",
+				"zarba",
+				"ça ça",
+				"şakyrdy",
+				"şeýker",
+				"şüweleň",
+			],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("malaka"),
+			keywords: &["Mekesikō", "lali", "lulululu", "malaka", "meʻalea"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("marakas"),
+			keywords: &[
+				"alet",
+				"dans",
+				"enstrüman",
+				"marakas",
+				"müzik",
+				"müzik aleti",
+				"nesne",
+				"parti",
+				"perküsyon",
+				"sallama",
+				"sallamalı",
+				"vurmalı",
+				"çaça",
+				"çıngırak",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("маракас"),
+			keywords: &[
+				"вечірка",
+				"маракас",
+				"музика",
+				"танець",
+				"ударні інструменти",
+				"ча-ча-ча",
+				"інструмент",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("مراکس"),
+			keywords: &[
+				"آلہ",
+				"ارتعاش",
+				"جھنجھنا",
+				"رقص",
+				"زور زور سے ہلانا",
+				"شیکر",
+				"ضرب پذیر آلہ",
+				"ماراکاس",
+				"مراکا",
+				"مراکس",
+				"موسیقی",
+				"پارٹی",
+			],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("marakas"),
+			keywords: &[
+				"asbob",
+				"bazm",
+				"marakas",
+				"musiqa",
+				"musiqa asbobi",
+				"raqs",
+				"shovqin",
+				"silkitish",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("maraca"),
+			keywords: &["lắc", "lục lạc", "maraca", "nhạc cụ", "nhảy", "tiệc tùng", "trống", "âm nhạc"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("marakasi"),
+			keywords: &["gbọ\u{300}n", "jin", "marakasi", "orin", "èlò"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("marakasi"),
+			keywords: &["gbɔ\u{300}n", "jin", "marakasi", "orin", "èlò"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("沙槌"),
+			keywords: &["搖", "撥浪鼓", "敲擊樂", "樂器", "沙槌", "音樂"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("沙槌"),
+			keywords: &["乐器", "拨浪鼓", "摇", "敲击乐", "沙槌", "音乐"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("沙球"),
+			keywords: &[
+				"乐器",
+				"恰恰",
+				"打击乐器",
+				"拨浪鼓",
+				"摇",
+				"摇动",
+				"沙槌",
+				"沙球",
+				"沙铃",
+				"派对",
+				"舞蹈",
+				"音乐",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("沙鈴"),
+			keywords: &[
+				"搖動",
+				"敲擊",
+				"樂器",
+				"沙球，跳舞，趴踢，宴會，搖，恰恰，音樂，樂器，敲擊樂器，打擊樂",
+				"沙鈴",
+				"音樂",
+				"響聲",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"恰恰舞",
+				"搖奏",
+				"搖擺",
+				"敲擊樂",
+				"敲擊聲",
+				"樂器",
+				"沙槌",
+				"沙錘",
+				"派對",
+				"砂槌",
+				"舞蹈",
+				"音樂",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("maracas"),
+			keywords: &["instrument", "maracas", "music", "percussion", "rattle", "shake"],
+		},
+	],
+};
+#[doc = "🪈"]
+pub const FLUTE: crate::Emoji = crate::Emoji {
+	glyph:                "🪈",
+	codepoint:            &[129672u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 15u8, minor: 0u8, patch: 0u8 },
+	name:                 "flute",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::MusicalInstrument,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("fluit"),
+			keywords: &["blokfluit", "dwarsfluit", "fluit", "houtblasers", "marsorkes", "musiek"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("ዋሽንት"),
+			keywords: &[
+				"መቅጃ",
+				"ሙዚቃ",
+				"ማርች ባንድ",
+				"ቱቦ",
+				"ኦርኬስትራ",
+				"ዋሽንት",
+				"ዋሽንት ነፊ",
+				"የሙዚቃ መሳሪያ",
+				"የሙዚቃ ቡድን",
+				"የትንፋሽ የሙዚቃ መሳሪያ",
+				"የእንጨት ዋሽንት",
+				"ፊፍ",
+				"ፒኮሎ",
+			],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("فلوت"),
+			keywords: &[
+				"آلة موسيقية",
+				"أداة موسيقية",
+				"أوركسترا",
+				"عزف",
+				"فلوت",
+				"قصبة",
+				"مزمار",
+				"موسيقى",
+				"نفخ",
+			],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("ব\u{9be}\u{981}হী"),
+			keywords: &[
+				"উডউইণ\u{9cd}ড",
+				"প\u{9be}ইপ",
+				"ফ\u{9be}ইফ",
+				"ব\u{9be}\u{981}হী",
+				"সংগীত",
+				"ৰেকৰ\u{9cd}ড\u{9be}ৰ",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("fleyta"),
+			keywords: &[
+				"ağac nəfəsi",
+				"boru",
+				"fifa",
+				"fleyta",
+				"musiqi",
+				"musiqi aləti",
+				"nəfəs aləti",
+				"orkestr",
+				"yazıcı",
+			],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("флейта"),
+			keywords: &[
+				"блокфлётэ",
+				"драўляны",
+				"дудачка",
+				"дудка",
+				"духавы інструмент",
+				"музыка",
+				"флейта",
+			],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("флейта"),
+			keywords: &[
+				"бенд",
+				"духов инструмент",
+				"инструмент",
+				"кавал",
+				"музика",
+				"оркестър",
+				"рекордер",
+				"флейта",
+			],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ব\u{9be}\u{981}শি"),
+			keywords: &[
+				"উডউইন\u{9cd}ড",
+				"প\u{9be}ইপ",
+				"ব\u{9be}\u{981}শি",
+				"রেকর\u{9cd}ড\u{9be}র",
+				"সঙ\u{9cd}গীত",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("flauta"),
+			keywords: &["drveni puhački instrument", "flauta", "frula", "muzika", "snimač"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("flauta"),
+			keywords: &[
+				"flauta",
+				"flauta dolça",
+				"flautista",
+				"instrument",
+				"instrument de vent de fusta",
+				"música",
+				"orquestra",
+				"vent",
+			],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang: "chr", tts: Some("ᎠᏤᎷᎯᏍᏗ"), keywords: &["ᎠᏤᎷᎯᏍᏗ", "ᏗᎧᏃᎩᏛ"]
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("flétna"),
+			keywords: &["dechový nástroj", "flétna", "hudba", "pikola", "píšťala", "zobcová flétna"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("ffliwt"),
+			keywords: &[
+				"band",
+				"band gorymdeithio",
+				"cerddorfa",
+				"cerddoriaeth",
+				"chwythbrennau",
+				"ffeiff",
+				"ffliwt",
+				"ffliwtydd",
+				"offeryn",
+				"pib",
+				"picolo",
+				"recorder",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("fløjte"),
+			keywords: &[
+				"band",
+				"blokfløjte",
+				"fløjte",
+				"fløjtenist",
+				"instrument",
+				"marchorkester",
+				"musik",
+				"orgelpibe",
+				"orkester",
+				"træblæseinstrument",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Flöte"),
+			keywords: &[
+				"Band",
+				"Blaskapelle",
+				"Flöte",
+				"Holzblasinstrument",
+				"Instrument",
+				"Musik",
+				"Musikinstrument",
+				"Orchester",
+				"Spielmannszug",
+				"musizieren",
+			],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("↑↑↑"),
+			keywords: &["Blockflöte", "Flöte", "Holzblasinstrument", "Musik", "Pfeife"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("φλάουτο"),
+			keywords: &["αυλός", "καταγραφή", "μουσική", "πίφερο", "πνευστό", "φλάουτο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("flute"),
+			keywords: &[
+				"band",
+				"fife",
+				"flautist",
+				"flute",
+				"instrument",
+				"marching",
+				"music",
+				"orchestra",
+				"piccolo",
+				"pipe",
+				"recorder",
+				"woodwind",
+			],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation {
+			lang:     "en_IN",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"band",
+				"fife",
+				"flute",
+				"instrument",
+				"music",
+				"orchestra",
+				"piccolo",
+				"pipe",
+				"woodwind",
+			],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("flauta"),
+			keywords: &["flauta", "flautín", "instrumento", "instrumento de viento madera", "música"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"banda",
+				"flauta",
+				"flautín",
+				"grabador",
+				"instrumento de viento",
+				"música",
+				"orquesta",
+				"pífano",
+			],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es_US")]
+		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("flööt"),
+			keywords: &[
+				"flöödimängija",
+				"flööt",
+				"instrument",
+				"muusika",
+				"orkester",
+				"pikolo",
+				"puhkpill",
+				"puupuhkpill",
+				"vile",
+				"vilepill",
+			],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("txirula"),
+			keywords: &[
+				"grabagailua",
+				"musika",
+				"piccoloa",
+				"tutua",
+				"txirula",
+				"zurezko haize-instrumentua",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("فلوت"),
+			keywords: &[
+				"ارکستر",
+				"بادی چوبی",
+				"ساز",
+				"ضبط",
+				"ضبط\u{200c}صوت",
+				"فلوت",
+				"فلوت\u{200c}زن",
+				"موسیقی",
+				"نی",
+				"نی\u{200c}زن",
+				"نی\u{200c}لبک",
+				"پیکولو",
+				"گروه مارش",
+				"گروه موسیقی",
+			],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("huilu"),
+			keywords: &[
+				"esine",
+				"huilu",
+				"instrumentti",
+				"musiikki",
+				"nokkahuilu",
+				"orkesteri",
+				"pilli",
+				"puupuhallin",
+				"soitin",
+				"säkkipilli",
+				"urkupilli",
+			],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("plawta"),
+			keywords: &["fife", "musika", "plawta", "rekorder", "woodwind"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("floyta"),
+			keywords: &["floyta", "ljóðføri", "tónleikur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("flûte"),
+			keywords: &[
+				"bois",
+				"fanfare",
+				"fifre",
+				"flûte",
+				"flûte à bec",
+				"flûtiste",
+				"instrument",
+				"musique",
+				"orchestre",
+				"piccolo",
+			],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("fliúit"),
+			keywords: &["ceol", "fliúit", "fliúit Shasanach", "fíf", "gaothuirlisí adhmaid", "píb"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("duiseal"),
+			keywords: &["ceòl", "cuisle-bhinn", "duiseal", "feadan", "gaoth-ionnsramaid", "pìob"],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("frauta"),
+			keywords: &["instrumento", "madeira", "música"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("વા\u{a82}સળી"),
+			keywords: &[
+				"ઓર\u{acd}ક\u{ac7}સ\u{acd}ટ\u{acd}રા",
+				"તીણા અવાજવાળી વા\u{a82}સળી",
+				"પાવો",
+				"બ\u{ac7}ન\u{acd}ડ",
+				"મોરલી",
+				"ર\u{ac7}કૉર\u{acd}ડર",
+				"લાકડાના\u{a82} સ\u{ac1}ષિર વાદ\u{acd}યો",
+				"વા\u{a82}સળી",
+				"વા\u{a82}સળીવાદક",
+				"વાદ\u{acd}ય",
+				"સ\u{a82}ગીત",
+				"સ\u{a82}ગીતકાર",
+			],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("sarewa"),
+			keywords: &[
+				"abin busawa",
+				"busawa",
+				"bututu",
+				"fayin",
+				"kayan kiɗa",
+				"mabushi",
+				"makaɗi",
+				"rikoda",
+				"sarewa",
+				"waƙa",
+			],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("sarewa"),
+			keywords: &[
+				"abin busawa",
+				"busawa",
+				"bututu",
+				"fayin",
+				"kayan kiɗa",
+				"mabushi",
+				"makaɗi",
+				"rikoda",
+				"sarewa",
+				"waƙa",
+			],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("חליל"),
+			keywords: &["חליל", "חליל עץ", "חלילית", "כלי נשיפה", "מוזיקה", "נגינה"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बा\u{902}स\u{941}री"),
+			keywords: &[
+				"काठ का बना वाद\u{94d}य य\u{902}त\u{94d}र",
+				"पाइप",
+				"ब\u{902}सी",
+				"बा\u{902}स\u{941}री",
+				"ब\u{948}\u{902}ड",
+				"रिकॉर\u{94d}डर",
+				"वाद\u{94d}य य\u{902}त\u{94d}र",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("flauta"),
+			keywords: &[
+				"blok flauta",
+				"flauta",
+				"flautist",
+				"frula",
+				"glazba",
+				"glazbalo",
+				"puhački instrument",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("fuvola"),
+			keywords: &["blockflöte", "fafúvós", "fife", "furulya", "fuvola", "zene"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("սրինգ"),
+			keywords: &["գործիք", "երաժշտություն", "սրինգ", "փայտափողային", "փողային", "ֆլեյտա"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("seruling"),
+			keywords: &[
+				"alat musik tiup",
+				"band",
+				"instrumen",
+				"musik",
+				"orkestra",
+				"piccolo",
+				"pipa",
+				"rekorder",
+				"seruling",
+				"suling",
+			],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ọjà"),
+			keywords: &["egwu", "ọjà", "ọkpọkọ"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("flauta"),
+			keywords: &["blokkflauta", "flauta", "hljóðpípa", "tréblásturshljóðfæri", "tónlist"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("flauto"),
+			keywords: &[
+				"fiati",
+				"fiato",
+				"flautista",
+				"flauto",
+				"legno",
+				"musica",
+				"pifferaio",
+				"piffero",
+				"strumento",
+				"zufolo",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("笛"),
+			keywords: &[
+				"オーケストラ",
+				"バンド",
+				"ピッコロ",
+				"フルート",
+				"フルート奏者",
+				"リコーダー",
+				"楽器",
+				"横笛",
+				"管楽器",
+				"音楽",
+			],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("suling"),
+			keywords: &["fife", "musik", "perkakas musik sebul", "pipa", "rekam", "suling"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("ფლეიტა"),
+			keywords: &["მილი", "მუსიკა", "სალამური", "ფლეიტა"],
+		},
+		#[cfg(feature = "kab")]
+		crate::Annotation { lang: "kab", tts: Some("tajewwaqt"), keywords: &["tajewwaqt"] },
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("сыбызғы"),
+			keywords: &[
+				"аспап",
+				"музыка",
+				"оркестр",
+				"пикколо",
+				"сыбызғы",
+				"түтік",
+				"флейта",
+				"үрмелі аспап",
+				"өмір",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ខ\u{17d2}ល\u{17bb}យ"),
+			keywords: &[
+				"ខ\u{17d2}ល\u{17bb}យ",
+				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+				"ប\u{17c6}ពង\u{17cb}",
+				"ឧបករណ\u{17cd}ថត",
+				"ឧបករណ\u{17cd}ផ\u{17d2}ល\u{17bb}\u{17c6}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಕ\u{cca}ಳಲು"),
+			keywords: &[
+				"ಆರ\u{ccd}ಕ\u{cc6}ಸ\u{ccd}ಟ\u{ccd}ರಾ",
+				"ಊದುವಾದ\u{ccd}ಯ",
+				"ಕ\u{cca}ಳಲು",
+				"ಪ\u{cbf}ಳ\u{ccd}ಳಂಗ\u{ccb}ವ\u{cbf}",
+				"ಪ\u{cc8}ಪ\u{ccd}",
+				"ಫ\u{cc8}ಫ\u{ccd}",
+				"ಬ\u{ccd}ಯಾಂಡ\u{ccd}",
+				"ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
+				"ರ\u{cc6}ಕಾರ\u{ccd}ಡರ\u{ccd}",
+				"ವಾದ\u{ccd}ಯ",
+				"ವುಡ\u{ccd} ವ\u{cbf}ಂಡ\u{ccd}",
+				"ವ\u{cc7}ಣುವಾದಕ",
+				"ಸಂಗ\u{cc0}ತ",
+				"ಸಣ\u{ccd}ಣ ಕ\u{cca}ಳಲು",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("플루트"),
+			keywords: &["리코더", "목관악기", "음악", "파이프", "플루트", "피리"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("बा\u{902}सरी"),
+			keywords: &[
+				"पायप",
+				"फ\u{94d}ल\u{94d}य\u{941}ट",
+				"बा\u{902}सरी",
+				"म\u{941}रली",
+				"र\u{947}कॉर\u{947}डर",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("флейта"),
+			keywords: &[
+				"музыка",
+				"түтүк",
+				"флейта",
+				"чоор",
+				"үйлөмө жыгач аспаптар",
+				"үн жазуучу аппарат",
+			],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ຂ\u{eb8}\u{ec8}ຍ"),
+			keywords: &[
+				"ຂ\u{eb8}\u{ec8}ຍ",
+				"ຂ\u{eb8}\u{ec8}ຍຜ\u{eb4}ວ",
+				"ດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ດ\u{ebb}ນຕ\u{eb5}",
+				"ທ\u{ecd}\u{ec8}",
+				"ວ\u{ebb}ງດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ວ\u{ebb}ງດ\u{ebb}ນຕ\u{eb5}",
+				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}",
+				"ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}ດ\u{eb8}ລ\u{eb4}ຍາງ",
+				"ເຄ\u{eb7}\u{ec8}ອງບ\u{eb1}ນທ\u{eb6}ກ",
+				"ເຄ\u{eb7}\u{ec8}ອງເປ\u{ebb}\u{ec8}າທ\u{eb5}\u{ec8}ເຮ\u{eb1}ດດ\u{ec9}ວຍໄມ\u{ec9}",
+				"ເພງ",
+			],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("fleita"),
+			keywords: &[
+				"fleita",
+				"grupė",
+				"instrumentas",
+				"mažoji fleita",
+				"mediniai pučiamieji",
+				"muzika",
+				"orkestras",
+				"skudutis",
+				"vamzdis",
+				"vargonai",
+			],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("flauta"),
+			keywords: &[
+				"flauta",
+				"ierakstītājs",
+				"instruments",
+				"koka pūšaminstrumenti",
+				"mūzika",
+				"orķestris",
+				"stabule",
+			],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("флејта"),
+			keywords: &[
+				"дрвен",
+				"дувачки",
+				"инструмент",
+				"кавал",
+				"музика",
+				"оркестар",
+				"флејта",
+				"флејтист",
+				"фрула",
+				"шупелка",
+			],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("ഓടക\u{d4d}ക\u{d41}ഴൽ"),
+			keywords: &[
+				"ഓടക\u{d4d}ക\u{d41}ഴൽ",
+				"ക\u{d41}ഴൽവ\u{d3e}ദ\u{d4d}യം",
+				"പ\u{d41}ല\u{d4d}ല\u{d3e}ങ\u{d4d}ക\u{d41}ഴൽ",
+				"ഫ\u{d4d}ല\u{d42}ട\u{d4d}ട\u{d4d}",
+				"റെക\u{d4d}കോർഡർ",
+				"സംഗീതം",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("лимбэ"),
+			keywords: &["бичигч", "бишгүүр", "лимбэ", "хоолой", "хөгжим"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("बासरी"),
+			keywords: &[
+				"पाईप",
+				"बासरी",
+				"म\u{941}रली",
+				"र\u{947}कॉर\u{94d}डर",
+				"व\u{941}डवाई\u{902}ड",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("seruling"),
+			keywords: &[
+				"alat muzik",
+				"alat tiup kayu",
+				"faif",
+				"muzik",
+				"orkestra",
+				"paip",
+				"pikolo",
+				"rekorder",
+				"seruling",
+			],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("ပလ\u{103d}ေ"),
+			keywords: &[
+				"ကျော\u{103a}ပလ\u{103d}ေ",
+				"ဂ\u{102e}တ",
+				"တ\u{1030}ရ\u{102d}ယာ",
+				"တ\u{1036}ပ\u{102d}\u{102f}း",
+				"ပလ\u{103d}ေ",
+				"ပလ\u{103d}ေဆရာ",
+				"သစ\u{103a}သားလေမ\u{103e}\u{102f}တ\u{103a} တ\u{1030}ရ\u{102d}ယာ",
+				"သ\u{1036}စ\u{102f}\u{1036}တ\u{102e}းဝ\u{102d}\u{102f}င\u{103a}း",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("बास\u{941}री"),
+			keywords: &[
+				"उडविन\u{94d}ड",
+				"पाइप",
+				"बास\u{941}री",
+				"म\u{941}रली",
+				"र\u{947}कर\u{94d}डर",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("fluit"),
+			keywords: &["blokfluit", "dwarsfluit", "fluit", "houtblazer", "muziek", "pijperfluit"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["blokkfløyte", "fløyte", "musikk", "treblåsar"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ବଇ\u{b01}ଶ\u{b3f}"),
+			keywords: &[
+				"କ\u{b3e}ଠରେ ତ\u{b3f}ଆର\u{b3f} ବଂଶୀ",
+				"ଛୋଟ ବଂଶୀ",
+				"ପ\u{b3e}ଇପ\u{b4d}",
+				"ବଇ\u{b01}ଶ\u{b3f}",
+				"ରେକର\u{b4d}ଡର\u{b4d}",
+				"ସଙ\u{b4d}ଗୀତ",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਬ\u{a70}ਸਰੀ"),
+			keywords: &[
+				"ਬਾ\u{a02}ਸ\u{a42}ਰੀ",
+				"ਬ\u{a70}ਸਰੀ",
+				"ਬ\u{a70}ਸਰੀ ਵਜਾਉਣਾ",
+				"ਵਾਜਾ",
+				"ਵ\u{a70}ਝਲੀ",
+				"ਸਾਜ\u{a3c}",
+				"ਸ\u{a70}ਗੀਤ",
+				"ਹਵਾਈ ਸਾਜ\u{a3c}",
+			],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("fluut"),
+			keywords: &["faif", "fluut", "musik", "paip", "rikoda", "wuudwind"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("flet"),
+			keywords: &[
+				"drewniany",
+				"dęty",
+				"flet",
+				"fujarka",
+				"grać",
+				"gwizdać",
+				"instrument",
+				"muzyka",
+				"na flecie",
+				"orkiestra",
+				"piccolo",
+				"pikolo",
+				"piszczałka",
+				"prosty",
+			],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("بانسري"),
+			keywords: &[
+				"آرکسټرا",
+				"بانسري",
+				"بانډ",
+				"ریکارډر",
+				"فلوټیست",
+				"فیف",
+				"لرګي باد",
+				"مارچ کول",
+				"موسيقي",
+				"وسیله",
+				"پایپ",
+				"پکولو",
+			],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("flauta"),
+			keywords: &[
+				"banda",
+				"banda marcial",
+				"flauta",
+				"flautim",
+				"flautista",
+				"gravador",
+				"instrumento",
+				"música",
+				"orquestra",
+				"pife",
+				"pífano",
+				"sopro",
+				"tubo",
+			],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation {
+			lang:     "pt_PT",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"flauta",
+				"flauta de cana",
+				"flautista",
+				"gravador",
+				"instrumento musical",
+				"música",
+				"pífaro",
+				"sopro",
+			],
+		},
+		#[cfg(feature = "qu")]
+		crate::Annotation {
+			lang:     "qu",
+			tts:      Some("flauta"),
+			keywords: &["flauta", "graway", "kullu", "pipa", "takiy"],
+		},
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("flaut"),
+			keywords: &["flaut", "fluier", "instrument de suflat din lemn", "muzică", "tub"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E15-019"), keywords: &["E15-019"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("флейта"),
+			keywords: &[
+				"группа",
+				"деревянный духовой инструмент",
+				"дудочка",
+				"духовой инструмент",
+				"инструмент",
+				"музыка",
+				"оркестр",
+				"продольная флейта",
+				"сопилка",
+				"труба",
+				"флейта",
+				"флейта пикколо",
+				"флейтист",
+			],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("بانسري"),
+			keywords: &["بانسري", "توتڙي", "مرلي", "موسيقي", "پائيپ"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("නළ\u{dcf}ව"),
+			keywords: &[
+				"නල",
+				"නළ\u{dcf}ව",
+				"පට\u{dd2}ගත කරන\u{dca}න\u{dcf}",
+				"ල\u{dd3} නළ\u{dcf}ව",
+				"සංග\u{dd3}තය",
+				"ෆය\u{dd2}ෆ\u{dca}",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("píšťalka"),
+			keywords: &[
+				"drevený dychový hudobný nástroj",
+				"drevený dychový nástroj",
+				"flauta",
+				"hudba",
+				"nástroj",
+				"orchester",
+				"pikola",
+				"píšťalka",
+				"záznamník",
+			],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("flavta"),
+			keywords: &[
+				"flavta",
+				"flavtist",
+				"glasba",
+				"glasbilo",
+				"instrument",
+				"orkester",
+				"pihala",
+				"piščal",
+				"snemalnik",
+			],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("biibiile"),
+			keywords: &["biibiile", "dabayl alwaax ah", "dhuunta", "duube", "fife", "muusiga"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("flaut"),
+			keywords: &[
+				"bandë marshimi",
+				"flaut",
+				"flautist",
+				"fyell",
+				"instrument",
+				"instrument frymor",
+				"muzikë",
+				"orkestër",
+				"orkestër frymore",
+				"xhura",
+			],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("флаута"),
+			keywords: &["дувач", "инструмент", "музика", "флаута", "фрула"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("flauta"),
+			keywords: &["duvač", "flauta", "frula", "instrument", "muzika"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("flöjt"),
+			keywords: &[
+				"band",
+				"blockflöjt",
+				"flöjt",
+				"flöjtist",
+				"instrument",
+				"musik",
+				"orkester",
+				"panflöjt",
+				"pickolaflöjt",
+				"träblås",
+			],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("zumari"),
+			keywords: &[
+				"bendi",
+				"bendi ya kumachi",
+				"bomba",
+				"filimbi",
+				"filimbi ya mti",
+				"kifaa cha muziki",
+				"muziki",
+				"zeze",
+				"zumari",
+			],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("புல\u{bcd}ல\u{bbe}ங\u{bcd}குழல\u{bcd}"),
+			keywords: &[
+				"ஃபைஃப\u{bcd}",
+				"இசை",
+				"இசைக\u{bcd} கருவி",
+				"க\u{bbe}னம\u{bcd}",
+				"கிருஷ\u{bcd}ணர\u{bcd}",
+				"குழ\u{bbe}ய\u{bcd}",
+				"புல\u{bcd}ல\u{bbe}ங\u{bcd}குழல\u{bcd}",
+				"மரக\u{bcd}க\u{bbe}ற\u{bcd}று",
+				"ரெக\u{bcd}க\u{bbe}ர\u{bcd}டர\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("ప\u{c3f}ల\u{c4d}లనగ\u{c4d}ర\u{c4b}వ\u{c3f}"),
+			keywords: &[
+				"కచ\u{c47}ర\u{c40}",
+				"ప\u{c3f}ల\u{c4d}లనగ\u{c4d}ర\u{c4b}వ\u{c3f}",
+				"ప\u{c48}ప\u{c4d}",
+				"ఫ\u{c4d}లూట\u{c4d}",
+				"మ\u{c3e}ర\u{c4d}చ\u{c3f}ంగ\u{c4d} బ\u{c4d}య\u{c3e}ండ\u{c4d}",
+				"మురళ\u{c3f}",
+				"ర\u{c3f}క\u{c3e}ర\u{c4d}డర\u{c4d}",
+				"వ\u{c47}ణువు",
+				"సంగ\u{c40}తం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ขล\u{e38}\u{e48}ย"),
+			keywords: &[
+				"ขล\u{e38}\u{e48}ยไม\u{e49}",
+				"ป\u{e35}\u{e48}",
+				"พ\u{e34}คโคโล",
+				"ร\u{e35}คอร\u{e4c}เดอร\u{e4c}",
+				"ออเคสตร\u{e49}า",
+				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
+				"เป\u{e48}า",
+				"เพลง",
+				"ไพพ\u{e4c}",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("ዋጣ"),
+			keywords: &[
+				"fife",
+				"መሳርሒ ሙዚቃ",
+				"መቕረጺ",
+				"ሙዚቃ",
+				"ሰልፊ",
+				"ሻምብቆ",
+				"ባንድ",
+				"ንፋስ ዕንጨይቲ",
+				"ኦርኬስትራ",
+				"ዋጣ",
+				"ፍላውቲስት",
+				"ፒኮሎ",
+			],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("tüýdük"),
+			keywords: &[
+				"fleýta",
+				"fleýtajyk",
+				"fleýtaçy",
+				"gural",
+				"magnitofon",
+				"orkestr",
+				"pikkolo",
+				"saz",
+				"surnaý",
+				"üflenýän agaç saz guraly",
+				"ýöriş orkestri",
+			],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("fuluta"),
+			keywords: &["fangufangu", "fuluta"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("flüt"),
+			keywords: &[
+				"ahşap üflemeli",
+				"bando",
+				"blokflüt",
+				"boru",
+				"enstrüman",
+				"fife",
+				"fifre",
+				"flüt",
+				"kaval",
+				"müzik",
+				"nefesli",
+				"orkestra",
+				"recorder",
+				"üflemeli",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("флейта"),
+			keywords: &[
+				"блокфлейта",
+				"деревʼяні духові інструменти",
+				"дудка",
+				"музика",
+				"сопілка",
+				"флейта",
+				"інструмент",
+			],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بانسری"),
+			keywords: &["بانسری", "ریکارڈر", "ساز", "فائف", "موسیقی", "ووڈو\u{650}نڈ", "پائپ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("nay"),
+			keywords: &["ansambl", "fleyta", "guruh", "musiqa", "nay", "orkestr", "qamish", "quvur"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("sáo"),
+			keywords: &[
+				"ban nhạc",
+				"ban nhạc diễu hành",
+				"dàn nhạc giao hưởng",
+				"máy ghi âm",
+				"nhạc",
+				"nhạc cụ",
+				"nhạc cụ hơi bằng gỗ",
+				"sáo",
+				"âm nhạc",
+				"ống sáo",
+				"ống tiêu",
+			],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("fèrè"),
+			keywords: &["agbohunsile", "fere", "fèrè", "orin"],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("fèrè"),
+			keywords: &["agbohunsile", "fere", "fèrè", "orin"],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("長笛"),
+			keywords: &["木管樂器", "笛子", "管樂", "錄音機", "長笛", "音樂"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("长笛"),
+			keywords: &["录音机", "木管乐器", "笛子", "管乐", "长笛", "音乐"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("长笛"),
+			keywords: &[
+				"乐器",
+				"乐队",
+				"木管乐器",
+				"横笛",
+				"短笛",
+				"竖笛",
+				"管乐器",
+				"菲菲笛",
+				"长笛",
+				"长笛手",
+				"音乐",
+			],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("長笛"),
+			keywords: &[
+				"木管樂器",
+				"橫笛",
+				"直笛",
+				"管樂器",
+				"豎笛",
+				"長笛",
+				"長笛，木管樂，長笛手，樂隊，樂儀隊，短笛，管弦樂團，管樂器，豎笛，音樂，橫笛，樂器",
+				"音樂",
+			],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation {
+			lang:     "zh_Hant_HK",
+			tts:      Some("↑↑↑"),
+			keywords: &[
+				"木管樂",
+				"樂器",
+				"樂團",
+				"樂隊",
+				"橫笛",
+				"步操樂隊",
+				"牧童笛",
+				"短笛",
+				"笛",
+				"笛子",
+				"管弦樂",
+				"管樂",
+				"長笛",
+				"長笛手",
+			],
+		},
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("flute"),
+			keywords: &["fife", "flute", "music", "pipe", "recorder", "woodwind"],
+		},
+	],
+};
+#[doc = "🪉"]
+pub const HARP: crate::Emoji = crate::Emoji {
+	glyph:                "🪉",
+	codepoint:            &[129673u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 16u8, minor: 0u8, patch: 0u8 },
+	name:                 "harp",
+	group:                crate::Group::Objects,
+	subgroup:             crate::Subgroup::MusicalInstrument,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[
+		#[cfg(feature = "af")]
+		crate::Annotation {
+			lang:     "af",
+			tts:      Some("harp"),
+			keywords: &["Cupid", "Kupid", "harp", "instrument", "liefde musiek", "orkes"],
+		},
+		#[cfg(feature = "am")]
+		crate::Annotation {
+			lang:     "am",
+			tts:      Some("በገና"),
+			keywords: &["መሳሪያ", "ሙዚቃ", "በገና", "ኦርኬስትራ", "ኩፒድ", "ፍቅር"],
+		},
+		#[cfg(feature = "ar")]
+		crate::Annotation {
+			lang:     "ar",
+			tts:      Some("قيثارة"),
+			keywords: &["آلة", "أوركسترا", "قيثارة", "كيوبيد", "موسيقى"],
+		},
+		#[cfg(feature = "as")]
+		crate::Annotation {
+			lang:     "as",
+			tts:      Some("বীণ\u{9be}"),
+			keywords: &[
+				"অৰ\u{9cd}কেষ\u{9cd}ট\u{9cd}ৰ\u{9be}",
+				"কিউপিড",
+				"প\u{9cd}ৰেম",
+				"ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}ৰ",
+				"বীণ\u{9be}",
+				"সংগীত",
+			],
+		},
+		#[cfg(feature = "az")]
+		crate::Annotation {
+			lang:     "az",
+			tts:      Some("arfa"),
+			keywords: &["arfa", "instrument", "kupidon", "musiqi", "məhəbbət", "orkestr"],
+		},
+		#[cfg(feature = "be")]
+		crate::Annotation {
+			lang:     "be",
+			tts:      Some("арфа"),
+			keywords: &["аркестр", "арфа", "каханне", "купідон", "музыка", "інструмент"],
+		},
+		#[cfg(feature = "bg")]
+		crate::Annotation {
+			lang:     "bg",
+			tts:      Some("арфа"),
+			keywords: &["арфа", "инструмент", "купидон", "любов", "музика", "оркестър"],
+		},
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("হ\u{9be}র\u{9cd}প (বীণ\u{9be})"),
+			keywords: &[
+				"অর\u{9cd}কেস\u{9cd}ট\u{9cd}র\u{9be}",
+				"কিউপিড",
+				"ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}র",
+				"বীণ\u{9be}",
+				"ভ\u{9be}লোব\u{9be}স\u{9be}",
+				"সঙ\u{9cd}গীত",
+			],
+		},
+		#[cfg(feature = "bs")]
+		crate::Annotation {
+			lang:     "bs",
+			tts:      Some("harfa"),
+			keywords: &["cupid", "harfa", "instrument", "ljubav", "muzika", "orkestar"],
+		},
+		#[cfg(feature = "ca")]
+		crate::Annotation {
+			lang:     "ca",
+			tts:      Some("arpa"),
+			keywords: &["amor", "arpa", "cupido", "instrument", "música", "orquestra"],
+		},
+		#[cfg(feature = "chr")]
+		crate::Annotation {
+			lang:     "chr",
+			tts:      Some("ᏗᎧᏃᎩᏍᏙᏗ"),
+			keywords: &["ᎠᎨᏳᎢ", "ᎠᏂᏓᏪᎯ", "ᎪᎱᏍᏗ ᎬᏔᏂ", "ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏍᏙᏗ", "ᏗᏂᏃᎩᏍᏗᏍᎩ"],
+		},
+		#[cfg(feature = "cs")]
+		crate::Annotation {
+			lang:     "cs",
+			tts:      Some("harfa"),
+			keywords: &["amor", "harfa", "hudba", "láska", "nástroj", "orchestr"],
+		},
+		#[cfg(feature = "cy")]
+		crate::Annotation {
+			lang:     "cy",
+			tts:      Some("telyn"),
+			keywords: &["cariad", "cerddorfa", "cerddoriaeth", "ciwpid", "offeryn", "telyn"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("harpe"),
+			keywords: &["amor", "harpe", "instrument", "kærlighed", "musik", "orkester"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Harfe"),
+			keywords: &["Amor", "Cupido", "Harfe", "Instrument", "Liebe", "Musik", "Orchester"],
+		},
+		#[cfg(feature = "de_CH")]
+		crate::Annotation {
+			lang:     "de_CH",
+			tts:      Some("Harfe"),
+			keywords: &["Amor", "Harfe", "Instrument", "Liebe", "Musik", "Orchester"],
+		},
+		#[cfg(feature = "el")]
+		crate::Annotation {
+			lang:     "el",
+			tts:      Some("άρπα"),
+			keywords: &["άρπα", "έρωτας", "αγάπη", "μουσική", "ορχήστρα", "όργανο"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("harp"),
+			keywords: &["cupid", "harp", "instrument", "love", "music", "orchestra"],
+		},
+		#[cfg(feature = "en_AU")]
+		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_CA")]
+		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_GB")]
+		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en_IN")]
+		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("arpa"),
+			keywords: &["amor", "arpa", "cupido", "harpa", "instrumento", "música", "orquesta"],
+		},
+		#[cfg(feature = "es_419")]
+		crate::Annotation {
+			lang:     "es_419",
+			tts:      Some("↑↑↑"),
+			keywords: &["amor", "angelical", "cuerdas", "cupido", "instrumento", "música", "orquesta"],
+		},
+		#[cfg(feature = "es_MX")]
+		crate::Annotation {
+			lang:     "es_MX",
+			tts:      Some("arpa"),
+			keywords: &["amor", "arpa", "cupido", "instrumento", "música", "orquesta"],
+		},
+		#[cfg(feature = "es_US")]
+		crate::Annotation {
+			lang:     "es_US",
+			tts:      Some("harpa"),
+			keywords: &["amor", "cupido", "instrumento", "música", "orquesta"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("harf"),
+			keywords: &["Cupido", "armastus", "harf", "instrument", "muusika", "orkester"],
+		},
+		#[cfg(feature = "eu")]
+		crate::Annotation {
+			lang:     "eu",
+			tts:      Some("harpa"),
+			keywords: &[
+				"harpa",
+				"instrumentua",
+				"kupido",
+				"maitasuna",
+				"musika",
+				"musika-instrumentua",
+				"musika-tresna",
+				"orkestra",
+			],
+		},
+		#[cfg(feature = "fa")]
+		crate::Annotation {
+			lang:     "fa",
+			tts:      Some("چنگ"),
+			keywords: &["ارکستر", "خدای عشق", "ساز", "عشق", "موسیقی", "چنگ"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("harppu"),
+			keywords: &["harppu", "musiikki", "orkesteri", "rakkaus", "soitin"],
+		},
+		#[cfg(feature = "fil")]
+		crate::Annotation {
+			lang:     "fil",
+			tts:      Some("alpa"),
+			keywords: &["alpa", "instrumento", "kupido", "musika", "orkestra", "pag-ibig"],
+		},
+		#[cfg(feature = "fo")]
+		crate::Annotation {
+			lang:     "fo",
+			tts:      Some("harpa"),
+			keywords: &["Amor", "harpa", "ljóðføri", "tónleikur"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("harpe"),
+			keywords: &["amour", "cupidon", "harpe", "instrument", "musique", "orchestre"],
+		},
+		#[cfg(feature = "fr_CA")]
+		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ga")]
+		crate::Annotation {
+			lang:     "ga",
+			tts:      Some("cláirseach"),
+			keywords: &["ceol", "ceolfhoireann", "cúipid", "grá", "uirlis"],
+		},
+		#[cfg(feature = "gd")]
+		crate::Annotation {
+			lang:     "gd",
+			tts:      Some("clàrsach"),
+			keywords: &[
+				"ceòl",
+				"clàrsach",
+				"cruit",
+				"cupaid",
+				"foireann-ciùil",
+				"gaol",
+				"inneal-ciùil",
+				"ionnsramaid",
+				"orcastra",
+			],
+		},
+		#[cfg(feature = "gl")]
+		crate::Annotation {
+			lang:     "gl",
+			tts:      Some("arpa"),
+			keywords: &["amor", "cupido", "instrumento", "música", "orquestra"],
+		},
+		#[cfg(feature = "gu")]
+		crate::Annotation {
+			lang:     "gu",
+			tts:      Some("હાર\u{acd}પ"),
+			keywords: &["ક\u{acd}ય\u{ac2}પિડ", "ત\u{a82}ત\u{ac1}વાદ\u{acd}ય", "સ\u{a82}ગીત"],
+		},
+		#[cfg(feature = "ha")]
+		crate::Annotation {
+			lang:     "ha",
+			tts:      Some("abin kiɗa na harp"),
+			keywords: &["abin kiɗa na harp", "cupid", "kaya", "kayayyaki kiɗa", "kiɗa", "soyayya"],
+		},
+		#[cfg(feature = "ha_NE")]
+		crate::Annotation {
+			lang:     "ha_NE",
+			tts:      Some("abin kiɗa na harp"),
+			keywords: &["abin kiɗa na harp", "cupid", "kaya", "kayayyaki kiɗa", "kiɗa", "soyayya"],
+		},
+		#[cfg(feature = "he")]
+		crate::Annotation {
+			lang:     "he",
+			tts:      Some("נבל"),
+			keywords: &["אהבה", "מוזיקה", "נבל", "פריטה", "קופידון"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("वीणा"),
+			keywords: &[
+				"ऑर\u{94d}क\u{947}स\u{94d}ट\u{94d}रा",
+				"कामद\u{947}व",
+				"प\u{94d}यार",
+				"य\u{902}त\u{94d}र",
+				"वीणा",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "hr")]
+		crate::Annotation {
+			lang:     "hr",
+			tts:      Some("harfa"),
+			keywords: &["glazba", "harfa", "instrument", "kupidon", "ljubav", "orkestar"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hárfa"),
+			keywords: &["hangszer", "hárfa", "szerelem", "zene", "zenekar", "Ámor"],
+		},
+		#[cfg(feature = "hy")]
+		crate::Annotation {
+			lang:     "hy",
+			tts:      Some("տավիղ"),
+			keywords: &["Կուպիդոն", "գործիք", "երաժշտություն", "նվագախումբ", "սեր", "տավիղ"],
+		},
+		#[cfg(feature = "id")]
+		crate::Annotation {
+			lang:     "id",
+			tts:      Some("harpa"),
+			keywords: &["cupid", "harpa", "instrumen", "musik", "orkestra", "romantis"],
+		},
+		#[cfg(feature = "ig")]
+		crate::Annotation {
+			lang:     "ig",
+			tts:      Some("ụbọ akwara"),
+			keywords: &["chi nke ịhụnanya", "egwu", "ngwa", "ìgwè egwu", "ịhụnanya"],
+		},
+		#[cfg(feature = "is")]
+		crate::Annotation {
+			lang:     "is",
+			tts:      Some("harpa"),
+			keywords: &["amor", "harpa", "hljómsveit", "hljóðfæri", "tónlist", "ást"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("arpa"),
+			keywords: &["amore", "arpa", "cupido", "musica", "orchestra", "strumento"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ハープ"),
+			keywords: &["オーケストラ", "キューピッド", "ハープ", "弦楽器", "愛", "楽器", "音楽"],
+		},
+		#[cfg(feature = "jv")]
+		crate::Annotation {
+			lang:     "jv",
+			tts:      Some("harpa"),
+			keywords: &["dewa asmara", "harpa", "instrumen", "katresnan", "musik", "orkestra"],
+		},
+		#[cfg(feature = "ka")]
+		crate::Annotation {
+			lang:     "ka",
+			tts:      Some("არფა"),
+			keywords: &["არფა", "ინსტრუმენტი", "კუპიდონი", "მუსიკა", "ორკესტრი", "სიყვარული"],
+		},
+		#[cfg(feature = "kk")]
+		crate::Annotation {
+			lang:     "kk",
+			tts:      Some("арфа"),
+			keywords: &[
+				"амур",
+				"арфа",
+				"аспап",
+				"купидон",
+				"махаббат",
+				"музыка",
+				"оркестр",
+				"саз",
+				"сезім",
+			],
+		},
+		#[cfg(feature = "km")]
+		crate::Annotation {
+			lang:     "km",
+			tts:      Some("ព\u{17b7}ណ"),
+			keywords: &[
+				"កាមទេព",
+				"តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+				"ព\u{17b7}ណ",
+				"វង\u{17cb}តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+				"វង\u{17cb}ភ\u{17d2}លេង",
+				"ស\u{17d2}នេហា",
+				"ស\u{17d2}នេហ\u{17cd}",
+				"ស\u{17d2}រឡាញ\u{17cb}",
+				"ឧបករណ\u{17cd}",
+			],
+		},
+		#[cfg(feature = "kn")]
+		crate::Annotation {
+			lang:     "kn",
+			tts:      Some("ಹಾರ\u{ccd}ಪ\u{ccd}"),
+			keywords: &[
+				"ಆರ\u{ccd}ಕ\u{cc6}ಸ\u{ccd}ಟ\u{ccd}ರಾ",
+				"ಕ\u{ccd}ಯುಪ\u{cbf}ಡ\u{ccd}",
+				"ಪ\u{ccd}ರ\u{cc0}ತ\u{cbf}",
+				"ವಾದ\u{ccd}ಯ",
+				"ಸಂಗ\u{cc0}ತ",
+				"ಹಾರ\u{ccd}ಪ\u{ccd}",
+			],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("하프"),
+			keywords: &["관현악", "사랑", "악기", "연주", "음악", "큐피드", "하프"],
+		},
+		#[cfg(feature = "kok")]
+		crate::Annotation {
+			lang:     "kok",
+			tts:      Some("वीणा"),
+			keywords: &[
+				"कामद\u{947}व",
+				"मोग",
+				"वाद\u{94d}य",
+				"वाद\u{94d}यव\u{943}\u{902}द",
+				"वीणा",
+				"स\u{902}गीत",
+			],
+		},
+		#[cfg(feature = "ky")]
+		crate::Annotation {
+			lang:     "ky",
+			tts:      Some("арфа"),
+			keywords: &["арфа", "аспап", "купидон", "музыка", "оркестр", "сүйүү"],
+		},
+		#[cfg(feature = "lo")]
+		crate::Annotation {
+			lang:     "lo",
+			tts:      Some("ພ\u{eb4}ນ"),
+			keywords: &["ຄວາມຮ\u{eb1}ກ", "ດ\u{ebb}ນຕ\u{eb5}", "ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("arfa"),
+			keywords: &["arfa", "instrumentas", "kupidonas", "meilė", "muzika", "orkestras"],
+		},
+		#[cfg(feature = "lv")]
+		crate::Annotation {
+			lang:     "lv",
+			tts:      Some("arfa"),
+			keywords: &["arfa", "instruments", "kupidons", "mīlestība", "mūzika", "orķestris"],
+		},
+		#[cfg(feature = "mk")]
+		crate::Annotation {
+			lang:     "mk",
+			tts:      Some("харфа"),
+			keywords: &["инструмент", "купидон", "музика", "оркестар", "харфа", "љубов"],
+		},
+		#[cfg(feature = "ml")]
+		crate::Annotation {
+			lang:     "ml",
+			tts:      Some("കിന\u{d4d}നരം"),
+			keywords: &[
+				"ഓർക\u{d4d}കസ\u{d4d}ട\u{d4d}ര",
+				"സംഗീതം",
+				"സംഗീതോപകരണം",
+				"ഹ\u{d3e}ർപ\u{d4d}പ\u{d4d}",
+			],
+		},
+		#[cfg(feature = "mn")]
+		crate::Annotation {
+			lang:     "mn",
+			tts:      Some("ятга"),
+			keywords: &["дурлалын бурхан", "найрал хөгжим", "хайр", "хөгжим", "хөгжмийн зэмсэг", "ятга"],
+		},
+		#[cfg(feature = "mr")]
+		crate::Annotation {
+			lang:     "mr",
+			tts:      Some("हार\u{94d}प"),
+			keywords: &[
+				"कामद\u{947}व",
+				"प\u{94d}र\u{947}म",
+				"वाद\u{94d}य",
+				"वाद\u{94d}यव\u{943}\u{902}द",
+				"स\u{902}गीत",
+				"हार\u{94d}प",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("hap"),
+			keywords: &["alat muzik", "cinta", "dewa asmara", "kupid", "muzik", "orkestra"],
+		},
+		#[cfg(feature = "my")]
+		crate::Annotation {
+			lang:     "my",
+			tts:      Some("စောင\u{103a}း"),
+			keywords: &[
+				"စောင\u{103a}း",
+				"တ\u{102e}းဝ\u{102d}\u{102f}င\u{103a}း",
+				"တ\u{1030}ရ\u{102d}ယာ",
+				"တေးဂ\u{102e}တ",
+			],
+		},
+		#[cfg(feature = "ne")]
+		crate::Annotation {
+			lang:     "ne",
+			tts:      Some("हार\u{94d}प"),
+			keywords: &[
+				"आर\u{94d}क\u{947}स\u{94d}ट\u{94d}रा",
+				"कामद\u{947}व",
+				"प\u{94d}र\u{947}म",
+				"वाद\u{94d}य उपकरण",
+				"सङ\u{94d}गीत",
+				"हार\u{94d}प",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("harp"),
+			keywords: &["cupido", "harp", "instrument", "liefde", "muziek", "orkestra"],
+		},
+		#[cfg(feature = "nn")]
+		crate::Annotation {
+			lang:     "nn",
+			tts:      Some("↑↑↑"),
+			keywords: &["amor", "harpe", "instrument", "kjærleik", "musikk", "orkester"],
+		},
+		#[cfg(feature = "or")]
+		crate::Annotation {
+			lang:     "or",
+			tts:      Some("ହ\u{b3e}ର\u{b4d}ପ\u{b4d}\u{200c}"),
+			keywords: &[
+				"ଅର\u{b4d}କେଷ\u{b4d}ଟ\u{b4d}ର\u{b3e}",
+				"କ\u{200d}\u{b4d}ୟ\u{b41}ପ\u{b3f}ଡ\u{b4d}",
+				"ପସନ\u{b4d}ଦ",
+				"ବ\u{b3e}ଦ\u{200d}\u{b4d}ୟଯନ\u{b4d}ତ\u{b4d}ର",
+				"ସଙ\u{b4d}ଗୀତ",
+				"ହ\u{b3e}ର\u{b4d}ପ\u{b4d}",
+			],
+		},
+		#[cfg(feature = "pa")]
+		crate::Annotation {
+			lang:     "pa",
+			tts:      Some("ਹਾਰਪ"),
+			keywords: &["ਆਰਕ\u{a48}ਸਟਰਾ", "ਪਿਆਰ", "ਸਾਜ\u{a3c}", "ਸ\u{a70}ਗੀਤ", "ਹਾਰਪ"],
+		},
+		#[cfg(feature = "pcm")]
+		crate::Annotation {
+			lang:     "pcm",
+			tts:      Some("háp"),
+			keywords: &["háp", "kíupíd", "lọv", "miúzík", "okestrá", "ínstrument"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("harfa"),
+			keywords: &["amorek", "harfa", "instrument", "miłość", "muzyka", "orkiestra"],
+		},
+		#[cfg(feature = "ps")]
+		crate::Annotation {
+			lang:     "ps",
+			tts:      Some("هارپ"),
+			keywords: &["آرکسټرا", "موسيقي", "مینه", "هارپ", "وسیله", "کامدیو"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("harpa"),
+			keywords: &["amor", "cupido", "harpa", "instrumento", "música", "orquestra"],
+		},
+		#[cfg(feature = "pt_PT")]
+		crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "ro")]
+		crate::Annotation {
+			lang:     "ro",
+			tts:      Some("harpă"),
+			keywords: &["cupidon", "dragoste", "harpă", "instrument", "muzică", "orchestră"],
+		},
+		#[cfg(feature = "root")]
+		crate::Annotation { lang: "root", tts: Some("E16-001"), keywords: &["E16-001"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("арфа"),
+			keywords: &["ангелочек", "арфа", "инструмент", "купидон", "любовь", "музыка", "оркестр"],
+		},
+		#[cfg(feature = "sd")]
+		crate::Annotation {
+			lang:     "sd",
+			tts:      Some("سرندو"),
+			keywords: &["ساز", "سرندو", "موسيقي", "پيار", "ڪيوپڊ", "ڳائڻن جي ٽولي"],
+		},
+		#[cfg(feature = "si")]
+		crate::Annotation {
+			lang:     "si",
+			tts:      Some("ව\u{dd3}ණ\u{dcf}ව"),
+			keywords: &[
+				"ආදරය",
+				"උපකරණය",
+				"ව\u{dcf}ද\u{dca}\u{200d}ය වෘන\u{dca}දය",
+				"ව\u{dd3}ණ\u{dcf}",
+				"සංග\u{dd3}තය",
+			],
+		},
+		#[cfg(feature = "sk")]
+		crate::Annotation {
+			lang:     "sk",
+			tts:      Some("harfa"),
+			keywords: &["harfa", "hudba", "hudobný", "láska", "nástroj"],
+		},
+		#[cfg(feature = "sl")]
+		crate::Annotation {
+			lang:     "sl",
+			tts:      Some("harfa"),
+			keywords: &["glasba", "glasbilo", "harfa", "kupido", "ljubezen", "orkester"],
+		},
+		#[cfg(feature = "so")]
+		crate::Annotation {
+			lang:     "so",
+			tts:      Some("gitaar"),
+			keywords: &["cupid", "gitaar", "jacayl", "muusig", "qalab", "qalab muusig wada-garaacista"],
+		},
+		#[cfg(feature = "sq")]
+		crate::Annotation {
+			lang:     "sq",
+			tts:      Some("harpë"),
+			keywords: &["dashuri", "harpë", "instrument", "kupid", "muzikë", "orkestër"],
+		},
+		#[cfg(feature = "sr")]
+		crate::Annotation {
+			lang:     "sr",
+			tts:      Some("харфа"),
+			keywords: &["инструмент", "купидон", "музика", "оркестар", "харфа", "љубав"],
+		},
+		#[cfg(feature = "sr_Cyrl_BA")]
+		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sr_Latn")]
+		crate::Annotation {
+			lang:     "sr_Latn",
+			tts:      Some("harfa"),
+			keywords: &["harfa", "instrument", "kupidon", "ljubav", "muzika", "orkestar"],
+		},
+		#[cfg(feature = "sr_Latn_BA")]
+		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("harpa"),
+			keywords: &["amor", "harpa", "instrument", "musik", "orkester", "romantik"],
+		},
+		#[cfg(feature = "sw")]
+		crate::Annotation {
+			lang:     "sw",
+			tts:      Some("kinubi"),
+			keywords: &["ala", "alama ya mapenzi", "kinubi", "mapenzi", "muziki", "okestra"],
+		},
+		#[cfg(feature = "ta")]
+		crate::Annotation {
+			lang:     "ta",
+			tts:      Some("ய\u{bbe}ழ\u{bcd}"),
+			keywords: &[
+				"இசை",
+				"இசைக\u{bcd}குழு",
+				"கருவி",
+				"க\u{bbe}தல\u{bcd}",
+				"மன\u{bcd}மதன\u{bcd}",
+				"ய\u{bbe}ழ\u{bcd}",
+			],
+		},
+		#[cfg(feature = "te")]
+		crate::Annotation {
+			lang:     "te",
+			tts:      Some("వ\u{c40}ణ"),
+			keywords: &[
+				"ఆర\u{c4d}క\u{c46}స\u{c4d}ట\u{c4d}ర\u{c3e}",
+				"ప\u{c4d}ర\u{c47}మ",
+				"మన\u{c4d}మథుడు",
+				"వ\u{c3e}య\u{c3f}ద\u{c4d}యం",
+				"వ\u{c40}ణ",
+				"సంగ\u{c40}తం",
+			],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ฮาร\u{e4c}ป"),
+			keywords: &[
+				"ดนตร\u{e35}",
+				"พ\u{e34}ณฝร\u{e31}\u{e48}ง",
+				"ออร\u{e4c}เคสตรา",
+				"ฮาร\u{e4c}ป",
+				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
+				"เคร\u{e37}\u{e48}องสาย",
+			],
+		},
+		#[cfg(feature = "ti")]
+		crate::Annotation {
+			lang:     "ti",
+			tts:      Some("በገና"),
+			keywords: &["መሳርሒ ሙዚቃ", "ሙዚቃ", "በገና", "ኦርኬስትራ", "ኩፒድ", "ፍቕሪ"],
+		},
+		#[cfg(feature = "tk")]
+		crate::Annotation {
+			lang:     "tk",
+			tts:      Some("arfa"),
+			keywords: &["arfa", "aýdym", "orkestr", "saz", "saz guraly", "sazanda", "söýgi"],
+		},
+		#[cfg(feature = "to")]
+		crate::Annotation {
+			lang:     "to",
+			tts:      Some("haʻape"),
+			keywords: &["fasi", "haʻape", "kau ifi", "meʻalea", "ʻofa"],
+		},
+		#[cfg(feature = "tr")]
+		crate::Annotation {
+			lang:     "tr",
+			tts:      Some("arp"),
+			keywords: &["arp", "aşk", "enstrüman", "eros", "müzik", "orkestra"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("арфа"),
+			keywords: &["амур", "купідон", "любов", "музика", "оркестр", "інструмент"],
+		},
+		#[cfg(feature = "ur")]
+		crate::Annotation {
+			lang:     "ur",
+			tts:      Some("بربط"),
+			keywords: &["آرکسٹرا", "آلہ", "بربط", "مسیقی", "پیار", "کیوپڈ"],
+		},
+		#[cfg(feature = "uz")]
+		crate::Annotation {
+			lang:     "uz",
+			tts:      Some("arfa"),
+			keywords: &["arfa", "cholg‘u asbobi", "kupidon", "musiqa", "orkestr", "sevgi"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đàn hạc"),
+			keywords: &["dàn nhạc", "nhạc cụ", "thần tình yêu", "tình yêu", "âm nhạc"],
+		},
+		#[cfg(feature = "yo")]
+		crate::Annotation {
+			lang:     "yo",
+			tts:      Some("háàpù"),
+			keywords: &[
+				"háàpù",
+				"ohun èlò",
+				"orin",
+				"ìfẹ\u{301}",
+				"òrìṣà ìfẹ\u{301}",
+				"ẹgbẹ\u{301} akọrin",
+			],
+		},
+		#[cfg(feature = "yo_BJ")]
+		crate::Annotation {
+			lang:     "yo_BJ",
+			tts:      Some("háàpù"),
+			keywords: &[
+				"háàpù",
+				"ohun èlò",
+				"orin",
+				"ìfɛ\u{301}",
+				"òrìshà ìfɛ\u{301}",
+				"ɛgbɛ\u{301} akɔrin",
+			],
+		},
+		#[cfg(feature = "yue")]
+		crate::Annotation {
+			lang:     "yue",
+			tts:      Some("豎琴"),
+			keywords: &["愛", "愛神", "樂器", "管弦樂隊", "豎琴", "邱比特", "音樂"],
+		},
+		#[cfg(feature = "yue_Hans")]
+		crate::Annotation {
+			lang:     "yue_Hans",
+			tts:      Some("竖琴"),
+			keywords: &["乐器", "爱", "爱神", "竖琴", "管弦乐队", "邱比特", "音乐"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("竖琴"),
+			keywords: &["丘比特", "乐器", "爱", "竖琴", "管弦乐队", "音乐"],
+		},
+		#[cfg(feature = "zh_Hant")]
+		crate::Annotation {
+			lang:     "zh_Hant",
+			tts:      Some("豎琴"),
+			keywords: &["丘比特", "愛", "樂器", "樂團", "豎琴", "音樂"],
+		},
+		#[cfg(feature = "zh_Hant_HK")]
+		crate::Annotation { lang: "zh_Hant_HK", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "zu")]
+		crate::Annotation {
+			lang:     "zu",
+			tts:      Some("harp"),
+			keywords: &["cupid", "harp", "instrument", "love", "music", "orchestra"],
+		},
+	],
+};
 #[doc = "🎹"]
 pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
 	glyph:                "🎹",
@@ -9938,798 +10730,6 @@ pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
 			lang:     "zu",
 			tts:      Some("ikhibhodi yomculo"),
 			keywords: &["ikhibhodi", "ikhibhodi yomculo", "insimbi", "umculo", "uphiyano"],
-		},
-	],
-};
-#[doc = "🎸"]
-pub const GUITAR: crate::Emoji = crate::Emoji {
-	glyph:                "🎸",
-	codepoint:            &[127928u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 0u8, minor: 6u8, patch: 0u8 },
-	name:                 "guitar",
-	group:                crate::Group::Objects,
-	subgroup:             crate::Subgroup::MusicalInstrument,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("kitaar"),
-			keywords: &[
-				"elektriese kitaar",
-				"ghitaar",
-				"instrument",
-				"kitaar",
-				"musiek",
-				"snaarinstrument",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ጊታር"),
-			keywords: &["መሣሪያ", "ሙዚቃ", "ኤሌክትሪክ ጊታር", "የሙዚቃ ጊታር", "ጊታር"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("غيتار"),
-			keywords: &["آلة", "آلة موسيقية", "روك", "غيتار", "موسيقى", "نغم"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("গীট\u{9be}ৰ"),
-			keywords: &["গীট\u{9be}ৰ", "ব\u{9be}দ\u{9cd}যযন\u{9cd}ত\u{9cd}ৰ", "সংগীত"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("gitara"),
-			keywords: &["alət", "gitara", "musiqi", "musiqi aləti"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("гітара"),
-			keywords: &["гітара", "музыка", "музычны", "шчыпковы", "інструмент"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("китара"),
-			keywords: &["инструмент", "китара", "музика"],
-		},
-		#[cfg(feature = "bn")]
-		crate::Annotation {
-			lang:     "bn",
-			tts:      Some("গিট\u{9be}র"),
-			keywords: &["গিট\u{9be}র", "সঙ\u{9cd}গীত", "সঙ\u{9cd}গীত যন\u{9cd}ত\u{9cd}র"],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("gitar"),
-			keywords: &["benveg", "gitar", "sonerezh"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "instrument", "muzika"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("guitarra"),
-			keywords: &["Stratocaster", "corda", "guitarra", "instrument", "música", "rock"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄉\u{11128}𑄑𑄢\u{11134}"),
-			keywords: &["𑄉\u{11128}𑄑𑄢\u{11134}"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏗᏇᏄᎩᏍᏗ"),
-			keywords: &["ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏍᏙᏗ", "ᏗᏇᏄᎩᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("kytara"),
-			keywords: &[
-				"Fender",
-				"Stratocaster",
-				"elektrická kytara",
-				"hudba",
-				"hudební nástroj",
-				"kytara",
-				"nástroj",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("gitâr"),
-			keywords: &["cerddoriaeth", "gitâr", "offeyrn"],
-		},
-		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("guitar"),
-			keywords: &[
-				"elektrisk guitar",
-				"elguitar",
-				"guitar",
-				"instrument",
-				"musik",
-				"musikinstrument",
-				"strengeinstrument",
-			],
-		},
-		#[cfg(feature = "de")]
-		crate::Annotation {
-			lang:     "de",
-			tts:      Some("Gitarre"),
-			keywords: &["Gitarre", "Instrument", "Musik", "Musikinstrument"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("κιθάρα"),
-			keywords: &["κιθάρα", "μουσική", "όργανο"],
-		},
-		#[cfg(feature = "en")]
-		crate::Annotation {
-			lang:     "en",
-			tts:      Some("guitar"),
-			keywords: &["guitar", "instrument", "music", "strat"],
-		},
-		#[cfg(feature = "en_001")]
-		crate::Annotation {
-			lang:     "en_001",
-			tts:      None,
-			keywords: &["guitar", "instrument", "music"],
-		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation {
-			lang:     "en_GB",
-			tts:      Some("↑↑↑"),
-			keywords: &["guitar", "instrument", "music"],
-		},
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es")]
-		crate::Annotation {
-			lang:     "es",
-			tts:      Some("guitarra"),
-			keywords: &["guitarra", "instrumento", "instrumento musical", "música"],
-		},
-		#[cfg(feature = "es_419")]
-		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["guitarra", "instrumento", "instrumento musical", "música", "rock"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["guitarra", "instrumento", "música"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "et")]
-		crate::Annotation {
-			lang:     "et",
-			tts:      Some("kitarr"),
-			keywords: &["kitarr", "muusika", "pill"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("gitarra"),
-			keywords: &["gitarra", "musika", "tresna"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("گیتار"),
-			keywords: &["الکتریک", "راک", "ساز", "موسیقی", "گیتار"],
-		},
-		#[cfg(feature = "fi")]
-		crate::Annotation {
-			lang:     "fi",
-			tts:      Some("kitara"),
-			keywords: &["instrumentti", "kitara", "musiikki"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "instrumento", "musika", "pangtugtog", "stratocaster"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gittari"),
-			keywords: &["gittari", "ljóðføri", "tónleikur"],
-		},
-		#[cfg(feature = "fr")]
-		crate::Annotation {
-			lang:     "fr",
-			tts:      Some("guitare"),
-			keywords: &["guitare", "guitare électrique", "instrument", "musique"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("giotár"),
-			keywords: &["ceol", "giotár", "uirlis"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("giotàr"),
-			keywords: &["ceòl", "giotàr", "inneal-ciùil", "ionnsramaid"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("guitarra"),
-			keywords: &["guitarra", "instrumento"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ગિટાર"),
-			keywords: &["ગિટાર", "વાદ\u{acd}ય", "સ\u{a82}ગીત"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("jita"),
-			keywords: &["gurmi", "gurmin bature", "jita", "kayan kiɗa", "kiɗa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("jita"),
-			keywords: &["gurmi", "gurmin bature", "jita", "kayan kiɗa", "kiɗa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("גיטרה"),
-			keywords: &["גיטרה", "חשמלית", "כלי נגינה", "מוזיקה", "מוסיקה", "רוק"],
-		},
-		#[cfg(feature = "hi")]
-		crate::Annotation {
-			lang:     "hi",
-			tts:      Some("गिटार"),
-			keywords: &[
-				"गिटार",
-				"वाद\u{94d}यय\u{902}त\u{94d}र",
-				"स\u{902}गीत",
-				"स\u{902}गीत वाद\u{94d}य",
-			],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "glazba", "instrument"],
-		},
-		#[cfg(feature = "hu")]
-		crate::Annotation {
-			lang:     "hu",
-			tts:      Some("gitár"),
-			keywords: &["elektromos gitár", "gitár", "hangszer", "zene"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("կիթառ"),
-			keywords: &["գործիք", "երաժշտություն", "կիթառ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("gitar"),
-			keywords: &["gitar", "instrumen", "musik"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ụbọ"),
-			keywords: &["egwu", "ngwaegwu", "ụbọ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("gítar"),
-			keywords: &["gítar", "hljóðfæri", "tónlist"],
-		},
-		#[cfg(feature = "it")]
-		crate::Annotation {
-			lang:     "it",
-			tts:      Some("chitarra"),
-			keywords: &[
-				"band",
-				"basso",
-				"chitarra",
-				"corde",
-				"elettrica",
-				"musica",
-				"rock",
-				"strumento",
-				"strumento musicale",
-				"suonare",
-			],
-		},
-		#[cfg(feature = "ja")]
-		crate::Annotation {
-			lang:     "ja",
-			tts:      Some("ギター"),
-			keywords: &["エレキギター", "ギター", "楽器", "音楽"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("gitar"),
-			keywords: &["gitar", "instrumen", "musik"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("გიტარა"),
-			keywords: &["გიტარა", "ინსტრუმენტი", "მუსიკა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("snitra"), keywords: &["snitra"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("гитара"),
-			keywords: &["гитара", "музыка", "ішекті", "құрал"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("guitar"),
-			keywords: &["guitar", "instrument", "musik", "musikinstrument", "strengeinstrument"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ហ\u{17d2}គ\u{17b8}តា"),
-			keywords: &["សម\u{17d2}លេង", "ហ\u{17d2}គ\u{17b8}តា"],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಗ\u{cbf}ಟಾರ\u{ccd}"),
-			keywords: &[
-				"ಗ\u{cbf}ಟಾರ\u{ccd}",
-				"ವಾದ\u{ccd}ಯ",
-				"ಸಂಗ\u{cc0}ತ",
-				"ಸ\u{ccd}ಟ\u{ccd}ರಾಟ\u{ccb}ಕಾಸ\u{ccd}ಟರ\u{ccd}",
-				"ಸ\u{ccd}ಥರ",
-			],
-		},
-		#[cfg(feature = "ko")]
-		crate::Annotation {
-			lang:     "ko",
-			tts:      Some("기타"),
-			keywords: &["기타", "스트라토", "스트라토캐스터", "악기", "연주", "음악", "통기타"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("गिटार"),
-			keywords: &["गिटार", "वाद\u{94d}य", "स\u{902}गीत"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("гитара"),
-			keywords: &["аспап", "гитара", "музыка"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Gittar"),
-			keywords: &["Gittar", "Instrument", "Musek"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ກ\u{eb5}ຕາ"),
-			keywords: &["ກ\u{eb5}ຕາ", "ເຄ\u{eb7}\u{ec8}ອງດ\u{ebb}ນຕ\u{eb5}"],
-		},
-		#[cfg(feature = "lt")]
-		crate::Annotation {
-			lang:     "lt",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "instrumentas", "muzika"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("ģitāra"),
-			keywords: &["instruments", "mūzika", "ģitāra"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("kitā"),
-			keywords: &["kitā", "puoro", "whakatangi"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("гитара"),
-			keywords: &["гитара", "електрична", "инструмент", "музика"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഗിറ\u{d4d}റ\u{d3e}ർ"),
-			keywords: &["ഗിറ\u{d4d}റ\u{d3e}ർ", "സംഗീതം", "സംഗീതോപകരണം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang: "mn", tts: Some("гитар"), keywords: &["гитар", "хөгжим"]
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("गिटार"),
-			keywords: &["गिटार", "वाद\u{94d}यव\u{943}\u{902}द", "स\u{902}गीत"],
-		},
-		#[cfg(feature = "ms")]
-		crate::Annotation {
-			lang:     "ms",
-			tts:      Some("gitar"),
-			keywords: &["alat", "gitar", "muzik"],
-		},
-		#[cfg(feature = "mt")]
-		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("kitarra"),
-			keywords: &["kitarra", "mużika", "strument"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဂစ\u{103a}တာ"),
-			keywords: &["ဂစ\u{103a}တာ", "တ\u{1030}ရ\u{102d}ယာ", "တေးဂ\u{102e}တ"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("गितार"),
-			keywords: &["उपकरण", "गितार", "स\u{902}गीत"],
-		},
-		#[cfg(feature = "nl")]
-		crate::Annotation {
-			lang:     "nl",
-			tts:      Some("gitaar"),
-			keywords: &["gitaar", "instrument", "muziek", "muziekinstrument", "strat", "stratocaster"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଗ\u{b3f}ଟ\u{b3e}ର\u{b4d}"),
-			keywords: &[
-				"ଉପକରଣ",
-				"ଗ\u{b3f}ଟ\u{b3e}ର\u{b4d}",
-				"ସଙ\u{b4d}ଗୀତ ଭ\u{b3f}ତ\u{b4d}ତ\u{b3f}କ ଉପକରଣ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਗਿਟਾਰ"),
-			keywords: &[
-				"ਇਲ\u{a48}ਕਟ\u{a4d}ਰਿਕ ਗਿਟਾਰ",
-				"ਗਾਣਾ",
-				"ਗਿਟਾਰ",
-				"ਮਿਊਜਿਕ",
-				"ਸਾਜ\u{a3c}",
-				"ਸ\u{a70}ਗੀਤ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("گٹار"),
-			keywords: &["آلات", "موسیقی", "گٹار"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Gita"),
-			keywords: &["Gita", "Miúzik", "Ínstrúmẹnt"],
-		},
-		#[cfg(feature = "pl")]
-		crate::Annotation {
-			lang:     "pl",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "instrument", "muzyka"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("ګیتار"),
-			keywords: &["اله", "موسيقي", "ګيتار", "ګیتار"],
-		},
-		#[cfg(feature = "pt")]
-		crate::Annotation {
-			lang:     "pt",
-			tts:      Some("guitarra"),
-			keywords: &["guitarra", "instrumento", "instrumento musical", "música"],
-		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("guitarra elétrica"),
-			keywords: &["guitarra", "guitarra elétrica", "instrumento", "instrumento musical", "música"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("guitarra"),
-			keywords: &["guitarra", "instrumento", "takiy"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("chitară"),
-			keywords: &["chitară", "instrument", "instrument muzical", "muzică", "strat"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-376"), keywords: &["E10-376"] },
-		#[cfg(feature = "ru")]
-		crate::Annotation {
-			lang:     "ru",
-			tts:      Some("гитара"),
-			keywords: &["гитара", "гитарист", "инструмент", "концерт", "музыка", "музыкальный", "рок"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("gitari"),
-			keywords: &["gitari", "igikoresho", "umuziki"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("گٽار"),
-			keywords: &["آلو", "موسيقي", "گٽار"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ග\u{dd2}ට\u{dcf}රය"),
-			keywords: &["උපකරණය", "ග\u{dd2}ට\u{dcf}රය", "සංග\u{dd3}තය"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("gitara"),
-			keywords: &["elektrická gitara", "gitara", "hudba", "nástroj", "zvuk", "zábava"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("kitara"),
-			keywords: &["glasba", "glasbilo", "instrument", "kitara"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("giitaar"),
-			keywords: &["giitaar", "muusik", "qalab"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("kitarë"),
-			keywords: &["instrument", "kitarë", "muzikë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("гитара"),
-			keywords: &["гитара", "инструмeнт", "музика"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("gitara"),
-			keywords: &["gitara", "instrument", "muzika"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sv")]
-		crate::Annotation {
-			lang:     "sv",
-			tts:      Some("gitarr"),
-			keywords: &["elgitarr", "gitarr", "musik", "musikinstrument"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("gita"),
-			keywords: &["ala", "gita", "muziki"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("கிட\u{bcd}ட\u{bbe}ர\u{bcd}"),
-			keywords: &[
-				"இசை",
-				"இசைக\u{bcd}கருவி",
-				"எலக\u{bcd}ட\u{bcd}ரிக\u{bcd} கிட\u{bcd}ட\u{bbe}ர\u{bcd}",
-				"எலக\u{bcd}ட\u{bcd}ரிக\u{bcd} கித\u{bbe}ர\u{bcd}",
-				"கிட\u{bcd}ட\u{bbe}ர\u{bcd}",
-				"கித\u{bbe}ர\u{bcd}",
-				"மேற\u{bcd}கத\u{bcd}திய",
-				"வெஸ\u{bcd}டர\u{bcd}ன\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("గ\u{c3f}ట\u{c3e}ర\u{c4d}"),
-			keywords: &["గ\u{c3f}ట\u{c3e}ర\u{c4d}", "సంగ\u{c40}త పర\u{c3f}కరం", "సంగ\u{c40}తం"],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("гитар"),
-			keywords: &["асбоб", "гитар", "мусиқӣ"],
-		},
-		#[cfg(feature = "th")]
-		crate::Annotation {
-			lang:     "th",
-			tts:      Some("ก\u{e35}ต\u{e49}าร\u{e4c}"),
-			keywords: &[
-				"ก\u{e35}ตาร\u{e4c}",
-				"ก\u{e35}ตาร\u{e4c}ไฟฟ\u{e49}า",
-				"ก\u{e35}ต\u{e49}าร\u{e4c}",
-				"เคร\u{e37}\u{e48}องดนตร\u{e35}",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ጊታር"),
-			keywords: &["መሳርሒ ሙዚቃ", "ሙዚቃ", "ስትራት", "ጊታር"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("gitara"),
-			keywords: &["aýdym-saz", "gitara", "instrument"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation { lang: "to", tts: Some("kitā"), keywords: &["kitā"] },
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("gitar"),
-			keywords: &["alet", "elektrik gitar", "gitar", "müzik", "müzik aleti"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("گىتار"),
-			keywords: &["ساز", "ساكس", "گىتار"],
-		},
-		#[cfg(feature = "uk")]
-		crate::Annotation {
-			lang:     "uk",
-			tts:      Some("гітара"),
-			keywords: &["гітара", "музичний", "інструмент"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("گٹار"),
-			keywords: &["آلہ", "موسیقی", "گٹار"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("gitara"),
-			keywords: &["asbob", "gitara", "musiqa", "musiqa asbobi"],
-		},
-		#[cfg(feature = "vi")]
-		crate::Annotation {
-			lang:     "vi",
-			tts:      Some("đàn ghi-ta"),
-			keywords: &["nhạc", "nhạc cụ", "đàn ghi-ta"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("gitaar"),
-			keywords: &["gitaar", "jumtukaay", "misik"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("ikatala"),
-			keywords: &["ikatala", "isixhobo", "umculo"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("jìtá"),
-			keywords: &["irinṣẹ\u{301}", "jìtá", "orin"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("jìtá"),
-			keywords: &["irinshɛ\u{301}", "jìtá", "orin"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("結他"),
-			keywords: &["儀器", "結他", "音樂"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("结他"),
-			keywords: &["仪器", "结他", "音乐"],
-		},
-		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("吉他"),
-			keywords: &["乐器", "吉他", "弹奏", "演奏", "电吉他", "音乐"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("吉他"),
-			keywords: &["吉他", "樂器", "電吉他"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("結他"),
-			keywords: &["樂器", "結他", "電子結他", "電結他", "音樂"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("isigingci"),
-			keywords: &["insimbi", "isigingci", "umculo"],
 		},
 	],
 };

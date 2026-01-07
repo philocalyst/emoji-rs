@@ -1,1616 +1,3 @@
-#[doc = "🚶\u{200d}➡\u{fe0f}"]
-pub const PERSON_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🚶\u{200d}➡\u{fe0f}",
-		codepoint:            &[128694u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person walking: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🚶🏻\u{200d}➡\u{fe0f}",
-			codepoint:            &[128694u32, 127995u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person walking: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏼\u{200d}➡\u{fe0f}",
-			codepoint:            &[128694u32, 127996u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person walking: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏽\u{200d}➡\u{fe0f}",
-			codepoint:            &[128694u32, 127997u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person walking: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏾\u{200d}➡\u{fe0f}",
-			codepoint:            &[128694u32, 127998u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person walking: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏿\u{200d}➡\u{fe0f}",
-			codepoint:            &[128694u32, 127999u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person walking: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🚶\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const WOMAN_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🚶\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[128694u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman walking: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🚶🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman walking: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman walking: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman walking: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman walking: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman walking: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🚶\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const MAN_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🚶\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[128694u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man walking: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🚶🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man walking: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man walking: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man walking: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man walking: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128694u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man walking: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧎\u{200d}➡\u{fe0f}"]
-pub const PERSON_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧎\u{200d}➡\u{fe0f}",
-		codepoint:            &[129486u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person kneeling: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧎🏻\u{200d}➡\u{fe0f}",
-			codepoint:            &[129486u32, 127995u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person kneeling: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏼\u{200d}➡\u{fe0f}",
-			codepoint:            &[129486u32, 127996u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person kneeling: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏽\u{200d}➡\u{fe0f}",
-			codepoint:            &[129486u32, 127997u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person kneeling: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏾\u{200d}➡\u{fe0f}",
-			codepoint:            &[129486u32, 127998u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person kneeling: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏿\u{200d}➡\u{fe0f}",
-			codepoint:            &[129486u32, 127999u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person kneeling: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧎\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const WOMAN_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧎\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[129486u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman kneeling: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧎🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman kneeling: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman kneeling: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman kneeling: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman kneeling: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman kneeling: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧎\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const MAN_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧎\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[129486u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man kneeling: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧎🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man kneeling: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man kneeling: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man kneeling: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man kneeling: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129486u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man kneeling: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧑\u{200d}🦯\u{200d}➡\u{fe0f}"]
-pub const PERSON_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧑\u{200d}🦯\u{200d}➡\u{fe0f}",
-		codepoint:            &[129489u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person with white cane: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧑🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person with white cane: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person with white cane: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person with white cane: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person with white cane: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person with white cane: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🦯\u{200d}➡\u{fe0f}"]
-pub const MAN_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🦯\u{200d}➡\u{fe0f}",
-		codepoint:            &[128104u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man with white cane: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man with white cane: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man with white cane: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man with white cane: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man with white cane: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man with white cane: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🦯\u{200d}➡\u{fe0f}"]
-pub const WOMAN_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🦯\u{200d}➡\u{fe0f}",
-		codepoint:            &[128105u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman with white cane: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman with white cane: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman with white cane: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman with white cane: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman with white cane: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman with white cane: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧑\u{200d}🦼\u{200d}➡\u{fe0f}"]
-pub const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧑\u{200d}🦼\u{200d}➡\u{fe0f}",
-		codepoint:            &[129489u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person in motorized wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧑🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in motorized wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in motorized wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in motorized wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in motorized wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in motorized wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🦼\u{200d}➡\u{fe0f}"]
-pub const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🦼\u{200d}➡\u{fe0f}",
-		codepoint:            &[128104u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man in motorized wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in motorized wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in motorized wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in motorized wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in motorized wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in motorized wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🦼\u{200d}➡\u{fe0f}"]
-pub const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🦼\u{200d}➡\u{fe0f}",
-		codepoint:            &[128105u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman in motorized wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in motorized wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in motorized wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in motorized wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in motorized wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in motorized wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧑\u{200d}🦽\u{200d}➡\u{fe0f}"]
-pub const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧑\u{200d}🦽\u{200d}➡\u{fe0f}",
-		codepoint:            &[129489u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person in manual wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧑🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in manual wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in manual wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in manual wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in manual wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				129489u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person in manual wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🦽\u{200d}➡\u{fe0f}"]
-pub const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🦽\u{200d}➡\u{fe0f}",
-		codepoint:            &[128104u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man in manual wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128104u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🦽\u{200d}➡\u{fe0f}"]
-pub const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🦽\u{200d}➡\u{fe0f}",
-		codepoint:            &[128105u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman in manual wheelchair: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				128105u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🏃\u{200d}➡\u{fe0f}"]
-pub const PERSON_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🏃\u{200d}➡\u{fe0f}",
-		codepoint:            &[127939u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "person running: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🏃🏻\u{200d}➡\u{fe0f}",
-			codepoint:            &[127939u32, 127995u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person running: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏼\u{200d}➡\u{fe0f}",
-			codepoint:            &[127939u32, 127996u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person running: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏽\u{200d}➡\u{fe0f}",
-			codepoint:            &[127939u32, 127997u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person running: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏾\u{200d}➡\u{fe0f}",
-			codepoint:            &[127939u32, 127998u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person running: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏿\u{200d}➡\u{fe0f}",
-			codepoint:            &[127939u32, 127999u32, 8205u32, 10145u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "person running: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🏃\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const WOMAN_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🏃\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[127939u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "woman running: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🏃🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman running: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman running: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman running: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman running: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "woman running: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🏃\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
-pub const MAN_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🏃\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-		codepoint:            &[127939u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-		name:                 "man running: facing right",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🏃🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man running: light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man running: medium-light skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man running: medium skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man running: medium-dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🏃🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
-			codepoint:            &[
-				127939u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
-			],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
-			name:                 "man running: dark skin tone, facing right",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧑\u{200d}🩰"]
-pub const BALLET_DANCER: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧑\u{200d}🩰",
-		codepoint:            &[129489u32, 8205u32, 129648u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-		name:                 "ballet dancer",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧑🏻\u{200d}🩰",
-			codepoint:            &[129489u32, 127995u32, 8205u32, 129648u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-			name:                 "ballet dancer: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏼\u{200d}🩰",
-			codepoint:            &[129489u32, 127996u32, 8205u32, 129648u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-			name:                 "ballet dancer: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏽\u{200d}🩰",
-			codepoint:            &[129489u32, 127997u32, 8205u32, 129648u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-			name:                 "ballet dancer: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏾\u{200d}🩰",
-			codepoint:            &[129489u32, 127998u32, 8205u32, 129648u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-			name:                 "ballet dancer: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧑🏿\u{200d}🩰",
-			codepoint:            &[129489u32, 127999u32, 8205u32, 129648u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-			name:                 "ballet dancer: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "🧑\u{200d}🦼"]
 pub const PERSON_IN_MOTORIZED_WHEELCHAIR: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -4681,83 +3068,6 @@ pub const PERSON_IN_MANUAL_WHEELCHAIR: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🚶\u{200d}♀\u{fe0f}"]
-pub const WOMAN_WALKING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🚶\u{200d}♀\u{fe0f}",
-		codepoint:            &[128694u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman walking",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🚶🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[128694u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman walking: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[128694u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman walking: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[128694u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman walking: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[128694u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman walking: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🚶🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[128694u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman walking: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "👨\u{200d}🦼"]
 pub const MAN_IN_MOTORIZED_WHEELCHAIR: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -7290,83 +5600,6 @@ pub const WOMAN_RUNNING: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
 			name:                 "woman running: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧗\u{200d}♀\u{fe0f}"]
-pub const WOMAN_CLIMBING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧗\u{200d}♀\u{fe0f}",
-		codepoint:            &[129495u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman climbing",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧗🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[129495u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman climbing: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[129495u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman climbing: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[129495u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman climbing: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[129495u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman climbing: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[129495u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman climbing: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonActivity,
 			is_variant:           true,
@@ -20414,2370 +18647,6 @@ pub const PEOPLE_WITH_BUNNY_EARS: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🧗"]
-pub const PERSON_CLIMBING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧗",
-		codepoint:            &[129495u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-		name:                 "person climbing",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("persoon wat rotsklim"),
-				keywords: &["berg", "klim", "klim op", "klouter", "persoon wat rotsklim", "rotsklimmer"],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ሰው ተራራ ሲወጣ"),
-				keywords: &[
-					"ሰው ተራራ ሲወጣ",
-					"ሰው ወደላይ በመውጣት ላይ",
-					"ተራራ",
-					"ተራራ ወጪ",
-					"አለት ወጪ",
-					"ወደ ላይ መውጣት",
-					"ደረጃ",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("شخص يتسل\u{651}ق"),
-				keywords: &[
-					"أشخاص",
-					"تسلق",
-					"جبال",
-					"رياضة",
-					"شخص يتسل\u{651}ق",
-					"صخور",
-					"صعود",
-					"متسلقة",
-					"مغامرة",
-					"وصولية",
-				],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("আৰোহণ কৰ\u{9be} ব\u{9cd}যক\u{9cd}তি"),
-				keywords: &["আৰোহক", "আৰোহণ কৰ\u{9be} ব\u{9cd}যক\u{9cd}তি"],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("dırmaşan adam"),
-				keywords: &[
-					"dağ",
-					"dırmaşan",
-					"dırmaşan adam",
-					"dırmaşma",
-					"dırmaşmaq",
-					"dırmaşıb çıxmaq",
-					"qayaya dırmaşan",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("чалавек падымаецца на гару"),
-				keywords: &["альпініст", "чалавек падымаецца на гару"],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("катерещ се човек"),
-				keywords: &[
-					"алпинист",
-					"катерене",
-					"катерещ се човек",
-					"нагоре",
-					"планина",
-					"скала",
-					"скално катерене",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("একজন উপরে উঠছে"),
-				keywords: &[
-					"আরোহী",
-					"একজন উপরে উঠছে",
-					"পর\u{9cd}বত\u{9be}রোহণ",
-					"পর\u{9cd}বত\u{9be}রোহী",
-					"প\u{9be}হ\u{9be}ড\u{9bc}",
-					"মহিল\u{9be} পর\u{9cd}বত\u{9be}রোহণ",
-					"মহিল\u{9be} পর\u{9cd}বত\u{9be}রোহী",
-					"স\u{9cd}ম\u{9be}ইলি",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("osoba koja se penje"),
-				keywords: &["osoba koja se penje", "penjač"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("persona que escala"),
-				keywords: &[
-					"escalada",
-					"escalador",
-					"escaladora",
-					"escalar",
-					"esport",
-					"muntanya",
-					"persona",
-					"persona escalant",
-					"persona que escala",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᏴᏫ ᎦᎵᏙᎭ"),
-				keywords: &["ᎫᎴᎦ", "ᏴᏫ ᎦᎵᏙᎭ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("lezec"),
-				keywords: &[
-					"hora",
-					"horolezec",
-					"horolezkyně",
-					"lezec",
-					"lezení",
-					"lezkyně",
-					"stěna",
-					"člověk",
-					"člověk lezoucí po skalní stěně",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("person yn dringo"),
-				keywords: &["dringwr", "person yn dringo"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("bjergbestiger"),
-				keywords: &[
-					"bestige",
-					"bjerg",
-					"bjergbestiger",
-					"klatre",
-					"klatre op",
-					"klatrer",
-					"klatring",
-					"person klatrer",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Bergsteiger(in)"),
-				keywords: &[
-					"Bergsteiger",
-					"Bergsteiger(in)",
-					"Fels",
-					"Kletterer",
-					"Person",
-					"Sport",
-					"klettern",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("άτομο που αναρριχείται"),
-				keywords: &["άτομο που αναρριχείται", "αναρρίχηση", "βουνό", "ορειβάτης"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("person climbing"),
-				keywords: &["climb", "climber", "climbing", "mountain", "person", "rock", "scale", "up"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("persona escalando"),
-				keywords: &["alpinista", "escalador", "persona escalando"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"deporte",
-					"escalada",
-					"escalando",
-					"escalar",
-					"montana",
-					"montaña",
-					"persona escalando",
-					"rapel",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation {
-				lang:     "es_US",
-				tts:      Some("↑↑↑"),
-				keywords: &["alpinista", "persona escalando"],
-			},
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("mäkke roniv inimene"),
-				keywords: &["alpinism", "alpinist", "mägi", "mägironija", "ronimine", "üles"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("pertsona bat eskalatzen"),
-				keywords: &["eskalatzailea", "pertsona bat eskalatzen"],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("فردی کوه\u{200c}نوردی می\u{200c}کند"),
-				keywords: &[
-					"بدن",
-					"زن",
-					"زن کوه نورد",
-					"صخره نورد",
-					"صخره نوردی",
-					"فردی کوه\u{200c}نوردی می\u{200c}کند",
-					"قوی",
-					"ورزش",
-					"ورزشکار",
-					"کوه نوردی",
-					"کوه\u{200c}نورد",
-					"کوه\u{200c}پیما",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("kiipeilijä"),
-				keywords: &[
-					"ihminen kiipeilee",
-					"kallio",
-					"kalliokiipeilijä",
-					"kiipeily",
-					"kiivetä ylös",
-					"seinä",
-					"vuori",
-				],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("tao na umaakyat"),
-				keywords: &["akyat", "bundok", "climber", "rock climber", "tao na umaakyat"],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("persónur sum klatrar"),
-				keywords: &[
-					"fólk",
-					"klatra",
-					"klintra",
-					"klíva",
-					"klúgva",
-					"persónur",
-					"persónur sum klatrar",
-				],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("personne qui grimpe"),
-				keywords: &[
-					"alpiniste",
-					"escalader",
-					"grimper",
-					"grimpeur",
-					"montagne",
-					"personne qui escalade",
-					"personne qui grimpe",
-					"sport",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("duine ag dreapadóireacht"),
-				keywords: &[
-					"airde",
-					"an mullach a bhaint amach",
-					"caitheamh aimsire",
-					"carraig",
-					"cnoc",
-					"deapadóir",
-					"dreapadóir",
-					"duine ag dreapadóireacht",
-					"fearas dreapadóireachta",
-					"fána ghéar",
-				],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("neach a’ sreap"),
-				keywords: &["neach a’ sreap", "sreapadair", "sreapaiche"],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("escalada"),
-				keywords: &["escalada", "escalador", "escalar"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("વ\u{acd}યક\u{acd}તિ ચઢાઈ પર"),
-				keywords: &[
-					"ઉપર ચઢનાર",
-					"ઊ\u{a82}ચ\u{ac7} ચડનાર",
-					"પર\u{acd}વત",
-					"પર\u{acd}વત ઊપર ચઢનાર સ\u{acd}ત\u{acd}રી",
-					"પર\u{acd}વતારોહણ",
-					"પર\u{acd}વતારોહી",
-					"પહાડ",
-					"વ\u{acd}યક\u{acd}તિ ચઢાઈ પર",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("mutum mai hawa"),
-				keywords: &["mai hawa", "mai hawa sama", "mai hawan tsauni", "mutum mai hawa", "tsauni"],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("mutum mai hawa"),
-				keywords: &["mai hawa", "mai hawa sama", "mai hawan tsauni", "mutum mai hawa", "tsauni"],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("מישהו מטפס"),
-				keywords: &[
-					"אדם",
-					"הר",
-					"טיפוס",
-					"טיפוס הרים",
-					"טיפוס סלעים",
-					"טיפוס על הר",
-					"מטפס",
-					"מטפסת",
-					"מישהו מטפס",
-				],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("चढ\u{93c}ाई करता ह\u{941}आ व\u{94d}यक\u{94d}ति"),
-				keywords: &[
-					"ऊपर चढ\u{93c}ना",
-					"चट\u{94d}टान पर\u{94d}वतारोही",
-					"चढ\u{93c}ना",
-					"चढ\u{93c}न\u{947} वाला",
-					"चढ\u{93c}ाई करता ह\u{941}आ व\u{94d}यक\u{94d}ति",
-					"पर\u{94d}वत",
-					"पर\u{94d}वतारोही",
-					"पहाड\u{93c}",
-					"पहाड\u{93c} पर चढ\u{93c}ना",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("osoba se penje"),
-				keywords: &["osoba se penje", "penjanje", "penjač", "planina", "planinarenje"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("mászó ember"),
-				keywords: &[
-					"hegy",
-					"hegymászás",
-					"megmászik",
-					"mászás",
-					"mászó",
-					"mászó ember",
-					"sziklamászás",
-					"sziklamászó",
-				],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("մագլցող անձ"),
-				keywords: &["մագլցող", "մագլցող անձ"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("orang memanjat"),
-				keywords: &["gunung", "orang memanjat", "panjat", "pemanjat", "tebing"],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("onye na-arị elu"),
-				keywords: &["onye na-arị elu", "ọ\u{300}rị elu"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("maður í klettaklifri"),
-				keywords: &["maður í klettaklifri"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("persona che scala"),
-				keywords: &[
-					"arrampicarsi",
-					"arrampicata",
-					"arrampicatore",
-					"arrampicatrice",
-					"montagna",
-					"persona",
-					"persona che arrampica",
-					"persona che scala",
-					"roccia",
-					"scalatore",
-					"sport",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("山を登る人"),
-				keywords: &["ロッククライマー", "山", "山を登る人", "山登り", "登る", "登山"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong manjad"),
-				keywords: &["pamanjad", "wong manjad"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("მთასვლელი"),
-				keywords: &["კლდეზე მცოცავი", "მთასვლელი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("өрмелеп бара жатқан адам"),
-				keywords: &[
-					"адам",
-					"альпинизм",
-					"альпинист",
-					"жартас",
-					"жоғары",
-					"көтерілу",
-					"тау",
-					"тауға шығу",
-					"шың",
-					"құз",
-					"құзға шығу",
-					"өрмелеп бара жатқан адам",
-					"өрмелеу",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងឡើង"),
-				keywords: &["មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងឡើង", "អ\u{17d2}នកឡើង"],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಹತ\u{ccd}ತುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}"),
-				keywords: &[
-					"ಏರು",
-					"ಪರ\u{ccd}ವತಾರ\u{ccb}ಹ\u{cbf}",
-					"ಬ\u{cc6}ಟ\u{ccd}ಟ ಏರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ಶ\u{cbf}ಲಾರ\u{ccb}ಹ\u{cbf}",
-					"ಹತ\u{ccd}ತುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ಹತ\u{ccd}ತುವವರು",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("클라이밍하는 사람"),
-				keywords: &[
-					"등반",
-					"등산",
-					"등산가",
-					"산",
-					"암벽 등반",
-					"암벽 등반가",
-					"클라이밍",
-					"클라이밍하는 사람",
-				],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("चडपी व\u{94d}यक\u{94d}ती"),
-				keywords: &["चडपी", "चडपी व\u{94d}यक\u{94d}ती", "व\u{94d}यक\u{94d}ती चडटा"],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("тоого чыгып жаткан адам"),
-				keywords: &["альпинист", "тоого чыгып жаткан адам"],
-			},
-			#[cfg(feature = "lb")]
-			crate::Annotation {
-				lang:     "lb",
-				tts:      Some("Klëmmer(in)"),
-				keywords: &["Biergsteiger", "Klëmmer(in)"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some("ຄ\u{ebb}ນກຳລ\u{eb1}ງປ\u{eb5}ນ"),
-				keywords: &[
-					"ຄ\u{ebb}ນກຳລ\u{eb1}ງປ\u{eb5}ນ",
-					"ນ\u{eb1}ກປ\u{eb5}ນ",
-					"ປ\u{eb5}ນຜາ",
-					"ຜາ",
-					"ພ\u{eb9}ເຂ\u{ebb}າ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("kopiantis žmogus"),
-				keywords: &[
-					"alpinistas",
-					"kalnas",
-					"kopiantis žmogus",
-					"kopimas į kalną",
-					"kopimas į uolą",
-					"laipiotojas",
-					"uola",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("kalnā kāpējs"),
-				keywords: &[
-					"alpīniste",
-					"alpīnists",
-					"cilvēks",
-					"kalns",
-					"kalnā kāpējs",
-					"klints",
-					"kāpt",
-					"persona",
-				],
-			},
-			#[cfg(feature = "mi")]
-			crate::Annotation {
-				lang:     "mi",
-				tts:      Some("tangata piki"),
-				keywords: &["kaipiki", "tangata piki"],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("лице планинари"),
-				keywords: &[
-					"искачување",
-					"качувач по карпи",
-					"качување",
-					"лице кое планинари",
-					"лице планинари",
-					"планина",
-					"планинар",
-				],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some("മലകയറ\u{d41}ന\u{d4d}ന വ\u{d4d}യക\u{d4d}തി"),
-				keywords: &[
-					"ക\u{d4d}ലൈംബർ",
-					"മലകയറ\u{d41}ന\u{d4d}ന വ\u{d4d}യക\u{d4d}തി",
-					"മലകയറ\u{d41}ന\u{d4d}നയ\u{d3e}ൾ",
-					"മലകയറ\u{d4d}റം",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation { lang: "mn", tts: Some("авирагч"), keywords: &["авирагч"] },
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("गिर\u{94d}यारोहण करणारी व\u{94d}यक\u{94d}ती"),
-				keywords: &[
-					"गिर\u{94d}यारोहक",
-					"गिर\u{94d}यारोहण",
-					"गिर\u{94d}यारोहण करणारी व\u{94d}यक\u{94d}ती",
-					"पर\u{94d}वत",
-					"पर\u{94d}वतारोहण",
-					"रॉक क\u{94d}लाइम\u{94d}बर",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("orang mendaki"),
-				keywords: &[
-					"bukit",
-					"gunung",
-					"orang memanjat",
-					"orang mendaki",
-					"panjat",
-					"pemanjat",
-					"pendaki",
-				],
-			},
-			#[cfg(feature = "mt")]
-			crate::Annotation {
-				lang:     "mt",
-				tts:      Some("persuna tiela’"),
-				keywords: &["persuna li titla’", "persuna tiela’"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some("တောင\u{103a}တက\u{103a}နေသ\u{1030}"),
-				keywords: &["တောင\u{103a}တက\u{103a}နေသ\u{1030}", "တောင\u{103a}တက\u{103a}သမား"],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("प\u{941}र\u{941}ष आरोही"),
-				keywords: &["आरोही", "प\u{941}र\u{941}ष आरोही"],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("klimmende persoon"),
-				keywords: &[
-					"alpinisme",
-					"berg",
-					"bergbeklimmen",
-					"bergbeklimmer",
-					"klimmen",
-					"klimmende persoon",
-					"klimmer",
-					"sport",
-				],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("klatrar"),
-				keywords: &["klatrar", "klatring"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଆରୋହଣ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}"),
-				keywords: &[
-					"ଆରୋହଣକ\u{b3e}ରୀ",
-					"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଆରୋହଣ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਦਾ ਵਿਅਕਤੀ"),
-				keywords: &[
-					"ਕਲਾਈਬਿ\u{a70}ਗ",
-					"ਖ\u{a47}ਡ",
-					"ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਣ ਵਾਲਾ",
-					"ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਦਾ ਵਿਅਕਤੀ",
-					"ਪਹਾੜ ਚੜ\u{a4d}ਹਨਾ",
-					"ਰ\u{a4c}ਕ ਕਲਾਈਬਿ\u{a70}ਗ",
-				],
-			},
-			#[cfg(feature = "pa_Arab")]
-			crate::Annotation {
-				lang:     "pa_Arab",
-				tts:      Some("کوہ پیمائی کردا بندا"),
-				keywords: &["کوہ پیما", "کوہ پیمائی کردا بندا"],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Pẹ\u{301}sin Wé De Klaimb"),
-				keywords: &["Klaímba", "Pẹ\u{301}sin Wé De Klaimb"],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("osoba wspinająca się"),
-				keywords: &["osoba", "skałki", "sport", "wspinacz", "wspinaczka", "wspinająca się"],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("شخص هسکېږي"),
-				keywords: &["ختونکی", "شخص هسکيږې", "شخص هسکېږي"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("pessoa escalando"),
-				keywords: &["alpinista", "escalada", "escalando", "escalar", "esporte", "montanha"],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("pessoa a escalar"),
-				keywords: &[
-					"alpinismo",
-					"alpinista",
-					"desporto",
-					"escalada",
-					"montanha",
-					"montanhismo",
-					"montanhista",
-					"pessoa a escalar",
-					"subir",
-					"trepadora",
-				],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("wichaq runa"),
-				keywords: &["wichaq runa", "wichay"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("persoană care se cațără"),
-				keywords: &["cățărare", "cățărător", "munte", "persoană care se cațără"],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E10-1128"), keywords: &["E10-1128"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("человек взбирается по скале"),
-				keywords: &[
-					"альпинистка",
-					"взбираться",
-					"восхождение",
-					"гора",
-					"подъем",
-					"скала",
-					"скалолазание",
-					"человек",
-				],
-			},
-			#[cfg(feature = "rw")]
-			crate::Annotation {
-				lang:     "rw",
-				tts:      Some("umuntu wurira"),
-				keywords: &["umuntu wurira", "uzamuka"],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("شخص چڙهندي"),
-				keywords: &["شخص چڙهندي", "چڙهندڙ"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("කඳ\u{dd4} නග\u{dd2}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}"),
-				keywords: &[
-					"කඳ\u{dd4} නග\u{dd2}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
-					"කඳ\u{dd4} නග\u{dd2}න\u{dca}න\u{dcf}",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("človek na skale"),
-				keywords: &[
-					"hora",
-					"horolezec",
-					"horolezectvo",
-					"lezec",
-					"lezectvo",
-					"lezenie",
-					"liezť",
-					"skala",
-					"skalná stena",
-					"skalolezec",
-					"človek na skale",
-					"šport",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("oseba, ki pleza"),
-				keywords: &[
-					"gora",
-					"ki pleza",
-					"oseba",
-					"oseba pleza",
-					"oseba, ki pleza",
-					"plezalec",
-					"plezalka",
-					"plezanje",
-					"plezati",
-					"vzpon",
-				],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("qof meel fuulaya"),
-				keywords: &["fuule", "qof meel fuulaya"],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("person që ngjitet"),
-				keywords: &[
-					"alpinist",
-					"alpinist shkëmbinjsh",
-					"alpinizëm",
-					"mal",
-					"ngjitje",
-					"person që ngjitet",
-					"shkallë",
-				],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("пењање"),
-				keywords: &["горе", "особа", "пењач", "планина", "степа", "шењање"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("penjanje"),
-				keywords: &["gore", "osoba", "penjač", "planina", "stepa", "šenjanje"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("person som klättrar"),
-				keywords: &[
-					"bergsklättring",
-					"klättra upp",
-					"klättrare",
-					"person klättrar",
-					"person som klättrar",
-				],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mtu anayekwea"),
-				keywords: &["mkwezi", "mtu anayekwea"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("மலையேற\u{bcd}றம\u{bcd}"),
-				keywords: &[
-					"நபர\u{bcd}",
-					"பெண\u{bcd}",
-					"மலை",
-					"மலை ஏறும\u{bcd} பெண\u{bcd}",
-					"மலையேறுபவர\u{bcd}",
-					"மலையேற\u{bcd}றம\u{bcd}",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some("ఎక\u{c4d}కుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}"),
-				keywords: &[
-					"ఎక\u{c4d}కుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
-					"క\u{c4a}ండ ఎక\u{c4d}కడం",
-					"క\u{c4d}ల\u{c48}ంబర\u{c4d}",
-					"ట\u{c4d}ర\u{c46}క\u{c4d}క\u{c3f}ంగ\u{c4d}",
-					"పర\u{c4d}వతం",
-					"పర\u{c4d}వత\u{c3e}ర\u{c4b}హకుడు",
-					"భవనంప\u{c48}క\u{c3f} ఎక\u{c4d}కుతున\u{c4d}న మన\u{c3f}ష\u{c3f}",
-					"మ\u{c4c}ంట\u{c46}య\u{c3f}న\u{c4d}",
-					"ర\u{c3e}క\u{c4d} క\u{c4d}ల\u{c48}ంబర\u{c4d}",
-					"స\u{c3e}హస మన\u{c3f}ష\u{c3f}",
-				],
-			},
-			#[cfg(feature = "tg")]
-			crate::Annotation {
-				lang:     "tg",
-				tts:      Some("шахсе, ки баромада истодааст"),
-				keywords: &["ки баромада истодааст", "кӯҳнавард", "шахсе", "шахсе, ки баромада истодааст"],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("น\u{e31}กไต\u{e48}เขา"),
-				keywords: &[
-					"ก\u{e35}ฬา",
-					"คน",
-					"ป\u{e35}นผา",
-					"ป\u{e35}นเขา",
-					"ภ\u{e39}เขา",
-					"ไต\u{e48}เขา",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ሰብ እናደየበ"),
-				keywords: &["ሓፍ", "ምድያብ", "ሰብ", "ስኬል", "እምባ", "ከውሒ", "ዓቐብ ዝድይብ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("dyrmaşýan adam"),
-				keywords: &["dyrmaşyjy", "dyrmaşýan adam"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("tokotaha kaka"),
-				keywords: &["kaka", "teleʻa", "tokotaha kaka", "vanu"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("dağcı kişi"),
-				keywords: &["dağ", "dağcı kişi", "kaya", "kaya tırmanışı", "tırmanmak", "tırmanıcı"],
-			},
-			#[cfg(feature = "ug")]
-			crate::Annotation {
-				lang:     "ug",
-				tts:      Some("ياماشقان كىشى"),
-				keywords: &["ياماشقان كىشى", "ياماشقۇچى"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("людина, що лізе скелею"),
-				keywords: &[
-					"альпінізм",
-					"альпініст",
-					"альпіністка",
-					"людина",
-					"людина, що лізе скелею",
-					"лізти вгору",
-					"скелелаз",
-					"що лізе скелею",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("چڑھتا ہوا شخص"),
-				keywords: &[
-					"لوگ",
-					"پہاڑ",
-					"پہاڑ پر چڑھنے والا",
-					"چڑھتا ہوا شخص",
-					"چڑھنے والا",
-					"کوہ",
-					"کوہ پیمائی",
-					"کوہ پیمائی کرنے والا",
-				],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("cho‘qqiga chiqayotgan odam"),
-				keywords: &[
-					"alpinist ayol",
-					"cho‘qqiga chiqayotgan odam",
-					"koʻtarilish",
-					"togʻ",
-					"toqqa chiqish",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người đang leo núi"),
-				keywords: &[
-					"leo núi",
-					"leo trèo",
-					"người leo trèo",
-					"người phụ nữ leo núi",
-					"người đang leo núi",
-					"nhà leo núi",
-					"núi",
-				],
-			},
-			#[cfg(feature = "wo")]
-			crate::Annotation {
-				lang:     "wo",
-				tts:      Some("nit kuy yéeg"),
-				keywords: &["nit kuy yéeg", "yéegkat"],
-			},
-			#[cfg(feature = "xh")]
-			crate::Annotation {
-				lang:     "xh",
-				tts:      Some("umntu onyukayo"),
-				keywords: &["umntu onobuvhule bokunyuka", "umntu onyukayo"],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("Ènìyàn tó n gòkè"),
-				keywords: &["agùnkè", "Ènìyàn tó n gòkè"],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("Ènìyàn tó n gòkè"),
-				keywords: &["agùnkè", "Ènìyàn tó n gòkè"],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("爬山嘅人"),
-				keywords: &["爬山嘅人", "登山者"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("爬山嘅人"),
-				keywords: &["爬山嘅人", "登山者"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("攀爬的人"),
-				keywords: &["向上爬的人", "攀岩", "攀岩者", "攀爬的人", "爬山", "登山", "登山者"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("攀岩的人"),
-				keywords: &["攀岩", "攀岩的人", "攀岩者", "攀爬", "爬山"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("攀岩嘅人"),
-				keywords: &["攀山", "攀岩", "攀岩嘅人", "攀岩者", "攀爬", "攀登", "攀石", "爬", "登山"],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umuntu ogibelayo"),
-				keywords: &["umqwali", "umuntu ogibelayo"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧗🏻",
-			codepoint:            &[129495u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "person climbing: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏼",
-			codepoint:            &[129495u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "person climbing: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏽",
-			codepoint:            &[129495u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "person climbing: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏾",
-			codepoint:            &[129495u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "person climbing: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏿",
-			codepoint:            &[129495u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "person climbing: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👨\u{200d}🦽"]
-pub const MAN_IN_MANUAL_WHEELCHAIR: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👨\u{200d}🦽",
-		codepoint:            &[128104u32, 8205u32, 129469u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-		name:                 "man in manual wheelchair",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("man in handgedrewe rolstoel"),
-				keywords: &[
-					"gestremde",
-					"man",
-					"man in handgedrewe rolstoel",
-					"rolstoel",
-					"toeganklikheid",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ወንድ በእጅ ተሽከርካሪ ወንበር"),
-				keywords: &[
-					"መጓጓዣ",
-					"ምቹ",
-					"ሰው",
-					"ተሽከርካሪ ወንበር",
-					"ተደራሽ",
-					"ተደራሽነት",
-					"አካል ጉዳተኛ",
-					"ወንድ",
-					"ወንድ በእጅ ተሽከርካሪ ወንበር",
-					"ወንድ በእጅ የሚገፋ ተሽከርካሪ ወንበር ላይ",
-					"የአካል ጉዳተኛ ተሽከርካሪ ወንበር",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("رجل على كرسي متحرك يدوي"),
-				keywords: &[
-					"إعاقة",
-					"إمكانية الوصول",
-					"احتياجات خاصة",
-					"رجل",
-					"رجل على كرسي متحرك يدوي",
-					"شخص",
-					"قعيد",
-					"كرسي بعجل",
-					"كرسي متحرك",
-					"معاق",
-					"مقعد",
-				],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some(
-					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি",
-				),
-				keywords: &[
-					"দিব\u{9cd}য\u{9be}ংগ",
-					"প\u{9c1}ৰ\u{9c1}ষ",
-					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি",
-					"হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰ",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("manual oturacaqda kişi"),
-				keywords: &[
-					"kişi",
-					"manual",
-					"oturacaqda",
-					"əlil arabası",
-					"əlil arabasında əyləşmiş kişi",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("мужчына ў калясцы з ручным прывадам"),
-				keywords: &[
-					"асаблівыя фізічныя патрэбы",
-					"мужчына",
-					"мужчына ў калясцы з ручным прывадам",
-					"інваліднасць",
-					"інвалідная каляска",
-				],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("мъж в инвалидна количка"),
-				keywords: &[
-					"достъпна среда",
-					"инвалидна количка",
-					"мъж",
-					"мъж в инвалидна количка",
-					"мъж в ръчна инвалидна количка",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some(
-					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
-				),
-				keywords: &[
-					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
-					"প\u{9c1}র\u{9c1}ষ",
-					"ম\u{9be}ন\u{9c1}ষ",
-					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
-					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে ম\u{9be}ন\u{9c1}ষ",
-					"হ\u{9be}তে ঠেল\u{9be} হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
-					"হ\u{9c1}ইলচেয\u{9bc}\u{9be}র",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("muškarac u invalidskim kolicima"),
-				keywords: &["invalidska kolica", "muškarac", "muškarac u invalidskim kolicima", "pomagalo"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("home amb una cadira de rodes manual"),
-				keywords: &[
-					"accessibilitat",
-					"cadira de rodes",
-					"home",
-					"home amb una cadira de rodes manual",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ"),
-				keywords: &["ᎠᏍᎦᏯ", "ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎬᏴᏍᏗ ᎨᏒᎢ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("muž na mechanickém invalidním vozíku"),
-				keywords: &[
-					"bezbariérový přístup",
-					"handicap",
-					"hendikep",
-					"invalidní",
-					"kolečkové křeslo",
-					"muž",
-					"muž na mechanickém invalidním vozíku",
-					"muž v invalidním vozíku",
-					"muž v ručním invalidním vozíku",
-					"pomůcka",
-					"postižení",
-					"ručně poháněný invalidní vozík",
-					"usnadnění",
-					"vozík",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("dyn mewn cadair olwyn"),
-				keywords: &["cadair olwyn", "dyn", "dyn mewn cadair olwyn", "hygyrchedd"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("mand i manuel kørestol"),
-				keywords: &[
-					"adgangsforhold",
-					"handicap",
-					"handikap",
-					"kørestol",
-					"mand",
-					"mand i manuel kørestol",
-					"rullestol",
-					"tilgængelighed",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Mann in manuellem Rollstuhl"),
-				keywords: &[
-					"Barrierefreiheit",
-					"Behinderung",
-					"Mann",
-					"Mann in Rollstuhl",
-					"Mann in manuellem Rollstuhl",
-					"Mensch",
-					"Person",
-					"Rollstuhl",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("άντρας σε χειροκίνητο αναπηρικό αμαξίδιο"),
-				keywords: &[
-					"άντρας",
-					"άντρας σε χειροκίνητο αναπηρικό αμαξίδιο",
-					"αναπηρικό αμαξίδιο",
-					"καροτσάκι",
-					"προσβασιμότητα",
-				],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("man in manual wheelchair"),
-				keywords: &["accessibility", "man", "manual", "wheelchair"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("hombre en silla de ruedas manual"),
-				keywords: &[
-					"accesibilidad",
-					"hombre",
-					"hombre en silla de ruedas manual",
-					"silla de ruedas",
-				],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"accesibilidad",
-					"hombre",
-					"hombre en silla de ruedas",
-					"hombre en silla de ruedas manual",
-					"silla de ruedas",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("manuaalratastoolis olev mees"),
-				keywords: &["ligipääs", "manuaal", "mees", "ratastool"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("eskuzko gurpil-aulkian doan gizona"),
-				keywords: &[
-					"eskuzko gurpil-aulkian doan gizona",
-					"gizon",
-					"gizonezko",
-					"gurpil-aulki",
-					"irisgarritasun",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("مرد در صندلی چرخ\u{200c}دار دستی"),
-				keywords: &[
-					"دسترس\u{200c}پذیری",
-					"صندلی چرخ\u{200c}دار",
-					"قابلیت دسترسی",
-					"مرد",
-					"مرد در صندلی چرخ\u{200c}دار دستی",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("mies käsikäyttöisessä pyörätuolissa"),
-				keywords: &["esteettömyys", "mies", "mies käsikäyttöisessä pyörätuolissa", "pyörätuoli"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("lalaki sa manu-manong wheelchair"),
-				keywords: &[
-					"lalaki",
-					"lalaki sa manu-manong wheelchair",
-					"pagiging naa-access",
-					"wheelchair",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("maður í koyristóli"),
-				keywords: &["koyristólur", "maður", "maður í koyristóli"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("homme en fauteuil roulant manuel"),
-				keywords: &[
-					"accessibilité",
-					"fauteuil roulant",
-					"handicap",
-					"homme",
-					"homme en fauteuil roulant manuel",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("fear i gcathaoir rothaí láimhe"),
-				keywords: &["cathaoir rothaí", "fear", "fear i gcathaoir rothaí láimhe", "inrochtaineacht"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("duine ann an cathair-chuibhle a làimh"),
-				keywords: &[
-					"cathair-chuibhle",
-					"duine",
-					"duine ann an cathair-chuibhle a làimh",
-					"fireannach",
-					"so-ruigsinneachd",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("home en cadeira de rodas"),
-				keywords: &["cadeira de rodas", "discapacidade"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} પ\u{ac1}ર\u{ac1}ષ"),
-				keywords: &[
-					"અસક\u{acd}ષમ",
-					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
-					"ખ\u{ac1}રશી",
-					"છોકરો",
-					"દિવ\u{acd}યા\u{a82}ગ",
-					"પ\u{ac1}ર\u{ac1}ષ",
-					"વાહન",
-					"વ\u{acd}યક\u{acd}તિ",
-					"વ\u{acd}હીલચ\u{ac7}ર",
-					"હલનચલન",
-					"હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} પ\u{ac1}ર\u{ac1}ષ",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("na miji a cikin motan gurgu da ke bukatan tuki"),
-				keywords: &[
-					"gurgu",
-					"keke",
-					"keken asibiti",
-					"keken guragu",
-					"kujeran kurgu",
-					"mai buƙata ta musamman",
-					"mara lafiya",
-					"mutum",
-					"mutum a keken guragu",
-					"na miji",
-					"na miji a cikin motan gurgu da ke bukatan tuki",
-					"nakasa",
-					"samun wuri",
-					"tallafin tafiya",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("na miji a cikin motan gurgu da ke bukatan tuki"),
-				keywords: &[
-					"gurgu",
-					"keke",
-					"keken asibiti",
-					"keken guragu",
-					"kujeran kurgu",
-					"mai buƙata ta musamman",
-					"mara lafiya",
-					"mutum",
-					"mutum a keken guragu",
-					"na miji",
-					"na miji a cikin motan gurgu da ke bukatan tuki",
-					"nakasa",
-					"samun wuri",
-					"tallafin tafiya",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("איש בכסא גלגלים ידני"),
-				keywords: &["איש", "גבר", "כיסא גלגלים", "כסא גלגלים", "כסא גלגלים ידני", "נגישות", "נכה"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा आदमी"),
-				keywords: &[
-					"आदमी",
-					"व\u{94d}हीलच\u{947}यर",
-					"हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा आदमी",
-					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा ह\u{941}आ आदमी",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("muškarac u invalidskim kolicima na ručni pogon"),
-				keywords: &[
-					"invalidska kolica",
-					"kolica",
-					"muškarac",
-					"muškarac u invalidskim kolicima na ručni pogon",
-					"pomagalo",
-					"čovjek u kolicima",
-				],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("férfi kézi hajtású kerekesszékben"),
-				keywords: &[
-					"akadálymentesség",
-					"férfi",
-					"férfi kézi hajtású kerekesszékben",
-					"kerekesszék",
-					"mozgáskorlátozott",
-					"mozgássérült",
-					"tolószék",
-				],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("անվասայլակով տղամարդ"),
-				keywords: &["անվասայլակ", "անվասայլակով տղամարդ", "հաշմանդամ", "տղամարդ"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("pria dengan kursi roda manual"),
-				keywords: &[
-					"aksesibilitas",
-					"kursi roda",
-					"laki-laki",
-					"pria",
-					"pria dengan kursi roda",
-					"pria dengan kursi roda manual",
-				],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwoke nọ n’oche nkwagharị nke aka"),
-				keywords: &["nweta", "nwoke", "nwoke nọ n’oche nkwagharị nke aka", "oche nkwagharị"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("maður í hjólastól"),
-				keywords: &["aðgengi", "hjólastóll", "maður", "maður í hjólastól"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("uomo su sedia a rotelle manuale"),
-				keywords: &[
-					"accessibilità",
-					"disabile",
-					"persona",
-					"uomo",
-					"uomo in carrozzina",
-					"uomo in sedia a rotelle",
-					"uomo su sedia a rotelle manuale",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("手動式車椅子の男性"),
-				keywords: &["アクセシビリティ", "手動式車椅子の男性", "男性", "車いす", "障がい"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong lanang numpak kursi rodha manual"),
-				keywords: &["kalancaran", "kursi rodha", "lanang", "wong lanang numpak kursi rodha manual"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("კაცი შშმ პირის მექანიკურ ეტლში"),
-				keywords: &[
-					"კაცი",
-					"კაცი ინვალიდის მექანიკურ ეტლში",
-					"კაცი შშმ პირის მექანიკურ ეტლში",
-					"შშმ",
-					"შშმ პირის ეტლი",
-				],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("қол жетегі бар арбашадағы еркек"),
-				keywords: &[
-					"арбаша",
-					"еркек",
-					"мүгедек",
-					"мүмкіндігі шектеулі",
-					"қол жетегі бар арбашадағы еркек",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some("ប\u{17bb}រសជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ"),
-				keywords: &[
-					"ប\u{17bb}រស",
-					"ប\u{17bb}រសជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
-					"រទេះជនព\u{17b7}ការ",
-					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some(
-					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-				),
-				keywords: &[
-					"ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}",
-					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
-					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ವ\u{ccd}ಹ\u{cc0}ಲ\u{ccd} ಚ\u{cc7}ರ\u{ccd}",
-					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-					"ಹಸ\u{ccd}ತಚಾಲ\u{cbf}ತ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("수동 휠체어를 탄 남자"),
-				keywords: &["남자", "수동 휠체어를 탄 남자", "접근성", "휠체어"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र दादलो"),
-				keywords: &[
-					"ऍक\u{94d}स\u{945}सिबिलिटी",
-					"दादलो",
-					"म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र दादलो",
-					"व\u{94d}हिलच\u{945}र",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("кол менен дөңгөлөктүү отургучтагы киши"),
-				keywords: &[
-					"атайын мүмкүндүк",
-					"дөңгөлөктүү отургуч",
-					"киши",
-					"кол менен дөңгөлөктүү отургучтагы киши",
-				],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some(
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ\u{200b}ນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
-				),
-				keywords: &[
-					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ\u{200b}ນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
-					"ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("vyras rankomis valdomame vežimėlyje"),
-				keywords: &[
-					"neįgaliųjų prieinamumas",
-					"prieinamumas",
-					"vežimėlis",
-					"vyras",
-					"vyras rankomis valdomame vežimėlyje",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("vīrietis manuālā ratiņkrēslā"),
-				keywords: &[
-					"cilvēks",
-					"pieejamība",
-					"ratiņkrēsls",
-					"vīretis manuālā ratiņkrēslā",
-					"vīrietis",
-					"vīrietis manuālā ratiņkrēslā",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("маж во рачна инвалидска количка"),
-				keywords: &[
-					"инвалидска количка",
-					"маж",
-					"маж во инвалидска количка",
-					"маж во рачна инвалидска количка",
-					"пристапност",
-				],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some(
-					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പ\u{d41}ര\u{d41}ഷൻ",
-				),
-				keywords: &[
-					"ആക\u{d4d}\u{200c}സസബിലിറ\u{d4d}റി",
-					"പ\u{d41}ര\u{d41}ഷൻ",
-					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പ\u{d41}ര\u{d41}ഷൻ",
-					"വീൽചെയർ",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("тэргэнцэртэй эрэгтэй"),
-				keywords: &["тэргэнцэр", "тэргэнцэртэй эрэгтэй", "хөгжлийн бэрхшээл", "эрэгтэй"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील माण\u{942}स"),
-				keywords: &[
-					"अप\u{902}ग",
-					"अ\u{945}क\u{94d}स\u{947}सिबिलिटी",
-					"माण\u{942}स",
-					"व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील माण\u{942}स",
-					"व\u{94d}यक\u{94d}ती",
-					"व\u{94d}हीलच\u{947}अर",
-					"व\u{94d}हीलच\u{947}अरमधील माण\u{942}स",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("lelaki dalam kerusi roda manual"),
-				keywords: &["kebolehcapaian", "kerusi roda", "lelaki", "manual"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some(
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသား",
-				),
-				keywords: &[
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}",
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသား",
-					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
-					"အမျ\u{102d}\u{102f}းသား",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("म\u{94d}यान\u{941}अल व\u{94d}हीलचय\u{947}रमा प\u{941}र\u{941}ष"),
-				keywords: &[
-					"उपलब\u{94d}धता",
-					"प\u{941}र\u{941}ष",
-					"म\u{94d}यान\u{941}अल व\u{94d}हीलचय\u{947}रमा प\u{941}र\u{941}ष",
-					"व\u{94d}हीलच\u{947}यर",
-				],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("man in rolstoel"),
-				keywords: &["handmatig", "man", "rolstoel", "toegankelijkheid"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("↑↑↑"),
-				keywords: &["mann", "mann i manuell rullestol", "rullestol", "tilgjenge"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ପ\u{b41}ର\u{b41}ଷ"),
-				keywords: &[
-					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
-					"ପ\u{b41}ର\u{b41}ଷ",
-					"ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ପ\u{b41}ର\u{b41}ଷ",
-					"ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ର",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some(
-					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠਾ ਆਦਮੀ",
-				),
-				keywords: &[
-					"ਆਦਮੀ",
-					"ਵੀਲਚ\u{a47}ਅਰ",
-					"ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ",
-					"ਸਹ\u{a42}ਲਤ",
-					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠਾ ਆਦਮੀ",
-				],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Man Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin"),
-				keywords: &[
-					"Man",
-					"Man Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin",
-					"Wílchia",
-					"Ízí To Yuz",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("mężczyzna na wózku inwalidzkim"),
-				keywords: &[
-					"dostępność",
-					"mężczyzna",
-					"mężczyzna na wózku inwalidzkim",
-					"wózek inwalidzki",
-				],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("سړی د معلولينو په لاسي چوکۍ کې"),
-				keywords: &["د معلولينو چوکۍ", "رسوړتيا", "سړی", "سړی د معلولينو په لاسي چوکۍ کې"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("homem em cadeira de rodas manual"),
-				keywords: &[
-					"acessibilidade",
-					"cadeira de rodas",
-					"homem",
-					"homem em cadeira de rodas manual",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("runa manual silla de ruedas nisqapi"),
-				keywords: &[
-					"runa",
-					"runa manual silla de ruedas nisqapi",
-					"silla de ruedas",
-					"yaykurinalla",
-				],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("bărbat în scaun cu rotile manual"),
-				keywords: &[
-					"accesibilitate",
-					"bărbat",
-					"bărbat în scaun cu rotile manual",
-					"bărbat în scaun rulant manual",
-					"persoană",
-					"scaun cu rotile",
-					"scaun rulant",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E12–004"), keywords: &["E12–004"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("мужчина в ручном кресле-коляске"),
-				keywords: &[
-					"в кресле",
-					"инвалид",
-					"инвалидное кресло",
-					"кресло",
-					"мужчина",
-					"мужчина в ручном кресле-коляске",
-					"человек",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("دستي وهيل چيئر ۾ ماڻهو"),
-				keywords: &["دستي وهيل چيئر ۾ ماڻهو", "رسائي", "ماڻهو", "وهيل چيئر"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some(
-					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ම\u{dd2}න\u{dd2}ස\u{dcf}",
-				),
-				keywords: &[
-					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ම\u{dd2}න\u{dd2}ස\u{dcf}",
-					"ම\u{dd2}න\u{dd2}ස\u{dcf}",
-					"රෝද ප\u{dd4}ට\u{dd4}ව",
-					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("muž na mechanickom invalidnom vozíku"),
-				keywords: &[
-					"handicap",
-					"hendikep",
-					"invalidný",
-					"muž na mechanickom invalidnom vozíku",
-					"pomôcka",
-					"postihnutie",
-					"vozík",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("moški na ročnem invalidskem vozičku"),
-				keywords: &["invalid", "moški", "moški na ročnem invalidskem vozičku", "voziček"],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("nin saaran kursiga curyaanka macmac ah"),
-				keywords: &[
-					"awood u yeelid",
-					"kursiga curyaanka",
-					"nin",
-					"nin saaran kursiga curyaanka macmac ah",
-				],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("burrë në karrocë manuale invalidi"),
-				keywords: &[
-					"burrë",
-					"burrë në karrocë manuale invalidi",
-					"karrocë invalidi",
-					"karrocë me motor",
-					"qasshmëri",
-				],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("човек у механичким колицима"),
-				keywords: &["колица", "механичка", "приступачност", "човек"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation {
-				lang:     "sr_Cyrl_BA",
-				tts:      Some("човјек у механичким колицима"),
-				keywords: &["колица", "приступачност", "човјек", "човјек у механичким колицима"],
-			},
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("čovek u mehaničkim kolicima"),
-				keywords: &["kolica", "mehanička", "pristupačnost", "čovek"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation {
-				lang:     "sr_Latn_BA",
-				tts:      Some("čovjek u mehaničkim kolicima"),
-				keywords: &["kolica", "pristupačnost", "čovjek", "čovjek u mehaničkim kolicima"],
-			},
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("man i manuell rullstol"),
-				keywords: &["man", "man i manuell rullstol", "rullstol"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mwanamume anayejiendesha kwa kiti cha magurudumu"),
-				keywords: &[
-					"kiti cha kilema",
-					"kiti cha magurudumu",
-					"mapito ya vilema",
-					"mwanamume",
-					"mwanamume anayejiendesha kwa kiti cha magurudumu",
-					"mwanamume kilema",
-					"sehemu ya vilema",
-					"ufikivu",
-				],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some(
-					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} ஆண\u{bcd}",
-				),
-				keywords: &[
-					"ஆண\u{bcd}",
-					"இயக\u{bcd}கமின\u{bcd}மை",
-					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லி",
-					"நடக\u{bcd}க இயல\u{bbe}தவர\u{bcd}",
-					"நபர\u{bcd}",
-					"மனித ஆற\u{bcd}றலில\u{bcd} இயங\u{bcd}கும\u{bcd} சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} ஆண\u{bcd}",
-					"ம\u{bbe}ற\u{bcd}றுத\u{bcd}திறன\u{bbe}ளி",
-					"முடம\u{bbe}னவர\u{bcd}",
-					"வ\u{bc0}ல\u{bcd} சேர\u{bcd}",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some(
-					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న పురుషుడు",
-				),
-				keywords: &[
-					"చ\u{c47}త\u{c3f}త\u{c4b} నడ\u{c3f}ప\u{c47} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}",
-					"పురుషుడు",
-					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న పురుషుడు",
-					"య\u{c3e}క\u{c4d}స\u{c46}స\u{c3f}బ\u{c3f}ల\u{c3f}ట\u{c40}",
-					"వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}",
-					"స\u{c4c}లభ\u{c4d}యం",
-				],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("ผ\u{e39}\u{e49}ชายน\u{e31}\u{e48}งว\u{e35}ลแชร\u{e4c}ธรรมดา"),
-				keywords: &[
-					"คน",
-					"ผ\u{e39}\u{e49}ชาย",
-					"รถเข\u{e47}น",
-					"ว\u{e35}ลแชร\u{e4c}",
-					"เข\u{e49}าถ\u{e36}ง",
-					"แมนวล",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ሰብኣይ ኣብ ማንዋል ዓረብያ ስንኩላን"),
-				keywords: &["ማንዋል", "ሰብኣይ", "ተበጻሕነት", "ዓረብያ ስንኩላን ምኻድ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("el maýyp arabasynda erkek"),
-				keywords: &["el maýyp arabasynda erkek", "elýeterlilik", "erkek", "maýyp arabasy"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("tangata ʻihe sāliote falemahaki"),
-				keywords: &["falemahaki", "sāliote", "tangata", "tangata ʻihe sāliote falemahaki"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("tekerlekli sandalyede erkek"),
-				keywords: &[
-					"erişilebilirlik",
-					"erkek",
-					"tekerlekli sandalye",
-					"tekerlekli sandalyede erkek",
-				],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("чоловік у візку з ручним приводом"),
-				keywords: &[
-					"візок",
-					"доступність",
-					"колісне крісло",
-					"спеціальні можливості",
-					"чоловік",
-					"чоловік у візку",
-					"чоловік у візку з ручним приводом",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("دستی وہیل چئیر میں مرد"),
-				keywords: &[
-					"آدمی",
-					"دسترس",
-					"دستی وہیل چئیر میں مرد",
-					"دستی وہیل چیئر میں مرد",
-					"رسائی",
-					"مرد",
-					"مینوئل وہیل چیئر",
-					"مینوئل وہیل چیئر میں آدمی",
-					"وہیل چئیر",
-					"وہیل چیئر",
-					"ہاتھ سے چلنے والی وہیل چیئر",
-				],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("nogironlik aravachasidagi erkak"),
-				keywords: &[
-					"erkak",
-					"nogiron",
-					"nogironlik",
-					"nogironlik aravachasi",
-					"nogironlik aravachasidagi erkak",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người đàn ông trên xe lăn tay"),
-				keywords: &["hỗ trợ tiếp cận", "người đàn ông", "người đàn ông trên xe lăn tay", "xe lăn"],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("ọkùnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí"),
-				keywords: &[
-					"kẹ\u{300}kẹ\u{301} abirùn",
-					"ìráàyèsí",
-					"ọkùnrin",
-					"ọkùnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí",
-				],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("ɔkùnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí"),
-				keywords: &[
-					"kɛ\u{300}kɛ\u{301} abirùn",
-					"ìráàyèsí",
-					"ɔkùnrin",
-					"ɔkùnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí",
-				],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("坐手動輪椅嘅男人"),
-				keywords: &["坐手動輪椅嘅男人", "無障礙", "男人", "輪椅"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("坐手动轮椅嘅男人"),
-				keywords: &["坐手动轮椅嘅男人", "无障碍", "男人", "轮椅"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("坐手动轮椅的男人"),
-				keywords: &["坐手动轮椅的男人", "手动", "无障碍", "男", "男人", "男子", "轮椅"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("坐輪椅的男子"),
-				keywords: &["人", "坐輪椅的男子", "男", "男子", "行動不便", "輪椅"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("坐輪椅嘅男人"),
-				keywords: &[
-					"人物",
-					"坐在自推式輪椅的男士",
-					"坐輪椅嘅男人",
-					"無障礙",
-					"男",
-					"男士",
-					"男性",
-					"自推式輪椅",
-					"輪椅",
-				],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("indoda esesitulweni sokuhanjiswa"),
-				keywords: &[
-					"indoda",
-					"indoda esesitulweni sokuhanjiswa",
-					"isitulo sokuhamba",
-					"ukufinyelela",
-				],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👨🏻\u{200d}🦽",
-			codepoint:            &[128104u32, 127995u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏼\u{200d}🦽",
-			codepoint:            &[128104u32, 127996u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏽\u{200d}🦽",
-			codepoint:            &[128104u32, 127997u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏾\u{200d}🦽",
-			codepoint:            &[128104u32, 127998u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👨🏿\u{200d}🦽",
-			codepoint:            &[128104u32, 127999u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "man in manual wheelchair: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "💇\u{200d}♂\u{fe0f}"]
 pub const MAN_GETTING_HAIRCUT: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -24354,83 +20223,6 @@ pub const MAN_WITH_WHITE_CANE: crate::Toned = crate::Toned {
 		},
 	],
 };
-#[doc = "🕴\u{fe0f}"]
-pub const PERSON_IN_SUIT_LEVITATING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🕴\u{fe0f}",
-		codepoint:            &[128372u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
-		name:                 "person in suit levitating",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🕴🏻",
-			codepoint:            &[128372u32, 127995u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "person in suit levitating: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕴🏼",
-			codepoint:            &[128372u32, 127996u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "person in suit levitating: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕴🏽",
-			codepoint:            &[128372u32, 127997u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "person in suit levitating: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕴🏾",
-			codepoint:            &[128372u32, 127998u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "person in suit levitating: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🕴🏿",
-			codepoint:            &[128372u32, 127999u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
-			name:                 "person in suit levitating: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
 #[doc = "🧎\u{200d}♂\u{fe0f}"]
 pub const MAN_KNEELING: crate::Toned = crate::Toned {
 	emoji: crate::Emoji {
@@ -24500,2543 +20292,6 @@ pub const MAN_KNEELING: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
 			name:                 "man kneeling: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧎\u{200d}♀\u{fe0f}"]
-pub const WOMAN_KNEELING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧎\u{200d}♀\u{fe0f}",
-		codepoint:            &[129486u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman kneeling",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧎🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[129486u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman kneeling: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[129486u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman kneeling: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[129486u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman kneeling: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[129486u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman kneeling: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧎🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[129486u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman kneeling: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧗\u{200d}♂\u{fe0f}"]
-pub const MAN_CLIMBING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧗\u{200d}♂\u{fe0f}",
-		codepoint:            &[129495u32, 8205u32, 9794u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-		name:                 "man climbing",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧗🏻\u{200d}♂\u{fe0f}",
-			codepoint:            &[129495u32, 127995u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "man climbing: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏼\u{200d}♂\u{fe0f}",
-			codepoint:            &[129495u32, 127996u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "man climbing: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏽\u{200d}♂\u{fe0f}",
-			codepoint:            &[129495u32, 127997u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "man climbing: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏾\u{200d}♂\u{fe0f}",
-			codepoint:            &[129495u32, 127998u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "man climbing: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧗🏿\u{200d}♂\u{fe0f}",
-			codepoint:            &[129495u32, 127999u32, 8205u32, 9794u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
-			name:                 "man climbing: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "🧍\u{200d}♀\u{fe0f}"]
-pub const WOMAN_STANDING: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "🧍\u{200d}♀\u{fe0f}",
-		codepoint:            &[129485u32, 8205u32, 9792u32, 65039u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman standing",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "🧍🏻\u{200d}♀\u{fe0f}",
-			codepoint:            &[129485u32, 127995u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman standing: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧍🏼\u{200d}♀\u{fe0f}",
-			codepoint:            &[129485u32, 127996u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman standing: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧍🏽\u{200d}♀\u{fe0f}",
-			codepoint:            &[129485u32, 127997u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman standing: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧍🏾\u{200d}♀\u{fe0f}",
-			codepoint:            &[129485u32, 127998u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman standing: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "🧍🏿\u{200d}♀\u{fe0f}",
-			codepoint:            &[129485u32, 127999u32, 8205u32, 9792u32, 65039u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman standing: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🦯"]
-pub const WOMAN_WITH_WHITE_CANE: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🦯",
-		codepoint:            &[128105u32, 8205u32, 129455u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman with white cane",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("vrou met gidsstok"),
-				keywords: &["blind", "blinde", "gestremde", "toeganklikheid", "vrou", "vrou met gidsstok"],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ሴት በከዘራ"),
-				keywords: &[
-					"ምቹ",
-					"ሰው",
-					"ሴት",
-					"ሴት በከዘራ",
-					"ሴት የዓይነ ስውር ከዘራ ይዛ",
-					"ተደራሽ",
-					"ተደራሽነት",
-					"እውር",
-					"ዓይነ ስውር",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("سيدة بعصا سير"),
-				keywords: &[
-					"أعمى",
-					"إمكانية الوصول",
-					"احتياجات خاصة",
-					"ذات احتياجات",
-					"سيدة",
-					"سيدة بعصا سير",
-					"شخص",
-					"ضريرة",
-					"عصا بيضاء",
-					"عمياء",
-					"كفيفة",
-					"معاقة",
-				],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some("হ\u{9be}তত বেতৰ ল\u{9be}খ\u{9c1}টি লৈ থক\u{9be} মহিল\u{9be}ৰ ছবি"),
-				keywords: &[
-					"অন\u{9cd}ধ",
-					"দিব\u{9cd}য\u{9be}ংগ",
-					"মহিল\u{9be}",
-					"হ\u{9be}তত বেতৰ ল\u{9be}খ\u{9c1}টি লৈ থক\u{9be} মহিল\u{9be}ৰ ছবি",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("zond ilə qadın"),
-				keywords: &[
-					"görmə qüsurlu şəxs",
-					"kor",
-					"qadın",
-					"zond ilə qadın",
-					"çəlik ilə gəzən qadın",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("жанчына з палкай"),
-				keywords: &[
-					"асаблівыя фізічныя патрэбы",
-					"жанчына",
-					"жанчына з палкай",
-					"сляпы",
-					"інваліднасць",
-				],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("жена с бял бастун"),
-				keywords: &["достъпна среда", "жена", "жена с бял бастун", "незряща"],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some("ছড\u{9bc}ি হ\u{9be}তে মহিল\u{9be}"),
-				keywords: &[
-					"অন\u{9cd}ধ",
-					"অন\u{9cd}ধ মহিল\u{9be} হ\u{9be}তে ল\u{9be}ঠি",
-					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
-					"ছড\u{9bc}ি হ\u{9be}তে মহিল\u{9be}",
-					"মহিল\u{9be}",
-					"ম\u{9be}ন\u{9c1}ষ",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("žena sa štapom za hodanje"),
-				keywords: &["pomagalo", "slijepa", "žena", "žena sa štapom za hodanje"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("dona amb un bastó per a invidents"),
-				keywords: &[
-					"accessibilitat",
-					"cega",
-					"dona",
-					"dona amb un bastó per a invidents",
-					"invident",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ"),
-				keywords: &["ᎠᎨᏯ", "ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ", "ᎬᏴᏍᏗ ᎨᏒᎢ", "ᏗᎨᏫ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("žena se slepeckou holí"),
-				keywords: &[
-					"bezbariérový přístup",
-					"handicap",
-					"hendikep",
-					"nevidomý",
-					"pomůcka",
-					"postižení",
-					"slabozraký",
-					"slepá",
-					"usnadnění",
-					"žena",
-					"žena se slepeckou holí",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("menyw â ffon wen"),
-				keywords: &["dall", "hygyrchedd", "menyw", "menyw â ffon wen"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("kvinde med blindestok"),
-				keywords: &[
-					"blind",
-					"blindestok",
-					"handicap",
-					"kvinde",
-					"kvinde med blindestok",
-					"synshandicap",
-					"tilgængelighed",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Frau mit Langstock"),
-				keywords: &[
-					"Barrierefreiheit",
-					"Behinderung",
-					"Frau",
-					"Frau mit Blindenstock",
-					"Frau mit Gehstock",
-					"Frau mit Langstock",
-					"Mensch",
-					"Person",
-					"blind",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("γυναίκα με μπαστούνι για τυφλούς"),
-				keywords: &["γυναίκα", "γυναίκα με μπαστούνι για τυφλούς", "προσβασιμότητα", "τυφλή"],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("woman with white cane"),
-				keywords: &["accessibility", "blind", "cane", "probing", "white", "woman"],
-			},
-			#[cfg(feature = "en_001")]
-			crate::Annotation {
-				lang:     "en_001",
-				tts:      Some("woman with guide cane"),
-				keywords: &["accessibility", "blind", "woman", "woman with guide cane"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("mujer con bastón"),
-				keywords: &["accesibilidad", "bastón", "ciega", "invidente", "mujer", "mujer con bastón"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"accesibilidad",
-					"bastón",
-					"ciega",
-					"discapacidad visual",
-					"invidente",
-					"mujer",
-					"mujer con bastón",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation {
-				lang:     "es_US",
-				tts:      Some("mujer con bastón blanco"),
-				keywords: &["accesibilidad", "ciega", "invidente", "mujer", "mujer con bastón blanco"],
-			},
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("valge kepiga naine"),
-				keywords: &["ligipääs", "naine", "pime", "valge kepiga naine"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("itsu-makila daraman emakumea"),
-				keywords: &[
-					"emakume",
-					"emakumezko",
-					"irisgarritasun",
-					"itsu",
-					"itsu-makila daraman emakumea",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("زن با عصای سفید"),
-				keywords: &[
-					"دسترس\u{200c}پذیری",
-					"زن",
-					"زن با عصای سفید",
-					"قابلیت دسترسی",
-					"نابینا",
-					"کور",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("nainen ja valkoinen keppi"),
-				keywords: &["esteettömyys", "nainen", "nainen ja valkoinen keppi", "sokea"],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("babaeng may baston"),
-				keywords: &["babae", "babaeng may baston", "bulag", "pagiging naa-access"],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("kvinna við blindastavi"),
-				keywords: &["blind", "blindastavur", "kona", "kvinna", "kvinna við blindastavi", "stavur"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("femme avec canne blanche"),
-				keywords: &[
-					"accessibilité",
-					"aveugle",
-					"déficiente visuelle",
-					"femme",
-					"femme avec canne blanche",
-					"handicap",
-					"malvoyante",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation {
-				lang:     "fr_CA",
-				tts:      Some("↑↑↑"),
-				keywords: &["accessibilité", "aveugle", "blanche", "canne", "femme"],
-			},
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("bean le cána"),
-				keywords: &["bean", "bean le cána", "dall", "inrochtaineacht"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("boireannach dall le batachan"),
-				keywords: &[
-					"boireannach",
-					"boireannach dall le batachan",
-					"dall",
-					"doille",
-					"so-ruigsinneachd",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("muller cun bastón guía"),
-				keywords: &["bastón guía", "cega", "discapacidade", "invidente"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("તપાસ માટ\u{ac7}ની લાકડી સાથ\u{ac7} સ\u{acd}ત\u{acd}રી"),
-				keywords: &[
-					"અ\u{a82}ધ",
-					"અ\u{a82}ધ માણસ",
-					"અ\u{a82}ધજન",
-					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
-					"ચાલવ\u{ac1}\u{a82}",
-					"છોકરી",
-					"તપાસ માટ\u{ac7}ની લાકડી સાથ\u{ac7} સ\u{acd}ત\u{acd}રી",
-					"દિવ\u{acd}યા\u{a82}ગ",
-					"પ\u{acd}રજ\u{acd}ઞાચક\u{acd}ષ\u{ac1}",
-					"વ\u{acd}યક\u{acd}તિ",
-					"સહારો",
-					"સ\u{acd}ત\u{acd}રી",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("↑↑↑"),
-				keywords: &["makanta", "makauniya", "mara gani", "mara ido", "rashin gani", "rashin ido"],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("↑↑↑"),
-				keywords: &["makanta", "makauniya", "mara gani", "mara ido", "rashin gani", "rashin ido"],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("אישה עם מקל נחייה"),
-				keywords: &["אישה עם מקל נחייה", "לקויית ראייה", "נגישות", "עיוורת"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("छड\u{93c}ी पकड\u{93c}ी ह\u{941}ई औरत"),
-				keywords: &[
-					"अ\u{902}धी",
-					"औरत",
-					"छड\u{93c}ी पकड\u{93c}ी ह\u{941}ई औरत",
-					"छड\u{93c}ी पकड\u{93c}\u{947} ह\u{941}ए दिव\u{94d}या\u{902}ग महिला",
-					"छड\u{93c}ी पकड\u{93c}\u{947} ह\u{941}ए महिला",
-					"छड\u{93c}ी लिए ह\u{941}ए दिव\u{94d}या\u{902}ग महिला",
-					"दिव\u{94d}या\u{902}ग",
-					"महिला",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("žena s bijelim štapom"),
-				keywords: &["pomagalo", "slijepa", "slijepica", "žena", "žena s bijelim štapom"],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("nő fehér bottal"),
-				keywords: &["akadálymentesség", "nő", "nő fehér bottal", "vak"],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("ձեռնափայտով կին"),
-				keywords: &["կին", "կույր", "հաշմանդամ", "ձեռնափայտով կին"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("wanita dengan tongkat"),
-				keywords: &[
-					"aksesiblitas",
-					"buta",
-					"perempuan",
-					"tongkat",
-					"tunanetra",
-					"wanita",
-					"wanita dengan tongkat",
-				],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwanyị ji mkpara ọcha"),
-				keywords: &["kpuru ìsì", "nwanyị", "nwanyị ji mkpara ọcha", "nweta"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("kona með blindrastaf"),
-				keywords: &["aðgengi", "blind", "kona", "kona með blindrastaf"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("donna con bastone bianco di orientamento"),
-				keywords: &[
-					"accessibilità",
-					"cecità",
-					"cieca",
-					"donna",
-					"donna con bastone bianco di orientamento",
-					"donna con bastone per ciechi",
-					"donna non vedente",
-					"ipovedente",
-					"ipovedenti",
-					"non vedente",
-					"non vedenti",
-					"persona",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("杖をついた女性"),
-				keywords: &[
-					"アクセシビリティ",
-					"女性",
-					"杖をついた女性",
-					"白杖をついた女性",
-					"目",
-					"視覚",
-					"障がい",
-				],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong wadon nyekeli teken"),
-				keywords: &["kalancaran", "wadon", "wong wadon nyekeli teken", "wuta"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("ქალი თეთრი ჯოხით"),
-				keywords: &["უსინათლო", "უსინათლოთა ჯოხი", "ქალი", "ქალი თეთრი ჯოხით", "შშმ პირი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("таяғы бар әйел"),
-				keywords: &[
-					"көзілдірік",
-					"мүгедек",
-					"мүмкіндігі шектеулі",
-					"соқыр",
-					"таяғы бар әйел",
-					"әйел",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some(
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}កាន\u{17cb}ឈើច\u{17d2}រត\u{17cb}សម\u{17d2}រាប\u{17cb}\u{200b}ជនព\u{17b7}ការភ\u{17d2}នែក",
-				),
-				keywords: &[
-					"ព\u{17b7}ការភ\u{17d2}នែក",
-					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}",
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}កាន\u{17cb}ឈើច\u{17d2}រត\u{17cb}សម\u{17d2}រាប\u{17cb}\u{200b}ជនព\u{17b7}ការភ\u{17d2}នែក",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some("ಊರುಗ\u{ccb}ಲು ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}"),
-				keywords: &[
-					"ಅಂಧ ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಊರುಗ\u{ccb}ಲು ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಕುರುಡ\u{cbf}",
-					"ಕುರುಡು",
-					"ಗ\u{ccd}ರಾಹ\u{ccd}ಯ",
-					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
-					"ಮಹ\u{cbf}ಳ\u{cc6}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("지팡이를 든 여자"),
-				keywords: &[
-					"시각장애",
-					"여자",
-					"접근성",
-					"지팡이를 든 여자",
-					"지팡이를 든 여자 시각장애인",
-				],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("आधाराची बडी घ\u{947}व\u{902}न बायल"),
-				keywords: &[
-					"आधाराची बडी घ\u{947}व\u{902}न बायल",
-					"ऍक\u{94d}स\u{945}सिबिलिटी",
-					"क\u{941}ड\u{94d}डी",
-					"बायल",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("таяк таянган аял"),
-				keywords: &["атайын мүмкүндүк", "аял", "сокур", "таяк таянган аял"],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some(
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ\u{200b}ຖ\u{eb7}\u{200b}ໄມ\u{ec9}\u{200b}ຄ\u{eb1}ນ\u{200b}ເທ\u{ebb}\u{ec9}າ\u{200b}ນຳ\u{200b}ທາງ",
-				),
-				keywords: &[
-					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
-					"ຕາ\u{200b}ບອດ",
-					"ຜ\u{eb9}\u{ec8}ຍ\u{eb4}ງຕາບອດ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ\u{200b}ຖ\u{eb7}\u{200b}ໄມ\u{ec9}\u{200b}ຄ\u{eb1}ນ\u{200b}ເທ\u{ebb}\u{ec9}າ\u{200b}ນຳ\u{200b}ທາງ",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("moteris su neregio lazdele"),
-				keywords: &[
-					"akla",
-					"moteris",
-					"moteris su neregio lazdele",
-					"neregė",
-					"neįgaliųjų prieinamumas",
-					"prieinamumas",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("sieviete ar balto atbalsta spieķi"),
-				keywords: &[
-					"akls",
-					"neredzīgs",
-					"pieejamība",
-					"sieviete",
-					"sieviete ar balto atbalsta spieķi",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("жена со стап за слепи"),
-				keywords: &["жена", "жена со стап за слепи", "пристапност", "слеп"],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some(
-					"പ\u{d4d}രോബിംഗ\u{d4d} വടി പിടിച\u{d4d}ചിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-				),
-				keywords: &[
-					"അന\u{d4d}ധൻ",
-					"ആക\u{d4d}\u{200c}സബിലിറ\u{d4d}റി",
-					"പ\u{d4d}രോബിംഗ\u{d4d} വടി പിടിച\u{d4d}ചിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-					"സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("таягтай хараагүй эмэгтэй"),
-				keywords: &["таягтай хараагүй эмэгтэй", "хараагүй", "хөгжлийн бэрхшээл", "эмэгтэй"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("अ\u{902}धा\u{902}ची काठी असल\u{947}ली महिला"),
-				keywords: &[
-					"अ\u{902}धा\u{902}ची काठी घ\u{947}ऊन चालणारी महिला",
-					"अप\u{902}ग",
-					"आ\u{902}धळी",
-					"काठी घ\u{947}ऊन चालणारी अ\u{902}ध स\u{94d}त\u{94d}री",
-					"दिव\u{94d}या\u{902}ग",
-					"महिला",
-					"व\u{94d}यक\u{94d}ती",
-					"स\u{94d}त\u{94d}री",
-					"ॲक\u{94d}स\u{947}सिबिलिटी",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("perempuan dengan tongkat putih"),
-				keywords: &[
-					"buta",
-					"kebolecapaian",
-					"kurang upaya",
-					"penglihatan",
-					"perempuan",
-					"putih",
-					"tongkat",
-					"wanita",
-				],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some(
-					"တ\u{102f}တ\u{103a}ကောက\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-				),
-				keywords: &[
-					"တ\u{102f}တ\u{103a}ကောက\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-					"မျက\u{103a}မမြင\u{103a}",
-					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
-					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("प\u{94d}रोबिङ क\u{947}न भएको महिला"),
-				keywords: &["अन\u{94d}धो", "उपलब\u{94d}धता", "प\u{94d}रोबिङ क\u{947}न भएको महिला", "महिला"],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("vrouw met taststok"),
-				keywords: &[
-					"blind",
-					"toegankelijkheid",
-					"vrouw",
-					"vrouw met blindenstok",
-					"vrouw met taststok",
-				],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("↑↑↑"),
-				keywords: &["blind", "kvinne", "kvinne med blindestokk", "tilgjenge"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ଅନ\u{b4d}ଧ ବ\u{b3e}ଡ\u{b3c}\u{b3f} ସହ\u{b3f}ତ ମହ\u{b3f}ଳ\u{b3e}"),
-				keywords: &[
-					"ଅନ\u{b4d}ଧ",
-					"ଅନ\u{b4d}ଧ ବ\u{b3e}ଡ\u{b3c}\u{b3f} ସହ\u{b3f}ତ ମହ\u{b3f}ଳ\u{b3e}",
-					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
-					"ମହ\u{b3f}ଳ\u{b3e}",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some("ਪ\u{a4d}ਰ\u{a4b}ਬਿ\u{a70}ਗ ਕ\u{a48}ਨ ਵਾਲੀ ਔਰਤ"),
-				keywords: &[
-					"ਅਸ\u{a48}ਸਬਿਲਟੀ",
-					"ਅ\u{a70}ਨ\u{a4d}ਹੀ",
-					"ਔਰਤ",
-					"ਜ\u{a3c}ਨਾਨੀ",
-					"ਨ\u{a47}ਤਰਹੀਣ",
-					"ਪ\u{a4d}ਰ\u{a4b}ਬਿ\u{a70}ਗ ਕ\u{a48}ਨ ਵਾਲੀ ਔਰਤ",
-					"ਸਹ\u{a42}ਲਤ",
-				],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Wúman Wit Waít Wọkín-Stik"),
-				keywords: &["Blaind", "Wúman", "Wúman Wit Waít Wọkín-Stik", "Ízí To Yuz"],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("kobieta z białą laską"),
-				keywords: &["dostępność", "kobieta", "kobieta z białą laską", "niewidoma"],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("ښځه د معلولينو د همسا سره"),
-				keywords: &["رسوړتيا", "ړوند", "ښځه", "ښځه د معلولينو د همسا سره"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("mulher com bengala para cego"),
-				keywords: &[
-					"accessibilidade",
-					"cega",
-					"deficiência visual",
-					"mulher",
-					"mulher com bengala para cego",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation {
-				lang:     "pt_PT",
-				tts:      Some("mulher com bengala para cegos"),
-				keywords: &[
-					"accessibilidade",
-					"cega",
-					"invisual",
-					"mulher",
-					"mulher com bengala para cegos",
-				],
-			},
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("warmi yuraq cañawan"),
-				keywords: &["haykurinalla", "warmi", "warmi yuraq cañawan", "ñawsa"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("femeie cu baston pentru nevăzători"),
-				keywords: &[
-					"accesibilitate",
-					"femeie",
-					"femeie cu baston pentru nevăzători",
-					"femeie cu baston pentru orbi",
-					"nevăzătoare",
-					"oarbă",
-					"persoană",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E12–005"), keywords: &["E12–005"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("женщина с тростью для ходьбы"),
-				keywords: &[
-					"женщина",
-					"женщина с тростью для ходьбы",
-					"инвалид",
-					"палочка",
-					"слепая",
-					"трость",
-					"человек",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("پروبنگ ڪين سان عورت"),
-				keywords: &["انڌو", "رسائي", "عورت", "پروبنگ ڪين سان عورت"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some("ඒෂණ දණ\u{dca}ඩක\u{dca} සහ\u{dd2}ත ක\u{dcf}න\u{dca}ත\u{dcf}ව"),
-				keywords: &[
-					"අන\u{dca}ධ",
-					"ඒෂණ දණ\u{dca}ඩක\u{dca} සහ\u{dd2}ත ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("žena so slepeckou palicou"),
-				keywords: &[
-					"handicap",
-					"hendikep",
-					"pomôcka",
-					"postihnutie",
-					"slepá",
-					"žena",
-					"žena so slepeckou palicou",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("ženska s palico za slepe"),
-				keywords: &["invalid", "slepa", "ženska", "ženska s palico za slepe"],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("naag sidata usha cad indhoolaha"),
-				keywords: &["awood u yeelid", "indhoole", "naag", "naag sidata usha cad indhoolaha"],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("grua me shkop gjurmimi"),
-				keywords: &["e verbër", "grua", "grua me shkop gjurmimi", "qasshmëri", "shkop për të ecur"],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("жена са помоћним штапом"),
-				keywords: &["жена", "приступачност", "слепа", "штап"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation {
-				lang:     "sr_Cyrl_BA",
-				tts:      Some("↑↑↑"),
-				keywords: &["жена", "жена са помоћним штапом", "приступачност", "слијепа"],
-			},
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("žena sa pomoćnim štapom"),
-				keywords: &["pristupačnost", "slepa", "štap", "žena"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation {
-				lang:     "sr_Latn_BA",
-				tts:      Some("↑↑↑"),
-				keywords: &["pristupačnost", "slijepa", "žena", "žena sa pomoćnim štapom"],
-			},
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("kvinna med vit käpp"),
-				keywords: &[
-					"blind",
-					"blindkäpp",
-					"kvinna",
-					"kvinna med blindkäpp",
-					"kvinna med vit käpp",
-					"vit käpp",
-				],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mwanamke anayetembea kwa mkongojo"),
-				keywords: &["kipofu", "mwanamke", "mwanamke anayetembea kwa mkongojo", "ufikivu"],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some("கைத\u{bcd}தடியுடன\u{bcd} நடக\u{bcd}கும\u{bcd} பெண\u{bcd}"),
-				keywords: &[
-					"கண\u{bcd}ப\u{bbe}ர\u{bcd}வையற\u{bcd}றவர\u{bcd}",
-					"கைத\u{bcd}தடியுடன\u{bcd} நடக\u{bcd}கும\u{bcd} பெண\u{bcd}",
-					"நபர\u{bcd}",
-					"ப\u{bbe}ர\u{bcd}வையற\u{bcd}றவர\u{bcd}",
-					"ப\u{bbe}ர\u{bcd}வையற\u{bcd}றோர\u{bcd}",
-					"ப\u{bbe}ர\u{bcd}வையிழந\u{bcd}தவர\u{bcd}",
-					"பெண\u{bcd}",
-					"ம\u{bbe}ற\u{bcd}றுத\u{bcd}திறன\u{bbe}ளி",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some(
-					"ప\u{c4d}ర\u{c4b}బ\u{c3f}ంగ\u{c4d} క\u{c47}న\u{c4d}\u{200c}త\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
-				),
-				keywords: &[
-					"అంధత\u{c4d}వం",
-					"అంధుర\u{c3e}లు",
-					"కబ\u{c4b}ద\u{c3f}",
-					"గుడ\u{c4d}డ\u{c3f} మహ\u{c3f}ళ",
-					"చ\u{c47}త\u{c3f}కర\u{c4d}రత\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న మహ\u{c3f}ళ",
-					"ప\u{c4d}ర\u{c4b}బ\u{c3f}ంగ\u{c4d} క\u{c47}న\u{c4d}\u{200c}త\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
-					"స\u{c4c}లభ\u{c4d}యం",
-					"స\u{c4d}త\u{c4d}ర\u{c40}",
-				],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("ผ\u{e39}\u{e49}หญ\u{e34}งเด\u{e34}นถ\u{e37}อไม\u{e49}เท\u{e49}านำทาง"),
-				keywords: &[
-					"คนตาบอด",
-					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
-					"สำรวจ",
-					"เข\u{e49}าถ\u{e36}ง",
-					"เด\u{e34}น",
-					"ไม\u{e49}เท\u{e49}า",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ጻዕዳ በትሪ ዘለዋ ሰበይቲ"),
-				keywords: &["መርመራ ምግባር", "ሰበይቲ", "በትሪ", "ተበጻሕነት", "ዕዉር", "ጻዕዳ"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("kör hasaly zenan"),
-				keywords: &["elýeterlilik", "kör", "kör hasaly zenan", "zenan"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("fefine moe tokotokokui"),
-				keywords: &["fefine", "fefine moe tokotokokui", "kui", "tokotoko"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("görme engelli bastonlu kadın"),
-				keywords: &["erişilebilirlik", "görme engelli", "görme engelli bastonlu kadın", "kadın"],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("жінка з тактильною тростиною"),
-				keywords: &[
-					"біла",
-					"білий",
-					"доступність",
-					"жінка",
-					"незряча",
-					"сліпа",
-					"спеціальні можливості",
-					"тростина",
-					"ціпок",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("نابینا افراد والی چھڑی کے ساتھ عورت"),
-				keywords: &[
-					"اندھا",
-					"اندھے کی لاٹھی",
-					"اندھے کی لاٹھی لے کر چلتی عورت",
-					"خاتون",
-					"دسترس",
-					"راستہ دکھانے والی چھڑی کے ساتھ خاتون",
-					"راستہ دکھانے والی چھڑی کے ساتھ عورت",
-					"رسائی",
-					"عورت",
-					"نا بینا کی لاٹھی",
-					"نابینا",
-					"نابینا افراد والی چھڑی کے ساتھ خاتون",
-					"نابینا افراد والی چھڑی کے ساتھ عورت",
-				],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("hassali ayol"),
-				keywords: &["ayol", "hassali ayol", "koʻr", "nogironlik"],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người phụ nữ với gậy dò đường"),
-				keywords: &[
-					"hỗ trợ tiếp cận",
-					"khiếm thị",
-					"mù",
-					"người phụ nữ",
-					"người phụ nữ với cây gậy",
-					"người phụ nữ với gậy dò đường",
-				],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("obìnrin pẹ\u{300}lú ọ\u{300}pá funfun"),
-				keywords: &["afọ\u{301}jú", "obìnrin", "obìnrin pẹ\u{300}lú ọ\u{300}pá funfun", "ìráàyèsí"],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("obìnrin pɛ\u{300}lú ɔ\u{300}pá funfun"),
-				keywords: &["afɔ\u{301}jú", "obìnrin", "obìnrin pɛ\u{300}lú ɔ\u{300}pá funfun", "ìráàyèsí"],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("拎拐杖嘅女人"),
-				keywords: &["女人", "拎拐杖嘅女人", "拎白色拐杖嘅女人", "無障礙", "盲"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("拎拐杖嘅女人"),
-				keywords: &["女人", "拎拐杖嘅女人", "无障碍", "盲"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("拄盲杖的女人"),
-				keywords: &["女", "女人", "女性", "拄盲杖的女人", "拐杖", "无障碍", "盲", "盲人"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("拿導盲手杖的女子"),
-				keywords: &["人", "女", "女子", "拿導盲手杖的女子", "盲人", "行動不便"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("拎導盲拐杖嘅女人"),
-				keywords: &[
-					"人物",
-					"女",
-					"女士",
-					"女性",
-					"拎導盲拐杖嘅女人",
-					"拿著白手杖的女士",
-					"無障礙",
-					"白手杖",
-					"盲人",
-					"瞎",
-					"視障",
-				],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umama onekheni lokuhlola"),
-				keywords: &["ukufinyelela", "ukuphophala", "umama onekheni lokuhlola"],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🦯",
-			codepoint:            &[128105u32, 127995u32, 8205u32, 129455u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman with white cane: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🦯",
-			codepoint:            &[128105u32, 127996u32, 8205u32, 129455u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman with white cane: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🦯",
-			codepoint:            &[128105u32, 127997u32, 8205u32, 129455u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman with white cane: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🦯",
-			codepoint:            &[128105u32, 127998u32, 8205u32, 129455u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman with white cane: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🦯",
-			codepoint:            &[128105u32, 127999u32, 8205u32, 129455u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman with white cane: dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-	],
-};
-#[doc = "👩\u{200d}🦽"]
-pub const WOMAN_IN_MANUAL_WHEELCHAIR: crate::Toned = crate::Toned {
-	emoji: crate::Emoji {
-		glyph:                "👩\u{200d}🦽",
-		codepoint:            &[128105u32, 8205u32, 129469u32],
-		status:               crate::Status::FullyQualified,
-		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-		name:                 "woman in manual wheelchair",
-		group:                crate::Group::PeopleBody,
-		subgroup:             crate::Subgroup::PersonActivity,
-		is_variant:           false,
-		variants:             &[],
-		annotations:          &[
-			#[cfg(feature = "af")]
-			crate::Annotation {
-				lang:     "af",
-				tts:      Some("vrou in handgedrewe rolstoel"),
-				keywords: &[
-					"gestremde",
-					"rolstoel",
-					"toeganklikheid",
-					"verlam",
-					"vrou",
-					"vrou in handgedrewe rolstoel",
-				],
-			},
-			#[cfg(feature = "am")]
-			crate::Annotation {
-				lang:     "am",
-				tts:      Some("ሴት በእጅ ተሽከርካሪ ወንበር"),
-				keywords: &[
-					"መጓጓዣ",
-					"ምቹ",
-					"ሰው",
-					"ሴት",
-					"ሴት በእጅ ተሽከርካሪ ወንበር",
-					"ሴት በእጅ የሚገፋ ተሽከርካሪ ወንበር ላይ",
-					"ተሽከርካሪ ወንበር",
-					"ተደራሽ",
-					"ተደራሽነት",
-					"አካል ጉዳተኛ",
-					"የአካል ጉዳተኛ ተሽከርካሪ ወንበር",
-				],
-			},
-			#[cfg(feature = "ar")]
-			crate::Annotation {
-				lang:     "ar",
-				tts:      Some("سيدة على كرسي متحرك يدوي"),
-				keywords: &[
-					"إمكانية الوصول",
-					"احتياجات خاصة",
-					"سيدة",
-					"سيدة على كرسي متحرك يدوي",
-					"شخص",
-					"قعيدة",
-					"كرسي متحرك",
-					"مقعدة",
-					"وسيلة",
-				],
-			},
-			#[cfg(feature = "as")]
-			crate::Annotation {
-				lang:     "as",
-				tts:      Some(
-					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} মহিল\u{9be}ৰ ছবি",
-				),
-				keywords: &[
-					"দিব\u{9cd}য\u{9be}ংগ",
-					"মহিল\u{9be}",
-					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} মহিল\u{9be}ৰ ছবি",
-					"হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰ",
-				],
-			},
-			#[cfg(feature = "az")]
-			crate::Annotation {
-				lang:     "az",
-				tts:      Some("manual oturacaqda qadın"),
-				keywords: &[
-					"manual",
-					"oturacaqda",
-					"qadın",
-					"əlil arabası",
-					"əlil arabasında əyləşmiş qadın",
-				],
-			},
-			#[cfg(feature = "be")]
-			crate::Annotation {
-				lang:     "be",
-				tts:      Some("жанчына ў калясцы з ручным прывадам"),
-				keywords: &[
-					"асаблівыя фізічныя патрэбы",
-					"жанчына",
-					"жанчына ў калясцы з ручным прывадам",
-					"інваліднасць",
-					"інвалідная каляска",
-				],
-			},
-			#[cfg(feature = "bg")]
-			crate::Annotation {
-				lang:     "bg",
-				tts:      Some("жена в инвалидна количка"),
-				keywords: &[
-					"достъпна среда",
-					"жена",
-					"жена в инвалидна количка",
-					"жена в ръчна инвалидна количка",
-					"инвалидна количка",
-				],
-			},
-			#[cfg(feature = "bn")]
-			crate::Annotation {
-				lang:     "bn",
-				tts:      Some(
-					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
-				),
-				keywords: &[
-					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
-					"মহিল\u{9be}",
-					"ম\u{9be}ন\u{9c1}ষ",
-					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
-					"হ\u{9be}তে ঠেল\u{9be} হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
-					"হ\u{9c1}ইলচেয\u{9bc}\u{9be}র",
-				],
-			},
-			#[cfg(feature = "bs")]
-			crate::Annotation {
-				lang:     "bs",
-				tts:      Some("žena u invalidskim kolicima"),
-				keywords: &["invalidska kolica", "pomagalo", "žena", "žena u invalidskim kolicima"],
-			},
-			#[cfg(feature = "ca")]
-			crate::Annotation {
-				lang:     "ca",
-				tts:      Some("dona amb una cadira de rodes manual"),
-				keywords: &[
-					"accessibilitat",
-					"cadira de rodes",
-					"dona",
-					"dona amb una cadira de rodes manual",
-				],
-			},
-			#[cfg(feature = "chr")]
-			crate::Annotation {
-				lang:     "chr",
-				tts:      Some("ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ"),
-				keywords: &["ᎠᎨᏯ", "ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎬᏴᏍᏗ ᎨᏒᎢ"],
-			},
-			#[cfg(feature = "cs")]
-			crate::Annotation {
-				lang:     "cs",
-				tts:      Some("žena na mechanickém invalidním vozíku"),
-				keywords: &[
-					"bezbariérový",
-					"handicap",
-					"hendikep",
-					"invalidní",
-					"mechanický invalidní vozík",
-					"pomůcka",
-					"postižení",
-					"ručně poháněné kolečkové křeslo",
-					"ručně poháněný invalidní vozík",
-					"snížená mobilita",
-					"usnadnění",
-					"vozík",
-					"žena",
-					"žena na mechanickém invalidním vozíku",
-					"žena na vozíku",
-					"žena v kolečkovém křesle",
-				],
-			},
-			#[cfg(feature = "cy")]
-			crate::Annotation {
-				lang:     "cy",
-				tts:      Some("menyw mewn cadair olwyn"),
-				keywords: &["cadair olwyn", "hygyrchedd", "menyw", "menyw mewn cadair olwyn"],
-			},
-			#[cfg(feature = "da")]
-			crate::Annotation {
-				lang:     "da",
-				tts:      Some("kvinde i manuel kørestol"),
-				keywords: &[
-					"adgangsforhold",
-					"handicap",
-					"handikap",
-					"kvinde",
-					"kvinde i manuel kørestol",
-					"kørestol",
-					"rullestol",
-					"tilgængelighed",
-				],
-			},
-			#[cfg(feature = "de")]
-			crate::Annotation {
-				lang:     "de",
-				tts:      Some("Frau in manuellem Rollstuhl"),
-				keywords: &[
-					"Barrierefreiheit",
-					"Behinderung",
-					"Frau",
-					"Frau in Rollstuhl",
-					"Frau in manuellem Rollstuhl",
-					"Mensch",
-					"Person",
-					"Rollstuhl",
-				],
-			},
-			#[cfg(feature = "de_CH")]
-			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "el")]
-			crate::Annotation {
-				lang:     "el",
-				tts:      Some("γυναίκα σε χειροκίνητο αναπηρικό αμαξίδιο"),
-				keywords: &[
-					"αναπηρικό αμαξίδιο",
-					"γυναίκα",
-					"γυναίκα σε χειροκίνητο αναπηρικό αμαξίδιο",
-					"καροτσάκι",
-					"προσβασιμότητα",
-				],
-			},
-			#[cfg(feature = "en")]
-			crate::Annotation {
-				lang:     "en",
-				tts:      Some("woman in manual wheelchair"),
-				keywords: &["accessibility", "manual", "wheelchair", "woman"],
-			},
-			#[cfg(feature = "en_AU")]
-			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_CA")]
-			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_GB")]
-			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "en_IN")]
-			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es")]
-			crate::Annotation {
-				lang:     "es",
-				tts:      Some("mujer en silla de ruedas manual"),
-				keywords: &["accesibilidad", "mujer", "mujer en silla de ruedas manual", "silla de ruedas"],
-			},
-			#[cfg(feature = "es_419")]
-			crate::Annotation {
-				lang:     "es_419",
-				tts:      Some("↑↑↑"),
-				keywords: &[
-					"accesibilidad",
-					"mujer",
-					"mujer en silla de ruedas",
-					"mujer en silla de ruedas manual",
-					"silla de ruedas",
-				],
-			},
-			#[cfg(feature = "es_MX")]
-			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "es_US")]
-			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "et")]
-			crate::Annotation {
-				lang:     "et",
-				tts:      Some("manuaalratastoolis olev naine"),
-				keywords: &["elektri", "ligipääs", "naine", "ratastool"],
-			},
-			#[cfg(feature = "eu")]
-			crate::Annotation {
-				lang:     "eu",
-				tts:      Some("eskuzko gurpil-aulkian doan emakumea"),
-				keywords: &[
-					"emakume",
-					"emakumezko",
-					"eskuzko gurpil-aulkian doan emakumea",
-					"gurpil-aulki",
-					"irisgarritasun",
-				],
-			},
-			#[cfg(feature = "fa")]
-			crate::Annotation {
-				lang:     "fa",
-				tts:      Some("زن در صندلی چرخ\u{200c}دار دستی"),
-				keywords: &[
-					"دسترس\u{200c}پذیری",
-					"زن",
-					"زن در صندلی چرخ\u{200c}دار دستی",
-					"صندلی چرخ\u{200c}دار",
-					"قابلیت دسترسی",
-					"ویلچر",
-				],
-			},
-			#[cfg(feature = "fi")]
-			crate::Annotation {
-				lang:     "fi",
-				tts:      Some("nainen käsikäyttöisessä pyörätuolissa"),
-				keywords: &[
-					"esteettömyys",
-					"nainen",
-					"nainen käsikäyttöisessä pyörätuolissa",
-					"pyörätuoli",
-				],
-			},
-			#[cfg(feature = "fil")]
-			crate::Annotation {
-				lang:     "fil",
-				tts:      Some("babae sa manu-manong wheelchair"),
-				keywords: &[
-					"babae",
-					"babae sa manu-manong wheelchair",
-					"pagiging naa-access",
-					"wheelchair",
-				],
-			},
-			#[cfg(feature = "fo")]
-			crate::Annotation {
-				lang:     "fo",
-				tts:      Some("kvinna í koyristóli"),
-				keywords: &["kona", "koyristólur", "kvinna", "kvinna í koyristóli"],
-			},
-			#[cfg(feature = "fr")]
-			crate::Annotation {
-				lang:     "fr",
-				tts:      Some("femme en fauteuil roulant manuel"),
-				keywords: &[
-					"accessibilité",
-					"fauteuil roulant",
-					"femme",
-					"femme en fauteuil roulant manuel",
-					"handicap",
-				],
-			},
-			#[cfg(feature = "fr_CA")]
-			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ga")]
-			crate::Annotation {
-				lang:     "ga",
-				tts:      Some("bean i gcathaoir rothaí láimhe"),
-				keywords: &["bean", "bean i gcathaoir rothaí láimhe", "cathaoir rothaí", "inrochtaineacht"],
-			},
-			#[cfg(feature = "gd")]
-			crate::Annotation {
-				lang:     "gd",
-				tts:      Some("tè ann an cathair-chuibhle a làimh"),
-				keywords: &[
-					"boireannach",
-					"boireannach ann an cathair-chuibhle a làimh",
-					"cathair-chuibhle",
-					"so-ruigsinneachd",
-					"tè ann an cathair-chuibhle a làimh",
-				],
-			},
-			#[cfg(feature = "gl")]
-			crate::Annotation {
-				lang:     "gl",
-				tts:      Some("muller en cadeira de rodas"),
-				keywords: &["cadeira de rodas", "discapacidade"],
-			},
-			#[cfg(feature = "gu")]
-			crate::Annotation {
-				lang:     "gu",
-				tts:      Some("હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} સ\u{acd}ત\u{acd}રી"),
-				keywords: &[
-					"અસક\u{acd}ષમ",
-					"અસક\u{acd}ષમો માટ\u{ac7} વ\u{acd}યવસ\u{acd}થા",
-					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
-					"દિવ\u{acd}યા\u{a82}ગ",
-					"પગ",
-					"વ\u{acd}યક\u{acd}તિ",
-					"વ\u{acd}હીલચ\u{ac7}ર",
-					"સ\u{acd}ત\u{acd}રી",
-					"હલનચલન",
-					"હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} સ\u{acd}ત\u{acd}રી",
-				],
-			},
-			#[cfg(feature = "ha")]
-			crate::Annotation {
-				lang:     "ha",
-				tts:      Some("na mace a cikin motan gurgu da ke bukatan tuki"),
-				keywords: &[
-					"buƙata ta musamman",
-					"gurguwa",
-					"keke",
-					"keken asibiti",
-					"keken guragu",
-					"kujeran gurgu",
-					"mace",
-					"mace a keken guragu",
-					"na mace",
-					"na mace a cikin motan gurgu da ke bukatan tuki",
-					"nakasa",
-					"samun wuri",
-				],
-			},
-			#[cfg(feature = "ha_NE")]
-			crate::Annotation {
-				lang:     "ha_NE",
-				tts:      Some("na mace a cikin motan gurgu da ke bukatan tuki"),
-				keywords: &[
-					"buƙata ta musamman",
-					"gurguwa",
-					"keke",
-					"keken asibiti",
-					"keken guragu",
-					"kujeran gurgu",
-					"mace",
-					"mace a keken guragu",
-					"na mace",
-					"na mace a cikin motan gurgu da ke bukatan tuki",
-					"nakasa",
-					"samun wuri",
-				],
-			},
-			#[cfg(feature = "he")]
-			crate::Annotation {
-				lang:     "he",
-				tts:      Some("אישה בכסא גלגלים ידני"),
-				keywords: &["אישה", "אישה בכסא גלגלים ידני", "כסא גלגלים", "נגישות", "נכה"],
-			},
-			#[cfg(feature = "hi")]
-			crate::Annotation {
-				lang:     "hi",
-				tts:      Some("हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी औरत"),
-				keywords: &[
-					"औरत",
-					"महिला",
-					"व\u{94d}हीलच\u{947}यर",
-					"स\u{941}गम\u{94d}यता",
-					"हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी औरत",
-					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर",
-					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी लड\u{93c}की",
-				],
-			},
-			#[cfg(feature = "hr")]
-			crate::Annotation {
-				lang:     "hr",
-				tts:      Some("žena u invalidskim kolicima na ručni pogon"),
-				keywords: &[
-					"invalidska kolica",
-					"kolica",
-					"pomagalo",
-					"žena",
-					"žena u invalidskim kolicima na ručni pogon",
-					"žena u kolicima",
-				],
-			},
-			#[cfg(feature = "hu")]
-			crate::Annotation {
-				lang:     "hu",
-				tts:      Some("nő kézi hajtású kerekesszékben"),
-				keywords: &[
-					"akadálymentesség",
-					"kerekesszék",
-					"mozgáskorlátozott",
-					"nő",
-					"nő kézi hajtású kerekesszékben",
-					"tolószék",
-				],
-			},
-			#[cfg(feature = "hy")]
-			crate::Annotation {
-				lang:     "hy",
-				tts:      Some("ձեռքով կառավարվող անվասայլակով կին"),
-				keywords: &["անվասայլակ", "կին", "հաշմանդամ", "ձեռքով կառավարվող անվասայլակով կին"],
-			},
-			#[cfg(feature = "id")]
-			crate::Annotation {
-				lang:     "id",
-				tts:      Some("wanita dengan kursi roda manual"),
-				keywords: &[
-					"aksesibilitas",
-					"kursi roda",
-					"perempuan",
-					"wanita",
-					"wanita dengan kursi roda",
-					"wanita dengan kursi roda manual",
-				],
-			},
-			#[cfg(feature = "ig")]
-			crate::Annotation {
-				lang:     "ig",
-				tts:      Some("nwanyị nọ n’oche nkwagharị nke aka"),
-				keywords: &["nwanyị", "nwanyị nọ n’oche nkwagharị nke aka", "nweta", "oche nkwagharị"],
-			},
-			#[cfg(feature = "is")]
-			crate::Annotation {
-				lang:     "is",
-				tts:      Some("kona í hjólastól"),
-				keywords: &["aðgengi", "hjólastóll", "kona", "kona í hjólastól"],
-			},
-			#[cfg(feature = "it")]
-			crate::Annotation {
-				lang:     "it",
-				tts:      Some("donna su sedia a rotelle manuale"),
-				keywords: &[
-					"accessibilità",
-					"disabile",
-					"donna",
-					"donna in carrozzina",
-					"donna in sedia a rotelle",
-					"donna su sedia a rotelle manuale",
-					"persona",
-					"sedia a rotelle",
-				],
-			},
-			#[cfg(feature = "ja")]
-			crate::Annotation {
-				lang:     "ja",
-				tts:      Some("手動式車椅子の女性"),
-				keywords: &["アクセシビリティ", "女性", "手動式車椅子の女性", "車いす", "障がい"],
-			},
-			#[cfg(feature = "jv")]
-			crate::Annotation {
-				lang:     "jv",
-				tts:      Some("wong wadon numpak kursi rodha manual"),
-				keywords: &["kalancaran", "kursi rodha", "wadon", "wong wadon numpak kursi rodha manual"],
-			},
-			#[cfg(feature = "ka")]
-			crate::Annotation {
-				lang:     "ka",
-				tts:      Some("ქალი შშმ პირის მექანიკურ ეტლში"),
-				keywords: &["ქალი", "ქალი შშმ პირის მექანიკურ ეტლში", "შშმ", "შშმ პირის ეტლი"],
-			},
-			#[cfg(feature = "kk")]
-			crate::Annotation {
-				lang:     "kk",
-				tts:      Some("қол жетегі бар арбашадағы әйел"),
-				keywords: &[
-					"арбаша",
-					"мүгедек",
-					"мүмкіндігі шектеулі",
-					"қол жетегі бар арбашадағы әйел",
-					"әйел",
-				],
-			},
-			#[cfg(feature = "km")]
-			crate::Annotation {
-				lang:     "km",
-				tts:      Some(
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}ជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
-				),
-				keywords: &[
-					"រទេះជនព\u{17b7}ការ",
-					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}",
-					"ស\u{17d2}ត\u{17d2}រ\u{17b8}ជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
-				],
-			},
-			#[cfg(feature = "kn")]
-			crate::Annotation {
-				lang:     "kn",
-				tts:      Some(
-					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
-				),
-				keywords: &[
-					"ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}",
-					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
-					"ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
-					"ಹಸ\u{ccd}ತಚಾಲ\u{cbf}ತ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
-				],
-			},
-			#[cfg(feature = "ko")]
-			crate::Annotation {
-				lang:     "ko",
-				tts:      Some("수동 휠체어를 탄 여자"),
-				keywords: &["수동 휠체어를 탄 여자", "여자", "접근성", "휠체어"],
-			},
-			#[cfg(feature = "kok")]
-			crate::Annotation {
-				lang:     "kok",
-				tts:      Some("म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र बायल"),
-				keywords: &[
-					"ऍक\u{94d}स\u{945}सिबिलिटी",
-					"बायल",
-					"म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र बायल",
-					"व\u{94d}हिलच\u{945}र",
-				],
-			},
-			#[cfg(feature = "ky")]
-			crate::Annotation {
-				lang:     "ky",
-				tts:      Some("кол менен дөңгөлөктүү отургучтагы аял"),
-				keywords: &[
-					"атайын мүмкүндүк",
-					"аял",
-					"дөңгөлөктүү отургуч",
-					"кол менен дөңгөлөктүү отургучтагы аял",
-				],
-			},
-			#[cfg(feature = "lo")]
-			crate::Annotation {
-				lang:     "lo",
-				tts:      Some(
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
-				),
-				keywords: &[
-					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ",
-					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
-					"ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}",
-				],
-			},
-			#[cfg(feature = "lt")]
-			crate::Annotation {
-				lang:     "lt",
-				tts:      Some("moteris rankomis valdomame vežimėlyje"),
-				keywords: &[
-					"moteris",
-					"moteris rankomis valdomame vežimėlyje",
-					"neįgaliųjų prieinamumas",
-					"prieinamumas",
-					"vežimėlis",
-				],
-			},
-			#[cfg(feature = "lv")]
-			crate::Annotation {
-				lang:     "lv",
-				tts:      Some("sieviete manuālā ratiņkrēslā"),
-				keywords: &[
-					"cilvēks",
-					"pieejamība",
-					"ratiņkrēsls",
-					"sieviete",
-					"sieviete manuālā ratiņkrēslā",
-				],
-			},
-			#[cfg(feature = "mk")]
-			crate::Annotation {
-				lang:     "mk",
-				tts:      Some("жена во рачна инвалидска количка"),
-				keywords: &[
-					"жена",
-					"жена во инвалидска количка",
-					"жена во рачна инвалидска количка",
-					"инвалидска количка",
-					"пристапност",
-				],
-			},
-			#[cfg(feature = "ml")]
-			crate::Annotation {
-				lang:     "ml",
-				tts:      Some(
-					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-				),
-				keywords: &[
-					"ആക\u{d4d}\u{200c}സസബിലിറ\u{d4d}റി",
-					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-					"വീൽചെയർ",
-					"സ\u{d4d}\u{200c}ത\u{d4d}രീ",
-				],
-			},
-			#[cfg(feature = "mn")]
-			crate::Annotation {
-				lang:     "mn",
-				tts:      Some("тэргэнцэртэй эмэгтэй"),
-				keywords: &["тэргэнцэр", "тэргэнцэртэй эмэгтэй", "хөгжлийн бэрхшээл", "эмэгтэй"],
-			},
-			#[cfg(feature = "mr")]
-			crate::Annotation {
-				lang:     "mr",
-				tts:      Some("व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील महिला"),
-				keywords: &[
-					"अप\u{902}ग",
-					"अ\u{945}क\u{94d}स\u{947}सिबिलिटी",
-					"महिला",
-					"व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील महिला",
-					"व\u{94d}यक\u{94d}ती",
-					"व\u{94d}हीलच\u{947}अर",
-					"व\u{94d}हीलच\u{947}अरमधील स\u{94d}त\u{94d}री",
-					"स\u{94d}त\u{94d}री",
-				],
-			},
-			#[cfg(feature = "ms")]
-			crate::Annotation {
-				lang:     "ms",
-				tts:      Some("perempuan dalam kereta roda manual"),
-				keywords: &["kebolehcapaian", "kerusi roda", "manual", "wanita"],
-			},
-			#[cfg(feature = "my")]
-			crate::Annotation {
-				lang:     "my",
-				tts:      Some(
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-				),
-				keywords: &[
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}",
-					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
-					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
-				],
-			},
-			#[cfg(feature = "ne")]
-			crate::Annotation {
-				lang:     "ne",
-				tts:      Some("म\u{94d}यान\u{941}अल व\u{94d}हीलच\u{947}यरमा महिला"),
-				keywords: &[
-					"उपलब\u{94d}धता",
-					"महिला",
-					"म\u{94d}यान\u{941}अल व\u{94d}हीलच\u{947}यरमा महिला",
-					"व\u{94d}हीलच\u{947}यर",
-				],
-			},
-			#[cfg(feature = "nl")]
-			crate::Annotation {
-				lang:     "nl",
-				tts:      Some("vrouw in rolstoel"),
-				keywords: &["handmatig", "rolstoel", "toegankelijkheid", "vrouw"],
-			},
-			#[cfg(feature = "nn")]
-			crate::Annotation {
-				lang:     "nn",
-				tts:      Some("↑↑↑"),
-				keywords: &["kvinne", "kvinne i manuell rullestol", "rullestol", "tilgjenge"],
-			},
-			#[cfg(feature = "or")]
-			crate::Annotation {
-				lang:     "or",
-				tts:      Some("ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ମହ\u{b3f}ଳ\u{b3e}"),
-				keywords: &[
-					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
-					"ମହ\u{b3f}ଳ\u{b3e}",
-					"ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ମହ\u{b3f}ଳ\u{b3e}",
-					"ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ର",
-				],
-			},
-			#[cfg(feature = "pa")]
-			crate::Annotation {
-				lang:     "pa",
-				tts:      Some(
-					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠੀ ਔਰਤ",
-				),
-				keywords: &[
-					"ਔਰਤ",
-					"ਕ\u{a41}ੜੀ",
-					"ਵੀਲਚ\u{a47}ਅਰ",
-					"ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ",
-					"ਸਹ\u{a42}ਲਤ",
-					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠੀ ਔਰਤ",
-				],
-			},
-			#[cfg(feature = "pcm")]
-			crate::Annotation {
-				lang:     "pcm",
-				tts:      Some("Wúman Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin"),
-				keywords: &[
-					"Wílchia",
-					"Wúman",
-					"Wúman Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin",
-					"Ízí To Yuz",
-				],
-			},
-			#[cfg(feature = "pl")]
-			crate::Annotation {
-				lang:     "pl",
-				tts:      Some("kobieta na wózku inwalidzkim"),
-				keywords: &["dostępność", "kobieta", "kobieta na wózku inwalidzkim", "wózek inwalidzki"],
-			},
-			#[cfg(feature = "ps")]
-			crate::Annotation {
-				lang:     "ps",
-				tts:      Some("ښځه د معلولينو په لاسي چوکۍ کې"),
-				keywords: &["د معلولينو چوکۍ", "رسوړتيا", "ښځه", "ښځه د معلولينو په لاسي چوکۍ کې"],
-			},
-			#[cfg(feature = "pt")]
-			crate::Annotation {
-				lang:     "pt",
-				tts:      Some("mulher em cadeira de rodas manual"),
-				keywords: &[
-					"acessibilidade",
-					"cadeira de rodas",
-					"mulher",
-					"mulher em cadeira de rodas manual",
-				],
-			},
-			#[cfg(feature = "pt_PT")]
-			crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "qu")]
-			crate::Annotation {
-				lang:     "qu",
-				tts:      Some("warmi manual silla de ruedas"),
-				keywords: &["silla de ruedas", "warmi", "warmi manual silla de ruedas", "yaykurinalla"],
-			},
-			#[cfg(feature = "ro")]
-			crate::Annotation {
-				lang:     "ro",
-				tts:      Some("femeie în scaun cu rotile manual"),
-				keywords: &[
-					"accesibilitate",
-					"femeie",
-					"femeie în scaun cu rotile manual",
-					"femeie în scaun rulant manual",
-					"persoană",
-					"scaun cu rotile",
-					"scaun rulant",
-				],
-			},
-			#[cfg(feature = "root")]
-			crate::Annotation { lang: "root", tts: Some("E12–007"), keywords: &["E12–007"] },
-			#[cfg(feature = "ru")]
-			crate::Annotation {
-				lang:     "ru",
-				tts:      Some("женщина в ручном кресле-коляске"),
-				keywords: &[
-					"в кресле",
-					"женщина",
-					"женщина в ручном кресле-коляске",
-					"инвалид",
-					"инвалидное кресло",
-					"кресло",
-				],
-			},
-			#[cfg(feature = "sd")]
-			crate::Annotation {
-				lang:     "sd",
-				tts:      Some("دستي وهيل چيئر ۾ عورت"),
-				keywords: &["دستي وهيل چيئر ۾ عورت", "رسائي", "عورت", "وهيل چيئر"],
-			},
-			#[cfg(feature = "si")]
-			crate::Annotation {
-				lang:     "si",
-				tts:      Some(
-					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-				),
-				keywords: &[
-					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
-					"රෝද ප\u{dd4}ට\u{dd4}ව",
-					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
-				],
-			},
-			#[cfg(feature = "sk")]
-			crate::Annotation {
-				lang:     "sk",
-				tts:      Some("žena na mechanickom invalidnom vozíku"),
-				keywords: &[
-					"handicap",
-					"handicapovaná",
-					"hendikep",
-					"invalidná",
-					"invalidný",
-					"pomôcka",
-					"postihnutie",
-					"postihnutá",
-					"telesne postihnutá",
-					"vozík",
-					"žena",
-					"žena na mechanickom invalidnom vozíku",
-				],
-			},
-			#[cfg(feature = "sl")]
-			crate::Annotation {
-				lang:     "sl",
-				tts:      Some("ženska na ročnem invalidskem vozičku"),
-				keywords: &["invalid", "voziček", "ženska", "ženska na ročnem invalidskem vozičku"],
-			},
-			#[cfg(feature = "so")]
-			crate::Annotation {
-				lang:     "so",
-				tts:      Some("naag fadhida kursiga curyaanka macmal ah"),
-				keywords: &[
-					"awood u yeelid",
-					"kursiga curyaanka",
-					"naag",
-					"naag fadhida kursiga curyaanka macmal ah",
-				],
-			},
-			#[cfg(feature = "sq")]
-			crate::Annotation {
-				lang:     "sq",
-				tts:      Some("grua në karrocë manuale invalidi"),
-				keywords: &[
-					"femër",
-					"grua",
-					"grua në karrocë manuale invalidi",
-					"karrocë invalidi",
-					"karrocë me motor",
-					"qasshmëri",
-				],
-			},
-			#[cfg(feature = "sr")]
-			crate::Annotation {
-				lang:     "sr",
-				tts:      Some("жена у механичким колицима"),
-				keywords: &["жена", "колица", "механичка", "приступачност"],
-			},
-			#[cfg(feature = "sr_Cyrl_BA")]
-			crate::Annotation {
-				lang:     "sr_Cyrl_BA",
-				tts:      Some("↑↑↑"),
-				keywords: &["жена", "жена у механичким колицима", "колица", "приступачност"],
-			},
-			#[cfg(feature = "sr_Latn")]
-			crate::Annotation {
-				lang:     "sr_Latn",
-				tts:      Some("žena u mehaničkim kolicima"),
-				keywords: &["kolica", "mehanička", "pristupačnost", "žena"],
-			},
-			#[cfg(feature = "sr_Latn_BA")]
-			crate::Annotation {
-				lang:     "sr_Latn_BA",
-				tts:      Some("↑↑↑"),
-				keywords: &["kolica", "pristupačnost", "žena", "žena u mehaničkim kolicima"],
-			},
-			#[cfg(feature = "sv")]
-			crate::Annotation {
-				lang:     "sv",
-				tts:      Some("kvinna i manuell rullstol"),
-				keywords: &["kvinna", "kvinna i manuell rullstol", "rullstol"],
-			},
-			#[cfg(feature = "sw")]
-			crate::Annotation {
-				lang:     "sw",
-				tts:      Some("mwanamke anayejiendesha kwa kiti cha magurudumu"),
-				keywords: &[
-					"kilema",
-					"kiti cha magurudumu",
-					"mlemavu",
-					"mwanamke",
-					"mwanamke anayejiendesha kwa kiti cha magurudumu",
-					"ufikivu",
-				],
-			},
-			#[cfg(feature = "sw_KE")]
-			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-			#[cfg(feature = "ta")]
-			crate::Annotation {
-				lang:     "ta",
-				tts:      Some(
-					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} பெண\u{bcd}",
-				),
-				keywords: &[
-					"உடல\u{bcd} இயல\u{bbe}மை",
-					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லி",
-					"நடக\u{bcd}க இயல\u{bbe}தவர\u{bcd}",
-					"பெண\u{bcd}",
-					"மனித ஆற\u{bcd}றலில\u{bcd} இயங\u{bcd}கும\u{bcd} சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} பெண\u{bcd}",
-					"ம\u{bbe}ற\u{bcd}றுத\u{bcd} திறன\u{bbe}ளி",
-				],
-			},
-			#[cfg(feature = "te")]
-			crate::Annotation {
-				lang:     "te",
-				tts:      Some(
-					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
-				),
-				keywords: &[
-					"చ\u{c47}త\u{c3f}త\u{c4b} నడ\u{c3f}ప\u{c47} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}",
-					"ద\u{c3f}వ\u{c4d}య\u{c3e}ంగుర\u{c3e}లు",
-					"మహ\u{c3f}ళ",
-					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}ల\u{c4b} ఉన\u{c4d}న మహ\u{c3f}ళ",
-					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
-					"వ\u{c3f}కల\u{c3e}ంగుర\u{c3e}లు",
-					"వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}",
-					"స\u{c4c}లభ\u{c4d}యం",
-					"స\u{c4d}త\u{c4d}ర\u{c40}",
-				],
-			},
-			#[cfg(feature = "th")]
-			crate::Annotation {
-				lang:     "th",
-				tts:      Some("ผ\u{e39}\u{e49}หญ\u{e34}งน\u{e31}\u{e48}งว\u{e35}ลแชร\u{e4c}ธรรมดา"),
-				keywords: &[
-					"คน",
-					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
-					"รถเข\u{e47}น",
-					"ว\u{e35}ลแชร\u{e4c}",
-					"เข\u{e49}าถ\u{e36}ง",
-					"แมนวล",
-				],
-			},
-			#[cfg(feature = "ti")]
-			crate::Annotation {
-				lang:     "ti",
-				tts:      Some("ጓል ኣንስተይቲ ኣብ ማንዋል ዓረብያ ስንኩላን"),
-				keywords: &["ማንዋል", "ሰበይቲ", "ተበጻሕነት", "ዓረብያ ስንኩላን"],
-			},
-			#[cfg(feature = "tk")]
-			crate::Annotation {
-				lang:     "tk",
-				tts:      Some("el maýyp arabasynda zenan"),
-				keywords: &["el maýyp arabasynda zenan", "elýeterlilik", "maýyp arabasy", "zenan"],
-			},
-			#[cfg(feature = "to")]
-			crate::Annotation {
-				lang:     "to",
-				tts:      Some("fefine ʻihe sāliote falemahaki"),
-				keywords: &["falemahaki", "fefine", "fefine ʻihe sāliote falemahaki", "sāliote"],
-			},
-			#[cfg(feature = "tr")]
-			crate::Annotation {
-				lang:     "tr",
-				tts:      Some("tekerlekli sandalyede kadın"),
-				keywords: &[
-					"erişilebilirlik",
-					"kadın",
-					"tekerlekli sandalye",
-					"tekerlekli sandalyede kadın",
-				],
-			},
-			#[cfg(feature = "uk")]
-			crate::Annotation {
-				lang:     "uk",
-				tts:      Some("жінка у візку з ручним приводом"),
-				keywords: &[
-					"візок",
-					"доступність",
-					"жінка",
-					"жінка у візку з ручним приводом",
-					"колісне крісло",
-					"людина",
-					"спеціальні можливості",
-				],
-			},
-			#[cfg(feature = "ur")]
-			crate::Annotation {
-				lang:     "ur",
-				tts:      Some("دستی وہیل چئیر میں عورت"),
-				keywords: &[
-					"خاتون",
-					"دسترس",
-					"دستی وہیل چئیر میں عورت",
-					"دستی وہیل چیئر میں خاتون",
-					"دستی وہیل چیئر میں عورت",
-					"رسائی",
-					"عورت",
-					"مینوئل وہیل چیئر میں بیٹھی عورت",
-					"وہیل چئیر",
-					"وہیل چیئر",
-					"ہاتھ سے چلنے والی وہیل چیئر",
-				],
-			},
-			#[cfg(feature = "uz")]
-			crate::Annotation {
-				lang:     "uz",
-				tts:      Some("nogironlik aravachasidagi ayol"),
-				keywords: &[
-					"ayol",
-					"nogiron ayol",
-					"nogironlik",
-					"nogironlik aravachasi",
-					"nogironlik aravachasidagi ayol",
-				],
-			},
-			#[cfg(feature = "vi")]
-			crate::Annotation {
-				lang:     "vi",
-				tts:      Some("người phụ nữ trên xe lăn tay"),
-				keywords: &["hỗ trợ tiếp cận", "người phụ nữ", "người phụ nữ trên xe lăn tay", "xe lăn"],
-			},
-			#[cfg(feature = "yo")]
-			crate::Annotation {
-				lang:     "yo",
-				tts:      Some("obìnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí"),
-				keywords: &[
-					"kẹ\u{300}kẹ\u{301} abirùn",
-					"obìnrin",
-					"obìnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí",
-					"ìráàyèsí",
-				],
-			},
-			#[cfg(feature = "yo_BJ")]
-			crate::Annotation {
-				lang:     "yo_BJ",
-				tts:      Some("obìnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí"),
-				keywords: &[
-					"kɛ\u{300}kɛ\u{301} abirùn",
-					"obìnrin",
-					"obìnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí",
-					"ìráàyèsí",
-				],
-			},
-			#[cfg(feature = "yue")]
-			crate::Annotation {
-				lang:     "yue",
-				tts:      Some("坐手動輪椅嘅女人"),
-				keywords: &["坐手動輪椅嘅女人", "女人", "無障礙", "輪椅"],
-			},
-			#[cfg(feature = "yue_Hans")]
-			crate::Annotation {
-				lang:     "yue_Hans",
-				tts:      Some("坐手动轮椅嘅女人"),
-				keywords: &["坐手动轮椅嘅女人", "女人", "无障碍", "轮椅"],
-			},
-			#[cfg(feature = "zh")]
-			crate::Annotation {
-				lang:     "zh",
-				tts:      Some("坐手动轮椅的女人"),
-				keywords: &["坐手动轮椅的女人", "女", "女人", "女子", "手动", "无障碍", "轮椅"],
-			},
-			#[cfg(feature = "zh_Hant")]
-			crate::Annotation {
-				lang:     "zh_Hant",
-				tts:      Some("坐輪椅的女子"),
-				keywords: &["人", "坐輪椅的女子", "女", "女子", "行動不便", "輪椅"],
-			},
-			#[cfg(feature = "zh_Hant_HK")]
-			crate::Annotation {
-				lang:     "zh_Hant_HK",
-				tts:      Some("坐輪椅嘅女人"),
-				keywords: &[
-					"人物",
-					"坐在自推式輪椅的女士",
-					"坐輪椅嘅女人",
-					"女",
-					"女士",
-					"女性",
-					"無障礙",
-					"自推式輪椅",
-					"輪椅",
-				],
-			},
-			#[cfg(feature = "zu")]
-			crate::Annotation {
-				lang:     "zu",
-				tts:      Some("umama osesitulweni sokuhanjiswa"),
-				keywords: &[
-					"isitulo sokuhamba",
-					"ukufinyelela",
-					"umama",
-					"umama osesitulweni sokuhanjiswa",
-				],
-			},
-		],
-	},
-	tones: &[
-		crate::Emoji {
-			glyph:                "👩🏻\u{200d}🦽",
-			codepoint:            &[128105u32, 127995u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏼\u{200d}🦽",
-			codepoint:            &[128105u32, 127996u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium-light skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏽\u{200d}🦽",
-			codepoint:            &[128105u32, 127997u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏾\u{200d}🦽",
-			codepoint:            &[128105u32, 127998u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: medium-dark skin tone",
-			group:                crate::Group::PeopleBody,
-			subgroup:             crate::Subgroup::PersonActivity,
-			is_variant:           true,
-			variants:             &[],
-			annotations:          &[],
-		},
-		crate::Emoji {
-			glyph:                "👩🏿\u{200d}🦽",
-			codepoint:            &[128105u32, 127999u32, 8205u32, 129469u32],
-			status:               crate::Status::FullyQualified,
-			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
-			name:                 "woman in manual wheelchair: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonActivity,
 			is_variant:           true,
@@ -28267,6 +21522,6751 @@ pub const WOMAN_IN_MOTORIZED_WHEELCHAIR: crate::Toned = crate::Toned {
 			status:               crate::Status::FullyQualified,
 			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
 			name:                 "woman in motorized wheelchair: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧎\u{200d}➡\u{fe0f}"]
+pub const PERSON_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧎\u{200d}➡\u{fe0f}",
+		codepoint:            &[129486u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person kneeling: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧎🏻\u{200d}➡\u{fe0f}",
+			codepoint:            &[129486u32, 127995u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person kneeling: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏼\u{200d}➡\u{fe0f}",
+			codepoint:            &[129486u32, 127996u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person kneeling: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏽\u{200d}➡\u{fe0f}",
+			codepoint:            &[129486u32, 127997u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person kneeling: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏾\u{200d}➡\u{fe0f}",
+			codepoint:            &[129486u32, 127998u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person kneeling: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏿\u{200d}➡\u{fe0f}",
+			codepoint:            &[129486u32, 127999u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person kneeling: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧎\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const MAN_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧎\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[129486u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man kneeling: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧎🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man kneeling: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man kneeling: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man kneeling: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man kneeling: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man kneeling: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🚶\u{200d}➡\u{fe0f}"]
+pub const PERSON_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🚶\u{200d}➡\u{fe0f}",
+		codepoint:            &[128694u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person walking: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🚶🏻\u{200d}➡\u{fe0f}",
+			codepoint:            &[128694u32, 127995u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person walking: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏼\u{200d}➡\u{fe0f}",
+			codepoint:            &[128694u32, 127996u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person walking: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏽\u{200d}➡\u{fe0f}",
+			codepoint:            &[128694u32, 127997u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person walking: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏾\u{200d}➡\u{fe0f}",
+			codepoint:            &[128694u32, 127998u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person walking: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏿\u{200d}➡\u{fe0f}",
+			codepoint:            &[128694u32, 127999u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person walking: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧑\u{200d}🦯\u{200d}➡\u{fe0f}"]
+pub const PERSON_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧑\u{200d}🦯\u{200d}➡\u{fe0f}",
+		codepoint:            &[129489u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person with white cane: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧑🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person with white cane: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person with white cane: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person with white cane: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person with white cane: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person with white cane: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧎\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const WOMAN_KNEELING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧎\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[129486u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman kneeling: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧎🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman kneeling: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman kneeling: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman kneeling: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman kneeling: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129486u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman kneeling: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🚶\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const WOMAN_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🚶\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[128694u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman walking: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🚶🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman walking: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman walking: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman walking: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman walking: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman walking: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🚶\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const MAN_WALKING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🚶\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[128694u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man walking: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🚶🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man walking: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man walking: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man walking: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man walking: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128694u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man walking: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🦯\u{200d}➡\u{fe0f}"]
+pub const MAN_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🦯\u{200d}➡\u{fe0f}",
+		codepoint:            &[128104u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man with white cane: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man with white cane: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man with white cane: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man with white cane: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man with white cane: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man with white cane: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧑\u{200d}🦼\u{200d}➡\u{fe0f}"]
+pub const PERSON_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧑\u{200d}🦼\u{200d}➡\u{fe0f}",
+		codepoint:            &[129489u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person in motorized wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧑🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in motorized wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in motorized wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in motorized wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in motorized wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in motorized wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🦯\u{200d}➡\u{fe0f}"]
+pub const WOMAN_WITH_WHITE_CANE_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🦯\u{200d}➡\u{fe0f}",
+		codepoint:            &[128105u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman with white cane: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127995u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman with white cane: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127996u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman with white cane: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127997u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman with white cane: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127998u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman with white cane: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🦯\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127999u32, 8205u32, 129455u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman with white cane: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧑\u{200d}🦽\u{200d}➡\u{fe0f}"]
+pub const PERSON_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧑\u{200d}🦽\u{200d}➡\u{fe0f}",
+		codepoint:            &[129489u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person in manual wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧑🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in manual wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in manual wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in manual wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in manual wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				129489u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person in manual wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🦼\u{200d}➡\u{fe0f}"]
+pub const WOMAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🦼\u{200d}➡\u{fe0f}",
+		codepoint:            &[128105u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman in motorized wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in motorized wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in motorized wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in motorized wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in motorized wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in motorized wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🦼\u{200d}➡\u{fe0f}"]
+pub const MAN_IN_MOTORIZED_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🦼\u{200d}➡\u{fe0f}",
+		codepoint:            &[128104u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man in motorized wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127995u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in motorized wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127996u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in motorized wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127997u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in motorized wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127998u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in motorized wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🦼\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127999u32, 8205u32, 129468u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in motorized wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🏃\u{200d}➡\u{fe0f}"]
+pub const PERSON_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🏃\u{200d}➡\u{fe0f}",
+		codepoint:            &[127939u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "person running: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🏃🏻\u{200d}➡\u{fe0f}",
+			codepoint:            &[127939u32, 127995u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person running: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏼\u{200d}➡\u{fe0f}",
+			codepoint:            &[127939u32, 127996u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person running: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏽\u{200d}➡\u{fe0f}",
+			codepoint:            &[127939u32, 127997u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person running: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏾\u{200d}➡\u{fe0f}",
+			codepoint:            &[127939u32, 127998u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person running: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏿\u{200d}➡\u{fe0f}",
+			codepoint:            &[127939u32, 127999u32, 8205u32, 10145u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "person running: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🦽\u{200d}➡\u{fe0f}"]
+pub const MAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🦽\u{200d}➡\u{fe0f}",
+		codepoint:            &[128104u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man in manual wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128104u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🦽\u{200d}➡\u{fe0f}"]
+pub const WOMAN_IN_MANUAL_WHEELCHAIR_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🦽\u{200d}➡\u{fe0f}",
+		codepoint:            &[128105u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman in manual wheelchair: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127995u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127996u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127997u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127998u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🦽\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				128105u32, 127999u32, 8205u32, 129469u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🏃\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const MAN_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🏃\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[127939u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "man running: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🏃🏻\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127995u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man running: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏼\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127996u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man running: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏽\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127997u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man running: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏾\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127998u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man running: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏿\u{200d}♂\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127999u32, 8205u32, 9794u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "man running: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧑\u{200d}🩰"]
+pub const BALLET_DANCER: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧑\u{200d}🩰",
+		codepoint:            &[129489u32, 8205u32, 129648u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+		name:                 "ballet dancer",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧑🏻\u{200d}🩰",
+			codepoint:            &[129489u32, 127995u32, 8205u32, 129648u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+			name:                 "ballet dancer: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏼\u{200d}🩰",
+			codepoint:            &[129489u32, 127996u32, 8205u32, 129648u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+			name:                 "ballet dancer: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏽\u{200d}🩰",
+			codepoint:            &[129489u32, 127997u32, 8205u32, 129648u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+			name:                 "ballet dancer: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏾\u{200d}🩰",
+			codepoint:            &[129489u32, 127998u32, 8205u32, 129648u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+			name:                 "ballet dancer: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧑🏿\u{200d}🩰",
+			codepoint:            &[129489u32, 127999u32, 8205u32, 129648u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+			name:                 "ballet dancer: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🏃\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}"]
+pub const WOMAN_RUNNING_FACING_RIGHT: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🏃\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+		codepoint:            &[127939u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+		name:                 "woman running: facing right",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🏃🏻\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127995u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman running: light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏼\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127996u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman running: medium-light skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏽\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127997u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman running: medium skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏾\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127998u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman running: medium-dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🏃🏿\u{200d}♀\u{fe0f}\u{200d}➡\u{fe0f}",
+			codepoint:            &[
+				127939u32, 127999u32, 8205u32, 9792u32, 65039u32, 8205u32, 10145u32, 65039u32,
+			],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 15u8, minor: 1u8, patch: 0u8 },
+			name:                 "woman running: dark skin tone, facing right",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🕴\u{fe0f}"]
+pub const PERSON_IN_SUIT_LEVITATING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🕴\u{fe0f}",
+		codepoint:            &[128372u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 0u8, minor: 7u8, patch: 0u8 },
+		name:                 "person in suit levitating",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🕴🏻",
+			codepoint:            &[128372u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "person in suit levitating: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕴🏼",
+			codepoint:            &[128372u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "person in suit levitating: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕴🏽",
+			codepoint:            &[128372u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "person in suit levitating: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕴🏾",
+			codepoint:            &[128372u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "person in suit levitating: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🕴🏿",
+			codepoint:            &[128372u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "person in suit levitating: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👨\u{200d}🦽"]
+pub const MAN_IN_MANUAL_WHEELCHAIR: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👨\u{200d}🦽",
+		codepoint:            &[128104u32, 8205u32, 129469u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+		name:                 "man in manual wheelchair",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("man in handgedrewe rolstoel"),
+				keywords: &[
+					"gestremde",
+					"man",
+					"man in handgedrewe rolstoel",
+					"rolstoel",
+					"toeganklikheid",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ወንድ በእጅ ተሽከርካሪ ወንበር"),
+				keywords: &[
+					"መጓጓዣ",
+					"ምቹ",
+					"ሰው",
+					"ተሽከርካሪ ወንበር",
+					"ተደራሽ",
+					"ተደራሽነት",
+					"አካል ጉዳተኛ",
+					"ወንድ",
+					"ወንድ በእጅ ተሽከርካሪ ወንበር",
+					"ወንድ በእጅ የሚገፋ ተሽከርካሪ ወንበር ላይ",
+					"የአካል ጉዳተኛ ተሽከርካሪ ወንበር",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("رجل على كرسي متحرك يدوي"),
+				keywords: &[
+					"إعاقة",
+					"إمكانية الوصول",
+					"احتياجات خاصة",
+					"رجل",
+					"رجل على كرسي متحرك يدوي",
+					"شخص",
+					"قعيد",
+					"كرسي بعجل",
+					"كرسي متحرك",
+					"معاق",
+					"مقعد",
+				],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some(
+					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি",
+				),
+				keywords: &[
+					"দিব\u{9cd}য\u{9be}ংগ",
+					"প\u{9c1}ৰ\u{9c1}ষ",
+					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি",
+					"হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰ",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("manual oturacaqda kişi"),
+				keywords: &[
+					"kişi",
+					"manual",
+					"oturacaqda",
+					"əlil arabası",
+					"əlil arabasında əyləşmiş kişi",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("мужчына ў калясцы з ручным прывадам"),
+				keywords: &[
+					"асаблівыя фізічныя патрэбы",
+					"мужчына",
+					"мужчына ў калясцы з ручным прывадам",
+					"інваліднасць",
+					"інвалідная каляска",
+				],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("мъж в инвалидна количка"),
+				keywords: &[
+					"достъпна среда",
+					"инвалидна количка",
+					"мъж",
+					"мъж в инвалидна количка",
+					"мъж в ръчна инвалидна количка",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some(
+					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
+				),
+				keywords: &[
+					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
+					"প\u{9c1}র\u{9c1}ষ",
+					"ম\u{9be}ন\u{9c1}ষ",
+					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
+					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে ম\u{9be}ন\u{9c1}ষ",
+					"হ\u{9be}তে ঠেল\u{9be} হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে প\u{9c1}র\u{9c1}ষ",
+					"হ\u{9c1}ইলচেয\u{9bc}\u{9be}র",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("muškarac u invalidskim kolicima"),
+				keywords: &["invalidska kolica", "muškarac", "muškarac u invalidskim kolicima", "pomagalo"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("home amb una cadira de rodes manual"),
+				keywords: &[
+					"accessibilitat",
+					"cadira de rodes",
+					"home",
+					"home amb una cadira de rodes manual",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ"),
+				keywords: &["ᎠᏍᎦᏯ", "ᎠᏍᎦᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎬᏴᏍᏗ ᎨᏒᎢ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("muž na mechanickém invalidním vozíku"),
+				keywords: &[
+					"bezbariérový přístup",
+					"handicap",
+					"hendikep",
+					"invalidní",
+					"kolečkové křeslo",
+					"muž",
+					"muž na mechanickém invalidním vozíku",
+					"muž v invalidním vozíku",
+					"muž v ručním invalidním vozíku",
+					"pomůcka",
+					"postižení",
+					"ručně poháněný invalidní vozík",
+					"usnadnění",
+					"vozík",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("dyn mewn cadair olwyn"),
+				keywords: &["cadair olwyn", "dyn", "dyn mewn cadair olwyn", "hygyrchedd"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("mand i manuel kørestol"),
+				keywords: &[
+					"adgangsforhold",
+					"handicap",
+					"handikap",
+					"kørestol",
+					"mand",
+					"mand i manuel kørestol",
+					"rullestol",
+					"tilgængelighed",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Mann in manuellem Rollstuhl"),
+				keywords: &[
+					"Barrierefreiheit",
+					"Behinderung",
+					"Mann",
+					"Mann in Rollstuhl",
+					"Mann in manuellem Rollstuhl",
+					"Mensch",
+					"Person",
+					"Rollstuhl",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("άντρας σε χειροκίνητο αναπηρικό αμαξίδιο"),
+				keywords: &[
+					"άντρας",
+					"άντρας σε χειροκίνητο αναπηρικό αμαξίδιο",
+					"αναπηρικό αμαξίδιο",
+					"καροτσάκι",
+					"προσβασιμότητα",
+				],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("man in manual wheelchair"),
+				keywords: &["accessibility", "man", "manual", "wheelchair"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("hombre en silla de ruedas manual"),
+				keywords: &[
+					"accesibilidad",
+					"hombre",
+					"hombre en silla de ruedas manual",
+					"silla de ruedas",
+				],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"accesibilidad",
+					"hombre",
+					"hombre en silla de ruedas",
+					"hombre en silla de ruedas manual",
+					"silla de ruedas",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("manuaalratastoolis olev mees"),
+				keywords: &["ligipääs", "manuaal", "mees", "ratastool"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("eskuzko gurpil-aulkian doan gizona"),
+				keywords: &[
+					"eskuzko gurpil-aulkian doan gizona",
+					"gizon",
+					"gizonezko",
+					"gurpil-aulki",
+					"irisgarritasun",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("مرد در صندلی چرخ\u{200c}دار دستی"),
+				keywords: &[
+					"دسترس\u{200c}پذیری",
+					"صندلی چرخ\u{200c}دار",
+					"قابلیت دسترسی",
+					"مرد",
+					"مرد در صندلی چرخ\u{200c}دار دستی",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("mies käsikäyttöisessä pyörätuolissa"),
+				keywords: &["esteettömyys", "mies", "mies käsikäyttöisessä pyörätuolissa", "pyörätuoli"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("lalaki sa manu-manong wheelchair"),
+				keywords: &[
+					"lalaki",
+					"lalaki sa manu-manong wheelchair",
+					"pagiging naa-access",
+					"wheelchair",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("maður í koyristóli"),
+				keywords: &["koyristólur", "maður", "maður í koyristóli"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("homme en fauteuil roulant manuel"),
+				keywords: &[
+					"accessibilité",
+					"fauteuil roulant",
+					"handicap",
+					"homme",
+					"homme en fauteuil roulant manuel",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("fear i gcathaoir rothaí láimhe"),
+				keywords: &["cathaoir rothaí", "fear", "fear i gcathaoir rothaí láimhe", "inrochtaineacht"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("duine ann an cathair-chuibhle a làimh"),
+				keywords: &[
+					"cathair-chuibhle",
+					"duine",
+					"duine ann an cathair-chuibhle a làimh",
+					"fireannach",
+					"so-ruigsinneachd",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("home en cadeira de rodas"),
+				keywords: &["cadeira de rodas", "discapacidade"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} પ\u{ac1}ર\u{ac1}ષ"),
+				keywords: &[
+					"અસક\u{acd}ષમ",
+					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
+					"ખ\u{ac1}રશી",
+					"છોકરો",
+					"દિવ\u{acd}યા\u{a82}ગ",
+					"પ\u{ac1}ર\u{ac1}ષ",
+					"વાહન",
+					"વ\u{acd}યક\u{acd}તિ",
+					"વ\u{acd}હીલચ\u{ac7}ર",
+					"હલનચલન",
+					"હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} પ\u{ac1}ર\u{ac1}ષ",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("na miji a cikin motan gurgu da ke bukatan tuki"),
+				keywords: &[
+					"gurgu",
+					"keke",
+					"keken asibiti",
+					"keken guragu",
+					"kujeran kurgu",
+					"mai buƙata ta musamman",
+					"mara lafiya",
+					"mutum",
+					"mutum a keken guragu",
+					"na miji",
+					"na miji a cikin motan gurgu da ke bukatan tuki",
+					"nakasa",
+					"samun wuri",
+					"tallafin tafiya",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("na miji a cikin motan gurgu da ke bukatan tuki"),
+				keywords: &[
+					"gurgu",
+					"keke",
+					"keken asibiti",
+					"keken guragu",
+					"kujeran kurgu",
+					"mai buƙata ta musamman",
+					"mara lafiya",
+					"mutum",
+					"mutum a keken guragu",
+					"na miji",
+					"na miji a cikin motan gurgu da ke bukatan tuki",
+					"nakasa",
+					"samun wuri",
+					"tallafin tafiya",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("איש בכסא גלגלים ידני"),
+				keywords: &["איש", "גבר", "כיסא גלגלים", "כסא גלגלים", "כסא גלגלים ידני", "נגישות", "נכה"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा आदमी"),
+				keywords: &[
+					"आदमी",
+					"व\u{94d}हीलच\u{947}यर",
+					"हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा आदमी",
+					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर पर ब\u{948}ठा ह\u{941}आ आदमी",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("muškarac u invalidskim kolicima na ručni pogon"),
+				keywords: &[
+					"invalidska kolica",
+					"kolica",
+					"muškarac",
+					"muškarac u invalidskim kolicima na ručni pogon",
+					"pomagalo",
+					"čovjek u kolicima",
+				],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("férfi kézi hajtású kerekesszékben"),
+				keywords: &[
+					"akadálymentesség",
+					"férfi",
+					"férfi kézi hajtású kerekesszékben",
+					"kerekesszék",
+					"mozgáskorlátozott",
+					"mozgássérült",
+					"tolószék",
+				],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("անվասայլակով տղամարդ"),
+				keywords: &["անվասայլակ", "անվասայլակով տղամարդ", "հաշմանդամ", "տղամարդ"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("pria dengan kursi roda manual"),
+				keywords: &[
+					"aksesibilitas",
+					"kursi roda",
+					"laki-laki",
+					"pria",
+					"pria dengan kursi roda",
+					"pria dengan kursi roda manual",
+				],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwoke nọ n’oche nkwagharị nke aka"),
+				keywords: &["nweta", "nwoke", "nwoke nọ n’oche nkwagharị nke aka", "oche nkwagharị"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("maður í hjólastól"),
+				keywords: &["aðgengi", "hjólastóll", "maður", "maður í hjólastól"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("uomo su sedia a rotelle manuale"),
+				keywords: &[
+					"accessibilità",
+					"disabile",
+					"persona",
+					"uomo",
+					"uomo in carrozzina",
+					"uomo in sedia a rotelle",
+					"uomo su sedia a rotelle manuale",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("手動式車椅子の男性"),
+				keywords: &["アクセシビリティ", "手動式車椅子の男性", "男性", "車いす", "障がい"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong lanang numpak kursi rodha manual"),
+				keywords: &["kalancaran", "kursi rodha", "lanang", "wong lanang numpak kursi rodha manual"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("კაცი შშმ პირის მექანიკურ ეტლში"),
+				keywords: &[
+					"კაცი",
+					"კაცი ინვალიდის მექანიკურ ეტლში",
+					"კაცი შშმ პირის მექანიკურ ეტლში",
+					"შშმ",
+					"შშმ პირის ეტლი",
+				],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("қол жетегі бар арбашадағы еркек"),
+				keywords: &[
+					"арбаша",
+					"еркек",
+					"мүгедек",
+					"мүмкіндігі шектеулі",
+					"қол жетегі бар арбашадағы еркек",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("ប\u{17bb}រសជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ"),
+				keywords: &[
+					"ប\u{17bb}រស",
+					"ប\u{17bb}រសជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
+					"រទេះជនព\u{17b7}ការ",
+					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some(
+					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+				),
+				keywords: &[
+					"ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}",
+					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
+					"ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ವ\u{ccd}ಹ\u{cc0}ಲ\u{ccd} ಚ\u{cc7}ರ\u{ccd}",
+					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ಹಸ\u{ccd}ತಚಾಲ\u{cbf}ತ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("수동 휠체어를 탄 남자"),
+				keywords: &["남자", "수동 휠체어를 탄 남자", "접근성", "휠체어"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र दादलो"),
+				keywords: &[
+					"ऍक\u{94d}स\u{945}सिबिलिटी",
+					"दादलो",
+					"म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र दादलो",
+					"व\u{94d}हिलच\u{945}र",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("кол менен дөңгөлөктүү отургучтагы киши"),
+				keywords: &[
+					"атайын мүмкүндүк",
+					"дөңгөлөктүү отургуч",
+					"киши",
+					"кол менен дөңгөлөктүү отургучтагы киши",
+				],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some(
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ\u{200b}ນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
+				),
+				keywords: &[
+					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຊາຍ\u{200b}ນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
+					"ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("vyras rankomis valdomame vežimėlyje"),
+				keywords: &[
+					"neįgaliųjų prieinamumas",
+					"prieinamumas",
+					"vežimėlis",
+					"vyras",
+					"vyras rankomis valdomame vežimėlyje",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("vīrietis manuālā ratiņkrēslā"),
+				keywords: &[
+					"cilvēks",
+					"pieejamība",
+					"ratiņkrēsls",
+					"vīretis manuālā ratiņkrēslā",
+					"vīrietis",
+					"vīrietis manuālā ratiņkrēslā",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("маж во рачна инвалидска количка"),
+				keywords: &[
+					"инвалидска количка",
+					"маж",
+					"маж во инвалидска количка",
+					"маж во рачна инвалидска количка",
+					"пристапност",
+				],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some(
+					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പ\u{d41}ര\u{d41}ഷൻ",
+				),
+				keywords: &[
+					"ആക\u{d4d}\u{200c}സസബിലിറ\u{d4d}റി",
+					"പ\u{d41}ര\u{d41}ഷൻ",
+					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പ\u{d41}ര\u{d41}ഷൻ",
+					"വീൽചെയർ",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("тэргэнцэртэй эрэгтэй"),
+				keywords: &["тэргэнцэр", "тэргэнцэртэй эрэгтэй", "хөгжлийн бэрхшээл", "эрэгтэй"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील माण\u{942}स"),
+				keywords: &[
+					"अप\u{902}ग",
+					"अ\u{945}क\u{94d}स\u{947}सिबिलिटी",
+					"माण\u{942}स",
+					"व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील माण\u{942}स",
+					"व\u{94d}यक\u{94d}ती",
+					"व\u{94d}हीलच\u{947}अर",
+					"व\u{94d}हीलच\u{947}अरमधील माण\u{942}स",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("lelaki dalam kerusi roda manual"),
+				keywords: &["kebolehcapaian", "kerusi roda", "lelaki", "manual"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some(
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသား",
+				),
+				keywords: &[
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}",
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသား",
+					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
+					"အမျ\u{102d}\u{102f}းသား",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("म\u{94d}यान\u{941}अल व\u{94d}हीलचय\u{947}रमा प\u{941}र\u{941}ष"),
+				keywords: &[
+					"उपलब\u{94d}धता",
+					"प\u{941}र\u{941}ष",
+					"म\u{94d}यान\u{941}अल व\u{94d}हीलचय\u{947}रमा प\u{941}र\u{941}ष",
+					"व\u{94d}हीलच\u{947}यर",
+				],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("man in rolstoel"),
+				keywords: &["handmatig", "man", "rolstoel", "toegankelijkheid"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("↑↑↑"),
+				keywords: &["mann", "mann i manuell rullestol", "rullestol", "tilgjenge"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ପ\u{b41}ର\u{b41}ଷ"),
+				keywords: &[
+					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
+					"ପ\u{b41}ର\u{b41}ଷ",
+					"ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ପ\u{b41}ର\u{b41}ଷ",
+					"ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ର",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some(
+					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠਾ ਆਦਮੀ",
+				),
+				keywords: &[
+					"ਆਦਮੀ",
+					"ਵੀਲਚ\u{a47}ਅਰ",
+					"ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ",
+					"ਸਹ\u{a42}ਲਤ",
+					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠਾ ਆਦਮੀ",
+				],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Man Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin"),
+				keywords: &[
+					"Man",
+					"Man Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin",
+					"Wílchia",
+					"Ízí To Yuz",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("mężczyzna na wózku inwalidzkim"),
+				keywords: &[
+					"dostępność",
+					"mężczyzna",
+					"mężczyzna na wózku inwalidzkim",
+					"wózek inwalidzki",
+				],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("سړی د معلولينو په لاسي چوکۍ کې"),
+				keywords: &["د معلولينو چوکۍ", "رسوړتيا", "سړی", "سړی د معلولينو په لاسي چوکۍ کې"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("homem em cadeira de rodas manual"),
+				keywords: &[
+					"acessibilidade",
+					"cadeira de rodas",
+					"homem",
+					"homem em cadeira de rodas manual",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("runa manual silla de ruedas nisqapi"),
+				keywords: &[
+					"runa",
+					"runa manual silla de ruedas nisqapi",
+					"silla de ruedas",
+					"yaykurinalla",
+				],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("bărbat în scaun cu rotile manual"),
+				keywords: &[
+					"accesibilitate",
+					"bărbat",
+					"bărbat în scaun cu rotile manual",
+					"bărbat în scaun rulant manual",
+					"persoană",
+					"scaun cu rotile",
+					"scaun rulant",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E12–004"), keywords: &["E12–004"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("мужчина в ручном кресле-коляске"),
+				keywords: &[
+					"в кресле",
+					"инвалид",
+					"инвалидное кресло",
+					"кресло",
+					"мужчина",
+					"мужчина в ручном кресле-коляске",
+					"человек",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("دستي وهيل چيئر ۾ ماڻهو"),
+				keywords: &["دستي وهيل چيئر ۾ ماڻهو", "رسائي", "ماڻهو", "وهيل چيئر"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some(
+					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ම\u{dd2}න\u{dd2}ස\u{dcf}",
+				),
+				keywords: &[
+					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ම\u{dd2}න\u{dd2}ස\u{dcf}",
+					"ම\u{dd2}න\u{dd2}ස\u{dcf}",
+					"රෝද ප\u{dd4}ට\u{dd4}ව",
+					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("muž na mechanickom invalidnom vozíku"),
+				keywords: &[
+					"handicap",
+					"hendikep",
+					"invalidný",
+					"muž na mechanickom invalidnom vozíku",
+					"pomôcka",
+					"postihnutie",
+					"vozík",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("moški na ročnem invalidskem vozičku"),
+				keywords: &["invalid", "moški", "moški na ročnem invalidskem vozičku", "voziček"],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("nin saaran kursiga curyaanka macmac ah"),
+				keywords: &[
+					"awood u yeelid",
+					"kursiga curyaanka",
+					"nin",
+					"nin saaran kursiga curyaanka macmac ah",
+				],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("burrë në karrocë manuale invalidi"),
+				keywords: &[
+					"burrë",
+					"burrë në karrocë manuale invalidi",
+					"karrocë invalidi",
+					"karrocë me motor",
+					"qasshmëri",
+				],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("човек у механичким колицима"),
+				keywords: &["колица", "механичка", "приступачност", "човек"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation {
+				lang:     "sr_Cyrl_BA",
+				tts:      Some("човјек у механичким колицима"),
+				keywords: &["колица", "приступачност", "човјек", "човјек у механичким колицима"],
+			},
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("čovek u mehaničkim kolicima"),
+				keywords: &["kolica", "mehanička", "pristupačnost", "čovek"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation {
+				lang:     "sr_Latn_BA",
+				tts:      Some("čovjek u mehaničkim kolicima"),
+				keywords: &["kolica", "pristupačnost", "čovjek", "čovjek u mehaničkim kolicima"],
+			},
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("man i manuell rullstol"),
+				keywords: &["man", "man i manuell rullstol", "rullstol"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mwanamume anayejiendesha kwa kiti cha magurudumu"),
+				keywords: &[
+					"kiti cha kilema",
+					"kiti cha magurudumu",
+					"mapito ya vilema",
+					"mwanamume",
+					"mwanamume anayejiendesha kwa kiti cha magurudumu",
+					"mwanamume kilema",
+					"sehemu ya vilema",
+					"ufikivu",
+				],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some(
+					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} ஆண\u{bcd}",
+				),
+				keywords: &[
+					"ஆண\u{bcd}",
+					"இயக\u{bcd}கமின\u{bcd}மை",
+					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லி",
+					"நடக\u{bcd}க இயல\u{bbe}தவர\u{bcd}",
+					"நபர\u{bcd}",
+					"மனித ஆற\u{bcd}றலில\u{bcd} இயங\u{bcd}கும\u{bcd} சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} ஆண\u{bcd}",
+					"ம\u{bbe}ற\u{bcd}றுத\u{bcd}திறன\u{bbe}ளி",
+					"முடம\u{bbe}னவர\u{bcd}",
+					"வ\u{bc0}ல\u{bcd} சேர\u{bcd}",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some(
+					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న పురుషుడు",
+				),
+				keywords: &[
+					"చ\u{c47}త\u{c3f}త\u{c4b} నడ\u{c3f}ప\u{c47} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}",
+					"పురుషుడు",
+					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న పురుషుడు",
+					"య\u{c3e}క\u{c4d}స\u{c46}స\u{c3f}బ\u{c3f}ల\u{c3f}ట\u{c40}",
+					"వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}",
+					"స\u{c4c}లభ\u{c4d}యం",
+				],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("ผ\u{e39}\u{e49}ชายน\u{e31}\u{e48}งว\u{e35}ลแชร\u{e4c}ธรรมดา"),
+				keywords: &[
+					"คน",
+					"ผ\u{e39}\u{e49}ชาย",
+					"รถเข\u{e47}น",
+					"ว\u{e35}ลแชร\u{e4c}",
+					"เข\u{e49}าถ\u{e36}ง",
+					"แมนวล",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ሰብኣይ ኣብ ማንዋል ዓረብያ ስንኩላን"),
+				keywords: &["ማንዋል", "ሰብኣይ", "ተበጻሕነት", "ዓረብያ ስንኩላን ምኻድ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("el maýyp arabasynda erkek"),
+				keywords: &["el maýyp arabasynda erkek", "elýeterlilik", "erkek", "maýyp arabasy"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("tangata ʻihe sāliote falemahaki"),
+				keywords: &["falemahaki", "sāliote", "tangata", "tangata ʻihe sāliote falemahaki"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("tekerlekli sandalyede erkek"),
+				keywords: &[
+					"erişilebilirlik",
+					"erkek",
+					"tekerlekli sandalye",
+					"tekerlekli sandalyede erkek",
+				],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("чоловік у візку з ручним приводом"),
+				keywords: &[
+					"візок",
+					"доступність",
+					"колісне крісло",
+					"спеціальні можливості",
+					"чоловік",
+					"чоловік у візку",
+					"чоловік у візку з ручним приводом",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("دستی وہیل چئیر میں مرد"),
+				keywords: &[
+					"آدمی",
+					"دسترس",
+					"دستی وہیل چئیر میں مرد",
+					"دستی وہیل چیئر میں مرد",
+					"رسائی",
+					"مرد",
+					"مینوئل وہیل چیئر",
+					"مینوئل وہیل چیئر میں آدمی",
+					"وہیل چئیر",
+					"وہیل چیئر",
+					"ہاتھ سے چلنے والی وہیل چیئر",
+				],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("nogironlik aravachasidagi erkak"),
+				keywords: &[
+					"erkak",
+					"nogiron",
+					"nogironlik",
+					"nogironlik aravachasi",
+					"nogironlik aravachasidagi erkak",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người đàn ông trên xe lăn tay"),
+				keywords: &["hỗ trợ tiếp cận", "người đàn ông", "người đàn ông trên xe lăn tay", "xe lăn"],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("ọkùnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí"),
+				keywords: &[
+					"kẹ\u{300}kẹ\u{301} abirùn",
+					"ìráàyèsí",
+					"ọkùnrin",
+					"ọkùnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí",
+				],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("ɔkùnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí"),
+				keywords: &[
+					"kɛ\u{300}kɛ\u{301} abirùn",
+					"ìráàyèsí",
+					"ɔkùnrin",
+					"ɔkùnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí",
+				],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("坐手動輪椅嘅男人"),
+				keywords: &["坐手動輪椅嘅男人", "無障礙", "男人", "輪椅"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("坐手动轮椅嘅男人"),
+				keywords: &["坐手动轮椅嘅男人", "无障碍", "男人", "轮椅"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("坐手动轮椅的男人"),
+				keywords: &["坐手动轮椅的男人", "手动", "无障碍", "男", "男人", "男子", "轮椅"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("坐輪椅的男子"),
+				keywords: &["人", "坐輪椅的男子", "男", "男子", "行動不便", "輪椅"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("坐輪椅嘅男人"),
+				keywords: &[
+					"人物",
+					"坐在自推式輪椅的男士",
+					"坐輪椅嘅男人",
+					"無障礙",
+					"男",
+					"男士",
+					"男性",
+					"自推式輪椅",
+					"輪椅",
+				],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("indoda esesitulweni sokuhanjiswa"),
+				keywords: &[
+					"indoda",
+					"indoda esesitulweni sokuhanjiswa",
+					"isitulo sokuhamba",
+					"ukufinyelela",
+				],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👨🏻\u{200d}🦽",
+			codepoint:            &[128104u32, 127995u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏼\u{200d}🦽",
+			codepoint:            &[128104u32, 127996u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏽\u{200d}🦽",
+			codepoint:            &[128104u32, 127997u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏾\u{200d}🦽",
+			codepoint:            &[128104u32, 127998u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👨🏿\u{200d}🦽",
+			codepoint:            &[128104u32, 127999u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "man in manual wheelchair: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🦽"]
+pub const WOMAN_IN_MANUAL_WHEELCHAIR: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🦽",
+		codepoint:            &[128105u32, 8205u32, 129469u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman in manual wheelchair",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("vrou in handgedrewe rolstoel"),
+				keywords: &[
+					"gestremde",
+					"rolstoel",
+					"toeganklikheid",
+					"verlam",
+					"vrou",
+					"vrou in handgedrewe rolstoel",
+				],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ሴት በእጅ ተሽከርካሪ ወንበር"),
+				keywords: &[
+					"መጓጓዣ",
+					"ምቹ",
+					"ሰው",
+					"ሴት",
+					"ሴት በእጅ ተሽከርካሪ ወንበር",
+					"ሴት በእጅ የሚገፋ ተሽከርካሪ ወንበር ላይ",
+					"ተሽከርካሪ ወንበር",
+					"ተደራሽ",
+					"ተደራሽነት",
+					"አካል ጉዳተኛ",
+					"የአካል ጉዳተኛ ተሽከርካሪ ወንበር",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("سيدة على كرسي متحرك يدوي"),
+				keywords: &[
+					"إمكانية الوصول",
+					"احتياجات خاصة",
+					"سيدة",
+					"سيدة على كرسي متحرك يدوي",
+					"شخص",
+					"قعيدة",
+					"كرسي متحرك",
+					"مقعدة",
+					"وسيلة",
+				],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some(
+					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} মহিল\u{9be}ৰ ছবি",
+				),
+				keywords: &[
+					"দিব\u{9cd}য\u{9be}ংগ",
+					"মহিল\u{9be}",
+					"হস\u{9cd}তচ\u{9be}লিত হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰত বহি থক\u{9be} মহিল\u{9be}ৰ ছবি",
+					"হ\u{9c1}ইলশ\u{9cd}বেয\u{9bc}\u{9be}ৰ",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("manual oturacaqda qadın"),
+				keywords: &[
+					"manual",
+					"oturacaqda",
+					"qadın",
+					"əlil arabası",
+					"əlil arabasında əyləşmiş qadın",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("жанчына ў калясцы з ручным прывадам"),
+				keywords: &[
+					"асаблівыя фізічныя патрэбы",
+					"жанчына",
+					"жанчына ў калясцы з ручным прывадам",
+					"інваліднасць",
+					"інвалідная каляска",
+				],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("жена в инвалидна количка"),
+				keywords: &[
+					"достъпна среда",
+					"жена",
+					"жена в инвалидна количка",
+					"жена в ръчна инвалидна количка",
+					"инвалидна количка",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some(
+					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
+				),
+				keywords: &[
+					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
+					"মহিল\u{9be}",
+					"ম\u{9be}ন\u{9c1}ষ",
+					"ম\u{9cd}য\u{9be}ন\u{9c1}য\u{9bc}\u{9be}ল হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
+					"হ\u{9be}তে ঠেল\u{9be} হ\u{9c1}ইলচেয\u{9bc}\u{9be}রে মহিল\u{9be}",
+					"হ\u{9c1}ইলচেয\u{9bc}\u{9be}র",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("žena u invalidskim kolicima"),
+				keywords: &["invalidska kolica", "pomagalo", "žena", "žena u invalidskim kolicima"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("dona amb una cadira de rodes manual"),
+				keywords: &[
+					"accessibilitat",
+					"cadira de rodes",
+					"dona",
+					"dona amb una cadira de rodes manual",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ"),
+				keywords: &["ᎠᎨᏯ", "ᎠᎨᏯ ᎬᏗ ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎦᏆᏙᏗ ᎦᏍᎩᎶ", "ᎬᏴᏍᏗ ᎨᏒᎢ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("žena na mechanickém invalidním vozíku"),
+				keywords: &[
+					"bezbariérový",
+					"handicap",
+					"hendikep",
+					"invalidní",
+					"mechanický invalidní vozík",
+					"pomůcka",
+					"postižení",
+					"ručně poháněné kolečkové křeslo",
+					"ručně poháněný invalidní vozík",
+					"snížená mobilita",
+					"usnadnění",
+					"vozík",
+					"žena",
+					"žena na mechanickém invalidním vozíku",
+					"žena na vozíku",
+					"žena v kolečkovém křesle",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("menyw mewn cadair olwyn"),
+				keywords: &["cadair olwyn", "hygyrchedd", "menyw", "menyw mewn cadair olwyn"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("kvinde i manuel kørestol"),
+				keywords: &[
+					"adgangsforhold",
+					"handicap",
+					"handikap",
+					"kvinde",
+					"kvinde i manuel kørestol",
+					"kørestol",
+					"rullestol",
+					"tilgængelighed",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Frau in manuellem Rollstuhl"),
+				keywords: &[
+					"Barrierefreiheit",
+					"Behinderung",
+					"Frau",
+					"Frau in Rollstuhl",
+					"Frau in manuellem Rollstuhl",
+					"Mensch",
+					"Person",
+					"Rollstuhl",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("γυναίκα σε χειροκίνητο αναπηρικό αμαξίδιο"),
+				keywords: &[
+					"αναπηρικό αμαξίδιο",
+					"γυναίκα",
+					"γυναίκα σε χειροκίνητο αναπηρικό αμαξίδιο",
+					"καροτσάκι",
+					"προσβασιμότητα",
+				],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("woman in manual wheelchair"),
+				keywords: &["accessibility", "manual", "wheelchair", "woman"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("mujer en silla de ruedas manual"),
+				keywords: &["accesibilidad", "mujer", "mujer en silla de ruedas manual", "silla de ruedas"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"accesibilidad",
+					"mujer",
+					"mujer en silla de ruedas",
+					"mujer en silla de ruedas manual",
+					"silla de ruedas",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("manuaalratastoolis olev naine"),
+				keywords: &["elektri", "ligipääs", "naine", "ratastool"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("eskuzko gurpil-aulkian doan emakumea"),
+				keywords: &[
+					"emakume",
+					"emakumezko",
+					"eskuzko gurpil-aulkian doan emakumea",
+					"gurpil-aulki",
+					"irisgarritasun",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("زن در صندلی چرخ\u{200c}دار دستی"),
+				keywords: &[
+					"دسترس\u{200c}پذیری",
+					"زن",
+					"زن در صندلی چرخ\u{200c}دار دستی",
+					"صندلی چرخ\u{200c}دار",
+					"قابلیت دسترسی",
+					"ویلچر",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("nainen käsikäyttöisessä pyörätuolissa"),
+				keywords: &[
+					"esteettömyys",
+					"nainen",
+					"nainen käsikäyttöisessä pyörätuolissa",
+					"pyörätuoli",
+				],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("babae sa manu-manong wheelchair"),
+				keywords: &[
+					"babae",
+					"babae sa manu-manong wheelchair",
+					"pagiging naa-access",
+					"wheelchair",
+				],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("kvinna í koyristóli"),
+				keywords: &["kona", "koyristólur", "kvinna", "kvinna í koyristóli"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("femme en fauteuil roulant manuel"),
+				keywords: &[
+					"accessibilité",
+					"fauteuil roulant",
+					"femme",
+					"femme en fauteuil roulant manuel",
+					"handicap",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("bean i gcathaoir rothaí láimhe"),
+				keywords: &["bean", "bean i gcathaoir rothaí láimhe", "cathaoir rothaí", "inrochtaineacht"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("tè ann an cathair-chuibhle a làimh"),
+				keywords: &[
+					"boireannach",
+					"boireannach ann an cathair-chuibhle a làimh",
+					"cathair-chuibhle",
+					"so-ruigsinneachd",
+					"tè ann an cathair-chuibhle a làimh",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("muller en cadeira de rodas"),
+				keywords: &["cadeira de rodas", "discapacidade"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} સ\u{acd}ત\u{acd}રી"),
+				keywords: &[
+					"અસક\u{acd}ષમ",
+					"અસક\u{acd}ષમો માટ\u{ac7} વ\u{acd}યવસ\u{acd}થા",
+					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
+					"દિવ\u{acd}યા\u{a82}ગ",
+					"પગ",
+					"વ\u{acd}યક\u{acd}તિ",
+					"વ\u{acd}હીલચ\u{ac7}ર",
+					"સ\u{acd}ત\u{acd}રી",
+					"હલનચલન",
+					"હાથથી ચાલતી વ\u{acd}હીલચ\u{ac7}રમા\u{a82} સ\u{acd}ત\u{acd}રી",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("na mace a cikin motan gurgu da ke bukatan tuki"),
+				keywords: &[
+					"buƙata ta musamman",
+					"gurguwa",
+					"keke",
+					"keken asibiti",
+					"keken guragu",
+					"kujeran gurgu",
+					"mace",
+					"mace a keken guragu",
+					"na mace",
+					"na mace a cikin motan gurgu da ke bukatan tuki",
+					"nakasa",
+					"samun wuri",
+				],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("na mace a cikin motan gurgu da ke bukatan tuki"),
+				keywords: &[
+					"buƙata ta musamman",
+					"gurguwa",
+					"keke",
+					"keken asibiti",
+					"keken guragu",
+					"kujeran gurgu",
+					"mace",
+					"mace a keken guragu",
+					"na mace",
+					"na mace a cikin motan gurgu da ke bukatan tuki",
+					"nakasa",
+					"samun wuri",
+				],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("אישה בכסא גלגלים ידני"),
+				keywords: &["אישה", "אישה בכסא גלגלים ידני", "כסא גלגלים", "נגישות", "נכה"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी औरत"),
+				keywords: &[
+					"औरत",
+					"महिला",
+					"व\u{94d}हीलच\u{947}यर",
+					"स\u{941}गम\u{94d}यता",
+					"हस\u{94d}तचालित व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी औरत",
+					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर",
+					"हाथ स\u{947} चलन\u{947} वाली व\u{94d}हीलच\u{947}यर पर ब\u{948}ठी लड\u{93c}की",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("žena u invalidskim kolicima na ručni pogon"),
+				keywords: &[
+					"invalidska kolica",
+					"kolica",
+					"pomagalo",
+					"žena",
+					"žena u invalidskim kolicima na ručni pogon",
+					"žena u kolicima",
+				],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("nő kézi hajtású kerekesszékben"),
+				keywords: &[
+					"akadálymentesség",
+					"kerekesszék",
+					"mozgáskorlátozott",
+					"nő",
+					"nő kézi hajtású kerekesszékben",
+					"tolószék",
+				],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("ձեռքով կառավարվող անվասայլակով կին"),
+				keywords: &["անվասայլակ", "կին", "հաշմանդամ", "ձեռքով կառավարվող անվասայլակով կին"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("wanita dengan kursi roda manual"),
+				keywords: &[
+					"aksesibilitas",
+					"kursi roda",
+					"perempuan",
+					"wanita",
+					"wanita dengan kursi roda",
+					"wanita dengan kursi roda manual",
+				],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwanyị nọ n’oche nkwagharị nke aka"),
+				keywords: &["nwanyị", "nwanyị nọ n’oche nkwagharị nke aka", "nweta", "oche nkwagharị"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("kona í hjólastól"),
+				keywords: &["aðgengi", "hjólastóll", "kona", "kona í hjólastól"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("donna su sedia a rotelle manuale"),
+				keywords: &[
+					"accessibilità",
+					"disabile",
+					"donna",
+					"donna in carrozzina",
+					"donna in sedia a rotelle",
+					"donna su sedia a rotelle manuale",
+					"persona",
+					"sedia a rotelle",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("手動式車椅子の女性"),
+				keywords: &["アクセシビリティ", "女性", "手動式車椅子の女性", "車いす", "障がい"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong wadon numpak kursi rodha manual"),
+				keywords: &["kalancaran", "kursi rodha", "wadon", "wong wadon numpak kursi rodha manual"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("ქალი შშმ პირის მექანიკურ ეტლში"),
+				keywords: &["ქალი", "ქალი შშმ პირის მექანიკურ ეტლში", "შშმ", "შშმ პირის ეტლი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("қол жетегі бар арбашадағы әйел"),
+				keywords: &[
+					"арбаша",
+					"мүгедек",
+					"мүмкіндігі шектеулі",
+					"қол жетегі бар арбашадағы әйел",
+					"әйел",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some(
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}ជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
+				),
+				keywords: &[
+					"រទេះជនព\u{17b7}ការ",
+					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}",
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}ជ\u{17b7}ះ\u{200b}រទេះជនព\u{17b7}ការដែលរ\u{17bb}ញដោយដៃ",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some(
+					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
+				),
+				keywords: &[
+					"ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}",
+					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
+					"ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಸಾಮಾನ\u{ccd}ಯ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಹಸ\u{ccd}ತಚಾಲ\u{cbf}ತ ಗಾಲ\u{cbf}ಕುರ\u{ccd}ಚ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("수동 휠체어를 탄 여자"),
+				keywords: &["수동 휠체어를 탄 여자", "여자", "접근성", "휠체어"],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र बायल"),
+				keywords: &[
+					"ऍक\u{94d}स\u{945}सिबिलिटी",
+					"बायल",
+					"म\u{945}न\u{94d}य\u{941}अल व\u{94d}हिलच\u{945}राच\u{947}र बायल",
+					"व\u{94d}हिलच\u{945}र",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("кол менен дөңгөлөктүү отургучтагы аял"),
+				keywords: &[
+					"атайын мүмкүндүк",
+					"аял",
+					"дөңгөлөктүү отургуч",
+					"кол менен дөңгөлөктүү отургучтагы аял",
+				],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some(
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
+				),
+				keywords: &[
+					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງນ\u{eb1}\u{ec8}ງ\u{200b}ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}ແບບ\u{200b}ບ\u{eb1}ງ\u{200b}ຄ\u{eb1}ບ\u{200b}ເອງ",
+					"ລ\u{ecd}\u{ec9}\u{200b}ຍ\u{eb9}\u{ec9}",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("moteris rankomis valdomame vežimėlyje"),
+				keywords: &[
+					"moteris",
+					"moteris rankomis valdomame vežimėlyje",
+					"neįgaliųjų prieinamumas",
+					"prieinamumas",
+					"vežimėlis",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("sieviete manuālā ratiņkrēslā"),
+				keywords: &[
+					"cilvēks",
+					"pieejamība",
+					"ratiņkrēsls",
+					"sieviete",
+					"sieviete manuālā ratiņkrēslā",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("жена во рачна инвалидска количка"),
+				keywords: &[
+					"жена",
+					"жена во инвалидска количка",
+					"жена во рачна инвалидска количка",
+					"инвалидска количка",
+					"пристапност",
+				],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some(
+					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+				),
+				keywords: &[
+					"ആക\u{d4d}\u{200c}സസബിലിറ\u{d4d}റി",
+					"മ\u{d3e}ന\u{d4d}വൽ വീൽചെയറിൽ ഇരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+					"വീൽചെയർ",
+					"സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("тэргэнцэртэй эмэгтэй"),
+				keywords: &["тэргэнцэр", "тэргэнцэртэй эмэгтэй", "хөгжлийн бэрхшээл", "эмэгтэй"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील महिला"),
+				keywords: &[
+					"अप\u{902}ग",
+					"अ\u{945}क\u{94d}स\u{947}सिबिलिटी",
+					"महिला",
+					"व\u{94d}यक\u{94d}तिचलित व\u{94d}हीलच\u{947}अरवरील महिला",
+					"व\u{94d}यक\u{94d}ती",
+					"व\u{94d}हीलच\u{947}अर",
+					"व\u{94d}हीलच\u{947}अरमधील स\u{94d}त\u{94d}री",
+					"स\u{94d}त\u{94d}री",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("perempuan dalam kereta roda manual"),
+				keywords: &["kebolehcapaian", "kerusi roda", "manual", "wanita"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some(
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+				),
+				keywords: &[
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}",
+					"လ\u{1030}နာတင\u{103a}က\u{102f}လားထ\u{102d}\u{102f}င\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
+					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("म\u{94d}यान\u{941}अल व\u{94d}हीलच\u{947}यरमा महिला"),
+				keywords: &[
+					"उपलब\u{94d}धता",
+					"महिला",
+					"म\u{94d}यान\u{941}अल व\u{94d}हीलच\u{947}यरमा महिला",
+					"व\u{94d}हीलच\u{947}यर",
+				],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("vrouw in rolstoel"),
+				keywords: &["handmatig", "rolstoel", "toegankelijkheid", "vrouw"],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("↑↑↑"),
+				keywords: &["kvinne", "kvinne i manuell rullestol", "rullestol", "tilgjenge"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ମହ\u{b3f}ଳ\u{b3e}"),
+				keywords: &[
+					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
+					"ମହ\u{b3f}ଳ\u{b3e}",
+					"ମ\u{b3e}ନ\u{b41}ଆଲ ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ରରେ ମହ\u{b3f}ଳ\u{b3e}",
+					"ହ\u{b4d}ୱ\u{b3f}ଲଚେୟ\u{b3e}ର",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some(
+					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠੀ ਔਰਤ",
+				),
+				keywords: &[
+					"ਔਰਤ",
+					"ਕ\u{a41}ੜੀ",
+					"ਵੀਲਚ\u{a47}ਅਰ",
+					"ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ",
+					"ਸਹ\u{a42}ਲਤ",
+					"ਹ\u{a71}ਥ ਨਾਲ ਚ\u{a71}ਲਣ ਵਾਲੀ ਵ\u{a4d}ਹੀਲਚ\u{a47}ਅਰ ‘ਤ\u{a47} ਬ\u{a48}ਠੀ ਔਰਤ",
+				],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Wúman Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin"),
+				keywords: &[
+					"Wílchia",
+					"Wúman",
+					"Wúman Wé Dé Fọ Wílchia Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin",
+					"Ízí To Yuz",
+				],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("kobieta na wózku inwalidzkim"),
+				keywords: &["dostępność", "kobieta", "kobieta na wózku inwalidzkim", "wózek inwalidzki"],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("ښځه د معلولينو په لاسي چوکۍ کې"),
+				keywords: &["د معلولينو چوکۍ", "رسوړتيا", "ښځه", "ښځه د معلولينو په لاسي چوکۍ کې"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("mulher em cadeira de rodas manual"),
+				keywords: &[
+					"acessibilidade",
+					"cadeira de rodas",
+					"mulher",
+					"mulher em cadeira de rodas manual",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation { lang: "pt_PT", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("warmi manual silla de ruedas"),
+				keywords: &["silla de ruedas", "warmi", "warmi manual silla de ruedas", "yaykurinalla"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("femeie în scaun cu rotile manual"),
+				keywords: &[
+					"accesibilitate",
+					"femeie",
+					"femeie în scaun cu rotile manual",
+					"femeie în scaun rulant manual",
+					"persoană",
+					"scaun cu rotile",
+					"scaun rulant",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E12–007"), keywords: &["E12–007"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("женщина в ручном кресле-коляске"),
+				keywords: &[
+					"в кресле",
+					"женщина",
+					"женщина в ручном кресле-коляске",
+					"инвалид",
+					"инвалидное кресло",
+					"кресло",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("دستي وهيل چيئر ۾ عورت"),
+				keywords: &["دستي وهيل چيئر ۾ عورت", "رسائي", "عورت", "وهيل چيئر"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some(
+					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+				),
+				keywords: &[
+					"අත\u{dd2}න\u{dca} කරකන රෝද ප\u{dd4}ට\u{dd4}වක ස\u{dd2}ට\u{dd2}න ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+					"රෝද ප\u{dd4}ට\u{dd4}ව",
+					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("žena na mechanickom invalidnom vozíku"),
+				keywords: &[
+					"handicap",
+					"handicapovaná",
+					"hendikep",
+					"invalidná",
+					"invalidný",
+					"pomôcka",
+					"postihnutie",
+					"postihnutá",
+					"telesne postihnutá",
+					"vozík",
+					"žena",
+					"žena na mechanickom invalidnom vozíku",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("ženska na ročnem invalidskem vozičku"),
+				keywords: &["invalid", "voziček", "ženska", "ženska na ročnem invalidskem vozičku"],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("naag fadhida kursiga curyaanka macmal ah"),
+				keywords: &[
+					"awood u yeelid",
+					"kursiga curyaanka",
+					"naag",
+					"naag fadhida kursiga curyaanka macmal ah",
+				],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("grua në karrocë manuale invalidi"),
+				keywords: &[
+					"femër",
+					"grua",
+					"grua në karrocë manuale invalidi",
+					"karrocë invalidi",
+					"karrocë me motor",
+					"qasshmëri",
+				],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("жена у механичким колицима"),
+				keywords: &["жена", "колица", "механичка", "приступачност"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation {
+				lang:     "sr_Cyrl_BA",
+				tts:      Some("↑↑↑"),
+				keywords: &["жена", "жена у механичким колицима", "колица", "приступачност"],
+			},
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("žena u mehaničkim kolicima"),
+				keywords: &["kolica", "mehanička", "pristupačnost", "žena"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation {
+				lang:     "sr_Latn_BA",
+				tts:      Some("↑↑↑"),
+				keywords: &["kolica", "pristupačnost", "žena", "žena u mehaničkim kolicima"],
+			},
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("kvinna i manuell rullstol"),
+				keywords: &["kvinna", "kvinna i manuell rullstol", "rullstol"],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mwanamke anayejiendesha kwa kiti cha magurudumu"),
+				keywords: &[
+					"kilema",
+					"kiti cha magurudumu",
+					"mlemavu",
+					"mwanamke",
+					"mwanamke anayejiendesha kwa kiti cha magurudumu",
+					"ufikivu",
+				],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some(
+					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} பெண\u{bcd}",
+				),
+				keywords: &[
+					"உடல\u{bcd} இயல\u{bbe}மை",
+					"சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லி",
+					"நடக\u{bcd}க இயல\u{bbe}தவர\u{bcd}",
+					"பெண\u{bcd}",
+					"மனித ஆற\u{bcd}றலில\u{bcd} இயங\u{bcd}கும\u{bcd} சக\u{bcd}கர ந\u{bbe}ற\u{bcd}க\u{bbe}லியில\u{bcd} அமர\u{bcd}ந\u{bcd}திருக\u{bcd}கும\u{bcd} பெண\u{bcd}",
+					"ம\u{bbe}ற\u{bcd}றுத\u{bcd} திறன\u{bbe}ளி",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some(
+					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
+				),
+				keywords: &[
+					"చ\u{c47}త\u{c3f}త\u{c4b} నడ\u{c3f}ప\u{c47} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}",
+					"ద\u{c3f}వ\u{c4d}య\u{c3e}ంగుర\u{c3e}లు",
+					"మహ\u{c3f}ళ",
+					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d} చ\u{c46}య\u{c3f}ర\u{c4d}ల\u{c4b} ఉన\u{c4d}న మహ\u{c3f}ళ",
+					"మ\u{c3e}న\u{c4d}యువల\u{c4d} వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}\u{200c}ల\u{c4b} ఉన\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
+					"వ\u{c3f}కల\u{c3e}ంగుర\u{c3e}లు",
+					"వ\u{c40}ల\u{c4d}\u{200c}చ\u{c46}య\u{c3f}ర\u{c4d}",
+					"స\u{c4c}లభ\u{c4d}యం",
+					"స\u{c4d}త\u{c4d}ర\u{c40}",
+				],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("ผ\u{e39}\u{e49}หญ\u{e34}งน\u{e31}\u{e48}งว\u{e35}ลแชร\u{e4c}ธรรมดา"),
+				keywords: &[
+					"คน",
+					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
+					"รถเข\u{e47}น",
+					"ว\u{e35}ลแชร\u{e4c}",
+					"เข\u{e49}าถ\u{e36}ง",
+					"แมนวล",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ጓል ኣንስተይቲ ኣብ ማንዋል ዓረብያ ስንኩላን"),
+				keywords: &["ማንዋል", "ሰበይቲ", "ተበጻሕነት", "ዓረብያ ስንኩላን"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("el maýyp arabasynda zenan"),
+				keywords: &["el maýyp arabasynda zenan", "elýeterlilik", "maýyp arabasy", "zenan"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("fefine ʻihe sāliote falemahaki"),
+				keywords: &["falemahaki", "fefine", "fefine ʻihe sāliote falemahaki", "sāliote"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("tekerlekli sandalyede kadın"),
+				keywords: &[
+					"erişilebilirlik",
+					"kadın",
+					"tekerlekli sandalye",
+					"tekerlekli sandalyede kadın",
+				],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("жінка у візку з ручним приводом"),
+				keywords: &[
+					"візок",
+					"доступність",
+					"жінка",
+					"жінка у візку з ручним приводом",
+					"колісне крісло",
+					"людина",
+					"спеціальні можливості",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("دستی وہیل چئیر میں عورت"),
+				keywords: &[
+					"خاتون",
+					"دسترس",
+					"دستی وہیل چئیر میں عورت",
+					"دستی وہیل چیئر میں خاتون",
+					"دستی وہیل چیئر میں عورت",
+					"رسائی",
+					"عورت",
+					"مینوئل وہیل چیئر میں بیٹھی عورت",
+					"وہیل چئیر",
+					"وہیل چیئر",
+					"ہاتھ سے چلنے والی وہیل چیئر",
+				],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("nogironlik aravachasidagi ayol"),
+				keywords: &[
+					"ayol",
+					"nogiron ayol",
+					"nogironlik",
+					"nogironlik aravachasi",
+					"nogironlik aravachasidagi ayol",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người phụ nữ trên xe lăn tay"),
+				keywords: &["hỗ trợ tiếp cận", "người phụ nữ", "người phụ nữ trên xe lăn tay", "xe lăn"],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("obìnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí"),
+				keywords: &[
+					"kẹ\u{300}kẹ\u{301} abirùn",
+					"obìnrin",
+					"obìnrin nínú kẹ\u{300}kẹ\u{301}-abirùn aláfọwọ\u{301}yí",
+					"ìráàyèsí",
+				],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("obìnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí"),
+				keywords: &[
+					"kɛ\u{300}kɛ\u{301} abirùn",
+					"obìnrin",
+					"obìnrin nínú kɛ\u{300}kɛ\u{301}-abirùn aláfɔwɔ\u{301}yí",
+					"ìráàyèsí",
+				],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("坐手動輪椅嘅女人"),
+				keywords: &["坐手動輪椅嘅女人", "女人", "無障礙", "輪椅"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("坐手动轮椅嘅女人"),
+				keywords: &["坐手动轮椅嘅女人", "女人", "无障碍", "轮椅"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("坐手动轮椅的女人"),
+				keywords: &["坐手动轮椅的女人", "女", "女人", "女子", "手动", "无障碍", "轮椅"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("坐輪椅的女子"),
+				keywords: &["人", "坐輪椅的女子", "女", "女子", "行動不便", "輪椅"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("坐輪椅嘅女人"),
+				keywords: &[
+					"人物",
+					"坐在自推式輪椅的女士",
+					"坐輪椅嘅女人",
+					"女",
+					"女士",
+					"女性",
+					"無障礙",
+					"自推式輪椅",
+					"輪椅",
+				],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umama osesitulweni sokuhanjiswa"),
+				keywords: &[
+					"isitulo sokuhamba",
+					"ukufinyelela",
+					"umama",
+					"umama osesitulweni sokuhanjiswa",
+				],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🦽",
+			codepoint:            &[128105u32, 127995u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🦽",
+			codepoint:            &[128105u32, 127996u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🦽",
+			codepoint:            &[128105u32, 127997u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🦽",
+			codepoint:            &[128105u32, 127998u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🦽",
+			codepoint:            &[128105u32, 127999u32, 8205u32, 129469u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman in manual wheelchair: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧎\u{200d}♀\u{fe0f}"]
+pub const WOMAN_KNEELING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧎\u{200d}♀\u{fe0f}",
+		codepoint:            &[129486u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman kneeling",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧎🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[129486u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman kneeling: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[129486u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman kneeling: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[129486u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman kneeling: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[129486u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman kneeling: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧎🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[129486u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman kneeling: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "👩\u{200d}🦯"]
+pub const WOMAN_WITH_WHITE_CANE: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "👩\u{200d}🦯",
+		codepoint:            &[128105u32, 8205u32, 129455u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman with white cane",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("vrou met gidsstok"),
+				keywords: &["blind", "blinde", "gestremde", "toeganklikheid", "vrou", "vrou met gidsstok"],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ሴት በከዘራ"),
+				keywords: &[
+					"ምቹ",
+					"ሰው",
+					"ሴት",
+					"ሴት በከዘራ",
+					"ሴት የዓይነ ስውር ከዘራ ይዛ",
+					"ተደራሽ",
+					"ተደራሽነት",
+					"እውር",
+					"ዓይነ ስውር",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("سيدة بعصا سير"),
+				keywords: &[
+					"أعمى",
+					"إمكانية الوصول",
+					"احتياجات خاصة",
+					"ذات احتياجات",
+					"سيدة",
+					"سيدة بعصا سير",
+					"شخص",
+					"ضريرة",
+					"عصا بيضاء",
+					"عمياء",
+					"كفيفة",
+					"معاقة",
+				],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("হ\u{9be}তত বেতৰ ল\u{9be}খ\u{9c1}টি লৈ থক\u{9be} মহিল\u{9be}ৰ ছবি"),
+				keywords: &[
+					"অন\u{9cd}ধ",
+					"দিব\u{9cd}য\u{9be}ংগ",
+					"মহিল\u{9be}",
+					"হ\u{9be}তত বেতৰ ল\u{9be}খ\u{9c1}টি লৈ থক\u{9be} মহিল\u{9be}ৰ ছবি",
+				],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("zond ilə qadın"),
+				keywords: &[
+					"görmə qüsurlu şəxs",
+					"kor",
+					"qadın",
+					"zond ilə qadın",
+					"çəlik ilə gəzən qadın",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("жанчына з палкай"),
+				keywords: &[
+					"асаблівыя фізічныя патрэбы",
+					"жанчына",
+					"жанчына з палкай",
+					"сляпы",
+					"інваліднасць",
+				],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("жена с бял бастун"),
+				keywords: &["достъпна среда", "жена", "жена с бял бастун", "незряща"],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("ছড\u{9bc}ি হ\u{9be}তে মহিল\u{9be}"),
+				keywords: &[
+					"অন\u{9cd}ধ",
+					"অন\u{9cd}ধ মহিল\u{9be} হ\u{9be}তে ল\u{9be}ঠি",
+					"অ\u{9cd}য\u{9be}ক\u{9cd}সেসিবিলিটি",
+					"ছড\u{9bc}ি হ\u{9be}তে মহিল\u{9be}",
+					"মহিল\u{9be}",
+					"ম\u{9be}ন\u{9c1}ষ",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("žena sa štapom za hodanje"),
+				keywords: &["pomagalo", "slijepa", "žena", "žena sa štapom za hodanje"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("dona amb un bastó per a invidents"),
+				keywords: &[
+					"accessibilitat",
+					"cega",
+					"dona",
+					"dona amb un bastó per a invidents",
+					"invident",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ"),
+				keywords: &["ᎠᎨᏯ", "ᎠᎨᏯ ᏗᎨᏫ ᎦᏅᏍᏓ ᎬᏗ", "ᎬᏴᏍᏗ ᎨᏒᎢ", "ᏗᎨᏫ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("žena se slepeckou holí"),
+				keywords: &[
+					"bezbariérový přístup",
+					"handicap",
+					"hendikep",
+					"nevidomý",
+					"pomůcka",
+					"postižení",
+					"slabozraký",
+					"slepá",
+					"usnadnění",
+					"žena",
+					"žena se slepeckou holí",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("menyw â ffon wen"),
+				keywords: &["dall", "hygyrchedd", "menyw", "menyw â ffon wen"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("kvinde med blindestok"),
+				keywords: &[
+					"blind",
+					"blindestok",
+					"handicap",
+					"kvinde",
+					"kvinde med blindestok",
+					"synshandicap",
+					"tilgængelighed",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Frau mit Langstock"),
+				keywords: &[
+					"Barrierefreiheit",
+					"Behinderung",
+					"Frau",
+					"Frau mit Blindenstock",
+					"Frau mit Gehstock",
+					"Frau mit Langstock",
+					"Mensch",
+					"Person",
+					"blind",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("γυναίκα με μπαστούνι για τυφλούς"),
+				keywords: &["γυναίκα", "γυναίκα με μπαστούνι για τυφλούς", "προσβασιμότητα", "τυφλή"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("woman with white cane"),
+				keywords: &["accessibility", "blind", "cane", "probing", "white", "woman"],
+			},
+			#[cfg(feature = "en_001")]
+			crate::Annotation {
+				lang:     "en_001",
+				tts:      Some("woman with guide cane"),
+				keywords: &["accessibility", "blind", "woman", "woman with guide cane"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("mujer con bastón"),
+				keywords: &["accesibilidad", "bastón", "ciega", "invidente", "mujer", "mujer con bastón"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"accesibilidad",
+					"bastón",
+					"ciega",
+					"discapacidad visual",
+					"invidente",
+					"mujer",
+					"mujer con bastón",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation {
+				lang:     "es_US",
+				tts:      Some("mujer con bastón blanco"),
+				keywords: &["accesibilidad", "ciega", "invidente", "mujer", "mujer con bastón blanco"],
+			},
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("valge kepiga naine"),
+				keywords: &["ligipääs", "naine", "pime", "valge kepiga naine"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("itsu-makila daraman emakumea"),
+				keywords: &[
+					"emakume",
+					"emakumezko",
+					"irisgarritasun",
+					"itsu",
+					"itsu-makila daraman emakumea",
+				],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("زن با عصای سفید"),
+				keywords: &[
+					"دسترس\u{200c}پذیری",
+					"زن",
+					"زن با عصای سفید",
+					"قابلیت دسترسی",
+					"نابینا",
+					"کور",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("nainen ja valkoinen keppi"),
+				keywords: &["esteettömyys", "nainen", "nainen ja valkoinen keppi", "sokea"],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("babaeng may baston"),
+				keywords: &["babae", "babaeng may baston", "bulag", "pagiging naa-access"],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("kvinna við blindastavi"),
+				keywords: &["blind", "blindastavur", "kona", "kvinna", "kvinna við blindastavi", "stavur"],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("femme avec canne blanche"),
+				keywords: &[
+					"accessibilité",
+					"aveugle",
+					"déficiente visuelle",
+					"femme",
+					"femme avec canne blanche",
+					"handicap",
+					"malvoyante",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation {
+				lang:     "fr_CA",
+				tts:      Some("↑↑↑"),
+				keywords: &["accessibilité", "aveugle", "blanche", "canne", "femme"],
+			},
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("bean le cána"),
+				keywords: &["bean", "bean le cána", "dall", "inrochtaineacht"],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("boireannach dall le batachan"),
+				keywords: &[
+					"boireannach",
+					"boireannach dall le batachan",
+					"dall",
+					"doille",
+					"so-ruigsinneachd",
+				],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("muller cun bastón guía"),
+				keywords: &["bastón guía", "cega", "discapacidade", "invidente"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("તપાસ માટ\u{ac7}ની લાકડી સાથ\u{ac7} સ\u{acd}ત\u{acd}રી"),
+				keywords: &[
+					"અ\u{a82}ધ",
+					"અ\u{a82}ધ માણસ",
+					"અ\u{a82}ધજન",
+					"ઍક\u{acd}સ\u{ac7}સિબિલિટી",
+					"ચાલવ\u{ac1}\u{a82}",
+					"છોકરી",
+					"તપાસ માટ\u{ac7}ની લાકડી સાથ\u{ac7} સ\u{acd}ત\u{acd}રી",
+					"દિવ\u{acd}યા\u{a82}ગ",
+					"પ\u{acd}રજ\u{acd}ઞાચક\u{acd}ષ\u{ac1}",
+					"વ\u{acd}યક\u{acd}તિ",
+					"સહારો",
+					"સ\u{acd}ત\u{acd}રી",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("↑↑↑"),
+				keywords: &["makanta", "makauniya", "mara gani", "mara ido", "rashin gani", "rashin ido"],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("↑↑↑"),
+				keywords: &["makanta", "makauniya", "mara gani", "mara ido", "rashin gani", "rashin ido"],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("אישה עם מקל נחייה"),
+				keywords: &["אישה עם מקל נחייה", "לקויית ראייה", "נגישות", "עיוורת"],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("छड\u{93c}ी पकड\u{93c}ी ह\u{941}ई औरत"),
+				keywords: &[
+					"अ\u{902}धी",
+					"औरत",
+					"छड\u{93c}ी पकड\u{93c}ी ह\u{941}ई औरत",
+					"छड\u{93c}ी पकड\u{93c}\u{947} ह\u{941}ए दिव\u{94d}या\u{902}ग महिला",
+					"छड\u{93c}ी पकड\u{93c}\u{947} ह\u{941}ए महिला",
+					"छड\u{93c}ी लिए ह\u{941}ए दिव\u{94d}या\u{902}ग महिला",
+					"दिव\u{94d}या\u{902}ग",
+					"महिला",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("žena s bijelim štapom"),
+				keywords: &["pomagalo", "slijepa", "slijepica", "žena", "žena s bijelim štapom"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("nő fehér bottal"),
+				keywords: &["akadálymentesség", "nő", "nő fehér bottal", "vak"],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("ձեռնափայտով կին"),
+				keywords: &["կին", "կույր", "հաշմանդամ", "ձեռնափայտով կին"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("wanita dengan tongkat"),
+				keywords: &[
+					"aksesiblitas",
+					"buta",
+					"perempuan",
+					"tongkat",
+					"tunanetra",
+					"wanita",
+					"wanita dengan tongkat",
+				],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("nwanyị ji mkpara ọcha"),
+				keywords: &["kpuru ìsì", "nwanyị", "nwanyị ji mkpara ọcha", "nweta"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("kona með blindrastaf"),
+				keywords: &["aðgengi", "blind", "kona", "kona með blindrastaf"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("donna con bastone bianco di orientamento"),
+				keywords: &[
+					"accessibilità",
+					"cecità",
+					"cieca",
+					"donna",
+					"donna con bastone bianco di orientamento",
+					"donna con bastone per ciechi",
+					"donna non vedente",
+					"ipovedente",
+					"ipovedenti",
+					"non vedente",
+					"non vedenti",
+					"persona",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("杖をついた女性"),
+				keywords: &[
+					"アクセシビリティ",
+					"女性",
+					"杖をついた女性",
+					"白杖をついた女性",
+					"目",
+					"視覚",
+					"障がい",
+				],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong wadon nyekeli teken"),
+				keywords: &["kalancaran", "wadon", "wong wadon nyekeli teken", "wuta"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("ქალი თეთრი ჯოხით"),
+				keywords: &["უსინათლო", "უსინათლოთა ჯოხი", "ქალი", "ქალი თეთრი ჯოხით", "შშმ პირი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("таяғы бар әйел"),
+				keywords: &[
+					"көзілдірік",
+					"мүгедек",
+					"мүмкіндігі шектеулі",
+					"соқыр",
+					"таяғы бар әйел",
+					"әйел",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some(
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}កាន\u{17cb}ឈើច\u{17d2}រត\u{17cb}សម\u{17d2}រាប\u{17cb}\u{200b}ជនព\u{17b7}ការភ\u{17d2}នែក",
+				),
+				keywords: &[
+					"ព\u{17b7}ការភ\u{17d2}នែក",
+					"លទ\u{17d2}ធភាព\u{200b}ទទ\u{17bd}លបាន",
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}",
+					"ស\u{17d2}ត\u{17d2}រ\u{17b8}កាន\u{17cb}ឈើច\u{17d2}រត\u{17cb}សម\u{17d2}រាប\u{17cb}\u{200b}ជនព\u{17b7}ការភ\u{17d2}នែក",
+				],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಊರುಗ\u{ccb}ಲು ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}"),
+				keywords: &[
+					"ಅಂಧ ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಊರುಗ\u{ccb}ಲು ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ಮಹ\u{cbf}ಳ\u{cc6}",
+					"ಕುರುಡ\u{cbf}",
+					"ಕುರುಡು",
+					"ಗ\u{ccd}ರಾಹ\u{ccd}ಯ",
+					"ಪ\u{ccd}ರವ\u{cc7}ಶ\u{cbf}ಸುವ\u{cbf}ಕ\u{cc6}",
+					"ಮಹ\u{cbf}ಳ\u{cc6}",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("지팡이를 든 여자"),
+				keywords: &[
+					"시각장애",
+					"여자",
+					"접근성",
+					"지팡이를 든 여자",
+					"지팡이를 든 여자 시각장애인",
+				],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("आधाराची बडी घ\u{947}व\u{902}न बायल"),
+				keywords: &[
+					"आधाराची बडी घ\u{947}व\u{902}न बायल",
+					"ऍक\u{94d}स\u{945}सिबिलिटी",
+					"क\u{941}ड\u{94d}डी",
+					"बायल",
+				],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("таяк таянган аял"),
+				keywords: &["атайын мүмкүндүк", "аял", "сокур", "таяк таянган аял"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some(
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ\u{200b}ຖ\u{eb7}\u{200b}ໄມ\u{ec9}\u{200b}ຄ\u{eb1}ນ\u{200b}ເທ\u{ebb}\u{ec9}າ\u{200b}ນຳ\u{200b}ທາງ",
+				),
+				keywords: &[
+					"ຄວາມ\u{200b}ສາ\u{200b}ມາດ\u{200b}ເຂ\u{ebb}\u{ec9}າ\u{200b}ເຖ\u{eb4}ງ",
+					"ຕາ\u{200b}ບອດ",
+					"ຜ\u{eb9}\u{ec8}ຍ\u{eb4}ງຕາບອດ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ",
+					"ຜ\u{eb9}\u{ec9}\u{200b}ຍ\u{eb4}ງ\u{200b}ຖ\u{eb7}\u{200b}ໄມ\u{ec9}\u{200b}ຄ\u{eb1}ນ\u{200b}ເທ\u{ebb}\u{ec9}າ\u{200b}ນຳ\u{200b}ທາງ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("moteris su neregio lazdele"),
+				keywords: &[
+					"akla",
+					"moteris",
+					"moteris su neregio lazdele",
+					"neregė",
+					"neįgaliųjų prieinamumas",
+					"prieinamumas",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("sieviete ar balto atbalsta spieķi"),
+				keywords: &[
+					"akls",
+					"neredzīgs",
+					"pieejamība",
+					"sieviete",
+					"sieviete ar balto atbalsta spieķi",
+				],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("жена со стап за слепи"),
+				keywords: &["жена", "жена со стап за слепи", "пристапност", "слеп"],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some(
+					"പ\u{d4d}രോബിംഗ\u{d4d} വടി പിടിച\u{d4d}ചിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+				),
+				keywords: &[
+					"അന\u{d4d}ധൻ",
+					"ആക\u{d4d}\u{200c}സബിലിറ\u{d4d}റി",
+					"പ\u{d4d}രോബിംഗ\u{d4d} വടി പിടിച\u{d4d}ചിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+					"സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation {
+				lang:     "mn",
+				tts:      Some("таягтай хараагүй эмэгтэй"),
+				keywords: &["таягтай хараагүй эмэгтэй", "хараагүй", "хөгжлийн бэрхшээл", "эмэгтэй"],
+			},
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("अ\u{902}धा\u{902}ची काठी असल\u{947}ली महिला"),
+				keywords: &[
+					"अ\u{902}धा\u{902}ची काठी घ\u{947}ऊन चालणारी महिला",
+					"अप\u{902}ग",
+					"आ\u{902}धळी",
+					"काठी घ\u{947}ऊन चालणारी अ\u{902}ध स\u{94d}त\u{94d}री",
+					"दिव\u{94d}या\u{902}ग",
+					"महिला",
+					"व\u{94d}यक\u{94d}ती",
+					"स\u{94d}त\u{94d}री",
+					"ॲक\u{94d}स\u{947}सिबिलिटी",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("perempuan dengan tongkat putih"),
+				keywords: &[
+					"buta",
+					"kebolecapaian",
+					"kurang upaya",
+					"penglihatan",
+					"perempuan",
+					"putih",
+					"tongkat",
+					"wanita",
+				],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some(
+					"တ\u{102f}တ\u{103a}ကောက\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+				),
+				keywords: &[
+					"တ\u{102f}တ\u{103a}ကောက\u{103a}န\u{103e}င\u{1037}\u{103a} အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+					"မျက\u{103a}မမြင\u{103a}",
+					"အများသ\u{102f}\u{1036}းစ\u{103d}\u{1032}န\u{102d}\u{102f}င\u{103a}မ\u{103e}\u{102f}",
+					"အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+				],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("प\u{94d}रोबिङ क\u{947}न भएको महिला"),
+				keywords: &["अन\u{94d}धो", "उपलब\u{94d}धता", "प\u{94d}रोबिङ क\u{947}न भएको महिला", "महिला"],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("vrouw met taststok"),
+				keywords: &[
+					"blind",
+					"toegankelijkheid",
+					"vrouw",
+					"vrouw met blindenstok",
+					"vrouw met taststok",
+				],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("↑↑↑"),
+				keywords: &["blind", "kvinne", "kvinne med blindestokk", "tilgjenge"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ଅନ\u{b4d}ଧ ବ\u{b3e}ଡ\u{b3c}\u{b3f} ସହ\u{b3f}ତ ମହ\u{b3f}ଳ\u{b3e}"),
+				keywords: &[
+					"ଅନ\u{b4d}ଧ",
+					"ଅନ\u{b4d}ଧ ବ\u{b3e}ଡ\u{b3c}\u{b3f} ସହ\u{b3f}ତ ମହ\u{b3f}ଳ\u{b3e}",
+					"ଅଭ\u{b3f}ଗମ\u{b4d}ୟତ\u{b3e}",
+					"ମହ\u{b3f}ଳ\u{b3e}",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਪ\u{a4d}ਰ\u{a4b}ਬਿ\u{a70}ਗ ਕ\u{a48}ਨ ਵਾਲੀ ਔਰਤ"),
+				keywords: &[
+					"ਅਸ\u{a48}ਸਬਿਲਟੀ",
+					"ਅ\u{a70}ਨ\u{a4d}ਹੀ",
+					"ਔਰਤ",
+					"ਜ\u{a3c}ਨਾਨੀ",
+					"ਨ\u{a47}ਤਰਹੀਣ",
+					"ਪ\u{a4d}ਰ\u{a4b}ਬਿ\u{a70}ਗ ਕ\u{a48}ਨ ਵਾਲੀ ਔਰਤ",
+					"ਸਹ\u{a42}ਲਤ",
+				],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Wúman Wit Waít Wọkín-Stik"),
+				keywords: &["Blaind", "Wúman", "Wúman Wit Waít Wọkín-Stik", "Ízí To Yuz"],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("kobieta z białą laską"),
+				keywords: &["dostępność", "kobieta", "kobieta z białą laską", "niewidoma"],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("ښځه د معلولينو د همسا سره"),
+				keywords: &["رسوړتيا", "ړوند", "ښځه", "ښځه د معلولينو د همسا سره"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("mulher com bengala para cego"),
+				keywords: &[
+					"accessibilidade",
+					"cega",
+					"deficiência visual",
+					"mulher",
+					"mulher com bengala para cego",
+				],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("mulher com bengala para cegos"),
+				keywords: &[
+					"accessibilidade",
+					"cega",
+					"invisual",
+					"mulher",
+					"mulher com bengala para cegos",
+				],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("warmi yuraq cañawan"),
+				keywords: &["haykurinalla", "warmi", "warmi yuraq cañawan", "ñawsa"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("femeie cu baston pentru nevăzători"),
+				keywords: &[
+					"accesibilitate",
+					"femeie",
+					"femeie cu baston pentru nevăzători",
+					"femeie cu baston pentru orbi",
+					"nevăzătoare",
+					"oarbă",
+					"persoană",
+				],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E12–005"), keywords: &["E12–005"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("женщина с тростью для ходьбы"),
+				keywords: &[
+					"женщина",
+					"женщина с тростью для ходьбы",
+					"инвалид",
+					"палочка",
+					"слепая",
+					"трость",
+					"человек",
+				],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("پروبنگ ڪين سان عورت"),
+				keywords: &["انڌو", "رسائي", "عورت", "پروبنگ ڪين سان عورت"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("ඒෂණ දණ\u{dca}ඩක\u{dca} සහ\u{dd2}ත ක\u{dcf}න\u{dca}ත\u{dcf}ව"),
+				keywords: &[
+					"අන\u{dca}ධ",
+					"ඒෂණ දණ\u{dca}ඩක\u{dca} සහ\u{dd2}ත ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+					"ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+					"ළඟ\u{dcf}ව\u{dd2}ය හැක\u{dd2} බව",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("žena so slepeckou palicou"),
+				keywords: &[
+					"handicap",
+					"hendikep",
+					"pomôcka",
+					"postihnutie",
+					"slepá",
+					"žena",
+					"žena so slepeckou palicou",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("ženska s palico za slepe"),
+				keywords: &["invalid", "slepa", "ženska", "ženska s palico za slepe"],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("naag sidata usha cad indhoolaha"),
+				keywords: &["awood u yeelid", "indhoole", "naag", "naag sidata usha cad indhoolaha"],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("grua me shkop gjurmimi"),
+				keywords: &["e verbër", "grua", "grua me shkop gjurmimi", "qasshmëri", "shkop për të ecur"],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("жена са помоћним штапом"),
+				keywords: &["жена", "приступачност", "слепа", "штап"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation {
+				lang:     "sr_Cyrl_BA",
+				tts:      Some("↑↑↑"),
+				keywords: &["жена", "жена са помоћним штапом", "приступачност", "слијепа"],
+			},
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("žena sa pomoćnim štapom"),
+				keywords: &["pristupačnost", "slepa", "štap", "žena"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation {
+				lang:     "sr_Latn_BA",
+				tts:      Some("↑↑↑"),
+				keywords: &["pristupačnost", "slijepa", "žena", "žena sa pomoćnim štapom"],
+			},
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("kvinna med vit käpp"),
+				keywords: &[
+					"blind",
+					"blindkäpp",
+					"kvinna",
+					"kvinna med blindkäpp",
+					"kvinna med vit käpp",
+					"vit käpp",
+				],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mwanamke anayetembea kwa mkongojo"),
+				keywords: &["kipofu", "mwanamke", "mwanamke anayetembea kwa mkongojo", "ufikivu"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("கைத\u{bcd}தடியுடன\u{bcd} நடக\u{bcd}கும\u{bcd} பெண\u{bcd}"),
+				keywords: &[
+					"கண\u{bcd}ப\u{bbe}ர\u{bcd}வையற\u{bcd}றவர\u{bcd}",
+					"கைத\u{bcd}தடியுடன\u{bcd} நடக\u{bcd}கும\u{bcd} பெண\u{bcd}",
+					"நபர\u{bcd}",
+					"ப\u{bbe}ர\u{bcd}வையற\u{bcd}றவர\u{bcd}",
+					"ப\u{bbe}ர\u{bcd}வையற\u{bcd}றோர\u{bcd}",
+					"ப\u{bbe}ர\u{bcd}வையிழந\u{bcd}தவர\u{bcd}",
+					"பெண\u{bcd}",
+					"ம\u{bbe}ற\u{bcd}றுத\u{bcd}திறன\u{bbe}ளி",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some(
+					"ప\u{c4d}ర\u{c4b}బ\u{c3f}ంగ\u{c4d} క\u{c47}న\u{c4d}\u{200c}త\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
+				),
+				keywords: &[
+					"అంధత\u{c4d}వం",
+					"అంధుర\u{c3e}లు",
+					"కబ\u{c4b}ద\u{c3f}",
+					"గుడ\u{c4d}డ\u{c3f} మహ\u{c3f}ళ",
+					"చ\u{c47}త\u{c3f}కర\u{c4d}రత\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న మహ\u{c3f}ళ",
+					"ప\u{c4d}ర\u{c4b}బ\u{c3f}ంగ\u{c4d} క\u{c47}న\u{c4d}\u{200c}త\u{c4b} వ\u{c46}ళ\u{c4d}తున\u{c4d}న స\u{c4d}త\u{c4d}ర\u{c40}",
+					"స\u{c4c}లభ\u{c4d}యం",
+					"స\u{c4d}త\u{c4d}ర\u{c40}",
+				],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("ผ\u{e39}\u{e49}หญ\u{e34}งเด\u{e34}นถ\u{e37}อไม\u{e49}เท\u{e49}านำทาง"),
+				keywords: &[
+					"คนตาบอด",
+					"ผ\u{e39}\u{e49}หญ\u{e34}ง",
+					"สำรวจ",
+					"เข\u{e49}าถ\u{e36}ง",
+					"เด\u{e34}น",
+					"ไม\u{e49}เท\u{e49}า",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ጻዕዳ በትሪ ዘለዋ ሰበይቲ"),
+				keywords: &["መርመራ ምግባር", "ሰበይቲ", "በትሪ", "ተበጻሕነት", "ዕዉር", "ጻዕዳ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("kör hasaly zenan"),
+				keywords: &["elýeterlilik", "kör", "kör hasaly zenan", "zenan"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("fefine moe tokotokokui"),
+				keywords: &["fefine", "fefine moe tokotokokui", "kui", "tokotoko"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("görme engelli bastonlu kadın"),
+				keywords: &["erişilebilirlik", "görme engelli", "görme engelli bastonlu kadın", "kadın"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("жінка з тактильною тростиною"),
+				keywords: &[
+					"біла",
+					"білий",
+					"доступність",
+					"жінка",
+					"незряча",
+					"сліпа",
+					"спеціальні можливості",
+					"тростина",
+					"ціпок",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("نابینا افراد والی چھڑی کے ساتھ عورت"),
+				keywords: &[
+					"اندھا",
+					"اندھے کی لاٹھی",
+					"اندھے کی لاٹھی لے کر چلتی عورت",
+					"خاتون",
+					"دسترس",
+					"راستہ دکھانے والی چھڑی کے ساتھ خاتون",
+					"راستہ دکھانے والی چھڑی کے ساتھ عورت",
+					"رسائی",
+					"عورت",
+					"نا بینا کی لاٹھی",
+					"نابینا",
+					"نابینا افراد والی چھڑی کے ساتھ خاتون",
+					"نابینا افراد والی چھڑی کے ساتھ عورت",
+				],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("hassali ayol"),
+				keywords: &["ayol", "hassali ayol", "koʻr", "nogironlik"],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người phụ nữ với gậy dò đường"),
+				keywords: &[
+					"hỗ trợ tiếp cận",
+					"khiếm thị",
+					"mù",
+					"người phụ nữ",
+					"người phụ nữ với cây gậy",
+					"người phụ nữ với gậy dò đường",
+				],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("obìnrin pẹ\u{300}lú ọ\u{300}pá funfun"),
+				keywords: &["afọ\u{301}jú", "obìnrin", "obìnrin pẹ\u{300}lú ọ\u{300}pá funfun", "ìráàyèsí"],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("obìnrin pɛ\u{300}lú ɔ\u{300}pá funfun"),
+				keywords: &["afɔ\u{301}jú", "obìnrin", "obìnrin pɛ\u{300}lú ɔ\u{300}pá funfun", "ìráàyèsí"],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("拎拐杖嘅女人"),
+				keywords: &["女人", "拎拐杖嘅女人", "拎白色拐杖嘅女人", "無障礙", "盲"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("拎拐杖嘅女人"),
+				keywords: &["女人", "拎拐杖嘅女人", "无障碍", "盲"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("拄盲杖的女人"),
+				keywords: &["女", "女人", "女性", "拄盲杖的女人", "拐杖", "无障碍", "盲", "盲人"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("拿導盲手杖的女子"),
+				keywords: &["人", "女", "女子", "拿導盲手杖的女子", "盲人", "行動不便"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("拎導盲拐杖嘅女人"),
+				keywords: &[
+					"人物",
+					"女",
+					"女士",
+					"女性",
+					"拎導盲拐杖嘅女人",
+					"拿著白手杖的女士",
+					"無障礙",
+					"白手杖",
+					"盲人",
+					"瞎",
+					"視障",
+				],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umama onekheni lokuhlola"),
+				keywords: &["ukufinyelela", "ukuphophala", "umama onekheni lokuhlola"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "👩🏻\u{200d}🦯",
+			codepoint:            &[128105u32, 127995u32, 8205u32, 129455u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman with white cane: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏼\u{200d}🦯",
+			codepoint:            &[128105u32, 127996u32, 8205u32, 129455u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman with white cane: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏽\u{200d}🦯",
+			codepoint:            &[128105u32, 127997u32, 8205u32, 129455u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman with white cane: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏾\u{200d}🦯",
+			codepoint:            &[128105u32, 127998u32, 8205u32, 129455u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman with white cane: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "👩🏿\u{200d}🦯",
+			codepoint:            &[128105u32, 127999u32, 8205u32, 129455u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman with white cane: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🚶\u{200d}♀\u{fe0f}"]
+pub const WOMAN_WALKING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🚶\u{200d}♀\u{fe0f}",
+		codepoint:            &[128694u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman walking",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🚶🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[128694u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman walking: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[128694u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman walking: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[128694u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman walking: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[128694u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman walking: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🚶🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[128694u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 4u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman walking: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧍\u{200d}♀\u{fe0f}"]
+pub const WOMAN_STANDING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧍\u{200d}♀\u{fe0f}",
+		codepoint:            &[129485u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman standing",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧍🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[129485u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman standing: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧍🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[129485u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman standing: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧍🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[129485u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman standing: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧍🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[129485u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman standing: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧍🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[129485u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 12u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman standing: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧗\u{200d}♀\u{fe0f}"]
+pub const WOMAN_CLIMBING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧗\u{200d}♀\u{fe0f}",
+		codepoint:            &[129495u32, 8205u32, 9792u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+		name:                 "woman climbing",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧗🏻\u{200d}♀\u{fe0f}",
+			codepoint:            &[129495u32, 127995u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman climbing: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏼\u{200d}♀\u{fe0f}",
+			codepoint:            &[129495u32, 127996u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman climbing: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏽\u{200d}♀\u{fe0f}",
+			codepoint:            &[129495u32, 127997u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman climbing: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏾\u{200d}♀\u{fe0f}",
+			codepoint:            &[129495u32, 127998u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman climbing: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏿\u{200d}♀\u{fe0f}",
+			codepoint:            &[129495u32, 127999u32, 8205u32, 9792u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "woman climbing: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧗\u{200d}♂\u{fe0f}"]
+pub const MAN_CLIMBING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧗\u{200d}♂\u{fe0f}",
+		codepoint:            &[129495u32, 8205u32, 9794u32, 65039u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+		name:                 "man climbing",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧗🏻\u{200d}♂\u{fe0f}",
+			codepoint:            &[129495u32, 127995u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "man climbing: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏼\u{200d}♂\u{fe0f}",
+			codepoint:            &[129495u32, 127996u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "man climbing: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏽\u{200d}♂\u{fe0f}",
+			codepoint:            &[129495u32, 127997u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "man climbing: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏾\u{200d}♂\u{fe0f}",
+			codepoint:            &[129495u32, 127998u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "man climbing: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏿\u{200d}♂\u{fe0f}",
+			codepoint:            &[129495u32, 127999u32, 8205u32, 9794u32, 65039u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "man climbing: dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+	],
+};
+#[doc = "🧗"]
+pub const PERSON_CLIMBING: crate::Toned = crate::Toned {
+	emoji: crate::Emoji {
+		glyph:                "🧗",
+		codepoint:            &[129495u32],
+		status:               crate::Status::FullyQualified,
+		introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+		name:                 "person climbing",
+		group:                crate::Group::PeopleBody,
+		subgroup:             crate::Subgroup::PersonActivity,
+		is_variant:           false,
+		variants:             &[],
+		annotations:          &[
+			#[cfg(feature = "af")]
+			crate::Annotation {
+				lang:     "af",
+				tts:      Some("persoon wat rotsklim"),
+				keywords: &["berg", "klim", "klim op", "klouter", "persoon wat rotsklim", "rotsklimmer"],
+			},
+			#[cfg(feature = "am")]
+			crate::Annotation {
+				lang:     "am",
+				tts:      Some("ሰው ተራራ ሲወጣ"),
+				keywords: &[
+					"ሰው ተራራ ሲወጣ",
+					"ሰው ወደላይ በመውጣት ላይ",
+					"ተራራ",
+					"ተራራ ወጪ",
+					"አለት ወጪ",
+					"ወደ ላይ መውጣት",
+					"ደረጃ",
+				],
+			},
+			#[cfg(feature = "ar")]
+			crate::Annotation {
+				lang:     "ar",
+				tts:      Some("شخص يتسل\u{651}ق"),
+				keywords: &[
+					"أشخاص",
+					"تسلق",
+					"جبال",
+					"رياضة",
+					"شخص يتسل\u{651}ق",
+					"صخور",
+					"صعود",
+					"متسلقة",
+					"مغامرة",
+					"وصولية",
+				],
+			},
+			#[cfg(feature = "as")]
+			crate::Annotation {
+				lang:     "as",
+				tts:      Some("আৰোহণ কৰ\u{9be} ব\u{9cd}যক\u{9cd}তি"),
+				keywords: &["আৰোহক", "আৰোহণ কৰ\u{9be} ব\u{9cd}যক\u{9cd}তি"],
+			},
+			#[cfg(feature = "az")]
+			crate::Annotation {
+				lang:     "az",
+				tts:      Some("dırmaşan adam"),
+				keywords: &[
+					"dağ",
+					"dırmaşan",
+					"dırmaşan adam",
+					"dırmaşma",
+					"dırmaşmaq",
+					"dırmaşıb çıxmaq",
+					"qayaya dırmaşan",
+				],
+			},
+			#[cfg(feature = "be")]
+			crate::Annotation {
+				lang:     "be",
+				tts:      Some("чалавек падымаецца на гару"),
+				keywords: &["альпініст", "чалавек падымаецца на гару"],
+			},
+			#[cfg(feature = "bg")]
+			crate::Annotation {
+				lang:     "bg",
+				tts:      Some("катерещ се човек"),
+				keywords: &[
+					"алпинист",
+					"катерене",
+					"катерещ се човек",
+					"нагоре",
+					"планина",
+					"скала",
+					"скално катерене",
+				],
+			},
+			#[cfg(feature = "bn")]
+			crate::Annotation {
+				lang:     "bn",
+				tts:      Some("একজন উপরে উঠছে"),
+				keywords: &[
+					"আরোহী",
+					"একজন উপরে উঠছে",
+					"পর\u{9cd}বত\u{9be}রোহণ",
+					"পর\u{9cd}বত\u{9be}রোহী",
+					"প\u{9be}হ\u{9be}ড\u{9bc}",
+					"মহিল\u{9be} পর\u{9cd}বত\u{9be}রোহণ",
+					"মহিল\u{9be} পর\u{9cd}বত\u{9be}রোহী",
+					"স\u{9cd}ম\u{9be}ইলি",
+				],
+			},
+			#[cfg(feature = "bs")]
+			crate::Annotation {
+				lang:     "bs",
+				tts:      Some("osoba koja se penje"),
+				keywords: &["osoba koja se penje", "penjač"],
+			},
+			#[cfg(feature = "ca")]
+			crate::Annotation {
+				lang:     "ca",
+				tts:      Some("persona que escala"),
+				keywords: &[
+					"escalada",
+					"escalador",
+					"escaladora",
+					"escalar",
+					"esport",
+					"muntanya",
+					"persona",
+					"persona escalant",
+					"persona que escala",
+				],
+			},
+			#[cfg(feature = "chr")]
+			crate::Annotation {
+				lang:     "chr",
+				tts:      Some("ᏴᏫ ᎦᎵᏙᎭ"),
+				keywords: &["ᎫᎴᎦ", "ᏴᏫ ᎦᎵᏙᎭ"],
+			},
+			#[cfg(feature = "cs")]
+			crate::Annotation {
+				lang:     "cs",
+				tts:      Some("lezec"),
+				keywords: &[
+					"hora",
+					"horolezec",
+					"horolezkyně",
+					"lezec",
+					"lezení",
+					"lezkyně",
+					"stěna",
+					"člověk",
+					"člověk lezoucí po skalní stěně",
+				],
+			},
+			#[cfg(feature = "cy")]
+			crate::Annotation {
+				lang:     "cy",
+				tts:      Some("person yn dringo"),
+				keywords: &["dringwr", "person yn dringo"],
+			},
+			#[cfg(feature = "da")]
+			crate::Annotation {
+				lang:     "da",
+				tts:      Some("bjergbestiger"),
+				keywords: &[
+					"bestige",
+					"bjerg",
+					"bjergbestiger",
+					"klatre",
+					"klatre op",
+					"klatrer",
+					"klatring",
+					"person klatrer",
+				],
+			},
+			#[cfg(feature = "de")]
+			crate::Annotation {
+				lang:     "de",
+				tts:      Some("Bergsteiger(in)"),
+				keywords: &[
+					"Bergsteiger",
+					"Bergsteiger(in)",
+					"Fels",
+					"Kletterer",
+					"Person",
+					"Sport",
+					"klettern",
+				],
+			},
+			#[cfg(feature = "de_CH")]
+			crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "el")]
+			crate::Annotation {
+				lang:     "el",
+				tts:      Some("άτομο που αναρριχείται"),
+				keywords: &["άτομο που αναρριχείται", "αναρρίχηση", "βουνό", "ορειβάτης"],
+			},
+			#[cfg(feature = "en")]
+			crate::Annotation {
+				lang:     "en",
+				tts:      Some("person climbing"),
+				keywords: &["climb", "climber", "climbing", "mountain", "person", "rock", "scale", "up"],
+			},
+			#[cfg(feature = "en_AU")]
+			crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_CA")]
+			crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_GB")]
+			crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "en_IN")]
+			crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es")]
+			crate::Annotation {
+				lang:     "es",
+				tts:      Some("persona escalando"),
+				keywords: &["alpinista", "escalador", "persona escalando"],
+			},
+			#[cfg(feature = "es_419")]
+			crate::Annotation {
+				lang:     "es_419",
+				tts:      Some("↑↑↑"),
+				keywords: &[
+					"deporte",
+					"escalada",
+					"escalando",
+					"escalar",
+					"montana",
+					"montaña",
+					"persona escalando",
+					"rapel",
+				],
+			},
+			#[cfg(feature = "es_MX")]
+			crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "es_US")]
+			crate::Annotation {
+				lang:     "es_US",
+				tts:      Some("↑↑↑"),
+				keywords: &["alpinista", "persona escalando"],
+			},
+			#[cfg(feature = "et")]
+			crate::Annotation {
+				lang:     "et",
+				tts:      Some("mäkke roniv inimene"),
+				keywords: &["alpinism", "alpinist", "mägi", "mägironija", "ronimine", "üles"],
+			},
+			#[cfg(feature = "eu")]
+			crate::Annotation {
+				lang:     "eu",
+				tts:      Some("pertsona bat eskalatzen"),
+				keywords: &["eskalatzailea", "pertsona bat eskalatzen"],
+			},
+			#[cfg(feature = "fa")]
+			crate::Annotation {
+				lang:     "fa",
+				tts:      Some("فردی کوه\u{200c}نوردی می\u{200c}کند"),
+				keywords: &[
+					"بدن",
+					"زن",
+					"زن کوه نورد",
+					"صخره نورد",
+					"صخره نوردی",
+					"فردی کوه\u{200c}نوردی می\u{200c}کند",
+					"قوی",
+					"ورزش",
+					"ورزشکار",
+					"کوه نوردی",
+					"کوه\u{200c}نورد",
+					"کوه\u{200c}پیما",
+				],
+			},
+			#[cfg(feature = "fi")]
+			crate::Annotation {
+				lang:     "fi",
+				tts:      Some("kiipeilijä"),
+				keywords: &[
+					"ihminen kiipeilee",
+					"kallio",
+					"kalliokiipeilijä",
+					"kiipeily",
+					"kiivetä ylös",
+					"seinä",
+					"vuori",
+				],
+			},
+			#[cfg(feature = "fil")]
+			crate::Annotation {
+				lang:     "fil",
+				tts:      Some("tao na umaakyat"),
+				keywords: &["akyat", "bundok", "climber", "rock climber", "tao na umaakyat"],
+			},
+			#[cfg(feature = "fo")]
+			crate::Annotation {
+				lang:     "fo",
+				tts:      Some("persónur sum klatrar"),
+				keywords: &[
+					"fólk",
+					"klatra",
+					"klintra",
+					"klíva",
+					"klúgva",
+					"persónur",
+					"persónur sum klatrar",
+				],
+			},
+			#[cfg(feature = "fr")]
+			crate::Annotation {
+				lang:     "fr",
+				tts:      Some("personne qui grimpe"),
+				keywords: &[
+					"alpiniste",
+					"escalader",
+					"grimper",
+					"grimpeur",
+					"montagne",
+					"personne qui escalade",
+					"personne qui grimpe",
+					"sport",
+				],
+			},
+			#[cfg(feature = "fr_CA")]
+			crate::Annotation { lang: "fr_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ga")]
+			crate::Annotation {
+				lang:     "ga",
+				tts:      Some("duine ag dreapadóireacht"),
+				keywords: &[
+					"airde",
+					"an mullach a bhaint amach",
+					"caitheamh aimsire",
+					"carraig",
+					"cnoc",
+					"deapadóir",
+					"dreapadóir",
+					"duine ag dreapadóireacht",
+					"fearas dreapadóireachta",
+					"fána ghéar",
+				],
+			},
+			#[cfg(feature = "gd")]
+			crate::Annotation {
+				lang:     "gd",
+				tts:      Some("neach a’ sreap"),
+				keywords: &["neach a’ sreap", "sreapadair", "sreapaiche"],
+			},
+			#[cfg(feature = "gl")]
+			crate::Annotation {
+				lang:     "gl",
+				tts:      Some("escalada"),
+				keywords: &["escalada", "escalador", "escalar"],
+			},
+			#[cfg(feature = "gu")]
+			crate::Annotation {
+				lang:     "gu",
+				tts:      Some("વ\u{acd}યક\u{acd}તિ ચઢાઈ પર"),
+				keywords: &[
+					"ઉપર ચઢનાર",
+					"ઊ\u{a82}ચ\u{ac7} ચડનાર",
+					"પર\u{acd}વત",
+					"પર\u{acd}વત ઊપર ચઢનાર સ\u{acd}ત\u{acd}રી",
+					"પર\u{acd}વતારોહણ",
+					"પર\u{acd}વતારોહી",
+					"પહાડ",
+					"વ\u{acd}યક\u{acd}તિ ચઢાઈ પર",
+				],
+			},
+			#[cfg(feature = "ha")]
+			crate::Annotation {
+				lang:     "ha",
+				tts:      Some("mutum mai hawa"),
+				keywords: &["mai hawa", "mai hawa sama", "mai hawan tsauni", "mutum mai hawa", "tsauni"],
+			},
+			#[cfg(feature = "ha_NE")]
+			crate::Annotation {
+				lang:     "ha_NE",
+				tts:      Some("mutum mai hawa"),
+				keywords: &["mai hawa", "mai hawa sama", "mai hawan tsauni", "mutum mai hawa", "tsauni"],
+			},
+			#[cfg(feature = "he")]
+			crate::Annotation {
+				lang:     "he",
+				tts:      Some("מישהו מטפס"),
+				keywords: &[
+					"אדם",
+					"הר",
+					"טיפוס",
+					"טיפוס הרים",
+					"טיפוס סלעים",
+					"טיפוס על הר",
+					"מטפס",
+					"מטפסת",
+					"מישהו מטפס",
+				],
+			},
+			#[cfg(feature = "hi")]
+			crate::Annotation {
+				lang:     "hi",
+				tts:      Some("चढ\u{93c}ाई करता ह\u{941}आ व\u{94d}यक\u{94d}ति"),
+				keywords: &[
+					"ऊपर चढ\u{93c}ना",
+					"चट\u{94d}टान पर\u{94d}वतारोही",
+					"चढ\u{93c}ना",
+					"चढ\u{93c}न\u{947} वाला",
+					"चढ\u{93c}ाई करता ह\u{941}आ व\u{94d}यक\u{94d}ति",
+					"पर\u{94d}वत",
+					"पर\u{94d}वतारोही",
+					"पहाड\u{93c}",
+					"पहाड\u{93c} पर चढ\u{93c}ना",
+				],
+			},
+			#[cfg(feature = "hr")]
+			crate::Annotation {
+				lang:     "hr",
+				tts:      Some("osoba se penje"),
+				keywords: &["osoba se penje", "penjanje", "penjač", "planina", "planinarenje"],
+			},
+			#[cfg(feature = "hu")]
+			crate::Annotation {
+				lang:     "hu",
+				tts:      Some("mászó ember"),
+				keywords: &[
+					"hegy",
+					"hegymászás",
+					"megmászik",
+					"mászás",
+					"mászó",
+					"mászó ember",
+					"sziklamászás",
+					"sziklamászó",
+				],
+			},
+			#[cfg(feature = "hy")]
+			crate::Annotation {
+				lang:     "hy",
+				tts:      Some("մագլցող անձ"),
+				keywords: &["մագլցող", "մագլցող անձ"],
+			},
+			#[cfg(feature = "id")]
+			crate::Annotation {
+				lang:     "id",
+				tts:      Some("orang memanjat"),
+				keywords: &["gunung", "orang memanjat", "panjat", "pemanjat", "tebing"],
+			},
+			#[cfg(feature = "ig")]
+			crate::Annotation {
+				lang:     "ig",
+				tts:      Some("onye na-arị elu"),
+				keywords: &["onye na-arị elu", "ọ\u{300}rị elu"],
+			},
+			#[cfg(feature = "is")]
+			crate::Annotation {
+				lang:     "is",
+				tts:      Some("maður í klettaklifri"),
+				keywords: &["maður í klettaklifri"],
+			},
+			#[cfg(feature = "it")]
+			crate::Annotation {
+				lang:     "it",
+				tts:      Some("persona che scala"),
+				keywords: &[
+					"arrampicarsi",
+					"arrampicata",
+					"arrampicatore",
+					"arrampicatrice",
+					"montagna",
+					"persona",
+					"persona che arrampica",
+					"persona che scala",
+					"roccia",
+					"scalatore",
+					"sport",
+				],
+			},
+			#[cfg(feature = "ja")]
+			crate::Annotation {
+				lang:     "ja",
+				tts:      Some("山を登る人"),
+				keywords: &["ロッククライマー", "山", "山を登る人", "山登り", "登る", "登山"],
+			},
+			#[cfg(feature = "jv")]
+			crate::Annotation {
+				lang:     "jv",
+				tts:      Some("wong manjad"),
+				keywords: &["pamanjad", "wong manjad"],
+			},
+			#[cfg(feature = "ka")]
+			crate::Annotation {
+				lang:     "ka",
+				tts:      Some("მთასვლელი"),
+				keywords: &["კლდეზე მცოცავი", "მთასვლელი"],
+			},
+			#[cfg(feature = "kk")]
+			crate::Annotation {
+				lang:     "kk",
+				tts:      Some("өрмелеп бара жатқан адам"),
+				keywords: &[
+					"адам",
+					"альпинизм",
+					"альпинист",
+					"жартас",
+					"жоғары",
+					"көтерілу",
+					"тау",
+					"тауға шығу",
+					"шың",
+					"құз",
+					"құзға шығу",
+					"өрмелеп бара жатқан адам",
+					"өрмелеу",
+				],
+			},
+			#[cfg(feature = "km")]
+			crate::Annotation {
+				lang:     "km",
+				tts:      Some("មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងឡើង"),
+				keywords: &["មន\u{17bb}ស\u{17d2}សក\u{17c6}ព\u{17bb}ងឡើង", "អ\u{17d2}នកឡើង"],
+			},
+			#[cfg(feature = "kn")]
+			crate::Annotation {
+				lang:     "kn",
+				tts:      Some("ಹತ\u{ccd}ತುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}"),
+				keywords: &[
+					"ಏರು",
+					"ಪರ\u{ccd}ವತಾರ\u{ccb}ಹ\u{cbf}",
+					"ಬ\u{cc6}ಟ\u{ccd}ಟ ಏರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ಶ\u{cbf}ಲಾರ\u{ccb}ಹ\u{cbf}",
+					"ಹತ\u{ccd}ತುತ\u{ccd}ತ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+					"ಹತ\u{ccd}ತುವವರು",
+				],
+			},
+			#[cfg(feature = "ko")]
+			crate::Annotation {
+				lang:     "ko",
+				tts:      Some("클라이밍하는 사람"),
+				keywords: &[
+					"등반",
+					"등산",
+					"등산가",
+					"산",
+					"암벽 등반",
+					"암벽 등반가",
+					"클라이밍",
+					"클라이밍하는 사람",
+				],
+			},
+			#[cfg(feature = "kok")]
+			crate::Annotation {
+				lang:     "kok",
+				tts:      Some("चडपी व\u{94d}यक\u{94d}ती"),
+				keywords: &["चडपी", "चडपी व\u{94d}यक\u{94d}ती", "व\u{94d}यक\u{94d}ती चडटा"],
+			},
+			#[cfg(feature = "ky")]
+			crate::Annotation {
+				lang:     "ky",
+				tts:      Some("тоого чыгып жаткан адам"),
+				keywords: &["альпинист", "тоого чыгып жаткан адам"],
+			},
+			#[cfg(feature = "lb")]
+			crate::Annotation {
+				lang:     "lb",
+				tts:      Some("Klëmmer(in)"),
+				keywords: &["Biergsteiger", "Klëmmer(in)"],
+			},
+			#[cfg(feature = "lo")]
+			crate::Annotation {
+				lang:     "lo",
+				tts:      Some("ຄ\u{ebb}ນກຳລ\u{eb1}ງປ\u{eb5}ນ"),
+				keywords: &[
+					"ຄ\u{ebb}ນກຳລ\u{eb1}ງປ\u{eb5}ນ",
+					"ນ\u{eb1}ກປ\u{eb5}ນ",
+					"ປ\u{eb5}ນຜາ",
+					"ຜາ",
+					"ພ\u{eb9}ເຂ\u{ebb}າ",
+				],
+			},
+			#[cfg(feature = "lt")]
+			crate::Annotation {
+				lang:     "lt",
+				tts:      Some("kopiantis žmogus"),
+				keywords: &[
+					"alpinistas",
+					"kalnas",
+					"kopiantis žmogus",
+					"kopimas į kalną",
+					"kopimas į uolą",
+					"laipiotojas",
+					"uola",
+				],
+			},
+			#[cfg(feature = "lv")]
+			crate::Annotation {
+				lang:     "lv",
+				tts:      Some("kalnā kāpējs"),
+				keywords: &[
+					"alpīniste",
+					"alpīnists",
+					"cilvēks",
+					"kalns",
+					"kalnā kāpējs",
+					"klints",
+					"kāpt",
+					"persona",
+				],
+			},
+			#[cfg(feature = "mi")]
+			crate::Annotation {
+				lang:     "mi",
+				tts:      Some("tangata piki"),
+				keywords: &["kaipiki", "tangata piki"],
+			},
+			#[cfg(feature = "mk")]
+			crate::Annotation {
+				lang:     "mk",
+				tts:      Some("лице планинари"),
+				keywords: &[
+					"искачување",
+					"качувач по карпи",
+					"качување",
+					"лице кое планинари",
+					"лице планинари",
+					"планина",
+					"планинар",
+				],
+			},
+			#[cfg(feature = "ml")]
+			crate::Annotation {
+				lang:     "ml",
+				tts:      Some("മലകയറ\u{d41}ന\u{d4d}ന വ\u{d4d}യക\u{d4d}തി"),
+				keywords: &[
+					"ക\u{d4d}ലൈംബർ",
+					"മലകയറ\u{d41}ന\u{d4d}ന വ\u{d4d}യക\u{d4d}തി",
+					"മലകയറ\u{d41}ന\u{d4d}നയ\u{d3e}ൾ",
+					"മലകയറ\u{d4d}റം",
+				],
+			},
+			#[cfg(feature = "mn")]
+			crate::Annotation { lang: "mn", tts: Some("авирагч"), keywords: &["авирагч"] },
+			#[cfg(feature = "mr")]
+			crate::Annotation {
+				lang:     "mr",
+				tts:      Some("गिर\u{94d}यारोहण करणारी व\u{94d}यक\u{94d}ती"),
+				keywords: &[
+					"गिर\u{94d}यारोहक",
+					"गिर\u{94d}यारोहण",
+					"गिर\u{94d}यारोहण करणारी व\u{94d}यक\u{94d}ती",
+					"पर\u{94d}वत",
+					"पर\u{94d}वतारोहण",
+					"रॉक क\u{94d}लाइम\u{94d}बर",
+				],
+			},
+			#[cfg(feature = "ms")]
+			crate::Annotation {
+				lang:     "ms",
+				tts:      Some("orang mendaki"),
+				keywords: &[
+					"bukit",
+					"gunung",
+					"orang memanjat",
+					"orang mendaki",
+					"panjat",
+					"pemanjat",
+					"pendaki",
+				],
+			},
+			#[cfg(feature = "mt")]
+			crate::Annotation {
+				lang:     "mt",
+				tts:      Some("persuna tiela’"),
+				keywords: &["persuna li titla’", "persuna tiela’"],
+			},
+			#[cfg(feature = "my")]
+			crate::Annotation {
+				lang:     "my",
+				tts:      Some("တောင\u{103a}တက\u{103a}နေသ\u{1030}"),
+				keywords: &["တောင\u{103a}တက\u{103a}နေသ\u{1030}", "တောင\u{103a}တက\u{103a}သမား"],
+			},
+			#[cfg(feature = "ne")]
+			crate::Annotation {
+				lang:     "ne",
+				tts:      Some("प\u{941}र\u{941}ष आरोही"),
+				keywords: &["आरोही", "प\u{941}र\u{941}ष आरोही"],
+			},
+			#[cfg(feature = "nl")]
+			crate::Annotation {
+				lang:     "nl",
+				tts:      Some("klimmende persoon"),
+				keywords: &[
+					"alpinisme",
+					"berg",
+					"bergbeklimmen",
+					"bergbeklimmer",
+					"klimmen",
+					"klimmende persoon",
+					"klimmer",
+					"sport",
+				],
+			},
+			#[cfg(feature = "nn")]
+			crate::Annotation {
+				lang:     "nn",
+				tts:      Some("klatrar"),
+				keywords: &["klatrar", "klatring"],
+			},
+			#[cfg(feature = "or")]
+			crate::Annotation {
+				lang:     "or",
+				tts:      Some("ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଆରୋହଣ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}"),
+				keywords: &[
+					"ଆରୋହଣକ\u{b3e}ରୀ",
+					"ବ\u{b4d}ୟକ\u{b4d}ତ\u{b3f} ଆରୋହଣ କର\u{b41}ଛନ\u{b4d}ତ\u{b3f}",
+				],
+			},
+			#[cfg(feature = "pa")]
+			crate::Annotation {
+				lang:     "pa",
+				tts:      Some("ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਦਾ ਵਿਅਕਤੀ"),
+				keywords: &[
+					"ਕਲਾਈਬਿ\u{a70}ਗ",
+					"ਖ\u{a47}ਡ",
+					"ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਣ ਵਾਲਾ",
+					"ਚੜ\u{a4d}ਹਾਈ ਚੜ\u{a4d}ਹਦਾ ਵਿਅਕਤੀ",
+					"ਪਹਾੜ ਚੜ\u{a4d}ਹਨਾ",
+					"ਰ\u{a4c}ਕ ਕਲਾਈਬਿ\u{a70}ਗ",
+				],
+			},
+			#[cfg(feature = "pa_Arab")]
+			crate::Annotation {
+				lang:     "pa_Arab",
+				tts:      Some("کوہ پیمائی کردا بندا"),
+				keywords: &["کوہ پیما", "کوہ پیمائی کردا بندا"],
+			},
+			#[cfg(feature = "pcm")]
+			crate::Annotation {
+				lang:     "pcm",
+				tts:      Some("Pẹ\u{301}sin Wé De Klaimb"),
+				keywords: &["Klaímba", "Pẹ\u{301}sin Wé De Klaimb"],
+			},
+			#[cfg(feature = "pl")]
+			crate::Annotation {
+				lang:     "pl",
+				tts:      Some("osoba wspinająca się"),
+				keywords: &["osoba", "skałki", "sport", "wspinacz", "wspinaczka", "wspinająca się"],
+			},
+			#[cfg(feature = "ps")]
+			crate::Annotation {
+				lang:     "ps",
+				tts:      Some("شخص هسکېږي"),
+				keywords: &["ختونکی", "شخص هسکيږې", "شخص هسکېږي"],
+			},
+			#[cfg(feature = "pt")]
+			crate::Annotation {
+				lang:     "pt",
+				tts:      Some("pessoa escalando"),
+				keywords: &["alpinista", "escalada", "escalando", "escalar", "esporte", "montanha"],
+			},
+			#[cfg(feature = "pt_PT")]
+			crate::Annotation {
+				lang:     "pt_PT",
+				tts:      Some("pessoa a escalar"),
+				keywords: &[
+					"alpinismo",
+					"alpinista",
+					"desporto",
+					"escalada",
+					"montanha",
+					"montanhismo",
+					"montanhista",
+					"pessoa a escalar",
+					"subir",
+					"trepadora",
+				],
+			},
+			#[cfg(feature = "qu")]
+			crate::Annotation {
+				lang:     "qu",
+				tts:      Some("wichaq runa"),
+				keywords: &["wichaq runa", "wichay"],
+			},
+			#[cfg(feature = "ro")]
+			crate::Annotation {
+				lang:     "ro",
+				tts:      Some("persoană care se cațără"),
+				keywords: &["cățărare", "cățărător", "munte", "persoană care se cațără"],
+			},
+			#[cfg(feature = "root")]
+			crate::Annotation { lang: "root", tts: Some("E10-1128"), keywords: &["E10-1128"] },
+			#[cfg(feature = "ru")]
+			crate::Annotation {
+				lang:     "ru",
+				tts:      Some("человек взбирается по скале"),
+				keywords: &[
+					"альпинистка",
+					"взбираться",
+					"восхождение",
+					"гора",
+					"подъем",
+					"скала",
+					"скалолазание",
+					"человек",
+				],
+			},
+			#[cfg(feature = "rw")]
+			crate::Annotation {
+				lang:     "rw",
+				tts:      Some("umuntu wurira"),
+				keywords: &["umuntu wurira", "uzamuka"],
+			},
+			#[cfg(feature = "sd")]
+			crate::Annotation {
+				lang:     "sd",
+				tts:      Some("شخص چڙهندي"),
+				keywords: &["شخص چڙهندي", "چڙهندڙ"],
+			},
+			#[cfg(feature = "si")]
+			crate::Annotation {
+				lang:     "si",
+				tts:      Some("කඳ\u{dd4} නග\u{dd2}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}"),
+				keywords: &[
+					"කඳ\u{dd4} නග\u{dd2}න ප\u{dd4}ද\u{dca}ගලය\u{dcf}",
+					"කඳ\u{dd4} නග\u{dd2}න\u{dca}න\u{dcf}",
+				],
+			},
+			#[cfg(feature = "sk")]
+			crate::Annotation {
+				lang:     "sk",
+				tts:      Some("človek na skale"),
+				keywords: &[
+					"hora",
+					"horolezec",
+					"horolezectvo",
+					"lezec",
+					"lezectvo",
+					"lezenie",
+					"liezť",
+					"skala",
+					"skalná stena",
+					"skalolezec",
+					"človek na skale",
+					"šport",
+				],
+			},
+			#[cfg(feature = "sl")]
+			crate::Annotation {
+				lang:     "sl",
+				tts:      Some("oseba, ki pleza"),
+				keywords: &[
+					"gora",
+					"ki pleza",
+					"oseba",
+					"oseba pleza",
+					"oseba, ki pleza",
+					"plezalec",
+					"plezalka",
+					"plezanje",
+					"plezati",
+					"vzpon",
+				],
+			},
+			#[cfg(feature = "so")]
+			crate::Annotation {
+				lang:     "so",
+				tts:      Some("qof meel fuulaya"),
+				keywords: &["fuule", "qof meel fuulaya"],
+			},
+			#[cfg(feature = "sq")]
+			crate::Annotation {
+				lang:     "sq",
+				tts:      Some("person që ngjitet"),
+				keywords: &[
+					"alpinist",
+					"alpinist shkëmbinjsh",
+					"alpinizëm",
+					"mal",
+					"ngjitje",
+					"person që ngjitet",
+					"shkallë",
+				],
+			},
+			#[cfg(feature = "sr")]
+			crate::Annotation {
+				lang:     "sr",
+				tts:      Some("пењање"),
+				keywords: &["горе", "особа", "пењач", "планина", "степа", "шењање"],
+			},
+			#[cfg(feature = "sr_Cyrl_BA")]
+			crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sr_Latn")]
+			crate::Annotation {
+				lang:     "sr_Latn",
+				tts:      Some("penjanje"),
+				keywords: &["gore", "osoba", "penjač", "planina", "stepa", "šenjanje"],
+			},
+			#[cfg(feature = "sr_Latn_BA")]
+			crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "sv")]
+			crate::Annotation {
+				lang:     "sv",
+				tts:      Some("person som klättrar"),
+				keywords: &[
+					"bergsklättring",
+					"klättra upp",
+					"klättrare",
+					"person klättrar",
+					"person som klättrar",
+				],
+			},
+			#[cfg(feature = "sw")]
+			crate::Annotation {
+				lang:     "sw",
+				tts:      Some("mtu anayekwea"),
+				keywords: &["mkwezi", "mtu anayekwea"],
+			},
+			#[cfg(feature = "sw_KE")]
+			crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+			#[cfg(feature = "ta")]
+			crate::Annotation {
+				lang:     "ta",
+				tts:      Some("மலையேற\u{bcd}றம\u{bcd}"),
+				keywords: &[
+					"நபர\u{bcd}",
+					"பெண\u{bcd}",
+					"மலை",
+					"மலை ஏறும\u{bcd} பெண\u{bcd}",
+					"மலையேறுபவர\u{bcd}",
+					"மலையேற\u{bcd}றம\u{bcd}",
+				],
+			},
+			#[cfg(feature = "te")]
+			crate::Annotation {
+				lang:     "te",
+				tts:      Some("ఎక\u{c4d}కుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}"),
+				keywords: &[
+					"ఎక\u{c4d}కుతున\u{c4d}న వ\u{c4d}యక\u{c4d}త\u{c3f}",
+					"క\u{c4a}ండ ఎక\u{c4d}కడం",
+					"క\u{c4d}ల\u{c48}ంబర\u{c4d}",
+					"ట\u{c4d}ర\u{c46}క\u{c4d}క\u{c3f}ంగ\u{c4d}",
+					"పర\u{c4d}వతం",
+					"పర\u{c4d}వత\u{c3e}ర\u{c4b}హకుడు",
+					"భవనంప\u{c48}క\u{c3f} ఎక\u{c4d}కుతున\u{c4d}న మన\u{c3f}ష\u{c3f}",
+					"మ\u{c4c}ంట\u{c46}య\u{c3f}న\u{c4d}",
+					"ర\u{c3e}క\u{c4d} క\u{c4d}ల\u{c48}ంబర\u{c4d}",
+					"స\u{c3e}హస మన\u{c3f}ష\u{c3f}",
+				],
+			},
+			#[cfg(feature = "tg")]
+			crate::Annotation {
+				lang:     "tg",
+				tts:      Some("шахсе, ки баромада истодааст"),
+				keywords: &["ки баромада истодааст", "кӯҳнавард", "шахсе", "шахсе, ки баромада истодааст"],
+			},
+			#[cfg(feature = "th")]
+			crate::Annotation {
+				lang:     "th",
+				tts:      Some("น\u{e31}กไต\u{e48}เขา"),
+				keywords: &[
+					"ก\u{e35}ฬา",
+					"คน",
+					"ป\u{e35}นผา",
+					"ป\u{e35}นเขา",
+					"ภ\u{e39}เขา",
+					"ไต\u{e48}เขา",
+				],
+			},
+			#[cfg(feature = "ti")]
+			crate::Annotation {
+				lang:     "ti",
+				tts:      Some("ሰብ እናደየበ"),
+				keywords: &["ሓፍ", "ምድያብ", "ሰብ", "ስኬል", "እምባ", "ከውሒ", "ዓቐብ ዝድይብ"],
+			},
+			#[cfg(feature = "tk")]
+			crate::Annotation {
+				lang:     "tk",
+				tts:      Some("dyrmaşýan adam"),
+				keywords: &["dyrmaşyjy", "dyrmaşýan adam"],
+			},
+			#[cfg(feature = "to")]
+			crate::Annotation {
+				lang:     "to",
+				tts:      Some("tokotaha kaka"),
+				keywords: &["kaka", "teleʻa", "tokotaha kaka", "vanu"],
+			},
+			#[cfg(feature = "tr")]
+			crate::Annotation {
+				lang:     "tr",
+				tts:      Some("dağcı kişi"),
+				keywords: &["dağ", "dağcı kişi", "kaya", "kaya tırmanışı", "tırmanmak", "tırmanıcı"],
+			},
+			#[cfg(feature = "ug")]
+			crate::Annotation {
+				lang:     "ug",
+				tts:      Some("ياماشقان كىشى"),
+				keywords: &["ياماشقان كىشى", "ياماشقۇچى"],
+			},
+			#[cfg(feature = "uk")]
+			crate::Annotation {
+				lang:     "uk",
+				tts:      Some("людина, що лізе скелею"),
+				keywords: &[
+					"альпінізм",
+					"альпініст",
+					"альпіністка",
+					"людина",
+					"людина, що лізе скелею",
+					"лізти вгору",
+					"скелелаз",
+					"що лізе скелею",
+				],
+			},
+			#[cfg(feature = "ur")]
+			crate::Annotation {
+				lang:     "ur",
+				tts:      Some("چڑھتا ہوا شخص"),
+				keywords: &[
+					"لوگ",
+					"پہاڑ",
+					"پہاڑ پر چڑھنے والا",
+					"چڑھتا ہوا شخص",
+					"چڑھنے والا",
+					"کوہ",
+					"کوہ پیمائی",
+					"کوہ پیمائی کرنے والا",
+				],
+			},
+			#[cfg(feature = "uz")]
+			crate::Annotation {
+				lang:     "uz",
+				tts:      Some("cho‘qqiga chiqayotgan odam"),
+				keywords: &[
+					"alpinist ayol",
+					"cho‘qqiga chiqayotgan odam",
+					"koʻtarilish",
+					"togʻ",
+					"toqqa chiqish",
+				],
+			},
+			#[cfg(feature = "vi")]
+			crate::Annotation {
+				lang:     "vi",
+				tts:      Some("người đang leo núi"),
+				keywords: &[
+					"leo núi",
+					"leo trèo",
+					"người leo trèo",
+					"người phụ nữ leo núi",
+					"người đang leo núi",
+					"nhà leo núi",
+					"núi",
+				],
+			},
+			#[cfg(feature = "wo")]
+			crate::Annotation {
+				lang:     "wo",
+				tts:      Some("nit kuy yéeg"),
+				keywords: &["nit kuy yéeg", "yéegkat"],
+			},
+			#[cfg(feature = "xh")]
+			crate::Annotation {
+				lang:     "xh",
+				tts:      Some("umntu onyukayo"),
+				keywords: &["umntu onobuvhule bokunyuka", "umntu onyukayo"],
+			},
+			#[cfg(feature = "yo")]
+			crate::Annotation {
+				lang:     "yo",
+				tts:      Some("Ènìyàn tó n gòkè"),
+				keywords: &["agùnkè", "Ènìyàn tó n gòkè"],
+			},
+			#[cfg(feature = "yo_BJ")]
+			crate::Annotation {
+				lang:     "yo_BJ",
+				tts:      Some("Ènìyàn tó n gòkè"),
+				keywords: &["agùnkè", "Ènìyàn tó n gòkè"],
+			},
+			#[cfg(feature = "yue")]
+			crate::Annotation {
+				lang:     "yue",
+				tts:      Some("爬山嘅人"),
+				keywords: &["爬山嘅人", "登山者"],
+			},
+			#[cfg(feature = "yue_Hans")]
+			crate::Annotation {
+				lang:     "yue_Hans",
+				tts:      Some("爬山嘅人"),
+				keywords: &["爬山嘅人", "登山者"],
+			},
+			#[cfg(feature = "zh")]
+			crate::Annotation {
+				lang:     "zh",
+				tts:      Some("攀爬的人"),
+				keywords: &["向上爬的人", "攀岩", "攀岩者", "攀爬的人", "爬山", "登山", "登山者"],
+			},
+			#[cfg(feature = "zh_Hant")]
+			crate::Annotation {
+				lang:     "zh_Hant",
+				tts:      Some("攀岩的人"),
+				keywords: &["攀岩", "攀岩的人", "攀岩者", "攀爬", "爬山"],
+			},
+			#[cfg(feature = "zh_Hant_HK")]
+			crate::Annotation {
+				lang:     "zh_Hant_HK",
+				tts:      Some("攀岩嘅人"),
+				keywords: &["攀山", "攀岩", "攀岩嘅人", "攀岩者", "攀爬", "攀登", "攀石", "爬", "登山"],
+			},
+			#[cfg(feature = "zu")]
+			crate::Annotation {
+				lang:     "zu",
+				tts:      Some("umuntu ogibelayo"),
+				keywords: &["umqwali", "umuntu ogibelayo"],
+			},
+		],
+	},
+	tones: &[
+		crate::Emoji {
+			glyph:                "🧗🏻",
+			codepoint:            &[129495u32, 127995u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "person climbing: light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏼",
+			codepoint:            &[129495u32, 127996u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "person climbing: medium-light skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏽",
+			codepoint:            &[129495u32, 127997u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "person climbing: medium skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏾",
+			codepoint:            &[129495u32, 127998u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "person climbing: medium-dark skin tone",
+			group:                crate::Group::PeopleBody,
+			subgroup:             crate::Subgroup::PersonActivity,
+			is_variant:           true,
+			variants:             &[],
+			annotations:          &[],
+		},
+		crate::Emoji {
+			glyph:                "🧗🏿",
+			codepoint:            &[129495u32, 127999u32],
+			status:               crate::Status::FullyQualified,
+			introduction_version: crate::Version { major: 5u8, minor: 0u8, patch: 0u8 },
+			name:                 "person climbing: dark skin tone",
 			group:                crate::Group::PeopleBody,
 			subgroup:             crate::Subgroup::PersonActivity,
 			is_variant:           true,

@@ -1,16 +1,3 @@
-#[doc = "🫪"]
-pub const DISTORTED_FACE: crate::Emoji = crate::Emoji {
-	glyph:                "🫪",
-	codepoint:            &[129770u32],
-	status:               crate::Status::FullyQualified,
-	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
-	name:                 "distorted face",
-	group:                crate::Group::SmileysEmotion,
-	subgroup:             crate::Subgroup::FaceConcerned,
-	is_variant:           false,
-	variants:             &[],
-	annotations:          &[],
-};
 #[doc = "😳"]
 pub const FLUSHED_FACE: crate::Emoji = crate::Emoji {
 	glyph:                "😳",
@@ -30383,4 +30370,17 @@ pub const ANXIOUS_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
 			],
 		},
 	],
+};
+#[doc = "🫪"]
+pub const DISTORTED_FACE: crate::Emoji = crate::Emoji {
+	glyph:                "🫪",
+	codepoint:            &[129770u32],
+	status:               crate::Status::FullyQualified,
+	introduction_version: crate::Version { major: 17u8, minor: 0u8, patch: 0u8 },
+	name:                 "distorted face",
+	group:                crate::Group::SmileysEmotion,
+	subgroup:             crate::Subgroup::FaceConcerned,
+	is_variant:           false,
+	variants:             &[],
+	annotations:          &[],
 };
