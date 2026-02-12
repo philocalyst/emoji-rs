@@ -8,8 +8,8 @@ use crate::{group_subgroup::Group, sanitize};
 
 pub fn dump(
 	groups: &Vec<Group>,
-	group_map: &HashMap<u8, String>,
-	subgroup_map: &HashMap<u8, String>,
+	group_map: &HashMap<u32, String>,
+	subgroup_map: &HashMap<u32, String>,
 	annotation_langs: &Vec<&str>,
 	version: f32,
 	date: String,

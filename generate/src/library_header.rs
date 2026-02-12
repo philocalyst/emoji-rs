@@ -72,57 +72,6 @@ pub enum SkinTone {
 	Dark,
 }
 
-/// The result of a lookup operation.
-/// Distinguishes between an emoji that has skin tones available (Toned)
-/// and one that does not (Standard).
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-pub enum EmojiEntry {
-	/// An emoji that has no skin tone variants (e.g. 😺).
-	Standard(&'static Emoji),
-	/// An emoji that has skin tone variants.
-	/// Contains the base emoji and the list of toned variants.
-	Toned(&'static Toned),
-}
-
-impl EmojiEntry {
-	/// Helper to access the base emoji data regardless of type.
-	pub fn emoji(&self) -> &'static Emoji {
-		match self {
-			EmojiEntry::Standard(e) => e,
-			EmojiEntry::Toned(t) => &t.emoji,
-		}
-	}
-
-	/// Returns the variants (skin tones) if they exist.
-	pub fn tones(&self) -> Option<&'static [Emoji]> {
-		match self {
-			EmojiEntry::Standard(_) => None,
-			EmojiEntry::Toned(t) => Some(t.tones),
-		}
-	}
-}
-
-/// A wrapper around an Emoji that has skin tone variants.
-/// Dereferences to the base Emoji.
-#[derive(Debug, Clone, PartialEq, Eq, Hash)]
-pub struct Toned {
-	pub emoji: Emoji,
-	pub tones: &'static [Emoji],
-}
-
-use std::ops::Deref;
-
-impl Deref for Toned {
-	type Target = Emoji;
-
-	fn deref(&self) -> &Self::Target { &self.emoji }
-}
-
-impl Toned {
-	/// Returns all skin tone variants for this emoji
-	pub fn tones(&self) -> &'static [Emoji] { self.tones }
-}
-
 /// Contains all information about an emoji  
 /// See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`.
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
@@ -156,6 +105,10 @@ pub struct Emoji {
 	pub is_variant:           bool,
 	/// Localizatoin specific annotations
 	pub annotations:          &'static [Annotation],
+	/// Skin tone variants for this emoji
+	pub skin_tones:           Option<&'static [Emoji]>,
+	/// Gender variants for this emoji
+	pub gender_variants:      Option<&'static [Emoji]>,
 }
 
 /// Annotation meta-data for each emoji

@@ -82,7 +82,7 @@ pub fn dump(groups: &Vec<Group>) {
 	let dump = quote! {
 		#array
 		#ts
-		static GLYPH_LOOKUP_MAP: phf::Map<&'static str, crate::EmojiEntry> = phf::phf_map! {
+		static GLYPH_LOOKUP_MAP: phf::Map<&'static str, &'static crate::Emoji> = phf::phf_map! {
 			#(#lookup_by_glyph),*
 		};
 	};

@@ -3,21 +3,16 @@ use sanitize::*;
 mod emoji;
 mod group_subgroup;
 use emoji::*;
-mod create_requests;
 mod lookup_types;
-use create_requests::*;
-mod gather_annotations;
-use gather_annotations::*;
-mod vectorize_test_data;
-use vectorize_test_data::*;
 mod gen_lib;
 mod lookup_by_glyph;
 mod lookup_by_name;
 mod search;
+mod dolt;
 
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
-async fn main() -> Result<(), reqwest::Error> {
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
 	println!("Make sure this is ran from workspace root");
 	let annotation_langs = vec![
 		"af",
@@ -163,15 +158,15 @@ async fn main() -> Result<(), reqwest::Error> {
 		"zh_Hant_HK",
 		"zu",
 	];
-	let client = reqwest::Client::new();
-	let annotation_text = create_requests(&client, &annotation_langs).await?;
 
-	let annotations = gather_annotations(&annotation_text, &annotation_langs);
+	// let client = reqwest::Client::new();
+	// let annotation_text = create_requests(&client, &annotation_langs).await?;
 
-	println!("Annotation processing done. Compiling into emoji list");
+	// let annotations = gather_annotations(&annotation_text, &annotation_langs);
 
-	let (date, version, groups, group_map, subgroup_maps) =
-		vectorize_test_data(&client, &annotations).await?;
+	println!("Loading data from Dolt database...");
+
+	let (date, version, groups, group_map, subgroup_maps) = dolt::load_all()?;
 
 	println!("Generating lookup tables.");
 	lookup_by_glyph::dump(&groups);

@@ -58,6 +58,7 @@ pub struct Emoji {
 	pub name:                 String,
 	pub variants:             Vec<Emoji>, // Non-skin tone variants
 	pub skin_tones:           Vec<Emoji>, // Skin tone variants
+	pub gender_variants:      Vec<Emoji>, // Gender variants
 	pub annotations:          Vec<Annotation>,
 	pub is_variant:           bool,
 	pub group:                String,
@@ -132,47 +133,11 @@ impl Emoji {
 			.collect()
 	}
 
-	pub fn from_raw(
-		raw: &crate::vectorize_test_data::RawEmoji,
-		annotations_map: &HashMap<String, Vec<Annotation>>,
-		group: String,
-		subgroup: String,
-		is_variant: bool,
-	) -> Self {
-		// Parse hexcode "1F1E6-1F1E7" -> Vec<u32>
-		let codepoint: Vec<u32> =
-			raw.hexcode.split('-').map(|s| u32::from_str_radix(s, 16).expect("Invalid hex")).collect();
-
-		let tone_val = SkinTone::from_codepoint(&codepoint);
-
-		let version_float = raw.version.unwrap_or(0.0);
-		let major = version_float as u8;
-		let minor = ((version_float - major as f32) * 10.0) as u8;
-
-		let annotations = match annotations_map.get(&raw.emoji) {
-			None => vec![],
-			Some(a) => a.to_vec(),
-		};
-
-		Self {
-			codepoint,
-			status: Status::FullyQualified,
-			glyph: raw.emoji.clone(),
-			introduction_version: Version { major, minor, patch: 0 },
-			name: raw.label.clone(),
-			variants: vec![],
-			skin_tones: vec![],
-			annotations,
-			is_variant,
-			group,
-			subgroup,
-			tone_val,
-		}
-	}
-
 	pub fn add_variant(&mut self, variant: Emoji) { self.variants.push(variant); }
 
 	pub fn add_skin_tone(&mut self, variant: Emoji) { self.skin_tones.push(variant); }
+
+	pub fn add_gender_variant(&mut self, variant: Emoji) { self.gender_variants.push(variant); }
 
 	pub fn ident(&self) -> String { sanitize(&self.name).to_uppercase() }
 
@@ -192,7 +157,20 @@ impl Emoji {
 		let annotations = &self.annotations;
 		let is_variant = &self.is_variant;
 
-		// Note: No 'skin_tones' field here. They are only in the wrapper.
+		let skin_tones = if self.skin_tones.is_empty() {
+			quote! { None }
+		} else {
+			let tones: Vec<TokenStream> = self.skin_tones.iter().map(|e| e.tokens_struct()).collect();
+			quote! { Some(&[#(#tones),*]) }
+		};
+
+		let gender_variants = if self.gender_variants.is_empty() {
+			quote! { None }
+		} else {
+			let variants: Vec<TokenStream> = self.gender_variants.iter().map(|e| e.tokens_struct()).collect();
+			quote! { Some(&[#(#variants),*]) }
+		};
+
 		quote! {
 				crate::Emoji {
 						glyph: #glyph,
@@ -208,6 +186,8 @@ impl Emoji {
 						subgroup: crate::Subgroup::#subgroup_ident,
 						is_variant: #is_variant,
 						variants: &[#(#variants),*],
+						skin_tones: #skin_tones,
+						gender_variants: #gender_variants,
 						annotations: &[#(#annotations),*],
 				}
 		}
@@ -220,26 +200,11 @@ impl ToTokens for Emoji {
 		let emoji_struct = self.tokens_struct();
 		let glyph = &self.glyph;
 
-		if !self.skin_tones.is_empty() {
-			// It is a Toned emoji
-			let tones: Vec<TokenStream> = self.skin_tones.iter().map(|e| e.tokens_struct()).collect();
-
-			(quote! {
-					#[doc = #glyph]
-					pub const #ident: crate::Toned = crate::Toned {
-							emoji: #emoji_struct,
-							tones: &[#(#tones),*]
-					};
-			})
-			.to_tokens(tokens);
-		} else {
-			// It is a regular Emoji
-			(quote! {
-					#[doc = #glyph]
-					pub const #ident: crate::Emoji = #emoji_struct;
-			})
-			.to_tokens(tokens);
-		}
+		(quote! {
+				#[doc = #glyph]
+				pub const #ident: crate::Emoji = #emoji_struct;
+		})
+		.to_tokens(tokens);
 	}
 }
 

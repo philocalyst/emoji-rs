@@ -20,11 +20,7 @@ impl GlyphLookupEntry {
 		let subgroup = Ident::new(&sanitize(&self.subgroup).to_lowercase(), Span::call_site());
 		let name = Ident::new(&sanitize(&self.name).to_uppercase(), Span::call_site());
 
-		if self.is_toned {
-			quote! { crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name) }
-		} else {
-			quote! { crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name) }
-		}
+		quote! { &crate::#group::#subgroup::#name }
 	}
 }
 
@@ -34,7 +30,7 @@ pub fn to_array_tokens(entries: &[GlyphLookupEntry]) -> proc_macro2::TokenStream
 
 	quote! {
 			/// All emoji entries defined in the system.
-			pub const ALL_EMOJI: [crate::EmojiEntry; #count] = [
+			pub const ALL_EMOJI: [&crate::Emoji; #count] = [
 					#(#elements),*
 			];
 	}
@@ -48,17 +44,10 @@ impl ToTokens for GlyphLookupEntry {
 			Ident::new(&sanitize(&self.subgroup.to_string()).to_lowercase(), Span::call_site());
 		let name = Ident::new(&sanitize(&self.name.to_string()).to_uppercase(), Span::call_site());
 
-		if self.is_toned {
-			(quote! {
-					#glyph => crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name)
-			})
-			.to_tokens(tokens);
-		} else {
-			(quote! {
-					#glyph => crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name)
-			})
-			.to_tokens(tokens);
-		}
+		(quote! {
+				#glyph => &crate::#group::#subgroup::#name
+		})
+		.to_tokens(tokens);
 	}
 }
 
@@ -87,16 +76,9 @@ impl<'a> ToTokens for NameLookupEntry<'a> {
 		);
 		let namestr = &self.name;
 
-		if self.is_toned {
-			(quote! {
-					#namestr => crate::EmojiEntry::Toned(&crate::#group::#subgroup::#name_ident)
-			})
-			.to_tokens(tokens);
-		} else {
-			(quote! {
-					#namestr => crate::EmojiEntry::Standard(&crate::#group::#subgroup::#name_ident)
-			})
-			.to_tokens(tokens);
-		}
+		(quote! {
+				#namestr => &crate::#group::#subgroup::#name_ident
+		})
+		.to_tokens(tokens);
 	}
 }

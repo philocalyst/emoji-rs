@@ -1,6 +1,6 @@
 use unidecode::unidecode;
 pub fn sanitize(input: &String) -> String {
-	unidecode(
+	let s = unidecode(
 		&input
 			.replace(" ", "_")
 			.replace("&", "and")
@@ -23,6 +23,12 @@ pub fn sanitize(input: &String) -> String {
 			.replace("-", "_")
 			.replace("“", "_")
 			.replace("”", "_")
-			.replace("!", ""),
-	)
+			.replace("!", "")
+            .replace("+", "plus"),
+	);
+    if s.chars().next().map_or(false, |c| c.is_digit(10)) {
+        format!("n{}", s)
+    } else {
+        s
+    }
 }

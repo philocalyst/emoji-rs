@@ -10,7 +10,7 @@ lazy_static::lazy_static! {
 /// results first
 pub fn search_name(searchterm: &str) -> Vec<&'static crate::Emoji> {
 	crate::lookup_by_name::iter_emoji()
-        .map(|entry| entry.emoji()) // Unwrap Entry to &Emoji
+        .map(|entry| *entry)
         .filter_map(|e| {
             MATCHER
                 .fuzzy_match(e.name, searchterm)
@@ -28,7 +28,7 @@ pub fn search_name(searchterm: &str) -> Vec<&'static crate::Emoji> {
 /// results first
 pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
 	crate::lookup_by_name::iter_emoji()
-        .map(|entry| entry.emoji()) // Unwrap Entry to &Emoji
+        .map(|entry| *entry)
         .filter_map(|e| {
             e.annotations
                 .iter()
@@ -48,7 +48,7 @@ pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
 /// relevant results first
 pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
 	crate::lookup_by_name::iter_emoji()
-        .map(|entry| entry.emoji()) // Unwrap Entry to &Emoji
+        .map(|entry| *entry)
         .filter_map(|e| {
             e.annotations
                 .iter()
@@ -70,7 +70,7 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
 /// with most relevant results first
 pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
 	crate::lookup_by_name::iter_emoji()
-        .map(|entry| entry.emoji()) // Unwrap Entry to &Emoji
+        .map(|entry| *entry)
         .filter_map(|e| {
             e.annotations
                 .iter()
@@ -99,7 +99,7 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
 /// results first
 pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
 	crate::lookup_by_name::iter_emoji()
-        .map(|entry| entry.emoji()) // Unwrap Entry to &Emoji
+        .map(|entry| *entry)
         .filter_map(|e| {
             e.annotations
                 .iter()
