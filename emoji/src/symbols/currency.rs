@@ -9,81 +9,16 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::Currency,
 	is_variant:           false,
 	variants:             &[],
+	skin_tones:           None,
+	gender_variants:      None,
 	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("dik dollarteken"),
-			keywords: &[
-				"betaal",
-				"dik dollarteken",
-				"dollar",
-				"geld",
-				"geldeenheid",
-				"kontant",
-				"miljard",
-				"miljoen",
-				"valuta",
-				"wisselkoers",
-			],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("ወፍራም የዶላር ምልክት"),
-			keywords: &["ሚሊዮን", "ምንዛሬ", "ቢሊዮን", "ክፍያ", "ወፍራም የዶላር ምልክት", "ዶላር", "ገንዘብ", "ጥሬ ገንዘብ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("علامة دولار"),
-			keywords: &["أموال", "ثروة", "دفع", "دولار", "علامة دولار", "فلوس", "كاش", "مال"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ড\u{9be}ঠ হৰফৰ ডল\u{9be}ৰ চিহ\u{9cd}ন"),
-			keywords: &[
-				"ডল\u{9be}ৰ",
-				"ড\u{9be}ঠ হৰফৰ ডল\u{9be}ৰ চিহ\u{9cd}ন",
-				"ধন",
-				"ম\u{9c1}দ\u{9cd}ৰ\u{9be}",
-			],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("qalın dollar işarəsi"),
-			keywords: &["dollar", "pul", "qalın dollar işarəsi", "valyuta"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("знак долара"),
-			keywords: &["валюта", "грошы", "долар", "знак долара"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("удебелен знак за долар"),
-			keywords: &[
-				"валута",
-				"долар",
-				"милиард",
-				"милион",
-				"пари",
-				"плащане",
-				"таксуване",
-				"удебелен знак за долар",
-			],
-		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
 			tts:      Some("খ\u{9c1}ব বড\u{9bc} ডল\u{9be}রের চিহ\u{9cd}ন"),
 			keywords: &[
+				"",
 				"ক\u{9be}রেন\u{9cd}সি",
-				"খ\u{9c1}ব বড\u{9bc} ডল\u{9be}রের চিহ\u{9cd}ন",
 				"চিহ\u{9cd}ন",
 				"ট\u{9be}ক\u{9be}",
 				"ডল\u{9be}র",
@@ -91,100 +26,24 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"ম\u{9c1}দ\u{9cd}র\u{9be}",
 			],
 		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("podebljani znak dolara"),
-			keywords: &["dolar", "pare", "podebljani znak dolara", "valuta"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("signe de dòlar gran"),
-			keywords: &[
-				"bilió",
-				"cobrar",
-				"càrrec",
-				"diners",
-				"divisa",
-				"dòlar",
-				"efectiu",
-				"gran",
-				"mil milions",
-				"miliard",
-				"milió",
-				"moneda",
-				"pagar",
-				"signe",
-				"signe de dòlar gran",
-			],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎤᏓᎨᏓ ᎤᏃᏍᏗ ᎪᏪᎵ"),
-			keywords: &["ᎠᏕᎳ", "ᎤᎾᏓᏚᎬ", "ᎤᏃᏍᏗ", "ᎤᏓᎨᏓ ᎤᏃᏍᏗ ᎪᏪᎵ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("znak dolaru"),
-			keywords: &[
-				"dolar",
-				"hotovost",
-				"miliarda",
-				"milion",
-				"měna",
-				"peníze",
-				"platit",
-				"velký znak dolaru",
-				"znak dolaru",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("arwydd doler drom"),
-			keywords: &["arian", "arian cyfredol", "arwydd doler drom", "doler"],
-		},
 		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("dollartegn"),
-			keywords: &["dollar", "dollartegn"],
-		},
+		crate::Annotation { lang: "da", tts: Some("dollartegn"), keywords: &["", "dollar"] },
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
 			tts:      Some("Dollarzeichen extrafett"),
 			keywords: &[
-				"Dollar",
-				"Dollar-Zeichen",
-				"Dollarzeichen extrafett",
-				"Geld",
-				"Knete",
-				"Moneten",
-				"USD",
-				"Währung",
+				"",
 				"bezahlen",
+				"dollar",
+				"dollar-zeichen",
+				"dollarzeichen extrafett",
+				"geld",
+				"knete",
+				"moneten",
 				"teuer",
-			],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("έντονο σύμβολο δολαρίου"),
-			keywords: &[
-				"έντονο σύμβολο δολαρίου",
-				"δισεκατομμύριο",
-				"δολάριο",
-				"εκατομμύριο",
-				"μετρητά",
-				"νόμισμα",
-				"πληρωμή",
-				"χρήματα",
+				"usd",
+				"währung",
 			],
 		},
 		#[cfg(feature = "en")]
@@ -192,249 +51,67 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 			lang:     "en",
 			tts:      Some("heavy dollar sign"),
 			keywords: &[
-				"billion", "cash", "charge", "currency", "dollar", "heavy", "million", "money", "pay",
+				"", "billion", "cash", "charge", "currency", "dollar", "heavy", "million", "money", "pay",
 				"sign",
 			],
 		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("heavy dollar sign"),
+			keywords: &[
+				"", "billion", "cash", "charge", "currency", "dollar", "heavy", "million", "money", "pay",
+				"sign",
+			],
+		},
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
 			tts:      Some("símbolo de dólar"),
-			keywords: &["dinero", "dólar", "símbolo", "símbolo de dólar"],
+			keywords: &["", "dinero", "dólar", "símbolo"],
 		},
-		#[cfg(feature = "es_419")]
+		#[cfg(feature = "es-mx")]
 		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["cash", "dinero", "dólar", "efectivo", "moneda", "pagar", "símbolo de dólar"],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation {
-			lang:     "es_MX",
-			tts:      Some("↑↑↑"),
-			keywords: &["dinero", "divisa", "dólar", "símbolo", "símbolo de dólar"],
-		},
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("símbolo de dólar resaltado"),
-			keywords: &["dinero", "divisas", "dólar", "símbolo de dólar resaltado"],
+			lang:     "es-mx",
+			tts:      Some("símbolo de dólar"),
+			keywords: &["", "dinero", "divisa", "dólar", "símbolo"],
 		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
 			tts:      Some("suur dollarimärk"),
-			keywords: &["dollar", "raha", "suur dollarimärk", "valuuta"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("dolar-ikur lodia"),
-			keywords: &["diru", "dolar", "dolar-ikur lodia", "moneta"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("نماد دلار"),
-			keywords: &["ارز", "دلار", "نماد دلار", "پول"],
+			keywords: &["", "dollar", "raha", "valuuta"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
 			tts:      Some("paksu dollarimerkki"),
-			keywords: &["dollari", "paksu dollarimerkki", "raha", "valuutta"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("malaking dollar sign"),
-			keywords: &["dolyar", "malaking dollar sign", "malaking palatandaan", "pera", "salapi"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("stórt dollartekn"),
-			keywords: &[
-				"dollarar",
-				"dollari",
-				"dollartekn",
-				"gjaldoyra",
-				"pengar",
-				"peningur",
-				"stórt dollartekn",
-			],
+			keywords: &["", "dollari", "raha", "valuutta"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
 			tts:      Some("symbole dollar"),
-			keywords: &["argent", "devise", "dollar", "espèces", "payer", "symbole dollar"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("symbole du dollar en gras"),
-			keywords: &["argent", "devise", "dollar", "symbole du dollar en gras"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("comhartha dollair trom"),
-			keywords: &[
-				"$",
-				"airgead",
-				"airgeadra",
-				"billiún",
-				"comhartha dollair",
-				"comhartha dollair trom",
-				"dollar",
-				"milliún",
-				"táille",
-				"íoc",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("samhla dolair trom"),
-			keywords: &["airgead", "airgeadra", "dolar", "samhla dolair trom"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("símbolo do dólar"),
-			keywords: &["divisa", "diñeiro", "dólar", "moeda", "símbolo do dólar"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("ઘાટ\u{ac1}\u{a82} ડૉલરન\u{ac1}\u{a82} ચિહ\u{acd}ન"),
-			keywords: &[
-				"અબજ",
-				"કિ\u{a82}મત",
-				"ઘાટ\u{ac1}\u{a82} ડૉલર ચિહ\u{acd}ન",
-				"ઘાટ\u{ac1}\u{a82} ડૉલરન\u{ac1}\u{a82} ચિહ\u{acd}ન",
-				"ચલણી નાણ\u{ac1}\u{a82}",
-				"ડૉલર",
-				"ડૉલર ચિહ\u{acd}ન",
-				"ડોલર",
-				"નાણા\u{a82}",
-				"પ\u{ac8}સા",
-				"માયા",
-				"રકમ",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("alamar dala mai kauri"),
-			keywords: &[
-				"alamar dala mai kauri",
-				"amurka",
-				"biyan kuɗi",
-				"dala",
-				"dalar amurka",
-				"kakkauran tambarin dala",
-				"kuɗi",
-				"kuɗin ƙasa",
-				"tambarin dala",
-			],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("alamar dala mai kauri"),
-			keywords: &[
-				"alamar dala mai kauri",
-				"amurka",
-				"biyan kuɗi",
-				"dala",
-				"dalar amurka",
-				"kakkauran tambarin dala",
-				"kuɗi",
-				"kuɗin ƙasa",
-				"tambarin dala",
-			],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("סימן דולר"),
-			keywords: &["דולר", "כסף", "לשלם", "מטבע", "סימן דולר"],
+			keywords: &["", "argent", "devise", "dollar", "espèces", "payer"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
 			tts:      Some("डॉलर का चिह\u{94d}न"),
-			keywords: &["गहरा डॉलर चिह\u{94d}न", "डॉलर", "डॉलर का चिह\u{94d}न", "प\u{948}स\u{947}"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("masno otisnut znak dolara"),
-			keywords: &[
-				"dolar",
-				"masno otisnut znak dolara",
-				"milijun",
-				"novac",
-				"plaćanje",
-				"valuta",
-				"znak",
-			],
+			keywords: &["", "गहरा डॉलर चिह\u{94d}न", "डॉलर", "प\u{948}स\u{947}"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
 			tts:      Some("vastag dollárjel"),
-			keywords: &["dollár", "fizet", "pénz", "pénznem", "vastag dollárjel"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("դոլարի թավ նշան"),
-			keywords: &["դոլար", "դոլարի թավ նշան", "տարադրամ", "փող"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("tanda dolar tebal"),
-			keywords: &[
-				"dolar",
-				"kas",
-				"lambang",
-				"mata uang",
-				"simbol",
-				"tanda",
-				"tanda dolar tebal",
-				"tanda dollar tebal",
-				"uang",
-			],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("nnukwu akara dọlla"),
-			keywords: &["akara", "akwụkwọ ego", "dọla", "ego", "ijeri", "kwụọ", "nde", "nnukwu", "ụgwọ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("dollaramerki"),
-			keywords: &["dalur", "dollaramerki", "dollari", "feitletrað dollaramerki", "peningar"],
+			keywords: &["", "dollár", "fizet", "pénz", "pénznem"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
 			tts:      Some("Dollaro"),
 			keywords: &[
+				"",
 				"cash",
 				"contanti",
 				"denaro",
@@ -449,69 +126,16 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 		crate::Annotation {
 			lang:     "ja",
 			tts:      Some("ドル記号"),
-			keywords: &["お金", "ドル", "ドル記号", "通貨"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("tandha dolar kandel"),
-			keywords: &["dhuwit", "dolar", "mata uang", "tandha dolar kandel"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მსხვილი დოლარის ნიშანი"),
-			keywords: &["დოლარი", "ვალუტა", "მსხვილი დოლარის ნიშანი", "ფული"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      None,
-			keywords: &["adulaṛ", "idrimen", "tadrimt"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("қалың доллар белгісі"),
-			keywords: &["ақша", "валюта", "доллар", "қалың доллар белгісі"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation { lang: "kl", tts: Some("dollartegn"), keywords: &["dollartegn"] },
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ដ\u{17bb}ល\u{17d2}លារ"),
-			keywords: &[
-				"ដ\u{17bb}ល\u{17d2}លារ",
-				"រ\u{17bc}\u{200b}ប\u{17b7}យប\u{17d0}ណ\u{17d2}ណ",
-				"ល\u{17bb}យ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಭಾರ\u{cbf} ಡಾಲರ\u{ccd} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
-			keywords: &[
-				"ಕರ\u{cc6}ನ\u{ccd}ಸ\u{cbf}",
-				"ಕ\u{ccd}ಯಾಶ\u{ccd}",
-				"ಡಾಲರ\u{ccd}",
-				"ಡಾಲರ\u{ccd} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ದಪ\u{ccd}ಪ ಡಾಲರ\u{ccd} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ಪಾವತ\u{cbf}ಸು",
-				"ಭಾರ\u{cbf} ಡಾಲರ\u{ccd} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
-				"ಮ\u{cbf}ಲ\u{cbf}ಯನ\u{ccd}",
-				"ಶುಲ\u{ccd}ಕ",
-				"ಹಣ",
-			],
+			keywords: &["", "お金", "ドル", "通貨"],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
 			tts:      Some("미국 달러"),
 			keywords: &[
+				"",
 				"달러화",
 				"돈",
-				"미국 달러",
 				"미국 돈",
 				"미국 화폐",
 				"백만장자",
@@ -521,103 +145,18 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"화폐",
 			],
 		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("जड डॉलर क\u{941}र\u{942}"),
-			keywords: &["चलन", "जड डॉलर क\u{941}र\u{942}", "डॉलर", "पयश\u{947}"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("жоон доллар белгиси"),
-			keywords: &["акча", "валюта", "доллар", "жоон доллар белгиси"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("déckt Dollarzeechen"),
-			keywords: &["Dollar", "Geld", "Suen", "Währung", "déckt Dollarzeechen"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ສ\u{eb1}ນຍາລ\u{eb1}ກໂດລາໃຫຍ\u{ec8}ໜາ"),
-			keywords: &["ສ\u{eb1}ນຍາລ\u{eb1}ກໂດລາໃຫຍ\u{ec8}ໜາ", "ເງ\u{eb4}ນ", "ເງ\u{eb4}ນໂດລາ", "ໂດລາ"],
-		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
 			tts:      Some("paryškintas dolerio ženklas"),
-			keywords: &["doleris", "paryškintas dolerio ženklas", "pinigai", "valiuta"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("dolāra zīme"),
-			keywords: &["dolāra zīme", "dolārs", "miljons", "nauda", "skaidra nauda"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("tohu tāra taumaha"),
-			keywords: &["momo moni", "moni", "tohu tāra taumaha", "tāra"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("задебелен знак за долар"),
-			keywords: &[
-				"валута",
-				"долар",
-				"задебелен знак за долар",
-				"кеш",
-				"милион",
-				"милијарда",
-				"наплати",
-				"пари",
-				"плати",
-				"тежок знак за долар",
-			],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("വലിയ ഡോളർ ചിഹ\u{d4d}നം"),
-			keywords: &[
-				"കട\u{d4d}ടിയ\u{d41}ള\u{d4d}ള ഡോളർ സൈൻ",
-				"ഡോളർ",
-				"ഡോളർ ചിഹ\u{d4d}നം",
-				"ഡോളർ സൈൻ",
-				"പണം",
-				"വലിയ ഡോളർ ചിഹ\u{d4d}നം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("долларын тэмдэг"),
-			keywords: &["доллар", "долларын тэмдэг", "тэмдэг"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("मोठ\u{947} डॉलरच\u{947} चिन\u{94d}ह"),
-			keywords: &[
-				"चलन",
-				"ठळक डॉलर चिन\u{94d}ह",
-				"डॉलर",
-				"डॉलर चिन\u{94d}ह",
-				"प\u{948}सा",
-				"मोठ\u{947} डॉलरच\u{947} चिन\u{94d}ह",
-				"वित\u{94d}त",
-			],
+			keywords: &["", "doleris", "pinigai", "valiuta"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
 			tts:      Some("tanda dolar tebal"),
 			keywords: &[
+				"",
 				"bayar",
 				"bilion",
 				"caj",
@@ -630,34 +169,18 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"wang",
 			],
 		},
-		#[cfg(feature = "mt")]
+		#[cfg(feature = "nb")]
 		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("sinjal tad-dollaru grassett"),
-			keywords: &["dollaru", "flus", "munita", "sinjal tad-dollaru grassett"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဒေါ\u{103a}လာ သင\u{103a}\u{1039}ကေတ စာလ\u{102f}\u{1036}းကြ\u{102e}း"),
-			keywords: &[
-				"င\u{103d}ေ",
-				"င\u{103d}ေကြေး",
-				"ဒေါ\u{103a}လာ",
-				"ဒေါ\u{103a}လာ သင\u{103a}\u{1039}ကေတ စာလ\u{102f}\u{1036}းကြ\u{102e}း",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("भारी डलरको चिन\u{94d}ह"),
-			keywords: &["डलर", "प\u{948}सा", "भारी डलरको चिन\u{94d}ह", "म\u{941}द\u{94d}रा"],
+			lang:     "nb",
+			tts:      Some("dollartegn"),
+			keywords: &["", "dollar", "penger", "stort dollartegn"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
 			tts:      Some("vetgedrukt dollarteken"),
 			keywords: &[
+				"",
 				"betalen",
 				"dikgedrukt dollarteken",
 				"dollar",
@@ -667,67 +190,18 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"valuta",
 			],
 		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("dollarteikn"),
-			keywords: &["dollar", "dollarteikn", "pengar", "stort dollarteikn"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଭ\u{b3e}ରୀ ଡଲ\u{b3e}ର\u{b4d}\u{200c} ଚ\u{b3f}ହ\u{b4d}ନ"),
-			keywords: &[
-				"ଟଙ\u{b4d}କ\u{b3e}",
-				"ଡଲ\u{b3e}ର\u{b4d}",
-				"ଡଲ\u{b3e}ର\u{b4d} ଚ\u{b3f}ହ\u{b4d}ନ",
-				"ବୋଲ\u{b4d}ଡ\u{b4d} ଡଲ\u{b3e}ର\u{b4d} ଚ\u{b3f}ହ\u{b4d}ନ",
-				"ଭ\u{b3e}ରୀ ଡଲ\u{b3e}ର\u{b4d}\u{200c} ଚ\u{b3f}ହ\u{b4d}ନ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਡਾਲਰ ਦਾ ਵ\u{a71}ਡਾ ਨਿਸ\u{a3c}ਾਨ"),
-			keywords: &[
-				"ਕਰ\u{a70}ਸੀ",
-				"ਗ\u{a41}ੜ\u{a4d}ਹਾ ਡਾਲਰ ਨਿਸ\u{a3c}ਾਨ",
-				"ਡਾਲਰ",
-				"ਡਾਲਰ ਦਾ ਵ\u{a71}ਡਾ ਨਿਸ\u{a3c}ਾਨ",
-				"ਡਾਲਰ ਨਿਸ\u{a3c}ਾਨ",
-				"ਪ\u{a48}ਸਾ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("واوا ڈالر دی علامت"),
-			keywords: &["واوا ڈالر دی علامت", "پیسے", "ڈالر", "کرنسی"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Hẹ\u{301}ví Dọ\u{301}lá Sain"),
-			keywords: &["Dọ\u{301}la", "Hẹ\u{301}ví Dọ\u{301}lá Sain", "Kọ\u{301}rẹ\u{301}nsi", "Mọní"],
-		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
 			tts:      Some("gruby symbol dolara"),
-			keywords: &["dolar", "dolary", "gruby symbol dolara", "pieniądze", "usd", "waluta"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د دروند ډالر نښان"),
-			keywords: &["اسعار", "د دروند ډالر نښان", "پيسې", "ډالر"],
+			keywords: &["", "dolar", "dolary", "pieniądze", "usd", "waluta"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
 			tts:      Some("cifrão"),
 			keywords: &[
-				"cifrão",
+				"",
 				"dinheiro",
 				"dólar",
 				"grana",
@@ -736,168 +210,24 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"símbolo do dólar em negrito",
 			],
 		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("símbolo de dólar"),
-			keywords: &["cifrão", "dinheiro", "dólar", "moeda", "símbolo de dólar", "símbolo do dólar"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("dolar unancha"),
-			keywords: &["dolar", "dolar unancha", "qullqi"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("semnul dolar îngroșat"),
-			keywords: &[
-				"bani",
-				"cash",
-				"dolar",
-				"miliard",
-				"milion",
-				"numerar",
-				"plată",
-				"semnul dolar îngroșat",
-				"valută",
-			],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-623"), keywords: &["E10-623"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
 			tts:      Some("жирный знак доллара"),
-			keywords: &["США", "валюта", "деньги", "доллар"],
+			keywords: &["", "валюта", "деньги", "доллар", "сша"],
 		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("ikimenyetso kinini cy’idolari"),
-			keywords: &["amafaranga", "idorari", "ifaranga", "ikimenyetso kinini cy’idolari"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ٿلهي ڊالر جي نشاني"),
-			keywords: &["سڪو، ڊالر، پئسا", "ٿلهي ڊالر جي نشاني"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("බර ඩොලර\u{dca} ලක\u{dd4}ණ"),
-			keywords: &[
-				"ඩොලර\u{dca}",
-				"බර ඩොලර\u{dca} ලක\u{dd4}ණ",
-				"ම\u{dd4}දල\u{dca}",
-				"ම\u{dd4}දල\u{dca} වර\u{dca}ගය",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("znak dolára"),
-			keywords: &[
-				"bohatstvo",
-				"dolár",
-				"hrubý znak dolára",
-				"mena",
-				"milión",
-				"peniaze",
-				"platiť",
-				"znak dolára",
-			],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("znak za dolar"),
-			keywords: &["denar", "dolar", "plačilo", "valuta", "znak za dolar"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("calaamad doolar oo muujisan"),
-			keywords: &["calaamad doolar oo muujisan", "calaamad doolar oo muujisn", "doolar", "lacag"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("shenjë dollari e trashur"),
-			keywords: &["dollar", "milion", "monedhë", "paguaj", "para", "shenjë dollari e trashë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("црни знак за долар"),
-			keywords: &["вaлутa", "дoлaр", "знак", "кеш", "нoвaц", "наплата", "паре", "плати"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("crni znak za dolar"),
-			keywords: &["dolar", "keš", "naplata", "novac", "pare", "plati", "valuta", "znak"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
 			tts:      Some("dollartecken"),
-			keywords: &["dollar", "dollartecken", "pengar"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("alama ya dola"),
-			keywords: &["alama nzito ya dola", "alama ya dola", "dola", "pesa", "sarafu"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("alama nzito ya dola"),
-			keywords: &["alama nzito ya dola", "dola", "pesa", "sarafu"],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("தடிமன\u{bbe}ன ட\u{bbe}லர\u{bcd} சின\u{bcd}னம\u{bcd}"),
-			keywords: &[
-				"ட\u{bbe}லர\u{bcd}",
-				"ட\u{bbe}லர\u{bcd} சின\u{bcd}னம\u{bcd}",
-				"தடிமன\u{bbe}ன ட\u{bbe}லர\u{bcd} சின\u{bcd}னம\u{bcd}",
-				"ந\u{bbe}ணயம\u{bcd}",
-				"பணம\u{bcd}",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("డ\u{c3e}లర\u{c4d} చ\u{c3f}హ\u{c4d}నం"),
-			keywords: &[
-				"అమ\u{c46}ర\u{c3f}కన\u{c4d} డ\u{c3e}లరు గుర\u{c4d}తు",
-				"కర\u{c46}న\u{c4d}స\u{c40}",
-				"డబ\u{c4d}బు",
-				"డ\u{c3e}లర\u{c4d} చ\u{c3f}హ\u{c4d}నం",
-				"ప\u{c46}ద\u{c4d}ద డ\u{c3e}లర\u{c4d} చ\u{c3f}హ\u{c4d}నం",
-				"వ\u{c3f}ద\u{c47}శ\u{c40} ధనం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("аломати доллари вазнин"),
-			keywords: &["аломати доллари вазнин", "асъор", "доллар", "пул"],
+			keywords: &["", "dollar", "pengar"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
 			tts:      Some("ส\u{e31}ญล\u{e31}กษณ\u{e4c}ดอลลาร\u{e4c}"),
 			keywords: &[
+				"",
 				"จ\u{e48}าย",
 				"ดอลลาร\u{e4c}",
 				"ล\u{e49}าน",
@@ -907,127 +237,29 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
 				"เง\u{e34}นสด",
 			],
 		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ከቢድ ምልክት ናይ ዶላር"),
-			keywords: &["ከቢድ ምልክት ናይ ዶላር", "ዶላር", "ገንዘብ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("goýy dollar belgisi"),
-			keywords: &["dollar", "goýy dollar belgisi", "pul", "pul birligi"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("paʻanga mamafa"),
-			keywords: &["fakaʻilonga", "paʻanga", "paʻanga mamafa"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("dolar işareti"),
-			keywords: &["dolar", "dolar işareti", "koyu renk dolar işareti", "para"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("ئېغىر دوللار بەلگىسى"),
-			keywords: &["ئاقچا", "ئېغىر دوللار بەلگىسى", "دوللار", "پۇل"],
-		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
 			tts:      Some("знак долара"),
-			keywords: &["валюта", "гроші", "долар", "знак долара", "символ долара"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("بھاری ڈالر سائن"),
-			keywords: &["بنک", "بھاری ڈالر سائن", "رقم", "سکہ", "ڈالر", "کرنسی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("katta dollar belgisi"),
-			keywords: &[
-				"dollar",
-				"katta dollar belgisi",
-				"million",
-				"naqd pul",
-				"pul",
-				"toʻlash",
-				"valyuta",
-			],
+			keywords: &["", "валюта", "гроші", "долар", "символ долара"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
 			tts:      Some("ký hiệu đô la đậm"),
-			keywords: &["ký hiệu đô la đậm", "tiền", "tiền tệ", "đô la"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("màndarga dolaar bu dijj"),
-			keywords: &["dolaar", "koppar", "màndarga dolaar bu dijj", "xaalis"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("uphawu lwe-dollar olungqindilili"),
-			keywords: &["i-dollar", "ikharensi", "imali", "uphawu lwe-dollar olungqindilili"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("aami dọla nla"),
-			keywords: &["aami dọla nla", "dọ\u{301}là", "owó"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("aami dɔla nla"),
-			keywords: &["aami dɔla nla", "dɔ\u{301}là", "owó"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("粗美元符號"),
-			keywords: &["粗美元符號", "美元", "貨幣", "錢"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("粗美元符号"),
-			keywords: &["粗美元符号", "美元", "货币", "钱"],
+			keywords: &["", "tiền", "tiền tệ", "đô la"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
 			tts:      Some("粗美元符号"),
-			keywords: &["现金", "粗美元符号", "美元", "美元符号", "美刀", "货币", "金钱"],
+			keywords: &["", "现金", "美元", "美元符号", "美刀", "货币", "金钱"],
 		},
-		#[cfg(feature = "zh_Hant")]
+		#[cfg(feature = "zh-hant")]
 		crate::Annotation {
-			lang:     "zh_Hant",
+			lang:     "zh-hant",
 			tts:      Some("貨幣符號"),
-			keywords: &["貨幣", "貨幣符號", "錢"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("錢符號"),
-			keywords: &["$", "收費", "現金", "美元", "貨幣", "金錢符號", "錢", "錢符號"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("uphawu olukhulu lwedola"),
-			keywords: &["idola", "imali", "uhlobo lwemali", "uphawu olukhulu lwedola"],
+			keywords: &["", "貨幣", "錢"],
 		},
 	],
 };
@@ -1042,66 +274,15 @@ pub const CURRENCY_EXCHANGE: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::Currency,
 	is_variant:           false,
 	variants:             &[],
+	skin_tones:           None,
+	gender_variants:      None,
 	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("wisselkoers"),
-			keywords: &["bank", "geld", "geldeenheid", "ruil", "wisselkantoor", "wisselkoers"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የውጭ ምንዛሬ"),
-			keywords: &["ምንዛሬ", "ባንክ", "ባንክ፣ ምንዛሪ፣ ምንዛሪ፣ ገንዘብ፣ የገንዘብ ልውውጥ", "የውጭ ምንዛሬ", "ገንዘብ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("صرف عملة"),
-			keywords: &[
-				"أموال",
-				"بنك",
-				"تبديل عملات",
-				"تغيير عملة",
-				"صرف عملة",
-				"عملة",
-				"فلوس",
-				"مال",
-				"مصاري",
-				"مصرف",
-				"نقود",
-			],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ম\u{9c1}দ\u{9cd}ৰ\u{9be} বিনিময\u{9bc}"),
-			keywords: &["ধন", "বিনিময\u{9bc}", "বেংক", "ম\u{9c1}দ\u{9cd}ৰ\u{9be}"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("valyuta mübadiləsi"),
-			keywords: &["bank", "mübadilə", "pul", "valyuta", "valyuta mübadiləsi"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("абмен валют"),
-			keywords: &["абмен", "абмен валют", "банк", "валюта", "грошы"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("обмен на валута"),
-			keywords: &["банка", "валута", "обмен", "обмен на валута", "пари"],
-		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
 			tts:      Some("ম\u{9c1}দ\u{9cd}র\u{9be} বিনিময\u{9bc}"),
 			keywords: &[
+				"",
 				"ট\u{9be}ক\u{9be}",
 				"ডল\u{9be}র",
 				"বিনিময\u{9bc}",
@@ -1109,262 +290,78 @@ pub const CURRENCY_EXCHANGE: crate::Emoji = crate::Emoji {
 				"ম\u{9c1}দ\u{9cd}র\u{9be}",
 			],
 		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("mjenjačnica"),
-			keywords: &["banka", "mjenjačnica", "novac", "pare", "valuta"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("canvi de divisa"),
-			keywords: &["banc", "canvi", "canvi de divisa", "diners", "divisa", "moneda"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎠᏕᎳ ᎦᏁᏟᏴᏍᏗ"),
-			keywords: &["ᎠᏕᎳ", "ᎠᏕᎳ ᏧᏂᏗ", "ᎦᏁᏟᏴᏍᏗ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("směna peněz"),
-			keywords: &[
-				"$",
-				"banka",
-				"dolar",
-				"jen",
-				"měna",
-				"peníze",
-				"směna",
-				"směna peněz",
-				"směnárna",
-				"výměna",
-				"yen",
-			],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("cyfnewid arian cyfredol"),
-			keywords: &["arian", "arian cyfredol", "banc", "cyfnewid", "cyfnewid arian cyfredol"],
-		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
 			tts:      Some("valutaveksling"),
-			keywords: &["bank", "penge", "valuta", "valutaveksling", "veksling"],
+			keywords: &["", "bank", "penge", "valuta", "veksling"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
 			tts:      Some("Geldwechsel"),
-			keywords: &["Geld", "Geldwechsel", "Wechsel", "Währung"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ανταλλαγή νομισμάτων"),
-			keywords: &[
-				"ανταλλαγή νομισμάτων",
-				"ανταλλακτήριο",
-				"μετατροπή νομισμάτων",
-				"συνάλλαγμα",
-				"τράπεζα",
-			],
+			keywords: &["", "geld", "geldwechsel", "wechsel", "währung"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
 			tts:      Some("currency exchange"),
-			keywords: &["bank", "currency", "exchange", "money"],
+			keywords: &["", "bank", "currency", "exchange", "money"],
 		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("currency exchange"),
+			keywords: &["", "bank", "currency", "exchange", "money"],
+		},
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
 			tts:      Some("cambio de divisas"),
-			keywords: &["cambio", "cambio de divisas", "dinero", "divisa", "moneda"],
+			keywords: &["", "cambio", "dinero", "divisa", "moneda"],
 		},
-		#[cfg(feature = "es_419")]
+		#[cfg(feature = "es-mx")]
 		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &[
-				"banco",
-				"cambio",
-				"cambio de divisa",
-				"cambio de divisas",
-				"dinero",
-				"divisa",
-				"dolar",
-				"moneda",
-				"yen",
-			],
-		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation {
-			lang:     "es_US",
-			tts:      Some("↑↑↑"),
-			keywords: &["banco", "cambio de divisas", "dinero", "divisas"],
+			lang:     "es-mx",
+			tts:      Some("cambio de divisas"),
+			keywords: &["", "cambio", "dinero", "divisa", "moneda"],
 		},
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
 			tts:      Some("valuutavahetus"),
-			keywords: &["pank", "raha", "vahetus", "valuuta", "valuutavahetus"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("truke-tasa"),
-			keywords: &["banku", "diru", "moneta", "truke", "truke-tasa"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("تبدیل ارز"),
-			keywords: &["ارز", "بانک", "تبدیل ارز", "پول"],
+			keywords: &["", "pank", "raha", "vahetus", "valuuta"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
 			tts:      Some("valuutanvaihto"),
-			keywords: &["pankki", "raha", "vaihto", "valuutanvaihto", "valuutta"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("palitan ng pera"),
-			keywords: &["bangko", "palitan", "palitan ng pera", "pera", "salapi"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gjaldoyraveksil"),
-			keywords: &["børs", "gjaldoyra", "gjaldoyraveksil", "veksil"],
+			keywords: &["", "pankki", "raha", "vaihto", "valuutta"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
 			tts:      Some("conversion de devise"),
-			keywords: &["argent", "banque", "change", "conversion", "conversion de devise", "devise"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("change"),
-			keywords: &["argent", "banque", "change", "devise"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("malartán airgeadra"),
-			keywords: &[
-				"airgead",
-				"airgeadra",
-				"banc",
-				"malartán airgeadra",
-				"malartú",
-				"malartú airgid",
-			],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("iomlaid airgid"),
-			keywords: &["airgead", "airgeadra", "banca", "iomlaid", "iomlaid airgid"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("cambio de divisas"),
-			keywords: &["banco", "cambio", "cambio de divisas", "divisas", "diñeiro"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("મ\u{ac1}દ\u{acd}રા વિનિમય"),
-			keywords: &["પ\u{ac8}સા", "મ\u{ac1}દ\u{acd}રા", "વિનિમય"],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("musayar kuɗin ƙasa"),
-			keywords: &["banki", "kuɗaɗe", "kuɗi", "kuɗin ƙasa", "musaya", "musayar kuɗin ƙasa"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("musayar kuɗin ƙasa"),
-			keywords: &["banki", "kuɗaɗe", "kuɗi", "kuɗin ƙasa", "musaya", "musayar kuɗin ƙasa"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("המרת מטבעות"),
-			keywords: &["בנק", "המרה", "המרת מטבעות", "כסף", "מטבעות"],
+			keywords: &["", "argent", "banque", "change", "conversion", "devise"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
 			tts:      Some("म\u{941}द\u{94d}रा विनिमय"),
-			keywords: &["धन", "प\u{948}स\u{947}", "म\u{941}द\u{94d}रा", "विनिमय"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("mjenjačnica"),
-			keywords: &["banka", "mjenjačnica", "novac", "valuta"],
+			keywords: &["", "धन", "प\u{948}स\u{947}", "म\u{941}द\u{94d}रा", "विनिमय"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
 			tts:      Some("pénzváltás"),
-			keywords: &["bank", "pénz", "pénzváltás", "pénzváltó", "valuta", "átváltás"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("տարադրամի փոխանակում"),
-			keywords: &["բանկ", "տարադրամ", "տարադրամի փոխանակում", "փոխանակում", "փող"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("kurs"),
-			keywords: &["bank", "kurs", "mata uang", "pertukaran", "uang"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("mgbanwe ego"),
-			keywords: &["akwụkwọego", "ego", "mgbanwe", "ụlọ akụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("gjaldmiðlar"),
-			keywords: &["gjaldmiðlar", "gjaldmiðlareikningur", "gjaldmiðlaskipti", "peningar"],
+			keywords: &["", "bank", "pénz", "pénzváltó", "valuta", "átváltás"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
 			tts:      Some("cambio valuta"),
 			keywords: &[
+				"",
 				"banca",
 				"cambio",
 				"cambio di valuta",
@@ -1380,523 +377,87 @@ pub const CURRENCY_EXCHANGE: crate::Emoji = crate::Emoji {
 		crate::Annotation {
 			lang:     "ja",
 			tts:      Some("外貨両替"),
-			keywords: &["お金", "ドル", "ドル円", "両替", "円", "円ドル", "外貨両替", "通貨"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("rega ijol mata uang"),
-			keywords: &["bank", "dhuwit", "ijol-ijolan", "mata uang", "rega ijol mata uang"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ვალუტის გადაცვლა"),
-			keywords: &["ბანკი", "გადაცვლა", "გაცვლა", "ვალუტა", "ვალუტის გადაცვლა", "ფული"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("валюта айырбастау"),
-			keywords: &["айырбастау", "ақша", "банк", "валюта"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("valutaveksling"),
-			keywords: &["bank", "penge", "valuta", "valutaveksling", "veksling"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ដ\u{17bc}រល\u{17bb}យ"),
-			keywords: &[
-				"ដ\u{17bc}រល\u{17bb}យ",
-				"ធនាគារ",
-				"ប\u{17d2}ត\u{17bc}រប\u{17d2}រាក\u{17cb}",
-				"រ\u{17bc}ប\u{17b7}យប\u{17d0}ណ\u{17d2}ណ",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಕರ\u{cc6}ನ\u{ccd}ಸ\u{cbf} ವ\u{cbf}ನ\u{cbf}ಮಯ"),
-			keywords: &["ಕರ\u{cc6}ನ\u{ccd}ಸ\u{cbf}", "ಬ\u{ccd}ಯಾಂಕ\u{ccd}", "ವ\u{cbf}ನ\u{cbf}ಮಯ", "ಹಣ"],
+			keywords: &["", "お金", "ドル", "ドル円", "両替", "円", "円ドル", "通貨"],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
 			tts:      Some("환전"),
-			keywords: &["교환", "돈", "은행", "화폐", "환전"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("चलन विनियोग"),
-			keywords: &["चलन", "पयश\u{947}", "ब\u{901}क", "विनियोग"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("акча алмаштыруу"),
-			keywords: &["акча", "алмаштыруу", "валюта"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Wiesselcours"),
-			keywords: &["Bank", "Geld", "Suen", "Wiesselcours", "Währung"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ແລກປ\u{ec8}ຽນເງ\u{eb4}ນຕາ"),
-			keywords: &[
-				"ທະນາຄານ",
-				"ສະກ\u{eb8}ນເງ\u{eb4}ນ",
-				"ອ\u{eb1}ດຕາແລກປ\u{ec8}ຽນ",
-				"ເງ\u{eb4}ນ",
-				"ແລກປ\u{ec8}ຽນເງ\u{eb4}ນຕາ",
-			],
+			keywords: &["", "교환", "돈", "은행", "화폐"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
 			tts:      Some("valiutos keitimas"),
-			keywords: &["bankas", "keitimas", "pinigai", "valiuta", "valiutos keitimas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("valūtas maiņa"),
-			keywords: &["banka", "maiņa", "nauda", "valūta", "valūtas maiņa"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("whakawhitinga momo moni"),
-			keywords: &["momo moni", "moni", "pēke", "whakawhitinga momo moni", "whakawhitiwhiti"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("размена на валути"),
-			keywords: &["банка", "валути", "пари", "размена", "размена на валути"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("കറൻസി വിനിമയം"),
-			keywords: &[
-				"എക\u{d4d}\u{200c}സ\u{d4d}\u{200c}ചേഞ\u{d4d}ച\u{d4d}",
-				"കറൻസി",
-				"പണം",
-				"ബ\u{d3e}ങ\u{d4d}ക\u{d4d}. കറൻസി",
-				"വിനിമയം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("валют арилжаа"),
-			keywords: &["арилжаа", "банк", "валют", "мөнгө"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("चलन विनिमय"),
-			keywords: &["चलन", "प\u{948}सा", "ब\u{901}क", "विनिमय"],
+			keywords: &["", "bankas", "keitimas", "pinigai", "valiuta"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
 			tts:      Some("pertukaran mata wang"),
-			keywords: &["bank", "mata wang", "pertukaran", "pertukaran mata wang", "wang"],
+			keywords: &["", "bank", "mata wang", "pertukaran", "wang"],
 		},
-		#[cfg(feature = "mt")]
+		#[cfg(feature = "nb")]
 		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("kambju tal-munita"),
-			keywords: &["bank", "flus", "kambju tal-munita", "munita", "skambju"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some(
-				"န\u{102d}\u{102f}င\u{103a}င\u{1036}ခြားင\u{103d}ေ လ\u{1032}လ\u{103e}ယ\u{103a}ခြင\u{103a}း",
-			),
-			keywords: &[
-				"င\u{103d}ေ",
-				"င\u{103d}ေကြေးစနစ\u{103a}",
-				"င\u{103d}ေလ\u{1032}လ\u{103e}ယ\u{103a}ခြင\u{103a}း",
-				"န\u{102d}\u{102f}င\u{103a}င\u{1036}ခြားင\u{103d}ေ လ\u{1032}လ\u{103e}ယ\u{103a}ခြင\u{103a}း",
-				"ဘဏ\u{103a}",
-			],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("म\u{941}द\u{94d}रा बिनिमय"),
-			keywords: &["प\u{948}सा", "बिनिमय", "ब\u{948}\u{902}क", "म\u{941}द\u{94d}रा"],
+			lang:     "nb",
+			tts:      Some("valutaveksling"),
+			keywords: &["", "bank", "penger", "valuta", "veksling"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
 			tts:      Some("geld wisselen"),
-			keywords: &["bank", "geld", "valuta", "wisselen"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["bank", "pengar", "valuta", "valutaveksling", "veksling"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମ\u{b41}ଦ\u{b4d}ର\u{b3e} ବ\u{b3f}ନ\u{b3f}ମୟ"),
-			keywords: &["ଟଙ\u{b4d}କ\u{b3e}", "ବ\u{b3f}ନ\u{b3f}ମୟ", "ମ\u{b41}ଦ\u{b4d}ର\u{b3e}"],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਕਰ\u{a70}ਸੀ ਐਕਸਚ\u{a47}\u{a02}ਜ"),
-			keywords: &[
-				"ਕਰ\u{a70}ਸੀ ਐਕਸਚ\u{a47}\u{a02}ਜ",
-				"ਪ\u{a48}ਸਾ",
-				"ਬਦਲਣਾ",
-				"ਬ\u{a48}\u{a02}ਕ",
-				"ਮ\u{a41}ਦਰਾ",
-				"ਮ\u{a41}\u{a71}ਦਰਾ",
-				"ਮ\u{a41}\u{a71}ਦਰਾ ਬਦਲੀ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("کرنسی دا تبادلہ"),
-			keywords: &["بینک", "تبادلہ", "پیسے", "کرنسی", "کرنسی دا تبادلہ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Kọ\u{301}rẹ\u{301}nsí Ẹ\u{301}kschenj"),
-			keywords: &[
-				"Bank",
-				"Kọ\u{301}rẹ\u{301}nsi",
-				"Kọ\u{301}rẹ\u{301}nsí Ẹ\u{301}kschenj",
-				"Mọní",
-				"Ẹ\u{301}kschenj",
-			],
+			keywords: &["", "bank", "geld", "valuta", "wisselen"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
 			tts:      Some("wymiana walut"),
-			keywords: &["kantor", "waluta", "wymiana", "wymiana walut", "wymiana waluty"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د اسعارو تبادله"),
-			keywords: &["اسعار", "بانک", "تبادله", "د اسعارو تبادله", "پيسې"],
+			keywords: &["", "kantor", "waluta", "wymiana", "wymiana waluty"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
 			tts:      Some("câmbio de moeda"),
-			keywords: &["banco", "câmbio", "câmbio de moeda", "dinheiro", "moeda"],
+			keywords: &["", "banco", "câmbio", "dinheiro", "moeda"],
 		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["banco", "câmbio", "dinheiro", "moeda"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("tikrasqa qullqi"),
-			keywords: &["banco", "qullqi", "tikrasqa"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("schimb valutar"),
-			keywords: &["bancă", "bani", "schimb", "schimb valutar", "valută"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-622"), keywords: &["E10-622"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
 			tts:      Some("обмен валюты"),
-			keywords: &["банк", "валюта", "валюты", "деньги", "касса", "курс", "обмен"],
-		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("kuvunja amafaranga"),
-			keywords: &["amafaranga", "banki", "ifaranga", "ivunja", "kuvunja amafaranga"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("سڪو مٽاسٽا"),
-			keywords: &["بئنڪ", "بدلائڻ", "رقم", "سڪو مٽاسٽا", "پئسا"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ම\u{dd4}දල\u{dca} හ\u{dd4}වම\u{dcf}ර\u{dd4}ව"),
-			keywords: &[
-				"බැංක\u{dd4}ව",
-				"ම\u{dd4}දල\u{dca}",
-				"ම\u{dd4}දල\u{dca} වර\u{dca}ගය",
-				"හ\u{dd4}වම\u{dcf}ර\u{dd4}ව",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("zmenáreň"),
-			keywords: &["banka", "dolár", "mena", "peniaze", "yen", "zmenáreň"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("menjava valut"),
-			keywords: &["banka", "denar", "menjava", "menjava valut", "valuta"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("sarifka lacagaha"),
-			keywords: &["bangi", "lacag", "sarif", "sarifka lacagaha"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("këmbimi i valutës"),
-			keywords: &["bankë", "këmbim", "këmbimi i valutës", "monedhë", "para"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("конверзија валута"),
-			keywords: &["бaнкa", "вaлутa", "конверзија", "мeњaчницa", "нoвaц"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation {
-			lang:     "sr_Cyrl_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["конверзија валута"],
-		},
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("konverzija valuta"),
-			keywords: &["banka", "konverzija", "menjačnica", "novac", "valuta"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation {
-			lang:     "sr_Latn_BA",
-			tts:      Some("↑↑↑"),
-			keywords: &["konverzija valuta"],
+			keywords: &["", "банк", "валюта", "валюты", "деньги", "касса", "курс", "обмен"],
 		},
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
 			tts:      Some("valutaväxling"),
-			keywords: &["pengar", "valuta", "valutaväxling", "växelkurs"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("sarafu mbalimbali"),
-			keywords: &["benki", "pesa", "sarafu", "sarafu mbalimbali", "ubadilishaji wa pesa"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation {
-			lang:     "sw_KE",
-			tts:      Some("ubadilishanaji wa sarafu"),
-			keywords: &[
-				"benki",
-				"pesa",
-				"sarafu",
-				"sarafu mbalimbali",
-				"ubadilishaji wa pesa",
-				"ubadilishanaji wa sarafu",
-			],
-		},
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("ந\u{bbe}ணயப\u{bcd} பரிம\u{bbe}ற\u{bcd}றம\u{bcd}"),
-			keywords: &[
-				"எக\u{bcd}ஸ\u{bcd}சேஞ\u{bcd}ச\u{bcd}",
-				"கரன\u{bcd}சி",
-				"ந\u{bbe}ணயப\u{bcd} பரிம\u{bbe}ற\u{bcd}றம\u{bcd}",
-				"பணப\u{bcd} பரிம\u{bbe}ற\u{bcd}றம\u{bcd}",
-				"பணம\u{bcd}",
-				"பரிம\u{bbe}ற\u{bcd}றம\u{bcd}",
-				"வங\u{bcd}கி",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("కర\u{c46}న\u{c4d}స\u{c40} మ\u{c3e}ర\u{c4d}ప\u{c3f}డ\u{c3f}"),
-			keywords: &[
-				"కర\u{c46}న\u{c4d}స\u{c40}",
-				"కర\u{c46}న\u{c4d}స\u{c40} మ\u{c3e}ర\u{c4d}ప\u{c3f}డ\u{c3f}",
-				"ఫ\u{c3e}ర\u{c3f}న\u{c4d} ఎక\u{c4d}స\u{c4d}చ\u{c47}ంజ\u{c3f}",
-				"మ\u{c3e}ర\u{c4d}పు",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("мубодилаи асъор"),
-			keywords: &["асъор", "бонк", "мубодила", "мубодилаи асъор", "пул"],
+			keywords: &["", "pengar", "valuta", "växelkurs"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
 			tts:      Some("การแลกเปล\u{e35}\u{e48}ยนเง\u{e34}น"),
-			keywords: &[
-				"การแลกเปล\u{e35}\u{e48}ยนเง\u{e34}น",
-				"ธนาคาร",
-				"สก\u{e38}ลเง\u{e34}น",
-				"เง\u{e34}น",
-				"แลกเปล\u{e35}\u{e48}ยน",
-			],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("ለውጢ ገንዘብ"),
-			keywords: &["ለውጢ", "ባንክ", "ገንዘብ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("walýuta çalşygy"),
-			keywords: &["alyş-çalyş", "bank", "pul", "pul birligi", "walýuta çalşygy"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("paʻanga fakafetongi"),
-			keywords: &["fakafetongi", "pangikē", "paʻanga"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("kambiyo"),
-			keywords: &["bozdurma", "döviz", "kambiyo", "para"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("پۇل ئالماشتۇرۇش"),
-			keywords: &["ئاقچا", "ئالماشتۇرۇش", "بانكا", "پۇل"],
+			keywords: &["", "ธนาคาร", "สก\u{e38}ลเง\u{e34}น", "เง\u{e34}น", "แลกเปล\u{e35}\u{e48}ยน"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
 			tts:      Some("обмін валют"),
-			keywords: &["банк", "валюта", "гроші", "обмін", "обмін валют", "обмін грошей"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("کرنسی کا تبادلہ"),
-			keywords: &["بنک", "تبادلہ", "رقم", "کرنسی", "کرنسی کا تبادلہ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("pul birligini almashtirish"),
-			keywords: &["ayirboshlash", "bank", "pul", "pul birligini almashtirish", "valyuta"],
+			keywords: &["", "банк", "валюта", "гроші", "обмін", "обмін грошей"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
 			tts:      Some("đổi tiền"),
-			keywords: &["ngân hàng", "tiền", "tiền tệ", "đổi tiền"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("wecci koppar"),
-			keywords: &["bànk", "koppar", "wecci", "xaalis"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("utshintshiselwano lwekharensi"),
-			keywords: &[
-				"ibhanki",
-				"ikharensi",
-				"imali",
-				"utshintshiselwano",
-				"utshintshiselwano lwekharensi",
-			],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("paṣiparọ owo"),
-			keywords: &["owó", "paṣiparọ owo", "pàṣépàrò\u{329}", "ìlé ìfowópamọ\u{301}"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("pashiparɔ owo"),
-			keywords: &["owó", "pashiparɔ owo", "pàshépàrò\u{329}", "ìlé ìfowópamɔ\u{301}"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("貨幣兌換"),
-			keywords: &["兌換", "貨幣", "貨幣兌換", "銀行", "錢"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("货币兑换"),
-			keywords: &["兑换", "货币", "货币兑换", "钱", "银行"],
+			keywords: &["", "ngân hàng", "tiền", "tiền tệ"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
 			tts:      Some("货币兑换"),
-			keywords: &["兑换", "外汇", "换汇", "汇率", "流通", "货币兑换", "银行"],
+			keywords: &["", "兑换", "外汇", "换汇", "汇率", "流通", "银行"],
 		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("貨幣兌換"),
-			keywords: &["換匯", "貨幣兌換"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["兌換", "匯兌", "匯率", "外匯", "找換", "貨幣", "貨幣兌換", "銀行"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("izinga lokushintshanisa imali"),
-			keywords: &[
-				"ibhange",
-				"imali",
-				"izinga lokushintshanisa imali",
-				"uhlobo lwemali",
-				"ukushintsha",
-			],
-		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("貨幣兌換"), keywords: &["", "換匯"] },
 	],
 };

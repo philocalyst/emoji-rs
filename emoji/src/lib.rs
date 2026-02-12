@@ -68,52 +68,6 @@ pub enum SkinTone {
 	MediumDark,
 	Dark,
 }
-#[doc = " The result of a lookup operation."]
-#[doc = " Distinguishes between an emoji that has skin tones available (Toned)"]
-#[doc = " and one that does not (Standard)."]
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-pub enum EmojiEntry {
-	#[doc = " An emoji that has no skin tone variants (e.g. 😺)."]
-	Standard(&'static Emoji),
-	#[doc = " An emoji that has skin tone variants."]
-	#[doc = " Contains the base emoji and the list of toned variants."]
-	Toned(&'static Toned),
-}
-impl EmojiEntry {
-	#[doc = " Helper to access the base emoji data regardless of type."]
-	pub fn emoji(&self) -> &'static Emoji {
-		match self {
-			EmojiEntry::Standard(e) => e,
-			EmojiEntry::Toned(t) => &t.emoji,
-		}
-	}
-
-	#[doc = " Returns the variants (skin tones) if they exist."]
-	pub fn tones(&self) -> Option<&'static [Emoji]> {
-		match self {
-			EmojiEntry::Standard(_) => None,
-			EmojiEntry::Toned(t) => Some(t.tones),
-		}
-	}
-}
-#[doc = " A wrapper around an Emoji that has skin tone variants."]
-#[doc = " Dereferences to the base Emoji."]
-#[derive(Debug, Clone, PartialEq, Eq, Hash)]
-pub struct Toned {
-	pub emoji: Emoji,
-	pub tones: &'static [Emoji],
-}
-use core::fmt;
-use std::ops::Deref;
-impl Deref for Toned {
-	type Target = Emoji;
-
-	fn deref(&self) -> &Self::Target { &self.emoji }
-}
-impl Toned {
-	#[doc = " Returns all skin tone variants for this emoji"]
-	pub fn tones(&self) -> &'static [Emoji] { self.tones }
-}
 #[doc = " Contains all information about an emoji  "]
 #[doc = " See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`."]
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
@@ -147,6 +101,10 @@ pub struct Emoji {
 	pub is_variant:           bool,
 	#[doc = " Localizatoin specific annotations"]
 	pub annotations:          &'static [Annotation],
+	#[doc = " Skin tone variants for this emoji"]
+	pub skin_tones:           Option<&'static [Emoji]>,
+	#[doc = " Gender variants for this emoji"]
+	pub gender_variants:      Option<&'static [Emoji]>,
 }
 #[doc = " Annotation meta-data for each emoji"]
 #[derive(Debug, PartialEq, Clone, Eq, Hash)]
@@ -172,158 +130,119 @@ pub mod lookup_by_name;
 pub mod search;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Group {
-	PeopleBody,
 	Component,
-	Symbols,
-	Flags,
+	Objects,
 	FoodDrink,
-	SmileysEmotion,
-	AnimalsNature,
+	PeopleBody,
 	TravelPlaces,
 	Activities,
-	Objects,
+	Symbols,
+	Flags,
+	SmileysEmotion,
+	AnimalsNature,
 }
-
-impl fmt::Display for Group {
-	fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-		let val = match self {
-			Self::PeopleBody => "People & Body",
-			Self::Component => "Component",
-			Self::Symbols => "Symbols",
-			Self::Flags => "Flags",
-			Self::FoodDrink => "Food & Drink",
-			Self::SmileysEmotion => "Smileys & Emotion",
-			Self::AnimalsNature => "Animals & Nature",
-			Self::TravelPlaces => "Travel & Places",
-			Self::Activities => "Activities",
-			Self::Objects => "Objects",
-		};
-		write!(f, "{}", val)
-	}
-}
-
-impl Group {
-	/// Returns an iterator over all variants.
-	pub fn iter() -> impl Iterator<Item = Self> {
-		[
-			Self::PeopleBody,
-			Self::Component,
-			Self::Symbols,
-			Self::Flags,
-			Self::FoodDrink,
-			Self::SmileysEmotion,
-			Self::AnimalsNature,
-			Self::TravelPlaces,
-			Self::Activities,
-			Self::Objects,
-		]
-		.iter()
-		.copied()
-	}
-}
-
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Subgroup {
-	Dishware,
-	TransportSign,
-	SkinTone,
-	PlaceMap,
-	HandFingersClosed,
-	Mail,
-	PersonRole,
-	FaceGlasses,
-	AnimalMammal,
-	Tool,
-	PersonSymbol,
+	Geometric,
+	PersonSport,
+	Zodiac,
 	PlaceOther,
-	Currency,
-	FoodFruit,
-	Event,
-	Gender,
-	Phone,
-	Sound,
-	Alphanum,
-	FaceConcerned,
-	HandSingleFinger,
-	Computer,
-	HandFingersPartial,
-	FaceHand,
-	HandFingersOpen,
-	AnimalReptile,
-	AnimalMarine,
+	FaceSleepy,
+	Heart,
+	Person,
+	Drink,
+	OtherSymbol,
+	Flag,
+	OtherObject,
+	PersonActivity,
+	PlantFlower,
+	Money,
+	Tool,
+	TransportSign,
+	Warning,
 	PlaceBuilding,
-	FaceCostume,
+	SubdivisionFlag,
+	Music,
+	PersonSymbol,
+	PersonGesture,
+	TransportWater,
+	AnimalBug,
+	MonkeyFace,
+	Event,
 	FaceHat,
 	BookPaper,
-	Hands,
+	SkinTone,
+	ArtsCrafts,
 	PersonResting,
-	FoodVegetable,
+	Hotel,
+	Dishware,
+	FoodFruit,
+	FaceCostume,
+	PersonRole,
+	HandProp,
+	Currency,
+	FaceGlasses,
+	AnimalReptile,
+	TransportAir,
 	Game,
-	Heart,
+	FaceAffection,
+	FaceUnwell,
+	FaceHand,
+	FaceSmiling,
+	HandFingersPartial,
+	FoodVegetable,
+	PlaceGeographic,
+	Time,
+	CatFace,
+	AvSymbol,
+	Phone,
+	Keycap,
+	FoodPrepared,
+	TransportGround,
+	HandFingersOpen,
+	Hands,
+	FoodAsian,
+	Clothing,
+	MusicalInstrument,
+	Office,
+	LightVideo,
+	AnimalMarine,
+	Household,
+	PersonFantasy,
+	FaceTongue,
+	FaceNeutralSkeptical,
+	FaceNegative,
+	HairStyle,
+	PlaceReligious,
+	Religion,
+	Punctuation,
+	HandSingleFinger,
+	CountryFlag,
+	PlaceMap,
+	Sound,
+	FoodSweet,
+	AnimalBird,
+	Science,
+	Emotion,
+	HandFingersClosed,
+	PlantOther,
+	AnimalMammal,
+	Computer,
+	Arrow,
+	BodyParts,
+	Math,
+	AnimalAmphibian,
+	Writing,
+	FaceConcerned,
+	SkyWeather,
+	AwardMedal,
+	Gender,
+	Sport,
+	Family,
 	Lock,
 	Medical,
-	Music,
-	Office,
-	Keycap,
-	SkyWeather,
-	FoodAsian,
-	CountryFlag,
-	Writing,
-	MusicalInstrument,
-	Person,
-	FaceSmiling,
-	TransportGround,
-	PlaceReligious,
-	Arrow,
-	FaceNegative,
-	PlantOther,
-	PlaceGeographic,
-	Punctuation,
-	AnimalBug,
-	FaceAffection,
-	FaceNeutralSkeptical,
-	BodyParts,
-	AnimalBird,
-	FoodPrepared,
-	ArtsCrafts,
-	PersonGesture,
-	Zodiac,
-	Warning,
-	Math,
-	PlantFlower,
-	TransportWater,
-	LightVideo,
-	AnimalAmphibian,
-	PersonSport,
-	CatFace,
-	Drink,
-	Money,
-	Household,
-	FoodSweet,
-	Family,
-	Emotion,
-	Time,
-	Clothing,
-	HairStyle,
-	PersonFantasy,
-	Science,
-	AvSymbol,
-	PersonActivity,
-	OtherSymbol,
-	TransportAir,
-	MonkeyFace,
-	AwardMedal,
-	FaceSleepy,
-	FaceTongue,
-	Sport,
-	OtherObject,
-	FaceUnwell,
-	Hotel,
-	Geometric,
-	Flag,
-	SubdivisionFlag,
-	HandProp,
-	Religion,
+	Alphanum,
+	Mail,
 }
 #[doc = r" All annotation languages"]
 pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
@@ -471,7 +390,7 @@ pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
 	"zu",
 ];
 pub const UNICODE_VERSION: f32 = 17f32;
-pub const UNICODE_RELEASE_TIME: &'static str = "2026-01-07T17:34:16.182535+00:00";
+pub const UNICODE_RELEASE_TIME: &'static str = "2026-02-12T04:28:14.116003+00:00";
 pub mod smileys_emotion {
 	pub mod cat_face;
 	pub mod emotion;
@@ -508,6 +427,10 @@ pub mod people_body {
 	pub mod person_sport;
 	pub mod person_symbol;
 }
+pub mod component {
+	pub mod hair_style;
+	pub mod skin_tone;
+}
 pub mod animals_nature {
 	pub mod animal_amphibian;
 	pub mod animal_bird;
@@ -539,6 +462,13 @@ pub mod travel_places {
 	pub mod transport_air;
 	pub mod transport_ground;
 	pub mod transport_water;
+}
+pub mod activities {
+	pub mod arts_crafts;
+	pub mod award_medal;
+	pub mod event;
+	pub mod game;
+	pub mod sport;
 }
 pub mod objects {
 	pub mod book_paper;
@@ -580,16 +510,4 @@ pub mod flags {
 	pub mod country_flag;
 	pub mod flag;
 	pub mod subdivision_flag;
-}
-pub mod activities {
-	pub mod arts_crafts;
-	pub mod award_medal;
-	pub mod event;
-	pub mod game;
-	pub mod sport;
-}
-pub mod component {
-	pub mod hair_style;
-	pub mod other_object;
-	pub mod skin_tone;
 }

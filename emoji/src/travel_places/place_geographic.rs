@@ -9,7 +9,193 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("সম\u{9c1}দ\u{9cd}র সৈকতে ছ\u{9be}ত\u{9be}"),
+			keywords: &["", "ছ\u{9be}ত\u{9be}", "সৈকত"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("strand med parasol"),
+			keywords: &["", "parasol", "strand"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Strand mit Sonnenschirm"),
+			keywords: &["", "meer", "sonnenschirm", "strand", "strand mit sonnenschirm"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("beach with umbrella"),
+			keywords: &["", "beach", "umbrella"],
+		},
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("beach with umbrella"),
+			keywords: &["", "beach", "umbrella"],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("playa y sombrilla"),
+			keywords: &["", "playa", "sombrilla"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("playa y sombrilla"),
+			keywords: &["", "playa", "sombrilla"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("päikesevari rannas"),
+			keywords: &["", "päikesevari", "rand"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("ranta ja aurinkovarjo"),
+			keywords: &["", "aurinkovarjo", "ranta"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("plage avec parasol"),
+			keywords: &["", "parasol", "plage", "voyage"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("छात\u{947} क\u{947} साथ सम\u{941}द\u{94d}री किनारा, छाता"),
+			keywords: &["", "छाता", "छात\u{947} क\u{947} साथ सम\u{941}द\u{94d}री किनारा"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("strand napernyővel"),
+			keywords: &["", "homok", "napernyő", "strand", "tengerpart"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("spiaggia con ombrellone"),
+			keywords: &[
+				"",
+				"estate",
+				"mare",
+				"ombrellone",
+				"ombrellone in spiaggia",
+				"spiaggia",
+				"vacanze",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("ビーチパラソル"),
+			keywords: &["", "パラソル", "ビーチ", "砂浜"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("파라솔이 있는 해변"),
+			keywords: &["", "우산", "파라솔", "해변"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("paplūdimys ir skėtis"),
+			keywords: &["", "paplūdimys", "skėtis"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pantai dengan payung"),
+			keywords: &["", "pantai", "payung"],
+		},
+		#[cfg(feature = "nb")]
+		crate::Annotation {
+			lang:     "nb",
+			tts:      Some("strand med parasoll"),
+			keywords: &["", "parasoll", "strand"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("strand met parasol"),
+			keywords: &["", "parasol", "strand"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("parasol na plaży"),
+			keywords: &["", "lato", "morze", "parasol", "piasek", "plaża", "wakacje"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("praia e guarda-sol"),
+			keywords: &["", "guarda-sol", "praia"],
+		},
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("пляж"),
+			keywords: &[
+				"",
+				"зонт",
+				"лето",
+				"море",
+				"остров",
+				"отпуск",
+				"пальма",
+				"песок",
+				"пляжный",
+				"солнце",
+			],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("strand med parasoll"),
+			keywords: &["", "parasoll", "strand"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ร\u{e48}มชายหาด"),
+			keywords: &["", "ชายหาด", "ร\u{e48}ม"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("пляж і парасолька"),
+			keywords: &["", "відпочинок", "парасоля", "пляж"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("bãi biển với chiếc ô"),
+			keywords: &["", "bãi biển", "ô"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("沙滩伞"),
+			keywords: &["", "伞", "有伞的海滩", "沙滩", "海滩", "阳伞"],
+		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("海灘陽傘"), keywords: &["", "海灘"] },
+	],
 };
 #[doc = "🌋"]
 pub const VOLCANO: crate::Emoji = crate::Emoji {
@@ -22,804 +208,174 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
+	skin_tones:           None,
+	gender_variants:      None,
 	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("vulkaan"),
-			keywords: &["berg", "lawa", "natuur", "uitbarsting", "vulkaan", "weer"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("እሳተ ጎመራ"),
-			keywords: &["ተራራ", "ተፈጥሮ", "እሳተ ገሞራ", "እሳተ ጎመራ", "የአየር ሁኔታ", "የአየር ንብረት", "ፍንዳታ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("بركان"),
-			keywords: &["انفجار", "بركان", "ثوران", "جبل", "طبيعة", "طقس"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("আগ\u{9cd}নেয\u{9bc}গিৰি"),
-			keywords: &["আগ\u{9cd}নেয\u{9bc}গিৰি", "উদ\u{9cd}গীৰণ", "পৰ\u{9cd}ব\u{9cd}বত"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("vulkan"),
-			keywords: &["dağ", "hava", "püskürmə", "vulkan"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("вулкан"),
-			keywords: &["вулкан", "вывяржэнне", "гара", "лава", "надвор’е"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("вулкан"),
-			keywords: &["време", "вулкан", "изригване", "планина", "природа"],
-		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
 			tts:      Some("আগ\u{9cd}নেয\u{9bc}গিরি"),
 			keywords: &[
+				"",
 				"অগ\u{9cd}ন\u{9cd}য\u{9c1}ৎপ\u{9be}ত",
-				"আগ\u{9cd}নেয\u{9bc}গিরি",
 				"আবহ\u{9be}ওয\u{9bc}\u{9be}",
 				"পর\u{9cd}বত",
 			],
 		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("menez-tan"),
-			keywords: &["dislonkadenn", "menez-tan"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("vulkan"),
-			keywords: &["erupcija", "planina", "vrijeme", "vulkan"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("volcà"),
-			keywords: &["erupció", "muntanya", "natura", "volcà"],
-		},
-		#[cfg(feature = "ccp")]
-		crate::Annotation {
-			lang:     "ccp",
-			tts:      Some("𑄃𑄉\u{1112a}𑄚\u{1112e}𑄢\u{11134} 𑄜\u{1112a}𑄘𑄋𑄢\u{11133}𑄦"),
-			keywords: &["𑄃𑄉\u{1112a}𑄚\u{1112e}𑄢\u{11134} 𑄜\u{1112a}𑄘𑄋𑄢\u{11133}𑄦"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᎦᏙ ᎠᏔᎴᏒ ᎠᏔᏍᎩᏍᎩ"),
-			keywords: &["ᎠᏣᎷᏘᏍᎬᎢ", "ᎣᏓᎳ", "ᎦᏙ ᎠᏔᎴᏒ ᎠᏔᏍᎩᏍᎩ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("sopka"),
-			keywords: &["erupce", "hora", "láva", "příroda", "sopka", "vulkán", "výbuch"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("llosgfynydd"),
-			keywords: &["echdoriad", "llosgfynydd", "mynydd", "tywydd"],
-		},
 		#[cfg(feature = "da")]
-		crate::Annotation {
-			lang:     "da",
-			tts:      Some("vulkan"),
-			keywords: &["vulkan", "vulkanudbrud"],
-		},
+		crate::Annotation { lang: "da", tts: Some("vulkan"), keywords: &["", "vulkanudbrud"] },
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
 			tts:      Some("Vulkan"),
-			keywords: &["Ausbruch", "Berg", "Lava", "Vulkan", "Vulkanausbruch", "Wetter"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ηφαίστειο"),
-			keywords: &["έκρηξη", "βουνό", "ηφαίστειο", "φύση"],
+			keywords: &["", "ausbruch", "berg", "lava", "vulkan", "vulkanausbruch", "wetter"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
 			tts:      Some("volcano"),
-			keywords: &["eruption", "mountain", "nature", "volcano"],
+			keywords: &["", "eruption", "mountain", "nature"],
 		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation { lang: "en_AU", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_CA")]
-		crate::Annotation { lang: "en_CA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("volcano"),
+			keywords: &["", "eruption", "mountain", "nature"],
+		},
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
 			tts:      Some("volcán"),
-			keywords: &["erupción", "erupción volcánica", "volcán"],
+			keywords: &["", "erupción", "erupción volcánica"],
 		},
-		#[cfg(feature = "es_419")]
+		#[cfg(feature = "es-mx")]
 		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["erupción", "erupción volcánica", "fuego", "montaña", "naturaleza", "volcán"],
+			lang:     "es-mx",
+			tts:      Some("volcán"),
+			keywords: &["", "erupción", "erupción volcánica"],
 		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
 			tts:      Some("vulkaan"),
-			keywords: &["laava", "mägi", "purse", "vulkaan"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("sumendia"),
-			keywords: &["eguraldi", "erupzio", "mendi", "sumendia"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang:     "fa",
-			tts:      Some("آتشفشان"),
-			keywords: &["آب\u{200c}وهوا", "آتشفشان", "فوران", "کوه", "کوهستان"],
+			keywords: &["", "laava", "mägi", "purse"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
 			tts:      Some("tulivuori"),
-			keywords: &["sää", "tulivuorenpurkaus", "tulivuori", "vuori"],
-		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bulkan"),
-			keywords: &[
-				"aktibidad ng bulkan",
-				"bulkan",
-				"bundok",
-				"kalikasan",
-				"pagputok",
-				"pagsabog",
-				"putok",
-			],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation {
-			lang:     "fo",
-			tts:      Some("gosfjall"),
-			keywords: &["eldfjall", "eldgos", "gos", "gosfjall", "útbrot"],
+			keywords: &["", "sää", "tulivuorenpurkaus", "vuori"],
 		},
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
 			tts:      Some("volcan"),
-			keywords: &["lave", "nature", "volcan", "éruption"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["montagne", "volcan", "éruption"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("bolcán"),
-			keywords: &["bolcán", "brúchtadh bolcáin", "nádúr", "sliabh"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("beinn-theine"),
-			keywords: &["beinn", "beinn-theine", "spreadhadh"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("volcán"),
-			keywords: &["erupción", "volcán"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("જ\u{acd}વાળામ\u{ac1}ખી"),
-			keywords: &[
-				"આગ",
-				"ક\u{ac1}દરત",
-				"જ\u{acd}વાળામ\u{ac1}ખી",
-				"દાવાનળ",
-				"પર\u{acd}વત",
-				"પહાડ",
-				"લાવા",
-				"વિસ\u{acd}ફોટ",
-				"શિખર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("dutse mai aman wuta"),
-			keywords: &["aman dutse", "aman wuta", "dutse mai aman wuta", "tsauni"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("dutse mai aman wuta"),
-			keywords: &["aman dutse", "aman wuta", "dutse mai aman wuta", "tsauni"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("הר געש"),
-			keywords: &["הר געש", "התפרצות", "לבה"],
+			keywords: &["", "lave", "nature", "éruption"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
 			tts:      Some("ज\u{94d}वालाम\u{941}खी"),
-			keywords: &["ज\u{94d}वालाम\u{941}खी", "ज\u{94d}वालाम\u{941}खी विस\u{94d}फोट", "पहाड\u{93c}"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("vulkan"),
-			keywords: &["erupcija", "planina", "vrijeme", "vulkan"],
+			keywords: &["", "पर\u{94d}वत", "प\u{94d}रक\u{943}ति", "विस\u{94d}फोट"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
 			tts:      Some("vulkán"),
-			keywords: &["katasztrófa", "kitörés", "természet", "tűzhányó", "vulkán", "vulkánkitörés"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("հրաբուխ"),
-			keywords: &["եղանակ", "ժայթքում", "լեռ", "հրաբուխ"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("gunung berapi"),
-			keywords: &["alam", "erupsi", "gunung", "gunung api", "gunung berapi"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("mgbawa ugwu"),
-			keywords: &["mgbawa", "okike", "ugwu", "ugwu a na-agbọpụ ọkụ"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("eldfjall"),
-			keywords: &["eldfjall", "eldgos"],
+			keywords: &["", "katasztrófa", "kitörés", "természet", "tűzhányó", "vulkánkitörés"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
 			tts:      Some("vulcano"),
-			keywords: &[
-				"Etna",
-				"Vesuvio",
-				"eruzione",
-				"etna",
-				"lava",
-				"natura",
-				"vulcano",
-				"vulcano in eruzione",
-			],
+			keywords: &["", "eruzione", "etna", "lava", "natura", "vesuvio", "vulcano in eruzione"],
 		},
 		#[cfg(feature = "ja")]
 		crate::Annotation {
 			lang:     "ja",
 			tts:      Some("火山"),
-			keywords: &["噴火", "山", "溶岩", "火山"],
-		},
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("gunung geni"),
-			keywords: &["gunung", "gunung geni", "njeblug"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("ვულკანი"),
-			keywords: &["ამინდი", "ამოფრქვევა", "ვულკანი", "მთა"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation { lang: "kab", tts: Some("avulkan"), keywords: &["avulkan"] },
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("жанартау"),
-			keywords: &["атылу", "ауа райы", "вулкан", "жанартау", "тау"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("vulkan"),
-			keywords: &["vulkan", "vulkanudbrud"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ភ\u{17d2}ន\u{17c6}ភ\u{17d2}លើង"),
-			keywords: &[
-				"ផ\u{17d2}ទ\u{17bb}ះ",
-				"ភ\u{17d2}ន\u{17c6}",
-				"ភ\u{17d2}ន\u{17c6}ភ\u{17d2}លើង",
-				"អាកាសធាត\u{17bb}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf}"),
-			keywords: &[
-				"ಅಗ\u{ccd}ನ\u{cbf}ಪರ\u{ccd}ವತ",
-				"ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf}",
-				"ಜ\u{ccd}ವಾಲಾಮುಖ\u{cbf} ಸ\u{ccd}ಪ\u{ccb}ಟ",
-				"ಪರ\u{ccd}ವತ",
-				"ಪ\u{ccd}ರಕೃತ\u{cbf}",
-				"ಶ\u{cbf}ಲಾರಸ",
-				"ಸ\u{ccd}ಫ\u{ccb}ಟ",
-			],
+			keywords: &["", "噴火", "山", "溶岩"],
 		},
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
 			tts:      Some("화산"),
-			keywords: &["볼케이노", "산", "자연", "폭발", "화산"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("ज\u{94d}वालाम\u{941}खी"),
-			keywords: &["ज\u{94d}वालाम\u{941}खी", "ज\u{94d}वालास\u{94d}फोट", "पर\u{94d}वत"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("вулкан"),
-			keywords: &["аба-ырайы", "атылуу", "вулкан", "тоо"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Vulkan"),
-			keywords: &["Bierg", "Eruptioun", "Vulkan"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ພ\u{eb9}ເຂ\u{ebb}າໄຟ"),
-			keywords: &[
-				"ປະທ\u{eb8}",
-				"ພ\u{eb9}",
-				"ພ\u{eb9}ເຂ\u{ebb}າໄຟ",
-				"ສະພາບອາກາດ",
-				"ຮ\u{ec9}ອນ",
-				"ເດ\u{eb7}ອດ",
-			],
+			keywords: &["", "볼케이노", "산", "자연", "폭발"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
 			tts:      Some("ugnikalnis"),
-			keywords: &["gamta", "išsiveržimas", "kalnas", "ugnikalnis"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("vulkāns"),
-			keywords: &["daba", "izvirdums", "kalns", "vulkāns"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation { lang: "mi", tts: Some("puia"), keywords: &["maunga", "puia"] },
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("вулкан"),
-			keywords: &["вулкан", "ерупција", "планина", "природа"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("അഗ\u{d4d}നിപർവ\u{d4d}വതം"),
-			keywords: &["അഗ\u{d4d}നിപർവതം", "അഗ\u{d4d}നിപർവ\u{d4d}വതം", "സ\u{d4d}ഫോടനം"],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang:     "mn",
-			tts:      Some("галт уул"),
-			keywords: &["галт", "уул", "цаг агаар"],
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("ज\u{94d}वालाम\u{941}खी"),
-			keywords: &[
-				"ज\u{94d}वालाम\u{941}खी",
-				"ज\u{94d}वालाम\u{941}खीचा उद\u{94d}र\u{947}क",
-				"निसर\u{94d}ग",
-				"पर\u{94d}वत",
-				"भ\u{94d}रम\u{902}ती",
-			],
+			keywords: &["", "gamta", "išsiveržimas", "kalnas"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
 			tts:      Some("gunung berapi"),
-			keywords: &["alam semula jadi", "gunung", "gunung berapi", "letusan", "volkano"],
+			keywords: &["", "alam semula jadi", "gunung", "letusan", "volkano"],
 		},
-		#[cfg(feature = "mt")]
+		#[cfg(feature = "nb")]
 		crate::Annotation {
-			lang:     "mt",
+			lang:     "nb",
 			tts:      Some("vulkan"),
-			keywords: &["eruzzjoni", "muntanja", "vulkan"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("မ\u{102e}းတောင\u{103a}"),
-			keywords: &["တောင\u{103a}", "ပေါက\u{103a}က\u{103d}\u{1032}", "မ\u{102e}းတောင\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("ज\u{94d}वालाम\u{941}खी"),
-			keywords: &[
-				"ज\u{94d}वालाम\u{941}खी",
-				"निस\u{94d}कन\u{947} कार\u{94d}य",
-				"मौ\u{902}सम",
-				"हिमाल",
-			],
+			keywords: &["", "utbrudd", "vulkanutbrudd"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
 			tts:      Some("vulkaan"),
-			keywords: &["berg", "lava", "magma", "natuur", "vulkaan", "vulkaanuitbarsting"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation {
-			lang:     "nn",
-			tts:      Some("↑↑↑"),
-			keywords: &["utbrot", "vulkan", "vulkanutbrot"],
-		},
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ଭଲ\u{b4d}କ\u{b3e}ନୋ"),
-			keywords: &[
-				"ଆଗ\u{b4d}ନେୟଗ\u{b3f}ର\u{b3f}",
-				"ଆଗ\u{b4d}ନେୟଗ\u{b3f}ର\u{b3f} ବ\u{b3f}ସ\u{b4d}ଫୋଟ",
-				"ଆଗ\u{b4d}ନେୟଗୀର",
-				"ଭଲ\u{b4d}କ\u{b3e}ନୋ",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਜਵਾਲਾਮ\u{a41}ਖੀ"),
-			keywords: &[
-				"ਕ\u{a41}ਦਰਤ",
-				"ਜਵਾਲਾਮ\u{a41}ਖੀ",
-				"ਜਵਾਲਾਮ\u{a41}ਖੀ ਫ\u{a71}ਟਣਾ",
-				"ਪਹਾੜ",
-				"ਮ\u{a4c}ਸਮ",
-			],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("آتش فشاں"),
-			keywords: &["آتش فشاں", "پھٹن دا عمل", "پہاڑ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Volkáno"),
-			keywords: &["Blo", "Maúntin", "Volkáno"],
+			keywords: &["", "berg", "lava", "magma", "natuur", "vulkaanuitbarsting"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
 			tts:      Some("wulkan"),
-			keywords: &["erupcja", "góra", "lawa", "wulkan"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("آتش فشان غر"),
-			keywords: &["آتش فشان غر", "آتش فشاڼ", "راوتل", "غر"],
+			keywords: &["", "erupcja", "góra", "lawa"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
 			tts:      Some("vulcão"),
-			keywords: &["erupção vulcânica", "lava", "natureza", "vulcão"],
+			keywords: &["", "erupção vulcânica", "lava", "natureza"],
 		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("↑↑↑"),
-			keywords: &["erupção", "erupção vulcânica", "montanha", "natureza", "vulcão"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("ariq"),
-			keywords: &["ariq", "erupcion", "urqu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("vulcan"),
-			keywords: &["erupție", "lavă", "munte", "natură", "vulcan"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-210"), keywords: &["E10-210"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
 			tts:      Some("вулкан"),
-			keywords: &["вулкан", "извержение вулкана", "кратер", "лава"],
+			keywords: &["", "извержение вулкана", "кратер", "лава"],
 		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("ikirunga"),
-			keywords: &["ikirunga", "kuruka kw’ikirunga", "umusozi"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("ٻرندڙ جبل"),
-			keywords: &["ٻرندڙ جبل", "ڦٽڻ، جبل"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ග\u{dd2}න\u{dd2}කන\u{dca}ද"),
-			keywords: &[
-				"කන\u{dca}ද",
-				"ක\u{dcf}ලග\u{dd4}ණය",
-				"ග\u{dd2}න\u{dd2}කන\u{dca}ද",
-				"ප\u{dd2}ප\u{dd2}ර\u{dd3}ම",
-			],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("sopka"),
-			keywords: &["cestovanie", "erupcia", "hora", "počasie", "príroda", "sopka", "vrch"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("vulkan"),
-			keywords: &["gora", "izbruh", "vreme", "vulkan"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("folkano"),
-			keywords: &["buur", "folkano", "qarax"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("vullkan"),
-			keywords: &["mal", "moti", "shpërthim", "vullkan"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("вулкан"),
-			keywords: &["eрупциja", "вулкан", "плaнинa", "природа"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("vulkan"),
-			keywords: &["erupcija", "planina", "priroda", "vulkan"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
 		crate::Annotation {
 			lang:     "sv",
 			tts:      Some("vulkan"),
-			keywords: &["vulkan", "vulkanutbrott"],
-		},
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("volkano"),
-			keywords: &["hali ya hewa", "kulipuka", "mlima", "volkano"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("எரிமலை"),
-			keywords: &[
-				"எரிமலை",
-				"நெருப\u{bcd}பு",
-				"ல\u{bbe}வ\u{bbe}",
-				"வல\u{bcd}கனோ",
-				"வெடிக\u{bcd}கும\u{bcd} எரிமலை",
-				"வெடிப\u{bcd}பு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("అగ\u{c4d}న\u{c3f}పర\u{c4d}వతం"),
-			keywords: &[
-				"అగ\u{c4d}న\u{c3f} పర\u{c4d}వతం బద\u{c4d}దలవ\u{c4d}వడం",
-				"అగ\u{c4d}న\u{c3f}పర\u{c4d}వతం",
-				"క\u{c4b}పం కట\u{c4d}టలు త\u{c46}ంచుక\u{c4b}వడం",
-				"న\u{c47}చర\u{c4d}",
-				"ప\u{c4d}రకృత\u{c3f}",
-				"ల\u{c3e}వ\u{c3e} ఎగజ\u{c3f}మ\u{c4d}మడం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("вулқон"),
-			keywords: &["вулқон", "куҳ", "оташфишонӣ"],
+			keywords: &["", "vulkanutbrott"],
 		},
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
 			tts:      Some("ภ\u{e39}เขาไฟ"),
-			keywords: &["ภ\u{e39}เขาไฟ", "ภ\u{e39}เขาไฟระเบ\u{e34}ด"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("እሳተ ጎመራ"),
-			keywords: &["እሳተ ጎመራ", "እሳተ ጎመራዊ ግንፋለ", "እሳተ ጎሞራ", "እሳተ ጐመራ", "ግንፋለ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("ýanardag"),
-			keywords: &["dag", "partlama", "ýanardag"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("moʻungaafi"),
-			keywords: &["laku", "moʻungaafi", "puna"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("yanardağ"),
-			keywords: &["dağ", "doğa", "volkan", "yanardağ", "yanardağ patlaması"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("يانارتاغ"),
-			keywords: &["ئۆرلەش", "تاغ", "يانارتاغ"],
+			keywords: &["", "ภ\u{e39}เขาไฟระเบ\u{e34}ด"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
 			tts:      Some("вулкан"),
-			keywords: &["виверження", "вулкан", "гора", "лава"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("آتش فشاں"),
-			keywords: &["آتش فشاں", "آگ", "قدرت", "موسم", "پھٹنا", "پہاڑ", "کوہ"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("vulqon"),
-			keywords: &["ob-havo", "otilib chiqish", "tabiat hodisasi", "tog‘", "vulqon"],
+			keywords: &["", "виверження", "гора", "лава"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
 			tts:      Some("núi lửa"),
-			keywords: &["núi", "núi lửa", "phun trào", "thiên nhiên"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("géeju xal"),
-			keywords: &["géeju xal", "montaañ", "xal yuy génn"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("intabamlilo"),
-			keywords: &["intaba", "intabamlilo", "ukudubula"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Ifẹ-ilẹ"),
-			keywords: &["Ifẹ-ilẹ", "ìfẹ\u{300} ilẹ\u{300}", "òkè"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Ifɛ-ilɛ"),
-			keywords: &["Ifɛ-ilɛ", "ìfɛ\u{300} ilɛ\u{300}", "òkè"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("火山"),
-			keywords: &["山", "火山", "爆發"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("火山"),
-			keywords: &["山", "火山", "爆发"],
+			keywords: &["", "núi", "phun trào", "thiên nhiên"],
 		},
 		#[cfg(feature = "zh")]
 		crate::Annotation {
 			lang:     "zh",
 			tts:      Some("火山"),
-			keywords: &["喷发", "大自然", "山", "火山", "爆发"],
+			keywords: &["", "喷发", "大自然", "山", "爆发"],
 		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("火山"),
-			keywords: &["火山", "火山爆發"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["噴發", "山", "火山", "火山爆發", "自然"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("intabamlilo"),
-			keywords: &["intaba", "intabamlilo", "isimo sezulu", "ukuqhuma"],
-		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("火山"), keywords: &["", "火山爆發"] },
 	],
 };
 #[doc = "🏕\u{fe0f}"]
@@ -833,7 +389,130 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ত\u{9be}ব\u{9c1} খ\u{9be}\u{981}ট\u{9be}নো"),
+			keywords: &["", "ক\u{9cd}য\u{9be}ম\u{9cd}প কর\u{9be}"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation { lang: "da", tts: Some("camping"), keywords: &["", "telt"] },
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Camping"),
+			keywords: &["", "campen", "camping", "zelt", "zelten"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation { lang: "en", tts: Some("camping"), keywords: &["", "camping"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation { lang: "en-gb", tts: Some("camping"), keywords: &["", "tent"] },
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("camping"),
+			keywords: &["", "acampada", "campamento", "vacaciones"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("camping"),
+			keywords: &["", "acampada", "campamento", "vacaciones"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("telkimine"), keywords: &["", "telk"] },
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("telttailu"),
+			keywords: &["", "leiri", "leirintäalue", "teltta"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("camping"),
+			keywords: &["", "nature", "tente avec un sapin", "voyage"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("त\u{902}ब\u{942}, त\u{902}ब\u{942} लगाना"),
+			keywords: &["", "क\u{948}\u{902}पि\u{902}ग", "त\u{902}ब\u{942}", "त\u{902}ब\u{942} लगाना"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("sátorozás"),
+			keywords: &["", "kemping", "kempingezés", "sátor"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("campeggio"),
+			keywords: &["", "lago", "montagna", "tenda", "vacanza"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("キャンプ"),
+			keywords: &["", "テント", "山"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation { lang: "ko", tts: Some("캠핑"), keywords: &["", "텐트"] },
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("stovyklavimas"),
+			keywords: &["", "stovyklavimas"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation { lang: "ms", tts: Some("berkhemah"), keywords: &["", "berkhemah"] },
+		#[cfg(feature = "nb")]
+		crate::Annotation { lang: "nb", tts: Some("telttur"), keywords: &["", "camping"] },
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("kamperen"),
+			keywords: &["", "camping", "tent"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("kemping"),
+			keywords: &["", "kamping", "namiot", "obóz", "wakacje"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation { lang: "pt", tts: Some("acampamento"), keywords: &["", "barraca"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("кемпинг"),
+			keywords: &["", "лагерь", "палатка", "поход"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("camping"), keywords: &["", "tält"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ต\u{e31}\u{e49}งแคมป\u{e4c}"),
+			keywords: &["", "เต\u{e47}นท\u{e4c}", "แคมป\u{e4c}"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation { lang: "uk", tts: Some("кемпінг"), keywords: &["", "похід"] },
+		#[cfg(feature = "vi")]
+		crate::Annotation { lang: "vi", tts: Some("cắm trại"), keywords: &["", "cắm trại"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation { lang: "zh", tts: Some("露营"), keywords: &["", "帐篷"] },
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation {
+			lang:     "zh-hant",
+			tts:      Some("露營"),
+			keywords: &["", "帳篷露營", "露營帳篷"],
+		},
+	],
 };
 #[doc = "🏝\u{fe0f}"]
 pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
@@ -846,7 +525,166 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("মর\u{9c1}ভ\u{9c2}মির দ\u{9cd}বীপ"),
+			keywords: &["", "দ\u{9cd}বীপ", "মর\u{9c1}ভ\u{9c2}মি"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("øde ø"),
+			keywords: &["", "palme", "ø", "øde"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("einsame Insel"),
+			keywords: &["", "einsam", "einsame insel", "insel", "meer", "palme", "strand", "verlassen"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("desert island"),
+			keywords: &["", "desert", "island"],
+		},
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("desert island"),
+			keywords: &["", "island", "palm", "tree"],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("isla desierta"),
+			keywords: &["", "desierta", "isla"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("isla desierta"),
+			keywords: &["", "isla"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("asustamata saar"),
+			keywords: &["", "asustamata", "saar"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("autiosaari"),
+			keywords: &["", "autio", "saari"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("île déserte"),
+			keywords: &["", "cocotier", "palmier", "voyage", "île"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("र\u{947}गिस\u{94d}तान म\u{947}\u{902} द\u{94d}वीप, द\u{94d}वीप"),
+			keywords: &["", "द\u{94d}वीप", "र\u{947}गिस\u{94d}तान म\u{947}\u{902} द\u{94d}वीप"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("lakatlan sziget"),
+			keywords: &["", "pálmafa", "sivatag", "sziget"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("isola deserta"),
+			keywords: &["", "isola", "mare", "naufrago", "palma", "solitudine", "spiaggia", "vacanza"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("無人島"),
+			keywords: &["", "ヤシ", "ヤシの木のある島", "島"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation { lang: "ko", tts: Some("사막 섬"), keywords: &["", "사막", "섬"] },
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("atoki sala"),
+			keywords: &["", "dykuma", "sala"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("pulau padang pasir"),
+			keywords: &["", "gurun", "padang pasir", "pulau"],
+		},
+		#[cfg(feature = "nb")]
+		crate::Annotation { lang: "nb", tts: Some("øde øy"), keywords: &["", "øde", "øy"] },
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("onbewoond eiland"),
+			keywords: &["", "eiland", "onbewoond"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("bezludna wyspa"),
+			keywords: &["", "bezludna", "palma", "pusta", "pustynia", "samotna", "tropiki", "wyspa"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("ilha deserta"),
+			keywords: &["", "ilha", "palmeira", "praia"],
+		},
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("остров"),
+			keywords: &["", "кокос", "лето", "море", "необитаемый", "отпуск", "пальма", "пустыня"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("öde ö"), keywords: &["", "ö", "öde"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("เกาะ"),
+			keywords: &["", "ทะเล", "เกาะร\u{e49}าง"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("безлюдний острів"),
+			keywords: &["", "безлюдний", "берег", "острів", "пальма"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đảo hoang"),
+			keywords: &["", "hoang", "đảo"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("无人荒岛"),
+			keywords: &["", "岛", "沙滩孤岛", "沙漠", "荒岛"],
+		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation {
+			lang:     "zh-hant",
+			tts:      Some("熱帶小島"),
+			keywords: &["", "沙漠", "沙灘小島"],
+		},
+	],
 };
 #[doc = "🏜\u{fe0f}"]
 pub const DESERT: crate::Emoji = crate::Emoji {
@@ -859,7 +697,96 @@ pub const DESERT: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("মর\u{9c1}ভ\u{9c1}মি"),
+			keywords: &["", "ব\u{9be}লি", "মর\u{9c1}ভ\u{9c2}মি"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation { lang: "da", tts: Some("ørken"), keywords: &["", "kaktus", "sol"] },
+		#[cfg(feature = "de")]
+		crate::Annotation { lang: "de", tts: Some("Wüste"), keywords: &["", "heiß", "wüste"] },
+		#[cfg(feature = "en")]
+		crate::Annotation { lang: "en", tts: Some("desert"), keywords: &["", "desert"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation { lang: "en-gb", tts: Some("desert"), keywords: &["", "cactus"] },
+		#[cfg(feature = "es")]
+		crate::Annotation { lang: "es", tts: Some("desierto"), keywords: &["", "arena"] },
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("desierto"),
+			keywords: &["", "arena", "seco", "sequía"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("kõrb"), keywords: &["", "kõrb"] },
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("autiomaa"),
+			keywords: &["", "aavikko", "kaktus"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation { lang: "fr", tts: Some("désert"), keywords: &["", "voyage"] },
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("र\u{947}गिस\u{94d}तान, मर\u{941}स\u{94d}थल"),
+			keywords: &["", "मर\u{941}स\u{94d}थल", "र\u{947}गिस\u{94d}तान"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation { lang: "hu", tts: Some("sivatag"), keywords: &["", "kaktusz"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("deserto"),
+			keywords: &["", "arido", "caldo", "canyon", "sole cocente"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("砂漠"),
+			keywords: &["", "サボテン", "サボテンのある砂漠"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation { lang: "ko", tts: Some("사막"), keywords: &["", "선인장", "태양"] },
+		#[cfg(feature = "lt")]
+		crate::Annotation { lang: "lt", tts: Some("dykuma"), keywords: &["", "dykuma"] },
+		#[cfg(feature = "ms")]
+		crate::Annotation { lang: "ms", tts: Some("padang pasir"), keywords: &["", "gurun"] },
+		#[cfg(feature = "nb")]
+		crate::Annotation { lang: "nb", tts: Some("ørken"), keywords: &["", "ørken"] },
+		#[cfg(feature = "nl")]
+		crate::Annotation { lang: "nl", tts: Some("woestijn"), keywords: &["", "woestijn"] },
+		#[cfg(feature = "pl")]
+		crate::Annotation { lang: "pl", tts: Some("pustynia"), keywords: &["", "pustynia"] },
+		#[cfg(feature = "pt")]
+		crate::Annotation { lang: "pt", tts: Some("deserto"), keywords: &["", "clima seco"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("пустыня"),
+			keywords: &["", "кактус", "песок", "солнце"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("öken"), keywords: &["", "torrt", "varmt"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang: "th", tts: Some("ทะเลทราย"), keywords: &["", "ทะเลทราย"]
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation { lang: "uk", tts: Some("пустеля"), keywords: &["", "оаза"] },
+		#[cfg(feature = "vi")]
+		crate::Annotation { lang: "vi", tts: Some("sa mạc"), keywords: &["", "sa mạc"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation { lang: "zh", tts: Some("沙漠"), keywords: &["", "荒漠"] },
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("沙漠"), keywords: &["", "沙漠"] },
+	],
 };
 #[doc = "⛰\u{fe0f}"]
 pub const MOUNTAIN: crate::Emoji = crate::Emoji {
@@ -872,7 +799,100 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("পর\u{9cd}বত"),
+			keywords: &["", "প\u{9be}হ\u{9be}ড\u{9bc}"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation { lang: "da", tts: Some("bjerg"), keywords: &["", "bjerg"] },
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Berg"),
+			keywords: &["", "berg", "gebirge"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation { lang: "en", tts: Some("mountain"), keywords: &["", "mountain"] },
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("mountain"),
+			keywords: &["", "mountain"],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation { lang: "es", tts: Some("montaña"), keywords: &["", "monte"] },
+		#[cfg(feature = "es-mx")]
+		crate::Annotation { lang: "es-mx", tts: Some("montaña"), keywords: &["", "monte"] },
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("mägi"), keywords: &["", "mägi"] },
+		#[cfg(feature = "fi")]
+		crate::Annotation { lang: "fi", tts: Some("vuori"), keywords: &["", "vuoristo"] },
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("montagne"),
+			keywords: &["", "nature", "sommet", "voyage"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("पहाड\u{93c}"),
+			keywords: &["", "पर\u{94d}वत"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation { lang: "hu", tts: Some("hegy"), keywords: &["", "hegység"] },
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("montagna"),
+			keywords: &["", "arrampicata", "cima", "vetta"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation { lang: "ja", tts: Some("山"), keywords: &["", "山岳"] },
+		#[cfg(feature = "ko")]
+		crate::Annotation { lang: "ko", tts: Some("산"), keywords: &["", "산 정상"] },
+		#[cfg(feature = "lt")]
+		crate::Annotation { lang: "lt", tts: Some("kalnas"), keywords: &["", "kalnas"] },
+		#[cfg(feature = "ms")]
+		crate::Annotation { lang: "ms", tts: Some("gunung"), keywords: &["", "gunung"] },
+		#[cfg(feature = "nb")]
+		crate::Annotation { lang: "nb", tts: Some("fjell"), keywords: &["", "berg"] },
+		#[cfg(feature = "nl")]
+		crate::Annotation { lang: "nl", tts: Some("berg"), keywords: &["", "berg"] },
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("góra"),
+			keywords: &["", "góry", "wycieczka"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation { lang: "pt", tts: Some("montanha"), keywords: &["", "natureza"] },
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang: "ru", tts: Some("гора"), keywords: &["", "вершина", "пик"]
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("berg"), keywords: &["", "berg"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ภ\u{e39}เขา"),
+			keywords: &["", "ภ\u{e39}เขา"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation { lang: "uk", tts: Some("гора"), keywords: &["", "гора"] },
+		#[cfg(feature = "vi")]
+		crate::Annotation { lang: "vi", tts: Some("núi"), keywords: &["", "núi"] },
+		#[cfg(feature = "zh")]
+		crate::Annotation { lang: "zh", tts: Some("山"), keywords: &["", "峰"] },
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("山"), keywords: &["", "山峰"] },
+	],
 };
 #[doc = "🏞\u{fe0f}"]
 pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
@@ -885,7 +905,159 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("জ\u{9be}তীয\u{9bc} উদ\u{9cd}য\u{9be}ন"),
+			keywords: &[
+				"",
+				"উদ\u{9cd}য\u{9be}ন",
+				"জ\u{9be}তীয\u{9bc} প\u{9be}র\u{9cd}ক",
+				"প\u{9be}র\u{9cd}ক",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation { lang: "da", tts: Some("nationalpark"), keywords: &["", "park"] },
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Nationalpark"),
+			keywords: &["", "berg", "fluss", "nationalpark", "natur", "park", "schutzgebiet"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("national park"),
+			keywords: &["", "national", "park"],
+		},
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("national park"),
+			keywords: &["", "mountain", "park", "river", "tree"],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("parque nacional"),
+			keywords: &["", "nacional", "parque"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("parque nacional"),
+			keywords: &["", "atracción", "naturaleza", "parque", "vacaciones"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation { lang: "et", tts: Some("rahvuspark"), keywords: &["", "park"] },
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("kansallispuisto"),
+			keywords: &["", "puisto"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("parc national"),
+			keywords: &["", "nature", "voyage"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("राष\u{94d}ट\u{94d}रीय उद\u{94d}यान"),
+			keywords: &["", "उद\u{94d}यान", "बगीचा"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("nemzeti park"),
+			keywords: &["", "park", "védett terület"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("parco nazionale"),
+			keywords: &["", "colline", "escursione", "natura", "paesaggio", "parco"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("国立公園"),
+			keywords: &["", "公園", "自然"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("국립공원"),
+			keywords: &["", "공원", "국립"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("nacionalinis parkas"),
+			keywords: &["", "parkas"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation { lang: "ms", tts: Some("taman negara"), keywords: &["", "taman"] },
+		#[cfg(feature = "nb")]
+		crate::Annotation { lang: "nb", tts: Some("nasjonalpark"), keywords: &["", "park"] },
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("nationaal park"),
+			keywords: &["", "natuurgebied", "park"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("park narodowy"),
+			keywords: &["", "natura", "park", "przyroda"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("parque nacional"),
+			keywords: &["", "parque", "parque com rio", "reserva florestal", "rio"],
+		},
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("национальный парк"),
+			keywords: &["", "заповедник", "парк", "природа"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation { lang: "sv", tts: Some("nationalpark"), keywords: &["", "park"] },
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("อ\u{e38}ทยาน"),
+			keywords: &["", "ต\u{e49}นไม\u{e49}", "อ\u{e38}ทยานแห\u{e48}งชาต\u{e34}"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("національний парк"),
+			keywords: &["", "картина", "ландшафт", "парк"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("công viên quốc gia"),
+			keywords: &["", "công viên"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("国家公园"),
+			keywords: &["", "公园", "自然", "风景"],
+		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("國家公園"), keywords: &["", "公園"] },
+	],
 };
 #[doc = "🛘"]
 pub const LANDSLIDE: crate::Emoji = crate::Emoji {
@@ -898,7 +1070,340 @@ pub const LANDSLIDE: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ধস"),
+			keywords: &[
+				"",
+				"ক\u{9be}দ\u{9be} ধস",
+				"ত\u{9c1}ষ\u{9be}রধ\u{9cd}বস",
+				"দ\u{9c1}র\u{9cd}যোগ",
+				"পর\u{9cd}বত",
+				"প\u{9be}থর",
+				"বিপদ",
+				"ভ\u{9c2}মিকম\u{9cd}প",
+			],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("jordskred"),
+			keywords: &[
+				"",
+				"bjerg",
+				"fare",
+				"jordskælv",
+				"katastrofe",
+				"klipper",
+				"lavine",
+				"mudderskred",
+				"sten",
+				"ulykke",
+			],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("Erdrutsch"),
+			keywords: &[
+				"",
+				"berg",
+				"erdbeben",
+				"felsen",
+				"gefahr",
+				"katastrophe",
+				"lawine",
+				"murenabgang",
+				"murgang",
+				"schlammlawine",
+			],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("landslide"),
+			keywords: &[
+				"",
+				"avalanche",
+				"danger",
+				"disaster",
+				"earthquake",
+				"mountain",
+				"mudslide",
+				"rocks",
+			],
+		},
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("landslide"),
+			keywords: &[
+				"",
+				"avalanche",
+				"danger",
+				"disaster",
+				"earthquake",
+				"mountain",
+				"mudslide",
+				"rocks",
+			],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("desprendimiento"),
+			keywords: &["", "alud", "avalancha", "desastre", "montaña", "peligro", "rocas", "terremoto"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("desprendimiento"),
+			keywords: &["", "alud", "avalancha", "desastre", "montaña", "peligro", "rocas", "terremoto"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("maalihe"),
+			keywords: &["", "katastroof", "kivid", "laviin", "maavärin", "mudalaviin", "mägi", "oht"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("maanvyörymä"),
+			keywords: &[
+				"",
+				"kivet",
+				"maanjäristys",
+				"mutavyöry",
+				"onnettomuus",
+				"vaara",
+				"vuori",
+				"vyöry",
+			],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("éboulement"),
+			keywords: &[
+				"",
+				"avalanche",
+				"catastrophe",
+				"coulée de boue",
+				"danger",
+				"glissement de terrain",
+				"montagne",
+				"rochers",
+				"tremblement de terre",
+			],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("भ\u{942}स\u{94d}खलन"),
+			keywords: &[
+				"",
+				"आपदा",
+				"खतरा",
+				"चट\u{94d}टान\u{947}\u{902}",
+				"पहाड\u{93c}",
+				"भ\u{942}क\u{902}प",
+				"म\u{943}दास\u{94d}खलन",
+				"हिमस\u{94d}खलन",
+			],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("földcsuszamlás"),
+			keywords: &[
+				"",
+				"földrengés",
+				"hegy",
+				"katasztrófa",
+				"lavina",
+				"sziklák",
+				"sárlavina",
+				"veszély",
+			],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("frana"),
+			keywords: &[
+				"",
+				"disastro",
+				"montagna",
+				"pericolo",
+				"rocce",
+				"smottamento",
+				"terremoto",
+				"valanga",
+			],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("地滑り"),
+			keywords: &["", "土砂災害", "山", "山崩れ", "岩石", "崩落", "災害", "落石"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("산사태"),
+			keywords: &["", "돌", "사태", "산", "위험", "재난", "지진"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("nuošliauža"),
+			keywords: &[
+				"",
+				"kalnas",
+				"lavina",
+				"nelaimė",
+				"pavojus",
+				"purvo nuošliauža",
+				"uolos",
+				"žemės drebėjimas",
+			],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("tanah runtuh"),
+			keywords: &[
+				"",
+				"bahaya",
+				"batu",
+				"bencana",
+				"gelongsor lumpur",
+				"gempa bumi",
+				"gunung",
+				"runtuhan salji",
+			],
+		},
+		#[cfg(feature = "nb")]
+		crate::Annotation {
+			lang:     "nb",
+			tts:      Some("jordskred"),
+			keywords: &[
+				"",
+				"fare",
+				"fjell",
+				"jordskjelv",
+				"katastrofe",
+				"lavine",
+				"skred",
+				"steiner",
+				"steinsprang",
+			],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("aardverschuiving"),
+			keywords: &["", "aardbeving", "berg", "gevaar", "lawine", "modderlawine", "ramp", "stenen"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("osuwisko"),
+			keywords: &[
+				"",
+				"góra",
+				"katastrofa",
+				"lawina",
+				"lawina błotna",
+				"niebezpieczeństwo",
+				"skały",
+				"trzęsienie ziemi",
+			],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("deslizamento"),
+			keywords: &["", "avalanche", "desastre", "montanha", "perigo", "rochas", "terremoto"],
+		},
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("оползень"),
+			keywords: &["", "землетрясение", "камнепад", "лавина", "обвал", "опасность", "осыпь", "сель"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("jordskred"),
+			keywords: &["", "berg", "fallande", "fara", "ras", "stenar"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ด\u{e34}นถล\u{e48}ม"),
+			keywords: &[
+				"",
+				"ภ\u{e31}ยพ\u{e34}บ\u{e31}ต\u{e34}",
+				"ภ\u{e39}เขา",
+				"ห\u{e34}น",
+				"ห\u{e34}มะถล\u{e48}ม",
+				"อ\u{e31}นตราย",
+				"แผ\u{e48}นด\u{e34}นไหว",
+				"โคลนถล\u{e48}ม",
+			],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("зсув"),
+			keywords: &[
+				"",
+				"гора",
+				"землетрус",
+				"каменепад",
+				"каміння",
+				"катастрофа",
+				"лавина",
+				"небезпека",
+			],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("lở đất"),
+			keywords: &["", "nguy hiểm", "núi", "thảm họa", "tuyết lở", "đá", "động đất"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("山体滑坡"),
+			keywords: &[
+				"",
+				"危险",
+				"地震",
+				"塌方",
+				"山",
+				"山崩",
+				"山石",
+				"岩石",
+				"泥石流",
+				"灾害",
+				"灾难",
+			],
+		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation {
+			lang:     "zh-hant",
+			tts:      Some("山崩"),
+			keywords: &["", "危險", "土石流", "地震", "山", "岩石", "災難", "雪崩"],
+		},
+	],
 };
 #[doc = "🏔\u{fe0f}"]
 pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
@@ -911,7 +1416,174 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
-	annotations:          &[],
+	skin_tones:           None,
+	gender_variants:      None,
+	annotations:          &[
+		#[cfg(feature = "bn")]
+		crate::Annotation {
+			lang:     "bn",
+			tts:      Some("ত\u{9c1}ষ\u{9be}র\u{9be}ব\u{9c3}ত পর\u{9cd}বত"),
+			keywords: &["", "ঠ\u{9be}ন\u{9cd}ড\u{9be}", "ত\u{9c1}ষ\u{9be}র", "পর\u{9cd}বত"],
+		},
+		#[cfg(feature = "da")]
+		crate::Annotation {
+			lang:     "da",
+			tts:      Some("sneklædt bjerg"),
+			keywords: &["", "bjerg", "koldt", "sne", "tinde"],
+		},
+		#[cfg(feature = "de")]
+		crate::Annotation {
+			lang:     "de",
+			tts:      Some("schneebedeckter Berg"),
+			keywords: &["", "berg", "gebirge", "kalt", "schnee", "schneebedeckter berg"],
+		},
+		#[cfg(feature = "en")]
+		crate::Annotation {
+			lang:     "en",
+			tts:      Some("snow-capped mountain"),
+			keywords: &["", "cold", "mountain", "snow", "snow-capped"],
+		},
+		#[cfg(feature = "en-gb")]
+		crate::Annotation {
+			lang:     "en-gb",
+			tts:      Some("snow-capped mountain"),
+			keywords: &["", "cold", "mountain", "snow", "snow-capped"],
+		},
+		#[cfg(feature = "es")]
+		crate::Annotation {
+			lang:     "es",
+			tts:      Some("montaña con nieve"),
+			keywords: &["", "frío", "montaña", "nieve"],
+		},
+		#[cfg(feature = "es-mx")]
+		crate::Annotation {
+			lang:     "es-mx",
+			tts:      Some("montaña con nieve"),
+			keywords: &["", "frío", "montaña", "nieve"],
+		},
+		#[cfg(feature = "et")]
+		crate::Annotation {
+			lang:     "et",
+			tts:      Some("lumine mägi"),
+			keywords: &["", "külm", "lumi", "mägi"],
+		},
+		#[cfg(feature = "fi")]
+		crate::Annotation {
+			lang:     "fi",
+			tts:      Some("lumihuippuinen vuori"),
+			keywords: &["", "kylmä", "lumi", "vuori"],
+		},
+		#[cfg(feature = "fr")]
+		crate::Annotation {
+			lang:     "fr",
+			tts:      Some("montagne enneigée"),
+			keywords: &["", "froid", "montagne", "neige", "sommet", "voyage"],
+		},
+		#[cfg(feature = "hi")]
+		crate::Annotation {
+			lang:     "hi",
+			tts:      Some("बर\u{94d}फील\u{947} शिखर वाला पर\u{94d}वत, बर\u{94d}फ"),
+			keywords: &["", "बर\u{94d}फ", "बर\u{94d}फील\u{947} शिखर वाला पर\u{94d}वत"],
+		},
+		#[cfg(feature = "hu")]
+		crate::Annotation {
+			lang:     "hu",
+			tts:      Some("hegy hótakaróval"),
+			keywords: &["", "hegy", "hideg", "hó"],
+		},
+		#[cfg(feature = "it")]
+		crate::Annotation {
+			lang:     "it",
+			tts:      Some("montagna innevata"),
+			keywords: &["", "cima", "ghiacciaio", "inverno", "montagna", "paesaggio"],
+		},
+		#[cfg(feature = "ja")]
+		crate::Annotation {
+			lang:     "ja",
+			tts:      Some("雪山"),
+			keywords: &["", "冠雪", "山", "雪"],
+		},
+		#[cfg(feature = "ko")]
+		crate::Annotation {
+			lang:     "ko",
+			tts:      Some("눈 덮인 산"),
+			keywords: &["", "눈", "산", "설산", "추위"],
+		},
+		#[cfg(feature = "lt")]
+		crate::Annotation {
+			lang:     "lt",
+			tts:      Some("kalnas su snieguota viršūne"),
+			keywords: &["", "kalnas", "sniegas", "šaltis"],
+		},
+		#[cfg(feature = "ms")]
+		crate::Annotation {
+			lang:     "ms",
+			tts:      Some("gunung dengan puncak bersalji"),
+			keywords: &["", "gunung", "salji", "sejuk"],
+		},
+		#[cfg(feature = "nb")]
+		crate::Annotation {
+			lang:     "nb",
+			tts:      Some("snødekt fjell"),
+			keywords: &["", "fjell", "kaldt", "snø"],
+		},
+		#[cfg(feature = "nl")]
+		crate::Annotation {
+			lang:     "nl",
+			tts:      Some("berg met besneeuwde toppen"),
+			keywords: &["", "berg", "koud", "sneeuw"],
+		},
+		#[cfg(feature = "pl")]
+		crate::Annotation {
+			lang:     "pl",
+			tts:      Some("góra z czapą lodową"),
+			keywords: &["", "góra", "góry", "wycieczka", "z czapą lodową", "zima", "śnieg"],
+		},
+		#[cfg(feature = "pt")]
+		crate::Annotation {
+			lang:     "pt",
+			tts:      Some("montanha com neve"),
+			keywords: &["", "alpes", "frio", "montanha", "neve"],
+		},
+		#[cfg(feature = "ru")]
+		crate::Annotation {
+			lang:     "ru",
+			tts:      Some("гора со снежной шапкой"),
+			keywords: &["", "вершина", "гора", "снег"],
+		},
+		#[cfg(feature = "sv")]
+		crate::Annotation {
+			lang:     "sv",
+			tts:      Some("snöklätt berg"),
+			keywords: &["", "berg", "kallt", "snö", "snöklädda berg"],
+		},
+		#[cfg(feature = "th")]
+		crate::Annotation {
+			lang:     "th",
+			tts:      Some("ภ\u{e39}เขาม\u{e35}ห\u{e34}มะ"),
+			keywords: &["", "ภ\u{e39}เขา", "หนาว", "ห\u{e34}มะ"],
+		},
+		#[cfg(feature = "uk")]
+		crate::Annotation {
+			lang:     "uk",
+			tts:      Some("гора із засніженою верхівкою"),
+			keywords: &["", "альпи", "гора", "еверест", "ельбрус", "засніжена гора", "сніг", "холодний"],
+		},
+		#[cfg(feature = "vi")]
+		crate::Annotation {
+			lang:     "vi",
+			tts:      Some("đỉnh núi phủ tuyết"),
+			keywords: &["", "lạnh", "núi", "tuyết"],
+		},
+		#[cfg(feature = "zh")]
+		crate::Annotation {
+			lang:     "zh",
+			tts:      Some("雪山"),
+			keywords: &["", "冷", "山", "泠", "雪", "雪封山头", "雪顶"],
+		},
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("雪山"), keywords: &["", "雪峰"] },
+	],
 };
 #[doc = "🗻"]
 pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
@@ -924,762 +1596,160 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
 	subgroup:             crate::Subgroup::PlaceGeographic,
 	is_variant:           false,
 	variants:             &[],
+	skin_tones:           None,
+	gender_variants:      None,
 	annotations:          &[
-		#[cfg(feature = "af")]
-		crate::Annotation {
-			lang:     "af",
-			tts:      Some("berg foedji"),
-			keywords: &["Foedji", "Japan", "berg", "foedji", "fuji", "japan", "natuur"],
-		},
-		#[cfg(feature = "am")]
-		crate::Annotation {
-			lang:     "am",
-			tts:      Some("የፉጂ ተራራ"),
-			keywords: &["ተራራ", "የፉጂ ተራራ", "ጃፓን", "ፉጂ"],
-		},
-		#[cfg(feature = "ar")]
-		crate::Annotation {
-			lang:     "ar",
-			tts:      Some("جبل فوجي"),
-			keywords: &["ثلج", "جبل", "جبل فوجي", "طبيعة", "قمة"],
-		},
-		#[cfg(feature = "as")]
-		crate::Annotation {
-			lang:     "as",
-			tts:      Some("ম\u{9be}উণ\u{9cd}ট ফ\u{9c1}জি"),
-			keywords: &["পৰ\u{9cd}ব\u{9cd}বত", "ফ\u{9c1}জি", "ম\u{9be}উণ\u{9cd}ট ফ\u{9c1}জি"],
-		},
-		#[cfg(feature = "az")]
-		crate::Annotation {
-			lang:     "az",
-			tts:      Some("fuji dağı"),
-			keywords: &["dağ", "fuji", "fuji dağı"],
-		},
-		#[cfg(feature = "be")]
-		crate::Annotation {
-			lang:     "be",
-			tts:      Some("гара фудзі"),
-			keywords: &["гара", "фудзі", "фудзіяма", "японія"],
-		},
-		#[cfg(feature = "bg")]
-		crate::Annotation {
-			lang:     "bg",
-			tts:      Some("връх Фуджи"),
-			keywords: &["връх Фуджи", "планина", "фуджи"],
-		},
 		#[cfg(feature = "bn")]
 		crate::Annotation {
 			lang:     "bn",
 			tts:      Some("ম\u{9be}উন\u{9cd}ট ফ\u{9c1}জি"),
-			keywords: &[
-				"পর\u{9cd}বত",
-				"প\u{9be}হ\u{9be}ড\u{9bc}",
-				"ফ\u{9c1}জি",
-				"ম\u{9be}উন\u{9cd}ট ফ\u{9c1}জি",
-			],
-		},
-		#[cfg(feature = "br")]
-		crate::Annotation {
-			lang:     "br",
-			tts:      Some("menez Fuji"),
-			keywords: &["Fuji", "menez"],
-		},
-		#[cfg(feature = "bs")]
-		crate::Annotation {
-			lang:     "bs",
-			tts:      Some("planina fudži"),
-			keywords: &["fudži", "planina"],
-		},
-		#[cfg(feature = "ca")]
-		crate::Annotation {
-			lang:     "ca",
-			tts:      Some("mont Fuji"),
-			keywords: &["Fuji", "mont", "muntanya", "natura"],
-		},
-		#[cfg(feature = "chr")]
-		crate::Annotation {
-			lang:     "chr",
-			tts:      Some("ᏡᏥ ᎣᏓᎸ"),
-			keywords: &["ᎣᏓᎳ", "ᏡᏥ", "ᏡᏥ ᎣᏓᎸ"],
-		},
-		#[cfg(feature = "cs")]
-		crate::Annotation {
-			lang:     "cs",
-			tts:      Some("hora Fudži"),
-			keywords: &["Fudži", "Japonsko", "fudži", "fuji", "hora", "příroda", "sopka"],
-		},
-		#[cfg(feature = "cy")]
-		crate::Annotation {
-			lang:     "cy",
-			tts:      Some("mynydd Fuji"),
-			keywords: &["fuji", "mynydd"],
+			keywords: &["", "পর\u{9cd}বত", "প\u{9be}হ\u{9be}ড\u{9bc}", "ফ\u{9c1}জি"],
 		},
 		#[cfg(feature = "da")]
 		crate::Annotation {
 			lang:     "da",
 			tts:      Some("Fuji-bjerget"),
-			keywords: &["Fuji", "Fuji-bjerget", "bjerg"],
+			keywords: &["", "bjerg", "fuji", "fuji-bjerget"],
 		},
 		#[cfg(feature = "de")]
 		crate::Annotation {
 			lang:     "de",
 			tts:      Some("Fuji"),
-			keywords: &["Berg", "Fuji", "Vulkan"],
-		},
-		#[cfg(feature = "de_CH")]
-		crate::Annotation { lang: "de_CH", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "el")]
-		crate::Annotation {
-			lang:     "el",
-			tts:      Some("ηφαίστειο Φούτζι"),
-			keywords: &["Φούτζι", "βουνό", "ηφαίστειο Φούτζι", "φύση", "όρος Φούτζι"],
+			keywords: &["", "berg", "fuji", "vulkan"],
 		},
 		#[cfg(feature = "en")]
 		crate::Annotation {
 			lang:     "en",
 			tts:      Some("mount fuji"),
-			keywords: &["fuji", "mount", "mountain", "nature"],
+			keywords: &["", "fuji", "mount", "mountain", "nature"],
 		},
-		#[cfg(feature = "en_001")]
+		#[cfg(feature = "en-gb")]
 		crate::Annotation {
-			lang:     "en_001",
-			tts:      Some("Mount Fuji"),
-			keywords: &["Fuji", "Mount Fuji", "mountain"],
+			lang:     "en-gb",
+			tts:      Some("mount fuji"),
+			keywords: &["", "fuji", "mount", "mountain", "nature"],
 		},
-		#[cfg(feature = "en_AU")]
-		crate::Annotation {
-			lang:     "en_AU",
-			tts:      Some("mount Fuji"),
-			keywords: &["Fuji", "mount Fuji", "mountain"],
-		},
-		#[cfg(feature = "en_CA")]
-		crate::Annotation {
-			lang:     "en_CA",
-			tts:      Some("Mount Fuji"),
-			keywords: &["Fuji", "Mount Fuji", "mountain"],
-		},
-		#[cfg(feature = "en_GB")]
-		crate::Annotation { lang: "en_GB", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "en_IN")]
-		crate::Annotation { lang: "en_IN", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "es")]
 		crate::Annotation {
 			lang:     "es",
 			tts:      Some("monte Fuji"),
-			keywords: &["Fuji", "montaña", "monte", "naturaleza"],
+			keywords: &["", "fuji", "montaña", "monte", "naturaleza"],
 		},
-		#[cfg(feature = "es_419")]
+		#[cfg(feature = "es-mx")]
 		crate::Annotation {
-			lang:     "es_419",
-			tts:      Some("↑↑↑"),
-			keywords: &["Monte Fuji", "montaña", "monte", "monte Fuji", "naturaleza"],
+			lang:     "es-mx",
+			tts:      Some("monte Fuji"),
+			keywords: &["", "fuji", "montaña", "monte", "naturaleza"],
 		},
-		#[cfg(feature = "es_MX")]
-		crate::Annotation { lang: "es_MX", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "es_US")]
-		crate::Annotation { lang: "es_US", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "et")]
 		crate::Annotation {
 			lang:     "et",
 			tts:      Some("Fuji mägi"),
-			keywords: &["Fuji", "fuji", "mägi"],
-		},
-		#[cfg(feature = "eu")]
-		crate::Annotation {
-			lang:     "eu",
-			tts:      Some("fuji mendia"),
-			keywords: &["fuji", "fuji mendia", "mendi"],
-		},
-		#[cfg(feature = "fa")]
-		crate::Annotation {
-			lang: "fa", tts: Some("کوه فوجی"), keywords: &["فوجی", "کوه"]
+			keywords: &["", "fuji", "mägi"],
 		},
 		#[cfg(feature = "fi")]
 		crate::Annotation {
 			lang:     "fi",
 			tts:      Some("Fuji-vuori"),
-			keywords: &["Fuji", "Fuji-vuori", "vuori"],
+			keywords: &["", "fuji", "fuji-vuori", "vuori"],
 		},
-		#[cfg(feature = "fil")]
-		crate::Annotation {
-			lang:     "fil",
-			tts:      Some("bundok fuji"),
-			keywords: &["bundok", "fuji", "hapon", "japan", "mount fuji", "mt fuji"],
-		},
-		#[cfg(feature = "fo")]
-		crate::Annotation { lang: "fo", tts: Some("fuji"), keywords: &["fjall", "fuji"] },
 		#[cfg(feature = "fr")]
 		crate::Annotation {
 			lang:     "fr",
 			tts:      Some("mont Fuji"),
-			keywords: &["mont Fuji", "montagne", "nature", "sommet", "voyage"],
-		},
-		#[cfg(feature = "fr_CA")]
-		crate::Annotation {
-			lang:     "fr_CA",
-			tts:      Some("↑↑↑"),
-			keywords: &["Fuji", "mont", "montagne"],
-		},
-		#[cfg(feature = "ga")]
-		crate::Annotation {
-			lang:     "ga",
-			tts:      Some("Sliabh Fuji"),
-			keywords: &["dúlra", "fuji", "nádúr", "sliabh"],
-		},
-		#[cfg(feature = "gd")]
-		crate::Annotation {
-			lang:     "gd",
-			tts:      Some("Beinn Fuji"),
-			keywords: &["beinn", "fuji"],
-		},
-		#[cfg(feature = "gl")]
-		crate::Annotation {
-			lang:     "gl",
-			tts:      Some("monte Fuji"),
-			keywords: &["Xapón", "montaña", "monte", "monte Fuji"],
-		},
-		#[cfg(feature = "gu")]
-		crate::Annotation {
-			lang:     "gu",
-			tts:      Some("માઉન\u{acd}ટ ફ\u{ac1}જી"),
-			keywords: &[
-				"ક\u{ac1}દરત",
-				"ગીર",
-				"પર\u{acd}વત",
-				"પહાડ",
-				"મા. ફ\u{ac1}જી",
-				"માઉન\u{acd}ટ ફ\u{ac1}જી",
-				"શિખર",
-			],
-		},
-		#[cfg(feature = "ha")]
-		crate::Annotation {
-			lang:     "ha",
-			tts:      Some("tsaunin fuji"),
-			keywords: &["dutsen fuji", "fuji", "tsauni", "tsaunin fuji"],
-		},
-		#[cfg(feature = "ha_NE")]
-		crate::Annotation {
-			lang:     "ha_NE",
-			tts:      Some("tsaunin fuji"),
-			keywords: &["dutsen fuji", "fuji", "tsauni", "tsaunin fuji"],
-		},
-		#[cfg(feature = "he")]
-		crate::Annotation {
-			lang:     "he",
-			tts:      Some("הר פוג׳י"),
-			keywords: &["הר געש", "יפן", "פוג׳י"],
+			keywords: &["", "mont fuji", "montagne", "nature", "sommet", "voyage"],
 		},
 		#[cfg(feature = "hi")]
 		crate::Annotation {
 			lang:     "hi",
 			tts:      Some("माउ\u{902}ट फ\u{93c}\u{942}जी"),
-			keywords: &["पहाड\u{93c}", "पहाड\u{93c}ी", "माउ\u{902}ट फ\u{93c}\u{942}जी"],
-		},
-		#[cfg(feature = "hr")]
-		crate::Annotation {
-			lang:     "hr",
-			tts:      Some("planina Fuji"),
-			keywords: &["fuji", "japan", "planina", "priroda"],
+			keywords: &["", "पर\u{94d}वत", "पहाड\u{93c}ी", "प\u{94d}रक\u{943}ति", "फ\u{93c}\u{942}जी"],
 		},
 		#[cfg(feature = "hu")]
 		crate::Annotation {
 			lang:     "hu",
 			tts:      Some("Fudzsi-hegy"),
-			keywords: &["Fudzsi", "Fudzsi-hegy", "fudzsi", "hegy"],
-		},
-		#[cfg(feature = "hy")]
-		crate::Annotation {
-			lang:     "hy",
-			tts:      Some("Ֆուջի լեռ"),
-			keywords: &["Ֆուձի", "Ֆուձիյամա", "գագաթ", "լեռ", "սար", "ֆուջի"],
-		},
-		#[cfg(feature = "id")]
-		crate::Annotation {
-			lang:     "id",
-			tts:      Some("gunung Fuji"),
-			keywords: &["alam", "fuji", "gunung"],
-		},
-		#[cfg(feature = "ig")]
-		crate::Annotation {
-			lang:     "ig",
-			tts:      Some("ugwu fuji"),
-			keywords: &["fuji", "okike", "ugwu"],
-		},
-		#[cfg(feature = "is")]
-		crate::Annotation {
-			lang:     "is",
-			tts:      Some("fuji-fjall"),
-			keywords: &["fjall", "fuji", "fuji-fjall"],
+			keywords: &["", "fudzsi", "fudzsi-hegy", "hegy"],
 		},
 		#[cfg(feature = "it")]
 		crate::Annotation {
 			lang:     "it",
 			tts:      Some("Monte Fuji"),
-			keywords: &["Fuji", "Giappone", "montagna", "monte", "natura", "paesaggio"],
+			keywords: &["", "fuji", "giappone", "montagna", "monte", "natura", "paesaggio"],
 		},
 		#[cfg(feature = "ja")]
-		crate::Annotation { lang: "ja", tts: Some("富士山"), keywords: &["富士山", "山"] },
-		#[cfg(feature = "jv")]
-		crate::Annotation {
-			lang:     "jv",
-			tts:      Some("gunung fuji"),
-			keywords: &["fuji", "gunung"],
-		},
-		#[cfg(feature = "ka")]
-		crate::Annotation {
-			lang:     "ka",
-			tts:      Some("მთა ფუძი"),
-			keywords: &["მთა", "ფუძი", "ფუჯი"],
-		},
-		#[cfg(feature = "kab")]
-		crate::Annotation {
-			lang:     "kab",
-			tts:      Some("Taqacuct Fuji"),
-			keywords: &["Taqacuct Fuji"],
-		},
-		#[cfg(feature = "kk")]
-		crate::Annotation {
-			lang:     "kk",
-			tts:      Some("Фудзияма"),
-			keywords: &["Фудзияма", "альпинизм", "жапон", "тау", "фудзияма"],
-		},
-		#[cfg(feature = "kl")]
-		crate::Annotation {
-			lang:     "kl",
-			tts:      Some("Mount Fuji"),
-			keywords: &["Fuji", "Fuji-bjerget", "Mount Fuji", "bjerg"],
-		},
-		#[cfg(feature = "km")]
-		crate::Annotation {
-			lang:     "km",
-			tts:      Some("ភ\u{17d2}ន\u{17c6}ហ\u{17d2}វ\u{17bc}ជ\u{17b8} (នៅជប\u{17c9}\u{17bb}ន)"),
-			keywords: &[
-				"ភ\u{17d2}ន\u{17c6}",
-				"ភ\u{17d2}ន\u{17c6}ហ\u{17d2}វ\u{17bc}ជ\u{17b8} (នៅជប\u{17c9}\u{17bb}ន)",
-				"ហ\u{17d2}វ\u{17bc}ជ\u{17b8}",
-			],
-		},
-		#[cfg(feature = "kn")]
-		crate::Annotation {
-			lang:     "kn",
-			tts:      Some("ಮ\u{ccc}ಂಟ\u{ccd} ಫುಜ\u{cbf}"),
-			keywords: &[
-				"ನ\u{cbf}ಸರ\u{ccd}ಗ",
-				"ಪರ\u{ccd}ವತ",
-				"ಫುಜ\u{cbf}",
-				"ಫುಜ\u{cbf} ಬ\u{cc6}ಟ\u{ccd}ಟ",
-				"ಮ\u{ccc}ಂಟ\u{ccd} ಫುಜ\u{cbf}",
-			],
-		},
+		crate::Annotation { lang: "ja", tts: Some("富士山"), keywords: &["", "山"] },
 		#[cfg(feature = "ko")]
 		crate::Annotation {
 			lang:     "ko",
 			tts:      Some("후지산"),
-			keywords: &["산", "자연", "후지", "후지산"],
-		},
-		#[cfg(feature = "kok")]
-		crate::Annotation {
-			lang:     "kok",
-			tts:      Some("माव\u{902}ट फ\u{941}जी"),
-			keywords: &["पर\u{94d}वत", "फ\u{941}जी", "माव\u{902}ट फ\u{941}जी"],
-		},
-		#[cfg(feature = "ky")]
-		crate::Annotation {
-			lang:     "ky",
-			tts:      Some("фудзияма тоосу"),
-			keywords: &["тоо", "фудзияма", "фудзияма тоосу"],
-		},
-		#[cfg(feature = "lb")]
-		crate::Annotation {
-			lang:     "lb",
-			tts:      Some("Mount Fuji"),
-			keywords: &["Bierg", "Fuji", "Mount Fuji"],
-		},
-		#[cfg(feature = "lo")]
-		crate::Annotation {
-			lang:     "lo",
-			tts:      Some("ພ\u{eb9}ເຂ\u{ebb}າໄຟຟ\u{eb9}ຈ\u{eb4}"),
-			keywords: &[
-				"ພ\u{eb9}ເຂ\u{ebb}າໄຟ",
-				"ພ\u{eb9}ເຂ\u{ebb}າໄຟຟ\u{eb9}ຈ\u{eb4}",
-				"ພ\u{eb9}ໄຟ",
-				"ຟ\u{eb9}ຈ\u{eb4}",
-			],
+			keywords: &["", "산", "자연", "후지"],
 		},
 		#[cfg(feature = "lt")]
 		crate::Annotation {
 			lang:     "lt",
 			tts:      Some("Fudžio kalnas"),
-			keywords: &["Fudžio kalnas", "Fudžis", "gamta", "kalnas"],
-		},
-		#[cfg(feature = "lv")]
-		crate::Annotation {
-			lang:     "lv",
-			tts:      Some("Fudzi kalns"),
-			keywords: &["Fudzi", "daba", "kalns"],
-		},
-		#[cfg(feature = "mi")]
-		crate::Annotation {
-			lang:     "mi",
-			tts:      Some("maunga fuji"),
-			keywords: &["fuji", "maunga"],
-		},
-		#[cfg(feature = "mk")]
-		crate::Annotation {
-			lang:     "mk",
-			tts:      Some("планината Фуџи"),
-			keywords: &["Фуџи", "планина", "планината Фуџи", "планината фуџи", "природа", "фуџи"],
-		},
-		#[cfg(feature = "ml")]
-		crate::Annotation {
-			lang:     "ml",
-			tts:      Some("ഫ\u{d41}ജി പർവ\u{d4d}വതം"),
-			keywords: &[
-				"ഫ\u{d41}ജി പർവ\u{d4d}വതം",
-				"ഫ\u{d4d}യ\u{d42}ജി",
-				"ഫ\u{d4d}യ\u{d42}ജി പർവ\u{d4d}വതം",
-			],
-		},
-		#[cfg(feature = "mn")]
-		crate::Annotation {
-			lang: "mn", tts: Some("фүжи уул"), keywords: &["уул", "фүжи"]
-		},
-		#[cfg(feature = "mr")]
-		crate::Annotation {
-			lang:     "mr",
-			tts:      Some("फ\u{941}जी पर\u{94d}वत"),
-			keywords: &[
-				"पर\u{94d}यटन",
-				"पर\u{94d}वत",
-				"फ\u{941}जी",
-				"भ\u{94d}रम\u{902}ती",
-				"माउ\u{902}ट फ\u{941}जी",
-				"माउ\u{902}टन",
-			],
+			keywords: &["", "fudžio kalnas", "fudžis", "gamta", "kalnas"],
 		},
 		#[cfg(feature = "ms")]
 		crate::Annotation {
 			lang:     "ms",
 			tts:      Some("gunung fuji"),
-			keywords: &["alam semula jadi", "fuji", "gunung", "jepun"],
+			keywords: &["", "alam semula jadi", "fuji", "gunung", "jepun"],
 		},
-		#[cfg(feature = "mt")]
+		#[cfg(feature = "nb")]
 		crate::Annotation {
-			lang:     "mt",
-			tts:      Some("muntanja fuji"),
-			keywords: &["fuji", "muntanja"],
-		},
-		#[cfg(feature = "my")]
-		crate::Annotation {
-			lang:     "my",
-			tts:      Some("ဖ\u{1030}ဂျ\u{102e}တောင\u{103a}"),
-			keywords: &["တောင\u{103a}", "ဖ\u{1030}ဂျ\u{102e}", "ဖ\u{1030}ဂျ\u{102e}တောင\u{103a}"],
-		},
-		#[cfg(feature = "ne")]
-		crate::Annotation {
-			lang:     "ne",
-			tts:      Some("फ\u{941}जी हिमाल"),
-			keywords: &["फ\u{941}जी", "हिमाल"],
+			lang:     "nb",
+			tts:      Some("Fuji-fjellet"),
+			keywords: &["", "fjell", "fuji", "fuji-fjellet"],
 		},
 		#[cfg(feature = "nl")]
 		crate::Annotation {
 			lang:     "nl",
 			tts:      Some("berg Fuji"),
-			keywords: &["Fuji", "berg", "fuji", "natuur", "vulkaan"],
-		},
-		#[cfg(feature = "nn")]
-		crate::Annotation { lang: "nn", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "or")]
-		crate::Annotation {
-			lang:     "or",
-			tts:      Some("ମ\u{b3e}ଉଣ\u{b4d}ଟ ଫ\u{b41}ଜ\u{b3f}"),
-			keywords: &[
-				"ପ\u{b3e}ହ\u{b3e}ଡ\u{b3c}",
-				"ମ\u{b3e}ଉଣ\u{b4d}ଟ ଫ\u{b41}ଜ\u{b3f}",
-				"ମ\u{b3e}ଉଣ\u{b4d}ଟ\u{b4d}. ଫ\u{b41}ଜ\u{b3f}",
-			],
-		},
-		#[cfg(feature = "pa")]
-		crate::Annotation {
-			lang:     "pa",
-			tts:      Some("ਮਾਊ\u{a02}ਟ ਫ\u{a42}ਜੀ"),
-			keywords: &["ਕ\u{a41}ਦਰਤ", "ਪਰਬਤ", "ਪਹਾੜੀ", "ਫ\u{a42}ਜੀ", "ਮਾਊ\u{a02}ਟ ਫ\u{a42}ਜੀ"],
-		},
-		#[cfg(feature = "pa_Arab")]
-		crate::Annotation {
-			lang:     "pa_Arab",
-			tts:      Some("ماؤنٹ فجی"),
-			keywords: &["فوجی", "ماؤنٹ فجی", "پہاڑ"],
-		},
-		#[cfg(feature = "pcm")]
-		crate::Annotation {
-			lang:     "pcm",
-			tts:      Some("Fújí Maúntin"),
-			keywords: &["Fúji", "Fújí Maúntin", "Maúntin"],
+			keywords: &["", "berg", "fuji", "natuur", "vulkaan"],
 		},
 		#[cfg(feature = "pl")]
 		crate::Annotation {
 			lang:     "pl",
 			tts:      Some("góra Fudżi"),
-			keywords: &["Fudżi", "góra", "natura"],
-		},
-		#[cfg(feature = "ps")]
-		crate::Annotation {
-			lang:     "ps",
-			tts:      Some("د فوجي غر"),
-			keywords: &["د فوجي غر", "غر", "فوجي"],
+			keywords: &["", "fudżi", "góra", "natura"],
 		},
 		#[cfg(feature = "pt")]
 		crate::Annotation {
 			lang:     "pt",
 			tts:      Some("Monte Fuji"),
-			keywords: &["Monte Fuji", "montanha"],
+			keywords: &["", "montanha", "monte fuji"],
 		},
-		#[cfg(feature = "pt_PT")]
-		crate::Annotation {
-			lang:     "pt_PT",
-			tts:      Some("monte Fuji"),
-			keywords: &["Monte Fuji", "fuji", "montanha", "monte Fuji", "natureza"],
-		},
-		#[cfg(feature = "qu")]
-		crate::Annotation {
-			lang:     "qu",
-			tts:      Some("fuji urqi"),
-			keywords: &["fuji", "fuji urqi", "urqu"],
-		},
-		#[cfg(feature = "ro")]
-		crate::Annotation {
-			lang:     "ro",
-			tts:      Some("muntele Fuji"),
-			keywords: &["Fuji", "fuji", "munte", "muntele Fuji", "muntele fuji", "natură"],
-		},
-		#[cfg(feature = "root")]
-		crate::Annotation { lang: "root", tts: Some("E10-831"), keywords: &["E10-831"] },
 		#[cfg(feature = "ru")]
 		crate::Annotation {
 			lang:     "ru",
 			tts:      Some("Фудзияма"),
-			keywords: &["Фудзияма", "вулкан", "гора"],
+			keywords: &["", "вулкан", "гора", "фудзияма"],
 		},
-		#[cfg(feature = "rw")]
-		crate::Annotation {
-			lang:     "rw",
-			tts:      Some("umusozi wa fuji"),
-			keywords: &["fuji", "umusozi", "umusozi wa fuji"],
-		},
-		#[cfg(feature = "sd")]
-		crate::Annotation {
-			lang:     "sd",
-			tts:      Some("مائونٽ فوجي"),
-			keywords: &["فوجي، جبل", "مائونٽ فوجي"],
-		},
-		#[cfg(feature = "si")]
-		crate::Annotation {
-			lang:     "si",
-			tts:      Some("ෆ\u{dd3}ජ\u{dd2} කන\u{dca}ද"),
-			keywords: &["කන\u{dca}ද", "ෆ\u{dd3}ජ\u{dd2}"],
-		},
-		#[cfg(feature = "sk")]
-		crate::Annotation {
-			lang:     "sk",
-			tts:      Some("Fudžisan"),
-			keywords: &["Fudžisan", "cestovanie", "fudži", "hora", "príroda", "vrch"],
-		},
-		#[cfg(feature = "sl")]
-		crate::Annotation {
-			lang:     "sl",
-			tts:      Some("gora Fuji"),
-			keywords: &["Fuji", "fuji", "gora", "narava", "vrh"],
-		},
-		#[cfg(feature = "so")]
-		crate::Annotation {
-			lang:     "so",
-			tts:      Some("buurta fuji"),
-			keywords: &["buur", "buurta fuji", "fuji"],
-		},
-		#[cfg(feature = "sq")]
-		crate::Annotation {
-			lang:     "sq",
-			tts:      Some("mali i Fuxhit"),
-			keywords: &["Fuxhi", "mal", "mali Fuxhi", "mali i Fuxhit", "natyrë"],
-		},
-		#[cfg(feature = "sr")]
-		crate::Annotation {
-			lang:     "sr",
-			tts:      Some("планина фуџи"),
-			keywords: &["планина", "природа", "фуџи"],
-		},
-		#[cfg(feature = "sr_Cyrl_BA")]
-		crate::Annotation { lang: "sr_Cyrl_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "sr_Latn")]
-		crate::Annotation {
-			lang:     "sr_Latn",
-			tts:      Some("planina fudži"),
-			keywords: &["fudži", "planina", "priroda"],
-		},
-		#[cfg(feature = "sr_Latn_BA")]
-		crate::Annotation { lang: "sr_Latn_BA", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
 		#[cfg(feature = "sv")]
-		crate::Annotation { lang: "sv", tts: Some("Fuji"), keywords: &["Fuji", "berg"] },
-		#[cfg(feature = "sw")]
-		crate::Annotation {
-			lang:     "sw",
-			tts:      Some("mlima fuji"),
-			keywords: &["fuji", "mlima"],
-		},
-		#[cfg(feature = "sw_KE")]
-		crate::Annotation { lang: "sw_KE", tts: Some("↑↑↑"), keywords: &["↑↑↑"] },
-		#[cfg(feature = "ta")]
-		crate::Annotation {
-			lang:     "ta",
-			tts:      Some("எவரெஸ\u{bcd}ட\u{bcd}"),
-			keywords: &[
-				"உச\u{bcd}சி",
-				"எவரெஸ\u{bcd}ட\u{bcd}",
-				"சிகரம\u{bcd}",
-				"பனிமலை",
-				"மலை",
-				"மலைச\u{bcd}சிகரம\u{bcd}",
-				"முகடு",
-			],
-		},
-		#[cfg(feature = "te")]
-		crate::Annotation {
-			lang:     "te",
-			tts:      Some("ఫుజ\u{c3f} పర\u{c4d}వతం"),
-			keywords: &[
-				"ప\u{c4d}రకృత\u{c3f}",
-				"ఫుజ\u{c3f}",
-				"ఫుజ\u{c3f} పర\u{c4d}వతం",
-				"మంచుత\u{c4b} కప\u{c4d}పబడ\u{c3f}న పర\u{c4d}వతం",
-			],
-		},
-		#[cfg(feature = "tg")]
-		crate::Annotation {
-			lang:     "tg",
-			tts:      Some("теппаи Фуҷи"),
-			keywords: &["куҳ", "теппаи Фуҷи", "фуҷи"],
-		},
+		crate::Annotation { lang: "sv", tts: Some("Fuji"), keywords: &["", "berg", "fuji"] },
 		#[cfg(feature = "th")]
 		crate::Annotation {
 			lang:     "th",
 			tts:      Some("ภ\u{e39}เขาไฟฟ\u{e39}จ\u{e34}"),
-			keywords: &["ภ\u{e39}เขา", "ภ\u{e39}เขาไฟฟ\u{e39}จ\u{e34}"],
-		},
-		#[cfg(feature = "ti")]
-		crate::Annotation {
-			lang:     "ti",
-			tts:      Some("እምባ ፉጂ"),
-			keywords: &["ተራራ", "ተፈጥሮ", "እምባ", "ፉጂ"],
-		},
-		#[cfg(feature = "tk")]
-		crate::Annotation {
-			lang:     "tk",
-			tts:      Some("Fuji dagy"),
-			keywords: &["Fuji dagy", "dag", "fuji"],
-		},
-		#[cfg(feature = "to")]
-		crate::Annotation {
-			lang:     "to",
-			tts:      Some("moʻunga ko Fusi"),
-			keywords: &["Fusi", "Siapani", "moʻunga", "moʻunga ko Fusi"],
-		},
-		#[cfg(feature = "tr")]
-		crate::Annotation {
-			lang:     "tr",
-			tts:      Some("Fuji Dağı"),
-			keywords: &["Fuji Dağı", "dağ", "fuji dağı"],
-		},
-		#[cfg(feature = "ug")]
-		crate::Annotation {
-			lang:     "ug",
-			tts:      Some("فۇجى تېغى"),
-			keywords: &["تاغ", "فۇجى", "فۇجى تېغى"],
+			keywords: &["", "ภ\u{e39}เขา"],
 		},
 		#[cfg(feature = "uk")]
 		crate::Annotation {
 			lang:     "uk",
 			tts:      Some("гора Фудзі"),
-			keywords: &["Фудзи", "гора", "фудзі"],
-		},
-		#[cfg(feature = "ur")]
-		crate::Annotation {
-			lang:     "ur",
-			tts:      Some("ماؤنٹ فیوجی"),
-			keywords: &["فیجی کا پہاڑ", "فیوجی", "قدرت", "ماؤنٹ فیوجی", "پہاڑ", "کوہ فیجی"],
-		},
-		#[cfg(feature = "uz")]
-		crate::Annotation {
-			lang:     "uz",
-			tts:      Some("fuji tog‘i"),
-			keywords: &["fuji", "fuji tog‘i", "tabiat", "tog‘"],
+			keywords: &["", "гора", "фудзи", "фудзі"],
 		},
 		#[cfg(feature = "vi")]
 		crate::Annotation {
 			lang:     "vi",
 			tts:      Some("núi Phú Sĩ"),
-			keywords: &["Phú Sĩ", "núi", "núi Phú Sĩ"],
-		},
-		#[cfg(feature = "wo")]
-		crate::Annotation {
-			lang:     "wo",
-			tts:      Some("tundu fuji"),
-			keywords: &["fuji", "montaañ", "tundu fuji"],
-		},
-		#[cfg(feature = "xh")]
-		crate::Annotation {
-			lang:     "xh",
-			tts:      Some("intaba i-fuji"),
-			keywords: &["i-fuji", "intaba"],
-		},
-		#[cfg(feature = "yo")]
-		crate::Annotation {
-			lang:     "yo",
-			tts:      Some("Oke Fuji"),
-			keywords: &["Oke Fuji", "fújì", "òkè"],
-		},
-		#[cfg(feature = "yo_BJ")]
-		crate::Annotation {
-			lang:     "yo_BJ",
-			tts:      Some("Oke Fuji"),
-			keywords: &["Oke Fuji", "fújì", "òkè"],
-		},
-		#[cfg(feature = "yue")]
-		crate::Annotation {
-			lang:     "yue",
-			tts:      Some("富士山"),
-			keywords: &["富士", "富士山", "山"],
-		},
-		#[cfg(feature = "yue_Hans")]
-		crate::Annotation {
-			lang:     "yue_Hans",
-			tts:      Some("富士山"),
-			keywords: &["富士", "富士山", "山"],
+			keywords: &["", "núi", "núi phú sĩ", "phú sĩ"],
 		},
 		#[cfg(feature = "zh")]
-		crate::Annotation {
-			lang:     "zh",
-			tts:      Some("富士山"),
-			keywords: &["大自然", "富士山", "山"],
-		},
-		#[cfg(feature = "zh_Hant")]
-		crate::Annotation {
-			lang:     "zh_Hant",
-			tts:      Some("富士山"),
-			keywords: &["富士山", "山峰"],
-		},
-		#[cfg(feature = "zh_Hant_HK")]
-		crate::Annotation {
-			lang:     "zh_Hant_HK",
-			tts:      Some("↑↑↑"),
-			keywords: &["富士山", "山", "自然"],
-		},
-		#[cfg(feature = "zu")]
-		crate::Annotation {
-			lang:     "zu",
-			tts:      Some("intaba ifuji"),
-			keywords: &["ifuji", "intaba"],
-		},
+		crate::Annotation { lang: "zh", tts: Some("富士山"), keywords: &["", "大自然", "山"] },
+		#[cfg(feature = "zh-hant")]
+		crate::Annotation { lang: "zh-hant", tts: Some("富士山"), keywords: &["", "山峰"] },
 	],
 };
