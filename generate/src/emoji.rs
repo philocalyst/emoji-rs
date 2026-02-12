@@ -167,7 +167,8 @@ impl Emoji {
 		let gender_variants = if self.gender_variants.is_empty() {
 			quote! { None }
 		} else {
-			let variants: Vec<TokenStream> = self.gender_variants.iter().map(|e| e.tokens_struct()).collect();
+			let variants: Vec<TokenStream> =
+				self.gender_variants.iter().map(|e| e.tokens_struct()).collect();
 			quote! { Some(&[#(#variants),*]) }
 		};
 
