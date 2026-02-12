@@ -20,16 +20,32 @@ pub fn dump(
 	let ts: TokenStream = fs.parse().unwrap();
 
 	// Generate Enums
+	let mut groups_vec: Vec<_> = group_map.iter().collect();
+	groups_vec.sort_by_key(|(id, _)| *id);
+
 	let mut group_variants = vec![];
-	for (_, key) in group_map {
+	let mut group_display_arms = vec![];
+	let mut group_iter_variants = vec![];
+
+	for (_, key) in groups_vec {
 		let ident = proc_macro2::Ident::new(&key.to_upper_camel_case(), proc_macro2::Span::call_site());
 		group_variants.push(quote! { #ident });
+		group_display_arms.push(quote! { Group::#ident => #key });
+		group_iter_variants.push(quote! { Group::#ident });
 	}
 
+	let mut subgroups_vec: Vec<_> = subgroup_map.iter().collect();
+	subgroups_vec.sort_by_key(|(id, _)| *id);
+
 	let mut subgroup_variants = vec![];
-	for (_, key) in subgroup_map {
+	let mut subgroup_display_arms = vec![];
+	let mut subgroup_iter_variants = vec![];
+
+	for (_, key) in subgroups_vec {
 		let ident = proc_macro2::Ident::new(&key.to_upper_camel_case(), proc_macro2::Span::call_site());
 		subgroup_variants.push(quote! { #ident });
+		subgroup_display_arms.push(quote! { Subgroup::#ident => #key });
+		subgroup_iter_variants.push(quote! { Subgroup::#ident });
 	}
 
 	let dump = quote! {
@@ -40,9 +56,41 @@ pub fn dump(
 					#(#group_variants),*
 			}
 
+			impl std::fmt::Display for Group {
+				fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+					match self {
+						#(#group_display_arms),*
+					}.fmt(f)
+				}
+			}
+
+			impl Group {
+				pub fn iter() -> impl Iterator<Item = Group> {
+					[
+						#(#group_iter_variants),*
+					].iter().copied()
+				}
+			}
+
 			#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 			pub enum Subgroup {
 					#(#subgroup_variants),*
+			}
+
+			impl std::fmt::Display for Subgroup {
+				fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+					match self {
+						#(#subgroup_display_arms),*
+					}.fmt(f)
+				}
+			}
+
+			impl Subgroup {
+				pub fn iter() -> impl Iterator<Item = Subgroup> {
+					[
+						#(#subgroup_iter_variants),*
+					].iter().copied()
+				}
 			}
 
 			/// All annotation languages
